@@ -1,0 +1,162 @@
+/*************
+*   STYLE   *
+*************/
+
+html {
+    background-color: #fff;
+}
+
+body {
+    margin: 5vh 5vw;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    font-weight: 500;
+    font-size: 4em;
+}
+
+a {
+    color: #d62728;
+}
+
+pre {
+  background: #fff;
+  color: #333;
+  font-family: sans-serif;
+  line-height: 1.5;
+  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  overflow: auto;
+  white-space: normal;
+  padding: 0 2em;
+}
+
+.sidebar {
+  font-size: 1em;
+  padding: 1em 1em;
+  background: #272427;
+  text-align: center;
+  color: #ffffff;
+}
+
+.main {
+  background: #e6e6e6;
+  color: #333;  
+  padding: 2em 3em;
+}
+
+.ingredients {
+  border-left: 3px solid #1f77b4;
+}
+
+.instructions {
+  border-left: 3px solid #2ca02c;
+}
+
+.recipe-image {
+  display: block;
+  margin: auto;
+  max-height: 288px;
+  border-radius: 8px; 
+}
+
+.icon {
+  width: 40px;
+}
+
+.recipe-description {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 50em;
+  color: #333;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+/*************
+*   LAYOUT   *
+*************/
+@supports (display: grid) {
+  
+  @media (max-width: 960px),
+  (min-resolution: 2dppx) {
+
+    .site {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto;
+      grid-template-areas: 
+        "sidebar"
+        "main"
+    }
+    .sidebar {
+      border-top-left-radius: 60px;
+      border-top-right-radius: 60px;
+      grid-area: sidebar;
+    }
+    .main{
+      grid-area: main;
+    }
+
+    .info {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }  
+
+  @media (min-width: 961px)
+  and (max-resolution: 2dppx) {
+
+    .site {
+      display: grid;
+      grid-template-columns: 1fr 10fr;
+      grid-template-areas: 
+        "sidebar main"
+    }
+    .sidebar {
+      border-top-left-radius: 60px;
+      grid-area: sidebar;
+    }
+    .main{
+      border-top-right-radius: 60px;
+      grid-area: main;
+    }
+
+    .info {
+      display: grid;
+      grid-template-columns: auto;  
+    }
+
+    .main {
+      display: grid;
+      grid-gap: 0 2em;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto auto auto auto auto;
+      grid-template-areas: 
+        "title title"
+        "image image"
+        "description description"        
+        "ingredients instructions"
+    }
+    .recipe-title {
+      grid-area: title;
+    }
+    .recipe-image {
+      grid-area: image;
+    }
+    .recipe-description{
+      grid-area: description;
+    }
+    .recipe-ingredients{
+      grid-area: ingredients;
+    }
+    .recipe-instructions{
+      grid-area: instructions;
+    }
+  }
+}

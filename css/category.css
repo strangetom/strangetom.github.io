@@ -1,0 +1,220 @@
+/*************
+*   STYLE   *
+*************/
+
+html {
+    background-color: #fff;
+}
+
+body {
+    margin: 5vh 3vw;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 5em;
+    font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0 auto;
+  margin-bottom: 1em;
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+table {
+    border: none;
+    padding: 1em;
+    vertical-align: top;
+}
+
+img {
+  max-height: 266px;
+}
+
+.sidebar {
+  font-size: 1em;
+  padding: 1em 1em;
+  background: #272427;
+  text-align: center;
+  color: #ffffff;
+}
+
+.main {
+  background: #e6e6e6;
+  color: #333;  
+  padding: 2em 3em;
+}
+
+.icon {
+  width: 40px;
+}
+
+.photo {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px; 
+}
+
+.sidebar-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 2.2px;
+  width: 2vw;
+}
+
+.float {
+  position:fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background: #272427;
+  border-radius: 40px;
+  text-align: center;
+  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.15);
+}
+.float img {
+  padding-top: 9px;
+}
+
+.random-recipe {
+  background: #1e4d66;
+}
+.random-recipe h2 {
+  color: #fff;
+}
+
+/*************
+*   LAYOUT   *
+*************/
+@supports (display: grid) {
+
+  .sidebar-beef {
+    grid-area: link_beef;
+  }
+  .sidebar-chicken {
+    grid-area: link_chicken;
+  }
+  .sidebar-dessert {
+    grid-area: link_dessert;
+  }
+  .sidebar-lamb {
+    grid-area: link_lamb;
+  }
+  .sidebar-pork {
+    grid-area: link_pork;
+  }
+  .sidebar-seafood {
+    grid-area: link_seafood;
+  }
+  .sidebar-turkey {
+    grid-area: link_turkey;
+  }
+  .sidebar-veggie {
+    grid-area: link_veggie;
+  }
+  
+  @media (max-width: 960px), (min-resolution: 2dppx) {
+
+    li {
+      width: 40vw;
+    }
+    .photo {
+      width: 40vw;
+    }
+    .sidebar {
+      border-top-left-radius: 60px;
+      border-top-right-radius: 60px;
+      grid-area: sidebar;
+    } 
+    .main {
+      grid-area: main;      
+    }    
+
+    .site {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto;
+      grid-template-areas: 
+        "sidebar"
+        "main"
+    }
+    .links{      
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-template-rows: auto auto;
+      grid-template-areas: 
+        "link_beef link_chicken link_dessert link_lamb"
+        "link_pork link_seafood link_turkey link_veggie"
+    }
+    .recipe-list{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 1em;
+    }
+  }  
+
+  @media (min-width: 961px) and (max-resolution: 2dppx) {
+
+    li {
+      width: 24vw;
+    }
+    .photo {
+      width: 24vw;
+    }
+    .sidebar {
+      border-top-left-radius: 60px;
+      grid-area: sidebar;
+    }
+    .main {
+      border-top-right-radius: 60px;
+      grid-area: main;      
+    }    
+
+    .site {
+      display: grid;
+      grid-template-columns: 1fr 10fr;
+      grid-template-areas: 
+        "sidebar main"
+    }
+    .links {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto auto auto auto auto auto auto auto auto auto 5fr ;
+      grid-template-areas: 
+        "link_beef"
+        "link_chicken"
+        "link_dessert"
+        "link_lamb"
+        "link_pork"
+        "link_seafood"
+        "link_turkey"
+        "link_veggie"
+    }
+    .recipe-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 1em;
+    }
+  }
+}

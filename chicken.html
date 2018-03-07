@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	  	<title>Chicken Recipes</title>
+	  	<link rel="stylesheet" type="text/css" href="./css/category.min.css">
+	  	<script type="text/javascript" src="./js/randomRecipe.js"></script>
+	</head>
+	<body class="site" onload="randomRecipe();">
+
+		<header class="sidebar" id="top">
+			<!-- Logo always returns main page -->
+			<div class="sidebar-logo" align="center">
+				<a class="sidebar-link"  href="index.html">
+					<img class="sidebar-logo" src="./img/sidebar-logo.svg"></img>
+					<hr>
+				</a>
+			</div>
+			<!--- Links to category pages. Uses CSS grid to rehsape from 8x1 to 2x4 grid depending on screen width --> 
+			<div class="links">
+				<div class="sidebar-beef" align="center">
+					<a class="sidebar-link"  href="beef.html">
+						<img class="icon" src="./img/Beef.svg"  align="middle"></img>
+						<p>Beef</p>
+					</a>
+				</div>
+				<div class="sidebar-chicken" align="center">
+					<a class="sidebar-link" href="chicken.html">
+						<img class="icon" src="./img/Chicken.svg"  align="middle"></img>
+						<p>Chicken</p>
+					</a>
+				</div>
+				<div class="sidebar-dessert" align="center">
+					<a class="sidebar-link"  href="dessert.html">
+						<img class="icon" src="./img/Dessert.svg"  align="middle"></img>
+						<p>Dessert</p>
+					</a>
+				</div>
+				<div class="sidebar-lamb" align="center">
+					<a class="sidebar-link"  href="lamb.html">
+						<img class="icon" src="./img/Lamb.svg"  align="middle"></img>
+						<p>Lamb</p>
+					</a>
+				</div>
+				<div class="sidebar-pork" align="center">
+					<a class="sidebar-link"  href="pork.html">
+						<img class="icon" src="./img/Pork.svg"  align="middle"></img>
+						<p>Pork</p>
+					</a>
+				</div>
+				<div class="sidebar-seafood" align="center">
+					<a class="sidebar-link" href="seafood.html">
+						<img class="icon" src="./img/Seafood.svg"  align="middle"></img>
+						<p>Seafood</p>
+					</a>
+				</div>
+				<div class="sidebar-turkey" align="center">
+					<a class="sidebar-link"  href="turkey.html">
+						<img class="icon" src="./img/Turkey.svg"  align="middle"></img>
+						<p>Turkey</p>
+					</a>
+				</div>
+				<div class="sidebar-veggie" align="center">
+					<a class="sidebar-link"  href="veggie.html">
+						<img class="icon" src="./img/Veggie.svg"  align="middle"></img>
+						<p>Veggie</p>
+					</a>
+				</div>
+			</div>
+		</header>
+
+		<main class="main">
+
+			<h1 class="title">Chicken Recipes</h1>
+			<!--- Quick navigation to recipes beginning with the letter -->
+			<div class="navbar" align="center">
+				<ul>
+					<li><a href="#a"> A </a></li>
+					<li><a href="#b"> B </a></li>
+					<li><a href="#c"> C </a></li>
+					<li><a href="#d"> D </a></li>
+					<li><a href="#e"> E </a></li>
+					<li><a href="#f"> F </a></li>
+					<li><a href="#g"> G </a></li>
+					<li><a href="#h"> H </a></li>
+					<li><a href="#i"> I </a></li>
+					<li><a href="#j"> J </a></li>
+					<li><a href="#k"> K </a></li>
+					<li><a href="#l"> L </a></li>
+					<li><a href="#m"> M </a></li>
+					<li><a href="#n"> N </a></li>
+					<li><a href="#o"> O </a></li>
+					<li><a href="#p"> P </a></li>
+					<li><a href="#q"> Q </a></li>
+					<li><a href="#r"> R </a></li>
+					<li><a href="#s"> S </a></li>
+					<li><a href="#t"> T </a></li>
+					<li><a href="#u"> U </a></li>
+					<li><a href="#v"> V </a></li>
+					<li><a href="#w"> W </a></li>
+					<li><a href="#x"> X </a></li>
+					<li><a href="#y"> Y </a></li>
+					<li><a href="#z"> Z </a></li>
+				</ul>
+			</div>			
+
+			<!--- List of recipes -->
+			<ul class="recipe-list">
+				<!--- Random recipe -->
+				<li class="random-recipe"></li>
+
+				<li id="5">
+					<a href="./recipes/5-a-day couscous.html">
+						<img class="photo" src="./images/5-a-day_couscous.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>5-a-day couscous</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="a">
+					<a href="./recipes/Almonds and apricot chicken tagine.html">
+						<img class="photo" src="./images/Almonds_and_apricot_chicken_tagine.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Almonds and apricot chicken tagine</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="a">
+					<a href="./recipes/Amatriciana chicken traybake.html">
+						<img class="photo" src="./images/Amatriciana_chicken_traybake.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Amatriciana chicken traybake</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="b">
+					<a href="./recipes/Balsamic chicken with creamy mash.html">
+						<img class="photo" src="./images/Balsamic_chicken_with_creamy_mash.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Balsamic chicken with creamy mash</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="b">
+					<a href="./recipes/Broccoli lemon chicken.html">
+						<img class="photo" src="./images/Broccoli_lemon_chicken.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Broccoli lemon chicken</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="c">
+					<a href="./recipes/Cajun chicken salad with bacon and potatoes.html">
+						<img class="photo" src="./images/Cajun_chicken_salad_with_bacon_and_potatoes.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Cajun chicken salad with bacon and potatoes</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="c">
+					<a href="./recipes/Cajun-spiced chicken.html">
+						<img class="photo" src="./images/Cajun-spiced_chicken.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Cajun-spiced chicken</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="c">
+					<a href="./recipes/Caramel-lime chicken with caribbean mash.html">
+						<img class="photo" src="./images/Caramel-lime_chicken_with_caribbean_mash.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Caramel-lime chicken with caribbean mash</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="c">
+					<a href="./recipes/Cashew nut chicken.html">
+						<img class="photo" src="./images/Cashew_nut_chicken.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Cashew nut chicken</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="c">
+					<a href="./recipes/Chicken & chorizo rice pot.html">
+						<img class="photo" src="./images/Chicken_&_chorizo_rice_pot.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Chicken & chorizo rice pot</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="c">
+					<a href="./recipes/Chicken & mushroom puff pie.html">
+						<img class="photo" src="./images/Chicken_&_mushroom_puff_pie.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Chicken & mushroom puff pie</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="c">
+					<a href="./recipes/Chicken & spring vegetable stew.html">
+						<img class="photo" src="./images/Chicken_&_spring_vegetable_stew.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Chicken & spring vegetable stew</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="c">
+					<a href="./recipes/Chicken and mushrooms curry with coconut milk.html">
+						<img class="photo" src="./images/Chicken_and_mushrooms_curry_with_coconut_milk.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Chicken and mushrooms curry with coconut milk</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="c">
+					<a href="./recipes/Chicken biryani with naans.html">
+						<img class="photo" src="./images/Chicken_biryani_with_naans.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Chicken biryani with naans</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="c">
+					<a href="./recipes/Chicken chickpea & lemon casserole.html">
+						<img class="photo" src="./images/Chicken_chickpea_&_lemon_casserole.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Chicken, chickpea & lemon casserole</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="c">
+					<a href="./recipes/Chicken ginger & green bean hotpot.html">
+						<img class="photo" src="./images/Chicken_ginger_&_green_bean_hotpot.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Chicken, ginger & green bean hotpot</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="c">
+					<a href="./recipes/Chicken in black bean sauce.html">
+						<img class="photo" src="./images/Chicken_in_black_bean_sauce.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Chicken in black bean sauce</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="c">
+					<a href="./recipes/Chicken noodle soup.html">
+						<img class="photo" src="./images/Chicken_noodle_soup.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Chicken noodle soup</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="c">
+					<a href="./recipes/Chicken sweet potato & coconut curry.html">
+						<img class="photo" src="./images/Chicken_sweet_potato_&_coconut_curry.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Chicken, sweet potato & coconut curry</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="c">
+					<a href="./recipes/Chicken with apples and cider.html">
+						<img class="photo" src="./images/Chicken_with_apples_and_cider.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Chicken with apples and cider</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="c">
+					<a href="./recipes/Chicken with creamy bacon penne.html">
+						<img class="photo" src="./images/Chicken_with_creamy_bacon_penne.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Chicken with creamy bacon penne</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="c">
+					<a href="./recipes/Chinese chicken with pineapple.html">
+						<img class="photo" src="./images/Chinese_chicken_with_pineapple.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Chinese chicken with pineapple</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="c">
+					<a href="./recipes/Curried chicken & new potato traybake.html">
+						<img class="photo" src="./images/Curried_chicken_&_new_potato_traybake.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Curried chicken & new potato traybake</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="d">
+					<a href="./recipes/Deb Henley's chicken enchiladas verdes.html">
+						<img class="photo" src="./images/Deb_Henleys_chicken_enchiladas_verdes.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Deb Henley's chicken enchiladas verdes</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="e">
+					<a href="./recipes/Easy chicken tikka masala with basmati rice.html">
+						<img class="photo" src="./images/Easy_chicken_tikka_masala_with_basmati_rice.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Easy chicken tikka masala with basmati rice</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="f">
+					<a href="./recipes/Florentine chicken bake.html">
+						<img class="photo" src="./images/Florentine_chicken_bake.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Florentine chicken bake</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="h">
+					<a href="./recipes/Harissa chicken with chickpea salad.html">
+						<img class="photo" src="./images/Harissa_chicken_with_chickpea_salad.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Harissa chicken with chickpea salad</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="h">
+					<a href="./recipes/Hoisin chicken noodles with ginger and garlic.html">
+						<img class="photo" src="./images/Hoisin_chicken_noodles_with_ginger_and_garlic.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Hoisin chicken noodles with ginger and garlic</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="m">
+					<a href="./recipes/Mango chicken bean & rice bake.html">
+						<img class="photo" src="./images/Mango_chicken_bean_&_rice_bake.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Mango chicken, bean & rice bake</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="m">
+					<a href="./recipes/Mango chicken salad.html">
+						<img class="photo" src="./images/Mango_chicken_salad.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Mango chicken salad</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="m">
+					<a href="./recipes/Moroccan chicken with green olives and lemon.html">
+						<img class="photo" src="./images/Moroccan_chicken_with_green_olives_and_lemon.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Moroccan chicken with green olives and lemon</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="m">
+					<a href="./recipes/Moroccan chicken with sweet potato mash.html">
+						<img class="photo" src="./images/Moroccan_chicken_with_sweet_potato_mash.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Moroccan chicken with sweet potato mash</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="m">
+					<a href="./recipes/Mustard chicken & pancetta gratin.html">
+						<img class="photo" src="./images/Mustard_chicken_&_pancetta_gratin.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Mustard chicken &  pancetta gratin</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="o">
+					<a href="./recipes/One-pan chicken couscous.html">
+						<img class="photo" src="./images/One-pan_chicken_couscous.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>One-pan chicken couscous</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="o">
+					<a href="./recipes/Oriental marinated chicken strips with bistro salad.html">
+						<img class="photo" src="./images/Oriental_marinated_chicken_strips_with_bistro_salad.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Oriental marinated chicken strips with bistro salad</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="p">
+					<a href="./recipes/Pan fried chicken with lime & coconut sauce.html">
+						<img class="photo" src="./images/Pan_fried_chicken_with_lime_&_coconut_sauce.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Pan fried chicken with lime & coconut sauce</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="p">
+					<a href="./recipes/Pan roasted chicken with spicy fried rice.html">
+						<img class="photo" src="./images/Pan_roasted_chicken_with_spicy_fried_rice.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Pan roasted chicken with spicy fried rice</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="p">
+					<a href="./recipes/Piri-piri chicken with spicy rice.html">
+						<img class="photo" src="./images/Piri-piri_chicken_with_spicy_rice.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Piri-piri chicken with spicy rice</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="p">
+					<a href="./recipes/Poached chicken with chilli sauce.html">
+						<img class="photo" src="./images/Poached_chicken_with_chilli_sauce.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Poached chicken with chilli sauce</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="q">
+					<a href="./recipes/Quick chicken & red lentil curry.html">
+						<img class="photo" src="./images/Quick_chicken_&_red_lentil_curry.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Quick chicken & red lentil curry</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="r">
+					<a href="./recipes/Rosemary chicken with tomato sauce.html">
+						<img class="photo" src="./images/Rosemary_chicken_with_tomato_sauce.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Rosemary chicken with tomato sauce</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="s">
+					<a href="./recipes/Saffron ginger chicken with rice and naan bread.html">
+						<img class="photo" src="./images/Saffron_ginger_chicken_with_rice_and_naan_bread.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Saffron ginger chicken with rice and naan bread</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="s">
+					<a href="./recipes/Superhealthy chicken pie.html">
+						<img class="photo" src="./images/Superhealthy_chicken_pie.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Superhealthy chicken pie</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="s">
+					<a href="./recipes/Sweet and sour chicken noodles.html">
+						<img class="photo" src="./images/Sweet_and_sour_chicken_noodles.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Sweet and sour chicken noodles</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="s">
+					<a href="./recipes/Sweet chilli chicken.html">
+						<img class="photo" src="./images/Sweet_chilli_chicken.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Sweet chilli chicken</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="s">
+					<a href="./recipes/Sweet honey chicken with risotto rice.html">
+						<img class="photo" src="./images/Sweet_honey_chicken_with_risotto_rice.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Sweet honey chicken with risotto rice</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="t">
+					<a href="./recipes/Tarragon & chicken rigatoni.html">
+						<img class="photo" src="./images/Tarragon_&_chicken_rigatoni.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Tarragon & chicken rigatoni</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="t">
+					<a href="./recipes/Thai green chicken curry.html">
+						<img class="photo" src="./images/Thai_green_chicken_curry.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Thai green chicken curry</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="t">
+					<a href="./recipes/Thai green curry.html">
+						<img class="photo" src="./images/Thai_green_curry.jpg" onerror="this.onerror=null;this.src='./img/Chicken.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Thai green curry</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Chicken.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				</ul>
+
+			<!--- Button to return to top of page -->
+			<a href="#top" class="float">
+				<img class="icon" src="./img/Arrow.svg"></img>
+			</a>
+
+		</main>
+	</body>
+</html>

@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	  	<title>Veggie Recipes</title>
+	  	<link rel="stylesheet" type="text/css" href="./css/category.min.css">
+	  	<script type="text/javascript" src="./js/randomRecipe.js"></script>
+	</head>
+	<body class="site" onload="randomRecipe();">
+
+		<header class="sidebar" id="top">
+			<!-- Logo always returns main page -->
+			<div class="sidebar-logo" align="center">
+				<a class="sidebar-link"  href="index.html">
+					<img class="sidebar-logo" src="./img/sidebar-logo.svg"></img>
+					<hr>
+				</a>
+			</div>
+			<!--- Links to category pages. Uses CSS grid to rehsape from 8x1 to 2x4 grid depending on screen width --> 
+			<div class="links">
+				<div class="sidebar-beef" align="center">
+					<a class="sidebar-link"  href="beef.html">
+						<img class="icon" src="./img/Beef.svg"  align="middle"></img>
+						<p>Beef</p>
+					</a>
+				</div>
+				<div class="sidebar-chicken" align="center">
+					<a class="sidebar-link" href="chicken.html">
+						<img class="icon" src="./img/Chicken.svg"  align="middle"></img>
+						<p>Chicken</p>
+					</a>
+				</div>
+				<div class="sidebar-dessert" align="center">
+					<a class="sidebar-link"  href="dessert.html">
+						<img class="icon" src="./img/Dessert.svg"  align="middle"></img>
+						<p>Dessert</p>
+					</a>
+				</div>
+				<div class="sidebar-lamb" align="center">
+					<a class="sidebar-link"  href="lamb.html">
+						<img class="icon" src="./img/Lamb.svg"  align="middle"></img>
+						<p>Lamb</p>
+					</a>
+				</div>
+				<div class="sidebar-pork" align="center">
+					<a class="sidebar-link"  href="pork.html">
+						<img class="icon" src="./img/Pork.svg"  align="middle"></img>
+						<p>Pork</p>
+					</a>
+				</div>
+				<div class="sidebar-seafood" align="center">
+					<a class="sidebar-link" href="seafood.html">
+						<img class="icon" src="./img/Seafood.svg"  align="middle"></img>
+						<p>Seafood</p>
+					</a>
+				</div>
+				<div class="sidebar-turkey" align="center">
+					<a class="sidebar-link"  href="turkey.html">
+						<img class="icon" src="./img/Turkey.svg"  align="middle"></img>
+						<p>Turkey</p>
+					</a>
+				</div>
+				<div class="sidebar-veggie" align="center">
+					<a class="sidebar-link"  href="veggie.html">
+						<img class="icon" src="./img/Veggie.svg"  align="middle"></img>
+						<p>Veggie</p>
+					</a>
+				</div>
+			</div>
+		</header>
+
+		<main class="main">
+
+			<h1 class="title">Veggie Recipes</h1>
+			<!--- Quick navigation to recipes beginning with the letter -->
+			<div class="navbar" align="center">
+				<ul>
+					<li><a href="#a"> A </a></li>
+					<li><a href="#b"> B </a></li>
+					<li><a href="#c"> C </a></li>
+					<li><a href="#d"> D </a></li>
+					<li><a href="#e"> E </a></li>
+					<li><a href="#f"> F </a></li>
+					<li><a href="#g"> G </a></li>
+					<li><a href="#h"> H </a></li>
+					<li><a href="#i"> I </a></li>
+					<li><a href="#j"> J </a></li>
+					<li><a href="#k"> K </a></li>
+					<li><a href="#l"> L </a></li>
+					<li><a href="#m"> M </a></li>
+					<li><a href="#n"> N </a></li>
+					<li><a href="#o"> O </a></li>
+					<li><a href="#p"> P </a></li>
+					<li><a href="#q"> Q </a></li>
+					<li><a href="#r"> R </a></li>
+					<li><a href="#s"> S </a></li>
+					<li><a href="#t"> T </a></li>
+					<li><a href="#u"> U </a></li>
+					<li><a href="#v"> V </a></li>
+					<li><a href="#w"> W </a></li>
+					<li><a href="#x"> X </a></li>
+					<li><a href="#y"> Y </a></li>
+					<li><a href="#z"> Z </a></li>
+				</ul>
+			</div>			
+
+			<!--- List of recipes -->
+			<ul class="recipe-list">
+				<!--- Random recipe -->
+				<li class="random-recipe"></li>
+
+				<li id="a">
+					<a href="./recipes/Aubergine goulash.html">
+						<img class="photo" src="./images/Aubergine_goulash.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Aubergine goulash</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="b">
+					<a href="./recipes/Baked vegetable biryani.html">
+						<img class="photo" src="./images/Baked_vegetable_biryani.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Baked vegetable biryani</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="b">
+					<a href="./recipes/Black bean chilli.html">
+						<img class="photo" src="./images/Black_bean_chilli.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Black bean chilli</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="b">
+					<a href="./recipes/Butternut squash & sage risotto.html">
+						<img class="photo" src="./images/Butternut_squash_&_sage_risotto.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Butternut squash & sage risotto</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="c">
+					<a href="./recipes/Cauliflower, paneer & pea curry.html">
+						<img class="photo" src="./images/Cauliflower_paneer_&_pea_curry.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Cauliflower, paneer & pea curry</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="c">
+					<a href="./recipes/Cheesey corn and broccoli pasta.html">
+						<img class="photo" src="./images/Cheesey_corn_and_broccoli_pasta.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Cheesey corn and broccoli pasta</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="c">
+					<a href="./recipes/Chipotle-bean chilli with baked eggs.html">
+						<img class="photo" src="./images/Chipotle-bean_chilli_with_baked_eggs.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Chipotle-bean chilli with baked eggs</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="c">
+					<a href="./recipes/Coconut & squash dhansak.html">
+						<img class="photo" src="./images/Coconut_&_squash_dhansak.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Coconut & squash dhansak</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="c">
+					<a href="./recipes/Creamy egg curry.html">
+						<img class="photo" src="./images/Creamy_egg_curry.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Creamy egg curry</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="c">
+					<a href="./recipes/Creamy tomato & pepper pasta.html">
+						<img class="photo" src="./images/Creamy_tomato_&_pepper_pasta.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Creamy tomato & pepper pasta</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="f">
+					<a href="./recipes/Five-veg lasagne.html">
+						<img class="photo" src="./images/Five-veg_lasagne.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Five-veg lasagne</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="f">
+					<a href="./recipes/Fusilli with roasted vegetables.html">
+						<img class="photo" src="./images/Fusilli_with_roasted_vegetables.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Fusilli with roasted vegetables</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="g">
+					<a href="./recipes/Garlicky mushroom penne.html">
+						<img class="photo" src="./images/Garlicky_mushroom_penne.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Garlicky mushroom penne</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="g">
+					<a href="./recipes/Gooey pasta bake.html">
+						<img class="photo" src="./images/Gooey_pasta_bake.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Gooey pasta bake</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="i">
+					<a href="./recipes/Italian vegetable soup.html">
+						<img class="photo" src="./images/Italian_vegetable_soup.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Italian vegetable soup</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="j">
+					<a href="./recipes/Jerk sweet potato & black bean curry.html">
+						<img class="photo" src="./images/Jerk_sweet_potato_&_black_bean_curry.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Jerk sweet potato & black bean curry</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="k">
+					<a href="./recipes/Kidney bean curry.html">
+						<img class="photo" src="./images/Kidney_bean_curry.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Kidney bean curry</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="l">
+					<a href="./recipes/Leek and tarragon rigatoni.html">
+						<img class="photo" src="./images/Leek_and_tarragon_rigatoni.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Leek and tarragon rigatoni</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="l">
+					<a href="./recipes/Lemon and parmesan capellini.html">
+						<img class="photo" src="./images/Lemon_and_parmesan_capellini.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Lemon and parmesan capellini</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="l">
+					<a href="./recipes/Lentil ragu.html">
+						<img class="photo" src="./images/Lentil_ragu.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Lentil ragù</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="m">
+					<a href="./recipes/Moroccan chickpea soup.html">
+						<img class="photo" src="./images/Moroccan_chickpea_soup.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Moroccan chickpea soup</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="p">
+					<a href="./recipes/Pasta with chilli tomatoes & spinach.html">
+						<img class="photo" src="./images/Pasta_with_chilli_tomatoes_&_spinach.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Pasta with chilli tomatoes & spinach</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="p">
+					<a href="./recipes/Pea and mint omelette.html">
+						<img class="photo" src="./images/Pea_and_mint_omelette.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Pea and mint omelette</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="p">
+					<a href="./recipes/Pearl barley parsnip & preserved lemon tagine.html">
+						<img class="photo" src="./images/Pearl_barley_parsnip_&_preserved_lemon_tagine.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Pearl barley, parsnip & preserved lemon tagine</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="p">
+					<a href="./recipes/Pepper and egg pizza.html">
+						<img class="photo" src="./images/Pepper_and_egg_pizza.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Pepper and egg pizza</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="r">
+					<a href="./recipes/Ratatouille with poached eggs.html">
+						<img class="photo" src="./images/Ratatouille_with_poached_eggs.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Ratatouille with poached eggs</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="r">
+					<a href="./recipes/Ricotta pasta pockets.html">
+						<img class="photo" src="./images/Ricotta_pasta_pockets.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Ricotta pasta pockets</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="r">
+					<a href="./recipes/Roast tomato & pepper gnocchi.html">
+						<img class="photo" src="./images/Roast_tomato_&_pepper_gnocchi.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Roast tomato & pepper gnocchi</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="r">
+					<a href="./recipes/Root vegetable Thai curry.html">
+						<img class="photo" src="./images/Root_vegetable_Thai_curry.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Root vegetable Thai curry</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="s">
+					<a href="./recipes/Shiitake mushroom risotto.html">
+						<img class="photo" src="./images/Shiitake_mushroom_risotto.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Shiitake mushroom risotto</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="s">
+					<a href="./recipes/Smoky sweet potato & bean cakes with citrus salad.html">
+						<img class="photo" src="./images/Smoky_sweet_potato_&_bean_cakes_with_citrus_salad.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Smoky sweet potato & bean cakes with citrus salad</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="s">
+					<a href="./recipes/Spaghetti with pea and mint pesto.html">
+						<img class="photo" src="./images/Spaghetti_with_pea_and_mint_pesto.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Spaghetti with pea and mint pesto</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="s">
+					<a href="./recipes/Spiced potatoes and tomatoes.html">
+						<img class="photo" src="./images/Spiced_potatoes_and_tomatoes.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Spiced potatoes and tomatoes</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="s">
+					<a href="./recipes/Spicy-vegetable chapatti wraps.html">
+						<img class="photo" src="./images/Spicy-vegetable_chapatti_wraps.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Spicy-vegetable chapatti wraps</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="s">
+					<a href="./recipes/Spring vegetable soup with basil pesto.html">
+						<img class="photo" src="./images/Spring_vegetable_soup_with_basil_pesto.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Spring vegetable soup with basil pesto</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="s">
+					<a href="./recipes/Spring vegetable tagliatelle with lemon sauce.html">
+						<img class="photo" src="./images/Spring_vegetable_tagliatelle_with_lemon_sauce.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Spring vegetable tagliatelle with lemon sauce</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="s">
+					<a href="./recipes/Summer pasta with melting brie.html">
+						<img class="photo" src="./images/Summer_pasta_with_melting_brie.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Summer pasta with melting brie</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="s">
+					<a href="./recipes/Summer vegetable paella.html">
+						<img class="photo" src="./images/Summer_vegetable_paella.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Summer vegetable paella</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="s">
+					<a href="./recipes/Sweet potato & lentil soup.html">
+						<img class="photo" src="./images/Sweet_potato_&_lentil_soup.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Sweet potato & lentil soup</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="v">
+					<a href="./recipes/Vegetarian casserole.html">
+						<img class="photo" src="./images/Vegetarian_casserole.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Vegetarian casserole</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="v">
+					<a href="./recipes/Vegetarian shepherds pie.html">
+						<img class="photo" src="./images/Vegetarian_shepherds_pie.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Vegetarian shepherd's pie</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="v">
+					<a href="./recipes/Veggie shepherds pie with sweet potato mash.html">
+						<img class="photo" src="./images/Veggie_shepherds_pie_with_sweet_potato_mash.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Veggie shepherd's pie with sweet potato mash</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				<li id="v">
+					<a href="./recipes/Very veggie lentil bake.html">
+						<img class="photo" src="./images/Very_veggie_lentil_bake.jpg" onerror="this.onerror=null;this.src='./img/Veggie.svg';"></img>
+						<table width=100%>
+							<td width=90%>
+								<h2>Very veggie lentil bake</h2>
+							</td>
+							<td width=10%>
+								<img class="icon" src="./img/Veggie.svg" align="middle"></img>
+							</td>
+						</table>
+					</a>
+				</li>
+				</ul>
+
+			<!--- Button to return to top of page -->
+			<a href="#top" class="float">
+				<img class="icon" src="./img/Arrow.svg"></img>
+			</a>
+
+		</main>
+	</body>
+</html>
