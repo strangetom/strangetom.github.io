@@ -69,6 +69,8 @@ img {
 .photo {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px; 
+  position: relative;
+  left: -3px;
 }
 
 .sidebar-link {
@@ -99,10 +101,38 @@ img {
 
 .random-recipe {
   background: #1e4d66;
+  border-left: 3px solid #1e4d66;
 }
 .random-recipe h2 {
   color: #fff;
 }
+
+
+.Beef {
+  border-left: 3px solid #d62728;
+}
+.Chicken {
+  border-left: 3px solid #ffc116;
+}
+.Dessert {
+  border-left: 3px solid #ff7f0e;
+}
+.Lamb {
+  border-left: 3px solid #9467bd;
+}
+.Pork {
+  border-left: 3px solid #e377c2;
+}
+.Seafood {
+  border-left: 3px solid #17becf;
+}
+.Turkey {
+  border-left: 3px solid #8c564b;
+}
+.Veggie {
+  border-left: 3px solid #2ca02c;
+}
+
 
 /*************
 *   LAYOUT   *
@@ -143,7 +173,7 @@ img {
       width: 40vw;
     }
     .photo {
-      width: 40vw;
+      width: calc(3px + 40vw);
     }
     .sidebar {
       border-top-left-radius: 60px;
@@ -182,7 +212,7 @@ img {
       width: 24vw;
     }
     .photo {
-      width: 24vw;
+      width: calc(3px + 24vw);
     }
     .sidebar {
       border-top-left-radius: 60px;
