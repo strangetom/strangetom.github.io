@@ -86,12 +86,9 @@ img {
 
 .float {
   position:fixed;
-  width: 60px;
-  height: 60px;
   bottom: 40px;
   right: 40px;
   background: #272427;
-  border-radius: 40px;
   text-align: center;
   box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.15);
 }
@@ -169,6 +166,14 @@ img {
   
   @media (max-width: 960px), (min-resolution: 2dppx) {
 
+    .float {
+      width: 120px;
+      height: 120px;
+      border-radius: 100px;
+    }
+    .float img{
+      width: 100px;      
+    }      
     li {
       width: 40vw;
     }
@@ -208,6 +213,14 @@ img {
 
   @media (min-width: 961px) and (max-resolution: 2dppx) {
 
+    .float {
+      width: 60px;
+      height: 60px;
+      border-radius: 40px;
+    }
+    .float img{
+      width: 40px;      
+    }
     li {
       width: 24vw;
     }

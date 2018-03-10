@@ -9,7 +9,6 @@ html {
 body {
     margin: 5vh 5vw;
     font-family: sans-serif;
-    -webkit-font-smoothing: antialiased;
 }
 
 h1 {
@@ -23,7 +22,7 @@ a {
     color: #d62728;
 }
 
-pre {
+.card {
   background: #fff;
   color: #333;
   font-family: sans-serif;
@@ -73,8 +72,6 @@ pre {
   margin: 0 auto;
   max-width: 50em;
   color: #333;
-  font-family: sans-serif;
-  -webkit-font-smoothing: antialiased;
 }
 
 
