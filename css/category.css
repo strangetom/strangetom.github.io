@@ -9,7 +9,6 @@ html {
 body {
     margin: 5vh 3vw;
     font-family: sans-serif;
-    -webkit-font-smoothing: antialiased;
 }
 
 h1 {
@@ -42,10 +41,6 @@ table {
     border: none;
     padding: 1em;
     vertical-align: top;
-}
-
-img {
-  max-height: 266px;
 }
 
 .sidebar {
@@ -180,6 +175,7 @@ img {
     .photo {
       width: calc(3px + 40vw);
     }
+
     .sidebar {
       border-top-left-radius: 60px;
       border-top-right-radius: 60px;
@@ -187,8 +183,7 @@ img {
     } 
     .main {
       grid-area: main;      
-    }    
-
+    } 
     .site {
       display: grid;
       grid-template-columns: 1fr;
@@ -227,6 +222,7 @@ img {
     .photo {
       width: calc(3px + 24vw);
     }
+
     .sidebar {
       border-top-left-radius: 60px;
       grid-area: sidebar;
@@ -235,7 +231,6 @@ img {
       border-top-right-radius: 60px;
       grid-area: main;      
     }    
-
     .site {
       display: grid;
       grid-template-columns: 1fr 10fr;
