@@ -43,6 +43,10 @@ table {
     vertical-align: top;
 }
 
+img {
+	max-height: 266px
+}
+
 .sidebar {
   font-size: 1em;
   padding: 1em 1em;
