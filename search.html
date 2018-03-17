@@ -2,11 +2,13 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-	  	<title>Turkey Recipes</title>
+	  	<title>Search Recipes</title>
 	  	<link rel="stylesheet" type="text/css" href="./css/category.min.css">
-	  	<script type="text/javascript" src="./js/randomRecipe.min.js"></script>
+	  	<script type="text/javascript" src="./js/fts_fuzzy_match.min.js"></script>
+	  	<script type="text/javascript" src="./js/search_data.min.js"></script>
+	  	<script type="text/javascript" src="./js/search.min.js"></script>
 	</head>
-	<body class="site" onload="randomRecipe();">
+	<body class="site">
 
 		<header class="sidebar" id="top">
 			<!-- Logo always returns main page -->
@@ -23,7 +25,7 @@
 						<img class="icon" src="./img/Search.svg"  align="middle"></img>
 						<p>Search</p>
 					</a>
-				</div>					
+				</div>				
 				<div class="sidebar-beef" align="center">
 					<a class="sidebar-link"  href="beef.html">
 						<img class="icon" src="./img/Beef.svg"  align="middle"></img>
@@ -83,84 +85,15 @@
 
 		<main class="main">
 
-			<h1 class="title">Turkey Recipes</h1>
-			<!--- Quick navigation to recipes beginning with the letter -->
-			<section class="navbar" align="center">
-				<ul>
-					<li><a href="#a"> A </a></li>
-					<li><a href="#b"> B </a></li>
-					<li><a href="#c"> C </a></li>
-					<li><a href="#d"> D </a></li>
-					<li><a href="#e"> E </a></li>
-					<li><a href="#f"> F </a></li>
-					<li><a href="#g"> G </a></li>
-					<li><a href="#h"> H </a></li>
-					<li><a href="#i"> I </a></li>
-					<li><a href="#j"> J </a></li>
-					<li><a href="#k"> K </a></li>
-					<li><a href="#l"> L </a></li>
-					<li><a href="#m"> M </a></li>
-					<li><a href="#n"> N </a></li>
-					<li><a href="#o"> O </a></li>
-					<li><a href="#p"> P </a></li>
-					<li><a href="#q"> Q </a></li>
-					<li><a href="#r"> R </a></li>
-					<li><a href="#s"> S </a></li>
-					<li><a href="#t"> T </a></li>
-					<li><a href="#u"> U </a></li>
-					<li><a href="#v"> V </a></li>
-					<li><a href="#w"> W </a></li>
-					<li><a href="#x"> X </a></li>
-					<li><a href="#y"> Y </a></li>
-					<li><a href="#z"> Z </a></li>
-				</ul>
-			</section>			
+			<h1 class="title">Search Recipes</h1>
 
+			<div class="search-box">
+				<input id="search-pattern" type="text">
+			</div>
+			
 			<!--- List of recipes -->
-			<ul class="recipe-list">
-				<!--- Random recipe -->
-				<li class="random-recipe"></li>
-
-				<li id="n" class="Turkey">
-					<a href="./recipes/New potato & mince curry.html">
-						<img class="photo" src="./images/New_potato_&_mince_curry.jpg" onerror="this.onerror=null;this.src='./img/Turkey.svg';"></img>
-						<table width=100%>
-							<td width=90%>
-								<h2>New potato & mince curry</h2>
-							</td>
-							<td width=10%>
-								<img class="icon" src="./img/Turkey.svg" align="middle"></img>
-							</td>
-						</table>
-					</a>
-				</li>
-				<li id="s" class="Turkey">
-					<a href="./recipes/Sweet & sour turkey.html">
-						<img class="photo" src="./images/Sweet_&_sour_turkey.jpg" onerror="this.onerror=null;this.src='./img/Turkey.svg';"></img>
-						<table width=100%>
-							<td width=90%>
-								<h2>Sweet & sour turkey</h2>
-							</td>
-							<td width=10%>
-								<img class="icon" src="./img/Turkey.svg" align="middle"></img>
-							</td>
-						</table>
-					</a>
-				</li>
-				<li id="t" class="Turkey">
-					<a href="./recipes/Turkey bolognese.html">
-						<img class="photo" src="./images/Turkey_bolognese.jpg" onerror="this.onerror=null;this.src='./img/Turkey.svg';"></img>
-						<table width=100%>
-							<td width=90%>
-								<h2>Turkey bolognese</h2>
-							</td>
-							<td width=10%>
-								<img class="icon" src="./img/Turkey.svg" align="middle"></img>
-							</td>
-						</table>
-					</a>
-				</li>
-				</ul>
+			<ul class="recipe-list" id="search-results">
+			</ul>
 
 			<!--- Button to return to top of page -->
 			<a href="#top" class="float">
