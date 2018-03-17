@@ -33,12 +33,13 @@ displayResults = function(results) {
         a.href = recipe.html;
 
         var img_recipe = document.createElement('img');
+        img_recipe.setAttribute('category', recipe.category);
         img_recipe.onerror = function() {
             this.onerror=null;
-            this.src="./img/" + recipe.category + ".svg";
+            this.src="./img/" + this.getAttribute('category') + ".svg";
         };
         img_recipe.classList.add('photo');
-        img_recipe.src = recipe.image; 
+        img_recipe.src = recipe.image;         
 
         var table = document.createElement('table');
         table.setAttribute('width', '100%');

@@ -48,17 +48,17 @@ img {
 }
 
 input {
-  font-size: 2em;
+  font-size: 5em;
   border: none;
   border-bottom: solid 3px #272427;
-  background: #fff;
+  background: #e6e6e6;
   margin-bottom: 2em;
+  margin-top: 0.5em;
 }
 
 input:focus {
   outline-width: 0;
   border-bottom: solid 3px #1f77b4;
-  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.15);  
 }
 
 .search-box {
