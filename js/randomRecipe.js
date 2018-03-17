@@ -1,7 +1,6 @@
 function randomRecipe() {
 	var list = document.getElementsByClassName('recipe-list')[0];
 	var rand = Math.floor(Math.random() * (list.childElementCount-1)) + 1;
-	console.log(rand)
 	var randItem = list.children[rand]
 	randItem.removeAttribute('id');
 	var recipe = document.getElementsByClassName('random-recipe')[0];
