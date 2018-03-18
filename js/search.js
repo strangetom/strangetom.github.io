@@ -1,10 +1,3 @@
-var patternField;
-var matchFn = fuzzy_match;
-var resultsList = null;
-var currentDataSet = recipe_data["recipes"];
-
-var asyncMatcher = null;
-
 onload = function() {
     // Initialize document element references
     patternField = document.getElementById("search-pattern");
@@ -23,8 +16,7 @@ displayResults = function(results) {
     // Create HTML elements for results
     for (index = 0; index < results.length && index < max_entries; ++index) {
 
-        var recipe = results[index][2];
-
+        var recipe = results[index];
 
         var li = document.createElement('li');
 
@@ -79,41 +71,24 @@ displayResults = function(results) {
 
 onPatternChange = function() {
 
-    // Clear existing async match if it exists
-    if (asyncMatcher !== null) {
-        asyncMatcher.cancel();
-        asyncMatcher = null;
-    }
-
+    var options = {
+        shouldSort: true,
+        threshold: 0.6,
+        location: 0,
+        distance: 100,
+        maxPatternLength: 32,
+        minMatchCharLength: 1,
+        keys: ["name"]
+    };
+    var fuse = new Fuse(recipe_data["recipes"], options);
     var pattern = patternField.value;
-
-    // Data not yet loaded
-    if (currentDataSet == null)
-        return;
-
-    if (resultsList !== null)
-    {
-        // Clear the list
+    if(pattern.length == 0) {
         var emptyList = resultsList.cloneNode(false);
         resultsList.parentNode.replaceChild(emptyList, resultsList);
-        resultsList = emptyList;
-    }
-
-    // Early out on empty pattern (such as startup) because JS is slow
-    if (pattern.length == 0)
+        resultsList = emptyList;        
         return;
- 
-
-    asyncMatcher = new fts_fuzzy_match_async(matchFn, pattern, currentDataSet, function(results) {
-        // Scored function requires sorting
-        if (matchFn == fuzzy_match) {
-            results = results
-                .sort(function(a,b) { return b[1] - a[1]; })
-        }
-
-        displayResults(results);
-
-        asyncMatcher = null;
-    });
-    asyncMatcher.start();
+    } else {
+        var result = fuse.search(patternField.value);
+        displayResults(result);
+    };
 };
