@@ -185,7 +185,7 @@ input:focus {
     grid-area: link_search;
   }  
   
-  @media (max-width: 960px), (min-resolution: 2dppx) {
+  @media (min-width: 480px){
 
     .float {
       width: 120px;
@@ -233,7 +233,7 @@ input:focus {
     }
   }  
 
-  @media (min-width: 961px) and (max-resolution: 2dppx) {
+  @media (min-width: 1366px){  	
 
     .float {
       width: 60px;
@@ -252,6 +252,7 @@ input:focus {
 
     .sidebar {
       border-top-left-radius: 60px;
+      border-top-right-radius: 0;
       grid-area: sidebar;
     }
     .main {

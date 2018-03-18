@@ -81,8 +81,7 @@ a {
 *************/
 @supports (display: grid) {
   
-  @media (max-width: 960px),
-  (min-resolution: 2dppx) {
+  @media (min-width: 480px){
 
     .site {
       display: grid;
@@ -107,8 +106,7 @@ a {
     }
   }  
 
-  @media (min-width: 961px)
-  and (max-resolution: 2dppx) {
+  @media (min-width: 1366px){ 
 
     .site {
       display: grid;
@@ -118,6 +116,7 @@ a {
     }
     .sidebar {
       border-top-left-radius: 60px;
+      border-top-right-radius: 0;
       grid-area: sidebar;
     }
     .main{
