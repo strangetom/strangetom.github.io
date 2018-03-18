@@ -269,6 +269,7 @@ input:focus {
       grid-template-columns: auto;
       grid-template-rows: auto auto auto auto auto auto auto auto auto auto 5fr ;
       grid-template-areas: 
+        "link_search"      
         "link_beef"
         "link_chicken"
         "link_dessert"
@@ -278,7 +279,6 @@ input:focus {
         "link_turkey"
         "link_veggie"
         "link_future"
-        "link_search"
     }
     .recipe-list {
       display: grid;
