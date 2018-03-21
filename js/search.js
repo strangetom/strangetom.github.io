@@ -19,6 +19,7 @@ displayResults = function(results) {
         var recipe = results[index];
 
         var li = document.createElement('li');
+        li.classList.add(recipe.category)
 
 
         var a = document.createElement('a');
