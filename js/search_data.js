@@ -1069,6 +1069,12 @@ var recipe_data = {
             "category": "Veggie"
         },
         {
+            "name": "Spanish meatball & butter bean stew",
+            "image": "./images/Spanish_meatball_&_butter_bean_stew.jpg",
+            "html": "./recipes/Spanish meatball & butter bean stew.html",
+            "category": "Pork"
+        },
+        {
             "name": "Spanish prawn risotto",
             "image": "./images/Spanish_prawn_risotto.jpg",
             "html": "./recipes/Spanish prawn risotto.html",
@@ -1277,6 +1283,12 @@ var recipe_data = {
             "image": "./images/Teriyaki_&_ginger_beef_burgers.jpg",
             "html": "./recipes/Teriyaki & ginger beef burgers.html",
             "category": "Beef"
+        },
+        {
+            "name": "Tex-Mex burrito",
+            "image": "./images/Tex-Mex_burrito.jpg",
+            "html": "./recipes/Tex-Mex burrito.html",
+            "category": "Veggie"
         },
         {
             "name": "Thai green chicken curry",
