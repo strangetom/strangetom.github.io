@@ -81,7 +81,7 @@ a {
 *************/
 @supports (display: grid) {
   
-  @media (min-width: 480px){
+  @media (min-width: 360px){
 
     .site {
       display: grid;
