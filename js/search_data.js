@@ -997,6 +997,12 @@ var recipe_data = {
             "category": "Pork"
         },
         {
+            "name": "Sea-fisherman's pie",
+            "image": "./images/Sea-fishermans_pie.jpg",
+            "html": "./recipes/Sea-fisherman's pie.html",
+            "category": "Seafood"
+        },
+        {
             "name": "Seafood and spinach pasta",
             "image": "./images/Seafood_and_spinach_pasta.jpg",
             "html": "./recipes/Seafood and spinach pasta.html",
