@@ -281,7 +281,7 @@ input:focus {
     }
   }  
 
-  @media (min-width: 1366px){  	
+  @media (min-width: 1300px){  	
 
     .float {
       width: 60px;
