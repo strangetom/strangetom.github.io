@@ -999,7 +999,7 @@ var recipe_data = {
         {
             "name": "Sea-fisherman's pie",
             "image": "./images/Sea-fishermans_pie.jpg",
-            "html": "./recipes/Sea-fisherman's pie.html",
+            "html": "./recipes/Sea-fishermans pie.html",
             "category": "Seafood"
         },
         {
