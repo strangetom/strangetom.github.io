@@ -97,6 +97,12 @@ var recipe_data = {
             "category": "Veggie"
         },
         {
+            "name": "Bolognese with a healthy twist",
+            "image": "./images/Bolognese_with_a_healthy_twist.jpg",
+            "html": "./recipes/Bolognese with a healthy twist.html",
+            "category": "Turkey"
+        },
+        {
             "name": "Broccoli lemon chicken",
             "image": "./images/Broccoli_lemon_chicken.jpg",
             "html": "./recipes/Broccoli lemon chicken.html",
@@ -563,6 +569,12 @@ var recipe_data = {
             "image": "./images/Lemon_grass_and_ginger_pork_burgers.jpg",
             "html": "./recipes/Lemon grass and ginger pork burgers.html",
             "category": "Pork"
+        },
+        {
+            "name": "Lemon layer cake",
+            "image": "./images/Lemon_layer_cake.jpg",
+            "html": "./recipes/Lemon layer cake.html",
+            "category": "Dessert"
         },
         {
             "name": "Lentil rag\u00f9",
@@ -1043,6 +1055,12 @@ var recipe_data = {
             "image": "./images/Smoked_haddock_fishcakes.jpg",
             "html": "./recipes/Smoked haddock fishcakes.html",
             "category": "Seafood"
+        },
+        {
+            "name": "Smoked paprika pork stew with peppers and potatoes",
+            "image": "./images/Smoked_paprika_pork_stew_with_peppers_and_potatoes.jpg",
+            "html": "./recipes/Smoked paprika pork stew with peppers and potatoes.html",
+            "category": "Pork"
         },
         {
             "name": "Smoky sweet potato & bean cakes with citrus salad",
