@@ -619,6 +619,12 @@ var recipe_data = {
             "category": "Lamb"
         },
         {
+            "name": "Mexican tomato rice",
+            "image": "./images/Mexican_tomato_rice.jpg",
+            "html": "./recipes/Mexican tomato rice.html",
+            "category": "Veggie"
+        },
+        {
             "name": "Millionaire shortbread",
             "image": "./images/Millionaire_shortbread.jpg",
             "html": "./recipes/Millionaire shortbread.html",
