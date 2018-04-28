@@ -415,6 +415,12 @@ var recipe_data = {
             "category": "Pork"
         },
         {
+            "name": "Garlic butter steak and potatoes skillet",
+            "image": "./images/Garlic_butter_steak_and_potatoes_skillet.jpg",
+            "html": "./recipes/Garlic butter steak and potatoes skillet.html",
+            "category": "Beef"
+        },
+        {
             "name": "Garlic ginger glazed salmon",
             "image": "./images/Garlic_ginger_glazed_salmon.jpg",
             "html": "./recipes/Garlic ginger glazed salmon.html",
@@ -587,6 +593,12 @@ var recipe_data = {
             "image": "./images/Light_and_lemony_prawn_risotto.jpg",
             "html": "./recipes/Light and lemony prawn risotto.html",
             "category": "Seafood"
+        },
+        {
+            "name": "Linguine with ham and mascarpone",
+            "image": "./images/Linguine_with_ham_and_mascarpone.jpg",
+            "html": "./recipes/Linguine with ham and mascarpone.html",
+            "category": "Pork"
         },
         {
             "name": "Mackerel in curried couscous salad",
