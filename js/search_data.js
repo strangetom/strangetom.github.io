@@ -286,7 +286,7 @@ var recipe_data = {
             "name": "Cider pork & bacon pie with cauliflower and potato mash",
             "image": "./images/Cider_pork_&_bacon_pie_with_cauliflower_and_potato_mash.jpg",
             "html": "./recipes/Cider pork & bacon pie with cauliflower and potato mash.html",
-            "category": "Seafood"
+            "category": "Pork"
         },
         {
             "name": "Cider sausages with leek and potato mash",
