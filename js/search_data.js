@@ -1297,6 +1297,12 @@ var recipe_data = {
             "category": "Chicken"
         },
         {
+            "name": "Sweet potato & coconut curry",
+            "image": "./images/Sweet_potato_&_coconut_curry.jpg",
+            "html": "./recipes/Sweet potato & coconut curry.html",
+            "category": "Veggie"
+        },
+        {
             "name": "Sweet potato & lentil soup",
             "image": "./images/Sweet_potato_&_lentil_soup.jpg",
             "html": "./recipes/Sweet potato & lentil soup.html",
