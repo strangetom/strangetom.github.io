@@ -62,6 +62,15 @@ input:focus {
   border-bottom: solid 3px #1f77b4;
 }
 
+hr {
+    height: 1px;
+    color: #ffffff;
+    background: #ffffff;
+    font-size: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .search-box {
   text-align: center;
 }
@@ -106,7 +115,7 @@ input:focus {
   position:fixed;
   bottom: 40px;
   right: 40px;
-  background: #272427;
+  background: #737273;
   text-align: center;
   box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.15);
 }
