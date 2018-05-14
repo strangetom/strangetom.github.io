@@ -535,6 +535,12 @@ var recipe_data = {
             "category": "Lamb"
         },
         {
+            "name": "Lamb and spinach curry",
+            "image": "./images/Lamb_and_spinach_curry.jpg",
+            "html": "./recipes/Lamb and spinach curry.html",
+            "category": "Lamb"
+        },
+        {
             "name": "Lamb carry",
             "image": "./images/Lamb_carry.jpg",
             "html": "./recipes/Lamb carry.html",
@@ -712,6 +718,12 @@ var recipe_data = {
             "name": "Olive & tuna pasta",
             "image": "./images/Olive_&_tuna_pasta.jpg",
             "html": "./recipes/Olive & tuna pasta.html",
+            "category": "Seafood"
+        },
+        {
+            "name": "Omelette Arnold Bennett",
+            "image": "./images/Omelette_Arnold_Bennett.jpg",
+            "html": "./recipes/Omelette Arnold Bennett.html",
             "category": "Seafood"
         },
         {
