@@ -247,6 +247,12 @@ var recipe_data = {
             "category": "Chicken"
         },
         {
+            "name": "Chicken with lemon and garlic",
+            "image": "./images/Chicken_with_lemon_and_garlic.jpg",
+            "html": "./recipes/Chicken with lemon and garlic.html",
+            "category": "Chicken"
+        },
+        {
             "name": "Chilli con carne",
             "image": "./images/Chilli_con_carne.jpg",
             "html": "./recipes/Chilli con carne.html",
@@ -601,6 +607,12 @@ var recipe_data = {
             "category": "Seafood"
         },
         {
+            "name": "Linguine with garlic butter prawns",
+            "image": "./images/Linguine_with_garlic_butter_prawns.jpg",
+            "html": "./recipes/Linguine with garlic butter prawns.html",
+            "category": "Seafood"
+        },
+        {
             "name": "Linguine with ham and mascarpone",
             "image": "./images/Linguine_with_ham_and_mascarpone.jpg",
             "html": "./recipes/Linguine with ham and mascarpone.html",
@@ -701,6 +713,12 @@ var recipe_data = {
             "image": "./images/Mushroom_and_bacon_tagliatelle.jpg",
             "html": "./recipes/Mushroom and bacon tagliatelle.html",
             "category": "Pork"
+        },
+        {
+            "name": "Mushroom stroganoff",
+            "image": "./images/Mushroom_stroganoff.jpg",
+            "html": "./recipes/Mushroom stroganoff.html",
+            "category": "Veggie"
         },
         {
             "name": "Mustard chicken &  pancetta gratin",
