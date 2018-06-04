@@ -643,6 +643,12 @@ var recipe_data = {
             "category": "Beef"
         },
         {
+            "name": "Mediterranean pork stew",
+            "image": "./images/Mediterranean_pork_stew.jpg",
+            "html": "./recipes/Mediterranean pork stew.html",
+            "category": "Pork"
+        },
+        {
             "name": "Mediterranean vegetables with lamb",
             "image": "./images/Mediterranean_vegetables_with_lamb.jpg",
             "html": "./recipes/Mediterranean vegetables with lamb.html",
@@ -779,6 +785,12 @@ var recipe_data = {
             "image": "./images/Oven-baked_risotto.jpg",
             "html": "./recipes/Oven-baked risotto.html",
             "category": "Pork"
+        },
+        {
+            "name": "Pad thai omelette",
+            "image": "./images/Pad_thai_omelette.jpg",
+            "html": "./recipes/Pad thai omelette.html",
+            "category": "Seafood"
         },
         {
             "name": "Paella",
