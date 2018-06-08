@@ -595,6 +595,12 @@ var recipe_data = {
             "category": "Dessert"
         },
         {
+            "name": "Lentil & sweet potato curry",
+            "image": "./images/Lentil_&_sweet_potato_curry.jpg",
+            "html": "./recipes/Lentil & sweet potato curry.html",
+            "category": "Veggie"
+        },
+        {
             "name": "Lentil rag\u00f9",
             "image": "./images/Lentil_ragu.jpg",
             "html": "./recipes/Lentil ragu.html",
@@ -767,6 +773,12 @@ var recipe_data = {
             "image": "./images/One-pan_lamb_&_couscous.jpg",
             "html": "./recipes/One-pan lamb & couscous.html",
             "category": "Lamb"
+        },
+        {
+            "name": "One-pot chicken & mushroom risotto",
+            "image": "./images/One-pot_chicken_&_mushroom_risotto.jpg",
+            "html": "./recipes/One-pot chicken & mushroom risotto.html",
+            "category": "Chicken"
         },
         {
             "name": "Oriental marinated chicken strips with bistro salad",
