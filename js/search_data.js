@@ -91,6 +91,12 @@ var recipe_data = {
             "category": "Beef"
         },
         {
+            "name": "Beef strips with orange and ginger",
+            "image": "./images/Beef_strips_with_orange_and_ginger.jpg",
+            "html": "./recipes/Beef strips with orange and ginger.html",
+            "category": "Beef"
+        },
+        {
             "name": "Black bean chilli",
             "image": "./images/Black_bean_chilli.jpg",
             "html": "./recipes/Black bean chilli.html",
@@ -1211,6 +1217,12 @@ var recipe_data = {
             "image": "./images/Spiced_lamb_pie.jpg",
             "html": "./recipes/Spiced lamb pie.html",
             "category": "Lamb"
+        },
+        {
+            "name": "Spiced lentils",
+            "image": "./images/Spiced_lentils.jpg",
+            "html": "./recipes/Spiced lentils.html",
+            "category": "Veggie"
         },
         {
             "name": "Spiced potatoes and tomatoes",
