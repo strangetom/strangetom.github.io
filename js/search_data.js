@@ -145,6 +145,12 @@ var recipe_data = {
             "category": "Chicken"
         },
         {
+            "name": "Caribbean beef patties",
+            "image": "./images/Caribbean_beef_patties.jpg",
+            "html": "./recipes/Caribbean beef patties.html",
+            "category": "Beef"
+        },
+        {
             "name": "Caribbean fish pie",
             "image": "./images/Caribbean_fish_pie.jpg",
             "html": "./recipes/Caribbean fish pie.html",
@@ -1007,6 +1013,12 @@ var recipe_data = {
             "image": "./images/Rigatoni_sausage_bake.jpg",
             "html": "./recipes/Rigatoni sausage bake.html",
             "category": "Pork"
+        },
+        {
+            "name": "Roast cod with pancetta",
+            "image": "./images/Roast_cod_with_pancetta.jpg",
+            "html": "./recipes/Roast cod with pancetta.html",
+            "category": "Seafood"
         },
         {
             "name": "Roast tomato & pepper gnocchi",
