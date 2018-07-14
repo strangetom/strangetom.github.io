@@ -265,6 +265,12 @@ var recipe_data = {
             "category": "Chicken"
         },
         {
+            "name": "Chilli con carne pasties",
+            "image": "./images/Chilli_con_carne_pasties.jpg",
+            "html": "./recipes/Chilli con carne pasties.html",
+            "category": "Beef"
+        },
+        {
             "name": "Chilli con carne",
             "image": "./images/Chilli_con_carne.jpg",
             "html": "./recipes/Chilli con carne.html",
@@ -613,6 +619,12 @@ var recipe_data = {
             "category": "Veggie"
         },
         {
+            "name": "Lentil bolognaise with parmesan basil and pine nuts",
+            "image": "./images/Lentil_bolognaise_with_parmesan_basil_and_pine_Nuts.jpg",
+            "html": "./recipes/Lentil bolognaise with parmesan basil and pine nuts.html",
+            "category": "Veggie"
+        },
+        {
             "name": "Lentil rag\u00f9",
             "image": "./images/Lentil_ragu.jpg",
             "html": "./recipes/Lentil ragu.html",
@@ -929,6 +941,12 @@ var recipe_data = {
             "image": "./images/Pork_patties_with_chilli_dipping_sauce.jpg",
             "html": "./recipes/Pork patties with chilli dipping sauce.html",
             "category": "Pork"
+        },
+        {
+            "name": "Pot noodle",
+            "image": "./images/Pot_noodle.jpg",
+            "html": "./recipes/Pot noodle.html",
+            "category": "Chicken"
         },
         {
             "name": "Prawn & chorizo pasta",
@@ -1384,6 +1402,12 @@ var recipe_data = {
             "name": "Sweet potato & lentil soup",
             "image": "./images/Sweet_potato_&_lentil_soup.jpg",
             "html": "./recipes/Sweet potato & lentil soup.html",
+            "category": "Veggie"
+        },
+        {
+            "name": "Sweet potato & spinach bake",
+            "image": "./images/Sweet_potato_&_spinach_bake.jpg",
+            "html": "./recipes/Sweet potato & spinach bake.html",
             "category": "Veggie"
         },
         {
