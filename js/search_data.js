@@ -1021,6 +1021,12 @@ var recipe_data = {
             "category": "Veggie"
         },
         {
+            "name": "Red Thai salmon curry",
+            "image": "./images/Red_Thai_salmon_curry.jpg",
+            "html": "./recipes/Red Thai salmon curry.html",
+            "category": "Seafood"
+        },
+        {
             "name": "Ricotta pasta pockets",
             "image": "./images/Ricotta_pasta_pockets.jpg",
             "html": "./recipes/Ricotta pasta pockets.html",
