@@ -620,7 +620,7 @@ var recipe_data = {
         },
         {
             "name": "Lentil bolognaise with parmesan basil and pine nuts",
-            "image": "./images/Lentil_bolognaise_with_parmesan_basil_and_pine_Nuts.jpg",
+            "image": "./images/Lentil_bolognaise_with_parmesan_basil_and_pine_nuts.jpg",
             "html": "./recipes/Lentil bolognaise with parmesan basil and pine nuts.html",
             "category": "Veggie"
         },

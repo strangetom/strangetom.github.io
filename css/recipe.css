@@ -84,6 +84,10 @@ hr {
   color: #333;
 }
 
+.button {
+  padding: 0.5em;
+  text-decoration: none;
+}
 
 /*************
 *   LAYOUT   *
