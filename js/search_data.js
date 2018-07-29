@@ -379,6 +379,12 @@ var recipe_data = {
             "category": "Chicken"
         },
         {
+            "name": "Fish, chips and mushy peas",
+            "image": "./images/Fish_chips_and_mushy_peas.jpg",
+            "html": "./recipes/Fish chips and mushy peas.html",
+            "category": "Seafood"
+        },
+        {
             "name": "Fish pie with saffron mash",
             "image": "./images/Fish_pie_with_saffron_mash.jpg",
             "html": "./recipes/Fish pie with saffron mash.html",
@@ -934,6 +940,12 @@ var recipe_data = {
             "name": "Pork and rosemary lasagne",
             "image": "./images/Pork_and_rosemary_lasagne.jpg",
             "html": "./recipes/Pork and rosemary lasagne.html",
+            "category": "Pork"
+        },
+        {
+            "name": "Pork and sweet potato meatballs",
+            "image": "./images/Pork_and_sweet_potato_meatballs.jpg",
+            "html": "./recipes/Pork and sweet potato meatballs.html",
             "category": "Pork"
         },
         {
