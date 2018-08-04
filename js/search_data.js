@@ -475,6 +475,12 @@ var recipe_data = {
             "category": "Veggie"
         },
         {
+            "name": "Green summer orzo",
+            "image": "./images/Green_summer_orzo.jpg",
+            "html": "./recipes/Green summer orzo.html",
+            "category": "Chicken"
+        },
+        {
             "name": "Harissa chicken with chickpea salad",
             "image": "./images/Harissa_chicken_with_chickpea_salad.jpg",
             "html": "./recipes/Harissa chicken with chickpea salad.html",
