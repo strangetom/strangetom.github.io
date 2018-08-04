@@ -913,6 +913,12 @@ var recipe_data = {
             "category": "Veggie"
         },
         {
+            "name": "Peri peri pasta",
+            "image": "./images/Peri_peri_pasta.jpg",
+            "html": "./recipes/Peri peri pasta.html",
+            "category": "Chicken"
+        },
+        {
             "name": "Piri-piri chicken with spicy rice",
             "image": "./images/Piri-piri_chicken_with_spicy_rice.jpg",
             "html": "./recipes/Piri-piri chicken with spicy rice.html",
