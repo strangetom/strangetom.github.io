@@ -1231,6 +1231,12 @@ var recipe_data = {
             "category": "Veggie"
         },
         {
+            "name": "Spanish lamb with sherry, honey & peppers",
+            "image": "./images/Spanish_lamb_with_sherry_honey_&_peppers.jpg",
+            "html": "./recipes/Spanish lamb with sherry honey & peppers.html",
+            "category": "Lamb"
+        },
+        {
             "name": "Spanish meatball & butter bean stew",
             "image": "./images/Spanish_meatball_&_butter_bean_stew.jpg",
             "html": "./recipes/Spanish meatball & butter bean stew.html",
