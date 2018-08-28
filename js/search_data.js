@@ -79,6 +79,12 @@ var recipe_data = {
             "category": "Seafood"
         },
         {
+            "name": "Beef & lentil cottage pie with cauliflower & potato topping",
+            "image": "./images/Beef_&_lentil_cottage_pie_with_cauliflower_&_potato_topping.jpg",
+            "html": "./recipes/Beef & lentil cottage pie with cauliflower & potato topping.html",
+            "category": "Beef"
+        },
+        {
             "name": "Beef & salsa burgers",
             "image": "./images/Beef_&_salsa_burgers.jpg",
             "html": "./recipes/Beef & salsa burgers.html",
@@ -659,6 +665,12 @@ var recipe_data = {
             "image": "./images/Linguine_with_ham_and_mascarpone.jpg",
             "html": "./recipes/Linguine with ham and mascarpone.html",
             "category": "Pork"
+        },
+        {
+            "name": "Linguine with tuna sauce",
+            "image": "./images/Linguine_with_tuna_sauce.jpg",
+            "html": "./recipes/Linguine with tuna sauce.html",
+            "category": "Seafood"
         },
         {
             "name": "Mackerel in curried couscous salad",
