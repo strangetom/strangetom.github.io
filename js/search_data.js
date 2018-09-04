@@ -349,6 +349,12 @@ var recipe_data = {
             "category": "Seafood"
         },
         {
+            "name": "Courgette, sausage & rigatoni bake",
+            "image": "./images/Courgette_sausage_&_rigatoni_bake.jpg",
+            "html": "./recipes/Courgette sausage & rigatoni bake.html",
+            "category": "Pork"
+        },
+        {
             "name": "Creamy egg curry",
             "image": "./images/Creamy_egg_curry.jpg",
             "html": "./recipes/Creamy egg curry.html",
@@ -1564,6 +1570,12 @@ var recipe_data = {
             "name": "Vegetarian shepherd's pie",
             "image": "./images/Vegetarian_shepherds_pie.jpg",
             "html": "./recipes/Vegetarian shepherds pie.html",
+            "category": "Veggie"
+        },
+        {
+            "name": "Veggie rice pot",
+            "image": "./images/Veggie_rice_pot.jpg",
+            "html": "./recipes/Veggie rice pot.html",
             "category": "Veggie"
         },
         {
