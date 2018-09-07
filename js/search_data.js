@@ -199,6 +199,12 @@ var recipe_data = {
             "category": "Chicken"
         },
         {
+            "name": "Chicken & ham pie",
+            "image": "./images/Chicken_&_ham_pie.jpg",
+            "html": "./recipes/Chicken & ham pie.html",
+            "category": "Chicken"
+        },
+        {
             "name": "Chicken & mushroom puff pie",
             "image": "./images/Chicken_&_mushroom_puff_pie.jpg",
             "html": "./recipes/Chicken & mushroom puff pie.html",
