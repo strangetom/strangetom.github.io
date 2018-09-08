@@ -1369,12 +1369,6 @@ var recipe_data = {
             "category": "Dessert"
         },
         {
-            "name": "Steak & kidney ras-el-hanout pie",
-            "image": "./images/Steak_&_kidney_ras-el-hanout_pie.jpg",
-            "html": "./recipes/Steak & kidney ras-el-hanout pie.html",
-            "category": "Beef"
-        },
-        {
             "name": "Sticky jerk & brown sugar ribs with pineapple rice",
             "image": "./images/Sticky_jerk_&_brown_sugar_ribs_with_pineapple_rice.jpg",
             "html": "./recipes/Sticky jerk & brown sugar ribs with pineapple rice.html",
@@ -1391,12 +1385,6 @@ var recipe_data = {
             "image": "./images/Sticky_sesame_popcorn_chicken.jpg",
             "html": "./recipes/Sticky sesame popcorn chicken.html",
             "category": "Chicken"
-        },
-        {
-            "name": "Sumac lamb chops with crushed caramelized onion potatoes",
-            "image": "./images/Sumac_lamb_chops_with_crushed_caramelized_onion_potatoes.jpg",
-            "html": "./recipes/Sumac lamb chops with crushed caramelized onion potatoes.html",
-            "category": "Lamb"
         },
         {
             "name": "Summer pasta with melting brie",
