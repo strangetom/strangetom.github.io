@@ -1045,6 +1045,12 @@ var recipe_data = {
             "category": "Seafood"
         },
         {
+            "name": "Puerto rican chicken and rice",
+            "image": "./images/Puerto_rican_chicken_and_rice.jpg",
+            "html": "./recipes/Puerto rican chicken and rice.html",
+            "category": "Chicken"
+        },
+        {
             "name": "Quick chicken & red lentil curry",
             "image": "./images/Quick_chicken_&_red_lentil_curry.jpg",
             "html": "./recipes/Quick chicken & red lentil curry.html",
@@ -1297,6 +1303,12 @@ var recipe_data = {
             "category": "Seafood"
         },
         {
+            "name": "Spiced chicken, spinach & sweet potato stew",
+            "image": "./images/Spiced_chicken_spinach_&_sweet_potato_stew.jpg",
+            "html": "./recipes/Spiced chicken spinach & sweet potato stew.html",
+            "category": "Chicken"
+        },
+        {
             "name": "Spiced cod",
             "image": "./images/Spiced_cod.jpg",
             "html": "./recipes/Spiced cod.html",
@@ -1337,6 +1349,12 @@ var recipe_data = {
             "image": "./images/Spicy_pork_&_aubergine.jpg",
             "html": "./recipes/Spicy pork & aubergine.html",
             "category": "Pork"
+        },
+        {
+            "name": "Spicy veggie enchiladas",
+            "image": "./images/Spicy_veggie_enchiladas.jpg",
+            "html": "./recipes/Spicy veggie enchiladas.html",
+            "category": "Veggie"
         },
         {
             "name": "Spicy-vegetable chapatti wraps",
