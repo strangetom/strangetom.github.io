@@ -1261,6 +1261,12 @@ var recipe_data = {
             "category": "Veggie"
         },
         {
+            "name": "Spaghetti with salmon and prawns",
+            "image": "./images/Spaghetti_with_salmon_and_prawns.jpg",
+            "html": "./recipes/Spaghetti with salmon and prawns.html",
+            "category": "Seafood"
+        },
+        {
             "name": "Spanish lamb with sherry, honey & peppers",
             "image": "./images/Spanish_lamb_with_sherry_honey_&_peppers.jpg",
             "html": "./recipes/Spanish lamb with sherry honey & peppers.html",
@@ -1348,6 +1354,12 @@ var recipe_data = {
             "name": "Spicy pork & aubergine",
             "image": "./images/Spicy_pork_&_aubergine.jpg",
             "html": "./recipes/Spicy pork & aubergine.html",
+            "category": "Pork"
+        },
+        {
+            "name": "Spicy sausage & bean one-pot",
+            "image": "./images/Spicy_sausage_&_bean_one-pot.jpg",
+            "html": "./recipes/Spicy sausage & bean one-pot.html",
             "category": "Pork"
         },
         {
