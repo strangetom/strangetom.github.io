@@ -46,12 +46,6 @@ li {
   box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.15);
 }
 
-table {
-    border: none;
-    padding: 0.5em;
-    vertical-align: top;
-}
-
 img {
 	max-height: 266px
 }
@@ -60,7 +54,7 @@ input {
   font-size: 3em;
   border: none;
   border-bottom: solid 3px #272427;
-  background: #e6e6e6;
+  background: #f0f0f0;
   width: 80%;
   margin-bottom: 1em;
   margin-top: 0.5em;
@@ -93,7 +87,7 @@ hr {
 }
 
 .main {
-  background: #e6e6e6;
+  background: #f0f0f0;
   color: #333;  
   padding: 2em 3em;
 }
@@ -132,38 +126,38 @@ hr {
   padding-top: 9px;
 }
 
-.random-recipe {
-  background: #1e4d66;
-  border-left: 6px solid #1e4d66;
-}
-.random-recipe h2 {
-  color: #fff;
-}
-
 
 .Beef {
   border-left: 5px solid #d62728;
+  background: #fffdfd;
 }
 .Chicken {
   border-left: 5px solid #ffc116;
+  background: #fffaee;
 }
 .Dessert {
   border-left: 5px solid #ff7f0e;
+  background: #fffcf9;
 }
 .Lamb {
   border-left: 5px solid #9467bd;
+  background: #fefdfe;
 }
 .Pork {
   border-left: 5px solid #e377c2;
+  background: #fef9fc;
 }
 .Seafood {
   border-left: 5px solid #17becf;
+  background: #fafefe;
 }
 .Turkey {
   border-left: 5px solid #8c564b;
+  background: #fffffe;
 }
 .Veggie {
   border-left: 5px solid #2ca02c;
+  background: #f6fcf6;
 }
 
 
