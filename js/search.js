@@ -32,33 +32,13 @@ displayResults = function(results) {
             this.src="./img/" + this.getAttribute('category') + ".svg";
         };
         img_recipe.classList.add('photo');
-        img_recipe.src = recipe.image;         
-
-        var table = document.createElement('table');
-        table.setAttribute('width', '100%');
-
-        var td_name = document.createElement('td');
-        td_name.setAttribute('width', '90%');
-        
+        img_recipe.src = recipe.image;                
 
         var h2_name = document.createElement('h2');
         h2_name.innerHTML = recipe.name;
-        
-        var td_img = document.createElement('td');
-        td_img.setAttribute('width', '10%');
-
-        var img_category = document.createElement('img');
-        img_category.classList.add('icon');
-        img_category.src = './img/' + recipe.category + '.svg';
-        img_category.setAttribute('align', 'middle');
-
-        td_img.appendChild(img_category);
-        td_name.appendChild(h2_name);
-        table.appendChild(td_name);
-        table.appendChild(td_img);
 
         a.appendChild(img_recipe);
-        a.appendChild(table);
+        a.appendChild(h2_name);
 
         li.appendChild(a);
 

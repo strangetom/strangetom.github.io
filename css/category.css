@@ -17,6 +17,10 @@ h1 {
     font-size: 5em;
     font-weight: 500;
 }
+h2 {
+	font-size: 1.3em;
+	margin: 15px;
+}
 
 h3 {
   text-align: center;
@@ -44,7 +48,7 @@ li {
 
 table {
     border: none;
-    padding: 1em;
+    padding: 0.5em;
     vertical-align: top;
 }
 
@@ -102,7 +106,7 @@ hr {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px; 
   position: relative;
-  left: -3px;
+  left: -5px;
 }
 
 .sidebar-link {
@@ -130,7 +134,7 @@ hr {
 
 .random-recipe {
   background: #1e4d66;
-  border-left: 3px solid #1e4d66;
+  border-left: 6px solid #1e4d66;
 }
 .random-recipe h2 {
   color: #fff;
@@ -138,28 +142,28 @@ hr {
 
 
 .Beef {
-  border-left: 3px solid #d62728;
+  border-left: 5px solid #d62728;
 }
 .Chicken {
-  border-left: 3px solid #ffc116;
+  border-left: 5px solid #ffc116;
 }
 .Dessert {
-  border-left: 3px solid #ff7f0e;
+  border-left: 5px solid #ff7f0e;
 }
 .Lamb {
-  border-left: 3px solid #9467bd;
+  border-left: 5px solid #9467bd;
 }
 .Pork {
-  border-left: 3px solid #e377c2;
+  border-left: 5px solid #e377c2;
 }
 .Seafood {
-  border-left: 3px solid #17becf;
+  border-left: 5px solid #17becf;
 }
 .Turkey {
-  border-left: 3px solid #8c564b;
+  border-left: 5px solid #8c564b;
 }
 .Veggie {
-  border-left: 3px solid #2ca02c;
+  border-left: 5px solid #2ca02c;
 }
 
 
@@ -213,7 +217,7 @@ hr {
       width: 75vw;
     }
     .photo {
-      width: calc(3px + 75vw);
+      width: calc(5px + 75vw);
     }
 
     .sidebar {
@@ -258,10 +262,10 @@ hr {
       width: 60px;      
     }      
     li {
-      width: 40vw;
+      width: 26vw;
     }
     .photo {
-      width: calc(3px + 40vw);
+      width: calc(5px + 26vw);
     }
 
     .sidebar {
@@ -290,7 +294,7 @@ hr {
     }
     .recipe-list{
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
       grid-gap: 1em;
     }
   }  
@@ -306,10 +310,10 @@ hr {
       width: 40px;      
     }
     li {
-      width: 24vw;
+      width: 18vw;
     }
     .photo {
-      width: calc(3px + 24vw);
+      width: calc(5px + 18vw);
     }
 
     .sidebar {
@@ -345,7 +349,7 @@ hr {
     }
     .recipe-list {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-gap: 1em;
     }
   }
