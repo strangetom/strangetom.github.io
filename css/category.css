@@ -20,6 +20,7 @@ h1 {
 h2 {
 	font-size: 1.3em;
 	margin: 15px;
+	color: #fff;
 }
 
 h3 {
@@ -100,7 +101,6 @@ hr {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px; 
   position: relative;
-  left: -5px;
 }
 
 .sidebar-link {
@@ -128,36 +128,28 @@ hr {
 
 
 .Beef {
-  border-left: 5px solid #d62728;
-  background: #fffdfd;
+  background: #d62728;
 }
 .Chicken {
-  border-left: 5px solid #ffc116;
-  background: #fffaee;
+  background: #ffba34;
 }
 .Dessert {
-  border-left: 5px solid #ff7f0e;
-  background: #fffcf9;
+  background: #ff7f0e;
 }
 .Lamb {
-  border-left: 5px solid #9467bd;
-  background: #fefdfe;
+  background: #9467bd;
 }
 .Pork {
-  border-left: 5px solid #e377c2;
-  background: #fef9fc;
+  background: #e377c2;
 }
 .Seafood {
-  border-left: 5px solid #17becf;
-  background: #fafefe;
+  background: #17becf;
 }
 .Turkey {
-  border-left: 5px solid #8c564b;
-  background: #fffffe;
+  background: #8c564b;
 }
 .Veggie {
-  border-left: 5px solid #2ca02c;
-  background: #f6fcf6;
+  background: #2ca02c;
 }
 
 
@@ -211,7 +203,7 @@ hr {
       width: 75vw;
     }
     .photo {
-      width: calc(5px + 75vw);
+      width: 75vw;
     }
 
     .sidebar {
@@ -259,7 +251,7 @@ hr {
       width: 26vw;
     }
     .photo {
-      width: calc(5px + 26vw);
+      width: 26vw;
     }
 
     .sidebar {
@@ -307,7 +299,7 @@ hr {
       width: 18vw;
     }
     .photo {
-      width: calc(5px + 18vw);
+      width: 18vw;
     }
 
     .sidebar {
