@@ -901,6 +901,12 @@ var recipe_data = {
             "category": "Pork"
         },
         {
+            "name": "Pasta with cherry tomato sauce",
+            "image": "./images/Pasta_with_cherry_tomato_sauce.jpg",
+            "html": "./recipes/Pasta with cherry tomato sauce.html",
+            "category": "Veggie"
+        },
+        {
             "name": "Pasta with chilli tomatoes & spinach",
             "image": "./images/Pasta_with_chilli_tomatoes_&_spinach.jpg",
             "html": "./recipes/Pasta with chilli tomatoes & spinach.html",
