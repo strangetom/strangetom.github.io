@@ -799,6 +799,12 @@ var recipe_data = {
             "category": "Chicken"
         },
         {
+            "name": "Nduja pesto pasta",
+            "image": "./images/Nduja_pesto_pasta.jpg",
+            "html": "./recipes/Nduja pesto pasta.html",
+            "category": "Veggie"
+        },
+        {
             "name": "New potato & mince curry",
             "image": "./images/New_potato_&_mince_curry.jpg",
             "html": "./recipes/New potato & mince curry.html",
