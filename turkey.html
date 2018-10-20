@@ -8,83 +8,72 @@
 	</head>
 	<body class="site">
 
-		<header class="sidebar" id="top">
-			<!-- Logo always returns main page -->
-			<div class="sidebar-logo" align="center">
-				<a class="sidebar-link"  href="index.html">
-					<img class="sidebar-logo" src="./img/sidebar-logo.svg"></img>
-					<hr>
-				</a>
-			</div>
-			<!--- Links to category pages. Uses CSS grid to rehsape from 9x1 to 3x3 grid depending on screen width --> 
-			<section class="links">
-				<div class="sidebar-seearch" align="center">
+		<header class="sidebar">
+			<ul>
+				<!-- Logo always returns main page -->
+				<li class="sidebar-item">
+					<a class="sidebar-link"  href="index.html">
+						<img class="icon" src="./img/Home.svg"></img><h3>Home</h3>
+					</a>
+				</li>
+				<!--- Links to category pages --> 
+				<li class="sidebar-item">
 					<a class="sidebar-link"  href="search.html">
-						<img class="icon" src="./img/Search.svg"  align="middle"></img>
-						<p>Search</p>
+						<img class="icon" src="./img/Search.svg"></img><h3>Search</h3>
 					</a>
-				</div>					
-				<div class="sidebar-beef" align="center">
+				</li>					
+				<li class="sidebar-item">
 					<a class="sidebar-link"  href="beef.html">
-						<img class="icon" src="./img/Beef_colour.svg"  align="middle"></img>
-						<p>Beef</p>
+						<img class="icon" src="./img/Beef_colour.svg"></img><h3>Beef</h3>
 					</a>
-				</div>
-				<div class="sidebar-chicken" align="center">
+				</li>
+				<li class="sidebar-item">
 					<a class="sidebar-link" href="chicken.html">
-						<img class="icon" src="./img/Chicken_colour.svg"  align="middle"></img>
-						<p>Chicken</p>
+						<img class="icon" src="./img/Chicken_colour.svg"></img><h3>Chicken</h3>
 					</a>
-				</div>
-				<div class="sidebar-dessert" align="center">
+				</li>
+				<li class="sidebar-item">
 					<a class="sidebar-link"  href="dessert.html">
-						<img class="icon" src="./img/Dessert_colour.svg"  align="middle"></img>
-						<p>Dessert</p>
+						<img class="icon" src="./img/Dessert_colour.svg"></img><h3>Dessert</h3>
 					</a>
-				</div>
-				<div class="sidebar-lamb" align="center">
+				</li>
+				<li class="sidebar-item">
 					<a class="sidebar-link"  href="lamb.html">
-						<img class="icon" src="./img/Lamb_colour.svg"  align="middle"></img>
-						<p>Lamb</p>
+						<img class="icon" src="./img/Lamb_colour.svg"></img><h3>Lamb</h3>
 					</a>
-				</div>
-				<div class="sidebar-pork" align="center">
+				</li>
+				<li class="sidebar-item">
 					<a class="sidebar-link"  href="pork.html">
-						<img class="icon" src="./img/Pork_colour.svg"  align="middle"></img>
-						<p>Pork</p>
+						<img class="icon" src="./img/Pork_colour.svg"></img><h3>Pork</h3>
 					</a>
-				</div>
-				<div class="sidebar-seafood" align="center">
+				</li>
+				<li class="sidebar-item">
 					<a class="sidebar-link" href="seafood.html">
-						<img class="icon" src="./img/Seafood_colour.svg"  align="middle"></img>
-						<p>Seafood</p>
+						<img class="icon" src="./img/Seafood_colour.svg"></img><h3>Seafood</h3>
 					</a>
-				</div>
-				<div class="sidebar-turkey" align="center">
+				</li>
+				<li class="sidebar-item">
 					<a class="sidebar-link"  href="turkey.html">
-						<img class="icon" src="./img/Turkey_colour.svg"  align="middle"></img>
-						<p>Turkey</p>
+						<img class="icon" src="./img/Turkey_colour.svg"></img><h3>Turkey</h3>
 					</a>
-				</div>
-				<div class="sidebar-veggie" align="center">
+				</li>
+				<li class="sidebar-item">
 					<a class="sidebar-link"  href="veggie.html">
-						<img class="icon" src="./img/Veggie_colour.svg"  align="middle"></img>
-						<p>Veggie</p>
+						<img class="icon" src="./img/Veggie_colour.svg"></img><h3>Veggie</h3>
 					</a>
-				</div>
-				<div class="sidebar-future" align="center">
+				</li>
+				<li class="sidebar-item">
 					<a class="sidebar-link"  href="future.html">
-						<img class="icon" src="./img/Time.svg"  align="middle"></img>
-						<p>Future</p>
+						<img class="icon" src="./img/Time.svg"></img><h3>Future</h3>
 					</a>
-				</div>
-			</section>
+				</li>
+			</ul>
 		</header>
 
 		<main class="main">
 
-			<h1 class="title">Turkey Recipes</h1>
-			<h3>4 recipes so far!</h3>
+			<h1 class="title" id="top">Turkey Recipes</h1>
+			<p>4 recipes so far!</p>
 			<!--- Quick navigation to recipes beginning with the letter -->
 			<section class="navbar" align="center">
 				<ul>

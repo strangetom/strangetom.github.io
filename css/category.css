@@ -4,15 +4,10 @@
 
 html {
     background-color: #fff;
-}
-
-body {
-    margin: 5vh 3vw;
     font-family: sans-serif;
 }
-
 h1 {
-    color: #333;
+    color: #272427;
     text-align: center;
     font-size: 5em;
     font-weight: 500;
@@ -22,31 +17,12 @@ h2 {
 	margin: 15px;
 	color: #fff;
 }
-
-h3 {
-  text-align: center;
-  font-weight: 10;
+a{
+	text-decoration: none;
 }
-
-a {
-  text-decoration: none;
-  color: #333;
-}
-
 ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
-
-li {
-  margin: 0 auto;
-  margin-bottom: 1em;
-  border-radius: 3px;
-  background: #fff;
-  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.15);
-}
-
 img {
 	max-height: 266px
 }
@@ -55,63 +31,76 @@ input {
   font-size: 3em;
   border: none;
   border-bottom: solid 3px #272427;
-  background: #f0f0f0;
+  background: #fff;
   width: 80%;
   margin-bottom: 1em;
   margin-top: 0.5em;
 }
-
 input:focus {
   outline-width: 0;
-  border-bottom: solid 3px #1f77b4;
+  border-bottom: solid 3px #ff7f0e;
 }
-
-hr {
-    height: 1px;
-    color: #ffffff;
-    background: #ffffff;
-    font-size: 0;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 .search-box {
   text-align: center;
 }
 
 .sidebar {
-  font-size: 1em;
   padding: 1em 1em;
-  background: #272427;
-  text-align: center;
   color: #ffffff;
+  background: #272427;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;  
+}
+.sidebar ul {
+  margin: 0;
+  margin-bottom: 1em;  
+  padding: 0;
+}
+.sidebar-item {
+  padding: 10px;
+}
+h3 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 10;
+  display:inline;
+  padding-left: 1em;
 }
 
 .main {
-  background: #f0f0f0;
-  color: #333;  
-  padding: 2em 3em;
+  color: #272427;
 }
-
-.icon {
-  width: 40px;
+p {
+  text-align: center;
 }
-
+.recipe-list li {
+  margin: 0 auto;
+  margin-bottom: 1em;
+  border-radius: 3px;
+  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.15);
+}
 .photo {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px; 
   position: relative;
 }
 
-.sidebar-link {
-  text-decoration: none;
-  color: #fff;
-}
-
 .navbar li {
   display: inline-block;
+  background-color: #737273;
   padding: 2.2px;
   width: 2vw;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  border-radius: 3px;
+  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.15);  
+}
+.navbar a{
+  color: #fff;
 }
 
 .float {
@@ -156,38 +145,9 @@ hr {
 /*************
 *   LAYOUT   *
 *************/
+
 @supports (display: grid) {
 
-  .sidebar-beef {
-    grid-area: link_beef;
-  }
-  .sidebar-chicken {
-    grid-area: link_chicken;
-  }
-  .sidebar-dessert {
-    grid-area: link_dessert;
-  }
-  .sidebar-lamb {
-    grid-area: link_lamb;
-  }
-  .sidebar-pork {
-    grid-area: link_pork;
-  }
-  .sidebar-seafood {
-    grid-area: link_seafood;
-  }
-  .sidebar-turkey {
-    grid-area: link_turkey;
-  }
-  .sidebar-veggie {
-    grid-area: link_veggie;
-  }
-  .sidebar-future {
-    grid-area: link_future;
-  }
-  .sidebar-search {
-    grid-area: link_search;
-  }  
 
   @media (min-width: 360px){
 
@@ -199,42 +159,40 @@ hr {
     .float img{
       width: 60px;      
     }      
-    li {
+    .recipe-list li {
       width: 75vw;
     }
     .photo {
       width: 75vw;
-    }
-
-    .sidebar {
-      border-top-left-radius: 60px;
-      border-top-right-radius: 60px;
-      grid-area: sidebar;
-    } 
-    .main {
-      grid-area: main;      
-    } 
-    .site {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: auto auto;
-      grid-template-areas: 
-        "sidebar"
-        "main"
-    }
-    .links{      
-      display: grid;
-      grid-template-columns: auto auto auto auto auto;
-      grid-template-rows: auto auto;
-      grid-template-areas: 
-        "link_beef link_chicken link_dessert link_lamb link_pork"
-        "link_seafood link_turkey link_veggie link_future link_search"
     }
     .recipe-list{
       display: grid;
       grid-template-columns: 1fr;
       grid-gap: 1em;
     }
+
+
+    .main{
+	  margin-left: 0;
+	  margin-top: 140px;
+	  padding: 10px 0;    	
+    }
+    .sidebar {
+    	width: 100%;
+  		height: 140px;
+  		text-align: center;
+    }
+    .sidebar li {
+    	width: 10vw;
+    	display: inline-block;
+    }
+    h3{
+    	display: none;
+    }
+	.icon {
+	  height: 3em;
+	  display: inline;
+	}     
   }    
   
   @media (min-width: 720px){
@@ -247,43 +205,40 @@ hr {
     .float img{
       width: 60px;      
     }      
-    li {
-      width: 26vw;
+    .recipe-list li {
+      width: 33vw;
     }
     .photo {
-      width: 26vw;
-    }
-
-    .sidebar {
-      border-top-left-radius: 60px;
-      border-top-right-radius: 60px;
-      grid-area: sidebar;
-    } 
-    .main {
-      grid-area: main;      
-    } 
-    .site {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: auto auto;
-      grid-template-areas: 
-        "sidebar"
-        "main"
-    }
-    .links{      
-      display: grid;
-      grid-template-columns: auto auto auto auto auto;
-      grid-template-rows: auto auto;
-      grid-template-areas: 
-        "link_beef link_chicken link_dessert link_lamb link_pork"
-        "link_seafood link_turkey link_veggie link_future link_search"
+      width: 33vw;
     }
     .recipe-list{
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
       grid-gap: 1em;
     }
+
+    .main {
+      margin-left: 180px;
+      margin-top: 0;
+  	  padding-right: 20px;
+    }
+    .sidebar {
+    	width: 160px;
+  		height: 100%;
+  		text-align: left;
+    }
+ 	.sidebar li {
+ 		width: 160px;
+ 	}
+    h3{
+    	display: inherit;
+    }  
+	.icon {
+	  height: 1.5em;
+	  display: inline;
+	} 
   }  
+  
 
   @media (min-width: 1300px){  	
 
@@ -295,43 +250,11 @@ hr {
     .float img{
       width: 40px;      
     }
-    li {
+    .recipe-list li {
       width: 18vw;
     }
     .photo {
       width: 18vw;
-    }
-
-    .sidebar {
-      border-top-left-radius: 60px;
-      border-top-right-radius: 0;
-      grid-area: sidebar;
-    }
-    .main {
-      border-top-right-radius: 60px;
-      grid-area: main;      
-    }    
-    .site {
-      display: grid;
-      grid-template-columns: 1fr 10fr;
-      grid-template-areas: 
-        "sidebar main"
-    }
-    .links {
-      display: grid;
-      grid-template-columns: auto;
-      grid-template-rows: auto auto auto auto auto auto auto auto auto auto 5fr ;
-      grid-template-areas: 
-        "link_search"      
-        "link_beef"
-        "link_chicken"
-        "link_dessert"
-        "link_lamb"
-        "link_pork"
-        "link_seafood"
-        "link_turkey"
-        "link_veggie"
-        "link_future"
     }
     .recipe-list {
       display: grid;
