@@ -89,6 +89,9 @@ p {
   position: relative;
 }
 
+.navbar {
+  text-align: center;
+}
 .navbar li {
   display: inline-block;
   background-color: #737273;
