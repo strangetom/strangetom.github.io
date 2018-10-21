@@ -9,42 +9,96 @@
 	<body class="site">
 
 		<header class="sidebar">
-			<!-- Logo always returns main page -->
-			<div class="sidebar-logo" align="center">
-				<a href="../index.html">
-					<img class="sidebar-logo" src="../img/sidebar-logo.svg">
-				</a>
-				<hr>
-			</div>
-
-			<!--- Recipe category, time and serving info -->
-			<div class="info"> 
-				<div class="sidebar-category" align="center">
-					<img class="icon" src="../img/Seafood_colour.svg"  align="middle">
-					<p>Seafood</p>
-				</div>
-				<div class="sidebar-time" align="center">
-					<img class="icon" src="../img/Time.svg" align="middle">
-					<p><b>15</b> mins</p>
-				</div>
-				<div class="sidebar-servings" align="center">
-					<img class="icon" src="../img/Servings.svg"  align="middle">
-					<p><b>4</b> servings</p>
-				</div>
-			</div>
+			<ul>
+				<!-- Logo always returns main page -->
+				<li class="sidebar-item">
+					<a class="sidebar-link"  href="../index.html">
+						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
+					</a>
+				</li>
+				<!--- Links to category pages --> 
+				<li class="sidebar-item">
+					<a class="sidebar-link"  href="../search.html">
+						<img class="icon" src="../img/Search.svg" alt="Search icon"><h3>Search</h3>
+					</a>
+				</li>					
+				<li class="sidebar-item">
+					<a class="sidebar-link"  href="../beef.html">
+						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
+					</a>
+				</li>
+				<li class="sidebar-item">
+					<a class="sidebar-link" href="../chicken.html">
+						<img class="icon" src="../img/Chicken_colour.svg" alt="Chicken recipes icon"><h3>Chicken</h3>
+					</a>
+				</li>
+				<li class="sidebar-item">
+					<a class="sidebar-link"  href="../dessert.html">
+						<img class="icon" src="../img/Dessert_colour.svg" alt="Dessert recipes icon"><h3>Dessert</h3>
+					</a>
+				</li>
+				<li class="sidebar-item">
+					<a class="sidebar-link"  href="../lamb.html">
+						<img class="icon" src="../img/Lamb_colour.svg" alt="Lamb recipes icon"><h3>Lamb</h3>
+					</a>
+				</li>
+				<li class="sidebar-item">
+					<a class="sidebar-link"  href="../pork.html">
+						<img class="icon" src="../img/Pork_colour.svg" alt="Pork recipes icon"><h3>Pork</h3>
+					</a>
+				</li>
+				<li class="sidebar-item">
+					<a class="sidebar-link" href="../seafood.html">
+						<img class="icon" src="../img/Seafood_colour.svg" alt="Seafood recipes icon"><h3>Seafood</h3>
+					</a>
+				</li>
+				<li class="sidebar-item">
+					<a class="sidebar-link"  href="../turkey.html">
+						<img class="icon" src="../img/Turkey_colour.svg" alt="Turkey recipes icon"><h3>Turkey</h3>
+					</a>
+				</li>
+				<li class="sidebar-item">
+					<a class="sidebar-link"  href="../veggie.html">
+						<img class="icon" src="../img/Veggie_colour.svg" alt="Veggie recipes icon"><h3>Veggie</h3>
+					</a>
+				</li>
+				<li class="sidebar-item">
+					<a class="sidebar-link"  href="../future.html">
+						<img class="icon" src="../img/Future.svg" alt="Future recipes icon"><h3>Future</h3>
+					</a>
+				</li>
+			</ul>
 		</header>
 
-		<main class="main">
+		<main class="main Seafood">
 
-			<h1 class="recipe-title">Spicy jerk prawn & mango tacos with coconut dressing</h1>		
-			<img class="recipe-image" src="../images/Spicy_jerk_prawn_&_mango_tacos_with_coconut_dressing.jpg" onerror="this.onerror=null;this.src='../img/Seafood_colour.svg';" alt="Recipe image">
-			<div class="recipe-description">
-				<p>Use Caribbean-style jerk paste to marinade shellfish, then serve in crunchy corn tacos with a textured salad and light sauce</p>
-				<br>
-			</div>
+			<div class="recipe">
+				<h1 class="recipe-title">Spicy jerk prawn & mango tacos with coconut dressing</h1>
+				<ul class="recipe-info">
+					<li>
+						<img src="../img/Seafood_colour.svg">
+					</li>
+					<li>
+						<p>Seafood</p>
+					</li>
+					<li>
+						<img src="../img/Time.svg">
+					</li>
+					<li>
+						<p><b>15</b> mins</p>
+					</li>
+					<li>
+						<img src="../img/Servings.svg"  align="middle">
+					</li>
+					<li>
+						<p><b>4</b> servings</p>						
+					</li>
+				</ul>						
+				<img class="recipe-image" src="../images/Spicy_jerk_prawn_&_mango_tacos_with_coconut_dressing.jpg" onerror="this.onerror=null;this.src='../img/Seafood_colour.svg';" alt="Recipe image">
+				<p class="recipe-description">Use Caribbean-style jerk paste to marinade shellfish, then serve in crunchy corn tacos with a textured salad and light sauce</p>	
+			
 
-			<section class="recipe-ingredients">
-				<div class="card ingredients">	
+				<div class="recipe-ingredients">	
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
@@ -64,10 +118,8 @@
 							</ul>
 					</p>
 				</div>
-			</section>
 
-			<section class="recipe-instructions">
-				<div class="card instructions">
+				<div class="recipe-instructions">
 					<h2>Instructions</h2>
 					<p>
 						<ol>
@@ -78,13 +130,14 @@
 							</ol>
 					</p>
 				</div>
-			</section>
+			</div>
 
-			<section class="recipe-source">
-				<h2>Source</h2><a href=http://www.bbcgoodfood.com/recipe/spicy-jerk-prawn-mango-tacos-coconut-dressing>www.bbcgoodfood.com</a>
-				<br><br>
-				<a class='card button' href=../recipes/9c57b.html>Short URL</a> <a class='card button' href=../recipes/Spicy%20jerk%20prawn%20&%20mango%20tacos%20with%20coconut%20dressing.html>Long URL</a> <a class='card button' href="javascript:window.print();">Print</a>
-			</section>
+			<div class="source">
+				<h2>Source</h2>
+				<a href=http://www.bbcgoodfood.com/recipe/spicy-jerk-prawn-mango-tacos-coconut-dressing>www.bbcgoodfood.com</a>
+				<a class='card button' href=../recipes/9c57b.html>Short Link</a> 
+				<a class='card button' href=../recipes/Spicy%20jerk%20prawn%20&%20mango%20tacos%20with%20coconut%20dressing.html>Long Link</a>
+			</div>
 
 		</main>
 	</body>

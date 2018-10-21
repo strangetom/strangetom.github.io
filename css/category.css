@@ -196,10 +196,10 @@ p {
     h3{
     	display: none;
     }
-	.icon {
-	  height: 3em;
-	  display: inline;
-	}     
+  	.icon {
+  	  height: 3em;
+  	  display: inline;
+  	}     
   }    
   
   @media (min-width: 720px){
@@ -225,26 +225,26 @@ p {
     }
 
     .main {
-      margin-left: 180px;
+      margin-left: 190px;
       margin-top: 0;
   	  padding-right: 20px;
     }
     .sidebar {
-    	width: 160px;
+    	width: 170px;
   		height: 100%;
   		text-align: left;
 	    position: fixed;
     }
- 	.sidebar li {
- 		width: 160px;
- 	}
+   	.sidebar li {
+   		width: 160px;
+   	}
     h3{
     	display: inherit;
     }  
-	.icon {
-	  height: 1.5em;
-	  display: inline;
-	} 
+  	.icon {
+  	  height: 1.5em;
+  	  display: inline;
+  	} 
   }  
   
 
