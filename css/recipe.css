@@ -26,7 +26,6 @@ a {
 }
 
 .sidebar {
-  padding: 1em 1em;
   color: #ffffff;
   background: #272427;
   z-index: 1;  
@@ -54,9 +53,6 @@ h3 {
 .main {
   background: #fff;
   color: #272427;  
-  margin-right: 6vw;
-  margin-top: 8vh;
-  margin-bottom: 8vh;
   box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.15);
   border-radius: 3px;
   padding: 2em;  
@@ -131,12 +127,13 @@ h3 {
   @media (min-width: 360px){
 
     .main{
-      margin-left: 8vw;
+      margin: 0;
       padding: 10px 0;      
     }
     .sidebar {
+      padding: 1em 0;
       width: 100%;
-      height: 140px;
+      height: 160px;
       text-align: center;
       position: static;
 
@@ -156,29 +153,36 @@ h3 {
       padding: 1em 2em;
       width: calc(100% - 4em);
     }
-	.recipe-description {
-	  padding: 0 1em;
-	  margin: 0 1em;
-	  text-align: center;
-	}
-	.recipe-ingredients {
-	  line-height: 1.5;
-	  margin: 0 1em;
-	  padding: 0 em;      
-	}
-	.recipe-instructions {
-	  line-height: 1.5;
-	  margin: 0 1em;
-	  padding: 0 1em;      
-	}    
+  	.recipe-description {
+  	  padding: 0 1em;
+  	  margin: 0 1em;
+  	  text-align: center;
+  	}
+  	.recipe-ingredients {
+  	  line-height: 1.5;
+  	  margin: 0 1em;
+  	  padding: 0 1em;      
+  	}
+  	.recipe-instructions {
+  	  line-height: 1.5;
+  	  margin: 0 1em;
+  	  padding: 0 1em;      
+  	}
+    .recipe-title{
+      text-align: center;
+    }
   }  
 
   @media (min-width: 720px){ 
 
     .main {
       margin-left: calc(6vw + 160px);
+      margin-right: 6vw;
+      margin-top: 8vh;
+      margin-bottom: 8vh;      
     }
     .sidebar {
+      padding: 1em 1em;
       width: 160px;
       height: 100%;
       text-align: left;
@@ -193,7 +197,7 @@ h3 {
     .icon {
       height: 1.5em;
       display: inline;
-    } 
+    }     
   }
 
   @media (min-width: 1300px){
@@ -207,8 +211,8 @@ h3 {
       grid-column: 1;
     }
     .recipe-description {
-	  padding: 0 2em;
-	  margin: 0 2em;    	
+  	  padding: 0 2em;
+  	  margin: 0 2em;    	
       grid-row: 3;
       grid-column: 1 / 3;
     }
@@ -218,17 +222,20 @@ h3 {
       margin-top: 2em;
     }
     .recipe-ingredients {
-	  padding: 0 2em;
-	  margin: 0 2em;       
+  	  padding: 0 2em;
+  	  margin: 0 2em;       
       grid-row: 4;
       grid-column: 1;
     }
     .recipe-instructions {  
-	  padding: 0 2em;
-	  margin: 0 2em;       
+  	  padding: 0 2em;
+  	  margin: 0 2em;       
       grid-row: 4;
       grid-column: 2;
     }
+    .recipe-title{
+      text-align: left;
+    }    
     .recipe {
       display: grid;
       grid-template-columns: 1fr 1fr;
