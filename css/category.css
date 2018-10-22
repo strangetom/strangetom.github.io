@@ -30,6 +30,7 @@ body {
 	margin: 0;
 }
 
+/* Search box on search page */
 input {
   font-size: 3em;
   border: none;
@@ -47,6 +48,7 @@ input:focus {
   text-align: center;
 }
 
+/* Sidebar */
 .sidebar {
   padding: 1em 1em;
   color: #ffffff;
@@ -56,11 +58,19 @@ input:focus {
   left: 0;
   overflow-x: hidden;
   padding-top: 20px;  
+  width: 100%;
+  height: 160px;
+  text-align: center;
+  position: static;  
 }
 .sidebar ul {
   margin: 0;
   margin-bottom: 1em;  
-  padding: 0;
+  padding: 0;  
+}
+.sidebar li {
+  width: 10vw;
+  display: inline-block;
 }
 .sidebar-item {
   padding: 10px;
@@ -71,26 +81,40 @@ h3 {
   font-weight: 10;
   display:inline;
   padding-left: 1em;
+  display: none;
 }
+.icon {
+  height: 3em;
+  display: inline;
+}     
 
+/* Recipe list */
 .main {
   color: #272427;
 }
 p {
   text-align: center;
 }
+.recipe-list{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+}
 .recipe-list li {
   margin: 0 auto;
   margin-bottom: 1em;
   border-radius: 3px;
   box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.15);
+  width: 75vw;
 }
 .photo {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px; 
   position: relative;
+  width: 75vw;
 }
 
+/* Navigation bar */
 .navbar {
   text-align: center;
 }
@@ -108,6 +132,7 @@ p {
   color: #fff;
 }
 
+/* Floating button */
 .float {
   position:fixed;
   bottom: 40px;
@@ -115,12 +140,16 @@ p {
   background: #737273;
   text-align: center;
   box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.15);
+  width: 80px;
+  height: 80px;
+  border-radius: 60px;  
 }
 .float img {
   padding-top: 9px;
+  width: 60px;
 }
 
-
+/* Colours */
 .Beef {
   background: #d62728;
 }
@@ -152,55 +181,6 @@ p {
 *************/
 
 @supports (display: grid) {
-
-
-  @media (min-width: 360px){
-
-    .float {
-      width: 80px;
-      height: 80px;
-      border-radius: 60px;
-    }
-    .float img{
-      width: 60px;      
-    }      
-    .recipe-list li {
-      width: 75vw;
-    }
-    .photo {
-      width: 75vw;
-    }
-    .recipe-list{
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-gap: 1em;
-    }
-
-
-    .main{
-	  margin-left: 0;
-	  margin-top: 0;
-	  padding: 10px 0;    	
-    }
-    .sidebar {
-    	width: 100%;
-  		height: 160px;
-  		text-align: center;
-  		position: static;
-
-    }
-    .sidebar li {
-    	width: 10vw;
-    	display: inline-block;
-    }
-    h3{
-    	display: none;
-    }
-  	.icon {
-  	  height: 3em;
-  	  display: inline;
-  	}     
-  }    
   
   @media (min-width: 720px){
 
