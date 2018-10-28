@@ -1213,6 +1213,12 @@ var recipe_data = {
             "category": "Veggie"
         },
         {
+            "name": "Sicilian lamb with noodles",
+            "image": "./images/Sicilian_lamb_with_noodles.jpg",
+            "html": "./recipes/Sicilian lamb with noodles.html",
+            "category": "Lamb"
+        },
+        {
             "name": "Sizzling summer cod",
             "image": "./images/Sizzling_summer_cod.jpg",
             "html": "./recipes/Sizzling summer cod.html",
