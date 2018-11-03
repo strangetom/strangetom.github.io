@@ -853,6 +853,12 @@ var recipe_data = {
             "category": "Chicken"
         },
         {
+            "name": "Orzo with prawns, tomato and marinated feta",
+            "image": "./images/Orzo_with_prawns_tomato_and_marinated_feta.jpg",
+            "html": "./recipes/Orzo with prawns, tomato and marinated feta.html",
+            "category": "Seafood"
+        },
+        {
             "name": "Oven-baked leek & bacon risotto",
             "image": "./images/Oven-baked_leek_&_bacon_risotto.jpg",
             "html": "./recipes/Oven-baked leek & bacon risotto.html",
@@ -1061,6 +1067,12 @@ var recipe_data = {
             "image": "./images/Puerto_rican_chicken_and_rice.jpg",
             "html": "./recipes/Puerto rican chicken and rice.html",
             "category": "Chicken"
+        },
+        {
+            "name": "Puy lentil and aubergine stew",
+            "image": "./images/Puy_lentil_and_aubergine_stew.jpg",
+            "html": "./recipes/Puy lentil and aubergine stew.html",
+            "category": "Veggie"
         },
         {
             "name": "Quick chicken & red lentil curry",
