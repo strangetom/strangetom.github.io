@@ -71,6 +71,9 @@ h3 {
   padding: 10px 0;  
 }
 .recipe-image {
+	display: block;
+	margin: 0 auto;
+	max-width: 512px;
 	padding: 1em 2em;
 	width: calc(100% - 4em);
 }
