@@ -151,12 +151,9 @@ h3 {
 
   @media (min-width: 720px){ 
 
-    .main {
-      margin-left: calc(6vw + 160px);
-      margin-right: 6vw;
-      margin-top: 8vh;
-      margin-bottom: 8vh;      
-    }
+  	.main {
+  		margin-left: calc(160px + 2em);
+  	}
     .sidebar {
       padding: 1em 1em;
       width: 160px;
@@ -177,6 +174,12 @@ h3 {
 
   @media (min-width: 1300px){
 
+    .main {
+      margin-left: calc(6vw + 160px);
+      margin-right: 6vw;
+      margin-top: 8vh;
+      margin-bottom: 8vh;      
+    }
     .recipe-title {
       grid-row: 1;
       grid-column: 1;
@@ -205,7 +208,7 @@ h3 {
     .recipe-text {
   	  padding: 0 2em;
   	  margin: 0 2em;    	
-    }
+    }  	    
     .recipe-title{
       text-align: left;
     }    
