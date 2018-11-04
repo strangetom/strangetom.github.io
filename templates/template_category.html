@@ -113,7 +113,7 @@
 				{%for recipe in recipe_list -%}
 				<li id="{{recipe.id}}" class="{{recipe.category}}">
 					<a href="{{recipe.html_path}}">
-						<img class="photo" src="{{recipe.image}}" onerror="this.onerror=null;this.src='./img/{{recipe.category}}.svg';" alt="Recipe image">
+						<img class="photo" src="{{recipe.image}}" onerror="this.onerror=null;this.src='./img/{{recipe.category}}.svg';this.style='max-width: 266px;display: block;margin: 0 auto';" alt="Recipe image">
 						<h2>{{recipe.name}}</h2>
 					</a>
 				</li>
