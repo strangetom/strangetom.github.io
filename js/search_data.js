@@ -1585,6 +1585,12 @@ var recipe_data = {
             "category": "Seafood"
         },
         {
+            "name": "The almighty mob chicken pie",
+            "image": "./images/The_almighty_mob_chicken_pie.jpg",
+            "html": "./recipes/The almighty mob chicken pie.html",
+            "category": "Chicken"
+        },
+        {
             "name": "Traditional pork steaks with honey and mustard sauce",
             "image": "./images/Traditional_pork_steaks_with_honey_and_mustard_sauce.jpg",
             "html": "./recipes/Traditional pork steaks with honey and mustard sauce.html",
