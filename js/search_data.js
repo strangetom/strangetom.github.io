@@ -451,6 +451,12 @@ var recipe_data = {
             "category": "Pork"
         },
         {
+            "name": "Fragrant rice with chilli vegetables",
+            "image": "./images/Fragrant_rice_with_chilli_vegetables.jpg",
+            "html": "./recipes/Fragrant rice with chilli vegetables.html",
+            "category": "Veggie"
+        },
+        {
             "name": "Fusilli with roasted vegetables",
             "image": "./images/Fusilli_with_roasted_vegetables.jpg",
             "html": "./recipes/Fusilli with roasted vegetables.html",
@@ -1043,6 +1049,12 @@ var recipe_data = {
             "image": "./images/Prawn_and_vegetable_balti.jpg",
             "html": "./recipes/Prawn and vegetable balti.html",
             "category": "Seafood"
+        },
+        {
+            "name": "Prawn, chorizo & basil linguine",
+            "image": "./images/Prawn_chorizo_&_basil_linguine.jpg",
+            "html": "./recipes/Prawn chorizo & basil linguine.html",
+            "category": "Pork"
         },
         {
             "name": "Prawn jambalaya",
