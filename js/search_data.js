@@ -1117,6 +1117,12 @@ var recipe_data = {
             "category": "Seafood"
         },
         {
+            "name": "Ricotta and oregano meatballs",
+            "image": "./images/Ricotta_and_oregano_meatballs.jpg",
+            "html": "./recipes/Ricotta and oregano meatballs.html",
+            "category": "Beef"
+        },
+        {
             "name": "Ricotta pasta pockets",
             "image": "./images/Ricotta_pasta_pockets.jpg",
             "html": "./recipes/Ricotta pasta pockets.html",
