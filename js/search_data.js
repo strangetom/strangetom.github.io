@@ -427,6 +427,12 @@ var recipe_data = {
             "category": "Veggie"
         },
         {
+            "name": "Florentina pizza",
+            "image": "./images/Florentina_pizza.jpg",
+            "html": "./recipes/Florentina pizza.html",
+            "category": "Veggie"
+        },
+        {
             "name": "Florentine chicken bake",
             "image": "./images/Florentine_chicken_bake.jpg",
             "html": "./recipes/Florentine chicken bake.html",
@@ -898,6 +904,12 @@ var recipe_data = {
             "name": "Pan roasted chicken with spicy fried rice",
             "image": "./images/Pan_roasted_chicken_with_spicy_fried_rice.jpg",
             "html": "./recipes/Pan roasted chicken with spicy fried rice.html",
+            "category": "Chicken"
+        },
+        {
+            "name": "Pan-fried chicken with creamy beans & leeks",
+            "image": "./images/Pan-fried_chicken_with_creamy_beans_&_leeks.jpg",
+            "html": "./recipes/Pan-fried chicken with creamy beans & leeks.html",
             "category": "Chicken"
         },
         {
