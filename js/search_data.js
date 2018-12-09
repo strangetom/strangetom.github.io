@@ -385,6 +385,12 @@ var recipe_data = {
             "category": "Seafood"
         },
         {
+            "name": "Curried lentil, tomato and coconut soup",
+            "image": "./images/Curried_lentil_tomato_and_coconut_soup.jpg",
+            "html": "./recipes/Curried lentil tomato and coconut soup.html",
+            "category": "Veggie"
+        },
+        {
             "name": "Deb Henley's chicken enchiladas verdes",
             "image": "./images/Deb_Henleys_chicken_enchiladas_verdes.jpg",
             "html": "./recipes/Deb Henley's chicken enchiladas verdes.html",
