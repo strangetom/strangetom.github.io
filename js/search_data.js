@@ -73,6 +73,12 @@ var recipe_data = {
             "category": "Pork"
         },
         {
+            "name": "Bean, pepper and chorizo stew",
+            "image": "./images/Bean_pepper_and_chorizo_stew.jpg",
+            "html": "./recipes/Bean, pepper and chorizo stew.html",
+            "category": "Pork"
+        },
+        {
             "name": "Becker BBQ shrimp",
             "image": "./images/Becker_BBQ_shrimp.jpg",
             "html": "./recipes/Becker BBQ shrimp.html",
