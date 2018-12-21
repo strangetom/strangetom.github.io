@@ -5,9 +5,9 @@
 		<meta name="viewport" content="width=device-width">
 	  	<title>Stranger Foods</title>
 	  	<link rel="stylesheet" type="text/css" href="./css/category.min.css">
+	  	<script type="text/javascript" src="./js/lazyload.min.js"></script>
 	</head>
 	<body class="site">
-
 		<header class="sidebar">
 			<ul>
 				<!-- Logo always returns main page -->
@@ -113,12 +113,18 @@
 				{%for recipe in recipe_list -%}
 				<li id="{{recipe.id}}" class="{{recipe.category}}">
 					<a href="{{recipe.html_path}}">
-						<img class="photo" src="{{recipe.image}}" onerror="this.onerror=null;this.src='./img/{{recipe.category}}.svg';this.style='max-width: 266px;display: block;margin: 0 auto';" alt="Recipe image">
+						<img class="photo" id="lazy" data-src="{{recipe.image}}" onerror="this.onerror=null;this.src='./img/{{recipe.category}}.svg';this.style='max-width: 266px;display: block;margin: 0 auto';" alt="Recipe image">
 						<h2>{{recipe.name}}</h2>
 					</a>
 				</li>
 				{% endfor -%}
 			</ul>
+
+			<script type="text/javascript">
+				var myLazyLoad = new LazyLoad({
+				    elements_selector: "#lazy"
+				});
+			</script>			
 
 			<!--- Button to return to top of page -->
 			<a href="#top" class="float">

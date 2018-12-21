@@ -5,9 +5,9 @@
 		<meta name="viewport" content="width=device-width">
 	  	<title>Stranger Foods</title>
 	  	<link rel="stylesheet" type="text/css" href="./css/category.min.css">
+	  	<script type="text/javascript" src="./js/lazyload.min.js"></script>
 	</head>
 	<body class="site">
-
 		<header class="sidebar">
 			<ul>
 				<!-- Logo always returns main page -->
@@ -112,29 +112,35 @@
 				<!--- Recipes -->
 				<li id="b" class="Turkey">
 					<a href="./recipes/Bolognese%20with%20a%20healthy%20twist.html">
-						<img class="photo" src="./images/Bolognese_with_a_healthy_twist.jpg" onerror="this.onerror=null;this.src='./img/Turkey.svg';this.style='max-width: 266px;display: block;margin: 0 auto';" alt="Recipe image">
+						<img class="photo" id="lazy" data-src="./images/Bolognese_with_a_healthy_twist.jpg" onerror="this.onerror=null;this.src='./img/Turkey.svg';this.style='max-width: 266px;display: block;margin: 0 auto';" alt="Recipe image">
 						<h2>Bolognese with a healthy twist</h2>
 					</a>
 				</li>
 				<li id="n" class="Turkey">
 					<a href="./recipes/New%20potato%20&%20mince%20curry.html">
-						<img class="photo" src="./images/New_potato_&_mince_curry.jpg" onerror="this.onerror=null;this.src='./img/Turkey.svg';this.style='max-width: 266px;display: block;margin: 0 auto';" alt="Recipe image">
+						<img class="photo" id="lazy" data-src="./images/New_potato_&_mince_curry.jpg" onerror="this.onerror=null;this.src='./img/Turkey.svg';this.style='max-width: 266px;display: block;margin: 0 auto';" alt="Recipe image">
 						<h2>New potato & mince curry</h2>
 					</a>
 				</li>
 				<li id="s" class="Turkey">
 					<a href="./recipes/Sweet%20&%20sour%20turkey.html">
-						<img class="photo" src="./images/Sweet_&_sour_turkey.jpg" onerror="this.onerror=null;this.src='./img/Turkey.svg';this.style='max-width: 266px;display: block;margin: 0 auto';" alt="Recipe image">
+						<img class="photo" id="lazy" data-src="./images/Sweet_&_sour_turkey.jpg" onerror="this.onerror=null;this.src='./img/Turkey.svg';this.style='max-width: 266px;display: block;margin: 0 auto';" alt="Recipe image">
 						<h2>Sweet & sour turkey</h2>
 					</a>
 				</li>
 				<li id="t" class="Turkey">
 					<a href="./recipes/Turkey%20bolognese.html">
-						<img class="photo" src="./images/Turkey_bolognese.jpg" onerror="this.onerror=null;this.src='./img/Turkey.svg';this.style='max-width: 266px;display: block;margin: 0 auto';" alt="Recipe image">
+						<img class="photo" id="lazy" data-src="./images/Turkey_bolognese.jpg" onerror="this.onerror=null;this.src='./img/Turkey.svg';this.style='max-width: 266px;display: block;margin: 0 auto';" alt="Recipe image">
 						<h2>Turkey bolognese</h2>
 					</a>
 				</li>
 				</ul>
+
+			<script type="text/javascript">
+				var myLazyLoad = new LazyLoad({
+				    elements_selector: "#lazy"
+				});
+			</script>			
 
 			<!--- Button to return to top of page -->
 			<a href="#top" class="float">
