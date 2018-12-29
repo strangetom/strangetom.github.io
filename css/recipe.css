@@ -120,12 +120,12 @@ h3 {
   border-top: 10px solid #d62728;
 }
 .Chicken {
-  --highlight-colour: #ffba34;
-  border-top: 10px solid #ffba34;
-}
-.Dessert {
   --highlight-colour: #ff7f0e;
   border-top: 10px solid #ff7f0e;
+}
+.Dessert {
+  --highlight-colour: #2c8569;
+  border-top: 10px solid #2c8569;
 }
 .Lamb {
   --highlight-colour: #9467bd;
