@@ -1141,6 +1141,12 @@ var recipe_data = {
             "category": "Seafood"
         },
         {
+            "name": "Rich one-pan mushroom orzo risotto",
+            "image": "./images/Rich_one-pan_mushroom_orzo_risotto.jpg",
+            "html": "./recipes/Rich one-pan mushroom orzo risotto.html",
+            "category": "Veggie"
+        },
+        {
             "name": "Ricotta and oregano meatballs",
             "image": "./images/Ricotta_and_oregano_meatballs.jpg",
             "html": "./recipes/Ricotta and oregano meatballs.html",
@@ -1307,6 +1313,12 @@ var recipe_data = {
             "image": "./images/Smoky_sweet_potato_&_bean_cakes_with_citrus_salad.jpg",
             "html": "./recipes/Smoky sweet potato & bean cakes with citrus salad.html",
             "category": "Veggie"
+        },
+        {
+            "name": "South indian-style coconut fish curry",
+            "image": "./images/South_indian-style_coconut_fish_curry.jpg",
+            "html": "./recipes/South indian-style coconut fish curry.html",
+            "category": "Seafood"
         },
         {
             "name": "Soy salmon with sesame stir fry",
