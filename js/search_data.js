@@ -1711,6 +1711,12 @@ var recipe_data = {
             "category": "Seafood"
         },
         {
+            "name": "Za'atar chicken & new potato bake with tzatziki",
+            "image": "./images/Za'atar_chicken_&_new_potato_bake_with_tzatziki.jpg",
+            "html": "./recipes/Za'atar chicken & new potato bake with tzatziki.html",
+            "category": "Chicken"
+        },
+        {
             "name": "Zesty haddock with crushed potatoes & peas",
             "image": "./images/Zesty_haddock_with_crushed_potatoes_&_peas.jpg",
             "html": "./recipes/Zesty haddock with crushed potatoes & peas.html",
