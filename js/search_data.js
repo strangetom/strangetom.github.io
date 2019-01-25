@@ -307,6 +307,12 @@ var recipe_data = {
             "category": "Veggie"
         },
         {
+            "name": "Chocolate chilli con carne",
+            "image": "./images/Chocolate_chilli_con_carne.jpg",
+            "html": "./recipes/Chocolate chilli con carne.html",
+            "category": "Beef"
+        },
+        {
             "name": "Chorizo &  chilli rigatoni",
             "image": "./images/Chorizo_&_chilli_rigatoni.jpg",
             "html": "./recipes/Chorizo & chilli rigatoni.html",
@@ -503,6 +509,12 @@ var recipe_data = {
             "image": "./images/Garlicky_mushroom_penne.jpg",
             "html": "./recipes/Garlicky mushroom penne.html",
             "category": "Veggie"
+        },
+        {
+            "name": "Ginger steamed salmon with wild rice",
+            "image": "./images/Ginger_steamed_salmon_with_wild_rice.jpg",
+            "html": "./recipes/Ginger steamed salmon with wild rice.html",
+            "category": "Seafood"
         },
         {
             "name": "Glazed lemon-pepper chicken",
@@ -1348,6 +1360,12 @@ var recipe_data = {
             "name": "Spaghetti with salmon and prawns",
             "image": "./images/Spaghetti_with_salmon_and_prawns.jpg",
             "html": "./recipes/Spaghetti with salmon and prawns.html",
+            "category": "Seafood"
+        },
+        {
+            "name": "Spaghetti with tomato, chilli & tuna salsa",
+            "image": "./images/Spaghetti_with_tomato_chilli_&_tuna_salsa.jpg",
+            "html": "./recipes/Spaghetti with tomato chilli & tuna salsa.html",
             "category": "Seafood"
         },
         {
