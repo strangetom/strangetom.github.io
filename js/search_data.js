@@ -85,6 +85,12 @@ var recipe_data = {
             "category": "Seafood"
         },
         {
+            "name": "Beef & ale slice pie",
+            "image": "./images/Beef_&_ale_slice_pie.jpg",
+            "html": "./recipes/Beef & ale slice pie.html",
+            "category": "Beef"
+        },
+        {
             "name": "Beef & lentil cottage pie with cauliflower & potato topping",
             "image": "./images/Beef_&_lentil_cottage_pie_with_cauliflower_&_potato_topping.jpg",
             "html": "./recipes/Beef & lentil cottage pie with cauliflower & potato topping.html",
@@ -595,6 +601,12 @@ var recipe_data = {
             "category": "Veggie"
         },
         {
+            "name": "Jacket potatoes with egg and tonnato sauce",
+            "image": "./images/Jacket_potatoes_with_egg_and_tonnato_sauce.jpg",
+            "html": "./recipes/Jacket potatoes with egg and tonnato sauce.html",
+            "category": "Veggie"
+        },
+        {
             "name": "Jerk beefburger with pineapple relish & chips",
             "image": "./images/Jerk_beefburger_with_pineapple_relish_&_chips.jpg",
             "html": "./recipes/Jerk beefburger with pineapple relish & chips.html",
@@ -755,6 +767,12 @@ var recipe_data = {
             "image": "./images/Mediterranean_vegetables_with_lamb.jpg",
             "html": "./recipes/Mediterranean vegetables with lamb.html",
             "category": "Lamb"
+        },
+        {
+            "name": "Mexican bean soup with guacamole",
+            "image": "./images/Mexican_bean_soup_with_guacamole.jpg",
+            "html": "./recipes/Mexican bean soup with guacamole.html",
+            "category": "Veggie"
         },
         {
             "name": "Mexican tomato rice",
@@ -1661,6 +1679,12 @@ var recipe_data = {
             "image": "./images/The_almighty_mob_chicken_pie.jpg",
             "html": "./recipes/The almighty mob chicken pie.html",
             "category": "Chicken"
+        },
+        {
+            "name": "Tomato pork bombs",
+            "image": "./images/Tomato_pork_bombs.jpg",
+            "html": "./recipes/Tomato pork bombs.html",
+            "category": "Pork"
         },
         {
             "name": "Traditional pork steaks with honey and mustard sauce",
