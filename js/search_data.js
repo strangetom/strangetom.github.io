@@ -1027,6 +1027,12 @@ var recipe_data = {
             "category": "Chicken"
         },
         {
+            "name": "Pimped rice piri piri",
+            "image": "./images/Pimped_rice_piri_piri.jpg",
+            "html": "./recipes/Pimped%20rice%20piri%20piri.html",
+            "category": "Chicken"
+        },
+        {
             "name": "Piri-piri chicken with spicy rice",
             "image": "./images/Piri-piri_chicken_with_spicy_rice.jpg",
             "html": "./recipes/Piri-piri%20chicken%20with%20spicy%20rice.html",
@@ -1234,6 +1240,12 @@ var recipe_data = {
             "name": "Salmon and broccoli pasta bake",
             "image": "./images/Salmon_and_broccoli_pasta_bake.jpg",
             "html": "./recipes/Salmon%20and%20brocolli%20pasta%20bake.html",
+            "category": "Seafood"
+        },
+        {
+            "name": "Salmon & saffron risotto",
+            "image": "./images/Salmon_&_saffron_risotto.jpg",
+            "html": "./recipes/Salmon_&_saffron_risotto.html",
             "category": "Seafood"
         },
         {
@@ -1613,6 +1625,12 @@ var recipe_data = {
             "image": "./images/Sweet_potato_bacon_&_orzo_pasta_salad.jpg",
             "html": "./recipes/Sweet%20potato%20bacon%20&%20orzo%20pasta%20salad.html",
             "category": "Pork"
+        },
+        {
+            "name": "Tagliatelle with goat's cheese",
+            "image": "./images/Tagliatelle_with_goats_cheese.jpg",
+            "html": "./recipes/Tagliatelle%20with%20goat's%20cheese.html",
+            "category": "Veggie"
         },
         {
             "name": "Tarragon & chicken rigatoni",
