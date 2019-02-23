@@ -19,6 +19,12 @@ var recipe_data = {
             "category": "Chicken"
         },
         {
+            "name": "Ants climbing trees",
+            "image": "./images/Ants_climbing_trees.jpg",
+            "html": "./recipes/Ants%20climbing%20trees.html",
+            "category": "Pork"
+        },
+        {
             "name": "Apple & mustard pork burgers",
             "image": "./images/Apple_&_mustard_pork_burgers.jpg",
             "html": "./recipes/Apple%20&%20mustard%20pork%20burgers.html",
@@ -1237,15 +1243,15 @@ var recipe_data = {
             "category": "Seafood"
         },
         {
-            "name": "Salmon and broccoli pasta bake",
-            "image": "./images/Salmon_and_broccoli_pasta_bake.jpg",
-            "html": "./recipes/Salmon%20and%20brocolli%20pasta%20bake.html",
+            "name": "Salmon & saffron risotto",
+            "image": "./images/Salmon_&_saffron_risotto.jpg",
+            "html": "./recipes/Salmon%20&%20saffron%20risotto.html",
             "category": "Seafood"
         },
         {
-            "name": "Salmon & saffron risotto",
-            "image": "./images/Salmon_&_saffron_risotto.jpg",
-            "html": "./recipes/Salmon_&_saffron_risotto.html",
+            "name": "Salmon and broccoli pasta bake",
+            "image": "./images/Salmon_and_broccoli_pasta_bake.jpg",
+            "html": "./recipes/Salmon%20and%20brocolli%20pasta%20bake.html",
             "category": "Seafood"
         },
         {
@@ -1462,6 +1468,12 @@ var recipe_data = {
             "name": "Spiced lentils",
             "image": "./images/Spiced_lentils.jpg",
             "html": "./recipes/Spiced%20lentils.html",
+            "category": "Veggie"
+        },
+        {
+            "name": "Spiced mushroom & lentil hotpot",
+            "image": "./images/Spiced_mushroom_&_lentil_hotpot.jpg",
+            "html": "./recipes/Spiced%20mushroom%20&%20lentil%20hotpot.html",
             "category": "Veggie"
         },
         {
@@ -1714,12 +1726,6 @@ var recipe_data = {
             "name": "Tuna & tomato rice",
             "image": "./images/Tuna_&_tomato_rice.jpg",
             "html": "./recipes/Tuna%20&%20tomato%20rice.html",
-            "category": "Seafood"
-        },
-        {
-            "name": "Tuna noodles with honey and ginger dressing",
-            "image": "./images/Tuna_noodles_with_honey_and_ginger_dressing.jpg",
-            "html": "./recipes/Tuna%20noodles%20with%20honey%20and%20ginger%20dressing.html",
             "category": "Seafood"
         },
         {
