@@ -625,6 +625,12 @@ var recipe_data = {
             "category": "Pork"
         },
         {
+            "name": "Jerk pork with mango and bean rice",
+            "image": "./images/Jerk_pork_with_mango_and_bean_rice.jpg",
+            "html": "./recipes/Jerk%20pork%20with%20mango%20and%20bean%20rice.html",
+            "category": "Pork"
+        },
+        {
             "name": "Jerk sweet potato & black bean curry",
             "image": "./images/Jerk_sweet_potato_&_black_bean_curry.jpg",
             "html": "./recipes/Jerk%20sweet%20potato%20&%20black%20bean%20curry.html",
