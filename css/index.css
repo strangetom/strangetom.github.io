@@ -1,0 +1,188 @@
+/*************
+*   STYLE   *
+*************/
+
+html {
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+}
+h1 {
+    color: #272427;
+    text-align: center;
+    font-size: 5em;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+h2 {
+	font-size: 1.3em;
+	margin: 15px;
+	color: #fff;
+}
+a{
+	text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+img {
+	max-height: 266px
+}
+body {
+	margin: 0;
+}
+
+/* Navbar */
+.navbar{
+  text-align: center;
+}
+.navbar-item {
+  display: inline-block;
+  margin: 0 auto;  
+}
+.icon {
+  padding: 1px 10px;
+  width: 6em;
+}
+
+/* Search box on search page */
+input {
+  font-size: 3em;
+  border: none;
+  border-bottom: solid 3px #272427;
+  background: #fff;
+  width: 50%;
+  margin-bottom: 1em;
+  margin-top: 0.5em;
+}
+input:focus {
+  outline-width: 0;
+  border-bottom: solid 3px #ff7f0e;
+}
+.search-box {
+  text-align: center;
+}
+
+/* Recipe list */
+.main {
+  background: #fff;
+  color: #272427;  
+  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  margin: 0;
+  padding: 10px 0;  
+}
+p {
+  text-align: center;
+}
+.recipe-list{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+  margin-bottom: 0;
+}
+.recipe-list li {
+  margin: 0 auto;
+  margin-bottom: 1em;
+  border-radius: 3px;
+  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.15);
+  width: 75vw;
+}
+.photo {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px; 
+  position: relative;
+  width: 75vw;
+}
+
+/* Colours */
+.Beef {
+  background: #d62728;
+}
+.Chicken {
+  background: #ff7f0e;
+}
+.Dessert {
+  background: #2c8569;
+}
+.Lamb {
+  background: #9467bd;
+}
+.Pork {
+  background: #e377c2;
+}
+.Seafood {
+  background: #17becf;
+}
+.Turkey {
+  background: #8c564b;
+}
+.Veggie {
+  background: #2ca02c;
+}
+
+
+/*************
+*   LAYOUT   *
+*************/
+
+@supports (display: grid) {
+  
+  @media (min-width: 720px){
+
+    .float {
+      width: 80px;
+      height: 80px;
+      border-radius: 60px;
+    }
+    .float img{
+      width: 60px;      
+    }      
+    .recipe-list li {
+      width: 33vw;
+    }
+    .photo {
+      width: 33vw;
+    }
+    .recipe-list{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 1em;
+    }
+
+    .main {
+  	  padding-right: 4vw;
+      padding-left: 1vw;
+      padding-top: 1em;
+      margin-bottom: 0;
+    }
+  }  
+
+  @media (min-width: 1300px){  	
+
+    .float {
+      width: 60px;
+      height: 60px;
+      border-radius: 40px;
+    }
+    .float img{
+      width: 40px;      
+    }
+    .recipe-list li {
+      width: 18vw;
+    }
+    .photo {
+      width: 18vw;
+    }
+    .recipe-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 1em;
+    }
+    .main {
+      margin-top: 8vh;
+      margin-bottom: 0;
+      margin-right: 6vw;
+      margin-left: 6vw;
+    }
+  }
+}

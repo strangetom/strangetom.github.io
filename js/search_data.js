@@ -535,6 +535,12 @@ var recipe_data = {
             "category": "Seafood"
         },
         {
+            "name": "Goan prawn, potato & coconut curry",
+            "image": "./images/Goan_prawn_potato_&_coconut_curry.jpg",
+            "html": "./recipes/Goan%20prawn,%20potato%20&%20coconut%20curry.html",
+            "category": "Seafood"
+        },
+        {
             "name": "Gooey pasta bake",
             "image": "./images/Gooey_pasta_bake.jpg",
             "html": "./recipes/Gooey%20pasta%20bake.html",
@@ -587,6 +593,12 @@ var recipe_data = {
             "image": "./images/Hungarian_goulash.jpg",
             "html": "./recipes/Hungarian%20goulash.html",
             "category": "Beef"
+        },
+        {
+            "name": "Indian chicken korma",
+            "image": "./images/Indian_chicken_korma.jpg",
+            "html": "./recipes/Indian%20chicken%20korma.html",
+            "category": "Chicken"
         },
         {
             "name": "Italian cod and bacon stew",
@@ -983,6 +995,12 @@ var recipe_data = {
             "image": "./images/Pasta_amatriciana.jpg",
             "html": "./recipes/Pasta%20amatriciana.html",
             "category": "Pork"
+        },
+        {
+            "name": "Pasta with broad beans",
+            "image": "./images/Pasta_with_broad_beans.jpg",
+            "html": "./recipes/Pasta%20with%20broad%20beans.html",
+            "category": "Veggie"
         },
         {
             "name": "Pasta with cherry tomato sauce",
