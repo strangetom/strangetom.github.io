@@ -1807,6 +1807,12 @@ var recipe_data = {
             "category": "Seafood"
         },
         {
+            "name": "White beans and pasta with rosemary pesto",
+            "image": "./images/White_beans_and_pasta_with_rosemary_pesto.jpg",
+            "html": "./recipes/White%20beans%20and%20pasta%20with%20rosemary%20pesto.html",
+            "category": "Veggie"
+        },
+        {
             "name": "Za'atar chicken & new potato bake with tzatziki",
             "image": "./images/Za'atar_chicken_&_new_potato_bake_with_tzatziki.jpg",
             "html": "./recipes/Za'atar%20chicken%20&%20new%20potato%20bake%20with%20tzatziki.html",

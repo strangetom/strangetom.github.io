@@ -17,6 +17,14 @@ h2 {
 	margin: 15px;
 	color: #fff;
 }
+h3 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 10;
+  display:inline;
+  padding-left: 1em;
+  display: none;
+}
 a{
 	text-decoration: none;
 }
@@ -74,14 +82,6 @@ input:focus {
 }
 .sidebar-item {
   padding: 10px;
-}
-h3 {
-  color: #fff;
-  font-size: 1.5em;
-  font-weight: 10;
-  display:inline;
-  padding-left: 1em;
-  display: none;
 }
 .icon {
   height: 3em;
