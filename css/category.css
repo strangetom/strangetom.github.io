@@ -5,6 +5,7 @@
 html {
     background-color: #fff;
     font-family: sans-serif;
+    scroll-behavior: smooth;
 }
 h1 {
     color: #272427;
