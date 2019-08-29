@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,41 +63,41 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Pork">
+		<main class="main Pork" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Super smoky bacon & tomato spaghetti</h1>
+				<h1 class="recipe-title" itemprop="name">Super smoky bacon & tomato spaghetti</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Pork_colour.svg" alt="Category icon"><p>Pork</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>5</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT5M><b>5</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Super_smoky_bacon_&_tomato_spaghetti.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">Serve your pasta with a budget-busting tomato and paprika sauce. It's a healthy choice to boot</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Super_smoky_bacon_&_tomato_spaghetti.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">Serve your pasta with a budget-busting tomato and paprika sauce. It's a healthy choice to boot</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>400</b> g spaghetti</li>
-							<li><b>1</b> tbsp olive oil</li>
-							<li><b>120</b> g smoked streaky bacon, sliced into matchsticks</li>
-							<li><b>1</b> onion, finely chopped</li>
-							<li><b>1</b> garlic clove, finely chopped</li>
-							<li><b>2</b> tsp sweet smoked paprika</li>
-							<li><b>2</b> x 400g cans chopped tomatoes</li>
-							<li>grated Parmesan, to serve (optional)</li>
+							<li itemprop="recipeIngredient"><b>400</b> g spaghetti</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp olive oil</li>
+							<li itemprop="recipeIngredient"><b>120</b> g smoked streaky bacon, sliced into matchsticks</li>
+							<li itemprop="recipeIngredient"><b>1</b> onion, finely chopped</li>
+							<li itemprop="recipeIngredient"><b>1</b> garlic clove, finely chopped</li>
+							<li itemprop="recipeIngredient"><b>2</b> tsp sweet smoked paprika</li>
+							<li itemprop="recipeIngredient"><b>2</b> x 400g cans chopped tomatoes</li>
+							<li itemprop="recipeIngredient">grated Parmesan, to serve (optional)</li>
 							</ul>
 					</p>
 				</div>
@@ -106,8 +106,8 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Bring a large pan of water to the boil and cook the spaghetti following pack instructions. Meanwhile, heat the oil in a large non-stick frying pan and cook the bacon for <b>3-4</b> mins until just starting to crisp. Stir in the onion and cook for another <b>3-4</b> mins, then add the garlic and smoked paprika, and cook for <b>1</b> min more.</li>
-							<li>Pour in the chopped tomatoes, bring to the boil and bubble for about <b>5</b> mins until thickened, stirring every so often to stop it catching on the bottom. Drain the pasta and toss with the sauce. Serve with Parmesan. </li>
+							<li itemprop="recipeInstructions">Bring a large pan of water to the boil and cook the spaghetti following pack instructions. Meanwhile, heat the oil in a large non-stick frying pan and cook the bacon for <b>3-4</b> mins until just starting to crisp. Stir in the onion and cook for another <b>3-4</b> mins, then add the garlic and smoked paprika, and cook for <b>1</b> min more.</li>
+							<li itemprop="recipeInstructions">Pour in the chopped tomatoes, bring to the boil and bubble for about <b>5</b> mins until thickened, stirring every so often to stop it catching on the bottom. Drain the pasta and toss with the sauce. Serve with Parmesan. </li>
 							</ol>
 					</p>
 				</div>
@@ -116,7 +116,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -131,14 +131,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>500</b> kcal</td>
-							<td><b>12</b> g</td>
-							<td><b>3</b> g</td>
-							<td><b>80</b> g</td>
-							<td><b>11</b> g</td>
-							<td><b>7</b> g</td>
-							<td><b>20</b> g</td>
-							<td><b>1.2</b> g</td>
+							<td itemprop="calories"><b>500</b> kcal</td>
+							<td itemprop="fatContent"><b>12</b> g</td>
+							<td itemprop="saturatedFatContent"><b>3</b> g</td>
+							<td itemprop="carbohydrateContent"><b>80</b> g</td>
+							<td itemprop="sugarContent"><b>11</b> g</td>
+							<td itemprop="fiberContent"><b>7</b> g</td>
+							<td itemprop="proteinContent"><b>20</b> g</td>
+							<td itemprop="sodiumContent"><b>1.2</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

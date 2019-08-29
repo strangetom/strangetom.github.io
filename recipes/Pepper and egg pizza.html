@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,38 +63,38 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Veggie">
+		<main class="main Veggie" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Pepper and egg pizza</h1>
+				<h1 class="recipe-title" itemprop="name">Pepper and egg pizza</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Veggie_colour.svg" alt="Category icon"><p>Veggie</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>27</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT27M><b>27</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Pepper_and_egg_pizza.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text"></p>	
+				<img itemprop="image" class="recipe-image" src="../images/Pepper_and_egg_pizza.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description"></p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>150</b> g red and yellow peppers in oil</li>
-							<li><b>8</b> tbsp passata</li>
-							<li><b>4</b> small wheat-free pizza bases</li>
-							<li><b>4</b> medium eggs</li>
-							<li><b>125</b> g watercress, washed and stalks removed</li>
+							<li itemprop="recipeIngredient"><b>150</b> g red and yellow peppers in oil</li>
+							<li itemprop="recipeIngredient"><b>8</b> tbsp passata</li>
+							<li itemprop="recipeIngredient"><b>4</b> small wheat-free pizza bases</li>
+							<li itemprop="recipeIngredient"><b>4</b> medium eggs</li>
+							<li itemprop="recipeIngredient"><b>125</b> g watercress, washed and stalks removed</li>
 							</ul>
 					</p>
 				</div>
@@ -103,9 +103,9 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Preheat the oven to <b>200</b>&degC/Gas <b>7</b> and preheat two large baking sheets, big enough to hold two pizzas each.</li>
-							<li>Drain the peppers, reserving the oil. Chop into thin strips. Spoon <b>2</b> tbsp passata over each pizza base and scatter the strips of the chopped pepper around the edges. Make a dip in the passata in the middle of each pizza and break an egg into it. Carefully slide the pizzas on to the preheated baking sheets. Place in the oven and cook for <b>12</b> minutes until the egg is thoroughly cooked.</li>
-							<li>Top the pizzas with the watercress, drizzle with a little of the reserved oil from the peppers and serve.</li>
+							<li itemprop="recipeInstructions">Preheat the oven to <b>200</b>&degC/Gas <b>7</b> and preheat two large baking sheets, big enough to hold two pizzas each.</li>
+							<li itemprop="recipeInstructions">Drain the peppers, reserving the oil. Chop into thin strips. Spoon <b>2</b> tbsp passata over each pizza base and scatter the strips of the chopped pepper around the edges. Make a dip in the passata in the middle of each pizza and break an egg into it. Carefully slide the pizzas on to the preheated baking sheets. Place in the oven and cook for <b>12</b> minutes until the egg is thoroughly cooked.</li>
+							<li itemprop="recipeInstructions">Top the pizzas with the watercress, drizzle with a little of the reserved oil from the peppers and serve.</li>
 							</ol>
 					</p>
 				</div>
@@ -114,7 +114,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -129,14 +129,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>403</b> kcal</td>
-							<td><b>13</b> g</td>
-							<td><b>2</b> g</td>
-							<td><b>61</b> g</td>
-							<td>? g</td>
-							<td>? g</td>
-							<td>? g</td>
-							<td><b>1</b> g</td>
+							<td itemprop="calories"><b>403</b> kcal</td>
+							<td itemprop="fatContent"><b>13</b> g</td>
+							<td itemprop="saturatedFatContent"><b>2</b> g</td>
+							<td itemprop="carbohydrateContent"><b>61</b> g</td>
+							<td itemprop="sugarContent">? g</td>
+							<td itemprop="fiberContent">? g</td>
+							<td itemprop="proteinContent">? g</td>
+							<td itemprop="sodiumContent"><b>1</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

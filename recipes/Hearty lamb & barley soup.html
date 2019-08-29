@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,44 +63,44 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Lamb">
+		<main class="main Lamb" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Hearty lamb & barley soup</h1>
+				<h1 class="recipe-title" itemprop="name">Hearty lamb & barley soup</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Lamb_colour.svg" alt="Category icon"><p>Lamb</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>35</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT35M><b>35</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					<li>
-						<img src="../img/dairyfree.svg" alt="Dairy free icon"><p>Dairy Free</p>
+						<img src="../img/dairyfree.svg" alt="Dairy free icon"><p itemprop="suitableForDiet">Dairy Free</p>
 					</li></ul>
-				<img class="recipe-image" src="../images/Hearty_lamb_&_barley_soup.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">This Lancashire hotpot in soup form is nourishing and filling, but low in fat.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Hearty_lamb_&_barley_soup.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">This Lancashire hotpot in soup form is nourishing and filling, but low in fat.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>1</b> tsp olive oil</li>
-							<li><b>200</b> g lamb neck fillet, trimmed of fat and cut into small pieces</li>
-							<li><b>0.5</b> large onion, finely chopped</li>
-							<li><b>50</b> g pearl barley</li>
-							<li><b>600</b> g mixed root vegetable</li>
-							<li><b>2</b> tsp Worcestershire sauce</li>
-							<li><b>1</b> litre lamb or beef stock</li>
-							<li><b>1</b> thyme sprig</li>
-							<li><b>100</b> g green beans, finely chopped</li>
+							<li itemprop="recipeIngredient"><b>1</b> tsp olive oil</li>
+							<li itemprop="recipeIngredient"><b>200</b> g lamb neck fillet, trimmed of fat and cut into small pieces</li>
+							<li itemprop="recipeIngredient"><b>0.5</b> large onion, finely chopped</li>
+							<li itemprop="recipeIngredient"><b>50</b> g pearl barley</li>
+							<li itemprop="recipeIngredient"><b>600</b> g mixed root vegetable</li>
+							<li itemprop="recipeIngredient"><b>2</b> tsp Worcestershire sauce</li>
+							<li itemprop="recipeIngredient"><b>1</b> litre lamb or beef stock</li>
+							<li itemprop="recipeIngredient"><b>1</b> thyme sprig</li>
+							<li itemprop="recipeIngredient"><b>100</b> g green beans, finely chopped</li>
 							</ul>
 					</p>
 				</div>
@@ -109,8 +109,8 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Heat the oil in a large saucepan. Season the lamb, then fry for a few mins until browned. Add the onion and barley, then gently fry for <b>1</b> min. Add the veg, cook for <b>2</b> more mins, then add the Worcestershire sauce, stock and thyme. Cover, then simmer for <b>20</b> mins.</li>
-							<li>When everything is cooked, spoon about a quarter of the soup into a separate pan. Purée with a stick blender (or put into a normal blender and whizz), then stir it back into the rest of the soup. Add the green beans, simmer for <b>3</b> mins, then ladle the soup into bowls and serve with granary bread.</li>
+							<li itemprop="recipeInstructions">Heat the oil in a large saucepan. Season the lamb, then fry for a few mins until browned. Add the onion and barley, then gently fry for <b>1</b> min. Add the veg, cook for <b>2</b> more mins, then add the Worcestershire sauce, stock and thyme. Cover, then simmer for <b>20</b> mins.</li>
+							<li itemprop="recipeInstructions">When everything is cooked, spoon about a quarter of the soup into a separate pan. Purée with a stick blender (or put into a normal blender and whizz), then stir it back into the rest of the soup. Add the green beans, simmer for <b>3</b> mins, then ladle the soup into bowls and serve with granary bread.</li>
 							</ol>
 					</p>
 				</div>
@@ -119,7 +119,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -134,14 +134,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>258</b> kcal</td>
-							<td><b>11</b> g</td>
-							<td><b>4</b> g</td>
-							<td><b>26</b> g</td>
-							<td><b>12</b> g</td>
-							<td><b>4</b> g</td>
-							<td><b>17</b> g</td>
-							<td><b>1.48</b> g</td>
+							<td itemprop="calories"><b>258</b> kcal</td>
+							<td itemprop="fatContent"><b>11</b> g</td>
+							<td itemprop="saturatedFatContent"><b>4</b> g</td>
+							<td itemprop="carbohydrateContent"><b>26</b> g</td>
+							<td itemprop="sugarContent"><b>12</b> g</td>
+							<td itemprop="fiberContent"><b>4</b> g</td>
+							<td itemprop="proteinContent"><b>17</b> g</td>
+							<td itemprop="sodiumContent"><b>1.48</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

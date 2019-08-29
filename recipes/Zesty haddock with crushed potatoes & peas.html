@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,42 +63,42 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Seafood">
+		<main class="main Seafood" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Zesty haddock with crushed potatoes & peas</h1>
+				<h1 class="recipe-title" itemprop="name">Zesty haddock with crushed potatoes & peas</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Seafood_colour.svg" alt="Category icon"><p>Seafood</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>35</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT35M><b>35</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Zesty_haddock_with_crushed_potatoes_&_peas.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text"></p>	
+				<img itemprop="image" class="recipe-image" src="../images/Zesty_haddock_with_crushed_potatoes_&_peas.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description"></p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>600</b> g floury potatoes, unpeeled, cut into chunks</li>
-							<li><b>140</b> g frozen peas</li>
-							<li><b>2.5</b> tbsp extra virgin olive oil</li>
-							<li>juice and zest <b>0.5</b> lemon</li>
-							<li><b>1</b> tbsp capers, roughly chopped</li>
-							<li><b>2</b> tbsp snipped chives</li>
-							<li><b>4</b> haddock  or other chunky white fish fillet</li>
-							<li><b>2</b> tbsp seasoned plain flour</li>
-							<li>steamed broccoli, to serve</li>
+							<li itemprop="recipeIngredient"><b>600</b> g floury potatoes, unpeeled, cut into chunks</li>
+							<li itemprop="recipeIngredient"><b>140</b> g frozen peas</li>
+							<li itemprop="recipeIngredient"><b>2.5</b> tbsp extra virgin olive oil</li>
+							<li itemprop="recipeIngredient">juice and zest <b>0.5</b> lemon</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp capers, roughly chopped</li>
+							<li itemprop="recipeIngredient"><b>2</b> tbsp snipped chives</li>
+							<li itemprop="recipeIngredient"><b>4</b> haddock  or other chunky white fish fillet</li>
+							<li itemprop="recipeIngredient"><b>2</b> tbsp seasoned plain flour</li>
+							<li itemprop="recipeIngredient">steamed broccoli, to serve</li>
 							</ul>
 					</p>
 				</div>
@@ -107,9 +107,9 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Cover the potatoes with cold water in a pan and bring to the boil, then lower to a simmer. Cook for <b>10</b> minutes until tender, adding the peas for the final minute of cooking. Drain and roughly crush together, adding plenty of seasoning and <b>1</b> tbsp of the oil. Keep warm.  </li>
-							<li>Meanwhile, for the dressing, mix <b>1</b> tbsp of the oil, the lemon juice and zest, capers and chives with some seasoning.  </li>
-							<li>Dust the fish in the flour, tapping off any excess, and season. Heat the remaining oil in a non-stick frying pan. Fry the fish for <b>2-3</b> minutes on each side until cooked, then add the dressing and warm through. Serve with the potato-and-pea crush and some steamed broccoli. </li>
+							<li itemprop="recipeInstructions">Cover the potatoes with cold water in a pan and bring to the boil, then lower to a simmer. Cook for <b>10</b> minutes until tender, adding the peas for the final minute of cooking. Drain and roughly crush together, adding plenty of seasoning and <b>1</b> tbsp of the oil. Keep warm.  </li>
+							<li itemprop="recipeInstructions">Meanwhile, for the dressing, mix <b>1</b> tbsp of the oil, the lemon juice and zest, capers and chives with some seasoning.  </li>
+							<li itemprop="recipeInstructions">Dust the fish in the flour, tapping off any excess, and season. Heat the remaining oil in a non-stick frying pan. Fry the fish for <b>2-3</b> minutes on each side until cooked, then add the dressing and warm through. Serve with the potato-and-pea crush and some steamed broccoli. </li>
 							</ol>
 					</p>
 				</div>
@@ -118,7 +118,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -133,14 +133,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>305</b> kcal</td>
-							<td><b>8</b> g</td>
-							<td><b>1</b> g</td>
-							<td><b>31</b> g</td>
-							<td><b>2</b> g</td>
-							<td><b>4</b> g</td>
-							<td><b>28</b> g</td>
-							<td><b>0.71</b> g</td>
+							<td itemprop="calories"><b>305</b> kcal</td>
+							<td itemprop="fatContent"><b>8</b> g</td>
+							<td itemprop="saturatedFatContent"><b>1</b> g</td>
+							<td itemprop="carbohydrateContent"><b>31</b> g</td>
+							<td itemprop="sugarContent"><b>2</b> g</td>
+							<td itemprop="fiberContent"><b>4</b> g</td>
+							<td itemprop="proteinContent"><b>28</b> g</td>
+							<td itemprop="sodiumContent"><b>0.71</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

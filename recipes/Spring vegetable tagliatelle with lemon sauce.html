@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,40 +63,40 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Veggie">
+		<main class="main Veggie" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Spring vegetable tagliatelle with lemon sauce</h1>
+				<h1 class="recipe-title" itemprop="name">Spring vegetable tagliatelle with lemon sauce</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Veggie_colour.svg" alt="Category icon"><p>Veggie</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>30</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT30M><b>30</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Spring_vegetable_tagliatelle_with_lemon_sauce.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">This pasta dish, topped with the new season's spring veg, looks and tastes good enough for a casual supper with friends.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Spring_vegetable_tagliatelle_with_lemon_sauce.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">This pasta dish, topped with the new season's spring veg, looks and tastes good enough for a casual supper with friends.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>450</b> g mixed spring vegetables, including green beans, asparagus, broad beans, peas.</li>
-							<li><b>400</b> g tagliatelle</li>
-							<li>juice of <b>1</b> lemon, zest of half</li>
-							<li><b>1</b> tbsp Dijon mustard</li>
-							<li><b>1</b> tbsp olive or rapeseed oil</li>
-							<li><b>3</b> tbsp snipped chives</li>
-							<li>shaved Parmesan, to serve</li>
+							<li itemprop="recipeIngredient"><b>450</b> g mixed spring vegetables, including green beans, asparagus, broad beans, peas.</li>
+							<li itemprop="recipeIngredient"><b>400</b> g tagliatelle</li>
+							<li itemprop="recipeIngredient">juice of <b>1</b> lemon, zest of half</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp Dijon mustard</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp olive or rapeseed oil</li>
+							<li itemprop="recipeIngredient"><b>3</b> tbsp snipped chives</li>
+							<li itemprop="recipeIngredient">shaved Parmesan, to serve</li>
 							</ul>
 					</p>
 				</div>
@@ -105,9 +105,9 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Halve the green beans and cut the asparagus into three pieces on the diagonal. Cook the tagliatelle according to the pack instructione, adding the mixed vegetables for the final <b>5</b> minutes.  </li>
-							<li>Meanwhile, put the lemon juice in a small pan with the mustard, oil and a little black pepper. Warm through, stirring until smooth.  </li>
-							<li>Drain the pasta and veg, add <b>4</b> tablespoons of the cooking water to the lemon sauce. Return the pasta and veg to the pan, reheat the sauce, adding most of the chives, then add the pasta mix, tossing everything together well. Divide among four shallow bowls and top each with a grinding of black pepper, a few shavings of cheese and the remaining chives.  </li>
+							<li itemprop="recipeInstructions">Halve the green beans and cut the asparagus into three pieces on the diagonal. Cook the tagliatelle according to the pack instructione, adding the mixed vegetables for the final <b>5</b> minutes.  </li>
+							<li itemprop="recipeInstructions">Meanwhile, put the lemon juice in a small pan with the mustard, oil and a little black pepper. Warm through, stirring until smooth.  </li>
+							<li itemprop="recipeInstructions">Drain the pasta and veg, add <b>4</b> tablespoons of the cooking water to the lemon sauce. Return the pasta and veg to the pan, reheat the sauce, adding most of the chives, then add the pasta mix, tossing everything together well. Divide among four shallow bowls and top each with a grinding of black pepper, a few shavings of cheese and the remaining chives.  </li>
 							</ol>
 					</p>
 				</div>
@@ -116,7 +116,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -131,14 +131,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>469</b> kcal</td>
-							<td><b>8</b> g</td>
-							<td><b>3</b> g</td>
-							<td><b>84</b> g</td>
-							<td><b>4</b> g</td>
-							<td><b>7</b> g</td>
-							<td><b>21</b> g</td>
-							<td><b>0.48</b> g</td>
+							<td itemprop="calories"><b>469</b> kcal</td>
+							<td itemprop="fatContent"><b>8</b> g</td>
+							<td itemprop="saturatedFatContent"><b>3</b> g</td>
+							<td itemprop="carbohydrateContent"><b>84</b> g</td>
+							<td itemprop="sugarContent"><b>4</b> g</td>
+							<td itemprop="fiberContent"><b>7</b> g</td>
+							<td itemprop="proteinContent"><b>21</b> g</td>
+							<td itemprop="sodiumContent"><b>0.48</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

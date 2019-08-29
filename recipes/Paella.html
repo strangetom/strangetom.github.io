@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,41 +63,41 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Seafood">
+		<main class="main Seafood" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Paella</h1>
+				<h1 class="recipe-title" itemprop="name">Paella</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Seafood_colour.svg" alt="Category icon"><p>Seafood</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>30</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT30M><b>30</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Paella.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">Think paella's too much of a challenge? Think again, this easy recipe makes it foolproof and is full of fantastic flavour.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Paella.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">Think paella's too much of a challenge? Think again, this easy recipe makes it foolproof and is full of fantastic flavour.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>1</b> tbsp olive oil</li>
-							<li><b>1</b> leek or onion, sliced</li>
-							<li><b>110</b> g chorizo, chopped</li>
-							<li><b>1</b> tsp tumeric</li>
-							<li><b>300</b> g long grain rice</li>
-							<li><b>1</b> L hot fish or chicken stock</li>
-							<li><b>200</b> g frozen peas</li>
-							<li><b>400</b> g seafood mix</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp olive oil</li>
+							<li itemprop="recipeIngredient"><b>1</b> leek or onion, sliced</li>
+							<li itemprop="recipeIngredient"><b>110</b> g chorizo, chopped</li>
+							<li itemprop="recipeIngredient"><b>1</b> tsp tumeric</li>
+							<li itemprop="recipeIngredient"><b>300</b> g long grain rice</li>
+							<li itemprop="recipeIngredient"><b>1</b> L hot fish or chicken stock</li>
+							<li itemprop="recipeIngredient"><b>200</b> g frozen peas</li>
+							<li itemprop="recipeIngredient"><b>400</b> g seafood mix</li>
 							</ul>
 					</p>
 				</div>
@@ -106,11 +106,11 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Heat the oil in a deep frying pan, then soften the leek for <b>5</b> mins without browning.  </li>
-							<li>Add the chorizo and fry until it releases its oils.  </li>
-							<li>Stir in the turmeric and rice until coated by the oils, then pour in the stock. Bring to the boil, then simmer for <b>15</b> mins, stirring occasionally.  </li>
-							<li>Tip in the peas and cook for <b>5</b> mins, then stir in the seafood to heat through for a final <b>2</b> mins cooking or until rice is cooked.  </li>
-							<li>Check for seasoning and serve immediately with lemon wedges.</li>
+							<li itemprop="recipeInstructions">Heat the oil in a deep frying pan, then soften the leek for <b>5</b> mins without browning.  </li>
+							<li itemprop="recipeInstructions">Add the chorizo and fry until it releases its oils.  </li>
+							<li itemprop="recipeInstructions">Stir in the turmeric and rice until coated by the oils, then pour in the stock. Bring to the boil, then simmer for <b>15</b> mins, stirring occasionally.  </li>
+							<li itemprop="recipeInstructions">Tip in the peas and cook for <b>5</b> mins, then stir in the seafood to heat through for a final <b>2</b> mins cooking or until rice is cooked.  </li>
+							<li itemprop="recipeInstructions">Check for seasoning and serve immediately with lemon wedges.</li>
 							</ol>
 					</p>
 				</div>
@@ -119,7 +119,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -134,14 +134,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>518</b> kcal</td>
-							<td><b>12</b> g</td>
-							<td><b>0.4</b> g</td>
-							<td><b>75</b> g</td>
-							<td><b>5</b> g</td>
-							<td><b>5</b> g</td>
-							<td><b>32</b> g</td>
-							<td><b>1.29</b> g</td>
+							<td itemprop="calories"><b>518</b> kcal</td>
+							<td itemprop="fatContent"><b>12</b> g</td>
+							<td itemprop="saturatedFatContent"><b>0.4</b> g</td>
+							<td itemprop="carbohydrateContent"><b>75</b> g</td>
+							<td itemprop="sugarContent"><b>5</b> g</td>
+							<td itemprop="fiberContent"><b>5</b> g</td>
+							<td itemprop="proteinContent"><b>32</b> g</td>
+							<td itemprop="sodiumContent"><b>1.29</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

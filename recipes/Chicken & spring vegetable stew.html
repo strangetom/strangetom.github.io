@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,40 +63,40 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Chicken">
+		<main class="main Chicken" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Chicken & spring vegetable stew</h1>
+				<h1 class="recipe-title" itemprop="name">Chicken & spring vegetable stew</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Chicken_colour.svg" alt="Category icon"><p>Chicken</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>30</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT30M><b>30</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>2</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>2</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Chicken_&_spring_vegetable_stew.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text"></p>	
+				<img itemprop="image" class="recipe-image" src="../images/Chicken_&_spring_vegetable_stew.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description"></p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>2</b> boneless chicken breasts, skin on</li>
-							<li><b>1</b> tbsp olive oil</li>
-							<li><b>200</b> g baby new potatoes, scrubbed and thinly sliced</li>
-							<li><b>500</b> ml chicken stock</li>
-							<li><b>200</b> g pack mixed spring vegetables (broccoli, peas, broad beans and sliced courgette)</li>
-							<li><b>2</b> tbsp creme fraiche</li>
-							<li>handful tarragon leaves, roughly chopped or <b>0.5</b> tsp dried tarragon</li>
+							<li itemprop="recipeIngredient"><b>2</b> boneless chicken breasts, skin on</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp olive oil</li>
+							<li itemprop="recipeIngredient"><b>200</b> g baby new potatoes, scrubbed and thinly sliced</li>
+							<li itemprop="recipeIngredient"><b>500</b> ml chicken stock</li>
+							<li itemprop="recipeIngredient"><b>200</b> g pack mixed spring vegetables (broccoli, peas, broad beans and sliced courgette)</li>
+							<li itemprop="recipeIngredient"><b>2</b> tbsp creme fraiche</li>
+							<li itemprop="recipeIngredient">handful tarragon leaves, roughly chopped or <b>0.5</b> tsp dried tarragon</li>
 							</ul>
 					</p>
 				</div>
@@ -105,10 +105,10 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Fry the chicken in the olive oil in a wide pan with a lid for <b>5</b> minutes on each side. Throw in the potatoes and stir to coat.  </li>
-							<li>Pour over the chicken stock, cover and simmer for <b>10</b> minutes until the potatoes are almost cooked through.  </li>
-							<li>Remove the lid and turn the heat to high. Boil the stock down until it just coats the bottom of the pn. Scatter the vegetables into the pan, cover again and cook for about <b>3</b> minutes.  </li>
-							<li>Stir in the creme fraiche to make a creamy sauce, season with salt and pepper to taste, then add the tarragon. Serve straight from the pan.  </li>
+							<li itemprop="recipeInstructions">Fry the chicken in the olive oil in a wide pan with a lid for <b>5</b> minutes on each side. Throw in the potatoes and stir to coat.  </li>
+							<li itemprop="recipeInstructions">Pour over the chicken stock, cover and simmer for <b>10</b> minutes until the potatoes are almost cooked through.  </li>
+							<li itemprop="recipeInstructions">Remove the lid and turn the heat to high. Boil the stock down until it just coats the bottom of the pn. Scatter the vegetables into the pan, cover again and cook for about <b>3</b> minutes.  </li>
+							<li itemprop="recipeInstructions">Stir in the creme fraiche to make a creamy sauce, season with salt and pepper to taste, then add the tarragon. Serve straight from the pan.  </li>
 							</ol>
 					</p>
 				</div>
@@ -117,7 +117,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -132,14 +132,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>386</b> kcal</td>
-							<td><b>16</b> g</td>
-							<td><b>6</b> g</td>
-							<td><b>23</b> g</td>
-							<td><b>0</b> g</td>
-							<td><b>3</b> g</td>
-							<td><b>38</b> g</td>
-							<td><b>1.5</b> g</td>
+							<td itemprop="calories"><b>386</b> kcal</td>
+							<td itemprop="fatContent"><b>16</b> g</td>
+							<td itemprop="saturatedFatContent"><b>6</b> g</td>
+							<td itemprop="carbohydrateContent"><b>23</b> g</td>
+							<td itemprop="sugarContent"><b>0</b> g</td>
+							<td itemprop="fiberContent"><b>3</b> g</td>
+							<td itemprop="proteinContent"><b>38</b> g</td>
+							<td itemprop="sodiumContent"><b>1.5</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

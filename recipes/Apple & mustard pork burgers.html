@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,41 +63,41 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Pork">
+		<main class="main Pork" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Apple & mustard pork burgers</h1>
+				<h1 class="recipe-title" itemprop="name">Apple & mustard pork burgers</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Pork_colour.svg" alt="Category icon"><p>Pork</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>25</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT25M><b>25</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>2</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>2</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Apple_&_mustard_pork_burgers.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">A thrifty supper recipe for two. Serve your herby burgers with a tzatziki potato salad.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Apple_&_mustard_pork_burgers.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">A thrifty supper recipe for two. Serve your herby burgers with a tzatziki potato salad.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li>small eating apple, quartered, cored and grated</li>
-							<li><b>250</b> g pork mince</li>
-							<li><b>2</b> spring onions, trimmed and finely chopped</li>
-							<li><b>2</b> tbsp dried breadcrumb</li>
-							<li><b>2</b> tsp wholegrain mustard</li>
-							<li>small pack parsley, trimmed and finely chopped</li>
-							<li><b>1</b> egg, beaten</li>
-							<li>rocket, to serve (optional)</li>
+							<li itemprop="recipeIngredient">small eating apple, quartered, cored and grated</li>
+							<li itemprop="recipeIngredient"><b>250</b> g pork mince</li>
+							<li itemprop="recipeIngredient"><b>2</b> spring onions, trimmed and finely chopped</li>
+							<li itemprop="recipeIngredient"><b>2</b> tbsp dried breadcrumb</li>
+							<li itemprop="recipeIngredient"><b>2</b> tsp wholegrain mustard</li>
+							<li itemprop="recipeIngredient">small pack parsley, trimmed and finely chopped</li>
+							<li itemprop="recipeIngredient"><b>1</b> egg, beaten</li>
+							<li itemprop="recipeIngredient">rocket, to serve (optional)</li>
 							</ul>
 					</p>
 				</div>
@@ -106,9 +106,9 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Use your hands to squeeze any excess juice from the apple, then place in a bowl with the mince, onions, breadcrumbs, mustard, parsley and some seasoning. Use your hands to mix the ingredients until well combined.  </li>
-							<li>Add half the egg and mix again. With clean, wet hands (to prevent sticking), shape the mixture into <b>2</b> burgers.  </li>
-							<li>Grill the burgers on a foil-lined tray for <b>18-20</b> mins, turning once until golden.  </li>
+							<li itemprop="recipeInstructions">Use your hands to squeeze any excess juice from the apple, then place in a bowl with the mince, onions, breadcrumbs, mustard, parsley and some seasoning. Use your hands to mix the ingredients until well combined.  </li>
+							<li itemprop="recipeInstructions">Add half the egg and mix again. With clean, wet hands (to prevent sticking), shape the mixture into <b>2</b> burgers.  </li>
+							<li itemprop="recipeInstructions">Grill the burgers on a foil-lined tray for <b>18-20</b> mins, turning once until golden.  </li>
 							</ol>
 					</p>
 				</div>
@@ -117,7 +117,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -132,14 +132,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>415</b> kcal</td>
-							<td><b>16</b> g</td>
-							<td><b>6</b> g</td>
-							<td><b>38</b> g</td>
-							<td><b>8</b> g</td>
-							<td><b>4</b> g</td>
-							<td><b>31</b> g</td>
-							<td><b>1</b> g</td>
+							<td itemprop="calories"><b>415</b> kcal</td>
+							<td itemprop="fatContent"><b>16</b> g</td>
+							<td itemprop="saturatedFatContent"><b>6</b> g</td>
+							<td itemprop="carbohydrateContent"><b>38</b> g</td>
+							<td itemprop="sugarContent"><b>8</b> g</td>
+							<td itemprop="fiberContent"><b>4</b> g</td>
+							<td itemprop="proteinContent"><b>31</b> g</td>
+							<td itemprop="sodiumContent"><b>1</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,38 +63,38 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Veggie">
+		<main class="main Veggie" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Pea and mint omelette</h1>
+				<h1 class="recipe-title" itemprop="name">Pea and mint omelette</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Veggie_colour.svg" alt="Category icon"><p>Veggie</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>12</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT12M><b>12</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>2</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>2</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Pea_and_mint_omelette.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">Serve this deliciously light omelette with crusty bread and a green salad for a fresh and tasty lunch. When they are in season, use freshly shelled peas instead of frozen ones.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Pea_and_mint_omelette.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">Serve this deliciously light omelette with crusty bread and a green salad for a fresh and tasty lunch. When they are in season, use freshly shelled peas instead of frozen ones.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>50</b> g frozen peas</li>
-							<li><b>4</b> eggs</li>
-							<li><b>2</b> tbsp chopped fresh mint</li>
-							<li>a knob of butter</li>
-							<li>salt and ground black pepper</li>
+							<li itemprop="recipeIngredient"><b>50</b> g frozen peas</li>
+							<li itemprop="recipeIngredient"><b>4</b> eggs</li>
+							<li itemprop="recipeIngredient"><b>2</b> tbsp chopped fresh mint</li>
+							<li itemprop="recipeIngredient">a knob of butter</li>
+							<li itemprop="recipeIngredient">salt and ground black pepper</li>
 							</ul>
 					</p>
 				</div>
@@ -103,10 +103,10 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Break the eggs into a large bowl and beat with a fork. Season well with salt and pepper and set aside</li>
-							<li>Cook the peas in a large pan of salted boiling water for <b>3-4</b> minutes until tender. Drain well in a colander and add to the eggs in the bowl. Stir in the chopped fresh mint and swirl with a spoon until thoroughly mixed.</li>
-							<li>Heat the butter in a medium frying pan until foamy. Pour in the egg mixture and cook over a medium heat for <b>3-4</b> minutes, drawing in the cooked egg from the edges from time to time, until the mixture is nearly set.</li>
-							<li>Finish off cooking the omelette under a hot grill until set and golden. Carefully fold the omelette, cut in half and serve immediately.</li>
+							<li itemprop="recipeInstructions">Break the eggs into a large bowl and beat with a fork. Season well with salt and pepper and set aside</li>
+							<li itemprop="recipeInstructions">Cook the peas in a large pan of salted boiling water for <b>3-4</b> minutes until tender. Drain well in a colander and add to the eggs in the bowl. Stir in the chopped fresh mint and swirl with a spoon until thoroughly mixed.</li>
+							<li itemprop="recipeInstructions">Heat the butter in a medium frying pan until foamy. Pour in the egg mixture and cook over a medium heat for <b>3-4</b> minutes, drawing in the cooked egg from the edges from time to time, until the mixture is nearly set.</li>
+							<li itemprop="recipeInstructions">Finish off cooking the omelette under a hot grill until set and golden. Carefully fold the omelette, cut in half and serve immediately.</li>
 							</ol>
 					</p>
 				</div>
@@ -115,7 +115,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -130,14 +130,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>208</b> kcal</td>
-							<td><b>15.7</b> g</td>
-							<td><b>5.8</b> g</td>
-							<td><b>3.3</b> g</td>
-							<td><b>0.6</b> g</td>
-							<td><b>1.2</b> g</td>
-							<td><b>14.6</b> g</td>
-							<td><b>0.17</b> g</td>
+							<td itemprop="calories"><b>208</b> kcal</td>
+							<td itemprop="fatContent"><b>15.7</b> g</td>
+							<td itemprop="saturatedFatContent"><b>5.8</b> g</td>
+							<td itemprop="carbohydrateContent"><b>3.3</b> g</td>
+							<td itemprop="sugarContent"><b>0.6</b> g</td>
+							<td itemprop="fiberContent"><b>1.2</b> g</td>
+							<td itemprop="proteinContent"><b>14.6</b> g</td>
+							<td itemprop="sodiumContent"><b>0.17</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

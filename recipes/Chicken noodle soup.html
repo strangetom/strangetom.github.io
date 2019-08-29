@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,43 +63,43 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Chicken">
+		<main class="main Chicken" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Chicken noodle soup</h1>
+				<h1 class="recipe-title" itemprop="name">Chicken noodle soup</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Chicken_colour.svg" alt="Category icon"><p>Chicken</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>40</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT40M><b>40</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>2</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>2</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Chicken_noodle_soup.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">Mary Cadogan's aromatic broth will warm you up on a winter's evening - it contains ginger, which is particularly good for colds, too.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Chicken_noodle_soup.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">Mary Cadogan's aromatic broth will warm you up on a winter's evening - it contains ginger, which is particularly good for colds, too.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>900</b> ml chicken or vegetable stock</li>
-							<li><b>1</b> boneless, skinless chicken breast, about 175g</li>
-							<li><b>1</b> tsp chopped fresh root ginger</li>
-							<li><b>1</b> garlic clove, finely chopped</li>
-							<li><b>50</b> g rice or wheat noodles</li>
-							<li><b>2</b> tbsp sweetcorn, canned or frozen</li>
-							<li><b>2-3</b> mushrooms, thinly sliced</li>
-							<li><b>2</b> spring onions, shredded</li>
-							<li><b>2</b> tsp soy sauce, plus extra for serving</li>
-							<li>mint or basil leaves and a little shredded chilli (optional), to serve</li>
+							<li itemprop="recipeIngredient"><b>900</b> ml chicken or vegetable stock</li>
+							<li itemprop="recipeIngredient"><b>1</b> boneless, skinless chicken breast, about 175g</li>
+							<li itemprop="recipeIngredient"><b>1</b> tsp chopped fresh root ginger</li>
+							<li itemprop="recipeIngredient"><b>1</b> garlic clove, finely chopped</li>
+							<li itemprop="recipeIngredient"><b>50</b> g rice or wheat noodles</li>
+							<li itemprop="recipeIngredient"><b>2</b> tbsp sweetcorn, canned or frozen</li>
+							<li itemprop="recipeIngredient"><b>2-3</b> mushrooms, thinly sliced</li>
+							<li itemprop="recipeIngredient"><b>2</b> spring onions, shredded</li>
+							<li itemprop="recipeIngredient"><b>2</b> tsp soy sauce, plus extra for serving</li>
+							<li itemprop="recipeIngredient">mint or basil leaves and a little shredded chilli (optional), to serve</li>
 							</ul>
 					</p>
 				</div>
@@ -108,8 +108,8 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Pour the stock into a pan and add the chicken, ginger and garlic. Bring to the boil, then reduce the heat, partly cover and simmer for <b>20</b> mins, until the chicken is tender. Remove the chicken to a board and shred into bite-size pieces using a couple of forks.   </li>
-							<li>Return the chicken to the stock with the noodles, corn, mushrooms, half the spring onions and the soy sauce. Simmer for <b>3-4</b> mins until the noodles are tender. Ladle into two bowls and scatter over the remaining spring onions, herbs and chilli shreds if using. Serve with extra soy sauce for sprinkling.  </li>
+							<li itemprop="recipeInstructions">Pour the stock into a pan and add the chicken, ginger and garlic. Bring to the boil, then reduce the heat, partly cover and simmer for <b>20</b> mins, until the chicken is tender. Remove the chicken to a board and shred into bite-size pieces using a couple of forks.   </li>
+							<li itemprop="recipeInstructions">Return the chicken to the stock with the noodles, corn, mushrooms, half the spring onions and the soy sauce. Simmer for <b>3-4</b> mins until the noodles are tender. Ladle into two bowls and scatter over the remaining spring onions, herbs and chilli shreds if using. Serve with extra soy sauce for sprinkling.  </li>
 							</ol>
 					</p>
 				</div>
@@ -118,7 +118,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -133,14 +133,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>217</b> kcal</td>
-							<td><b>2</b> g</td>
-							<td><b>0.4</b> g</td>
-							<td><b>26</b> g</td>
-							<td><b>1</b> g</td>
-							<td><b>0.6</b> g</td>
-							<td><b>26</b> g</td>
-							<td><b>2.52</b> g</td>
+							<td itemprop="calories"><b>217</b> kcal</td>
+							<td itemprop="fatContent"><b>2</b> g</td>
+							<td itemprop="saturatedFatContent"><b>0.4</b> g</td>
+							<td itemprop="carbohydrateContent"><b>26</b> g</td>
+							<td itemprop="sugarContent"><b>1</b> g</td>
+							<td itemprop="fiberContent"><b>0.6</b> g</td>
+							<td itemprop="proteinContent"><b>26</b> g</td>
+							<td itemprop="sodiumContent"><b>2.52</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,43 +63,43 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Veggie">
+		<main class="main Veggie" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Five-veg lasagne</h1>
+				<h1 class="recipe-title" itemprop="name">Five-veg lasagne</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Veggie_colour.svg" alt="Category icon"><p>Veggie</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>65</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT65M><b>65</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Five-veg_lasagne.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">This vegetarian main is a great source of vitamins and iron and a simple way to get your 5-a-day.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Five-veg_lasagne.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">This vegetarian main is a great source of vitamins and iron and a simple way to get your 5-a-day.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>4</b> tbsp olive oil</li>
-							<li><b>1</b> aubergine, cut into small chunks</li>
-							<li><b>150</b> g mushroom, chopped</li>
-							<li><b>4</b> roasted red peppers, chopped</li>
-							<li><b>700</b> g passata with onions and garlic</li>
-							<li><b>8-10</b> lasagne sheets</li>
-							<li>400g frozen spinach, defrosted</li>
-							<li><b>250</b> g tub ricotta</li>
-							<li><b>25</b> g grated Parmesan (or vegetarian alternative)</li>
-							<li><b>25</b> g pine nut</li>
+							<li itemprop="recipeIngredient"><b>4</b> tbsp olive oil</li>
+							<li itemprop="recipeIngredient"><b>1</b> aubergine, cut into small chunks</li>
+							<li itemprop="recipeIngredient"><b>150</b> g mushroom, chopped</li>
+							<li itemprop="recipeIngredient"><b>4</b> roasted red peppers, chopped</li>
+							<li itemprop="recipeIngredient"><b>700</b> g passata with onions and garlic</li>
+							<li itemprop="recipeIngredient"><b>8-10</b> lasagne sheets</li>
+							<li itemprop="recipeIngredient">400g frozen spinach, defrosted</li>
+							<li itemprop="recipeIngredient"><b>250</b> g tub ricotta</li>
+							<li itemprop="recipeIngredient"><b>25</b> g grated Parmesan (or vegetarian alternative)</li>
+							<li itemprop="recipeIngredient"><b>25</b> g pine nut</li>
 							</ul>
 					</p>
 				</div>
@@ -108,8 +108,8 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Heat oven to <b>160</b>&degC/Gas <b>4</b>. Heat <b>2</b> tbsp olive oil in a large, non-stick frying pan. Fry the aubergine for <b>5</b> mins until softened, then tip into a bowl. Fry the mushrooms in the remaining oil for a few mins until golden, then mix with the aubergine and peppers. Spoon half of the veg into a <b>20</b> x <b>30</b> cm baking dish. Spoon over half the passata, then arrange a layer of lasagne sheets on top.  </li>
-							<li>Spread the rest of the veg over the pasta, cover with passata and another layer of pasta. Drain any excess liquid from the spinach and mix together with the ricotta and half the Parmesan. Spoon over the top of the pasta, then sprinkle with the remaining Parmesan and pine nuts. Cover with foil, bake for <b>20</b> mins, uncover, then bake for another <b>10</b> mins until browned. Serve with a crisp green salad.  </li>
+							<li itemprop="recipeInstructions">Heat oven to <b>160</b>&degC/Gas <b>4</b>. Heat <b>2</b> tbsp olive oil in a large, non-stick frying pan. Fry the aubergine for <b>5</b> mins until softened, then tip into a bowl. Fry the mushrooms in the remaining oil for a few mins until golden, then mix with the aubergine and peppers. Spoon half of the veg into a <b>20</b> x <b>30</b> cm baking dish. Spoon over half the passata, then arrange a layer of lasagne sheets on top.  </li>
+							<li itemprop="recipeInstructions">Spread the rest of the veg over the pasta, cover with passata and another layer of pasta. Drain any excess liquid from the spinach and mix together with the ricotta and half the Parmesan. Spoon over the top of the pasta, then sprinkle with the remaining Parmesan and pine nuts. Cover with foil, bake for <b>20</b> mins, uncover, then bake for another <b>10</b> mins until browned. Serve with a crisp green salad.  </li>
 							</ol>
 					</p>
 				</div>
@@ -118,7 +118,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -133,14 +133,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>528</b> kcal</td>
-							<td><b>30</b> g</td>
-							<td><b>8</b> g</td>
-							<td><b>46</b> g</td>
-							<td><b>12</b> g</td>
-							<td><b>9</b> g</td>
-							<td><b>21</b> g</td>
-							<td><b>2.11</b> g</td>
+							<td itemprop="calories"><b>528</b> kcal</td>
+							<td itemprop="fatContent"><b>30</b> g</td>
+							<td itemprop="saturatedFatContent"><b>8</b> g</td>
+							<td itemprop="carbohydrateContent"><b>46</b> g</td>
+							<td itemprop="sugarContent"><b>12</b> g</td>
+							<td itemprop="fiberContent"><b>9</b> g</td>
+							<td itemprop="proteinContent"><b>21</b> g</td>
+							<td itemprop="sodiumContent"><b>2.11</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,44 +63,44 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Pork">
+		<main class="main Pork" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Pork and noodle stir fry</h1>
+				<h1 class="recipe-title" itemprop="name">Pork and noodle stir fry</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Pork_colour.svg" alt="Category icon"><p>Pork</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>30</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT30M><b>30</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>2</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>2</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Pork_and_noodle_stir_fry.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">This Chinese dish, using mainly storecupboard ingredients is easy to whip up for an impromptu supper with friends.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Pork_and_noodle_stir_fry.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">This Chinese dish, using mainly storecupboard ingredients is easy to whip up for an impromptu supper with friends.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>2</b> tbsp sunflower oil</li>
-							<li><b>250</b> g pork fillet, trimmed and cut into stips</li>
-							<li><b>0.5</b> bunch of spring onions, trimmed and sliced on the diagonal</li>
-							<li><b>100</b> g mangetout, cut lengthways into strips</li>
-							<li><b>150</b> g pack straight-to-wok noodles</li>
-							<li class="ingredient-subheading">For the sauce</li>
-							<li><b>2</b> tsp cornflour</li>
-							<li>juice <b>1</b> orange</li>
-							<li><b>3</b> tbsp soy sauce</li>
-							<li><b>2</b> tbsp rice wine or sherry</li>
-							<li><b>1</b> tbsp clear honey</li>
+							<li itemprop="recipeIngredient"><b>2</b> tbsp sunflower oil</li>
+							<li itemprop="recipeIngredient"><b>250</b> g pork fillet, trimmed and cut into stips</li>
+							<li itemprop="recipeIngredient"><b>0.5</b> bunch of spring onions, trimmed and sliced on the diagonal</li>
+							<li itemprop="recipeIngredient"><b>100</b> g mangetout, cut lengthways into strips</li>
+							<li itemprop="recipeIngredient"><b>150</b> g pack straight-to-wok noodles</li>
+							<li itemprop="recipeIngredient">#For the sauce</li>
+							<li itemprop="recipeIngredient"><b>2</b> tsp cornflour</li>
+							<li itemprop="recipeIngredient">juice <b>1</b> orange</li>
+							<li itemprop="recipeIngredient"><b>3</b> tbsp soy sauce</li>
+							<li itemprop="recipeIngredient"><b>2</b> tbsp rice wine or sherry</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp clear honey</li>
 							</ul>
 					</p>
 				</div>
@@ -109,9 +109,9 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>First get the sauce ready. Mix the cornflour with <b>6</b> tablespoons water in a jug and stir in the remaining ingredients. Set aside.   </li>
-							<li>Heat the oil in a wok and stir fry the pork over a high heat until coloured on all sides, about <b>5</b> minutes. Lower the heat, toss in the onions and mangetout and stir fry for about <b>5</b> minutes to soften.   </li>
-							<li>Stir the sauce in the jug, pour into the pan and stir briskly to mix. Bubble for a few minutes, toss in the noodles and heat through. Serve straight away.   </li>
+							<li itemprop="recipeInstructions">First get the sauce ready. Mix the cornflour with <b>6</b> tablespoons water in a jug and stir in the remaining ingredients. Set aside.   </li>
+							<li itemprop="recipeInstructions">Heat the oil in a wok and stir fry the pork over a high heat until coloured on all sides, about <b>5</b> minutes. Lower the heat, toss in the onions and mangetout and stir fry for about <b>5</b> minutes to soften.   </li>
+							<li itemprop="recipeInstructions">Stir the sauce in the jug, pour into the pan and stir briskly to mix. Bubble for a few minutes, toss in the noodles and heat through. Serve straight away.   </li>
 							</ol>
 					</p>
 				</div>
@@ -120,7 +120,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -135,14 +135,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>490</b> kcal</td>
-							<td><b>21</b> g</td>
-							<td><b>4.4</b> g</td>
-							<td><b>40</b> g</td>
-							<td>? g</td>
-							<td><b>2.5</b> g</td>
-							<td><b>34</b> g</td>
-							<td><b>4.98</b> g</td>
+							<td itemprop="calories"><b>490</b> kcal</td>
+							<td itemprop="fatContent"><b>21</b> g</td>
+							<td itemprop="saturatedFatContent"><b>4.4</b> g</td>
+							<td itemprop="carbohydrateContent"><b>40</b> g</td>
+							<td itemprop="sugarContent">? g</td>
+							<td itemprop="fiberContent"><b>2.5</b> g</td>
+							<td itemprop="proteinContent"><b>34</b> g</td>
+							<td itemprop="sodiumContent"><b>4.98</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

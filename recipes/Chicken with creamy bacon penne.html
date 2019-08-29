@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,40 +63,40 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Chicken">
+		<main class="main Chicken" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Chicken with creamy bacon penne</h1>
+				<h1 class="recipe-title" itemprop="name">Chicken with creamy bacon penne</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Chicken_colour.svg" alt="Category icon"><p>Chicken</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>10</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT10M><b>10</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>2</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>2</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Chicken_with_creamy_bacon_penne.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text"></p>	
+				<img itemprop="image" class="recipe-image" src="../images/Chicken_with_creamy_bacon_penne.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description"></p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>1</b> tbsp olive oil</li>
-							<li><b>2</b> chicken breasts</li>
-							<li><b>100</b> g smoked lardons</li>
-							<li><b>4</b> tbsp dry white wine</li>
-							<li><b>100</b> g frozen petite poits</li>
-							<li><b>5</b> tbsp double cream</li>
-							<li><b>250</b> g penne</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp olive oil</li>
+							<li itemprop="recipeIngredient"><b>2</b> chicken breasts</li>
+							<li itemprop="recipeIngredient"><b>100</b> g smoked lardons</li>
+							<li itemprop="recipeIngredient"><b>4</b> tbsp dry white wine</li>
+							<li itemprop="recipeIngredient"><b>100</b> g frozen petite poits</li>
+							<li itemprop="recipeIngredient"><b>5</b> tbsp double cream</li>
+							<li itemprop="recipeIngredient"><b>250</b> g penne</li>
 							</ul>
 					</p>
 				</div>
@@ -105,12 +105,12 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Cook the pasta then set to oneside until needed.  </li>
-							<li>Heat the oil in a deep frying pan and add the chicken breasts and scatter with the lardons. Leave to cook over a high heat for <b>4</b> minutes.  </li>
-							<li>Turn the chicken over in the pan, give the lardons a stir, then pur in the white wine and let it bubble over a high heat until it has mostly evapourated.  </li>
-							<li>Add the peas, cream and pasta, then season and stir well.  </li>
-							<li>Cover than pan and cook for <b>4</b> minutes until the chicken is cooked all the way through.  </li>
-							<li>Serve immediately.  </li>
+							<li itemprop="recipeInstructions">Cook the pasta then set to oneside until needed.  </li>
+							<li itemprop="recipeInstructions">Heat the oil in a deep frying pan and add the chicken breasts and scatter with the lardons. Leave to cook over a high heat for <b>4</b> minutes.  </li>
+							<li itemprop="recipeInstructions">Turn the chicken over in the pan, give the lardons a stir, then pur in the white wine and let it bubble over a high heat until it has mostly evapourated.  </li>
+							<li itemprop="recipeInstructions">Add the peas, cream and pasta, then season and stir well.  </li>
+							<li itemprop="recipeInstructions">Cover than pan and cook for <b>4</b> minutes until the chicken is cooked all the way through.  </li>
+							<li itemprop="recipeInstructions">Serve immediately.  </li>
 							</ol>
 					</p>
 				</div>
@@ -119,7 +119,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -134,14 +134,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>639</b> kcal</td>
-							<td><b>38</b> g</td>
-							<td><b>17</b> g</td>
-							<td><b>24</b> g</td>
-							<td><b>0</b> g</td>
-							<td><b>3</b> g</td>
-							<td><b>48</b> g</td>
-							<td><b>1.86</b> g</td>
+							<td itemprop="calories"><b>639</b> kcal</td>
+							<td itemprop="fatContent"><b>38</b> g</td>
+							<td itemprop="saturatedFatContent"><b>17</b> g</td>
+							<td itemprop="carbohydrateContent"><b>24</b> g</td>
+							<td itemprop="sugarContent"><b>0</b> g</td>
+							<td itemprop="fiberContent"><b>3</b> g</td>
+							<td itemprop="proteinContent"><b>48</b> g</td>
+							<td itemprop="sodiumContent"><b>1.86</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

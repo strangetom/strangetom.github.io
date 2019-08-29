@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,43 +63,43 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Chicken">
+		<main class="main Chicken" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Broccoli lemon chicken</h1>
+				<h1 class="recipe-title" itemprop="name">Broccoli lemon chicken</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Chicken_colour.svg" alt="Category icon"><p>Chicken</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>25</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT25M><b>25</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>2</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>2</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Broccoli_lemon_chicken.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text"></p>	
+				<img itemprop="image" class="recipe-image" src="../images/Broccoli_lemon_chicken.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description"></p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>1</b> tbsp sunflower oil</li>
-							<li><b>340</b> g pack mini chicken breast fillets</li>
-							<li><b>2</b> garlic cloves, sliced</li>
-							<li><b>200</b> g pack Tenderstem brocolli, stems halved if very long</li>
-							<li><b>200</b> ml chicken stock</li>
-							<li><b>1</b> heaped tsp cornflower</li>
-							<li><b>1</b> tbsp clear honey</li>
-							<li>grated zest <b>1/2</b> lemon</li>
-							<li>juice of <b>1</b> lemon</li>
-							<li>large handful roasted cashew nuts</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp sunflower oil</li>
+							<li itemprop="recipeIngredient"><b>340</b> g pack mini chicken breast fillets</li>
+							<li itemprop="recipeIngredient"><b>2</b> garlic cloves, sliced</li>
+							<li itemprop="recipeIngredient"><b>200</b> g pack Tenderstem brocolli, stems halved if very long</li>
+							<li itemprop="recipeIngredient"><b>200</b> ml chicken stock</li>
+							<li itemprop="recipeIngredient"><b>1</b> heaped tsp cornflower</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp clear honey</li>
+							<li itemprop="recipeIngredient">grated zest <b>1/2</b> lemon</li>
+							<li itemprop="recipeIngredient">juice of <b>1</b> lemon</li>
+							<li itemprop="recipeIngredient">large handful roasted cashew nuts</li>
 							</ul>
 					</p>
 				</div>
@@ -108,8 +108,8 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Heat the oil in a large frying pan or wok. Add the chicken and fry for <b>3-4</b> minutes until golden. Remove from the pan to a plate and add the garlic and brocolli. Stir-fry for a minute or so, then cover and cook for <b>2</b> minutes more, until tender.  </li>
-							<li>Mix the stock, cornflour and honey well, then pour into the pan and stir until thickened. Tip the chicken back into the pan and let it heat through, then add the lemon zest and juice and the cashew nutes. Stir, then serve straight away.  </li>
+							<li itemprop="recipeInstructions">Heat the oil in a large frying pan or wok. Add the chicken and fry for <b>3-4</b> minutes until golden. Remove from the pan to a plate and add the garlic and brocolli. Stir-fry for a minute or so, then cover and cook for <b>2</b> minutes more, until tender.  </li>
+							<li itemprop="recipeInstructions">Mix the stock, cornflour and honey well, then pour into the pan and stir until thickened. Tip the chicken back into the pan and let it heat through, then add the lemon zest and juice and the cashew nutes. Stir, then serve straight away.  </li>
 							</ol>
 					</p>
 				</div>
@@ -118,7 +118,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -133,14 +133,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>372</b> kcal</td>
-							<td><b>13</b> g</td>
-							<td><b>2</b> g</td>
-							<td><b>15</b> g</td>
-							<td><b>6</b> g</td>
-							<td><b>3</b> g</td>
-							<td><b>48</b> g</td>
-							<td><b>0.69</b> g</td>
+							<td itemprop="calories"><b>372</b> kcal</td>
+							<td itemprop="fatContent"><b>13</b> g</td>
+							<td itemprop="saturatedFatContent"><b>2</b> g</td>
+							<td itemprop="carbohydrateContent"><b>15</b> g</td>
+							<td itemprop="sugarContent"><b>6</b> g</td>
+							<td itemprop="fiberContent"><b>3</b> g</td>
+							<td itemprop="proteinContent"><b>48</b> g</td>
+							<td itemprop="sodiumContent"><b>0.69</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

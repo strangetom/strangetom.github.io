@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,43 +63,43 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Seafood">
+		<main class="main Seafood" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Salmon and broccoli pasta bake</h1>
+				<h1 class="recipe-title" itemprop="name">Salmon and broccoli pasta bake</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Seafood_colour.svg" alt="Category icon"><p>Seafood</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>60</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT60M><b>60</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Salmon_and_broccoli_pasta_bake.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">The perfect dish for a spoil-yourself Saturday night supper - it's easy to cook, tastes really special and only needs a simple salad to go with it.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Salmon_and_broccoli_pasta_bake.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">The perfect dish for a spoil-yourself Saturday night supper - it's easy to cook, tastes really special and only needs a simple salad to go with it.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>250</b> g penne</li>
-							<li><b>300</b> g broccoli florets</li>
-							<li><b>25</b> g butter</li>
-							<li><b>25</b> g plain flour</li>
-							<li><b>600</b> ml milk</li>
-							<li><b>100</b> g mascarpone cheese</li>
-							<li><b>6</b> sun-dried tomatoes in oil, drained and thickly sliced</li>
-							<li><b>10</b> large fresh basil leaves, roughly torn</li>
-							<li><b>4</b> fresh salmon fillets, halved widthways</li>
-							<li><b>50</b> g mature cheddar cheese, finely grated</li>
+							<li itemprop="recipeIngredient"><b>250</b> g penne</li>
+							<li itemprop="recipeIngredient"><b>300</b> g broccoli florets</li>
+							<li itemprop="recipeIngredient"><b>25</b> g butter</li>
+							<li itemprop="recipeIngredient"><b>25</b> g plain flour</li>
+							<li itemprop="recipeIngredient"><b>600</b> ml milk</li>
+							<li itemprop="recipeIngredient"><b>100</b> g mascarpone cheese</li>
+							<li itemprop="recipeIngredient"><b>6</b> sun-dried tomatoes in oil, drained and thickly sliced</li>
+							<li itemprop="recipeIngredient"><b>10</b> large fresh basil leaves, roughly torn</li>
+							<li itemprop="recipeIngredient"><b>4</b> fresh salmon fillets, halved widthways</li>
+							<li itemprop="recipeIngredient"><b>50</b> g mature cheddar cheese, finely grated</li>
 							</ul>
 					</p>
 				</div>
@@ -108,9 +108,9 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Preheat the oven to <b>170</b>&degC/Gas <b>5</b>. Cook the pasta in salted boiling water for <b>6</b> minutes, add the broccoli and boil for another <b>4</b> minutes.   </li>
-							<li>Meanwhile, put the butter, flour and milk in a pan and simmer, whisking, to make a thick smooth sauce. Remove from the heat and stir in the mascarpone, tomatoes and basil.  </li>
-							<li>Drain the pasta and broccoli, mix with the sauce and season well. Put the salmon in a single layer in an oven proof dish, spoon the pasta mixture on top and scatter with the cheese. Bake for <b>30</b> minutes until golden.  </li>
+							<li itemprop="recipeInstructions">Preheat the oven to <b>170</b>&degC/Gas <b>5</b>. Cook the pasta in salted boiling water for <b>6</b> minutes, add the broccoli and boil for another <b>4</b> minutes.   </li>
+							<li itemprop="recipeInstructions">Meanwhile, put the butter, flour and milk in a pan and simmer, whisking, to make a thick smooth sauce. Remove from the heat and stir in the mascarpone, tomatoes and basil.  </li>
+							<li itemprop="recipeInstructions">Drain the pasta and broccoli, mix with the sauce and season well. Put the salmon in a single layer in an oven proof dish, spoon the pasta mixture on top and scatter with the cheese. Bake for <b>30</b> minutes until golden.  </li>
 							</ol>
 					</p>
 				</div>
@@ -119,7 +119,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -134,14 +134,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>817</b> kcal</td>
-							<td><b>42</b> g</td>
-							<td><b>18</b> g</td>
-							<td><b>64</b> g</td>
-							<td>? g</td>
-							<td><b>5</b> g</td>
-							<td><b>49</b> g</td>
-							<td><b>1.3</b> g</td>
+							<td itemprop="calories"><b>817</b> kcal</td>
+							<td itemprop="fatContent"><b>42</b> g</td>
+							<td itemprop="saturatedFatContent"><b>18</b> g</td>
+							<td itemprop="carbohydrateContent"><b>64</b> g</td>
+							<td itemprop="sugarContent">? g</td>
+							<td itemprop="fiberContent"><b>5</b> g</td>
+							<td itemprop="proteinContent"><b>49</b> g</td>
+							<td itemprop="sodiumContent"><b>1.3</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

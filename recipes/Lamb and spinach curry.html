@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,44 +63,44 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Lamb">
+		<main class="main Lamb" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Lamb and spinach curry</h1>
+				<h1 class="recipe-title" itemprop="name">Lamb and spinach curry</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Lamb_colour.svg" alt="Category icon"><p>Lamb</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>150</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT150M><b>150</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Lamb_and_spinach_curry.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">If you're going out to work and want to put the curry  on in the morning before you leave, simply swap the lamb steak for stewing lamb and cook on Low for the day.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Lamb_and_spinach_curry.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">If you're going out to work and want to put the curry  on in the morning before you leave, simply swap the lamb steak for stewing lamb and cook on Low for the day.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>0.5</b> tsp cumin seeds</li>
-							<li><b>2</b> tsp sunflower oil</li>
-							<li><b>200</b> g lean lamb steak, cubed</li>
-							<li><b>1</b> red pepper, deseeded and sliced</li>
-							<li><b>1</b> green chilli, deseeded and sliced</li>
-							<li><b>2</b> tbsp curry paste</li>
-							<li><b>225</b> g can chopped tomatoes, drained</li>
-							<li><b>150</b> ml can coconut cream</li>
-							<li><b>100</b> g bag baby leaf spinach</li>
-							<li><b>10</b> g pack coriander, chopped</li>
-							<li>rice or naan bread, to serve</li>
+							<li itemprop="recipeIngredient"><b>0.5</b> tsp cumin seeds</li>
+							<li itemprop="recipeIngredient"><b>2</b> tsp sunflower oil</li>
+							<li itemprop="recipeIngredient"><b>200</b> g lean lamb steak, cubed</li>
+							<li itemprop="recipeIngredient"><b>1</b> red pepper, deseeded and sliced</li>
+							<li itemprop="recipeIngredient"><b>1</b> green chilli, deseeded and sliced</li>
+							<li itemprop="recipeIngredient"><b>2</b> tbsp curry paste</li>
+							<li itemprop="recipeIngredient"><b>225</b> g can chopped tomatoes, drained</li>
+							<li itemprop="recipeIngredient"><b>150</b> ml can coconut cream</li>
+							<li itemprop="recipeIngredient"><b>100</b> g bag baby leaf spinach</li>
+							<li itemprop="recipeIngredient"><b>10</b> g pack coriander, chopped</li>
+							<li itemprop="recipeIngredient">rice or naan bread, to serve</li>
 							</ul>
 					</p>
 				</div>
@@ -109,8 +109,8 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Heat the slow cooker if necessary. Dry-fry the cumin seeds for about <b>20</b> seconds in a pan, then add the oil and stir-fry the lamb for about <b>1</b> minute until browned, but not cooked all the way through. Tip into the slow cooker pot with the peppers, chilli, curry paste, tomatoes and coconut cream. Cover and cook on Hight for 1.<b>5-2</b> hours until the lamb is tender.</li>
-							<li>Stir in the spinach and coriander with some seasoning if it needs it. Serve with rice or naan bread.</li>
+							<li itemprop="recipeInstructions">Heat the slow cooker if necessary. Dry-fry the cumin seeds for about <b>20</b> seconds in a pan, then add the oil and stir-fry the lamb for about <b>1</b> minute until browned, but not cooked all the way through. Tip into the slow cooker pot with the peppers, chilli, curry paste, tomatoes and coconut cream. Cover and cook on Hight for 1.<b>5-2</b> hours until the lamb is tender.</li>
+							<li itemprop="recipeInstructions">Stir in the spinach and coriander with some seasoning if it needs it. Serve with rice or naan bread.</li>
 							</ol>
 					</p>
 				</div>
@@ -119,7 +119,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -134,14 +134,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>205</b> kcal</td>
-							<td><b>15</b> g</td>
-							<td><b>8</b> g</td>
-							<td><b>6</b> g</td>
-							<td><b>5</b> g</td>
-							<td><b>2</b> g</td>
-							<td><b>13</b> g</td>
-							<td><b>0.66</b> g</td>
+							<td itemprop="calories"><b>205</b> kcal</td>
+							<td itemprop="fatContent"><b>15</b> g</td>
+							<td itemprop="saturatedFatContent"><b>8</b> g</td>
+							<td itemprop="carbohydrateContent"><b>6</b> g</td>
+							<td itemprop="sugarContent"><b>5</b> g</td>
+							<td itemprop="fiberContent"><b>2</b> g</td>
+							<td itemprop="proteinContent"><b>13</b> g</td>
+							<td itemprop="sodiumContent"><b>0.66</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

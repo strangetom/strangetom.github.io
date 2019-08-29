@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,41 +63,41 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Veggie">
+		<main class="main Veggie" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Creamy egg curry</h1>
+				<h1 class="recipe-title" itemprop="name">Creamy egg curry</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Veggie_colour.svg" alt="Category icon"><p>Veggie</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>30</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT30M><b>30</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Creamy_egg_curry.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">t may seem like an unusual combination but this is delicious. Why not try it and see.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Creamy_egg_curry.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">t may seem like an unusual combination but this is delicious. Why not try it and see.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>2</b> tbsp sunflower oil</li>
-							<li><b>2</b> onions, thinly sliced</li>
-							<li><b>2</b> heaped tbsp curry paste</li>
-							<li><b>400</b> g can chopped tomato</li>
-							<li><b>8</b> eggs</li>
-							<li><b>140</b> g frozen pea</li>
-							<li><b>4</b> tbsp Greek yogurt</li>
-							<li>rice and mango chutney to serve</li>
+							<li itemprop="recipeIngredient"><b>2</b> tbsp sunflower oil</li>
+							<li itemprop="recipeIngredient"><b>2</b> onions, thinly sliced</li>
+							<li itemprop="recipeIngredient"><b>2</b> heaped tbsp curry paste</li>
+							<li itemprop="recipeIngredient"><b>400</b> g can chopped tomato</li>
+							<li itemprop="recipeIngredient"><b>8</b> eggs</li>
+							<li itemprop="recipeIngredient"><b>140</b> g frozen pea</li>
+							<li itemprop="recipeIngredient"><b>4</b> tbsp Greek yogurt</li>
+							<li itemprop="recipeIngredient">rice and mango chutney to serve</li>
 							</ul>
 					</p>
 				</div>
@@ -106,8 +106,8 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Heat the oil in a pan, then fry the onions over a low heat for <b>10</b> mins until golden. Add the curry paste and sizzle for <b>2</b> mins, stirring. Add the tomatoes and 200ml water, season to taste, then bring to the boil. Simmer for <b>10</b> mins until you have a rich sauce.  </li>
-							<li>Meanwhile, boil the eggs for <b>8</b> mins, cool in cold water, then peel and halve. <b>3</b> Stir the peas and yogurt into the curry and simmer for another <b>2-3</b> mins. Put the eggs into the pan, spoon the curry sauce over and leave for another <b>2</b> mins to heat through. Serve with rice and mango chutney.  </li>
+							<li itemprop="recipeInstructions">Heat the oil in a pan, then fry the onions over a low heat for <b>10</b> mins until golden. Add the curry paste and sizzle for <b>2</b> mins, stirring. Add the tomatoes and 200ml water, season to taste, then bring to the boil. Simmer for <b>10</b> mins until you have a rich sauce.  </li>
+							<li itemprop="recipeInstructions">Meanwhile, boil the eggs for <b>8</b> mins, cool in cold water, then peel and halve. <b>3</b> Stir the peas and yogurt into the curry and simmer for another <b>2-3</b> mins. Put the eggs into the pan, spoon the curry sauce over and leave for another <b>2</b> mins to heat through. Serve with rice and mango chutney.  </li>
 							</ol>
 					</p>
 				</div>
@@ -116,7 +116,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -131,14 +131,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>226</b> kcal</td>
-							<td><b>24</b> g</td>
-							<td><b>5</b> g</td>
-							<td><b>11</b> g</td>
-							<td><b>7</b> g</td>
-							<td><b>3</b> g</td>
-							<td><b>20</b> g</td>
-							<td><b>1.02</b> g</td>
+							<td itemprop="calories"><b>226</b> kcal</td>
+							<td itemprop="fatContent"><b>24</b> g</td>
+							<td itemprop="saturatedFatContent"><b>5</b> g</td>
+							<td itemprop="carbohydrateContent"><b>11</b> g</td>
+							<td itemprop="sugarContent"><b>7</b> g</td>
+							<td itemprop="fiberContent"><b>3</b> g</td>
+							<td itemprop="proteinContent"><b>20</b> g</td>
+							<td itemprop="sodiumContent"><b>1.02</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

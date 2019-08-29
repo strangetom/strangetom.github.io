@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,41 +63,41 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Veggie">
+		<main class="main Veggie" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Sweet potato & spinach bake</h1>
+				<h1 class="recipe-title" itemprop="name">Sweet potato & spinach bake</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Veggie_colour.svg" alt="Category icon"><p>Veggie</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>75</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT75M><b>75</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Sweet_potato_&_spinach_bake.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">If you're after some substantial comfort food on a budget then this vegetarian bake is just the thing. Add lamb chops for the meat eaters.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Sweet_potato_&_spinach_bake.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">If you're after some substantial comfort food on a budget then this vegetarian bake is just the thing. Add lamb chops for the meat eaters.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>300</b> ml single cream (or double cream for a really creamy texture)</li>
-							<li><b>1</b> garlic clove, peeled</li>
-							<li><b>2</b> sprigs thyme or rosemary</li>
-							<li><b>250</b> g bag frozen spinach</li>
-							<li>freshly grated nutmeg</li>
-							<li>butter for greasing</li>
-							<li><b>850</b> g sweet potatoes, peeled and thinly sliced (about <b>3</b> mm thick)</li>
-							<li><b>25</b> g grated hard cheese, such as cheddar, Parmesan or veggie alternative</li>
+							<li itemprop="recipeIngredient"><b>300</b> ml single cream (or double cream for a really creamy texture)</li>
+							<li itemprop="recipeIngredient"><b>1</b> garlic clove, peeled</li>
+							<li itemprop="recipeIngredient"><b>2</b> sprigs thyme or rosemary</li>
+							<li itemprop="recipeIngredient"><b>250</b> g bag frozen spinach</li>
+							<li itemprop="recipeIngredient">freshly grated nutmeg</li>
+							<li itemprop="recipeIngredient">butter for greasing</li>
+							<li itemprop="recipeIngredient"><b>850</b> g sweet potatoes, peeled and thinly sliced (about <b>3</b> mm thick)</li>
+							<li itemprop="recipeIngredient"><b>25</b> g grated hard cheese, such as cheddar, Parmesan or veggie alternative</li>
 							</ul>
 					</p>
 				</div>
@@ -106,9 +106,9 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Heat oven to <b>180</b>&degC/Gas <b>6</b>. Put the cream, garlic and herb sprigs into a small saucepan and slowly bring to just below boiling. Turn off the heat, season and leave to infuse.</li>
-							<li>Put the spinach into a colander, pour over a kettle of boiling water and leave to drain for a few mins. Then squeeze out as much water as possible. Season with salt, pepper and freshly grated nutmeg.</li>
-							<li>Grease an ovenproof dish generously with butter and spread half the sweet potato slices across the bottom. Top with a layer of spinach, then the remaining potato. Pour over the cream mixture, through a sieve to remove the garlic and herbs, then sprinkle with cheese. Bake for <b>45-55</b> mins until golden and tender.</li>
+							<li itemprop="recipeInstructions">Heat oven to <b>180</b>&degC/Gas <b>6</b>. Put the cream, garlic and herb sprigs into a small saucepan and slowly bring to just below boiling. Turn off the heat, season and leave to infuse.</li>
+							<li itemprop="recipeInstructions">Put the spinach into a colander, pour over a kettle of boiling water and leave to drain for a few mins. Then squeeze out as much water as possible. Season with salt, pepper and freshly grated nutmeg.</li>
+							<li itemprop="recipeInstructions">Grease an ovenproof dish generously with butter and spread half the sweet potato slices across the bottom. Top with a layer of spinach, then the remaining potato. Pour over the cream mixture, through a sieve to remove the garlic and herbs, then sprinkle with cheese. Bake for <b>45-55</b> mins until golden and tender.</li>
 							</ol>
 					</p>
 				</div>
@@ -117,7 +117,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -132,14 +132,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>383</b> kcal</td>
-							<td><b>19</b> g</td>
-							<td><b>11</b> g</td>
-							<td><b>48</b> g</td>
-							<td><b>15</b> g</td>
-							<td><b>7</b> g</td>
-							<td><b>9</b> g</td>
-							<td><b>0.61</b> g</td>
+							<td itemprop="calories"><b>383</b> kcal</td>
+							<td itemprop="fatContent"><b>19</b> g</td>
+							<td itemprop="saturatedFatContent"><b>11</b> g</td>
+							<td itemprop="carbohydrateContent"><b>48</b> g</td>
+							<td itemprop="sugarContent"><b>15</b> g</td>
+							<td itemprop="fiberContent"><b>7</b> g</td>
+							<td itemprop="proteinContent"><b>9</b> g</td>
+							<td itemprop="sodiumContent"><b>0.61</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,43 +63,43 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Chicken">
+		<main class="main Chicken" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Chicken, chickpea & lemon casserole</h1>
+				<h1 class="recipe-title" itemprop="name">Chicken, chickpea & lemon casserole</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Chicken_colour.svg" alt="Category icon"><p>Chicken</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>35</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT35M><b>35</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>2</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>2</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Chicken_chickpea_&_lemon_casserole.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">A low fat main meal that's both delicious and nutritious, and it freezes well.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Chicken_chickpea_&_lemon_casserole.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">A low fat main meal that's both delicious and nutritious, and it freezes well.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>175</b> g new potato, halved</li>
-							<li><b>1</b> medium onion, thinly sliced</li>
-							<li><b>2</b> slices lemon, chopped</li>
-							<li><b>2</b> garlic clove, roughly chopped</li>
-							<li><b>1</b> tsp ground cumin</li>
-							<li><b>1</b> tsp ground cinnamon</li>
-							<li>450ml chicken stock</li>
-							<li>large skinless, boneless chicken thighs, trimmed of all fat and cut into cubes</li>
-							<li><b>0.5</b> x <b>410</b> g can chickpea</li>
-							<li>handful fresh coriander, chopped</li>
+							<li itemprop="recipeIngredient"><b>175</b> g new potato, halved</li>
+							<li itemprop="recipeIngredient"><b>1</b> medium onion, thinly sliced</li>
+							<li itemprop="recipeIngredient"><b>2</b> slices lemon, chopped</li>
+							<li itemprop="recipeIngredient"><b>2</b> garlic clove, roughly chopped</li>
+							<li itemprop="recipeIngredient"><b>1</b> tsp ground cumin</li>
+							<li itemprop="recipeIngredient"><b>1</b> tsp ground cinnamon</li>
+							<li itemprop="recipeIngredient">450ml chicken stock</li>
+							<li itemprop="recipeIngredient">large skinless, boneless chicken thighs, trimmed of all fat and cut into cubes</li>
+							<li itemprop="recipeIngredient"><b>0.5</b> x <b>410</b> g can chickpea</li>
+							<li itemprop="recipeIngredient">handful fresh coriander, chopped</li>
 							</ul>
 					</p>
 				</div>
@@ -108,8 +108,8 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Put the potatoes, onion, lemon and garlic into a casserole or heavy saucepan. Sprinkle over the ground spices and season lightly. Toss together then pour over the stock. Bring to the boil and simmer for <b>12</b> mins or until potatoes are tender.</li>
-							<li>Add the chicken and chickpeas, cover the saucepan and simmer gently for a further <b>10-12</b> mins or until the chicken is cooked through. Check the seasoning and stir in the coriander. Serve with steamed green beans or broccoli.</li>
+							<li itemprop="recipeInstructions">Put the potatoes, onion, lemon and garlic into a casserole or heavy saucepan. Sprinkle over the ground spices and season lightly. Toss together then pour over the stock. Bring to the boil and simmer for <b>12</b> mins or until potatoes are tender.</li>
+							<li itemprop="recipeInstructions">Add the chicken and chickpeas, cover the saucepan and simmer gently for a further <b>10-12</b> mins or until the chicken is cooked through. Check the seasoning and stir in the coriander. Serve with steamed green beans or broccoli.</li>
 							</ol>
 					</p>
 				</div>
@@ -118,7 +118,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -133,14 +133,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>310</b> kcal</td>
-							<td><b>6</b> g</td>
-							<td><b>1</b> g</td>
-							<td><b>32</b> g</td>
-							<td><b>0</b> g</td>
-							<td><b>4</b> g</td>
-							<td><b>34</b> g</td>
-							<td><b>1.4</b> g</td>
+							<td itemprop="calories"><b>310</b> kcal</td>
+							<td itemprop="fatContent"><b>6</b> g</td>
+							<td itemprop="saturatedFatContent"><b>1</b> g</td>
+							<td itemprop="carbohydrateContent"><b>32</b> g</td>
+							<td itemprop="sugarContent"><b>0</b> g</td>
+							<td itemprop="fiberContent"><b>4</b> g</td>
+							<td itemprop="proteinContent"><b>34</b> g</td>
+							<td itemprop="sodiumContent"><b>1.4</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

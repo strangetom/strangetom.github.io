@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,40 +63,40 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Pork">
+		<main class="main Pork" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Linguine with ham and mascarpone</h1>
+				<h1 class="recipe-title" itemprop="name">Linguine with ham and mascarpone</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Pork_colour.svg" alt="Category icon"><p>Pork</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>10</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT10M><b>10</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>6</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>6</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Linguine_with_ham_and_mascarpone.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">Mascarpone cheese masquerades as cream in this simple yet delicious recipe. Its thick, unctuous consistency makes it perfect for sauce which cling beautifully to the pasta.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Linguine_with_ham_and_mascarpone.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">Mascarpone cheese masquerades as cream in this simple yet delicious recipe. Its thick, unctuous consistency makes it perfect for sauce which cling beautifully to the pasta.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>25</b> g butter</li>
-							<li><b>150</b> g mascarpone</li>
-							<li><b>90</b> g cooked ham, cut into thin strips</li>
-							<li><b>30</b> ml milk</li>
-							<li><b>3</b> tbsp freshly grated Parmesan cheese, plus extra to serve</li>
-							<li><b>500</b> g fresh linguine</li>
-							<li>salt and ground black pepper</li>
+							<li itemprop="recipeIngredient"><b>25</b> g butter</li>
+							<li itemprop="recipeIngredient"><b>150</b> g mascarpone</li>
+							<li itemprop="recipeIngredient"><b>90</b> g cooked ham, cut into thin strips</li>
+							<li itemprop="recipeIngredient"><b>30</b> ml milk</li>
+							<li itemprop="recipeIngredient"><b>3</b> tbsp freshly grated Parmesan cheese, plus extra to serve</li>
+							<li itemprop="recipeIngredient"><b>500</b> g fresh linguine</li>
+							<li itemprop="recipeIngredient">salt and ground black pepper</li>
 							</ul>
 					</p>
 				</div>
@@ -105,10 +105,10 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Melt the butter in a medium pan, add the mascarpone, ham and milk and stir well over a low heat until the mascarpone as melted. Add <b>1</b> tbsp of the grated Parmesan and plenty of pepper and stir well.</li>
-							<li>Cook the pasta in a large pan of lightly salted boiling water for about <b>3</b> minutes.</li>
-							<li>Drain the cooked pasta well and tip it into a warmed bowl. Pour the sauce over the pasta, add the remaining Parmesan and toss well.</li>
-							<li>Taste for seasoning and serve the pasta immediately, with more ground black pepper and extra grated Parmesan.</li>
+							<li itemprop="recipeInstructions">Melt the butter in a medium pan, add the mascarpone, ham and milk and stir well over a low heat until the mascarpone as melted. Add <b>1</b> tbsp of the grated Parmesan and plenty of pepper and stir well.</li>
+							<li itemprop="recipeInstructions">Cook the pasta in a large pan of lightly salted boiling water for about <b>3</b> minutes.</li>
+							<li itemprop="recipeInstructions">Drain the cooked pasta well and tip it into a warmed bowl. Pour the sauce over the pasta, add the remaining Parmesan and toss well.</li>
+							<li itemprop="recipeInstructions">Taste for seasoning and serve the pasta immediately, with more ground black pepper and extra grated Parmesan.</li>
 							</ol>
 					</p>
 				</div>
@@ -117,7 +117,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -132,14 +132,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>413</b> kcal</td>
-							<td><b>11.6</b> g</td>
-							<td><b>6.4</b> g</td>
-							<td><b>62.9</b> g</td>
-							<td><b>3.9</b> g</td>
-							<td><b>2.4</b> g</td>
-							<td><b>18.2</b> g</td>
-							<td><b>0.3</b> g</td>
+							<td itemprop="calories"><b>413</b> kcal</td>
+							<td itemprop="fatContent"><b>11.6</b> g</td>
+							<td itemprop="saturatedFatContent"><b>6.4</b> g</td>
+							<td itemprop="carbohydrateContent"><b>62.9</b> g</td>
+							<td itemprop="sugarContent"><b>3.9</b> g</td>
+							<td itemprop="fiberContent"><b>2.4</b> g</td>
+							<td itemprop="proteinContent"><b>18.2</b> g</td>
+							<td itemprop="sodiumContent"><b>0.3</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

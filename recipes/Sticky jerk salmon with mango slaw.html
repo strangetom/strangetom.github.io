@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,42 +63,42 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Seafood">
+		<main class="main Seafood" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Sticky jerk salmon with mango slaw</h1>
+				<h1 class="recipe-title" itemprop="name">Sticky jerk salmon with mango slaw</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Seafood_colour.svg" alt="Category icon"><p>Seafood</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>25</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT25M><b>25</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Sticky_jerk_salmon_with_mango_slaw.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">Serve chunky salmon fillets with a spicy Caribbean honey glaze on a homemade coleslaw with cabbage, red pepper, mango and coriander</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Sticky_jerk_salmon_with_mango_slaw.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">Serve chunky salmon fillets with a spicy Caribbean honey glaze on a homemade coleslaw with cabbage, red pepper, mango and coriander</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>2</b> heaped tbsp Jamaican jerk paste</li>
-							<li><b>2</b> tbsp clear honey</li>
-							<li><b>4</b> salmon fillet</li>
-							<li>juice <b>2</b> limes</li>
-							<li><b>0.5</b> red cabbage, core removed, thinly sliced</li>
-							<li><b>1</b> firm but ripe mango, skin removed, thinly sliced</li>
-							<li><b>1</b> red pepper, thinly sliced</li>
-							<li><b>6</b> spring onions, thinly sliced on an angle</li>
-							<li>small bunch coriander, leaves picked</li>
+							<li itemprop="recipeIngredient"><b>2</b> heaped tbsp Jamaican jerk paste</li>
+							<li itemprop="recipeIngredient"><b>2</b> tbsp clear honey</li>
+							<li itemprop="recipeIngredient"><b>4</b> salmon fillet</li>
+							<li itemprop="recipeIngredient">juice <b>2</b> limes</li>
+							<li itemprop="recipeIngredient"><b>0.5</b> red cabbage, core removed, thinly sliced</li>
+							<li itemprop="recipeIngredient"><b>1</b> firm but ripe mango, skin removed, thinly sliced</li>
+							<li itemprop="recipeIngredient"><b>1</b> red pepper, thinly sliced</li>
+							<li itemprop="recipeIngredient"><b>6</b> spring onions, thinly sliced on an angle</li>
+							<li itemprop="recipeIngredient">small bunch coriander, leaves picked</li>
 							</ul>
 					</p>
 				</div>
@@ -107,8 +107,8 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Heat the grill to medium-high. Mix the jerk paste and <b>1</b> tbsp honey together in a bowl. Place the salmon fillets on a foil-lined baking tray and brush all over with the sauce. Cook on the top shelf for <b>8-10</b> mins or until just cooked through (move the tray down a shelf if the salmon starts getting too caramelised).  </li>
-							<li>Meanwhile, put the remaining honey, lime juice and some seasoning in a large bowl and mix together. Add the red cabbage, mango, pepper, spring onions and coriander, and toss through the dressing. Serve the salmon on a pile of the slaw.</li>
+							<li itemprop="recipeInstructions">Heat the grill to medium-high. Mix the jerk paste and <b>1</b> tbsp honey together in a bowl. Place the salmon fillets on a foil-lined baking tray and brush all over with the sauce. Cook on the top shelf for <b>8-10</b> mins or until just cooked through (move the tray down a shelf if the salmon starts getting too caramelised).  </li>
+							<li itemprop="recipeInstructions">Meanwhile, put the remaining honey, lime juice and some seasoning in a large bowl and mix together. Add the red cabbage, mango, pepper, spring onions and coriander, and toss through the dressing. Serve the salmon on a pile of the slaw.</li>
 							</ol>
 					</p>
 				</div>
@@ -117,7 +117,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -132,14 +132,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>402</b> kcal</td>
-							<td><b>19</b> g</td>
-							<td><b>3</b> g</td>
-							<td><b>26</b> g</td>
-							<td><b>25</b> g</td>
-							<td><b>5</b> g</td>
-							<td><b>33</b> g</td>
-							<td><b>0.4</b> g</td>
+							<td itemprop="calories"><b>402</b> kcal</td>
+							<td itemprop="fatContent"><b>19</b> g</td>
+							<td itemprop="saturatedFatContent"><b>3</b> g</td>
+							<td itemprop="carbohydrateContent"><b>26</b> g</td>
+							<td itemprop="sugarContent"><b>25</b> g</td>
+							<td itemprop="fiberContent"><b>5</b> g</td>
+							<td itemprop="proteinContent"><b>33</b> g</td>
+							<td itemprop="sodiumContent"><b>0.4</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,42 +63,42 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Veggie">
+		<main class="main Veggie" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Tex-Mex burrito</h1>
+				<h1 class="recipe-title" itemprop="name">Tex-Mex burrito</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Veggie_colour.svg" alt="Category icon"><p>Veggie</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>20</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT20M><b>20</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>2</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>2</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Tex-Mex_burrito.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">A speedy vegetarian dish - ideal as a last-minute, midweek supper</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Tex-Mex_burrito.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">A speedy vegetarian dish - ideal as a last-minute, midweek supper</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>2</b> tomatoes, halved, seeds scooped out, then chopped</li>
-							<li><b>3</b> spring onions, chopped</li>
-							<li><b>1</b> red chilli, sliced (deseeded if you like it milder)</li>
-							<li><b>4</b> eggs</li>
-							<li><b>100</b> ml milk</li>
-							<li><b>1</b> tsp olive oil</li>
-							<li>100g cheddar, grated</li>
-							<li><b>2</b> large wraps</li>
-							<li>soured cream and guacamole to serve, (optional)</li>
+							<li itemprop="recipeIngredient"><b>2</b> tomatoes, halved, seeds scooped out, then chopped</li>
+							<li itemprop="recipeIngredient"><b>3</b> spring onions, chopped</li>
+							<li itemprop="recipeIngredient"><b>1</b> red chilli, sliced (deseeded if you like it milder)</li>
+							<li itemprop="recipeIngredient"><b>4</b> eggs</li>
+							<li itemprop="recipeIngredient"><b>100</b> ml milk</li>
+							<li itemprop="recipeIngredient"><b>1</b> tsp olive oil</li>
+							<li itemprop="recipeIngredient">100g cheddar, grated</li>
+							<li itemprop="recipeIngredient"><b>2</b> large wraps</li>
+							<li itemprop="recipeIngredient">soured cream and guacamole to serve, (optional)</li>
 							</ul>
 					</p>
 				</div>
@@ -107,8 +107,8 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>In a small bowl, mix the tomatoes, half the spring onions and half the red chilli with some seasoning and set aside. Beat the eggs and milk with a fork with some seasoning.</li>
-							<li>Heat the oil in a large non-stick pan and fry the remaining spring onion and chilli for <b>1</b> min, then pour in the egg mix. Gently scramble the eggs by dragging the egg mixture as it sets into the middle of the pan. Cook to your liking, then take off the heat and throw on the cheese. Stir through, then divide between the wraps. Tuck up the top and bottom of each wrap and roll up, then slice in half and serve with the homemade tomato salsa, soured cream and guacamole, if you like.</li>
+							<li itemprop="recipeInstructions">In a small bowl, mix the tomatoes, half the spring onions and half the red chilli with some seasoning and set aside. Beat the eggs and milk with a fork with some seasoning.</li>
+							<li itemprop="recipeInstructions">Heat the oil in a large non-stick pan and fry the remaining spring onion and chilli for <b>1</b> min, then pour in the egg mix. Gently scramble the eggs by dragging the egg mixture as it sets into the middle of the pan. Cook to your liking, then take off the heat and throw on the cheese. Stir through, then divide between the wraps. Tuck up the top and bottom of each wrap and roll up, then slice in half and serve with the homemade tomato salsa, soured cream and guacamole, if you like.</li>
 							</ol>
 					</p>
 				</div>
@@ -117,7 +117,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -132,14 +132,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>611</b> kcal</td>
-							<td><b>38</b> g</td>
-							<td><b>16</b> g</td>
-							<td><b>33</b> g</td>
-							<td><b>6</b> g</td>
-							<td><b>2</b> g</td>
-							<td><b>35</b> g</td>
-							<td><b>1.96</b> g</td>
+							<td itemprop="calories"><b>611</b> kcal</td>
+							<td itemprop="fatContent"><b>38</b> g</td>
+							<td itemprop="saturatedFatContent"><b>16</b> g</td>
+							<td itemprop="carbohydrateContent"><b>33</b> g</td>
+							<td itemprop="sugarContent"><b>6</b> g</td>
+							<td itemprop="fiberContent"><b>2</b> g</td>
+							<td itemprop="proteinContent"><b>35</b> g</td>
+							<td itemprop="sodiumContent"><b>1.96</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

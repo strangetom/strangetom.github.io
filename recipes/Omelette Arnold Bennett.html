@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,40 +63,40 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Seafood">
+		<main class="main Seafood" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Omelette Arnold Bennett</h1>
+				<h1 class="recipe-title" itemprop="name">Omelette Arnold Bennett</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Seafood_colour.svg" alt="Category icon"><p>Seafood</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>14</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT14M><b>14</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>2</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>2</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Omelette_Arnold_Bennett.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">Contriving to be creamy and fluffy at the same time, this smoked haddock souffle omelette is delicious. No wonder the author Arnold Bennett loved it so  much.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Omelette_Arnold_Bennett.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">Contriving to be creamy and fluffy at the same time, this smoked haddock souffle omelette is delicious. No wonder the author Arnold Bennett loved it so  much.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>175</b> g smoked haddock fillet</li>
-							<li><b>50</b> butter, diced</li>
-							<li><b>175</b> ml double cream</li>
-							<li><b>4</b> eggs, separated</li>
-							<li><b>40</b> g mature cheddar cheese</li>
-							<li>ground black pepper</li>
-							<li>watercress, to garnish</li>
+							<li itemprop="recipeIngredient"><b>175</b> g smoked haddock fillet</li>
+							<li itemprop="recipeIngredient"><b>50</b> butter, diced</li>
+							<li itemprop="recipeIngredient"><b>175</b> ml double cream</li>
+							<li itemprop="recipeIngredient"><b>4</b> eggs, separated</li>
+							<li itemprop="recipeIngredient"><b>40</b> g mature cheddar cheese</li>
+							<li itemprop="recipeIngredient">ground black pepper</li>
+							<li itemprop="recipeIngredient">watercress, to garnish</li>
 							</ul>
 					</p>
 				</div>
@@ -105,10 +105,10 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Put the haddock in a shallow pan with water to cover and poach over a medium heat for <b>8-10</b> minutes or until the fish flakes easily. Drain well.</li>
-							<li>Remove the skin and any bones from the haddock and discard. Carefully flake the fish using a fork.</li>
-							<li>Melt half the butter with <b>60</b> ml of the cream in a fairly small non-stick pan, then add the flaked fish and stir together gently. Cover the pan and remove from the heat. Preheat the grill.</li>
-							<li>Mix the egg yolks with <b>15</b> ml of the cream. Season with pepper, then stir into the fish. Mix the cheese and the remaining cream. Whisk the egg whites until stiff, then fold into the fish mixture. Heat the remaining butter in an omelette pan, add the fish mixture and cook until browned underneath. Pour the cheese mixture over and grill until bubbling. Garnish and serve.</li>
+							<li itemprop="recipeInstructions">Put the haddock in a shallow pan with water to cover and poach over a medium heat for <b>8-10</b> minutes or until the fish flakes easily. Drain well.</li>
+							<li itemprop="recipeInstructions">Remove the skin and any bones from the haddock and discard. Carefully flake the fish using a fork.</li>
+							<li itemprop="recipeInstructions">Melt half the butter with <b>60</b> ml of the cream in a fairly small non-stick pan, then add the flaked fish and stir together gently. Cover the pan and remove from the heat. Preheat the grill.</li>
+							<li itemprop="recipeInstructions">Mix the egg yolks with <b>15</b> ml of the cream. Season with pepper, then stir into the fish. Mix the cheese and the remaining cream. Whisk the egg whites until stiff, then fold into the fish mixture. Heat the remaining butter in an omelette pan, add the fish mixture and cook until browned underneath. Pour the cheese mixture over and grill until bubbling. Garnish and serve.</li>
 							</ol>
 					</p>
 				</div>
@@ -117,7 +117,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -132,14 +132,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>411</b> kcal</td>
-							<td><b>37</b> g</td>
-							<td><b>21.3</b> g</td>
-							<td><b>1.3</b> g</td>
-							<td><b>1.3</b> g</td>
-							<td><b>0</b> g</td>
-							<td><b>18</b> g</td>
-							<td><b>0.56</b> g</td>
+							<td itemprop="calories"><b>411</b> kcal</td>
+							<td itemprop="fatContent"><b>37</b> g</td>
+							<td itemprop="saturatedFatContent"><b>21.3</b> g</td>
+							<td itemprop="carbohydrateContent"><b>1.3</b> g</td>
+							<td itemprop="sugarContent"><b>1.3</b> g</td>
+							<td itemprop="fiberContent"><b>0</b> g</td>
+							<td itemprop="proteinContent"><b>18</b> g</td>
+							<td itemprop="sodiumContent"><b>0.56</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

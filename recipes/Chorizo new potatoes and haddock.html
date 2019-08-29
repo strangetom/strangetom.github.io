@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,41 +63,41 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Seafood">
+		<main class="main Seafood" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Chorizo, new potatoes and haddock</h1>
+				<h1 class="recipe-title" itemprop="name">Chorizo, new potatoes and haddock</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Seafood_colour.svg" alt="Category icon"><p>Seafood</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>30</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT30M><b>30</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>2</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>2</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Chorizo_new_potatoes_and_haddock.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text"></p>	
+				<img itemprop="image" class="recipe-image" src="../images/Chorizo_new_potatoes_and_haddock.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description"></p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>1</b> tbsp extra virgin olive oil</li>
-							<li><b>50</b> g chorizo, peeled and thinly sliced</li>
-							<li><b>450</b> g salad or new potatoes, sliced</li>
-							<li><b>4</b> tbsp dry sherry</li>
-							<li><b>2</b> skinless thick fillets white fish</li>
-							<li>handful of cherry tomatoes</li>
-							<li><b>20</b> g bunch flat-leaf parsley</li>
-							<li>crusty bread, to serve</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp extra virgin olive oil</li>
+							<li itemprop="recipeIngredient"><b>50</b> g chorizo, peeled and thinly sliced</li>
+							<li itemprop="recipeIngredient"><b>450</b> g salad or new potatoes, sliced</li>
+							<li itemprop="recipeIngredient"><b>4</b> tbsp dry sherry</li>
+							<li itemprop="recipeIngredient"><b>2</b> skinless thick fillets white fish</li>
+							<li itemprop="recipeIngredient">handful of cherry tomatoes</li>
+							<li itemprop="recipeIngredient"><b>20</b> g bunch flat-leaf parsley</li>
+							<li itemprop="recipeIngredient">crusty bread, to serve</li>
 							</ul>
 					</p>
 				</div>
@@ -106,8 +106,8 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Heat a large lidded frying pan, then add the oil. Tip in the chorizo, fry for <b>2</b> minutes until it starts to release its oil, then tip in the potatoes and some seasoning. Splash over <b>2</b> tbsp of the sherry, cover the pan tightly, then leave to cook for <b>10-15</b> minutes until the potatoes are just tender. Move them around the pan a bit halfway through.  </li>
-							<li>Season the fish well. Give the potatoes another stir, add the cherry tomatoes and most of the chopped parsley to the pan, then lay the fish on top. Splash over <b>1</b> tbsp more of the sherry, put the lid on again, then leave to cook for <b>5</b> minutes, or until the fish has turned white and is flaky. Scatter the whole dish with the rest of the parsley and drizzle with more of the olive oil. Serve straight away with crusty bread. </li>
+							<li itemprop="recipeInstructions">Heat a large lidded frying pan, then add the oil. Tip in the chorizo, fry for <b>2</b> minutes until it starts to release its oil, then tip in the potatoes and some seasoning. Splash over <b>2</b> tbsp of the sherry, cover the pan tightly, then leave to cook for <b>10-15</b> minutes until the potatoes are just tender. Move them around the pan a bit halfway through.  </li>
+							<li itemprop="recipeInstructions">Season the fish well. Give the potatoes another stir, add the cherry tomatoes and most of the chopped parsley to the pan, then lay the fish on top. Splash over <b>1</b> tbsp more of the sherry, put the lid on again, then leave to cook for <b>5</b> minutes, or until the fish has turned white and is flaky. Scatter the whole dish with the rest of the parsley and drizzle with more of the olive oil. Serve straight away with crusty bread. </li>
 							</ol>
 					</p>
 				</div>
@@ -116,7 +116,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -131,14 +131,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>534</b> kcal</td>
-							<td><b>19</b> g</td>
-							<td><b>4</b> g</td>
-							<td><b>39</b> g</td>
-							<td><b>5</b> g</td>
-							<td><b>3</b> g</td>
-							<td><b>47</b> g</td>
-							<td><b>0.79</b> g</td>
+							<td itemprop="calories"><b>534</b> kcal</td>
+							<td itemprop="fatContent"><b>19</b> g</td>
+							<td itemprop="saturatedFatContent"><b>4</b> g</td>
+							<td itemprop="carbohydrateContent"><b>39</b> g</td>
+							<td itemprop="sugarContent"><b>5</b> g</td>
+							<td itemprop="fiberContent"><b>3</b> g</td>
+							<td itemprop="proteinContent"><b>47</b> g</td>
+							<td itemprop="sodiumContent"><b>0.79</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

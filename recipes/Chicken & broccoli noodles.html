@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,42 +63,42 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Pork">
+		<main class="main Pork" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Chicken & broccoli noodles</h1>
+				<h1 class="recipe-title" itemprop="name">Chicken & broccoli noodles</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Pork_colour.svg" alt="Category icon"><p>Pork</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>20</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT20M><b>20</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Chicken_&_broccoli_noodles.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text"></p>	
+				<img itemprop="image" class="recipe-image" src="../images/Chicken_&_broccoli_noodles.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description"></p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>250</b> g packet egg noodles</li>
-							<li><b>350</b> g broccoli florets</li>
-							<li><b>2</b> tbsp olive oil</li>
-							<li><b>2.5</b> cm piece ginger, grated</li>
-							<li><b>4</b> garlic cloves, finely sliced</li>
-							<li><b>2</b> boneless skinless chicken breasts, cut into thin strips</li>
-							<li><b>1</b> bunch spring onions, trimmed and cut in half horizontally</li>
-							<li><b>3</b> tbsp light soy sauce</li>
-							<li><b>200</b> ml chicken stock</li>
+							<li itemprop="recipeIngredient"><b>250</b> g packet egg noodles</li>
+							<li itemprop="recipeIngredient"><b>350</b> g broccoli florets</li>
+							<li itemprop="recipeIngredient"><b>2</b> tbsp olive oil</li>
+							<li itemprop="recipeIngredient"><b>2.5</b> cm piece ginger, grated</li>
+							<li itemprop="recipeIngredient"><b>4</b> garlic cloves, finely sliced</li>
+							<li itemprop="recipeIngredient"><b>2</b> boneless skinless chicken breasts, cut into thin strips</li>
+							<li itemprop="recipeIngredient"><b>1</b> bunch spring onions, trimmed and cut in half horizontally</li>
+							<li itemprop="recipeIngredient"><b>3</b> tbsp light soy sauce</li>
+							<li itemprop="recipeIngredient"><b>200</b> ml chicken stock</li>
 							</ul>
 					</p>
 				</div>
@@ -107,9 +107,9 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Cook the noodles in a pan of salted water for <b>5</b> minutes, adding the broccoli for the last <b>2</b> minutes. Drain and set aside.  </li>
-							<li>Meanwhile, heat a wok until very hot. Add the oil, then stir in the ginger and garlic. Cook for <b>30</b> seconds, stirring. Add the chicken strips and cook for <b>5</b> minutes, stirring often, until tinged brown. Add the spring onions and stir briefly to heat through.  </li>
-							<li>Mix the soy sauce and stock together, and stir into the wok. Add the drained noodles and broccoli, season with black pepper and toss everything together. Serve immediately.</li>
+							<li itemprop="recipeInstructions">Cook the noodles in a pan of salted water for <b>5</b> minutes, adding the broccoli for the last <b>2</b> minutes. Drain and set aside.  </li>
+							<li itemprop="recipeInstructions">Meanwhile, heat a wok until very hot. Add the oil, then stir in the ginger and garlic. Cook for <b>30</b> seconds, stirring. Add the chicken strips and cook for <b>5</b> minutes, stirring often, until tinged brown. Add the spring onions and stir briefly to heat through.  </li>
+							<li itemprop="recipeInstructions">Mix the soy sauce and stock together, and stir into the wok. Add the drained noodles and broccoli, season with black pepper and toss everything together. Serve immediately.</li>
 							</ol>
 					</p>
 				</div>
@@ -118,7 +118,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -133,14 +133,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>424</b> kcal</td>
-							<td><b>12</b> g</td>
-							<td><b>2</b> g</td>
-							<td><b>49</b> g</td>
-							<td><b>4</b> g</td>
-							<td><b>6</b> g</td>
-							<td><b>30</b> g</td>
-							<td><b>2.61</b> g</td>
+							<td itemprop="calories"><b>424</b> kcal</td>
+							<td itemprop="fatContent"><b>12</b> g</td>
+							<td itemprop="saturatedFatContent"><b>2</b> g</td>
+							<td itemprop="carbohydrateContent"><b>49</b> g</td>
+							<td itemprop="sugarContent"><b>4</b> g</td>
+							<td itemprop="fiberContent"><b>6</b> g</td>
+							<td itemprop="proteinContent"><b>30</b> g</td>
+							<td itemprop="sodiumContent"><b>2.61</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

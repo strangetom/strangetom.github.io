@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,42 +63,42 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Lamb">
+		<main class="main Lamb" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Turkish lamb pilau</h1>
+				<h1 class="recipe-title" itemprop="name">Turkish lamb pilau</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Lamb_colour.svg" alt="Category icon"><p>Lamb</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>30</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT30M><b>30</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Turkish_lamb_pilau.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text"></p>	
+				<img itemprop="image" class="recipe-image" src="../images/Turkish_lamb_pilau.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description"></p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li>handful pine nuts</li>
-							<li><b>1</b> tbsp olive oil</li>
-							<li><b>1</b> large onion, halved and sliced</li>
-							<li><b>2</b> cinnamon sticks, broken in half</li>
-							<li><b>500</b> g lean fillet or leg of lamb, cubed</li>
-							<li><b>250</b> g basmati rice</li>
-							<li><b>1</b> lamb or vegetable stock cube</li>
-							<li><b>12</b> ready to eat dried apricots</li>
-							<li>handful mint leaves, roughly chopped</li>
+							<li itemprop="recipeIngredient">handful pine nuts</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp olive oil</li>
+							<li itemprop="recipeIngredient"><b>1</b> large onion, halved and sliced</li>
+							<li itemprop="recipeIngredient"><b>2</b> cinnamon sticks, broken in half</li>
+							<li itemprop="recipeIngredient"><b>500</b> g lean fillet or leg of lamb, cubed</li>
+							<li itemprop="recipeIngredient"><b>250</b> g basmati rice</li>
+							<li itemprop="recipeIngredient"><b>1</b> lamb or vegetable stock cube</li>
+							<li itemprop="recipeIngredient"><b>12</b> ready to eat dried apricots</li>
+							<li itemprop="recipeIngredient">handful mint leaves, roughly chopped</li>
 							</ul>
 					</p>
 				</div>
@@ -107,11 +107,11 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Dry fry the pine nuts in a large pan until lightly toasted, then tip on to a large plate.  </li>
-							<li>Add the oil to the pan, then fry the onion and cinnamon together until they start to turn golden. Turn up the heat, add the lamb and cook until the lamb changes colour, then add the rice and cook for <b>1</b> minute, stirring all the time.  </li>
-							<li>Add <b>500</b> ml boiling water, crumble in the stock cube, add the apricots and season to taste.  </li>
-							<li>Turn down the heat, cover, and simmer for <b>12</b> minutes until the rice is tender and the stock has been absorbed.  </li>
-							<li>Toss in the pine nuts, add the mint and serve.    </li>
+							<li itemprop="recipeInstructions">Dry fry the pine nuts in a large pan until lightly toasted, then tip on to a large plate.  </li>
+							<li itemprop="recipeInstructions">Add the oil to the pan, then fry the onion and cinnamon together until they start to turn golden. Turn up the heat, add the lamb and cook until the lamb changes colour, then add the rice and cook for <b>1</b> minute, stirring all the time.  </li>
+							<li itemprop="recipeInstructions">Add <b>500</b> ml boiling water, crumble in the stock cube, add the apricots and season to taste.  </li>
+							<li itemprop="recipeInstructions">Turn down the heat, cover, and simmer for <b>12</b> minutes until the rice is tender and the stock has been absorbed.  </li>
+							<li itemprop="recipeInstructions">Toss in the pine nuts, add the mint and serve.    </li>
 							</ol>
 					</p>
 				</div>
@@ -120,7 +120,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -135,14 +135,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>584</b> kcal</td>
-							<td><b>24</b> g</td>
-							<td><b>9</b> g</td>
-							<td><b>65</b> g</td>
-							<td><b>0</b> g</td>
-							<td><b>3</b> g</td>
-							<td><b>32</b> g</td>
-							<td><b>1.4</b> g</td>
+							<td itemprop="calories"><b>584</b> kcal</td>
+							<td itemprop="fatContent"><b>24</b> g</td>
+							<td itemprop="saturatedFatContent"><b>9</b> g</td>
+							<td itemprop="carbohydrateContent"><b>65</b> g</td>
+							<td itemprop="sugarContent"><b>0</b> g</td>
+							<td itemprop="fiberContent"><b>3</b> g</td>
+							<td itemprop="proteinContent"><b>32</b> g</td>
+							<td itemprop="sodiumContent"><b>1.4</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

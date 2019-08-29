@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,43 +63,43 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Veggie">
+		<main class="main Veggie" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Spaghetti with pea and mint pesto</h1>
+				<h1 class="recipe-title" itemprop="name">Spaghetti with pea and mint pesto</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Veggie_colour.svg" alt="Category icon"><p>Veggie</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>40</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT40M><b>40</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Spaghetti_with_pea_and_mint_pesto.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">Mary Cadogan's aromatic broth will warm you up on a winter's evening - it contains ginger, which is particularly good for colds, too.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Spaghetti_with_pea_and_mint_pesto.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">Mary Cadogan's aromatic broth will warm you up on a winter's evening - it contains ginger, which is particularly good for colds, too.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>250</b> g shelled fresh peas</li>
-							<li><b>2</b> fat garlic cloves, finely chopped</li>
-							<li><b>50</b> g pine nuts, toasted</li>
-							<li><b>50</b> g Parmesan cheese, chopped into small chunks</li>
-							<li>good handful fresh mint leaves</li>
-							<li><b>6</b> tbsp extra virgin olive oil</li>
-							<li><b>350</b> g spaghetti</li>
-							<li class="ingredient-subheading">To serve</li>
-							<li>freshly grated Parmesan cheese</li>
-							<li>extra virgin olive oil</li>
+							<li itemprop="recipeIngredient"><b>250</b> g shelled fresh peas</li>
+							<li itemprop="recipeIngredient"><b>2</b> fat garlic cloves, finely chopped</li>
+							<li itemprop="recipeIngredient"><b>50</b> g pine nuts, toasted</li>
+							<li itemprop="recipeIngredient"><b>50</b> g Parmesan cheese, chopped into small chunks</li>
+							<li itemprop="recipeIngredient">good handful fresh mint leaves</li>
+							<li itemprop="recipeIngredient"><b>6</b> tbsp extra virgin olive oil</li>
+							<li itemprop="recipeIngredient"><b>350</b> g spaghetti</li>
+							<li itemprop="recipeIngredient">#To serve</li>
+							<li itemprop="recipeIngredient">freshly grated Parmesan cheese</li>
+							<li itemprop="recipeIngredient">extra virgin olive oil</li>
 							</ul>
 					</p>
 				</div>
@@ -108,9 +108,9 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Cook the peas in boiling water for <b>2-3</b> minutes until just tender, then drain and refresh under cold running water. Pat dry, then tip into a food processor and add the garlic, pine nuts, Parmesan, mint and oil. Season, then pulse very briefly until the ingredients are roughly chopped.   </li>
-							<li>Cook the spaghetti according to the packet instructions until tender. Drain, reserving some of the water, then toss with the pesto and about <b>2</b> tbsp of the water.  </li>
-							<li>Put into warmed bowls and serve at once with Parmesan and olive oil at the table.   </li>
+							<li itemprop="recipeInstructions">Cook the peas in boiling water for <b>2-3</b> minutes until just tender, then drain and refresh under cold running water. Pat dry, then tip into a food processor and add the garlic, pine nuts, Parmesan, mint and oil. Season, then pulse very briefly until the ingredients are roughly chopped.   </li>
+							<li itemprop="recipeInstructions">Cook the spaghetti according to the packet instructions until tender. Drain, reserving some of the water, then toss with the pesto and about <b>2</b> tbsp of the water.  </li>
+							<li itemprop="recipeInstructions">Put into warmed bowls and serve at once with Parmesan and olive oil at the table.   </li>
 							</ol>
 					</p>
 				</div>
@@ -119,7 +119,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -134,14 +134,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>640</b> kcal</td>
-							<td><b>32</b> g</td>
-							<td><b>6</b> g</td>
-							<td><b>72</b> g</td>
-							<td>? g</td>
-							<td><b>6</b> g</td>
-							<td><b>21</b> g</td>
-							<td><b>0.3</b> g</td>
+							<td itemprop="calories"><b>640</b> kcal</td>
+							<td itemprop="fatContent"><b>32</b> g</td>
+							<td itemprop="saturatedFatContent"><b>6</b> g</td>
+							<td itemprop="carbohydrateContent"><b>72</b> g</td>
+							<td itemprop="sugarContent">? g</td>
+							<td itemprop="fiberContent"><b>6</b> g</td>
+							<td itemprop="proteinContent"><b>21</b> g</td>
+							<td itemprop="sodiumContent"><b>0.3</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

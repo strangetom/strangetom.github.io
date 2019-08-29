@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,39 +63,39 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Veggie">
+		<main class="main Veggie" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Ricotta pasta pockets</h1>
+				<h1 class="recipe-title" itemprop="name">Ricotta pasta pockets</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Veggie_colour.svg" alt="Category icon"><p>Veggie</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>30</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT30M><b>30</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Ricotta_pasta_pockets.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">This surprisingly light pasta bake is quick and straightforward, and makes an impressive veggie supper.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Ricotta_pasta_pockets.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">This surprisingly light pasta bake is quick and straightforward, and makes an impressive veggie supper.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>250</b> g pack fresh lasagne sheets</li>
-							<li><b>1</b> tbsp olive oil</li>
-							<li><b>250</b> g carton ricotta cheese</li>
-							<li><b>50</b> g bag rocket</li>
-							<li><b>2</b> x <b>350</b> g jars tomato and chargrilled vegetable sauce or similar</li>
-							<li><b>50</b> g mature vegetarian cheddar cheese, grated</li>
+							<li itemprop="recipeIngredient"><b>250</b> g pack fresh lasagne sheets</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp olive oil</li>
+							<li itemprop="recipeIngredient"><b>250</b> g carton ricotta cheese</li>
+							<li itemprop="recipeIngredient"><b>50</b> g bag rocket</li>
+							<li itemprop="recipeIngredient"><b>2</b> x <b>350</b> g jars tomato and chargrilled vegetable sauce or similar</li>
+							<li itemprop="recipeIngredient"><b>50</b> g mature vegetarian cheddar cheese, grated</li>
 							</ul>
 					</p>
 				</div>
@@ -104,9 +104,9 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Put the lasagne sheets in a large bowl, and pour over boiling water to cover. Leave to soak for <b>5</b> minutes. Meanwhile, preheat the oven to <b>180</b>&degC/Gas <b>6</b> and lightly oil a shallow baking tray.</li>
-							<li>Drain the lasagne in a colander. Take on sheet and put a large spoonful of ricotta in the centre. Scatter over a few rocket leaves, then fold the sheet in half and press the edges together to form a pocket. Continue to fill all pasta sheets, then lay them on the baking tray so they overlap slightly.</li>
-							<li>Cover the pasta pockets with the sauce, sprinkle over the cheese and bake for <b>10-12</b> minutes until hot and bubbly.</li>
+							<li itemprop="recipeInstructions">Put the lasagne sheets in a large bowl, and pour over boiling water to cover. Leave to soak for <b>5</b> minutes. Meanwhile, preheat the oven to <b>180</b>&degC/Gas <b>6</b> and lightly oil a shallow baking tray.</li>
+							<li itemprop="recipeInstructions">Drain the lasagne in a colander. Take on sheet and put a large spoonful of ricotta in the centre. Scatter over a few rocket leaves, then fold the sheet in half and press the edges together to form a pocket. Continue to fill all pasta sheets, then lay them on the baking tray so they overlap slightly.</li>
+							<li itemprop="recipeInstructions">Cover the pasta pockets with the sauce, sprinkle over the cheese and bake for <b>10-12</b> minutes until hot and bubbly.</li>
 							</ol>
 					</p>
 				</div>
@@ -115,7 +115,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -130,14 +130,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>440</b> kcal</td>
-							<td><b>17</b> g</td>
-							<td><b>8</b> g</td>
-							<td><b>57</b> g</td>
-							<td>? g</td>
-							<td><b>4</b> g</td>
-							<td><b>19</b> g</td>
-							<td><b>3.5</b> g</td>
+							<td itemprop="calories"><b>440</b> kcal</td>
+							<td itemprop="fatContent"><b>17</b> g</td>
+							<td itemprop="saturatedFatContent"><b>8</b> g</td>
+							<td itemprop="carbohydrateContent"><b>57</b> g</td>
+							<td itemprop="sugarContent">? g</td>
+							<td itemprop="fiberContent"><b>4</b> g</td>
+							<td itemprop="proteinContent"><b>19</b> g</td>
+							<td itemprop="sodiumContent"><b>3.5</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

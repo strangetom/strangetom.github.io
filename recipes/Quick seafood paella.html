@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,45 +63,45 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Seafood">
+		<main class="main Seafood" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Quick seafood paella</h1>
+				<h1 class="recipe-title" itemprop="name">Quick seafood paella</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Seafood_colour.svg" alt="Category icon"><p>Seafood</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>30</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT30M><b>30</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Quick_seafood_paella.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text"></p>	
+				<img itemprop="image" class="recipe-image" src="../images/Quick_seafood_paella.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description"></p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>1</b> tbsp olive oil</li>
-							<li><b>1</b> onion, finely chopped</li>
-							<li><b>1</b> red pepper, deseeded and sliced</li>
-							<li><b>2</b> garlic cloves, finely chopped</li>
-							<li><b>230</b> g can chopped tomatoes</li>
-							<li><b>1</b> tsp ground turmeric</li>
-							<li><b>300</b> g long grain rice</li>
-							<li><b>1.3</b> l vegetable stock</li>
-							<li><b>450</b> g bag frozen mixed seafood, thawed</li>
-							<li><b>175</b> g green beans, halved</li>
-							<li>handful chopped flat-leaf parsley leaves</li>
-							<li><b>1</b> lemon, cut into wedges</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp olive oil</li>
+							<li itemprop="recipeIngredient"><b>1</b> onion, finely chopped</li>
+							<li itemprop="recipeIngredient"><b>1</b> red pepper, deseeded and sliced</li>
+							<li itemprop="recipeIngredient"><b>2</b> garlic cloves, finely chopped</li>
+							<li itemprop="recipeIngredient"><b>230</b> g can chopped tomatoes</li>
+							<li itemprop="recipeIngredient"><b>1</b> tsp ground turmeric</li>
+							<li itemprop="recipeIngredient"><b>300</b> g long grain rice</li>
+							<li itemprop="recipeIngredient"><b>1.3</b> l vegetable stock</li>
+							<li itemprop="recipeIngredient"><b>450</b> g bag frozen mixed seafood, thawed</li>
+							<li itemprop="recipeIngredient"><b>175</b> g green beans, halved</li>
+							<li itemprop="recipeIngredient">handful chopped flat-leaf parsley leaves</li>
+							<li itemprop="recipeIngredient"><b>1</b> lemon, cut into wedges</li>
 							</ul>
 					</p>
 				</div>
@@ -110,9 +110,9 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Heat the oil in a large frying pan and cook the onion and pepper for <b>5</b> minutes, until softened but not brown. Stir in the garlic, tomatoes and turmeric, and cook for <b>1</b> minute more, stirring occasionally.  </li>
-							<li>Tip in the rice and cook for <b>1</b> minute, stirring to coat the grains. Pour in the stock, stir well and bring to the boil, then simmer uncovered for about <b>8</b> minutes, stirring occasionally until the rice is almost cooked and most of the stock has been absorbed.  </li>
-							<li>Add the seafood and beans, and cook for <b>3-4</b> minutes more. Stir in the parsley and season. Serve straight from the pan with lemon wedges.  </li>
+							<li itemprop="recipeInstructions">Heat the oil in a large frying pan and cook the onion and pepper for <b>5</b> minutes, until softened but not brown. Stir in the garlic, tomatoes and turmeric, and cook for <b>1</b> minute more, stirring occasionally.  </li>
+							<li itemprop="recipeInstructions">Tip in the rice and cook for <b>1</b> minute, stirring to coat the grains. Pour in the stock, stir well and bring to the boil, then simmer uncovered for about <b>8</b> minutes, stirring occasionally until the rice is almost cooked and most of the stock has been absorbed.  </li>
+							<li itemprop="recipeInstructions">Add the seafood and beans, and cook for <b>3-4</b> minutes more. Stir in the parsley and season. Serve straight from the pan with lemon wedges.  </li>
 							</ol>
 					</p>
 				</div>
@@ -121,7 +121,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -136,14 +136,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>463</b> kcal</td>
-							<td><b>6</b> g</td>
-							<td><b>1</b> g</td>
-							<td><b>78</b> g</td>
-							<td><b>10</b> g</td>
-							<td><b>3</b> g</td>
-							<td><b>32</b> g</td>
-							<td><b>1.91</b> g</td>
+							<td itemprop="calories"><b>463</b> kcal</td>
+							<td itemprop="fatContent"><b>6</b> g</td>
+							<td itemprop="saturatedFatContent"><b>1</b> g</td>
+							<td itemprop="carbohydrateContent"><b>78</b> g</td>
+							<td itemprop="sugarContent"><b>10</b> g</td>
+							<td itemprop="fiberContent"><b>3</b> g</td>
+							<td itemprop="proteinContent"><b>32</b> g</td>
+							<td itemprop="sodiumContent"><b>1.91</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,43 +63,43 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Chicken">
+		<main class="main Chicken" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">One-pan chicken couscous</h1>
+				<h1 class="recipe-title" itemprop="name">One-pan chicken couscous</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Chicken_colour.svg" alt="Category icon"><p>Chicken</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>30</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT30M><b>30</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/One-pan_chicken_couscous.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">This satisfying yet superhealthy recipe is all cooked in one pan for minimum washing up.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/One-pan_chicken_couscous.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">This satisfying yet superhealthy recipe is all cooked in one pan for minimum washing up.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>1</b> tbsp olive oil</li>
-							<li><b>1</b> onion, thinly sliced</li>
-							<li><b>200</b> g chicken breast, diced</li>
-							<li>good chunk fresh root ginger</li>
-							<li><b>1-2</b> tbsp harissa paste, plus extra to serve</li>
-							<li><b>10</b> dried apricots</li>
-							<li><b>220</b> g can chickpeas, rinsed and drained</li>
-							<li><b>200</b> g  couscous</li>
-							<li><b>200</b> ml hot chicken stock</li>
-							<li>handful coriander, chopped, to serve</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp olive oil</li>
+							<li itemprop="recipeIngredient"><b>1</b> onion, thinly sliced</li>
+							<li itemprop="recipeIngredient"><b>200</b> g chicken breast, diced</li>
+							<li itemprop="recipeIngredient">good chunk fresh root ginger</li>
+							<li itemprop="recipeIngredient"><b>1-2</b> tbsp harissa paste, plus extra to serve</li>
+							<li itemprop="recipeIngredient"><b>10</b> dried apricots</li>
+							<li itemprop="recipeIngredient"><b>220</b> g can chickpeas, rinsed and drained</li>
+							<li itemprop="recipeIngredient"><b>200</b> g  couscous</li>
+							<li itemprop="recipeIngredient"><b>200</b> ml hot chicken stock</li>
+							<li itemprop="recipeIngredient">handful coriander, chopped, to serve</li>
 							</ul>
 					</p>
 				</div>
@@ -108,10 +108,10 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Heat the olive oil in a large frying pan and cook the onion for <b>1-2</b> mins just until softened. </li>
-							<li>Add the chicken and fry for <b>7-10</b> mins until cooked through and the onions have turned golden. Grate over the ginger, stir through the harissa to coat everything and cook for <b>1</b> min more.</li>
-							<li>Tip in the apricots, chickpeas and couscous, then pour over the stock and stir once. Cover with a lid or tightly cover the pan with foil and leave for about <b>5</b> mins until the couscous has soaked up all the stock and is soft. </li>
-							<li>Fluff up the couscous with a fork and scatter over the coriander to serve. Serve with extra harissa, if you like.</li>
+							<li itemprop="recipeInstructions">Heat the olive oil in a large frying pan and cook the onion for <b>1-2</b> mins just until softened. </li>
+							<li itemprop="recipeInstructions">Add the chicken and fry for <b>7-10</b> mins until cooked through and the onions have turned golden. Grate over the ginger, stir through the harissa to coat everything and cook for <b>1</b> min more.</li>
+							<li itemprop="recipeInstructions">Tip in the apricots, chickpeas and couscous, then pour over the stock and stir once. Cover with a lid or tightly cover the pan with foil and leave for about <b>5</b> mins until the couscous has soaked up all the stock and is soft. </li>
+							<li itemprop="recipeInstructions">Fluff up the couscous with a fork and scatter over the coriander to serve. Serve with extra harissa, if you like.</li>
 							</ol>
 					</p>
 				</div>
@@ -120,7 +120,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -135,14 +135,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>281</b> kcal</td>
-							<td><b>6</b> g</td>
-							<td><b>1</b> g</td>
-							<td><b>41</b> g</td>
-							<td><b>9</b> g</td>
-							<td><b>3</b> g</td>
-							<td><b>20</b> g</td>
-							<td><b>0.48</b> g</td>
+							<td itemprop="calories"><b>281</b> kcal</td>
+							<td itemprop="fatContent"><b>6</b> g</td>
+							<td itemprop="saturatedFatContent"><b>1</b> g</td>
+							<td itemprop="carbohydrateContent"><b>41</b> g</td>
+							<td itemprop="sugarContent"><b>9</b> g</td>
+							<td itemprop="fiberContent"><b>3</b> g</td>
+							<td itemprop="proteinContent"><b>20</b> g</td>
+							<td itemprop="sodiumContent"><b>0.48</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

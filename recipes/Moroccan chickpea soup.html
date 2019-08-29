@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,44 +63,44 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Veggie">
+		<main class="main Veggie" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Moroccan chickpea soup</h1>
+				<h1 class="recipe-title" itemprop="name">Moroccan chickpea soup</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Veggie_colour.svg" alt="Category icon"><p>Veggie</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>25</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT25M><b>25</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Moroccan_chickpea_soup.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text"></p>	
+				<img itemprop="image" class="recipe-image" src="../images/Moroccan_chickpea_soup.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description"></p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>1</b> tbsp olive oil</li>
-							<li><b>1</b> medium onion, chopped</li>
-							<li><b>2</b> celery sticks, chopped</li>
-							<li><b>2</b> tsp ground cumin</li>
-							<li><b>600</b> ml vegetable stock</li>
-							<li><b>400</b> g can chopped tomatoes with garlic</li>
-							<li><b>400</b> g chickpeas, drained and rinsed</li>
-							<li><b>100</b> g frozen broad beans</li>
-							<li>juice and zest of <b>0.5</b> lemon</li>
-							<li>large handful coriander or parsley leaves</li>
-							<li>warm coriander naan, to serve</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp olive oil</li>
+							<li itemprop="recipeIngredient"><b>1</b> medium onion, chopped</li>
+							<li itemprop="recipeIngredient"><b>2</b> celery sticks, chopped</li>
+							<li itemprop="recipeIngredient"><b>2</b> tsp ground cumin</li>
+							<li itemprop="recipeIngredient"><b>600</b> ml vegetable stock</li>
+							<li itemprop="recipeIngredient"><b>400</b> g can chopped tomatoes with garlic</li>
+							<li itemprop="recipeIngredient"><b>400</b> g chickpeas, drained and rinsed</li>
+							<li itemprop="recipeIngredient"><b>100</b> g frozen broad beans</li>
+							<li itemprop="recipeIngredient">juice and zest of <b>0.5</b> lemon</li>
+							<li itemprop="recipeIngredient">large handful coriander or parsley leaves</li>
+							<li itemprop="recipeIngredient">warm coriander naan, to serve</li>
 							</ul>
 					</p>
 				</div>
@@ -109,9 +109,9 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Heat the oil in a large pan, then fry the onions and celery gently for <b>10</b> minutes until softened, stirring frequently. Tip in the cumin and fry for another minute.  </li>
-							<li>Turn up the heat, then add the stock, tomatoes and chickpeas, plus a good grind of black pepper. Simmer for <b>8</b> minutes. Throw in the broad beans and lemon juice, and cook for a further <b>2</b> minutes.  </li>
-							<li>Season to taste then top with a  sprinkling of lemon zest and chopped herbs. Serve with warm coriander naan. </li>
+							<li itemprop="recipeInstructions">Heat the oil in a large pan, then fry the onions and celery gently for <b>10</b> minutes until softened, stirring frequently. Tip in the cumin and fry for another minute.  </li>
+							<li itemprop="recipeInstructions">Turn up the heat, then add the stock, tomatoes and chickpeas, plus a good grind of black pepper. Simmer for <b>8</b> minutes. Throw in the broad beans and lemon juice, and cook for a further <b>2</b> minutes.  </li>
+							<li itemprop="recipeInstructions">Season to taste then top with a  sprinkling of lemon zest and chopped herbs. Serve with warm coriander naan. </li>
 							</ol>
 					</p>
 				</div>
@@ -120,7 +120,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -135,14 +135,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>153</b> kcal</td>
-							<td><b>5</b> g</td>
-							<td><b>1</b> g</td>
-							<td><b>18</b> g</td>
-							<td><b>6</b> g</td>
-							<td><b>7</b> g</td>
-							<td><b>9</b> g</td>
-							<td><b>1.07</b> g</td>
+							<td itemprop="calories"><b>153</b> kcal</td>
+							<td itemprop="fatContent"><b>5</b> g</td>
+							<td itemprop="saturatedFatContent"><b>1</b> g</td>
+							<td itemprop="carbohydrateContent"><b>18</b> g</td>
+							<td itemprop="sugarContent"><b>6</b> g</td>
+							<td itemprop="fiberContent"><b>7</b> g</td>
+							<td itemprop="proteinContent"><b>9</b> g</td>
+							<td itemprop="sodiumContent"><b>1.07</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,40 +63,40 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Dessert">
+		<main class="main Dessert" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Fluffy American pancakes</h1>
+				<h1 class="recipe-title" itemprop="name">Fluffy American pancakes</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Dessert_colour.svg" alt="Category icon"><p>Dessert</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>40</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT40M><b>40</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4-6</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4-6</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Fluffy_American_pancakes.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text"></p>	
+				<img itemprop="image" class="recipe-image" src="../images/Fluffy_American_pancakes.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description"></p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>135</b> g plain flour</li>
-							<li><b>1</b> tsp baking powder</li>
-							<li><b>0.5</b> tsp salt</li>
-							<li><b>2</b> tbsp caster sugar</li>
-							<li><b>130</b> ml milk</li>
-							<li><b>1</b> large egg, lightly beaten</li>
-							<li><b>2</b> tbsp melted butter (allowed to cool slightly) or olive oil, plus extra for cooking</li>
+							<li itemprop="recipeIngredient"><b>135</b> g plain flour</li>
+							<li itemprop="recipeIngredient"><b>1</b> tsp baking powder</li>
+							<li itemprop="recipeIngredient"><b>0.5</b> tsp salt</li>
+							<li itemprop="recipeIngredient"><b>2</b> tbsp caster sugar</li>
+							<li itemprop="recipeIngredient"><b>130</b> ml milk</li>
+							<li itemprop="recipeIngredient"><b>1</b> large egg, lightly beaten</li>
+							<li itemprop="recipeIngredient"><b>2</b> tbsp melted butter (allowed to cool slightly) or olive oil, plus extra for cooking</li>
 							</ul>
 					</p>
 				</div>
@@ -105,10 +105,10 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Sift the flour, baking powder, salt and caster sugar into a large bowl. In a separate bowl or jug, lightly whisk together the milk and egg, then whisk in the melted butter.  </li>
-							<li>Pour the milk mixture into the flour mixture and, using a fork, beat until you have a smooth batter. Any lumps will soon disappear with a little mixing. Let the batter stand for a few minutes.  </li>
-							<li>Heat a non-stick frying pan over a medium heat and add a knob of butter. When it's melted, add a ladle of batter (or two if your frying pan is big enough to cook two pancakes at the same time). It will seem very thick but this is how it should be. Wait until the top of the pancake begins to bubble, then turn it over and cook until both sides are golden brown and the pancake has risen to about 1cm (½in) thick.  </li>
-							<li>Repeat until all the batter is used up. You can keep the pancakes warm in a low oven, but they taste best fresh out the pan.  </li>
+							<li itemprop="recipeInstructions">Sift the flour, baking powder, salt and caster sugar into a large bowl. In a separate bowl or jug, lightly whisk together the milk and egg, then whisk in the melted butter.  </li>
+							<li itemprop="recipeInstructions">Pour the milk mixture into the flour mixture and, using a fork, beat until you have a smooth batter. Any lumps will soon disappear with a little mixing. Let the batter stand for a few minutes.  </li>
+							<li itemprop="recipeInstructions">Heat a non-stick frying pan over a medium heat and add a knob of butter. When it's melted, add a ladle of batter (or two if your frying pan is big enough to cook two pancakes at the same time). It will seem very thick but this is how it should be. Wait until the top of the pancake begins to bubble, then turn it over and cook until both sides are golden brown and the pancake has risen to about 1cm (½in) thick.  </li>
+							<li itemprop="recipeInstructions">Repeat until all the batter is used up. You can keep the pancakes warm in a low oven, but they taste best fresh out the pan.  </li>
 							</ol>
 					</p>
 				</div>
@@ -117,7 +117,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -132,14 +132,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>256</b> kcal</td>
-							<td><b>9.5</b> g</td>
-							<td><b>5.5</b> g</td>
-							<td><b>35</b> g</td>
-							<td><b>9</b> g</td>
-							<td><b>4.6</b> g</td>
-							<td><b>1.5</b> g</td>
-							<td><b>1.2</b> g</td>
+							<td itemprop="calories"><b>256</b> kcal</td>
+							<td itemprop="fatContent"><b>9.5</b> g</td>
+							<td itemprop="saturatedFatContent"><b>5.5</b> g</td>
+							<td itemprop="carbohydrateContent"><b>35</b> g</td>
+							<td itemprop="sugarContent"><b>9</b> g</td>
+							<td itemprop="fiberContent"><b>4.6</b> g</td>
+							<td itemprop="proteinContent"><b>1.5</b> g</td>
+							<td itemprop="sodiumContent"><b>1.2</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

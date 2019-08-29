@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,43 +63,43 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Pork">
+		<main class="main Pork" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Sausage & prawn jambalaya</h1>
+				<h1 class="recipe-title" itemprop="name">Sausage & prawn jambalaya</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Pork_colour.svg" alt="Category icon"><p>Pork</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>45</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT45M><b>45</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Sausage_&_prawn_jambalaya.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text"></p>	
+				<img itemprop="image" class="recipe-image" src="../images/Sausage_&_prawn_jambalaya.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description"></p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>6</b> good quality sausages</li>
-							<li>oil to fry</li>
-							<li><b>1</b> onion, chopped</li>
-							<li><b>1</b> red pepper, deseeded and chopped</li>
-							<li><b>2</b> garlic cloves, crushed</li>
-							<li><b>1</b> tbsp smoked paprika</li>
-							<li><b>250</b> g long grain rice</li>
-							<li><b>400</b> g can chopped tomatoes</li>
-							<li><b>400</b> - <b>500</b> ml chicken stock</li>
-							<li><b>260</b> g cooked and peeled king prawns</li>
+							<li itemprop="recipeIngredient"><b>6</b> good quality sausages</li>
+							<li itemprop="recipeIngredient">oil to fry</li>
+							<li itemprop="recipeIngredient"><b>1</b> onion, chopped</li>
+							<li itemprop="recipeIngredient"><b>1</b> red pepper, deseeded and chopped</li>
+							<li itemprop="recipeIngredient"><b>2</b> garlic cloves, crushed</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp smoked paprika</li>
+							<li itemprop="recipeIngredient"><b>250</b> g long grain rice</li>
+							<li itemprop="recipeIngredient"><b>400</b> g can chopped tomatoes</li>
+							<li itemprop="recipeIngredient"><b>400</b> - <b>500</b> ml chicken stock</li>
+							<li itemprop="recipeIngredient"><b>260</b> g cooked and peeled king prawns</li>
 							</ul>
 					</p>
 				</div>
@@ -108,11 +108,11 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Fry the sausages in a large, deep, lidded frying pan until golden all over, then remove and set aside.  </li>
-							<li>Heat a little oil in the pan and gently cook the onion for <b>5</b> minutes until it is soft.  </li>
-							<li>Add the garlic, pepper and paprika and cook for a few minutes more, then stir in the rice, mixing to coat all the grains well. Tip in the tomatoes and enough stock to cover the rice. Simmer with the lid on the pan for <b>10-12</b> minutes until the rice is tender. Add more stock if you need during cooking.  </li>
-							<li>About <b>5</b> minutes before the end of the cooking time, slice the sausages and return them to the pan. Cover and continue to cook until the rice is tender.  </li>
-							<li>Stir through the prawns, put the lid on and leave to heat through. Season and sever immediately.  </li>
+							<li itemprop="recipeInstructions">Fry the sausages in a large, deep, lidded frying pan until golden all over, then remove and set aside.  </li>
+							<li itemprop="recipeInstructions">Heat a little oil in the pan and gently cook the onion for <b>5</b> minutes until it is soft.  </li>
+							<li itemprop="recipeInstructions">Add the garlic, pepper and paprika and cook for a few minutes more, then stir in the rice, mixing to coat all the grains well. Tip in the tomatoes and enough stock to cover the rice. Simmer with the lid on the pan for <b>10-12</b> minutes until the rice is tender. Add more stock if you need during cooking.  </li>
+							<li itemprop="recipeInstructions">About <b>5</b> minutes before the end of the cooking time, slice the sausages and return them to the pan. Cover and continue to cook until the rice is tender.  </li>
+							<li itemprop="recipeInstructions">Stir through the prawns, put the lid on and leave to heat through. Season and sever immediately.  </li>
 							</ol>
 					</p>
 				</div>
@@ -121,7 +121,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -136,14 +136,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>626</b> kcal</td>
-							<td><b>21</b> g</td>
-							<td><b>7</b> g</td>
-							<td><b>74</b> g</td>
-							<td><b>9</b> g</td>
-							<td><b>4</b> g</td>
-							<td><b>32</b> g</td>
-							<td><b>2.9</b> g</td>
+							<td itemprop="calories"><b>626</b> kcal</td>
+							<td itemprop="fatContent"><b>21</b> g</td>
+							<td itemprop="saturatedFatContent"><b>7</b> g</td>
+							<td itemprop="carbohydrateContent"><b>74</b> g</td>
+							<td itemprop="sugarContent"><b>9</b> g</td>
+							<td itemprop="fiberContent"><b>4</b> g</td>
+							<td itemprop="proteinContent"><b>32</b> g</td>
+							<td itemprop="sodiumContent"><b>2.9</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

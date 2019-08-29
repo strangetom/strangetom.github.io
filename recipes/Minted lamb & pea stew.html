@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,43 +63,43 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Lamb">
+		<main class="main Lamb" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Minted lamb & pea stew</h1>
+				<h1 class="recipe-title" itemprop="name">Minted lamb & pea stew</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Lamb_colour.svg" alt="Category icon"><p>Lamb</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>380</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT380M><b>380</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Minted_lamb_&_pea_stew.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">This light, summery stew is brilliant eaten at any time of the year - just add some crusty bread to mop up the juices in the bowl.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Minted_lamb_&_pea_stew.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">This light, summery stew is brilliant eaten at any time of the year - just add some crusty bread to mop up the juices in the bowl.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>1</b> tbsp sunflower oil</li>
-							<li><b>350</b> g lean lamb leg, cubed</li>
-							<li><b>4</b> shallots, quartered</li>
-							<li><b>2</b> leeks, sliced</li>
-							<li><b>4</b> carrots, thickly sliced</li>
-							<li><b>400</b> g potatoes, cut into large cubes</li>
-							<li><b>3</b> tbso plain flour, seasoned</li>
-							<li><b>500</b> ml lamb or chicken stock</li>
-							<li><b>300</b> g frozen peas, defrosted</li>
-							<li>handful mint leaves, to garnish</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp sunflower oil</li>
+							<li itemprop="recipeIngredient"><b>350</b> g lean lamb leg, cubed</li>
+							<li itemprop="recipeIngredient"><b>4</b> shallots, quartered</li>
+							<li itemprop="recipeIngredient"><b>2</b> leeks, sliced</li>
+							<li itemprop="recipeIngredient"><b>4</b> carrots, thickly sliced</li>
+							<li itemprop="recipeIngredient"><b>400</b> g potatoes, cut into large cubes</li>
+							<li itemprop="recipeIngredient"><b>3</b> tbso plain flour, seasoned</li>
+							<li itemprop="recipeIngredient"><b>500</b> ml lamb or chicken stock</li>
+							<li itemprop="recipeIngredient"><b>300</b> g frozen peas, defrosted</li>
+							<li itemprop="recipeIngredient">handful mint leaves, to garnish</li>
 							</ul>
 					</p>
 				</div>
@@ -108,8 +108,8 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Heat the slow cooker if necessary. Heat the oil in a large pan, then brown the lamb over a high heat for <b>2</b> minutes each time. Layer the shallots, leeks, carrots and potatoes in the slow cooker pot. Top with the lamb, scatter over the flour and pour over the stock. Cover and cook on Low for <b>6-8</b> hours until the lamb is tender.</li>
-							<li>Stir in the peas, recover, but turn off the slow cooker and leave for <b>15</b> minutes to heat through. Season and scatter with mint leaves to serve.</li>
+							<li itemprop="recipeInstructions">Heat the slow cooker if necessary. Heat the oil in a large pan, then brown the lamb over a high heat for <b>2</b> minutes each time. Layer the shallots, leeks, carrots and potatoes in the slow cooker pot. Top with the lamb, scatter over the flour and pour over the stock. Cover and cook on Low for <b>6-8</b> hours until the lamb is tender.</li>
+							<li itemprop="recipeInstructions">Stir in the peas, recover, but turn off the slow cooker and leave for <b>15</b> minutes to heat through. Season and scatter with mint leaves to serve.</li>
 							</ol>
 					</p>
 				</div>
@@ -118,7 +118,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -133,14 +133,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>357</b> kcal</td>
-							<td><b>12</b> g</td>
-							<td><b>4</b> g</td>
-							<td><b>37</b> g</td>
-							<td><b>11</b> g</td>
-							<td><b>10</b> g</td>
-							<td><b>28</b> g</td>
-							<td><b>1.38</b> g</td>
+							<td itemprop="calories"><b>357</b> kcal</td>
+							<td itemprop="fatContent"><b>12</b> g</td>
+							<td itemprop="saturatedFatContent"><b>4</b> g</td>
+							<td itemprop="carbohydrateContent"><b>37</b> g</td>
+							<td itemprop="sugarContent"><b>11</b> g</td>
+							<td itemprop="fiberContent"><b>10</b> g</td>
+							<td itemprop="proteinContent"><b>28</b> g</td>
+							<td itemprop="sodiumContent"><b>1.38</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

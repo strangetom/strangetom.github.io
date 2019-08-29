@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,43 +63,43 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Veggie">
+		<main class="main Veggie" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Fragrant rice with chilli vegetables</h1>
+				<h1 class="recipe-title" itemprop="name">Fragrant rice with chilli vegetables</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Veggie_colour.svg" alt="Category icon"><p>Veggie</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>45</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT45M><b>45</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Fragrant_rice_with_chilli_vegetables.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">Simple ingredients are given a flavour with fresh-tasting lemongrass, coriander and the fiery heat of chopped chilli.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Fragrant_rice_with_chilli_vegetables.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">Simple ingredients are given a flavour with fresh-tasting lemongrass, coriander and the fiery heat of chopped chilli.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>225</b> g jasmine or Thai rice</li>
-							<li><b>1</b> lemongrass stalk, finely chopped</li>
-							<li><b>175</b> g mangetout, halved lengthways</li>
-							<li><b>175</b> g baby sweetcorn, halved lengthways</li>
-							<li><b>2</b> tomatoes, roughly chopped</li>
-							<li><b>25</b> g coriander leaves, finely chopped</li>
-							<li><b>25</b> g desiccated coconut, lightly toasted</li>
-							<li><b>1</b> red chilli, deseeded and finely chopped</li>
-							<li><b>1</b> tbsp light soy sauce</li>
-							<li>coriander sprigs, to garnish</li>
+							<li itemprop="recipeIngredient"><b>225</b> g jasmine or Thai rice</li>
+							<li itemprop="recipeIngredient"><b>1</b> lemongrass stalk, finely chopped</li>
+							<li itemprop="recipeIngredient"><b>175</b> g mangetout, halved lengthways</li>
+							<li itemprop="recipeIngredient"><b>175</b> g baby sweetcorn, halved lengthways</li>
+							<li itemprop="recipeIngredient"><b>2</b> tomatoes, roughly chopped</li>
+							<li itemprop="recipeIngredient"><b>25</b> g coriander leaves, finely chopped</li>
+							<li itemprop="recipeIngredient"><b>25</b> g desiccated coconut, lightly toasted</li>
+							<li itemprop="recipeIngredient"><b>1</b> red chilli, deseeded and finely chopped</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp light soy sauce</li>
+							<li itemprop="recipeIngredient">coriander sprigs, to garnish</li>
 							</ul>
 					</p>
 				</div>
@@ -108,9 +108,9 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Half fill the base of a steamer with water. Bring to the boil and cover with the steamer layers and lid. Rinse the rice under cold running water. Drain and put into a basin (check that it will fit into the steamer layer). Add the lemongrass, some seasoning and <b>600</b> ml boiling water into the basin and put on the lid. Cook the rice for <b>30</b> minutes until the rice has absorbed almost all the water.</li>
-							<li>Arrange the vegetables in the steamer, around the basin. Cover and steam for <b>2</b> minutes.</li>
-							<li>Stir the coriander, coconut and chilli into the rice and divide the rice among serving plates. Top with the vegetables and drizzle over the soy sauce. Serve sprinkled with the coriander sprigs.</li>
+							<li itemprop="recipeInstructions">Half fill the base of a steamer with water. Bring to the boil and cover with the steamer layers and lid. Rinse the rice under cold running water. Drain and put into a basin (check that it will fit into the steamer layer). Add the lemongrass, some seasoning and <b>600</b> ml boiling water into the basin and put on the lid. Cook the rice for <b>30</b> minutes until the rice has absorbed almost all the water.</li>
+							<li itemprop="recipeInstructions">Arrange the vegetables in the steamer, around the basin. Cover and steam for <b>2</b> minutes.</li>
+							<li itemprop="recipeInstructions">Stir the coriander, coconut and chilli into the rice and divide the rice among serving plates. Top with the vegetables and drizzle over the soy sauce. Serve sprinkled with the coriander sprigs.</li>
 							</ol>
 					</p>
 				</div>
@@ -119,7 +119,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -134,14 +134,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>249</b> kcal</td>
-							<td><b>5</b> g</td>
-							<td><b>3</b> g</td>
-							<td><b>15</b> g</td>
-							<td><b>3</b> g</td>
-							<td><b>3</b> g</td>
-							<td><b>7</b> g</td>
-							<td><b>0.65</b> g</td>
+							<td itemprop="calories"><b>249</b> kcal</td>
+							<td itemprop="fatContent"><b>5</b> g</td>
+							<td itemprop="saturatedFatContent"><b>3</b> g</td>
+							<td itemprop="carbohydrateContent"><b>15</b> g</td>
+							<td itemprop="sugarContent"><b>3</b> g</td>
+							<td itemprop="fiberContent"><b>3</b> g</td>
+							<td itemprop="proteinContent"><b>7</b> g</td>
+							<td itemprop="sodiumContent"><b>0.65</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

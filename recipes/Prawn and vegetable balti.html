@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,45 +63,45 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Seafood">
+		<main class="main Seafood" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Prawn and vegetable balti</h1>
+				<h1 class="recipe-title" itemprop="name">Prawn and vegetable balti</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Seafood_colour.svg" alt="Category icon"><p>Seafood</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>10</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT10M><b>10</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Prawn_and_vegetable_balti.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">A delicious accompaniment to other balti dishes. Double the quantities if serving solo.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Prawn_and_vegetable_balti.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">A delicious accompaniment to other balti dishes. Double the quantities if serving solo.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>175</b> g cooked, peeled prawns</li>
-							<li><b>2</b> tbsp olive oil</li>
-							<li><b>0.25</b> tsp onion seeds</li>
-							<li><b>4-6</b> curry leaves</li>
-							<li><b>115</b> g frozen peas</li>
-							<li><b>115</b> g frozen sweetcorn</li>
-							<li><b>1</b> large courgette, sliced</li>
-							<li><b>1</b> red pepper, deseeded and roughly diced</li>
-							<li><b>1</b> tsp crushed coriander seeds</li>
-							<li><b>1</b> tsp crushed dried red chillis</li>
-							<li><b>1</b> tbsp lemon juice</li>
-							<li><b>1</b> tbsp fresh coriander leaves, to garnish</li>
+							<li itemprop="recipeIngredient"><b>175</b> g cooked, peeled prawns</li>
+							<li itemprop="recipeIngredient"><b>2</b> tbsp olive oil</li>
+							<li itemprop="recipeIngredient"><b>0.25</b> tsp onion seeds</li>
+							<li itemprop="recipeIngredient"><b>4-6</b> curry leaves</li>
+							<li itemprop="recipeIngredient"><b>115</b> g frozen peas</li>
+							<li itemprop="recipeIngredient"><b>115</b> g frozen sweetcorn</li>
+							<li itemprop="recipeIngredient"><b>1</b> large courgette, sliced</li>
+							<li itemprop="recipeIngredient"><b>1</b> red pepper, deseeded and roughly diced</li>
+							<li itemprop="recipeIngredient"><b>1</b> tsp crushed coriander seeds</li>
+							<li itemprop="recipeIngredient"><b>1</b> tsp crushed dried red chillis</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp lemon juice</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp fresh coriander leaves, to garnish</li>
 							</ul>
 					</p>
 				</div>
@@ -110,10 +110,10 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Drain any excess liquid from the prawns and pat them dry on kitchen paper. Heat the oil with the onion seeds and curry leaves in a non stick wok or frying pan.</li>
-							<li>Add the pawns to the wok or frying pan and stir-fry until any liquid has evaporated.</li>
-							<li>Add the vegetables and stir-fry fr <b>3-5</b> minutes more.</li>
-							<li>Add the coriander seeds, dried red chillis and lemon juice. Toss over the heat for <b>1</b> minute, season to taste and serve, garnished with the fresh coriander leaves.</li>
+							<li itemprop="recipeInstructions">Drain any excess liquid from the prawns and pat them dry on kitchen paper. Heat the oil with the onion seeds and curry leaves in a non stick wok or frying pan.</li>
+							<li itemprop="recipeInstructions">Add the pawns to the wok or frying pan and stir-fry until any liquid has evaporated.</li>
+							<li itemprop="recipeInstructions">Add the vegetables and stir-fry fr <b>3-5</b> minutes more.</li>
+							<li itemprop="recipeInstructions">Add the coriander seeds, dried red chillis and lemon juice. Toss over the heat for <b>1</b> minute, season to taste and serve, garnished with the fresh coriander leaves.</li>
 							</ol>
 					</p>
 				</div>
@@ -122,7 +122,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -137,14 +137,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>165</b> kcal</td>
-							<td><b>6.9</b> g</td>
-							<td><b>0.9</b> g</td>
-							<td><b>14.6</b> g</td>
-							<td><b>7</b> g</td>
-							<td><b>2.9</b> g</td>
-							<td><b>11.9</b> g</td>
-							<td><b>0.16</b> g</td>
+							<td itemprop="calories"><b>165</b> kcal</td>
+							<td itemprop="fatContent"><b>6.9</b> g</td>
+							<td itemprop="saturatedFatContent"><b>0.9</b> g</td>
+							<td itemprop="carbohydrateContent"><b>14.6</b> g</td>
+							<td itemprop="sugarContent"><b>7</b> g</td>
+							<td itemprop="fiberContent"><b>2.9</b> g</td>
+							<td itemprop="proteinContent"><b>11.9</b> g</td>
+							<td itemprop="sodiumContent"><b>0.16</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

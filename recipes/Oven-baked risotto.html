@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,41 +63,41 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Pork">
+		<main class="main Pork" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Oven-baked risotto</h1>
+				<h1 class="recipe-title" itemprop="name">Oven-baked risotto</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Pork_colour.svg" alt="Category icon"><p>Pork</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>35</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT35M><b>35</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Oven-baked_risotto.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text"></p>	
+				<img itemprop="image" class="recipe-image" src="../images/Oven-baked_risotto.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description"></p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>250</b> g pack smoked bacon, chopped into small pieces</li>
-							<li><b>1</b> onion, chopped</li>
-							<li><b>25</b> g butter</li>
-							<li><b>300</b> g risotto rice</li>
-							<li>half a glass white wine (optional)</li>
-							<li><b>150</b> g pack cherry tomatoes, halved</li>
-							<li><b>700</b> ml hot chicken stock</li>
-							<li><b>50</b> g Parmesan, grated</li>
+							<li itemprop="recipeIngredient"><b>250</b> g pack smoked bacon, chopped into small pieces</li>
+							<li itemprop="recipeIngredient"><b>1</b> onion, chopped</li>
+							<li itemprop="recipeIngredient"><b>25</b> g butter</li>
+							<li itemprop="recipeIngredient"><b>300</b> g risotto rice</li>
+							<li itemprop="recipeIngredient">half a glass white wine (optional)</li>
+							<li itemprop="recipeIngredient"><b>150</b> g pack cherry tomatoes, halved</li>
+							<li itemprop="recipeIngredient"><b>700</b> ml hot chicken stock</li>
+							<li itemprop="recipeIngredient"><b>50</b> g Parmesan, grated</li>
 							</ul>
 					</p>
 				</div>
@@ -106,9 +106,9 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Heat oven to <b>200</b>&degC/Gas <b>6</b>. Fry the bacon pieces in an ovenproof pan or casserole dish with a lid for <b>3-5</b> minutes until golden and crisp. Stir in the onion and butter and cook for <b>3-4</b> minutes until soft. Tip in the rice and mix well until coated. Pour over the white wine, if using, and cook for <b>2</b> minutes more until absorbed.  </li>
-							<li>Add the cherry tomatoes and the hot stock, then give the rice a quick stir. Cover with a tightly fitting lid and bake for <b>18</b> minutes until just cooked.  </li>
-							<li>Stir through most of the Parmesan and serve sprinkled with the remainder.  </li>
+							<li itemprop="recipeInstructions">Heat oven to <b>200</b>&degC/Gas <b>6</b>. Fry the bacon pieces in an ovenproof pan or casserole dish with a lid for <b>3-5</b> minutes until golden and crisp. Stir in the onion and butter and cook for <b>3-4</b> minutes until soft. Tip in the rice and mix well until coated. Pour over the white wine, if using, and cook for <b>2</b> minutes more until absorbed.  </li>
+							<li itemprop="recipeInstructions">Add the cherry tomatoes and the hot stock, then give the rice a quick stir. Cover with a tightly fitting lid and bake for <b>18</b> minutes until just cooked.  </li>
+							<li itemprop="recipeInstructions">Stir through most of the Parmesan and serve sprinkled with the remainder.  </li>
 							</ol>
 					</p>
 				</div>
@@ -117,7 +117,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -132,14 +132,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>517</b> kcal</td>
-							<td><b>20</b> g</td>
-							<td><b>10</b> g</td>
-							<td><b>63</b> g</td>
-							<td><b>0</b> g</td>
-							<td><b>2</b> g</td>
-							<td><b>122</b> g</td>
-							<td><b>3.38</b> g</td>
+							<td itemprop="calories"><b>517</b> kcal</td>
+							<td itemprop="fatContent"><b>20</b> g</td>
+							<td itemprop="saturatedFatContent"><b>10</b> g</td>
+							<td itemprop="carbohydrateContent"><b>63</b> g</td>
+							<td itemprop="sugarContent"><b>0</b> g</td>
+							<td itemprop="fiberContent"><b>2</b> g</td>
+							<td itemprop="proteinContent"><b>122</b> g</td>
+							<td itemprop="sodiumContent"><b>3.38</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

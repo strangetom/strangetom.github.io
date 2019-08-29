@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,41 +63,41 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Lamb">
+		<main class="main Lamb" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Herbed lamb cutlets with roasted vegetables</h1>
+				<h1 class="recipe-title" itemprop="name">Herbed lamb cutlets with roasted vegetables</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Lamb_colour.svg" alt="Category icon"><p>Lamb</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>60</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT60M><b>60</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Herbed_lamb_cutlets_with_roasted_vegetables.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">A healthy Mediterranean-style tray bake with sweet potato, peppers, courgettes and chunky onion.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Herbed_lamb_cutlets_with_roasted_vegetables.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">A healthy Mediterranean-style tray bake with sweet potato, peppers, courgettes and chunky onion.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>2</b> peppers, any colour, deseeded and cut into chunky pieces</li>
-							<li><b>1</b> large sweet potato, peeled and cut into chunky pieces</li>
-							<li><b>2</b> courgettes, sliced into chunks</li>
-							<li><b>1</b> red onion, cut into wedges</li>
-							<li><b>1</b> tbsp olive oil</li>
-							<li><b>8</b> lean lamb cutlets</li>
-							<li><b>1</b> tbsp thyme leaf, chopped</li>
-							<li><b>2</b> tbsp mint leaves, chopped</li>
+							<li itemprop="recipeIngredient"><b>2</b> peppers, any colour, deseeded and cut into chunky pieces</li>
+							<li itemprop="recipeIngredient"><b>1</b> large sweet potato, peeled and cut into chunky pieces</li>
+							<li itemprop="recipeIngredient"><b>2</b> courgettes, sliced into chunks</li>
+							<li itemprop="recipeIngredient"><b>1</b> red onion, cut into wedges</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp olive oil</li>
+							<li itemprop="recipeIngredient"><b>8</b> lean lamb cutlets</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp thyme leaf, chopped</li>
+							<li itemprop="recipeIngredient"><b>2</b> tbsp mint leaves, chopped</li>
 							</ul>
 					</p>
 				</div>
@@ -106,10 +106,10 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Heat oven to <b>200</b>&degC/Gas <b>7</b>. Put the peppers, sweet potato, courgettes and onion on a large baking tray and drizzle over the oil. Season with lots of ground black pepper. Roast for <b>25</b> mins.  </li>
-							<li>Meanwhile, trim the lamb of as much fat as possible. Mix the herbs with a few twists of ground black pepper and pat all over the lamb.  </li>
-							<li>Take the vegetables out of the oven, turn over and push to one side of the tray. Place the cutlets on the hot tray and return to the oven for <b>10</b> mins.  </li>
-							<li>Turn the cutlets and cook for a further <b>10</b> mins or until the vegetables and lamb are tender and lightly charred. Mix everything on the tray and serve.</li>
+							<li itemprop="recipeInstructions">Heat oven to <b>200</b>&degC/Gas <b>7</b>. Put the peppers, sweet potato, courgettes and onion on a large baking tray and drizzle over the oil. Season with lots of ground black pepper. Roast for <b>25</b> mins.  </li>
+							<li itemprop="recipeInstructions">Meanwhile, trim the lamb of as much fat as possible. Mix the herbs with a few twists of ground black pepper and pat all over the lamb.  </li>
+							<li itemprop="recipeInstructions">Take the vegetables out of the oven, turn over and push to one side of the tray. Place the cutlets on the hot tray and return to the oven for <b>10</b> mins.  </li>
+							<li itemprop="recipeInstructions">Turn the cutlets and cook for a further <b>10</b> mins or until the vegetables and lamb are tender and lightly charred. Mix everything on the tray and serve.</li>
 							</ol>
 					</p>
 				</div>
@@ -118,7 +118,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -133,14 +133,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>429</b> kcal</td>
-							<td><b>29</b> g</td>
-							<td><b>13</b> g</td>
-							<td><b>23</b> g</td>
-							<td><b>12</b> g</td>
-							<td><b>6</b> g</td>
-							<td><b>19</b> g</td>
-							<td><b>0.2</b> g</td>
+							<td itemprop="calories"><b>429</b> kcal</td>
+							<td itemprop="fatContent"><b>29</b> g</td>
+							<td itemprop="saturatedFatContent"><b>13</b> g</td>
+							<td itemprop="carbohydrateContent"><b>23</b> g</td>
+							<td itemprop="sugarContent"><b>12</b> g</td>
+							<td itemprop="fiberContent"><b>6</b> g</td>
+							<td itemprop="proteinContent"><b>19</b> g</td>
+							<td itemprop="sodiumContent"><b>0.2</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,41 +63,41 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Pork">
+		<main class="main Pork" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Oven-baked leek & bacon risotto</h1>
+				<h1 class="recipe-title" itemprop="name">Oven-baked leek & bacon risotto</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Pork_colour.svg" alt="Category icon"><p>Pork</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>40</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT40M><b>40</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Oven-baked_leek_&_bacon_risotto.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text"></p>	
+				<img itemprop="image" class="recipe-image" src="../images/Oven-baked_leek_&_bacon_risotto.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description"></p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>1</b> tbsp olive oil</li>
-							<li><b>6</b> rashers smoked back bacon, roughly chopped</li>
-							<li><b>2</b> leeks, halved lengthways and finely sliced</li>
-							<li><b>250</b> g risotto rice</li>
-							<li><b>700</b> ml hot chicken or vegetable stock</li>
-							<li><b>175</b> g frozen peas</li>
-							<li><b>3</b> tbsp soft cheese</li>
-							<li>zest <b>1</b> lemon</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp olive oil</li>
+							<li itemprop="recipeIngredient"><b>6</b> rashers smoked back bacon, roughly chopped</li>
+							<li itemprop="recipeIngredient"><b>2</b> leeks, halved lengthways and finely sliced</li>
+							<li itemprop="recipeIngredient"><b>250</b> g risotto rice</li>
+							<li itemprop="recipeIngredient"><b>700</b> ml hot chicken or vegetable stock</li>
+							<li itemprop="recipeIngredient"><b>175</b> g frozen peas</li>
+							<li itemprop="recipeIngredient"><b>3</b> tbsp soft cheese</li>
+							<li itemprop="recipeIngredient">zest <b>1</b> lemon</li>
 							</ul>
 					</p>
 				</div>
@@ -106,8 +106,8 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Heat the oven to <b>200</b>&degC/Gas <b>6</b>. Heat the oil in an ovenproof shallow pan with a lid. Add the bacon and fry for <b>2</b> minutes. Add the leeks and cook until soft, but not coloured, <b>4-5</b> minutes. Tip in the rice and cook for <b>1</b> minute more, then pour over the stock. Cover and put in the oven for <b>20</b> minutes, stirring halfway through the cooking time.  </li>
-							<li>When the rice is just tender and all the liquid has been absorbed, remove from the oven and stir in the peas. Return to the oven for <b>2</b> minutes more. Remove the risotto from the oven and stir through the cheese. Add the lemon zest and season to serve straight away.</li>
+							<li itemprop="recipeInstructions">Heat the oven to <b>200</b>&degC/Gas <b>6</b>. Heat the oil in an ovenproof shallow pan with a lid. Add the bacon and fry for <b>2</b> minutes. Add the leeks and cook until soft, but not coloured, <b>4-5</b> minutes. Tip in the rice and cook for <b>1</b> minute more, then pour over the stock. Cover and put in the oven for <b>20</b> minutes, stirring halfway through the cooking time.  </li>
+							<li itemprop="recipeInstructions">When the rice is just tender and all the liquid has been absorbed, remove from the oven and stir in the peas. Return to the oven for <b>2</b> minutes more. Remove the risotto from the oven and stir through the cheese. Add the lemon zest and season to serve straight away.</li>
 							</ol>
 					</p>
 				</div>
@@ -116,7 +116,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -131,14 +131,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>424</b> kcal</td>
-							<td><b>14</b> g</td>
-							<td><b>5</b> g</td>
-							<td><b>55</b> g</td>
-							<td><b>3</b> g</td>
-							<td><b>5</b> g</td>
-							<td><b>22</b> g</td>
-							<td><b>2.34</b> g</td>
+							<td itemprop="calories"><b>424</b> kcal</td>
+							<td itemprop="fatContent"><b>14</b> g</td>
+							<td itemprop="saturatedFatContent"><b>5</b> g</td>
+							<td itemprop="carbohydrateContent"><b>55</b> g</td>
+							<td itemprop="sugarContent"><b>3</b> g</td>
+							<td itemprop="fiberContent"><b>5</b> g</td>
+							<td itemprop="proteinContent"><b>22</b> g</td>
+							<td itemprop="sodiumContent"><b>2.34</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

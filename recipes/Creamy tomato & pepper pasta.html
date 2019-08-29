@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,40 +63,40 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Veggie">
+		<main class="main Veggie" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Creamy tomato & pepper pasta</h1>
+				<h1 class="recipe-title" itemprop="name">Creamy tomato & pepper pasta</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Veggie_colour.svg" alt="Category icon"><p>Veggie</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>50</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT50M><b>50</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Creamy_tomato_&_pepper_pasta.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text"></p>	
+				<img itemprop="image" class="recipe-image" src="../images/Creamy_tomato_&_pepper_pasta.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description"></p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>900</b> g ripe tomatoes</li>
-							<li><b>1</b> red pepper</li>
-							<li><b>2</b> garlic cloves</li>
-							<li><b>2</b> tbsp olive oil</li>
-							<li><b>350</b> g pasta quills or shells</li>
-							<li><b>4</b> tbsp half-fat creme fraiche</li>
-							<li>grated Parmesan, to serve</li>
+							<li itemprop="recipeIngredient"><b>900</b> g ripe tomatoes</li>
+							<li itemprop="recipeIngredient"><b>1</b> red pepper</li>
+							<li itemprop="recipeIngredient"><b>2</b> garlic cloves</li>
+							<li itemprop="recipeIngredient"><b>2</b> tbsp olive oil</li>
+							<li itemprop="recipeIngredient"><b>350</b> g pasta quills or shells</li>
+							<li itemprop="recipeIngredient"><b>4</b> tbsp half-fat creme fraiche</li>
+							<li itemprop="recipeIngredient">grated Parmesan, to serve</li>
 							</ul>
 					</p>
 				</div>
@@ -105,9 +105,9 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Heat the oven to <b>180</b>&degC/Gas <b>6</b>. Quarter the tomates, roughly chop the pepper (discard the seeds) and finely chop the garlic. Put the veg in a roasting tin and drizzle over the oil. Season well.  </li>
-							<li>Roast for <b>30-35</b> minutes, stirring halfway through, until softened and slightly browned. Meanwhile, cook the pasta in a large pan of salted boiling water for <b>10-12</b> minutes until just tender.  </li>
-							<li>Remove the vegetables from the oven and stir in the creme fraiche a spoonful at a time. Gently reheat on the stove, taste and season if necessary. Stir in the drained pasta and serve with grated Parmesan.  </li>
+							<li itemprop="recipeInstructions">Heat the oven to <b>180</b>&degC/Gas <b>6</b>. Quarter the tomates, roughly chop the pepper (discard the seeds) and finely chop the garlic. Put the veg in a roasting tin and drizzle over the oil. Season well.  </li>
+							<li itemprop="recipeInstructions">Roast for <b>30-35</b> minutes, stirring halfway through, until softened and slightly browned. Meanwhile, cook the pasta in a large pan of salted boiling water for <b>10-12</b> minutes until just tender.  </li>
+							<li itemprop="recipeInstructions">Remove the vegetables from the oven and stir in the creme fraiche a spoonful at a time. Gently reheat on the stove, taste and season if necessary. Stir in the drained pasta and serve with grated Parmesan.  </li>
 							</ol>
 					</p>
 				</div>
@@ -116,7 +116,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -131,14 +131,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>440</b> kcal</td>
-							<td><b>10</b> g</td>
-							<td><b>2</b> g</td>
-							<td><b>71</b> g</td>
-							<td><b>12</b> g</td>
-							<td><b>4</b> g</td>
-							<td><b>13</b> g</td>
-							<td><b>0.38</b> g</td>
+							<td itemprop="calories"><b>440</b> kcal</td>
+							<td itemprop="fatContent"><b>10</b> g</td>
+							<td itemprop="saturatedFatContent"><b>2</b> g</td>
+							<td itemprop="carbohydrateContent"><b>71</b> g</td>
+							<td itemprop="sugarContent"><b>12</b> g</td>
+							<td itemprop="fiberContent"><b>4</b> g</td>
+							<td itemprop="proteinContent"><b>13</b> g</td>
+							<td itemprop="sodiumContent"><b>0.38</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

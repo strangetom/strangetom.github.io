@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,43 +63,43 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Veggie">
+		<main class="main Veggie" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Chipotle-bean chilli with baked eggs</h1>
+				<h1 class="recipe-title" itemprop="name">Chipotle-bean chilli with baked eggs</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Veggie_colour.svg" alt="Category icon"><p>Veggie</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>35</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT35M><b>35</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Chipotle-bean_chilli_with_baked_eggs.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text"></p>	
+				<img itemprop="image" class="recipe-image" src="../images/Chipotle-bean_chilli_with_baked_eggs.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description"></p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>1</b> tbsp sunflower oil</li>
-							<li><b>1</b> onion, chopped</li>
-							<li><b>1-2</b> tbsp chipotle paste</li>
-							<li><b>2</b> x <b>400</b> g cans black beans, drained and rinsed</li>
-							<li><b>400</b> g can mixed beans, drained and rinsed</li>
-							<li><b>2</b> x <b>400</b> g cans chopped tomatoes with garlic and herbs</li>
-							<li><b>1</b> heaped tbsp brown sugar</li>
-							<li><b>4</b> eggs</li>
-							<li>small handful coriander leaves</li>
-							<li>soured cream and warm flour tortillas, to serve</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp sunflower oil</li>
+							<li itemprop="recipeIngredient"><b>1</b> onion, chopped</li>
+							<li itemprop="recipeIngredient"><b>1-2</b> tbsp chipotle paste</li>
+							<li itemprop="recipeIngredient"><b>2</b> x <b>400</b> g cans black beans, drained and rinsed</li>
+							<li itemprop="recipeIngredient"><b>400</b> g can mixed beans, drained and rinsed</li>
+							<li itemprop="recipeIngredient"><b>2</b> x <b>400</b> g cans chopped tomatoes with garlic and herbs</li>
+							<li itemprop="recipeIngredient"><b>1</b> heaped tbsp brown sugar</li>
+							<li itemprop="recipeIngredient"><b>4</b> eggs</li>
+							<li itemprop="recipeIngredient">small handful coriander leaves</li>
+							<li itemprop="recipeIngredient">soured cream and warm flour tortillas, to serve</li>
 							</ul>
 					</p>
 				</div>
@@ -108,9 +108,9 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Heat the oil in a deep frying pan and cook the onion for about <b>5</b> minutes until soft. Add the chipotle paste, beans, tomatoes and sugar, and simmer for about <b>15-20</b> minutes until thickened. Season to taste.  </li>
-							<li>Make four holes in the mixture and crack an egg into each one. Cover and simmer over a low heat for <b>8-10</b> minutes until the eggs are cooked to your liking.  </li>
-							<li>Sprinkle over the coriander leaves and serve with a bowl of soured cream and some warm flour tortillas.</li>
+							<li itemprop="recipeInstructions">Heat the oil in a deep frying pan and cook the onion for about <b>5</b> minutes until soft. Add the chipotle paste, beans, tomatoes and sugar, and simmer for about <b>15-20</b> minutes until thickened. Season to taste.  </li>
+							<li itemprop="recipeInstructions">Make four holes in the mixture and crack an egg into each one. Cover and simmer over a low heat for <b>8-10</b> minutes until the eggs are cooked to your liking.  </li>
+							<li itemprop="recipeInstructions">Sprinkle over the coriander leaves and serve with a bowl of soured cream and some warm flour tortillas.</li>
 							</ol>
 					</p>
 				</div>
@@ -119,7 +119,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -134,14 +134,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>377</b> kcal</td>
-							<td><b>10</b> g</td>
-							<td><b>2</b> g</td>
-							<td><b>48</b> g</td>
-							<td><b>21</b> g</td>
-							<td><b>15</b> g</td>
-							<td><b>24</b> g</td>
-							<td><b>0.5</b> g</td>
+							<td itemprop="calories"><b>377</b> kcal</td>
+							<td itemprop="fatContent"><b>10</b> g</td>
+							<td itemprop="saturatedFatContent"><b>2</b> g</td>
+							<td itemprop="carbohydrateContent"><b>48</b> g</td>
+							<td itemprop="sugarContent"><b>21</b> g</td>
+							<td itemprop="fiberContent"><b>15</b> g</td>
+							<td itemprop="proteinContent"><b>24</b> g</td>
+							<td itemprop="sodiumContent"><b>0.5</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

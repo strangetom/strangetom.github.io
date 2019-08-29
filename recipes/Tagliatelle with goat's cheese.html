@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,41 +63,41 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Veggie">
+		<main class="main Veggie" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Tagliatelle with goat's cheese</h1>
+				<h1 class="recipe-title" itemprop="name">Tagliatelle with goat's cheese</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Veggie_colour.svg" alt="Category icon"><p>Veggie</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>20</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT20M><b>20</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>2</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>2</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Tagliatelle_with_goats_cheese.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">Mushrooms add a deliciously nutty flavour and juicy texture to this veggie-friendly pasta.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Tagliatelle_with_goats_cheese.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">Mushrooms add a deliciously nutty flavour and juicy texture to this veggie-friendly pasta.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>250</b> g chestnut mushrooms</li>
-							<li><b>1</b> small onion</li>
-							<li><b>2</b> garlic cloves</li>
-							<li><b>175</b> g tagliatelle</li>
-							<li><b>25</b> g butter</li>
-							<li><b>1</b> tbsp olive oil, plus extra for drizzling</li>
-							<li><b>100</b> g firm goat's cheese</li>
-							<li>freshly shaved vegetarian Parmesan, to serve</li>
+							<li itemprop="recipeIngredient"><b>250</b> g chestnut mushrooms</li>
+							<li itemprop="recipeIngredient"><b>1</b> small onion</li>
+							<li itemprop="recipeIngredient"><b>2</b> garlic cloves</li>
+							<li itemprop="recipeIngredient"><b>175</b> g tagliatelle</li>
+							<li itemprop="recipeIngredient"><b>25</b> g butter</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp olive oil, plus extra for drizzling</li>
+							<li itemprop="recipeIngredient"><b>100</b> g firm goat's cheese</li>
+							<li itemprop="recipeIngredient">freshly shaved vegetarian Parmesan, to serve</li>
 							</ul>
 					</p>
 				</div>
@@ -106,9 +106,9 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Slice the mushrooms and finely chop the onion and garlic. Cook the pasta in plenty of salted boiling water according to the packet instructions.</li>
-							<li>Heat the butter and oil in a frying pan until the butter has melted. Add the onion and cook until golden, about <b>3-4</b> minutes. Stir in the garlic and mushrooms and cook, stirring, until the mushrooms are golden brown.</li>
-							<li>Drain the pasta reserving <b>4</b> tablespoons of the water. Return the pasta to its pan with the water and stir in the mushrooms mixture. Roughly break the goat's cheese into pieces and gently stir it into the pasta so it starts to melt. Serve sprinkled with black pepper, a drizzle of olive oil and a few shavings of Parmesan.</li>
+							<li itemprop="recipeInstructions">Slice the mushrooms and finely chop the onion and garlic. Cook the pasta in plenty of salted boiling water according to the packet instructions.</li>
+							<li itemprop="recipeInstructions">Heat the butter and oil in a frying pan until the butter has melted. Add the onion and cook until golden, about <b>3-4</b> minutes. Stir in the garlic and mushrooms and cook, stirring, until the mushrooms are golden brown.</li>
+							<li itemprop="recipeInstructions">Drain the pasta reserving <b>4</b> tablespoons of the water. Return the pasta to its pan with the water and stir in the mushrooms mixture. Roughly break the goat's cheese into pieces and gently stir it into the pasta so it starts to melt. Serve sprinkled with black pepper, a drizzle of olive oil and a few shavings of Parmesan.</li>
 							</ol>
 					</p>
 				</div>
@@ -117,7 +117,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -132,14 +132,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>598</b> kcal</td>
-							<td><b>28</b> g</td>
-							<td><b>8</b> g</td>
-							<td><b>71</b> g</td>
-							<td>? g</td>
-							<td><b>5</b> g</td>
-							<td><b>20</b> g</td>
-							<td><b>0.88</b> g</td>
+							<td itemprop="calories"><b>598</b> kcal</td>
+							<td itemprop="fatContent"><b>28</b> g</td>
+							<td itemprop="saturatedFatContent"><b>8</b> g</td>
+							<td itemprop="carbohydrateContent"><b>71</b> g</td>
+							<td itemprop="sugarContent">? g</td>
+							<td itemprop="fiberContent"><b>5</b> g</td>
+							<td itemprop="proteinContent"><b>20</b> g</td>
+							<td itemprop="sodiumContent"><b>0.88</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

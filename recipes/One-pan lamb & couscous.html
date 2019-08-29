@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,41 +63,41 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Lamb">
+		<main class="main Lamb" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">One-pan lamb & couscous</h1>
+				<h1 class="recipe-title" itemprop="name">One-pan lamb & couscous</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Lamb_colour.svg" alt="Category icon"><p>Lamb</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>25</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT25M><b>25</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>2</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>2</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/One-pan_lamb_&_couscous.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">Whip up a deliciously flavoursome lamb dish in one pot and within half an hour.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/One-pan_lamb_&_couscous.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">Whip up a deliciously flavoursome lamb dish in one pot and within half an hour.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>2</b> lamb steaks, approx <b>140</b> g each, or <b>4</b> lamb chops trimmed of excess fat</li>
-							<li><b>1-2</b> tsp harissa paste</li>
-							<li><b>1</b> tbsp olive oil</li>
-							<li>handful dried fruit and nuts</li>
-							<li><b>85</b> g couscous</li>
-							<li><b>400</b> g can chickpeas, rinsed and drained</li>
-							<li><b>100</b> ml hot chicken stock or lamb stock (from a cube is fine)</li>
-							<li>handful mint leaves, torn</li>
+							<li itemprop="recipeIngredient"><b>2</b> lamb steaks, approx <b>140</b> g each, or <b>4</b> lamb chops trimmed of excess fat</li>
+							<li itemprop="recipeIngredient"><b>1-2</b> tsp harissa paste</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp olive oil</li>
+							<li itemprop="recipeIngredient">handful dried fruit and nuts</li>
+							<li itemprop="recipeIngredient"><b>85</b> g couscous</li>
+							<li itemprop="recipeIngredient"><b>400</b> g can chickpeas, rinsed and drained</li>
+							<li itemprop="recipeIngredient"><b>100</b> ml hot chicken stock or lamb stock (from a cube is fine)</li>
+							<li itemprop="recipeIngredient">handful mint leaves, torn</li>
 							</ul>
 					</p>
 				</div>
@@ -106,8 +106,8 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Rub the lamb with half the harissa paste. Heat the oil in a frying pan and fry the lamb for <b>3</b> mins on each side for medium-rare, or a little longer for well-done. Lift the meat out of the pan and tip in the remaining harissa, the dried fruit and nuts, couscous and chickpeas, then stir to coat in the paste. Take the pan off the heat and pour in the stock. Stir briefly, return the lamb to the pan and cover with a lid or tightly-fitting foil for <b>10</b> mins until the couscous has absorbed all the liquid.  </li>
-							<li>Fluff up the couscous with a fork, season to taste and fold the mint leaves through to serve.</li>
+							<li itemprop="recipeInstructions">Rub the lamb with half the harissa paste. Heat the oil in a frying pan and fry the lamb for <b>3</b> mins on each side for medium-rare, or a little longer for well-done. Lift the meat out of the pan and tip in the remaining harissa, the dried fruit and nuts, couscous and chickpeas, then stir to coat in the paste. Take the pan off the heat and pour in the stock. Stir briefly, return the lamb to the pan and cover with a lid or tightly-fitting foil for <b>10</b> mins until the couscous has absorbed all the liquid.  </li>
+							<li itemprop="recipeInstructions">Fluff up the couscous with a fork, season to taste and fold the mint leaves through to serve.</li>
 							</ol>
 					</p>
 				</div>
@@ -116,7 +116,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -131,14 +131,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>610</b> kcal</td>
-							<td><b>27</b> g</td>
-							<td><b>7</b> g</td>
-							<td><b>50</b> g</td>
-							<td><b>9</b> g</td>
-							<td><b>6</b> g</td>
-							<td><b>44</b> g</td>
-							<td><b>1.15</b> g</td>
+							<td itemprop="calories"><b>610</b> kcal</td>
+							<td itemprop="fatContent"><b>27</b> g</td>
+							<td itemprop="saturatedFatContent"><b>7</b> g</td>
+							<td itemprop="carbohydrateContent"><b>50</b> g</td>
+							<td itemprop="sugarContent"><b>9</b> g</td>
+							<td itemprop="fiberContent"><b>6</b> g</td>
+							<td itemprop="proteinContent"><b>44</b> g</td>
+							<td itemprop="sodiumContent"><b>1.15</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,39 +63,39 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Seafood">
+		<main class="main Seafood" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Linguine with garlic butter prawns</h1>
+				<h1 class="recipe-title" itemprop="name">Linguine with garlic butter prawns</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Seafood_colour.svg" alt="Category icon"><p>Seafood</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>20</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT20M><b>20</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>2</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>2</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Linguine_with_garlic_butter_prawns.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">This simple pasta dish with king prawns, garlic, lemon and parsley makes a speedy week night seafood supper</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Linguine_with_garlic_butter_prawns.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">This simple pasta dish with king prawns, garlic, lemon and parsley makes a speedy week night seafood supper</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>200</b> g linguine</li>
-							<li><b>2-3</b> fat garlic clove, finely chopped</li>
-							<li><b>50</b> g butter</li>
-							<li><b>175</b> g pack raw shelled king prawn, de-veined and split in half length ways</li>
-							<li>finely grated zest <b>1</b> lemon, then cut the lemon into wedges</li>
-							<li>small pack parsley, chopped</li>
+							<li itemprop="recipeIngredient"><b>200</b> g linguine</li>
+							<li itemprop="recipeIngredient"><b>2-3</b> fat garlic clove, finely chopped</li>
+							<li itemprop="recipeIngredient"><b>50</b> g butter</li>
+							<li itemprop="recipeIngredient"><b>175</b> g pack raw shelled king prawn, de-veined and split in half length ways</li>
+							<li itemprop="recipeIngredient">finely grated zest <b>1</b> lemon, then cut the lemon into wedges</li>
+							<li itemprop="recipeIngredient">small pack parsley, chopped</li>
 							</ul>
 					</p>
 				</div>
@@ -104,8 +104,8 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Boil the pasta following pack instructions. Meanwhile, very gently cook the garlic in the butter in a medium pan until softened. Add the prawns and cook until they just turn from grey to pink. It is important not to overcook them or they will be tough. Remove from the heat and stir in the zest and seasoning.</li>
-							<li>Drain the pasta and toss into the pan with the prawn mixture and parsley until well mixed. Divide between two bowls and serve with the lemon wedges.</li>
+							<li itemprop="recipeInstructions">Boil the pasta following pack instructions. Meanwhile, very gently cook the garlic in the butter in a medium pan until softened. Add the prawns and cook until they just turn from grey to pink. It is important not to overcook them or they will be tough. Remove from the heat and stir in the zest and seasoning.</li>
+							<li itemprop="recipeInstructions">Drain the pasta and toss into the pan with the prawn mixture and parsley until well mixed. Divide between two bowls and serve with the lemon wedges.</li>
 							</ol>
 					</p>
 				</div>
@@ -114,7 +114,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -129,14 +129,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>547</b> kcal</td>
-							<td><b>24</b> g</td>
-							<td><b>13</b> g</td>
-							<td><b>55</b> g</td>
-							<td><b>3</b> g</td>
-							<td><b>1</b> g</td>
-							<td><b>28</b> g</td>
-							<td><b>0.9</b> g</td>
+							<td itemprop="calories"><b>547</b> kcal</td>
+							<td itemprop="fatContent"><b>24</b> g</td>
+							<td itemprop="saturatedFatContent"><b>13</b> g</td>
+							<td itemprop="carbohydrateContent"><b>55</b> g</td>
+							<td itemprop="sugarContent"><b>3</b> g</td>
+							<td itemprop="fiberContent"><b>1</b> g</td>
+							<td itemprop="proteinContent"><b>28</b> g</td>
+							<td itemprop="sodiumContent"><b>0.9</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

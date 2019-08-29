@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,45 +63,45 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Lamb">
+		<main class="main Lamb" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Springtime lamb stew</h1>
+				<h1 class="recipe-title" itemprop="name">Springtime lamb stew</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Lamb_colour.svg" alt="Category icon"><p>Lamb</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>70</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT70M><b>70</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Springtime_lamb_stew.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text"></p>	
+				<img itemprop="image" class="recipe-image" src="../images/Springtime_lamb_stew.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description"></p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>2</b> tsp olive oil</li>
-							<li><b>12</b> shallots, peeled</li>
-							<li><b>350</b> g trimmed diced lamb, from the chump or loin fillet</li>
-							<li><b>350</b> g new potatoes, scrubbed and cut into chunks</li>
-							<li><b>12</b> baby carrots, trimmed and peeled</li>
-							<li><b>150</b> ml white wine</li>
-							<li><b>250</b> ml vegetable stock</li>
-							<li><b>3</b> bay leaves</li>
-							<li><b>200</b> g can chopped tomatoes</li>
-							<li><b>100</b> g frozen peas</li>
-							<li><b>1</b> tbsp chopped parsley leaves</li>
-							<li>crusty bread, to serve</li>
+							<li itemprop="recipeIngredient"><b>2</b> tsp olive oil</li>
+							<li itemprop="recipeIngredient"><b>12</b> shallots, peeled</li>
+							<li itemprop="recipeIngredient"><b>350</b> g trimmed diced lamb, from the chump or loin fillet</li>
+							<li itemprop="recipeIngredient"><b>350</b> g new potatoes, scrubbed and cut into chunks</li>
+							<li itemprop="recipeIngredient"><b>12</b> baby carrots, trimmed and peeled</li>
+							<li itemprop="recipeIngredient"><b>150</b> ml white wine</li>
+							<li itemprop="recipeIngredient"><b>250</b> ml vegetable stock</li>
+							<li itemprop="recipeIngredient"><b>3</b> bay leaves</li>
+							<li itemprop="recipeIngredient"><b>200</b> g can chopped tomatoes</li>
+							<li itemprop="recipeIngredient"><b>100</b> g frozen peas</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp chopped parsley leaves</li>
+							<li itemprop="recipeIngredient">crusty bread, to serve</li>
 							</ul>
 					</p>
 				</div>
@@ -110,9 +110,9 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Heat the oil in a large pan and add the shallots and lamb. Fry over a medium heat until they are starting the brown, about <b>8-10</b> minutes.  </li>
-							<li>Add the potatoes, carrots, white wine, stock, bay leaves and tomatoes to the pan. Season and bring to the boil. Cover the pan and leave the stew to simmer gently over a medium heat for <b>25-30</b> minutes until the vegetables and lamb are tender.  </li>
-							<li>Stir in the peas and cook for another <b>2-3</b> minutes until tender. Scatter in the parsley, adjust the seasoning and serve with crusty bread.  </li>
+							<li itemprop="recipeInstructions">Heat the oil in a large pan and add the shallots and lamb. Fry over a medium heat until they are starting the brown, about <b>8-10</b> minutes.  </li>
+							<li itemprop="recipeInstructions">Add the potatoes, carrots, white wine, stock, bay leaves and tomatoes to the pan. Season and bring to the boil. Cover the pan and leave the stew to simmer gently over a medium heat for <b>25-30</b> minutes until the vegetables and lamb are tender.  </li>
+							<li itemprop="recipeInstructions">Stir in the peas and cook for another <b>2-3</b> minutes until tender. Scatter in the parsley, adjust the seasoning and serve with crusty bread.  </li>
 							</ol>
 					</p>
 				</div>
@@ -121,7 +121,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -136,14 +136,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>312</b> kcal</td>
-							<td><b>12</b> g</td>
-							<td><b>4</b> g</td>
-							<td><b>24</b> g</td>
-							<td><b>8</b> g</td>
-							<td><b>6</b> g</td>
-							<td><b>21</b> g</td>
-							<td><b>0.58</b> g</td>
+							<td itemprop="calories"><b>312</b> kcal</td>
+							<td itemprop="fatContent"><b>12</b> g</td>
+							<td itemprop="saturatedFatContent"><b>4</b> g</td>
+							<td itemprop="carbohydrateContent"><b>24</b> g</td>
+							<td itemprop="sugarContent"><b>8</b> g</td>
+							<td itemprop="fiberContent"><b>6</b> g</td>
+							<td itemprop="proteinContent"><b>21</b> g</td>
+							<td itemprop="sodiumContent"><b>0.58</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

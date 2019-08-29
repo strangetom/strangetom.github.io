@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,43 +63,43 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Seafood">
+		<main class="main Seafood" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Seafood pasta</h1>
+				<h1 class="recipe-title" itemprop="name">Seafood pasta</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Seafood_colour.svg" alt="Category icon"><p>Seafood</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>20</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT20M><b>20</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Seafood_pasta.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text"></p>	
+				<img itemprop="image" class="recipe-image" src="../images/Seafood_pasta.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description"></p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>1</b> tbsp olive oil</li>
-							<li><b>1</b> onion, chopped</li>
-							<li><b>1</b> garlic clove, chopped</li>
-							<li><b>1</b> tsp paprika</li>
-							<li><b>400</b> g can chopped tomatoes</li>
-							<li><b>1</b> l chicken stock</li>
-							<li><b>300</b> g spaghetti, roughly broken</li>
-							<li><b>240</b> g pack mixed frozen seafood, defrosted</li>
-							<li>freshly chopped parsley</li>
-							<li><b>4</b> lemon wedges</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp olive oil</li>
+							<li itemprop="recipeIngredient"><b>1</b> onion, chopped</li>
+							<li itemprop="recipeIngredient"><b>1</b> garlic clove, chopped</li>
+							<li itemprop="recipeIngredient"><b>1</b> tsp paprika</li>
+							<li itemprop="recipeIngredient"><b>400</b> g can chopped tomatoes</li>
+							<li itemprop="recipeIngredient"><b>1</b> l chicken stock</li>
+							<li itemprop="recipeIngredient"><b>300</b> g spaghetti, roughly broken</li>
+							<li itemprop="recipeIngredient"><b>240</b> g pack mixed frozen seafood, defrosted</li>
+							<li itemprop="recipeIngredient">freshly chopped parsley</li>
+							<li itemprop="recipeIngredient"><b>4</b> lemon wedges</li>
 							</ul>
 					</p>
 				</div>
@@ -108,11 +108,11 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Heat the oil in a wok or large frying pan, then cook the onion and garlic over a medium heat for <b>5</b> minutes until soft.  </li>
-							<li>Add the paprika, tomatoes and stock, then bring to the boil.  </li>
-							<li>Turn down the heat to a simmer, stir in the pasta and cook for <b>7</b> minutes, stirring occassionally to stop the pasta from sticking.  </li>
-							<li>Stir in the seafood, cook for <b>3</b> minutes more until it's all heated through and the pasta is cooked. Season to taste.  </li>
-							<li>Garnish with the parsley and serve with the lemon wedges.  </li>
+							<li itemprop="recipeInstructions">Heat the oil in a wok or large frying pan, then cook the onion and garlic over a medium heat for <b>5</b> minutes until soft.  </li>
+							<li itemprop="recipeInstructions">Add the paprika, tomatoes and stock, then bring to the boil.  </li>
+							<li itemprop="recipeInstructions">Turn down the heat to a simmer, stir in the pasta and cook for <b>7</b> minutes, stirring occassionally to stop the pasta from sticking.  </li>
+							<li itemprop="recipeInstructions">Stir in the seafood, cook for <b>3</b> minutes more until it's all heated through and the pasta is cooked. Season to taste.  </li>
+							<li itemprop="recipeInstructions">Garnish with the parsley and serve with the lemon wedges.  </li>
 							</ol>
 					</p>
 				</div>
@@ -121,7 +121,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -136,14 +136,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>370</b> kcal</td>
-							<td><b>5</b> g</td>
-							<td><b>1</b> g</td>
-							<td><b>62</b> g</td>
-							<td><b>0</b> g</td>
-							<td><b>4</b> g</td>
-							<td><b>23</b> g</td>
-							<td><b>1.4</b> g</td>
+							<td itemprop="calories"><b>370</b> kcal</td>
+							<td itemprop="fatContent"><b>5</b> g</td>
+							<td itemprop="saturatedFatContent"><b>1</b> g</td>
+							<td itemprop="carbohydrateContent"><b>62</b> g</td>
+							<td itemprop="sugarContent"><b>0</b> g</td>
+							<td itemprop="fiberContent"><b>4</b> g</td>
+							<td itemprop="proteinContent"><b>23</b> g</td>
+							<td itemprop="sodiumContent"><b>1.4</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

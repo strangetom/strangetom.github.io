@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,41 +63,41 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Seafood">
+		<main class="main Seafood" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Prawns with tomato & feta</h1>
+				<h1 class="recipe-title" itemprop="name">Prawns with tomato & feta</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Seafood_colour.svg" alt="Category icon"><p>Seafood</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>20</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT20M><b>20</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Prawns_with_tomato_&_feta.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text"></p>	
+				<img itemprop="image" class="recipe-image" src="../images/Prawns_with_tomato_&_feta.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description"></p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>2</b> tbsp olive oil</li>
-							<li><b>2</b> onions, finely chopped</li>
-							<li><b>2</b> x <b>400</b> g cans chopped tomatoes</li>
-							<li>pinch of sugar</li>
-							<li><b>350</b> g large cooked peeled prawns</li>
-							<li><b>100</b> g feta</li>
-							<li>rice or pasta to serve</li>
-							<li><b>3</b> tbsp chopped parsley leaves</li>
+							<li itemprop="recipeIngredient"><b>2</b> tbsp olive oil</li>
+							<li itemprop="recipeIngredient"><b>2</b> onions, finely chopped</li>
+							<li itemprop="recipeIngredient"><b>2</b> x <b>400</b> g cans chopped tomatoes</li>
+							<li itemprop="recipeIngredient">pinch of sugar</li>
+							<li itemprop="recipeIngredient"><b>350</b> g large cooked peeled prawns</li>
+							<li itemprop="recipeIngredient"><b>100</b> g feta</li>
+							<li itemprop="recipeIngredient">rice or pasta to serve</li>
+							<li itemprop="recipeIngredient"><b>3</b> tbsp chopped parsley leaves</li>
 							</ul>
 					</p>
 				</div>
@@ -106,9 +106,9 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Heat the oil in a frying pan, add the onions and fry gently for about <b>7</b> minutes until softened and light brown. Add the tomatoes and sugar, and simmer for <b>5</b> minutes.  </li>
-							<li>Throw in the prawn, season and cook gently for <b>5</b> minutes until they are thoroughly hot.  </li>
-							<li>Serve the prawns spooned over some rice or pasta. Crumble over the feta and sprinkle with chopped parsley.  </li>
+							<li itemprop="recipeInstructions">Heat the oil in a frying pan, add the onions and fry gently for about <b>7</b> minutes until softened and light brown. Add the tomatoes and sugar, and simmer for <b>5</b> minutes.  </li>
+							<li itemprop="recipeInstructions">Throw in the prawn, season and cook gently for <b>5</b> minutes until they are thoroughly hot.  </li>
+							<li itemprop="recipeInstructions">Serve the prawns spooned over some rice or pasta. Crumble over the feta and sprinkle with chopped parsley.  </li>
 							</ol>
 					</p>
 				</div>
@@ -117,7 +117,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -132,14 +132,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>186</b> kcal</td>
-							<td><b>6</b> g</td>
-							<td><b>3</b> g</td>
-							<td><b>11</b> g</td>
-							<td><b>9</b> g</td>
-							<td><b>3</b> g</td>
-							<td><b>22</b> g</td>
-							<td><b>1.54</b> g</td>
+							<td itemprop="calories"><b>186</b> kcal</td>
+							<td itemprop="fatContent"><b>6</b> g</td>
+							<td itemprop="saturatedFatContent"><b>3</b> g</td>
+							<td itemprop="carbohydrateContent"><b>11</b> g</td>
+							<td itemprop="sugarContent"><b>9</b> g</td>
+							<td itemprop="fiberContent"><b>3</b> g</td>
+							<td itemprop="proteinContent"><b>22</b> g</td>
+							<td itemprop="sodiumContent"><b>1.54</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

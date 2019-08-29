@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,44 +63,44 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Veggie">
+		<main class="main Veggie" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Sweet potato & lentil soup</h1>
+				<h1 class="recipe-title" itemprop="name">Sweet potato & lentil soup</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Veggie_colour.svg" alt="Category icon"><p>Veggie</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>40</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT40M><b>40</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>5</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>5</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Sweet_potato_&_lentil_soup.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text"></p>	
+				<img itemprop="image" class="recipe-image" src="../images/Sweet_potato_&_lentil_soup.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description"></p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>100</b> g red split lentils</li>
-							<li><b>1</b> onion, chopped</li>
-							<li><b>2</b> tsp olive oil</li>
-							<li><b>1</b> garlic clove, finely chopped</li>
-							<li><b>2</b> tbsp curry paste</li>
-							<li><b>450</b> g sweet potatoes, peeled and cubed</li>
-							<li><b>450</b> g floury pototoes, peeled and cubed</li>
-							<li><b>1.2</b> l hot vegetable stock</li>
-							<li><b>2</b> tbsp chopped mint (optional)</li>
-							<li><b>142</b> g carton low-fat natural yoghurt</li>
-							<li>warm bread, to serve</li>
+							<li itemprop="recipeIngredient"><b>100</b> g red split lentils</li>
+							<li itemprop="recipeIngredient"><b>1</b> onion, chopped</li>
+							<li itemprop="recipeIngredient"><b>2</b> tsp olive oil</li>
+							<li itemprop="recipeIngredient"><b>1</b> garlic clove, finely chopped</li>
+							<li itemprop="recipeIngredient"><b>2</b> tbsp curry paste</li>
+							<li itemprop="recipeIngredient"><b>450</b> g sweet potatoes, peeled and cubed</li>
+							<li itemprop="recipeIngredient"><b>450</b> g floury pototoes, peeled and cubed</li>
+							<li itemprop="recipeIngredient"><b>1.2</b> l hot vegetable stock</li>
+							<li itemprop="recipeIngredient"><b>2</b> tbsp chopped mint (optional)</li>
+							<li itemprop="recipeIngredient"><b>142</b> g carton low-fat natural yoghurt</li>
+							<li itemprop="recipeIngredient">warm bread, to serve</li>
 							</ul>
 					</p>
 				</div>
@@ -109,9 +109,9 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Cook the lentils in boiling water for <b>15</b> minutes. Fry the onion in the oil for <b>8</b> minutes until softened and beginning to brown. Stir in the garlic, curry paste and cubed potatoes. Cook for <b>5</b> minutes.  </li>
-							<li>Drain the lentils. Add to the potatoes with the stock and simmer for <b>12-15</b> minutes until the potatoes are fully cooked. Whizz in a food processor until smooth. Season to taste and heat through.  </li>
-							<li>Stir the mint, if using, into the yogurt and season to taste. Ladle the soup into bowl and swirl in the yoghurt. Serve with warm bread.  </li>
+							<li itemprop="recipeInstructions">Cook the lentils in boiling water for <b>15</b> minutes. Fry the onion in the oil for <b>8</b> minutes until softened and beginning to brown. Stir in the garlic, curry paste and cubed potatoes. Cook for <b>5</b> minutes.  </li>
+							<li itemprop="recipeInstructions">Drain the lentils. Add to the potatoes with the stock and simmer for <b>12-15</b> minutes until the potatoes are fully cooked. Whizz in a food processor until smooth. Season to taste and heat through.  </li>
+							<li itemprop="recipeInstructions">Stir the mint, if using, into the yogurt and season to taste. Ladle the soup into bowl and swirl in the yoghurt. Serve with warm bread.  </li>
 							</ol>
 					</p>
 				</div>
@@ -120,7 +120,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -135,14 +135,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>349</b> kcal</td>
-							<td><b>5</b> g</td>
-							<td><b>1</b> g</td>
-							<td><b>63</b> g</td>
-							<td><b>14</b> g</td>
-							<td><b>9</b> g</td>
-							<td><b>13</b> g</td>
-							<td><b>1.53</b> g</td>
+							<td itemprop="calories"><b>349</b> kcal</td>
+							<td itemprop="fatContent"><b>5</b> g</td>
+							<td itemprop="saturatedFatContent"><b>1</b> g</td>
+							<td itemprop="carbohydrateContent"><b>63</b> g</td>
+							<td itemprop="sugarContent"><b>14</b> g</td>
+							<td itemprop="fiberContent"><b>9</b> g</td>
+							<td itemprop="proteinContent"><b>13</b> g</td>
+							<td itemprop="sodiumContent"><b>1.53</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

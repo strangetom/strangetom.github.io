@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,42 +63,42 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Beef">
+		<main class="main Beef" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Beef strips with orange and ginger</h1>
+				<h1 class="recipe-title" itemprop="name">Beef strips with orange and ginger</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Beef_colour.svg" alt="Category icon"><p>Beef</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>20</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT20M><b>20</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Beef_strips_with_orange_and_ginger.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">Stir-frying is one of the best ways to cook with the minimum of fat. it also one of the quickest ways to cook, provided you choose tender meat.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Beef_strips_with_orange_and_ginger.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">Stir-frying is one of the best ways to cook with the minimum of fat. it also one of the quickest ways to cook, provided you choose tender meat.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>450</b> g lean beef steak, cut into thin strips</li>
-							<li>grated rind and juice of <b>1</b> orange</li>
-							<li><b>15</b> ml light soy sauce</li>
-							<li><b>1</b> tsp cornflour</li>
-							<li><b>2.5</b> cm piece fresh root ginger, finely chopped</li>
-							<li><b>15</b> ml sunflower oil</li>
-							<li><b>1</b> large carrot, cut into thin strips</li>
-							<li><b>2</b> spring onions, thinly sliced</li>
-							<li>noodle or rice, to serve</li>
+							<li itemprop="recipeIngredient"><b>450</b> g lean beef steak, cut into thin strips</li>
+							<li itemprop="recipeIngredient">grated rind and juice of <b>1</b> orange</li>
+							<li itemprop="recipeIngredient"><b>15</b> ml light soy sauce</li>
+							<li itemprop="recipeIngredient"><b>1</b> tsp cornflour</li>
+							<li itemprop="recipeIngredient"><b>2.5</b> cm piece fresh root ginger, finely chopped</li>
+							<li itemprop="recipeIngredient"><b>15</b> ml sunflower oil</li>
+							<li itemprop="recipeIngredient"><b>1</b> large carrot, cut into thin strips</li>
+							<li itemprop="recipeIngredient"><b>2</b> spring onions, thinly sliced</li>
+							<li itemprop="recipeIngredient">noodle or rice, to serve</li>
 							</ul>
 					</p>
 				</div>
@@ -107,10 +107,10 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Place the beef strips in a bowl and sprinkle over the orange rind and juice. Leave to marinate for up to <b>30</b> minutes.</li>
-							<li>Drain the liquid from the meat and step aside, then mix the meat with the soy sauce, cornflour and ginger, making sure the meat is evenly covered.</li>
-							<li>Heat the oil in a wok or large frying pan and add the beef. Stir-fry for <b>1</b> minute until lightly coloured, then add the carrot strips and stir-fry for another <b>2-3</b> minutes.</li>
-							<li>Stir in the spring onions and reserved liquid, then cook, stirring, until boiling and thickened. Serve hot with noodles or rice.</li>
+							<li itemprop="recipeInstructions">Place the beef strips in a bowl and sprinkle over the orange rind and juice. Leave to marinate for up to <b>30</b> minutes.</li>
+							<li itemprop="recipeInstructions">Drain the liquid from the meat and step aside, then mix the meat with the soy sauce, cornflour and ginger, making sure the meat is evenly covered.</li>
+							<li itemprop="recipeInstructions">Heat the oil in a wok or large frying pan and add the beef. Stir-fry for <b>1</b> minute until lightly coloured, then add the carrot strips and stir-fry for another <b>2-3</b> minutes.</li>
+							<li itemprop="recipeInstructions">Stir in the spring onions and reserved liquid, then cook, stirring, until boiling and thickened. Serve hot with noodles or rice.</li>
 							</ol>
 					</p>
 				</div>
@@ -119,7 +119,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -134,14 +134,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>235</b> kcal</td>
-							<td><b>13.3</b> g</td>
-							<td><b>4.6</b> g</td>
-							<td><b>3.1</b> g</td>
-							<td><b>1.8</b> g</td>
-							<td><b>0.5</b> g</td>
-							<td><b>25.9</b> g</td>
-							<td><b>0.35</b> g</td>
+							<td itemprop="calories"><b>235</b> kcal</td>
+							<td itemprop="fatContent"><b>13.3</b> g</td>
+							<td itemprop="saturatedFatContent"><b>4.6</b> g</td>
+							<td itemprop="carbohydrateContent"><b>3.1</b> g</td>
+							<td itemprop="sugarContent"><b>1.8</b> g</td>
+							<td itemprop="fiberContent"><b>0.5</b> g</td>
+							<td itemprop="proteinContent"><b>25.9</b> g</td>
+							<td itemprop="sodiumContent"><b>0.35</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

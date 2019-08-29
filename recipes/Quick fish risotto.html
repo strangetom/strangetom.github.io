@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,41 +63,41 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Seafood">
+		<main class="main Seafood" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Quick fish risotto</h1>
+				<h1 class="recipe-title" itemprop="name">Quick fish risotto</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Seafood_colour.svg" alt="Category icon"><p>Seafood</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>20</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT20M><b>20</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Quick_fish_risotto.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text"></p>	
+				<img itemprop="image" class="recipe-image" src="../images/Quick_fish_risotto.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description"></p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>1</b> onion, finely chopped</li>
-							<li><b>1</b> garlic clove, finely chopped</li>
-							<li><b>1</b> vegetable or fish stock cube</li>
-							<li><b>250</b> g risotto rice</li>
-							<li><b>350</b> g smoked cod or haddock, skinned and cut into chunks</li>
-							<li>large cupful frozen peas</li>
-							<li>knob butter</li>
-							<li><b>1</b> lemon, cut into <b>8</b> wedges, to garnish</li>
+							<li itemprop="recipeIngredient"><b>1</b> onion, finely chopped</li>
+							<li itemprop="recipeIngredient"><b>1</b> garlic clove, finely chopped</li>
+							<li itemprop="recipeIngredient"><b>1</b> vegetable or fish stock cube</li>
+							<li itemprop="recipeIngredient"><b>250</b> g risotto rice</li>
+							<li itemprop="recipeIngredient"><b>350</b> g smoked cod or haddock, skinned and cut into chunks</li>
+							<li itemprop="recipeIngredient">large cupful frozen peas</li>
+							<li itemprop="recipeIngredient">knob butter</li>
+							<li itemprop="recipeIngredient"><b>1</b> lemon, cut into <b>8</b> wedges, to garnish</li>
 							</ul>
 					</p>
 				</div>
@@ -106,9 +106,9 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Put the onion and garlic in a large heatproof, non-metallic bowl with the stock cube and <b>300</b> ml boiling water. Stir well, then cover and microwave on High for <b>3</b> minutes.  </li>
-							<li>Stir in the rice with another <b>300</b> ml boiling water and microwave on High for <b>10</b> minutes, stirring after <b>5</b> minutes.  </li>
-							<li>Stir the fish into the rice with the peas and another <b>300</b> ml boiling water. Cover and microwave on High for <b>4</b> minutes. Check the rice is cooked and leave to stand for <b>1-2</b> minutes for the liquid to be absorbed. Stir in the butter and season well. Serve hot with lemon wedges to squeeze over.  </li>
+							<li itemprop="recipeInstructions">Put the onion and garlic in a large heatproof, non-metallic bowl with the stock cube and <b>300</b> ml boiling water. Stir well, then cover and microwave on High for <b>3</b> minutes.  </li>
+							<li itemprop="recipeInstructions">Stir in the rice with another <b>300</b> ml boiling water and microwave on High for <b>10</b> minutes, stirring after <b>5</b> minutes.  </li>
+							<li itemprop="recipeInstructions">Stir the fish into the rice with the peas and another <b>300</b> ml boiling water. Cover and microwave on High for <b>4</b> minutes. Check the rice is cooked and leave to stand for <b>1-2</b> minutes for the liquid to be absorbed. Stir in the butter and season well. Serve hot with lemon wedges to squeeze over.  </li>
 							</ol>
 					</p>
 				</div>
@@ -117,7 +117,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -132,14 +132,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>323</b> kcal</td>
-							<td><b>4</b> g</td>
-							<td><b>2</b> g</td>
-							<td><b>56</b> g</td>
-							<td><b>3</b> g</td>
-							<td><b>3</b> g</td>
-							<td><b>20</b> g</td>
-							<td><b>3.1</b> g</td>
+							<td itemprop="calories"><b>323</b> kcal</td>
+							<td itemprop="fatContent"><b>4</b> g</td>
+							<td itemprop="saturatedFatContent"><b>2</b> g</td>
+							<td itemprop="carbohydrateContent"><b>56</b> g</td>
+							<td itemprop="sugarContent"><b>3</b> g</td>
+							<td itemprop="fiberContent"><b>3</b> g</td>
+							<td itemprop="proteinContent"><b>20</b> g</td>
+							<td itemprop="sodiumContent"><b>3.1</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

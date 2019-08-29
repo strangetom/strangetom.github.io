@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,40 +63,40 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Seafood">
+		<main class="main Seafood" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Roast cod with pancetta</h1>
+				<h1 class="recipe-title" itemprop="name">Roast cod with pancetta</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Seafood_colour.svg" alt="Category icon"><p>Seafood</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>22</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT22M><b>22</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Roast_cod_with_pancetta.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">Thick cod steaks in pancetta and roasted make a superb supper dish when served on a bed of butter beans, with sweet and juicy cherry tomatoes on the side.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Roast_cod_with_pancetta.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">Thick cod steaks in pancetta and roasted make a superb supper dish when served on a bed of butter beans, with sweet and juicy cherry tomatoes on the side.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>200</b> g canned butter beans</li>
-							<li><b>6</b> tbsp fruity olive oil</li>
-							<li><b>8</b> thin slices of pancetta</li>
-							<li><b>4</b> thick cod steaks, skinned</li>
-							<li><b>12</b> chery tomatoes</li>
-							<li>salt and ground black pepper</li>
-							<li>parsley sprigs, to serve</li>
+							<li itemprop="recipeIngredient"><b>200</b> g canned butter beans</li>
+							<li itemprop="recipeIngredient"><b>6</b> tbsp fruity olive oil</li>
+							<li itemprop="recipeIngredient"><b>8</b> thin slices of pancetta</li>
+							<li itemprop="recipeIngredient"><b>4</b> thick cod steaks, skinned</li>
+							<li itemprop="recipeIngredient"><b>12</b> chery tomatoes</li>
+							<li itemprop="recipeIngredient">salt and ground black pepper</li>
+							<li itemprop="recipeIngredient">parsley sprigs, to serve</li>
 							</ul>
 					</p>
 				</div>
@@ -105,10 +105,10 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Drain and rinse the beans thoroughly, tip into a pan, season, then stir in <b>2</b> tbsp oil. Heat gently and keep warm.</li>
-							<li>Preheat the oven to <b>200</b>&degC. Wrap two slices of pancetta around the edge of each cod steak, trying it on with kitchen string or securing it with a wooden cocktail stick. Insert a sage leaf between each slide of the pancetta and the cod. Season the fish with salt and pepper.</li>
-							<li>Heat a heavy frying pan, add <b>1</b> tbsp of the remaining oil and seal the cod steaks two at a time for <b>1</b> minute on each side. Transfer them to an ovenproof dish and roast in the oven for <b>5</b> minutes.</li>
-							<li>Add the tomatoes to the dish and drizzle over the remaining olive oil. Roast for <b>5</b> minutes more, until the cod steaks are cooked but still juicy. Serve them on a bed of butter beans with the roasted tomatoes. Garnish with parsley.</li>
+							<li itemprop="recipeInstructions">Drain and rinse the beans thoroughly, tip into a pan, season, then stir in <b>2</b> tbsp oil. Heat gently and keep warm.</li>
+							<li itemprop="recipeInstructions">Preheat the oven to <b>200</b>&degC. Wrap two slices of pancetta around the edge of each cod steak, trying it on with kitchen string or securing it with a wooden cocktail stick. Insert a sage leaf between each slide of the pancetta and the cod. Season the fish with salt and pepper.</li>
+							<li itemprop="recipeInstructions">Heat a heavy frying pan, add <b>1</b> tbsp of the remaining oil and seal the cod steaks two at a time for <b>1</b> minute on each side. Transfer them to an ovenproof dish and roast in the oven for <b>5</b> minutes.</li>
+							<li itemprop="recipeInstructions">Add the tomatoes to the dish and drizzle over the remaining olive oil. Roast for <b>5</b> minutes more, until the cod steaks are cooked but still juicy. Serve them on a bed of butter beans with the roasted tomatoes. Garnish with parsley.</li>
 							</ol>
 					</p>
 				</div>
@@ -117,7 +117,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -132,14 +132,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>386</b> kcal</td>
-							<td><b>19</b> g</td>
-							<td><b>2.9</b> g</td>
-							<td><b>9.9</b> g</td>
-							<td><b>2.8</b> g</td>
-							<td><b>3.4</b> g</td>
-							<td><b>44.2</b> g</td>
-							<td><b>0.58</b> g</td>
+							<td itemprop="calories"><b>386</b> kcal</td>
+							<td itemprop="fatContent"><b>19</b> g</td>
+							<td itemprop="saturatedFatContent"><b>2.9</b> g</td>
+							<td itemprop="carbohydrateContent"><b>9.9</b> g</td>
+							<td itemprop="sugarContent"><b>2.8</b> g</td>
+							<td itemprop="fiberContent"><b>3.4</b> g</td>
+							<td itemprop="proteinContent"><b>44.2</b> g</td>
+							<td itemprop="sodiumContent"><b>0.58</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

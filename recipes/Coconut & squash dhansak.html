@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,43 +63,43 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Veggie">
+		<main class="main Veggie" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Coconut & squash dhansak</h1>
+				<h1 class="recipe-title" itemprop="name">Coconut & squash dhansak</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Veggie_colour.svg" alt="Category icon"><p>Veggie</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>20</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT20M><b>20</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Coconut_&_squash_dhansak.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">This quick and easy vegetarian curry is perfect for a healthy weeknight dinner - with butternut squash, coconut milk, lentils and spinach.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Coconut_&_squash_dhansak.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">This quick and easy vegetarian curry is perfect for a healthy weeknight dinner - with butternut squash, coconut milk, lentils and spinach.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>1</b> tbsp vegetable oil</li>
-							<li><b>500</b> g butternut squash (about <b>1</b> small squash), peeled and chopped into bite-sized chunks</li>
-							<li><b>100</b> g frozen chopped onions</li>
-							<li><b>4</b> heaped tbsp mild curry paste</li>
-							<li><b>400</b> g can chopped tomatoes</li>
-							<li><b>400</b> g can light coconut milk</li>
-							<li>mini naan bread, to serve</li>
-							<li><b>400</b> g can lentils, drained</li>
-							<li><b>200</b> g bag baby spinach</li>
-							<li><b>150</b> ml coconut yogurt</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp vegetable oil</li>
+							<li itemprop="recipeIngredient"><b>500</b> g butternut squash (about <b>1</b> small squash), peeled and chopped into bite-sized chunks</li>
+							<li itemprop="recipeIngredient"><b>100</b> g frozen chopped onions</li>
+							<li itemprop="recipeIngredient"><b>4</b> heaped tbsp mild curry paste</li>
+							<li itemprop="recipeIngredient"><b>400</b> g can chopped tomatoes</li>
+							<li itemprop="recipeIngredient"><b>400</b> g can light coconut milk</li>
+							<li itemprop="recipeIngredient">mini naan bread, to serve</li>
+							<li itemprop="recipeIngredient"><b>400</b> g can lentils, drained</li>
+							<li itemprop="recipeIngredient"><b>200</b> g bag baby spinach</li>
+							<li itemprop="recipeIngredient"><b>150</b> ml coconut yogurt</li>
 							</ul>
 					</p>
 				</div>
@@ -108,8 +108,8 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Heat the oil in a large pan. Put the squash in a bowl with a splash of water. Cover with cling film and microwave on High for <b>10</b> mins or until tender. Meanwhile, add the onions to the hot oil and cook for a few mins until soft. Add the curry paste, tomatoes and coconut milk, and simmer for <b>10</b> mins until thickened to a rich sauce.  </li>
-							<li>Warm the naan breads in a low oven or in the toaster. Drain any liquid from the squash, then add to the sauce with the lentils, spinach and some seasoning. Simmer for a further <b>2-3</b> mins to wilt the spinach, then stir in the coconut yogurt. Serve with the warm naan and a dollop of extra yogurt.  </li>
+							<li itemprop="recipeInstructions">Heat the oil in a large pan. Put the squash in a bowl with a splash of water. Cover with cling film and microwave on High for <b>10</b> mins or until tender. Meanwhile, add the onions to the hot oil and cook for a few mins until soft. Add the curry paste, tomatoes and coconut milk, and simmer for <b>10</b> mins until thickened to a rich sauce.  </li>
+							<li itemprop="recipeInstructions">Warm the naan breads in a low oven or in the toaster. Drain any liquid from the squash, then add to the sauce with the lentils, spinach and some seasoning. Simmer for a further <b>2-3</b> mins to wilt the spinach, then stir in the coconut yogurt. Serve with the warm naan and a dollop of extra yogurt.  </li>
 							</ol>
 					</p>
 				</div>
@@ -118,7 +118,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -133,14 +133,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>320</b> kcal</td>
-							<td><b>17</b> g</td>
-							<td><b>9</b> g</td>
-							<td><b>29</b> g</td>
-							<td><b>17</b> g</td>
-							<td><b>7</b> g</td>
-							<td><b>9</b> g</td>
-							<td><b>1.0</b> g</td>
+							<td itemprop="calories"><b>320</b> kcal</td>
+							<td itemprop="fatContent"><b>17</b> g</td>
+							<td itemprop="saturatedFatContent"><b>9</b> g</td>
+							<td itemprop="carbohydrateContent"><b>29</b> g</td>
+							<td itemprop="sugarContent"><b>17</b> g</td>
+							<td itemprop="fiberContent"><b>7</b> g</td>
+							<td itemprop="proteinContent"><b>9</b> g</td>
+							<td itemprop="sodiumContent"><b>1.0</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,44 +63,44 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Lamb">
+		<main class="main Lamb" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Samosa pie</h1>
+				<h1 class="recipe-title" itemprop="name">Samosa pie</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Lamb_colour.svg" alt="Category icon"><p>Lamb</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>35</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT35M><b>35</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>4</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>4</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Samosa_pie.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">Cover spiced lamb mince, stewed potato and peas with crispy filo pastry for a low-fat, Indian-inspired dinner.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Samosa_pie.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">Cover spiced lamb mince, stewed potato and peas with crispy filo pastry for a low-fat, Indian-inspired dinner.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>2-3</b> tbsp vegetable oil</li>
-							<li><b>1</b> onion, chopped</li>
-							<li>500g lamb mince</li>
-							<li><b>2</b> garlic cloves, finely chopped</li>
-							<li><b>2</b> tbsp curry powder</li>
-							<li><b>1</b> large sweet potato (about 300g), peeled and grated</li>
-							<li>100g frozen peas</li>
-							<li>handful coriander, roughly chopped</li>
-							<li>juice <b>0.5</b> lemon</li>
-							<li><b>3-4</b> sheets filo pastry</li>
-							<li><b>1</b> tsp cumin seeds</li>
+							<li itemprop="recipeIngredient"><b>2-3</b> tbsp vegetable oil</li>
+							<li itemprop="recipeIngredient"><b>1</b> onion, chopped</li>
+							<li itemprop="recipeIngredient">500g lamb mince</li>
+							<li itemprop="recipeIngredient"><b>2</b> garlic cloves, finely chopped</li>
+							<li itemprop="recipeIngredient"><b>2</b> tbsp curry powder</li>
+							<li itemprop="recipeIngredient"><b>1</b> large sweet potato (about 300g), peeled and grated</li>
+							<li itemprop="recipeIngredient">100g frozen peas</li>
+							<li itemprop="recipeIngredient">handful coriander, roughly chopped</li>
+							<li itemprop="recipeIngredient">juice <b>0.5</b> lemon</li>
+							<li itemprop="recipeIngredient"><b>3-4</b> sheets filo pastry</li>
+							<li itemprop="recipeIngredient"><b>1</b> tsp cumin seeds</li>
 							</ul>
 					</p>
 				</div>
@@ -109,8 +109,8 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Heat oven to <b>160</b>&degC/Gas <b>4</b>. Heat <b>1</b> tbsp of the oil in a frying pan. Cook the onion and mince for about <b>5</b> mins until the meat is browned. Stir in the garlic, curry powder, sweet potato and 300ml water. Cook for <b>5-8</b> mins until the potato has softened. Stir in the peas, coriander and a squeeze of lemon juice, then season.  </li>
-							<li>Spoon the mixture into a baking dish. Brush the sheets of filo with the remaining oil and scrunch over the top of the mince. Sprinkle with cumin seeds and bake for <b>10-15</b> mins or until the top is crisp.  </li>
+							<li itemprop="recipeInstructions">Heat oven to <b>160</b>&degC/Gas <b>4</b>. Heat <b>1</b> tbsp of the oil in a frying pan. Cook the onion and mince for about <b>5</b> mins until the meat is browned. Stir in the garlic, curry powder, sweet potato and 300ml water. Cook for <b>5-8</b> mins until the potato has softened. Stir in the peas, coriander and a squeeze of lemon juice, then season.  </li>
+							<li itemprop="recipeInstructions">Spoon the mixture into a baking dish. Brush the sheets of filo with the remaining oil and scrunch over the top of the mince. Sprinkle with cumin seeds and bake for <b>10-15</b> mins or until the top is crisp.  </li>
 							</ol>
 					</p>
 				</div>
@@ -119,7 +119,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -134,14 +134,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>308</b> kcal</td>
-							<td><b>9</b> g</td>
-							<td><b>2</b> g</td>
-							<td><b>43</b> g</td>
-							<td><b>14</b> g</td>
-							<td><b>8</b> g</td>
-							<td><b>9</b> g</td>
-							<td><b>0.4</b> g</td>
+							<td itemprop="calories"><b>308</b> kcal</td>
+							<td itemprop="fatContent"><b>9</b> g</td>
+							<td itemprop="saturatedFatContent"><b>2</b> g</td>
+							<td itemprop="carbohydrateContent"><b>43</b> g</td>
+							<td itemprop="sugarContent"><b>14</b> g</td>
+							<td itemprop="fiberContent"><b>8</b> g</td>
+							<td itemprop="proteinContent"><b>9</b> g</td>
+							<td itemprop="sodiumContent"><b>0.4</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">

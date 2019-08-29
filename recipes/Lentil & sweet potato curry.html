@@ -17,7 +17,7 @@
 						<img class="icon" src="../img/Home.svg" alt="Home icon"><h3>Home</h3>
 					</a>
 				</li>
-				<!--- Links to category pages --> 				
+				<!--- Links to category pages --> 
 				<li class="sidebar-item">
 					<a href="../beef.html">
 						<img class="icon" src="../img/Beef_colour.svg" alt="Beef recipes icon"><h3>Beef</h3>
@@ -63,45 +63,45 @@
 					<a href="../stats.html">
 						<img class="icon" src="../img/Stats.svg" alt="Statistics icon"><h3>Statistics</h3>
 					</a>
-				</li>					
+				</li>
 			</ul>
 		</header>
 
-		<main class="main Veggie">
+		<main class="main Veggie" itemscope itemtype="https://schema.org/Recipe">
 
 			<div class="recipe">
-				<h1 class="recipe-title">Lentil & sweet potato curry</h1>
+				<h1 class="recipe-title" itemprop="name">Lentil & sweet potato curry</h1>
 				<ul class="recipe-info">
 					<li>
 						<img src="../img/Veggie_colour.svg" alt="Category icon"><p>Veggie</p>
 					</li>
 					<li>
-						<img src="../img/Time.svg" alt="Time icon"><p><b>35</b> mins</p>
+						<img src="../img/Time.svg" alt="Time icon"><p><meta itemprop="totalTime" content=PT35M><b>35</b> mins</p>
 					</li>
 					<li>
-						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p><b>2</b> servings</p>
+						<img src="../img/Servings.svg"  align="middle" alt="Servings icon"><p itemprop="recipeYield"><b>2</b> servings</p>
 					</li>
 					</ul>
-				<img class="recipe-image" src="../images/Lentil_&_sweet_potato_curry.webp" alt="Recipe image">
-				<p class="recipe-description recipe-text">A storecupboard spice pot with red and green lentils, chickpeas and coriander. Serve with yogurt and naan bread.</p>	
+				<img itemprop="image" class="recipe-image" src="../images/Lentil_&_sweet_potato_curry.webp" alt="Recipe image">
+				<p class="recipe-description recipe-text" itemprop="description">A storecupboard spice pot with red and green lentils, chickpeas and coriander. Serve with yogurt and naan bread.</p>	
 			
 
-				<div class="recipe-ingredients recipe-text">	
+				<div class="recipe-ingredients recipe-text">
 					<h2>Ingredients</h2>
 					<p>
 						<ul>
-							<li><b>2</b> tbsp vegetable or olive oil</li>
-							<li><b>1</b> red onion, chopped</li>
-							<li><b>1</b> tsp cumin seed</li>
-							<li><b>1</b> tsp mustard seeds (any colour)</li>
-							<li><b>1</b> tbsp medium curry powder</li>
-							<li><b>100</b> g red or green lentil, or a mixture</li>
-							<li><b>2</b> medium sweet potatoes, peeled and cut into chunks</li>
-							<li><b>500</b> ml vegetable stock</li>
-							<li><b>400</b> g can chopped tomato</li>
-							<li><b>400</b> g can chickpea, drained</li>
-							<li><b>0.25</b> small pack coriander (optional)</li>
-							<li>natural yogurt and naan bread, to serve</li>
+							<li itemprop="recipeIngredient"><b>2</b> tbsp vegetable or olive oil</li>
+							<li itemprop="recipeIngredient"><b>1</b> red onion, chopped</li>
+							<li itemprop="recipeIngredient"><b>1</b> tsp cumin seed</li>
+							<li itemprop="recipeIngredient"><b>1</b> tsp mustard seeds (any colour)</li>
+							<li itemprop="recipeIngredient"><b>1</b> tbsp medium curry powder</li>
+							<li itemprop="recipeIngredient"><b>100</b> g red or green lentil, or a mixture</li>
+							<li itemprop="recipeIngredient"><b>2</b> medium sweet potatoes, peeled and cut into chunks</li>
+							<li itemprop="recipeIngredient"><b>500</b> ml vegetable stock</li>
+							<li itemprop="recipeIngredient"><b>400</b> g can chopped tomato</li>
+							<li itemprop="recipeIngredient"><b>400</b> g can chickpea, drained</li>
+							<li itemprop="recipeIngredient"><b>0.25</b> small pack coriander (optional)</li>
+							<li itemprop="recipeIngredient">natural yogurt and naan bread, to serve</li>
 							</ul>
 					</p>
 				</div>
@@ -110,9 +110,9 @@
 					<h2>Instructions</h2>
 					<p>
 						<ol>
-							<li>Heat the oil in a large pan, add the onion and cook for a few mins until softened. Add the spices and cook for <b>1</b> min more, then stir in the lentils, sweet potatoes, stock and chopped tomatoes.</li>
-							<li>Bring to the boil, then cover and simmer for <b>20</b> mins until the lentils and sweet potatoes are tender. Add the chickpeas, then heat through.</li>
-							<li>Season, sprinkle with coriander, if you like, and serve with seasoned yogurt and naan bread.</li>
+							<li itemprop="recipeInstructions">Heat the oil in a large pan, add the onion and cook for a few mins until softened. Add the spices and cook for <b>1</b> min more, then stir in the lentils, sweet potatoes, stock and chopped tomatoes.</li>
+							<li itemprop="recipeInstructions">Bring to the boil, then cover and simmer for <b>20</b> mins until the lentils and sweet potatoes are tender. Add the chickpeas, then heat through.</li>
+							<li itemprop="recipeInstructions">Season, sprinkle with coriander, if you like, and serve with seasoned yogurt and naan bread.</li>
 							</ol>
 					</p>
 				</div>
@@ -121,7 +121,7 @@
 			<div class="nutrition">
 				<h2>Nutrition information <em>per serving</em></h2>
 			</div>
-			<div class="nutrition-table">
+			<div class="nutrition-table" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
 				<table>
 					<thead>
 						<tr>
@@ -136,14 +136,14 @@
 						</tr>
 					</thead>
 						<tr>
-							<td><b>613</b> kcal</td>
-							<td><b>18</b> g</td>
-							<td><b>2</b> g</td>
-							<td><b>91</b> g</td>
-							<td><b>21</b> g</td>
-							<td><b>16</b> g</td>
-							<td><b>27</b> g</td>
-							<td><b>1.8</b> g</td>
+							<td itemprop="calories"><b>613</b> kcal</td>
+							<td itemprop="fatContent"><b>18</b> g</td>
+							<td itemprop="saturatedFatContent"><b>2</b> g</td>
+							<td itemprop="carbohydrateContent"><b>91</b> g</td>
+							<td itemprop="sugarContent"><b>21</b> g</td>
+							<td itemprop="fiberContent"><b>16</b> g</td>
+							<td itemprop="proteinContent"><b>27</b> g</td>
+							<td itemprop="sodiumContent"><b>1.8</b> g</td>
 						</tr>
 				</table>
 			</div><div class="source">
