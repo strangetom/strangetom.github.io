@@ -5,6 +5,15 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Lemon, pineapple and herb-roasted chicken</title>
+      <link>https://strangetom.github.io/recipes/Lemon,%20pineapple%20and%20herb-roasted%20chicken.html</link>
+      <description>
+        &lt;h1&gt;Lemon, pineapple and herb-roasted chicken&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Lemon_pineapple_and_herb-roasted_chicken.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;.&lt;/p&gt;
+      </description>
+      <pubDate>Sat, 31 Aug 2019 14:41:23 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Lemon,%20pineapple%20and%20herb-roasted%20chicken.html</guid>
+    </item>
+    <item>
       <title>Spanish fish pie</title>
       <link>https://strangetom.github.io/recipes/Spanish%20fish%20pie.html</link>
       <description>
@@ -48,15 +57,6 @@
       </description>
       <pubDate>Fri, 02 Aug 2019 15:07:56 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Greek-style%20pasta.html</guid>
-    </item>
-    <item>
-      <title>Spiced chickpea and sweet potato flatbreads</title>
-      <link>https://strangetom.github.io/recipes/Spiced%20chickpea%20and%20sweet%20potato%20flatbreads.html</link>
-      <description>
-        &lt;h1&gt;Spiced chickpea and sweet potato flatbreads&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Spiced_chickpea_and_sweet_potato_flatbreads.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;This hearty main is jam-packed with delicious flavours. Sweet potatoes are high in fibre and antioxidants. Unlike regular potatoes, they count towards your 5-a-day and avocados are a good source of monosaturated fats and vitamin E..&lt;/p&gt;
-      </description>
-      <pubDate>Fri, 02 Aug 2019 14:24:33 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Spiced%20chickpea%20and%20sweet%20potato%20flatbreads.html</guid>
     </item>
     </channel>
 </rss>
