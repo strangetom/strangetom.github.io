@@ -5,6 +5,15 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Glazed lemon-pepper chicken</title>
+      <link>https://strangetom.github.io/recipes/Glazed%20lemon-pepper%20chicken.html</link>
+      <description>
+        &lt;h1&gt;Glazed lemon-pepper chicken&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Glazed_lemon-pepper_chicken.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;.&lt;/p&gt;
+      </description>
+      <pubDate>Sat, 07 Sep 2019 18:26:12 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Glazed%20lemon-pepper%20chicken.html</guid>
+    </item>
+    <item>
       <title>Smoky black bean and sweet potato vegan burgers</title>
       <link>https://strangetom.github.io/recipes/Smoky%20black%20bean%20and%20sweet%20potato%20vegan%20burgers.html</link>
       <description>
@@ -48,15 +57,6 @@
       </description>
       <pubDate>Fri, 09 Aug 2019 07:27:43 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Tuna%20sweetcorn%20burgers.html</guid>
-    </item>
-    <item>
-      <title>Mexican sweet potato rice bowls</title>
-      <link>https://strangetom.github.io/recipes/Mexican%20sweet%20potato%20rice%20bowls.html</link>
-      <description>
-        &lt;h1&gt;Mexican sweet potato rice bowls&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Mexican_sweet_potato_rice_bowls.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Serve this Mexican rice bowl with a dollop of yogurt..&lt;/p&gt;
-      </description>
-      <pubDate>Fri, 09 Aug 2019 07:16:19 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Mexican%20sweet%20potato%20rice%20bowls.html</guid>
     </item>
     </channel>
 </rss>
