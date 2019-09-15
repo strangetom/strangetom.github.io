@@ -5,6 +5,42 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Spanish fish pie</title>
+      <link>https://strangetom.github.io/recipes/Spanish%20fish%20pie.html</link>
+      <description>
+        &lt;h1&gt;Spanish fish pie&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Spanish_fish_pie.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;This Spanish twist on a classic fish pie has little chunks of chorizo and a crispy potato topping with saffron butter for a comforting weekend one pot..&lt;/p&gt;
+      </description>
+      <pubDate>Sun, 15 Sep 2019 17:01:49 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Spanish%20fish%20pie.html</guid>
+    </item>
+    <item>
+      <title>Lentil bolognaise with parmesan basil and pine nuts</title>
+      <link>https://strangetom.github.io/recipes/Lentil%20bolognaise%20with%20parmesan%20basil%20and%20pine%20nuts.html</link>
+      <description>
+        &lt;h1&gt;Lentil bolognaise with parmesan basil and pine nuts&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Lentil_bolognaise_with_parmesan_basil_and_pine_nuts.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Make this lentil bolognaise sauce in advance and simply heat and toss through pasta for an easy, quick dinner. You could even freeze the sauce in portions..&lt;/p&gt;
+      </description>
+      <pubDate>Sun, 15 Sep 2019 16:58:21 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Lentil%20bolognaise%20with%20parmesan%20basil%20and%20pine%20nuts.html</guid>
+    </item>
+    <item>
+      <title>School dinner sponge cake</title>
+      <link>https://strangetom.github.io/recipes/School%20dinner%20sponge%20cake.html</link>
+      <description>
+        &lt;h1&gt;School dinner sponge cake&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/School_dinner_sponge_cake.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;My gluten free school dinner sponge cake recipe is perfect with a little custard and guaranteed to take you back to your school days! It's dairy free too..&lt;/p&gt;
+      </description>
+      <pubDate>Sun, 15 Sep 2019 16:50:00 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/School%20dinner%20sponge%20cake.html</guid>
+    </item>
+    <item>
+      <title>Tuna nicoise salad</title>
+      <link>https://strangetom.github.io/recipes/Tuna%20nicoise%20salad.html</link>
+      <description>
+        &lt;h1&gt;Tuna nicoise salad&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Tuna_nicoise_salad.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Nothing says "I'm on vacation" like a two-hour, three-glasses-of-rosé lunch. The key is finding a dish whose prep won’t eat into valuable dozing-off-with-a-book-in-your-lap time. Enter this salad...&lt;/p&gt;
+      </description>
+      <pubDate>Fri, 13 Sep 2019 16:20:06 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Tuna%20nicoise%20salad.html</guid>
+    </item>
+    <item>
       <title>Chicken in black bean sauce</title>
       <link>https://strangetom.github.io/recipes/Chicken%20in%20black%20bean%20sauce.html</link>
       <description>
@@ -14,15 +50,6 @@
       <guid>https://strangetom.github.io/recipes/Chicken%20in%20black%20bean%20sauce.html</guid>
     </item>
     <item>
-      <title>School dinner sponge cake</title>
-      <link>https://strangetom.github.io/recipes/School%20dinner%20sponge%20cake.html</link>
-      <description>
-        &lt;h1&gt;School dinner sponge cake&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/School_dinner_sponge_cake.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;My gluten free school dinner sponge cake recipe is perfect with a little custard and guaranteed to take you back to your school days! It's dairy free too..&lt;/p&gt;
-      </description>
-      <pubDate>Sun, 08 Sep 2019 18:41:17 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/School%20dinner%20sponge%20cake.html</guid>
-    </item>
-    <item>
       <title>White beans and pasta with rosemary pesto</title>
       <link>https://strangetom.github.io/recipes/White%20beans%20and%20pasta%20with%20rosemary%20pesto.html</link>
       <description>
@@ -30,33 +57,6 @@
       </description>
       <pubDate>Sun, 08 Sep 2019 18:41:07 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/White%20beans%20and%20pasta%20with%20rosemary%20pesto.html</guid>
-    </item>
-    <item>
-      <title>Lemon, pineapple and herb-roasted chicken</title>
-      <link>https://strangetom.github.io/recipes/Lemon,%20pineapple%20and%20herb-roasted%20chicken.html</link>
-      <description>
-        &lt;h1&gt;Lemon, pineapple and herb-roasted chicken&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Lemon_pineapple_and_herb-roasted_chicken.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;.&lt;/p&gt;
-      </description>
-      <pubDate>Sun, 08 Sep 2019 18:41:02 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Lemon,%20pineapple%20and%20herb-roasted%20chicken.html</guid>
-    </item>
-    <item>
-      <title>Spanish fish pie</title>
-      <link>https://strangetom.github.io/recipes/Spanish%20fish%20pie.html</link>
-      <description>
-        &lt;h1&gt;Spanish fish pie&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Spanish_fish_pie.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;This Spanish twist on a classic fish pie has little chunks of chorizo and a crispy potato topping with saffron butter for a comforting weekend one pot..&lt;/p&gt;
-      </description>
-      <pubDate>Sun, 08 Sep 2019 18:40:43 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Spanish%20fish%20pie.html</guid>
-    </item>
-    <item>
-      <title>Zingy lemon chicken casserole</title>
-      <link>https://strangetom.github.io/recipes/Zingy%20lemon%20chicken%20casserole.html</link>
-      <description>
-        &lt;h1&gt;Zingy lemon chicken casserole&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Zingy_lemon_chicken_casserole.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Fresh-tasting spring veg and citrus brighten up this chicken stew. Half-fat crème fraîche and cornflour make a creamy but low-fat sauce..&lt;/p&gt;
-      </description>
-      <pubDate>Sun, 08 Sep 2019 18:40:38 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Zingy%20lemon%20chicken%20casserole.html</guid>
     </item>
     </channel>
 </rss>
