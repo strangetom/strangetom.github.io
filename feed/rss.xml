@@ -5,6 +5,15 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Easy beef burritos</title>
+      <link>https://strangetom.github.io/recipes/Easy%20beef%20burritos.html</link>
+      <description>
+        &lt;h1&gt;Easy beef burritos&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Easy_beef_burritos.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Make these easy beef burritos for a simple midweek supper. The meat filling is also great stuffed into a crispy taco, or as an easy chilli con carne with rice.&lt;/p&gt;
+      </description>
+      <pubDate>Sun, 13 Oct 2019 14:02:20 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Easy%20beef%20burritos.html</guid>
+    </item>
+    <item>
       <title>Halal cart-style chicken and rice with white sauce</title>
       <link>https://strangetom.github.io/recipes/Halal%20cart-style%20chicken%20and%20rice%20with%20white%20sauce.html</link>
       <description>
@@ -48,15 +57,6 @@
       </description>
       <pubDate>Sun, 29 Sep 2019 16:17:39 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Easy%20teriyaki%20chicken.html</guid>
-    </item>
-    <item>
-      <title>Sausage, sage and blackberry traybake</title>
-      <link>https://strangetom.github.io/recipes/Sausage,%20sage%20and%20blackberry%20traybake.html</link>
-      <description>
-        &lt;h1&gt;Sausage, sage and blackberry traybake&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Sausage_sage_and_blackberry_traybake.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;A sweet and sticky autumnal traybake for cosy evenings in.&lt;/p&gt;
-      </description>
-      <pubDate>Sun, 22 Sep 2019 17:18:40 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Sausage,%20sage%20and%20blackberry%20traybake.html</guid>
     </item>
     </channel>
 </rss>
