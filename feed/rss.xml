@@ -5,6 +5,24 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Sumac-spiced lamb pides</title>
+      <link>https://strangetom.github.io/recipes/Sumac-spiced%20lamb%20pides.html</link>
+      <description>
+        &lt;h1&gt;Sumac-spiced lamb pides&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Sumac-spiced_lamb_pides.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;These boat-shaped Turkish pizzas are made with homemade dough and topped with spicy minced lamb and feta cheese.&lt;/p&gt;
+      </description>
+      <pubDate>Mon, 21 Oct 2019 08:32:37 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Sumac-spiced%20lamb%20pides.html</guid>
+    </item>
+    <item>
+      <title>Lentil ragu</title>
+      <link>https://strangetom.github.io/recipes/Lentil%20ragu.html</link>
+      <description>
+        &lt;h1&gt;Lentil ragu&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Lentil_ragu.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Struggle to get your five-a-day? This superhealthy ragù will get you four steps closer and can be frozen for extra convenience..&lt;/p&gt;
+      </description>
+      <pubDate>Sun, 20 Oct 2019 15:01:15 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Lentil%20ragu.html</guid>
+    </item>
+    <item>
       <title>Easy beef burritos</title>
       <link>https://strangetom.github.io/recipes/Easy%20beef%20burritos.html</link>
       <description>
@@ -39,24 +57,6 @@
       </description>
       <pubDate>Sat, 05 Oct 2019 16:54:20 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Spicy%20sweet%20potato,%20tomato,%20ricotta%20and%20egg%20bake.html</guid>
-    </item>
-    <item>
-      <title>Spicy coconut grilled chicken thighs</title>
-      <link>https://strangetom.github.io/recipes/Spicy%20coconut%20grilled%20chicken%20thighs.html</link>
-      <description>
-        &lt;h1&gt;Spicy coconut grilled chicken thighs&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Spicy_coconut_grilled_chicken_thighs.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Welcome to your newest go-to summer marinade, featuring some spicy sambal, brown sugar and coconut milk to balance out the heat, and lots of fresh ginger and lime juice. This one’s just as awesome with shrimp or flank or skirt steak as it is with chicken thighs..&lt;/p&gt;
-      </description>
-      <pubDate>Fri, 04 Oct 2019 13:08:02 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Spicy%20coconut%20grilled%20chicken%20thighs.html</guid>
-    </item>
-    <item>
-      <title>Easy teriyaki chicken</title>
-      <link>https://strangetom.github.io/recipes/Easy%20teriyaki%20chicken.html</link>
-      <description>
-        &lt;h1&gt;Easy teriyaki chicken&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Easy_teriyaki_chicken.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Try this easy, sticky Asian-style teriyaki chicken for a speedy weeknight supper - it takes just 20 minutes to make! Serve it with sticky rice and steamed greens.&lt;/p&gt;
-      </description>
-      <pubDate>Sun, 29 Sep 2019 16:17:39 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Easy%20teriyaki%20chicken.html</guid>
     </item>
     </channel>
 </rss>
