@@ -5,6 +5,24 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Fettuccine with asparagus and smoked salmon</title>
+      <link>https://strangetom.github.io/recipes/Fettuccine%20with%20asparagus%20and%20smoked%20salmon.html</link>
+      <description>
+        &lt;h1&gt;Fettuccine with asparagus and smoked salmon&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Fettuccine_with_asparagus_and_smoked_salmon.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Fresh pasta, asparagus and smoked salmon are tossed with shallot cream sauce in this elegant weeknight dinner that can be prepared in well under an hour..&lt;/p&gt;
+      </description>
+      <pubDate>Sat, 26 Oct 2019 15:44:56 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Fettuccine%20with%20asparagus%20and%20smoked%20salmon.html</guid>
+    </item>
+    <item>
+      <title>Creamy chickpea pasta with spinach and rosemary</title>
+      <link>https://strangetom.github.io/recipes/Creamy%20chickpea%20pasta%20with%20spinach%20and%20rosemary.html</link>
+      <description>
+        &lt;h1&gt;Creamy chickpea pasta with spinach and rosemary&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Creamy_chickpea_pasta_with_spinach_and_rosemary.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Luxurious and hearty, cheap and easy, this vegetarian pasta uses mostly pantry staples, requiring just a few fresh ingredients, like baby spinach, rosemary and heavy cream. Canned chickpeas form the foundation of the dish: They're cooked until crisp and caramelized. Half are then saved as a garnish, while the rest are simmered until they break down and thicken the sauce. You can swap out your greens or beans, and if you want to experiment with flavor, raid your spice cabinet: Ground coriander, toasted fennel seeds, coarsely crumbled pink peppercorns or a sprinkle of smoked paprika perk up the dish..&lt;/p&gt;
+      </description>
+      <pubDate>Sat, 26 Oct 2019 08:24:14 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Creamy%20chickpea%20pasta%20with%20spinach%20and%20rosemary.html</guid>
+    </item>
+    <item>
       <title>Sumac-spiced lamb pides</title>
       <link>https://strangetom.github.io/recipes/Sumac-spiced%20lamb%20pides.html</link>
       <description>
@@ -39,24 +57,6 @@
       </description>
       <pubDate>Sat, 12 Oct 2019 12:25:26 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Halal%20cart-style%20chicken%20and%20rice%20with%20white%20sauce.html</guid>
-    </item>
-    <item>
-      <title>Spicy coconut grilled steak</title>
-      <link>https://strangetom.github.io/recipes/Spicy%20coconut%20grilled%20steak.html</link>
-      <description>
-        &lt;h1&gt;Spicy coconut grilled steak&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Spicy_coconut_grilled_steak.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Welcome to your newest go-to summer marinade, featuring some spicy sambal, brown sugar and coconut milk to balance out the heat, and lots of fresh ginger and lime juice. This one' just as awesome with shrimp or flank or skirt steak as it is with chicken thighs..&lt;/p&gt;
-      </description>
-      <pubDate>Sun, 06 Oct 2019 12:52:23 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Spicy%20coconut%20grilled%20steak.html</guid>
-    </item>
-    <item>
-      <title>Spicy sweet potato, tomato, ricotta and egg bake</title>
-      <link>https://strangetom.github.io/recipes/Spicy%20sweet%20potato,%20tomato,%20ricotta%20and%20egg%20bake.html</link>
-      <description>
-        &lt;h1&gt;Spicy sweet potato, tomato, ricotta and egg bake&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Spicy_sweet_potato_tomato_ricotta_and_egg_bake.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;.&lt;/p&gt;
-      </description>
-      <pubDate>Sat, 05 Oct 2019 16:54:20 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Spicy%20sweet%20potato,%20tomato,%20ricotta%20and%20egg%20bake.html</guid>
     </item>
     </channel>
 </rss>
