@@ -5,6 +5,33 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Coconut-lime shrimp</title>
+      <link>https://strangetom.github.io/recipes/Coconut-lime%20shrimp.html</link>
+      <description>
+        &lt;h1&gt;Coconut-lime shrimp&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Coconut-lime_shrimp.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;You can make this gingery, lightly sweet shrimp stew as tangy and spicy as you like by adjusting the amounts of chile and lime juice. Using full-fat coconut milk gives you the richest and most flavorful dish. But light coconut milk will also work, resulting in something brothier and more souplike. Be sure not to overcook the shrimp. As soon as they turn pink, they're done..&lt;/p&gt;
+      </description>
+      <pubDate>Sun, 01 Dec 2019 19:10:00 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Coconut-lime%20shrimp.html</guid>
+    </item>
+    <item>
+      <title>Pasta puttanesca</title>
+      <link>https://strangetom.github.io/recipes/Pasta%20puttanesca.html</link>
+      <description>
+        &lt;h1&gt;Pasta puttanesca&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Pasta_puttanesca.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;There are almost as many explanations for the origins of pasta puttanesca as there are ways to make it. Ostensibly a sauce invented and made by prostitutes, it was designed to lure customers with its powerful aroma. Whatever the origin, no better cold-weather pasta sauce has come down to us. Puttanesca can be made completely with ingredients from the larder; in fact, it can be prepared entirely without ingredients that require refrigeration, though a bit of a fresh herb at the end does help. The basis is a garlicky tomato sauce; canned tomatoes are preferable here. This is brought to a high level of flavor by the addition of anchovies, capers and olives. Red pepper flakes make things even better. The whole process is ridiculously easy..&lt;/p&gt;
+      </description>
+      <pubDate>Sat, 30 Nov 2019 13:33:25 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Pasta%20puttanesca.html</guid>
+    </item>
+    <item>
+      <title>One-pot chicken & mushroom risotto</title>
+      <link>https://strangetom.github.io/recipes/One-pot%20chicken%20&%20mushroom%20risotto.html</link>
+      <description>
+        &lt;h1&gt;One-pot chicken & mushroom risotto&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/One-pot_chicken_&_mushroom_risotto.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Risotto is the ultimate one-pot winter supper – the perfect vehicle for letting simple, comforting ingredients shine. Scatter on cheese and parsley to serve..&lt;/p&gt;
+      </description>
+      <pubDate>Sun, 24 Nov 2019 15:58:41 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/One-pot%20chicken%20&%20mushroom%20risotto.html</guid>
+    </item>
+    <item>
       <title>Satay sweet potato curry</title>
       <link>https://strangetom.github.io/recipes/Satay%20sweet%20potato%20curry.html</link>
       <description>
@@ -30,33 +57,6 @@
       </description>
       <pubDate>Sat, 26 Oct 2019 15:44:56 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Fettuccine%20with%20asparagus%20and%20smoked%20salmon.html</guid>
-    </item>
-    <item>
-      <title>Creamy chickpea pasta with spinach and rosemary</title>
-      <link>https://strangetom.github.io/recipes/Creamy%20chickpea%20pasta%20with%20spinach%20and%20rosemary.html</link>
-      <description>
-        &lt;h1&gt;Creamy chickpea pasta with spinach and rosemary&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Creamy_chickpea_pasta_with_spinach_and_rosemary.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Luxurious and hearty, cheap and easy, this vegetarian pasta uses mostly pantry staples, requiring just a few fresh ingredients, like baby spinach, rosemary and heavy cream. Canned chickpeas form the foundation of the dish: They're cooked until crisp and caramelized. Half are then saved as a garnish, while the rest are simmered until they break down and thicken the sauce. You can swap out your greens or beans, and if you want to experiment with flavor, raid your spice cabinet: Ground coriander, toasted fennel seeds, coarsely crumbled pink peppercorns or a sprinkle of smoked paprika perk up the dish..&lt;/p&gt;
-      </description>
-      <pubDate>Sat, 26 Oct 2019 08:24:14 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Creamy%20chickpea%20pasta%20with%20spinach%20and%20rosemary.html</guid>
-    </item>
-    <item>
-      <title>Sumac-spiced lamb pides</title>
-      <link>https://strangetom.github.io/recipes/Sumac-spiced%20lamb%20pides.html</link>
-      <description>
-        &lt;h1&gt;Sumac-spiced lamb pides&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Sumac-spiced_lamb_pides.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;These boat-shaped Turkish pizzas are made with homemade dough and topped with spicy minced lamb and feta cheese.&lt;/p&gt;
-      </description>
-      <pubDate>Mon, 21 Oct 2019 08:32:37 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Sumac-spiced%20lamb%20pides.html</guid>
-    </item>
-    <item>
-      <title>Lentil ragu</title>
-      <link>https://strangetom.github.io/recipes/Lentil%20ragu.html</link>
-      <description>
-        &lt;h1&gt;Lentil ragu&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Lentil_ragu.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Struggle to get your five-a-day? This superhealthy ragù will get you four steps closer and can be frozen for extra convenience..&lt;/p&gt;
-      </description>
-      <pubDate>Sun, 20 Oct 2019 15:01:15 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Lentil%20ragu.html</guid>
     </item>
     </channel>
 </rss>
