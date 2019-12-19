@@ -5,6 +5,33 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Spicy turkey sweet potatoes</title>
+      <link>https://strangetom.github.io/recipes/Spicy%20turkey%20sweet%20potatoes.html</link>
+      <description>
+        &lt;h1&gt;Spicy turkey sweet potatoes&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Spicy_turkey_sweet_potatoes.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;These are low fat, even with a soured cream topping, the secret is the turkey mince. The filling would be delicious with normal baked potatoes, but sweet ones offer better nutrition..&lt;/p&gt;
+      </description>
+      <pubDate>Sat, 14 Dec 2019 16:52:04 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Spicy%20turkey%20sweet%20potatoes.html</guid>
+    </item>
+    <item>
+      <title>Spaghetti with smoky tomato &#x26; seafood sauce</title>
+      <link>https://strangetom.github.io/recipes/Spaghetti%20with%20smoky%20tomato%20&#x26;%20seafood%20sauce.html</link>
+      <description>
+        &lt;h1&gt;Spaghetti with smoky tomato &#x26; seafood sauce&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Spaghetti_with_smoky_tomato_&#x26;_seafood_sauce.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Seafood may sound luxurious, but the frozen packs are excellent value, and better still they come prepared and ready to use..&lt;/p&gt;
+      </description>
+      <pubDate>Fri, 06 Dec 2019 10:40:32 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Spaghetti%20with%20smoky%20tomato%20&#x26;%20seafood%20sauce.html</guid>
+    </item>
+    <item>
+      <title>Greek lamb with smoked aubergine &#x26; minty broad beans</title>
+      <link>https://strangetom.github.io/recipes/Greek%20lamb%20with%20smoked%20aubergine%20&#x26;%20minty%20broad%20beans.html</link>
+      <description>
+        &lt;h1&gt;Greek lamb with smoked aubergine &#x26; minty broad beans&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Greek_lamb_with_smoked_aubergine_&#x26;_minty_broad_beans.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Many people assume that red meat is bad for you, but eaten in moderation it offers protein, iron and valuable B vitamins. This makes a good choice for a bbq..&lt;/p&gt;
+      </description>
+      <pubDate>Fri, 06 Dec 2019 10:34:34 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Greek%20lamb%20with%20smoked%20aubergine%20&#x26;%20minty%20broad%20beans.html</guid>
+    </item>
+    <item>
       <title>Coconut-lime shrimp</title>
       <link>https://strangetom.github.io/recipes/Coconut-lime%20shrimp.html</link>
       <description>
@@ -30,33 +57,6 @@
       </description>
       <pubDate>Sun, 24 Nov 2019 15:58:41 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/One-pot%20chicken%20&#x26;%20mushroom%20risotto.html</guid>
-    </item>
-    <item>
-      <title>Satay sweet potato curry</title>
-      <link>https://strangetom.github.io/recipes/Satay%20sweet%20potato%20curry.html</link>
-      <description>
-        &lt;h1&gt;Satay sweet potato curry&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Satay_sweet_potato_curry.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Cook this tasty vegan curry for an exotic yet easy family dinner. With spinach and sweet potato, it boasts two of your five-a-day and it's under 400 calories.&lt;/p&gt;
-      </description>
-      <pubDate>Fri, 08 Nov 2019 15:45:05 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Satay%20sweet%20potato%20curry.html</guid>
-    </item>
-    <item>
-      <title>Chorizo &#x26; chickpea stew</title>
-      <link>https://strangetom.github.io/recipes/Chorizo%20&#x26;%20chickpea%20stew.html</link>
-      <description>
-        &lt;h1&gt;Chorizo &#x26; chickpea stew&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Chorizo_&#x26;_chickpea_stew.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;A casual storecupboard Spanish-inspired casserole that can be served in a tapas spread or simply with some toasted bread.&lt;/p&gt;
-      </description>
-      <pubDate>Fri, 01 Nov 2019 19:45:52 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Chorizo%20&#x26;%20chickpea%20stew.html</guid>
-    </item>
-    <item>
-      <title>Fettuccine with asparagus and smoked salmon</title>
-      <link>https://strangetom.github.io/recipes/Fettuccine%20with%20asparagus%20and%20smoked%20salmon.html</link>
-      <description>
-        &lt;h1&gt;Fettuccine with asparagus and smoked salmon&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Fettuccine_with_asparagus_and_smoked_salmon.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Fresh pasta, asparagus and smoked salmon are tossed with shallot cream sauce in this elegant weeknight dinner that can be prepared in well under an hour..&lt;/p&gt;
-      </description>
-      <pubDate>Sat, 26 Oct 2019 15:44:56 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Fettuccine%20with%20asparagus%20and%20smoked%20salmon.html</guid>
     </item>
     </channel>
 </rss>
