@@ -13,11 +13,19 @@ var version = 'v1::';
 */
 var offlineFundamentals = [
   '/',
-  '/css/',
-  '/js/',
-  '/recipes/',
-  '/img/',
-  '/images/'
+  '/css/index.min.css',
+  '/js/fuse.min.js',
+  '/js/search.min.js',
+  '/js/search_data.min.js',
+  '/img/Beef_colour.svg',
+  '/img/Chicken_colour.svg',
+  '/img/Dessert_colour.svg',
+  '/img/Lamb_colour.svg',
+  '/img/Pork_colour.svg',
+  '/img/Seafood_colour.svg',
+  '/img/Search.svg',
+  '/img/Turkey_colour.svg',
+  '/img/Veggie_colour.svg'
 ];
 
 /* The install event fires when the service worker is first installed.
