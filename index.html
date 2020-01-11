@@ -11,7 +11,7 @@
 	  	<script type="text/javascript" src="./js/search_data.min.js"></script>
 	  	<script type="text/javascript" src="./js/search.min.js"></script>
 	</head>
-	<body class="site" onload="installServiceWorker()">
+	<body class="site">
 		<main class="main">
 
 			<h1 class="title">Tom's Recipes</h1>
@@ -62,7 +62,7 @@
 
 			<!--- Search --->	
 			<div class="search-box">
-				<input id="search-pattern" type="text" placeholder="Search" aria-label="Search for recipes" autofocus>
+				<input id="search-pattern" type="text" placeholder="Search" aria-label="Search for recipes" autofocus oninput="onPatternChange()" onpropertychange="onPatternChange()">
 			</div>
 
 			<div class="shortcut-container">
