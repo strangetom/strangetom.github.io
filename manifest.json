@@ -1,0 +1,8 @@
+{
+  "name": "Stranger Foods",
+  "short_name": "Recipes",
+  "lang": "en-GB",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#757575"
+}
