@@ -5,6 +5,15 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Spicy chicken pasties</title>
+      <link>https://strangetom.github.io/recipes/Spicy%20chicken%20pasties.html</link>
+      <description>
+        &lt;h1&gt;Spicy chicken pasties&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Spicy_chicken_pasties.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Often used for spicy Jamaican beef patties and some fried doughs, turmeric pastry makes a colourful change from regular shortcrust for pasties. The filling in these is tender chicken marinated in a zingy yoghurt mix and then grilled, with ready-made mango chutney too add moisture..&lt;/p&gt;
+      </description>
+      <pubDate>Fri, 10 Jan 2020 19:45:18 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Spicy%20chicken%20pasties.html</guid>
+    </item>
+    <item>
       <title>Lentil shepherds pie with celeriac &#x26; butter bean mash</title>
       <link>https://strangetom.github.io/recipes/Lentil%20shepherds%20pie%20with%20celeriac%20&#x26;%20butter%20bean%20mash.html</link>
       <description>
@@ -48,15 +57,6 @@
       </description>
       <pubDate>Fri, 06 Dec 2019 10:40:32 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Spaghetti%20with%20smoky%20tomato%20&#x26;%20seafood%20sauce.html</guid>
-    </item>
-    <item>
-      <title>Greek lamb with smoked aubergine &#x26; minty broad beans</title>
-      <link>https://strangetom.github.io/recipes/Greek%20lamb%20with%20smoked%20aubergine%20&#x26;%20minty%20broad%20beans.html</link>
-      <description>
-        &lt;h1&gt;Greek lamb with smoked aubergine &#x26; minty broad beans&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Greek_lamb_with_smoked_aubergine_&#x26;_minty_broad_beans.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Many people assume that red meat is bad for you, but eaten in moderation it offers protein, iron and valuable B vitamins. This makes a good choice for a bbq..&lt;/p&gt;
-      </description>
-      <pubDate>Fri, 06 Dec 2019 10:34:34 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Greek%20lamb%20with%20smoked%20aubergine%20&#x26;%20minty%20broad%20beans.html</guid>
     </item>
     </channel>
 </rss>
