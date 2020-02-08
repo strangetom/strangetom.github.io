@@ -5,6 +5,15 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Tomato soup cake</title>
+      <link>https://strangetom.github.io/recipes/Tomato%20soup%20cake.html</link>
+      <description>
+        &lt;h1&gt;Tomato soup cake&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Tomato_soup_cake.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;.&lt;/p&gt;
+      </description>
+      <pubDate>Sat, 08 Feb 2020 13:43:43 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Tomato%20soup%20cake.html</guid>
+    </item>
+    <item>
       <title>Fish pie fillets</title>
       <link>https://strangetom.github.io/recipes/Fish%20pie%20fillets.html</link>
       <description>
@@ -48,15 +57,6 @@
       </description>
       <pubDate>Fri, 03 Jan 2020 15:07:54 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Mango%20chicken%20meal%20bowls.html</guid>
-    </item>
-    <item>
-      <title>Spicy noodles with spring onions &#x26; fried eggs</title>
-      <link>https://strangetom.github.io/recipes/Spicy%20noodles%20with%20spring%20onions%20&#x26;%20fried%20eggs.html</link>
-      <description>
-        &lt;h1&gt;Spicy noodles with spring onions &#x26; fried eggs&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Spicy_noodles_with_spring_onions_&#x26;_fried_eggs.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Use your leftovers from the fridge with a few store cupboard ingredients in this versatile noodle dish. If you don't have Chinese leaves, try shredded Cabbage, kale or blanched broccoli..&lt;/p&gt;
-      </description>
-      <pubDate>Fri, 03 Jan 2020 15:06:27 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Spicy%20noodles%20with%20spring%20onions%20&#x26;%20fried%20eggs.html</guid>
     </item>
     </channel>
 </rss>
