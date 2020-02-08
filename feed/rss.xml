@@ -5,12 +5,21 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Fish pie fillets</title>
+      <link>https://strangetom.github.io/recipes/Fish%20pie%20fillets.html</link>
+      <description>
+        &lt;h1&gt;Fish pie fillets&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Fish_pie_fillets.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Filo adds a crunchy topping to these fish fillets with prawns and soft cheese. Serve with green beans or a salad, with new potatoes in their skins..&lt;/p&gt;
+      </description>
+      <pubDate>Mon, 03 Feb 2020 17:32:51 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Fish%20pie%20fillets.html</guid>
+    </item>
+    <item>
       <title>Beef stroganoff</title>
       <link>https://strangetom.github.io/recipes/Beef%20stroganoff.html</link>
       <description>
         &lt;h1&gt;Beef stroganoff&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Beef_stroganoff.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Make a classic beef stroganoff with steak and mushrooms for a tasty midweek meal. Garnish with parsley and serve with pappardelle pasta or rice.&lt;/p&gt;
       </description>
-      <pubDate>Fri, 17 Jan 2020 13:52:05 -0000</pubDate>
+      <pubDate>Sun, 02 Feb 2020 12:26:34 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Beef%20stroganoff.html</guid>
     </item>
     <item>
@@ -48,15 +57,6 @@
       </description>
       <pubDate>Fri, 03 Jan 2020 15:06:27 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Spicy%20noodles%20with%20spring%20onions%20&#x26;%20fried%20eggs.html</guid>
-    </item>
-    <item>
-      <title>Spicy turkey sweet potatoes</title>
-      <link>https://strangetom.github.io/recipes/Spicy%20turkey%20sweet%20potatoes.html</link>
-      <description>
-        &lt;h1&gt;Spicy turkey sweet potatoes&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Spicy_turkey_sweet_potatoes.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;These are low fat, even with a soured cream topping, the secret is the turkey mince. The filling would be delicious with normal baked potatoes, but sweet ones offer better nutrition..&lt;/p&gt;
-      </description>
-      <pubDate>Sat, 14 Dec 2019 16:52:04 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Spicy%20turkey%20sweet%20potatoes.html</guid>
     </item>
     </channel>
 </rss>
