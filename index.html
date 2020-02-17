@@ -75,24 +75,27 @@
 				<input id="search-pattern" type="text" placeholder="Search" aria-label="Search for recipes" autofocus oninput="onPatternChange()" onpropertychange="onPatternChange()">
 			</div>
 
-			<div class="search-options">
-				<div class="search-options-item">
-					<label for="has_nutrition">Nutrition Info</label>
-					<input type="checkbox" id="has_nutrition" name="has_nutrition">
+			<details>
+				<summary>Search Options</summary>			
+				<div class="search-options">
+					<div class="search-options-item">
+						<label for="has_nutrition">Nutrition Info</label>
+						<input type="checkbox" id="has_nutrition" name="has_nutrition">
+					</div>
+					<div class="search-options-item">
+						<label for="vegan">Vegan</label>
+						<input type="checkbox" id="vegan" name="vegan">
+					</div>
+					<div class="search-options-item">
+						<label for="dairyfree">Dairy Free</label>
+						<input type="checkbox" id="dairyfree" name="dairyfree">
+					</div>
+					<div class="search-options-item">
+						<label for="glutenfree">Gluten Free</label>
+						<input type="checkbox" id="glutenfree" name="glutenfree">				
+					</div>
 				</div>
-				<div class="search-options-item">
-					<label for="vegan">Vegan</label>
-					<input type="checkbox" id="vegan" name="vegan">
-				</div>
-				<div class="search-options-item">
-					<label for="dairyfree">Dairy Free</label>
-					<input type="checkbox" id="dairyfree" name="dairyfree">
-				</div>
-				<div class="search-options-item">
-					<label for="glutenfree">Gluten Free</label>
-					<input type="checkbox" id="glutenfree" name="glutenfree">				
-				</div>
-			</div>
+			</details>
 
 			<div class="shortcut-container">
 				<ul class="shortcut">
