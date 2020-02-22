@@ -5,6 +5,15 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Honey mustard glazed pork with mash</title>
+      <link>https://strangetom.github.io/recipes/Honey%20mustard%20glazed%20pork%20with%20mash.html</link>
+      <description>
+        &lt;h1&gt;Honey mustard glazed pork with mash&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Honey_mustard_glazed_pork_with_mash.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;..&lt;/p&gt;
+      </description>
+      <pubDate>Sat, 22 Feb 2020 08:52:46 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Honey%20mustard%20glazed%20pork%20with%20mash.html</guid>
+    </item>
+    <item>
       <title>Pancetta penne all'arrabbiata</title>
       <link>https://strangetom.github.io/recipes/Pancetta%20penne%20all'arrabbiata.html</link>
       <description>
@@ -48,15 +57,6 @@
       </description>
       <pubDate>Mon, 10 Feb 2020 20:20:12 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Veggie%20shepherd's%20pie%20with%20sweet%20potato%20mash.html</guid>
-    </item>
-    <item>
-      <title>Vegetarian shepherd's pie</title>
-      <link>https://strangetom.github.io/recipes/Vegetarian%20shepherd's%20pie.html</link>
-      <description>
-        &lt;h1&gt;Vegetarian shepherd's pie&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Vegetarian_shepherds_pie.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;.&lt;/p&gt;
-      </description>
-      <pubDate>Mon, 10 Feb 2020 20:20:12 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Vegetarian%20shepherd's%20pie.html</guid>
     </item>
     </channel>
 </rss>
