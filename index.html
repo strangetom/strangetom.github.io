@@ -22,115 +22,69 @@
 		<meta name="msapplication-TileColor" content="#757575">	  	
 	</head>
 	<body class="site">
-		<main class="main">
-
-			<h1 class="title">Tom's Recipes</h1>
-
-			<!--- Links to category pages --->
-			<ul class="navbar">
-				<li class="navbar-item">
-					<a class="navbar-link" onclick="displayCategory('Beef');">
-						<img class="icon" src="./img/Beef_colour.svg" alt="Beef recipes icon">
-					</a>
-				</li>
-				<li class="navbar-item">
-					<a class="navbar-link" onclick="displayCategory('Chicken');">
-						<img class="icon" src="./img/Chicken_colour.svg" alt="Chicken recipes icon">
-					</a>
-				</li>
-				<li class="navbar-item">
-					<a class="navbar-link" onclick="displayCategory('Dessert');">
-						<img class="icon" src="./img/Dessert_colour.svg" alt="Dessert recipes icon">
-					</a>
-				</li>
-				<li class="navbar-item">
-					<a class="navbar-link" onclick="displayCategory('Lamb');">
-						<img class="icon" src="./img/Lamb_colour.svg" alt="Lamb recipes icon">
-					</a>
-				</li>
-				<li class="navbar-item">
-					<a class="navbar-link" onclick="displayCategory('Pork');">
-						<img class="icon" src="./img/Pork_colour.svg" alt="Pork recipes icon">
-					</a>
-				</li>
-				<li class="navbar-item">
-					<a class="navbar-link" onclick="displayCategory('Seafood');">
-						<img class="icon" src="./img/Seafood_colour.svg" alt="Seafood recipes icon">
-					</a>
-				</li>
-				<li class="navbar-item">
-					<a class="navbar-link" onclick="displayCategory('Turkey');">
-						<img class="icon" src="./img/Turkey_colour.svg" alt="Turkey recipes icon">
-					</a>
-				</li>
-				<li class="navbar-item">
-					<a class="navbar-link" onclick="displayCategory('Veggie');">
-						<img class="icon" src="./img/Veggie_colour.svg" alt="Veggie recipes icon">
-					</a>
-				</li>
-			</ul>
+		<div class="information">
+            <header>
+                <a href="./index.html"><img class="header-img" src="./img/header.svg" alt="Stranger Foods"></a>
+            </header>
 
 			<!--- Search --->	
 			<div class="search-box">
 				<input id="search-pattern" type="text" placeholder="Search" aria-label="Search for recipes" autofocus oninput="onPatternChange()" onpropertychange="onPatternChange()">
 			</div>
 
+            <h3>
+				<a class="icon baseline" onclick="displayCategory('Beef');">
+					<img class="icon" src="./img/Beef.svg" alt="Beef recipes icon">
+				</a>
+				<a class="icon baseline" onclick="displayCategory('Chicken');">
+					<img class="icon" src="./img/Chicken.svg" alt="Chicken recipes icon">
+				</a>
+				<a class="icon baseline" onclick="displayCategory('Dessert');">
+					<img class="icon" src="./img/Dessert.svg" alt="Dessert recipes icon">
+				</a>
+				<a class="icon baseline" onclick="displayCategory('Lamb');">
+					<img class="icon" src="./img/Lamb.svg" alt="Lamb recipes icon">
+				</a>
+				<a class="icon baseline" onclick="displayCategory('Pork');">
+					<img class="icon" src="./img/Pork.svg" alt="Pork recipes icon">
+				</a>
+				<a class="icon baseline" onclick="displayCategory('Seafood');">
+					<img class="icon" src="./img/Seafood.svg" alt="Seafood recipes icon">
+				</a>
+				<a class="icon baseline"  onclick="displayCategory('Turkey');">
+					<img class="icon" src="./img/Turkey.svg" alt="Turkey recipes icon">
+				</a>
+				<a class="icon baseline" onclick="displayCategory('Veggie');">
+					<img src="./img/Veggie.svg" alt="Veggie recipes icon">
+				</a>
+            </h3>			
+
 			<details>
-				<summary>Search Options</summary>			
+				<summary>Search Options</summary>
 				<div class="search-options">
 					<div class="search-options-item">
-						<label for="has_nutrition">Nutrition Info</label>
 						<input type="checkbox" id="has_nutrition" name="has_nutrition">
+						<label for="has_nutrition">Nutrition</label>
 					</div>
-					<div class="search-options-item">
-						<label for="vegan">Vegan</label>
+					<div class="search-options-item">						
 						<input type="checkbox" id="vegan" name="vegan">
+						<label for="vegan">Vegan</label>
 					</div>
 					<div class="search-options-item">
-						<label for="dairyfree">Dairy Free</label>
 						<input type="checkbox" id="dairyfree" name="dairyfree">
+						<label for="dairyfree">Dairy Free</label>						
 					</div>
 					<div class="search-options-item">
+						<input type="checkbox" id="glutenfree" name="glutenfree">
 						<label for="glutenfree">Gluten Free</label>
-						<input type="checkbox" id="glutenfree" name="glutenfree">				
 					</div>
 				</div>
 			</details>
+		</div>
 
-			<div class="shortcut-container">
-				<ul class="shortcut">
-					<li><a href="#a"> A </a></li>
-					<li><a href="#b"> B </a></li>
-					<li><a href="#c"> C </a></li>
-					<li><a href="#d"> D </a></li>
-					<li><a href="#e"> E </a></li>
-					<li><a href="#f"> F </a></li>
-					<li><a href="#g"> G </a></li>
-					<li><a href="#h"> H </a></li>
-					<li><a href="#i"> I </a></li>
-					<li><a href="#j"> J </a></li>
-					<li><a href="#k"> K </a></li>
-					<li><a href="#l"> L </a></li>
-					<li><a href="#m"> M </a></li>
-					<li><a href="#n"> N </a></li>
-					<li><a href="#o"> O </a></li>
-					<li><a href="#p"> P </a></li>
-					<li><a href="#q"> Q </a></li>
-					<li><a href="#r"> R </a></li>
-					<li><a href="#s"> S </a></li>
-					<li><a href="#t"> T </a></li>
-					<li><a href="#u"> U </a></li>
-					<li><a href="#v"> V </a></li>
-					<li><a href="#w"> W </a></li>
-					<li><a href="#x"> X </a></li>
-					<li><a href="#y"> Y </a></li>
-					<li><a href="#z"> Z </a></li>
-				</ul>
-			</div>			
-
-			<!--- List of recipes -->
-			<ul class="recipe-list" id="search-results">
-			</ul>			
-		</main>
+		<!--- List of recipes -->
+		<div class="results">
+			<ul class="recipe-list" id="search-results"></ul>
+		</div>
 	</body>
 </html>
