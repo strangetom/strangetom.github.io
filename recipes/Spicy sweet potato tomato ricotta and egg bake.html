@@ -8,6 +8,7 @@
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
+        <link itemprop="suitableForDiet" href="https://schema.org/VegetarianDiet">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -29,8 +30,9 @@
             <h3>
                 <div class="icon baseline">
                     <img src="../img/glutenfree.svg" alt="Gluten free icon">
-                    <meta itemprop="suitableForDiet">Gluten Free
-                </div></h3>
+                    <link itemprop="suitableForDiet" href="https://schema.org/GlutenFreeDiet">Gluten Free
+                </div>   
+                </h3>
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -66,7 +68,8 @@
                         <span itemprop="sodiumContent" class="nutrition-value">1 g</span>
                     </li>
                 </ul>
-            </div></div>
+            </div>  
+            </div>
         <div class="ingredients">
             <h2>Ingredients</h2>
             <ul>
