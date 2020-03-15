@@ -5,6 +5,15 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Broccoli cheese soup</title>
+      <link>https://strangetom.github.io/recipes/Broccoli%20cheese%20soup.html</link>
+      <description>
+        &lt;h1&gt;Broccoli cheese soup&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Broccoli_cheese_soup.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;In the world of cheaty foods, broccoli cheese soup has always seemed like one of the cheatiest. There's nothing wrong with owning it: Cheese is delicious, and not every single lunch has to be virtuous. Still, I sometimes wish that the broccoli part of the whole thing was taken a little more seriously, if only for the purely selfish reason that I love broccoli. My goal here was to create a recipe for broccoli cheese soup that was as comforting as the ultra-cheesy kind you typically find, but simultaneously really tasted like broccoli..&lt;/p&gt;
+      </description>
+      <pubDate>Sun, 15 Mar 2020 17:03:05 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Broccoli%20cheese%20soup.html</guid>
+    </item>
+    <item>
       <title>Balsamic chicken with creamy mash</title>
       <link>https://strangetom.github.io/recipes/Balsamic%20chicken%20with%20creamy%20mash.html</link>
       <description>
@@ -48,15 +57,6 @@
       </description>
       <pubDate>Sat, 07 Mar 2020 13:43:28 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Chorizo%20&#x26;%20%20chilli%20rigatoni.html</guid>
-    </item>
-    <item>
-      <title>Cider pork &#x26; bacon pie with cauliflower and potato mash</title>
-      <link>https://strangetom.github.io/recipes/Cider%20pork%20&#x26;%20bacon%20pie%20with%20cauliflower%20and%20potato%20mash.html</link>
-      <description>
-        &lt;h1&gt;Cider pork &#x26; bacon pie with cauliflower and potato mash&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Cider_pork_&#x26;_bacon_pie_with_cauliflower_and_potato_mash.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;This is a good, everyday pie, using pork mince, which is slightly less expensive than lamb or beef. Gluten-free: use gluten-free plain flour in the sauce..&lt;/p&gt;
-      </description>
-      <pubDate>Sat, 07 Mar 2020 13:43:27 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Cider%20pork%20&#x26;%20bacon%20pie%20with%20cauliflower%20and%20potato%20mash.html</guid>
     </item>
     </channel>
 </rss>
