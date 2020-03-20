@@ -2,60 +2,55 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<meta name="Description" content="503 for Tom's recipes">
+		<meta name="Description" content="Homepage for Tom's recipes">
 		<meta name="viewport" content="width=device-width">
 	  	<title>Stranger Foods</title>
-	  	<link rel="stylesheet" type="text/css" href="/css/index.min.css">
+	  	<link rel="stylesheet" type="text/css" href="./css/offline.min.css">
+	  	<!-- icons and manifest for PWA -->
+	  	<link rel="manifest" href="./manifest.json">
+	  	<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />   
+		<meta name="theme-color" content="#757575"/>  
+		<meta name="apple-mobile-web-app-capable" content="yes">  
+		<meta name="apple-mobile-web-app-status-bar-style" content="#757575"> 
+		<meta name="apple-mobile-web-app-title" content="Hello World"> 
+		<meta name="msapplication-TileImage" content="icons/icon-144.png">  
+		<meta name="msapplication-TileColor" content="#757575">	  	
 	</head>
 	<body class="site">
-		<main class="main">
+		<div class="information">
+            <header>
+                <a href="./index.html"><img class="header-img" src="./img/header.svg" alt="Stranger Foods"></a>
+            </header>
 
 			<h1 class="title">Looks like you're offline</h1>
-			<p>You need to have viewed the page when you're online before it'll work offline</p>	
+			<p>You need to have viewed the page when you're online before it will work offline</p>
 
-			<ul class="navbar">
-				<li class="navbar-item">
-					<div class="navbar-link">
-						<img class="icon" src="/img/Beef_colour.svg" alt="Beef recipes icon">
-					</div>
-				</li>
-				<li class="navbar-item">
-					<div class="navbar-link">
-						<img class="icon" src="/img/Chicken_colour.svg" alt="Chicken recipes icon">
-					</div>
-				</li>
-				<li class="navbar-item">
-					<div class="navbar-link">
-						<img class="icon" src="/img/Dessert_colour.svg" alt="Dessert recipes icon">
-					</div>
-				</li>
-				<li class="navbar-item">
-					<div class="navbar-link">
-						<img class="icon" src="/img/Lamb_colour.svg" alt="Lamb recipes icon">
-					</div>
-				</li>
-				<li class="navbar-item">
-					<div class="navbar-link">
-						<img class="icon" src="/img/Pork_colour.svg" alt="Pork recipes icon">
-					</div>
-				</li>
-				<li class="navbar-item">
-					<div class="navbar-link">
-						<img class="icon" src="/img/Seafood_colour.svg" alt="Seafood recipes icon">
-					</div>
-				</li>
-				<li class="navbar-item">
-					<div class="navbar-link">
-						<img class="icon" src="/img/Turkey_colour.svg" alt="Turkey recipes icon">
-					</div>
-				</li>
-				<li class="navbar-item">
-					<div class="navbar-link">
-						<img class="icon" src="/img/Veggie_colour.svg" alt="Veggie recipes icon">
-					</div>
-				</li>
-			</ul>
-		
-		</main>
+            <h3>
+				<a class="icon baseline">
+					<img class="icon" src="./img/Beef.svg" alt="Beef recipes icon">
+				</a>
+				<a class="icon baseline">
+					<img class="icon" src="./img/Chicken.svg" alt="Chicken recipes icon">
+				</a>
+				<a class="icon baseline">
+					<img class="icon" src="./img/Dessert.svg" alt="Dessert recipes icon">
+				</a>
+				<a class="icon baseline">
+					<img class="icon" src="./img/Lamb.svg" alt="Lamb recipes icon">
+				</a>
+				<a class="icon baseline">
+					<img class="icon" src="./img/Pork.svg" alt="Pork recipes icon">
+				</a>
+				<a class="icon baseline">
+					<img class="icon" src="./img/Seafood.svg" alt="Seafood recipes icon">
+				</a>
+				<a class="icon baseline">
+					<img class="icon" src="./img/Turkey.svg" alt="Turkey recipes icon">
+				</a>
+				<a class="icon baseline">
+					<img src="./img/Veggie.svg" alt="Veggie recipes icon">
+				</a>
+            </h3>
 	</body>
 </html>
