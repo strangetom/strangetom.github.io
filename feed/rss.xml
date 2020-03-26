@@ -5,6 +5,17 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Whole eggs in coconut masala (egg molee)</title>
+      <link>https://strangetom.github.io/recipes/Whole%20eggs%20in%20coconut%20masala%20(egg%20molee).html</link>
+      <description>
+        &lt;h1&gt;Whole eggs in coconut masala (egg molee)&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Whole_eggs_in_coconut_masala.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;This is a nice, simple vegetarian egg curry with a delicate coconut masala. The whole eggs are fried first then finished off in the curry. 
+
+.&lt;/p&gt;
+      </description>
+      <pubDate>Thu, 26 Mar 2020 17:23:00 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Whole%20eggs%20in%20coconut%20masala%20(egg%20molee).html</guid>
+    </item>
+    <item>
       <title>Broccoli cheese soup</title>
       <link>https://strangetom.github.io/recipes/Broccoli%20cheese%20soup.html</link>
       <description>
@@ -12,6 +23,15 @@
       </description>
       <pubDate>Sun, 15 Mar 2020 17:03:05 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Broccoli%20cheese%20soup.html</guid>
+    </item>
+    <item>
+      <title>Salmon and tomato fusilli gratin</title>
+      <link>https://strangetom.github.io/recipes/Salmon%20and%20tomato%20fusilli%20gratin.html</link>
+      <description>
+        &lt;h1&gt;Salmon and tomato fusilli gratin&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Salmon_and_tomato_fusilli_gratin.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;This speedy salmon pasta bake has a crunchy topping from Parmesan, parsley and breadcrumbs.&lt;/p&gt;
+      </description>
+      <pubDate>Fri, 13 Mar 2020 13:59:18 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Salmon%20and%20tomato%20fusilli%20gratin.html</guid>
     </item>
     <item>
       <title>Balsamic chicken with creamy mash</title>
@@ -39,24 +59,6 @@
       </description>
       <pubDate>Sat, 07 Mar 2020 13:43:31 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Chicken%20and%20mushrooms%20curry%20with%20coconut%20milk.html</guid>
-    </item>
-    <item>
-      <title>Chicken in black bean sauce</title>
-      <link>https://strangetom.github.io/recipes/Chicken%20in%20black%20bean%20sauce.html</link>
-      <description>
-        &lt;h1&gt;Chicken in black bean sauce&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Chicken_in_black_bean_sauce.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Gluten-free: make sure the stock cube, soy and black bean sauce are gluten-free..&lt;/p&gt;
-      </description>
-      <pubDate>Sat, 07 Mar 2020 13:43:30 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Chicken%20in%20black%20bean%20sauce.html</guid>
-    </item>
-    <item>
-      <title>Chorizo &#x26;  chilli rigatoni</title>
-      <link>https://strangetom.github.io/recipes/Chorizo%20&#x26;%20%20chilli%20rigatoni.html</link>
-      <description>
-        &lt;h1&gt;Chorizo &#x26;  chilli rigatoni&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Chorizo_&#x26;_chilli_rigatoni.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Chorizo has a hearty flavour which infuses pasta dishes well. Gluten-free: make sure the chorizo and pasta are gluten-free..&lt;/p&gt;
-      </description>
-      <pubDate>Sat, 07 Mar 2020 13:43:28 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Chorizo%20&#x26;%20%20chilli%20rigatoni.html</guid>
     </item>
     </channel>
 </rss>
