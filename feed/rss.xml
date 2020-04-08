@@ -5,6 +5,24 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Citrus pepper pork with crushed potatoes</title>
+      <link>https://strangetom.github.io/recipes/Citrus%20pepper%20pork%20with%20crushed%20potatoes.html</link>
+      <description>
+        &lt;h1&gt;Citrus pepper pork with crushed potatoes&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Citrus_pepper_pork_with_crushed_potatoes.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Step-by-step method for making Citrus pepper pork with crushed potatoes yourself..&lt;/p&gt;
+      </description>
+      <pubDate>Wed, 01 Apr 2020 19:51:19 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Citrus%20pepper%20pork%20with%20crushed%20potatoes.html</guid>
+    </item>
+    <item>
+      <title>Lemony chicken with roast veg and olives</title>
+      <link>https://strangetom.github.io/recipes/Lemony%20chicken%20with%20roast%20veg%20and%20olives.html</link>
+      <description>
+        &lt;h1&gt;Lemony chicken with roast veg and olives&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Lemony_chicken_with_roast_veg_and_olives.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;This speedy spring chicken is served with roasted veggies and olives .&lt;/p&gt;
+      </description>
+      <pubDate>Wed, 01 Apr 2020 19:45:01 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Lemony%20chicken%20with%20roast%20veg%20and%20olives.html</guid>
+    </item>
+    <item>
       <title>Whole eggs in coconut masala</title>
       <link>https://strangetom.github.io/recipes/Whole%20eggs%20in%20coconut%20masala.html</link>
       <description>
@@ -25,6 +43,15 @@
       <guid>https://strangetom.github.io/recipes/Salmon%20and%20spring%20veg%20orzo.html</guid>
     </item>
     <item>
+      <title>Butterscotch blondie bars</title>
+      <link>https://strangetom.github.io/recipes/Butterscotch%20blondie%20bars.html</link>
+      <description>
+        &lt;h1&gt;Butterscotch blondie bars&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Butterscotch_blondie_bars.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;The addition of fudge and pecans elevate these rich blondies to a new level. Take care not to overbake to ensure a chewy, gooey middle..&lt;/p&gt;
+      </description>
+      <pubDate>Sun, 22 Mar 2020 12:12:15 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Butterscotch%20blondie%20bars.html</guid>
+    </item>
+    <item>
       <title>Broccoli cheese soup</title>
       <link>https://strangetom.github.io/recipes/Broccoli%20cheese%20soup.html</link>
       <description>
@@ -32,33 +59,6 @@
       </description>
       <pubDate>Sun, 15 Mar 2020 17:03:05 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Broccoli%20cheese%20soup.html</guid>
-    </item>
-    <item>
-      <title>Salmon and tomato fusilli gratin</title>
-      <link>https://strangetom.github.io/recipes/Salmon%20and%20tomato%20fusilli%20gratin.html</link>
-      <description>
-        &lt;h1&gt;Salmon and tomato fusilli gratin&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Salmon_and_tomato_fusilli_gratin.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;This speedy salmon pasta bake has a crunchy topping from Parmesan, parsley and breadcrumbs.&lt;/p&gt;
-      </description>
-      <pubDate>Fri, 13 Mar 2020 13:59:18 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Salmon%20and%20tomato%20fusilli%20gratin.html</guid>
-    </item>
-    <item>
-      <title>Balsamic chicken with creamy mash</title>
-      <link>https://strangetom.github.io/recipes/Balsamic%20chicken%20with%20creamy%20mash.html</link>
-      <description>
-        &lt;h1&gt;Balsamic chicken with creamy mash&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Balsamic_chicken_with_creamy_mash.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;This balsamic sauce is rich and so yummy. Gluten-free: make sure the stock cubes are gluten-free..&lt;/p&gt;
-      </description>
-      <pubDate>Sat, 07 Mar 2020 13:43:40 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Balsamic%20chicken%20with%20creamy%20mash.html</guid>
-    </item>
-    <item>
-      <title>Cashew nut chicken</title>
-      <link>https://strangetom.github.io/recipes/Cashew%20nut%20chicken.html</link>
-      <description>
-        &lt;h1&gt;Cashew nut chicken&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Cashew_nut_chicken.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Gluten-free: make sure the stock cubes are gluten-free..&lt;/p&gt;
-      </description>
-      <pubDate>Sat, 07 Mar 2020 13:43:33 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Cashew%20nut%20chicken.html</guid>
     </item>
     </channel>
 </rss>
