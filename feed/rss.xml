@@ -5,6 +5,24 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Butter curried rice and egg</title>
+      <link>https://strangetom.github.io/recipes/Butter%20curried%20rice%20and%20egg.html</link>
+      <description>
+        &lt;h1&gt;Butter curried rice and egg&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Butter_curried_rice_and_egg.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;.&lt;/p&gt;
+      </description>
+      <pubDate>Sun, 19 Apr 2020 15:29:06 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Butter%20curried%20rice%20and%20egg.html</guid>
+    </item>
+    <item>
+      <title>Minty salsa verde lamb with lemony potatoes and leeks</title>
+      <link>https://strangetom.github.io/recipes/Minty%20salsa%20verde%20lamb%20with%20lemony%20potatoes%20and%20leeks.html</link>
+      <description>
+        &lt;h1&gt;Minty salsa verde lamb with lemony potatoes and leeks&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Minty_salsa_verde_lamb_with_lemony_potatoes_and_leeks.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;.&lt;/p&gt;
+      </description>
+      <pubDate>Thu, 16 Apr 2020 18:39:51 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Minty%20salsa%20verde%20lamb%20with%20lemony%20potatoes%20and%20leeks.html</guid>
+    </item>
+    <item>
       <title>Spiced veggie shepherd's pies </title>
       <link>https://strangetom.github.io/recipes/Spiced%20veggie%20shepherd's%20pies%20.html</link>
       <description>
@@ -39,26 +57,6 @@
       </description>
       <pubDate>Wed, 01 Apr 2020 19:45:01 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Lemony%20chicken%20with%20roast%20veg%20and%20olives.html</guid>
-    </item>
-    <item>
-      <title>Whole eggs in coconut masala</title>
-      <link>https://strangetom.github.io/recipes/Whole%20eggs%20in%20coconut%20masala.html</link>
-      <description>
-        &lt;h1&gt;Whole eggs in coconut masala&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Whole_eggs_in_coconut_masala.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;This is a nice, simple vegetarian egg curry with a delicate coconut masala. The whole eggs are fried first then finished off in the curry. 
-
-.&lt;/p&gt;
-      </description>
-      <pubDate>Thu, 26 Mar 2020 19:04:05 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Whole%20eggs%20in%20coconut%20masala.html</guid>
-    </item>
-    <item>
-      <title>Salmon and spring veg orzo</title>
-      <link>https://strangetom.github.io/recipes/Salmon%20and%20spring%20veg%20orzo.html</link>
-      <description>
-        &lt;h1&gt;Salmon and spring veg orzo&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Salmon_and_spring_veg_orzo.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Use orzo or your favourite small pasta to make this speedy salmon supper for midweek.&lt;/p&gt;
-      </description>
-      <pubDate>Sun, 22 Mar 2020 12:14:45 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Salmon%20and%20spring%20veg%20orzo.html</guid>
     </item>
     </channel>
 </rss>
