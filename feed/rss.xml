@@ -5,6 +5,15 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Smartie oat cookies</title>
+      <link>https://strangetom.github.io/recipes/Smartie%20oat%20cookies.html</link>
+      <description>
+        &lt;h1&gt;Smartie oat cookies&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Smartie_oat_cookies.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;.&lt;/p&gt;
+      </description>
+      <pubDate>Sat, 25 Apr 2020 14:18:25 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Smartie%20oat%20cookies.html</guid>
+    </item>
+    <item>
       <title>Butter curried rice and egg</title>
       <link>https://strangetom.github.io/recipes/Butter%20curried%20rice%20and%20egg.html</link>
       <description>
@@ -48,15 +57,6 @@
       </description>
       <pubDate>Wed, 01 Apr 2020 19:51:19 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Citrus%20pepper%20pork%20with%20crushed%20potatoes.html</guid>
-    </item>
-    <item>
-      <title>Lemony chicken with roast veg and olives</title>
-      <link>https://strangetom.github.io/recipes/Lemony%20chicken%20with%20roast%20veg%20and%20olives.html</link>
-      <description>
-        &lt;h1&gt;Lemony chicken with roast veg and olives&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Lemony_chicken_with_roast_veg_and_olives.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;This speedy spring chicken is served with roasted veggies and olives .&lt;/p&gt;
-      </description>
-      <pubDate>Wed, 01 Apr 2020 19:45:01 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Lemony%20chicken%20with%20roast%20veg%20and%20olives.html</guid>
     </item>
     </channel>
 </rss>
