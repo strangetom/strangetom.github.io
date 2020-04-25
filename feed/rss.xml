@@ -5,6 +5,15 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Omelette Arnold Bennett</title>
+      <link>https://strangetom.github.io/recipes/Omelette%20Arnold%20Bennett.html</link>
+      <description>
+        &lt;h1&gt;Omelette Arnold Bennett&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Omelette_Arnold_Bennett.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Contriving to be creamy and fluffy at the same time, this smoked haddock souffle omelette is delicious. No wonder the author Arnold Bennett loved it so  much..&lt;/p&gt;
+      </description>
+      <pubDate>Sat, 25 Apr 2020 16:12:55 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Omelette%20Arnold%20Bennett.html</guid>
+    </item>
+    <item>
       <title>Smartie oat cookies</title>
       <link>https://strangetom.github.io/recipes/Smartie%20oat%20cookies.html</link>
       <description>
@@ -12,6 +21,15 @@
       </description>
       <pubDate>Sat, 25 Apr 2020 14:18:25 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Smartie%20oat%20cookies.html</guid>
+    </item>
+    <item>
+      <title>Pappardelle with rosemary and sausage ragu</title>
+      <link>https://strangetom.github.io/recipes/Pappardelle%20with%20rosemary%20and%20sausage%20ragu.html</link>
+      <description>
+        &lt;h1&gt;Pappardelle with rosemary and sausage ragu&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Pappardelle_with_rosemary_and_sausage_ragu.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;These lovely wide ribbons of pasta originate from Tuscany, and are particularly good with meaty ragus. This recipe is a lighter version of your usual Bolognese     .&lt;/p&gt;
+      </description>
+      <pubDate>Sat, 25 Apr 2020 10:04:04 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Pappardelle%20with%20rosemary%20and%20sausage%20ragu.html</guid>
     </item>
     <item>
       <title>Butter curried rice and egg</title>
@@ -39,24 +57,6 @@
       </description>
       <pubDate>Mon, 13 Apr 2020 16:58:10 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Spiced%20veggie%20shepherd's%20pies%20.html</guid>
-    </item>
-    <item>
-      <title>Leek, bacon &#x26; potato soup</title>
-      <link>https://strangetom.github.io/recipes/Leek,%20bacon%20&#x26;%20potato%20soup.html</link>
-      <description>
-        &lt;h1&gt;Leek, bacon &#x26; potato soup&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Leek_bacon_&#x26;_potato_soup.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;This soup keeps well in the fridge and is easy to freeze.&lt;/p&gt;
-      </description>
-      <pubDate>Sat, 11 Apr 2020 16:38:14 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Leek,%20bacon%20&#x26;%20potato%20soup.html</guid>
-    </item>
-    <item>
-      <title>Citrus pepper pork with crushed potatoes</title>
-      <link>https://strangetom.github.io/recipes/Citrus%20pepper%20pork%20with%20crushed%20potatoes.html</link>
-      <description>
-        &lt;h1&gt;Citrus pepper pork with crushed potatoes&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Citrus_pepper_pork_with_crushed_potatoes.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Step-by-step method for making Citrus pepper pork with crushed potatoes yourself..&lt;/p&gt;
-      </description>
-      <pubDate>Wed, 01 Apr 2020 19:51:19 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Citrus%20pepper%20pork%20with%20crushed%20potatoes.html</guid>
     </item>
     </channel>
 </rss>
