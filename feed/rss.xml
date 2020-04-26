@@ -5,6 +5,24 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Smartie oat cookies</title>
+      <link>https://strangetom.github.io/recipes/Smartie%20oat%20cookies.html</link>
+      <description>
+        &lt;h1&gt;Smartie oat cookies&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Smartie_oat_cookies.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;.&lt;/p&gt;
+      </description>
+      <pubDate>Sun, 26 Apr 2020 11:56:58 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Smartie%20oat%20cookies.html</guid>
+    </item>
+    <item>
+      <title>Broccoli cheese soup</title>
+      <link>https://strangetom.github.io/recipes/Broccoli%20cheese%20soup.html</link>
+      <description>
+        &lt;h1&gt;Broccoli cheese soup&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Broccoli_cheese_soup.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;In the world of cheaty foods, broccoli cheese soup has always seemed like one of the cheatiest. There's nothing wrong with owning it: Cheese is delicious, and not every single lunch has to be virtuous. Still, I sometimes wish that the broccoli part of the whole thing was taken a little more seriously, if only for the purely selfish reason that I love broccoli. My goal here was to create a recipe for broccoli cheese soup that was as comforting as the ultra-cheesy kind you typically find, but simultaneously really tasted like broccoli..&lt;/p&gt;
+      </description>
+      <pubDate>Sun, 26 Apr 2020 11:22:49 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Broccoli%20cheese%20soup.html</guid>
+    </item>
+    <item>
       <title>Vegetable tagine</title>
       <link>https://strangetom.github.io/recipes/Vegetable%20tagine.html</link>
       <description>
@@ -39,24 +57,6 @@
       </description>
       <pubDate>Sat, 25 Apr 2020 19:05:03 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Veggie%20shepherd's%20pie%20with%20sweet%20potato%20mash.html</guid>
-    </item>
-    <item>
-      <title>Vegetarian shepherd's pie</title>
-      <link>https://strangetom.github.io/recipes/Vegetarian%20shepherd's%20pie.html</link>
-      <description>
-        &lt;h1&gt;Vegetarian shepherd's pie&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Vegetarian_shepherds_pie.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;.&lt;/p&gt;
-      </description>
-      <pubDate>Sat, 25 Apr 2020 19:05:03 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Vegetarian%20shepherd's%20pie.html</guid>
-    </item>
-    <item>
-      <title>Za'atar chicken &#x26; new potato bake with tzatziki</title>
-      <link>https://strangetom.github.io/recipes/Za'atar%20chicken%20&#x26;%20new%20potato%20bake%20with%20tzatziki.html</link>
-      <description>
-        &lt;h1&gt;Za'atar chicken &#x26; new potato bake with tzatziki&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Za'atar_chicken_&#x26;_new_potato_bake_with_tzatziki.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Squidgy roast new potatoes, crispy chicken skin, big dollops of fresh tzatziki, all in one dish. Bish Bash Bosh..&lt;/p&gt;
-      </description>
-      <pubDate>Sat, 25 Apr 2020 19:05:03 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Za'atar%20chicken%20&#x26;%20new%20potato%20bake%20with%20tzatziki.html</guid>
     </item>
     </channel>
 </rss>
