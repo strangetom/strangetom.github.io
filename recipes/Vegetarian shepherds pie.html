@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width">
         <title>Vegetarian shepherd's pie | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
+        <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
+    <body class="Veggie" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
         <link itemprop="suitableForDiet" href="https://schema.org/VegetarianDiet">
         <div class="information">
             <header>
@@ -26,12 +27,18 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
                     <meta itemprop="recipeYield" content="4-6 servings"><span id="servings">4-6</span>&nbsp;servings
                 </div>
-            </h3>
+            </h3>         
             <h3>
-                </h3>
+                </h3>          
             </div>
         <div class="ingredients">
             <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>             
             <ul>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> small pumpkin or butternut squash, about <b>1.2</b> kg</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">3</span></b> cloves garlic</li>
@@ -40,20 +47,20 @@
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">300</span></b> g mushrooms, chopped</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> sprigs fresh thyme</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">200</span></b> ml sherry</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b>x <b>400</b> g tins haricot beans or cannellini beans, drained and rinsed</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span>x</b> <b>400</b> g tins haricot beans or cannellini beans, drained and rinsed</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">250</span></b> g spinach leaves</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">25</span></b> g strong cheese</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">25</span></b> g breadcrumbs</li>
-                <li itemprop="recipeIngredient" class="ingredient"> salt and freshly ground black pepper</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> salt and freshly ground black pepper</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Heat the oven to <b>200</b>&degC/Gas <b>6</b>.</li>
-                <li itemprop="recipeInstructions">Peel and deseed the <div class="tooltip">pumpkin/squash<span class="tooltiptext">1 small</span></div>, then cut it into chunks. Place in a pan with salted water to cover and cook over a low heat until it is soft and mashable, about <b>15</b> minutes. Drain, then mash with a fork. Crush <b>1</b> clove of <div class="tooltip">garlic<span class="tooltiptext">3 cloves</span></div> and stir in, then season with salt and pepper. Set aside to cool. </li>
-                <li itemprop="recipeInstructions">Meanwhile, heat the <div class="tooltip">butter<span class="tooltiptext">25 g</span></div> and <div class="tooltip">oil<span class="tooltiptext">1 tbsp</span></div> in a frying pan, then add the onion and fry slowly until it's coloured as brown as you like it. Chop the remaining cloves of <div class="tooltip">garlic<span class="tooltiptext">3 cloves</span></div> and add to the pan with the <div class="tooltip">mushrooms<span class="tooltiptext">300 g</span></div>, <div class="tooltip">thyme<span class="tooltiptext">2 sprigs</span></div>, <div class="tooltip">sherry<span class="tooltiptext">200 ml</span></div> and <div class="tooltip">beans<span class="tooltiptext">2x 400 g tins</span></div>. Season well and let the mixture simmer away until the <div class="tooltip">sherry<span class="tooltiptext">200 ml</span></div> has reduced - about <b>10</b> minutes. At the last moment, stir in the <div class="tooltip">spinach<span class="tooltiptext">250 g</span></div> leaves to wilt.</li>
-                <li itemprop="recipeInstructions">Place the filling in a casserole dish and spoon the mash on top. Mix the <div class="tooltip">cheese<span class="tooltiptext">25 g</span></div> with the <div class="tooltip">breadcrumbs<span class="tooltiptext">25 g</span></div> and sprinkle on top, then give it a light drizzle of olive <div class="tooltip">oil<span class="tooltiptext">1 tbsp</span></div>. Bake in the oven for <b>35-45</b> minutes, until the topping is golden brown.</li>
+                <li itemprop="recipeInstructions">Peel and deseed the <div class="tooltip">pumpkin/squash<span class="tooltiptext"><span class="scalable">1</span> small</span></div>, then cut it into chunks. Place in a pan with salted water to cover and cook over a low heat until it is soft and mashable, about <b>15</b> minutes. Drain, then mash with a fork. Crush <b>1</b> clove of <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">3</span> cloves</span></div> and stir in, then season with salt and pepper. Set aside to cool. </li>
+                <li itemprop="recipeInstructions">Meanwhile, heat the <div class="tooltip">butter<span class="tooltiptext"><span class="scalable">25</span> g</span></div> and <div class="tooltip">oil<span class="tooltiptext"><span class="scalable">1</span> tbsp</span></div> in a frying pan, then add the onion and fry slowly until it's coloured as brown as you like it. Chop the remaining cloves of <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">3</span> cloves</span></div> and add to the pan with the <div class="tooltip">mushrooms<span class="tooltiptext"><span class="scalable">300</span> g</span></div>, <div class="tooltip">thyme<span class="tooltiptext"><span class="scalable">2</span> sprigs</span></div>, <div class="tooltip">sherry<span class="tooltiptext"><span class="scalable">200</span> ml</span></div> and <div class="tooltip">beans<span class="tooltiptext"><span class="scalable">2</span>x 400 g tins</span></div>. Season well and let the mixture simmer away until the <div class="tooltip">sherry<span class="tooltiptext"><span class="scalable">200</span> ml</span></div> has reduced - about <b>10</b> minutes. At the last moment, stir in the <div class="tooltip">spinach<span class="tooltiptext"><span class="scalable">250</span> g</span></div> leaves to wilt.</li>
+                <li itemprop="recipeInstructions">Place the filling in a casserole dish and spoon the mash on top. Mix the <div class="tooltip">cheese<span class="tooltiptext"><span class="scalable">25</span> g</span></div> with the <div class="tooltip">breadcrumbs<span class="tooltiptext"><span class="scalable">25</span> g</span></div> and sprinkle on top, then give it a light drizzle of olive <div class="tooltip">oil<span class="tooltiptext"><span class="scalable">1</span> tbsp</span></div>. Bake in the oven for <b>35-45</b> minutes, until the topping is golden brown.</li>
                 </ol>
         </div>
         <div class="source">

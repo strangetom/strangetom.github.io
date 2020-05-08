@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width">
         <title>Coconut-lime shrimp | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
+        <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
+    <body class="Seafood" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -26,9 +27,9 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
                     <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
                 </div>
-            </h3>
+            </h3>         
             <h3>
-                </h3>
+                </h3>          
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -68,6 +69,12 @@
             </div>
         <div class="ingredients">
             <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>             
             <ul>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tbsp toasted sesame oil</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> shallots, diced</li>
@@ -82,17 +89,17 @@
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tbsp fresh lime juice, plus more to taste</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tsp coconut sugar or light brown sugar</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tsp Asian fish sauce, plus more to taste</li>
-                <li itemprop="recipeIngredient" class="ingredient"> cooked rice, for serving</li>
-                <li itemprop="recipeIngredient" class="ingredient"> lime wedges, for serving</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> cooked rice, for serving</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> lime wedges, for serving</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat sesame oil in a <b>12</b>-inch skillet over medium heat. Stir in <div class="tooltip">shallots<span class="tooltiptext">2</span></div>, <div class="tooltip">jalapeno<span class="tooltiptext">1-2</span></div> and a large pinch of <div class="tooltip">salt<span class="tooltiptext">1.25 tsp</span></div>, and cook until starting to brown, about <b>6</b> minutes. Stir in <div class="tooltip">ginger<span class="tooltiptext">2 tsp</span></div> and <div class="tooltip">garlic<span class="tooltiptext">2 large cloves</span></div>, and cook until fragrant, about <b>1</b> minute longer.</li>
-                <li itemprop="recipeInstructions">Stir in coconut milk, <b>0.25</b> cup chopped <div class="tooltip">cilantro<span class="tooltiptext">0.5 cup</span></div> and <b>1.25</b> teaspoons <div class="tooltip">salt<span class="tooltiptext">1.25 tsp</span></div>. Bring to a simmer and let cook for <b>2</b> minutes to blend the flavors.</li>
-                <li itemprop="recipeInstructions">Stir in <div class="tooltip">shrimp<span class="tooltiptext">1 lb</span></div>, <div class="tooltip">lime zest<span class="tooltiptext">1 tbsp</span></div>, <div class="tooltip">lime juice<span class="tooltiptext">1 tbsp</span></div>, <div class="tooltip">sugar<span class="tooltiptext">1 tsp</span></div> and <div class="tooltip">fish sauce<span class="tooltiptext">1 tsp</span></div>. Continue to simmer until <div class="tooltip">shrimp<span class="tooltiptext">1 lb</span></div> are pink and cooked through, about <b>5</b> minutes. Taste and add more <div class="tooltip">lime juice<span class="tooltiptext">1 tbsp</span></div>, <div class="tooltip">salt<span class="tooltiptext">1.25 tsp</span></div> or <div class="tooltip">fish sauce<span class="tooltiptext">1 tsp</span></div>, or all three, if needed.</li>
-                <li itemprop="recipeInstructions">Serve over rice, with remaining <div class="tooltip">cilantro<span class="tooltiptext">0.5 cup</span></div> and lime wedges on the side.</li>
+                <li itemprop="recipeInstructions">Heat sesame oil in a <b>12</b>-inch skillet over medium heat. Stir in <div class="tooltip">shallots<span class="tooltiptext"><span class="scalable">2</span> </span></div>, <div class="tooltip">jalapeno<span class="tooltiptext"><span class="scalable">1-2</span> </span></div> and a large pinch of <div class="tooltip">salt<span class="tooltiptext"><span class="scalable">1.25</span> tsp</span></div>, and cook until starting to brown, about <b>6</b> minutes. Stir in <div class="tooltip">ginger<span class="tooltiptext"><span class="scalable">2</span> tsp</span></div> and <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">2</span> large cloves</span></div>, and cook until fragrant, about <b>1</b> minute longer.</li>
+                <li itemprop="recipeInstructions">Stir in coconut milk, <b>0.25</b> cup chopped <div class="tooltip">cilantro<span class="tooltiptext"><span class="scalable">0.5</span> cup</span></div> and <b>1.25</b> teaspoons <div class="tooltip">salt<span class="tooltiptext"><span class="scalable">1.25</span> tsp</span></div>. Bring to a simmer and let cook for <b>2</b> minutes to blend the flavors.</li>
+                <li itemprop="recipeInstructions">Stir in <div class="tooltip">shrimp<span class="tooltiptext"><span class="scalable">1</span> lb</span></div>, <div class="tooltip">lime zest<span class="tooltiptext"><span class="scalable">1</span> tbsp</span></div>, <div class="tooltip">lime juice<span class="tooltiptext"><span class="scalable">1</span> tbsp</span></div>, <div class="tooltip">sugar<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div> and <div class="tooltip">fish sauce<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div>. Continue to simmer until <div class="tooltip">shrimp<span class="tooltiptext"><span class="scalable">1</span> lb</span></div> are pink and cooked through, about <b>5</b> minutes. Taste and add more <div class="tooltip">lime juice<span class="tooltiptext"><span class="scalable">1</span> tbsp</span></div>, <div class="tooltip">salt<span class="tooltiptext"><span class="scalable">1.25</span> tsp</span></div> or <div class="tooltip">fish sauce<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div>, or all three, if needed.</li>
+                <li itemprop="recipeInstructions">Serve over rice, with remaining <div class="tooltip">cilantro<span class="tooltiptext"><span class="scalable">0.5</span> cup</span></div> and lime wedges on the side.</li>
                 </ol>
         </div>
         <div class="source">

@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width">
         <title>Teriyaki & ginger beef burgers | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
+        <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Beef" itemscope itemtype="https://schema.org/Recipe">
+    <body class="Beef" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -26,32 +27,38 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
                     <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
                 </div>
-            </h3>
+            </h3>         
             <h3>
-                </h3>
+                </h3>          
             </div>
         <div class="ingredients">
             <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>             
             <ul>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">500</span></b> g beef mince</li>
-                <li itemprop="recipeIngredient" class="ingredient"> sesame oil</li>
-                <li itemprop="recipeIngredient" class="ingredient">bunch coriander</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> sesame oil</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b>bunch</b> coriander</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">4</span></b> brioche buns</li>
-                <li itemprop="recipeIngredient" class="ingredient"> spring onions</li>
-                <li itemprop="recipeIngredient" class="ingredient"> white cabbage</li>
-                <li itemprop="recipeIngredient" class="ingredient">Large knob ginger</li>
-                <li itemprop="recipeIngredient" class="ingredient"> teriyaki sauce</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> spring onions</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> white cabbage</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b>Large</b> knob ginger</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> teriyaki sauce</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Put <div class="tooltip">mince<span class="tooltiptext">500 g</span></div> into bowl. Add a very heaped tablespoon of teriyaki sauce. Grate in a very big knob of <div class="tooltip">ginger<span class="tooltiptext">Large knob</span></div>. Finely chop <b>3</b> spring onions and chuck them in. Mix everything together.  </li>
+                <li itemprop="recipeInstructions">Put <div class="tooltip">mince<span class="tooltiptext"><span class="scalable">500</span> g</span></div> into bowl. Add a very heaped tablespoon of teriyaki sauce. Grate in a very big knob of <div class="tooltip">ginger<span class="tooltiptext">Large knob</span></div>. Finely chop <b>3</b> spring onions and chuck them in. Mix everything together.  </li>
                 <li itemprop="recipeInstructions">Divide beef mix into <b>4</b> big patties. Place in the fridge for <b>5</b> minutes while you prepare the slaw and burger marinade.  </li>
                 <li itemprop="recipeInstructions">Marinade time. This will be the sauce to rub on your burgers as they cook - the key to making them sticky. Add two tablespoons of teriyaki sauce into a bowl. Grate in a big knob of <div class="tooltip">ginger<span class="tooltiptext">Large knob</span></div>. Pour in a small glass of water to loosen, and mix everything together. Set aside for when you cook the burgers.  </li>
-                <li itemprop="recipeInstructions">Slaw time. Finely slice your cabbage. Place in a bowl. Add a teaspoon of sesame oil, the juice of a lime, and a large handful of chopped <div class="tooltip">coriander<span class="tooltiptext">bunch</span></div>. Add salt, pepper and olive oil. Toss together.  </li>
+                <li itemprop="recipeInstructions">Slaw time. Finely slice your cabbage. Place in a bowl. Add a teaspoon of sesame oil, the juice of a lime, and a large handful of chopped <div class="tooltip">coriander<span class="tooltiptext">bunch </span></div>. Add salt, pepper and olive oil. Toss together.  </li>
                 <li itemprop="recipeInstructions">Burger time. Place burgers on a griddle pan (frying pan will do if you don't have one). Rub the topside with the marinade. In total, the burgers will need about <b>3-4</b> minutes each side, depending on how thick you make them. The key to the stickiness is to keep flipping them, and keep applying more of that marinade. You should flip around <b>6-8</b> times.  </li>
-                <li itemprop="recipeInstructions">To serve, toast you <div class="tooltip">brioche buns<span class="tooltiptext">4</span></div>. Run leftover marinate on the bottom half of the bun. Add your patty, then a big wodge of the slaw, and squeeze the top half of the bun on top. Enjoy.</li>
+                <li itemprop="recipeInstructions">To serve, toast you <div class="tooltip">brioche buns<span class="tooltiptext"><span class="scalable">4</span> </span></div>. Run leftover marinate on the bottom half of the bun. Add your patty, then a big wodge of the slaw, and squeeze the top half of the bun on top. Enjoy.</li>
                 </ol>
         </div>
         <div class="source">

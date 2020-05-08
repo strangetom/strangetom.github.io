@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width">
         <title>Peri peri pasta | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
+        <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
+    <body class="Chicken" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -26,24 +27,30 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
                     <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
                 </div>
-            </h3>
+            </h3>         
             <h3>
-                </h3>
+                </h3>          
             </div>
         <div class="ingredients">
             <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>             
             <ul>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> peppers</li>
-                <li itemprop="recipeIngredient" class="ingredient"> bag of sweet peppers</li>
-                <li itemprop="recipeIngredient" class="ingredient"> red chilli</li>
-                <li itemprop="recipeIngredient" class="ingredient"> red wine vinegar</li>
-                <li itemprop="recipeIngredient" class="ingredient"> oregano</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> bag of sweet peppers</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> red chilli</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> red wine vinegar</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> oregano</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> red onion</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> lemon</li>
-                <li itemprop="recipeIngredient" class="ingredient"> garlic</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> garlic</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">4</span></b> chicken breasts</li>
-                <li itemprop="recipeIngredient" class="ingredient"> bunch coriander</li>
-                <li itemprop="recipeIngredient" class="ingredient"> smoked paprika</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> bunch coriander</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> smoked paprika</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">500</span></b> g tagliatelle</li>
                 </ul>
         </div>
@@ -51,12 +58,12 @@
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Preheat oven to <b>180</b>&degC</li>
-                <li itemprop="recipeInstructions">Add two chopped red <div class="tooltip">peppers<span class="tooltiptext">2</span></div>, a quartered <div class="tooltip">red onion<span class="tooltiptext">1</span></div> and a halved <div class="tooltip">lemon<span class="tooltiptext">1</span></div> (cut side down) to a tray. Drizzle with olive oil. Roast in oven for <b>40</b> minutes.</li>
-                <li itemprop="recipeInstructions">Add roast vegetables to a blender with the pulp of the roast <div class="tooltip">lemon<span class="tooltiptext">1</span></div>, a tablespoon and a half of red wine vinegar, <b>2</b> cloves of garlic, <b>1</b> red chilli, a heaped teaspoon of oregano, a heaped teaspoon of smoked paprika, salt, pepper, olive oil. Blitz until smooth.</li>
-                <li itemprop="recipeInstructions">Dice up your <div class="tooltip">chicken<span class="tooltiptext">4</span></div> and slice up your sweet <div class="tooltip">peppers<span class="tooltiptext">2</span></div>. Add to a pan with a drizzle of olive oil. Cook on a low heat. Once the <div class="tooltip">chicken<span class="tooltiptext">4</span></div> is white, add a heaped teaspoon of smoked paprika. Stir it in. </li>
-                <li itemprop="recipeInstructions">Get your <div class="tooltip">pasta<span class="tooltiptext">500 g</span></div> on (follow pack instructions).</li>
-                <li itemprop="recipeInstructions">Pour in your peri peri sauce. Add a large handful of chopped <div class="tooltip">coriander<span class="tooltiptext">bunch</span></div>. Stir it in. </li>
-                <li itemprop="recipeInstructions">Drain <div class="tooltip">pasta<span class="tooltiptext">500 g</span></div>, reserve some of the water. Add to the peri peri pan. Stir everything together. Serve in bowls while hot. If you have some cheddar, grate that on top!</li>
+                <li itemprop="recipeInstructions">Add two chopped red <div class="tooltip">peppers<span class="tooltiptext"><span class="scalable">2</span> </span></div>, a quartered <div class="tooltip">red onion<span class="tooltiptext"><span class="scalable">1</span> </span></div> and a halved <div class="tooltip">lemon<span class="tooltiptext"><span class="scalable">1</span> </span></div> (cut side down) to a tray. Drizzle with olive oil. Roast in oven for <b>40</b> minutes.</li>
+                <li itemprop="recipeInstructions">Add roast vegetables to a blender with the pulp of the roast <div class="tooltip">lemon<span class="tooltiptext"><span class="scalable">1</span> </span></div>, a tablespoon and a half of red wine vinegar, <b>2</b> cloves of garlic, <b>1</b> red chilli, a heaped teaspoon of oregano, a heaped teaspoon of smoked paprika, salt, pepper, olive oil. Blitz until smooth.</li>
+                <li itemprop="recipeInstructions">Dice up your <div class="tooltip">chicken<span class="tooltiptext"><span class="scalable">4</span> </span></div> and slice up your sweet <div class="tooltip">peppers<span class="tooltiptext"><span class="scalable">2</span> </span></div>. Add to a pan with a drizzle of olive oil. Cook on a low heat. Once the <div class="tooltip">chicken<span class="tooltiptext"><span class="scalable">4</span> </span></div> is white, add a heaped teaspoon of smoked paprika. Stir it in. </li>
+                <li itemprop="recipeInstructions">Get your <div class="tooltip">pasta<span class="tooltiptext"><span class="scalable">500</span> g</span></div> on (follow pack instructions).</li>
+                <li itemprop="recipeInstructions">Pour in your peri peri sauce. Add a large handful of chopped <div class="tooltip">coriander<span class="tooltiptext"> bunch</span></div>. Stir it in. </li>
+                <li itemprop="recipeInstructions">Drain <div class="tooltip">pasta<span class="tooltiptext"><span class="scalable">500</span> g</span></div>, reserve some of the water. Add to the peri peri pan. Stir everything together. Serve in bowls while hot. If you have some cheddar, grate that on top!</li>
                 </ol>
         </div>
         <div class="source">

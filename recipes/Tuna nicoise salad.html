@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width">
         <title>Tuna nicoise salad | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
+        <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
+    <body class="Seafood" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -26,12 +27,18 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
                     <meta itemprop="recipeYield" content="6-8 servings"><span id="servings">6-8</span>&nbsp;servings
                 </div>
-            </h3>
+            </h3>         
             <h3>
-                </h3>
+                </h3>          
             </div>
         <div class="ingredients">
             <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>             
             <ul>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">0.75</span></b> cup extra-virgin olive oil</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">0.25</span></b> cup fresh lemon juice</li>
@@ -44,17 +51,17 @@
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">0.5</span></b> lb baby potatoes, halved if larger</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">4</span></b> cups seedless cucumbers</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">3</span></b> cups oil-packed tuna</li>
-                <li itemprop="recipeIngredient" class="ingredient"> Olives, capers, peperoncini, pickles, or other pickled-briny ingredients, for serving</li>
-                <li itemprop="recipeIngredient" class="ingredient"> Flaky sea salt</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> Olives, capers, peperoncini, pickles, or other pickled-briny ingredients, for serving</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> Flaky sea salt</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Whisk <div class="tooltip">oil<span class="tooltiptext">0.75 cup</span></div>, <div class="tooltip">lemon juice<span class="tooltiptext">0.25 cup</span></div>, <div class="tooltip">mustard<span class="tooltiptext">2 tbsp</span></div>, <div class="tooltip">honey<span class="tooltiptext">1 tsp</span></div>, <div class="tooltip">pepper<span class="tooltiptext">1 tsp</span></div>, and <b>1</b> tsp. <div class="tooltip">kosher salt<span class="tooltiptext">1 tsp</span></div> in a medium bowl; set dressing aside.</li>
-                <li itemprop="recipeInstructions">Bring a medium pot of salted water to a boil. Carefully add <div class="tooltip">eggs<span class="tooltiptext">6 large</span></div> and cook <b>7</b> minutes. Using a slotted spoon, transfer <div class="tooltip">eggs<span class="tooltiptext">6 large</span></div> to a bowl of ice water (keep pot over high heat); chill until cold, about <b>5</b> minutes. Peel; set aside.</li>
-                <li itemprop="recipeInstructions">Meanwhile, add <div class="tooltip">green beans<span class="tooltiptext">0.5 lb</span></div> and <div class="tooltip">potatoes<span class="tooltiptext">0.5 lb</span></div> to the same pot of boiling water and cook until just tender, <b>2</b> - <b>4</b> minutes for <div class="tooltip">green beans<span class="tooltiptext">0.5 lb</span></div>, <b>10</b> - <b>15</b> minutes for <div class="tooltip">potatoes<span class="tooltiptext">0.5 lb</span></div>. Using a slotted spoon, transfer to bowl of ice water; let sit until cold, about <b>3</b> minutes. Transfer to paper towels; pat dry.</li>
-                <li itemprop="recipeInstructions">To serve, slice <div class="tooltip">eggs<span class="tooltiptext">6 large</span></div> in half and arrange on a platter with cooked and raw vegetables and tuna. Top with pickled-briny ingredient(s), sprinkle with sea salt, and drizzle some reserved dressing over. Serve with remaining dressing alongside.</li>
+                <li itemprop="recipeInstructions">Whisk <div class="tooltip">oil<span class="tooltiptext"><span class="scalable">0.75</span> cup</span></div>, <div class="tooltip">lemon juice<span class="tooltiptext"><span class="scalable">0.25</span> cup</span></div>, <div class="tooltip">mustard<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div>, <div class="tooltip">honey<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div>, <div class="tooltip">pepper<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div>, and <b>1</b> tsp. <div class="tooltip">kosher salt<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div> in a medium bowl; set dressing aside.</li>
+                <li itemprop="recipeInstructions">Bring a medium pot of salted water to a boil. Carefully add <div class="tooltip">eggs<span class="tooltiptext"><span class="scalable">6</span> large</span></div> and cook <b>7</b> minutes. Using a slotted spoon, transfer <div class="tooltip">eggs<span class="tooltiptext"><span class="scalable">6</span> large</span></div> to a bowl of ice water (keep pot over high heat); chill until cold, about <b>5</b> minutes. Peel; set aside.</li>
+                <li itemprop="recipeInstructions">Meanwhile, add <div class="tooltip">green beans<span class="tooltiptext"><span class="scalable">0.5</span> lb</span></div> and <div class="tooltip">potatoes<span class="tooltiptext"><span class="scalable">0.5</span> lb</span></div> to the same pot of boiling water and cook until just tender, <b>2</b> - <b>4</b> minutes for <div class="tooltip">green beans<span class="tooltiptext"><span class="scalable">0.5</span> lb</span></div>, <b>10</b> - <b>15</b> minutes for <div class="tooltip">potatoes<span class="tooltiptext"><span class="scalable">0.5</span> lb</span></div>. Using a slotted spoon, transfer to bowl of ice water; let sit until cold, about <b>3</b> minutes. Transfer to paper towels; pat dry.</li>
+                <li itemprop="recipeInstructions">To serve, slice <div class="tooltip">eggs<span class="tooltiptext"><span class="scalable">6</span> large</span></div> in half and arrange on a platter with cooked and raw vegetables and tuna. Top with pickled-briny ingredient(s), sprinkle with sea salt, and drizzle some reserved dressing over. Serve with remaining dressing alongside.</li>
                 <li itemprop="recipeInstructions">Do Ahead: Dressing can be made <b>5</b> days ahead; cover and chill. Eggs can be boiled and vegetables blanched <b>2</b> days ahead; cover and chill separately.</li>
                 </ol>
         </div>

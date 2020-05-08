@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width">
         <title>Chicken & mushroom puff pie | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
+        <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
+    <body class="Chicken" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -26,9 +27,9 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
                     <meta itemprop="recipeYield" content="4-6 servings"><span id="servings">4-6</span>&nbsp;servings
                 </div>
-            </h3>
+            </h3>         
             <h3>
-                </h3>
+                </h3>          
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -68,13 +69,19 @@
             </div>
         <div class="ingredients">
             <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>             
             <ul>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tbsp vegetable oil</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">8</span></b> skinless boneless chicken thighs</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">8</span></b> rashers smoked streaky bacon, cut into large pieces</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> onion, halved and sliced</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">250</span></b> g pack baby button mushrooms</li>
-                <li itemprop="recipeIngredient" class="ingredient">handful sprigs thyme</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b>handful</b> sprigs thyme</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tbsp plain flour</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">400</span></b> ml chicken stock</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">200</span></b> ml milk</li>
@@ -85,9 +92,9 @@
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the oil in a large, non-stick frying pan. Season the <div class="tooltip">chicken<span class="tooltiptext">8</span></div> to taste and fry for <b>5-8</b> mins until golden brown, turning occasionally. You may need to do this in two batches, depending on the size of your pan. Lift the <div class="tooltip">chicken<span class="tooltiptext">8</span></div> onto a plate and tip the <div class="tooltip">bacon<span class="tooltiptext">8 rashers</span></div> into the pan. Fry for <b>5</b> mins until crisp. Add the <div class="tooltip">onion<span class="tooltiptext">1</span></div>, <div class="tooltip">mushrooms<span class="tooltiptext">250 g pack</span></div> and <div class="tooltip">thyme<span class="tooltiptext">handful sprigs</span></div>, then fry on a high heat for another <b>3</b> mins until the onions start to colour.</li>
-                <li itemprop="recipeInstructions">Tip the <div class="tooltip">flour<span class="tooltiptext">2 tbsp</span></div> into the pan and cook, stirring, for <b>1</b> min. With the pan off the heat, gradually stir or whisk in the <div class="tooltip">stock<span class="tooltiptext">400 ml</span></div>, followed by the <div class="tooltip">milk<span class="tooltiptext">200 ml</span></div>, then add the <div class="tooltip">chicken<span class="tooltiptext">8</span></div> back to the pan. Bring to the boil, then simmer for <b>30</b> mins. Spoon the filling into a large pie or baking dish (approx <b>20</b> x <b>30</b> cm) with a lip and leave to cool.</li>
-                <li itemprop="recipeInstructions">Heat oven to <b>220</b>&degC/Gas <b>7</b>. On a floured surface, roll the <div class="tooltip">pastry<span class="tooltiptext">500 g pack</span></div> to the thickness of two £<b>1</b> coins. Cut a long strip as wide as the rim of the pie dish and, using a little of the <div class="tooltip">egg<span class="tooltiptext">1</span></div>, fix to the edge of the pie dish. Brush with <div class="tooltip">egg<span class="tooltiptext">1</span></div>, then lift the rest of the <div class="tooltip">pastry<span class="tooltiptext">500 g pack</span></div> over the pie, using the rolling pin to help. Gently press the edges with your fingers and trim with a sharp knife. Brush lightly with <div class="tooltip">egg<span class="tooltiptext">1</span></div> to glaze, then bake for <b>30</b> mins or until the <div class="tooltip">pastry<span class="tooltiptext">500 g pack</span></div> is risen and dark golden brown.</li>
+                <li itemprop="recipeInstructions">Heat the oil in a large, non-stick frying pan. Season the <div class="tooltip">chicken<span class="tooltiptext"><span class="scalable">8</span> </span></div> to taste and fry for <b>5-8</b> mins until golden brown, turning occasionally. You may need to do this in two batches, depending on the size of your pan. Lift the <div class="tooltip">chicken<span class="tooltiptext"><span class="scalable">8</span> </span></div> onto a plate and tip the <div class="tooltip">bacon<span class="tooltiptext"><span class="scalable">8</span> rashers</span></div> into the pan. Fry for <b>5</b> mins until crisp. Add the <div class="tooltip">onion<span class="tooltiptext"><span class="scalable">1</span> </span></div>, <div class="tooltip">mushrooms<span class="tooltiptext"><span class="scalable">250</span> g pack</span></div> and <div class="tooltip">thyme<span class="tooltiptext">handful sprigs</span></div>, then fry on a high heat for another <b>3</b> mins until the onions start to colour.</li>
+                <li itemprop="recipeInstructions">Tip the <div class="tooltip">flour<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div> into the pan and cook, stirring, for <b>1</b> min. With the pan off the heat, gradually stir or whisk in the <div class="tooltip">stock<span class="tooltiptext"><span class="scalable">400</span> ml</span></div>, followed by the <div class="tooltip">milk<span class="tooltiptext"><span class="scalable">200</span> ml</span></div>, then add the <div class="tooltip">chicken<span class="tooltiptext"><span class="scalable">8</span> </span></div> back to the pan. Bring to the boil, then simmer for <b>30</b> mins. Spoon the filling into a large pie or baking dish (approx <b>20</b> x <b>30</b> cm) with a lip and leave to cool.</li>
+                <li itemprop="recipeInstructions">Heat oven to <b>220</b>&degC/Gas <b>7</b>. On a floured surface, roll the <div class="tooltip">pastry<span class="tooltiptext"><span class="scalable">500</span> g pack</span></div> to the thickness of two £<b>1</b> coins. Cut a long strip as wide as the rim of the pie dish and, using a little of the <div class="tooltip">egg<span class="tooltiptext"><span class="scalable">1</span> </span></div>, fix to the edge of the pie dish. Brush with <div class="tooltip">egg<span class="tooltiptext"><span class="scalable">1</span> </span></div>, then lift the rest of the <div class="tooltip">pastry<span class="tooltiptext"><span class="scalable">500</span> g pack</span></div> over the pie, using the rolling pin to help. Gently press the edges with your fingers and trim with a sharp knife. Brush lightly with <div class="tooltip">egg<span class="tooltiptext"><span class="scalable">1</span> </span></div> to glaze, then bake for <b>30</b> mins or until the <div class="tooltip">pastry<span class="tooltiptext"><span class="scalable">500</span> g pack</span></div> is risen and dark golden brown.</li>
                 </ol>
         </div>
         <div class="source">

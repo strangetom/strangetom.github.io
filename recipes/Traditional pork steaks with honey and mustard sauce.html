@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width">
         <title>Traditional pork steaks with honey and mustard sauce | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
+        <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
+    <body class="Pork" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -25,12 +26,18 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
                     <meta itemprop="recipeYield" content="2 servings"><span id="servings">2</span>&nbsp;servings
                 </div>
-            </h3>
+            </h3>         
             <h3>
-                </h3>
+                </h3>          
             </div>
         <div class="ingredients">
             <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>             
             <ul>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">12-14</span></b> new potatoes</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">4</span></b> carrots, cut into sticks</li>
@@ -45,19 +52,19 @@
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tbsp honey</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> dessertspoon wholegrain mustard</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1/3</span></b> mug water</li>
-                <li itemprop="recipeIngredient" class="ingredient"> salt and pepper</li>
-                <li itemprop="recipeIngredient" class="ingredient"> oil to fry</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> salt and pepper</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> oil to fry</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Put the <div class="tooltip">water<span class="tooltiptext">1/3 mug</span></div> on to boil ready for the vegetables. Simmer the <div class="tooltip">potatoes<span class="tooltiptext">12-14</span></div> and <div class="tooltip">carrots<span class="tooltiptext">4</span></div> for <b>10-15</b> minutes or until tender. After <b>10</b> minutes, put the <div class="tooltip">beans<span class="tooltiptext">200 g</span></div> into the same pan.  </li>
-                <li itemprop="recipeInstructions">Heat a little oil in a small saucepan and fry the <div class="tooltip">onion<span class="tooltiptext">1</span></div> until they begin to brown.  </li>
-                <li itemprop="recipeInstructions">Add the <div class="tooltip">ginger<span class="tooltiptext">1.5 tbsp</span></div>, <div class="tooltip">cumin<span class="tooltiptext">1/2 tsp</span></div> and <div class="tooltip">cinnamon<span class="tooltiptext">1/4 tsp</span></div> and fry for <b>30</b> seconds.  </li>
-                <li itemprop="recipeInstructions">Add the <div class="tooltip">flour<span class="tooltiptext">1 tsp</span></div> and stir well. Cook for <b>30</b> seconds.  </li>
+                <li itemprop="recipeInstructions">Put the <div class="tooltip">water<span class="tooltiptext"><span class="scalable">1/3</span> mug</span></div> on to boil ready for the vegetables. Simmer the <div class="tooltip">potatoes<span class="tooltiptext"><span class="scalable">12-14</span> </span></div> and <div class="tooltip">carrots<span class="tooltiptext"><span class="scalable">4</span> </span></div> for <b>10-15</b> minutes or until tender. After <b>10</b> minutes, put the <div class="tooltip">beans<span class="tooltiptext"><span class="scalable">200</span> g</span></div> into the same pan.  </li>
+                <li itemprop="recipeInstructions">Heat a little oil in a small saucepan and fry the <div class="tooltip">onion<span class="tooltiptext"><span class="scalable">1</span> </span></div> until they begin to brown.  </li>
+                <li itemprop="recipeInstructions">Add the <div class="tooltip">ginger<span class="tooltiptext"><span class="scalable">1.5</span> tbsp</span></div>, <div class="tooltip">cumin<span class="tooltiptext"><span class="scalable">1/2</span> tsp</span></div> and <div class="tooltip">cinnamon<span class="tooltiptext"><span class="scalable">1/4</span> tsp</span></div> and fry for <b>30</b> seconds.  </li>
+                <li itemprop="recipeInstructions">Add the <div class="tooltip">flour<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div> and stir well. Cook for <b>30</b> seconds.  </li>
                 <li itemprop="recipeInstructions">Add the rest of the sauce ingredients and bring to the boil. Simmer for <b>2</b> minutes. Taste and season appropriately.  </li>
-                <li itemprop="recipeInstructions">While the vegetables are cooking, heat a little oil in a frying pan. Add the <div class="tooltip">pork<span class="tooltiptext">2</span></div> steaks. Cook on a high heat for <b>2</b> minutes each side. Turn down the heat, put a lid on the pan and cook for a further <b>3-4</b> minutes each side. Pork steaks should not be 'bloody' but can still look quite pink inside.  </li>
+                <li itemprop="recipeInstructions">While the vegetables are cooking, heat a little oil in a frying pan. Add the <div class="tooltip">pork<span class="tooltiptext"><span class="scalable">2</span> </span></div> steaks. Cook on a high heat for <b>2</b> minutes each side. Turn down the heat, put a lid on the pan and cook for a further <b>3-4</b> minutes each side. Pork steaks should not be 'bloody' but can still look quite pink inside.  </li>
                 <li itemprop="recipeInstructions">Drain the vegetables and serve with the steaks and the sauce.</li>
                 </ol>
         </div>

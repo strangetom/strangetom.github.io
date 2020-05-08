@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width">
         <title>Cajun chicken salad with bacon and potatoes | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
+        <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
+    <body class="Chicken" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -25,41 +26,47 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
                     <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
                 </div>
-            </h3>
+            </h3>         
             <h3>
-                </h3>
+                </h3>          
             </div>
         <div class="ingredients">
             <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>             
             <ul>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> large potatoes</li>
-                <li itemprop="recipeIngredient" class="ingredient"> , oil</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> , oil</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">5</span></b> rashers streaky bacon</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tsp Cajun seasoning</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> chicken breasts</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">4</span></b> spring onions, sliced</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">100</span></b> g bag green salad</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> avacado, peeled and cut into chunks</li>
-                <li itemprop="recipeIngredient" class="ingredient"> salt and pepper</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> salt and pepper</li>
                 <li itemprop="recipeIngredient" class="ingredient-subheading">Dressing</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tbsp olive oil</li>
-                <li itemprop="recipeIngredient" class="ingredient"> juice of lime</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> juice of lime</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tsp sugar</li>
-                <li itemprop="recipeIngredient" class="ingredient"> salt and pepper</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> salt and pepper</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Preheat the oven to <b>200</b>&degC/Gas <b>7</b>.  </li>
-                <li itemprop="recipeInstructions">Peel the <div class="tooltip">potatoes<span class="tooltiptext">2 large</span></div> and cut into <b>1</b>" dice. Place on a baking tray and pour over oil. Season with salt and distribute the oil evenly using your hands. Place in the oven for <b>25-30</b> minutes or until the <div class="tooltip">potatoes<span class="tooltiptext">2 large</span></div> are brown.  </li>
-                <li itemprop="recipeInstructions">While the <div class="tooltip">potatoes<span class="tooltiptext">2 large</span></div> are cooking, combine the ingredients for the dressing in a bowl and set aside.  </li>
+                <li itemprop="recipeInstructions">Peel the <div class="tooltip">potatoes<span class="tooltiptext"><span class="scalable">2</span> large</span></div> and cut into <b>1</b>" dice. Place on a baking tray and pour over oil. Season with salt and distribute the oil evenly using your hands. Place in the oven for <b>25-30</b> minutes or until the <div class="tooltip">potatoes<span class="tooltiptext"><span class="scalable">2</span> large</span></div> are brown.  </li>
+                <li itemprop="recipeInstructions">While the <div class="tooltip">potatoes<span class="tooltiptext"><span class="scalable">2</span> large</span></div> are cooking, combine the ingredients for the dressing in a bowl and set aside.  </li>
                 <li itemprop="recipeInstructions">Heat a little oil in a frying pan and fry the bacon until it is crispy. Once cooled, cut into pieces and set aside.  </li>
-                <li itemprop="recipeInstructions">Pour the <div class="tooltip">Cajun seasoning<span class="tooltiptext">2 tsp</span></div> into a shallow dish. Place the <div class="tooltip">chicken breasts<span class="tooltiptext">2</span></div> in the dish and coat evenly with the seasoning.  </li>
-                <li itemprop="recipeInstructions">Pan roast the <div class="tooltip">chicken breasts<span class="tooltiptext">2</span></div>, then leave to cool a little before cutting into thin strips.  </li>
-                <li itemprop="recipeInstructions">Mix the <div class="tooltip">salad<span class="tooltiptext">100 g bag</span></div> in a large bowl with the bacon, <div class="tooltip">avacado<span class="tooltiptext">1</span></div> and the <div class="tooltip">spring onions<span class="tooltiptext">4</span></div>.  </li>
-                <li itemprop="recipeInstructions">When the <div class="tooltip">potatoes<span class="tooltiptext">2 large</span></div> are cooked, drain any excess oil and mix with the <div class="tooltip">salad<span class="tooltiptext">100 g bag</span></div>.  </li>
-                <li itemprop="recipeInstructions">Arrange the <div class="tooltip">salad<span class="tooltiptext">100 g bag</span></div> on individual plates. Arrange the chicken on top of the <div class="tooltip">salad<span class="tooltiptext">100 g bag</span></div>. Drizzle the dressing over the top of each plate.  </li>
+                <li itemprop="recipeInstructions">Pour the <div class="tooltip">Cajun seasoning<span class="tooltiptext"><span class="scalable">2</span> tsp</span></div> into a shallow dish. Place the <div class="tooltip">chicken breasts<span class="tooltiptext"><span class="scalable">2</span> </span></div> in the dish and coat evenly with the seasoning.  </li>
+                <li itemprop="recipeInstructions">Pan roast the <div class="tooltip">chicken breasts<span class="tooltiptext"><span class="scalable">2</span> </span></div>, then leave to cool a little before cutting into thin strips.  </li>
+                <li itemprop="recipeInstructions">Mix the <div class="tooltip">salad<span class="tooltiptext"><span class="scalable">100</span> g bag</span></div> in a large bowl with the bacon, <div class="tooltip">avacado<span class="tooltiptext"><span class="scalable">1</span> </span></div> and the <div class="tooltip">spring onions<span class="tooltiptext"><span class="scalable">4</span> </span></div>.  </li>
+                <li itemprop="recipeInstructions">When the <div class="tooltip">potatoes<span class="tooltiptext"><span class="scalable">2</span> large</span></div> are cooked, drain any excess oil and mix with the <div class="tooltip">salad<span class="tooltiptext"><span class="scalable">100</span> g bag</span></div>.  </li>
+                <li itemprop="recipeInstructions">Arrange the <div class="tooltip">salad<span class="tooltiptext"><span class="scalable">100</span> g bag</span></div> on individual plates. Arrange the chicken on top of the <div class="tooltip">salad<span class="tooltiptext"><span class="scalable">100</span> g bag</span></div>. Drizzle the dressing over the top of each plate.  </li>
                 </ol>
         </div>
         <div class="source">

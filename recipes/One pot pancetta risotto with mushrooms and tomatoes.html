@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width">
         <title>One pot pancetta risotto with mushrooms and tomatoes | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
+        <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
+    <body class="Pork" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -25,14 +26,20 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
                     <meta itemprop="recipeYield" content="3 servings"><span id="servings">3</span>&nbsp;servings
                 </div>
-            </h3>
+            </h3>         
             <h3>
-                </h3>
+                </h3>          
             </div>
         <div class="ingredients">
             <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>             
             <ul>
-                <li itemprop="recipeIngredient" class="ingredient"> oil to fry</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> oil to fry</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">250</span></b> g pack of pancetta lardons</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> onion, chopped</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> clove garlic, finely chopped</li>
@@ -43,20 +50,20 @@
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tsp mixed dried herbs</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">250</span></b> g cherry tomatoes, halved</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1/2</span></b> mug freshly grated Parmesan</li>
-                <li itemprop="recipeIngredient" class="ingredient"> pepper, to season</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> pepper, to season</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Preheat the oven to <b>180</b>&degC/Gas <b>6</b>  </li>
-                <li itemprop="recipeInstructions">Heat a small amount of oil in a frying pan and fry the <div class="tooltip">lardons<span class="tooltiptext">250 g pack</span></div>. Cook until they become browned and crisp.  </li>
-                <li itemprop="recipeInstructions">Add the <div class="tooltip">garlic<span class="tooltiptext">1 clove</span></div> and <div class="tooltip">onion<span class="tooltiptext">1</span></div> and cook until the onions become soft.  </li>
-                <li itemprop="recipeInstructions">Add the <div class="tooltip">rice<span class="tooltiptext">1 mug</span></div> to the pan and cook for <b>1</b> minute until the <div class="tooltip">rice<span class="tooltiptext">1 mug</span></div> has absorbed the liquid in the pan.  </li>
-                <li itemprop="recipeInstructions">Add the <div class="tooltip">water<span class="tooltiptext">2 mugs</span></div> and the <div class="tooltip">stock<span class="tooltiptext">1</span></div>. Bring to the boil, stirring frequently. Season with pepper, the bacon will provide enough saltiness.  </li>
-                <li itemprop="recipeInstructions">Take off the heat and add the <div class="tooltip">mushrooms<span class="tooltiptext">4-5</span></div>, <div class="tooltip">herbs<span class="tooltiptext">1 tsp</span></div> and <div class="tooltip">tomatoes<span class="tooltiptext">250 g</span></div>. Mix together.  </li>
-                <li itemprop="recipeInstructions">Transfer to a casserole dish, cover with foil and place in the oven for <b>25-30</b> minutes until the <div class="tooltip">rice<span class="tooltiptext">1 mug</span></div> is cooked.  </li>
-                <li itemprop="recipeInstructions">Take out of the oven and stir in the <div class="tooltip">Parmesan<span class="tooltiptext">1/2 mug</span></div> cheese.</li>
+                <li itemprop="recipeInstructions">Heat a small amount of oil in a frying pan and fry the <div class="tooltip">lardons<span class="tooltiptext"><span class="scalable">250</span> g pack </span></div>. Cook until they become browned and crisp.  </li>
+                <li itemprop="recipeInstructions">Add the <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">1</span> clove</span></div> and <div class="tooltip">onion<span class="tooltiptext"><span class="scalable">1</span> </span></div> and cook until the onions become soft.  </li>
+                <li itemprop="recipeInstructions">Add the <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">1</span> mug</span></div> to the pan and cook for <b>1</b> minute until the <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">1</span> mug</span></div> has absorbed the liquid in the pan.  </li>
+                <li itemprop="recipeInstructions">Add the <div class="tooltip">water<span class="tooltiptext"><span class="scalable">2</span> mugs</span></div> and the <div class="tooltip">stock<span class="tooltiptext"><span class="scalable">1</span> </span></div>. Bring to the boil, stirring frequently. Season with pepper, the bacon will provide enough saltiness.  </li>
+                <li itemprop="recipeInstructions">Take off the heat and add the <div class="tooltip">mushrooms<span class="tooltiptext"><span class="scalable">4-5</span> </span></div>, <div class="tooltip">herbs<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div> and <div class="tooltip">tomatoes<span class="tooltiptext"><span class="scalable">250</span> g</span></div>. Mix together.  </li>
+                <li itemprop="recipeInstructions">Transfer to a casserole dish, cover with foil and place in the oven for <b>25-30</b> minutes until the <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">1</span> mug</span></div> is cooked.  </li>
+                <li itemprop="recipeInstructions">Take out of the oven and stir in the <div class="tooltip">Parmesan<span class="tooltiptext"><span class="scalable">1/2</span> mug</span></div> cheese.</li>
                 </ol>
         </div>
         <div class="source">

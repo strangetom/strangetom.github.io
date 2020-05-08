@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width">
         <title>Spicy veggie enchiladas | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
+        <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
+    <body class="Veggie" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
         <link itemprop="suitableForDiet" href="https://schema.org/VegetarianDiet">
         <div class="information">
             <header>
@@ -27,35 +28,41 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
                     <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
                 </div>
-            </h3>
+            </h3>         
             <h3>
-                </h3>
+                </h3>          
             </div>
         <div class="ingredients">
             <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>             
             <ul>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> peppers (not green)</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b>x <b>400</b> g tins black beans</li>
-                <li itemprop="recipeIngredient" class="ingredient"> bunch of coriander</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span>x</b> <b>400</b> g tins black beans</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> bunch of coriander</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> red onion, onion</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">500</span></b> g passata</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">8</span></b> tortillas</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">250</span></b> g Wyke Farms Extra Mature Cheddar</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">3</span></b> cloves garlic</li>
-                <li itemprop="recipeIngredient" class="ingredient"> cumin</li>
-                <li itemprop="recipeIngredient" class="ingredient"> smoked paprika</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> cumin</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> smoked paprika</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Heat oven to <b>180</b>&degC.</li>
-                <li itemprop="recipeInstructions">Finely chop your <div class="tooltip">peppers<span class="tooltiptext">2</span></div>, <div class="tooltip">onion<span class="tooltiptext">1</span></div> and <b>1</b> clove of <div class="tooltip">garlic<span class="tooltiptext">3 cloves</span></div>. Add to a frying pan with a splash of oil. Fry until softened, and then ad a large handful of finely chopped coriander stalks, <b>2</b> teaspoons of cumin and <b>2</b> teaspoons of smoked paprika.</li>
-                <li itemprop="recipeInstructions">Mix everything together, and then pour in <b>2</b> tins of <div class="tooltip">black beans<span class="tooltiptext">2x 400 g tins</span></div>, with the water. bubble your bean mix down. Once the beans have softened, season with salt and pepper, add a handful of fresh coriander and mash everything together.</li>
-                <li itemprop="recipeInstructions">Tomato sauce time. Crush <b>2</b> cloves of <div class="tooltip">garlic<span class="tooltiptext">3 cloves</span></div> in to a pan with a splash of olive oil. After <b>15</b> seconds, pour in your <div class="tooltip">passata<span class="tooltiptext">500 g</span></div>. Bubble it down until it has thickened. Season with salt and pepper.</li>
-                <li itemprop="recipeInstructions">Take a baking dish. Spoon in half of your tomato sauce. Then take your <b>8</b> <div class="tooltip">tortillas<span class="tooltiptext">8</span></div>. Fill each one with an equal amount of the bean mixture. Wrap up your <div class="tooltip">tortillas<span class="tooltiptext">8</span></div>, and lay them side by side in the baking tray. They should be nice and snug when they are all in.</li>
-                <li itemprop="recipeInstructions">Pour the remaining tomato sauce over the top, making sure you don't cover the edges of the <div class="tooltip">tortillas<span class="tooltiptext">8</span></div> (so they get nice and crispy at the edges.</li>
-                <li itemprop="recipeInstructions">Cheese time. Grate <b>150</b> g <div class="tooltip">Wyke Farms Extra Mature Cheddar<span class="tooltiptext">250 g</span></div>. Scatter it over your enchiladas.</li>
+                <li itemprop="recipeInstructions">Finely chop your <div class="tooltip">peppers<span class="tooltiptext"><span class="scalable">2</span> </span></div>, <div class="tooltip">onion<span class="tooltiptext"><span class="scalable">1</span> </span></div> and <b>1</b> clove of <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">3</span> cloves</span></div>. Add to a frying pan with a splash of oil. Fry until softened, and then ad a large handful of finely chopped coriander stalks, <b>2</b> teaspoons of cumin and <b>2</b> teaspoons of smoked paprika.</li>
+                <li itemprop="recipeInstructions">Mix everything together, and then pour in <b>2</b> tins of <div class="tooltip">black beans<span class="tooltiptext"><span class="scalable">2</span>x 400 g tins</span></div>, with the water. bubble your bean mix down. Once the beans have softened, season with salt and pepper, add a handful of fresh coriander and mash everything together.</li>
+                <li itemprop="recipeInstructions">Tomato sauce time. Crush <b>2</b> cloves of <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">3</span> cloves</span></div> in to a pan with a splash of olive oil. After <b>15</b> seconds, pour in your <div class="tooltip">passata<span class="tooltiptext"><span class="scalable">500</span> g</span></div>. Bubble it down until it has thickened. Season with salt and pepper.</li>
+                <li itemprop="recipeInstructions">Take a baking dish. Spoon in half of your tomato sauce. Then take your <b>8</b> <div class="tooltip">tortillas<span class="tooltiptext"><span class="scalable">8</span> </span></div>. Fill each one with an equal amount of the bean mixture. Wrap up your <div class="tooltip">tortillas<span class="tooltiptext"><span class="scalable">8</span> </span></div>, and lay them side by side in the baking tray. They should be nice and snug when they are all in.</li>
+                <li itemprop="recipeInstructions">Pour the remaining tomato sauce over the top, making sure you don't cover the edges of the <div class="tooltip">tortillas<span class="tooltiptext"><span class="scalable">8</span> </span></div> (so they get nice and crispy at the edges.</li>
+                <li itemprop="recipeInstructions">Cheese time. Grate <b>150</b> g <div class="tooltip">Wyke Farms Extra Mature Cheddar<span class="tooltiptext"><span class="scalable">250</span> g</span></div>. Scatter it over your enchiladas.</li>
                 <li itemprop="recipeInstructions">Place baking dish in the oven for <b>45</b> minutes or until the cheddar is golden and bubbling.</li>
                 <li itemprop="recipeInstructions">Serve the enchiladas with a handful of fresh coriander and any leftover grated cheese scattered on top. Enjoy!</li>
                 </ol>

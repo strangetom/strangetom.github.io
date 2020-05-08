@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width">
         <title>Beef chow mein | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
+        <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Beef" itemscope itemtype="https://schema.org/Recipe">
+    <body class="Beef" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -26,13 +27,13 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
                     <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
                 </div>
-            </h3>
+            </h3>         
             <h3>
                 <div class="icon baseline">
                     <img src="../img/dairyfree.svg" alt="Dairy free icon">
                     <link itemprop="suitableForDiet" href="https://schema.org/LowLactoseDiet">Dairy Free
                 </div>   
-                </h3>
+                </h3>          
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -72,6 +73,12 @@
             </div>
         <div class="ingredients">
             <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>             
             <ul>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tbsp dark soy sauce</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tbsp dry sherry (or Shaoxing cooking wine or apple juice)</li>
@@ -83,15 +90,15 @@
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">300</span></b> g minced beef (<b>12</b>% fat)</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> cloves garlic, finely sliced</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2.5</span></b> cm piece root ginger, peeled and shredded</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b>x <b>600</b> g pack sweet & crunchy stir fry veg or other stir fry pack</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b>x <b>410</b> g pack fresh egg noodles</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span>x</b> <b>600</b> g pack sweet & crunchy stir fry veg or other stir fry pack</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span>x</b> <b>410</b> g pack fresh egg noodles</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Mix the <div class="tooltip">soy sauce<span class="tooltiptext">2 tbsp</span></div>, <div class="tooltip">sherry<span class="tooltiptext">2 tbsp</span></div>, <div class="tooltip">oyster sauce<span class="tooltiptext">3 tbsp</span></div>, <div class="tooltip">caster sugar<span class="tooltiptext">1 tsp</span></div>, <div class="tooltip">sesame oil<span class="tooltiptext">1 tsp</span></div> and <div class="tooltip">cornflour<span class="tooltiptext">2 tsp</span></div> together in a small bowl and set aside.</li>
-                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext">2 tbsp</span></div> in a large, deep, nonstick frying pan or wok over a high heat. Add the <div class="tooltip">minced beef<span class="tooltiptext">300 g</span></div>, <div class="tooltip">garlic<span class="tooltiptext">2 cloves</span></div> and <div class="tooltip">ginger<span class="tooltiptext">2.5 cm piece</span></div> and stir-fry for <b>4-5</b> minutes, breaking up the meat into small pieces as it cooks, until it starts to crisp up. Add the <div class="tooltip">veg<span class="tooltiptext">1x 600 g pack</span></div> and stir-fry for <b>2-3</b> minutes, then add the <div class="tooltip">noodles<span class="tooltiptext">1x 410 g pack</span></div> and stir-fry for another minute.</li>
+                <li itemprop="recipeInstructions">Mix the <div class="tooltip">soy sauce<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div>, <div class="tooltip">sherry<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div>, <div class="tooltip">oyster sauce<span class="tooltiptext"><span class="scalable">3</span> tbsp</span></div>, <div class="tooltip">caster sugar<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div>, <div class="tooltip">sesame oil<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div> and <div class="tooltip">cornflour<span class="tooltiptext"><span class="scalable">2</span> tsp</span></div> together in a small bowl and set aside.</li>
+                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div> in a large, deep, nonstick frying pan or wok over a high heat. Add the <div class="tooltip">minced beef<span class="tooltiptext"><span class="scalable">300</span> g</span></div>, <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">2</span> cloves</span></div> and <div class="tooltip">ginger<span class="tooltiptext"><span class="scalable">2.5</span> cm piece</span></div> and stir-fry for <b>4-5</b> minutes, breaking up the meat into small pieces as it cooks, until it starts to crisp up. Add the <div class="tooltip">veg<span class="tooltiptext"><span class="scalable">1</span>x 600 g pack</span></div> and stir-fry for <b>2-3</b> minutes, then add the <div class="tooltip">noodles<span class="tooltiptext"><span class="scalable">1</span>x 410 g pack</span></div> and stir-fry for another minute.</li>
                 <li itemprop="recipeInstructions">Add the sauce mixture and toss everything together over a high heat for <b>1</b> minute or until piping hot. Spoon the chow mein into warmed bowls and serve.</li>
                 </ol>
         </div>

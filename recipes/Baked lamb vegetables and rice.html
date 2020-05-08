@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width">
         <title>Baked lamb, vegetables and rice | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
+        <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Lamb" itemscope itemtype="https://schema.org/Recipe">
+    <body class="Lamb" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -25,12 +26,18 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
                     <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
                 </div>
-            </h3>
+            </h3>         
             <h3>
-                </h3>
+                </h3>          
             </div>
         <div class="ingredients">
             <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>             
             <ul>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> kg lamb off the bone</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> large red onions</li>
@@ -46,10 +53,10 @@
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Trim and cube the <div class="tooltip">meat<span class="tooltiptext">1 kg</span></div> into bite-sized pieces. Skin and slice the <div class="tooltip">onions<span class="tooltiptext">2 large</span></div> and <div class="tooltip">garlic<span class="tooltiptext">3-4 cloves</span></div>. Hull, scrape and slice or chunk the vegetables as appropriate. Scaled the <div class="tooltip">tomatoes<span class="tooltiptext">500 g</span></div> to loosen the skins then peel and chop.  </li>
-                <li itemprop="recipeInstructions">Warm half of the olive <div class="tooltip">oil<span class="tooltiptext">150 ml</span></div> in a frying pan. Put in the <div class="tooltip">onions<span class="tooltiptext">2 large</span></div> and <div class="tooltip">garlic<span class="tooltiptext">3-4 cloves</span></div> and fry them until they turn pale gold, then push them to one side and add the <div class="tooltip">meat<span class="tooltiptext">1 kg</span></div>. Fry gently for a moment and then season with <div class="tooltip">salt<span class="tooltiptext">1 tsp</span></div> and <div class="tooltip">chilli<span class="tooltiptext">1 tsp</span></div>.  </li>
-                <li itemprop="recipeInstructions">Transfer the <div class="tooltip">meat<span class="tooltiptext">1 kg</span></div> and onion mixture with its <div class="tooltip">oil<span class="tooltiptext">150 ml</span></div> to a wide shallow baking dish. Cover the <div class="tooltip">meat<span class="tooltiptext">1 kg</span></div> with a layer of vegetables. Season again. Sprinkly in a layer of <div class="tooltip">rice<span class="tooltiptext">125 g</span></div>. Finish with a layer of the sliced <div class="tooltip">tomatoes<span class="tooltiptext">500 g</span></div>.  </li>
-                <li itemprop="recipeInstructions">Pour in enough boiling water to submerge to a depth of one finger. Trickle with the rest of the <div class="tooltip">oil<span class="tooltiptext">150 ml</span></div>.  </li>
+                <li itemprop="recipeInstructions">Trim and cube the <div class="tooltip">meat<span class="tooltiptext"><span class="scalable">1</span> kg</span></div> into bite-sized pieces. Skin and slice the <div class="tooltip">onions<span class="tooltiptext"><span class="scalable">2</span> large</span></div> and <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">3-4</span> cloves</span></div>. Hull, scrape and slice or chunk the vegetables as appropriate. Scaled the <div class="tooltip">tomatoes<span class="tooltiptext"><span class="scalable">500</span> g</span></div> to loosen the skins then peel and chop.  </li>
+                <li itemprop="recipeInstructions">Warm half of the olive <div class="tooltip">oil<span class="tooltiptext"><span class="scalable">150</span> ml</span></div> in a frying pan. Put in the <div class="tooltip">onions<span class="tooltiptext"><span class="scalable">2</span> large</span></div> and <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">3-4</span> cloves</span></div> and fry them until they turn pale gold, then push them to one side and add the <div class="tooltip">meat<span class="tooltiptext"><span class="scalable">1</span> kg</span></div>. Fry gently for a moment and then season with <div class="tooltip">salt<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div> and <div class="tooltip">chilli<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div>.  </li>
+                <li itemprop="recipeInstructions">Transfer the <div class="tooltip">meat<span class="tooltiptext"><span class="scalable">1</span> kg</span></div> and onion mixture with its <div class="tooltip">oil<span class="tooltiptext"><span class="scalable">150</span> ml</span></div> to a wide shallow baking dish. Cover the <div class="tooltip">meat<span class="tooltiptext"><span class="scalable">1</span> kg</span></div> with a layer of vegetables. Season again. Sprinkly in a layer of <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">125</span> g</span></div>. Finish with a layer of the sliced <div class="tooltip">tomatoes<span class="tooltiptext"><span class="scalable">500</span> g</span></div>.  </li>
+                <li itemprop="recipeInstructions">Pour in enough boiling water to submerge to a depth of one finger. Trickle with the rest of the <div class="tooltip">oil<span class="tooltiptext"><span class="scalable">150</span> ml</span></div>.  </li>
                 <li itemprop="recipeInstructions">Cover the dish and put it to bake in a moderate oven, <b>180</b>&degC/Gas <b>4</b> for <b>1.5</b> hours.  </li>
                 <li itemprop="recipeInstructions">Take off the lid for the final <b>20</b> minutes. The kitchen will fill with the enticing scent and the cooking liquid will be concentrated into a rich sauce.  </li>
                 </ol>

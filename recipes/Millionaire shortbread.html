@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width">
         <title>Millionaire shortbread | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
+        <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Dessert" itemscope itemtype="https://schema.org/Recipe">
+    <body class="Dessert" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -25,12 +26,18 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
                     <meta itemprop="recipeYield" content="12 servings"><span id="servings">12</span>&nbsp;servings
                 </div>
-            </h3>
+            </h3>         
             <h3>
-                </h3>
+                </h3>          
             </div>
         <div class="ingredients">
             <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>             
             <ul>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">8</span></b> oz (<b>227</b> g) butter</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">3</span></b> tbsp caster sugar</li>
@@ -45,13 +52,13 @@
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Line (<b>7</b>"x<b>11</b>") tray  </li>
-                <li itemprop="recipeInstructions">Mix <b>3.5</b> oz (<b>100</b> g) <div class="tooltip">butter<span class="tooltiptext">8 oz</span></div> and <div class="tooltip">caster sugar<span class="tooltiptext">3 tbsp</span></div> until light and fluffy  </li>
-                <li itemprop="recipeInstructions">Add <div class="tooltip">flour<span class="tooltiptext">5.5 oz</span></div>, make soft dough: turn onto board, draw together, knead lightly  </li>
+                <li itemprop="recipeInstructions">Mix <b>3.5</b> oz (<b>100</b> g) <div class="tooltip">butter<span class="tooltiptext"><span class="scalable">8</span> oz</span></div> and <div class="tooltip">caster sugar<span class="tooltiptext"><span class="scalable">3</span> tbsp</span></div> until light and fluffy  </li>
+                <li itemprop="recipeInstructions">Add <div class="tooltip">flour<span class="tooltiptext"><span class="scalable">5.5</span> oz</span></div>, make soft dough: turn onto board, draw together, knead lightly  </li>
                 <li itemprop="recipeInstructions">Press into tin, prick with fork  </li>
                 <li itemprop="recipeInstructions">Bake at <b>180</b>&degC until light brown (~<b>15</b> minutes)  </li>
                 <li itemprop="recipeInstructions">Mark out piece sizes with knife and allow to cool  </li>
-                <li itemprop="recipeInstructions">Melt remaining <div class="tooltip">butter<span class="tooltiptext">8 oz</span></div> (<b>4.5</b> oz, <b>127</b> g) and <div class="tooltip">brown sugar<span class="tooltiptext">3 oz</span></div> over low heat  </li>
-                <li itemprop="recipeInstructions">Add <div class="tooltip">honey<span class="tooltiptext">2 tbsp</span></div> and <div class="tooltip">condensed milk<span class="tooltiptext">1 tin</span></div>  </li>
+                <li itemprop="recipeInstructions">Melt remaining <div class="tooltip">butter<span class="tooltiptext"><span class="scalable">8</span> oz</span></div> (<b>4.5</b> oz, <b>127</b> g) and <div class="tooltip">brown sugar<span class="tooltiptext"><span class="scalable">3</span> oz </span></div> over low heat  </li>
+                <li itemprop="recipeInstructions">Add <div class="tooltip">honey<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div> and <div class="tooltip">condensed milk<span class="tooltiptext"><span class="scalable">1</span> tin</span></div>  </li>
                 <li itemprop="recipeInstructions">Stir until mixture thickens (~<b>20-30</b> minutes)  </li>
                 <li itemprop="recipeInstructions">Cool slightly and poor over shortbread  </li>
                 <li itemprop="recipeInstructions">Place in fridge to set  </li>

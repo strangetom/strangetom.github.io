@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width">
         <title>Courgette, sausage & rigatoni bake | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
+        <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
+    <body class="Pork" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -26,9 +27,9 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
                     <meta itemprop="recipeYield" content="2 servings"><span id="servings">2</span>&nbsp;servings
                 </div>
-            </h3>
+            </h3>         
             <h3>
-                </h3>
+                </h3>          
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -68,22 +69,28 @@
             </div>
         <div class="ingredients">
             <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>             
             <ul>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tbsp olive oil</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">4</span></b> good quality pork sausages</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> courgettes, sliced on the diagonal then chopped into batons</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">3</span></b> cloves garlic, finely sliced</li>
-                <li itemprop="recipeIngredient" class="ingredient"> pinch chilli flakes</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> pinch chilli flakes</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">400</span></b> g can chopped tomatoes</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">200</span></b> g rigatoni</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">0.5</span></b>x <b>150</b> g ball mozzarella, patted dry and torn into chunks</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">0.5</span>x</b> <b>150</b> g ball mozzarella, patted dry and torn into chunks</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the slow cooker. Heat the <div class="tooltip">oil<span class="tooltiptext">1 tbsp</span></div> in a large frying pan. Squeeze the <div class="tooltip">sausage<span class="tooltiptext">4</span></div> meat out of the skins, breaking it into little chunks, and pop in the pan. Fry for <b>8</b> minutes until golden and cooked through, then scoop into the slow cooker pot. Add the <div class="tooltip">courgette<span class="tooltiptext">2</span></div>, <div class="tooltip">garlic<span class="tooltiptext">3 cloves</span></div>, <div class="tooltip">chilli flakes<span class="tooltiptext">pinch</span></div>, <div class="tooltip">tomatoes<span class="tooltiptext">400 g can</span></div>, <div class="tooltip">pasta<span class="tooltiptext">200 g</span></div> and <b>250</b> ml water to the slow cooker pot, season and cook on High for <b>30</b> minutes.</li>
-                <li itemprop="recipeInstructions">Spoon the <div class="tooltip">pasta<span class="tooltiptext">200 g</span></div> and sauce into two small flameproof dishes. Heat the grill to high. Dot the <div class="tooltip">cheese<span class="tooltiptext">0.5x 150 g ball</span></div> on top of the sauce dishes, then put under the grill until the <div class="tooltip">cheese<span class="tooltiptext">0.5x 150 g ball</span></div> is golden and bubbling (about <b>5-10</b> minutes), and serve.</li>
+                <li itemprop="recipeInstructions">Heat the slow cooker. Heat the <div class="tooltip">oil<span class="tooltiptext"><span class="scalable">1</span> tbsp</span></div> in a large frying pan. Squeeze the <div class="tooltip">sausage<span class="tooltiptext"><span class="scalable">4</span> </span></div> meat out of the skins, breaking it into little chunks, and pop in the pan. Fry for <b>8</b> minutes until golden and cooked through, then scoop into the slow cooker pot. Add the <div class="tooltip">courgette<span class="tooltiptext"><span class="scalable">2</span> </span></div>, <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">3</span> cloves</span></div>, <div class="tooltip">chilli flakes<span class="tooltiptext"> pinch</span></div>, <div class="tooltip">tomatoes<span class="tooltiptext"><span class="scalable">400</span> g can</span></div>, <div class="tooltip">pasta<span class="tooltiptext"><span class="scalable">200</span> g</span></div> and <b>250</b> ml water to the slow cooker pot, season and cook on High for <b>30</b> minutes.</li>
+                <li itemprop="recipeInstructions">Spoon the <div class="tooltip">pasta<span class="tooltiptext"><span class="scalable">200</span> g</span></div> and sauce into two small flameproof dishes. Heat the grill to high. Dot the <div class="tooltip">cheese<span class="tooltiptext"><span class="scalable">0.5</span>x 150 g ball</span></div> on top of the sauce dishes, then put under the grill until the <div class="tooltip">cheese<span class="tooltiptext"><span class="scalable">0.5</span>x 150 g ball</span></div> is golden and bubbling (about <b>5-10</b> minutes), and serve.</li>
                 </ol>
         </div>
         <div class="source">

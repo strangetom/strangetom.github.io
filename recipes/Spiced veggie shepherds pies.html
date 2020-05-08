@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width">
         <title>Spiced veggie shepherd's pies  | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
+        <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
+    <body class="Veggie" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
         <link itemprop="suitableForDiet" href="https://schema.org/VegetarianDiet">
         <div class="information">
             <header>
@@ -27,9 +28,9 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
                     <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
                 </div>
-            </h3>
+            </h3>         
             <h3>
-                </h3>
+                </h3>          
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -69,6 +70,12 @@
             </div>
         <div class="ingredients">
             <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>             
             <ul>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tbsp olive oil</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> onion, finely chopped</li>
@@ -79,9 +86,9 @@
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tsp ground cumin</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tsp ground cinnamon</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">0.5</span></b> tsp crushed chillies</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b>x <b>400</b> g tin chopped tomatoes</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span>x</b> <b>400</b> g tin chopped tomatoes</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">400</span></b> ml hot vegetable stock</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b>x <b>400</b> g tin Puy or green lentils, drained and rinsed</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span>x</b> <b>400</b> g tin Puy or green lentils, drained and rinsed</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tbsp sundried tomato paste (optional)</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tsp garam masala</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tbsp chopped coriander</li>
@@ -90,7 +97,7 @@
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tsp cumin seeds</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">750</span></b> g carrots, peeled and cut into <b>2</b> cm slices</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">500</span></b> ml hot vegetable stock</li>
-                <li itemprop="recipeIngredient" class="ingredient">knob of butter</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b>knob</b> of butter</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tbsp chopped coriander and mint leaves</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">200</span></b> g feta cheese, crumbled</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tbsp chopped mint leaves</li>
@@ -99,10 +106,10 @@
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the oil in a deep frying pan, cook the <div class="tooltip">onion<span class="tooltiptext">1</span></div>, <div class="tooltip">carrot<span class="tooltiptext">1</span></div> and <div class="tooltip">celery<span class="tooltiptext">1 stick</span></div> gently for <b>10</b> minutes, until almost softened. Stir in the <div class="tooltip">garlic<span class="tooltiptext">3 cloves</span></div>, <div class="tooltip">coriander<span class="tooltiptext">1 tsp</span></div>, <div class="tooltip">cumin<span class="tooltiptext">1 tsp</span></div>, <div class="tooltip">cinnamon<span class="tooltiptext">1 tsp</span></div> and <div class="tooltip">chilli<span class="tooltiptext">0.5 tsp</span></div>, and cook for a further <b>2</b> - <b>3</b> minutes.</li>
-                <li itemprop="recipeInstructions">Stir in the <div class="tooltip">tomatoes<span class="tooltiptext">1x 400 g tin</span></div> and <b>400</b> ml <div class="tooltip">stock<span class="tooltiptext">400 ml</span></div>. Bring to the boil, reduce the heat and simmer gently for <b>15</b> minutes. Stir in the <div class="tooltip">lentils<span class="tooltiptext">1x 400 g tin</span></div>, <div class="tooltip">tomato paste<span class="tooltiptext">2 tbsp</span></div>, if using, and <div class="tooltip">garam masala<span class="tooltiptext">1 tsp</span></div>; simmer for a further <b>5</b> minutes. Season to taste. Stir in the herbs.</li>
-                <li itemprop="recipeInstructions">Meanwhile, put the <div class="tooltip">cumin seeds<span class="tooltiptext">1 tsp</span></div> in a large saucepan, toast over a medium heat for <b>2</b> minutes, then add the <div class="tooltip">carrots<span class="tooltiptext">750 g</span></div>, cover with the <div class="tooltip">stock<span class="tooltiptext">400 ml</span></div> and bring to the boil. Cover with a lid and simmer for <b>15</b> minutes until tender. Drain well through a sieve (to keep the <div class="tooltip">cumin seeds<span class="tooltiptext">1 tsp</span></div>), then return to the pan and mash with the <div class="tooltip">butter<span class="tooltiptext">knob</span></div>. Stir in the herbs, then briefly fold in the feta. Preheat the oven to <b>180</b>&degC/Gas <b>6</b>.</li>
-                <li itemprop="recipeInstructions">Transfer the lentil mixture to <b>4</b>x <b>300</b> ml individual pie/baking dishes (or a <b>1.5</b> - <b>2</b> litre capacity baking dish). Spoon the <div class="tooltip">carrot<span class="tooltiptext">1</span></div> mash on top of the pies (or pie).</li>
+                <li itemprop="recipeInstructions">Heat the oil in a deep frying pan, cook the <div class="tooltip">onion<span class="tooltiptext"><span class="scalable">1</span> </span></div>, <div class="tooltip">carrot<span class="tooltiptext"><span class="scalable">1</span> </span></div> and <div class="tooltip">celery<span class="tooltiptext"><span class="scalable">1</span> stick</span></div> gently for <b>10</b> minutes, until almost softened. Stir in the <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">3</span> cloves</span></div>, <div class="tooltip">coriander<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div>, <div class="tooltip">cumin<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div>, <div class="tooltip">cinnamon<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div> and <div class="tooltip">chilli<span class="tooltiptext"><span class="scalable">0.5</span> tsp</span></div>, and cook for a further <b>2</b> - <b>3</b> minutes.</li>
+                <li itemprop="recipeInstructions">Stir in the <div class="tooltip">tomatoes<span class="tooltiptext"><span class="scalable">1</span>x 400 g tin</span></div> and <b>400</b> ml <div class="tooltip">stock<span class="tooltiptext"><span class="scalable">400</span> ml</span></div>. Bring to the boil, reduce the heat and simmer gently for <b>15</b> minutes. Stir in the <div class="tooltip">lentils<span class="tooltiptext"><span class="scalable">1</span>x 400 g tin</span></div>, <div class="tooltip">tomato paste<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div>, if using, and <div class="tooltip">garam masala<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div>; simmer for a further <b>5</b> minutes. Season to taste. Stir in the herbs.</li>
+                <li itemprop="recipeInstructions">Meanwhile, put the <div class="tooltip">cumin seeds<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div> in a large saucepan, toast over a medium heat for <b>2</b> minutes, then add the <div class="tooltip">carrots<span class="tooltiptext"><span class="scalable">750</span> g</span></div>, cover with the <div class="tooltip">stock<span class="tooltiptext"><span class="scalable">400</span> ml</span></div> and bring to the boil. Cover with a lid and simmer for <b>15</b> minutes until tender. Drain well through a sieve (to keep the <div class="tooltip">cumin seeds<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div>), then return to the pan and mash with the <div class="tooltip">butter<span class="tooltiptext">knob </span></div>. Stir in the herbs, then briefly fold in the feta. Preheat the oven to <b>180</b>&degC/Gas <b>6</b>.</li>
+                <li itemprop="recipeInstructions">Transfer the lentil mixture to <b>4</b>x <b>300</b> ml individual pie/baking dishes (or a <b>1.5</b> - <b>2</b> litre capacity baking dish). Spoon the <div class="tooltip">carrot<span class="tooltiptext"><span class="scalable">1</span> </span></div> mash on top of the pies (or pie).</li>
                 <li itemprop="recipeInstructions">Transfer to a baking sheet and bake for <b>25-30</b> minutes until bubbling and golden.</li>
                 </ol>
         </div>

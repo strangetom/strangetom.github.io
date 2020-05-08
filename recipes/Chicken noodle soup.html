@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width">
         <title>Chicken noodle soup | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
+        <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
+    <body class="Chicken" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -26,9 +27,9 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
                     <meta itemprop="recipeYield" content="2 servings"><span id="servings">2</span>&nbsp;servings
                 </div>
-            </h3>
+            </h3>         
             <h3>
-                </h3>
+                </h3>          
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -68,6 +69,12 @@
             </div>
         <div class="ingredients">
             <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>             
             <ul>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">900</span></b> ml chicken or vegetable stock</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> boneless skinless chicken breast, about <b>175</b>g</li>
@@ -78,14 +85,14 @@
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2-3</span></b> mushrooms, thinly sliced</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> spring onions, shredded</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tsp soy sauce, plus extra for serving</li>
-                <li itemprop="recipeIngredient" class="ingredient"> mint or basil leaves and a little shredded chilli (optional), to serve</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> mint or basil leaves and a little shredded chilli (optional), to serve</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Pour the <div class="tooltip">stock<span class="tooltiptext">900 ml</span></div> into a pan and add the <div class="tooltip">chicken<span class="tooltiptext">1</span></div>, <div class="tooltip">ginger<span class="tooltiptext">1 tsp</span></div> and <div class="tooltip">garlic<span class="tooltiptext">1 clove</span></div>. Bring to the boil, then reduce the heat, partly cover and simmer for <b>20</b> mins, until the <div class="tooltip">chicken<span class="tooltiptext">1</span></div> is tender. Remove the <div class="tooltip">chicken<span class="tooltiptext">1</span></div> to a board and shred into bite-size pieces using a couple of forks.   </li>
-                <li itemprop="recipeInstructions">Return the <div class="tooltip">chicken<span class="tooltiptext">1</span></div> to the <div class="tooltip">stock<span class="tooltiptext">900 ml</span></div> with the <div class="tooltip">noodles<span class="tooltiptext">50 g</span></div>, <div class="tooltip">corn<span class="tooltiptext">2 tbsp</span></div>, <div class="tooltip">mushrooms<span class="tooltiptext">2-3</span></div>, half the <div class="tooltip">spring onions<span class="tooltiptext">2</span></div> and the <div class="tooltip">soy sauce<span class="tooltiptext">2 tsp</span></div>. Simmer for <b>3-4</b> mins until the <div class="tooltip">noodles<span class="tooltiptext">50 g</span></div> are tender. Ladle into two bowls and scatter over the remaining <div class="tooltip">spring onions<span class="tooltiptext">2</span></div>, herbs and chilli shreds if using. Serve with extra <div class="tooltip">soy sauce<span class="tooltiptext">2 tsp</span></div> for sprinkling.  </li>
+                <li itemprop="recipeInstructions">Pour the <div class="tooltip">stock<span class="tooltiptext"><span class="scalable">900</span> ml</span></div> into a pan and add the <div class="tooltip">chicken<span class="tooltiptext"><span class="scalable">1</span> </span></div>, <div class="tooltip">ginger<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div> and <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">1</span> clove</span></div>. Bring to the boil, then reduce the heat, partly cover and simmer for <b>20</b> mins, until the <div class="tooltip">chicken<span class="tooltiptext"><span class="scalable">1</span> </span></div> is tender. Remove the <div class="tooltip">chicken<span class="tooltiptext"><span class="scalable">1</span> </span></div> to a board and shred into bite-size pieces using a couple of forks.   </li>
+                <li itemprop="recipeInstructions">Return the <div class="tooltip">chicken<span class="tooltiptext"><span class="scalable">1</span> </span></div> to the <div class="tooltip">stock<span class="tooltiptext"><span class="scalable">900</span> ml</span></div> with the <div class="tooltip">noodles<span class="tooltiptext"><span class="scalable">50</span> g</span></div>, <div class="tooltip">corn<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div>, <div class="tooltip">mushrooms<span class="tooltiptext"><span class="scalable">2-3</span> </span></div>, half the <div class="tooltip">spring onions<span class="tooltiptext"><span class="scalable">2</span> </span></div> and the <div class="tooltip">soy sauce<span class="tooltiptext"><span class="scalable">2</span> tsp</span></div>. Simmer for <b>3-4</b> mins until the <div class="tooltip">noodles<span class="tooltiptext"><span class="scalable">50</span> g</span></div> are tender. Ladle into two bowls and scatter over the remaining <div class="tooltip">spring onions<span class="tooltiptext"><span class="scalable">2</span> </span></div>, herbs and chilli shreds if using. Serve with extra <div class="tooltip">soy sauce<span class="tooltiptext"><span class="scalable">2</span> tsp</span></div> for sprinkling.  </li>
                 </ol>
         </div>
         <div class="source">

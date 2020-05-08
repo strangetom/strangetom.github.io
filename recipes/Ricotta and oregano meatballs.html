@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width">
         <title>Ricotta and oregano meatballs | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
+        <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Beef" itemscope itemtype="https://schema.org/Recipe">
+    <body class="Beef" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -26,18 +27,24 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
                     <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
                 </div>
-            </h3>
+            </h3>         
             <h3>
-                </h3>
+                </h3>          
             </div>
         <div class="ingredients">
             <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>             
             <ul>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">60</span></b> ml olive oil</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> large onions, chopped (<b>330</b> g)</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">4</span></b> cloves garlic, crushed</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">20</span></b> g oregano leaves, chopped, plus extra to serve</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b>x <b>400</b> g of chopped tomatoes</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span>x</b> <b>400</b> g of chopped tomatoes</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">500</span></b> ml chicken stock</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">500</span></b> g beef mince</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">100</span></b> g freshly made breadcrumbs (from <b>3</b> -<b>4</b> slices of crustless white bread)</li>
@@ -45,16 +52,16 @@
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">60</span></b> g Parmesan, grated</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> large egg, beaten</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">20</span></b> g parsley, chopped</li>
-                <li itemprop="recipeIngredient" class="ingredient"> salt and black pepper</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> salt and black pepper</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">First make the tomato sauce. Put <b>2</b> tablespoons of oil into a sauté pan and place on a medium high heat. Add half the onion, half the <div class="tooltip">garlic<span class="tooltiptext">4 cloves</span></div> and half the <div class="tooltip">oregano<span class="tooltiptext">20 g</span></div> and cook for <b>8</b> - <b>10</b> minutes, stirring until the <div class="tooltip">onions<span class="tooltiptext">2 large</span></div> have softened without taking on colour. Add the <div class="tooltip">tomatoes<span class="tooltiptext">1x 400 g</span></div>, half the <div class="tooltip">stock<span class="tooltiptext">500 ml</span></div>, ½ teaspoon of salt and some black pepper. Reduce the temperature to medium and cook for <b>10</b>–<b>15</b> minutes, stirring from time to time, to thicken the sauce.</li>
-                <li itemprop="recipeInstructions">Meanwhile, make the meatballs. Place the remaining onion, <div class="tooltip">garlic<span class="tooltiptext">4 cloves</span></div> and <div class="tooltip">oregano<span class="tooltiptext">20 g</span></div> in a large bowl along with the <div class="tooltip">beef<span class="tooltiptext">500 g</span></div>, <div class="tooltip">breadcrumbs<span class="tooltiptext">100 g</span></div>, <div class="tooltip">ricotta<span class="tooltiptext">250 g</span></div>, <div class="tooltip">Parmesan<span class="tooltiptext">60 g</span></div>, <div class="tooltip">egg<span class="tooltiptext">1 large</span></div>, <div class="tooltip">parsley<span class="tooltiptext">20 g</span></div>, ¾ teaspoon of salt and some black pepper. Using your hands, mix everything together and shape into <b>12</b> - <b>14</b> balls.</li>
+                <li itemprop="recipeInstructions">First make the tomato sauce. Put <b>2</b> tablespoons of oil into a sauté pan and place on a medium high heat. Add half the onion, half the <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">4</span> cloves</span></div> and half the <div class="tooltip">oregano<span class="tooltiptext"><span class="scalable">20</span> g</span></div> and cook for <b>8</b> - <b>10</b> minutes, stirring until the <div class="tooltip">onions<span class="tooltiptext"><span class="scalable">2</span> large</span></div> have softened without taking on colour. Add the <div class="tooltip">tomatoes<span class="tooltiptext"><span class="scalable">1</span>x 400 g </span></div>, half the <div class="tooltip">stock<span class="tooltiptext"><span class="scalable">500</span> ml</span></div>, ½ teaspoon of salt and some black pepper. Reduce the temperature to medium and cook for <b>10</b>–<b>15</b> minutes, stirring from time to time, to thicken the sauce.</li>
+                <li itemprop="recipeInstructions">Meanwhile, make the meatballs. Place the remaining onion, <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">4</span> cloves</span></div> and <div class="tooltip">oregano<span class="tooltiptext"><span class="scalable">20</span> g</span></div> in a large bowl along with the <div class="tooltip">beef<span class="tooltiptext"><span class="scalable">500</span> g</span></div>, <div class="tooltip">breadcrumbs<span class="tooltiptext"><span class="scalable">100</span> g</span></div>, <div class="tooltip">ricotta<span class="tooltiptext"><span class="scalable">250</span> g</span></div>, <div class="tooltip">Parmesan<span class="tooltiptext"><span class="scalable">60</span> g</span></div>, <div class="tooltip">egg<span class="tooltiptext"><span class="scalable">1</span> large</span></div>, <div class="tooltip">parsley<span class="tooltiptext"><span class="scalable">20</span> g</span></div>, ¾ teaspoon of salt and some black pepper. Using your hands, mix everything together and shape into <b>12</b> - <b>14</b> balls.</li>
                 <li itemprop="recipeInstructions">Put <b>1</b> tablespoon of oil into a large frying pan and, when hot, add the meatballs (you will need to do this in two batches, adding another tablespoon of oil to the pan for the next batch). Sear for <b>8</b> minutes, turning throughout, then transfer to a separate plate.</li>
-                <li itemprop="recipeInstructions">Gently lower the meatballs into the sauce and pour over enough of the remaining <div class="tooltip">stock<span class="tooltiptext">500 ml</span></div> so that the meatballs are almost covered. Add a little water, if you need, to make up the liquid. Place on a medium low heat and simmer very gently, covered, for <b>30</b> minutes. To thicken the sauce – it should have the consistency of a thick pasta sauce – remove the lid towards the end of cooking and increase the temperature a little. Remove from the heat and set aside for at least <b>10</b> minutes. Add extra <div class="tooltip">oregano<span class="tooltiptext">20 g</span></div> and serve.</li>
+                <li itemprop="recipeInstructions">Gently lower the meatballs into the sauce and pour over enough of the remaining <div class="tooltip">stock<span class="tooltiptext"><span class="scalable">500</span> ml</span></div> so that the meatballs are almost covered. Add a little water, if you need, to make up the liquid. Place on a medium low heat and simmer very gently, covered, for <b>30</b> minutes. To thicken the sauce – it should have the consistency of a thick pasta sauce – remove the lid towards the end of cooking and increase the temperature a little. Remove from the heat and set aside for at least <b>10</b> minutes. Add extra <div class="tooltip">oregano<span class="tooltiptext"><span class="scalable">20</span> g</span></div> and serve.</li>
                 </ol>
         </div>
         <div class="source">

@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width">
         <title>Leek and salmon pie | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
+        <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
+    <body class="Seafood" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -26,12 +27,18 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
                     <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
                 </div>
-            </h3>
+            </h3>         
             <h3>
-                </h3>
+                </h3>          
             </div>
         <div class="ingredients">
             <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>             
             <ul>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">5</span></b> medium potatoes, cut into <b>2</b> cm dice</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">75</span></b> g butter</li>
@@ -49,10 +56,10 @@
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Preheat the oven to <b>180</b>&degC/Gas <b>6</b>. Grease a large casserole dish.  </li>
-                <li itemprop="recipeInstructions">Put the <div class="tooltip">potatoes<span class="tooltiptext">5 medium</span></div> on to boil and simmer for <b>10</b> minutes. Drain and return to the pan. Add <b>25</b> g of the <div class="tooltip">butter<span class="tooltiptext">75 g</span></div> and shake the pan around to distribute.  </li>
-                <li itemprop="recipeInstructions">Add another <b>25</b> g of the <div class="tooltip">butter<span class="tooltiptext">75 g</span></div> to a large frying pan and fry the leaks until they begin to soften and brown. Put the <div class="tooltip">leeks<span class="tooltiptext">2 medium</span></div> in the casserole dish along with the defrosted <div class="tooltip">peas<span class="tooltiptext">1 mug</span></div>.  </li>
-                <li itemprop="recipeInstructions">Add the last <b>25</b> g <div class="tooltip">butter<span class="tooltiptext">75 g</span></div> to the frying pan along with the <div class="tooltip">flour<span class="tooltiptext">2 tbsp</span></div>, and cook on a medium heat until the <div class="tooltip">flour<span class="tooltiptext">2 tbsp</span></div> is absorbed. Add the <div class="tooltip">milk<span class="tooltiptext">1.5 mugs</span></div> and <div class="tooltip">cream<span class="tooltiptext">300 ml</span></div> to the pan and gently bring to the boil, stirring all the time. Add the <div class="tooltip">fish<span class="tooltiptext">4</span></div>, <div class="tooltip">peas<span class="tooltiptext">1 mug</span></div> and <div class="tooltip">dill<span class="tooltiptext">2 tbsp</span></div> to the sauce and cook, on a medium heat, for <b>2</b> minutes. The <div class="tooltip">fish<span class="tooltiptext">4</span></div> does not need to be cooked through as it will go in the oven.   </li>
-                <li itemprop="recipeInstructions">Pour the sauce and the <div class="tooltip">fish<span class="tooltiptext">4</span></div> into the casserole dish and mix with the <div class="tooltip">leeks<span class="tooltiptext">2 medium</span></div>. Pile the <div class="tooltip">potatoes<span class="tooltiptext">5 medium</span></div> on top and sprinkle the <div class="tooltip">Parmesan<span class="tooltiptext">1/2 mug</span></div> over.  </li>
+                <li itemprop="recipeInstructions">Put the <div class="tooltip">potatoes<span class="tooltiptext"><span class="scalable">5</span> medium</span></div> on to boil and simmer for <b>10</b> minutes. Drain and return to the pan. Add <b>25</b> g of the <div class="tooltip">butter<span class="tooltiptext"><span class="scalable">75</span> g</span></div> and shake the pan around to distribute.  </li>
+                <li itemprop="recipeInstructions">Add another <b>25</b> g of the <div class="tooltip">butter<span class="tooltiptext"><span class="scalable">75</span> g</span></div> to a large frying pan and fry the leaks until they begin to soften and brown. Put the <div class="tooltip">leeks<span class="tooltiptext"><span class="scalable">2</span> medium</span></div> in the casserole dish along with the defrosted <div class="tooltip">peas<span class="tooltiptext"><span class="scalable">1</span> mug</span></div>.  </li>
+                <li itemprop="recipeInstructions">Add the last <b>25</b> g <div class="tooltip">butter<span class="tooltiptext"><span class="scalable">75</span> g</span></div> to the frying pan along with the <div class="tooltip">flour<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div>, and cook on a medium heat until the <div class="tooltip">flour<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div> is absorbed. Add the <div class="tooltip">milk<span class="tooltiptext"><span class="scalable">1.5</span> mugs</span></div> and <div class="tooltip">cream<span class="tooltiptext"><span class="scalable">300</span> ml</span></div> to the pan and gently bring to the boil, stirring all the time. Add the <div class="tooltip">fish<span class="tooltiptext"><span class="scalable">4</span> </span></div>, <div class="tooltip">peas<span class="tooltiptext"><span class="scalable">1</span> mug</span></div> and <div class="tooltip">dill<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div> to the sauce and cook, on a medium heat, for <b>2</b> minutes. The <div class="tooltip">fish<span class="tooltiptext"><span class="scalable">4</span> </span></div> does not need to be cooked through as it will go in the oven.   </li>
+                <li itemprop="recipeInstructions">Pour the sauce and the <div class="tooltip">fish<span class="tooltiptext"><span class="scalable">4</span> </span></div> into the casserole dish and mix with the <div class="tooltip">leeks<span class="tooltiptext"><span class="scalable">2</span> medium</span></div>. Pile the <div class="tooltip">potatoes<span class="tooltiptext"><span class="scalable">5</span> medium</span></div> on top and sprinkle the <div class="tooltip">Parmesan<span class="tooltiptext"><span class="scalable">1/2</span> mug</span></div> over.  </li>
                 <li itemprop="recipeInstructions">Place in the oven for <b>20</b> minutes. The top should be lightly browned.</li>
                 </ol>
         </div>

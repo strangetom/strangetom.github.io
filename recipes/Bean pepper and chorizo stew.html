@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width">
         <title>Bean, pepper and chorizo stew | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
+        <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
+    <body class="Pork" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -26,12 +27,18 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
                     <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
                 </div>
-            </h3>
+            </h3>         
             <h3>
-                </h3>
+                </h3>          
             </div>
         <div class="ingredients">
             <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>             
             <ul>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> large ring chorizo</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> red peppers</li>
@@ -40,23 +47,23 @@
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> brown onions</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> cloves garlic</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> red chilli</li>
-                <li itemprop="recipeIngredient" class="ingredient"> fresh coriander</li>
-                <li itemprop="recipeIngredient" class="ingredient"> paprika</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> fresh coriander</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> paprika</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">400</span></b> g tin chickpeas - don't drain!</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b>x <b>400</b> g tin butter beans - don't drain!</li>
-                <li itemprop="recipeIngredient" class="ingredient"> olive oil</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span>x</b> <b>400</b> g tin butter beans - don't drain!</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> olive oil</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Chopping. First remove the outer skin from the <div class="tooltip">chorizo<span class="tooltiptext">1 large ring</span></div>. Then chop it in half and on the angle into slices. Slice the red, orange and <div class="tooltip">yellow peppers<span class="tooltiptext">2</span></div> into strips. Finely chop the <div class="tooltip">brown onions<span class="tooltiptext">2</span></div>, <div class="tooltip">garlic<span class="tooltiptext">2 cloves</span></div>, <div class="tooltip">chilli<span class="tooltiptext">1</span></div> and the leaves from a bunch of coriander.</li>
-                <li itemprop="recipeInstructions">Throw the <div class="tooltip">garlic<span class="tooltiptext">2 cloves</span></div>, <div class="tooltip">chilli<span class="tooltiptext">1</span></div> and coriander stalks into a hot, deep-set saucepan, with a healthy glug of olive oil.</li>
-                <li itemprop="recipeInstructions">Once they have soften, add your <div class="tooltip">chorizo<span class="tooltiptext">1 large ring</span></div>.</li>
-                <li itemprop="recipeInstructions">Turn down the heat, so as to allow the fat to render out of the <div class="tooltip">chorizo<span class="tooltiptext">1 large ring</span></div>. As the <div class="tooltip">chorizo<span class="tooltiptext">1 large ring</span></div> begins to brown, add the onions. Add some of your <div class="tooltip">chickpeas<span class="tooltiptext">400 g tin</span></div> or <div class="tooltip">butter beans<span class="tooltiptext">2x 400 g tin</span></div> tin water to make it more 'saucy'.</li>
+                <li itemprop="recipeInstructions">Chopping. First remove the outer skin from the <div class="tooltip">chorizo<span class="tooltiptext"><span class="scalable">1</span> large ring</span></div>. Then chop it in half and on the angle into slices. Slice the red, orange and <div class="tooltip">yellow peppers<span class="tooltiptext"><span class="scalable">2</span> </span></div> into strips. Finely chop the <div class="tooltip">brown onions<span class="tooltiptext"><span class="scalable">2</span> </span></div>, <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">2</span> cloves</span></div>, <div class="tooltip">chilli<span class="tooltiptext"><span class="scalable">1</span> </span></div> and the leaves from a bunch of coriander.</li>
+                <li itemprop="recipeInstructions">Throw the <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">2</span> cloves</span></div>, <div class="tooltip">chilli<span class="tooltiptext"><span class="scalable">1</span> </span></div> and coriander stalks into a hot, deep-set saucepan, with a healthy glug of olive oil.</li>
+                <li itemprop="recipeInstructions">Once they have soften, add your <div class="tooltip">chorizo<span class="tooltiptext"><span class="scalable">1</span> large ring</span></div>.</li>
+                <li itemprop="recipeInstructions">Turn down the heat, so as to allow the fat to render out of the <div class="tooltip">chorizo<span class="tooltiptext"><span class="scalable">1</span> large ring</span></div>. As the <div class="tooltip">chorizo<span class="tooltiptext"><span class="scalable">1</span> large ring</span></div> begins to brown, add the onions. Add some of your <div class="tooltip">chickpeas<span class="tooltiptext"><span class="scalable">400</span> g tin</span></div> or <div class="tooltip">butter beans<span class="tooltiptext"><span class="scalable">2</span>x 400 g tin</span></div> tin water to make it more 'saucy'.</li>
                 <li itemprop="recipeInstructions">Once the onions have sweated off, add the peppers.</li>
                 <li itemprop="recipeInstructions">As the peppers are reducing, occasionally add splashes of the bean tin water.</li>
-                <li itemprop="recipeInstructions">When the peppers are soft, add <b>1</b> heaped tsp of paprika and the tin of <div class="tooltip">chickpeas<span class="tooltiptext">400 g tin</span></div>. Allow the <div class="tooltip">chickpeas<span class="tooltiptext">400 g tin</span></div> to soften and then throw in the <div class="tooltip">butter beans<span class="tooltiptext">2x 400 g tin</span></div>.</li>
+                <li itemprop="recipeInstructions">When the peppers are soft, add <b>1</b> heaped tsp of paprika and the tin of <div class="tooltip">chickpeas<span class="tooltiptext"><span class="scalable">400</span> g tin</span></div>. Allow the <div class="tooltip">chickpeas<span class="tooltiptext"><span class="scalable">400</span> g tin</span></div> to soften and then throw in the <div class="tooltip">butter beans<span class="tooltiptext"><span class="scalable">2</span>x 400 g tin</span></div>.</li>
                 <li itemprop="recipeInstructions">Cook for another <b>10</b> minutes or so.</li>
                 <li itemprop="recipeInstructions">Add three-quarters of your chopped coriander leaves, stir the whole stew together, then take off the heat.</li>
                 <li itemprop="recipeInstructions">Serve with the remaining coriander on top.</li>

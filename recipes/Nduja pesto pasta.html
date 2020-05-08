@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width">
         <title>Nduja pesto pasta | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
+        <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
+    <body class="Veggie" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
         <link itemprop="suitableForDiet" href="https://schema.org/VegetarianDiet">
         <div class="information">
             <header>
@@ -27,36 +28,42 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
                     <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
                 </div>
-            </h3>
+            </h3>         
             <h3>
-                </h3>
+                </h3>          
             </div>
         <div class="ingredients">
             <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>             
             <ul>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">4</span></b> tbsp of Sacla' 'Nduja pesto</li>
-                <li itemprop="recipeIngredient" class="ingredient"> Bunch of basil</li>
-                <li itemprop="recipeIngredient" class="ingredient"> Cheddar</li>
-                <li itemprop="recipeIngredient" class="ingredient"> Parmesan</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> Bunch of basil</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> Cheddar</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> Parmesan</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">500</span></b> g fusilli</li>
-                <li itemprop="recipeIngredient" class="ingredient"> Oregano</li>
-                <li itemprop="recipeIngredient" class="ingredient"> Red wine vinegar</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> Oregano</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> Red wine vinegar</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> lemon</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> clove garlic</li>
-                <li itemprop="recipeIngredient" class="ingredient">pack of sweet peppers</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b>pack</b> of sweet peppers</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Slice up your <div class="tooltip">peppers<span class="tooltiptext">pack</span></div>.</li>
+                <li itemprop="recipeInstructions">Slice up your <div class="tooltip">peppers<span class="tooltiptext">pack </span></div>.</li>
                 <li itemprop="recipeInstructions">Add to a wide frying pan with a splash of oil. </li>
-                <li itemprop="recipeInstructions">Fry your <div class="tooltip">peppers<span class="tooltiptext">pack</span></div> until they begin to soften. Then add a clove of chopped <div class="tooltip">garlic<span class="tooltiptext">1 clove</span></div>, a heaped teaspoon of oregano and <b>2</b> tablespoons of red wine vinegar.</li>
-                <li itemprop="recipeInstructions">Once the <div class="tooltip">garlic<span class="tooltiptext">1 clove</span></div> is soft, add <b>4</b> tablespoons of Sacla’ ‘Nduja Pesto. Mix it in.</li>
-                <li itemprop="recipeInstructions">Get your <div class="tooltip">pasta<span class="tooltiptext">500 g</span></div> cooking in a large pan of salted boiling water.</li>
-                <li itemprop="recipeInstructions">Add <b>8</b> tablespoons of the <div class="tooltip">pasta<span class="tooltiptext">500 g</span></div> water to your pesto sauce. Mix it in. Grate in <b>150</b> g parmesan and <b>150</b> g cheddar in to the sauce. Stir in the cheese until it has melted.</li>
-                <li itemprop="recipeInstructions">Once the <div class="tooltip">pasta<span class="tooltiptext">500 g</span></div> is cooked, drain it, and then add it to your sauce. Fold it through. Squeeze in the juice of a <div class="tooltip">lemon<span class="tooltiptext">1</span></div>, add a large handful of chopped basil, and a good grinding of pepper.</li>
-                <li itemprop="recipeInstructions">Stir everything together, and remove the <div class="tooltip">pasta<span class="tooltiptext">500 g</span></div> from the heat.</li>
+                <li itemprop="recipeInstructions">Fry your <div class="tooltip">peppers<span class="tooltiptext">pack </span></div> until they begin to soften. Then add a clove of chopped <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">1</span> clove</span></div>, a heaped teaspoon of oregano and <b>2</b> tablespoons of red wine vinegar.</li>
+                <li itemprop="recipeInstructions">Once the <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">1</span> clove</span></div> is soft, add <b>4</b> tablespoons of Sacla’ ‘Nduja Pesto. Mix it in.</li>
+                <li itemprop="recipeInstructions">Get your <div class="tooltip">pasta<span class="tooltiptext"><span class="scalable">500</span> g</span></div> cooking in a large pan of salted boiling water.</li>
+                <li itemprop="recipeInstructions">Add <b>8</b> tablespoons of the <div class="tooltip">pasta<span class="tooltiptext"><span class="scalable">500</span> g</span></div> water to your pesto sauce. Mix it in. Grate in <b>150</b> g parmesan and <b>150</b> g cheddar in to the sauce. Stir in the cheese until it has melted.</li>
+                <li itemprop="recipeInstructions">Once the <div class="tooltip">pasta<span class="tooltiptext"><span class="scalable">500</span> g</span></div> is cooked, drain it, and then add it to your sauce. Fold it through. Squeeze in the juice of a <div class="tooltip">lemon<span class="tooltiptext"><span class="scalable">1</span> </span></div>, add a large handful of chopped basil, and a good grinding of pepper.</li>
+                <li itemprop="recipeInstructions">Stir everything together, and remove the <div class="tooltip">pasta<span class="tooltiptext"><span class="scalable">500</span> g</span></div> from the heat.</li>
                 <li itemprop="recipeInstructions">Serve it up and demolish.</li>
                 </ol>
         </div>

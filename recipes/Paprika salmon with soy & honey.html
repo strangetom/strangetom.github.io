@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width">
         <title>Paprika salmon with soy &  honey | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
+        <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
+    <body class="Seafood" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -26,12 +27,18 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
                     <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
                 </div>
-            </h3>
+            </h3>         
             <h3>
-                </h3>
+                </h3>          
             </div>
         <div class="ingredients">
             <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>             
             <ul>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> mug basmati rice</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> mugs boiling water</li>
@@ -47,10 +54,10 @@
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Put the <div class="tooltip">rice<span class="tooltiptext">1 mug</span></div> and <div class="tooltip">pilau <div class="tooltip">rice<span class="tooltiptext">1 mug</span></div> seasoning<span class="tooltiptext">1 tsp</span></div> on to cook in a large saucepan. After about <b>10</b> minutes, add the <div class="tooltip">pak choi<span class="tooltiptext">2</span></div> and return the lid to the pan. Leave for <b>2</b> minutes. Mix together, leaving the lid of the pan, and set aside until needed.  </li>
-                <li itemprop="recipeInstructions">Put the <div class="tooltip">paprika<span class="tooltiptext">1 tbsp</span></div> on a plate and press the <div class="tooltip">salmon steaks<span class="tooltiptext">4</span></div> into it.  </li>
-                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext">1 tbsp</span></div> in a frying pan and fry the salmon, taking care not to burn the <div class="tooltip">paprika<span class="tooltiptext">1 tbsp</span></div>. Once the salmon is cooked through, add the <div class="tooltip">soy<span class="tooltiptext">2 tbsp</span></div> and <div class="tooltip">honey<span class="tooltiptext">2 tbsp</span></div> to the pan and allow to simmer for <b>1</b> minute.  </li>
-                <li itemprop="recipeInstructions">Seave the flaked fish on top of the <div class="tooltip">rice<span class="tooltiptext">1 mug</span></div> and drizzle over the sauce.</li>
+                <li itemprop="recipeInstructions">Put the <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">1</span> mug</span></div> and <div class="tooltip">pilau <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">1</span> mug</span></div> seasoning<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div> on to cook in a large saucepan. After about <b>10</b> minutes, add the <div class="tooltip">pak choi<span class="tooltiptext"><span class="scalable">2</span> </span></div> and return the lid to the pan. Leave for <b>2</b> minutes. Mix together, leaving the lid of the pan, and set aside until needed.  </li>
+                <li itemprop="recipeInstructions">Put the <div class="tooltip">paprika<span class="tooltiptext"><span class="scalable">1</span> tbsp</span></div> on a plate and press the <div class="tooltip">salmon steaks<span class="tooltiptext"><span class="scalable">4</span> </span></div> into it.  </li>
+                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span class="scalable">1</span> tbsp</span></div> in a frying pan and fry the salmon, taking care not to burn the <div class="tooltip">paprika<span class="tooltiptext"><span class="scalable">1</span> tbsp</span></div>. Once the salmon is cooked through, add the <div class="tooltip">soy<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div> and <div class="tooltip">honey<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div> to the pan and allow to simmer for <b>1</b> minute.  </li>
+                <li itemprop="recipeInstructions">Seave the flaked fish on top of the <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">1</span> mug</span></div> and drizzle over the sauce.</li>
                 </ol>
         </div>
         <div class="source">

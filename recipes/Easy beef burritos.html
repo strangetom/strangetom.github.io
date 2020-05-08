@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width">
         <title>Easy beef burritos | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
+        <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Beef" itemscope itemtype="https://schema.org/Recipe">
+    <body class="Beef" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -26,9 +27,9 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
                     <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
                 </div>
-            </h3>
+            </h3>         
             <h3>
-                </h3>
+                </h3>          
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -68,30 +69,36 @@
             </div>
         <div class="ingredients">
             <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>             
             <ul>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tbsp sunflower oil</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> onion, finely chopped</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">4</span></b> cloves garlic, very finely chopped</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tbsp ground cumin</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tbsp ground coriander</li>
-                <li itemprop="recipeIngredient" class="ingredient">small pinch cayenne pepper, more if you want it spicier</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b>small pinch</b> cayenne pepper, more if you want it spicier</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tsp dried oregano</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">500</span></b> g beef mince</li>
-                <li itemprop="recipeIngredient" class="ingredient">pinch golden caster sugar</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b>pinch</b> golden caster sugar</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tbsp wine vinegar or cider vinegar</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">400</span></b> g can chopped tomatoes</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">400</span></b> g can black beans or kidney beans, with the can water</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">8</span></b> flour or corn tortillas</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">500</span></b> g cooked rice</li>
-                <li itemprop="recipeIngredient" class="ingredient"> a selection of sliced avocado or guacamole, chopped tomatoes, soured cream, shredded lettuce, sliced red onion, grated cheddar, sliced red chilli and lime halves, to serve</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> a selection of sliced avocado or guacamole, chopped tomatoes, soured cream, shredded lettuce, sliced red onion, grated cheddar, sliced red chilli and lime halves, to serve</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext">2 tbsp</span></div> in a large pan - a casserole is ideal. Fry the onions for <b>8</b> mins, then add the <div class="tooltip">garlic<span class="tooltiptext">4 cloves</span></div>, spices and <div class="tooltip">oregano<span class="tooltiptext">1 tsp</span></div> and cook for <b>1</b> min. Crumble over the <div class="tooltip">mince<span class="tooltiptext">500 g</span></div> and sizzle for <b>5</b> mins, stirring, until browned. Stir in the <div class="tooltip">sugar<span class="tooltiptext">pinch</span></div> and leave for a minute, then splash in the <div class="tooltip">vinegar<span class="tooltiptext">1 tbsp</span></div> and pour in the <div class="tooltip">tomatoes<span class="tooltiptext">400 g can</span></div>.</li>
-                <li itemprop="recipeInstructions">Simmer for <b>5</b> mins then tip in the <div class="tooltip">beans<span class="tooltiptext">400 g can</span></div> and the water from the can. Season, stir and simmer everything for <b>20</b> mins until the beef is in a thick gravy. The sauce can be prepared up to <b>2</b> days ahead, chilled and reheated with a splash of water or frozen for <b>6</b> months.</li>
-                <li itemprop="recipeInstructions">To make the burritos, heat the <div class="tooltip">tortillas<span class="tooltiptext">8</span></div> following pack instructions. Pile some <div class="tooltip">rice<span class="tooltiptext">500 g</span></div> and beef sauce along each tortilla and scatter over your choice of topping. Fold over the ends and roll up to seal. Secure by wrapping with foil if you want. Eat immediately.</li>
+                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div> in a large pan - a casserole is ideal. Fry the onions for <b>8</b> mins, then add the <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">4</span> cloves</span></div>, spices and <div class="tooltip">oregano<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div> and cook for <b>1</b> min. Crumble over the <div class="tooltip">mince<span class="tooltiptext"><span class="scalable">500</span> g</span></div> and sizzle for <b>5</b> mins, stirring, until browned. Stir in the <div class="tooltip">sugar<span class="tooltiptext">pinch </span></div> and leave for a minute, then splash in the <div class="tooltip">vinegar<span class="tooltiptext"><span class="scalable">1</span> tbsp</span></div> and pour in the <div class="tooltip">tomatoes<span class="tooltiptext"><span class="scalable">400</span> g can</span></div>.</li>
+                <li itemprop="recipeInstructions">Simmer for <b>5</b> mins then tip in the <div class="tooltip">beans<span class="tooltiptext"><span class="scalable">400</span> g can</span></div> and the water from the can. Season, stir and simmer everything for <b>20</b> mins until the beef is in a thick gravy. The sauce can be prepared up to <b>2</b> days ahead, chilled and reheated with a splash of water or frozen for <b>6</b> months.</li>
+                <li itemprop="recipeInstructions">To make the burritos, heat the <div class="tooltip">tortillas<span class="tooltiptext"><span class="scalable">8</span> </span></div> following pack instructions. Pile some <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">500</span> g</span></div> and beef sauce along each tortilla and scatter over your choice of topping. Fold over the ends and roll up to seal. Secure by wrapping with foil if you want. Eat immediately.</li>
                 </ol>
         </div>
         <div class="source">

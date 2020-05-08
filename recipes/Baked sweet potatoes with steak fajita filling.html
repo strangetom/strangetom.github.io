@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width">
         <title>Baked sweet potatoes with steak fajita filling | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
+        <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Beef" itemscope itemtype="https://schema.org/Recipe">
+    <body class="Beef" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -25,13 +26,13 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
                     <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
                 </div>
-            </h3>
+            </h3>         
             <h3>
                 <div class="icon baseline">
                     <img src="../img/glutenfree.svg" alt="Gluten free icon">
                     <link itemprop="suitableForDiet" href="https://schema.org/GlutenFreeDiet">Gluten Free
                 </div>   
-                </h3>
+                </h3>          
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -71,28 +72,34 @@
             </div>
         <div class="ingredients">
             <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>             
             <ul>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">4</span></b> sweet potatoes</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tbsp olive oil, plus extra to rub on the potatoes</li>
-                <li itemprop="recipeIngredient" class="ingredient"> juice <b>1</b> lime</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> juice <b>1</b> lime</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tsp chilli powder</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tsp garlic powder</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tsp ground cumin</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">500</span></b> g lean beef steak, cut into medium-sized strips</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> onions, thinly sliced</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">4</span></b> peppers, a mixture of orange, yellow and red, thinly sliced</li>
-                <li itemprop="recipeIngredient" class="ingredient">small handful coriander, chopped</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b>small handful</b> coriander, chopped</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> avocados, halved, stoned and peeled</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat oven to <b>200</b>&degC/Gas <b>7</b>. Wash the <div class="tooltip">sweet potatoes<span class="tooltiptext">4</span></div>, prick them with a fork all over, then rub with a little <div class="tooltip">olive oil<span class="tooltiptext">2 tbsp</span></div> and season generously. Wrap each potato in tin foil and bake on a baking tray for <b>45-55</b> mins until soft.  </li>
-                <li itemprop="recipeInstructions">To make the marinade, put the lime juice, <div class="tooltip">chilli powder<span class="tooltiptext">2 tsp</span></div>, <div class="tooltip">garlic powder<span class="tooltiptext">1 tsp</span></div>, <div class="tooltip">cumin<span class="tooltiptext">1 tsp</span></div>, <b>1</b> tbsp <div class="tooltip">olive oil<span class="tooltiptext">2 tbsp</span></div> and a generous pinch of seasoning in a bowl. Mix everything together, then pour half the marinade into a second bowl. Add the <div class="tooltip">steak<span class="tooltiptext">500 g</span></div> to one of the bowls and mix well. Add the <div class="tooltip">onions<span class="tooltiptext">2</span></div> and <div class="tooltip">peppers<span class="tooltiptext">4</span></div> to the other bowl and mix to ensure everything is evenly coated. Cover both bowls in cling film and chill in the fridge until needed.  </li>
-                <li itemprop="recipeInstructions">When the <div class="tooltip">sweet potatoes<span class="tooltiptext">4</span></div> have about <b>20</b> mins left to cook, heat the remaining <b>1</b> tbsp <div class="tooltip">olive oil<span class="tooltiptext">2 tbsp</span></div> in a large frying pan over a medium heat. Add the onion and pepper mixture, cook for <b>12-15</b> mins, stirring often, until they go soft and start to glisten and brown, then tip onto a plate. Wipe the pan clean with some kitchen paper, add the <div class="tooltip">steak<span class="tooltiptext">500 g</span></div> and cook for <b>3-5</b> mins, stirring often. Add the <div class="tooltip">onions<span class="tooltiptext">2</span></div> and <div class="tooltip">peppers<span class="tooltiptext">4</span></div> back to the pan for a few mins before serving, then remove from the heat and stir through most of the <div class="tooltip">coriander<span class="tooltiptext">small handful</span></div>.  </li>
-                <li itemprop="recipeInstructions">Mash the avocado in a bowl with a fork. Add a good pinch of salt and the rest of the <div class="tooltip">coriander<span class="tooltiptext">small handful</span></div>.  </li>
-                <li itemprop="recipeInstructions">To serve, halve each sweet potato lengthways, mash the insides with a fork, then top with a spoonful of the <div class="tooltip">steak<span class="tooltiptext">500 g</span></div> fajita mixture and a dollop of mashed avocado. Enjoy!  </li>
+                <li itemprop="recipeInstructions">Heat oven to <b>200</b>&degC/Gas <b>7</b>. Wash the <div class="tooltip">sweet potatoes<span class="tooltiptext"><span class="scalable">4</span> </span></div>, prick them with a fork all over, then rub with a little <div class="tooltip">olive oil<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div> and season generously. Wrap each potato in tin foil and bake on a baking tray for <b>45-55</b> mins until soft.  </li>
+                <li itemprop="recipeInstructions">To make the marinade, put the lime juice, <div class="tooltip">chilli powder<span class="tooltiptext"><span class="scalable">2</span> tsp</span></div>, <div class="tooltip">garlic powder<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div>, <div class="tooltip">cumin<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div>, <b>1</b> tbsp <div class="tooltip">olive oil<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div> and a generous pinch of seasoning in a bowl. Mix everything together, then pour half the marinade into a second bowl. Add the <div class="tooltip">steak<span class="tooltiptext"><span class="scalable">500</span> g</span></div> to one of the bowls and mix well. Add the <div class="tooltip">onions<span class="tooltiptext"><span class="scalable">2</span> </span></div> and <div class="tooltip">peppers<span class="tooltiptext"><span class="scalable">4</span> </span></div> to the other bowl and mix to ensure everything is evenly coated. Cover both bowls in cling film and chill in the fridge until needed.  </li>
+                <li itemprop="recipeInstructions">When the <div class="tooltip">sweet potatoes<span class="tooltiptext"><span class="scalable">4</span> </span></div> have about <b>20</b> mins left to cook, heat the remaining <b>1</b> tbsp <div class="tooltip">olive oil<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div> in a large frying pan over a medium heat. Add the onion and pepper mixture, cook for <b>12-15</b> mins, stirring often, until they go soft and start to glisten and brown, then tip onto a plate. Wipe the pan clean with some kitchen paper, add the <div class="tooltip">steak<span class="tooltiptext"><span class="scalable">500</span> g</span></div> and cook for <b>3-5</b> mins, stirring often. Add the <div class="tooltip">onions<span class="tooltiptext"><span class="scalable">2</span> </span></div> and <div class="tooltip">peppers<span class="tooltiptext"><span class="scalable">4</span> </span></div> back to the pan for a few mins before serving, then remove from the heat and stir through most of the <div class="tooltip">coriander<span class="tooltiptext">small handful </span></div>.  </li>
+                <li itemprop="recipeInstructions">Mash the avocado in a bowl with a fork. Add a good pinch of salt and the rest of the <div class="tooltip">coriander<span class="tooltiptext">small handful </span></div>.  </li>
+                <li itemprop="recipeInstructions">To serve, halve each sweet potato lengthways, mash the insides with a fork, then top with a spoonful of the <div class="tooltip">steak<span class="tooltiptext"><span class="scalable">500</span> g</span></div> fajita mixture and a dollop of mashed avocado. Enjoy!  </li>
                 </ol>
         </div>
         <div class="source">

@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width">
         <title>Caribbean fish pie | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
+        <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
+    <body class="Seafood" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -25,12 +26,18 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
                     <meta itemprop="recipeYield" content="4-5 servings"><span id="servings">4-5</span>&nbsp;servings
                 </div>
-            </h3>
+            </h3>         
             <h3>
-                </h3>
+                </h3>          
             </div>
         <div class="ingredients">
             <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>             
             <ul>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">600</span></b> ml milk</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> sprig thyme</li>
@@ -38,26 +45,26 @@
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">55</span></b> g butter</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tbsp plain flour</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">50</span></b> g block creamed coconut, roughly chopped</li>
-                <li itemprop="recipeIngredient" class="ingredient"> salt and pepper</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> salt and pepper</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1.5</span></b> limes, juiced</li>
-                <li itemprop="recipeIngredient" class="ingredient"> leaves from a large bunch coriander, chopped</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> leaves from a large bunch coriander, chopped</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">250</span></b> g young leaf spinach, washed</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">900</span></b> g sweet potatoes, peeled</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">40</span></b> g butter</li>
-                <li itemprop="recipeIngredient" class="ingredient"> good grating of nutmeg</li>
-                <li itemprop="recipeIngredient" class="ingredient"> pinch of ground allspice</li>
-                <li itemprop="recipeIngredient" class="ingredient"> salt and pepper</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> good grating of nutmeg</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> pinch of ground allspice</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> salt and pepper</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Preheat the oven to <b>180</b>/Gas <b>4</b>.  </li>
-                <li itemprop="recipeInstructions">To make the mash, cut the <div class="tooltip">potatoes<span class="tooltiptext">900 g</span></div> into medium equal sized chunks. Put in cold water, bring to the boil and simmer until tender, around <b>8-10</b> minutes. Mash with the <div class="tooltip">butter<span class="tooltiptext">55 g</span></div> and season with nutmeg, allspice, salt and pepper, to taste.  </li>
-                <li itemprop="recipeInstructions">Warm the <div class="tooltip">milk<span class="tooltiptext">600 ml</span></div> and <div class="tooltip">thyme<span class="tooltiptext">1 sprig</span></div> in a saucepan large enough to hold the <div class="tooltip">fish<span class="tooltiptext">600 g</span></div> until it reaches boiling point. Remove from the heat and leave to one side to infuse for about <b>30</b> minutes.  </li>
-                <li itemprop="recipeInstructions">Put the <div class="tooltip">fish<span class="tooltiptext">600 g</span></div> in the infused <div class="tooltip">milk<span class="tooltiptext">600 ml</span></div>. Bring to the boil, turn off the heat and leave to stand for <b>5</b> minutes. Remove the <div class="tooltip">fish<span class="tooltiptext">600 g</span></div> (reserve the <div class="tooltip">milk<span class="tooltiptext">600 ml</span></div>) and divide into large flakes. Discard the <div class="tooltip">thyme<span class="tooltiptext">1 sprig</span></div>.  </li>
-                <li itemprop="recipeInstructions">Make the sauce by melting half the <div class="tooltip">butter<span class="tooltiptext">55 g</span></div> in a large saucepan and adding the flour. Cook, stirring, for a couple of minutes over a low heat. Gradually add the warm <div class="tooltip">milk<span class="tooltiptext">600 ml</span></div> from cooking the <div class="tooltip">fish<span class="tooltiptext">600 g</span></div>, whisking all the time to avoid lumps. When it thickens, stir in the <div class="tooltip">creamed coconut<span class="tooltiptext">50 g</span></div> until it melts into the sauce. Season with salt, pepper and lime juice to taste - some may like a stronger taste of citrus in the sauce than others. Add the coriander, if using. Stir in the <div class="tooltip">spinach<span class="tooltiptext">250 g</span></div> so it just wilts in the heat of the sauce. Stir in the <div class="tooltip">fish<span class="tooltiptext">600 g</span></div> very gently so it stays in the largest possible flakes. Taste and adjust the seasoning if necessary.  </li>
-                <li itemprop="recipeInstructions">Put the <div class="tooltip">fish<span class="tooltiptext">600 g</span></div> mixture in an ovenproof dish about as big as an A<b>4</b> piece of paper. Top with the Caribbean Mash and dot with the remaining <div class="tooltip">butter<span class="tooltiptext">55 g</span></div>. Put on a baking sheet (this will save you cleaning the oven in case of spillages) and cook in the preheated oven for <b>20-30</b> minutes until bubbling hot.</li>
+                <li itemprop="recipeInstructions">To make the mash, cut the <div class="tooltip">potatoes<span class="tooltiptext"><span class="scalable">900</span> g</span></div> into medium equal sized chunks. Put in cold water, bring to the boil and simmer until tender, around <b>8-10</b> minutes. Mash with the <div class="tooltip">butter<span class="tooltiptext"><span class="scalable">55</span> g</span></div> and season with nutmeg, allspice, salt and pepper, to taste.  </li>
+                <li itemprop="recipeInstructions">Warm the <div class="tooltip">milk<span class="tooltiptext"><span class="scalable">600</span> ml</span></div> and <div class="tooltip">thyme<span class="tooltiptext"><span class="scalable">1</span> sprig</span></div> in a saucepan large enough to hold the <div class="tooltip">fish<span class="tooltiptext"><span class="scalable">600</span> g</span></div> until it reaches boiling point. Remove from the heat and leave to one side to infuse for about <b>30</b> minutes.  </li>
+                <li itemprop="recipeInstructions">Put the <div class="tooltip">fish<span class="tooltiptext"><span class="scalable">600</span> g</span></div> in the infused <div class="tooltip">milk<span class="tooltiptext"><span class="scalable">600</span> ml</span></div>. Bring to the boil, turn off the heat and leave to stand for <b>5</b> minutes. Remove the <div class="tooltip">fish<span class="tooltiptext"><span class="scalable">600</span> g</span></div> (reserve the <div class="tooltip">milk<span class="tooltiptext"><span class="scalable">600</span> ml</span></div>) and divide into large flakes. Discard the <div class="tooltip">thyme<span class="tooltiptext"><span class="scalable">1</span> sprig</span></div>.  </li>
+                <li itemprop="recipeInstructions">Make the sauce by melting half the <div class="tooltip">butter<span class="tooltiptext"><span class="scalable">55</span> g</span></div> in a large saucepan and adding the flour. Cook, stirring, for a couple of minutes over a low heat. Gradually add the warm <div class="tooltip">milk<span class="tooltiptext"><span class="scalable">600</span> ml</span></div> from cooking the <div class="tooltip">fish<span class="tooltiptext"><span class="scalable">600</span> g</span></div>, whisking all the time to avoid lumps. When it thickens, stir in the <div class="tooltip">creamed coconut<span class="tooltiptext"><span class="scalable">50</span> g</span></div> until it melts into the sauce. Season with salt, pepper and lime juice to taste - some may like a stronger taste of citrus in the sauce than others. Add the coriander, if using. Stir in the <div class="tooltip">spinach<span class="tooltiptext"><span class="scalable">250</span> g</span></div> so it just wilts in the heat of the sauce. Stir in the <div class="tooltip">fish<span class="tooltiptext"><span class="scalable">600</span> g</span></div> very gently so it stays in the largest possible flakes. Taste and adjust the seasoning if necessary.  </li>
+                <li itemprop="recipeInstructions">Put the <div class="tooltip">fish<span class="tooltiptext"><span class="scalable">600</span> g</span></div> mixture in an ovenproof dish about as big as an A<b>4</b> piece of paper. Top with the Caribbean Mash and dot with the remaining <div class="tooltip">butter<span class="tooltiptext"><span class="scalable">55</span> g</span></div>. Put on a baking sheet (this will save you cleaning the oven in case of spillages) and cook in the preheated oven for <b>20-30</b> minutes until bubbling hot.</li>
                 </ol>
         </div>
         <div class="source">

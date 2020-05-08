@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width">
         <title>Jacket potatoes with egg and tonnato sauce | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
+        <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
+    <body class="Veggie" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
         <link itemprop="suitableForDiet" href="https://schema.org/VegetarianDiet">
         <div class="information">
             <header>
@@ -27,17 +28,23 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
                     <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
                 </div>
-            </h3>
+            </h3>         
             <h3>
-                </h3>
+                </h3>          
             </div>
         <div class="ingredients">
             <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>             
             <ul>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">4</span></b> large baking potatoes (<b>1.4</b> kg)</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tbsp olive oil, plus extra to serve</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">4</span></b> large eggs, soft-boiled (into boiling water for <b>6</b> minutes then refreshed under lots of cold water) and peeled</li>
-                <li itemprop="recipeIngredient" class="ingredient"> , flaked sea salt</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b></b> , flaked sea salt</li>
                 <li itemprop="recipeIngredient" class="ingredient-subheading">Tonnato Sauce</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> large egg yolks</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">3</span></b> tbsp lemon juice</li>
@@ -53,9 +60,9 @@
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Preheat the oven to <b>220</b>&degC fan.</li>
-                <li itemprop="recipeInstructions">Place the <div class="tooltip">potatoes<span class="tooltiptext">4 large</span></div> on a baking tray, drizzle with the <div class="tooltip">oil<span class="tooltiptext">1 tbsp</span></div>, sprinkle with <b>0.5</b> teaspoon of flaked salt, and bake for <b>50-55</b> minutes, or until the skin is crisp and the middle is soft. Remove from the oven and set aside.</li>
-                <li itemprop="recipeInstructions">While the potato is in the oven, make the sauce. Place the <div class="tooltip">egg yolks<span class="tooltiptext">2 large</span></div> in the bowl of a food processor with the <div class="tooltip">lemon juice<span class="tooltiptext">3 tbsp</span></div>, <b>20</b>g of <div class="tooltip">parsley<span class="tooltiptext">25 g</span></div>, the <div class="tooltip">tuna<span class="tooltiptext">120 g</span></div>, half the <div class="tooltip">capers<span class="tooltiptext">20 g</span></div>, all the <div class="tooltip">anchovies<span class="tooltiptext">2</span></div> and the <div class="tooltip">garlic<span class="tooltiptext">1 clove</span></div>. Blitz for a minute to form a rough paste, scraping down the sides of the bowl with a spatula to help the machine. With the machine still running, slowly add the <div class="tooltip">olive oil<span class="tooltiptext">180 ml</span></div> in a steady stream, until the consistency is that of a thin mayonnaise. Set aside.</li>
-                <li itemprop="recipeInstructions">When ready to serve, slice the hot <div class="tooltip">potatoes<span class="tooltiptext">4 large</span></div> almost (but not completely) in half: leave the base of the skin intact. Squeeze the outside of the <div class="tooltip">potatoes<span class="tooltiptext">4 large</span></div> a little - this helps to loosen their flesh - and sprinkle the insides with a pinch of flaked salt. Spoon the sauce over the <div class="tooltip">potatoes<span class="tooltiptext">4 large</span></div> and top with an egg, torn in half just before serving so that the yolk runs into the sauce. Add the remaining <div class="tooltip">parsley<span class="tooltiptext">25 g</span></div> and <div class="tooltip">capers<span class="tooltiptext">20 g</span></div>, drizzle over some <div class="tooltip">oil<span class="tooltiptext">1 tbsp</span></div>, and serve.</li>
+                <li itemprop="recipeInstructions">Place the <div class="tooltip">potatoes<span class="tooltiptext"><span class="scalable">4</span> large</span></div> on a baking tray, drizzle with the <div class="tooltip">oil<span class="tooltiptext"><span class="scalable">1</span> tbsp</span></div>, sprinkle with <b>0.5</b> teaspoon of flaked salt, and bake for <b>50-55</b> minutes, or until the skin is crisp and the middle is soft. Remove from the oven and set aside.</li>
+                <li itemprop="recipeInstructions">While the potato is in the oven, make the sauce. Place the <div class="tooltip">egg yolks<span class="tooltiptext"><span class="scalable">2</span> large</span></div> in the bowl of a food processor with the <div class="tooltip">lemon juice<span class="tooltiptext"><span class="scalable">3</span> tbsp</span></div>, <b>20</b>g of <div class="tooltip">parsley<span class="tooltiptext"><span class="scalable">25</span> g</span></div>, the <div class="tooltip">tuna<span class="tooltiptext"><span class="scalable">120</span> g</span></div>, half the <div class="tooltip">capers<span class="tooltiptext"><span class="scalable">20</span> g</span></div>, all the <div class="tooltip">anchovies<span class="tooltiptext"><span class="scalable">2</span> </span></div> and the <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">1</span> clove</span></div>. Blitz for a minute to form a rough paste, scraping down the sides of the bowl with a spatula to help the machine. With the machine still running, slowly add the <div class="tooltip">olive oil<span class="tooltiptext"><span class="scalable">180</span> ml</span></div> in a steady stream, until the consistency is that of a thin mayonnaise. Set aside.</li>
+                <li itemprop="recipeInstructions">When ready to serve, slice the hot <div class="tooltip">potatoes<span class="tooltiptext"><span class="scalable">4</span> large</span></div> almost (but not completely) in half: leave the base of the skin intact. Squeeze the outside of the <div class="tooltip">potatoes<span class="tooltiptext"><span class="scalable">4</span> large</span></div> a little - this helps to loosen their flesh - and sprinkle the insides with a pinch of flaked salt. Spoon the sauce over the <div class="tooltip">potatoes<span class="tooltiptext"><span class="scalable">4</span> large</span></div> and top with an egg, torn in half just before serving so that the yolk runs into the sauce. Add the remaining <div class="tooltip">parsley<span class="tooltiptext"><span class="scalable">25</span> g</span></div> and <div class="tooltip">capers<span class="tooltiptext"><span class="scalable">20</span> g</span></div>, drizzle over some <div class="tooltip">oil<span class="tooltiptext"><span class="scalable">1</span> tbsp</span></div>, and serve.</li>
                 </ol>
         </div>
         <div class="source">
