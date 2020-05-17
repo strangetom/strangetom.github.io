@@ -5,6 +5,15 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Smoked haddock and crayfish lasagne</title>
+      <link>https://strangetom.github.io/recipes/Smoked%20haddock%20and%20crayfish%20lasagne.html</link>
+      <description>
+        &lt;h1&gt;Smoked haddock and crayfish lasagne&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Smoked_haddock_and_crayfish_lasagne.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Fish pie meets lasagne - smoked haddock and sweet, juicy crayfish in a rich cheese sauce are a match made in heaven  .&lt;/p&gt;
+      </description>
+      <pubDate>Sun, 17 May 2020 15:03:56 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Smoked%20haddock%20and%20crayfish%20lasagne.html</guid>
+    </item>
+    <item>
       <title>Curried lentil, tomato and coconut soup</title>
       <link>https://strangetom.github.io/recipes/Curried%20lentil,%20tomato%20and%20coconut%20soup.html</link>
       <description>
@@ -48,15 +57,6 @@
       </description>
       <pubDate>Sat, 02 May 2020 15:23:43 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Hawaiian%20shoyu%20chicken.html</guid>
-    </item>
-    <item>
-      <title>Mediterranean fish roast</title>
-      <link>https://strangetom.github.io/recipes/Mediterranean%20fish%20roast.html</link>
-      <description>
-        &lt;h1&gt;Mediterranean fish roast&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Mediterranean_fish_roast.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Roasting vegetables like courgettes and tomatoes concentrates their flavours and turns them into fantastic partners for fillets of fish..&lt;/p&gt;
-      </description>
-      <pubDate>Sat, 02 May 2020 15:22:51 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Mediterranean%20fish%20roast.html</guid>
     </item>
     </channel>
 </rss>
