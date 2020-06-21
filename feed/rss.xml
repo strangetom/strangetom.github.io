@@ -5,6 +5,24 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Anchovy and samphire spaghetti</title>
+      <link>https://strangetom.github.io/recipes/Anchovy%20and%20samphire%20spaghetti.html</link>
+      <description>
+        &lt;h1&gt;Anchovy and samphire spaghetti&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Anchovy_and_samphire_spaghetti.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Both samphire and anchovy pack a really salty punch. Combining the two results in a simple little dish which delivers big on flavour..&lt;/p&gt;
+      </description>
+      <pubDate>Tue, 16 Jun 2020 18:37:26 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Anchovy%20and%20samphire%20spaghetti.html</guid>
+    </item>
+    <item>
+      <title>Storecupboard pasta salad</title>
+      <link>https://strangetom.github.io/recipes/Storecupboard%20pasta%20salad.html</link>
+      <description>
+        &lt;h1&gt;Storecupboard pasta salad&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Storecupboard_pasta_salad.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;This pasta salad makes a quick and healthy lunch, or is perfect prepared ahead for a picnic or lunchbox.&lt;/p&gt;
+      </description>
+      <pubDate>Tue, 16 Jun 2020 16:20:36 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Storecupboard%20pasta%20salad.html</guid>
+    </item>
+    <item>
       <title>Tuna-macaroni salad</title>
       <link>https://strangetom.github.io/recipes/Tuna-macaroni%20salad.html</link>
       <description>
@@ -39,24 +57,6 @@
       </description>
       <pubDate>Tue, 09 Jun 2020 15:55:41 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Chicken%20in%20black%20bean%20sauce.html</guid>
-    </item>
-    <item>
-      <title>Mango chicken salad</title>
-      <link>https://strangetom.github.io/recipes/Mango%20chicken%20salad.html</link>
-      <description>
-        &lt;h1&gt;Mango chicken salad&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Mango_chicken_salad.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Super quick and easy recipe. The curry paste is not too spicy for children to try. If you want, you can add more spice to taste, but not too much or you will drown the other more subtle flavours. Gluten-free: make sure the curry paste is gluten-free..&lt;/p&gt;
-      </description>
-      <pubDate>Tue, 09 Jun 2020 15:55:41 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Mango%20chicken%20salad.html</guid>
-    </item>
-    <item>
-      <title>Leek and tarragon rigatoni</title>
-      <link>https://strangetom.github.io/recipes/Leek%20and%20tarragon%20rigatoni.html</link>
-      <description>
-        &lt;h1&gt;Leek and tarragon rigatoni&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Leek_and_tarragon_rigatoni.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Gluten-free: just use gluten-free pasta..&lt;/p&gt;
-      </description>
-      <pubDate>Tue, 09 Jun 2020 15:55:41 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Leek%20and%20tarragon%20rigatoni.html</guid>
     </item>
     </channel>
 </rss>
