@@ -5,6 +5,33 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Jerk chicken burger</title>
+      <link>https://strangetom.github.io/recipes/Jerk%20chicken%20burger.html</link>
+      <description>
+        &lt;h1&gt;Jerk chicken burger&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Jerk_chicken_burger.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Flavour lean chicken with Jamaican-inspired spicy seasoning, griddle then and serve in a bread roll with mango, tomato, lettuce and sauce.&lt;/p&gt;
+      </description>
+      <pubDate>Thu, 16 Jul 2020 18:24:46 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Jerk%20chicken%20burger.html</guid>
+    </item>
+    <item>
+      <title>Roasted pepper pasta salad</title>
+      <link>https://strangetom.github.io/recipes/Roasted%20pepper%20pasta%20salad.html</link>
+      <description>
+        &lt;h1&gt;Roasted pepper pasta salad&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Roasted_pepper_pasta_salad.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;.&lt;/p&gt;
+      </description>
+      <pubDate>Thu, 09 Jul 2020 17:36:41 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Roasted%20pepper%20pasta%20salad.html</guid>
+    </item>
+    <item>
+      <title>Southwestern pasta salad</title>
+      <link>https://strangetom.github.io/recipes/Southwestern%20pasta%20salad.html</link>
+      <description>
+        &lt;h1&gt;Southwestern pasta salad&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Southwestern_pasta_salad.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;This zesty Southwestern Pasta Salad features all the best and boldest fixings. Bacon, jalapeños,  black beans, corn, and more are dressed in a creamy chipotle ranch dressing that will have your whole party lining up for second helpings..&lt;/p&gt;
+      </description>
+      <pubDate>Thu, 09 Jul 2020 16:39:08 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Southwestern%20pasta%20salad.html</guid>
+    </item>
+    <item>
       <title>Portobello mushrooms with brioche and a poached egg</title>
       <link>https://strangetom.github.io/recipes/Portobello%20mushrooms%20with%20brioche%20and%20a%20poached%20egg.html</link>
       <description>
@@ -14,6 +41,15 @@
       <guid>https://strangetom.github.io/recipes/Portobello%20mushrooms%20with%20brioche%20and%20a%20poached%20egg.html</guid>
     </item>
     <item>
+      <title>Cheat's sausage cassoulet</title>
+      <link>https://strangetom.github.io/recipes/Cheat's%20sausage%20cassoulet.html</link>
+      <description>
+        &lt;h1&gt;Cheat's sausage cassoulet&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Cheats_sausage_cassoulet.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Step-by-step method for making Cheat's sausage cassoulet yourself..&lt;/p&gt;
+      </description>
+      <pubDate>Wed, 24 Jun 2020 16:19:25 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Cheat's%20sausage%20cassoulet.html</guid>
+    </item>
+    <item>
       <title>Spicy pies with sweet potato mash</title>
       <link>https://strangetom.github.io/recipes/Spicy%20pies%20with%20sweet%20potato%20mash.html</link>
       <description>
@@ -21,42 +57,6 @@
       </description>
       <pubDate>Tue, 23 Jun 2020 18:01:05 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Spicy%20pies%20with%20sweet%20potato%20mash.html</guid>
-    </item>
-    <item>
-      <title>Fettuccine with spiced cherry tomato sauce</title>
-      <link>https://strangetom.github.io/recipes/Fettuccine%20with%20spiced%20cherry%20tomato%20sauce.html</link>
-      <description>
-        &lt;h1&gt;Fettuccine with spiced cherry tomato sauce&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Fettuccine_with_spiced_cherry_tomato_sauce.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;When they are ripe and sweet, buy a big batch of cherry tomatoes, to make double or triple the quantity of sauce. It takes a while to cook - just over an hour - but it keeps in the fridge for 5 days and freezes for up to a month. The ancho chilli adds a lovely smoky richness, but can be replaced by  1/4  tsp sweet smoked paprika, if you have this to hand rather than ancho. Alternatively, if you don't want the kick, leave the chilli out altogether..&lt;/p&gt;
-      </description>
-      <pubDate>Sun, 21 Jun 2020 15:32:59 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Fettuccine%20with%20spiced%20cherry%20tomato%20sauce.html</guid>
-    </item>
-    <item>
-      <title>Anchovy and samphire spaghetti</title>
-      <link>https://strangetom.github.io/recipes/Anchovy%20and%20samphire%20spaghetti.html</link>
-      <description>
-        &lt;h1&gt;Anchovy and samphire spaghetti&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Anchovy_and_samphire_spaghetti.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Both samphire and anchovy pack a really salty punch. Combining the two results in a simple little dish which delivers big on flavour..&lt;/p&gt;
-      </description>
-      <pubDate>Tue, 16 Jun 2020 18:37:26 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Anchovy%20and%20samphire%20spaghetti.html</guid>
-    </item>
-    <item>
-      <title>Storecupboard pasta salad</title>
-      <link>https://strangetom.github.io/recipes/Storecupboard%20pasta%20salad.html</link>
-      <description>
-        &lt;h1&gt;Storecupboard pasta salad&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Storecupboard_pasta_salad.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;This pasta salad makes a quick and healthy lunch, or is perfect prepared ahead for a picnic or lunchbox.&lt;/p&gt;
-      </description>
-      <pubDate>Tue, 16 Jun 2020 16:20:36 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Storecupboard%20pasta%20salad.html</guid>
-    </item>
-    <item>
-      <title>Tuna-macaroni salad</title>
-      <link>https://strangetom.github.io/recipes/Tuna-macaroni%20salad.html</link>
-      <description>
-        &lt;h1&gt;Tuna-macaroni salad&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Tuna-macaroni_salad.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;If there is such a thing as comfort salad, then this is it: A cold and creamy, mayonnaise-laden pasta that evokes your grandma's "tuna mac", but made a touch more sophisticated with the addition of cornichons and scallions..&lt;/p&gt;
-      </description>
-      <pubDate>Sat, 13 Jun 2020 15:15:23 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Tuna-macaroni%20salad.html</guid>
     </item>
     </channel>
 </rss>
