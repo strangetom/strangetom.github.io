@@ -1,4 +1,4 @@
-{
+	{
   "name": "Stranger Foods",
   "short_name": "Recipes",
   "icons": [{
@@ -25,6 +25,11 @@
       "src": "icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
+    },{
+      "src": "icons/maskable_icon.png",
+      "sizes": "640x640",
+      "type": "image/png",
+      "purpose": "maskable"
     }],  
   "lang": "en-GB",
   "start_url": "/index.html",
