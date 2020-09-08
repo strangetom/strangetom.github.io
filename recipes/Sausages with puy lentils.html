@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Pork" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
+    <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -25,7 +25,7 @@
                 </div>
                 <div class="icon baseline">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
+                    <meta itemprop="recipeYield" content="4 servings"><span id="servings" default="4">4</span>&nbsp;servings
                 </div>
             </h3>         
             <h3>
@@ -40,25 +40,25 @@
                 <button type="button" onclick="scaleRecipe(3)">x3</button>
             </div>             
             <ul>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">8</span></b> large good-quality, herby pork sausages</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> bay leaf</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="8" class="scalable">8</span></b> large good-quality, herby pork sausages</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> bay leaf</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b></b> Salt and freshly milled black pepper</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">175</span></b> g Puy lentils</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> large onion, chopped small</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> cloves garlic, crushed</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">25</span></b> g butter</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tbsp groundnut or other flavourless oil</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">400</span></b> g tinned chopped tomatoes</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tsp granulated sugar</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tbsp chopped fresh thyme</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="175" class="scalable">175</span></b> g Puy lentils</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> large onion, chopped small</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> cloves garlic, crushed</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="25" class="scalable">25</span></b> g butter</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp groundnut or other flavourless oil</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="400" class="scalable">400</span></b> g tinned chopped tomatoes</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp granulated sugar</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp chopped fresh thyme</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Begin by rinsing the <div class="tooltip">lentils<span class="tooltiptext"><span class="scalable">175</span> g</span></div>, then place them in a saucepan with <b>1</b> litre of water (don't add any salt), bring them to simmering point and cook gently for about <b>30</b> minutes, or until the <div class="tooltip">lentils<span class="tooltiptext"><span class="scalable">175</span> g</span></div> are tender but not disintegrating.   </li>
-                <li itemprop="recipeInstructions">Then drain them and keep the cooking liquid. Meanwhile, fry the <div class="tooltip">onion<span class="tooltiptext"><span class="scalable">1</span> large</span></div> and <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">2</span> cloves</span></div> in the <div class="tooltip">butter<span class="tooltiptext"><span class="scalable">25</span> g</span></div> and <b>1</b> tablespoon of the <div class="tooltip">oil<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div> in the casserole for <b>8-10</b> minutes to soften. Next, add the tinned <div class="tooltip">tomatoes<span class="tooltiptext"><span class="scalable">400</span> g</span></div>, <div class="tooltip">sugar<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div>, <div class="tooltip">thyme<span class="tooltiptext"><span class="scalable">1</span> tbsp</span></div> and <div class="tooltip">bay leaf<span class="tooltiptext"><span class="scalable">1</span> </span></div>, and some salt and freshly milled black pepper, and let it all simmer gently (without a lid) until the liquid reduces and it becomes rather thick - you may need to stir it now and then and it will take about <b>5-7</b> minutes.   </li>
-                <li itemprop="recipeInstructions">Now heat the remaining tablespoon of <div class="tooltip">oil<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div> in a large frying pan and brown the <div class="tooltip">sausages<span class="tooltiptext"><span class="scalable">8</span> large</span></div> all over in it. Then, using a draining spoon, transfer them to the tomato mixture. Add the cooked <div class="tooltip">lentils<span class="tooltiptext"><span class="scalable">175</span> g</span></div> and <b>10</b> fl oz (<b>275</b> ml) of the liquid they were cooked in. Stir well, then continue cooking over a very gentle heat for about <b>30</b> minutes - with a lid - and, if the mixture begins to look dry, add a little more liquid.   </li>
+                <li itemprop="recipeInstructions">Begin by rinsing the <div class="tooltip">lentils<span class="tooltiptext"><span default="175" class="scalable">175</span> g</span></div>, then place them in a saucepan with <b>1</b> litre of water (don't add any salt), bring them to simmering point and cook gently for about <b>30</b> minutes, or until the <div class="tooltip">lentils<span class="tooltiptext"><span default="175" class="scalable">175</span> g</span></div> are tender but not disintegrating.   </li>
+                <li itemprop="recipeInstructions">Then drain them and keep the cooking liquid. Meanwhile, fry the <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> large</span></div> and <div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div> in the <div class="tooltip">butter<span class="tooltiptext"><span default="25" class="scalable">25</span> g</span></div> and <b>1</b> tablespoon of the <div class="tooltip">oil<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div> in the casserole for <b>8-10</b> minutes to soften. Next, add the tinned <div class="tooltip">tomatoes<span class="tooltiptext"><span default="400" class="scalable">400</span> g</span></div>, <div class="tooltip">sugar<span class="tooltiptext"><span default="1" class="scalable">1</span> tsp</span></div>, <div class="tooltip">thyme<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div> and <div class="tooltip">bay leaf<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div>, and some salt and freshly milled black pepper, and let it all simmer gently (without a lid) until the liquid reduces and it becomes rather thick - you may need to stir it now and then and it will take about <b>5-7</b> minutes.   </li>
+                <li itemprop="recipeInstructions">Now heat the remaining tablespoon of <div class="tooltip">oil<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div> in a large frying pan and brown the <div class="tooltip">sausages<span class="tooltiptext"><span default="8" class="scalable">8</span> large</span></div> all over in it. Then, using a draining spoon, transfer them to the tomato mixture. Add the cooked <div class="tooltip">lentils<span class="tooltiptext"><span default="175" class="scalable">175</span> g</span></div> and <b>10</b> fl oz (<b>275</b> ml) of the liquid they were cooked in. Stir well, then continue cooking over a very gentle heat for about <b>30</b> minutes - with a lid - and, if the mixture begins to look dry, add a little more liquid.   </li>
                 <li itemprop="recipeInstructions">Taste and add pepper and salt, if it needs it, before serving.   </li>
                 </ol>
         </div>

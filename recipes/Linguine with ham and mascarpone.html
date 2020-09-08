@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Pork" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
+    <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -25,7 +25,7 @@
                 </div>
                 <div class="icon baseline">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="6 servings"><span id="servings">6</span>&nbsp;servings
+                    <meta itemprop="recipeYield" content="6 servings"><span id="servings" default="6">6</span>&nbsp;servings
                 </div>
             </h3>         
             <h3>
@@ -76,22 +76,22 @@
                 <button type="button" onclick="scaleRecipe(3)">x3</button>
             </div>             
             <ul>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">25</span></b> g butter</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">150</span></b> g mascarpone</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">90</span></b> g cooked ham, cut into thin strips</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">30</span></b> ml milk</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">3</span></b> tbsp freshly grated Parmesan cheese, plus extra to serve</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">500</span></b> g fresh linguine</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="25" class="scalable">25</span></b> g butter</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="150" class="scalable">150</span></b> g mascarpone</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="90" class="scalable">90</span></b> g cooked ham, cut into thin strips</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="30" class="scalable">30</span></b> ml milk</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> tbsp freshly grated Parmesan cheese, plus extra to serve</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="500" class="scalable">500</span></b> g fresh linguine</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b></b> salt and ground black pepper</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Melt the <div class="tooltip">butter<span class="tooltiptext"><span class="scalable">25</span> g</span></div> in a medium pan, add the <div class="tooltip">mascarpone<span class="tooltiptext"><span class="scalable">150</span> g</span></div>, <div class="tooltip">ham<span class="tooltiptext"><span class="scalable">90</span> g</span></div> and <div class="tooltip">milk<span class="tooltiptext"><span class="scalable">30</span> ml</span></div> and stir well over a low heat until the <div class="tooltip">mascarpone<span class="tooltiptext"><span class="scalable">150</span> g</span></div> as melted. Add <b>1</b> tbsp of the grated <div class="tooltip">Parmesan<span class="tooltiptext"><span class="scalable">3</span> tbsp</span></div> and plenty of pepper and stir well.</li>
-                <li itemprop="recipeInstructions">Cook the <div class="tooltip">pasta<span class="tooltiptext"><span class="scalable">500</span> g</span></div> in a large pan of lightly salted boiling water for about <b>3</b> minutes.</li>
-                <li itemprop="recipeInstructions">Drain the cooked <div class="tooltip">pasta<span class="tooltiptext"><span class="scalable">500</span> g</span></div> well and tip it into a warmed bowl. Pour the sauce over the <div class="tooltip">pasta<span class="tooltiptext"><span class="scalable">500</span> g</span></div>, add the remaining <div class="tooltip">Parmesan<span class="tooltiptext"><span class="scalable">3</span> tbsp</span></div> and toss well.</li>
-                <li itemprop="recipeInstructions">Taste for seasoning and serve the <div class="tooltip">pasta<span class="tooltiptext"><span class="scalable">500</span> g</span></div> immediately, with more ground black pepper and extra grated <div class="tooltip">Parmesan<span class="tooltiptext"><span class="scalable">3</span> tbsp</span></div>.</li>
+                <li itemprop="recipeInstructions">Melt the <div class="tooltip">butter<span class="tooltiptext"><span default="25" class="scalable">25</span> g</span></div> in a medium pan, add the <div class="tooltip">mascarpone<span class="tooltiptext"><span default="150" class="scalable">150</span> g</span></div>, <div class="tooltip">ham<span class="tooltiptext"><span default="90" class="scalable">90</span> g</span></div> and <div class="tooltip">milk<span class="tooltiptext"><span default="30" class="scalable">30</span> ml</span></div> and stir well over a low heat until the <div class="tooltip">mascarpone<span class="tooltiptext"><span default="150" class="scalable">150</span> g</span></div> as melted. Add <b>1</b> tbsp of the grated <div class="tooltip">Parmesan<span class="tooltiptext"><span default="3" class="scalable">3</span> tbsp</span></div> and plenty of pepper and stir well.</li>
+                <li itemprop="recipeInstructions">Cook the <div class="tooltip">pasta<span class="tooltiptext"><span default="500" class="scalable">500</span> g</span></div> in a large pan of lightly salted boiling water for about <b>3</b> minutes.</li>
+                <li itemprop="recipeInstructions">Drain the cooked <div class="tooltip">pasta<span class="tooltiptext"><span default="500" class="scalable">500</span> g</span></div> well and tip it into a warmed bowl. Pour the sauce over the <div class="tooltip">pasta<span class="tooltiptext"><span default="500" class="scalable">500</span> g</span></div>, add the remaining <div class="tooltip">Parmesan<span class="tooltiptext"><span default="3" class="scalable">3</span> tbsp</span></div> and toss well.</li>
+                <li itemprop="recipeInstructions">Taste for seasoning and serve the <div class="tooltip">pasta<span class="tooltiptext"><span default="500" class="scalable">500</span> g</span></div> immediately, with more ground black pepper and extra grated <div class="tooltip">Parmesan<span class="tooltiptext"><span default="3" class="scalable">3</span> tbsp</span></div>.</li>
                 </ol>
         </div>
         <div class="source">

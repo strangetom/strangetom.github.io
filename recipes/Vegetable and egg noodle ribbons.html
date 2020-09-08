@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Veggie" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
+    <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
         <link itemprop="suitableForDiet" href="https://schema.org/VegetarianDiet">
         <div class="information">
             <header>
@@ -26,7 +26,7 @@
                 </div>
                 <div class="icon baseline">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
+                    <meta itemprop="recipeYield" content="4 servings"><span id="servings" default="4">4</span>&nbsp;servings
                 </div>
             </h3>         
             <h3>
@@ -77,25 +77,25 @@
                 <button type="button" onclick="scaleRecipe(3)">x3</button>
             </div>             
             <ul>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> large carrot, peeled</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> courgettes</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">50</span></b> g butter</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">15</span></b> ml olive oil</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">6</span></b> fresh shiitake mushrooms, finely sliced</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">50</span></b> g frozen peas, thawed</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">350</span></b> g fresh broad egg ribbon noodles</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tsp chopped mixed herbs, such as marjoram, chives and basil</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> large carrot, peeled</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> courgettes</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="50" class="scalable">50</span></b> g butter</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="15" class="scalable">15</span></b> ml olive oil</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="6" class="scalable">6</span></b> fresh shiitake mushrooms, finely sliced</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="50" class="scalable">50</span></b> g frozen peas, thawed</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="350" class="scalable">350</span></b> g fresh broad egg ribbon noodles</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tsp chopped mixed herbs, such as marjoram, chives and basil</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b></b> salt and ground black pepper</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">25</span></b> g Parmesan cheese, to serve</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="25" class="scalable">25</span></b> g Parmesan cheese, to serve</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Using a vegetable peeler, carefully slice thin strips from the <div class="tooltip">carrot<span class="tooltiptext"><span class="scalable">1</span> large</span></div> and the <div class="tooltip">courgettes<span class="tooltiptext"><span class="scalable">2</span> </span></div>.</li>
-                <li itemprop="recipeInstructions">Heat the <div class="tooltip">butter<span class="tooltiptext"><span class="scalable">50</span> g</span></div> with the olive <div class="tooltip">oil<span class="tooltiptext"><span class="scalable">15</span> ml</span></div> in a large frying pan. Stir in the <div class="tooltip">carrot<span class="tooltiptext"><span class="scalable">1</span> large</span></div> and <div class="tooltip">shiitake mushrooms<span class="tooltiptext"><span class="scalable">6</span> </span></div>; fry for <b>2</b> minutes. Add the <div class="tooltip">courgettes<span class="tooltiptext"><span class="scalable">2</span> </span></div> and <div class="tooltip">peas<span class="tooltiptext"><span class="scalable">50</span> g</span></div> and stir-fry until the <div class="tooltip">courgettes<span class="tooltiptext"><span class="scalable">2</span> </span></div> are cooked, but still crisp. Season with salt and pepper.</li>
-                <li itemprop="recipeInstructions">Meanwhile, cook the <div class="tooltip">noodles<span class="tooltiptext"><span class="scalable">350</span> g</span></div> in a large pan of boiling water until just tender. Drain the <div class="tooltip">noodles<span class="tooltiptext"><span class="scalable">350</span> g</span></div> and tip them into a bowl. Add the vegetables and toss gently to mix.</li>
-                <li itemprop="recipeInstructions">Sprinkly over the fresh herbs and season to taste. If using the <div class="tooltip">Parmesan<span class="tooltiptext"><span class="scalable">25</span> g</span></div>, grate or shave it over the top. Toss lightly and serve.</li>
+                <li itemprop="recipeInstructions">Using a vegetable peeler, carefully slice thin strips from the <div class="tooltip">carrot<span class="tooltiptext"><span default="1" class="scalable">1</span> large</span></div> and the <div class="tooltip">courgettes<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div>.</li>
+                <li itemprop="recipeInstructions">Heat the <div class="tooltip">butter<span class="tooltiptext"><span default="50" class="scalable">50</span> g</span></div> with the olive <div class="tooltip">oil<span class="tooltiptext"><span default="15" class="scalable">15</span> ml</span></div> in a large frying pan. Stir in the <div class="tooltip">carrot<span class="tooltiptext"><span default="1" class="scalable">1</span> large</span></div> and <div class="tooltip">shiitake mushrooms<span class="tooltiptext"><span default="6" class="scalable">6</span> </span></div>; fry for <b>2</b> minutes. Add the <div class="tooltip">courgettes<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div> and <div class="tooltip">peas<span class="tooltiptext"><span default="50" class="scalable">50</span> g</span></div> and stir-fry until the <div class="tooltip">courgettes<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div> are cooked, but still crisp. Season with salt and pepper.</li>
+                <li itemprop="recipeInstructions">Meanwhile, cook the <div class="tooltip">noodles<span class="tooltiptext"><span default="350" class="scalable">350</span> g</span></div> in a large pan of boiling water until just tender. Drain the <div class="tooltip">noodles<span class="tooltiptext"><span default="350" class="scalable">350</span> g</span></div> and tip them into a bowl. Add the vegetables and toss gently to mix.</li>
+                <li itemprop="recipeInstructions">Sprinkly over the fresh herbs and season to taste. If using the <div class="tooltip">Parmesan<span class="tooltiptext"><span default="25" class="scalable">25</span> g</span></div>, grate or shave it over the top. Toss lightly and serve.</li>
                 </ol>
         </div>
         <div class="source">

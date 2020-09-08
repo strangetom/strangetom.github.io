@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Beef" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
+    <body class="Beef" itemscope itemtype="https://schema.org/Recipe">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -25,7 +25,7 @@
                 </div>
                 <div class="icon baseline">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
+                    <meta itemprop="recipeYield" content="4 servings"><span id="servings" default="4">4</span>&nbsp;servings
                 </div>
             </h3>         
             <h3>
@@ -76,14 +76,14 @@
                 <button type="button" onclick="scaleRecipe(3)">x3</button>
             </div>             
             <ul>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">4</span></b> very large potatoes</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tbsp vegetable oil</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> red onion, <b>1/2</b> grated and <b>1/2</b> finely chopped</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> carrot, grated</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">400</span></b> g beef mince</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tsp jerk seasoning</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">200</span></b> g fresh pineapple, finely chopped</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> red chilli, deseeded and finely chopped</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> very large potatoes</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp vegetable oil</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> red onion, <b>1/2</b> grated and <b>1/2</b> finely chopped</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> carrot, grated</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="400" class="scalable">400</span></b> g beef mince</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tsp jerk seasoning</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="200" class="scalable">200</span></b> g fresh pineapple, finely chopped</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> red chilli, deseeded and finely chopped</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b>small handful</b> coriander, roughly chopped</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b></b> juice <b>1</b> lime</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b></b> lettuce and burger buns , to serve</li>
@@ -92,10 +92,10 @@
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat oven to <b>170</b>&degC/Gas <b>5</b>. Scrub the <div class="tooltip">potatoes<span class="tooltiptext"><span class="scalable">4</span> very large</span></div> and cut into chips. Lay the chips in a single layer on a baking tray, drizzle with <div class="tooltip">oil<span class="tooltiptext"><span class="scalable">1</span> tbsp</span></div>, season and toss to coat. Bake for <b>40</b> mins until crisp.  </li>
-                <li itemprop="recipeInstructions">Mix together the grated <div class="tooltip">onion<span class="tooltiptext"><span class="scalable">1</span> </span></div>, <div class="tooltip">carrot<span class="tooltiptext"><span class="scalable">1</span> </span></div>, <div class="tooltip">mince<span class="tooltiptext"><span class="scalable">400</span> g</span></div> and <div class="tooltip">jerk seasoning<span class="tooltiptext"><span class="scalable">2</span> tsp</span></div> in a large bowl, then shape into <b>4</b> evenly sized patties.  </li>
+                <li itemprop="recipeInstructions">Heat oven to <b>170</b>&degC/Gas <b>5</b>. Scrub the <div class="tooltip">potatoes<span class="tooltiptext"><span default="4" class="scalable">4</span> very large</span></div> and cut into chips. Lay the chips in a single layer on a baking tray, drizzle with <div class="tooltip">oil<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div>, season and toss to coat. Bake for <b>40</b> mins until crisp.  </li>
+                <li itemprop="recipeInstructions">Mix together the grated <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div>, <div class="tooltip">carrot<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div>, <div class="tooltip">mince<span class="tooltiptext"><span default="400" class="scalable">400</span> g</span></div> and <div class="tooltip">jerk seasoning<span class="tooltiptext"><span default="2" class="scalable">2</span> tsp</span></div> in a large bowl, then shape into <b>4</b> evenly sized patties.  </li>
                 <li itemprop="recipeInstructions">Heat a non-stick frying pan till hot, then cook the burgers for <b>5-6</b> mins each side.  </li>
-                <li itemprop="recipeInstructions">To make the relish, mix the chopped <div class="tooltip">onion<span class="tooltiptext"><span class="scalable">1</span> </span></div>, <div class="tooltip">pineapple<span class="tooltiptext"><span class="scalable">200</span> g</span></div>, <div class="tooltip">chilli<span class="tooltiptext"><span class="scalable">1</span> </span></div>, <div class="tooltip">coriander<span class="tooltiptext">small handful </span></div> and lime juice.  </li>
+                <li itemprop="recipeInstructions">To make the relish, mix the chopped <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div>, <div class="tooltip">pineapple<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div>, <div class="tooltip">chilli<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div>, <div class="tooltip">coriander<span class="tooltiptext">small handful </span></div> and lime juice.  </li>
                 <li itemprop="recipeInstructions">To serve, place the burgers in split buns with some lettuce and the spicy relish. Serve with the crispy chips.  </li>
                 </ol>
         </div>

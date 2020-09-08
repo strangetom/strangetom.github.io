@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Lamb" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
+    <body class="Lamb" itemscope itemtype="https://schema.org/Recipe">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -25,7 +25,7 @@
                 </div>
                 <div class="icon baseline">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="8 servings"><span id="servings">8</span>&nbsp;servings
+                    <meta itemprop="recipeYield" content="8 servings"><span id="servings" default="8">8</span>&nbsp;servings
                 </div>
             </h3>         
             <h3>
@@ -76,27 +76,27 @@
                 <button type="button" onclick="scaleRecipe(3)">x3</button>
             </div>             
             <ul>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">600</span></b> g lamb mince</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tbsp shop-bought harissa, or use homemade</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1/4</span></b> tsp ground ginger</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1/2</span></b> tsp ground cinnamon</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1/2</span></b> tsp ground cumin</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tbsp chopped coriander</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> clove garlic, grated</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> preserved lemon, rind finely chopped (discard the flesh)</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="600" class="scalable">600</span></b> g lamb mince</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp shop-bought harissa, or use homemade</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="0.25" class="scalable">&frac14;</span></b> tsp ground ginger</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">&frac12;</span></b> tsp ground cinnamon</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">&frac12;</span></b> tsp ground cumin</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp chopped coriander</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> clove garlic, grated</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> preserved lemon, rind finely chopped (discard the flesh)</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b></b> plain flour, for dusting</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">325</span></b> g ready rolled puff pastry</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> large egg, lightly beaten</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tsp black sesame seeds (optional)</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="325" class="scalable">325</span></b> g ready rolled puff pastry</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> large egg, lightly beaten</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tsp black sesame seeds (optional)</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the oven to <b>180</b>&degC/Gas <b>6</b>. Mix together the <div class="tooltip">lamb<span class="tooltiptext"><span class="scalable">600</span> g</span></div>, <div class="tooltip">harissa<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div>, spices, <div class="tooltip">coriander<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div>, <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">1</span> clove</span></div>, <div class="tooltip">preserved lemon<span class="tooltiptext"><span class="scalable">1</span> </span></div> and seasoning in a bowl. Pummel it with your hands to make sure it's well combined.</li>
+                <li itemprop="recipeInstructions">Heat the oven to <b>180</b>&degC/Gas <b>6</b>. Mix together the <div class="tooltip">lamb<span class="tooltiptext"><span default="600" class="scalable">600</span> g</span></div>, <div class="tooltip">harissa<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div>, spices, <div class="tooltip">coriander<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div>, <div class="tooltip">garlic<span class="tooltiptext"><span default="1" class="scalable">1</span> clove</span></div>, <div class="tooltip">preserved lemon<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> and seasoning in a bowl. Pummel it with your hands to make sure it's well combined.</li>
                 <li itemprop="recipeInstructions">Lightly dust your work surface with flour and lay the puff pastry on top. Cut it down the middle lengthways, then roll each piece with a rolling pin so each piece measures about <b>14</b> x <b>42</b>cm.</li>
-                <li itemprop="recipeInstructions">Divide the <div class="tooltip">lamb<span class="tooltiptext"><span class="scalable">600</span> g</span></div> mixture into four and roll each one into a sausage shape using your hands. Lay two of them, end to end, on one of the pieces of pastry. Brush some <div class="tooltip">egg<span class="tooltiptext"><span class="scalable">1</span> large</span></div> along one of the long sides of the pastry, just by the edge. Pull up the other side to encase the sausage shapes and press the sides together. Do the same with the rest of the meat and pastry.</li>
-                <li itemprop="recipeInstructions">Cut each pastry parcel into four. Transfer these to a baking sheet, then brush each sausage roll with the <div class="tooltip">egg<span class="tooltiptext"><span class="scalable">1</span> large</span></div> and sprinkle over the sesame seeds, if using. Bake for <b>20-25</b> mins, or until the pastry is puffed up and golden.</li>
+                <li itemprop="recipeInstructions">Divide the <div class="tooltip">lamb<span class="tooltiptext"><span default="600" class="scalable">600</span> g</span></div> mixture into four and roll each one into a sausage shape using your hands. Lay two of them, end to end, on one of the pieces of pastry. Brush some <div class="tooltip">egg<span class="tooltiptext"><span default="1" class="scalable">1</span> large</span></div> along one of the long sides of the pastry, just by the edge. Pull up the other side to encase the sausage shapes and press the sides together. Do the same with the rest of the meat and pastry.</li>
+                <li itemprop="recipeInstructions">Cut each pastry parcel into four. Transfer these to a baking sheet, then brush each sausage roll with the <div class="tooltip">egg<span class="tooltiptext"><span default="1" class="scalable">1</span> large</span></div> and sprinkle over the sesame seeds, if using. Bake for <b>20-25</b> mins, or until the pastry is puffed up and golden.</li>
                 </ol>
         </div>
         <div class="source">

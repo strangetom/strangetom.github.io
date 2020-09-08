@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Veggie" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
+    <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
         <link itemprop="suitableForDiet" href="https://schema.org/VegetarianDiet">
         <div class="information">
             <header>
@@ -26,7 +26,7 @@
                 </div>
                 <div class="icon baseline">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
+                    <meta itemprop="recipeYield" content="4 servings"><span id="servings" default="4">4</span>&nbsp;servings
                 </div>
             </h3>         
             <h3>
@@ -41,15 +41,15 @@
                 <button type="button" onclick="scaleRecipe(3)">x3</button>
             </div>             
             <ul>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">400</span></b> g Portobello mushrooms, sliced <b>1</b> cm thick</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">75</span></b> ml olive oil</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> cloves garlic, crushed</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">0.5</span></b> tsp ground cinnamon</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">5</span></b> g basil leaves, torn</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1/8</span></b> tsp chilli flakes, plus extra to serve</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">4</span></b> slices brioche, cut <b>2</b> cm thick (about <b>150</b> g)</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">4</span></b> large eggs</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">100</span></b> g soured cream, sto serve</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="400" class="scalable">400</span></b> g Portobello mushrooms, sliced <b>1</b> cm thick</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="75" class="scalable">75</span></b> ml olive oil</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> cloves garlic, crushed</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">&frac12;</span></b> tsp ground cinnamon</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="5" class="scalable">5</span></b> g basil leaves, torn</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="0.125" class="scalable">&frac18;</span></b> tsp chilli flakes, plus extra to serve</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> slices brioche, cut <b>2</b> cm thick (about <b>150</b> g)</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> large eggs</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="100" class="scalable">100</span></b> g soured cream, sto serve</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b></b> flaked sea salt and black pepper</li>
                 </ul>
         </div>
@@ -57,10 +57,10 @@
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Preheat the oven to <b>220</b>&degC fan.</li>
-                <li itemprop="recipeInstructions">Mix the mushrooms with <b>3</b> tablespoons of oil, <b>1</b> <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">2</span> cloves</span></div> clove, <b>1/4</b> teaspoon of cinnamon, <b>1/2</b> teaspoon of flaked salt and a good grind of pepper. Spread out on a large parchment-lined baking tray and roast for <b>15</b> minutes, stirring halfway, until soft and starting to brown. Toss with the basil and set aside.</li>
-                <li itemprop="recipeInstructions">While the mushrooms are in the oven, mix together the remaining <b>2</b> tablespoons of oil with the remaining  <b>1/4</b>  teaspoon of cinnamon, <b>1</b> <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">2</span> cloves</span></div> clove, the <div class="tooltip">chilli flakes<span class="tooltiptext"><span class="scalable">1/8</span> tsp</span></div> and  <b>1/4</b>  teaspoon of flaked salt. Brush the oil and spices over one side of the <div class="tooltip">brioche<span class="tooltiptext"><span class="scalable">4</span> slices</span></div> slices and place on a separate parchment-lined baking tray, brushed side up. With about <b>6</b> or <b>7</b> minutes left for the mushrooms, put the bread into the oven alongside the mushrooms and roast until the bread is golden-brown and crisp.</li>
+                <li itemprop="recipeInstructions">Mix the mushrooms with <b>3</b> tablespoons of oil, <b>1</b> <div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div> clove, <b>1/4</b> teaspoon of cinnamon, <b>1/2</b> teaspoon of flaked salt and a good grind of pepper. Spread out on a large parchment-lined baking tray and roast for <b>15</b> minutes, stirring halfway, until soft and starting to brown. Toss with the basil and set aside.</li>
+                <li itemprop="recipeInstructions">While the mushrooms are in the oven, mix together the remaining <b>2</b> tablespoons of oil with the remaining  <b>1/4</b>  teaspoon of cinnamon, <b>1</b> <div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div> clove, the <div class="tooltip">chilli flakes<span class="tooltiptext"><span default="0.125" class="scalable">&frac18;</span> tsp</span></div> and  <b>1/4</b>  teaspoon of flaked salt. Brush the oil and spices over one side of the <div class="tooltip">brioche<span class="tooltiptext"><span default="4" class="scalable">4</span> slices</span></div> slices and place on a separate parchment-lined baking tray, brushed side up. With about <b>6</b> or <b>7</b> minutes left for the mushrooms, put the bread into the oven alongside the mushrooms and roast until the bread is golden-brown and crisp.</li>
                 <li itemprop="recipeInstructions">Meanwhile, fill a medium saucepan with plenty of water and bring to the boil on a high heat. Once boiling, reduce the heat to medium high and carefully break in the eggs. Poach for <b>1</b> <b>1/2</b>  minutes for a runny yolk (or a little longer for a firmer set).</li>
-                <li itemprop="recipeInstructions">Divide the <div class="tooltip">brioche<span class="tooltiptext"><span class="scalable">4</span> slices</span></div> between four plates and top each slice with the mushrooms so that they are all ready. Using a slotted spoon, remove the eggs from the water and spoon them on top of the mushrooms. Sprinkle each egg with a pinch of salt and a pinch of <div class="tooltip">chilli flakes<span class="tooltiptext"><span class="scalable">1/8</span> tsp</span></div> and serve warm, with a spoonful of <div class="tooltip">soured cream<span class="tooltiptext"><span class="scalable">100</span> g</span></div> alongside.</li>
+                <li itemprop="recipeInstructions">Divide the <div class="tooltip">brioche<span class="tooltiptext"><span default="4" class="scalable">4</span> slices</span></div> between four plates and top each slice with the mushrooms so that they are all ready. Using a slotted spoon, remove the eggs from the water and spoon them on top of the mushrooms. Sprinkle each egg with a pinch of salt and a pinch of <div class="tooltip">chilli flakes<span class="tooltiptext"><span default="0.125" class="scalable">&frac18;</span> tsp</span></div> and serve warm, with a spoonful of <div class="tooltip">soured cream<span class="tooltiptext"><span default="100" class="scalable">100</span> g</span></div> alongside.</li>
                 </ol>
         </div>
         <div class="source">

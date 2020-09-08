@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Dessert" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
+    <body class="Dessert" itemscope itemtype="https://schema.org/Recipe">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -24,7 +24,7 @@
                 </div>
                 <div class="icon baseline">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="10 servings"><span id="servings">10</span>&nbsp;servings
+                    <meta itemprop="recipeYield" content="10 servings"><span id="servings" default="10">10</span>&nbsp;servings
                 </div>
             </h3>         
             <h3>
@@ -75,28 +75,28 @@
                 <button type="button" onclick="scaleRecipe(3)">x3</button>
             </div>             
             <ul>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">192</span></b> g plain flour</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">128</span></b> g sugar</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">5</span></b> tbsp plain Greek yogurt</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">8</span></b> tbsp vegetable oil</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">5</span></b> tbsp freshly squeezed lemon juice</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">3</span></b> eggs</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tbsp lemon zest</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tsp baking powder</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">0.5</span></b> tsp salt</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">256</span></b> g icing sugar</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">4-5</span></b> tablespoons freshly squeezed lemon juice</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="192" class="scalable">192</span></b> g plain flour</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="128" class="scalable">128</span></b> g sugar</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="5" class="scalable">5</span></b> tbsp plain Greek yogurt</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="8" class="scalable">8</span></b> tbsp vegetable oil</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="5" class="scalable">5</span></b> tbsp freshly squeezed lemon juice</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> eggs</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp lemon zest</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tsp baking powder</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">&frac12;</span></b> tsp salt</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="256" class="scalable">256</span></b> g icing sugar</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="4-5" class="scalable">4-5</span></b> tablespoons freshly squeezed lemon juice</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Preheat oven to <b>180</b>&degC and lightly grease a <b>9</b>x<b>5</b>-inch loaf dish with butter or non-stick spray.  </li>
-                <li itemprop="recipeInstructions">In a large bowl or mixer, beat <div class="tooltip">eggs<span class="tooltiptext"><span class="scalable">3</span> </span></div> and <div class="tooltip">sugar<span class="tooltiptext"><span class="scalable">128</span> g</span></div> together, then add in <div class="tooltip">Greek yogurt<span class="tooltiptext"><span class="scalable">5</span> tbsp</span></div> and vegetable <div class="tooltip">oil<span class="tooltiptext"><span class="scalable">8</span> tbsp</span></div>. Whisk in <div class="tooltip">lemon juice<span class="tooltiptext"><span class="scalable">5</span> tbsp</span></div> and <div class="tooltip">lemon zest<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div>.  </li>
-                <li itemprop="recipeInstructions">In a medium bowl, toss together <div class="tooltip">flour<span class="tooltiptext"><span class="scalable">192</span> g</span></div>, <div class="tooltip">baking powder<span class="tooltiptext"><span class="scalable">2</span> tsp</span></div> and <div class="tooltip">salt<span class="tooltiptext"><span class="scalable">0.5</span> tsp</span></div>, then add them to the wet ingredients until just incorporated. Don't over mix.  </li>
+                <li itemprop="recipeInstructions">In a large bowl or mixer, beat <div class="tooltip">eggs<span class="tooltiptext"><span default="3" class="scalable">3</span> </span></div> and <div class="tooltip">sugar<span class="tooltiptext"><span default="128" class="scalable">128</span> g</span></div> together, then add in <div class="tooltip">Greek yogurt<span class="tooltiptext"><span default="5" class="scalable">5</span> tbsp</span></div> and vegetable <div class="tooltip">oil<span class="tooltiptext"><span default="8" class="scalable">8</span> tbsp</span></div>. Whisk in <div class="tooltip">lemon juice<span class="tooltiptext"><span default="5" class="scalable">5</span> tbsp</span></div> and <div class="tooltip">lemon zest<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div>.  </li>
+                <li itemprop="recipeInstructions">In a medium bowl, toss together <div class="tooltip">flour<span class="tooltiptext"><span default="192" class="scalable">192</span> g</span></div>, <div class="tooltip">baking powder<span class="tooltiptext"><span default="2" class="scalable">2</span> tsp</span></div> and <div class="tooltip">salt<span class="tooltiptext"><span default="0.5" class="scalable">&frac12;</span> tsp</span></div>, then add them to the wet ingredients until just incorporated. Don't over mix.  </li>
                 <li itemprop="recipeInstructions">Pour batter into loaf pan and smooth out the top, then place in oven and bake for <b>50</b> minutes, or until toothpick inserted in center comes out mostly clean. If necessary, cover loaf with aluminum foil during the last <b>5-10</b> minutes to prevent browning.</li>
                 <li itemprop="recipeInstructions">Remove from oven and let cool.  </li>
-                <li itemprop="recipeInstructions">While loaf is baking, whisk together the <div class="tooltip">icing sugar<span class="tooltiptext"><span class="scalable">256</span> g</span></div> and <b>4</b> tablespoons <div class="tooltip">lemon juice<span class="tooltiptext"><span class="scalable">5</span> tbsp</span></div> together to create glaze. Add <b>1-3</b> more teaspoons <div class="tooltip">lemon juice<span class="tooltiptext"><span class="scalable">5</span> tbsp</span></div> to achieve desired thickness.  </li>
+                <li itemprop="recipeInstructions">While loaf is baking, whisk together the <div class="tooltip">icing sugar<span class="tooltiptext"><span default="256" class="scalable">256</span> g</span></div> and <b>4</b> tablespoons <div class="tooltip">lemon juice<span class="tooltiptext"><span default="5" class="scalable">5</span> tbsp</span></div> together to create glaze. Add <b>1-3</b> more teaspoons <div class="tooltip">lemon juice<span class="tooltiptext"><span default="5" class="scalable">5</span> tbsp</span></div> to achieve desired thickness.  </li>
                 <li itemprop="recipeInstructions">Once loaf has cooled, extract it from baking dish and pour glaze over the top. Let glaze set and serve fresh or store, refrigerated, in an air-tight container.</li>
                 </ol>
         </div>

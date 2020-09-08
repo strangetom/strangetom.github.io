@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Veggie" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
+    <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
         <link itemprop="suitableForDiet" href="https://schema.org/VegetarianDiet">
         <div class="information">
             <header>
@@ -26,7 +26,7 @@
                 </div>
                 <div class="icon baseline">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
+                    <meta itemprop="recipeYield" content="4 servings"><span id="servings" default="4">4</span>&nbsp;servings
                 </div>
             </h3>         
             <h3>
@@ -41,27 +41,27 @@
                 <button type="button" onclick="scaleRecipe(3)">x3</button>
             </div>             
             <ul>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">400</span></b> g can chopped tomatoes</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">30</span></b> ml vegetable oil</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">0.5</span></b> onion, roughly chopped</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> cloves garlic, roughly chopped</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">500</span></b> g long grain rice</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">750</span></b> ml vegetable stock</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">0.5</span></b> tsp salt</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">3</span></b> fresh chillis</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">150</span></b> g frozen peas</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="400" class="scalable">400</span></b> g can chopped tomatoes</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="30" class="scalable">30</span></b> ml vegetable oil</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">&frac12;</span></b> onion, roughly chopped</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> cloves garlic, roughly chopped</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="500" class="scalable">500</span></b> g long grain rice</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="750" class="scalable">750</span></b> ml vegetable stock</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">&frac12;</span></b> tsp salt</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> fresh chillis</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="150" class="scalable">150</span></b> g frozen peas</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b></b> ground black pepper</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Pour the <div class="tooltip">tomatoes<span class="tooltiptext"><span class="scalable">400</span> g can</span></div> and juice into a blender, and process until smooth.</li>
-                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span class="scalable">30</span> ml</span></div> in a large, heavy pan, add the <div class="tooltip">onion<span class="tooltiptext"><span class="scalable">0.5</span> </span></div> and <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">2</span> cloves</span></div> and cooker over a medium heat for <b>2</b> minutes until softened. Stir in the <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">500</span> g</span></div> and stir-fry for <b>1-2</b> minutes.</li>
+                <li itemprop="recipeInstructions">Pour the <div class="tooltip">tomatoes<span class="tooltiptext"><span default="400" class="scalable">400</span> g can</span></div> and juice into a blender, and process until smooth.</li>
+                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span default="30" class="scalable">30</span> ml</span></div> in a large, heavy pan, add the <div class="tooltip">onion<span class="tooltiptext"><span default="0.5" class="scalable">&frac12;</span> </span></div> and <div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div> and cooker over a medium heat for <b>2</b> minutes until softened. Stir in the <div class="tooltip">rice<span class="tooltiptext"><span default="500" class="scalable">500</span> g</span></div> and stir-fry for <b>1-2</b> minutes.</li>
                 <li itemprop="recipeInstructions">Add the tomato mixture and stir over a medium heat for <b>3-4</b> minutes until all the liquid has been absorbed.</li>
-                <li itemprop="recipeInstructions">Stir in the <div class="tooltip">stock<span class="tooltiptext"><span class="scalable">750</span> ml</span></div>, <div class="tooltip">salt<span class="tooltiptext"><span class="scalable">0.5</span> tsp</span></div>, whole <div class="tooltip">chillis<span class="tooltiptext"><span class="scalable">3</span> </span></div> and <div class="tooltip">peas<span class="tooltiptext"><span class="scalable">150</span> g</span></div>. Bring to the boil. Cover and simmer for about <b>6</b> minutes, stirring occasionally, until the <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">500</span> g</span></div> is just tender.</li>
+                <li itemprop="recipeInstructions">Stir in the <div class="tooltip">stock<span class="tooltiptext"><span default="750" class="scalable">750</span> ml</span></div>, <div class="tooltip">salt<span class="tooltiptext"><span default="0.5" class="scalable">&frac12;</span> tsp</span></div>, whole <div class="tooltip">chillis<span class="tooltiptext"><span default="3" class="scalable">3</span> </span></div> and <div class="tooltip">peas<span class="tooltiptext"><span default="150" class="scalable">150</span> g</span></div>. Bring to the boil. Cover and simmer for about <b>6</b> minutes, stirring occasionally, until the <div class="tooltip">rice<span class="tooltiptext"><span default="500" class="scalable">500</span> g</span></div> is just tender.</li>
                 <li itemprop="recipeInstructions">Remove the pan from the heat, cover it with a tight fitting lid and leave it to stand in a warm place for <b>5</b> minutes.</li>
-                <li itemprop="recipeInstructions">Remove the <div class="tooltip">chillis<span class="tooltiptext"><span class="scalable">3</span> </span></div>, fluff up the <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">500</span> g</span></div> lightly with a fork, and serve in warmed bowls, sprinkled with black pepper. The <div class="tooltip">chillis<span class="tooltiptext"><span class="scalable">3</span> </span></div> can be used as a garnish if you like.</li>
+                <li itemprop="recipeInstructions">Remove the <div class="tooltip">chillis<span class="tooltiptext"><span default="3" class="scalable">3</span> </span></div>, fluff up the <div class="tooltip">rice<span class="tooltiptext"><span default="500" class="scalable">500</span> g</span></div> lightly with a fork, and serve in warmed bowls, sprinkled with black pepper. The <div class="tooltip">chillis<span class="tooltiptext"><span default="3" class="scalable">3</span> </span></div> can be used as a garnish if you like.</li>
                 </ol>
         </div>
         <div class="source">

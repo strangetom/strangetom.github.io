@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Chicken" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
+    <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -25,7 +25,7 @@
                 </div>
                 <div class="icon baseline">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
+                    <meta itemprop="recipeYield" content="4 servings"><span id="servings" default="4">4</span>&nbsp;servings
                 </div>
             </h3>         
             <h3>
@@ -44,27 +44,27 @@
                 <button type="button" onclick="scaleRecipe(3)">x3</button>
             </div>             
             <ul>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">5</span></b> medium potatoes, cut into <b>1/2</b> cm slices</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tbsp olive oil</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> onion, sliced</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">200</span></b> g pancetta lardons</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">250</span></b> g mushrooms, sliced</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">3</span></b> chicken breasts, cut into bitesized pieces</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">300</span></b> ml single cream</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tbsp thyme leaves</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tbsp wholegrain mustard</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1/2</span></b> mug grated Parmesan</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="5" class="scalable">5</span></b> medium potatoes, cut into <b>1/2</b> cm slices</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp olive oil</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> onion, sliced</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="200" class="scalable">200</span></b> g pancetta lardons</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="250" class="scalable">250</span></b> g mushrooms, sliced</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> chicken breasts, cut into bitesized pieces</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="300" class="scalable">300</span></b> ml single cream</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp thyme leaves</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp wholegrain mustard</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">&frac12;</span></b> mug grated Parmesan</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Add the <div class="tooltip">potatoes<span class="tooltiptext"><span class="scalable">5</span> medium</span></div> to a pan of boiling water and simmer for <b>5</b> minutes until tender. Remove from the pan and set to one side until needed.  </li>
-                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div> in a large frying pan, or wok, and fry the <div class="tooltip">onion<span class="tooltiptext"><span class="scalable">1</span> </span></div> and <div class="tooltip">pancetta<span class="tooltiptext"><span class="scalable">200</span> g</span></div> until it begins to brown.  </li>
-                <li itemprop="recipeInstructions">Add the <div class="tooltip">mushrooms<span class="tooltiptext"><span class="scalable">250</span> g</span></div> and <div class="tooltip">chicken<span class="tooltiptext"><span class="scalable">3</span> </span></div> and fry until the <div class="tooltip">chicken<span class="tooltiptext"><span class="scalable">3</span> </span></div> is cooked through. Season with salt and pepper.  </li>
-                <li itemprop="recipeInstructions">Pour into a large casserole dish and arrange the cooked <div class="tooltip">potatoes<span class="tooltiptext"><span class="scalable">5</span> medium</span></div> over the top.  </li>
+                <li itemprop="recipeInstructions">Add the <div class="tooltip">potatoes<span class="tooltiptext"><span default="5" class="scalable">5</span> medium</span></div> to a pan of boiling water and simmer for <b>5</b> minutes until tender. Remove from the pan and set to one side until needed.  </li>
+                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div> in a large frying pan, or wok, and fry the <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> and <div class="tooltip">pancetta<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div> until it begins to brown.  </li>
+                <li itemprop="recipeInstructions">Add the <div class="tooltip">mushrooms<span class="tooltiptext"><span default="250" class="scalable">250</span> g</span></div> and <div class="tooltip">chicken<span class="tooltiptext"><span default="3" class="scalable">3</span> </span></div> and fry until the <div class="tooltip">chicken<span class="tooltiptext"><span default="3" class="scalable">3</span> </span></div> is cooked through. Season with salt and pepper.  </li>
+                <li itemprop="recipeInstructions">Pour into a large casserole dish and arrange the cooked <div class="tooltip">potatoes<span class="tooltiptext"><span default="5" class="scalable">5</span> medium</span></div> over the top.  </li>
                 <li itemprop="recipeInstructions">Preheat the grill.  </li>
-                <li itemprop="recipeInstructions">Mix together the <div class="tooltip">cream<span class="tooltiptext"><span class="scalable">300</span> ml</span></div>, <div class="tooltip">thyme<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div> leaves and <div class="tooltip">wholegrain mustard<span class="tooltiptext"><span class="scalable">1</span> tbsp</span></div>. Pour over the <div class="tooltip">potatoes<span class="tooltiptext"><span class="scalable">5</span> medium</span></div> and sprinkle the <div class="tooltip">Parmesan<span class="tooltiptext"><span class="scalable">1/2</span> mug</span></div> over the top.  </li>
+                <li itemprop="recipeInstructions">Mix together the <div class="tooltip">cream<span class="tooltiptext"><span default="300" class="scalable">300</span> ml</span></div>, <div class="tooltip">thyme<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div> leaves and <div class="tooltip">wholegrain mustard<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div>. Pour over the <div class="tooltip">potatoes<span class="tooltiptext"><span default="5" class="scalable">5</span> medium</span></div> and sprinkle the <div class="tooltip">Parmesan<span class="tooltiptext"><span default="0.5" class="scalable">&frac12;</span> mug</span></div> over the top.  </li>
                 <li itemprop="recipeInstructions">Place under the grill for <b>5-8</b> minutes, or until the cheese has begun to brown.</li>
                 </ol>
         </div>

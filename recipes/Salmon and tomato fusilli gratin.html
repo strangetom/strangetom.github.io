@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Seafood" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
+    <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -25,7 +25,7 @@
                 </div>
                 <div class="icon baseline">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
+                    <meta itemprop="recipeYield" content="4 servings"><span id="servings" default="4">4</span>&nbsp;servings
                 </div>
             </h3>         
             <h3>
@@ -76,26 +76,26 @@
                 <button type="button" onclick="scaleRecipe(3)">x3</button>
             </div>             
             <ul>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span>x</b> <b>240</b> g pack salmon fillets</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">300</span></b> g dried fusilli</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tbsp extra-virgin olive oil</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> small onion, finely chopped</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">3</span></b> large cloves garlic, finely chopped</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">600</span></b> g fresh tomatoes, deseeded and roughly chopped</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">50</span></b> g pitted green olives in brine, sliced</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span>x</b> <b>30</b> g pack flat-leaf parsley, finely chopped</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">30</span></b> g fresh white breadcrumbs</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">30</span></b> g Italian-style hard cheese or Parmesan, finely grated</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span>x</b> <b>240</b> g pack salmon fillets</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="300" class="scalable">300</span></b> g dried fusilli</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp extra-virgin olive oil</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> small onion, finely chopped</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> large cloves garlic, finely chopped</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="600" class="scalable">600</span></b> g fresh tomatoes, deseeded and roughly chopped</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="50" class="scalable">50</span></b> g pitted green olives in brine, sliced</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span>x</b> <b>30</b> g pack flat-leaf parsley, finely chopped</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="30" class="scalable">30</span></b> g fresh white breadcrumbs</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="30" class="scalable">30</span></b> g Italian-style hard cheese or Parmesan, finely grated</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Preheat the oven to <b>200</b>&degC/Gas <b>7</b>.</li>
-                <li itemprop="recipeInstructions">Place the <div class="tooltip">salmon<span class="tooltiptext"><span class="scalable">1</span>x 240 g pack</span></div> on a baking tray, season and roast in the oven for <b>8-10</b> minutes until cooked but still with a slightly pink centre. Cool slightly then flake into large chunks. Switch the oven to its grill setting.</li>
-                <li itemprop="recipeInstructions">Meanwhile, bring a pan of salted water to the boil and cook the <div class="tooltip">pasta<span class="tooltiptext"><span class="scalable">300</span> g</span></div> until al dente, drain and return to the pan.</li>
-                <li itemprop="recipeInstructions">While the <div class="tooltip">pasta<span class="tooltiptext"><span class="scalable">300</span> g</span></div> is cooking, heat the <div class="tooltip">oil<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div> in a deep frying pan or shallow casserole, over a low heat. Add the <div class="tooltip">onion<span class="tooltiptext"><span class="scalable">1</span> small</span></div> and <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">3</span> large cloves</span></div>, and fry for <b>3-4</b> minutes before increasing the heat to high and adding the <div class="tooltip">chopped<span class="tooltiptext"><span class="scalable">30</span> g</span></div> <div class="tooltip">tomatoes<span class="tooltiptext"><span class="scalable">600</span> g</span></div>, <div class="tooltip">olives<span class="tooltiptext"><span class="scalable">50</span> g</span></div> and half the parsley. Cook for a further <b>5</b> minutes until the <div class="tooltip">tomatoes<span class="tooltiptext"><span class="scalable">600</span> g</span></div> start to break down slightly. Add the <div class="tooltip">pasta<span class="tooltiptext"><span class="scalable">300</span> g</span></div> and flaked <div class="tooltip">salmon<span class="tooltiptext"><span class="scalable">1</span>x 240 g pack</span></div> and mix until well combined. If the handles of your pan aren't ovenproof, tip the <div class="tooltip">pasta<span class="tooltiptext"><span class="scalable">300</span> g</span></div> into a baking dish.</li>
-                <li itemprop="recipeInstructions">Mix together the remaining parsley, the <div class="tooltip">breadcrumbs<span class="tooltiptext"><span class="scalable">30</span> g</span></div> and grated cheese and sprinkle over the <div class="tooltip">pasta<span class="tooltiptext"><span class="scalable">300</span> g</span></div>. Grill for <b>5</b> minutes until golden and slightly crisp.</li>
+                <li itemprop="recipeInstructions">Place the <div class="tooltip">salmon<span class="tooltiptext"><span default="1" class="scalable">1</span>x 240 g pack</span></div> on a baking tray, season and roast in the oven for <b>8-10</b> minutes until cooked but still with a slightly pink centre. Cool slightly then flake into large chunks. Switch the oven to its grill setting.</li>
+                <li itemprop="recipeInstructions">Meanwhile, bring a pan of salted water to the boil and cook the <div class="tooltip">pasta<span class="tooltiptext"><span default="300" class="scalable">300</span> g</span></div> until al dente, drain and return to the pan.</li>
+                <li itemprop="recipeInstructions">While the <div class="tooltip">pasta<span class="tooltiptext"><span default="300" class="scalable">300</span> g</span></div> is cooking, heat the <div class="tooltip">oil<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div> in a deep frying pan or shallow casserole, over a low heat. Add the <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> small</span></div> and <div class="tooltip">garlic<span class="tooltiptext"><span default="3" class="scalable">3</span> large cloves</span></div>, and fry for <b>3-4</b> minutes before increasing the heat to high and adding the <div class="tooltip">chopped<span class="tooltiptext"><span default="30" class="scalable">30</span> g</span></div> <div class="tooltip">tomatoes<span class="tooltiptext"><span default="600" class="scalable">600</span> g</span></div>, <div class="tooltip">olives<span class="tooltiptext"><span default="50" class="scalable">50</span> g</span></div> and half the parsley. Cook for a further <b>5</b> minutes until the <div class="tooltip">tomatoes<span class="tooltiptext"><span default="600" class="scalable">600</span> g</span></div> start to break down slightly. Add the <div class="tooltip">pasta<span class="tooltiptext"><span default="300" class="scalable">300</span> g</span></div> and flaked <div class="tooltip">salmon<span class="tooltiptext"><span default="1" class="scalable">1</span>x 240 g pack</span></div> and mix until well combined. If the handles of your pan aren't ovenproof, tip the <div class="tooltip">pasta<span class="tooltiptext"><span default="300" class="scalable">300</span> g</span></div> into a baking dish.</li>
+                <li itemprop="recipeInstructions">Mix together the remaining parsley, the <div class="tooltip">breadcrumbs<span class="tooltiptext"><span default="30" class="scalable">30</span> g</span></div> and grated cheese and sprinkle over the <div class="tooltip">pasta<span class="tooltiptext"><span default="300" class="scalable">300</span> g</span></div>. Grill for <b>5</b> minutes until golden and slightly crisp.</li>
                 </ol>
         </div>
         <div class="source">

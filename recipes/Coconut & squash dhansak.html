@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Veggie" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
+    <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
         <link itemprop="suitableForDiet" href="https://schema.org/VegetarianDiet">
         <div class="information">
             <header>
@@ -26,7 +26,7 @@
                 </div>
                 <div class="icon baseline">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
+                    <meta itemprop="recipeYield" content="4 servings"><span id="servings" default="4">4</span>&nbsp;servings
                 </div>
             </h3>         
             <h3>
@@ -77,23 +77,23 @@
                 <button type="button" onclick="scaleRecipe(3)">x3</button>
             </div>             
             <ul>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tbsp vegetable oil</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">500</span></b> g butternut squash (about <b>1</b> small squash), peeled and chopped into bite-sized chunks</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">100</span></b> g frozen chopped onions</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">4</span></b> heaped tbsp mild curry paste</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">400</span></b> g can chopped tomatoes</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">400</span></b> g can light coconut milk</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp vegetable oil</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="500" class="scalable">500</span></b> g butternut squash (about <b>1</b> small squash), peeled and chopped into bite-sized chunks</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="100" class="scalable">100</span></b> g frozen chopped onions</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> heaped tbsp mild curry paste</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="400" class="scalable">400</span></b> g can chopped tomatoes</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="400" class="scalable">400</span></b> g can light coconut milk</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b></b> mini naan bread, to serve</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">400</span></b> g can lentils, drained</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">200</span></b> g bag baby spinach</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">150</span></b> ml coconut yogurt</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="400" class="scalable">400</span></b> g can lentils, drained</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="200" class="scalable">200</span></b> g bag baby spinach</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="150" class="scalable">150</span></b> ml coconut yogurt</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span class="scalable">1</span> tbsp</span></div> in a large pan. Put the <div class="tooltip">squash<span class="tooltiptext"><span class="scalable">500</span> g</span></div> in a bowl with a splash of water. Cover with cling film and microwave on High for <b>10</b> mins or until tender. Meanwhile, add the <div class="tooltip">onions<span class="tooltiptext"><span class="scalable">100</span> g</span></div> to the hot <div class="tooltip">oil<span class="tooltiptext"><span class="scalable">1</span> tbsp</span></div> and cook for a few mins until soft. Add the <div class="tooltip">curry paste<span class="tooltiptext"><span class="scalable">4</span> heaped tbsp</span></div>, <div class="tooltip">tomatoes<span class="tooltiptext"><span class="scalable">400</span> g can</span></div> and <div class="tooltip">coconut milk<span class="tooltiptext"><span class="scalable">400</span> g can</span></div>, and simmer for <b>10</b> mins until thickened to a rich sauce.  </li>
-                <li itemprop="recipeInstructions">Warm the naan breads in a low oven or in the toaster. Drain any liquid from the <div class="tooltip">squash<span class="tooltiptext"><span class="scalable">500</span> g</span></div>, then add to the sauce with the <div class="tooltip">lentils<span class="tooltiptext"><span class="scalable">400</span> g can</span></div>, <div class="tooltip">spinach<span class="tooltiptext"><span class="scalable">200</span> g</span></div> and some seasoning. Simmer for a further <b>2-3</b> mins to wilt the <div class="tooltip">spinach<span class="tooltiptext"><span class="scalable">200</span> g</span></div>, then stir in the <div class="tooltip">coconut yogurt<span class="tooltiptext"><span class="scalable">150</span> ml</span></div>. Serve with the warm naan and a dollop of extra yogurt.  </li>
+                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div> in a large pan. Put the <div class="tooltip">squash<span class="tooltiptext"><span default="500" class="scalable">500</span> g</span></div> in a bowl with a splash of water. Cover with cling film and microwave on High for <b>10</b> mins or until tender. Meanwhile, add the <div class="tooltip">onions<span class="tooltiptext"><span default="100" class="scalable">100</span> g</span></div> to the hot <div class="tooltip">oil<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div> and cook for a few mins until soft. Add the <div class="tooltip">curry paste<span class="tooltiptext"><span default="4" class="scalable">4</span> heaped tbsp</span></div>, <div class="tooltip">tomatoes<span class="tooltiptext"><span default="400" class="scalable">400</span> g can</span></div> and <div class="tooltip">coconut milk<span class="tooltiptext"><span default="400" class="scalable">400</span> g can</span></div>, and simmer for <b>10</b> mins until thickened to a rich sauce.  </li>
+                <li itemprop="recipeInstructions">Warm the naan breads in a low oven or in the toaster. Drain any liquid from the <div class="tooltip">squash<span class="tooltiptext"><span default="500" class="scalable">500</span> g</span></div>, then add to the sauce with the <div class="tooltip">lentils<span class="tooltiptext"><span default="400" class="scalable">400</span> g can</span></div>, <div class="tooltip">spinach<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div> and some seasoning. Simmer for a further <b>2-3</b> mins to wilt the <div class="tooltip">spinach<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div>, then stir in the <div class="tooltip">coconut yogurt<span class="tooltiptext"><span default="150" class="scalable">150</span> ml</span></div>. Serve with the warm naan and a dollop of extra yogurt.  </li>
                 </ol>
         </div>
         <div class="source">

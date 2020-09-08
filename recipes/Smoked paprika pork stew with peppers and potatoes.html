@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Pork" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
+    <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -25,7 +25,7 @@
                 </div>
                 <div class="icon baseline">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
+                    <meta itemprop="recipeYield" content="4 servings"><span id="servings" default="4">4</span>&nbsp;servings
                 </div>
             </h3>         
             <h3>
@@ -40,18 +40,18 @@
                 <button type="button" onclick="scaleRecipe(3)">x3</button>
             </div>             
             <ul>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tbsp olive oil</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span>x</b> <b>300</b> g pack extra lean pork medallions</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> large onion, chopped</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> red pepper, deseeded and diced</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> green pepper, deseeded and diced</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> clove garlic, crushed</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tbsp smoked paprika</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tsp caraway seeds</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">0.5</span></b> tsp chilli powder</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">250</span></b> g new potatoes, larger ones halved</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">400</span></b> g tin chopped tomatoes</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tbsp tomato puree</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp olive oil</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span>x</b> <b>300</b> g pack extra lean pork medallions</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> large onion, chopped</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> red pepper, deseeded and diced</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> green pepper, deseeded and diced</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> clove garlic, crushed</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp smoked paprika</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp caraway seeds</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">&frac12;</span></b> tsp chilli powder</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="250" class="scalable">250</span></b> g new potatoes, larger ones halved</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="400" class="scalable">400</span></b> g tin chopped tomatoes</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp tomato puree</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b></b> chopped parsley</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b></b> fat-free natural greek yogurt and bread, to serve</li>
                 </ul>
@@ -59,10 +59,10 @@
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div> in a large frying pan over a high heat, then fry the <div class="tooltip">pork medallions<span class="tooltiptext"><span class="scalable">2</span>x 300 g pack</span></div> in batches for <b>3</b> minutes on each side until golden brown. Transfer to a plate and set aside</li>
-                <li itemprop="recipeInstructions">Reduce the heat to medium, then fry the <div class="tooltip">onion<span class="tooltiptext"><span class="scalable">1</span> large</span></div> and peppers for <b>2-3</b> minutes in the remaining <div class="tooltip">oil<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div>, stirring occasionally, until softened.</li>
-                <li itemprop="recipeInstructions">Add the <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">1</span> clove</span></div>, <div class="tooltip">paprika<span class="tooltiptext"><span class="scalable">1</span> tbsp</span></div>, <div class="tooltip">caraway seeds<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div> and <div class="tooltip">chilli powder<span class="tooltiptext"><span class="scalable">0.5</span> tsp</span></div> to the pan and cook, stirring, for <b>30</b> seconds. Stir in the <div class="tooltip">potatoes<span class="tooltiptext"><span class="scalable">250</span> g</span></div>, <div class="tooltip">tomatoes<span class="tooltiptext"><span class="scalable">400</span> g tin</span></div>, <div class="tooltip">tomato puree<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div> and <b>150</b> ml water, and bring the mixture to the boil.</li>
-                <li itemprop="recipeInstructions">Season, the return the pork to the pan, cover and simmer for <b>15</b> minutes until the <div class="tooltip">potatoes<span class="tooltiptext"><span class="scalable">250</span> g</span></div> are tender. Scatter with the parsley and serve with the bread and yogurt.</li>
+                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div> in a large frying pan over a high heat, then fry the <div class="tooltip">pork medallions<span class="tooltiptext"><span default="2" class="scalable">2</span>x 300 g pack</span></div> in batches for <b>3</b> minutes on each side until golden brown. Transfer to a plate and set aside</li>
+                <li itemprop="recipeInstructions">Reduce the heat to medium, then fry the <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> large</span></div> and peppers for <b>2-3</b> minutes in the remaining <div class="tooltip">oil<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div>, stirring occasionally, until softened.</li>
+                <li itemprop="recipeInstructions">Add the <div class="tooltip">garlic<span class="tooltiptext"><span default="1" class="scalable">1</span> clove</span></div>, <div class="tooltip">paprika<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div>, <div class="tooltip">caraway seeds<span class="tooltiptext"><span default="1" class="scalable">1</span> tsp</span></div> and <div class="tooltip">chilli powder<span class="tooltiptext"><span default="0.5" class="scalable">&frac12;</span> tsp</span></div> to the pan and cook, stirring, for <b>30</b> seconds. Stir in the <div class="tooltip">potatoes<span class="tooltiptext"><span default="250" class="scalable">250</span> g</span></div>, <div class="tooltip">tomatoes<span class="tooltiptext"><span default="400" class="scalable">400</span> g tin</span></div>, <div class="tooltip">tomato puree<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div> and <b>150</b> ml water, and bring the mixture to the boil.</li>
+                <li itemprop="recipeInstructions">Season, the return the pork to the pan, cover and simmer for <b>15</b> minutes until the <div class="tooltip">potatoes<span class="tooltiptext"><span default="250" class="scalable">250</span> g</span></div> are tender. Scatter with the parsley and serve with the bread and yogurt.</li>
                 </ol>
         </div>
         <div class="source">

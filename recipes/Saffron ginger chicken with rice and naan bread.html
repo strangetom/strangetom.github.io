@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Chicken" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
+    <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -24,7 +24,7 @@
                 </div>
                 <div class="icon baseline">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
+                    <meta itemprop="recipeYield" content="4 servings"><span id="servings" default="4">4</span>&nbsp;servings
                 </div>
             </h3>         
             <h3>
@@ -39,32 +39,32 @@
                 <button type="button" onclick="scaleRecipe(3)">x3</button>
             </div>             
             <ul>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">8</span></b> chicken thighs</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">3</span></b> tbsp grated fresh ginger</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">4</span></b> cloves garlic, finely chopped</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="8" class="scalable">8</span></b> chicken thighs</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> tbsp grated fresh ginger</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> cloves garlic, finely chopped</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b></b> juice of lemon</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tsp paprika</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tsp ground coriander</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tbsp oil</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> onions, cut into wedges</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">400</span></b> ml can coconut milk</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> pinch saffron, or <b>1</b> tsp tumeric</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> fat red chilli, desseded and cut into slices</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1/2</span></b> chicken stock cube</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tbsp chopped fresh coriander</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> mugs rice</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> mug peas</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">4</span></b> naan breads</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp paprika</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp ground coriander</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp oil</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> onions, cut into wedges</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="400" class="scalable">400</span></b> ml can coconut milk</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> pinch saffron, or <b>1</b> tsp tumeric</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> fat red chilli, desseded and cut into slices</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">&frac12;</span></b> chicken stock cube</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp chopped fresh coriander</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> mugs rice</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> mug peas</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> naan breads</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Put the <div class="tooltip">chicken<span class="tooltiptext"><span class="scalable">8</span> </span></div> in a bowl with the <div class="tooltip">ginger<span class="tooltiptext"><span class="scalable">3</span> tbsp</span></div>, <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">4</span> cloves</span></div>, lemon, <div class="tooltip">paprika<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div> and <div class="tooltip">ground coriander<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div>. Leave overnight if possible. A minimum of <b>1</b> hour is OK.  </li>
-                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span class="scalable">1</span> tbsp</span></div> in a wok and fry the <div class="tooltip">onions<span class="tooltiptext"><span class="scalable">2</span> </span></div>. Take the <div class="tooltip">chicken<span class="tooltiptext"><span class="scalable">8</span> </span></div> from the marinade and fry until the meat is browned. Add the <div class="tooltip">coconut milk<span class="tooltiptext"><span class="scalable">400</span> ml can</span></div>, <div class="tooltip">saffron<span class="tooltiptext"><span class="scalable">1</span> pinch</span></div> (turmeric), <div class="tooltip">chilli<span class="tooltiptext"><span class="scalable">1</span> </span></div>, <div class="tooltip">stock<span class="tooltiptext"><span class="scalable">1/2</span> </span></div> and the marinade juices. Bring the boil, then turn down to simmer with a lid on for <b>40</b> minutes. Stir occasionally. Add the <div class="tooltip">coriander<span class="tooltiptext"><span class="scalable">1</span> tbsp</span></div> just before serving.  </li>
-                <li itemprop="recipeInstructions">While the <div class="tooltip">chicken<span class="tooltiptext"><span class="scalable">8</span> </span></div> is cooking, put <b>4</b> mugs of water in a saucepan. Bring to the boil and add the <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">2</span> mugs</span></div>. Bring back to the boil, then turn down to simmer, with the lid on, for <b>10</b> minutes or until all the water is absorbed.  </li>
-                <li itemprop="recipeInstructions">After the <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">2</span> mugs</span></div> has been cooking for <b>7</b> minutes, add the <div class="tooltip">peas<span class="tooltiptext"><span class="scalable">1</span> mug</span></div> on top.  </li>
-                <li itemprop="recipeInstructions">Heat the <div class="tooltip">naan breads<span class="tooltiptext"><span class="scalable">4</span> </span></div> according to the instructions on the pack.  </li>
+                <li itemprop="recipeInstructions">Put the <div class="tooltip">chicken<span class="tooltiptext"><span default="8" class="scalable">8</span> </span></div> in a bowl with the <div class="tooltip">ginger<span class="tooltiptext"><span default="3" class="scalable">3</span> tbsp</span></div>, <div class="tooltip">garlic<span class="tooltiptext"><span default="4" class="scalable">4</span> cloves</span></div>, lemon, <div class="tooltip">paprika<span class="tooltiptext"><span default="1" class="scalable">1</span> tsp</span></div> and <div class="tooltip">ground coriander<span class="tooltiptext"><span default="1" class="scalable">1</span> tsp</span></div>. Leave overnight if possible. A minimum of <b>1</b> hour is OK.  </li>
+                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div> in a wok and fry the <div class="tooltip">onions<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div>. Take the <div class="tooltip">chicken<span class="tooltiptext"><span default="8" class="scalable">8</span> </span></div> from the marinade and fry until the meat is browned. Add the <div class="tooltip">coconut milk<span class="tooltiptext"><span default="400" class="scalable">400</span> ml can</span></div>, <div class="tooltip">saffron<span class="tooltiptext"><span default="1" class="scalable">1</span> pinch</span></div> (turmeric), <div class="tooltip">chilli<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div>, <div class="tooltip">stock<span class="tooltiptext"><span default="0.5" class="scalable">&frac12;</span> </span></div> and the marinade juices. Bring the boil, then turn down to simmer with a lid on for <b>40</b> minutes. Stir occasionally. Add the <div class="tooltip">coriander<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div> just before serving.  </li>
+                <li itemprop="recipeInstructions">While the <div class="tooltip">chicken<span class="tooltiptext"><span default="8" class="scalable">8</span> </span></div> is cooking, put <b>4</b> mugs of water in a saucepan. Bring to the boil and add the <div class="tooltip">rice<span class="tooltiptext"><span default="2" class="scalable">2</span> mugs</span></div>. Bring back to the boil, then turn down to simmer, with the lid on, for <b>10</b> minutes or until all the water is absorbed.  </li>
+                <li itemprop="recipeInstructions">After the <div class="tooltip">rice<span class="tooltiptext"><span default="2" class="scalable">2</span> mugs</span></div> has been cooking for <b>7</b> minutes, add the <div class="tooltip">peas<span class="tooltiptext"><span default="1" class="scalable">1</span> mug</span></div> on top.  </li>
+                <li itemprop="recipeInstructions">Heat the <div class="tooltip">naan breads<span class="tooltiptext"><span default="4" class="scalable">4</span> </span></div> according to the instructions on the pack.  </li>
                 <li itemprop="recipeInstructions">Serve with a little yoghurt.</li>
                 </ol>
         </div>

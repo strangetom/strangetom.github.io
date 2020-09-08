@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Veggie" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
+    <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
         <link itemprop="suitableForDiet" href="https://schema.org/VegetarianDiet">
         <div class="information">
             <header>
@@ -25,7 +25,7 @@
                 </div>
                 <div class="icon baseline">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
+                    <meta itemprop="recipeYield" content="4 servings"><span id="servings" default="4">4</span>&nbsp;servings
                 </div>
             </h3>         
             <h3>
@@ -40,38 +40,38 @@
                 <button type="button" onclick="scaleRecipe(3)">x3</button>
             </div>             
             <ul>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">400</span></b> g uncooked tilda basmati rice</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> veggie stock</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">5</span></b> tbsp butter</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="400" class="scalable">400</span></b> g uncooked tilda basmati rice</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> veggie stock</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="5" class="scalable">5</span></b> tbsp butter</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b>handful</b> pistachios</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">3</span></b> brown onions</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">5</span></b> cardamom pods</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tbsp curry powder</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tsp turmeric</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> bay leaves</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tsp chilli flakes</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">4</span></b> eggs</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> brown onions</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="5" class="scalable">5</span></b> cardamom pods</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp curry powder</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp turmeric</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> bay leaves</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tsp chilli flakes</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> eggs</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b></b> bunch mint</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> lemon</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> lemon</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b></b> salt</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Rinse basmati <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">400</span> g</span></div> in water till the water runs clear, then soak <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">400</span> g</span></div> for half an hour. Once soaked, drain and put to the side.</li>
+                <li itemprop="recipeInstructions">Rinse basmati <div class="tooltip">rice<span class="tooltiptext"><span default="400" class="scalable">400</span> g</span></div> in water till the water runs clear, then soak <div class="tooltip">rice<span class="tooltiptext"><span default="400" class="scalable">400</span> g</span></div> for half an hour. Once soaked, drain and put to the side.</li>
                 <li itemprop="recipeInstructions">Slice the shallots and put to one side.</li>
-                <li itemprop="recipeInstructions">On a medium to low heat melt the <div class="tooltip">butter<span class="tooltiptext"><span class="scalable">5</span> tbsp</span></div> in a large saucepan.</li>
-                <li itemprop="recipeInstructions">Add the nuts to the <div class="tooltip">butter<span class="tooltiptext"><span class="scalable">5</span> tbsp</span></div> and cook till golden. Remove with a slotted spoon and use at the end.</li>
-                <li itemprop="recipeInstructions">Add the whole <div class="tooltip">cardamom pods<span class="tooltiptext"><span class="scalable">5</span> </span></div> and sliced <div class="tooltip">onions<span class="tooltiptext"><span class="scalable">3</span> </span></div> in the <div class="tooltip">butter<span class="tooltiptext"><span class="scalable">5</span> tbsp</span></div>. Add your <div class="tooltip">curry powder<span class="tooltiptext"><span class="scalable">1</span> tbsp</span></div>, <div class="tooltip">bay leaves<span class="tooltiptext"><span class="scalable">2</span> </span></div>, <div class="tooltip">turmeric<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div> and <div class="tooltip">chilli flakes<span class="tooltiptext"><span class="scalable">2</span> tsp</span></div>. Cook for a couple of minutes until fragrant and the <div class="tooltip">onions<span class="tooltiptext"><span class="scalable">3</span> </span></div> are tender.</li>
-                <li itemprop="recipeInstructions">Now add the soaked <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">400</span> g</span></div> and stir altogether for <b>1</b> minute, making sure the <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">400</span> g</span></div> does not stick to the bottom of the pan but is glossy and buttery.</li>
-                <li itemprop="recipeInstructions">Dissolve your <div class="tooltip">stock<span class="tooltiptext"><span class="scalable">2</span> </span></div> into <b>800</b> ml boiling water and pour into the <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">400</span> g</span></div>. Don't forget to add a generous pinch of salt.</li>
+                <li itemprop="recipeInstructions">On a medium to low heat melt the <div class="tooltip">butter<span class="tooltiptext"><span default="5" class="scalable">5</span> tbsp</span></div> in a large saucepan.</li>
+                <li itemprop="recipeInstructions">Add the nuts to the <div class="tooltip">butter<span class="tooltiptext"><span default="5" class="scalable">5</span> tbsp</span></div> and cook till golden. Remove with a slotted spoon and use at the end.</li>
+                <li itemprop="recipeInstructions">Add the whole <div class="tooltip">cardamom pods<span class="tooltiptext"><span default="5" class="scalable">5</span> </span></div> and sliced <div class="tooltip">onions<span class="tooltiptext"><span default="3" class="scalable">3</span> </span></div> in the <div class="tooltip">butter<span class="tooltiptext"><span default="5" class="scalable">5</span> tbsp</span></div>. Add your <div class="tooltip">curry powder<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div>, <div class="tooltip">bay leaves<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div>, <div class="tooltip">turmeric<span class="tooltiptext"><span default="1" class="scalable">1</span> tsp</span></div> and <div class="tooltip">chilli flakes<span class="tooltiptext"><span default="2" class="scalable">2</span> tsp</span></div>. Cook for a couple of minutes until fragrant and the <div class="tooltip">onions<span class="tooltiptext"><span default="3" class="scalable">3</span> </span></div> are tender.</li>
+                <li itemprop="recipeInstructions">Now add the soaked <div class="tooltip">rice<span class="tooltiptext"><span default="400" class="scalable">400</span> g</span></div> and stir altogether for <b>1</b> minute, making sure the <div class="tooltip">rice<span class="tooltiptext"><span default="400" class="scalable">400</span> g</span></div> does not stick to the bottom of the pan but is glossy and buttery.</li>
+                <li itemprop="recipeInstructions">Dissolve your <div class="tooltip">stock<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div> into <b>800</b> ml boiling water and pour into the <div class="tooltip">rice<span class="tooltiptext"><span default="400" class="scalable">400</span> g</span></div>. Don't forget to add a generous pinch of salt.</li>
                 <li itemprop="recipeInstructions">Get the pan to a gentle simmer and then cover for <b>7</b> mins.</li>
-                <li itemprop="recipeInstructions">Once cooked and all the water is absorbed add a tablespoon of <div class="tooltip">butter<span class="tooltiptext"><span class="scalable">5</span> tbsp</span></div> on top and put the lid back on for a couple of minutes.</li>
-                <li itemprop="recipeInstructions">In a frying pan cook your fried egg at a high heat in <div class="tooltip">butter<span class="tooltiptext"><span class="scalable">5</span> tbsp</span></div> for the ultimate crisped edges.</li>
-                <li itemprop="recipeInstructions">Remove lid sand fluff the <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">400</span> g</span></div> with a fork then stir in the buttered <div class="tooltip">pistachios<span class="tooltiptext">handful </span></div>.</li>
-                <li itemprop="recipeInstructions">Squeeze in your <div class="tooltip">lemon<span class="tooltiptext"><span class="scalable">1</span> </span></div> juice and season.</li>
-                <li itemprop="recipeInstructions">Serve up your fragrant curried <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">400</span> g</span></div> with a sunny side egg on top and some chopped <div class="tooltip">mint<span class="tooltiptext"> bunch</span></div>.</li>
+                <li itemprop="recipeInstructions">Once cooked and all the water is absorbed add a tablespoon of <div class="tooltip">butter<span class="tooltiptext"><span default="5" class="scalable">5</span> tbsp</span></div> on top and put the lid back on for a couple of minutes.</li>
+                <li itemprop="recipeInstructions">In a frying pan cook your fried egg at a high heat in <div class="tooltip">butter<span class="tooltiptext"><span default="5" class="scalable">5</span> tbsp</span></div> for the ultimate crisped edges.</li>
+                <li itemprop="recipeInstructions">Remove lid sand fluff the <div class="tooltip">rice<span class="tooltiptext"><span default="400" class="scalable">400</span> g</span></div> with a fork then stir in the buttered <div class="tooltip">pistachios<span class="tooltiptext">handful </span></div>.</li>
+                <li itemprop="recipeInstructions">Squeeze in your <div class="tooltip">lemon<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> juice and season.</li>
+                <li itemprop="recipeInstructions">Serve up your fragrant curried <div class="tooltip">rice<span class="tooltiptext"><span default="400" class="scalable">400</span> g</span></div> with a sunny side egg on top and some chopped <div class="tooltip">mint<span class="tooltiptext"> bunch</span></div>.</li>
                 </ol>
         </div>
         <div class="source">

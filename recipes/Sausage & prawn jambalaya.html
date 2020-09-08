@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Pork" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
+    <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -24,7 +24,7 @@
                 </div>
                 <div class="icon baseline">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
+                    <meta itemprop="recipeYield" content="4 servings"><span id="servings" default="4">4</span>&nbsp;servings
                 </div>
             </h3>         
             <h3>
@@ -75,26 +75,26 @@
                 <button type="button" onclick="scaleRecipe(3)">x3</button>
             </div>             
             <ul>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">6</span></b> good quality sausages</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="6" class="scalable">6</span></b> good quality sausages</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b></b> oil to fry</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> onion, chopped</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> red pepper, deseeded and chopped</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> cloves garlic, crushed</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tbsp smoked paprika</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">250</span></b> g long grain rice</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">400</span></b> g can chopped tomatoes</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">400-500</span> ml</b> chicken stock</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">260</span></b> g cooked and peeled king prawns</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> onion, chopped</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> red pepper, deseeded and chopped</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> cloves garlic, crushed</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp smoked paprika</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="250" class="scalable">250</span></b> g long grain rice</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="400" class="scalable">400</span></b> g can chopped tomatoes</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="400-500 ml" class="scalable">400-500 ml</span></b> chicken stock</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="260" class="scalable">260</span></b> g cooked and peeled king prawns</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Fry the <div class="tooltip">sausages<span class="tooltiptext"><span class="scalable">6</span> </span></div> in a large, deep, lidded frying pan until golden all over, then remove and set aside.  </li>
-                <li itemprop="recipeInstructions">Heat a little oil in the pan and gently cook the <div class="tooltip">onion<span class="tooltiptext"><span class="scalable">1</span> </span></div> for <b>5</b> minutes until it is soft.  </li>
-                <li itemprop="recipeInstructions">Add the <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">2</span> cloves</span></div>, <div class="tooltip">pepper<span class="tooltiptext"><span class="scalable">1</span> </span></div> and <div class="tooltip">paprika<span class="tooltiptext"><span class="scalable">1</span> tbsp</span></div> and cook for a few minutes more, then stir in the <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">250</span> g</span></div>, mixing to coat all the grains well. Tip in the <div class="tooltip">tomatoes<span class="tooltiptext"><span class="scalable">400</span> g can</span></div> and enough <div class="tooltip">stock<span class="tooltiptext"><span class="scalable">400-500</span> ml </span></div> to cover the <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">250</span> g</span></div>. Simmer with the lid on the pan for <b>10-12</b> minutes until the <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">250</span> g</span></div> is tender. Add more <div class="tooltip">stock<span class="tooltiptext"><span class="scalable">400-500</span> ml </span></div> if you need during cooking.  </li>
-                <li itemprop="recipeInstructions">About <b>5</b> minutes before the end of the cooking time, slice the <div class="tooltip">sausages<span class="tooltiptext"><span class="scalable">6</span> </span></div> and return them to the pan. Cover and continue to cook until the <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">250</span> g</span></div> is tender.  </li>
-                <li itemprop="recipeInstructions">Stir through the <div class="tooltip">prawns<span class="tooltiptext"><span class="scalable">260</span> g</span></div>, put the lid on and leave to heat through. Season and sever immediately.  </li>
+                <li itemprop="recipeInstructions">Fry the <div class="tooltip">sausages<span class="tooltiptext"><span default="6" class="scalable">6</span> </span></div> in a large, deep, lidded frying pan until golden all over, then remove and set aside.  </li>
+                <li itemprop="recipeInstructions">Heat a little oil in the pan and gently cook the <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> for <b>5</b> minutes until it is soft.  </li>
+                <li itemprop="recipeInstructions">Add the <div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div>, <div class="tooltip">pepper<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> and <div class="tooltip">paprika<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div> and cook for a few minutes more, then stir in the <div class="tooltip">rice<span class="tooltiptext"><span default="250" class="scalable">250</span> g</span></div>, mixing to coat all the grains well. Tip in the <div class="tooltip">tomatoes<span class="tooltiptext"><span default="400" class="scalable">400</span> g can</span></div> and enough <div class="tooltip">stock<span class="tooltiptext"><span default="400-500 ml" class="scalable">400-500 ml</span> </span></div> to cover the <div class="tooltip">rice<span class="tooltiptext"><span default="250" class="scalable">250</span> g</span></div>. Simmer with the lid on the pan for <b>10-12</b> minutes until the <div class="tooltip">rice<span class="tooltiptext"><span default="250" class="scalable">250</span> g</span></div> is tender. Add more <div class="tooltip">stock<span class="tooltiptext"><span default="400-500 ml" class="scalable">400-500 ml</span> </span></div> if you need during cooking.  </li>
+                <li itemprop="recipeInstructions">About <b>5</b> minutes before the end of the cooking time, slice the <div class="tooltip">sausages<span class="tooltiptext"><span default="6" class="scalable">6</span> </span></div> and return them to the pan. Cover and continue to cook until the <div class="tooltip">rice<span class="tooltiptext"><span default="250" class="scalable">250</span> g</span></div> is tender.  </li>
+                <li itemprop="recipeInstructions">Stir through the <div class="tooltip">prawns<span class="tooltiptext"><span default="260" class="scalable">260</span> g</span></div>, put the lid on and leave to heat through. Season and sever immediately.  </li>
                 </ol>
         </div>
         <div class="source">

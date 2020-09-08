@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Pork" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
+    <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -24,7 +24,7 @@
                 </div>
                 <div class="icon baseline">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
+                    <meta itemprop="recipeYield" content="4 servings"><span id="servings" default="4">4</span>&nbsp;servings
                 </div>
             </h3>         
             <h3>
@@ -39,28 +39,28 @@
                 <button type="button" onclick="scaleRecipe(3)">x3</button>
             </div>             
             <ul>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">500</span></b> g loin of pork</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tbsp sunflower oil</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tbsp jerk seasoning</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">150</span></b> g fine green beans</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">250</span></b> g long-grain rice</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> onion, diced</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tsp dried oregano</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">400</span></b> g can red kidney beans, drained and rinsed</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> mango, coarsely grated</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> lime, finely grated zest and juice only</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tbsp honey</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="500" class="scalable">500</span></b> g loin of pork</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp sunflower oil</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp jerk seasoning</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="150" class="scalable">150</span></b> g fine green beans</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="250" class="scalable">250</span></b> g long-grain rice</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> onion, diced</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp dried oregano</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="400" class="scalable">400</span></b> g can red kidney beans, drained and rinsed</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> mango, coarsely grated</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> lime, finely grated zest and juice only</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp honey</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the oven to <b>180</b>&degC/Gas <b>6</b>. Brush the <div class="tooltip">pork<span class="tooltiptext"><span class="scalable">500</span> g</span></div> with the <div class="tooltip">oil<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div>, coat in the <div class="tooltip">jerk seasoning<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div> and roast for <b>20</b> minutes, until cooked through.</li>
-                <li itemprop="recipeInstructions">Cook the <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">250</span> g</span></div> according the packet instructions.</li>
-                <li itemprop="recipeInstructions">Meanwhile cook the <div class="tooltip">green beans<span class="tooltiptext"><span class="scalable">150</span> g</span></div> in a pan for boiling water of <b>2</b> minutes, then drain.</li>
-                <li itemprop="recipeInstructions">Heat the remaining <div class="tooltip">oil<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div> in a pan and stir-fry the <div class="tooltip">onion<span class="tooltiptext"><span class="scalable">1</span> </span></div> for <b>5</b> minutes until softened. Add the cooked <div class="tooltip">green beans<span class="tooltiptext"><span class="scalable">150</span> g</span></div> and <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">250</span> g</span></div>, <div class="tooltip">oregano<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div>, <div class="tooltip">kidney beans<span class="tooltiptext"><span class="scalable">400</span> g can</span></div> and <div class="tooltip">mango<span class="tooltiptext"><span class="scalable">1</span> </span></div>, and stir-fry for <b>5-6</b> minutes until piping hot.</li>
-                <li itemprop="recipeInstructions">Whisk together the <div class="tooltip">lime<span class="tooltiptext"><span class="scalable">1</span> </span></div> zest, juice and <div class="tooltip">honey<span class="tooltiptext"><span class="scalable">1</span> tbsp</span></div>.</li>
-                <li itemprop="recipeInstructions">Divide the <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">250</span> g</span></div> between <b>4</b> serving dishes, top with slices of cooked jerk <div class="tooltip">pork<span class="tooltiptext"><span class="scalable">500</span> g</span></div> and drizzle with the <div class="tooltip">lime<span class="tooltiptext"><span class="scalable">1</span> </span></div> dressing.</li>
+                <li itemprop="recipeInstructions">Heat the oven to <b>180</b>&degC/Gas <b>6</b>. Brush the <div class="tooltip">pork<span class="tooltiptext"><span default="500" class="scalable">500</span> g</span></div> with the <div class="tooltip">oil<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div>, coat in the <div class="tooltip">jerk seasoning<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div> and roast for <b>20</b> minutes, until cooked through.</li>
+                <li itemprop="recipeInstructions">Cook the <div class="tooltip">rice<span class="tooltiptext"><span default="250" class="scalable">250</span> g</span></div> according the packet instructions.</li>
+                <li itemprop="recipeInstructions">Meanwhile cook the <div class="tooltip">green beans<span class="tooltiptext"><span default="150" class="scalable">150</span> g</span></div> in a pan for boiling water of <b>2</b> minutes, then drain.</li>
+                <li itemprop="recipeInstructions">Heat the remaining <div class="tooltip">oil<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div> in a pan and stir-fry the <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> for <b>5</b> minutes until softened. Add the cooked <div class="tooltip">green beans<span class="tooltiptext"><span default="150" class="scalable">150</span> g</span></div> and <div class="tooltip">rice<span class="tooltiptext"><span default="250" class="scalable">250</span> g</span></div>, <div class="tooltip">oregano<span class="tooltiptext"><span default="1" class="scalable">1</span> tsp</span></div>, <div class="tooltip">kidney beans<span class="tooltiptext"><span default="400" class="scalable">400</span> g can</span></div> and <div class="tooltip">mango<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div>, and stir-fry for <b>5-6</b> minutes until piping hot.</li>
+                <li itemprop="recipeInstructions">Whisk together the <div class="tooltip">lime<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> zest, juice and <div class="tooltip">honey<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div>.</li>
+                <li itemprop="recipeInstructions">Divide the <div class="tooltip">rice<span class="tooltiptext"><span default="250" class="scalable">250</span> g</span></div> between <b>4</b> serving dishes, top with slices of cooked jerk <div class="tooltip">pork<span class="tooltiptext"><span default="500" class="scalable">500</span> g</span></div> and drizzle with the <div class="tooltip">lime<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> dressing.</li>
                 </ol>
         </div>
         <div class="source">

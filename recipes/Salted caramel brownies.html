@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Dessert" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
+    <body class="Dessert" itemscope itemtype="https://schema.org/Recipe">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -25,7 +25,7 @@
                 </div>
                 <div class="icon baseline">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="16 servings"><span id="servings">16</span>&nbsp;servings
+                    <meta itemprop="recipeYield" content="16 servings"><span id="servings" default="16">16</span>&nbsp;servings
                 </div>
             </h3>         
             <h3>
@@ -76,25 +76,25 @@
                 <button type="button" onclick="scaleRecipe(3)">x3</button>
             </div>             
             <ul>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">200</span></b> g unsalted butter, plus a little extra for greasing</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">100</span></b> g chocolate, <b>70</b>% cocoa solids</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">100</span></b> g chocolate, <b>50</b>% cocoa solids</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">397</span></b> g can Carnation caramel</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> tsp flaky sea salt, plus a little extra for the top</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">200</span></b> g golden caster sugar</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">4</span></b> medium eggs, at room temperature</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">130</span></b> g plain flour, flour</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">50</span></b> g cocoa powder</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="200" class="scalable">200</span></b> g unsalted butter, plus a little extra for greasing</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="100" class="scalable">100</span></b> g chocolate, <b>70</b>% cocoa solids</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="100" class="scalable">100</span></b> g chocolate, <b>50</b>% cocoa solids</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="397" class="scalable">397</span></b> g can Carnation caramel</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp flaky sea salt, plus a little extra for the top</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="200" class="scalable">200</span></b> g golden caster sugar</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> medium eggs, at room temperature</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="130" class="scalable">130</span></b> g plain flour, flour</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="50" class="scalable">50</span></b> g cocoa powder</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat oven to <b>180</b>&degC/<b>160</b>&degC fan/Gas <b>4</b>. Grease then line a <b>23</b> cm square traybake tin with baking parchment. Melt the butter in a medium pan, break in all the <div class="tooltip">chocolate<span class="tooltiptext"><span class="scalable">100</span> g</span></div>, then remove the pan from the heat and wait for the cubes to melt.  </li>
-                <li itemprop="recipeInstructions">In a small bowl, mix <b>175</b> g of the <div class="tooltip">caramel<span class="tooltiptext"><span class="scalable">397</span> g can</span></div> with <b>1</b> tsp <div class="tooltip">sea salt<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div> - it will loosen up. Put the rest of the <div class="tooltip">caramel<span class="tooltiptext"><span class="scalable">397</span> g can</span></div> in a large bowl with the <div class="tooltip">sugar<span class="tooltiptext"><span class="scalable">200</span> g</span></div> and <div class="tooltip">eggs<span class="tooltiptext"><span class="scalable">4</span> medium</span></div>, and beat with an electric hand mixer or balloon whisk until even.  </li>
-                <li itemprop="recipeInstructions">Whisk in the <div class="tooltip">chocolate<span class="tooltiptext"><span class="scalable">100</span> g</span></div> and butter. In another bowl, combine the flour, cocoa and a good pinch of table salt, then sift this on top of the <div class="tooltip">chocolate<span class="tooltiptext"><span class="scalable">100</span> g</span></div> mix. Beat briefly until smooth.  </li>
-                <li itemprop="recipeInstructions">Pour half the brownie batter into the tin and level it with a spatula. Using a teaspoon, spoon half of the salted <div class="tooltip">caramel<span class="tooltiptext"><span class="scalable">397</span> g can</span></div> on top of the batter layer in <b>5</b> thick, evenly spaced stripes.   Spoon the rest of the brownie batter on top and smooth it out, trying not to disturb the <div class="tooltip">caramel<span class="tooltiptext"><span class="scalable">397</span> g can</span></div> beneath. Top with the rest of the <div class="tooltip">caramel<span class="tooltiptext"><span class="scalable">397</span> g can</span></div> in the same stripy fashion. Drag a skewer or tip of a knife through the <div class="tooltip">caramel<span class="tooltiptext"><span class="scalable">397</span> g can</span></div> to make a feathered pattern on the top.  </li>
-                <li itemprop="recipeInstructions">Scatter with a little more <div class="tooltip">sea salt<span class="tooltiptext"><span class="scalable">1</span> tsp</span></div>, then bake for <b>25-30</b> mins or until risen all the way to the middle with a firm crust on top. When ready, the brownie will jiggle just a little when you shake the tin. Let it cool completely in the tin, then cut into squares.   </li>
+                <li itemprop="recipeInstructions">Heat oven to <b>180</b>&degC/<b>160</b>&degC fan/Gas <b>4</b>. Grease then line a <b>23</b> cm square traybake tin with baking parchment. Melt the butter in a medium pan, break in all the <div class="tooltip">chocolate<span class="tooltiptext"><span default="100" class="scalable">100</span> g</span></div>, then remove the pan from the heat and wait for the cubes to melt.  </li>
+                <li itemprop="recipeInstructions">In a small bowl, mix <b>175</b> g of the <div class="tooltip">caramel<span class="tooltiptext"><span default="397" class="scalable">397</span> g can</span></div> with <b>1</b> tsp <div class="tooltip">sea salt<span class="tooltiptext"><span default="1" class="scalable">1</span> tsp</span></div> - it will loosen up. Put the rest of the <div class="tooltip">caramel<span class="tooltiptext"><span default="397" class="scalable">397</span> g can</span></div> in a large bowl with the <div class="tooltip">sugar<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div> and <div class="tooltip">eggs<span class="tooltiptext"><span default="4" class="scalable">4</span> medium</span></div>, and beat with an electric hand mixer or balloon whisk until even.  </li>
+                <li itemprop="recipeInstructions">Whisk in the <div class="tooltip">chocolate<span class="tooltiptext"><span default="100" class="scalable">100</span> g</span></div> and butter. In another bowl, combine the flour, cocoa and a good pinch of table salt, then sift this on top of the <div class="tooltip">chocolate<span class="tooltiptext"><span default="100" class="scalable">100</span> g</span></div> mix. Beat briefly until smooth.  </li>
+                <li itemprop="recipeInstructions">Pour half the brownie batter into the tin and level it with a spatula. Using a teaspoon, spoon half of the salted <div class="tooltip">caramel<span class="tooltiptext"><span default="397" class="scalable">397</span> g can</span></div> on top of the batter layer in <b>5</b> thick, evenly spaced stripes.   Spoon the rest of the brownie batter on top and smooth it out, trying not to disturb the <div class="tooltip">caramel<span class="tooltiptext"><span default="397" class="scalable">397</span> g can</span></div> beneath. Top with the rest of the <div class="tooltip">caramel<span class="tooltiptext"><span default="397" class="scalable">397</span> g can</span></div> in the same stripy fashion. Drag a skewer or tip of a knife through the <div class="tooltip">caramel<span class="tooltiptext"><span default="397" class="scalable">397</span> g can</span></div> to make a feathered pattern on the top.  </li>
+                <li itemprop="recipeInstructions">Scatter with a little more <div class="tooltip">sea salt<span class="tooltiptext"><span default="1" class="scalable">1</span> tsp</span></div>, then bake for <b>25-30</b> mins or until risen all the way to the middle with a firm crust on top. When ready, the brownie will jiggle just a little when you shake the tin. Let it cool completely in the tin, then cut into squares.   </li>
                 </ol>
         </div>
         <div class="source">

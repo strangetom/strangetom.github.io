@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Lamb" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
+    <body class="Lamb" itemscope itemtype="https://schema.org/Recipe">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -25,7 +25,7 @@
                 </div>
                 <div class="icon baseline">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
+                    <meta itemprop="recipeYield" content="4 servings"><span id="servings" default="4">4</span>&nbsp;servings
                 </div>
             </h3>         
             <h3>
@@ -76,24 +76,24 @@
                 <button type="button" onclick="scaleRecipe(3)">x3</button>
             </div>             
             <ul>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">0.5</span></b> tsp cumin seeds</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tsp sunflower oil</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">200</span></b> g lean lamb steak, cubed</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> red pepper, deseeded and sliced</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> green chilli, deseeded and sliced</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> tbsp curry paste</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">225</span></b> g can chopped tomatoes, drained</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">150</span></b> ml can coconut cream</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">100</span></b> g bag baby leaf spinach</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">10</span></b> g pack coriander, chopped</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">&frac12;</span></b> tsp cumin seeds</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tsp sunflower oil</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="200" class="scalable">200</span></b> g lean lamb steak, cubed</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> red pepper, deseeded and sliced</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> green chilli, deseeded and sliced</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp curry paste</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="225" class="scalable">225</span></b> g can chopped tomatoes, drained</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="150" class="scalable">150</span></b> ml can coconut cream</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="100" class="scalable">100</span></b> g bag baby leaf spinach</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="10" class="scalable">10</span></b> g pack coriander, chopped</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b></b> rice or naan bread, to serve</li>
                 </ul>
         </div>
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the slow cooker if necessary. Dry-fry the <div class="tooltip">cumin seeds<span class="tooltiptext"><span class="scalable">0.5</span> tsp</span></div> for about <b>20</b> seconds in a pan, then add the <div class="tooltip">oil<span class="tooltiptext"><span class="scalable">2</span> tsp</span></div> and stir-fry the <div class="tooltip">lamb<span class="tooltiptext"><span class="scalable">200</span> g</span></div> for about <b>1</b> minute until browned, but not cooked all the way through. Tip into the slow cooker pot with the <div class="tooltip">peppers<span class="tooltiptext"><span class="scalable">1</span> </span></div>, <div class="tooltip">chilli<span class="tooltiptext"><span class="scalable">1</span> </span></div>, <div class="tooltip">curry paste<span class="tooltiptext"><span class="scalable">2</span> tbsp</span></div>, <div class="tooltip">tomatoes<span class="tooltiptext"><span class="scalable">225</span> g can</span></div> and <div class="tooltip">coconut cream<span class="tooltiptext"><span class="scalable">150</span> ml can</span></div>. Cover and cook on Hight for <b>1.5</b>-<b>2</b> hours until the <div class="tooltip">lamb<span class="tooltiptext"><span class="scalable">200</span> g</span></div> is tender.</li>
-                <li itemprop="recipeInstructions">Stir in the <div class="tooltip">spinach<span class="tooltiptext"><span class="scalable">100</span> g bag</span></div> and <div class="tooltip">coriander<span class="tooltiptext"><span class="scalable">10</span> g pack</span></div> with some seasoning if it needs it. Serve with rice or naan bread.</li>
+                <li itemprop="recipeInstructions">Heat the slow cooker if necessary. Dry-fry the <div class="tooltip">cumin seeds<span class="tooltiptext"><span default="0.5" class="scalable">&frac12;</span> tsp</span></div> for about <b>20</b> seconds in a pan, then add the <div class="tooltip">oil<span class="tooltiptext"><span default="2" class="scalable">2</span> tsp</span></div> and stir-fry the <div class="tooltip">lamb<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div> for about <b>1</b> minute until browned, but not cooked all the way through. Tip into the slow cooker pot with the <div class="tooltip">peppers<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div>, <div class="tooltip">chilli<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div>, <div class="tooltip">curry paste<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div>, <div class="tooltip">tomatoes<span class="tooltiptext"><span default="225" class="scalable">225</span> g can</span></div> and <div class="tooltip">coconut cream<span class="tooltiptext"><span default="150" class="scalable">150</span> ml can</span></div>. Cover and cook on Hight for <b>1.5</b>-<b>2</b> hours until the <div class="tooltip">lamb<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div> is tender.</li>
+                <li itemprop="recipeInstructions">Stir in the <div class="tooltip">spinach<span class="tooltiptext"><span default="100" class="scalable">100</span> g bag</span></div> and <div class="tooltip">coriander<span class="tooltiptext"><span default="10" class="scalable">10</span> g pack</span></div> with some seasoning if it needs it. Serve with rice or naan bread.</li>
                 </ol>
         </div>
         <div class="source">

@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Beef" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
+    <body class="Beef" itemscope itemtype="https://schema.org/Recipe">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -25,7 +25,7 @@
                 </div>
                 <div class="icon baseline">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="4 servings"><span id="servings">4</span>&nbsp;servings
+                    <meta itemprop="recipeYield" content="4 servings"><span id="servings" default="4">4</span>&nbsp;servings
                 </div>
             </h3>         
             <h3>
@@ -40,18 +40,18 @@
                 <button type="button" onclick="scaleRecipe(3)">x3</button>
             </div>             
             <ul>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> cloves garlic</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span></b> red peppers</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> brown onion</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span></b> red chilli</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">500</span></b> g beef mince</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> cloves garlic</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> red peppers</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> brown onion</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> red chilli</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="500" class="scalable">500</span></b> g beef mince</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b></b> paprika</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b></b> ground cumin</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b></b> dried oregano</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">1</span>x</b> <b>400</b> g tin kidney beans</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span>x</b> <b>400</b> g tin kidney beans</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b></b> sugar</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">2</span>x</b> <b>400</b> g tin chopped tomatoes</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">400</span></b> g basmati rice</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span>x</b> <b>400</b> g tin chopped tomatoes</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="400" class="scalable">400</span></b> g basmati rice</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b></b> dark (bittersweet) chocolate</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b></b> fresh coriander</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b></b> creme fraiche</li>
@@ -62,12 +62,12 @@
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Finely chop your <div class="tooltip">garlic<span class="tooltiptext"><span class="scalable">2</span> cloves</span></div>, <div class="tooltip">peppers<span class="tooltiptext"><span class="scalable">2</span> </span></div>, <div class="tooltip">brown onion<span class="tooltiptext"><span class="scalable">1</span> </span></div> and <div class="tooltip">chilli<span class="tooltiptext"><span class="scalable">1</span> </span></div></li>
-                <li itemprop="recipeInstructions">Add a splash of olive oil to a large frying pan and heat it over a medium heat until hot. Add the <div class="tooltip">beef mince<span class="tooltiptext"><span class="scalable">500</span> g</span></div> and, once it has browned, remove it and add the sliced veg to the pan, along with <b>2</b> teaspoons of paprika, <b>2</b> teaspoons of cumin and <b>2</b> teaspoons of oregano. Stir it in.</li>
-                <li itemprop="recipeInstructions">Once the onions have softened, reintroduce the <div class="tooltip">beef mince<span class="tooltiptext"><span class="scalable">500</span> g</span></div>, along with the drained <div class="tooltip">kidney beans<span class="tooltiptext"><span class="scalable">1</span>x 400 g tin</span></div> and <b>1</b> heaped teaspoon of sugar. Mix everything together, and then pour in the <div class="tooltip">chopped tomatoes<span class="tooltiptext"><span class="scalable">2</span>x 400 g tin</span></div>. Bring the <div class="tooltip">chilli<span class="tooltiptext"><span class="scalable">1</span> </span></div> to the boil and then cook, covered, for <b>30</b> miuntes.</li>
-                <li itemprop="recipeInstructions">Get the <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">400</span> g</span></div> on (following the instructions on the packet).</li>
-                <li itemprop="recipeInstructions">After <b>30</b> minutes, remove the lid from the <div class="tooltip">chilli<span class="tooltiptext"><span class="scalable">1</span> </span></div>. It should be nice and thick. At this point, add <b>60</b> g of chopped dark chocolate along with a large pinch of salt and pepper. Stir the chocolate in. Once it has melted, stir in a large handful of chopped coriander.</li>
-                <li itemprop="recipeInstructions">Serve the <div class="tooltip">chilli<span class="tooltiptext"><span class="scalable">1</span> </span></div> on top of your steaming hot <div class="tooltip">rice<span class="tooltiptext"><span class="scalable">400</span> g</span></div>, with a nice dollop of creme fraiche on top. Enjoy!</li>
+                <li itemprop="recipeInstructions">Finely chop your <div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div>, <div class="tooltip">peppers<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div>, <div class="tooltip">brown onion<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> and <div class="tooltip">chilli<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div></li>
+                <li itemprop="recipeInstructions">Add a splash of olive oil to a large frying pan and heat it over a medium heat until hot. Add the <div class="tooltip">beef mince<span class="tooltiptext"><span default="500" class="scalable">500</span> g</span></div> and, once it has browned, remove it and add the sliced veg to the pan, along with <b>2</b> teaspoons of paprika, <b>2</b> teaspoons of cumin and <b>2</b> teaspoons of oregano. Stir it in.</li>
+                <li itemprop="recipeInstructions">Once the onions have softened, reintroduce the <div class="tooltip">beef mince<span class="tooltiptext"><span default="500" class="scalable">500</span> g</span></div>, along with the drained <div class="tooltip">kidney beans<span class="tooltiptext"><span default="1" class="scalable">1</span>x 400 g tin</span></div> and <b>1</b> heaped teaspoon of sugar. Mix everything together, and then pour in the <div class="tooltip">chopped tomatoes<span class="tooltiptext"><span default="2" class="scalable">2</span>x 400 g tin</span></div>. Bring the <div class="tooltip">chilli<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> to the boil and then cook, covered, for <b>30</b> miuntes.</li>
+                <li itemprop="recipeInstructions">Get the <div class="tooltip">rice<span class="tooltiptext"><span default="400" class="scalable">400</span> g</span></div> on (following the instructions on the packet).</li>
+                <li itemprop="recipeInstructions">After <b>30</b> minutes, remove the lid from the <div class="tooltip">chilli<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div>. It should be nice and thick. At this point, add <b>60</b> g of chopped dark chocolate along with a large pinch of salt and pepper. Stir the chocolate in. Once it has melted, stir in a large handful of chopped coriander.</li>
+                <li itemprop="recipeInstructions">Serve the <div class="tooltip">chilli<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> on top of your steaming hot <div class="tooltip">rice<span class="tooltiptext"><span default="400" class="scalable">400</span> g</span></div>, with a nice dollop of creme fraiche on top. Enjoy!</li>
                 </ol>
         </div>
         <div class="source">

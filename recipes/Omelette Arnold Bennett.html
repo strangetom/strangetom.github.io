@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
-    <body class="Seafood" itemscope itemtype="https://schema.org/Recipe" onload="getDefault()">
+    <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
         <div class="information">
             <header>
                 <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
@@ -25,7 +25,7 @@
                 </div>
                 <div class="icon baseline">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="2 servings"><span id="servings">2</span>&nbsp;servings
+                    <meta itemprop="recipeYield" content="2 servings"><span id="servings" default="2">2</span>&nbsp;servings
                 </div>
             </h3>         
             <h3>
@@ -76,11 +76,11 @@
                 <button type="button" onclick="scaleRecipe(3)">x3</button>
             </div>             
             <ul>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">175</span></b> g smoked haddock fillet</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">50</span></b> g butter, diced</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">175</span></b> ml double cream</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">4</span></b> eggs, separated</li>
-                <li itemprop="recipeIngredient" class="ingredient"><b><span class="scalable">40</span></b> g mature cheddar cheese</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="175" class="scalable">175</span></b> g smoked haddock fillet</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="50" class="scalable">50</span></b> g butter, diced</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="175" class="scalable">175</span></b> ml double cream</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> eggs, separated</li>
+                <li itemprop="recipeIngredient" class="ingredient"><b><span default="40" class="scalable">40</span></b> g mature cheddar cheese</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b></b> ground black pepper</li>
                 <li itemprop="recipeIngredient" class="ingredient"><b></b> watercress, to garnish</li>
                 </ul>
@@ -88,10 +88,10 @@
         <div class="instructions">
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Put the <div class="tooltip">haddock<span class="tooltiptext"><span class="scalable">175</span> g</span></div> in a shallow pan with water to cover and poach over a medium heat for <b>8-10</b> minutes or until the fish flakes easily. Drain well.</li>
-                <li itemprop="recipeInstructions">Remove the skin and any bones from the <div class="tooltip">haddock<span class="tooltiptext"><span class="scalable">175</span> g</span></div> and discard. Carefully flake the fish using a fork.</li>
-                <li itemprop="recipeInstructions">Melt half the <div class="tooltip">butter<span class="tooltiptext"><span class="scalable">50</span> g</span></div> with <b>60</b> ml of the <div class="tooltip">cream<span class="tooltiptext"><span class="scalable">175</span> ml</span></div> in a fairly small non-stick pan, then add the flaked fish and stir together gently. Cover the pan and remove from the heat. Preheat the grill.</li>
-                <li itemprop="recipeInstructions">Mix the <div class="tooltip">egg<span class="tooltiptext"><span class="scalable">4</span> </span></div> yolks with <b>15</b> ml of the <div class="tooltip">cream<span class="tooltiptext"><span class="scalable">175</span> ml</span></div>. Season with pepper, then stir into the fish. Mix the <div class="tooltip">cheese<span class="tooltiptext"><span class="scalable">40</span> g</span></div> and the remaining <div class="tooltip">cream<span class="tooltiptext"><span class="scalable">175</span> ml</span></div>. Whisk the <div class="tooltip">egg<span class="tooltiptext"><span class="scalable">4</span> </span></div> whites until stiff, then fold into the fish mixture. Heat the remaining <div class="tooltip">butter<span class="tooltiptext"><span class="scalable">50</span> g</span></div> in an omelette pan, add the fish mixture and cook until browned underneath. Pour the <div class="tooltip">cheese<span class="tooltiptext"><span class="scalable">40</span> g</span></div> mixture over and grill until bubbling. Garnish and serve.</li>
+                <li itemprop="recipeInstructions">Put the <div class="tooltip">haddock<span class="tooltiptext"><span default="175" class="scalable">175</span> g</span></div> in a shallow pan with water to cover and poach over a medium heat for <b>8-10</b> minutes or until the fish flakes easily. Drain well.</li>
+                <li itemprop="recipeInstructions">Remove the skin and any bones from the <div class="tooltip">haddock<span class="tooltiptext"><span default="175" class="scalable">175</span> g</span></div> and discard. Carefully flake the fish using a fork.</li>
+                <li itemprop="recipeInstructions">Melt half the <div class="tooltip">butter<span class="tooltiptext"><span default="50" class="scalable">50</span> g</span></div> with <b>60</b> ml of the <div class="tooltip">cream<span class="tooltiptext"><span default="175" class="scalable">175</span> ml</span></div> in a fairly small non-stick pan, then add the flaked fish and stir together gently. Cover the pan and remove from the heat. Preheat the grill.</li>
+                <li itemprop="recipeInstructions">Mix the <div class="tooltip">egg<span class="tooltiptext"><span default="4" class="scalable">4</span> </span></div> yolks with <b>15</b> ml of the <div class="tooltip">cream<span class="tooltiptext"><span default="175" class="scalable">175</span> ml</span></div>. Season with pepper, then stir into the fish. Mix the <div class="tooltip">cheese<span class="tooltiptext"><span default="40" class="scalable">40</span> g</span></div> and the remaining <div class="tooltip">cream<span class="tooltiptext"><span default="175" class="scalable">175</span> ml</span></div>. Whisk the <div class="tooltip">egg<span class="tooltiptext"><span default="4" class="scalable">4</span> </span></div> whites until stiff, then fold into the fish mixture. Heat the remaining <div class="tooltip">butter<span class="tooltiptext"><span default="50" class="scalable">50</span> g</span></div> in an omelette pan, add the fish mixture and cook until browned underneath. Pour the <div class="tooltip">cheese<span class="tooltiptext"><span default="40" class="scalable">40</span> g</span></div> mixture over and grill until bubbling. Garnish and serve.</li>
                 </ol>
         </div>
         <div class="source">
