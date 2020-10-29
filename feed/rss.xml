@@ -5,6 +5,24 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Broccoli pesto &#x26; pancetta pasta</title>
+      <link>https://strangetom.github.io/recipes/Broccoli%20pesto%20&#x26;%20pancetta%20pasta.html</link>
+      <description>
+        &lt;h1&gt;Broccoli pesto &#x26; pancetta pasta&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Broccoli_pesto_&#x26;_pancetta_pasta.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Serve this healthy bowl of pasta topped with cherry tomatoes for a quick and easy midweek meal. It's tossed with broccoli pesto, and takes just 25 minutes to make.&lt;/p&gt;
+      </description>
+      <pubDate>Thu, 22 Oct 2020 23:00:00 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Broccoli%20pesto%20&#x26;%20pancetta%20pasta.html</guid>
+    </item>
+    <item>
+      <title>Creamy white bean and spinach quesadillas</title>
+      <link>https://strangetom.github.io/recipes/Creamy%20white%20bean%20and%20spinach%20quesadillas.html</link>
+      <description>
+        &lt;h1&gt;Creamy white bean and spinach quesadillas&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Creamy_white_bean_and_spinach_quesadillas.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Crispy on the outside, creamy on the inside, these insanely delicious Creamy White Bean and Spinach Quesadillas make an awesomely fast weeknight dinner.&nbsp;.&lt;/p&gt;
+      </description>
+      <pubDate>Thu, 22 Oct 2020 23:00:00 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Creamy%20white%20bean%20and%20spinach%20quesadillas.html</guid>
+    </item>
+    <item>
       <title>Sausage, kale &#x26; gnocchi one-pot</title>
       <link>https://strangetom.github.io/recipes/Sausage,%20kale%20&#x26;%20gnocchi%20one-pot.html</link>
       <description>
@@ -30,24 +48,6 @@
       </description>
       <pubDate>Wed, 07 Oct 2020 23:00:00 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Ground%20turkey%20stir%20fry.html</guid>
-    </item>
-    <item>
-      <title>Easy bbq chicken sandwiches</title>
-      <link>https://strangetom.github.io/recipes/Easy%20bbq%20chicken%20sandwiches.html</link>
-      <description>
-        &lt;h1&gt;Easy bbq chicken sandwiches&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Easy_bbq_chicken_sandwiches.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;These Easy BBQ Chicken Sandwiches are a fast, easy, and delicious way to satisfy your BBQ craving. No grill needed! Perfect for busy weeknights..&lt;/p&gt;
-      </description>
-      <pubDate>Wed, 30 Sep 2020 23:00:00 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Easy%20bbq%20chicken%20sandwiches.html</guid>
-    </item>
-    <item>
-      <title>Teriyaki meatball bowls</title>
-      <link>https://strangetom.github.io/recipes/Teriyaki%20meatball%20bowls.html</link>
-      <description>
-        &lt;h1&gt;Teriyaki meatball bowls&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Teriyaki_meatball_bowls.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Teriyaki Meatball Bowls include fragrant jasmine rice, tender pork meatballs, hoemamde teriyaki sauce, and broccoli florets for an easy meal prep friendly meal!.&lt;/p&gt;
-      </description>
-      <pubDate>Wed, 30 Sep 2020 23:00:00 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Teriyaki%20meatball%20bowls.html</guid>
     </item>
     </channel>
 </rss>
