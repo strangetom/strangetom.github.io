@@ -5,6 +5,24 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>5-a-day turmeric traybake chicken</title>
+      <link>https://strangetom.github.io/recipes/5-a-day%20turmeric%20traybake%20chicken.html</link>
+      <description>
+        &lt;h1&gt;5-a-day turmeric traybake chicken&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/5-a-day_turmeric_traybake_chicken.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Pack in 5-a-day with this colourful chicken traybake, perfect for midweek.&lt;/p&gt;
+      </description>
+      <pubDate>Fri, 20 Nov 2020 00:00:00 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/5-a-day%20turmeric%20traybake%20chicken.html</guid>
+    </item>
+    <item>
+      <title>Loaded chilli sweet potato fries</title>
+      <link>https://strangetom.github.io/recipes/Loaded%20chilli%20sweet%20potato%20fries.html</link>
+      <description>
+        &lt;h1&gt;Loaded chilli sweet potato fries&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Loaded_chilli_sweet_potato_fries.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Sweet potato fries are nothing new, but have you ever had loaded chilli sweet potato fries? Topped with a homemade creamy cheese sauce, sriracha, salsa, and avocado - honestly, they look like they came right out of one of my sweet potato dreams..&lt;/p&gt;
+      </description>
+      <pubDate>Fri, 20 Nov 2020 00:00:00 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Loaded%20chilli%20sweet%20potato%20fries.html</guid>
+    </item>
+    <item>
       <title>Easy peasy risotto with chilli &#x26; mint crumbs</title>
       <link>https://strangetom.github.io/recipes/Easy%20peasy%20risotto%20with%20chilli%20&#x26;%20mint%20crumbs.html</link>
       <description>
@@ -30,26 +48,6 @@
       </description>
       <pubDate>Fri, 06 Nov 2020 00:00:00 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Smoked%20fish%20and%20parsnip%20cakes.html</guid>
-    </item>
-    <item>
-      <title>Sloppy joes</title>
-      <link>https://strangetom.github.io/recipes/Sloppy%20joes.html</link>
-      <description>
-        &lt;h1&gt;Sloppy joes&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Sloppy_joes.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Some foods are memory triggers, meals that send you back to long-forgotten moments in your life. The sloppy Joe sandwich is one such time machine. 
-
-This version is an adaptation of one developed by Chris Gesualdi, the chef at TriBakery in Manhattan. It's a tribute to the one his mother, Rose, used to make for him as a child, and it is perfect: a sweet and spicy hill of thick sauteed ground beef spilling out of a toasted homemade kaiser roll. He tops his with melted cheddar, and that can't be a bad thing. All in all, it is a terrific antidote to adulthood..&lt;/p&gt;
-      </description>
-      <pubDate>Thu, 29 Oct 2020 00:00:00 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Sloppy%20joes.html</guid>
-    </item>
-    <item>
-      <title>Broccoli pesto &#x26; pancetta pasta</title>
-      <link>https://strangetom.github.io/recipes/Broccoli%20pesto%20&#x26;%20pancetta%20pasta.html</link>
-      <description>
-        &lt;h1&gt;Broccoli pesto &#x26; pancetta pasta&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Broccoli_pesto_&#x26;_pancetta_pasta.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Serve this healthy bowl of pasta topped with cherry tomatoes for a quick and easy midweek meal. It's tossed with broccoli pesto, and takes just 25 minutes to make.&lt;/p&gt;
-      </description>
-      <pubDate>Thu, 22 Oct 2020 23:00:00 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Broccoli%20pesto%20&#x26;%20pancetta%20pasta.html</guid>
     </item>
     </channel>
 </rss>
