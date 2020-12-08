@@ -5,6 +5,33 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Creamy tomato and spinach pasta</title>
+      <link>https://strangetom.github.io/recipes/Creamy%20tomato%20and%20spinach%20pasta.html</link>
+      <description>
+        &lt;h1&gt;Creamy tomato and spinach pasta&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Creamy_tomato_and_spinach_pasta.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Easier than a box meal, this creamy tomato and spinach pasta is also more flavorful and delicious. 100% real ingredients. Perfect for busy weeknights! .&lt;/p&gt;
+      </description>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Creamy%20tomato%20and%20spinach%20pasta.html</guid>
+    </item>
+    <item>
+      <title>Sticky maple chicken traybake</title>
+      <link>https://strangetom.github.io/recipes/Sticky%20maple%20chicken%20traybake.html</link>
+      <description>
+        &lt;h1&gt;Sticky maple chicken traybake&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Sticky_maple_chicken_traybake.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;An all-in-one seasonal roast that's perfect for a low key Sunday lunch, and with minimal washing up too.&lt;/p&gt;
+      </description>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Sticky%20maple%20chicken%20traybake.html</guid>
+    </item>
+    <item>
+      <title>Spiced lamb meatball stew</title>
+      <link>https://strangetom.github.io/recipes/Spiced%20lamb%20meatball%20stew.html</link>
+      <description>
+        &lt;h1&gt;Spiced lamb meatball stew&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Spiced_lamb_meatball_stew.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Enjoy spiced lamb meatballs with chickpeas and pomegranate seeds in a harissa sauce for an easy midweek meal. Freeze any leftovers for busy weekdays.&lt;/p&gt;
+      </description>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Spiced%20lamb%20meatball%20stew.html</guid>
+    </item>
+    <item>
       <title>5-a-day turmeric traybake chicken</title>
       <link>https://strangetom.github.io/recipes/5-a-day%20turmeric%20traybake%20chicken.html</link>
       <description>
@@ -21,33 +48,6 @@
       </description>
       <pubDate>Fri, 20 Nov 2020 00:00:00 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Loaded%20chilli%20sweet%20potato%20fries.html</guid>
-    </item>
-    <item>
-      <title>Easy peasy risotto with chilli &#x26; mint crumbs</title>
-      <link>https://strangetom.github.io/recipes/Easy%20peasy%20risotto%20with%20chilli%20&#x26;%20mint%20crumbs.html</link>
-      <description>
-        &lt;h1&gt;Easy peasy risotto with chilli &#x26; mint crumbs&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Easy_peasy_risotto_with_chilli_&#x26;_mint_crumbs.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;If you have some leftover chillies in the fridge, freeze them ready to grate into the topping of this tasty low-fat risotto..&lt;/p&gt;
-      </description>
-      <pubDate>Fri, 13 Nov 2020 00:00:00 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Easy%20peasy%20risotto%20with%20chilli%20&#x26;%20mint%20crumbs.html</guid>
-    </item>
-    <item>
-      <title>Original flava jerk chicken</title>
-      <link>https://strangetom.github.io/recipes/Original%20flava%20jerk%20chicken.html</link>
-      <description>
-        &lt;h1&gt;Original flava jerk chicken&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Original_flava_jerk_chicken.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Original Flava brothers cook up a carribean storm for £5.&lt;/p&gt;
-      </description>
-      <pubDate>Thu, 12 Nov 2020 00:00:00 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Original%20flava%20jerk%20chicken.html</guid>
-    </item>
-    <item>
-      <title>Smoked fish and parsnip cakes</title>
-      <link>https://strangetom.github.io/recipes/Smoked%20fish%20and%20parsnip%20cakes.html</link>
-      <description>
-        &lt;h1&gt;Smoked fish and parsnip cakes&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Smoked_fish_and_parsnip_cakes.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;I love to eat these for brunch, topped with a poached egg, but they are good any time of the day. If eating them for lunch or supper, try grating some fresh horseradish into soured cream to serve alongside..&lt;/p&gt;
-      </description>
-      <pubDate>Fri, 06 Nov 2020 00:00:00 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Smoked%20fish%20and%20parsnip%20cakes.html</guid>
     </item>
     </channel>
 </rss>
