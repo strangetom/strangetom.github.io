@@ -5,6 +5,15 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Citrus-spiced salmon</title>
+      <link>https://strangetom.github.io/recipes/Citrus-spiced%20salmon.html</link>
+      <description>
+        &lt;h1&gt;Citrus-spiced salmon&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Citrus-spiced_salmon.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Salmon is a great fish to spice up. Its oily nature an robust flavour allow it to hold spicing and gutsy marinades well without being overpowered, ad the spice mix for this dish is really quite bold..&lt;/p&gt;
+      </description>
+      <pubDate>Sat, 26 Dec 2020 00:00:00 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Citrus-spiced%20salmon.html</guid>
+    </item>
+    <item>
       <title>Spicy chicken tagine with apricots, rosemary and ginger</title>
       <link>https://strangetom.github.io/recipes/Spicy%20chicken%20tagine%20with%20apricots,%20rosemary%20and%20ginger.html</link>
       <description>
@@ -26,28 +35,19 @@
       <title>Key lime trifle </title>
       <link>https://strangetom.github.io/recipes/Key%20lime%20trifle%20.html</link>
       <description>
-        &lt;h1&gt;Key lime trifle &lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Key_lime_trifle_.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Madeira sponge makes the base of this zesty festive trifle .&lt;/p&gt;
+        &lt;h1&gt;Key lime trifle &lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Key_lime_trifle.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Madeira sponge makes the base of this zesty festive trifle .&lt;/p&gt;
       </description>
       <pubDate>Fri, 18 Dec 2020 00:00:00 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Key%20lime%20trifle%20.html</guid>
     </item>
     <item>
-      <title>Spicy butternut squash pasta with spinach</title>
-      <link>https://strangetom.github.io/recipes/Spicy%20butternut%20squash%20pasta%20with%20spinach.html</link>
+      <title>Ham and peas pasta with garlic parmesan cream sauce</title>
+      <link>https://strangetom.github.io/recipes/Ham%20and%20peas%20pasta%20with%20garlic%20parmesan%20cream%20sauce.html</link>
       <description>
-        &lt;h1&gt;Spicy butternut squash pasta with spinach&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Spicy_butternut_squash_pasta_with_spinach.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Here’s a vegetable-filled pasta bake that comes together in under an hour. The most time-consuming part of this recipe is prepping the squash. .&lt;/p&gt;
+        &lt;h1&gt;Ham and peas pasta with garlic parmesan cream sauce&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Ham_and_peas_pasta_with_garlic_parmesan_cream_sauce.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;The perfect way to use up all your leftover ham! It is amazingly creamy, comforting and kid-friendly!.&lt;/p&gt;
       </description>
       <pubDate>Wed, 16 Dec 2020 00:00:00 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Spicy%20butternut%20squash%20pasta%20with%20spinach.html</guid>
-    </item>
-    <item>
-      <title>Beef &#x26; vegetable casserole</title>
-      <link>https://strangetom.github.io/recipes/Beef%20&#x26;%20vegetable%20casserole.html</link>
-      <description>
-        &lt;h1&gt;Beef &#x26; vegetable casserole&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Beef_&#x26;_vegetable_casserole.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;A traditional braised beef stew with thick, rich gravy - an ideal recipe for cheap cuts, as slow-cooking guarantees a tender dish.&lt;/p&gt;
-      </description>
-      <pubDate>Fri, 11 Dec 2020 00:00:00 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Beef%20&#x26;%20vegetable%20casserole.html</guid>
+      <guid>https://strangetom.github.io/recipes/Ham%20and%20peas%20pasta%20with%20garlic%20parmesan%20cream%20sauce.html</guid>
     </item>
     </channel>
 </rss>
