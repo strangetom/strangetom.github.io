@@ -14,27 +14,52 @@
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
-        <div class="information">
-            <header>
-                <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
-            </header>
+
+        <a class="header" href="../index.html">
+            <img class="header-img" src="../img/header-logo.svg" alt="Stranger Foods">
+            <h4>Stranger Foods</h4>
+        </a>
+
+        <section class="recipe">
+            <h1 itemprop="name">Fish pie fillets</h1>
             <img itemprop="image" class="recipe-image" src="../images/Fish_pie_fillets.webp" alt="Recipe image">
-            <h1 class="recipe-title" itemprop="name">Fish pie fillets</h1>
-            <p class="recipe-description" itemprop="description">Filo adds a crunchy topping to these fish fillets with prawns and soft cheese. Serve with green beans or a salad, with new potatoes in their skins.</p>
-            <h3>
-                <div class="icon baseline"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="90" width="90" viewBox="0 0 100 100"><circle r="40" cy="45.556" cx="45.556" class="circle"/><path d="M45.556 10.556v35m32.5-2.5h-35" fill="#fff" stroke="#fff" stroke-width="5"/></svg>
-                    <meta itemprop="totalTime" content=PT20M>20 mins
-                    <meta itemprop="prepTime" content=PT10M>
-                    <meta itemprop="performTime" content=PT10M>
+            <p itemprop="description">Filo adds a crunchy topping to these fish fillets with prawns and soft cheese. Serve with green beans or a salad, with new potatoes in their skins.</p>
+            <h3><strong>Servings:</strong> <span id="servings" default="4">4</span></h3>
+            <h3><strong>Total:</strong> 20 mins</h3>
+            <meta itemprop="totalTime" content=PT20M>
+            <meta itemprop="prepTime" content=PT10M>
+            <meta itemprop="performTime" content=PT10M>
+            <meta itemprop="recipeYield" content="4 servings">
+
+            <div class="recipe-metadata">
                 </div>
-                <div class="icon baseline">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="4 servings"><span id="servings" default="4">4</span>&nbsp;servings
-                </div>
-            </h3>         
-            <h3>
-                </h3>          
+
+            <hr>
+            <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>
+            <ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b>x 175 g thick white fish fillets</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="small bunch" class="scalable">small bunch</span></b> dill, leaves only, chopped</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="100" class="scalable">100</span></b> g half-fat soft cheese</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="200" class="scalable">200</span></b> g frozen prawns, raw or cooked defrosted</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> sheets filo pastry</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tsp rapeseed oil</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp Parmesan, finely grated</li>
+</ul>
+        
+            <hr>
+            <h2>Instructions</h2>
+            <ol>
+                <li itemprop="recipeInstructions">Heat the oven to <b>200</b>&degC/Gas <b>7</b>. Put the fish onto a non-stick baking sheet and season all over. Mix the <div class="tooltip">dill<span class="tooltiptext">small bunch </span></div> and <div class="tooltip">soft cheese<span class="tooltiptext"><span default="100" class="scalable">100</span> g</span></div> in a small bowl, then stir in the <div class="tooltip">prawns<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div>, taking care not the break them up. Season with black pepper, then spread evenly over the fish.</li>
+                <li itemprop="recipeInstructions">Brush the <div class="tooltip">filo sheets<span class="tooltiptext"><span default="4" class="scalable">4</span> </span></div> with the <div class="tooltip">oil<span class="tooltiptext"><span default="2" class="scalable">2</span> tsp</span></div>, then cut into thick strips. Scrunch the pastry up a little and arrange on top of the fish. Scatter with <div class="tooltip">Parmesan<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div>, then bake for <b>10</b> minutes until the fish is cooked through and the pastry is crisp and golden. If you've used raw <div class="tooltip">prawns<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div> check they're cooked through.</li>
+                </ol>
+
+            <hr>
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -71,41 +96,9 @@
                     </li>
                 </ul>
             </div>  
-            </div>
-        <div class="ingredients">
-            <h2>Ingredients</h2>
-            <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
-                <button type="button" onclick="scaleRecipe(1)">x1</button>
-                <button type="button" onclick="scaleRecipe(2)">x2</button>
-                <button type="button" onclick="scaleRecipe(3)">x3</button>
-            </div>
-            <ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b>x 175 g thick white fish fillets</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="small bunch" class="scalable">small bunch</span></b> dill, leaves only, chopped</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="100" class="scalable">100</span></b> g half-fat soft cheese</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="200" class="scalable">200</span></b> g frozen prawns, raw or cooked defrosted</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> sheets filo pastry</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tsp rapeseed oil</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp Parmesan, finely grated</li>
-</ul>
-        </div>
-        <div class="instructions">
-            <h2>Instructions</h2>
-            <ol>
-                <li itemprop="recipeInstructions">Heat the oven to <b>200</b>&degC/Gas <b>7</b>. Put the fish onto a non-stick baking sheet and season all over. Mix the <div class="tooltip">dill<span class="tooltiptext">small bunch </span></div> and <div class="tooltip">soft cheese<span class="tooltiptext"><span default="100" class="scalable">100</span> g</span></div> in a small bowl, then stir in the <div class="tooltip">prawns<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div>, taking care not the break them up. Season with black pepper, then spread evenly over the fish.</li>
-                <li itemprop="recipeInstructions">Brush the <div class="tooltip">filo sheets<span class="tooltiptext"><span default="4" class="scalable">4</span> </span></div> with the <div class="tooltip">oil<span class="tooltiptext"><span default="2" class="scalable">2</span> tsp</span></div>, then cut into thick strips. Scrunch the pastry up a little and arrange on top of the fish. Scatter with <div class="tooltip">Parmesan<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div>, then bake for <b>10</b> minutes until the fish is cooked through and the pastry is crisp and golden. If you've used raw <div class="tooltip">prawns<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div> check they're cooked through.</li>
-                </ol>
-        </div>
-        <div class="source">
-            <div class="link">
-                <a href=>BBC Good Food: Cheap & Healthy</a>
-            </div>
-            <div class="link">
-                <a href=../recipes/6ab9af.html>Short Link</a> 
-                <a href=../recipes/Fish%20pie%20fillets.html>Long Link</a>
-            </div>
-        </div>
-        </main>
+            <a class="link" href=>BBC Good Food: Cheap & Healthy</a>
+            <a class="link" href=../recipes/6ab9af.html>Short Link</a> 
+            <a class="link" href=../recipes/Fish%20pie%20fillets.html>Long Link</a>
+        </section>
     </body>
 </html>

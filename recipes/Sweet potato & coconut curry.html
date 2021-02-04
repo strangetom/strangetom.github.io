@@ -14,36 +14,64 @@
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
-        <link itemprop="suitableForDiet" href="https://schema.org/VegetarianDiet">
-        <div class="information">
-            <header>
-                <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
-            </header>
+
+        <a class="header" href="../index.html">
+            <img class="header-img" src="../img/header-logo.svg" alt="Stranger Foods">
+            <h4>Stranger Foods</h4>
+        </a>
+
+        <section class="recipe">
+            <h1 itemprop="name">Sweet potato & coconut curry</h1>
             <img itemprop="image" class="recipe-image" src="../images/Sweet_potato_&_coconut_curry.webp" alt="Recipe image">
-            <h1 class="recipe-title" itemprop="name">Sweet potato & coconut curry</h1>
-            <p class="recipe-description" itemprop="description">Prep your veggies and let the slow cooker do the work with our filling sweet potato curry.</p>
-            <h3>
-                <div class="icon baseline"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="90" width="90" viewBox="0 0 100 100"><circle r="40" cy="45.556" cx="45.556" class="circle"/><path d="M45.556 10.556v35m32.5-2.5h-35" fill="#fff" stroke="#fff" stroke-width="5"/></svg>
-                    <meta itemprop="totalTime" content=PT470M>7 hr 50 mins
-                    <meta itemprop="prepTime" content=PT20M>
-                    <meta itemprop="performTime" content=PT450M>
+            <p itemprop="description">Prep your veggies and let the slow cooker do the work with our filling sweet potato curry.</p>
+            <h3><strong>Servings:</strong> <span id="servings" default="6">6</span></h3>
+            <h3><strong>Total:</strong> 7 hr 50 mins</h3>
+            <meta itemprop="totalTime" content=PT470M>
+            <meta itemprop="prepTime" content=PT20M>
+            <meta itemprop="performTime" content=PT450M>
+            <meta itemprop="recipeYield" content="6 servings">
+
+            <div class="recipe-metadata">
+                <h3><img class="diet-image" src="../img/vegetarian.svg" alt="vegetarian">Vegetarian</h3>
+                <h3><img class="diet-image" src="../img/vegan.svg" alt="Vegan">Vegan</h3>
+                <h3><img class="diet-image" src="../img/glutenfree.svg" alt="Gluten free">Gluten Free</h3>
                 </div>
-                <div class="icon baseline">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="6 servings"><span id="servings" default="6">6</span>&nbsp;servings
-                </div>
-            </h3>         
-            <h3>
-                <div class="icon baseline">
-                    <img src="../img/glutenfree.svg" alt="Gluten free icon">
-                    <link itemprop="suitableForDiet" href="https://schema.org/GlutenFreeDiet">Gluten Free
-                </div>   
-                <div class="icon baseline">
-                    <img src="../img/vegan.svg" alt="Vegan icon">
-                    <link itemprop="suitableForDiet" href="https://schema.org/VeganDiet">Vegan
-                </div>
-                </h3>          
+
+            <hr>
+            <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>
+            <ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> tbsp olive oil</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> large onions, halved and sliced</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> cloves garlic, crushed</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="thumb-sized piece" class="scalable">thumb-sized piece</span></b> root ginger, peeled</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp paprika</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">½</span></b> tsp cayenne</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> red chillies, deseeded and sliced</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> red peppers, deseeded and sliced</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="250" class="scalable">250</span></b> g red cabbage, shredded</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> kg sweet potatoes, peeled and chopped into chunks</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="300" class="scalable">300</span></b> g passata</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="400" class="scalable">400</span></b> ml coconut milk</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp peanut butter</li>
+</ul>
+        
+            <hr>
+            <h2>Instructions</h2>
+            <ol>
+                <li itemprop="recipeInstructions">Heat <b>1</b> tbsp <div class="tooltip">olive oil<span class="tooltiptext"><span default="4" class="scalable">4</span> tbsp</span></div> in a large non-stick frying pan and add the onion. Fry gently for <b>10</b> mins until soft then add the <div class="tooltip">garlic<span class="tooltiptext"><span default="3" class="scalable">3</span> cloves</span></div> and grate the ginger straight into the pan. Stir in the <div class="tooltip">paprika<span class="tooltiptext"><span default="1" class="scalable">1</span> tsp</span></div> and the <div class="tooltip">cayenne<span class="tooltiptext"><span default="0.5" class="scalable">&frac12;</span> tsp</span></div> and cook for another minute then tip into the slow cooker.</li>
+                <li itemprop="recipeInstructions">Return the pan to the heat and add another <b>1</b> tbsp oil along with the <div class="tooltip">chilli<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div>, <div class="tooltip">red pepper<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div> and shredded <div class="tooltip">cabbage<span class="tooltiptext"><span default="250" class="scalable">250</span> g</span></div>. Cook for <b>4-5</b> mins then tip into the slow cooker.</li>
+                <li itemprop="recipeInstructions">Use the remaining oil to fry the <div class="tooltip">sweet potatoes<span class="tooltiptext"><span default="1" class="scalable">1</span> kg</span></div>, you may have to do this in <b>2</b> or <b>3</b> batches depending on the size of your pan. Cook the <div class="tooltip">sweet potatoes<span class="tooltiptext"><span default="1" class="scalable">1</span> kg</span></div> for around <b>5</b> mins or just until they start to pick up some colour at the edges then put them in the slow cooker too.</li>
+                <li itemprop="recipeInstructions">Pour the <div class="tooltip">passata<span class="tooltiptext"><span default="300" class="scalable">300</span> g</span></div> and the <div class="tooltip">coconut milk<span class="tooltiptext"><span default="400" class="scalable">400</span> ml</span></div> over the <div class="tooltip">sweet potatoes<span class="tooltiptext"><span default="1" class="scalable">1</span> kg</span></div>, stir to mix everything together and cover the slow cooker with a lid and cook for <b>6-8</b>hrs or until the <div class="tooltip">sweet potatoes<span class="tooltiptext"><span default="1" class="scalable">1</span> kg</span></div> are tender.</li>
+                <li itemprop="recipeInstructions">Stir the <div class="tooltip">peanut butter<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div> through the curry, season well with salt and pepper and serve with couscous and chopped coriander scattered over the top.</li>
+                </ol>
+
+            <hr>
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -80,50 +108,9 @@
                     </li>
                 </ul>
             </div>  
-            </div>
-        <div class="ingredients">
-            <h2>Ingredients</h2>
-            <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
-                <button type="button" onclick="scaleRecipe(1)">x1</button>
-                <button type="button" onclick="scaleRecipe(2)">x2</button>
-                <button type="button" onclick="scaleRecipe(3)">x3</button>
-            </div>
-            <ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> tbsp olive oil</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> large onions, halved and sliced</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> cloves garlic, crushed</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="thumb-sized piece" class="scalable">thumb-sized piece</span></b> root ginger, peeled</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp paprika</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">½</span></b> tsp cayenne</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> red chillies, deseeded and sliced</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> red peppers, deseeded and sliced</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="250" class="scalable">250</span></b> g red cabbage, shredded</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> kg sweet potatoes, peeled and chopped into chunks</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="300" class="scalable">300</span></b> g passata</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="400" class="scalable">400</span></b> ml coconut milk</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp peanut butter</li>
-</ul>
-        </div>
-        <div class="instructions">
-            <h2>Instructions</h2>
-            <ol>
-                <li itemprop="recipeInstructions">Heat <b>1</b> tbsp <div class="tooltip">olive oil<span class="tooltiptext"><span default="4" class="scalable">4</span> tbsp</span></div> in a large non-stick frying pan and add the onion. Fry gently for <b>10</b> mins until soft then add the <div class="tooltip">garlic<span class="tooltiptext"><span default="3" class="scalable">3</span> cloves</span></div> and grate the ginger straight into the pan. Stir in the <div class="tooltip">paprika<span class="tooltiptext"><span default="1" class="scalable">1</span> tsp</span></div> and the <div class="tooltip">cayenne<span class="tooltiptext"><span default="0.5" class="scalable">&frac12;</span> tsp</span></div> and cook for another minute then tip into the slow cooker.</li>
-                <li itemprop="recipeInstructions">Return the pan to the heat and add another <b>1</b> tbsp oil along with the <div class="tooltip">chilli<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div>, <div class="tooltip">red pepper<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div> and shredded <div class="tooltip">cabbage<span class="tooltiptext"><span default="250" class="scalable">250</span> g</span></div>. Cook for <b>4-5</b> mins then tip into the slow cooker.</li>
-                <li itemprop="recipeInstructions">Use the remaining oil to fry the <div class="tooltip">sweet potatoes<span class="tooltiptext"><span default="1" class="scalable">1</span> kg</span></div>, you may have to do this in <b>2</b> or <b>3</b> batches depending on the size of your pan. Cook the <div class="tooltip">sweet potatoes<span class="tooltiptext"><span default="1" class="scalable">1</span> kg</span></div> for around <b>5</b> mins or just until they start to pick up some colour at the edges then put them in the slow cooker too.</li>
-                <li itemprop="recipeInstructions">Pour the <div class="tooltip">passata<span class="tooltiptext"><span default="300" class="scalable">300</span> g</span></div> and the <div class="tooltip">coconut milk<span class="tooltiptext"><span default="400" class="scalable">400</span> ml</span></div> over the <div class="tooltip">sweet potatoes<span class="tooltiptext"><span default="1" class="scalable">1</span> kg</span></div>, stir to mix everything together and cover the slow cooker with a lid and cook for <b>6-8</b>hrs or until the <div class="tooltip">sweet potatoes<span class="tooltiptext"><span default="1" class="scalable">1</span> kg</span></div> are tender.</li>
-                <li itemprop="recipeInstructions">Stir the <div class="tooltip">peanut butter<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div> through the curry, season well with salt and pepper and serve with couscous and chopped coriander scattered over the top.</li>
-                </ol>
-        </div>
-        <div class="source">
-            <div class="link">
-                <a href=https://www.bbcgoodfood.com/recipes/sweet-potato-coconut-curry>www.bbcgoodfood.com</a>
-            </div>
-            <div class="link">
-                <a href=../recipes/130139.html>Short Link</a> 
-                <a href=../recipes/Sweet%20potato%20&%20coconut%20curry.html>Long Link</a>
-            </div>
-        </div>
-        </main>
+            <a class="link" href=https://www.bbcgoodfood.com/recipes/sweet-potato-coconut-curry>www.bbcgoodfood.com</a>
+            <a class="link" href=../recipes/130139.html>Short Link</a> 
+            <a class="link" href=../recipes/Sweet%20potato%20&%20coconut%20curry.html>Long Link</a>
+        </section>
     </body>
 </html>

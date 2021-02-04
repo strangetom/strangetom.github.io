@@ -14,28 +14,61 @@
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
-        <link itemprop="suitableForDiet" href="https://schema.org/VegetarianDiet">
-        <div class="information">
-            <header>
-                <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
-            </header>
+
+        <a class="header" href="../index.html">
+            <img class="header-img" src="../img/header-logo.svg" alt="Stranger Foods">
+            <h4>Stranger Foods</h4>
+        </a>
+
+        <section class="recipe">
+            <h1 itemprop="name">White beans and pasta with rosemary pesto</h1>
             <img itemprop="image" class="recipe-image" src="../images/White_beans_and_pasta_with_rosemary_pesto.webp" alt="Recipe image">
-            <h1 class="recipe-title" itemprop="name">White beans and pasta with rosemary pesto</h1>
-            <p class="recipe-description" itemprop="description">Tender beans cozy up with hearty pasta and fragrant pesto – a 30 minute weeknight meal!</p>
-            <h3>
-                <div class="icon baseline"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="90" width="90" viewBox="0 0 100 100"><circle r="40" cy="45.556" cx="45.556" class="circle"/><path d="M45.556 10.556v35m32.5-2.5h-35" fill="#fff" stroke="#fff" stroke-width="5"/></svg>
-                    <meta itemprop="totalTime" content=PT30M>30 mins
-                    <meta itemprop="prepTime" content=PT5M>
-                    <meta itemprop="performTime" content=P25TM>
+            <p itemprop="description">Tender beans cozy up with hearty pasta and fragrant pesto – a 30 minute weeknight meal!</p>
+            <h3><strong>Servings:</strong> <span id="servings" default="3">3</span></h3>
+            <h3><strong>Total:</strong> 30 mins</h3>
+            <meta itemprop="totalTime" content=PT30M>
+            <meta itemprop="prepTime" content=PT5M>
+            <meta itemprop="performTime" content=P25TM>
+            <meta itemprop="recipeYield" content="3 servings">
+
+            <div class="recipe-metadata">
+                <h3><img class="diet-image" src="../img/vegetarian.svg" alt="vegetarian">Vegetarian</h3>
                 </div>
-                <div class="icon baseline">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="3 servings"><span id="servings" default="3">3</span>&nbsp;servings
-                </div>
-            </h3>         
-            <h3>
-                </h3>          
+
+            <hr>
+            <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>
+            <ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> small yellow onion, peeled and roughly chopped</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> cloves garlic, peeled</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tablespoon extra virgin olive oil</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.125" class="scalable">⅛</span></b> teaspoon red pepper flakes</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="200" class="scalable">200</span></b> g orecchiette pasta</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.25" class="scalable">¼</span></b> cup tomato paste</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b>x 400 g can cannellini white beans, drained and rinsed</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tablespoon salted butter</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">½</span></b> cup rosemary arugula pesto</li>
+<li itemprop="recipeIngredient" class="ingredient">Crusty bread and fresh arugula for serving (optional)</li>
+</ul>
+        
+            <hr>
+            <h2>Instructions</h2>
+            <ol>
+                <li itemprop="recipeInstructions">Set a large pot of water on the stove and bring to a boil.</li>
+                <li itemprop="recipeInstructions">Meanwhile, place the <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> small</span></div> and <div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div> in the bowl of a food processor and pulse until pureed.</li>
+                <li itemprop="recipeInstructions">Heat the <div class="tooltip">olive oil<span class="tooltiptext"><span default="1" class="scalable">1</span> tablespoon</span></div> in a large pan set over medium heat. Add the <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> small</span></div>-<div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div> puree along with the <div class="tooltip">red pepper flakes<span class="tooltiptext"><span default="0.125" class="scalable">&frac18;</span> teaspoon</span></div>. Cook, stirring frequently, until the onions have softened and lost their bite; about <b>8</b> to <b>10</b> minutes.</li>
+                <li itemprop="recipeInstructions">Meanwhile, add the <div class="tooltip">pasta<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div> to the boiling water and cook <b>1</b> or <b>2</b> minutes shy of al dente according to package directions (until there is just the slightest bite left in the center).</li>
+                <li itemprop="recipeInstructions">When the <div class="tooltip">pasta<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div> is nearly done cooking, add the <div class="tooltip">tomato paste<span class="tooltiptext"><span default="0.25" class="scalable">&frac14;</span> cup</span></div> and <div class="tooltip">beans<span class="tooltiptext"><span default="1" class="scalable">1</span>x 400 g can</span></div> to the <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> small</span></div>-<div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div> mixture. Strain the <div class="tooltip">pasta<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div>, reserving one cup of cooking water. Add half of the reserved cooking water to the tomato-<div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> small</span></div> mixture and cook for <b>2</b> to <b>3</b> minutes, until well-combined and slightly reduced.</li>
+                <li itemprop="recipeInstructions">Add the <div class="tooltip">butter<span class="tooltiptext"><span default="1" class="scalable">1</span> tablespoon</span></div> and drained almost-al dente <div class="tooltip">pasta<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div> to the pan and toss well. Add enough of the remaining half cup <div class="tooltip">pasta<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div> cooking water to mostly submerge the <div class="tooltip">pasta<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div>. Cook until the <div class="tooltip">pasta<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div> is tender and the sauce is very thick, another <b>2</b> to <b>3</b> minutes.</li>
+                <li itemprop="recipeInstructions">Stir half of the <div class="tooltip">pesto<span class="tooltiptext"><span default="0.5" class="scalable">&frac12;</span> cup</span></div> into the <div class="tooltip">pasta<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div>; taste and add salt as desired. Serve hot, with crusty bread and fresh arugula (optional). Garnish with the remaining <div class="tooltip">pesto<span class="tooltiptext"><span default="0.5" class="scalable">&frac12;</span> cup</span></div>.</li>
+                </ol>
+
+            <hr>
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -72,49 +105,9 @@
                     </li>
                 </ul>
             </div>  
-            </div>
-        <div class="ingredients">
-            <h2>Ingredients</h2>
-            <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
-                <button type="button" onclick="scaleRecipe(1)">x1</button>
-                <button type="button" onclick="scaleRecipe(2)">x2</button>
-                <button type="button" onclick="scaleRecipe(3)">x3</button>
-            </div>
-            <ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> small yellow onion, peeled and roughly chopped</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> cloves garlic, peeled</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tablespoon extra virgin olive oil</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.125" class="scalable">⅛</span></b> teaspoon red pepper flakes</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="200" class="scalable">200</span></b> g orecchiette pasta</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.25" class="scalable">¼</span></b> cup tomato paste</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b>x 400 g can cannellini white beans, drained and rinsed</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tablespoon salted butter</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">½</span></b> cup rosemary arugula pesto</li>
-<li itemprop="recipeIngredient" class="ingredient">Crusty bread and fresh arugula for serving (optional)</li>
-</ul>
-        </div>
-        <div class="instructions">
-            <h2>Instructions</h2>
-            <ol>
-                <li itemprop="recipeInstructions">Set a large pot of water on the stove and bring to a boil.</li>
-                <li itemprop="recipeInstructions">Meanwhile, place the <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> small</span></div> and <div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div> in the bowl of a food processor and pulse until pureed.</li>
-                <li itemprop="recipeInstructions">Heat the <div class="tooltip">olive oil<span class="tooltiptext"><span default="1" class="scalable">1</span> tablespoon</span></div> in a large pan set over medium heat. Add the <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> small</span></div>-<div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div> puree along with the <div class="tooltip">red pepper flakes<span class="tooltiptext"><span default="0.125" class="scalable">&frac18;</span> teaspoon</span></div>. Cook, stirring frequently, until the onions have softened and lost their bite; about <b>8</b> to <b>10</b> minutes.</li>
-                <li itemprop="recipeInstructions">Meanwhile, add the <div class="tooltip">pasta<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div> to the boiling water and cook <b>1</b> or <b>2</b> minutes shy of al dente according to package directions (until there is just the slightest bite left in the center).</li>
-                <li itemprop="recipeInstructions">When the <div class="tooltip">pasta<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div> is nearly done cooking, add the <div class="tooltip">tomato paste<span class="tooltiptext"><span default="0.25" class="scalable">&frac14;</span> cup</span></div> and <div class="tooltip">beans<span class="tooltiptext"><span default="1" class="scalable">1</span>x 400 g can</span></div> to the <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> small</span></div>-<div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div> mixture. Strain the <div class="tooltip">pasta<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div>, reserving one cup of cooking water. Add half of the reserved cooking water to the tomato-<div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> small</span></div> mixture and cook for <b>2</b> to <b>3</b> minutes, until well-combined and slightly reduced.</li>
-                <li itemprop="recipeInstructions">Add the <div class="tooltip">butter<span class="tooltiptext"><span default="1" class="scalable">1</span> tablespoon</span></div> and drained almost-al dente <div class="tooltip">pasta<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div> to the pan and toss well. Add enough of the remaining half cup <div class="tooltip">pasta<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div> cooking water to mostly submerge the <div class="tooltip">pasta<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div>. Cook until the <div class="tooltip">pasta<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div> is tender and the sauce is very thick, another <b>2</b> to <b>3</b> minutes.</li>
-                <li itemprop="recipeInstructions">Stir half of the <div class="tooltip">pesto<span class="tooltiptext"><span default="0.5" class="scalable">&frac12;</span> cup</span></div> into the <div class="tooltip">pasta<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div>; taste and add salt as desired. Serve hot, with crusty bread and fresh arugula (optional). Garnish with the remaining <div class="tooltip">pesto<span class="tooltiptext"><span default="0.5" class="scalable">&frac12;</span> cup</span></div>.</li>
-                </ol>
-        </div>
-        <div class="source">
-            <div class="link">
-                <a href=https://thewanderlustkitchen.com/white-beans-and-pasta-rosemary-pesto/>www.thewanderlustkitchen.com</a>
-            </div>
-            <div class="link">
-                <a href=../recipes/72d035.html>Short Link</a> 
-                <a href=../recipes/White%20beans%20and%20pasta%20with%20rosemary%20pesto.html>Long Link</a>
-            </div>
-        </div>
-        </main>
+            <a class="link" href=https://thewanderlustkitchen.com/white-beans-and-pasta-rosemary-pesto/>www.thewanderlustkitchen.com</a>
+            <a class="link" href=../recipes/72d035.html>Short Link</a> 
+            <a class="link" href=../recipes/White%20beans%20and%20pasta%20with%20rosemary%20pesto.html>Long Link</a>
+        </section>
     </body>
 </html>

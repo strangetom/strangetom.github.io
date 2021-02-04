@@ -14,28 +14,59 @@
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
-        <link itemprop="suitableForDiet" href="https://schema.org/VegetarianDiet">
-        <div class="information">
-            <header>
-                <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
-            </header>
+
+        <a class="header" href="../index.html">
+            <img class="header-img" src="../img/header-logo.svg" alt="Stranger Foods">
+            <h4>Stranger Foods</h4>
+        </a>
+
+        <section class="recipe">
+            <h1 itemprop="name">Veggie shepherd's pie with sweet potato mash</h1>
             <img itemprop="image" class="recipe-image" src="../images/Veggie_shepherds_pie_with_sweet_potato_mash.webp" alt="Recipe image">
-            <h1 class="recipe-title" itemprop="name">Veggie shepherd's pie with sweet potato mash</h1>
-            <p class="recipe-description" itemprop="description">The secret to this shepherd's pie’s filling is to choose big carrots so they don’t lose their texture when cooked</p>
-            <h3>
-                <div class="icon baseline"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="90" width="90" viewBox="0 0 100 100"><circle r="40" cy="45.556" cx="45.556" class="circle"/><path d="M45.556 10.556v35m32.5-2.5h-35" fill="#fff" stroke="#fff" stroke-width="5"/></svg>
-                    <meta itemprop="totalTime" content=PT45M>45 mins
-                    <meta itemprop="prepTime" content=>
-                    <meta itemprop="performTime" content=PT45M>
+            <p itemprop="description">The secret to this shepherd's pie’s filling is to choose big carrots so they don’t lose their texture when cooked</p>
+            <h3><strong>Servings:</strong> <span id="servings" default="4">4</span></h3>
+            <h3><strong>Total:</strong> 45 mins</h3>
+            <meta itemprop="totalTime" content=PT45M>
+            <meta itemprop="prepTime" content=>
+            <meta itemprop="performTime" content=PT45M>
+            <meta itemprop="recipeYield" content="4 servings">
+
+            <div class="recipe-metadata">
+                <h3><img class="diet-image" src="../img/vegetarian.svg" alt="vegetarian">Vegetarian</h3>
                 </div>
-                <div class="icon baseline">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="4 servings"><span id="servings" default="4">4</span>&nbsp;servings
-                </div>
-            </h3>         
-            <h3>
-                </h3>          
+
+            <hr>
+            <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>
+            <ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp olive oil</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> large onion, halved and sliced</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> large carrots (500 g in total), cut into sugar-cube size pieces</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp thyme, chopped</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="200" class="scalable">200</span></b> ml red wine</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="400" class="scalable">400</span></b> g can chopped tomatoes</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> vegetable stock cubes</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="410" class="scalable">410</span></b> g can green lentils</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="950" class="scalable">950</span></b> g sweet potatoes, peeled and cut into chunks</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="25" class="scalable">25</span></b> g butter</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="85" class="scalable">85</span></b> g vegetarian mature cheddar, grated</li>
+</ul>
+        
+            <hr>
+            <h2>Instructions</h2>
+            <ol>
+                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div> in a frying pan, then fry the <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> large</span></div> until golden. Add the <div class="tooltip">carrots<span class="tooltiptext"><span default="2" class="scalable">2</span> large</span></div> and all but a sprinkling of <div class="tooltip">thyme<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div>. Pour in the <div class="tooltip">wine<span class="tooltiptext"><span default="200" class="scalable">200</span> ml</span></div>, <b>150</b>ml water and the <div class="tooltip">tomatoes<span class="tooltiptext"><span default="400" class="scalable">400</span> g can</span></div>, then sprinkle in the <div class="tooltip">stock cubes<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div> and simmer for <b>10</b> mins. Tip in the can of <div class="tooltip">lentils<span class="tooltiptext"><span default="410" class="scalable">410</span> g can</span></div>, including their juice, then cover and simmer for another <b>10</b> mins until the <div class="tooltip">carrots<span class="tooltiptext"><span default="2" class="scalable">2</span> large</span></div> still have a bit of bite and the <div class="tooltip">lentils<span class="tooltiptext"><span default="410" class="scalable">410</span> g can</span></div> are pulpy.</li>
+                <li itemprop="recipeInstructions">Meanwhile, boil the <div class="tooltip">sweet potatoes<span class="tooltiptext"><span default="950" class="scalable">950</span> g</span></div> for <b>15</b> mins until tender, drain well, then mash with the <div class="tooltip">butter<span class="tooltiptext"><span default="25" class="scalable">25</span> g</span></div> and season to taste. </li>
+                <li itemprop="recipeInstructions">Pile the lentil mixture into a pie dish, spoon the mash on top, then sprinkle over the <div class="tooltip">cheese<span class="tooltiptext"><span default="85" class="scalable">85</span> g</span></div> and remaining <div class="tooltip">thyme<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div>. The pie can now be covered and chilled for <b>2</b> days, or frozen for up to a month.</li>
+                <li itemprop="recipeInstructions">Heat oven to <b>170</b>&degC/Gas <b>5</b>. Cook for <b>20</b> mins if cooking straight away, or for <b>40</b> mins from chilled, until golden and hot all the way through. Serve with broccoli. </li>
+                </ol>
+
+            <hr>
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -72,47 +103,9 @@
                     </li>
                 </ul>
             </div>  
-            </div>
-        <div class="ingredients">
-            <h2>Ingredients</h2>
-            <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
-                <button type="button" onclick="scaleRecipe(1)">x1</button>
-                <button type="button" onclick="scaleRecipe(2)">x2</button>
-                <button type="button" onclick="scaleRecipe(3)">x3</button>
-            </div>
-            <ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp olive oil</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> large onion, halved and sliced</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> large carrots (500 g in total), cut into sugar-cube size pieces</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp thyme, chopped</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="200" class="scalable">200</span></b> ml red wine</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="400" class="scalable">400</span></b> g can chopped tomatoes</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> vegetable stock cubes</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="410" class="scalable">410</span></b> g can green lentils</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="950" class="scalable">950</span></b> g sweet potatoes, peeled and cut into chunks</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="25" class="scalable">25</span></b> g butter</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="85" class="scalable">85</span></b> g vegetarian mature cheddar, grated</li>
-</ul>
-        </div>
-        <div class="instructions">
-            <h2>Instructions</h2>
-            <ol>
-                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div> in a frying pan, then fry the <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> large</span></div> until golden. Add the <div class="tooltip">carrots<span class="tooltiptext"><span default="2" class="scalable">2</span> large</span></div> and all but a sprinkling of <div class="tooltip">thyme<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div>. Pour in the <div class="tooltip">wine<span class="tooltiptext"><span default="200" class="scalable">200</span> ml</span></div>, <b>150</b>ml water and the <div class="tooltip">tomatoes<span class="tooltiptext"><span default="400" class="scalable">400</span> g can</span></div>, then sprinkle in the <div class="tooltip">stock cubes<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div> and simmer for <b>10</b> mins. Tip in the can of <div class="tooltip">lentils<span class="tooltiptext"><span default="410" class="scalable">410</span> g can</span></div>, including their juice, then cover and simmer for another <b>10</b> mins until the <div class="tooltip">carrots<span class="tooltiptext"><span default="2" class="scalable">2</span> large</span></div> still have a bit of bite and the <div class="tooltip">lentils<span class="tooltiptext"><span default="410" class="scalable">410</span> g can</span></div> are pulpy.</li>
-                <li itemprop="recipeInstructions">Meanwhile, boil the <div class="tooltip">sweet potatoes<span class="tooltiptext"><span default="950" class="scalable">950</span> g</span></div> for <b>15</b> mins until tender, drain well, then mash with the <div class="tooltip">butter<span class="tooltiptext"><span default="25" class="scalable">25</span> g</span></div> and season to taste. </li>
-                <li itemprop="recipeInstructions">Pile the lentil mixture into a pie dish, spoon the mash on top, then sprinkle over the <div class="tooltip">cheese<span class="tooltiptext"><span default="85" class="scalable">85</span> g</span></div> and remaining <div class="tooltip">thyme<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div>. The pie can now be covered and chilled for <b>2</b> days, or frozen for up to a month.</li>
-                <li itemprop="recipeInstructions">Heat oven to <b>170</b>&degC/Gas <b>5</b>. Cook for <b>20</b> mins if cooking straight away, or for <b>40</b> mins from chilled, until golden and hot all the way through. Serve with broccoli. </li>
-                </ol>
-        </div>
-        <div class="source">
-            <div class="link">
-                <a href=https://www.bbcgoodfood.com/recipes/4382/veggie-shepherds-pie-with-sweet-potato-mash>www.bbcgoodfood.com</a>
-            </div>
-            <div class="link">
-                <a href=../recipes/d11259.html>Short Link</a> 
-                <a href=../recipes/Veggie%20shepherd's%20pie%20with%20sweet%20potato%20mash.html>Long Link</a>
-            </div>
-        </div>
-        </main>
+            <a class="link" href=https://www.bbcgoodfood.com/recipes/4382/veggie-shepherds-pie-with-sweet-potato-mash>www.bbcgoodfood.com</a>
+            <a class="link" href=../recipes/d11259.html>Short Link</a> 
+            <a class="link" href=../recipes/Veggie%20shepherd's%20pie%20with%20sweet%20potato%20mash.html>Long Link</a>
+        </section>
     </body>
 </html>

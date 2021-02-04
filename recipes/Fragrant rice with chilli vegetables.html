@@ -14,28 +14,57 @@
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
-        <link itemprop="suitableForDiet" href="https://schema.org/VegetarianDiet">
-        <div class="information">
-            <header>
-                <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
-            </header>
+
+        <a class="header" href="../index.html">
+            <img class="header-img" src="../img/header-logo.svg" alt="Stranger Foods">
+            <h4>Stranger Foods</h4>
+        </a>
+
+        <section class="recipe">
+            <h1 itemprop="name">Fragrant rice with chilli vegetables</h1>
             <img itemprop="image" class="recipe-image" src="../images/Fragrant_rice_with_chilli_vegetables.webp" alt="Recipe image">
-            <h1 class="recipe-title" itemprop="name">Fragrant rice with chilli vegetables</h1>
-            <p class="recipe-description" itemprop="description">Simple ingredients are given a flavour with fresh-tasting lemongrass, coriander and the fiery heat of chopped chilli.</p>
-            <h3>
-                <div class="icon baseline"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="90" width="90" viewBox="0 0 100 100"><circle r="40" cy="45.556" cx="45.556" class="circle"/><path d="M45.556 10.556v35m32.5-2.5h-35" fill="#fff" stroke="#fff" stroke-width="5"/></svg>
-                    <meta itemprop="totalTime" content=PT45M>45 mins
-                    <meta itemprop="prepTime" content=PT10M>
-                    <meta itemprop="performTime" content=PT35M>
+            <p itemprop="description">Simple ingredients are given a flavour with fresh-tasting lemongrass, coriander and the fiery heat of chopped chilli.</p>
+            <h3><strong>Servings:</strong> <span id="servings" default="4">4</span></h3>
+            <h3><strong>Total:</strong> 45 mins</h3>
+            <meta itemprop="totalTime" content=PT45M>
+            <meta itemprop="prepTime" content=PT10M>
+            <meta itemprop="performTime" content=PT35M>
+            <meta itemprop="recipeYield" content="4 servings">
+
+            <div class="recipe-metadata">
+                <h3><img class="diet-image" src="../img/vegetarian.svg" alt="vegetarian">Vegetarian</h3>
                 </div>
-                <div class="icon baseline">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="4 servings"><span id="servings" default="4">4</span>&nbsp;servings
-                </div>
-            </h3>         
-            <h3>
-                </h3>          
+
+            <hr>
+            <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>
+            <ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="225" class="scalable">225</span></b> g jasmine or Thai rice</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> stalk lemongrass, finely chopped</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="175" class="scalable">175</span></b> g mangetout, halved lengthways</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="175" class="scalable">175</span></b> g baby sweetcorn, halved lengthways</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tomatoes, roughly chopped</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="25" class="scalable">25</span></b> g coriander leaves, finely chopped</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="25" class="scalable">25</span></b> g desiccated coconut, lightly toasted</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> red chilli, deseeded and finely chopped</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp light soy sauce</li>
+<li itemprop="recipeIngredient" class="ingredient">coriander sprigs, to garnish</li>
+</ul>
+        
+            <hr>
+            <h2>Instructions</h2>
+            <ol>
+                <li itemprop="recipeInstructions">Half fill the base of a steamer with water. Bring to the boil and cover with the steamer layers and lid. Rinse the <div class="tooltip">rice<span class="tooltiptext"><span default="225" class="scalable">225</span> g</span></div> under cold running water. Drain and put into a basin (check that it will fit into the steamer layer). Add the <div class="tooltip">lemongrass<span class="tooltiptext"><span default="1" class="scalable">1</span> stalk</span></div>, some seasoning and <b>600</b> ml boiling water into the basin and put on the lid. Cook the <div class="tooltip">rice<span class="tooltiptext"><span default="225" class="scalable">225</span> g</span></div> for <b>30</b> minutes until the <div class="tooltip">rice<span class="tooltiptext"><span default="225" class="scalable">225</span> g</span></div> has absorbed almost all the water.</li>
+                <li itemprop="recipeInstructions">Arrange the vegetables in the steamer, around the basin. Cover and steam for <b>2</b> minutes.</li>
+                <li itemprop="recipeInstructions">Stir the <div class="tooltip">coriander<span class="tooltiptext"><span default="25" class="scalable">25</span> g</span></div>, <div class="tooltip">coconut<span class="tooltiptext"><span default="25" class="scalable">25</span> g</span></div> and <div class="tooltip">chilli<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> into the <div class="tooltip">rice<span class="tooltiptext"><span default="225" class="scalable">225</span> g</span></div> and divide the <div class="tooltip">rice<span class="tooltiptext"><span default="225" class="scalable">225</span> g</span></div> among serving plates. Top with the vegetables and drizzle over the <div class="tooltip">soy sauce<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div>. Serve sprinkled with the <div class="tooltip">coriander<span class="tooltiptext"><span default="25" class="scalable">25</span> g</span></div> sprigs.</li>
+                </ol>
+
+            <hr>
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -72,45 +101,9 @@
                     </li>
                 </ul>
             </div>  
-            </div>
-        <div class="ingredients">
-            <h2>Ingredients</h2>
-            <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
-                <button type="button" onclick="scaleRecipe(1)">x1</button>
-                <button type="button" onclick="scaleRecipe(2)">x2</button>
-                <button type="button" onclick="scaleRecipe(3)">x3</button>
-            </div>
-            <ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="225" class="scalable">225</span></b> g jasmine or Thai rice</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> stalk lemongrass, finely chopped</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="175" class="scalable">175</span></b> g mangetout, halved lengthways</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="175" class="scalable">175</span></b> g baby sweetcorn, halved lengthways</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tomatoes, roughly chopped</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="25" class="scalable">25</span></b> g coriander leaves, finely chopped</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="25" class="scalable">25</span></b> g desiccated coconut, lightly toasted</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> red chilli, deseeded and finely chopped</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp light soy sauce</li>
-<li itemprop="recipeIngredient" class="ingredient">coriander sprigs, to garnish</li>
-</ul>
-        </div>
-        <div class="instructions">
-            <h2>Instructions</h2>
-            <ol>
-                <li itemprop="recipeInstructions">Half fill the base of a steamer with water. Bring to the boil and cover with the steamer layers and lid. Rinse the <div class="tooltip">rice<span class="tooltiptext"><span default="225" class="scalable">225</span> g</span></div> under cold running water. Drain and put into a basin (check that it will fit into the steamer layer). Add the <div class="tooltip">lemongrass<span class="tooltiptext"><span default="1" class="scalable">1</span> stalk</span></div>, some seasoning and <b>600</b> ml boiling water into the basin and put on the lid. Cook the <div class="tooltip">rice<span class="tooltiptext"><span default="225" class="scalable">225</span> g</span></div> for <b>30</b> minutes until the <div class="tooltip">rice<span class="tooltiptext"><span default="225" class="scalable">225</span> g</span></div> has absorbed almost all the water.</li>
-                <li itemprop="recipeInstructions">Arrange the vegetables in the steamer, around the basin. Cover and steam for <b>2</b> minutes.</li>
-                <li itemprop="recipeInstructions">Stir the <div class="tooltip">coriander<span class="tooltiptext"><span default="25" class="scalable">25</span> g</span></div>, <div class="tooltip">coconut<span class="tooltiptext"><span default="25" class="scalable">25</span> g</span></div> and <div class="tooltip">chilli<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> into the <div class="tooltip">rice<span class="tooltiptext"><span default="225" class="scalable">225</span> g</span></div> and divide the <div class="tooltip">rice<span class="tooltiptext"><span default="225" class="scalable">225</span> g</span></div> among serving plates. Top with the vegetables and drizzle over the <div class="tooltip">soy sauce<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div>. Serve sprinkled with the <div class="tooltip">coriander<span class="tooltiptext"><span default="25" class="scalable">25</span> g</span></div> sprigs.</li>
-                </ol>
-        </div>
-        <div class="source">
-            <div class="link">
-                <a href=>BBC Good Food: Low-fat Feasts</a>
-            </div>
-            <div class="link">
-                <a href=../recipes/d37aa4.html>Short Link</a> 
-                <a href=../recipes/Fragrant%20rice%20with%20chilli%20vegetables.html>Long Link</a>
-            </div>
-        </div>
-        </main>
+            <a class="link" href=>BBC Good Food: Low-fat Feasts</a>
+            <a class="link" href=../recipes/d37aa4.html>Short Link</a> 
+            <a class="link" href=../recipes/Fragrant%20rice%20with%20chilli%20vegetables.html>Long Link</a>
+        </section>
     </body>
 </html>

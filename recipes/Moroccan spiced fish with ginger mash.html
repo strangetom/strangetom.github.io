@@ -14,31 +14,55 @@
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
-        <div class="information">
-            <header>
-                <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
-            </header>
+
+        <a class="header" href="../index.html">
+            <img class="header-img" src="../img/header-logo.svg" alt="Stranger Foods">
+            <h4>Stranger Foods</h4>
+        </a>
+
+        <section class="recipe">
+            <h1 itemprop="name">Moroccan spiced fish with ginger mash</h1>
             <img itemprop="image" class="recipe-image" src="../images/Moroccan_spiced_fish_with_ginger_mash.webp" alt="Recipe image">
-            <h1 class="recipe-title" itemprop="name">Moroccan spiced fish with ginger mash</h1>
-            <p class="recipe-description" itemprop="description">Spice up white fish fillets with a flavoured butter and serve with fluffy sweet potato mash.</p>
-            <h3>
-                <div class="icon baseline"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="90" width="90" viewBox="0 0 100 100"><circle r="40" cy="45.556" cx="45.556" class="circle"/><path d="M45.556 10.556v35m32.5-2.5h-35" fill="#fff" stroke="#fff" stroke-width="5"/></svg>
-                    <meta itemprop="totalTime" content=PT30M>30 mins
-                    <meta itemprop="prepTime" content=PT10M>
-                    <meta itemprop="performTime" content=PT20M>
+            <p itemprop="description">Spice up white fish fillets with a flavoured butter and serve with fluffy sweet potato mash.</p>
+            <h3><strong>Servings:</strong> <span id="servings" default="2">2</span></h3>
+            <h3><strong>Total:</strong> 30 mins</h3>
+            <meta itemprop="totalTime" content=PT30M>
+            <meta itemprop="prepTime" content=PT10M>
+            <meta itemprop="performTime" content=PT20M>
+            <meta itemprop="recipeYield" content="2 servings">
+
+            <div class="recipe-metadata">
+                <h3><img class="diet-image" src="../img/glutenfree.svg" alt="Gluten free">Gluten Free</h3>
                 </div>
-                <div class="icon baseline">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="2 servings"><span id="servings" default="2">2</span>&nbsp;servings
-                </div>
-            </h3>         
-            <h3>
-                <div class="icon baseline">
-                    <img src="../img/glutenfree.svg" alt="Gluten free icon">
-                    <link itemprop="suitableForDiet" href="https://schema.org/GlutenFreeDiet">Gluten Free
-                </div>   
-                </h3>          
+
+            <hr>
+            <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>
+            <ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> large sweet potatoes, peeled and cut into chunks</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tsp butter, softened</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> clove garlic, crushed</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5-1" class="scalable">0.5-1</span></b> tsp harissa</li>
+<li itemprop="recipeIngredient" class="ingredient">zest 1 lemon</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="small" class="scalable">small</span></b> handful coriander, most chopped, rest left whole</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="fingertip-size" class="scalable">fingertip-size</span></b> piece fresh root ginger, finely grated</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> skinless white fish fillets</li>
+</ul>
+        
+            <hr>
+            <h2>Instructions</h2>
+            <ol>
+                <li itemprop="recipeInstructions">Heat oven to <b>180</b>&degC/Gas <b>6</b>. Cook the <div class="tooltip">sweet potatoes<span class="tooltiptext"><span default="2" class="scalable">2</span> large</span></div> in boiling, salted water for about <b>10</b> mins or until just tender when pierced with a knife.  </li>
+                <li itemprop="recipeInstructions">Meanwhile, mix together the <div class="tooltip">butter<span class="tooltiptext"><span default="2" class="scalable">2</span> tsp</span></div> with the <div class="tooltip">garlic<span class="tooltiptext"><span default="1" class="scalable">1</span> clove</span></div>, <div class="tooltip">harissa<span class="tooltiptext"><span default="0.5-1" class="scalable">0.5-1</span> tsp</span></div>, lemon zest, chopped <div class="tooltip">coriander<span class="tooltiptext">small handful</span></div> and some seasoning. When the potatoes are ready, drain thoroughly, mash with the <div class="tooltip">ginger<span class="tooltiptext">fingertip-size piece</span></div> and seasoning, then keep warm.  </li>
+                <li itemprop="recipeInstructions">Place the <div class="tooltip">fish<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div> in a roasting tin, season, then spread half the flavoured <div class="tooltip">butter<span class="tooltiptext"><span default="2" class="scalable">2</span> tsp</span></div> over each fillet. Roast for about <b>8</b> mins until just cooked through. Serve with the <div class="tooltip">ginger<span class="tooltiptext">fingertip-size piece</span></div> mash and some green veg.  </li>
+                </ol>
+
+            <hr>
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -75,43 +99,9 @@
                     </li>
                 </ul>
             </div>  
-            </div>
-        <div class="ingredients">
-            <h2>Ingredients</h2>
-            <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
-                <button type="button" onclick="scaleRecipe(1)">x1</button>
-                <button type="button" onclick="scaleRecipe(2)">x2</button>
-                <button type="button" onclick="scaleRecipe(3)">x3</button>
-            </div>
-            <ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> large sweet potatoes, peeled and cut into chunks</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tsp butter, softened</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> clove garlic, crushed</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5-1" class="scalable">0.5-1</span></b> tsp harissa</li>
-<li itemprop="recipeIngredient" class="ingredient">zest 1 lemon</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="small" class="scalable">small</span></b> handful coriander, most chopped, rest left whole</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="fingertip-size" class="scalable">fingertip-size</span></b> piece fresh root ginger, finely grated</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> skinless white fish fillets</li>
-</ul>
-        </div>
-        <div class="instructions">
-            <h2>Instructions</h2>
-            <ol>
-                <li itemprop="recipeInstructions">Heat oven to <b>180</b>&degC/Gas <b>6</b>. Cook the <div class="tooltip">sweet potatoes<span class="tooltiptext"><span default="2" class="scalable">2</span> large</span></div> in boiling, salted water for about <b>10</b> mins or until just tender when pierced with a knife.  </li>
-                <li itemprop="recipeInstructions">Meanwhile, mix together the <div class="tooltip">butter<span class="tooltiptext"><span default="2" class="scalable">2</span> tsp</span></div> with the <div class="tooltip">garlic<span class="tooltiptext"><span default="1" class="scalable">1</span> clove</span></div>, <div class="tooltip">harissa<span class="tooltiptext"><span default="0.5-1" class="scalable">0.5-1</span> tsp</span></div>, lemon zest, chopped <div class="tooltip">coriander<span class="tooltiptext">small handful</span></div> and some seasoning. When the potatoes are ready, drain thoroughly, mash with the <div class="tooltip">ginger<span class="tooltiptext">fingertip-size piece</span></div> and seasoning, then keep warm.  </li>
-                <li itemprop="recipeInstructions">Place the <div class="tooltip">fish<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div> in a roasting tin, season, then spread half the flavoured <div class="tooltip">butter<span class="tooltiptext"><span default="2" class="scalable">2</span> tsp</span></div> over each fillet. Roast for about <b>8</b> mins until just cooked through. Serve with the <div class="tooltip">ginger<span class="tooltiptext">fingertip-size piece</span></div> mash and some green veg.  </li>
-                </ol>
-        </div>
-        <div class="source">
-            <div class="link">
-                <a href=http://www.bbcgoodfood.com/recipes/8088/moroccan-spiced-fish-with-ginger-mash>www.bbcgoodfood.com</a>
-            </div>
-            <div class="link">
-                <a href=../recipes/35db86.html>Short Link</a> 
-                <a href=../recipes/Moroccan%20spiced%20fish%20with%20ginger%20mash.html>Long Link</a>
-            </div>
-        </div>
-        </main>
+            <a class="link" href=http://www.bbcgoodfood.com/recipes/8088/moroccan-spiced-fish-with-ginger-mash>www.bbcgoodfood.com</a>
+            <a class="link" href=../recipes/35db86.html>Short Link</a> 
+            <a class="link" href=../recipes/Moroccan%20spiced%20fish%20with%20ginger%20mash.html>Long Link</a>
+        </section>
     </body>
 </html>

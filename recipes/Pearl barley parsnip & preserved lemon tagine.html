@@ -14,27 +14,64 @@
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
-        <link itemprop="suitableForDiet" href="https://schema.org/VegetarianDiet">
-        <div class="information">
-            <header>
-                <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
-            </header>
+
+        <a class="header" href="../index.html">
+            <img class="header-img" src="../img/header-logo.svg" alt="Stranger Foods">
+            <h4>Stranger Foods</h4>
+        </a>
+
+        <section class="recipe">
+            <h1 itemprop="name">Pearl barley, parsnip & preserved lemon tagine</h1>
             <img itemprop="image" class="recipe-image" src="../images/Pearl_barley_parsnip_&_preserved_lemon_tagine.webp" alt="Recipe image">
-            <h1 class="recipe-title" itemprop="name">Pearl barley, parsnip & preserved lemon tagine</h1>
-            <h3>
-                <div class="icon baseline"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="90" width="90" viewBox="0 0 100 100"><circle r="40" cy="45.556" cx="45.556" class="circle"/><path d="M45.556 10.556v35m32.5-2.5h-35" fill="#fff" stroke="#fff" stroke-width="5"/></svg>
-                    <meta itemprop="totalTime" content=PT85M>1 hr 25 mins
-                    <meta itemprop="prepTime" content=PT25M>
-                    <meta itemprop="performTime" content=PT60M>
+            <h3><strong>Servings:</strong> <span id="servings" default="4">4</span></h3>
+            <h3><strong>Total:</strong> 1 hr 25 mins</h3>
+            <meta itemprop="totalTime" content=PT85M>
+            <meta itemprop="prepTime" content=PT25M>
+            <meta itemprop="performTime" content=PT60M>
+            <meta itemprop="recipeYield" content="4 servings">
+
+            <div class="recipe-metadata">
+                <h3><img class="diet-image" src="../img/vegetarian.svg" alt="vegetarian">Vegetarian</h3>
                 </div>
-                <div class="icon baseline">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="4 servings"><span id="servings" default="4">4</span>&nbsp;servings
-                </div>
-            </h3>         
-            <h3>
-                </h3>          
+
+            <hr>
+            <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>
+            <ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp oil</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> onions, sliced</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> cloves garlic, chopped</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">½</span></b> tsp turmeric</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp paprika</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tsp ras el hanout</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> sweet potatoes, peeled and cut into chunks</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> parsnips, cut into chunks</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> carrots, cut into chunks</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> preserved lemons, chopped</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="200" class="scalable">200</span></b> g pearl barley</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> l vegetable stock</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> small pack parsley, leaves picked</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> small pack mint, leaves picked</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="150" class="scalable">150</span></b> g green olives, chopped</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">½</span></b> lemon, juiced</li>
+<li itemprop="recipeIngredient" class="ingredient">pomegranate seeds, to serve</li>
+</ul>
+        
+            <hr>
+            <h2>Instructions</h2>
+            <ol>
+                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div> in a flameproof casserole dish. Add the <div class="tooltip">onion<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div> and a pinch of salt, cook for <b>5</b> mins until beginning to colour and soften, then stir in the <div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div> and spices. Cook for a min more until fragrant, then add the <div class="tooltip">sweet potato<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div>, <div class="tooltip">parsnips<span class="tooltiptext"><span default="3" class="scalable">3</span> </span></div>, <div class="tooltip">carrots<span class="tooltiptext"><span default="3" class="scalable">3</span> </span></div>, <div class="tooltip">preserved lemon<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div> and pearl <div class="tooltip">barley<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div>.</li>
+                <li itemprop="recipeInstructions">Give everything a good mix and cook for a min or so until the veg and <div class="tooltip">barley<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div> are coated in the spices. Pour in the <div class="tooltip">stock<span class="tooltiptext"><span default="1" class="scalable">1</span> l</span></div> and some seasoning, bring to the boil, then reduce the heat and simmer for <b>45</b> mins or until the veg and <div class="tooltip">barley<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div> are tender.</li>
+                <li itemprop="recipeInstructions">Chop most of the <div class="tooltip">mint<span class="tooltiptext"><span default="1" class="scalable">1</span> small pack</span></div> and <div class="tooltip">parsley<span class="tooltiptext"><span default="1" class="scalable">1</span> small pack</span></div> leaves. Taste the stew for seasoning, then stir through the chopped herbs, <div class="tooltip">olives<span class="tooltiptext"><span default="150" class="scalable">150</span> g</span></div> and <div class="tooltip">lemon<span class="tooltiptext"><span default="0.5" class="scalable">&frac12;</span> </span></div> juice. Can be frozen at this point; reheat very gently.</li>
+                <li itemprop="recipeInstructions">Scatter over the pomegranate seeds and the remaining herbs to add colour and texture.</li>
+                </ol>
+
+            <hr>
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -71,53 +108,9 @@
                     </li>
                 </ul>
             </div>  
-            </div>
-        <div class="ingredients">
-            <h2>Ingredients</h2>
-            <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
-                <button type="button" onclick="scaleRecipe(1)">x1</button>
-                <button type="button" onclick="scaleRecipe(2)">x2</button>
-                <button type="button" onclick="scaleRecipe(3)">x3</button>
-            </div>
-            <ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp oil</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> onions, sliced</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> cloves garlic, chopped</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">½</span></b> tsp turmeric</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp paprika</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tsp ras el hanout</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> sweet potatoes, peeled and cut into chunks</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> parsnips, cut into chunks</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> carrots, cut into chunks</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> preserved lemons, chopped</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="200" class="scalable">200</span></b> g pearl barley</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> l vegetable stock</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> small pack parsley, leaves picked</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> small pack mint, leaves picked</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="150" class="scalable">150</span></b> g green olives, chopped</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">½</span></b> lemon, juiced</li>
-<li itemprop="recipeIngredient" class="ingredient">pomegranate seeds, to serve</li>
-</ul>
-        </div>
-        <div class="instructions">
-            <h2>Instructions</h2>
-            <ol>
-                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div> in a flameproof casserole dish. Add the <div class="tooltip">onion<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div> and a pinch of salt, cook for <b>5</b> mins until beginning to colour and soften, then stir in the <div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div> and spices. Cook for a min more until fragrant, then add the <div class="tooltip">sweet potato<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div>, <div class="tooltip">parsnips<span class="tooltiptext"><span default="3" class="scalable">3</span> </span></div>, <div class="tooltip">carrots<span class="tooltiptext"><span default="3" class="scalable">3</span> </span></div>, <div class="tooltip">preserved lemon<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div> and pearl <div class="tooltip">barley<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div>.</li>
-                <li itemprop="recipeInstructions">Give everything a good mix and cook for a min or so until the veg and <div class="tooltip">barley<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div> are coated in the spices. Pour in the <div class="tooltip">stock<span class="tooltiptext"><span default="1" class="scalable">1</span> l</span></div> and some seasoning, bring to the boil, then reduce the heat and simmer for <b>45</b> mins or until the veg and <div class="tooltip">barley<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div> are tender.</li>
-                <li itemprop="recipeInstructions">Chop most of the <div class="tooltip">mint<span class="tooltiptext"><span default="1" class="scalable">1</span> small pack</span></div> and <div class="tooltip">parsley<span class="tooltiptext"><span default="1" class="scalable">1</span> small pack</span></div> leaves. Taste the stew for seasoning, then stir through the chopped herbs, <div class="tooltip">olives<span class="tooltiptext"><span default="150" class="scalable">150</span> g</span></div> and <div class="tooltip">lemon<span class="tooltiptext"><span default="0.5" class="scalable">&frac12;</span> </span></div> juice. Can be frozen at this point; reheat very gently.</li>
-                <li itemprop="recipeInstructions">Scatter over the pomegranate seeds and the remaining herbs to add colour and texture.</li>
-                </ol>
-        </div>
-        <div class="source">
-            <div class="link">
-                <a href=https://www.bbcgoodfood.com/recipes/pearl-barley-parsnip-preserved-lemon-tagine>www.bbcgoodfood.com</a>
-            </div>
-            <div class="link">
-                <a href=../recipes/fb9e5f.html>Short Link</a> 
-                <a href=../recipes/Pearl%20barley,%20parsnip%20&%20preserved%20lemon%20tagine.html>Long Link</a>
-            </div>
-        </div>
-        </main>
+            <a class="link" href=https://www.bbcgoodfood.com/recipes/pearl-barley-parsnip-preserved-lemon-tagine>www.bbcgoodfood.com</a>
+            <a class="link" href=../recipes/fb9e5f.html>Short Link</a> 
+            <a class="link" href=../recipes/Pearl%20barley,%20parsnip%20&%20preserved%20lemon%20tagine.html>Long Link</a>
+        </section>
     </body>
 </html>

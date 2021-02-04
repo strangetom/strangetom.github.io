@@ -14,27 +14,72 @@
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
-        <div class="information">
-            <header>
-                <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
-            </header>
+
+        <a class="header" href="../index.html">
+            <img class="header-img" src="../img/header-logo.svg" alt="Stranger Foods">
+            <h4>Stranger Foods</h4>
+        </a>
+
+        <section class="recipe">
+            <h1 itemprop="name">Omurice (japanese rice omelet)</h1>
             <img itemprop="image" class="recipe-image" src="../images/Omurice_japanese_rice_omelet.webp" alt="Recipe image">
-            <h1 class="recipe-title" itemprop="name">Omurice (japanese rice omelet)</h1>
-            <p class="recipe-description" itemprop="description">Omurice, a beloved staple of Japanese home cooking, is a linguistic and literal mash-up of omelet and rice. A plain omelet cloaks ketchup-flavored fried rice, often called "chicken rice" even when it's made with ham or bacon, or no meat at all. It belongs to the category of so-called Western food know as yoshoku.</p>
-            <h3>
-                <div class="icon baseline"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="90" width="90" viewBox="0 0 100 100"><circle r="40" cy="45.556" cx="45.556" class="circle"/><path d="M45.556 10.556v35m32.5-2.5h-35" fill="#fff" stroke="#fff" stroke-width="5"/></svg>
-                    <meta itemprop="totalTime" content=PT20M>20 mins
-                    <meta itemprop="prepTime" content=PT10M>
-                    <meta itemprop="performTime" content=PT10M>
+            <p itemprop="description">Omurice, a beloved staple of Japanese home cooking, is a linguistic and literal mash-up of omelet and rice. A plain omelet cloaks ketchup-flavored fried rice, often called "chicken rice" even when it's made with ham or bacon, or no meat at all. It belongs to the category of so-called Western food know as yoshoku.</p>
+            <h3><strong>Servings:</strong> <span id="servings" default="2">2</span></h3>
+            <h3><strong>Total:</strong> 20 mins</h3>
+            <meta itemprop="totalTime" content=PT20M>
+            <meta itemprop="prepTime" content=PT10M>
+            <meta itemprop="performTime" content=PT10M>
+            <meta itemprop="recipeYield" content="2 servings">
+
+            <div class="recipe-metadata">
                 </div>
-                <div class="icon baseline">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="2 servings"><span id="servings" default="2">2</span>&nbsp;servings
-                </div>
-            </h3>         
-            <h3>
-                </h3>          
+
+            <hr>
+            <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>
+            <details open>
+<summary class="ingredient-subheading">For the rice</summary>
+<ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tablespoons butter</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">½</span></b> medium onion, cut in ½-inch dice</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> medium carrot, peeled cut in ¼-inch dice</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2-3" class="scalable">2-3</span></b> slices deli ham, cut into ½-inch pieces</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> cups cooked medium-grain rice, preferably day-old or cooked a little dry</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp ketchup, plus more for serving</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp soy sauce</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.25" class="scalable">¼</span></b> cup frozen peas</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp chicken stock or dashi (optional)</li>
+<li itemprop="recipeIngredient" class="ingredient">salt and pepper</li>
+<li itemprop="recipeIngredient" class="ingredient">Canola or safflower oil, or other neutral oil</li>
+</ul>
+</details>
+<details open>
+<summary class="ingredient-subheading">For the omelet</summary>
+<ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp canola or safflower oil, or other neutral oil</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> eggs</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp dashi or water</li>
+<li itemprop="recipeIngredient" class="ingredient">salt and pepper</li>
+</ul>
+</details>
+        
+            <hr>
+            <h2>Instructions</h2>
+            <ol>
+                <li itemprop="recipeInstructions">Make the rice: Heat a large skillet over medium-high. Add <b>1</b> tablespoon <div class="tooltip">butter<span class="tooltiptext"><span default="2" class="scalable">2</span> tablespoons</span></div>, and then <div class="tooltip">onion<span class="tooltiptext"><span default="0.5" class="scalable">&frac12;</span> medium</span></div> and <div class="tooltip">carrot<span class="tooltiptext"><span default="1" class="scalable">1</span> medium</span></div>. Cook, stirring, until <div class="tooltip">onion<span class="tooltiptext"><span default="0.5" class="scalable">&frac12;</span> medium</span></div> is translucent and a little browned at the edges, about <b>3</b> minutes. Add <div class="tooltip">ham<span class="tooltiptext"><span default="2-3" class="scalable">2-3</span> slices</span></div> and cook, stirring, until it begins to brown, about <b>30</b> seconds.</li>
+                <li itemprop="recipeInstructions">Add remaining <b>1</b> tablespoon <div class="tooltip">butter<span class="tooltiptext"><span default="2" class="scalable">2</span> tablespoons</span></div>, and then rice, breaking it up with a wooden spoon or long chopsticks. Adjust heat to medium and cook until the grains are glossy, <b>1</b> to <b>2</b> minutes. Stir in <div class="tooltip">ketchup<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div> and <div class="tooltip">soy sauce<span class="tooltiptext"><span default="1" class="scalable">1</span> tsp</span></div>, and cook, stirring, another <b>30</b> seconds or so to caramelize. Stir in <div class="tooltip">peas<span class="tooltiptext"><span default="0.25" class="scalable">&frac14;</span> cup</span></div> to heat through, and deglaze the pan with dashi or chicken <div class="tooltip">stock<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div>. Remove from heat and season to taste with salt and pepper.</li>
+                <li itemprop="recipeInstructions">To make a perfect mound of rice on each plate, grease a small bowl with <div class="tooltip">canola or safflower oil<span class="tooltiptext"><span default="1" class="scalable">1</span> tsp</span></div> and pack <b>1</b> cup of the rice. Invert this over a plate and remove the bowl. Repeat with the other half of the rice on a second plate.</li>
+                <li itemprop="recipeInstructions">Make the omelet: In a small (<b>6</b>- or <b>7</b>-inch) nonstick skillet (or a well-seasoned carbon steel omelet pan), heat <b>&frac12;</b> teaspoon oil, or just enough to coat the pan, over medium-high. Beat <b>2</b> <div class="tooltip">eggs<span class="tooltiptext"><span default="4" class="scalable">4</span> </span></div> with <b>&frac12;</b> teaspoon <div class="tooltip">dashi or water<span class="tooltiptext"><span default="1" class="scalable">1</span> tsp</span></div>, until yolks and whites are completely blended. Season with salt and pepper.</li>
+                <li itemprop="recipeInstructions">Pour the egg mixture into the heated pan. Shake and swirl the pan over the heat, stirring constantly with chopsticks or a fork as the <div class="tooltip">eggs<span class="tooltiptext"><span default="4" class="scalable">4</span> </span></div> cook. When lots of small curds have formed and the <div class="tooltip">eggs<span class="tooltiptext"><span default="4" class="scalable">4</span> </span></div> are custardy, about <b>30</b> seconds, let cook undisturbed until nearly set, about <b>30</b> seconds. Run a <div class="tooltip">butter<span class="tooltiptext"><span default="2" class="scalable">2</span> tablespoons</span></div> knife or small spatula around the edge of the omelet, and tap the pan firmly against the stove to release the omelet. Turn the omelet out onto the rice, custardy side down. Use a clean dish towel or paper towel to push the edges under the rice.</li>
+                <li itemprop="recipeInstructions">Repeat with the other <b>2</b> <div class="tooltip">eggs<span class="tooltiptext"><span default="4" class="scalable">4</span> </span></div> for the second omelet. Dress the omelets with a zigzag of <div class="tooltip">ketchup<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div> (or a cute design if you've got a steady hand), and serve.</li>
+                </ol>
+
+            <hr>
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -71,61 +116,9 @@
                     </li>
                 </ul>
             </div>  
-            </div>
-        <div class="ingredients">
-            <h2>Ingredients</h2>
-            <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
-                <button type="button" onclick="scaleRecipe(1)">x1</button>
-                <button type="button" onclick="scaleRecipe(2)">x2</button>
-                <button type="button" onclick="scaleRecipe(3)">x3</button>
-            </div>
-            <details open>
-<summary class="ingredient-subheading">For the rice</summary>
-<ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tablespoons butter</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">½</span></b> medium onion, cut in ½-inch dice</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> medium carrot, peeled cut in ¼-inch dice</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2-3" class="scalable">2-3</span></b> slices deli ham, cut into ½-inch pieces</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> cups cooked medium-grain rice, preferably day-old or cooked a little dry</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp ketchup, plus more for serving</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp soy sauce</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.25" class="scalable">¼</span></b> cup frozen peas</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp chicken stock or dashi (optional)</li>
-<li itemprop="recipeIngredient" class="ingredient">salt and pepper</li>
-<li itemprop="recipeIngredient" class="ingredient">Canola or safflower oil, or other neutral oil</li>
-</ul>
-</details>
-<details open>
-<summary class="ingredient-subheading">For the omelet</summary>
-<ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp canola or safflower oil, or other neutral oil</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> eggs</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp dashi or water</li>
-<li itemprop="recipeIngredient" class="ingredient">salt and pepper</li>
-</ul>
-</details>
-        </div>
-        <div class="instructions">
-            <h2>Instructions</h2>
-            <ol>
-                <li itemprop="recipeInstructions">Make the rice: Heat a large skillet over medium-high. Add <b>1</b> tablespoon <div class="tooltip">butter<span class="tooltiptext"><span default="2" class="scalable">2</span> tablespoons</span></div>, and then <div class="tooltip">onion<span class="tooltiptext"><span default="0.5" class="scalable">&frac12;</span> medium</span></div> and <div class="tooltip">carrot<span class="tooltiptext"><span default="1" class="scalable">1</span> medium</span></div>. Cook, stirring, until <div class="tooltip">onion<span class="tooltiptext"><span default="0.5" class="scalable">&frac12;</span> medium</span></div> is translucent and a little browned at the edges, about <b>3</b> minutes. Add <div class="tooltip">ham<span class="tooltiptext"><span default="2-3" class="scalable">2-3</span> slices</span></div> and cook, stirring, until it begins to brown, about <b>30</b> seconds.</li>
-                <li itemprop="recipeInstructions">Add remaining <b>1</b> tablespoon <div class="tooltip">butter<span class="tooltiptext"><span default="2" class="scalable">2</span> tablespoons</span></div>, and then rice, breaking it up with a wooden spoon or long chopsticks. Adjust heat to medium and cook until the grains are glossy, <b>1</b> to <b>2</b> minutes. Stir in <div class="tooltip">ketchup<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div> and <div class="tooltip">soy sauce<span class="tooltiptext"><span default="1" class="scalable">1</span> tsp</span></div>, and cook, stirring, another <b>30</b> seconds or so to caramelize. Stir in <div class="tooltip">peas<span class="tooltiptext"><span default="0.25" class="scalable">&frac14;</span> cup</span></div> to heat through, and deglaze the pan with dashi or chicken <div class="tooltip">stock<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div>. Remove from heat and season to taste with salt and pepper.</li>
-                <li itemprop="recipeInstructions">To make a perfect mound of rice on each plate, grease a small bowl with <div class="tooltip">canola or safflower oil<span class="tooltiptext"><span default="1" class="scalable">1</span> tsp</span></div> and pack <b>1</b> cup of the rice. Invert this over a plate and remove the bowl. Repeat with the other half of the rice on a second plate.</li>
-                <li itemprop="recipeInstructions">Make the omelet: In a small (<b>6</b>- or <b>7</b>-inch) nonstick skillet (or a well-seasoned carbon steel omelet pan), heat <b>&frac12;</b> teaspoon oil, or just enough to coat the pan, over medium-high. Beat <b>2</b> <div class="tooltip">eggs<span class="tooltiptext"><span default="4" class="scalable">4</span> </span></div> with <b>&frac12;</b> teaspoon <div class="tooltip">dashi or water<span class="tooltiptext"><span default="1" class="scalable">1</span> tsp</span></div>, until yolks and whites are completely blended. Season with salt and pepper.</li>
-                <li itemprop="recipeInstructions">Pour the egg mixture into the heated pan. Shake and swirl the pan over the heat, stirring constantly with chopsticks or a fork as the <div class="tooltip">eggs<span class="tooltiptext"><span default="4" class="scalable">4</span> </span></div> cook. When lots of small curds have formed and the <div class="tooltip">eggs<span class="tooltiptext"><span default="4" class="scalable">4</span> </span></div> are custardy, about <b>30</b> seconds, let cook undisturbed until nearly set, about <b>30</b> seconds. Run a <div class="tooltip">butter<span class="tooltiptext"><span default="2" class="scalable">2</span> tablespoons</span></div> knife or small spatula around the edge of the omelet, and tap the pan firmly against the stove to release the omelet. Turn the omelet out onto the rice, custardy side down. Use a clean dish towel or paper towel to push the edges under the rice.</li>
-                <li itemprop="recipeInstructions">Repeat with the other <b>2</b> <div class="tooltip">eggs<span class="tooltiptext"><span default="4" class="scalable">4</span> </span></div> for the second omelet. Dress the omelets with a zigzag of <div class="tooltip">ketchup<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div> (or a cute design if you've got a steady hand), and serve.</li>
-                </ol>
-        </div>
-        <div class="source">
-            <div class="link">
-                <a href=https://cooking.nytimes.com/recipes/1019430-omurice-japanese-rice-omelet>cooking.nytimes.com</a>
-            </div>
-            <div class="link">
-                <a href=../recipes/6687d4.html>Short Link</a> 
-                <a href=../recipes/Omurice%20(japanese%20rice%20omelet).html>Long Link</a>
-            </div>
-        </div>
-        </main>
+            <a class="link" href=https://cooking.nytimes.com/recipes/1019430-omurice-japanese-rice-omelet>cooking.nytimes.com</a>
+            <a class="link" href=../recipes/6687d4.html>Short Link</a> 
+            <a class="link" href=../recipes/Omurice%20(japanese%20rice%20omelet).html>Long Link</a>
+        </section>
     </body>
 </html>

@@ -14,28 +14,61 @@
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
-        <link itemprop="suitableForDiet" href="https://schema.org/VegetarianDiet">
-        <div class="information">
-            <header>
-                <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
-            </header>
+
+        <a class="header" href="../index.html">
+            <img class="header-img" src="../img/header-logo.svg" alt="Stranger Foods">
+            <h4>Stranger Foods</h4>
+        </a>
+
+        <section class="recipe">
+            <h1 itemprop="name">Vegetarian sausage cassoulet</h1>
             <img itemprop="image" class="recipe-image" src="../images/Vegetarian_sausage_cassoulet.webp" alt="Recipe image">
-            <h1 class="recipe-title" itemprop="name">Vegetarian sausage cassoulet</h1>
-            <p class="recipe-description" itemprop="description">Cassoulet is a rich and hearty dish that is traditionally slow-cooked and made with meat. In this recipe, however, we've halved the time and opted for Linda McCartney sausages for a delicious vegetarian treat that's packed with wholesome flavour.</p>
-            <h3>
-                <div class="icon baseline"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="90" width="90" viewBox="0 0 100 100"><circle r="40" cy="45.556" cx="45.556" class="circle"/><path d="M45.556 10.556v35m32.5-2.5h-35" fill="#fff" stroke="#fff" stroke-width="5"/></svg>
-                    <meta itemprop="totalTime" content=PT30M>30 mins
-                    <meta itemprop="prepTime" content=PT10M>
-                    <meta itemprop="performTime" content=PT20M>
+            <p itemprop="description">Cassoulet is a rich and hearty dish that is traditionally slow-cooked and made with meat. In this recipe, however, we've halved the time and opted for Linda McCartney sausages for a delicious vegetarian treat that's packed with wholesome flavour.</p>
+            <h3><strong>Servings:</strong> <span id="servings" default="2">2</span></h3>
+            <h3><strong>Total:</strong> 30 mins</h3>
+            <meta itemprop="totalTime" content=PT30M>
+            <meta itemprop="prepTime" content=PT10M>
+            <meta itemprop="performTime" content=PT20M>
+            <meta itemprop="recipeYield" content="2 servings">
+
+            <div class="recipe-metadata">
+                <h3><img class="diet-image" src="../img/vegetarian.svg" alt="vegetarian">Vegetarian</h3>
                 </div>
-                <div class="icon baseline">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="2 servings"><span id="servings" default="2">2</span>&nbsp;servings
-                </div>
-            </h3>         
-            <h3>
-                </h3>          
+
+            <hr>
+            <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>
+            <ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> onion</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> carrot</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="100" class="scalable">100</span></b> g chestnut mushrooms</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> cloves garlic</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="6" class="scalable">6</span></b> Linda McCartney sausages</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> can cannellini beans</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> pot wild mushroom sauce</li>
+<li itemprop="recipeIngredient" class="ingredient">tomato puree</li>
+<li itemprop="recipeIngredient" class="ingredient">dried thyme</li>
+<li itemprop="recipeIngredient" class="ingredient">fresh flat leaf parsley</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="25" class="scalable">25</span></b> g panko breadcrumbs</li>
+</ul>
+        
+            <hr>
+            <h2>Instructions</h2>
+            <ol>
+                <li itemprop="recipeInstructions">Halve, peel and chop the <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> into small pieces. Trim the <div class="tooltip">carrot<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div>, then quarter lengthways (no need to peel). Chop widthways into small pieces. Thinly slice the <div class="tooltip">mushrooms<span class="tooltiptext"><span default="100" class="scalable">100</span> g</span></div>. Peel and grate the <div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div> (or use a <div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div> press).</li>
+                <li itemprop="recipeInstructions">Heat a drizzle of oil in a large, high sided pan or casserole pot over high heat. Once hot, add the <div class="tooltip">sausages<span class="tooltiptext"><span default="6" class="scalable">6</span> </span></div> and cook until browned all over, <b>5-6</b> mins. (You may need to do this in batches). Add a little more oil if the <div class="tooltip">sausages<span class="tooltiptext"><span default="6" class="scalable">6</span> </span></div> start to stick. Transfer to a plate. Whilst the <div class="tooltip">sausages<span class="tooltiptext"><span default="6" class="scalable">6</span> </span></div> are cooking, drain and rinse the cannellIni beans.</li>
+                <li itemprop="recipeInstructions">Add a drizzle of oil to the now empty pan and add the chopped <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> and <div class="tooltip">carrot<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div>. Cook, stirring, until softened and turning golden, <b>5-6</b> mins. Add the <div class="tooltip">mushrooms<span class="tooltiptext"><span default="100" class="scalable">100</span> g</span></div> and cook for a further <b>3-4</b> mins. Add the mushroom paste, tomato puree, thyme, water (see ingredients for amounts) and half the <div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div>. Season with salt and pepper. Simmer with a lid on for <b>10</b> mins.</li>
+                <li itemprop="recipeInstructions">Remove the lid from the pan, return the <div class="tooltip">sausages<span class="tooltiptext"><span default="6" class="scalable">6</span> </span></div> to the cassoulet and simmer until the mixture has thickened, a further <b>10</b> mins.</li>
+                <li itemprop="recipeInstructions">Meanwhile, roughly chop the parsley (stalks and all). Heat a drizzle of oil in a frying pan over medium to high heat and add the <div class="tooltip">breadcrumbs<span class="tooltiptext"><span default="25" class="scalable">25</span> g</span></div> with the remaining <div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div> and cook, stirring, until golden brown and crispy, <b>3-4</b> mins. Tip onto a plate and stir through half the parsley.</li>
+                <li itemprop="recipeInstructions">Stir the remaining parsley through the cassoulet and divide it between bowls. Scatter over the crispy <div class="tooltip">breadcrumbs<span class="tooltiptext"><span default="25" class="scalable">25</span> g</span></div>. Enjoy!</li>
+                </ol>
+
+            <hr>
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -72,49 +105,9 @@
                     </li>
                 </ul>
             </div>  
-            </div>
-        <div class="ingredients">
-            <h2>Ingredients</h2>
-            <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
-                <button type="button" onclick="scaleRecipe(1)">x1</button>
-                <button type="button" onclick="scaleRecipe(2)">x2</button>
-                <button type="button" onclick="scaleRecipe(3)">x3</button>
-            </div>
-            <ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> onion</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> carrot</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="100" class="scalable">100</span></b> g chestnut mushrooms</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> cloves garlic</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="6" class="scalable">6</span></b> Linda McCartney sausages</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> can cannellini beans</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> pot wild mushroom sauce</li>
-<li itemprop="recipeIngredient" class="ingredient">tomato puree</li>
-<li itemprop="recipeIngredient" class="ingredient">dried thyme</li>
-<li itemprop="recipeIngredient" class="ingredient">fresh flat leaf parsley</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="25" class="scalable">25</span></b> g panko breadcrumbs</li>
-</ul>
-        </div>
-        <div class="instructions">
-            <h2>Instructions</h2>
-            <ol>
-                <li itemprop="recipeInstructions">Halve, peel and chop the <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> into small pieces. Trim the <div class="tooltip">carrot<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div>, then quarter lengthways (no need to peel). Chop widthways into small pieces. Thinly slice the <div class="tooltip">mushrooms<span class="tooltiptext"><span default="100" class="scalable">100</span> g</span></div>. Peel and grate the <div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div> (or use a <div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div> press).</li>
-                <li itemprop="recipeInstructions">Heat a drizzle of oil in a large, high sided pan or casserole pot over high heat. Once hot, add the <div class="tooltip">sausages<span class="tooltiptext"><span default="6" class="scalable">6</span> </span></div> and cook until browned all over, <b>5-6</b> mins. (You may need to do this in batches). Add a little more oil if the <div class="tooltip">sausages<span class="tooltiptext"><span default="6" class="scalable">6</span> </span></div> start to stick. Transfer to a plate. Whilst the <div class="tooltip">sausages<span class="tooltiptext"><span default="6" class="scalable">6</span> </span></div> are cooking, drain and rinse the cannellIni beans.</li>
-                <li itemprop="recipeInstructions">Add a drizzle of oil to the now empty pan and add the chopped <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> and <div class="tooltip">carrot<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div>. Cook, stirring, until softened and turning golden, <b>5-6</b> mins. Add the <div class="tooltip">mushrooms<span class="tooltiptext"><span default="100" class="scalable">100</span> g</span></div> and cook for a further <b>3-4</b> mins. Add the mushroom paste, tomato puree, thyme, water (see ingredients for amounts) and half the <div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div>. Season with salt and pepper. Simmer with a lid on for <b>10</b> mins.</li>
-                <li itemprop="recipeInstructions">Remove the lid from the pan, return the <div class="tooltip">sausages<span class="tooltiptext"><span default="6" class="scalable">6</span> </span></div> to the cassoulet and simmer until the mixture has thickened, a further <b>10</b> mins.</li>
-                <li itemprop="recipeInstructions">Meanwhile, roughly chop the parsley (stalks and all). Heat a drizzle of oil in a frying pan over medium to high heat and add the <div class="tooltip">breadcrumbs<span class="tooltiptext"><span default="25" class="scalable">25</span> g</span></div> with the remaining <div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div> and cook, stirring, until golden brown and crispy, <b>3-4</b> mins. Tip onto a plate and stir through half the parsley.</li>
-                <li itemprop="recipeInstructions">Stir the remaining parsley through the cassoulet and divide it between bowls. Scatter over the crispy <div class="tooltip">breadcrumbs<span class="tooltiptext"><span default="25" class="scalable">25</span> g</span></div>. Enjoy!</li>
-                </ol>
-        </div>
-        <div class="source">
-            <div class="link">
-                <a href=https://www.hellofresh.co.uk/recipes/vegetarian-sausage-cassoulet-5dfca5211413cb766f301737>www.hellofresh.co.uk</a>
-            </div>
-            <div class="link">
-                <a href=../recipes/ed7661.html>Short Link</a> 
-                <a href=../recipes/Vegetarian%20sausage%20cassoulet.html>Long Link</a>
-            </div>
-        </div>
-        </main>
+            <a class="link" href=https://www.hellofresh.co.uk/recipes/vegetarian-sausage-cassoulet-5dfca5211413cb766f301737>www.hellofresh.co.uk</a>
+            <a class="link" href=../recipes/ed7661.html>Short Link</a> 
+            <a class="link" href=../recipes/Vegetarian%20sausage%20cassoulet.html>Long Link</a>
+        </section>
     </body>
 </html>

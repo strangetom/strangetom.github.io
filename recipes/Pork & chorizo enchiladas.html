@@ -14,27 +14,68 @@
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
-        <div class="information">
-            <header>
-                <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
-            </header>
+
+        <a class="header" href="../index.html">
+            <img class="header-img" src="../img/header-logo.svg" alt="Stranger Foods">
+            <h4>Stranger Foods</h4>
+        </a>
+
+        <section class="recipe">
+            <h1 itemprop="name">Pork & chorizo enchiladas</h1>
             <img itemprop="image" class="recipe-image" src="../images/Pork_&_chorizo_enchiladas.webp" alt="Recipe image">
-            <h1 class="recipe-title" itemprop="name">Pork & chorizo enchiladas</h1>
-            <p class="recipe-description" itemprop="description">his Mexican one-pot dish is a delicious and easy, make-ahead family meal - serve half and freeze the rest for another day.</p>
-            <h3>
-                <div class="icon baseline"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="90" width="90" viewBox="0 0 100 100"><circle r="40" cy="45.556" cx="45.556" class="circle"/><path d="M45.556 10.556v35m32.5-2.5h-35" fill="#fff" stroke="#fff" stroke-width="5"/></svg>
-                    <meta itemprop="totalTime" content=PT100M>1 hr 40 mins
-                    <meta itemprop="prepTime" content=PT30M>
-                    <meta itemprop="performTime" content=PT70M>
+            <p itemprop="description">his Mexican one-pot dish is a delicious and easy, make-ahead family meal - serve half and freeze the rest for another day.</p>
+            <h3><strong>Servings:</strong> <span id="servings" default="8">8</span></h3>
+            <h3><strong>Total:</strong> 1 hr 40 mins</h3>
+            <meta itemprop="totalTime" content=PT100M>
+            <meta itemprop="prepTime" content=PT30M>
+            <meta itemprop="performTime" content=PT70M>
+            <meta itemprop="recipeYield" content="8 servings">
+
+            <div class="recipe-metadata">
                 </div>
-                <div class="icon baseline">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="8 servings"><span id="servings" default="8">8</span>&nbsp;servings
-                </div>
-            </h3>         
-            <h3>
-                </h3>          
+
+            <hr>
+            <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>
+            <ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp olive oil</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> large onions, halved and thinly sliced</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> cloves garlic, chopped</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp ground cumin</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> heaped tsp smoked paprika</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tsp cinnamon</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> red chillies, halved deseeded and sliced</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="500" class="scalable">500</span></b> g pork mince</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b>x 200 g packs cooking chorizo sausages, removed from their skins</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="680" class="scalable">680</span></b> g bottle passata</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> pork or chicken stock cube</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> peppers - 2 red and 2 green, deseeded, quartered and sliced</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b>x 400 g cans borlotti beans, drained</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="30" class="scalable">30</span></b> g pack coriander, chopped</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="500" class="scalable">500</span></b> g tub fromage frais (not fat-free)</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> large egg</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b>x pack of 8 soft corn tortillas</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="140" class="scalable">140</span></b> g mature cheddar, grated</li>
+<li itemprop="recipeIngredient" class="ingredient">green salad, to serve</li>
+</ul>
+        
+            <hr>
+            <h2>Instructions</h2>
+            <ol>
+                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div> in a large, deep pan and fry the <div class="tooltip">onions<span class="tooltiptext"><span default="2" class="scalable">2</span> large</span></div> and <div class="tooltip">garlic<span class="tooltiptext"><span default="3" class="scalable">3</span> cloves</span></div> for about <b>10</b> minutes. Add the spices and half the chilli, and cook for <b>1</b> minute more.  </li>
+                <li itemprop="recipeInstructions">Tip in the <div class="tooltip">pork<span class="tooltiptext"><span default="500" class="scalable">500</span> g</span></div> and <div class="tooltip">chorizo<span class="tooltiptext"><span default="2" class="scalable">2</span>x 200 g packs</span></div>, turn up the heat and fry the meat, stirring and breaking it down until it changes colour. Pour in the <div class="tooltip">passata<span class="tooltiptext"><span default="680" class="scalable">680</span> g</span></div> and <b>300</b>ml water, then crumble in the <div class="tooltip">stock cube<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div>.  </li>
+                <li itemprop="recipeInstructions">Pile in the <div class="tooltip">peppers<span class="tooltiptext"><span default="4" class="scalable">4</span> </span></div>, stir, cover and simmer over a low heat for <b>30</b> mins until the meat and <div class="tooltip">peppers<span class="tooltiptext"><span default="4" class="scalable">4</span> </span></div> are tender. Stir in the <div class="tooltip">beans<span class="tooltiptext"><span default="2" class="scalable">2</span>x 400 g cans</span></div> and two-thirds of the <div class="tooltip">coriander<span class="tooltiptext"><span default="30" class="scalable">30</span> g pack</span></div>.  </li>
+                <li itemprop="recipeInstructions">Meanwhile, tip the <div class="tooltip">fromage frais<span class="tooltiptext"><span default="500" class="scalable">500</span> g tub</span></div> (with any liquid in the tub) into a bowl, and beat in the <div class="tooltip">egg<span class="tooltiptext"><span default="1" class="scalable">1</span> large</span></div>, remaining <div class="tooltip">coriander<span class="tooltiptext"><span default="30" class="scalable">30</span> g pack</span></div> and seasoning. Get out <b>2</b> ovenproof and freezer-proof dishes.  </li>
+                <li itemprop="recipeInstructions">Spoon the meat onto the centre of the <div class="tooltip">tortillas<span class="tooltiptext"><span default="2" class="scalable">2</span>x pack of 8</span></div>, roll up and arrange <b>8</b> in each dish. Spoon half of the <div class="tooltip">fromage frais<span class="tooltiptext"><span default="500" class="scalable">500</span> g tub</span></div> mixture on top and smooth it to cover the <div class="tooltip">tortillas<span class="tooltiptext"><span default="2" class="scalable">2</span>x pack of 8</span></div>. Scatter each with half the <div class="tooltip">cheese<span class="tooltiptext"><span default="140" class="scalable">140</span> g</span></div> and remaining chillies.  </li>
+                <li itemprop="recipeInstructions">Heat oven to <b>170</b>&degC fan/Gas <b>5</b> and bake for <b>25</b> mins until golden, then serve with a green salad.</li>
+                </ol>
+
+            <hr>
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -71,57 +112,9 @@
                     </li>
                 </ul>
             </div>  
-            </div>
-        <div class="ingredients">
-            <h2>Ingredients</h2>
-            <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
-                <button type="button" onclick="scaleRecipe(1)">x1</button>
-                <button type="button" onclick="scaleRecipe(2)">x2</button>
-                <button type="button" onclick="scaleRecipe(3)">x3</button>
-            </div>
-            <ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp olive oil</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> large onions, halved and thinly sliced</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> cloves garlic, chopped</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp ground cumin</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> heaped tsp smoked paprika</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tsp cinnamon</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> red chillies, halved deseeded and sliced</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="500" class="scalable">500</span></b> g pork mince</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b>x 200 g packs cooking chorizo sausages, removed from their skins</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="680" class="scalable">680</span></b> g bottle passata</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> pork or chicken stock cube</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> peppers - 2 red and 2 green, deseeded, quartered and sliced</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b>x 400 g cans borlotti beans, drained</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="30" class="scalable">30</span></b> g pack coriander, chopped</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="500" class="scalable">500</span></b> g tub fromage frais (not fat-free)</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> large egg</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b>x pack of 8 soft corn tortillas</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="140" class="scalable">140</span></b> g mature cheddar, grated</li>
-<li itemprop="recipeIngredient" class="ingredient">green salad, to serve</li>
-</ul>
-        </div>
-        <div class="instructions">
-            <h2>Instructions</h2>
-            <ol>
-                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div> in a large, deep pan and fry the <div class="tooltip">onions<span class="tooltiptext"><span default="2" class="scalable">2</span> large</span></div> and <div class="tooltip">garlic<span class="tooltiptext"><span default="3" class="scalable">3</span> cloves</span></div> for about <b>10</b> minutes. Add the spices and half the chilli, and cook for <b>1</b> minute more.  </li>
-                <li itemprop="recipeInstructions">Tip in the <div class="tooltip">pork<span class="tooltiptext"><span default="500" class="scalable">500</span> g</span></div> and <div class="tooltip">chorizo<span class="tooltiptext"><span default="2" class="scalable">2</span>x 200 g packs</span></div>, turn up the heat and fry the meat, stirring and breaking it down until it changes colour. Pour in the <div class="tooltip">passata<span class="tooltiptext"><span default="680" class="scalable">680</span> g</span></div> and <b>300</b>ml water, then crumble in the <div class="tooltip">stock cube<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div>.  </li>
-                <li itemprop="recipeInstructions">Pile in the <div class="tooltip">peppers<span class="tooltiptext"><span default="4" class="scalable">4</span> </span></div>, stir, cover and simmer over a low heat for <b>30</b> mins until the meat and <div class="tooltip">peppers<span class="tooltiptext"><span default="4" class="scalable">4</span> </span></div> are tender. Stir in the <div class="tooltip">beans<span class="tooltiptext"><span default="2" class="scalable">2</span>x 400 g cans</span></div> and two-thirds of the <div class="tooltip">coriander<span class="tooltiptext"><span default="30" class="scalable">30</span> g pack</span></div>.  </li>
-                <li itemprop="recipeInstructions">Meanwhile, tip the <div class="tooltip">fromage frais<span class="tooltiptext"><span default="500" class="scalable">500</span> g tub</span></div> (with any liquid in the tub) into a bowl, and beat in the <div class="tooltip">egg<span class="tooltiptext"><span default="1" class="scalable">1</span> large</span></div>, remaining <div class="tooltip">coriander<span class="tooltiptext"><span default="30" class="scalable">30</span> g pack</span></div> and seasoning. Get out <b>2</b> ovenproof and freezer-proof dishes.  </li>
-                <li itemprop="recipeInstructions">Spoon the meat onto the centre of the <div class="tooltip">tortillas<span class="tooltiptext"><span default="2" class="scalable">2</span>x pack of 8</span></div>, roll up and arrange <b>8</b> in each dish. Spoon half of the <div class="tooltip">fromage frais<span class="tooltiptext"><span default="500" class="scalable">500</span> g tub</span></div> mixture on top and smooth it to cover the <div class="tooltip">tortillas<span class="tooltiptext"><span default="2" class="scalable">2</span>x pack of 8</span></div>. Scatter each with half the <div class="tooltip">cheese<span class="tooltiptext"><span default="140" class="scalable">140</span> g</span></div> and remaining chillies.  </li>
-                <li itemprop="recipeInstructions">Heat oven to <b>170</b>&degC fan/Gas <b>5</b> and bake for <b>25</b> mins until golden, then serve with a green salad.</li>
-                </ol>
-        </div>
-        <div class="source">
-            <div class="link">
-                <a href=https://www.bbcgoodfood.com/recipes/pork-chorizo-enchiladas>www.bbcgoodfood.com</a>
-            </div>
-            <div class="link">
-                <a href=../recipes/f58312.html>Short Link</a> 
-                <a href=../recipes/Pork%20&%20chorizo%20enchiladas.html>Long Link</a>
-            </div>
-        </div>
-        </main>
+            <a class="link" href=https://www.bbcgoodfood.com/recipes/pork-chorizo-enchiladas>www.bbcgoodfood.com</a>
+            <a class="link" href=../recipes/f58312.html>Short Link</a> 
+            <a class="link" href=../recipes/Pork%20&%20chorizo%20enchiladas.html>Long Link</a>
+        </section>
     </body>
 </html>

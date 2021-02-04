@@ -14,28 +14,26 @@
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
     <body class="Beef" itemscope itemtype="https://schema.org/Recipe">
-        <div class="information">
-            <header>
-                <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
-            </header>
+
+        <a class="header" href="../index.html">
+            <img class="header-img" src="../img/header-logo.svg" alt="Stranger Foods">
+            <h4>Stranger Foods</h4>
+        </a>
+
+        <section class="recipe">
+            <h1 itemprop="name">Italian meatballs</h1>
             <img itemprop="image" class="recipe-image" src="../images/Italian_meatballs.webp" alt="Recipe image">
-            <h1 class="recipe-title" itemprop="name">Italian meatballs</h1>
-            <h3>
-                <div class="icon baseline"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="90" width="90" viewBox="0 0 100 100"><circle r="40" cy="45.556" cx="45.556" class="circle"/><path d="M45.556 10.556v35m32.5-2.5h-35" fill="#fff" stroke="#fff" stroke-width="5"/></svg>
-                    <meta itemprop="totalTime" content=PT40M>40 mins
-                    <meta itemprop="prepTime" content=>
-                    <meta itemprop="performTime" content=PT40M>
+            <h3><strong>Servings:</strong> <span id="servings" default="3">3</span></h3>
+            <h3><strong>Total:</strong> 40 mins</h3>
+            <meta itemprop="totalTime" content=PT40M>
+            <meta itemprop="prepTime" content=>
+            <meta itemprop="performTime" content=PT40M>
+            <meta itemprop="recipeYield" content="3 servings">
+
+            <div class="recipe-metadata">
                 </div>
-                <div class="icon baseline">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="3 servings"><span id="servings" default="3">3</span>&nbsp;servings
-                </div>
-            </h3>         
-            <h3>
-                </h3>          
-            </div>
-        <div class="ingredients">
+
+            <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
                 <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
@@ -70,8 +68,8 @@
 <li itemprop="recipeIngredient" class="ingredient">oil to fry</li>
 </ul>
 </details>
-        </div>
-        <div class="instructions">
+        
+            <hr>
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">To make the sauce, heat a little oil in a saucepan and fry the <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> and <div class="tooltip">garlic<span class="tooltiptext"><span default="1" class="scalable">1</span> clove</span></div> for <b>2-3</b> minutes. Add the rest of the sauce ingredients and bring to the boil, then turn down and simmer for <b>5</b> minutes.  </li>
@@ -83,16 +81,11 @@
                 <li itemprop="recipeInstructions">Drain the <div class="tooltip">spaghetti<span class="tooltiptext"><span default="250" class="scalable">250</span> g</span></div>.  </li>
                 <li itemprop="recipeInstructions">Add the meatballs and sauce to the <div class="tooltip">spaghetti<span class="tooltiptext"><span default="250" class="scalable">250</span> g</span></div> and mix. Garnish with basil and serve.</li>
                 </ol>
-        </div>
-        <div class="source">
-            <div class="link">
-                <a href=>Nosh for graduates</a>
-            </div>
-            <div class="link">
-                <a href=../recipes/173125.html>Short Link</a> 
-                <a href=../recipes/Italian%20meatballs.html>Long Link</a>
-            </div>
-        </div>
-        </main>
+
+            <hr>
+            <a class="link" href=>Nosh for graduates</a>
+            <a class="link" href=../recipes/173125.html>Short Link</a> 
+            <a class="link" href=../recipes/Italian%20meatballs.html>Long Link</a>
+        </section>
     </body>
 </html>

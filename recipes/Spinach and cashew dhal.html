@@ -14,36 +14,60 @@
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
-        <link itemprop="suitableForDiet" href="https://schema.org/VegetarianDiet">
-        <div class="information">
-            <header>
-                <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
-            </header>
+
+        <a class="header" href="../index.html">
+            <img class="header-img" src="../img/header-logo.svg" alt="Stranger Foods">
+            <h4>Stranger Foods</h4>
+        </a>
+
+        <section class="recipe">
+            <h1 itemprop="name">Spinach and cashew dhal</h1>
             <img itemprop="image" class="recipe-image" src="../images/Spinach_and_cashew_dhal.webp" alt="Recipe image">
-            <h1 class="recipe-title" itemprop="name">Spinach and cashew dhal</h1>
-            <p class="recipe-description" itemprop="description">Our speedy veggie dhal is topped with chopped cashews. Make the dhal up to 3 days ahead (or freeze in portions), then boil an egg when you are ready to eat.</p>
-            <h3>
-                <div class="icon baseline"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="90" width="90" viewBox="0 0 100 100"><circle r="40" cy="45.556" cx="45.556" class="circle"/><path d="M45.556 10.556v35m32.5-2.5h-35" fill="#fff" stroke="#fff" stroke-width="5"/></svg>
-                    <meta itemprop="totalTime" content=PT30M>30 mins
-                    <meta itemprop="prepTime" content=PT25M>
-                    <meta itemprop="performTime" content=PT50M>
+            <p itemprop="description">Our speedy veggie dhal is topped with chopped cashews. Make the dhal up to 3 days ahead (or freeze in portions), then boil an egg when you are ready to eat.</p>
+            <h3><strong>Servings:</strong> <span id="servings" default="4">4</span></h3>
+            <h3><strong>Total:</strong> 30 mins</h3>
+            <meta itemprop="totalTime" content=PT30M>
+            <meta itemprop="prepTime" content=PT25M>
+            <meta itemprop="performTime" content=PT50M>
+            <meta itemprop="recipeYield" content="4 servings">
+
+            <div class="recipe-metadata">
+                <h3><img class="diet-image" src="../img/vegetarian.svg" alt="vegetarian">Vegetarian</h3>
+                <h3><img class="diet-image" src="../img/dairyfree.svg" alt="Dairy free">Dairy Free</h3>
+                <h3><img class="diet-image" src="../img/glutenfree.svg" alt="Gluten free">Gluten Free</h3>
                 </div>
-                <div class="icon baseline">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="4 servings"><span id="servings" default="4">4</span>&nbsp;servings
-                </div>
-            </h3>         
-            <h3>
-                <div class="icon baseline">
-                    <img src="../img/glutenfree.svg" alt="Gluten free icon">
-                    <link itemprop="suitableForDiet" href="https://schema.org/GlutenFreeDiet">Gluten Free
-                </div>   
-                <div class="icon baseline">
-                    <img src="../img/dairyfree.svg" alt="Dairy free icon">
-                    <link itemprop="suitableForDiet" href="https://schema.org/LowLactoseDiet">Dairy Free
-                </div>   
-                </h3>          
+
+            <hr>
+            <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>
+            <ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp sunflower or coconut oil</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> cloves garlic, finely chopped</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="30" class="scalable">30</span></b> g root ginger, finely chopped</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="6" class="scalable">6</span></b> spring onions, sliced diagonally</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1.5" class="scalable">1½</span></b> tsp ground turmeric</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1.5" class="scalable">1½</span></b> tbsp cumin seeds</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="300" class="scalable">300</span></b> g dried red lentils, rinsed</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="900" class="scalable">900</span></b> ml vegetable stock - check if gluten free if needed</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> medium eggs, at room temperature</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="200" class="scalable">200</span></b> g baby leaf spinach</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="50" class="scalable">50</span></b> g cashews, toasted and roughly chopped</li>
+</ul>
+        
+            <hr>
+            <h2>Instructions</h2>
+            <ol>
+                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div> in a deep frying pan, add the <div class="tooltip">garlic<span class="tooltiptext"><span default="3" class="scalable">3</span> cloves</span></div>, <div class="tooltip">ginger<span class="tooltiptext"><span default="30" class="scalable">30</span> g</span></div> and most of the <div class="tooltip">spring onions<span class="tooltiptext"><span default="6" class="scalable">6</span> </span></div>. Cook until the <div class="tooltip">spring onions<span class="tooltiptext"><span default="6" class="scalable">6</span> </span></div> have softened, then stir in the <div class="tooltip">turmeric<span class="tooltiptext"><span default="1.5" class="scalable">1&frac12;</span> tsp</span></div> and <div class="tooltip">cumin seeds<span class="tooltiptext"><span default="1.5" class="scalable">1&frac12;</span> tbsp</span></div> and cook for <b>1</b> minute more. Add the <div class="tooltip">red lentils<span class="tooltiptext"><span default="300" class="scalable">300</span> g</span></div> to the pan along with the <div class="tooltip">vegetable stock<span class="tooltiptext"><span default="900" class="scalable">900</span> ml</span></div>. Give everything a good mix, bring to the boil, then cover with a lid, reduce the heat and let the dhal simmer away for <b>20</b> minutes until the lentils are cooked through. If the dhal is looking too dry or thick, add a little water.</li>
+                <li itemprop="recipeInstructions">Meanwhile, bring a small pan of water to a medium boil. Drop in the <div class="tooltip">eggs<span class="tooltiptext"><span default="4" class="scalable">4</span> medium</span></div> and set a timer for <b>6.5</b> minutes (add an extra minute if cooking from fridge-cold). Drain, then rinse under cold water until cool enough to handle, peel and cut in half.</li>
+                <li itemprop="recipeInstructions">Stir the <div class="tooltip">spinach<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div> through the dhal and season to taste. Once wilted, divide between <b>4</b> bowls and top each portion of dhal with a halved egg, seasoned with a little salt. Scatter with the chopped <div class="tooltip">cashews<span class="tooltiptext"><span default="50" class="scalable">50</span> g</span></div>, remaining <div class="tooltip">spring onions<span class="tooltiptext"><span default="6" class="scalable">6</span> </span></div> and a drizzle of your favourite chilli sauce, if you like.</li>
+                </ol>
+
+            <hr>
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -80,46 +104,9 @@
                     </li>
                 </ul>
             </div>  
-            </div>
-        <div class="ingredients">
-            <h2>Ingredients</h2>
-            <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
-                <button type="button" onclick="scaleRecipe(1)">x1</button>
-                <button type="button" onclick="scaleRecipe(2)">x2</button>
-                <button type="button" onclick="scaleRecipe(3)">x3</button>
-            </div>
-            <ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp sunflower or coconut oil</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> cloves garlic, finely chopped</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="30" class="scalable">30</span></b> g root ginger, finely chopped</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="6" class="scalable">6</span></b> spring onions, sliced diagonally</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1.5" class="scalable">1½</span></b> tsp ground turmeric</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1.5" class="scalable">1½</span></b> tbsp cumin seeds</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="300" class="scalable">300</span></b> g dried red lentils, rinsed</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="900" class="scalable">900</span></b> ml vegetable stock - check if gluten free if needed</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> medium eggs, at room temperature</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="200" class="scalable">200</span></b> g baby leaf spinach</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="50" class="scalable">50</span></b> g cashews, toasted and roughly chopped</li>
-</ul>
-        </div>
-        <div class="instructions">
-            <h2>Instructions</h2>
-            <ol>
-                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div> in a deep frying pan, add the <div class="tooltip">garlic<span class="tooltiptext"><span default="3" class="scalable">3</span> cloves</span></div>, <div class="tooltip">ginger<span class="tooltiptext"><span default="30" class="scalable">30</span> g</span></div> and most of the <div class="tooltip">spring onions<span class="tooltiptext"><span default="6" class="scalable">6</span> </span></div>. Cook until the <div class="tooltip">spring onions<span class="tooltiptext"><span default="6" class="scalable">6</span> </span></div> have softened, then stir in the <div class="tooltip">turmeric<span class="tooltiptext"><span default="1.5" class="scalable">1&frac12;</span> tsp</span></div> and <div class="tooltip">cumin seeds<span class="tooltiptext"><span default="1.5" class="scalable">1&frac12;</span> tbsp</span></div> and cook for <b>1</b> minute more. Add the <div class="tooltip">red lentils<span class="tooltiptext"><span default="300" class="scalable">300</span> g</span></div> to the pan along with the <div class="tooltip">vegetable stock<span class="tooltiptext"><span default="900" class="scalable">900</span> ml</span></div>. Give everything a good mix, bring to the boil, then cover with a lid, reduce the heat and let the dhal simmer away for <b>20</b> minutes until the lentils are cooked through. If the dhal is looking too dry or thick, add a little water.</li>
-                <li itemprop="recipeInstructions">Meanwhile, bring a small pan of water to a medium boil. Drop in the <div class="tooltip">eggs<span class="tooltiptext"><span default="4" class="scalable">4</span> medium</span></div> and set a timer for <b>6.5</b> minutes (add an extra minute if cooking from fridge-cold). Drain, then rinse under cold water until cool enough to handle, peel and cut in half.</li>
-                <li itemprop="recipeInstructions">Stir the <div class="tooltip">spinach<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div> through the dhal and season to taste. Once wilted, divide between <b>4</b> bowls and top each portion of dhal with a halved egg, seasoned with a little salt. Scatter with the chopped <div class="tooltip">cashews<span class="tooltiptext"><span default="50" class="scalable">50</span> g</span></div>, remaining <div class="tooltip">spring onions<span class="tooltiptext"><span default="6" class="scalable">6</span> </span></div> and a drizzle of your favourite chilli sauce, if you like.</li>
-                </ol>
-        </div>
-        <div class="source">
-            <div class="link">
-                <a href=https://www.sainsburysmagazine.co.uk/recipes/mains/spinach-and-cashew-dhal>www.sainsburysmagazine.co.uk</a>
-            </div>
-            <div class="link">
-                <a href=../recipes/458187.html>Short Link</a> 
-                <a href=../recipes/Spinach%20and%20cashew%20dhal.html>Long Link</a>
-            </div>
-        </div>
-        </main>
+            <a class="link" href=https://www.sainsburysmagazine.co.uk/recipes/mains/spinach-and-cashew-dhal>www.sainsburysmagazine.co.uk</a>
+            <a class="link" href=../recipes/458187.html>Short Link</a> 
+            <a class="link" href=../recipes/Spinach%20and%20cashew%20dhal.html>Long Link</a>
+        </section>
     </body>
 </html>

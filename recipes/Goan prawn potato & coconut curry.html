@@ -14,31 +14,69 @@
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
-        <div class="information">
-            <header>
-                <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
-            </header>
+
+        <a class="header" href="../index.html">
+            <img class="header-img" src="../img/header-logo.svg" alt="Stranger Foods">
+            <h4>Stranger Foods</h4>
+        </a>
+
+        <section class="recipe">
+            <h1 itemprop="name">Goan prawn, potato & coconut curry</h1>
             <img itemprop="image" class="recipe-image" src="../images/Goan_prawn_potato_&_coconut_curry.webp" alt="Recipe image">
-            <h1 class="recipe-title" itemprop="name">Goan prawn, potato & coconut curry</h1>
-            <p class="recipe-description" itemprop="description">Impress family and friends with this fragrant seafood curry. The curry base also works with chunks of meaty white fish like monkfish or hake.</p>
-            <h3>
-                <div class="icon baseline"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="90" width="90" viewBox="0 0 100 100"><circle r="40" cy="45.556" cx="45.556" class="circle"/><path d="M45.556 10.556v35m32.5-2.5h-35" fill="#fff" stroke="#fff" stroke-width="5"/></svg>
-                    <meta itemprop="totalTime" content=PT85M>1 hr 25 mins
-                    <meta itemprop="prepTime" content=PT25M>
-                    <meta itemprop="performTime" content=P60TM>
+            <p itemprop="description">Impress family and friends with this fragrant seafood curry. The curry base also works with chunks of meaty white fish like monkfish or hake.</p>
+            <h3><strong>Servings:</strong> <span id="servings" default="6">6</span></h3>
+            <h3><strong>Total:</strong> 1 hr 25 mins</h3>
+            <meta itemprop="totalTime" content=PT85M>
+            <meta itemprop="prepTime" content=PT25M>
+            <meta itemprop="performTime" content=P60TM>
+            <meta itemprop="recipeYield" content="6 servings">
+
+            <div class="recipe-metadata">
+                <h3><img class="diet-image" src="../img/glutenfree.svg" alt="Gluten free">Gluten Free</h3>
                 </div>
-                <div class="icon baseline">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="6 servings"><span id="servings" default="6">6</span>&nbsp;servings
-                </div>
-            </h3>         
-            <h3>
-                <div class="icon baseline">
-                    <img src="../img/glutenfree.svg" alt="Gluten free icon">
-                    <link itemprop="suitableForDiet" href="https://schema.org/GlutenFreeDiet">Gluten Free
-                </div>   
-                </h3>          
+
+            <hr>
+            <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>
+            <ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="125" class="scalable">125</span></b> g coconut oil</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> onions, chopped</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="5" class="scalable">5</span></b> dried red chillies (Scotch bonnet work well)</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="thumb-sized piece" class="scalable">thumb-sized piece</span></b> ginger, grated</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> cloves garlic, grated</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="6" class="scalable">6</span></b> dried curry leaves</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">½</span></b> tsp mustard seeds</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="30" class="scalable">30</span></b> g tomato puree</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">½</span></b> tsp hot chilli powder</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">½</span></b> tsp turmeric</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b>x 400 g cans coconut milk</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="300" class="scalable">300</span></b> g cauliflower (0.5 small one), broken into small florets</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> large potato, peeled and chopped into 2 cm chunks</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="600" class="scalable">600</span></b> g raw peeled prawns</li>
+</ul>
+<details open>
+<summary class="ingredient-subheading">To serve</summary>
+<ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> bunch spring onions, finely chopped</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> bunch coriander, chopped</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="100" class="scalable">100</span></b> g salted peanuts, chopped</li>
+<li itemprop="recipeIngredient" class="ingredient">lime wedges</li>
+</ul>
+</details>
+        
+            <hr>
+            <h2>Instructions</h2>
+            <ol>
+                <li itemprop="recipeInstructions">Heat the <div class="tooltip">coconut oil<span class="tooltiptext"><span default="125" class="scalable">125</span> g</span></div> in a casserole or wok over a medium heat and add the <div class="tooltip">onions<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div>, <div class="tooltip">dried chillies<span class="tooltiptext"><span default="5" class="scalable">5</span> </span></div>, <div class="tooltip">ginger<span class="tooltiptext">thumb-sized piece </span></div>, <div class="tooltip">garlic<span class="tooltiptext"><span default="4" class="scalable">4</span> cloves</span></div>, <div class="tooltip">curry leaf<span class="tooltiptext"><span default="6" class="scalable">6</span> </span></div> and <div class="tooltip">mustard seeds<span class="tooltiptext"><span default="0.5" class="scalable">&frac12;</span> tsp</span></div>, fry for <b>12-15</b> mins until the onion is soft, then stir in the <div class="tooltip">tomato puree<span class="tooltiptext"><span default="30" class="scalable">30</span> g</span></div>, <div class="tooltip">chilli<span class="tooltiptext"><span default="0.5" class="scalable">&frac12;</span> tsp</span></div> and <div class="tooltip">turmeric<span class="tooltiptext"><span default="0.5" class="scalable">&frac12;</span> tsp</span></div> and continue to cook for <b>1-2</b> mins more. Pour in the <div class="tooltip">coconut milk<span class="tooltiptext"><span default="2" class="scalable">2</span>x 400 g cans</span></div> and <b>200</b> ml water, simmer the sauce for <b>20</b> mins, then blitz in a blender or with a hand blender until smooth.</li>
+                <li itemprop="recipeInstructions">Pour the sauce back into the saucepan and bring up to a simmer. Stir in the <div class="tooltip">cauliflower<span class="tooltiptext"><span default="300" class="scalable">300</span> g</span></div> and <div class="tooltip">potato<span class="tooltiptext"><span default="1" class="scalable">1</span> large</span></div>, cover and simmer for <b>15</b> mins. Add the <div class="tooltip">prawns<span class="tooltiptext"><span default="600" class="scalable">600</span> g</span></div> and poach for <b>2</b> mins, or until they turn pink. If freezing, cool and freeze, then defrost and reheat when you're ready to eat. To serve, scatter the <div class="tooltip">spring onions<span class="tooltiptext"><span default="1" class="scalable">1</span> bunch</span></div>, <div class="tooltip">coriander<span class="tooltiptext"><span default="1" class="scalable">1</span> bunch</span></div> and <div class="tooltip">peanuts<span class="tooltiptext"><span default="100" class="scalable">100</span> g</span></div> over the curry and squeeze over a little lime juice.</li>
+                </ol>
+
+            <hr>
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -75,57 +113,9 @@
                     </li>
                 </ul>
             </div>  
-            </div>
-        <div class="ingredients">
-            <h2>Ingredients</h2>
-            <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
-                <button type="button" onclick="scaleRecipe(1)">x1</button>
-                <button type="button" onclick="scaleRecipe(2)">x2</button>
-                <button type="button" onclick="scaleRecipe(3)">x3</button>
-            </div>
-            <ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="125" class="scalable">125</span></b> g coconut oil</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> onions, chopped</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="5" class="scalable">5</span></b> dried red chillies (Scotch bonnet work well)</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="thumb-sized piece" class="scalable">thumb-sized piece</span></b> ginger, grated</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> cloves garlic, grated</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="6" class="scalable">6</span></b> dried curry leaves</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">½</span></b> tsp mustard seeds</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="30" class="scalable">30</span></b> g tomato puree</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">½</span></b> tsp hot chilli powder</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">½</span></b> tsp turmeric</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b>x 400 g cans coconut milk</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="300" class="scalable">300</span></b> g cauliflower (0.5 small one), broken into small florets</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> large potato, peeled and chopped into 2 cm chunks</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="600" class="scalable">600</span></b> g raw peeled prawns</li>
-</ul>
-<details open>
-<summary class="ingredient-subheading">To serve</summary>
-<ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> bunch spring onions, finely chopped</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> bunch coriander, chopped</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="100" class="scalable">100</span></b> g salted peanuts, chopped</li>
-<li itemprop="recipeIngredient" class="ingredient">lime wedges</li>
-</ul>
-</details>
-        </div>
-        <div class="instructions">
-            <h2>Instructions</h2>
-            <ol>
-                <li itemprop="recipeInstructions">Heat the <div class="tooltip">coconut oil<span class="tooltiptext"><span default="125" class="scalable">125</span> g</span></div> in a casserole or wok over a medium heat and add the <div class="tooltip">onions<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div>, <div class="tooltip">dried chillies<span class="tooltiptext"><span default="5" class="scalable">5</span> </span></div>, <div class="tooltip">ginger<span class="tooltiptext">thumb-sized piece </span></div>, <div class="tooltip">garlic<span class="tooltiptext"><span default="4" class="scalable">4</span> cloves</span></div>, <div class="tooltip">curry leaf<span class="tooltiptext"><span default="6" class="scalable">6</span> </span></div> and <div class="tooltip">mustard seeds<span class="tooltiptext"><span default="0.5" class="scalable">&frac12;</span> tsp</span></div>, fry for <b>12-15</b> mins until the onion is soft, then stir in the <div class="tooltip">tomato puree<span class="tooltiptext"><span default="30" class="scalable">30</span> g</span></div>, <div class="tooltip">chilli<span class="tooltiptext"><span default="0.5" class="scalable">&frac12;</span> tsp</span></div> and <div class="tooltip">turmeric<span class="tooltiptext"><span default="0.5" class="scalable">&frac12;</span> tsp</span></div> and continue to cook for <b>1-2</b> mins more. Pour in the <div class="tooltip">coconut milk<span class="tooltiptext"><span default="2" class="scalable">2</span>x 400 g cans</span></div> and <b>200</b> ml water, simmer the sauce for <b>20</b> mins, then blitz in a blender or with a hand blender until smooth.</li>
-                <li itemprop="recipeInstructions">Pour the sauce back into the saucepan and bring up to a simmer. Stir in the <div class="tooltip">cauliflower<span class="tooltiptext"><span default="300" class="scalable">300</span> g</span></div> and <div class="tooltip">potato<span class="tooltiptext"><span default="1" class="scalable">1</span> large</span></div>, cover and simmer for <b>15</b> mins. Add the <div class="tooltip">prawns<span class="tooltiptext"><span default="600" class="scalable">600</span> g</span></div> and poach for <b>2</b> mins, or until they turn pink. If freezing, cool and freeze, then defrost and reheat when you're ready to eat. To serve, scatter the <div class="tooltip">spring onions<span class="tooltiptext"><span default="1" class="scalable">1</span> bunch</span></div>, <div class="tooltip">coriander<span class="tooltiptext"><span default="1" class="scalable">1</span> bunch</span></div> and <div class="tooltip">peanuts<span class="tooltiptext"><span default="100" class="scalable">100</span> g</span></div> over the curry and squeeze over a little lime juice.</li>
-                </ol>
-        </div>
-        <div class="source">
-            <div class="link">
-                <a href=https://www.bbcgoodfood.com/recipes/goan-prawn-potato-coconut-curry>www.bbcgoodfood.com</a>
-            </div>
-            <div class="link">
-                <a href=../recipes/5bec06.html>Short Link</a> 
-                <a href=../recipes/Goan%20prawn,%20potato%20&%20coconut%20curry.html>Long Link</a>
-            </div>
-        </div>
-        </main>
+            <a class="link" href=https://www.bbcgoodfood.com/recipes/goan-prawn-potato-coconut-curry>www.bbcgoodfood.com</a>
+            <a class="link" href=../recipes/5bec06.html>Short Link</a> 
+            <a class="link" href=../recipes/Goan%20prawn,%20potato%20&%20coconut%20curry.html>Long Link</a>
+        </section>
     </body>
 </html>

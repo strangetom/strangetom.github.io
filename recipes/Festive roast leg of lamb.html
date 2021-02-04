@@ -14,27 +14,56 @@
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
     <body class="Lamb" itemscope itemtype="https://schema.org/Recipe">
-        <div class="information">
-            <header>
-                <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
-            </header>
+
+        <a class="header" href="../index.html">
+            <img class="header-img" src="../img/header-logo.svg" alt="Stranger Foods">
+            <h4>Stranger Foods</h4>
+        </a>
+
+        <section class="recipe">
+            <h1 itemprop="name">Festive roast leg of lamb</h1>
             <img itemprop="image" class="recipe-image" src="../images/Festive_roast_leg_of_lamb.webp" alt="Recipe image">
-            <h1 class="recipe-title" itemprop="name">Festive roast leg of lamb</h1>
-            <p class="recipe-description" itemprop="description">My festive roast leg of lamb flavoured with rosemary, cloves, orange and cranberries makes a fantastic alternative to turkey on Christmas day or to feed your family and friends over the festive period.</p>
-            <h3>
-                <div class="icon baseline"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="90" width="90" viewBox="0 0 100 100"><circle r="40" cy="45.556" cx="45.556" class="circle"/><path d="M45.556 10.556v35m32.5-2.5h-35" fill="#fff" stroke="#fff" stroke-width="5"/></svg>
-                    <meta itemprop="totalTime" content=PT145M>2 hr 25 mins
-                    <meta itemprop="prepTime" content=PT5M>
-                    <meta itemprop="performTime" content=PT125M>
+            <p itemprop="description">My festive roast leg of lamb flavoured with rosemary, cloves, orange and cranberries makes a fantastic alternative to turkey on Christmas day or to feed your family and friends over the festive period.</p>
+            <h3><strong>Servings:</strong> <span id="servings" default="8">8</span></h3>
+            <h3><strong>Total:</strong> 2 hr 25 mins</h3>
+            <meta itemprop="totalTime" content=PT145M>
+            <meta itemprop="prepTime" content=PT5M>
+            <meta itemprop="performTime" content=PT125M>
+            <meta itemprop="recipeYield" content="8 servings">
+
+            <div class="recipe-metadata">
                 </div>
-                <div class="icon baseline">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="8 servings"><span id="servings" default="8">8</span>&nbsp;servings
-                </div>
-            </h3>         
-            <h3>
-                </h3>          
+
+            <hr>
+            <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>
+            <ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> leg lamb (or half leg)</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="10" class="scalable">10</span></b> cloves (approx)</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> sprigs rosemary (approx)</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp cranberry sauce (heaped tbsp. I prefer to use chunky cranberry sauce but smooth is fine if that's what you've got)</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.25" class="scalable">¼</span></b> orange (zest only)</li>
+<li itemprop="recipeIngredient" class="ingredient">Salt</li>
+</ul>
+        
+            <hr>
+            <h2>Instructions</h2>
+            <ol>
+                <li itemprop="recipeInstructions">About an hour before you want to cook your <div class="tooltip">lamb<span class="tooltiptext"><span default="1" class="scalable">1</span> leg</span></div>, remove it from the fridge, remove all packaging and place into a large roasting dish. Cover the <div class="tooltip">lamb<span class="tooltiptext"><span default="1" class="scalable">1</span> leg</span></div> with cling film and allow it to come up to room temperature before roasting (about an hour).</li>
+                <li itemprop="recipeInstructions">Remove the cling film and use a sharp knife to cut small slits in the <div class="tooltip">lamb<span class="tooltiptext"><span default="1" class="scalable">1</span> leg</span></div>. Place a clove in each slits. Lay a few sprigs of fresh <div class="tooltip">rosemary<span class="tooltiptext"><span default="3" class="scalable">3</span> sprigs</span></div> on top of the <div class="tooltip">lamb<span class="tooltiptext"><span default="1" class="scalable">1</span> leg</span></div>. Season with salt.</li>
+                <li itemprop="recipeInstructions">Pre-heat your oven to <b>160</b>&degC.</li>
+                <li itemprop="recipeInstructions">In a small bowl mix together the <div class="tooltip">cranberry sauce<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div> (<b>1</b> heaped tbsp) and <div class="tooltip">orange<span class="tooltiptext"><span default="0.25" class="scalable">&frac14;</span> </span></div> zest ( <b>&frac14;</b> <div class="tooltip">orange<span class="tooltiptext"><span default="0.25" class="scalable">&frac14;</span> </span></div>).</li>
+                <li itemprop="recipeInstructions">Roast the <div class="tooltip">lamb<span class="tooltiptext"><span default="1" class="scalable">1</span> leg</span></div> for <b>2</b> hours, <b>5</b> minutes (adjust the time according to the weight of the <div class="tooltip">lamb<span class="tooltiptext"><span default="1" class="scalable">1</span> leg</span></div>). About every <b>20-30</b> minutes, baste the joint with the juices in the bottom of the tray. Half an hour before the <div class="tooltip">lamb<span class="tooltiptext"><span default="1" class="scalable">1</span> leg</span></div> has finished cooking, remove it from the oven and brush it with the cranberry and <div class="tooltip">orange<span class="tooltiptext"><span default="0.25" class="scalable">&frac14;</span> </span></div> mixture so it has a thin coating all over the outside then return it to the oven to finish cooking.</li>
+                <li itemprop="recipeInstructions">Once the <div class="tooltip">lamb<span class="tooltiptext"><span default="1" class="scalable">1</span> leg</span></div> has cooked remove it from the oven, cover with foil and leave to rest for <b>15</b> minutes before carving. Remove the <div class="tooltip">cloves<span class="tooltiptext"><span default="10" class="scalable">10</span> </span></div> and <div class="tooltip">rosemary<span class="tooltiptext"><span default="3" class="scalable">3</span> sprigs</span></div> sprigs before serving.</li>
+                <li itemprop="recipeInstructions"><b>Notes:</b> For medium: <b>25</b> minutes + <b>25</b> minutes per <b>500</b> g. For well done: <b>30</b> minutes + <b>30</b> minutes per <b>500</b> g.</li>
+                </ol>
+
+            <hr>
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -71,45 +100,9 @@
                     </li>
                 </ul>
             </div>  
-            </div>
-        <div class="ingredients">
-            <h2>Ingredients</h2>
-            <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
-                <button type="button" onclick="scaleRecipe(1)">x1</button>
-                <button type="button" onclick="scaleRecipe(2)">x2</button>
-                <button type="button" onclick="scaleRecipe(3)">x3</button>
-            </div>
-            <ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> leg lamb (or half leg)</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="10" class="scalable">10</span></b> cloves (approx)</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> sprigs rosemary (approx)</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp cranberry sauce (heaped tbsp. I prefer to use chunky cranberry sauce but smooth is fine if that's what you've got)</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.25" class="scalable">¼</span></b> orange (zest only)</li>
-<li itemprop="recipeIngredient" class="ingredient">Salt</li>
-</ul>
-        </div>
-        <div class="instructions">
-            <h2>Instructions</h2>
-            <ol>
-                <li itemprop="recipeInstructions">About an hour before you want to cook your <div class="tooltip">lamb<span class="tooltiptext"><span default="1" class="scalable">1</span> leg</span></div>, remove it from the fridge, remove all packaging and place into a large roasting dish. Cover the <div class="tooltip">lamb<span class="tooltiptext"><span default="1" class="scalable">1</span> leg</span></div> with cling film and allow it to come up to room temperature before roasting (about an hour).</li>
-                <li itemprop="recipeInstructions">Remove the cling film and use a sharp knife to cut small slits in the <div class="tooltip">lamb<span class="tooltiptext"><span default="1" class="scalable">1</span> leg</span></div>. Place a clove in each slits. Lay a few sprigs of fresh <div class="tooltip">rosemary<span class="tooltiptext"><span default="3" class="scalable">3</span> sprigs</span></div> on top of the <div class="tooltip">lamb<span class="tooltiptext"><span default="1" class="scalable">1</span> leg</span></div>. Season with salt.</li>
-                <li itemprop="recipeInstructions">Pre-heat your oven to <b>160</b>&degC.</li>
-                <li itemprop="recipeInstructions">In a small bowl mix together the <div class="tooltip">cranberry sauce<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div> (<b>1</b> heaped tbsp) and <div class="tooltip">orange<span class="tooltiptext"><span default="0.25" class="scalable">&frac14;</span> </span></div> zest ( <b>&frac14;</b> <div class="tooltip">orange<span class="tooltiptext"><span default="0.25" class="scalable">&frac14;</span> </span></div>).</li>
-                <li itemprop="recipeInstructions">Roast the <div class="tooltip">lamb<span class="tooltiptext"><span default="1" class="scalable">1</span> leg</span></div> for <b>2</b> hours, <b>5</b> minutes (adjust the time according to the weight of the <div class="tooltip">lamb<span class="tooltiptext"><span default="1" class="scalable">1</span> leg</span></div>). About every <b>20-30</b> minutes, baste the joint with the juices in the bottom of the tray. Half an hour before the <div class="tooltip">lamb<span class="tooltiptext"><span default="1" class="scalable">1</span> leg</span></div> has finished cooking, remove it from the oven and brush it with the cranberry and <div class="tooltip">orange<span class="tooltiptext"><span default="0.25" class="scalable">&frac14;</span> </span></div> mixture so it has a thin coating all over the outside then return it to the oven to finish cooking.</li>
-                <li itemprop="recipeInstructions">Once the <div class="tooltip">lamb<span class="tooltiptext"><span default="1" class="scalable">1</span> leg</span></div> has cooked remove it from the oven, cover with foil and leave to rest for <b>15</b> minutes before carving. Remove the <div class="tooltip">cloves<span class="tooltiptext"><span default="10" class="scalable">10</span> </span></div> and <div class="tooltip">rosemary<span class="tooltiptext"><span default="3" class="scalable">3</span> sprigs</span></div> sprigs before serving.</li>
-                <li itemprop="recipeInstructions"><b>Notes:</b> For medium: <b>25</b> minutes + <b>25</b> minutes per <b>500</b> g. For well done: <b>30</b> minutes + <b>30</b> minutes per <b>500</b> g.</li>
-                </ol>
-        </div>
-        <div class="source">
-            <div class="link">
-                <a href=https://charlotteslivelykitchen.com/festive-roast-leg-of-lamb/>charlotteslivelykitchen.com</a>
-            </div>
-            <div class="link">
-                <a href=../recipes/b80ce3.html>Short Link</a> 
-                <a href=../recipes/Festive%20roast%20leg%20of%20lamb.html>Long Link</a>
-            </div>
-        </div>
-        </main>
+            <a class="link" href=https://charlotteslivelykitchen.com/festive-roast-leg-of-lamb/>charlotteslivelykitchen.com</a>
+            <a class="link" href=../recipes/b80ce3.html>Short Link</a> 
+            <a class="link" href=../recipes/Festive%20roast%20leg%20of%20lamb.html>Long Link</a>
+        </section>
     </body>
 </html>

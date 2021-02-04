@@ -5,6 +5,33 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Cheesy taco pasta</title>
+      <link>https://strangetom.github.io/recipes/Cheesy%20taco%20pasta.html</link>
+      <description>
+        &lt;h1&gt;Cheesy taco pasta&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Cheesy_taco_pasta.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Italian meets Mexican in this tasty Cheesy Taco Pasta dish. Pasta is a great cost-effective way to bulk out meals for the family. Choose wholemeal or high fibre versions as often as possible..&lt;/p&gt;
+      </description>
+      <pubDate>Tue, 26 Jan 2021 00:00:00 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Cheesy%20taco%20pasta.html</guid>
+    </item>
+    <item>
+      <title>Beef tagine with sweet potatoes, peas, ginger and ras el hanout</title>
+      <link>https://strangetom.github.io/recipes/Beef%20tagine%20with%20sweet%20potatoes,%20peas,%20ginger%20and%20ras%20el%20hanout.html</link>
+      <description>
+        &lt;h1&gt;Beef tagine with sweet potatoes, peas, ginger and ras el hanout&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Beef_tagine_with_sweet_potatoes_peas_ginger_and_ras_el_hanout.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;This fairly fiery dish is laced with the powerful flavours and aromas of ras el hanout, a traditional spice mix..&lt;/p&gt;
+      </description>
+      <pubDate>Sat, 23 Jan 2021 00:00:00 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Beef%20tagine%20with%20sweet%20potatoes,%20peas,%20ginger%20and%20ras%20el%20hanout.html</guid>
+    </item>
+    <item>
+      <title>Jerked angry birds</title>
+      <link>https://strangetom.github.io/recipes/Jerked%20angry%20birds.html</link>
+      <description>
+        &lt;h1&gt;Jerked angry birds&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Jerked_angry_birds.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;A good jerk chicken is underpinned by the seasonings that come from the jerk trinity of allspice, Scotch bonnet and thyme..&lt;/p&gt;
+      </description>
+      <pubDate>Fri, 22 Jan 2021 00:00:00 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Jerked%20angry%20birds.html</guid>
+    </item>
+    <item>
       <title>Lemon garlic chicken orzo soup</title>
       <link>https://strangetom.github.io/recipes/Lemon%20garlic%20chicken%20orzo%20soup.html</link>
       <description>
@@ -21,33 +48,6 @@
       </description>
       <pubDate>Fri, 08 Jan 2021 00:00:00 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Slow%20cooker%20butter%20chicken.html</guid>
-    </item>
-    <item>
-      <title>Sweet and sour tofu stir fry</title>
-      <link>https://strangetom.github.io/recipes/Sweet%20and%20sour%20tofu%20stir%20fry.html</link>
-      <description>
-        &lt;h1&gt;Sweet and sour tofu stir fry&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Sweet_and_sour_tofu_stir_fry.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;The sweet and sour stir fry has become a very well known westernized Cantonese dish, which is especially popular when ordering take-out. It is quick and very easy to make, so especially good after a long and busy day..&lt;/p&gt;
-      </description>
-      <pubDate>Fri, 08 Jan 2021 00:00:00 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Sweet%20and%20sour%20tofu%20stir%20fry.html</guid>
-    </item>
-    <item>
-      <title>Sweet potato curry</title>
-      <link>https://strangetom.github.io/recipes/Sweet%20potato%20curry.html</link>
-      <description>
-        &lt;h1&gt;Sweet potato curry&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Sweet_potato_curry.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;.&lt;/p&gt;
-      </description>
-      <pubDate>Wed, 06 Jan 2021 00:00:00 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Sweet%20potato%20curry.html</guid>
-    </item>
-    <item>
-      <title>Citrus-spiced salmon</title>
-      <link>https://strangetom.github.io/recipes/Citrus-spiced%20salmon.html</link>
-      <description>
-        &lt;h1&gt;Citrus-spiced salmon&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Citrus-spiced_salmon.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Salmon is a great fish to spice up. Its oily nature an robust flavour allow it to hold spicing and gutsy marinades well without being overpowered, ad the spice mix for this dish is really quite bold..&lt;/p&gt;
-      </description>
-      <pubDate>Sat, 26 Dec 2020 00:00:00 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Citrus-spiced%20salmon.html</guid>
     </item>
     </channel>
 </rss>

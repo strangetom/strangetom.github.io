@@ -14,27 +14,66 @@
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
     <body class="Beef" itemscope itemtype="https://schema.org/Recipe">
-        <div class="information">
-            <header>
-                <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
-            </header>
+
+        <a class="header" href="../index.html">
+            <img class="header-img" src="../img/header-logo.svg" alt="Stranger Foods">
+            <h4>Stranger Foods</h4>
+        </a>
+
+        <section class="recipe">
+            <h1 itemprop="name">Chilli con carne</h1>
             <img itemprop="image" class="recipe-image" src="../images/Chilli_con_carne.webp" alt="Recipe image">
-            <h1 class="recipe-title" itemprop="name">Chilli con carne</h1>
-            <p class="recipe-description" itemprop="description">This great chilli recipe has to be one of the best dishes to serve to friends for a casual get-together. An easy sharing favourite that uses up cupboard ingredients.</p>
-            <h3>
-                <div class="icon baseline"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="90" width="90" viewBox="0 0 100 100"><circle r="40" cy="45.556" cx="45.556" class="circle"/><path d="M45.556 10.556v35m32.5-2.5h-35" fill="#fff" stroke="#fff" stroke-width="5"/></svg>
-                    <meta itemprop="totalTime" content=PT60M>1 hr 0 mins
-                    <meta itemprop="prepTime" content=PT20M>
-                    <meta itemprop="performTime" content=PT40M>
+            <p itemprop="description">This great chilli recipe has to be one of the best dishes to serve to friends for a casual get-together. An easy sharing favourite that uses up cupboard ingredients.</p>
+            <h3><strong>Servings:</strong> <span id="servings" default="4">4</span></h3>
+            <h3><strong>Total:</strong> 1 hr 0 mins</h3>
+            <meta itemprop="totalTime" content=PT60M>
+            <meta itemprop="prepTime" content=PT20M>
+            <meta itemprop="performTime" content=PT40M>
+            <meta itemprop="recipeYield" content="4 servings">
+
+            <div class="recipe-metadata">
                 </div>
-                <div class="icon baseline">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="4 servings"><span id="servings" default="4">4</span>&nbsp;servings
-                </div>
-            </h3>         
-            <h3>
-                </h3>          
+
+            <hr>
+            <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>
+            <ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp oil</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> large onion</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> red pepper</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> cloves garlic, peeled</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> heaped tsp hot chilli powder (or 1 level tbsp if you only have mild)</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp paprika</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp ground cumin</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="500" class="scalable">500</span></b> g lean minced beef</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> beef stock cube</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="400" class="scalable">400</span></b> g can chopped tomatoes</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">½</span></b> tsp dried oregano</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp sugar</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp tomato purée</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="410" class="scalable">410</span></b> g can red kidney beans</li>
+<li itemprop="recipeIngredient" class="ingredient">plain boiled long grain rice, to serve</li>
+<li itemprop="recipeIngredient" class="ingredient">soured cream, to serve</li>
+</ul>
+        
+            <hr>
+            <h2>Instructions</h2>
+            <ol>
+                <li itemprop="recipeInstructions">Prepare your vegetables. Chop <b>1</b> large <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> large</span></div> into small dice, about <b>5</b> mm square. The easiest way to do this is to cut the <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> large</span></div> in half from root to tip, peel it and slice each half into thick matchsticks lengthways, not quite cutting all the way to the root end so they are still held together. Slice across the matchsticks into neat dice. Cut <b>1</b> <div class="tooltip">red pepper<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> in half lengthways, remove stalk and wash the seeds away, then chop. Peel and finely chop <b>2</b> cloves <div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div>.  </li>
+                <li itemprop="recipeInstructions">Start cooking. Put your pan on the hob over a medium heat. Add the <div class="tooltip">oil<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div> and leave it for <b>1-2</b> minutes until hot (a little longer for an electric hob). Add the <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> large</span></div> and cook, stirring fairly frequently, for about <b>5</b> minutes, or until the onions are soft, squidgy and slightly translucent. Tip in the <div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div>, <div class="tooltip">red pepper<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div>, <b>1</b> heaped tsp hot <div class="tooltip">chilli powder<span class="tooltiptext"><span default="1" class="scalable">1</span> heaped tsp</span></div> or <b>1</b> level tbsp mild <div class="tooltip">chilli powder<span class="tooltiptext"><span default="1" class="scalable">1</span> heaped tsp</span></div>, <b>1</b> tsp <div class="tooltip">paprika<span class="tooltiptext"><span default="1" class="scalable">1</span> tsp</span></div> and <b>1</b> tsp <div class="tooltip">ground cumin<span class="tooltiptext"><span default="1" class="scalable">1</span> tsp</span></div>. Give it a good stir, then leave it to cook for another <b>5</b> minutes, stirring occasionally.  </li>
+                <li itemprop="recipeInstructions">Brown the <b>500</b>g <div class="tooltip">lean minced beef<span class="tooltiptext"><span default="500" class="scalable">500</span> g</span></div>. Turn the heat up a bit, add the meat to the pan and break it up with your spoon or spatula. The mix should sizzle a bit when you add the mince. Keep stirring and prodding for at least <b>5</b> minutes, until all the mince is in uniform, mince-sized lumps and there are no more pink bits. Make sure you keep the heat hot enough for the meat to fry and become brown, rather than just stew.  </li>
+                <li itemprop="recipeInstructions">Making the sauce. Crumble <b>1</b> <div class="tooltip">beef stock cube<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> into <b>300</b> ml hot water. Pour this into the pan with the mince mixture. Open <b>1</b> can of <div class="tooltip">chopped tomatoes<span class="tooltiptext"><span default="400" class="scalable">400</span> g can</span></div> (<b>400</b> g can) and add these as well. Tip in <b>0.5</b> tsp dried marjoram and <b>1</b> tsp <div class="tooltip">sugar<span class="tooltiptext"><span default="1" class="scalable">1</span> tsp</span></div>, if using (see tip at the bottom), and add a good shake of salt and pepper. Squirt in about <b>2</b> tbsp <div class="tooltip">tomato purée<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div> and stir the sauce well.  </li>
+                <li itemprop="recipeInstructions">Simmer it gently. Bring the whole thing to the boil, give it a good stir and put a lid on the pan. Turn down the heat until it is gently bubbling and leave it for <b>20</b> minutes. You should check on the pan occasionally to stir it and make sure the sauce doesn’t catch on the bottom of the pan or isn’t drying out. If it is, add a couple of tablespoons of water and make sure that the heat really is low enough. After simmering gently, the saucy mince mixture should look thick, moist and juicy.  </li>
+                <li itemprop="recipeInstructions">Bring on the beans. Drain and rinse <b>1</b> can of <div class="tooltip">red kidney beans<span class="tooltiptext"><span default="410" class="scalable">410</span> g can</span></div> (<b>410</b> g can) in a sieve and stir them into the chilli pot. Bring to the boil again, and gently bubble without the lid for another <b>10</b> minutes, adding a little more water if it looks too dry. Taste a bit of the chilli and season. It will probably take a lot more seasoning than you think. Now replace the lid, turn off the heat and leave your chilli to stand for <b>10</b> minutes before serving, and relax. Leaving your chilli to stand is really important as it allows the flavours to mingle.  </li>
+                <li itemprop="recipeInstructions">Serve with soured cream and plain boiled long grain rice.  </li>
+                </ol>
+
+            <hr>
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -71,55 +110,9 @@
                     </li>
                 </ul>
             </div>  
-            </div>
-        <div class="ingredients">
-            <h2>Ingredients</h2>
-            <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
-                <button type="button" onclick="scaleRecipe(1)">x1</button>
-                <button type="button" onclick="scaleRecipe(2)">x2</button>
-                <button type="button" onclick="scaleRecipe(3)">x3</button>
-            </div>
-            <ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp oil</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> large onion</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> red pepper</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> cloves garlic, peeled</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> heaped tsp hot chilli powder (or 1 level tbsp if you only have mild)</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp paprika</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp ground cumin</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="500" class="scalable">500</span></b> g lean minced beef</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> beef stock cube</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="400" class="scalable">400</span></b> g can chopped tomatoes</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">½</span></b> tsp dried oregano</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp sugar</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp tomato purée</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="410" class="scalable">410</span></b> g can red kidney beans</li>
-<li itemprop="recipeIngredient" class="ingredient">plain boiled long grain rice, to serve</li>
-<li itemprop="recipeIngredient" class="ingredient">soured cream, to serve</li>
-</ul>
-        </div>
-        <div class="instructions">
-            <h2>Instructions</h2>
-            <ol>
-                <li itemprop="recipeInstructions">Prepare your vegetables. Chop <b>1</b> large <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> large</span></div> into small dice, about <b>5</b> mm square. The easiest way to do this is to cut the <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> large</span></div> in half from root to tip, peel it and slice each half into thick matchsticks lengthways, not quite cutting all the way to the root end so they are still held together. Slice across the matchsticks into neat dice. Cut <b>1</b> <div class="tooltip">red pepper<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> in half lengthways, remove stalk and wash the seeds away, then chop. Peel and finely chop <b>2</b> cloves <div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div>.  </li>
-                <li itemprop="recipeInstructions">Start cooking. Put your pan on the hob over a medium heat. Add the <div class="tooltip">oil<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div> and leave it for <b>1-2</b> minutes until hot (a little longer for an electric hob). Add the <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> large</span></div> and cook, stirring fairly frequently, for about <b>5</b> minutes, or until the onions are soft, squidgy and slightly translucent. Tip in the <div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div>, <div class="tooltip">red pepper<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div>, <b>1</b> heaped tsp hot <div class="tooltip">chilli powder<span class="tooltiptext"><span default="1" class="scalable">1</span> heaped tsp</span></div> or <b>1</b> level tbsp mild <div class="tooltip">chilli powder<span class="tooltiptext"><span default="1" class="scalable">1</span> heaped tsp</span></div>, <b>1</b> tsp <div class="tooltip">paprika<span class="tooltiptext"><span default="1" class="scalable">1</span> tsp</span></div> and <b>1</b> tsp <div class="tooltip">ground cumin<span class="tooltiptext"><span default="1" class="scalable">1</span> tsp</span></div>. Give it a good stir, then leave it to cook for another <b>5</b> minutes, stirring occasionally.  </li>
-                <li itemprop="recipeInstructions">Brown the <b>500</b>g <div class="tooltip">lean minced beef<span class="tooltiptext"><span default="500" class="scalable">500</span> g</span></div>. Turn the heat up a bit, add the meat to the pan and break it up with your spoon or spatula. The mix should sizzle a bit when you add the mince. Keep stirring and prodding for at least <b>5</b> minutes, until all the mince is in uniform, mince-sized lumps and there are no more pink bits. Make sure you keep the heat hot enough for the meat to fry and become brown, rather than just stew.  </li>
-                <li itemprop="recipeInstructions">Making the sauce. Crumble <b>1</b> <div class="tooltip">beef stock cube<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> into <b>300</b> ml hot water. Pour this into the pan with the mince mixture. Open <b>1</b> can of <div class="tooltip">chopped tomatoes<span class="tooltiptext"><span default="400" class="scalable">400</span> g can</span></div> (<b>400</b> g can) and add these as well. Tip in <b>0.5</b> tsp dried marjoram and <b>1</b> tsp <div class="tooltip">sugar<span class="tooltiptext"><span default="1" class="scalable">1</span> tsp</span></div>, if using (see tip at the bottom), and add a good shake of salt and pepper. Squirt in about <b>2</b> tbsp <div class="tooltip">tomato purée<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div> and stir the sauce well.  </li>
-                <li itemprop="recipeInstructions">Simmer it gently. Bring the whole thing to the boil, give it a good stir and put a lid on the pan. Turn down the heat until it is gently bubbling and leave it for <b>20</b> minutes. You should check on the pan occasionally to stir it and make sure the sauce doesn’t catch on the bottom of the pan or isn’t drying out. If it is, add a couple of tablespoons of water and make sure that the heat really is low enough. After simmering gently, the saucy mince mixture should look thick, moist and juicy.  </li>
-                <li itemprop="recipeInstructions">Bring on the beans. Drain and rinse <b>1</b> can of <div class="tooltip">red kidney beans<span class="tooltiptext"><span default="410" class="scalable">410</span> g can</span></div> (<b>410</b> g can) in a sieve and stir them into the chilli pot. Bring to the boil again, and gently bubble without the lid for another <b>10</b> minutes, adding a little more water if it looks too dry. Taste a bit of the chilli and season. It will probably take a lot more seasoning than you think. Now replace the lid, turn off the heat and leave your chilli to stand for <b>10</b> minutes before serving, and relax. Leaving your chilli to stand is really important as it allows the flavours to mingle.  </li>
-                <li itemprop="recipeInstructions">Serve with soured cream and plain boiled long grain rice.  </li>
-                </ol>
-        </div>
-        <div class="source">
-            <div class="link">
-                <a href=https://www.bbcgoodfood.com/recipes/3228/chilli-con-carne>www.bbcgoodfood.com</a>
-            </div>
-            <div class="link">
-                <a href=../recipes/b118d7.html>Short Link</a> 
-                <a href=../recipes/Chilli%20con%20carne.html>Long Link</a>
-            </div>
-        </div>
-        </main>
+            <a class="link" href=https://www.bbcgoodfood.com/recipes/3228/chilli-con-carne>www.bbcgoodfood.com</a>
+            <a class="link" href=../recipes/b118d7.html>Short Link</a> 
+            <a class="link" href=../recipes/Chilli%20con%20carne.html>Long Link</a>
+        </section>
     </body>
 </html>

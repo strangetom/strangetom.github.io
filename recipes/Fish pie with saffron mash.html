@@ -14,27 +14,67 @@
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
-        <div class="information">
-            <header>
-                <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
-            </header>
+
+        <a class="header" href="../index.html">
+            <img class="header-img" src="../img/header-logo.svg" alt="Stranger Foods">
+            <h4>Stranger Foods</h4>
+        </a>
+
+        <section class="recipe">
+            <h1 itemprop="name">Fish pie with saffron mash</h1>
             <img itemprop="image" class="recipe-image" src="../images/Fish_pie_with_saffron_mash.webp" alt="Recipe image">
-            <h1 class="recipe-title" itemprop="name">Fish pie with saffron mash</h1>
-            <p class="recipe-description" itemprop="description">A great dinner party dish. This can be made ahead and frozen so there's always something ready to entertain guests.</p>
-            <h3>
-                <div class="icon baseline"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="90" width="90" viewBox="0 0 100 100"><circle r="40" cy="45.556" cx="45.556" class="circle"/><path d="M45.556 10.556v35m32.5-2.5h-35" fill="#fff" stroke="#fff" stroke-width="5"/></svg>
-                    <meta itemprop="totalTime" content=PT105M>1 hr 45 mins
-                    <meta itemprop="prepTime" content=PT30M>
-                    <meta itemprop="performTime" content=PT75M>
+            <p itemprop="description">A great dinner party dish. This can be made ahead and frozen so there's always something ready to entertain guests.</p>
+            <h3><strong>Servings:</strong> <span id="servings" default="6">6</span></h3>
+            <h3><strong>Total:</strong> 1 hr 45 mins</h3>
+            <meta itemprop="totalTime" content=PT105M>
+            <meta itemprop="prepTime" content=PT30M>
+            <meta itemprop="performTime" content=PT75M>
+            <meta itemprop="recipeYield" content="6 servings">
+
+            <div class="recipe-metadata">
                 </div>
-                <div class="icon baseline">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="6 servings"><span id="servings" default="6">6</span>&nbsp;servings
-                </div>
-            </h3>         
-            <h3>
-                </h3>          
+
+            <hr>
+            <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>
+            <ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> shallots, finely chopped</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> tbsp white wine vinegar</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="150" class="scalable">150</span></b> ml white wine</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="142" class="scalable">142</span></b> ml pot double cream</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="900" class="scalable">900</span></b> g fresh haddock fillets, skinned</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="200" class="scalable">200</span></b> g bag raw peeled prawns, preferably unfrozen</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="800" class="scalable">800</span></b> g fresh spinach (about 2 bags)</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="200" class="scalable">200</span></b> g crabmeat</li>
+</ul>
+<details open>
+<summary class="ingredient-subheading">For the topping</summary>
+<ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> clove garlic</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> red chilli, halved and deseeded</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="200" class="scalable">200</span></b> ml full-fat milk</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="pinch" class="scalable">pinch</span></b> saffron strands</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1250" class="scalable">1250</span></b> g potato, cut into large chunks</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> tbsp olive oil</li>
+<li itemprop="recipeIngredient" class="ingredient">zest and juice 1 lemon</li>
+</ul>
+</details>
+        
+            <hr>
+            <h2>Instructions</h2>
+            <ol>
+                <li itemprop="recipeInstructions">Tip the <div class="tooltip">shallots<span class="tooltiptext"><span default="3" class="scalable">3</span> </span></div> and <div class="tooltip">vinegar<span class="tooltiptext"><span default="3" class="scalable">3</span> tbsp</span></div> into a saucepan and place on the heat so the <div class="tooltip">vinegar<span class="tooltiptext"><span default="3" class="scalable">3</span> tbsp</span></div> evaporates quickly. Splash in the <div class="tooltip">white wine<span class="tooltiptext"><span default="150" class="scalable">150</span> ml</span></div> and reduce until practically dry. Add <div class="tooltip">cream<span class="tooltiptext"><span default="142" class="scalable">142</span> ml</span></div>, bring to the boil, then simmer gently until reduced by two-thirds and very thick. Leave to cool. Cut the <div class="tooltip">fish<span class="tooltiptext"><span default="900" class="scalable">900</span> g</span></div> into bite-size chunks and set aside with the <div class="tooltip">prawns<span class="tooltiptext"><span default="200" class="scalable">200</span> g bag</span></div>.  </li>
+                <li itemprop="recipeInstructions">Tip <div class="tooltip">spinach<span class="tooltiptext"><span default="800" class="scalable">800</span> g</span></div> into a large colander and pour over boiling water from a kettle until all the <div class="tooltip">spinach<span class="tooltiptext"><span default="800" class="scalable">800</span> g</span></div> is wilted (you may need to do this more than once). Cool under the cold tap, then squeeze the <div class="tooltip">spinach<span class="tooltiptext"><span default="800" class="scalable">800</span> g</span></div> tightly to get rid of any excess liquid.</li>
+                <li itemprop="recipeInstructions">To make the topping, mash the saffron, <div class="tooltip">garlic<span class="tooltiptext"><span default="3" class="scalable">3</span> clove</span></div> and <div class="tooltip">chilli<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> together using a pestle and mortar. Tip into a saucepan with the <div class="tooltip">milk<span class="tooltiptext"><span default="200" class="scalable">200</span> ml</span></div>, bring to the boil, then remove from the heat to infuse. Bring the potatoes to the boil and simmer for <b>15</b> mins until soft. Drain, then mash well with the infused <div class="tooltip">milk<span class="tooltiptext"><span default="200" class="scalable">200</span> ml</span></div>, <div class="tooltip">olive oil<span class="tooltiptext"><span default="4" class="scalable">4</span> tbsp</span></div>, lemon juice and zest.  </li>
+                <li itemprop="recipeInstructions">Heat oven to <b>200</b>&degC/fan <b>180</b>&degC/Gas <b>6</b>. To assemble the pie, mix the <div class="tooltip">fish<span class="tooltiptext"><span default="900" class="scalable">900</span> g</span></div> and <div class="tooltip">prawns<span class="tooltiptext"><span default="200" class="scalable">200</span> g bag</span></div> into the cold <div class="tooltip">cream<span class="tooltiptext"><span default="142" class="scalable">142</span> ml</span></div> until completely coated. Tip the <div class="tooltip">fish<span class="tooltiptext"><span default="900" class="scalable">900</span> g</span></div> into the bottom of a large gratin dish and scatter over clumps of <div class="tooltip">crabmeat<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div>. Unravel the <div class="tooltip">spinach<span class="tooltiptext"><span default="800" class="scalable">800</span> g</span></div> and lay it over the <div class="tooltip">fish<span class="tooltiptext"><span default="900" class="scalable">900</span> g</span></div>, then top with the mash. Cook the pie for about <b>30</b> mins until golden and starting to brown and bubble around the edges. Serve with green veg if you like.</li>
+                </ol>
+
+            <hr>
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -71,56 +111,9 @@
                     </li>
                 </ul>
             </div>  
-            </div>
-        <div class="ingredients">
-            <h2>Ingredients</h2>
-            <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
-                <button type="button" onclick="scaleRecipe(1)">x1</button>
-                <button type="button" onclick="scaleRecipe(2)">x2</button>
-                <button type="button" onclick="scaleRecipe(3)">x3</button>
-            </div>
-            <ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> shallots, finely chopped</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> tbsp white wine vinegar</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="150" class="scalable">150</span></b> ml white wine</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="142" class="scalable">142</span></b> ml pot double cream</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="900" class="scalable">900</span></b> g fresh haddock fillets, skinned</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="200" class="scalable">200</span></b> g bag raw peeled prawns, preferably unfrozen</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="800" class="scalable">800</span></b> g fresh spinach (about 2 bags)</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="200" class="scalable">200</span></b> g crabmeat</li>
-</ul>
-<details open>
-<summary class="ingredient-subheading">For the topping</summary>
-<ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> clove garlic</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> red chilli, halved and deseeded</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="200" class="scalable">200</span></b> ml full-fat milk</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="pinch" class="scalable">pinch</span></b> saffron strands</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1250" class="scalable">1250</span></b> g potato, cut into large chunks</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> tbsp olive oil</li>
-<li itemprop="recipeIngredient" class="ingredient">zest and juice 1 lemon</li>
-</ul>
-</details>
-        </div>
-        <div class="instructions">
-            <h2>Instructions</h2>
-            <ol>
-                <li itemprop="recipeInstructions">Tip the <div class="tooltip">shallots<span class="tooltiptext"><span default="3" class="scalable">3</span> </span></div> and <div class="tooltip">vinegar<span class="tooltiptext"><span default="3" class="scalable">3</span> tbsp</span></div> into a saucepan and place on the heat so the <div class="tooltip">vinegar<span class="tooltiptext"><span default="3" class="scalable">3</span> tbsp</span></div> evaporates quickly. Splash in the <div class="tooltip">white wine<span class="tooltiptext"><span default="150" class="scalable">150</span> ml</span></div> and reduce until practically dry. Add <div class="tooltip">cream<span class="tooltiptext"><span default="142" class="scalable">142</span> ml</span></div>, bring to the boil, then simmer gently until reduced by two-thirds and very thick. Leave to cool. Cut the <div class="tooltip">fish<span class="tooltiptext"><span default="900" class="scalable">900</span> g</span></div> into bite-size chunks and set aside with the <div class="tooltip">prawns<span class="tooltiptext"><span default="200" class="scalable">200</span> g bag</span></div>.  </li>
-                <li itemprop="recipeInstructions">Tip <div class="tooltip">spinach<span class="tooltiptext"><span default="800" class="scalable">800</span> g</span></div> into a large colander and pour over boiling water from a kettle until all the <div class="tooltip">spinach<span class="tooltiptext"><span default="800" class="scalable">800</span> g</span></div> is wilted (you may need to do this more than once). Cool under the cold tap, then squeeze the <div class="tooltip">spinach<span class="tooltiptext"><span default="800" class="scalable">800</span> g</span></div> tightly to get rid of any excess liquid.</li>
-                <li itemprop="recipeInstructions">To make the topping, mash the saffron, <div class="tooltip">garlic<span class="tooltiptext"><span default="3" class="scalable">3</span> clove</span></div> and <div class="tooltip">chilli<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> together using a pestle and mortar. Tip into a saucepan with the <div class="tooltip">milk<span class="tooltiptext"><span default="200" class="scalable">200</span> ml</span></div>, bring to the boil, then remove from the heat to infuse. Bring the potatoes to the boil and simmer for <b>15</b> mins until soft. Drain, then mash well with the infused <div class="tooltip">milk<span class="tooltiptext"><span default="200" class="scalable">200</span> ml</span></div>, <div class="tooltip">olive oil<span class="tooltiptext"><span default="4" class="scalable">4</span> tbsp</span></div>, lemon juice and zest.  </li>
-                <li itemprop="recipeInstructions">Heat oven to <b>200</b>&degC/fan <b>180</b>&degC/Gas <b>6</b>. To assemble the pie, mix the <div class="tooltip">fish<span class="tooltiptext"><span default="900" class="scalable">900</span> g</span></div> and <div class="tooltip">prawns<span class="tooltiptext"><span default="200" class="scalable">200</span> g bag</span></div> into the cold <div class="tooltip">cream<span class="tooltiptext"><span default="142" class="scalable">142</span> ml</span></div> until completely coated. Tip the <div class="tooltip">fish<span class="tooltiptext"><span default="900" class="scalable">900</span> g</span></div> into the bottom of a large gratin dish and scatter over clumps of <div class="tooltip">crabmeat<span class="tooltiptext"><span default="200" class="scalable">200</span> g</span></div>. Unravel the <div class="tooltip">spinach<span class="tooltiptext"><span default="800" class="scalable">800</span> g</span></div> and lay it over the <div class="tooltip">fish<span class="tooltiptext"><span default="900" class="scalable">900</span> g</span></div>, then top with the mash. Cook the pie for about <b>30</b> mins until golden and starting to brown and bubble around the edges. Serve with green veg if you like.</li>
-                </ol>
-        </div>
-        <div class="source">
-            <div class="link">
-                <a href=http://www.bbcgoodfood.com/recipes/4973/fish-pie-with-saffron-mash>www.bbcgoodfood.com</a>
-            </div>
-            <div class="link">
-                <a href=../recipes/de0359.html>Short Link</a> 
-                <a href=../recipes/Fish%20pie%20with%20saffron%20mash.html>Long Link</a>
-            </div>
-        </div>
-        </main>
+            <a class="link" href=http://www.bbcgoodfood.com/recipes/4973/fish-pie-with-saffron-mash>www.bbcgoodfood.com</a>
+            <a class="link" href=../recipes/de0359.html>Short Link</a> 
+            <a class="link" href=../recipes/Fish%20pie%20with%20saffron%20mash.html>Long Link</a>
+        </section>
     </body>
 </html>

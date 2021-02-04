@@ -14,27 +14,58 @@
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
-        <div class="information">
-            <header>
-                <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
-            </header>
+
+        <a class="header" href="../index.html">
+            <img class="header-img" src="../img/header-logo.svg" alt="Stranger Foods">
+            <h4>Stranger Foods</h4>
+        </a>
+
+        <section class="recipe">
+            <h1 itemprop="name">Chicken pasta bake</h1>
             <img itemprop="image" class="recipe-image" src="../images/Chicken_pasta_bake.webp" alt="Recipe image">
-            <h1 class="recipe-title" itemprop="name">Chicken pasta bake</h1>
-            <p class="recipe-description" itemprop="description">Enjoy this gooey cheese and chicken pasta bake for the ultimate weekday family dinner. Serve straight from the dish with a dressed green salad</p>
-            <h3>
-                <div class="icon baseline"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="90" width="90" viewBox="0 0 100 100"><circle r="40" cy="45.556" cx="45.556" class="circle"/><path d="M45.556 10.556v35m32.5-2.5h-35" fill="#fff" stroke="#fff" stroke-width="5"/></svg>
-                    <meta itemprop="totalTime" content=PT1H15M>1 hr 15 mins
-                    <meta itemprop="prepTime" content=PT30M>
-                    <meta itemprop="performTime" content=PT45M>
+            <p itemprop="description">Enjoy this gooey cheese and chicken pasta bake for the ultimate weekday family dinner. Serve straight from the dish with a dressed green salad</p>
+            <h3><strong>Servings:</strong> <span id="servings" default="6">6</span></h3>
+            <h3><strong>Total:</strong> 1 hr 15 mins</h3>
+            <meta itemprop="totalTime" content=PT1H15M>
+            <meta itemprop="prepTime" content=PT30M>
+            <meta itemprop="performTime" content=PT45M>
+            <meta itemprop="recipeYield" content="6 servings">
+
+            <div class="recipe-metadata">
                 </div>
-                <div class="icon baseline">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="6 servings"><span id="servings" default="6">6</span>&nbsp;servings
-                </div>
-            </h3>         
-            <h3>
-                </h3>          
+
+            <hr>
+            <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>
+            <ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> tbsp olive oil</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> onion, finely chopped</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> cloves garlic, crushed</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.25" class="scalable">¼</span></b> tsp chilli flakes</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2x 400" class="scalable">2x 400</span></b> g cans chopped tomatoes</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp caster sugar</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="6" class="scalable">6</span></b> tbsp mascarpone</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> skinless chicken breasts, sliced into strips</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="300" class="scalable">300</span></b> g penne</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="70" class="scalable">70</span></b> g mature cheddar, grated</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="50" class="scalable">50</span></b> g grated mozzarella</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">0.5</span></b>x small bunch of parsley, finely chopped</li>
+</ul>
+        
+            <hr>
+            <h2>Instructions</h2>
+            <ol>
+                <li itemprop="recipeInstructions">Heat <b>2</b> tbsp of the <div class="tooltip">oil<span class="tooltiptext"><span default="4" class="scalable">4</span> tbsp</span></div> in a pan over a medium heat and fry the <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> gently for <b>10-12</b> mins. Add the <div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div> and <div class="tooltip">chilli flakes<span class="tooltiptext"><span default="0.25" class="scalable">&frac14;</span> tsp</span></div> and cook for <b>1</b> min. Tip in the <div class="tooltip">tomatoes<span class="tooltiptext"><span default="2x 400" class="scalable">2x 400</span> g cans</span></div> and sugar and season to taste. Simmer uncovered for <b>20</b> mins or until thickened, then stir through the <div class="tooltip">mascarpone<span class="tooltiptext"><span default="6" class="scalable">6</span> tbsp</span></div>.</li>
+                <li itemprop="recipeInstructions">Heat <b>1</b> tbsp of <div class="tooltip">oil<span class="tooltiptext"><span default="4" class="scalable">4</span> tbsp</span></div> in a non-stick frying pan. Season the <div class="tooltip">chicken<span class="tooltiptext"><span default="4" class="scalable">4</span> </span></div> and fry for <b>5-7</b> mins or until the <div class="tooltip">chicken<span class="tooltiptext"><span default="4" class="scalable">4</span> </span></div> is cooked through.</li>
+                <li itemprop="recipeInstructions">Heat the oven to <b>200</b>&degC/Gas <b>7</b>. Cook the <div class="tooltip">penne<span class="tooltiptext"><span default="300" class="scalable">300</span> g</span></div> following pack instructions. Drain and toss with the remaining <div class="tooltip">oil<span class="tooltiptext"><span default="4" class="scalable">4</span> tbsp</span></div>. Tip the pasta into a medium sized ovenproof dish. Stir in the <div class="tooltip">chicken<span class="tooltiptext"><span default="4" class="scalable">4</span> </span></div> and pour over the sauce. Top with the <div class="tooltip">cheddar<span class="tooltiptext"><span default="70" class="scalable">70</span> g</span></div>, <div class="tooltip">mozzarella<span class="tooltiptext"><span default="50" class="scalable">50</span> g</span></div> and <div class="tooltip">parsley<span class="tooltiptext"><span default="0.5" class="scalable">0.5</span>x small bunch</span></div>. Bake for <b>20</b> mins or until golden brown and bubbling.</li>
+                </ol>
+
+            <hr>
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -71,47 +102,9 @@
                     </li>
                 </ul>
             </div>  
-            </div>
-        <div class="ingredients">
-            <h2>Ingredients</h2>
-            <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
-                <button type="button" onclick="scaleRecipe(1)">x1</button>
-                <button type="button" onclick="scaleRecipe(2)">x2</button>
-                <button type="button" onclick="scaleRecipe(3)">x3</button>
-            </div>
-            <ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> tbsp olive oil</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> onion, finely chopped</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> cloves garlic, crushed</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.25" class="scalable">¼</span></b> tsp chilli flakes</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2x 400" class="scalable">2x 400</span></b> g cans chopped tomatoes</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp caster sugar</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="6" class="scalable">6</span></b> tbsp mascarpone</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> skinless chicken breasts, sliced into strips</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="300" class="scalable">300</span></b> g penne</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="70" class="scalable">70</span></b> g mature cheddar, grated</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="50" class="scalable">50</span></b> g grated mozzarella</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">0.5</span></b>x small bunch of parsley, finely chopped</li>
-</ul>
-        </div>
-        <div class="instructions">
-            <h2>Instructions</h2>
-            <ol>
-                <li itemprop="recipeInstructions">Heat <b>2</b> tbsp of the <div class="tooltip">oil<span class="tooltiptext"><span default="4" class="scalable">4</span> tbsp</span></div> in a pan over a medium heat and fry the <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> gently for <b>10-12</b> mins. Add the <div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div> and <div class="tooltip">chilli flakes<span class="tooltiptext"><span default="0.25" class="scalable">&frac14;</span> tsp</span></div> and cook for <b>1</b> min. Tip in the <div class="tooltip">tomatoes<span class="tooltiptext"><span default="2x 400" class="scalable">2x 400</span> g cans</span></div> and sugar and season to taste. Simmer uncovered for <b>20</b> mins or until thickened, then stir through the <div class="tooltip">mascarpone<span class="tooltiptext"><span default="6" class="scalable">6</span> tbsp</span></div>.</li>
-                <li itemprop="recipeInstructions">Heat <b>1</b> tbsp of <div class="tooltip">oil<span class="tooltiptext"><span default="4" class="scalable">4</span> tbsp</span></div> in a non-stick frying pan. Season the <div class="tooltip">chicken<span class="tooltiptext"><span default="4" class="scalable">4</span> </span></div> and fry for <b>5-7</b> mins or until the <div class="tooltip">chicken<span class="tooltiptext"><span default="4" class="scalable">4</span> </span></div> is cooked through.</li>
-                <li itemprop="recipeInstructions">Heat the oven to <b>200</b>&degC/Gas <b>7</b>. Cook the <div class="tooltip">penne<span class="tooltiptext"><span default="300" class="scalable">300</span> g</span></div> following pack instructions. Drain and toss with the remaining <div class="tooltip">oil<span class="tooltiptext"><span default="4" class="scalable">4</span> tbsp</span></div>. Tip the pasta into a medium sized ovenproof dish. Stir in the <div class="tooltip">chicken<span class="tooltiptext"><span default="4" class="scalable">4</span> </span></div> and pour over the sauce. Top with the <div class="tooltip">cheddar<span class="tooltiptext"><span default="70" class="scalable">70</span> g</span></div>, <div class="tooltip">mozzarella<span class="tooltiptext"><span default="50" class="scalable">50</span> g</span></div> and <div class="tooltip">parsley<span class="tooltiptext"><span default="0.5" class="scalable">0.5</span>x small bunch</span></div>. Bake for <b>20</b> mins or until golden brown and bubbling.</li>
-                </ol>
-        </div>
-        <div class="source">
-            <div class="link">
-                <a href=https://www.bbcgoodfood.com/recipes/chicken-pasta-bake>www.bbcgoodfood.com</a>
-            </div>
-            <div class="link">
-                <a href=../recipes/e68900.html>Short Link</a> 
-                <a href=../recipes/Chicken%20pasta%20bake.html>Long Link</a>
-            </div>
-        </div>
-        </main>
+            <a class="link" href=https://www.bbcgoodfood.com/recipes/chicken-pasta-bake>www.bbcgoodfood.com</a>
+            <a class="link" href=../recipes/e68900.html>Short Link</a> 
+            <a class="link" href=../recipes/Chicken%20pasta%20bake.html>Long Link</a>
+        </section>
     </body>
 </html>

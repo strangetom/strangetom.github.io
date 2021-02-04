@@ -14,26 +14,56 @@
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
     <body class="Lamb" itemscope itemtype="https://schema.org/Recipe">
-        <div class="information">
-            <header>
-                <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
-            </header>
+
+        <a class="header" href="../index.html">
+            <img class="header-img" src="../img/header-logo.svg" alt="Stranger Foods">
+            <h4>Stranger Foods</h4>
+        </a>
+
+        <section class="recipe">
+            <h1 itemprop="name">Turkish lamb pilau</h1>
             <img itemprop="image" class="recipe-image" src="../images/Turkish_lamb_pilau.webp" alt="Recipe image">
-            <h1 class="recipe-title" itemprop="name">Turkish lamb pilau</h1>
-            <h3>
-                <div class="icon baseline"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="90" width="90" viewBox="0 0 100 100"><circle r="40" cy="45.556" cx="45.556" class="circle"/><path d="M45.556 10.556v35m32.5-2.5h-35" fill="#fff" stroke="#fff" stroke-width="5"/></svg>
-                    <meta itemprop="totalTime" content=PT30M>30 mins
-                    <meta itemprop="prepTime" content=>
-                    <meta itemprop="performTime" content=PT30M>
+            <h3><strong>Servings:</strong> <span id="servings" default="4">4</span></h3>
+            <h3><strong>Total:</strong> 30 mins</h3>
+            <meta itemprop="totalTime" content=PT30M>
+            <meta itemprop="prepTime" content=>
+            <meta itemprop="performTime" content=PT30M>
+            <meta itemprop="recipeYield" content="4 servings">
+
+            <div class="recipe-metadata">
                 </div>
-                <div class="icon baseline">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="4 servings"><span id="servings" default="4">4</span>&nbsp;servings
-                </div>
-            </h3>         
-            <h3>
-                </h3>          
+
+            <hr>
+            <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>
+            <ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="handful" class="scalable">handful</span></b> pine nuts</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp olive oil</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> large onion, halved and sliced</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> sticks cinnamon, broken in half</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="500" class="scalable">500</span></b> g lean fillet or leg of lamb, cubed</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="250" class="scalable">250</span></b> g basmati rice</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> lamb or vegetable stock cube</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="12" class="scalable">12</span></b> ready to eat dried apricots</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="handful" class="scalable">handful</span></b> mint leaves, roughly chopped</li>
+</ul>
+        
+            <hr>
+            <h2>Instructions</h2>
+            <ol>
+                <li itemprop="recipeInstructions">Dry fry the <div class="tooltip">pine nuts<span class="tooltiptext">handful </span></div> in a large pan until lightly toasted, then tip on to a large plate.  </li>
+                <li itemprop="recipeInstructions">Add the <div class="tooltip">oil<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div> to the pan, then fry the <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> large</span></div> and <div class="tooltip">cinnamon<span class="tooltiptext"><span default="2" class="scalable">2</span> sticks</span></div> together until they start to turn golden. Turn up the heat, add the <div class="tooltip">lamb<span class="tooltiptext"><span default="500" class="scalable">500</span> g</span></div> and cook until the <div class="tooltip">lamb<span class="tooltiptext"><span default="500" class="scalable">500</span> g</span></div> changes colour, then add the <div class="tooltip">rice<span class="tooltiptext"><span default="250" class="scalable">250</span> g</span></div> and cook for <b>1</b> minute, stirring all the time.  </li>
+                <li itemprop="recipeInstructions">Add <b>500</b> ml boiling water, crumble in the <div class="tooltip">stock cube<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div>, add the <div class="tooltip">apricots<span class="tooltiptext"><span default="12" class="scalable">12</span> </span></div> and season to taste.  </li>
+                <li itemprop="recipeInstructions">Turn down the heat, cover, and simmer for <b>12</b> minutes until the <div class="tooltip">rice<span class="tooltiptext"><span default="250" class="scalable">250</span> g</span></div> is tender and the stock has been absorbed.  </li>
+                <li itemprop="recipeInstructions">Toss in the <div class="tooltip">pine nuts<span class="tooltiptext">handful </span></div>, add the <div class="tooltip">mint<span class="tooltiptext">handful </span></div> and serve.    </li>
+                </ol>
+
+            <hr>
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -70,46 +100,9 @@
                     </li>
                 </ul>
             </div>  
-            </div>
-        <div class="ingredients">
-            <h2>Ingredients</h2>
-            <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
-                <button type="button" onclick="scaleRecipe(1)">x1</button>
-                <button type="button" onclick="scaleRecipe(2)">x2</button>
-                <button type="button" onclick="scaleRecipe(3)">x3</button>
-            </div>
-            <ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="handful" class="scalable">handful</span></b> pine nuts</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp olive oil</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> large onion, halved and sliced</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> sticks cinnamon, broken in half</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="500" class="scalable">500</span></b> g lean fillet or leg of lamb, cubed</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="250" class="scalable">250</span></b> g basmati rice</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> lamb or vegetable stock cube</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="12" class="scalable">12</span></b> ready to eat dried apricots</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="handful" class="scalable">handful</span></b> mint leaves, roughly chopped</li>
-</ul>
-        </div>
-        <div class="instructions">
-            <h2>Instructions</h2>
-            <ol>
-                <li itemprop="recipeInstructions">Dry fry the <div class="tooltip">pine nuts<span class="tooltiptext">handful </span></div> in a large pan until lightly toasted, then tip on to a large plate.  </li>
-                <li itemprop="recipeInstructions">Add the <div class="tooltip">oil<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div> to the pan, then fry the <div class="tooltip">onion<span class="tooltiptext"><span default="1" class="scalable">1</span> large</span></div> and <div class="tooltip">cinnamon<span class="tooltiptext"><span default="2" class="scalable">2</span> sticks</span></div> together until they start to turn golden. Turn up the heat, add the <div class="tooltip">lamb<span class="tooltiptext"><span default="500" class="scalable">500</span> g</span></div> and cook until the <div class="tooltip">lamb<span class="tooltiptext"><span default="500" class="scalable">500</span> g</span></div> changes colour, then add the <div class="tooltip">rice<span class="tooltiptext"><span default="250" class="scalable">250</span> g</span></div> and cook for <b>1</b> minute, stirring all the time.  </li>
-                <li itemprop="recipeInstructions">Add <b>500</b> ml boiling water, crumble in the <div class="tooltip">stock cube<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div>, add the <div class="tooltip">apricots<span class="tooltiptext"><span default="12" class="scalable">12</span> </span></div> and season to taste.  </li>
-                <li itemprop="recipeInstructions">Turn down the heat, cover, and simmer for <b>12</b> minutes until the <div class="tooltip">rice<span class="tooltiptext"><span default="250" class="scalable">250</span> g</span></div> is tender and the stock has been absorbed.  </li>
-                <li itemprop="recipeInstructions">Toss in the <div class="tooltip">pine nuts<span class="tooltiptext">handful </span></div>, add the <div class="tooltip">mint<span class="tooltiptext">handful </span></div> and serve.    </li>
-                </ol>
-        </div>
-        <div class="source">
-            <div class="link">
-                <a href=>BBC Good Food: One-pot Dishes</a>
-            </div>
-            <div class="link">
-                <a href=../recipes/5eaa85.html>Short Link</a> 
-                <a href=../recipes/Turkish%20lamb%20pilau.html>Long Link</a>
-            </div>
-        </div>
-        </main>
+            <a class="link" href=>BBC Good Food: One-pot Dishes</a>
+            <a class="link" href=../recipes/5eaa85.html>Short Link</a> 
+            <a class="link" href=../recipes/Turkish%20lamb%20pilau.html>Long Link</a>
+        </section>
     </body>
 </html>

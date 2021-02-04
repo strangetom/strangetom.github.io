@@ -14,27 +14,61 @@
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
-        <div class="information">
-            <header>
-                <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
-            </header>
+
+        <a class="header" href="../index.html">
+            <img class="header-img" src="../img/header-logo.svg" alt="Stranger Foods">
+            <h4>Stranger Foods</h4>
+        </a>
+
+        <section class="recipe">
+            <h1 itemprop="name">Pork and noodle stir fry</h1>
             <img itemprop="image" class="recipe-image" src="../images/Pork_and_noodle_stir_fry.webp" alt="Recipe image">
-            <h1 class="recipe-title" itemprop="name">Pork and noodle stir fry</h1>
-            <p class="recipe-description" itemprop="description">This Chinese dish, using mainly storecupboard ingredients is easy to whip up for an impromptu supper with friends.</p>
-            <h3>
-                <div class="icon baseline"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="90" width="90" viewBox="0 0 100 100"><circle r="40" cy="45.556" cx="45.556" class="circle"/><path d="M45.556 10.556v35m32.5-2.5h-35" fill="#fff" stroke="#fff" stroke-width="5"/></svg>
-                    <meta itemprop="totalTime" content=PT30M>30 mins
-                    <meta itemprop="prepTime" content=PT10M>
-                    <meta itemprop="performTime" content=PT20M>
+            <p itemprop="description">This Chinese dish, using mainly storecupboard ingredients is easy to whip up for an impromptu supper with friends.</p>
+            <h3><strong>Servings:</strong> <span id="servings" default="2">2</span></h3>
+            <h3><strong>Total:</strong> 30 mins</h3>
+            <meta itemprop="totalTime" content=PT30M>
+            <meta itemprop="prepTime" content=PT10M>
+            <meta itemprop="performTime" content=PT20M>
+            <meta itemprop="recipeYield" content="2 servings">
+
+            <div class="recipe-metadata">
                 </div>
-                <div class="icon baseline">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="2 servings"><span id="servings" default="2">2</span>&nbsp;servings
-                </div>
-            </h3>         
-            <h3>
-                </h3>          
+
+            <hr>
+            <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>
+            <ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp sunflower oil</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="250" class="scalable">250</span></b> g pork fillet, trimmed and cut into stips</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">½</span></b> bunch of spring onions, trimmed and sliced on the diagonal</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="100" class="scalable">100</span></b> g mangetout, cut lengthways into strips</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="150" class="scalable">150</span></b> g pack straight-to-wok noodles</li>
+</ul>
+<details open>
+<summary class="ingredient-subheading">For the sauce</summary>
+<ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tsp cornflour</li>
+<li itemprop="recipeIngredient" class="ingredient">juice 1 orange</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> tbsp soy sauce</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp rice wine or sherry</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp clear honey</li>
+</ul>
+</details>
+        
+            <hr>
+            <h2>Instructions</h2>
+            <ol>
+                <li itemprop="recipeInstructions">First get the sauce ready. Mix the <div class="tooltip">cornflour<span class="tooltiptext"><span default="2" class="scalable">2</span> tsp</span></div> with <b>6</b> tablespoons water in a jug and stir in the remaining ingredients. Set aside.   </li>
+                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div> in a wok and stir fry the <div class="tooltip">pork<span class="tooltiptext"><span default="250" class="scalable">250</span> g</span></div> over a high heat until coloured on all sides, about <b>5</b> minutes. Lower the heat, toss in the <div class="tooltip">onions<span class="tooltiptext"><span default="0.5" class="scalable">&frac12;</span> bunch</span></div> and <div class="tooltip">mangetout<span class="tooltiptext"><span default="100" class="scalable">100</span> g</span></div> and stir fry for about <b>5</b> minutes to soften.   </li>
+                <li itemprop="recipeInstructions">Stir the sauce in the jug, pour into the pan and stir briskly to mix. Bubble for a few minutes, toss in the <div class="tooltip">noodles<span class="tooltiptext"><span default="150" class="scalable">150</span> g pack</span></div> and heat through. Serve straight away.   </li>
+                </ol>
+
+            <hr>
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -71,50 +105,9 @@
                     </li>
                 </ul>
             </div>  
-            </div>
-        <div class="ingredients">
-            <h2>Ingredients</h2>
-            <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
-                <button type="button" onclick="scaleRecipe(1)">x1</button>
-                <button type="button" onclick="scaleRecipe(2)">x2</button>
-                <button type="button" onclick="scaleRecipe(3)">x3</button>
-            </div>
-            <ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp sunflower oil</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="250" class="scalable">250</span></b> g pork fillet, trimmed and cut into stips</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">½</span></b> bunch of spring onions, trimmed and sliced on the diagonal</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="100" class="scalable">100</span></b> g mangetout, cut lengthways into strips</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="150" class="scalable">150</span></b> g pack straight-to-wok noodles</li>
-</ul>
-<details open>
-<summary class="ingredient-subheading">For the sauce</summary>
-<ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tsp cornflour</li>
-<li itemprop="recipeIngredient" class="ingredient">juice 1 orange</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> tbsp soy sauce</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp rice wine or sherry</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp clear honey</li>
-</ul>
-</details>
-        </div>
-        <div class="instructions">
-            <h2>Instructions</h2>
-            <ol>
-                <li itemprop="recipeInstructions">First get the sauce ready. Mix the <div class="tooltip">cornflour<span class="tooltiptext"><span default="2" class="scalable">2</span> tsp</span></div> with <b>6</b> tablespoons water in a jug and stir in the remaining ingredients. Set aside.   </li>
-                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div> in a wok and stir fry the <div class="tooltip">pork<span class="tooltiptext"><span default="250" class="scalable">250</span> g</span></div> over a high heat until coloured on all sides, about <b>5</b> minutes. Lower the heat, toss in the <div class="tooltip">onions<span class="tooltiptext"><span default="0.5" class="scalable">&frac12;</span> bunch</span></div> and <div class="tooltip">mangetout<span class="tooltiptext"><span default="100" class="scalable">100</span> g</span></div> and stir fry for about <b>5</b> minutes to soften.   </li>
-                <li itemprop="recipeInstructions">Stir the sauce in the jug, pour into the pan and stir briskly to mix. Bubble for a few minutes, toss in the <div class="tooltip">noodles<span class="tooltiptext"><span default="150" class="scalable">150</span> g pack</span></div> and heat through. Serve straight away.   </li>
-                </ol>
-        </div>
-        <div class="source">
-            <div class="link">
-                <a href=>BBC Good Food: Pasta & Noodle Dishes</a>
-            </div>
-            <div class="link">
-                <a href=../recipes/4745a2.html>Short Link</a> 
-                <a href=../recipes/Pork%20and%20noodle%20stir%20fry.html>Long Link</a>
-            </div>
-        </div>
-        </main>
+            <a class="link" href=>BBC Good Food: Pasta & Noodle Dishes</a>
+            <a class="link" href=../recipes/4745a2.html>Short Link</a> 
+            <a class="link" href=../recipes/Pork%20and%20noodle%20stir%20fry.html>Long Link</a>
+        </section>
     </body>
 </html>

@@ -14,27 +14,71 @@
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
     <body class="Dessert" itemscope itemtype="https://schema.org/Recipe">
-        <div class="information">
-            <header>
-                <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
-            </header>
+
+        <a class="header" href="../index.html">
+            <img class="header-img" src="../img/header-logo.svg" alt="Stranger Foods">
+            <h4>Stranger Foods</h4>
+        </a>
+
+        <section class="recipe">
+            <h1 itemprop="name">Key lime trifle</h1>
             <img itemprop="image" class="recipe-image" src="../images/Key_lime_trifle.webp" alt="Recipe image">
-            <h1 class="recipe-title" itemprop="name">Key lime trifle</h1>
-            <p class="recipe-description" itemprop="description">Madeira sponge makes the base of this zesty festive trifle </p>
-            <h3>
-                <div class="icon baseline"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="90" width="90" viewBox="0 0 100 100"><circle r="40" cy="45.556" cx="45.556" class="circle"/><path d="M45.556 10.556v35m32.5-2.5h-35" fill="#fff" stroke="#fff" stroke-width="5"/></svg>
-                    <meta itemprop="totalTime" content=PT0H35M>35 mins
-                    <meta itemprop="prepTime" content=PT0H35M>
-                    <meta itemprop="performTime" content=>
+            <p itemprop="description">Madeira sponge makes the base of this zesty festive trifle </p>
+            <h3><strong>Servings:</strong> <span id="servings" default="8">8</span></h3>
+            <h3><strong>Total:</strong> 35 mins</h3>
+            <meta itemprop="totalTime" content=PT0H35M>
+            <meta itemprop="prepTime" content=PT0H35M>
+            <meta itemprop="performTime" content=>
+            <meta itemprop="recipeYield" content="8 servings">
+
+            <div class="recipe-metadata">
                 </div>
-                <div class="icon baseline">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="8 servings"><span id="servings" default="8">8</span>&nbsp;servings
-                </div>
-            </h3>         
-            <h3>
-                </h3>          
+
+            <hr>
+            <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>
+            <ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="275" class="scalable">275</span></b> g Madeira sponge, cut into 2 cm cubes</li>
+<li itemprop="recipeIngredient" class="ingredient">juice of 4 limes, reserve some zest to serve</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="5" class="scalable">5</span></b> tbsp Malibu (or 3 tbsp white rum)</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> tbsp caster sugar</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1-2" class="scalable">1-2</span></b> Hobnob biscuits, bashed to coarse crumbs</li>
+</ul>
+<details open>
+<summary class="ingredient-subheading">For the lime custard</summary>
+<ul>
+<li itemprop="recipeIngredient" class="ingredient">zest of 4 and juice of 8 limes</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> large egg yolks</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> tbsp caster sugar</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1.5" class="scalable">1½</span></b> tbsp cornflour</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="450" class="scalable">450</span></b> ml whipping cream</li>
+</ul>
+</details>
+<details open>
+<summary class="ingredient-subheading">For the cream</summary>
+<ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="450" class="scalable">450</span></b> ml whipping cream</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1.5" class="scalable">1½</span></b> tbsp icing sugar</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp Malibu (or ½ tbsp white rum)</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp vanilla bean paste or extract</li>
+</ul>
+</details>
+        
+            <hr>
+            <h2>Instructions</h2>
+            <ol>
+                <li itemprop="recipeInstructions">For the lime custard, whisk the lime zest and juice, <div class="tooltip">egg yolks<span class="tooltiptext"><span default="4" class="scalable">4</span> large</span></div>, sugar and <div class="tooltip">cornflour<span class="tooltiptext"><span default="1.5" class="scalable">1&frac12;</span> tbsp</span></div> in a medium pan until smooth. Continually whisking, pour in the cream. Warm gently over a low flame, stirring frequently, for <b>10-12</b> minutes until the mixture is thick and glossy. It will thicken more as it cools, so don't make it too thick at this point. Taste to make sure the <div class="tooltip">cornflour<span class="tooltiptext"><span default="1.5" class="scalable">1&frac12;</span> tbsp</span></div> has cooked out; it shouldn't be floury. Pour through a fine sieve into a bowl (discarding the zest) and cover with clingfilm, pressing it to the surface of the custard to stop a skin forming. Cool to room temperature, then chill until ready to assemble.</li>
+                <li itemprop="recipeInstructions">Put the sponge cubes into the base of a <b>1.3</b>-<b>1.5</b> litre trifle dish. Mix the lime juice, Malibu or rum and sugar, whisking until the sugar dissolves. Pour over the sponge.</li>
+                <li itemprop="recipeInstructions">Whisk the chilled lime custard to loosen (add a tiny splash of cream or milk to slacken if you need to), then pour over the sponge. Chill for at least <b>2</b> hours or until ready to serve.</li>
+                <li itemprop="recipeInstructions">Put the cream ingredients together in a large bowl. Whisk with a balloon whisk until thickened to soft peaks. Alcohol makes it thicken more quickly, so be careful not to overwhisk. Spoon over the custard in the bowl. Scatter over the biscuit crumbs and extra lime zest to serve.</li>
+                </ol>
+
+            <hr>
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -71,60 +115,9 @@
                     </li>
                 </ul>
             </div>  
-            </div>
-        <div class="ingredients">
-            <h2>Ingredients</h2>
-            <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
-                <button type="button" onclick="scaleRecipe(1)">x1</button>
-                <button type="button" onclick="scaleRecipe(2)">x2</button>
-                <button type="button" onclick="scaleRecipe(3)">x3</button>
-            </div>
-            <ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="275" class="scalable">275</span></b> g Madeira sponge, cut into 2 cm cubes</li>
-<li itemprop="recipeIngredient" class="ingredient">juice of 4 limes, reserve some zest to serve</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="5" class="scalable">5</span></b> tbsp Malibu (or 3 tbsp white rum)</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> tbsp caster sugar</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1-2" class="scalable">1-2</span></b> Hobnob biscuits, bashed to coarse crumbs</li>
-</ul>
-<details open>
-<summary class="ingredient-subheading">For the lime custard</summary>
-<ul>
-<li itemprop="recipeIngredient" class="ingredient">zest of 4 and juice of 8 limes</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> large egg yolks</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> tbsp caster sugar</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1.5" class="scalable">1½</span></b> tbsp cornflour</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="450" class="scalable">450</span></b> ml whipping cream</li>
-</ul>
-</details>
-<details open>
-<summary class="ingredient-subheading">For the cream</summary>
-<ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="450" class="scalable">450</span></b> ml whipping cream</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1.5" class="scalable">1½</span></b> tbsp icing sugar</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp Malibu (or ½ tbsp white rum)</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp vanilla bean paste or extract</li>
-</ul>
-</details>
-        </div>
-        <div class="instructions">
-            <h2>Instructions</h2>
-            <ol>
-                <li itemprop="recipeInstructions">For the lime custard, whisk the lime zest and juice, <div class="tooltip">egg yolks<span class="tooltiptext"><span default="4" class="scalable">4</span> large</span></div>, sugar and <div class="tooltip">cornflour<span class="tooltiptext"><span default="1.5" class="scalable">1&frac12;</span> tbsp</span></div> in a medium pan until smooth. Continually whisking, pour in the cream. Warm gently over a low flame, stirring frequently, for <b>10-12</b> minutes until the mixture is thick and glossy. It will thicken more as it cools, so don't make it too thick at this point. Taste to make sure the <div class="tooltip">cornflour<span class="tooltiptext"><span default="1.5" class="scalable">1&frac12;</span> tbsp</span></div> has cooked out; it shouldn't be floury. Pour through a fine sieve into a bowl (discarding the zest) and cover with clingfilm, pressing it to the surface of the custard to stop a skin forming. Cool to room temperature, then chill until ready to assemble.</li>
-                <li itemprop="recipeInstructions">Put the sponge cubes into the base of a <b>1.3</b>-<b>1.5</b> litre trifle dish. Mix the lime juice, Malibu or rum and sugar, whisking until the sugar dissolves. Pour over the sponge.</li>
-                <li itemprop="recipeInstructions">Whisk the chilled lime custard to loosen (add a tiny splash of cream or milk to slacken if you need to), then pour over the sponge. Chill for at least <b>2</b> hours or until ready to serve.</li>
-                <li itemprop="recipeInstructions">Put the cream ingredients together in a large bowl. Whisk with a balloon whisk until thickened to soft peaks. Alcohol makes it thicken more quickly, so be careful not to overwhisk. Spoon over the custard in the bowl. Scatter over the biscuit crumbs and extra lime zest to serve.</li>
-                </ol>
-        </div>
-        <div class="source">
-            <div class="link">
-                <a href=https://www.sainsburysmagazine.co.uk/recipes/desserts/key-lime-trifle>www.sainsburysmagazine.co.uk</a>
-            </div>
-            <div class="link">
-                <a href=../recipes/29f471.html>Short Link</a> 
-                <a href=../recipes/Key%20lime%20trifle.html>Long Link</a>
-            </div>
-        </div>
-        </main>
+            <a class="link" href=https://www.sainsburysmagazine.co.uk/recipes/desserts/key-lime-trifle>www.sainsburysmagazine.co.uk</a>
+            <a class="link" href=../recipes/29f471.html>Short Link</a> 
+            <a class="link" href=../recipes/Key%20lime%20trifle.html>Long Link</a>
+        </section>
     </body>
 </html>

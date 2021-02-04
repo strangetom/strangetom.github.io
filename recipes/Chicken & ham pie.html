@@ -14,27 +14,62 @@
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
-        <div class="information">
-            <header>
-                <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
-            </header>
+
+        <a class="header" href="../index.html">
+            <img class="header-img" src="../img/header-logo.svg" alt="Stranger Foods">
+            <h4>Stranger Foods</h4>
+        </a>
+
+        <section class="recipe">
+            <h1 itemprop="name">Chicken & ham pie</h1>
             <img itemprop="image" class="recipe-image" src="../images/Chicken_&_ham_pie.webp" alt="Recipe image">
-            <h1 class="recipe-title" itemprop="name">Chicken & ham pie</h1>
-            <p class="recipe-description" itemprop="description">When you need something warm and comforting after a long day, there’s nothing like a proper British pie.</p>
-            <h3>
-                <div class="icon baseline"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="90" width="90" viewBox="0 0 100 100"><circle r="40" cy="45.556" cx="45.556" class="circle"/><path d="M45.556 10.556v35m32.5-2.5h-35" fill="#fff" stroke="#fff" stroke-width="5"/></svg>
-                    <meta itemprop="totalTime" content=PT70M>1 hr 10 mins
-                    <meta itemprop="prepTime" content=PT25M>
-                    <meta itemprop="performTime" content=PT45M>
+            <p itemprop="description">When you need something warm and comforting after a long day, there’s nothing like a proper British pie.</p>
+            <h3><strong>Servings:</strong> <span id="servings" default="6">6</span></h3>
+            <h3><strong>Total:</strong> 1 hr 10 mins</h3>
+            <meta itemprop="totalTime" content=PT70M>
+            <meta itemprop="prepTime" content=PT25M>
+            <meta itemprop="performTime" content=PT45M>
+            <meta itemprop="recipeYield" content="6 servings">
+
+            <div class="recipe-metadata">
                 </div>
-                <div class="icon baseline">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="6 servings"><span id="servings" default="6">6</span>&nbsp;servings
-                </div>
-            </h3>         
-            <h3>
-                </h3>          
+
+            <hr>
+            <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>
+            <ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="6" class="scalable">6</span></b> boneless skinless chicken breasts, cubed</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> carrots, chopped</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> potatoes, peeled and cubed</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> sticks celery, chopped</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tsp chopped fresh thyme or 1 tsp dried</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="850" class="scalable">850</span></b> ml hot chicken stock</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="50" class="scalable">50</span></b> g butter</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> onions, chopped</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="50" class="scalable">50</span></b> g plain flour</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="300" class="scalable">300</span></b> ml milk</li>
+<li itemprop="recipeIngredient" class="ingredient">juice of 1 lemon</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp chopped parsley</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> thin slices ham, cut into strips</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="500" class="scalable">500</span></b> g pack shortcrust pastry</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> egg, beaten</li>
+</ul>
+        
+            <hr>
+            <h2>Instructions</h2>
+            <ol>
+                <li itemprop="recipeInstructions">Put the <div class="tooltip">chicken<span class="tooltiptext"><span default="6" class="scalable">6</span> </span></div> in a large pan with the <div class="tooltip">carrots<span class="tooltiptext"><span default="3" class="scalable">3</span> </span></div>, <div class="tooltip">potatoes<span class="tooltiptext"><span default="3" class="scalable">3</span> </span></div>, <div class="tooltip">celery<span class="tooltiptext"><span default="2" class="scalable">2</span> sticks</span></div>, half the <div class="tooltip">thyme<span class="tooltiptext"><span default="2" class="scalable">2</span> tsp</span></div> and seasoning. Add <div class="tooltip">stock<span class="tooltiptext"><span default="850" class="scalable">850</span> ml</span></div> and bring to the boil. Reduce heat, cover and cook gently for <b>15</b> minutes. Set a colander over a large bowl, pour in the pan contents and remove <div class="tooltip">thyme<span class="tooltiptext"><span default="2" class="scalable">2</span> tsp</span></div>. Reserve <b>600</b> ml/<b>1</b> pint <div class="tooltip">stock<span class="tooltiptext"><span default="850" class="scalable">850</span> ml</span></div> (rest can be frozen).</li>
+                <li itemprop="recipeInstructions">Rinse the pan, return to heat and melt the <div class="tooltip">butter<span class="tooltiptext"><span default="50" class="scalable">50</span> g</span></div>. Cook the <div class="tooltip">onions<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div> until soft, about <b>5</b> minutes. Stir in the <div class="tooltip">flour<span class="tooltiptext"><span default="50" class="scalable">50</span> g</span></div>, then the reserved <div class="tooltip">stock<span class="tooltiptext"><span default="850" class="scalable">850</span> ml</span></div> a little at a time, to make a smooth thick sauce. Add the <div class="tooltip">milk<span class="tooltiptext"><span default="300" class="scalable">300</span> ml</span></div> and simmer for <b>2</b> minutes. Off the heat, stir in the remaining <div class="tooltip">thyme<span class="tooltiptext"><span default="2" class="scalable">2</span> tsp</span></div>, lemon juice and <div class="tooltip">parsley<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div>. Season.</li>
+                <li itemprop="recipeInstructions">Mix together the <div class="tooltip">chicken<span class="tooltiptext"><span default="6" class="scalable">6</span> </span></div>, vegetables and <div class="tooltip">ham<span class="tooltiptext"><span default="4" class="scalable">4</span> thin slices</span></div> in a deep <b>2.2</b> litre/<b>4</b> pint ovenproof dish, preferably with a rim or lip. Pour over the sauce and leave to cool slightly. Preheat the oven to <b>180</b>&degC/Gas <b>6</b>.</li>
+                <li itemprop="recipeInstructions">Roll out the <div class="tooltip">pastry<span class="tooltiptext"><span default="500" class="scalable">500</span> g pack</span></div> to about <b>5</b>cm/<b>2</b>in larger than the top of the dish. Cut a <b>2.5</b>cm/<b>1</b>in strip from all round the <div class="tooltip">pastry<span class="tooltiptext"><span default="500" class="scalable">500</span> g pack</span></div>. Brush the rim of the dish with <div class="tooltip">egg<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> and press the strip all round. Brush with <div class="tooltip">egg<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> and lift the <div class="tooltip">pastry<span class="tooltiptext"><span default="500" class="scalable">500</span> g pack</span></div> on to it, pressing the edges to seal thoroughly. Trim off excess, then mark the <div class="tooltip">pastry<span class="tooltiptext"><span default="500" class="scalable">500</span> g pack</span></div> edge all round with a fork. Make <b>4</b> small slits in the centre. Brush with <div class="tooltip">egg<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> and bake for <b>25</b> - <b>30</b> minutes until crisp and golden.</li>
+                </ol>
+
+            <hr>
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -71,51 +106,9 @@
                     </li>
                 </ul>
             </div>  
-            </div>
-        <div class="ingredients">
-            <h2>Ingredients</h2>
-            <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
-                <button type="button" onclick="scaleRecipe(1)">x1</button>
-                <button type="button" onclick="scaleRecipe(2)">x2</button>
-                <button type="button" onclick="scaleRecipe(3)">x3</button>
-            </div>
-            <ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="6" class="scalable">6</span></b> boneless skinless chicken breasts, cubed</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> carrots, chopped</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> potatoes, peeled and cubed</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> sticks celery, chopped</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tsp chopped fresh thyme or 1 tsp dried</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="850" class="scalable">850</span></b> ml hot chicken stock</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="50" class="scalable">50</span></b> g butter</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> onions, chopped</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="50" class="scalable">50</span></b> g plain flour</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="300" class="scalable">300</span></b> ml milk</li>
-<li itemprop="recipeIngredient" class="ingredient">juice of 1 lemon</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp chopped parsley</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> thin slices ham, cut into strips</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="500" class="scalable">500</span></b> g pack shortcrust pastry</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> egg, beaten</li>
-</ul>
-        </div>
-        <div class="instructions">
-            <h2>Instructions</h2>
-            <ol>
-                <li itemprop="recipeInstructions">Put the <div class="tooltip">chicken<span class="tooltiptext"><span default="6" class="scalable">6</span> </span></div> in a large pan with the <div class="tooltip">carrots<span class="tooltiptext"><span default="3" class="scalable">3</span> </span></div>, <div class="tooltip">potatoes<span class="tooltiptext"><span default="3" class="scalable">3</span> </span></div>, <div class="tooltip">celery<span class="tooltiptext"><span default="2" class="scalable">2</span> sticks</span></div>, half the <div class="tooltip">thyme<span class="tooltiptext"><span default="2" class="scalable">2</span> tsp</span></div> and seasoning. Add <div class="tooltip">stock<span class="tooltiptext"><span default="850" class="scalable">850</span> ml</span></div> and bring to the boil. Reduce heat, cover and cook gently for <b>15</b> minutes. Set a colander over a large bowl, pour in the pan contents and remove <div class="tooltip">thyme<span class="tooltiptext"><span default="2" class="scalable">2</span> tsp</span></div>. Reserve <b>600</b> ml/<b>1</b> pint <div class="tooltip">stock<span class="tooltiptext"><span default="850" class="scalable">850</span> ml</span></div> (rest can be frozen).</li>
-                <li itemprop="recipeInstructions">Rinse the pan, return to heat and melt the <div class="tooltip">butter<span class="tooltiptext"><span default="50" class="scalable">50</span> g</span></div>. Cook the <div class="tooltip">onions<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div> until soft, about <b>5</b> minutes. Stir in the <div class="tooltip">flour<span class="tooltiptext"><span default="50" class="scalable">50</span> g</span></div>, then the reserved <div class="tooltip">stock<span class="tooltiptext"><span default="850" class="scalable">850</span> ml</span></div> a little at a time, to make a smooth thick sauce. Add the <div class="tooltip">milk<span class="tooltiptext"><span default="300" class="scalable">300</span> ml</span></div> and simmer for <b>2</b> minutes. Off the heat, stir in the remaining <div class="tooltip">thyme<span class="tooltiptext"><span default="2" class="scalable">2</span> tsp</span></div>, lemon juice and <div class="tooltip">parsley<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div>. Season.</li>
-                <li itemprop="recipeInstructions">Mix together the <div class="tooltip">chicken<span class="tooltiptext"><span default="6" class="scalable">6</span> </span></div>, vegetables and <div class="tooltip">ham<span class="tooltiptext"><span default="4" class="scalable">4</span> thin slices</span></div> in a deep <b>2.2</b> litre/<b>4</b> pint ovenproof dish, preferably with a rim or lip. Pour over the sauce and leave to cool slightly. Preheat the oven to <b>180</b>&degC/Gas <b>6</b>.</li>
-                <li itemprop="recipeInstructions">Roll out the <div class="tooltip">pastry<span class="tooltiptext"><span default="500" class="scalable">500</span> g pack</span></div> to about <b>5</b>cm/<b>2</b>in larger than the top of the dish. Cut a <b>2.5</b>cm/<b>1</b>in strip from all round the <div class="tooltip">pastry<span class="tooltiptext"><span default="500" class="scalable">500</span> g pack</span></div>. Brush the rim of the dish with <div class="tooltip">egg<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> and press the strip all round. Brush with <div class="tooltip">egg<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> and lift the <div class="tooltip">pastry<span class="tooltiptext"><span default="500" class="scalable">500</span> g pack</span></div> on to it, pressing the edges to seal thoroughly. Trim off excess, then mark the <div class="tooltip">pastry<span class="tooltiptext"><span default="500" class="scalable">500</span> g pack</span></div> edge all round with a fork. Make <b>4</b> small slits in the centre. Brush with <div class="tooltip">egg<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> and bake for <b>25</b> - <b>30</b> minutes until crisp and golden.</li>
-                </ol>
-        </div>
-        <div class="source">
-            <div class="link">
-                <a href=https://www.bbcgoodfood.com/recipes/1349/chicken-and-ham-pie>www.bbcgoodfood.com</a>
-            </div>
-            <div class="link">
-                <a href=../recipes/891a5b.html>Short Link</a> 
-                <a href=../recipes/Chicken%20&%20ham%20pie.html>Long Link</a>
-            </div>
-        </div>
-        </main>
+            <a class="link" href=https://www.bbcgoodfood.com/recipes/1349/chicken-and-ham-pie>www.bbcgoodfood.com</a>
+            <a class="link" href=../recipes/891a5b.html>Short Link</a> 
+            <a class="link" href=../recipes/Chicken%20&%20ham%20pie.html>Long Link</a>
+        </section>
     </body>
 </html>

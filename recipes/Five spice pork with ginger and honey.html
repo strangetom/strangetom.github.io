@@ -14,33 +14,28 @@
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
-        <div class="information">
-            <header>
-                <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
-            </header>
+
+        <a class="header" href="../index.html">
+            <img class="header-img" src="../img/header-logo.svg" alt="Stranger Foods">
+            <h4>Stranger Foods</h4>
+        </a>
+
+        <section class="recipe">
+            <h1 itemprop="name">Five spice pork with ginger and honey</h1>
             <img itemprop="image" class="recipe-image" src="../images/Five_spice_pork_with_ginger_and_honey.webp" alt="Recipe image">
-            <h1 class="recipe-title" itemprop="name">Five spice pork with ginger and honey</h1>
-            <p class="recipe-description" itemprop="description">This has a real takeaway feel, but with fresh ingredients and no additives. It is, at least, half the price and also much quicker than waiting for the takeaway! Gluten-free: make sure the soy sauce is GlutenFree.</p>
-            <h3>
-                <div class="icon baseline"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="90" width="90" viewBox="0 0 100 100"><circle r="40" cy="45.556" cx="45.556" class="circle"/><path d="M45.556 10.556v35m32.5-2.5h-35" fill="#fff" stroke="#fff" stroke-width="5"/></svg>
-                    <meta itemprop="totalTime" content=PT20M>20 mins
-                    <meta itemprop="prepTime" content=>
-                    <meta itemprop="performTime" content=PT20M>
+            <p itemprop="description">This has a real takeaway feel, but with fresh ingredients and no additives. It is, at least, half the price and also much quicker than waiting for the takeaway! Gluten-free: make sure the soy sauce is GlutenFree.</p>
+            <h3><strong>Servings:</strong> <span id="servings" default="4">4</span></h3>
+            <h3><strong>Total:</strong> 20 mins</h3>
+            <meta itemprop="totalTime" content=PT20M>
+            <meta itemprop="prepTime" content=>
+            <meta itemprop="performTime" content=PT20M>
+            <meta itemprop="recipeYield" content="4 servings">
+
+            <div class="recipe-metadata">
+                <h3><img class="diet-image" src="../img/glutenfree.svg" alt="Gluten free">Gluten Free</h3>
                 </div>
-                <div class="icon baseline">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="4 servings"><span id="servings" default="4">4</span>&nbsp;servings
-                </div>
-            </h3>         
-            <h3>
-                <div class="icon baseline">
-                    <img src="../img/glutenfree.svg" alt="Gluten free icon">
-                    <link itemprop="suitableForDiet" href="https://schema.org/GlutenFreeDiet">Gluten Free
-                </div>   
-                </h3>          
-            </div>
-        <div class="ingredients">
+
+            <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
                 <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
@@ -69,8 +64,8 @@
 <li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp honey</li>
 </ul>
 </details>
-        </div>
-        <div class="instructions">
+        
+            <hr>
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Put the <div class="tooltip">rice<span class="tooltiptext"><span default="1.5" class="scalable">1&frac12;</span> mugs</span></div> on to cook in <b>3</b> mugs of boiling <div class="tooltip">water<span class="tooltiptext"><span default="1" class="scalable">1</span> mug</span></div>. Mix the sauce ingredients together.  </li>
@@ -80,16 +75,11 @@
                 <li itemprop="recipeInstructions">Add the sauce to the pan, bring to the boil and simmer for <b>1</b> minute.  </li>
                 <li itemprop="recipeInstructions">Serve with the <div class="tooltip">rice<span class="tooltiptext"><span default="1.5" class="scalable">1&frac12;</span> mugs</span></div>.</li>
                 </ol>
-        </div>
-        <div class="source">
-            <div class="link">
-                <a href=>Nosh: Quick & Easy</a>
-            </div>
-            <div class="link">
-                <a href=../recipes/bc12ac.html>Short Link</a> 
-                <a href=../recipes/Five%20spice%20pork%20with%20ginger%20and%20honey.html>Long Link</a>
-            </div>
-        </div>
-        </main>
+
+            <hr>
+            <a class="link" href=>Nosh: Quick & Easy</a>
+            <a class="link" href=../recipes/bc12ac.html>Short Link</a> 
+            <a class="link" href=../recipes/Five%20spice%20pork%20with%20ginger%20and%20honey.html>Long Link</a>
+        </section>
     </body>
 </html>

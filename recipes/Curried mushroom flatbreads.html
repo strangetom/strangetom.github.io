@@ -14,28 +14,59 @@
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
-        <link itemprop="suitableForDiet" href="https://schema.org/VegetarianDiet">
-        <div class="information">
-            <header>
-                <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
-            </header>
+
+        <a class="header" href="../index.html">
+            <img class="header-img" src="../img/header-logo.svg" alt="Stranger Foods">
+            <h4>Stranger Foods</h4>
+        </a>
+
+        <section class="recipe">
+            <h1 itemprop="name">Curried mushroom flatbreads</h1>
             <img itemprop="image" class="recipe-image" src="../images/Curried_mushroom_flatbreads.webp" alt="Recipe image">
-            <h1 class="recipe-title" itemprop="name">Curried mushroom flatbreads</h1>
-            <p class="recipe-description" itemprop="description">Top naan breads with curried portobello mushrooms and Greek-style yogurt </p>
-            <h3>
-                <div class="icon baseline"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="90" width="90" viewBox="0 0 100 100"><circle r="40" cy="45.556" cx="45.556" class="circle"/><path d="M45.556 10.556v35m32.5-2.5h-35" fill="#fff" stroke="#fff" stroke-width="5"/></svg>
-                    <meta itemprop="totalTime" content=PT0H20M>20 mins
-                    <meta itemprop="prepTime" content=PT0H20M>
-                    <meta itemprop="performTime" content=>
+            <p itemprop="description">Top naan breads with curried portobello mushrooms and Greek-style yogurt </p>
+            <h3><strong>Servings:</strong> <span id="servings" default="2">2</span></h3>
+            <h3><strong>Total:</strong> 20 mins</h3>
+            <meta itemprop="totalTime" content=PT0H20M>
+            <meta itemprop="prepTime" content=PT0H20M>
+            <meta itemprop="performTime" content=>
+            <meta itemprop="recipeYield" content="2 servings">
+
+            <div class="recipe-metadata">
+                <h3><img class="diet-image" src="../img/vegetarian.svg" alt="vegetarian">Vegetarian</h3>
                 </div>
-                <div class="icon baseline">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="2 servings"><span id="servings" default="2">2</span>&nbsp;servings
-                </div>
-            </h3>         
-            <h3>
-                </h3>          
+
+            <hr>
+            <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>
+            <ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp vegetable oil</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b>x 250 g pack portobello mushrooms, cut into 1 cm slices</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp mild curry paste (we used Pataks), plus ¼ tsp</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> large cloves garlic, crushed</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> cm root ginger, finely chopped</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="100" class="scalable">100</span></b> g cherry vine tomatoes, halved</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">0.5</span></b>x 30 g pack coriander, finely chopped</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="50" class="scalable">50</span></b> g baby leaf spinach</li>
+<li itemprop="recipeIngredient" class="ingredient">zest and juice of ½ lemon</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b>x 260 g pack flame-baked naans (we used garlic and coriander)</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> tbsp Greek-style natural yogurt</li>
+</ul>
+        
+            <hr>
+            <h2>Instructions</h2>
+            <ol>
+                <li itemprop="recipeInstructions">Preheat the grill to high.</li>
+                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div> in a large frying pan over a medium-high heat. Add the mushroom slices and fry for <b>3-4</b> minutes, tossing occasionally, until evenly browned. Reduce the heat slightly, add <b>1</b> tablespoon of the <div class="tooltip">curry paste<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div> and toss to coat then add most of the <div class="tooltip">garlic<span class="tooltiptext"><span default="3" class="scalable">3</span> large cloves</span></div>, the <div class="tooltip">ginger<span class="tooltiptext"><span default="2" class="scalable">2</span> cm</span></div>, <div class="tooltip">cherry tomatoes<span class="tooltiptext"><span default="100" class="scalable">100</span> g</span></div>, half the <div class="tooltip">coriander<span class="tooltiptext"><span default="0.5" class="scalable">0.5</span>x 30 g pack</span></div> and <b>2</b> tablespoons of water. Cook for <b>4-5</b> minutes, stirring occasionally, until the tomatoes start to break down. Add the <div class="tooltip">spinach<span class="tooltiptext"><span default="50" class="scalable">50</span> g</span></div> and cook for a further <b>2-3</b> minutes or until wilted. Season to taste with sea salt and black pepper and a squeeze of lemon.</li>
+                <li itemprop="recipeInstructions">Meanwhile, mix the <div class="tooltip">yogurt<span class="tooltiptext"><span default="4" class="scalable">4</span> tbsp</span></div> with the remaining <div class="tooltip">garlic<span class="tooltiptext"><span default="3" class="scalable">3</span> large cloves</span></div>, the lemon zest, a squeeze of juice and the remaining <b>&frac14;</b> teaspoon of <div class="tooltip">curry paste<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div>. Season to taste.</li>
+                <li itemprop="recipeInstructions">Sprinkle the naan breads with water, then place under the grill for <b>1-2</b> minutes on each side until lightly charred and softened. Spread the <div class="tooltip">yogurt<span class="tooltiptext"><span default="4" class="scalable">4</span> tbsp</span></div> over each and top with the curried <div class="tooltip">mushrooms<span class="tooltiptext"><span default="1" class="scalable">1</span>x 250 g pack</span></div>. Scatter with the <div class="tooltip">coriander<span class="tooltiptext"><span default="0.5" class="scalable">0.5</span>x 30 g pack</span></div> leaves and grind over some black pepper to serve.</li>
+                </ol>
+
+            <hr>
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -72,47 +103,9 @@
                     </li>
                 </ul>
             </div>  
-            </div>
-        <div class="ingredients">
-            <h2>Ingredients</h2>
-            <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
-                <button type="button" onclick="scaleRecipe(1)">x1</button>
-                <button type="button" onclick="scaleRecipe(2)">x2</button>
-                <button type="button" onclick="scaleRecipe(3)">x3</button>
-            </div>
-            <ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp vegetable oil</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b>x 250 g pack portobello mushrooms, cut into 1 cm slices</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp mild curry paste (we used Pataks), plus ¼ tsp</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> large cloves garlic, crushed</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> cm root ginger, finely chopped</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="100" class="scalable">100</span></b> g cherry vine tomatoes, halved</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="0.5" class="scalable">0.5</span></b>x 30 g pack coriander, finely chopped</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="50" class="scalable">50</span></b> g baby leaf spinach</li>
-<li itemprop="recipeIngredient" class="ingredient">zest and juice of ½ lemon</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b>x 260 g pack flame-baked naans (we used garlic and coriander)</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> tbsp Greek-style natural yogurt</li>
-</ul>
-        </div>
-        <div class="instructions">
-            <h2>Instructions</h2>
-            <ol>
-                <li itemprop="recipeInstructions">Preheat the grill to high.</li>
-                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div> in a large frying pan over a medium-high heat. Add the mushroom slices and fry for <b>3-4</b> minutes, tossing occasionally, until evenly browned. Reduce the heat slightly, add <b>1</b> tablespoon of the <div class="tooltip">curry paste<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div> and toss to coat then add most of the <div class="tooltip">garlic<span class="tooltiptext"><span default="3" class="scalable">3</span> large cloves</span></div>, the <div class="tooltip">ginger<span class="tooltiptext"><span default="2" class="scalable">2</span> cm</span></div>, <div class="tooltip">cherry tomatoes<span class="tooltiptext"><span default="100" class="scalable">100</span> g</span></div>, half the <div class="tooltip">coriander<span class="tooltiptext"><span default="0.5" class="scalable">0.5</span>x 30 g pack</span></div> and <b>2</b> tablespoons of water. Cook for <b>4-5</b> minutes, stirring occasionally, until the tomatoes start to break down. Add the <div class="tooltip">spinach<span class="tooltiptext"><span default="50" class="scalable">50</span> g</span></div> and cook for a further <b>2-3</b> minutes or until wilted. Season to taste with sea salt and black pepper and a squeeze of lemon.</li>
-                <li itemprop="recipeInstructions">Meanwhile, mix the <div class="tooltip">yogurt<span class="tooltiptext"><span default="4" class="scalable">4</span> tbsp</span></div> with the remaining <div class="tooltip">garlic<span class="tooltiptext"><span default="3" class="scalable">3</span> large cloves</span></div>, the lemon zest, a squeeze of juice and the remaining <b>&frac14;</b> teaspoon of <div class="tooltip">curry paste<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div>. Season to taste.</li>
-                <li itemprop="recipeInstructions">Sprinkle the naan breads with water, then place under the grill for <b>1-2</b> minutes on each side until lightly charred and softened. Spread the <div class="tooltip">yogurt<span class="tooltiptext"><span default="4" class="scalable">4</span> tbsp</span></div> over each and top with the curried <div class="tooltip">mushrooms<span class="tooltiptext"><span default="1" class="scalable">1</span>x 250 g pack</span></div>. Scatter with the <div class="tooltip">coriander<span class="tooltiptext"><span default="0.5" class="scalable">0.5</span>x 30 g pack</span></div> leaves and grind over some black pepper to serve.</li>
-                </ol>
-        </div>
-        <div class="source">
-            <div class="link">
-                <a href=https://www.sainsburysmagazine.co.uk/recipes/mains/curried-mushroom-flatbreads>www.sainsburysmagazine.co.uk</a>
-            </div>
-            <div class="link">
-                <a href=../recipes/0bf863.html>Short Link</a> 
-                <a href=../recipes/Curried%20mushroom%20flatbreads.html>Long Link</a>
-            </div>
-        </div>
-        </main>
+            <a class="link" href=https://www.sainsburysmagazine.co.uk/recipes/mains/curried-mushroom-flatbreads>www.sainsburysmagazine.co.uk</a>
+            <a class="link" href=../recipes/0bf863.html>Short Link</a> 
+            <a class="link" href=../recipes/Curried%20mushroom%20flatbreads.html>Long Link</a>
+        </section>
     </body>
 </html>

@@ -14,27 +14,60 @@
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
     <body class="Beef" itemscope itemtype="https://schema.org/Recipe">
-        <div class="information">
-            <header>
-                <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
-            </header>
+
+        <a class="header" href="../index.html">
+            <img class="header-img" src="../img/header-logo.svg" alt="Stranger Foods">
+            <h4>Stranger Foods</h4>
+        </a>
+
+        <section class="recipe">
+            <h1 itemprop="name">Slow-cooked beef ragout </h1>
             <img itemprop="image" class="recipe-image" src="../images/Slow-cooked_beef_ragout.webp" alt="Recipe image">
-            <h1 class="recipe-title" itemprop="name">Slow-cooked beef ragout </h1>
-            <p class="recipe-description" itemprop="description">Not to be confused with the Italian ragu, which is a meat-based pasta sauce, this hearty, slow-cooked French-style stew is great for freezer-friendly batch cooking</p>
-            <h3>
-                <div class="icon baseline"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="90" width="90" viewBox="0 0 100 100"><circle r="40" cy="45.556" cx="45.556" class="circle"/><path d="M45.556 10.556v35m32.5-2.5h-35" fill="#fff" stroke="#fff" stroke-width="5"/></svg>
-                    <meta itemprop="totalTime" content=PT4H>4 hr 0 mins
-                    <meta itemprop="prepTime" content=PT0H30M>
-                    <meta itemprop="performTime" content=PT3H30M>
+            <p itemprop="description">Not to be confused with the Italian ragu, which is a meat-based pasta sauce, this hearty, slow-cooked French-style stew is great for freezer-friendly batch cooking</p>
+            <h3><strong>Servings:</strong> <span id="servings" default="12">12</span></h3>
+            <h3><strong>Total:</strong> 4 hr 0 mins</h3>
+            <meta itemprop="totalTime" content=PT4H>
+            <meta itemprop="prepTime" content=PT0H30M>
+            <meta itemprop="performTime" content=PT3H30M>
+            <meta itemprop="recipeYield" content="12 servings">
+
+            <div class="recipe-metadata">
                 </div>
-                <div class="icon baseline">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="12 servings"><span id="servings" default="12">12</span>&nbsp;servings
-                </div>
-            </h3>         
-            <h3>
-                </h3>          
+
+            <hr>
+            <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>
+            <ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1.8" class="scalable">1⅘</span></b> kg (trimmed weight) beef braising steak, chopped into 3-4cm chunks, or 4x 450g packs diced beef</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> tbsp olive oil</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b>x 206 g pack cubetti di pancetta, or 180g smoked cubetti di pancetta</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> large onions, diced</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> large carrots, peeled and finely diced</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> large sticks celery, finely diced</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="5" class="scalable">5</span></b> cloves garlic, crushed</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> tbsp tomato puree</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> bay leaves</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="200" class="scalable">200</span></b> ml red wine</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b>x 400 g tins chopped tomatoes</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="600" class="scalable">600</span></b> ml fresh beef stock</li>
+</ul>
+        
+            <hr>
+            <h2>Instructions</h2>
+            <ol>
+                <li itemprop="recipeInstructions">Preheat the oven to <b>140</b>&degC/Gas <b>3</b>. Season the <div class="tooltip">beef<span class="tooltiptext"><span default="1.8" class="scalable">1&frac45;</span> kg</span></div>. Add <b>1</b> tablespoon of the <div class="tooltip">oil<span class="tooltiptext"><span default="3" class="scalable">3</span> tbsp</span></div> to a large frying pan; brown the <div class="tooltip">beef<span class="tooltiptext"><span default="1.8" class="scalable">1&frac45;</span> kg</span></div> in batches over a medium-high heat. Using a draining spoon, transfer to a large casserole with a lid, leaving any <div class="tooltip">oil<span class="tooltiptext"><span default="3" class="scalable">3</span> tbsp</span></div> in the pan. Continue to brown the remaining <div class="tooltip">beef<span class="tooltiptext"><span default="1.8" class="scalable">1&frac45;</span> kg</span></div>, adding a splash of <div class="tooltip">oil<span class="tooltiptext"><span default="3" class="scalable">3</span> tbsp</span></div> to the pan between each batch, and transferring the <div class="tooltip">beef<span class="tooltiptext"><span default="1.8" class="scalable">1&frac45;</span> kg</span></div> to the casserole when done.</li>
+                <li itemprop="recipeInstructions">Add the <div class="tooltip">pancetta<span class="tooltiptext"><span default="1" class="scalable">1</span>x 206 g</span></div> to the frying pan and fry until the fat has rendered out, then add to the <div class="tooltip">beef<span class="tooltiptext"><span default="1.8" class="scalable">1&frac45;</span> kg</span></div> using a draining spoon. Add the <div class="tooltip">onions<span class="tooltiptext"><span default="2" class="scalable">2</span> large</span></div>, <div class="tooltip">carrots<span class="tooltiptext"><span default="2" class="scalable">2</span> large</span></div> and <div class="tooltip">celery<span class="tooltiptext"><span default="2" class="scalable">2</span> large sticks</span></div> to the <div class="tooltip">oil<span class="tooltiptext"><span default="3" class="scalable">3</span> tbsp</span></div> in the frying pan, stir, and cook over a low heat for <b>10-15</b> minutes until softened.</li>
+                <li itemprop="recipeInstructions">Increase the heat, add the <div class="tooltip">garlic<span class="tooltiptext"><span default="5" class="scalable">5</span> cloves</span></div>; cook for <b>2</b> minutes, then add the <div class="tooltip">tomato puree<span class="tooltiptext"><span default="3" class="scalable">3</span> tbsp</span></div> and <div class="tooltip">bay leaves<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div> and cook for <b>1</b> minute more. Add the wine; bubble to reduce by half.</li>
+                <li itemprop="recipeInstructions">Tip the vegetables into the casserole and add the <div class="tooltip">tomatoes<span class="tooltiptext"><span default="2" class="scalable">2</span>x 400 g tins</span></div>, <div class="tooltip">stock<span class="tooltiptext"><span default="600" class="scalable">600</span> ml</span></div> and <b>150</b> ml water. Season, stir, and bring to a simmer then cover with a lid; transfer to the middle of the oven. Cook for <b>3-3</b> <b>&frac12;</b> hours, or until the meat is tender and the sauce slightly reduced.</li>
+                <li itemprop="recipeInstructions">Break up the meat with a couple of forks and stir into the sauce. Portion up as required.</li>
+                </ol>
+
+            <hr>
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -71,49 +104,9 @@
                     </li>
                 </ul>
             </div>  
-            </div>
-        <div class="ingredients">
-            <h2>Ingredients</h2>
-            <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
-                <button type="button" onclick="scaleRecipe(1)">x1</button>
-                <button type="button" onclick="scaleRecipe(2)">x2</button>
-                <button type="button" onclick="scaleRecipe(3)">x3</button>
-            </div>
-            <ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1.8" class="scalable">1⅘</span></b> kg (trimmed weight) beef braising steak, chopped into 3-4cm chunks, or 4x 450g packs diced beef</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> tbsp olive oil</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b>x 206 g pack cubetti di pancetta, or 180g smoked cubetti di pancetta</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> large onions, diced</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> large carrots, peeled and finely diced</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> large sticks celery, finely diced</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="5" class="scalable">5</span></b> cloves garlic, crushed</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> tbsp tomato puree</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> bay leaves</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="200" class="scalable">200</span></b> ml red wine</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b>x 400 g tins chopped tomatoes</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="600" class="scalable">600</span></b> ml fresh beef stock</li>
-</ul>
-        </div>
-        <div class="instructions">
-            <h2>Instructions</h2>
-            <ol>
-                <li itemprop="recipeInstructions">Preheat the oven to <b>140</b>&degC/Gas <b>3</b>. Season the <div class="tooltip">beef<span class="tooltiptext"><span default="1.8" class="scalable">1&frac45;</span> kg</span></div>. Add <b>1</b> tablespoon of the <div class="tooltip">oil<span class="tooltiptext"><span default="3" class="scalable">3</span> tbsp</span></div> to a large frying pan; brown the <div class="tooltip">beef<span class="tooltiptext"><span default="1.8" class="scalable">1&frac45;</span> kg</span></div> in batches over a medium-high heat. Using a draining spoon, transfer to a large casserole with a lid, leaving any <div class="tooltip">oil<span class="tooltiptext"><span default="3" class="scalable">3</span> tbsp</span></div> in the pan. Continue to brown the remaining <div class="tooltip">beef<span class="tooltiptext"><span default="1.8" class="scalable">1&frac45;</span> kg</span></div>, adding a splash of <div class="tooltip">oil<span class="tooltiptext"><span default="3" class="scalable">3</span> tbsp</span></div> to the pan between each batch, and transferring the <div class="tooltip">beef<span class="tooltiptext"><span default="1.8" class="scalable">1&frac45;</span> kg</span></div> to the casserole when done.</li>
-                <li itemprop="recipeInstructions">Add the <div class="tooltip">pancetta<span class="tooltiptext"><span default="1" class="scalable">1</span>x 206 g</span></div> to the frying pan and fry until the fat has rendered out, then add to the <div class="tooltip">beef<span class="tooltiptext"><span default="1.8" class="scalable">1&frac45;</span> kg</span></div> using a draining spoon. Add the <div class="tooltip">onions<span class="tooltiptext"><span default="2" class="scalable">2</span> large</span></div>, <div class="tooltip">carrots<span class="tooltiptext"><span default="2" class="scalable">2</span> large</span></div> and <div class="tooltip">celery<span class="tooltiptext"><span default="2" class="scalable">2</span> large sticks</span></div> to the <div class="tooltip">oil<span class="tooltiptext"><span default="3" class="scalable">3</span> tbsp</span></div> in the frying pan, stir, and cook over a low heat for <b>10-15</b> minutes until softened.</li>
-                <li itemprop="recipeInstructions">Increase the heat, add the <div class="tooltip">garlic<span class="tooltiptext"><span default="5" class="scalable">5</span> cloves</span></div>; cook for <b>2</b> minutes, then add the <div class="tooltip">tomato puree<span class="tooltiptext"><span default="3" class="scalable">3</span> tbsp</span></div> and <div class="tooltip">bay leaves<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div> and cook for <b>1</b> minute more. Add the wine; bubble to reduce by half.</li>
-                <li itemprop="recipeInstructions">Tip the vegetables into the casserole and add the <div class="tooltip">tomatoes<span class="tooltiptext"><span default="2" class="scalable">2</span>x 400 g tins</span></div>, <div class="tooltip">stock<span class="tooltiptext"><span default="600" class="scalable">600</span> ml</span></div> and <b>150</b> ml water. Season, stir, and bring to a simmer then cover with a lid; transfer to the middle of the oven. Cook for <b>3-3</b> <b>&frac12;</b> hours, or until the meat is tender and the sauce slightly reduced.</li>
-                <li itemprop="recipeInstructions">Break up the meat with a couple of forks and stir into the sauce. Portion up as required.</li>
-                </ol>
-        </div>
-        <div class="source">
-            <div class="link">
-                <a href=https://www.sainsburysmagazine.co.uk/recipes/mains/slow-cooked-beef-ragout>www.sainsburysmagazine.co.uk</a>
-            </div>
-            <div class="link">
-                <a href=../recipes/8be340.html>Short Link</a> 
-                <a href=../recipes/Slow-cooked%20beef%20ragout%20.html>Long Link</a>
-            </div>
-        </div>
-        </main>
+            <a class="link" href=https://www.sainsburysmagazine.co.uk/recipes/mains/slow-cooked-beef-ragout>www.sainsburysmagazine.co.uk</a>
+            <a class="link" href=../recipes/8be340.html>Short Link</a> 
+            <a class="link" href=../recipes/Slow-cooked%20beef%20ragout%20.html>Long Link</a>
+        </section>
     </body>
 </html>

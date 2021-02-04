@@ -14,28 +14,58 @@
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
-        <link itemprop="suitableForDiet" href="https://schema.org/VegetarianDiet">
-        <div class="information">
-            <header>
-                <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
-            </header>
+
+        <a class="header" href="../index.html">
+            <img class="header-img" src="../img/header-logo.svg" alt="Stranger Foods">
+            <h4>Stranger Foods</h4>
+        </a>
+
+        <section class="recipe">
+            <h1 itemprop="name">Spiced chickpea and sweet potato flatbreads</h1>
             <img itemprop="image" class="recipe-image" src="../images/Spiced_chickpea_and_sweet_potato_flatbreads.webp" alt="Recipe image">
-            <h1 class="recipe-title" itemprop="name">Spiced chickpea and sweet potato flatbreads</h1>
-            <p class="recipe-description" itemprop="description">This hearty main is jam-packed with delicious flavours. Sweet potatoes are high in fibre and antioxidants. Unlike regular potatoes, they count towards your 5-a-day and avocados are a good source of monosaturated fats and vitamin E.</p>
-            <h3>
-                <div class="icon baseline"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="90" width="90" viewBox="0 0 100 100"><circle r="40" cy="45.556" cx="45.556" class="circle"/><path d="M45.556 10.556v35m32.5-2.5h-35" fill="#fff" stroke="#fff" stroke-width="5"/></svg>
-                    <meta itemprop="totalTime" content=PT25M>25 mins
-                    <meta itemprop="prepTime" content=PT10M>
-                    <meta itemprop="performTime" content=PT15M>
+            <p itemprop="description">This hearty main is jam-packed with delicious flavours. Sweet potatoes are high in fibre and antioxidants. Unlike regular potatoes, they count towards your 5-a-day and avocados are a good source of monosaturated fats and vitamin E.</p>
+            <h3><strong>Servings:</strong> <span id="servings" default="2">2</span></h3>
+            <h3><strong>Total:</strong> 25 mins</h3>
+            <meta itemprop="totalTime" content=PT25M>
+            <meta itemprop="prepTime" content=PT10M>
+            <meta itemprop="performTime" content=PT15M>
+            <meta itemprop="recipeYield" content="2 servings">
+
+            <div class="recipe-metadata">
+                <h3><img class="diet-image" src="../img/vegetarian.svg" alt="vegetarian">Vegetarian</h3>
                 </div>
-                <div class="icon baseline">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="2 servings"><span id="servings" default="2">2</span>&nbsp;servings
-                </div>
-            </h3>         
-            <h3>
-                </h3>          
+
+            <hr>
+            <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>
+            <ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> sweet potato (about 250 g)</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b>x 400 g tin chickpeas, rinsed and drained</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp olive oil</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> medium red onion, thinly sliced</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> ripe medium avocado</li>
+<li itemprop="recipeIngredient" class="ingredient">a squeeze of lemon juice</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> tbsp coriander, chopped</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp ras el hanout spices or harissa paste</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> wholemeal folded flatbreads</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp natural yogurt</li>
+</ul>
+        
+            <hr>
+            <h2>Instructions</h2>
+            <ol>
+                <li itemprop="recipeInstructions">Peel the <div class="tooltip">sweet potato<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div>; cut into <b>1</b>cm dice. Put in a microwave-safe bowl with <b>1</b> tablespoon of water, cover and cook on high for <b>5</b> minutes or until tender (stir halfway); drain and pat dry on kitchen paper. Rinse and drain the <div class="tooltip">chickpeas<span class="tooltiptext"><span default="1" class="scalable">1</span>x 400 g tin</span></div>; partially crush with a masher.</li>
+                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div> in a frying pan and fry the <div class="tooltip">sweet potato<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> and <div class="tooltip">red onion<span class="tooltiptext"><span default="1" class="scalable">1</span> medium</span></div> for <b>2-3</b> minutes over a high heat until starting to colour. Add the <div class="tooltip">chickpeas<span class="tooltiptext"><span default="1" class="scalable">1</span>x 400 g tin</span></div> and stir-fry for another <b>2</b> minutes or until heated through.</li>
+                <li itemprop="recipeInstructions">Meanwhile, roughly mash the <div class="tooltip">avocado<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> with a squeeze of lemon juice; season and stir in most of the <div class="tooltip">coriander<span class="tooltiptext"><span default="3" class="scalable">3</span> tbsp</span></div>. Warm the <div class="tooltip">flatbreads<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div>.</li>
+                <li itemprop="recipeInstructions">Mix the <div class="tooltip">ras el hanout<span class="tooltiptext"><span default="1" class="scalable">1</span> tsp</span></div> into the chickpea mixture with another squeeze of lemon and a splash of water; season. Spread the smashed <div class="tooltip">avocado<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> onto the <div class="tooltip">flatbreads<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div> (opened out), then top with the spicy veg and <div class="tooltip">chickpeas<span class="tooltiptext"><span default="1" class="scalable">1</span>x 400 g tin</span></div>, a drizzle of <div class="tooltip">yogurt<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div> and the rest of the <div class="tooltip">coriander<span class="tooltiptext"><span default="3" class="scalable">3</span> tbsp</span></div>.</li>
+                </ol>
+
+            <hr>
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -72,46 +102,9 @@
                     </li>
                 </ul>
             </div>  
-            </div>
-        <div class="ingredients">
-            <h2>Ingredients</h2>
-            <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
-                <button type="button" onclick="scaleRecipe(1)">x1</button>
-                <button type="button" onclick="scaleRecipe(2)">x2</button>
-                <button type="button" onclick="scaleRecipe(3)">x3</button>
-            </div>
-            <ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> sweet potato (about 250 g)</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b>x 400 g tin chickpeas, rinsed and drained</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp olive oil</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> medium red onion, thinly sliced</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> ripe medium avocado</li>
-<li itemprop="recipeIngredient" class="ingredient">a squeeze of lemon juice</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> tbsp coriander, chopped</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp ras el hanout spices or harissa paste</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> wholemeal folded flatbreads</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tbsp natural yogurt</li>
-</ul>
-        </div>
-        <div class="instructions">
-            <h2>Instructions</h2>
-            <ol>
-                <li itemprop="recipeInstructions">Peel the <div class="tooltip">sweet potato<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div>; cut into <b>1</b>cm dice. Put in a microwave-safe bowl with <b>1</b> tablespoon of water, cover and cook on high for <b>5</b> minutes or until tender (stir halfway); drain and pat dry on kitchen paper. Rinse and drain the <div class="tooltip">chickpeas<span class="tooltiptext"><span default="1" class="scalable">1</span>x 400 g tin</span></div>; partially crush with a masher.</li>
-                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div> in a frying pan and fry the <div class="tooltip">sweet potato<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> and <div class="tooltip">red onion<span class="tooltiptext"><span default="1" class="scalable">1</span> medium</span></div> for <b>2-3</b> minutes over a high heat until starting to colour. Add the <div class="tooltip">chickpeas<span class="tooltiptext"><span default="1" class="scalable">1</span>x 400 g tin</span></div> and stir-fry for another <b>2</b> minutes or until heated through.</li>
-                <li itemprop="recipeInstructions">Meanwhile, roughly mash the <div class="tooltip">avocado<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> with a squeeze of lemon juice; season and stir in most of the <div class="tooltip">coriander<span class="tooltiptext"><span default="3" class="scalable">3</span> tbsp</span></div>. Warm the <div class="tooltip">flatbreads<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div>.</li>
-                <li itemprop="recipeInstructions">Mix the <div class="tooltip">ras el hanout<span class="tooltiptext"><span default="1" class="scalable">1</span> tsp</span></div> into the chickpea mixture with another squeeze of lemon and a splash of water; season. Spread the smashed <div class="tooltip">avocado<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> onto the <div class="tooltip">flatbreads<span class="tooltiptext"><span default="2" class="scalable">2</span> </span></div> (opened out), then top with the spicy veg and <div class="tooltip">chickpeas<span class="tooltiptext"><span default="1" class="scalable">1</span>x 400 g tin</span></div>, a drizzle of <div class="tooltip">yogurt<span class="tooltiptext"><span default="2" class="scalable">2</span> tbsp</span></div> and the rest of the <div class="tooltip">coriander<span class="tooltiptext"><span default="3" class="scalable">3</span> tbsp</span></div>.</li>
-                </ol>
-        </div>
-        <div class="source">
-            <div class="link">
-                <a href=https://www.sainsburysmagazine.co.uk/recipes/mains/spiced-chickpea-and-sweet-potato-flatbreads>www.sainsburysmagazine.co.uk</a>
-            </div>
-            <div class="link">
-                <a href=../recipes/aa8df4.html>Short Link</a> 
-                <a href=../recipes/Spiced%20chickpea%20and%20sweet%20potato%20flatbreads.html>Long Link</a>
-            </div>
-        </div>
-        </main>
+            <a class="link" href=https://www.sainsburysmagazine.co.uk/recipes/mains/spiced-chickpea-and-sweet-potato-flatbreads>www.sainsburysmagazine.co.uk</a>
+            <a class="link" href=../recipes/aa8df4.html>Short Link</a> 
+            <a class="link" href=../recipes/Spiced%20chickpea%20and%20sweet%20potato%20flatbreads.html>Long Link</a>
+        </section>
     </body>
 </html>

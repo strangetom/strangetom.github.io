@@ -14,31 +14,59 @@
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
-        <div class="information">
-            <header>
-                <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
-            </header>
+
+        <a class="header" href="../index.html">
+            <img class="header-img" src="../img/header-logo.svg" alt="Stranger Foods">
+            <h4>Stranger Foods</h4>
+        </a>
+
+        <section class="recipe">
+            <h1 itemprop="name">Amatriciana chicken traybake</h1>
             <img itemprop="image" class="recipe-image" src="../images/Amatriciana_chicken_traybake.webp" alt="Recipe image">
-            <h1 class="recipe-title" itemprop="name">Amatriciana chicken traybake</h1>
-            <p class="recipe-description" itemprop="description">Inspired by the classic Italian pasta sauce, chicken thighs and new potatoes are flavoured with bacon and tomato in this easy one-pan meal.</p>
-            <h3>
-                <div class="icon baseline"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="90" width="90" viewBox="0 0 100 100"><circle r="40" cy="45.556" cx="45.556" class="circle"/><path d="M45.556 10.556v35m32.5-2.5h-35" fill="#fff" stroke="#fff" stroke-width="5"/></svg>
-                    <meta itemprop="totalTime" content=PT75M>1 hr 15 mins
-                    <meta itemprop="prepTime" content=PT15M>
-                    <meta itemprop="performTime" content=PT60M>
+            <p itemprop="description">Inspired by the classic Italian pasta sauce, chicken thighs and new potatoes are flavoured with bacon and tomato in this easy one-pan meal.</p>
+            <h3><strong>Servings:</strong> <span id="servings" default="4">4</span></h3>
+            <h3><strong>Total:</strong> 1 hr 15 mins</h3>
+            <meta itemprop="totalTime" content=PT75M>
+            <meta itemprop="prepTime" content=PT15M>
+            <meta itemprop="performTime" content=PT60M>
+            <meta itemprop="recipeYield" content="4 servings">
+
+            <div class="recipe-metadata">
+                <h3><img class="diet-image" src="../img/glutenfree.svg" alt="Gluten free">Gluten Free</h3>
                 </div>
-                <div class="icon baseline">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="4 servings"><span id="servings" default="4">4</span>&nbsp;servings
-                </div>
-            </h3>         
-            <h3>
-                <div class="icon baseline">
-                    <img src="../img/glutenfree.svg" alt="Gluten free icon">
-                    <link itemprop="suitableForDiet" href="https://schema.org/GlutenFreeDiet">Gluten Free
-                </div>   
-                </h3>          
+
+            <hr>
+            <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>
+            <ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> long red chilli</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> tbsp tomato puree</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> tbsp olive oil</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> cloves garlic</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="8" class="scalable">8</span></b> skinless chicken thighs</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="500" class="scalable">500</span></b> g new potatoes</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> sprigs thyme</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="140" class="scalable">140</span></b> g cubetti di pancetta (or smoked bacon lardons)</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="400" class="scalable">400</span></b> g tomatoes, half cherry or baby plum, any larger ones halved</li>
+<li itemprop="recipeIngredient" class="ingredient">green salad and bread, to serve (optional)</li>
+</ul>
+        
+            <hr>
+            <h2>Instructions</h2>
+            <ol>
+                <li itemprop="recipeInstructions">Heat oven to <b>200</b>&degC/<b>180</b>&degC fan/Gas <b>6</b>. Find a large roasting tin that will hold the <div class="tooltip">chicken<span class="tooltiptext"><span default="8" class="scalable">8</span> </span></div> thighs and <div class="tooltip">potatoes<span class="tooltiptext"><span default="500" class="scalable">500</span> g</span></div> in a single layer. </li>
+                <li itemprop="recipeInstructions">Halve the <div class="tooltip">chilli<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div>, scrape out and discard the seeds if you don't like it too hot, and remove the stalk. Put in a small food processor or mini chopper with the <div class="tooltip">tomato puree<span class="tooltiptext"><span default="3" class="scalable">3</span> tbsp</span></div>, <div class="tooltip">olive oil<span class="tooltiptext"><span default="3" class="scalable">3</span> tbsp</span></div> and <div class="tooltip">garlic<span class="tooltiptext"><span default="3" class="scalable">3</span> cloves</span></div>. Whizz to a paste, then spread over the <div class="tooltip">chicken<span class="tooltiptext"><span default="8" class="scalable">8</span> </span></div>. </li>
+                <li itemprop="recipeInstructions">Add the <div class="tooltip">chicken<span class="tooltiptext"><span default="8" class="scalable">8</span> </span></div> and <div class="tooltip">potatoes<span class="tooltiptext"><span default="500" class="scalable">500</span> g</span></div> to the tin with a good grinding of black pepper and some salt, then mix everything together well with your hands. Add the <div class="tooltip">thyme<span class="tooltiptext"><span default="4" class="scalable">4</span> sprigs</span></div> and roast for <b>30</b> mins.</li>
+                <li itemprop="recipeInstructions">Stir in the <div class="tooltip">pancetta<span class="tooltiptext"><span default="140" class="scalable">140</span> g</span></div> and roast for <b>15</b> mins more, then add the <div class="tooltip">tomatoes<span class="tooltiptext"><span default="400" class="scalable">400</span> g</span></div> and roast for another <b>15</b> mins until the <div class="tooltip">tomatoes<span class="tooltiptext"><span default="400" class="scalable">400</span> g</span></div> have softened and the <div class="tooltip">chicken<span class="tooltiptext"><span default="8" class="scalable">8</span> </span></div> is cooked. </li>
+                <li itemprop="recipeInstructions">Serve straight from the pan and eat with a green salad and some bread, if you like, for mopping up the juices.</li>
+                </ol>
+
+            <hr>
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -75,47 +103,9 @@
                     </li>
                 </ul>
             </div>  
-            </div>
-        <div class="ingredients">
-            <h2>Ingredients</h2>
-            <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
-                <button type="button" onclick="scaleRecipe(1)">x1</button>
-                <button type="button" onclick="scaleRecipe(2)">x2</button>
-                <button type="button" onclick="scaleRecipe(3)">x3</button>
-            </div>
-            <ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> long red chilli</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> tbsp tomato puree</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> tbsp olive oil</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> cloves garlic</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="8" class="scalable">8</span></b> skinless chicken thighs</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="500" class="scalable">500</span></b> g new potatoes</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="4" class="scalable">4</span></b> sprigs thyme</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="140" class="scalable">140</span></b> g cubetti di pancetta (or smoked bacon lardons)</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="400" class="scalable">400</span></b> g tomatoes, half cherry or baby plum, any larger ones halved</li>
-<li itemprop="recipeIngredient" class="ingredient">green salad and bread, to serve (optional)</li>
-</ul>
-        </div>
-        <div class="instructions">
-            <h2>Instructions</h2>
-            <ol>
-                <li itemprop="recipeInstructions">Heat oven to <b>200</b>&degC/<b>180</b>&degC fan/Gas <b>6</b>. Find a large roasting tin that will hold the <div class="tooltip">chicken<span class="tooltiptext"><span default="8" class="scalable">8</span> </span></div> thighs and <div class="tooltip">potatoes<span class="tooltiptext"><span default="500" class="scalable">500</span> g</span></div> in a single layer. </li>
-                <li itemprop="recipeInstructions">Halve the <div class="tooltip">chilli<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div>, scrape out and discard the seeds if you don't like it too hot, and remove the stalk. Put in a small food processor or mini chopper with the <div class="tooltip">tomato puree<span class="tooltiptext"><span default="3" class="scalable">3</span> tbsp</span></div>, <div class="tooltip">olive oil<span class="tooltiptext"><span default="3" class="scalable">3</span> tbsp</span></div> and <div class="tooltip">garlic<span class="tooltiptext"><span default="3" class="scalable">3</span> cloves</span></div>. Whizz to a paste, then spread over the <div class="tooltip">chicken<span class="tooltiptext"><span default="8" class="scalable">8</span> </span></div>. </li>
-                <li itemprop="recipeInstructions">Add the <div class="tooltip">chicken<span class="tooltiptext"><span default="8" class="scalable">8</span> </span></div> and <div class="tooltip">potatoes<span class="tooltiptext"><span default="500" class="scalable">500</span> g</span></div> to the tin with a good grinding of black pepper and some salt, then mix everything together well with your hands. Add the <div class="tooltip">thyme<span class="tooltiptext"><span default="4" class="scalable">4</span> sprigs</span></div> and roast for <b>30</b> mins.</li>
-                <li itemprop="recipeInstructions">Stir in the <div class="tooltip">pancetta<span class="tooltiptext"><span default="140" class="scalable">140</span> g</span></div> and roast for <b>15</b> mins more, then add the <div class="tooltip">tomatoes<span class="tooltiptext"><span default="400" class="scalable">400</span> g</span></div> and roast for another <b>15</b> mins until the <div class="tooltip">tomatoes<span class="tooltiptext"><span default="400" class="scalable">400</span> g</span></div> have softened and the <div class="tooltip">chicken<span class="tooltiptext"><span default="8" class="scalable">8</span> </span></div> is cooked. </li>
-                <li itemprop="recipeInstructions">Serve straight from the pan and eat with a green salad and some bread, if you like, for mopping up the juices.</li>
-                </ol>
-        </div>
-        <div class="source">
-            <div class="link">
-                <a href=https://www.bbcgoodfood.com/recipes/amatriciana-chicken-traybake>www.bbcgoodfood.com</a>
-            </div>
-            <div class="link">
-                <a href=../recipes/1432a3.html>Short Link</a> 
-                <a href=../recipes/Amatriciana%20chicken%20traybake.html>Long Link</a>
-            </div>
-        </div>
-        </main>
+            <a class="link" href=https://www.bbcgoodfood.com/recipes/amatriciana-chicken-traybake>www.bbcgoodfood.com</a>
+            <a class="link" href=../recipes/1432a3.html>Short Link</a> 
+            <a class="link" href=../recipes/Amatriciana%20chicken%20traybake.html>Long Link</a>
+        </section>
     </body>
 </html>

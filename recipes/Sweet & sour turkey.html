@@ -14,26 +14,56 @@
         <script type="text/javascript" src="../js/scale.min.js"></script>
     </head>
     <body class="Turkey" itemscope itemtype="https://schema.org/Recipe">
-        <div class="information">
-            <header>
-                <a href="../index.html"><img class="header-img" src="../img/header.svg" alt="Stranger Foods"></a>
-            </header>
+
+        <a class="header" href="../index.html">
+            <img class="header-img" src="../img/header-logo.svg" alt="Stranger Foods">
+            <h4>Stranger Foods</h4>
+        </a>
+
+        <section class="recipe">
+            <h1 itemprop="name">Sweet & sour turkey</h1>
             <img itemprop="image" class="recipe-image" src="../images/Sweet_&_sour_turkey.webp" alt="Recipe image">
-            <h1 class="recipe-title" itemprop="name">Sweet & sour turkey</h1>
-            <h3>
-                <div class="icon baseline"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="90" width="90" viewBox="0 0 100 100"><circle r="40" cy="45.556" cx="45.556" class="circle"/><path d="M45.556 10.556v35m32.5-2.5h-35" fill="#fff" stroke="#fff" stroke-width="5"/></svg>
-                    <meta itemprop="totalTime" content=PT25M>25 mins
-                    <meta itemprop="prepTime" content=>
-                    <meta itemprop="performTime" content=PT25M>
+            <h3><strong>Servings:</strong> <span id="servings" default="4">4</span></h3>
+            <h3><strong>Total:</strong> 25 mins</h3>
+            <meta itemprop="totalTime" content=PT25M>
+            <meta itemprop="prepTime" content=>
+            <meta itemprop="performTime" content=PT25M>
+            <meta itemprop="recipeYield" content="4 servings">
+
+            <div class="recipe-metadata">
                 </div>
-                <div class="icon baseline">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="90" height="90"><circle class="circle" cx="45.556" cy="45.556" r="40"/><g transform="translate(33.153 28.889) scale(.66666)" fill="#fff"><circle cx="18.118" cy="-16.841" r="8.159"/><path d="M8.472 70.426a4.575 4.575 0 0 0 9.15 0l.004-38.374h2.037l-.013 38.374a4.575 4.575 0 0 0 9.147 0l.02-66.158h2.006v24.38c0 4.905 6.398 4.905 6.384 0v-24.9c0-5.418-3.184-10.728-9.523-10.728L9.396-6.988C3.619-6.988 0-2.278 0 3.599v25.05c0 4.869 6.433 4.869 6.433 0V4.269h2.048z"/></g></svg>
-                    <meta itemprop="recipeYield" content="4 servings"><span id="servings" default="4">4</span>&nbsp;servings
-                </div>
-            </h3>         
-            <h3>
-                </h3>          
+
+            <hr>
+            <h2>Ingredients</h2>
+            <div class="scale-btns">
+                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
+                <button type="button" onclick="scaleRecipe(1)">x1</button>
+                <button type="button" onclick="scaleRecipe(2)">x2</button>
+                <button type="button" onclick="scaleRecipe(3)">x3</button>
+            </div>
+            <ul>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp vegetable oil</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="300" class="scalable">300</span></b> g turkey strips</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b>x 200 g packs mixed baby carrots, sweetcorn and mangetout</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> red pepper, deseeded and sliced</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="225" class="scalable">225</span></b> g beansprouts</li>
+<li itemprop="recipeIngredient" class="ingredient">finely grated zest and juice of small orange</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> tbsp light soy sauce</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp clear honey</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tsp cornflour</li>
+<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> cloves garlic, finely chopped</li>
+<li itemprop="recipeIngredient" class="ingredient">cooked rice or noodles, to serve</li>
+</ul>
+        
+            <hr>
+            <h2>Instructions</h2>
+            <ol>
+                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div> in a wok or frying pan and fry the <div class="tooltip">turkey<span class="tooltiptext"><span default="300" class="scalable">300</span> g</span></div> for <b>3</b> minutes, stirring until it is browned.  </li>
+                <li itemprop="recipeInstructions">Add the <div class="tooltip">baby vegetables<span class="tooltiptext"><span default="2" class="scalable">2</span>x 200 g packs</span></div> and <div class="tooltip">pepper<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> and fry for <b>4</b> minutes. Stir in the beanspouts.  </li>
+                <li itemprop="recipeInstructions">Mix the orange zest and juice, <div class="tooltip">soy sauce<span class="tooltiptext"><span default="3" class="scalable">3</span> tbsp</span></div>, <div class="tooltip">honey<span class="tooltiptext"><span default="1" class="scalable">1</span> tsp</span></div>, <div class="tooltip">cornflour<span class="tooltiptext"><span default="2" class="scalable">2</span> tsp</span></div> and <div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div> together. Pour over the stir fry and let it bubble, stirring. When the sauce had thickened, serve with rice or noodles.  </li>
+                </ol>
+
+            <hr>
             <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
                 <ul class="nutrition">
                     <li>
@@ -70,46 +100,9 @@
                     </li>
                 </ul>
             </div>  
-            </div>
-        <div class="ingredients">
-            <h2>Ingredients</h2>
-            <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(0.5)">x0.5</button>
-                <button type="button" onclick="scaleRecipe(1)">x1</button>
-                <button type="button" onclick="scaleRecipe(2)">x2</button>
-                <button type="button" onclick="scaleRecipe(3)">x3</button>
-            </div>
-            <ul>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tbsp vegetable oil</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="300" class="scalable">300</span></b> g turkey strips</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b>x 200 g packs mixed baby carrots, sweetcorn and mangetout</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> red pepper, deseeded and sliced</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="225" class="scalable">225</span></b> g beansprouts</li>
-<li itemprop="recipeIngredient" class="ingredient">finely grated zest and juice of small orange</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="3" class="scalable">3</span></b> tbsp light soy sauce</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="1" class="scalable">1</span></b> tsp clear honey</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> tsp cornflour</li>
-<li itemprop="recipeIngredient" class="ingredient"><b><span default="2" class="scalable">2</span></b> cloves garlic, finely chopped</li>
-<li itemprop="recipeIngredient" class="ingredient">cooked rice or noodles, to serve</li>
-</ul>
-        </div>
-        <div class="instructions">
-            <h2>Instructions</h2>
-            <ol>
-                <li itemprop="recipeInstructions">Heat the <div class="tooltip">oil<span class="tooltiptext"><span default="1" class="scalable">1</span> tbsp</span></div> in a wok or frying pan and fry the <div class="tooltip">turkey<span class="tooltiptext"><span default="300" class="scalable">300</span> g</span></div> for <b>3</b> minutes, stirring until it is browned.  </li>
-                <li itemprop="recipeInstructions">Add the <div class="tooltip">baby vegetables<span class="tooltiptext"><span default="2" class="scalable">2</span>x 200 g packs</span></div> and <div class="tooltip">pepper<span class="tooltiptext"><span default="1" class="scalable">1</span> </span></div> and fry for <b>4</b> minutes. Stir in the beanspouts.  </li>
-                <li itemprop="recipeInstructions">Mix the orange zest and juice, <div class="tooltip">soy sauce<span class="tooltiptext"><span default="3" class="scalable">3</span> tbsp</span></div>, <div class="tooltip">honey<span class="tooltiptext"><span default="1" class="scalable">1</span> tsp</span></div>, <div class="tooltip">cornflour<span class="tooltiptext"><span default="2" class="scalable">2</span> tsp</span></div> and <div class="tooltip">garlic<span class="tooltiptext"><span default="2" class="scalable">2</span> cloves</span></div> together. Pour over the stir fry and let it bubble, stirring. When the sauce had thickened, serve with rice or noodles.  </li>
-                </ol>
-        </div>
-        <div class="source">
-            <div class="link">
-                <a href=>BBC Good Food: Low-fat Feasts</a>
-            </div>
-            <div class="link">
-                <a href=../recipes/cb6e71.html>Short Link</a> 
-                <a href=../recipes/Sweet%20&%20sour%20turkey.html>Long Link</a>
-            </div>
-        </div>
-        </main>
+            <a class="link" href=>BBC Good Food: Low-fat Feasts</a>
+            <a class="link" href=../recipes/cb6e71.html>Short Link</a> 
+            <a class="link" href=../recipes/Sweet%20&%20sour%20turkey.html>Long Link</a>
+        </section>
     </body>
 </html>
