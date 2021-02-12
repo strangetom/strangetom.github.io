@@ -5,6 +5,15 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Riojan pork, chorizo and potato pot</title>
+      <link>https://strangetom.github.io/recipes/Riojan%20pork,%20chorizo%20and%20potato%20pot.html</link>
+      <description>
+        &lt;h1&gt;Riojan pork, chorizo and potato pot&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Riojan_pork_chorizo_and_potato_pot.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;This typically Spanish one pot is packed with flavour and can be made-ahead - perfect for relaxed entertaining or a family midweek meal served with crusty bread..&lt;/p&gt;
+      </description>
+      <pubDate>Sun, 07 Feb 2021 00:00:00 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Riojan%20pork,%20chorizo%20and%20potato%20pot.html</guid>
+    </item>
+    <item>
       <title>Pasta e fagioli</title>
       <link>https://strangetom.github.io/recipes/Pasta%20e%20fagioli.html</link>
       <description>
@@ -39,15 +48,6 @@
       </description>
       <pubDate>Fri, 22 Jan 2021 00:00:00 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Jerked%20angry%20birds.html</guid>
-    </item>
-    <item>
-      <title>Lemon garlic chicken orzo soup</title>
-      <link>https://strangetom.github.io/recipes/Lemon%20garlic%20chicken%20orzo%20soup.html</link>
-      <description>
-        &lt;h1&gt;Lemon garlic chicken orzo soup&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Lemon_garlic_chicken_orzo_soup.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Inspired by Greek “Avgolemono”, this Lemon Garlic Chicken Orzo Soup recipe is thickened with a mixture of lemon juice, pureed garlic, and egg to create a flavor-packed, citrusy, velvety soup..&lt;/p&gt;
-      </description>
-      <pubDate>Thu, 14 Jan 2021 00:00:00 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Lemon%20garlic%20chicken%20orzo%20soup.html</guid>
     </item>
     </channel>
 </rss>
