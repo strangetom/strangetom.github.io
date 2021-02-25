@@ -5,6 +5,24 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Gnocchi alla sorrentina</title>
+      <link>https://strangetom.github.io/recipes/Gnocchi%20alla%20sorrentina.html</link>
+      <description>
+        &lt;h1&gt;Gnocchi alla sorrentina&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Gnocchi_alla_sorrentina.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Baked gnocchi with tomato and mozzarella.&lt;/p&gt;
+      </description>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Gnocchi%20alla%20sorrentina.html</guid>
+    </item>
+    <item>
+      <title>Shrimp scampi</title>
+      <link>https://strangetom.github.io/recipes/Shrimp%20scampi.html</link>
+      <description>
+        &lt;h1&gt;Shrimp scampi&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Shrimp_scampi.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Fun Fact: Shrimp Scampi is an amalgamation of many different traditional Italian preparations of scampi (otherwise known as langoustines, Dublin Bay prawns, or Norway Lobsters). Therefore, there isn’t one correct way in which to make it. Try swapping out the pasta in our recipes for rice, or even just a loaf of crusty bread..&lt;/p&gt;
+      </description>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Shrimp%20scampi.html</guid>
+    </item>
+    <item>
       <title>Riojan pork, chorizo and potato pot</title>
       <link>https://strangetom.github.io/recipes/Riojan%20pork,%20chorizo%20and%20potato%20pot.html</link>
       <description>
@@ -30,24 +48,6 @@
       </description>
       <pubDate>Tue, 26 Jan 2021 00:00:00 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Cheesy%20taco%20pasta.html</guid>
-    </item>
-    <item>
-      <title>Beef tagine with sweet potatoes, peas, ginger and ras el hanout</title>
-      <link>https://strangetom.github.io/recipes/Beef%20tagine%20with%20sweet%20potatoes,%20peas,%20ginger%20and%20ras%20el%20hanout.html</link>
-      <description>
-        &lt;h1&gt;Beef tagine with sweet potatoes, peas, ginger and ras el hanout&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Beef_tagine_with_sweet_potatoes_peas_ginger_and_ras_el_hanout.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;This fairly fiery dish is laced with the powerful flavours and aromas of ras el hanout, a traditional spice mix..&lt;/p&gt;
-      </description>
-      <pubDate>Sat, 23 Jan 2021 00:00:00 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Beef%20tagine%20with%20sweet%20potatoes,%20peas,%20ginger%20and%20ras%20el%20hanout.html</guid>
-    </item>
-    <item>
-      <title>Jerked angry birds</title>
-      <link>https://strangetom.github.io/recipes/Jerked%20angry%20birds.html</link>
-      <description>
-        &lt;h1&gt;Jerked angry birds&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Jerked_angry_birds.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;A good jerk chicken is underpinned by the seasonings that come from the jerk trinity of allspice, Scotch bonnet and thyme..&lt;/p&gt;
-      </description>
-      <pubDate>Fri, 22 Jan 2021 00:00:00 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Jerked%20angry%20birds.html</guid>
     </item>
     </channel>
 </rss>
