@@ -5,6 +5,15 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Andy the gasman's stew</title>
+      <link>https://strangetom.github.io/recipes/Andy%20the%20gasman's%20stew.html</link>
+      <description>
+        &lt;h1&gt;Andy the gasman's stew&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Andy_the_gasmans_stew.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Throw this meat stew with chunky veg and chickpeas together, cook it slowly and tweak it your way..&lt;/p&gt;
+      </description>
+      <pubDate>Thu, 25 Feb 2021 00:00:00 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Andy%20the%20gasman's%20stew.html</guid>
+    </item>
+    <item>
       <title>Gnocchi alla sorrentina</title>
       <link>https://strangetom.github.io/recipes/Gnocchi%20alla%20sorrentina.html</link>
       <description>
@@ -39,15 +48,6 @@
       </description>
       <pubDate>Wed, 03 Feb 2021 00:00:00 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Pasta%20e%20fagioli.html</guid>
-    </item>
-    <item>
-      <title>Cheesy taco pasta</title>
-      <link>https://strangetom.github.io/recipes/Cheesy%20taco%20pasta.html</link>
-      <description>
-        &lt;h1&gt;Cheesy taco pasta&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Cheesy_taco_pasta.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Italian meets Mexican in this tasty Cheesy Taco Pasta dish. Pasta is a great cost-effective way to bulk out meals for the family. Choose wholemeal or high fibre versions as often as possible..&lt;/p&gt;
-      </description>
-      <pubDate>Tue, 26 Jan 2021 00:00:00 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Cheesy%20taco%20pasta.html</guid>
     </item>
     </channel>
 </rss>
