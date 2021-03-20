@@ -5,6 +5,24 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Teriyaki salmon with asian noodle salad</title>
+      <link>https://strangetom.github.io/recipes/Teriyaki%20salmon%20with%20asian%20noodle%20salad.html</link>
+      <description>
+        &lt;h1&gt;Teriyaki salmon with asian noodle salad&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Teriyaki_salmon_with_asian_noodle_salad.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Easy Teriyaki Salmon served on a bed of Asian Noodles made with brown rice noodles, fresh veggies and a homemade Asian Sesame Dressing! A light, simple refreshing recipe for the summer!.&lt;/p&gt;
+      </description>
+      <pubDate>Thu, 18 Mar 2021 00:00:00 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Teriyaki%20salmon%20with%20asian%20noodle%20salad.html</guid>
+    </item>
+    <item>
+      <title>Sweet potato in tomato, lime and cardamom sauce</title>
+      <link>https://strangetom.github.io/recipes/Sweet%20potato%20in%20tomato,%20lime%20and%20cardamom%20sauce.html</link>
+      <description>
+        &lt;h1&gt;Sweet potato in tomato, lime and cardamom sauce&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Sweet_potato_in_tomato_lime_and_cardamom_sauce.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;.&lt;/p&gt;
+      </description>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 -0000</pubDate>
+      <guid>https://strangetom.github.io/recipes/Sweet%20potato%20in%20tomato,%20lime%20and%20cardamom%20sauce.html</guid>
+    </item>
+    <item>
       <title>Andy the gasman's stew</title>
       <link>https://strangetom.github.io/recipes/Andy%20the%20gasman's%20stew.html</link>
       <description>
@@ -30,24 +48,6 @@
       </description>
       <pubDate>Fri, 19 Feb 2021 00:00:00 -0000</pubDate>
       <guid>https://strangetom.github.io/recipes/Shrimp%20scampi.html</guid>
-    </item>
-    <item>
-      <title>Riojan pork, chorizo and potato pot</title>
-      <link>https://strangetom.github.io/recipes/Riojan%20pork,%20chorizo%20and%20potato%20pot.html</link>
-      <description>
-        &lt;h1&gt;Riojan pork, chorizo and potato pot&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Riojan_pork_chorizo_and_potato_pot.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;This typically Spanish one pot is packed with flavour and can be made-ahead - perfect for relaxed entertaining or a family midweek meal served with crusty bread..&lt;/p&gt;
-      </description>
-      <pubDate>Sun, 07 Feb 2021 00:00:00 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Riojan%20pork,%20chorizo%20and%20potato%20pot.html</guid>
-    </item>
-    <item>
-      <title>Pasta e fagioli</title>
-      <link>https://strangetom.github.io/recipes/Pasta%20e%20fagioli.html</link>
-      <description>
-        &lt;h1&gt;Pasta e fagioli&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://strangetom.github.io/images/Pasta_e_fagioli.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Translating as ‘pasta and beans’ and inspired by the classic Italian soup, this is cold-weather comfort food at its best..&lt;/p&gt;
-      </description>
-      <pubDate>Wed, 03 Feb 2021 00:00:00 -0000</pubDate>
-      <guid>https://strangetom.github.io/recipes/Pasta%20e%20fagioli.html</guid>
     </item>
     </channel>
 </rss>
