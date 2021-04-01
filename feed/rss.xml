@@ -5,6 +5,15 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>One-pot pasta with sausage and spinach</title>
+      <link>https://www.strangerfoods.org/recipes/One-pot%20pasta%20with%20sausage%20and%20spinach.html</link>
+      <description>
+        &lt;h1&gt;One-pot pasta with sausage and spinach&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://www.strangerfoods.org/images/One-pot_pasta_with_sausage_and_spinach.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;This is the one-pot recipe to make when chopping an onion feels like too much work..&lt;/p&gt;
+      </description>
+      <pubDate>Fri, 26 Mar 2021 00:00:00 -0000</pubDate>
+      <guid>https://www.strangerfoods.org/recipes/One-pot%20pasta%20with%20sausage%20and%20spinach.html</guid>
+    </item>
+    <item>
       <title>Teriyaki salmon with asian noodle salad</title>
       <link>https://www.strangerfoods.org/recipes/Teriyaki%20salmon%20with%20asian%20noodle%20salad.html</link>
       <description>
@@ -39,15 +48,6 @@
       </description>
       <pubDate>Thu, 25 Feb 2021 00:00:00 -0000</pubDate>
       <guid>https://www.strangerfoods.org/recipes/Andy%20the%20gasmans%20stew.html</guid>
-    </item>
-    <item>
-      <title>Gnocchi alla sorrentina</title>
-      <link>https://www.strangerfoods.org/recipes/Gnocchi%20alla%20sorrentina.html</link>
-      <description>
-        &lt;h1&gt;Gnocchi alla sorrentina&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://www.strangerfoods.org/images/Gnocchi_alla_sorrentina.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;Baked gnocchi with tomato and mozzarella.&lt;/p&gt;
-      </description>
-      <pubDate>Fri, 19 Feb 2021 00:00:00 -0000</pubDate>
-      <guid>https://www.strangerfoods.org/recipes/Gnocchi%20alla%20sorrentina.html</guid>
     </item>
     </channel>
 </rss>
