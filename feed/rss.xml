@@ -5,6 +5,15 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Bramley apple meatballs with bramley apple, cranberry sauce</title>
+      <link>https://www.strangerfoods.org/recipes/Bramley%20apple%20meatballs%20with%20creamy%20mash%20and%20bramley%20apple%20cranberry%20sauce.html</link>
+      <description>
+        &lt;h1&gt;Bramley apple meatballs with bramley apple, cranberry sauce&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://www.strangerfoods.org/images/Bramley_apple_meatballs_with_bramley_apple_cranberry_sauce.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;.&lt;/p&gt;
+      </description>
+      <pubDate>Wed, 07 Apr 2021 23:00:00 -0000</pubDate>
+      <guid>https://www.strangerfoods.org/recipes/Bramley%20apple%20meatballs%20with%20creamy%20mash%20and%20bramley%20apple%20cranberry%20sauce.html</guid>
+    </item>
+    <item>
       <title>Citrus-glazed pork chops with gingery bok choy</title>
       <link>https://www.strangerfoods.org/recipes/Citrus-glazed%20pork%20chops%20with%20gingery%20bok%20choy.html</link>
       <description>
@@ -39,15 +48,6 @@
       </description>
       <pubDate>Thu, 18 Mar 2021 00:00:00 -0000</pubDate>
       <guid>https://www.strangerfoods.org/recipes/Teriyaki%20salmon%20with%20asian%20noodle%20salad.html</guid>
-    </item>
-    <item>
-      <title>Sweet potato in tomato, lime and cardamom sauce</title>
-      <link>https://www.strangerfoods.org/recipes/Sweet%20potato%20in%20tomato%20lime%20and%20cardamom%20sauce.html</link>
-      <description>
-        &lt;h1&gt;Sweet potato in tomato, lime and cardamom sauce&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://www.strangerfoods.org/images/Sweet_potato_in_tomato_lime_and_cardamom_sauce.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;.&lt;/p&gt;
-      </description>
-      <pubDate>Wed, 10 Mar 2021 00:00:00 -0000</pubDate>
-      <guid>https://www.strangerfoods.org/recipes/Sweet%20potato%20in%20tomato%20lime%20and%20cardamom%20sauce.html</guid>
     </item>
     </channel>
 </rss>
