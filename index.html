@@ -29,6 +29,14 @@
         <section id="latest-recipes">
             <h3>Latest recipes</h3>
             <div id="latest">
+                <a class="latest-recipe Veggie" href="./recipes/Pearl%20couscous%20with%20saut%C3%A9ed%20cherry%20tomatoes.html">
+                    <img class="latest-photo" src="./img/Veggie.svg" alt="Pearl couscous with sauteed cherry tomatoes" width="512" height="288">
+                    <h2 class="latest-title">Pearl couscous with sauteed cherry tomatoes</h2>
+                </a>
+                <a class="latest-recipe Seafood" href="./recipes/Sardine%20pasta%20with%20crunchy%20parsley%20crumbs.html">
+                    <img class="latest-photo" src="./images/Sardine_pasta_with_crunchy_parsley_crumbs.webp" alt="Sardine pasta with crunchy parsley crumbs" width="512" height="288">
+                    <h2 class="latest-title">Sardine pasta with crunchy parsley crumbs</h2>
+                </a>
                 <a class="latest-recipe Veggie" href="./recipes/Jollof%20rice.html">
                     <img class="latest-photo" src="./images/Jollof_rice.webp" alt="Jollof rice" width="512" height="288">
                     <h2 class="latest-title">Jollof rice</h2>
@@ -37,46 +45,38 @@
                     <img class="latest-photo" src="./images/Spicy_bacon_broccoli.webp" alt="Spicy bacon broccoli" width="512" height="288">
                     <h2 class="latest-title">Spicy bacon broccoli</h2>
                 </a>
-                <a class="latest-recipe Turkey" href="./recipes/Bramley%20apple%20meatballs%20with%20creamy%20mash%20and%20bramley%20apple%20cranberry%20sauce.html">
-                    <img class="latest-photo" src="./images/Bramley_apple_meatballs_with_bramley_apple_cranberry_sauce.webp" alt="Bramley apple meatballs with bramley apple, cranberry sauce" width="512" height="288">
-                    <h2 class="latest-title">Bramley apple meatballs with bramley apple, cranberry sauce</h2>
-                </a>
-                <a class="latest-recipe Pork" href="./recipes/Citrus-glazed%20pork%20chops%20with%20gingery%20bok%20choy.html">
-                    <img class="latest-photo" src="./images/Citrus-glazed_pork_chops_with_gingery_bok_choy.webp" alt="Citrus-glazed pork chops with gingery bok choy" width="512" height="288">
-                    <h2 class="latest-title">Citrus-glazed pork chops with gingery bok choy</h2>
-                </a>
                 </div>
         </section>
 
         <section id="search"> 
             <div class="search-box">
-                <input id="search-pattern" type="text" placeholder="Search" aria-label="Search for recipes" oninput="onPatternChange()">
+                <input id="search-pattern" type="text" placeholder="Search 470 recipes" aria-label="Search for recipes" oninput="onPatternChange()">
             </div>
 
             <div id="categories">
-                <a class="icon-link" href="#" onclick="displayCategory('Beef');return false;">
-                    <img class="icon" src="./img/Beef.svg" alt="Beef recipes icon" width="80" height="80">
+                <a class="category Beef" href="#" onclick="displayCategory('Beef');return false;">
+                    Beef
                 </a>
-                <a class="icon-link" href="#" onclick="displayCategory('Chicken');return false;">
-                    <img class="icon" src="./img/Chicken.svg" alt="Chicken recipes icon" width="80" height="80">
+                <a class="category Chicken" href="#" onclick="displayCategory('Chicken');return false;">
+                    Chicken
                 </a>
-                <a class="icon-link" href="#" onclick="displayCategory('Dessert');return false;">
-                    <img class="icon" src="./img/Dessert.svg" alt="Dessert recipes icon" width="80" height="80">
+                <a class="category Dessert" href="#" onclick="displayCategory('Dessert');return false;">
+                    Dessert
                 </a>
-                <a class="icon-link" href="#" onclick="displayCategory('Lamb');return false;">
-                    <img class="icon" src="./img/Lamb.svg" alt="Lamb recipes icon" width="80" height="80">
+                <a class="category Lamb" href="#" onclick="displayCategory('Lamb');return false;">
+                    Lamb
                 </a>
-                <a class="icon-link" href="#" onclick="displayCategory('Pork');return false;">
-                    <img class="icon" src="./img/Pork.svg" alt="Pork recipes icon" width="80" height="80">
+                <a class="category Pork" href="#" onclick="displayCategory('Pork');return false;">
+                    Pork
                 </a>
-                <a class="icon-link" href="#" onclick="displayCategory('Seafood');return false;">
-                    <img class="icon" src="./img/Seafood.svg" alt="Seafood recipes icon" width="80" height="80">
+                <a class="category Seafood" href="#" onclick="displayCategory('Seafood');return false;">
+                    Seafood
                 </a>
-                <a class="icon-link" href="#" onclick="displayCategory('Turkey');return false;">
-                    <img class="icon" src="./img/Turkey.svg" alt="Turkey recipes icon" width="80" height="80">
+                <a class="category Turkey" href="#" onclick="displayCategory('Turkey');return false;">
+                    Turkey
                 </a>
-                <a class="icon-link" href="#" onclick="displayCategory('Veggie');return false;">
-                    <img class="icon" src="./img/Veggie.svg" alt="Veggie recipes icon" width="80" height="80">
+                <a class="category Veggie" href="#" onclick="displayCategory('Veggie');return false;">
+                    Veggie
                 </a>
             </div>
 

@@ -5,6 +5,15 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Sardine pasta with crunchy parsley crumbs</title>
+      <link>https://www.strangerfoods.org/recipes/Sardine%20pasta%20with%20crunchy%20parsley%20crumbs.html</link>
+      <description>
+        &lt;h1&gt;Sardine pasta with crunchy parsley crumbs&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://www.strangerfoods.org/images/Sardine_pasta_with_crunchy_parsley_crumbs.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;An affordable way to include oily fish in your diet. Canned sardines are a great source of omega 3 and add oomph to this simple, family pasta dish.&lt;/p&gt;
+      </description>
+      <pubDate>Tue, 27 Apr 2021 23:00:00 -0000</pubDate>
+      <guid>https://www.strangerfoods.org/recipes/Sardine%20pasta%20with%20crunchy%20parsley%20crumbs.html</guid>
+    </item>
+    <item>
       <title>Jollof rice</title>
       <link>https://www.strangerfoods.org/recipes/Jollof%20rice.html</link>
       <description>
@@ -39,15 +48,6 @@
       </description>
       <pubDate>Thu, 01 Apr 2021 23:00:00 -0000</pubDate>
       <guid>https://www.strangerfoods.org/recipes/Citrus-glazed%20pork%20chops%20with%20gingery%20bok%20choy.html</guid>
-    </item>
-    <item>
-      <title>Vegetarian minestrone</title>
-      <link>https://www.strangerfoods.org/recipes/Vegetarian%20minestrone.html</link>
-      <description>
-        &lt;h1&gt;Vegetarian minestrone&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;https://www.strangerfoods.org/images/Vegetarian_minestrone.webp&quot;/&gt;&lt;br&gt;&lt;p&gt;This hearty, vegetable-filled soup is warm and soothing, but light enough to not make you feel weighed down as you’re out enjoying these beautiful days.&lt;/p&gt;
-      </description>
-      <pubDate>Thu, 01 Apr 2021 23:00:00 -0000</pubDate>
-      <guid>https://www.strangerfoods.org/recipes/Vegetarian%20minestrone.html</guid>
     </item>
     </channel>
 </rss>
