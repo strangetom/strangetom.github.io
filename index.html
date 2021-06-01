@@ -29,55 +29,83 @@
         <section id="latest-recipes">
             <h3>Latest recipes</h3>
             <div id="latest">
+                <a class="latest-recipe Veggie" href="./recipes/warm-pearl-couscous-salad.html">
+                    <img class="latest-photo" src="./img/Veggie.svg" alt="Warm pearl couscous salad" width="512" height="288">
+                    <h2 class="latest-title">Warm pearl couscous salad</h2>
+                </a>
+                <a class="latest-recipe Lamb" href="./recipes/seekh-kebab-with-mint-chutney.html">
+                    <img class="latest-photo" src="./images/Seekh_kebab_with_mint_chutney.webp" alt="Seekh kebab with mint chutney" width="512" height="288">
+                    <h2 class="latest-title">Seekh kebab with mint chutney</h2>
+                </a>
+                <a class="latest-recipe Veggie" href="./recipes/baked-sweet-potato-with-easy-black-bean-chilli.html">
+                    <img class="latest-photo" src="./images/Baked_sweet_potato_with_easy_black_bean_chilli.webp" alt="Baked sweet potato with easy black bean chilli" width="512" height="288">
+                    <h2 class="latest-title">Baked sweet potato with easy black bean chilli</h2>
+                </a>
+                <a class="latest-recipe Pork" href="./recipes/slow-cooked-pork-and-fennel-ragu.html">
+                    <img class="latest-photo" src="./images/Slow-cooked_pork_and_fennel_ragu.webp" alt="Slow-cooked pork and fennel ragu" width="512" height="288">
+                    <h2 class="latest-title">Slow-cooked pork and fennel ragu</h2>
+                </a>
+                <a class="latest-recipe Chicken" href="./recipes/easy-pesto-chicken-and-vegetables.html">
+                    <img class="latest-photo" src="./images/Easy_pesto_chicken_and_vegetables.webp" alt="Easy pesto chicken and vegetables" width="512" height="288">
+                    <h2 class="latest-title">Easy pesto chicken and vegetables</h2>
+                </a>
                 <a class="latest-recipe Veggie" href="./recipes/one-pan-orecchiette-puttanesca.html">
                     <img class="latest-photo" src="./images/One-pan_orecchiette_puttanesca.webp" alt="One-pan orecchiette puttanesca" width="512" height="288">
                     <h2 class="latest-title">One-pan orecchiette puttanesca</h2>
-                </a>
-                <a class="latest-recipe Pork" href="./recipes/slow-roast-pork-rolls.html">
-                    <img class="latest-photo" src="./images/Slow-roast_pork_rolls.webp" alt="Slow-roast pork rolls" width="512" height="288">
-                    <h2 class="latest-title">Slow-roast pork rolls</h2>
-                </a>
-                <a class="latest-recipe Seafood" href="./recipes/spicy-shrimp-tomato-pasta.html">
-                    <img class="latest-photo" src="./images/Spicy_shrimp_tomato_pasta.webp" alt="Spicy shrimp tomato pasta" width="512" height="288">
-                    <h2 class="latest-title">Spicy shrimp tomato pasta</h2>
-                </a>
-                <a class="latest-recipe Lamb" href="./recipes/summer-tagine-of-lamb-courgettes-peppers-and-mint.html">
-                    <img class="latest-photo" src="./images/Summer_tagine_of_lamb_courgettes_peppers_and_mint.webp" alt="Summer tagine of lamb, courgettes, peppers and mint" width="512" height="288">
-                    <h2 class="latest-title">Summer tagine of lamb, courgettes, peppers and mint</h2>
                 </a>
                 </div>
         </section>
 
         <section id="search"> 
             <div class="search-box">
-                <input id="search-pattern" type="text" placeholder="Search 474 recipes" aria-label="Search for recipes" oninput="onPatternChange()">
+                <input id="search-pattern" type="text" placeholder="Search 479 recipes" aria-label="Search for recipes" oninput="onPatternChange()">
             </div>
 
-            <div id="categories">
-                <a class="category Beef" href="#" onclick="displayCategory('Beef');return false;">
-                    Beef
-                </a>
-                <a class="category Chicken" href="#" onclick="displayCategory('Chicken');return false;">
-                    Chicken
-                </a>
-                <a class="category Dessert" href="#" onclick="displayCategory('Dessert');return false;">
-                    Dessert
-                </a>
-                <a class="category Lamb" href="#" onclick="displayCategory('Lamb');return false;">
-                    Lamb
-                </a>
-                <a class="category Pork" href="#" onclick="displayCategory('Pork');return false;">
-                    Pork
-                </a>
-                <a class="category Seafood" href="#" onclick="displayCategory('Seafood');return false;">
-                    Seafood
-                </a>
-                <a class="category Turkey" href="#" onclick="displayCategory('Turkey');return false;">
-                    Turkey
-                </a>
-                <a class="category Veggie" href="#" onclick="displayCategory('Veggie');return false;">
-                    Veggie
-                </a>
+            <div id="selection">
+                <select id="category-select" onchange="displaySelection('category', value)">
+                    <option value="">Categories</option>
+                    <option value="Beef">Beef</option>
+                    <option value="Chicken">Chicken</option>
+                    <option value="Dessert">Dessert</option>
+                    <option value="Lamb">Lamb</option>
+                    <option value="Pork">Pork</option>
+                    <option value="Seafood">Seafood</option>
+                    <option value="Turkey">Turkey</option>
+                    <option value="Veggie">Veggie</option>
+                </select>
+                <select id="cuisine-select" onchange="displaySelection('cuisine', value)">
+                    <option value="">Cuisines</option>
+                    <option value="American">American</option>
+                    <option value="Asian">Asian</option>
+                    <option value="British">British</option>
+                    <option value="Cajun">Cajun</option>
+                    <option value="Caribbean">Caribbean</option>
+                    <option value="Creole">Creole</option>
+                    <option value="French">French</option>
+                    <option value="Greek">Greek</option>
+                    <option value="Hawaiian">Hawaiian</option>
+                    <option value="Hungarian">Hungarian</option>
+                    <option value="Indian">Indian</option>
+                    <option value="Italian">Italian</option>
+                    <option value="Japanese">Japanese</option>
+                    <option value="Mediterranean">Mediterranean</option>
+                    <option value="Mexican">Mexican</option>
+                    <option value="Middle Eastern">Middle Eastern</option>
+                    <option value="Moroccan">Moroccan</option>
+                    <option value="North African">North African</option>
+                    <option value="Portuguese">Portuguese</option>
+                    <option value="Russian">Russian</option>
+                    <option value="Spanish">Spanish</option>
+                    <option value="Thai">Thai</option>
+                    <option value="Turkish">Turkish</option>
+                    </select>
+                <select id="diet-select" onchange="displaySelection('diet', value)">
+                    <option value="">Diet</option>
+                    <option value="Vegan">Vegan</option>
+                    <option value="GlutenFree">Gluten free</option>
+                    <option value="DairyFree">Dairy free</option>
+                    <option value="NutFree">Nut free</option>
+                </select>
             </div>
 
             <!--- List of recipes -->
