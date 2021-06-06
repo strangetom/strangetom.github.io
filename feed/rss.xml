@@ -5,6 +5,19 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Warm pearl couscous salad</title>
+      <link>https://www.strangerfoods.org/recipes/warm-pearl-couscous-salad.html</link>
+      <description>
+        &lt;h1&gt;Warm pearl couscous salad&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;https://www.strangerfoods.org/images/Warm_pearl_couscous_salad.webp&quot; style=&quot;text-align: center;&quot;/&gt;
+        &lt;br&gt;
+        &lt;p&gt;Pearl couscous is technically not couscous, but more of a pasta. The small round wheat-based balls are pre-toasted, which gives them their unique chewy texture and nutty flavour. This salad is delicious enjoyed warm as a meal, or cold as a summery-salad main dish or side dish.&lt;/p&gt;
+      </description>
+      <pubDate>Thu, 27 May 2021 23:00:00 -0000</pubDate>
+      <guid>https://www.strangerfoods.org/recipes/warm-pearl-couscous-salad.html</guid>
+    </item>
+    <item>
       <title>Seekh kebab with mint chutney</title>
       <link>https://www.strangerfoods.org/recipes/seekh-kebab-with-mint-chutney.html</link>
       <description>
@@ -55,19 +68,6 @@
       </description>
       <pubDate>Mon, 17 May 2021 23:00:00 -0000</pubDate>
       <guid>https://www.strangerfoods.org/recipes/easy-pesto-chicken-and-vegetables.html</guid>
-    </item>
-    <item>
-      <title>One-pan orecchiette puttanesca</title>
-      <link>https://www.strangerfoods.org/recipes/one-pan-orecchiette-puttanesca.html</link>
-      <description>
-        &lt;h1&gt;One-pan orecchiette puttanesca&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src=&quot;https://www.strangerfoods.org/images/One-pan_orecchiette_puttanesca.webp&quot; style=&quot;text-align: center;&quot;/&gt;
-        &lt;br&gt;
-        &lt;p&gt;This is a sweetened version of puttanesca a the famous pasta sauce from Naples ain the style of the prostitutea a minus the anchovies, plus chickpeas and spices. Itas quick and super practical to make because the pasta actually cooks in the sauce. Try it, and you may not feel the need to boil pasta ever again.&lt;/p&gt;
-      </description>
-      <pubDate>Wed, 12 May 2021 23:00:00 -0000</pubDate>
-      <guid>https://www.strangerfoods.org/recipes/one-pan-orecchiette-puttanesca.html</guid>
     </item>
     </channel>
 </rss>
