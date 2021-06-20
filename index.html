@@ -28,7 +28,7 @@
 
         <section id="search"> 
             <div class="search-box">
-                <input id="search-pattern" type="text" placeholder="Search 481 recipes" aria-label="Search for recipes" oninput="onPatternChange()">
+                <input id="search-pattern" type="text" placeholder="Search 484 recipes" aria-label="Search for recipes">
             </div>
 
             <div id="selection">
@@ -45,29 +45,29 @@
                 </select>
                 <select id="cuisine-select" onchange="displaySelection('cuisine', value)">
                     <option value="">Cuisines</option>
-                    <option value="American">American</option>
-                    <option value="Asian">Asian</option>
-                    <option value="British">British</option>
-                    <option value="Cajun">Cajun</option>
-                    <option value="Caribbean">Caribbean</option>
-                    <option value="Creole">Creole</option>
-                    <option value="French">French</option>
-                    <option value="Greek">Greek</option>
-                    <option value="Hawaiian">Hawaiian</option>
-                    <option value="Hungarian">Hungarian</option>
-                    <option value="Indian">Indian</option>
-                    <option value="Italian">Italian</option>
-                    <option value="Japanese">Japanese</option>
-                    <option value="Mediterranean">Mediterranean</option>
-                    <option value="Mexican">Mexican</option>
-                    <option value="Middle Eastern">Middle Eastern</option>
-                    <option value="Moroccan">Moroccan</option>
-                    <option value="North African">North African</option>
-                    <option value="Portuguese">Portuguese</option>
-                    <option value="Russian">Russian</option>
-                    <option value="Spanish">Spanish</option>
-                    <option value="Thai">Thai</option>
-                    <option value="Turkish">Turkish</option>
+                    <option value="American">American (14)</option>
+                    <option value="Asian">Asian (14)</option>
+                    <option value="British">British (21)</option>
+                    <option value="Cajun">Cajun (5)</option>
+                    <option value="Caribbean">Caribbean (17)</option>
+                    <option value="Creole">Creole (3)</option>
+                    <option value="French">French (5)</option>
+                    <option value="Greek">Greek (2)</option>
+                    <option value="Hawaiian">Hawaiian (1)</option>
+                    <option value="Hungarian">Hungarian (2)</option>
+                    <option value="Indian">Indian (24)</option>
+                    <option value="Italian">Italian (35)</option>
+                    <option value="Japanese">Japanese (1)</option>
+                    <option value="Mediterranean">Mediterranean (6)</option>
+                    <option value="Mexican">Mexican (14)</option>
+                    <option value="Middle Eastern">Middle Eastern (5)</option>
+                    <option value="Moroccan">Moroccan (15)</option>
+                    <option value="North African">North African (1)</option>
+                    <option value="Portuguese">Portuguese (1)</option>
+                    <option value="Russian">Russian (1)</option>
+                    <option value="Spanish">Spanish (11)</option>
+                    <option value="Thai">Thai (10)</option>
+                    <option value="Turkish">Turkish (2)</option>
                     </select>
                 <select id="diet-select" onchange="displaySelection('diet', value)">
                     <option value="">Diet</option>
@@ -87,6 +87,54 @@
         <section id="recent">
             <button class="recent-btn" onclick="document.getElementById('slider').classList.toggle('closed');">Recent recipes</button>
             <div id="slider" class="slider closed">
+                <div class="recent-item">
+                    <a href="./recipes/moroccan-lamb-tagine.html">
+                        <img class="recent-photo" src="./images/Moroccan_lamb_tagine.webp" alt="Moroccan lamb tagine" width="512" height="288">
+                        <div>
+                            <h2 class="recent-title">Moroccan lamb tagine</h2>
+                            <span class="recipe-meta Lamb"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="#fff" stroke-width="10"></circle><path stroke="#fff" fill="none" stroke-width="10" d="M50 15v35l25 25"></path></svg>
+                            50 mins</span>
+                            <span class="recipe-meta Lamb"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 60 90"><g fill="#fff"><path d="M26.814 21.33c0-10.2-6.003-21.3-13.407-21.3C6.002.03 0 11.13 0 21.33c0 6.429 2.387 10.96 6.006 13.433 2.262 1.546 3.647 4.075 3.599 6.814l-.76 43.582c-.042 2.419 1.717 4.6 4.126 4.824a4.568 4.568 0 005.003-4.626l-.764-43.78c-.048-2.739 1.338-5.268 3.599-6.814 3.618-2.474 6.005-7.004 6.005-13.433zM60.983 29.703L60.219.973a1 1 0 00-1-.973h-2.222a1 1 0 00-1 1v24.127a1 1 0 01-1 1h-1.915a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.297a1 1 0 00-1 1v24.127a1 1 0 01-1 1H44.87a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.222a1 1 0 00-1 .973l-.764 28.73a3.999 3.999 0 002.961 3.969l2.14.575a2.998 2.998 0 012.221 2.95l-.84 48.159a4.566 4.566 0 109.132 0l-.84-48.159a3.001 3.001 0 012.221-2.95l2.14-.575a3.998 3.998 0 002.964-3.969z"></path></g></svg>
+                            Serves 4</span>
+                            <span class="recipe-meta Lamb">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 24 31"><path d="M12.26 0C5.489 0 0 5.489 0 12.26S10.627 31 12.26 31c1.633 0 12.26-11.969 12.26-18.74C24.52 5.489 19.031 0 12.26 0zm0 16.639a4.816 4.816 0 110-9.634 4.816 4.816 0 010 9.634z" fill="#fff"/></svg>
+                                Moroccan
+                            </span>
+                            </div>
+                    </a>
+                </div>
+                <div class="recent-item">
+                    <a href="./recipes/quinoa-salad-with-toasted-pistachios-preserved-lemons-and-courgettes.html">
+                        <img class="recent-photo" src="./images/Quinoa_salad_with_toasted_pistachios_preserved_lemons_and_courgettes.webp" alt="Quinoa salad with toasted pistachios, preserved lemons and courgettes" width="512" height="288">
+                        <div>
+                            <h2 class="recent-title">Quinoa salad with toasted pistachios, preserved lemons and courgettes</h2>
+                            <span class="recipe-meta Veggie"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="#fff" stroke-width="10"></circle><path stroke="#fff" fill="none" stroke-width="10" d="M50 15v35l25 25"></path></svg>
+                            35 mins</span>
+                            <span class="recipe-meta Veggie"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 60 90"><g fill="#fff"><path d="M26.814 21.33c0-10.2-6.003-21.3-13.407-21.3C6.002.03 0 11.13 0 21.33c0 6.429 2.387 10.96 6.006 13.433 2.262 1.546 3.647 4.075 3.599 6.814l-.76 43.582c-.042 2.419 1.717 4.6 4.126 4.824a4.568 4.568 0 005.003-4.626l-.764-43.78c-.048-2.739 1.338-5.268 3.599-6.814 3.618-2.474 6.005-7.004 6.005-13.433zM60.983 29.703L60.219.973a1 1 0 00-1-.973h-2.222a1 1 0 00-1 1v24.127a1 1 0 01-1 1h-1.915a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.297a1 1 0 00-1 1v24.127a1 1 0 01-1 1H44.87a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.222a1 1 0 00-1 .973l-.764 28.73a3.999 3.999 0 002.961 3.969l2.14.575a2.998 2.998 0 012.221 2.95l-.84 48.159a4.566 4.566 0 109.132 0l-.84-48.159a3.001 3.001 0 012.221-2.95l2.14-.575a3.998 3.998 0 002.964-3.969z"></path></g></svg>
+                            Serves 4-6</span>
+                            <span class="recipe-meta Veggie">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 24 31"><path d="M12.26 0C5.489 0 0 5.489 0 12.26S10.627 31 12.26 31c1.633 0 12.26-11.969 12.26-18.74C24.52 5.489 19.031 0 12.26 0zm0 16.639a4.816 4.816 0 110-9.634 4.816 4.816 0 010 9.634z" fill="#fff"/></svg>
+                                Middle Eastern
+                            </span>
+                            </div>
+                    </a>
+                </div>
+                <div class="recent-item">
+                    <a href="./recipes/saffron-rosemary-chicken-fillets.html">
+                        <img class="recent-photo" src="./images/Saffron_&_rosemary_chicken_fillets.webp" alt="Saffron & rosemary chicken fillets" width="512" height="288">
+                        <div>
+                            <h2 class="recent-title">Saffron & rosemary chicken fillets</h2>
+                            <span class="recipe-meta Chicken"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="#fff" stroke-width="10"></circle><path stroke="#fff" fill="none" stroke-width="10" d="M50 15v35l25 25"></path></svg>
+                            1 hr 30 mins</span>
+                            <span class="recipe-meta Chicken"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 60 90"><g fill="#fff"><path d="M26.814 21.33c0-10.2-6.003-21.3-13.407-21.3C6.002.03 0 11.13 0 21.33c0 6.429 2.387 10.96 6.006 13.433 2.262 1.546 3.647 4.075 3.599 6.814l-.76 43.582c-.042 2.419 1.717 4.6 4.126 4.824a4.568 4.568 0 005.003-4.626l-.764-43.78c-.048-2.739 1.338-5.268 3.599-6.814 3.618-2.474 6.005-7.004 6.005-13.433zM60.983 29.703L60.219.973a1 1 0 00-1-.973h-2.222a1 1 0 00-1 1v24.127a1 1 0 01-1 1h-1.915a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.297a1 1 0 00-1 1v24.127a1 1 0 01-1 1H44.87a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.222a1 1 0 00-1 .973l-.764 28.73a3.999 3.999 0 002.961 3.969l2.14.575a2.998 2.998 0 012.221 2.95l-.84 48.159a4.566 4.566 0 109.132 0l-.84-48.159a3.001 3.001 0 012.221-2.95l2.14-.575a3.998 3.998 0 002.964-3.969z"></path></g></svg>
+                            Serves 4</span>
+                            <span class="recipe-meta Chicken">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 24 31"><path d="M12.26 0C5.489 0 0 5.489 0 12.26S10.627 31 12.26 31c1.633 0 12.26-11.969 12.26-18.74C24.52 5.489 19.031 0 12.26 0zm0 16.639a4.816 4.816 0 110-9.634 4.816 4.816 0 010 9.634z" fill="#fff"/></svg>
+                                Middle Eastern
+                            </span>
+                            </div>
+                    </a>
+                </div>
                 <div class="recent-item">
                     <a href="./recipes/chicken-parmigiana.html">
                         <img class="recent-photo" src="./images/Chicken_parmigiana.webp" alt="Chicken parmigiana" width="512" height="288">
@@ -160,46 +208,6 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 24 31"><path d="M12.26 0C5.489 0 0 5.489 0 12.26S10.627 31 12.26 31c1.633 0 12.26-11.969 12.26-18.74C24.52 5.489 19.031 0 12.26 0zm0 16.639a4.816 4.816 0 110-9.634 4.816 4.816 0 010 9.634z" fill="#fff"/></svg>
                                 Mexican
                             </span>
-                            </div>
-                    </a>
-                </div>
-                <div class="recent-item">
-                    <a href="./recipes/slow-cooked-pork-and-fennel-ragu.html">
-                        <img class="recent-photo" src="./images/Slow-cooked_pork_and_fennel_ragu.webp" alt="Slow-cooked pork and fennel ragu" width="512" height="288">
-                        <div>
-                            <h2 class="recent-title">Slow-cooked pork and fennel ragu</h2>
-                            <span class="recipe-meta Pork"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="#fff" stroke-width="10"></circle><path stroke="#fff" fill="none" stroke-width="10" d="M50 15v35l25 25"></path></svg>
-                            4 hr 10 mins</span>
-                            <span class="recipe-meta Pork"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 60 90"><g fill="#fff"><path d="M26.814 21.33c0-10.2-6.003-21.3-13.407-21.3C6.002.03 0 11.13 0 21.33c0 6.429 2.387 10.96 6.006 13.433 2.262 1.546 3.647 4.075 3.599 6.814l-.76 43.582c-.042 2.419 1.717 4.6 4.126 4.824a4.568 4.568 0 005.003-4.626l-.764-43.78c-.048-2.739 1.338-5.268 3.599-6.814 3.618-2.474 6.005-7.004 6.005-13.433zM60.983 29.703L60.219.973a1 1 0 00-1-.973h-2.222a1 1 0 00-1 1v24.127a1 1 0 01-1 1h-1.915a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.297a1 1 0 00-1 1v24.127a1 1 0 01-1 1H44.87a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.222a1 1 0 00-1 .973l-.764 28.73a3.999 3.999 0 002.961 3.969l2.14.575a2.998 2.998 0 012.221 2.95l-.84 48.159a4.566 4.566 0 109.132 0l-.84-48.159a3.001 3.001 0 012.221-2.95l2.14-.575a3.998 3.998 0 002.964-3.969z"></path></g></svg>
-                            Serves 8</span>
-                            <span class="recipe-meta Pork">Nutrition &#10003;</span>
-                            <span class="recipe-meta Pork">Dairy Free</span>
-                            <span class="recipe-meta Pork">Gluten Free</span>
-                            </div>
-                    </a>
-                </div>
-                <div class="recent-item">
-                    <a href="./recipes/easy-pesto-chicken-and-vegetables.html">
-                        <img class="recent-photo" src="./images/Easy_pesto_chicken_and_vegetables.webp" alt="Easy pesto chicken and vegetables" width="512" height="288">
-                        <div>
-                            <h2 class="recent-title">Easy pesto chicken and vegetables</h2>
-                            <span class="recipe-meta Chicken"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="#fff" stroke-width="10"></circle><path stroke="#fff" fill="none" stroke-width="10" d="M50 15v35l25 25"></path></svg>
-                            30 mins</span>
-                            <span class="recipe-meta Chicken"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 60 90"><g fill="#fff"><path d="M26.814 21.33c0-10.2-6.003-21.3-13.407-21.3C6.002.03 0 11.13 0 21.33c0 6.429 2.387 10.96 6.006 13.433 2.262 1.546 3.647 4.075 3.599 6.814l-.76 43.582c-.042 2.419 1.717 4.6 4.126 4.824a4.568 4.568 0 005.003-4.626l-.764-43.78c-.048-2.739 1.338-5.268 3.599-6.814 3.618-2.474 6.005-7.004 6.005-13.433zM60.983 29.703L60.219.973a1 1 0 00-1-.973h-2.222a1 1 0 00-1 1v24.127a1 1 0 01-1 1h-1.915a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.297a1 1 0 00-1 1v24.127a1 1 0 01-1 1H44.87a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.222a1 1 0 00-1 .973l-.764 28.73a3.999 3.999 0 002.961 3.969l2.14.575a2.998 2.998 0 012.221 2.95l-.84 48.159a4.566 4.566 0 109.132 0l-.84-48.159a3.001 3.001 0 012.221-2.95l2.14-.575a3.998 3.998 0 002.964-3.969z"></path></g></svg>
-                            Serves 4</span>
-                            <span class="recipe-meta Chicken">Nutrition &#10003;</span>
-                            </div>
-                    </a>
-                </div>
-                <div class="recent-item">
-                    <a href="./recipes/one-pan-orecchiette-puttanesca.html">
-                        <img class="recent-photo" src="./images/One-pan_orecchiette_puttanesca.webp" alt="One-pan orecchiette puttanesca" width="512" height="288">
-                        <div>
-                            <h2 class="recent-title">One-pan orecchiette puttanesca</h2>
-                            <span class="recipe-meta Veggie"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="#fff" stroke-width="10"></circle><path stroke="#fff" fill="none" stroke-width="10" d="M50 15v35l25 25"></path></svg>
-                            40 mins</span>
-                            <span class="recipe-meta Veggie"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 60 90"><g fill="#fff"><path d="M26.814 21.33c0-10.2-6.003-21.3-13.407-21.3C6.002.03 0 11.13 0 21.33c0 6.429 2.387 10.96 6.006 13.433 2.262 1.546 3.647 4.075 3.599 6.814l-.76 43.582c-.042 2.419 1.717 4.6 4.126 4.824a4.568 4.568 0 005.003-4.626l-.764-43.78c-.048-2.739 1.338-5.268 3.599-6.814 3.618-2.474 6.005-7.004 6.005-13.433zM60.983 29.703L60.219.973a1 1 0 00-1-.973h-2.222a1 1 0 00-1 1v24.127a1 1 0 01-1 1h-1.915a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.297a1 1 0 00-1 1v24.127a1 1 0 01-1 1H44.87a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.222a1 1 0 00-1 .973l-.764 28.73a3.999 3.999 0 002.961 3.969l2.14.575a2.998 2.998 0 012.221 2.95l-.84 48.159a4.566 4.566 0 109.132 0l-.84-48.159a3.001 3.001 0 012.221-2.95l2.14-.575a3.998 3.998 0 002.964-3.969z"></path></g></svg>
-                            Serves 4</span>
                             </div>
                     </a>
                 </div>
