@@ -10,6 +10,7 @@
         <script src="./js/fuse.basic.min.js"></script>
         <script src="./js/search_data.min.js"></script>
         <script src="./js/search.min.js"></script>
+        <noscript><style type="text/css">.slider.closed {max-height: unset;}</style></noscript>
         <!-- icons and manifest for PWA -->
         <link rel="manifest" href="./manifest.json">
         <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
@@ -76,11 +77,12 @@
                     <option value="DairyFree">Dairy free</option>
                     <option value="NutFree">Nut free</option>
                 </select>
-            </div>
+            </div>          
         </section>
 
             <!--- List of recipes -->
-        <section id="results">                
+        <section id="results">
+            <noscript><p style="text-align: center;">Recipe search and dropdown menu selection are unavailable whilst javascript is disabled.</p></noscript>
             <ul class="recipe-list" id="search-results"></ul>
         </section>
 
