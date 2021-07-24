@@ -13,7 +13,7 @@
         <title>Vegetable tagine | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,51 +44,69 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large onion, peeled and finely chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> onion, peeled and finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, peeled and crushed</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, peeled and crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp finely grated fresh root ginger</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> finely grated fresh root ginger</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp ground cumin</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> ground cumin</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp ground coriander</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> ground coriander</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp ground cinnamon</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> ground cinnamon</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp ground turmeric</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> ground turmeric</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp dried chilli flakes</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> dried chilli flakes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 400 g can chopped tomatoes</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g can">400 g can</span> chopped tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp artificial sweetener</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> artificial sweetener</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> ml water or stock</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="ml">ml</span> water or stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> carrots, peeled and cut into bite-sized pieces</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> carrots, peeled and cut into bite-sized pieces</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g baby courgettes, cut into 2 cm slices</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> baby courgettes, cut into 2 cm slices</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g baby aubergines, halved lengthways</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="g">g</span> baby aubergines, halved lengthways</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g baby turnips, trimmed and scrubbed</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> baby turnips, trimmed and scrubbed</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Place a medium non-stick frying pan over a medium heat. Add the <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span> and stir-fry for <b>4-5</b> minutes. Add the <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">ginger</span>, <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">cumin</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">coriander</span>, <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">cinnamon</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">turmeric</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">chilli flakes</span>, <span data-default="1x" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">tomatoes</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">sweetener</span> and <span data-default="250" data-quantity="250" data-unit="ml" class="tooltip scalable">water or stock</span>. Bring to the boil, reduce the heat to low, then cover and simmer for <b>25</b> minutes.</li>
-                <li itemprop="recipeInstructions">Stir in the vegetables and cook over a medium heat for <b>20-25</b> minutes, or until the vegetables are cooked through and tender. Season well and garnish with chopped <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">coriander</span>.</li>
+                <li itemprop="recipeInstructions">Place a medium non-stick frying pan over a medium heat. Add the <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span> and stir-fry for <b>4-5</b> minutes. Add the <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">ginger</span>, <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">cumin</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">coriander</span>, <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">cinnamon</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">turmeric</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">chilli flakes</span>, <span data-default="1x" data-defaultunit="400 g can" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">tomatoes</span>, <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">sweetener</span> and <span data-default="250" data-defaultunit="ml" data-quantity="250" data-unit="ml" class="tooltip scalable">water or stock</span>. Bring to the boil, reduce the heat to low, then cover and simmer for <b>25</b> minutes.</li>
+                <li itemprop="recipeInstructions">Stir in the vegetables and cook over a medium heat for <b>20-25</b> minutes, or until the vegetables are cooked through and tender. Season well and garnish with chopped <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">coriander</span>.</li>
                 </ol>
 
             <hr>

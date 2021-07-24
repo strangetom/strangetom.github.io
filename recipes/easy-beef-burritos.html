@@ -13,7 +13,7 @@
         <title>Easy beef burritos | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Beef" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,51 +47,67 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp sunflower oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> sunflower oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> onion, finely chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> onion, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> cloves garlic, very finely chopped</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="cloves">cloves</span> garlic, very finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp ground cumin</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> ground cumin</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp ground coriander</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> ground coriander</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="small pinch" class="scalable">small pinch</span> cayenne pepper, more if you want it spicier</li>
+                        <span data-default="small pinch" class="scalable">small pinch</span>
+                        <span data-unit=""></span> cayenne pepper, more if you want it spicier</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp dried oregano</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> dried oregano</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g beef mince</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="g">g</span> beef mince</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="pinch" class="scalable">pinch</span> golden caster sugar</li>
+                        <span data-default="pinch" class="scalable">pinch</span>
+                        <span data-unit=""></span> golden caster sugar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp wine vinegar or cider vinegar</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> wine vinegar or cider vinegar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g can chopped tomatoes</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g can">400 g can</span> chopped tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g can black beans or kidney beans, with the can water</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g can">400 g can</span> black beans or kidney beans, with the can water</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="8" class="scalable">8</span> flour or corn tortillas</li>
+                        <span data-default="8" class="scalable">8</span>
+                        <span data-unit=""></span> flour or corn tortillas</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g cooked rice</li>
-                    <li itemprop="recipeIngredient">a selection of sliced avocado or guacamole, chopped tomatoes, soured cream, shredded lettuce, sliced red onion, grated cheddar, sliced red chilli and lime halves, to serve</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="g">g</span> cooked rice</li>
+                    <li itemprop="recipeIngredient"> a selection of sliced avocado or guacamole, chopped tomatoes, soured cream, shredded lettuce, sliced red onion, grated cheddar, sliced red chilli and lime halves, to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a large pan - a casserole is ideal. Fry the onions for <b>8</b> mins, then add the <span data-default="4" data-quantity="4" data-unit="cloves" class="tooltip scalable">garlic</span>, spices and <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">oregano</span> and cook for <b>1</b> min. Crumble over the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">mince</span> and sizzle for <b>5</b> mins, stirring, until browned. Stir in the <span data-default="pinch" data-quantity="pinch" data-unit="" class="tooltip scalable">sugar</span> and leave for a minute, then splash in the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">vinegar</span> and pour in the <span data-default="400" data-quantity="400" data-unit="g can" class="tooltip scalable">tomatoes</span>.</li>
-                <li itemprop="recipeInstructions">Simmer for <b>5</b> mins then tip in the <span data-default="400" data-quantity="400" data-unit="g can" class="tooltip scalable">beans</span> and the water from the can. Season, stir and simmer everything for <b>20</b> mins until the beef is in a thick gravy. The sauce can be prepared up to <b>2</b> days ahead, chilled and reheated with a splash of water or frozen for <b>6</b> months.</li>
-                <li itemprop="recipeInstructions">To make the burritos, heat the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">tortillas</span> following pack instructions. Pile some <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">rice</span> and beef sauce along each tortilla and scatter over your choice of topping. Fold over the ends and roll up to seal. Secure by wrapping with foil if you want. Eat immediately.</li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a large pan - a casserole is ideal. Fry the onions for <b>8</b> mins, then add the <span data-default="4" data-defaultunit="cloves" data-quantity="4" data-unit="cloves" class="tooltip scalable">garlic</span>, spices and <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">oregano</span> and cook for <b>1</b> min. Crumble over the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">mince</span> and sizzle for <b>5</b> mins, stirring, until browned. Stir in the <span data-default="pinch" data-defaultunit="" data-quantity="pinch" data-unit="" class="tooltip scalable">sugar</span> and leave for a minute, then splash in the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">vinegar</span> and pour in the <span data-default="1x" data-defaultunit="400 g can" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">tomatoes</span>.</li>
+                <li itemprop="recipeInstructions">Simmer for <b>5</b> mins then tip in the <span data-default="1x" data-defaultunit="400 g can" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">beans</span> and the water from the can. Season, stir and simmer everything for <b>20</b> mins until the beef is in a thick gravy. The sauce can be prepared up to <b>2</b> days ahead, chilled and reheated with a splash of water or frozen for <b>6</b> months.</li>
+                <li itemprop="recipeInstructions">To make the burritos, heat the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">tortillas</span> following pack instructions. Pile some <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">rice</span> and beef sauce along each tortilla and scatter over your choice of topping. Fold over the ends and roll up to seal. Secure by wrapping with foil if you want. Eat immediately.</li>
                 </ol>
 
             <hr>

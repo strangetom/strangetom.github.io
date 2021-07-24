@@ -13,7 +13,7 @@
         <title>Pan roasted chicken with spicy fried rice | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -42,51 +42,67 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> mug basmati rice cooked in 2 mugs water</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="mug">mug</span> basmati rice cooked in 2 mugs water</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> chicken breast</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> chicken breast</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> eggs, beaten</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> eggs, beaten</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large onion, thinly sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> onion, thinly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> clove garlic, finely chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="clove">clove</span> garlic, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> red pepper, cut into fine dice</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit=""></span> red pepper, cut into fine dice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp freshly grated ginger</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> freshly grated ginger</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> fat red chilli</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit=""></span> fat red chilli</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp oyster sauce</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> oyster sauce</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp soy sauce</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> soy sauce</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp water</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> water</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> spring onions</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> spring onions</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Put the <span data-default="1" data-quantity="1" data-unit="mug" class="tooltip scalable">rice</span> on to cook.  </li>
-                <li itemprop="recipeInstructions">Pan roast the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">chicken</span>, once cooked cut into thin slices.  </li>
-                <li itemprop="recipeInstructions">Add a little oil to the pan, pour in the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">eggs</span> and swish around the pan to form a very thin omelette. Cook for about <b>1</b> minute. Taken out of the pan and leave to one side. Cut into thin strips.  </li>
-                <li itemprop="recipeInstructions">Heat a little oil in the frying pan and add the onions, <span data-default="1" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="" class="tooltip scalable">peppers</span> and <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">ginger</span>. Cook until the onions are soft.  </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="0.5" data-quantity="&frac12;" data-unit="" class="tooltip scalable">chilli</span>, <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oyster sauce</span>, <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">soy sauce</span> and <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">water</span> and heat for <b>1</b> minute.  </li>
-                <li itemprop="recipeInstructions">Stir in the cooked <span data-default="1" data-quantity="1" data-unit="mug" class="tooltip scalable">rice</span> and heat through.  </li>
-                <li itemprop="recipeInstructions">Add the sliced <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">chicken</span> and egg and mix together.  </li>
-                <li itemprop="recipeInstructions">Serve garnished with the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">spring onions</span>.</li>
+                <li itemprop="recipeInstructions">Put the <span data-default="1" data-defaultunit="mug" data-quantity="1" data-unit="mug" class="tooltip scalable">rice</span> on to cook.  </li>
+                <li itemprop="recipeInstructions">Pan roast the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">chicken</span>, once cooked cut into thin slices.  </li>
+                <li itemprop="recipeInstructions">Add a little oil to the pan, pour in the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">eggs</span> and swish around the pan to form a very thin omelette. Cook for about <b>1</b> minute. Taken out of the pan and leave to one side. Cut into thin strips.  </li>
+                <li itemprop="recipeInstructions">Heat a little oil in the frying pan and add the onions, <span data-default="1" data-defaultunit="clove" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span>, <span data-default="0.5" data-defaultunit="" data-quantity="&frac12;" data-unit="" class="tooltip scalable">peppers</span> and <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">ginger</span>. Cook until the onions are soft.  </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="0.5" data-defaultunit="" data-quantity="&frac12;" data-unit="" class="tooltip scalable">chilli</span>, <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oyster sauce</span>, <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">soy sauce</span> and <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">water</span> and heat for <b>1</b> minute.  </li>
+                <li itemprop="recipeInstructions">Stir in the cooked <span data-default="1" data-defaultunit="mug" data-quantity="1" data-unit="mug" class="tooltip scalable">rice</span> and heat through.  </li>
+                <li itemprop="recipeInstructions">Add the sliced <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">chicken</span> and egg and mix together.  </li>
+                <li itemprop="recipeInstructions">Serve garnished with the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">spring onions</span>.</li>
                 </ol>
 
             <hr>

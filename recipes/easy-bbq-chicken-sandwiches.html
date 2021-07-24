@@ -13,7 +13,7 @@
         <title>Easy bbq chicken sandwiches | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,45 +43,60 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp smoked paprika</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> smoked paprika</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp garlic powder</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> garlic powder</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> tsp salt</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit="tsp">tsp</span> salt</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> tsp pepper</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit="tsp">tsp</span> pepper</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> lb boneless, skinless chicken thighs</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="lb">lb</span> boneless, skinless chicken thighs</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp cooking oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> cooking oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> cup BBQ sauce</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit="cup">cup</span> BBQ sauce</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="7" class="scalable">7</span> oz coleslaw mix</li>
+                        <span data-default="7" class="scalable">7</span>
+                        <span data-unit="oz">oz</span> coleslaw mix</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> green onions, sliced</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> green onions, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> cup ranch dressing</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit="cup">cup</span> ranch dressing</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> buns</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> buns</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Combine the <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">smoked paprika</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">garlic powder</span>, <span data-default="0.25" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">salt</span>, and <span data-default="0.25" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">pepper</span> in a small bowl. Cut any large <span data-default="1" data-quantity="1" data-unit="lb" class="tooltip scalable">chicken thighs</span> in half to make them more sandwich-sized (you'll want four pieces total). Season both sides of the <span data-default="1" data-quantity="1" data-unit="lb" class="tooltip scalable">chicken thighs</span> with the prepared spice mix.</li>
-                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">cooking oil</span> in a large skillet over medium heat. Once hot, swirl to coat the surface of the skillet. Add the seasoned chicken and cook for <b>5-7</b> minutes on each side, or until the <span data-default="1" data-quantity="1" data-unit="lb" class="tooltip scalable">chicken thighs</span> are well browned and cooked through.</li>
-                <li itemprop="recipeInstructions">Remove the chicken from the heat and brush <span data-default="0.25" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">BBQ sauce</span> over both sides of each piece.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="7" data-quantity="7" data-unit="oz" class="tooltip scalable">coleslaw mix</span>, sliced <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">green onions</span>, and <span data-default="0.25" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">ranch dressing</span> to a bowl. Stir until everything is combined and evenly coated in dressing.</li>
+                <li itemprop="recipeInstructions">Combine the <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">smoked paprika</span>, <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">garlic powder</span>, <span data-default="0.25" data-defaultunit="tsp" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">salt</span>, and <span data-default="0.25" data-defaultunit="tsp" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">pepper</span> in a small bowl. Cut any large <span data-default="1" data-defaultunit="lb" data-quantity="1" data-unit="lb" class="tooltip scalable">chicken thighs</span> in half to make them more sandwich-sized (you'll want four pieces total). Season both sides of the <span data-default="1" data-defaultunit="lb" data-quantity="1" data-unit="lb" class="tooltip scalable">chicken thighs</span> with the prepared spice mix.</li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">cooking oil</span> in a large skillet over medium heat. Once hot, swirl to coat the surface of the skillet. Add the seasoned chicken and cook for <b>5-7</b> minutes on each side, or until the <span data-default="1" data-defaultunit="lb" data-quantity="1" data-unit="lb" class="tooltip scalable">chicken thighs</span> are well browned and cooked through.</li>
+                <li itemprop="recipeInstructions">Remove the chicken from the heat and brush <span data-default="0.25" data-defaultunit="cup" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">BBQ sauce</span> over both sides of each piece.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="7" data-defaultunit="oz" data-quantity="7" data-unit="oz" class="tooltip scalable">coleslaw mix</span>, sliced <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">green onions</span>, and <span data-default="0.25" data-defaultunit="cup" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">ranch dressing</span> to a bowl. Stir until everything is combined and evenly coated in dressing.</li>
                 <li itemprop="recipeInstructions">To build the sandwiches, place one piece of BBQ chicken on each bun and top with a heaping scoop of the ranch slaw. Serve immediately.</li>
                 </ol>
 

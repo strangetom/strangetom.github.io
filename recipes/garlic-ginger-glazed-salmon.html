@@ -13,7 +13,7 @@
         <title>Garlic ginger glazed salmon | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -46,36 +46,47 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp sesame oil (optional)</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> sesame oil (optional)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsp honey</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsp">tbsp</span> honey</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tbsp soy sauce</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="tbsp">tbsp</span> soy sauce</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tbsp rice vinegar</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="tbsp">tbsp</span> rice vinegar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3-4" class="scalable">3-4</span> cloves garlic, pressed</li>
+                        <span data-default="3-4" class="scalable">3-4</span>
+                        <span data-unit="cloves">cloves</span> garlic, pressed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> inch cube ginger, grated</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="inch cube">inch cube</span> ginger, grated</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g salmon, skinned, de-boned</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="g">g</span> salmon, skinned, de-boned</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Combine all liquid ingredients in a sauce pan, add grated <span data-default="0.5" data-quantity="&frac12;" data-unit="inch cube" class="tooltip scalable">ginger</span> and pressed <span data-default="3-4" data-quantity="3-4" data-unit="cloves" class="tooltip scalable">garlic</span>. Stir, bring to a boil on medium-high heat and allow to simmer until the glaze is reduced and thickened, about <b>10-15</b> minutes.  </li>
-                <li itemprop="recipeInstructions">Meanwhile sprinkle the fish with cracked black pepper on both sides.  Heat the skillet with <b>1</b> tablespoon oil over high heat, add the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">salmon</span> and cook until golden on both sides, covering with lid in between. Depending on the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">salmon</span> thickness you might need to lower the heat and cook it longer in order for it to cook through in the middle.  </li>
-                <li itemprop="recipeInstructions">Transfer the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">salmon</span> fillet to a serving dish and drizzle the sauce over top. Eat hot, right away.</li>
+                <li itemprop="recipeInstructions">Combine all liquid ingredients in a sauce pan, add grated <span data-default="0.5" data-defaultunit="inch cube" data-quantity="&frac12;" data-unit="inch cube" class="tooltip scalable">ginger</span> and pressed <span data-default="3-4" data-defaultunit="cloves" data-quantity="3-4" data-unit="cloves" class="tooltip scalable">garlic</span>. Stir, bring to a boil on medium-high heat and allow to simmer until the glaze is reduced and thickened, about <b>10-15</b> minutes.  </li>
+                <li itemprop="recipeInstructions">Meanwhile sprinkle the fish with cracked black pepper on both sides.  Heat the skillet with <b>1</b> tablespoon oil over high heat, add the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">salmon</span> and cook until golden on both sides, covering with lid in between. Depending on the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">salmon</span> thickness you might need to lower the heat and cook it longer in order for it to cook through in the middle.  </li>
+                <li itemprop="recipeInstructions">Transfer the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">salmon</span> fillet to a serving dish and drizzle the sauce over top. Eat hot, right away.</li>
                 <li itemprop="recipeInstructions">Serve with rice or rice noodles as a side dish.</li>
                 </ol>
 

@@ -13,7 +13,7 @@
         <title>Tagliatelle with goat's cheese | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,37 +44,48 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g chestnut mushrooms</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="g">g</span> chestnut mushrooms</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> small onion</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="small">small</span> onion</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="175" class="scalable">175</span> g tagliatelle</li>
+                        <span data-default="175" class="scalable">175</span>
+                        <span data-unit="g">g</span> tagliatelle</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="25" class="scalable">25</span> g butter</li>
+                        <span data-default="25" class="scalable">25</span>
+                        <span data-unit="g">g</span> butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil, plus extra for drizzling</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil, plus extra for drizzling</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> g firm goat's cheese</li>
-                    <li itemprop="recipeIngredient">freshly shaved vegetarian Parmesan, to serve</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="g">g</span> firm goat's cheese</li>
+                    <li itemprop="recipeIngredient"> freshly shaved vegetarian Parmesan, to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Slice the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">mushrooms</span> and finely chop the <span data-default="1" data-quantity="1" data-unit="small" class="tooltip scalable">onion</span> and <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>. Cook the <span data-default="175" data-quantity="175" data-unit="g" class="tooltip scalable">pasta</span> in plenty of salted boiling water according to the packet instructions.</li>
-                <li itemprop="recipeInstructions">Heat the <span data-default="25" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span> and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a frying pan until the <span data-default="25" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span> has melted. Add the <span data-default="1" data-quantity="1" data-unit="small" class="tooltip scalable">onion</span> and cook until golden, about <b>3-4</b> minutes. Stir in the <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">mushrooms</span> and cook, stirring, until the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">mushrooms</span> are golden brown.</li>
-                <li itemprop="recipeInstructions">Drain the <span data-default="175" data-quantity="175" data-unit="g" class="tooltip scalable">pasta</span> reserving <b>4</b> tablespoons of the water. Return the <span data-default="175" data-quantity="175" data-unit="g" class="tooltip scalable">pasta</span> to its pan with the water and stir in the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">mushrooms</span> mixture. Roughly break the <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">goat's cheese</span> into pieces and gently stir it into the <span data-default="175" data-quantity="175" data-unit="g" class="tooltip scalable">pasta</span> so it starts to melt. Serve sprinkled with black pepper, a drizzle of olive <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> and a few shavings of Parmesan.</li>
+                <li itemprop="recipeInstructions">Slice the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">mushrooms</span> and finely chop the <span data-default="1" data-defaultunit="small" data-quantity="1" data-unit="small" class="tooltip scalable">onion</span> and <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>. Cook the <span data-default="175" data-defaultunit="g" data-quantity="175" data-unit="g" class="tooltip scalable">pasta</span> in plenty of salted boiling water according to the packet instructions.</li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span> and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a frying pan until the <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span> has melted. Add the <span data-default="1" data-defaultunit="small" data-quantity="1" data-unit="small" class="tooltip scalable">onion</span> and cook until golden, about <b>3-4</b> minutes. Stir in the <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">mushrooms</span> and cook, stirring, until the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">mushrooms</span> are golden brown.</li>
+                <li itemprop="recipeInstructions">Drain the <span data-default="175" data-defaultunit="g" data-quantity="175" data-unit="g" class="tooltip scalable">pasta</span> reserving <b>4</b> tablespoons of the water. Return the <span data-default="175" data-defaultunit="g" data-quantity="175" data-unit="g" class="tooltip scalable">pasta</span> to its pan with the water and stir in the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">mushrooms</span> mixture. Roughly break the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">goat's cheese</span> into pieces and gently stir it into the <span data-default="175" data-defaultunit="g" data-quantity="175" data-unit="g" class="tooltip scalable">pasta</span> so it starts to melt. Serve sprinkled with black pepper, a drizzle of olive <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> and a few shavings of Parmesan.</li>
                 </ol>
 
             <hr>

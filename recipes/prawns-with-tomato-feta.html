@@ -13,7 +13,7 @@
         <title>Prawns with tomato & feta | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -42,37 +42,47 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp olive oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> onions, finely chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> onions, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span>x 400 g cans chopped tomatoes</li>
+                        <span data-default="2" class="scalable">2</span>x <span data-unit="400 g cans">400 g cans</span> chopped tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="pinch" class="scalable">pinch</span> of sugar</li>
+                        <span data-default="pinch" class="scalable">pinch</span>
+                        <span data-unit=""></span> of sugar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="350" class="scalable">350</span> g large cooked peeled prawns</li>
+                        <span data-default="350" class="scalable">350</span>
+                        <span data-unit="g">g</span> large cooked peeled prawns</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> g feta</li>
-                    <li itemprop="recipeIngredient">rice or pasta , to serve</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="g">g</span> feta</li>
+                    <li itemprop="recipeIngredient"> rice or pasta , to serve</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsp chopped parsley leaves</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsp">tbsp</span> chopped parsley leaves</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a frying pan, add the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">onions</span> and fry gently for about <b>7</b> minutes until softened and light brown. Add the <span data-default="2x" data-quantity="2x" data-unit="400 g cans" class="tooltip scalable">tomatoes</span> and <span data-default="pinch" data-quantity="pinch" data-unit="" class="tooltip scalable">sugar</span>, and simmer for <b>5</b> minutes.  </li>
-                <li itemprop="recipeInstructions">Throw in the <span data-default="350" data-quantity="350" data-unit="g" class="tooltip scalable">prawns</span>, season and cook gently for <b>5</b> minutes until they are thoroughly hot.  </li>
-                <li itemprop="recipeInstructions">Serve the <span data-default="350" data-quantity="350" data-unit="g" class="tooltip scalable">prawns</span> spooned over some rice or pasta. Crumble over the <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">feta</span> and sprinkle with <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">chopped parsley</span>.  </li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a frying pan, add the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">onions</span> and fry gently for about <b>7</b> minutes until softened and light brown. Add the <span data-default="2x" data-defaultunit="400 g cans" data-quantity="2x" data-unit="400 g cans" class="tooltip scalable">tomatoes</span> and <span data-default="pinch" data-defaultunit="" data-quantity="pinch" data-unit="" class="tooltip scalable">sugar</span>, and simmer for <b>5</b> minutes.  </li>
+                <li itemprop="recipeInstructions">Throw in the <span data-default="350" data-defaultunit="g" data-quantity="350" data-unit="g" class="tooltip scalable">prawns</span>, season and cook gently for <b>5</b> minutes until they are thoroughly hot.  </li>
+                <li itemprop="recipeInstructions">Serve the <span data-default="350" data-defaultunit="g" data-quantity="350" data-unit="g" class="tooltip scalable">prawns</span> spooned over some rice or pasta. Crumble over the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">feta</span> and sprinkle with <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">chopped parsley</span>.  </li>
                 </ol>
 
             <hr>

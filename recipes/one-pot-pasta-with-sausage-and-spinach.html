@@ -13,7 +13,7 @@
         <title>One-pot pasta with sausage and spinach | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,42 +47,53 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="6" class="scalable">2</span> oz sweet or hot Italian sausages, casings removed</li>
+                        <span data-default="6" class="scalable">2</span>
+                        <span data-unit="oz">oz</span> sweet or hot Italian sausages, casings removed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span>x 400 g tin passata or crushed tomatoes</li>
+                        <span data-default="2" class="scalable">2</span>x <span data-unit="400 g tin">400 g tin</span> passata or crushed tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp ground cumin</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> ground cumin</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp red-pepper flakes</li>
-                    <li itemprop="recipeIngredient">Kosher salt</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> red-pepper flakes</li>
+                    <li itemprop="recipeIngredient"> Kosher salt</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> lb cavatappi, fusilli or other small, tubular pasta</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="lb">lb</span> cavatappi, fusilli or other small, tubular pasta</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="5" class="scalable">5</span> packed cups baby spinach (about 5 ounces)</li>
+                        <span data-default="5" class="scalable">5</span>
+                        <span data-unit="packed cups">packed cups</span> baby spinach (about 5 ounces)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> cup grated Parmesan</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="cup">cup</span> grated Parmesan</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the oil in a <b>12</b>-inch, deep skillet with a tight-fitting lid or a Dutch oven over medium-high until shimmering. Use your hands to pull the <span data-default="6" data-quantity="2" data-unit="oz" class="tooltip scalable">sausages</span> apart into small pieces; add to the skillet and cook untouched for <b>1</b> minute.</li>
+                <li itemprop="recipeInstructions">Heat the oil in a <b>12</b>-inch, deep skillet with a tight-fitting lid or a Dutch oven over medium-high until shimmering. Use your hands to pull the <span data-default="6" data-defaultunit="oz" data-quantity="2" data-unit="oz" class="tooltip scalable">sausages</span> apart into small pieces; add to the skillet and cook untouched for <b>1</b> minute.</li>
                 <li itemprop="recipeInstructions">Continue to cook for another <b>4</b> to <b>6</b> minutes, stirring at <b>1</b>-minute intervals and breaking up the sausage into <b>&frac12;</b>-inch chunks, until browned and crispy on the outside with no pink remaining. If you have more than <b>1</b> tablespoon of fat in the pan, drain the excess.</li>
-                <li itemprop="recipeInstructions">Carefully pour in the <span data-default="2x" data-quantity="2x" data-unit="400 g tin" class="tooltip scalable">passata</span> (it may splatter), then add the <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">cumin</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">red-pepper flakes</span> and <b>2</b> cups water, stirring to combine. Season with salt and increase the heat to bring to a boil.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="1" data-quantity="1" data-unit="lb" class="tooltip scalable">pasta</span>, coating it with the liquid. (It won't be fully submerged, and that's OK.) Adjust the heat to maintain an active simmer with small bubbles forming on the surface. Cover and let cook, stirring every few minutes to make sure nothing is sticking at the bottom of the pan, until the <span data-default="1" data-quantity="1" data-unit="lb" class="tooltip scalable">pasta</span> is al dente, about <b>1</b> minute less than the package instructions. If the <span data-default="1" data-quantity="1" data-unit="lb" class="tooltip scalable">pasta</span> is still hard at this point, add a few tablespoons of warm water at a time and cook until just al dente. Depending on your <span data-default="1" data-quantity="1" data-unit="lb" class="tooltip scalable">pasta</span> size and shape, you may need to add several tablespoons of water.</li>
-                <li itemprop="recipeInstructions">When the <span data-default="1" data-quantity="1" data-unit="lb" class="tooltip scalable">pasta</span> is just al dente, reduce the heat to low and season to taste with salt. Stir in the <span data-default="5" data-quantity="5" data-unit="packed cups" class="tooltip scalable">spinach</span> in batches, and cook, uncovered, until most of the <span data-default="5" data-quantity="5" data-unit="packed cups" class="tooltip scalable">spinach</span> is wilted, about <b>1</b> minute more. (It will continue to wilt in the heat of the <span data-default="1" data-quantity="1" data-unit="lb" class="tooltip scalable">pasta</span> after you serve it.) If the <span data-default="1" data-quantity="1" data-unit="lb" class="tooltip scalable">pasta</span> seems too dry, add <b>1</b> tablespoon warm water at a time until it reaches your desired consistency.</li>
-                <li itemprop="recipeInstructions">Divide <span data-default="1" data-quantity="1" data-unit="lb" class="tooltip scalable">pasta</span> among serving bowls and top with <span data-default="0.5" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">Parmesan</span>.</li>
+                <li itemprop="recipeInstructions">Carefully pour in the <span data-default="2x" data-defaultunit="400 g tin" data-quantity="2x" data-unit="400 g tin" class="tooltip scalable">passata</span> (it may splatter), then add the <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">cumin</span>, <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">red-pepper flakes</span> and <b>2</b> cups water, stirring to combine. Season with salt and increase the heat to bring to a boil.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="1" data-defaultunit="lb" data-quantity="1" data-unit="lb" class="tooltip scalable">pasta</span>, coating it with the liquid. (It won't be fully submerged, and that's OK.) Adjust the heat to maintain an active simmer with small bubbles forming on the surface. Cover and let cook, stirring every few minutes to make sure nothing is sticking at the bottom of the pan, until the <span data-default="1" data-defaultunit="lb" data-quantity="1" data-unit="lb" class="tooltip scalable">pasta</span> is al dente, about <b>1</b> minute less than the package instructions. If the <span data-default="1" data-defaultunit="lb" data-quantity="1" data-unit="lb" class="tooltip scalable">pasta</span> is still hard at this point, add a few tablespoons of warm water at a time and cook until just al dente. Depending on your <span data-default="1" data-defaultunit="lb" data-quantity="1" data-unit="lb" class="tooltip scalable">pasta</span> size and shape, you may need to add several tablespoons of water.</li>
+                <li itemprop="recipeInstructions">When the <span data-default="1" data-defaultunit="lb" data-quantity="1" data-unit="lb" class="tooltip scalable">pasta</span> is just al dente, reduce the heat to low and season to taste with salt. Stir in the <span data-default="5" data-defaultunit="packed cups" data-quantity="5" data-unit="packed cups" class="tooltip scalable">spinach</span> in batches, and cook, uncovered, until most of the <span data-default="5" data-defaultunit="packed cups" data-quantity="5" data-unit="packed cups" class="tooltip scalable">spinach</span> is wilted, about <b>1</b> minute more. (It will continue to wilt in the heat of the <span data-default="1" data-defaultunit="lb" data-quantity="1" data-unit="lb" class="tooltip scalable">pasta</span> after you serve it.) If the <span data-default="1" data-defaultunit="lb" data-quantity="1" data-unit="lb" class="tooltip scalable">pasta</span> seems too dry, add <b>1</b> tablespoon warm water at a time until it reaches your desired consistency.</li>
+                <li itemprop="recipeInstructions">Divide <span data-default="1" data-defaultunit="lb" data-quantity="1" data-unit="lb" class="tooltip scalable">pasta</span> among serving bowls and top with <span data-default="0.5" data-defaultunit="cup" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">Parmesan</span>.</li>
                 </ol>
 
             <hr>

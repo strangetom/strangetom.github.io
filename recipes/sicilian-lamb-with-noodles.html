@@ -13,7 +13,7 @@
         <title>Sicilian lamb with noodles | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Lamb" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,44 +47,58 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large onion, roughly chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> onion, roughly chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> fresh red chillies, deseeded and roughly chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> fresh red chillies, deseeded and roughly chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> kg ripe tomatoes, halved</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="kg">kg</span> ripe tomatoes, halved</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> red peppers, deseeded and chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> red peppers, deseeded and chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, peeled</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, peeled</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="5" class="scalable">5</span> tbsp olive oil</li>
+                        <span data-default="5" class="scalable">5</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> kg lamb fillet, trimmed of fat and cut into 2 cm slices</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="kg">kg</span> lamb fillet, trimmed of fat and cut into 2 cm slices</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g pack egg pappardelle</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="500 g pack">500 g pack</span> egg pappardelle</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="5" class="scalable">5</span> tbsp chopped fresh mint</li>
+                        <span data-default="5" class="scalable">5</span>
+                        <span data-unit="tbsp">tbsp</span> chopped fresh mint</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> g pine nuts, toasted</li>
+                        <span data-default="50" class="scalable">50</span>
+                        <span data-unit="g">g</span> pine nuts, toasted</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp chopped fresh parsley</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> chopped fresh parsley</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Preheat the oven to <b>180</b>&deg;C/Gas <b>6</b>. Put the <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span>, <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">chillies</span>, <span data-default="1" data-quantity="1" data-unit="kg" class="tooltip scalable">tomatoes</span>, <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">peppers</span> and <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> in a roasting tin. Drizzle with <b>2</b> tablespoons of the <span data-default="5" data-quantity="5" data-unit="tbsp" class="tooltip scalable">oil</span>, season and roast for <b>25</b> minutes. Tip the vegetables  and juices into a food processor and whizz to a chunky sauce.</li>
-                <li itemprop="recipeInstructions">Heat <b>2</b> more tablespoons of the <span data-default="5" data-quantity="5" data-unit="tbsp" class="tooltip scalable">oil</span> in a large pan and fry the <span data-default="1" data-quantity="1" data-unit="kg" class="tooltip scalable">lamb</span> over a high heat until browned. Lower the heat, stir in the tomato sauce and simmer, uncovered, for <b>20-30</b> minutes until the <span data-default="1" data-quantity="1" data-unit="kg" class="tooltip scalable">lamb</span> is tender.</li>
-                <li itemprop="recipeInstructions">Cook the <span data-default="500" data-quantity="500" data-unit="g pack" class="tooltip scalable">pasta</span> according to the packet instructions. Drain and return to the pan with the <span data-default="50" data-quantity="50" data-unit="g" class="tooltip scalable">pine nuts</span>, herbs and remaining <span data-default="5" data-quantity="5" data-unit="tbsp" class="tooltip scalable">oil</span>. Season and toss well before serving with the <span data-default="1" data-quantity="1" data-unit="kg" class="tooltip scalable">lamb</span>.</li>
+                <li itemprop="recipeInstructions">Preheat the oven to <b>180</b>&deg;C/Gas <b>6</b>. Put the <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span>, <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">chillies</span>, <span data-default="1" data-defaultunit="kg" data-quantity="1" data-unit="kg" class="tooltip scalable">tomatoes</span>, <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">peppers</span> and <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> in a roasting tin. Drizzle with <b>2</b> tablespoons of the <span data-default="5" data-defaultunit="tbsp" data-quantity="5" data-unit="tbsp" class="tooltip scalable">oil</span>, season and roast for <b>25</b> minutes. Tip the vegetables  and juices into a food processor and whizz to a chunky sauce.</li>
+                <li itemprop="recipeInstructions">Heat <b>2</b> more tablespoons of the <span data-default="5" data-defaultunit="tbsp" data-quantity="5" data-unit="tbsp" class="tooltip scalable">oil</span> in a large pan and fry the <span data-default="1" data-defaultunit="kg" data-quantity="1" data-unit="kg" class="tooltip scalable">lamb</span> over a high heat until browned. Lower the heat, stir in the tomato sauce and simmer, uncovered, for <b>20-30</b> minutes until the <span data-default="1" data-defaultunit="kg" data-quantity="1" data-unit="kg" class="tooltip scalable">lamb</span> is tender.</li>
+                <li itemprop="recipeInstructions">Cook the <span data-default="1x" data-defaultunit="500 g pack" data-quantity="1x" data-unit="500 g pack" class="tooltip scalable">pasta</span> according to the packet instructions. Drain and return to the pan with the <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">pine nuts</span>, herbs and remaining <span data-default="5" data-defaultunit="tbsp" data-quantity="5" data-unit="tbsp" class="tooltip scalable">oil</span>. Season and toss well before serving with the <span data-default="1" data-defaultunit="kg" data-quantity="1" data-unit="kg" class="tooltip scalable">lamb</span>.</li>
                 </ol>
 
             <hr>

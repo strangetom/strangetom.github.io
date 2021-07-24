@@ -13,7 +13,7 @@
         <title>Hoisin chicken noodles with ginger and garlic | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -42,47 +42,61 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> spring onions, sliced</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit=""></span> spring onions, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp grated fresh ginger</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> grated fresh ginger</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> clove garlic, finely chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="clove">clove</span> garlic, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> chicken breast, cut into thin strips</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> chicken breast, cut into thin strips</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> mushrooms, sliced</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit=""></span> mushrooms, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.5" class="scalable">1½</span> mugs boiling water</li>
+                        <span data-default="1.5" class="scalable">1½</span>
+                        <span data-unit="mugs">mugs</span> boiling water</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp concentrated chicken stock</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> concentrated chicken stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp soy sauce</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> soy sauce</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp hoisin sauce</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> hoisin sauce</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">0.5</span>x 240 g can sweetcorn</li>
+                        <span data-default="0.5" class="scalable">0.5</span>x <span data-unit="240 g can">240 g can</span> sweetcorn</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">0.5</span>x 400 g pack straight to wok noodles</li>
+                        <span data-default="0.5" class="scalable">0.5</span>x <span data-unit="400 g pack">400 g pack</span> straight to wok noodles</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> oil</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a wok. Add the <span data-default="3" data-quantity="3" data-unit="" class="tooltip scalable">spring onions</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">ginger</span> and <span data-default="1" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span>. Fry for about <b>30</b> seconds.  </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">chicken</span> to the wok and stir fry for about <b>1</b> minute.  </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="3" data-quantity="3" data-unit="" class="tooltip scalable">mushrooms</span> and stir fry for <b>30</b> seconds.  </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="1.5" data-quantity="1&frac12;" data-unit="mugs" class="tooltip scalable">water</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">stock</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">soy sauce</span>, <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">hoisin</span>, <span data-default="0.5x" data-quantity="0.5x" data-unit="240 g can" class="tooltip scalable">sweetcorn</span> and <span data-default="0.5x" data-quantity="0.5x" data-unit="400 g pack" class="tooltip scalable">noodles</span>. Bring to the boil then turn down to simmer for <b>1</b> minute.  </li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a wok. Add the <span data-default="3" data-defaultunit="" data-quantity="3" data-unit="" class="tooltip scalable">spring onions</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">ginger</span> and <span data-default="1" data-defaultunit="clove" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span>. Fry for about <b>30</b> seconds.  </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">chicken</span> to the wok and stir fry for about <b>1</b> minute.  </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="3" data-defaultunit="" data-quantity="3" data-unit="" class="tooltip scalable">mushrooms</span> and stir fry for <b>30</b> seconds.  </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="1.5" data-defaultunit="mugs" data-quantity="1&frac12;" data-unit="mugs" class="tooltip scalable">water</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">stock</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">soy sauce</span>, <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">hoisin</span>, <span data-default="0.5x" data-defaultunit="240 g can" data-quantity="0.5x" data-unit="240 g can" class="tooltip scalable">sweetcorn</span> and <span data-default="0.5x" data-defaultunit="400 g pack" data-quantity="0.5x" data-unit="400 g pack" class="tooltip scalable">noodles</span>. Bring to the boil then turn down to simmer for <b>1</b> minute.  </li>
                 <li itemprop="recipeInstructions">Season well and serve.</li>
                 </ol>
 

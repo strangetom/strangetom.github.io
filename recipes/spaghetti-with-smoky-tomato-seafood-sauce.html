@@ -13,7 +13,7 @@
         <title>Spaghetti with smoky tomato & seafood sauce | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,40 +43,51 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tbsp olive oil</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> cloves garlic, crushed</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="cloves">cloves</span> garlic, crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> red chilli, deseeded and finely sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> red chilli, deseeded and finely sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.5" class="scalable">1½</span> tsp fennel seeds</li>
+                        <span data-default="1.5" class="scalable">1½</span>
+                        <span data-unit="tsp">tsp</span> fennel seeds</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g spaghetti</li>
+                        <span data-default="400" class="scalable">400</span>
+                        <span data-unit="g">g</span> spaghetti</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp smoked paprika</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> smoked paprika</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span>x 400 g cans chopped tomatoes</li>
+                        <span data-default="2" class="scalable">2</span>x <span data-unit="400 g cans">400 g cans</span> chopped tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g pack frozen mixed cooked seafood, defrosted</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g pack">400 g pack</span> frozen mixed cooked seafood, defrosted</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="small bunch" class="scalable">small bunch</span> parsley or basil, chopped</li>
+                        <span data-default="small bunch" class="scalable">small bunch</span>
+                        <span data-unit=""></span> parsley or basil, chopped</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Boil the kettle and heat the <span data-default="4" data-quantity="4" data-unit="tbsp" class="tooltip scalable">oil</span> in a large deep frying pan. Add the <span data-default="4" data-quantity="4" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">chilli</span> and <span data-default="1.5" data-quantity="1&frac12;" data-unit="tsp" class="tooltip scalable">fennel seeds</span>, and sizzle for a few minutes. Pour the boiling water into a large pan and cook the <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">pasta</span> following the pack instructions.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">paprika</span> and <span data-default="2x" data-quantity="2x" data-unit="400 g cans" class="tooltip scalable">tomatoes</span> to the frying pan and simmer for <b>8-10</b> minutes which the <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">pasta</span> cooks.</li>
-                <li itemprop="recipeInstructions">Drain the <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">pasta</span> <b>1</b> min before the end of the cooking time, reserving a cup of the water. Add the <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">pasta</span> to the sauce with the <span data-default="400" data-quantity="400" data-unit="g pack" class="tooltip scalable">seafood</span>. Simmer for <b>1-2</b> minutes, adding a splash of the reserved <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">pasta</span> water if it looks too thick. Toss the <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">pasta</span> through the sauce as it cooks. Add the herbs and black pepper, then serve.</li>
+                <li itemprop="recipeInstructions">Boil the kettle and heat the <span data-default="4" data-defaultunit="tbsp" data-quantity="4" data-unit="tbsp" class="tooltip scalable">oil</span> in a large deep frying pan. Add the <span data-default="4" data-defaultunit="cloves" data-quantity="4" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">chilli</span> and <span data-default="1.5" data-defaultunit="tsp" data-quantity="1&frac12;" data-unit="tsp" class="tooltip scalable">fennel seeds</span>, and sizzle for a few minutes. Pour the boiling water into a large pan and cook the <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">pasta</span> following the pack instructions.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">paprika</span> and <span data-default="2x" data-defaultunit="400 g cans" data-quantity="2x" data-unit="400 g cans" class="tooltip scalable">tomatoes</span> to the frying pan and simmer for <b>8-10</b> minutes which the <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">pasta</span> cooks.</li>
+                <li itemprop="recipeInstructions">Drain the <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">pasta</span> <b>1</b> min before the end of the cooking time, reserving a cup of the water. Add the <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">pasta</span> to the sauce with the <span data-default="1x" data-defaultunit="400 g pack" data-quantity="1x" data-unit="400 g pack" class="tooltip scalable">seafood</span>. Simmer for <b>1-2</b> minutes, adding a splash of the reserved <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">pasta</span> water if it looks too thick. Toss the <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">pasta</span> through the sauce as it cooks. Add the herbs and black pepper, then serve.</li>
                 </ol>
 
             <hr>

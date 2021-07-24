@@ -13,7 +13,7 @@
         <title>Za'atar chicken & new potato bake with tzatziki | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,30 +43,39 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="8" class="scalable">8</span> boneless chicken thighs, skin on</li>
+                        <span data-default="8" class="scalable">8</span>
+                        <span data-unit=""></span> boneless chicken thighs, skin on</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="750" class="scalable">750</span> g new potatoes</li>
+                        <span data-default="750" class="scalable">750</span>
+                        <span data-unit="g">g</span> new potatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> bulb garlic</li>
-                    <li itemprop="recipeIngredient">fresh rosemary</li>
-                    <li itemprop="recipeIngredient">za'atar</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="bulb">bulb</span> garlic</li>
+                    <li itemprop="recipeIngredient"> fresh rosemary</li>
+                    <li itemprop="recipeIngredient"> za'atar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 500 g pot Greek yoghurt</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="500 g pot">500 g pot</span> Greek yoghurt</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> cucumber</li>
-                    <li itemprop="recipeIngredient">fresh mint</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> cucumber</li>
+                    <li itemprop="recipeIngredient"> fresh mint</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> lemon</li>
-                    <li itemprop="recipeIngredient">olive oil</li>
-                    <li itemprop="recipeIngredient">salt and pepper</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> lemon</li>
+                    <li itemprop="recipeIngredient"> olive oil</li>
+                    <li itemprop="recipeIngredient"> salt and pepper</li>
                 </ul>
             </div>
         
@@ -74,11 +83,11 @@
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Preheat the oven to <b>180</b>&deg;C/Gas <b>6</b>.</li>
-                <li itemprop="recipeInstructions">Place the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">chicken</span> thighs on a baking dish, skin side up. Add the new <span data-default="750" data-quantity="750" data-unit="g" class="tooltip scalable">potatoes</span> to the pan. Break up the bulb of <span data-default="1" data-quantity="1" data-unit="bulb" class="tooltip scalable">garlic</span> and add the cloves, skin on, to the pan. Tear <b>10-20</b> rosemary leaves off a bunch of rosemary and throw them in.</li>
-                <li itemprop="recipeInstructions">Add <b>2</b> headped teaspoons of za'atar to the pan. Drizzle with olive oil and season with salt and pepper. Rub the spices and seasoning into the thighs and the <span data-default="750" data-quantity="750" data-unit="g" class="tooltip scalable">potatoes</span>, making sure all the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">chicken</span> remain skin-side up.</li>
+                <li itemprop="recipeInstructions">Place the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">chicken</span> thighs on a baking dish, skin side up. Add the new <span data-default="750" data-defaultunit="g" data-quantity="750" data-unit="g" class="tooltip scalable">potatoes</span> to the pan. Break up the bulb of <span data-default="1" data-defaultunit="bulb" data-quantity="1" data-unit="bulb" class="tooltip scalable">garlic</span> and add the cloves, skin on, to the pan. Tear <b>10-20</b> rosemary leaves off a bunch of rosemary and throw them in.</li>
+                <li itemprop="recipeInstructions">Add <b>2</b> headped teaspoons of za'atar to the pan. Drizzle with olive oil and season with salt and pepper. Rub the spices and seasoning into the thighs and the <span data-default="750" data-defaultunit="g" data-quantity="750" data-unit="g" class="tooltip scalable">potatoes</span>, making sure all the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">chicken</span> remain skin-side up.</li>
                 <li itemprop="recipeInstructions">Place the pan in the hot oven for <b>1</b> hour, making sure you mix it around every <b>20</b> minutes or so to ensure even cooking.</li>
-                <li itemprop="recipeInstructions">Tzatziki time. Add the <span data-default="1x" data-quantity="1x" data-unit="500 g pot" class="tooltip scalable">yoghurt</span> to a bowl. Grate a <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">cucumber</span>, squeeze out the gratings to remove excess moisture, and add to the bowl. Add a handful of chopped mint, season with salt and pepper, squeeze in the juice of a <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">lemon</span> and mix everything together.</li>
-                <li itemprop="recipeInstructions">After <b>1</b> hour, the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">chicken</span> should be crispy and cooked through and the <span data-default="750" data-quantity="750" data-unit="g" class="tooltip scalable">potatoes</span> golden. Remove the pan from the oven and dollop the tzatziki over everything. Serve hot!</li>
+                <li itemprop="recipeInstructions">Tzatziki time. Add the <span data-default="1x" data-defaultunit="500 g pot" data-quantity="1x" data-unit="500 g pot" class="tooltip scalable">yoghurt</span> to a bowl. Grate a <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">cucumber</span>, squeeze out the gratings to remove excess moisture, and add to the bowl. Add a handful of chopped mint, season with salt and pepper, squeeze in the juice of a <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">lemon</span> and mix everything together.</li>
+                <li itemprop="recipeInstructions">After <b>1</b> hour, the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">chicken</span> should be crispy and cooked through and the <span data-default="750" data-defaultunit="g" data-quantity="750" data-unit="g" class="tooltip scalable">potatoes</span> golden. Remove the pan from the oven and dollop the tzatziki over everything. Serve hot!</li>
                 </ol>
 
             <hr>

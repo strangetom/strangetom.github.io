@@ -13,7 +13,7 @@
         <title>Sloppy joes | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Beef" itemscope itemtype="https://schema.org/Recipe">
 
@@ -49,46 +49,62 @@ This version is an adaptation of one developed by Chris Gesualdi, the chef at Tr
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp olive oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> cup finely diced onion</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="cup">cup</span> finely diced onion</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp minced garlic</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> minced garlic</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> lbs lean ground beef</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="lbs">lbs</span> lean ground beef</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> cup tomato paste</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="cup">cup</span> tomato paste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2.75" class="scalable">2¾</span> cups tomato puree</li>
+                        <span data-default="2.75" class="scalable">2¾</span>
+                        <span data-unit="cups">cups</span> tomato puree</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp chili powder</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> chili powder</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp Tabasco sauce</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> Tabasco sauce</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp pureed canned chipotle in adobo</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> pureed canned chipotle in adobo</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> bay leaf</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> bay leaf</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="12" class="scalable">12</span> kaiser rolls or hamburger buns</li>
+                        <span data-default="12" class="scalable">12</span>
+                        <span data-unit=""></span> kaiser rolls or hamburger buns</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="12" class="scalable">12</span> slices cheddar cheese (optional)</li>
+                        <span data-default="12" class="scalable">12</span>
+                        <span data-unit=""></span> slices cheddar cheese (optional)</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">In a large skillet over medium heat, warm oil, and saute <span data-default="1" data-quantity="1" data-unit="cup" class="tooltip scalable">onions</span> until translucent, <b>5</b> to <b>6</b> minutes. Add <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">garlic</span>, and saute for <b>30</b> seconds. Add <span data-default="2" data-quantity="2" data-unit="lbs" class="tooltip scalable">ground beef</span>, and saute until well browned, <b>15</b> to <b>20</b> minutes.</li>
-                <li itemprop="recipeInstructions">Add <span data-default="1" data-quantity="1" data-unit="cup" class="tooltip scalable">tomato paste</span>, <span data-default="2.75" data-quantity="2&frac34;" data-unit="cups" class="tooltip scalable">tomato puree</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">chili powder</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">Tabasco</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">chipotle</span> and <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">bay leaf</span>. Stir until blended. Raise heat to bring to a boil, then reduce heat to low. Simmer mixture, stirring occasionally, until thick enough to spread on a sandwich, about <b>45</b> minutes.</li>
-                <li itemprop="recipeInstructions">To serve, heat a broiler. Slice the <span data-default="12" data-quantity="12" data-unit="" class="tooltip scalable">rolls</span> open and place them under the broiler until lightly toasted, turning as necessary. Ladle about <b>&frac12;</b> cup onto the bottom of each roll, and top with cheddar cheese to taste. Return bottom halves to the broiler until cheese just melts. Top with the remaining halves, and serve immediately.</li>
+                <li itemprop="recipeInstructions">In a large skillet over medium heat, warm oil, and saute <span data-default="1" data-defaultunit="cup" data-quantity="1" data-unit="cup" class="tooltip scalable">onions</span> until translucent, <b>5</b> to <b>6</b> minutes. Add <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">garlic</span>, and saute for <b>30</b> seconds. Add <span data-default="2" data-defaultunit="lbs" data-quantity="2" data-unit="lbs" class="tooltip scalable">ground beef</span>, and saute until well browned, <b>15</b> to <b>20</b> minutes.</li>
+                <li itemprop="recipeInstructions">Add <span data-default="1" data-defaultunit="cup" data-quantity="1" data-unit="cup" class="tooltip scalable">tomato paste</span>, <span data-default="2.75" data-defaultunit="cups" data-quantity="2&frac34;" data-unit="cups" class="tooltip scalable">tomato puree</span>, <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">chili powder</span>, <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">Tabasco</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">chipotle</span> and <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">bay leaf</span>. Stir until blended. Raise heat to bring to a boil, then reduce heat to low. Simmer mixture, stirring occasionally, until thick enough to spread on a sandwich, about <b>45</b> minutes.</li>
+                <li itemprop="recipeInstructions">To serve, heat a broiler. Slice the <span data-default="12" data-defaultunit="" data-quantity="12" data-unit="" class="tooltip scalable">rolls</span> open and place them under the broiler until lightly toasted, turning as necessary. Ladle about <b>&frac12;</b> cup onto the bottom of each roll, and top with cheddar cheese to taste. Return bottom halves to the broiler until cheese just melts. Top with the remaining halves, and serve immediately.</li>
                 </ol>
 
             <hr>

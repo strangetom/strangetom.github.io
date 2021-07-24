@@ -13,7 +13,7 @@
         <title>Original flava jerk chicken | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,60 +47,84 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <details open>
                     <summary class="ingredient-subheading">For the jerk marinade</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="4" class="scalable">4</span> cloves garlic</li>
+                            <span data-default="4" class="scalable">4</span>
+                            <span data-unit="cloves">cloves</span> garlic</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="6" class="scalable">6</span> sprigs thyme, woody stems removed</li>
+                            <span data-default="6" class="scalable">6</span>
+                            <span data-unit="sprigs">sprigs</span> thyme, woody stems removed</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="4" class="scalable">4</span> spring onions, roughly chopped</li>
+                            <span data-default="4" class="scalable">4</span>
+                            <span data-unit=""></span> spring onions, roughly chopped</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> onion, roughly chopped</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit=""></span> onion, roughly chopped</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tsp Sarsons browning or soy sauce</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tsp">tsp</span> Sarsons browning or soy sauce</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tsp ground nutmeg</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tsp">tsp</span> ground nutmeg</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> Scotch bonnet chilli peppers</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit=""></span> Scotch bonnet chilli peppers</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tbsp malt vinegar</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tbsp">tbsp</span> malt vinegar</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tsp ground black pepper</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tsp">tsp</span> ground black pepper</li>
                     </ul>
                 </details>
                 <details open>
                     <summary class="ingredient-subheading">For the main recipe</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="3" class="scalable">3</span> tsp jerk seasoning</li>
+                            <span data-default="3" class="scalable">3</span>
+                            <span data-unit="tsp">tsp</span> jerk seasoning</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="4" class="scalable">4</span> chicken legs</li>
+                            <span data-default="4" class="scalable">4</span>
+                            <span data-unit=""></span> chicken legs</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="400" class="scalable">400</span> g tin red kidney beans in water</li>
+                            <span data-default="400" class="scalable">400</span>
+                            <span data-unit="g tin">g tin</span> red kidney beans in water</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tsp ground black pepper</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tsp">tsp</span> ground black pepper</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> cloves garlic, chopped</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="cloves">cloves</span> garlic, chopped</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> onion, diced</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit=""></span> onion, diced</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="200" class="scalable">200</span> ml coconut milk</li>
+                            <span data-default="200" class="scalable">200</span>
+                            <span data-unit="ml">ml</span> coconut milk</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> spring onion, halved</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit=""></span> spring onion, halved</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> sprigs thyme</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="sprigs">sprigs</span> thyme</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="500" class="scalable">500</span> g long grain white rice, washed</li>
+                            <span data-default="500" class="scalable">500</span>
+                            <span data-unit="g">g</span> long grain white rice, washed</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> Scotch Bonnet chilli pepper</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit=""></span> Scotch Bonnet chilli pepper</li>
                     </ul>
                 </details>
             </div>
@@ -109,12 +133,12 @@
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">To make the jerk marinade, blend all of the jerk ingredients with <b>1</b> tbsp water into a paste and set aside.</li>
-                <li itemprop="recipeInstructions">Rub the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">chicken</span> legs with <b>2</b> tsp of Asda Jerk Seasoning. Put into a bowl, pour over the blended marinade and mix until well coated. Leave in the fridge to marinate for <b>2</b> - <b>24</b> hours.</li>
-                <li itemprop="recipeInstructions">Preheat the oven to <b>180</b>&deg;C/Gas <b>6</b>. Put the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">chicken</span> onto a baking tray, brushing off any excess marinade and roast for <b>50</b> mins, until the skin is crispy, and the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">chicken</span> is cooked through.</li>
-                <li itemprop="recipeInstructions">Whist the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">chicken</span> cooks, start the rice and peas by putting the tin of <span data-default="400" data-quantity="400" data-unit="g tin" class="tooltip scalable">kidney beans</span>, with it's liquid, into a medium saucepan with <b>500</b> ml water.</li>
-                <li itemprop="recipeInstructions">Bring to the boil and add the black pepper, <span data-default="4" data-quantity="4" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <span data-default="200" data-quantity="200" data-unit="ml" class="tooltip scalable">coconut milk</span>, <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">spring onion</span>, <span data-default="6" data-quantity="6" data-unit="sprigs" class="tooltip scalable">thyme</span> and <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">soy sauce</span>. Simmer for <b>10</b> mins.</li>
+                <li itemprop="recipeInstructions">Rub the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">chicken</span> legs with <b>2</b> tsp of Asda Jerk Seasoning. Put into a bowl, pour over the blended marinade and mix until well coated. Leave in the fridge to marinate for <b>2</b> - <b>24</b> hours.</li>
+                <li itemprop="recipeInstructions">Preheat the oven to <b>180</b>&deg;C/Gas <b>6</b>. Put the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">chicken</span> onto a baking tray, brushing off any excess marinade and roast for <b>50</b> mins, until the skin is crispy, and the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">chicken</span> is cooked through.</li>
+                <li itemprop="recipeInstructions">Whist the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">chicken</span> cooks, start the rice and peas by putting the tin of <span data-default="400" data-defaultunit="g tin" data-quantity="400" data-unit="g tin" class="tooltip scalable">kidney beans</span>, with it's liquid, into a medium saucepan with <b>500</b> ml water.</li>
+                <li itemprop="recipeInstructions">Bring to the boil and add the black pepper, <span data-default="4" data-defaultunit="cloves" data-quantity="4" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <span data-default="200" data-defaultunit="ml" data-quantity="200" data-unit="ml" class="tooltip scalable">coconut milk</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">spring onion</span>, <span data-default="6" data-defaultunit="sprigs" data-quantity="6" data-unit="sprigs" class="tooltip scalable">thyme</span> and <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">soy sauce</span>. Simmer for <b>10</b> mins.</li>
                 <li itemprop="recipeInstructions">Add the washed rice and stir well. Add the whole Scotch Bonnet chilli and bring to a simmer. Cover loosely with a lid and cook for <b>20</b> - <b>25</b> mins, on low heat, until the rice is cooked. Stir occasionally to stop it sticking to the bottom of the pan.</li>
-                <li itemprop="recipeInstructions">To serve, when the rice is cooked, put a big scoop onto <b>4</b> plates and top with a <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">chicken</span> leg.</li>
+                <li itemprop="recipeInstructions">To serve, when the rice is cooked, put a big scoop onto <b>4</b> plates and top with a <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">chicken</span> leg.</li>
                 </ol>
 
             <hr>

@@ -13,7 +13,7 @@
         <title>Fettuccine with asparagus and smoked salmon | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,44 +47,56 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> lb fresh asparagus, medium thickness</li>
-                    <li itemprop="recipeIngredient">salt</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="lb">lb</span> fresh asparagus, medium thickness</li>
+                    <li itemprop="recipeIngredient"> salt</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp butter</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tbsp minced shallots</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tbsp">tbsp</span> minced shallots</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> cup heavy cream</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="cup">cup</span> heavy cream</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> oz smoked salmon sliced 0.25" thick</li>
-                    <li itemprop="recipeIngredient">freshly ground black pepper</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="oz">oz</span> smoked salmon sliced 0.25" thick</li>
+                    <li itemprop="recipeIngredient"> freshly ground black pepper</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp fresh lemon juice</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> fresh lemon juice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="9-10" class="scalable">9-10</span> oz fresh green fettuccine noodles</li>
+                        <span data-default="9-10" class="scalable">9-10</span>
+                        <span data-unit="oz">oz</span> fresh green fettuccine noodles</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp minced fresh dill</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> minced fresh dill</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Snap off the ends of the <span data-default="0.5" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">asparagus</span> where they break naturally and peel the stalks. Cut the <span data-default="0.5" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">asparagus</span> on a slant to pieces about an inch long.</li>
-                <li itemprop="recipeInstructions">Steam the <span data-default="0.5" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">asparagus</span> until they are just barely tender and still bright green, about three minutes. Rinse under cold water, drain well on paper towels and set aside.</li>
+                <li itemprop="recipeInstructions">Snap off the ends of the <span data-default="0.5" data-defaultunit="lb" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">asparagus</span> where they break naturally and peel the stalks. Cut the <span data-default="0.5" data-defaultunit="lb" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">asparagus</span> on a slant to pieces about an inch long.</li>
+                <li itemprop="recipeInstructions">Steam the <span data-default="0.5" data-defaultunit="lb" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">asparagus</span> until they are just barely tender and still bright green, about three minutes. Rinse under cold water, drain well on paper towels and set aside.</li>
                 <li itemprop="recipeInstructions">Bring a large pot of salted water to a boil for the pasta.</li>
-                <li itemprop="recipeInstructions">While the water is coming to a boil, melt the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">butter</span> in a large heavy skillet. Add the shallots and saute until soft but not brown. Stir in the <span data-default="1" data-quantity="1" data-unit="cup" class="tooltip scalable">cream</span> and simmer about five minutes, until the <span data-default="1" data-quantity="1" data-unit="cup" class="tooltip scalable">cream</span> has thickened somewhat.</li>
-                <li itemprop="recipeInstructions">Cut the <span data-default="4" data-quantity="4" data-unit="oz" class="tooltip scalable">salmon</span> into slivers, add it to the <span data-default="1" data-quantity="1" data-unit="cup" class="tooltip scalable">cream</span> and remove the skillet from the heat. Season with pepper and <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">lemon juice</span>. Add the <span data-default="0.5" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">asparagus</span>.</li>
-                <li itemprop="recipeInstructions">When the pot of water is boiling, add the <span data-default="9-10" data-quantity="9-10" data-unit="oz" class="tooltip scalable">fettuccine</span>, stir it once or twice, then cook two to three minutes after the water has returned to a boil. Drain well.</li>
-                <li itemprop="recipeInstructions">Briefly reheat the sauce. Transfer the <span data-default="9-10" data-quantity="9-10" data-unit="oz" class="tooltip scalable">fettuccine</span> to a warm serving bowl, pour the sauce over it and toss. Sprinkle with <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">dill</span> and serve.</li>
+                <li itemprop="recipeInstructions">While the water is coming to a boil, melt the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">butter</span> in a large heavy skillet. Add the shallots and saute until soft but not brown. Stir in the <span data-default="1" data-defaultunit="cup" data-quantity="1" data-unit="cup" class="tooltip scalable">cream</span> and simmer about five minutes, until the <span data-default="1" data-defaultunit="cup" data-quantity="1" data-unit="cup" class="tooltip scalable">cream</span> has thickened somewhat.</li>
+                <li itemprop="recipeInstructions">Cut the <span data-default="4" data-defaultunit="oz" data-quantity="4" data-unit="oz" class="tooltip scalable">salmon</span> into slivers, add it to the <span data-default="1" data-defaultunit="cup" data-quantity="1" data-unit="cup" class="tooltip scalable">cream</span> and remove the skillet from the heat. Season with pepper and <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">lemon juice</span>. Add the <span data-default="0.5" data-defaultunit="lb" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">asparagus</span>.</li>
+                <li itemprop="recipeInstructions">When the pot of water is boiling, add the <span data-default="9-10" data-defaultunit="oz" data-quantity="9-10" data-unit="oz" class="tooltip scalable">fettuccine</span>, stir it once or twice, then cook two to three minutes after the water has returned to a boil. Drain well.</li>
+                <li itemprop="recipeInstructions">Briefly reheat the sauce. Transfer the <span data-default="9-10" data-defaultunit="oz" data-quantity="9-10" data-unit="oz" class="tooltip scalable">fettuccine</span> to a warm serving bowl, pour the sauce over it and toss. Sprinkle with <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">dill</span> and serve.</li>
                 </ol>
 
             <hr>

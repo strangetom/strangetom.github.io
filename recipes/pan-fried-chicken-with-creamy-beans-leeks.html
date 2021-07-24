@@ -13,7 +13,7 @@
         <title>Pan-fried chicken with creamy beans & leeks | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,48 +43,63 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> boneless chicken breasts</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> boneless chicken breasts</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="25" class="scalable">25</span> g butter</li>
+                        <span data-default="25" class="scalable">25</span>
+                        <span data-unit="g">g</span> butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp extra virgin olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> extra virgin olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> rounds mustard and tarragon butter</li>
-                    <li itemprop="recipeIngredient">sea salt and freshly ground black pepper</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="rounds">rounds</span> mustard and tarragon butter</li>
+                    <li itemprop="recipeIngredient"> sea salt and freshly ground black pepper</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> g butter</li>
+                        <span data-default="50" class="scalable">50</span>
+                        <span data-unit="g">g</span> butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> leeks, finely chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> leeks, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> clove garlic</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="clove">clove</span> garlic</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp chopped fresh rosemary</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> chopped fresh rosemary</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="800" class="scalable">800</span> g tinned flageolet beans, drained and rinsed</li>
+                        <span data-default="800" class="scalable">800</span>
+                        <span data-unit="g">g</span> tinned flageolet beans, drained and rinsed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="300" class="scalable">300</span> ml vegetable stock</li>
+                        <span data-default="300" class="scalable">300</span>
+                        <span data-unit="ml">ml</span> vegetable stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tbsp double cream</li>
-                    <li itemprop="recipeIngredient">watercress salad, to serve</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="tbsp">tbsp</span> double cream</li>
+                    <li itemprop="recipeIngredient"> watercress salad, to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">To make the <span data-default="4" data-quantity="4" data-unit="rounds" class="tooltip scalable">mustard and tarragon butter</span>, mix <b>2</b> tbsp of chopped fresh tarragon with <b>125</b> g soften <span data-default="25" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span> and <b>1</b> tbsp wholegrain mustard. Roll, wrap in cling film and freeze. To serve, slice of rounds as required.</li>
-                <li itemprop="recipeInstructions">To cook the <span data-default="800" data-quantity="800" data-unit="g" class="tooltip scalable">beans</span> and <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">leeks</span>, melt the <b>50</b> g <span data-default="25" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span> in a saucepan, add the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">leeks</span>, <span data-default="1" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span> and <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">rosemary</span> and fry gently for <b>5</b> minutes until softened but not golden. Add the <span data-default="800" data-quantity="800" data-unit="g" class="tooltip scalable">beans</span>, stir once, then pour in the stock. Bring to the boil, cover and simmer for <b>15</b> minutes</li>
-                <li itemprop="recipeInstructions">Remove the lid, stir in the <span data-default="4" data-quantity="4" data-unit="tbsp" class="tooltip scalable">cream</span>, add salt and pepper to taste, then simmer, uncovered, for a further <b>5</b> minutes until the sauce has thickened. Set aside while you prepare the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">chicken</span>.</li>
-                <li itemprop="recipeInstructions">Season the chick with salt and pepper. Heat the <b>25</b> g <span data-default="25" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span> and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a frying pan and as soon as the <span data-default="25" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span> stops foaming, cook the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">chicken</span> skin-side down for <b>4</b> minutes, turn over and cook for a further <b>4</b> minutes.</li>
-                <li itemprop="recipeInstructions">Top each breast with a couple of slices of the <span data-default="4" data-quantity="4" data-unit="rounds" class="tooltip scalable">mustard and tarragon butter</span> and leave to rest for <b>2-3</b> minutes in a warm oven. Serve with the <span data-default="800" data-quantity="800" data-unit="g" class="tooltip scalable">beans</span> and a simple watercress salad.</li>
+                <li itemprop="recipeInstructions">To make the <span data-default="4" data-defaultunit="rounds" data-quantity="4" data-unit="rounds" class="tooltip scalable">mustard and tarragon butter</span>, mix <b>2</b> tbsp of chopped fresh tarragon with <b>125</b> g soften <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span> and <b>1</b> tbsp wholegrain mustard. Roll, wrap in cling film and freeze. To serve, slice of rounds as required.</li>
+                <li itemprop="recipeInstructions">To cook the <span data-default="800" data-defaultunit="g" data-quantity="800" data-unit="g" class="tooltip scalable">beans</span> and <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">leeks</span>, melt the <b>50</b> g <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span> in a saucepan, add the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">leeks</span>, <span data-default="1" data-defaultunit="clove" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span> and <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">rosemary</span> and fry gently for <b>5</b> minutes until softened but not golden. Add the <span data-default="800" data-defaultunit="g" data-quantity="800" data-unit="g" class="tooltip scalable">beans</span>, stir once, then pour in the stock. Bring to the boil, cover and simmer for <b>15</b> minutes</li>
+                <li itemprop="recipeInstructions">Remove the lid, stir in the <span data-default="4" data-defaultunit="tbsp" data-quantity="4" data-unit="tbsp" class="tooltip scalable">cream</span>, add salt and pepper to taste, then simmer, uncovered, for a further <b>5</b> minutes until the sauce has thickened. Set aside while you prepare the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">chicken</span>.</li>
+                <li itemprop="recipeInstructions">Season the chick with salt and pepper. Heat the <b>25</b> g <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span> and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a frying pan and as soon as the <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span> stops foaming, cook the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">chicken</span> skin-side down for <b>4</b> minutes, turn over and cook for a further <b>4</b> minutes.</li>
+                <li itemprop="recipeInstructions">Top each breast with a couple of slices of the <span data-default="4" data-defaultunit="rounds" data-quantity="4" data-unit="rounds" class="tooltip scalable">mustard and tarragon butter</span> and leave to rest for <b>2-3</b> minutes in a warm oven. Serve with the <span data-default="800" data-defaultunit="g" data-quantity="800" data-unit="g" class="tooltip scalable">beans</span> and a simple watercress salad.</li>
                 </ol>
 
             <hr>

@@ -13,7 +13,7 @@
         <title>Spicy chicken tagine with apricots, rosemary and ginger | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,43 +47,56 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp olive oil, with a knob of butter</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil, with a knob of butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable"></span> onion, finely chopped</li>
+                        <span data-default="1" class="scalable"></span>
+                        <span data-unit=""></span> onion, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> sprigs rosemary, 1 finely chopped, the other 2 cut in half</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="sprigs">sprigs</span> rosemary, 1 finely chopped, the other 2 cut in half</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large thumb sized piece fresh ginger, peeled and finely chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large thumb sized piece">large thumb sized piece</span> fresh ginger, peeled and finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> red chillies, deseeded and finely chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> red chillies, deseeded and finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1-2" class="scalable">1-2</span> cinnamon sticks</li>
+                        <span data-default="1-2" class="scalable">1-2</span>
+                        <span data-unit=""></span> cinnamon sticks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="8" class="scalable">8</span> chicken thighs</li>
+                        <span data-default="8" class="scalable">8</span>
+                        <span data-unit=""></span> chicken thighs</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="175" class="scalable">175</span> g ready to eat dried apricots</li>
+                        <span data-default="175" class="scalable">175</span>
+                        <span data-unit="g">g</span> ready to eat dried apricots</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp clear honey</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> clear honey</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 400 g can plum tomatoes with their juice</li>
-                    <li itemprop="recipeIngredient">sea salt and freshly ground black pepper</li>
-                    <li itemprop="recipeIngredient">small bunch of fresh green or purple basil leaves</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g can">400 g can</span> plum tomatoes with their juice</li>
+                    <li itemprop="recipeIngredient"> sea salt and freshly ground black pepper</li>
+                    <li itemprop="recipeIngredient"> small bunch of fresh green or purple basil leaves</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the oil and butter in a tagine or heavy-based casserole. Stir in the <span data-default="1" data-quantity="" data-unit="" class="tooltip scalable">onion</span>, chopped <span data-default="3" data-quantity="3" data-unit="sprigs" class="tooltip scalable">rosemary</span>, <span data-default="1" data-quantity="1" data-unit="large thumb sized piece" class="tooltip scalable">ginger</span> and <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">chillies</span> and saute until the <span data-default="1" data-quantity="" data-unit="" class="tooltip scalable">onion</span> begins to soften. Stir in the halved <span data-default="3" data-quantity="3" data-unit="sprigs" class="tooltip scalable">rosemary</span> sprigs and the <span data-default="1-2" data-quantity="1-2" data-unit="" class="tooltip scalable">cinnamon sticks</span>.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">chicken thighs</span> and brown them on both sides. Toss in the <span data-default="175" data-quantity="175" data-unit="g" class="tooltip scalable">apricots</span> with the honey, then stir in the <span data-default="1x" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">plum tomatoes with their juice</span>. (Add a little water if necessary, to ensure there is enough liquid to cover the base of the tagine and submerge the <span data-default="175" data-quantity="175" data-unit="g" class="tooltip scalable">apricots</span>.)</li>
+                <li itemprop="recipeInstructions">Heat the oil and butter in a tagine or heavy-based casserole. Stir in the <span data-default="1" data-defaultunit="" data-quantity="" data-unit="" class="tooltip scalable">onion</span>, chopped <span data-default="3" data-defaultunit="sprigs" data-quantity="3" data-unit="sprigs" class="tooltip scalable">rosemary</span>, <span data-default="1" data-defaultunit="large thumb sized piece" data-quantity="1" data-unit="large thumb sized piece" class="tooltip scalable">ginger</span> and <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">chillies</span> and saute until the <span data-default="1" data-defaultunit="" data-quantity="" data-unit="" class="tooltip scalable">onion</span> begins to soften. Stir in the halved <span data-default="3" data-defaultunit="sprigs" data-quantity="3" data-unit="sprigs" class="tooltip scalable">rosemary</span> sprigs and the <span data-default="1-2" data-defaultunit="" data-quantity="1-2" data-unit="" class="tooltip scalable">cinnamon sticks</span>.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">chicken thighs</span> and brown them on both sides. Toss in the <span data-default="175" data-defaultunit="g" data-quantity="175" data-unit="g" class="tooltip scalable">apricots</span> with the honey, then stir in the <span data-default="1x" data-defaultunit="400 g can" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">plum tomatoes with their juice</span>. (Add a little water if necessary, to ensure there is enough liquid to cover the base of the tagine and submerge the <span data-default="175" data-defaultunit="g" data-quantity="175" data-unit="g" class="tooltip scalable">apricots</span>.)</li>
                 <li itemprop="recipeInstructions">Bring the liquid to the boil, then reduce the heat. Cover with a lid and cook gently for <b>35</b> - <b>40</b> minutes.</li>
                 <li itemprop="recipeInstructions">Season to taste with salt and pepper. Shred the large basil leaves and leave the small ones intact. Sprinkle them over the chicken and serve the dish immediately.</li>
                 </ol>

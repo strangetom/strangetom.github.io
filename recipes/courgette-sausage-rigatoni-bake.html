@@ -13,7 +13,7 @@
         <title>Courgette, sausage & rigatoni bake | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,36 +43,45 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> good quality pork sausages</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> good quality pork sausages</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> courgettes, sliced on the diagonal then chopped into batons</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> courgettes, sliced on the diagonal then chopped into batons</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> cloves garlic, finely sliced</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="cloves">cloves</span> garlic, finely sliced</li>
                     <li itemprop="recipeIngredient">pinch chilli flakes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g can chopped tomatoes</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g can">400 g can</span> chopped tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g rigatoni</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> rigatoni</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">0.5</span>x 150 g ball mozzarella, patted dry and torn into chunks</li>
+                        <span data-default="0.5" class="scalable">0.5</span>x <span data-unit="150 g ball">150 g ball</span> mozzarella, patted dry and torn into chunks</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the slow cooker. Heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large frying pan. Squeeze the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">sausage</span> meat out of the skins, breaking it into little chunks, and pop in the pan. Fry for <b>8</b> minutes until golden and cooked through, then scoop into the slow cooker pot. Add the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">courgette</span>, <span data-default="3" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="" data-quantity="" data-unit="pinch" class="tooltip scalable">chilli flakes</span>, <span data-default="400" data-quantity="400" data-unit="g can" class="tooltip scalable">tomatoes</span>, <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span> and <b>250</b> ml water to the slow cooker pot, season and cook on High for <b>30</b> minutes.</li>
-                <li itemprop="recipeInstructions">Spoon the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span> and sauce into two small flameproof dishes. Heat the grill to high. Dot the <span data-default="0.5x" data-quantity="0.5x" data-unit="150 g ball" class="tooltip scalable">cheese</span> on top of the sauce dishes, then put under the grill until the <span data-default="0.5x" data-quantity="0.5x" data-unit="150 g ball" class="tooltip scalable">cheese</span> is golden and bubbling (about <b>5-10</b> minutes), and serve.</li>
+                <li itemprop="recipeInstructions">Heat the slow cooker. Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large frying pan. Squeeze the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">sausage</span> meat out of the skins, breaking it into little chunks, and pop in the pan. Fry for <b>8</b> minutes until golden and cooked through, then scoop into the slow cooker pot. Add the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">courgette</span>, <span data-default="3" data-defaultunit="cloves" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="" data-defaultunit="pinch" data-quantity="" data-unit="pinch" class="tooltip scalable">chilli flakes</span>, <span data-default="1x" data-defaultunit="400 g can" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">tomatoes</span>, <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span> and <b>250</b> ml water to the slow cooker pot, season and cook on High for <b>30</b> minutes.</li>
+                <li itemprop="recipeInstructions">Spoon the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span> and sauce into two small flameproof dishes. Heat the grill to high. Dot the <span data-default="0.5x" data-defaultunit="150 g ball" data-quantity="0.5x" data-unit="150 g ball" class="tooltip scalable">cheese</span> on top of the sauce dishes, then put under the grill until the <span data-default="0.5x" data-defaultunit="150 g ball" data-quantity="0.5x" data-unit="150 g ball" class="tooltip scalable">cheese</span> is golden and bubbling (about <b>5-10</b> minutes), and serve.</li>
                 </ol>
 
             <hr>

@@ -13,7 +13,7 @@
         <title>Persian dried lime, lamb & split pea stew | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Lamb" itemscope itemtype="https://schema.org/Recipe">
 
@@ -51,41 +51,54 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsp olive oil</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> large onions, roughly diced</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="large">large</span> onions, roughly diced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> kg boneless lamb neck fillets, sliced into 2.5 cm pieces</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="kg">kg</span> boneless lamb neck fillets, sliced into 2.5 cm pieces</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> heaped tsp turmeric</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="heaped tsp">heaped tsp</span> turmeric</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> generous pinches saffron threads</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="generous pinches">generous pinches</span> saffron threads</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> heaped tsp ground cinnamon</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="heaped tsp">heaped tsp</span> ground cinnamon</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="150" class="scalable">150</span> g tomato puree</li>
-                    <li itemprop="recipeIngredient">sea salt flakes and freshly ground black pepper</li>
+                        <span data-default="150" class="scalable">150</span>
+                        <span data-unit="g">g</span> tomato puree</li>
+                    <li itemprop="recipeIngredient"> sea salt flakes and freshly ground black pepper</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="8" class="scalable">8</span> Persian dried whole limes or preserved lemons</li>
+                        <span data-default="8" class="scalable">8</span>
+                        <span data-unit=""></span> Persian dried whole limes or preserved lemons</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g dried yellow split peas</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> dried yellow split peas</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Set a large heavy-based saucepan over a medium heat, add the <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">olive oil</span> and diced <span data-default="2" data-quantity="2" data-unit="large" class="tooltip scalable">onions</span> and cook until the <span data-default="2" data-quantity="2" data-unit="large" class="tooltip scalable">onions</span> are softened, translucent and cooked through. Increase the temperature to high, add the <span data-default="1" data-quantity="1" data-unit="kg" class="tooltip scalable">lamb</span> and fry the meat for about <b>5</b> minutes, stirring constantly to keep it moving and avoid stewing it.</li>
-                <li itemprop="recipeInstructions">Stir the <span data-default="2" data-quantity="2" data-unit="heaped tsp" class="tooltip scalable">turmeric</span> into the mixture to give the meat an even coating of it. Do the same with the <span data-default="2" data-quantity="2" data-unit="generous pinches" class="tooltip scalable">saffron</span> and <span data-default="1" data-quantity="1" data-unit="heaped tsp" class="tooltip scalable">cinnamon</span>, then add the <span data-default="150" data-quantity="150" data-unit="g" class="tooltip scalable">tomato puree</span> and a generous seasoning of sea salt flakes and black pepper, give the meat a good stir and cook for <b>1</b> minute.</li>
-                <li itemprop="recipeInstructions">Prick your <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">dried limes</span> several times with a fork, then add them to the meat. Add just enough cold water to barely cover the contents of the pan. Stir well, then reduce the heat to very low and slow cook the stew for <b>1</b><b>&frac12;</b> hours. Add the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">yellow split peas</span>, check the seasoning and cook for a further <b>1</b> hour. Serve the stew with basmati rice. </li>
+                <li itemprop="recipeInstructions">Set a large heavy-based saucepan over a medium heat, add the <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">olive oil</span> and diced <span data-default="2" data-defaultunit="large" data-quantity="2" data-unit="large" class="tooltip scalable">onions</span> and cook until the <span data-default="2" data-defaultunit="large" data-quantity="2" data-unit="large" class="tooltip scalable">onions</span> are softened, translucent and cooked through. Increase the temperature to high, add the <span data-default="1" data-defaultunit="kg" data-quantity="1" data-unit="kg" class="tooltip scalable">lamb</span> and fry the meat for about <b>5</b> minutes, stirring constantly to keep it moving and avoid stewing it.</li>
+                <li itemprop="recipeInstructions">Stir the <span data-default="2" data-defaultunit="heaped tsp" data-quantity="2" data-unit="heaped tsp" class="tooltip scalable">turmeric</span> into the mixture to give the meat an even coating of it. Do the same with the <span data-default="2" data-defaultunit="generous pinches" data-quantity="2" data-unit="generous pinches" class="tooltip scalable">saffron</span> and <span data-default="1" data-defaultunit="heaped tsp" data-quantity="1" data-unit="heaped tsp" class="tooltip scalable">cinnamon</span>, then add the <span data-default="150" data-defaultunit="g" data-quantity="150" data-unit="g" class="tooltip scalable">tomato puree</span> and a generous seasoning of sea salt flakes and black pepper, give the meat a good stir and cook for <b>1</b> minute.</li>
+                <li itemprop="recipeInstructions">Prick your <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">dried limes</span> several times with a fork, then add them to the meat. Add just enough cold water to barely cover the contents of the pan. Stir well, then reduce the heat to very low and slow cook the stew for <b>1</b><b>&frac12;</b> hours. Add the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">yellow split peas</span>, check the seasoning and cook for a further <b>1</b> hour. Serve the stew with basmati rice. </li>
                 </ol>
 
             <hr>

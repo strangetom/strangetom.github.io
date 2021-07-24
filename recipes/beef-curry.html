@@ -13,7 +13,7 @@
         <title>Beef curry | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Beef" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,56 +47,75 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g diced braising steak</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="g">g</span> diced braising steak</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp butter</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large onion, chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> onion, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, crushed</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> thumb sized piece ginger, finely grated</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="thumb sized piece">thumb sized piece</span> ginger, finely grated</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> tsp hot chilli powder</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit="tsp">tsp</span> hot chilli powder</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp turmeric</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> turmeric</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp ground coriander</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> ground coriander</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> pods cardamom, crushed</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="pods">pods</span> cardamom, crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g can chopped tomatoes</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g can">400 g can</span> chopped tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="300" class="scalable">300</span> ml beef stock</li>
+                        <span data-default="300" class="scalable">300</span>
+                        <span data-unit="ml">ml</span> beef stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp sugar</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> sugar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp garam masala</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> garam masala</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp double cream (optional)</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> double cream (optional)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> small bunch coriander, roughly chopped</li>
-                    <li itemprop="recipeIngredient">naan bread or rice, to serve</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="small bunch">small bunch</span> coriander, roughly chopped</li>
+                    <li itemprop="recipeIngredient"> naan bread or rice, to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat one tbsp of the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a casserole pot over a medium-high heat. Season the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">beef</span> and fry in the pot for <b>5-8</b> mins, turning with a pair of tongs half way until evenly browned. Set aside on a plate.</li>
-                <li itemprop="recipeInstructions">Heat the remaining <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">butter</span> in the pan and add the onions. Fry gently for <b>15</b> mins or until golden brown and caramelised. Add the <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="1" data-quantity="1" data-unit="thumb sized piece" class="tooltip scalable">ginger</span>, <span data-default="0.25" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">chilli</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">turmeric</span>, <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">ground coriander</span> and <span data-default="3" data-quantity="3" data-unit="pods" class="tooltip scalable">cardamom</span> and fry for two mins. Tip in the <span data-default="400" data-quantity="400" data-unit="g can" class="tooltip scalable">tomatoes</span>, <span data-default="300" data-quantity="300" data-unit="ml" class="tooltip scalable">stock</span> and <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">sugar</span> and bring to the simmer.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">beef</span>, put a lid on top of the curry and cook over a low heat for <b>1</b><b>&frac12;</b> - <b>2</b> hrs or until the meat is tender and falling apart. Remove the lid for the last <b>20</b> minutes of cooking.</li>
-                <li itemprop="recipeInstructions">Stir through the <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">garam masala</span> and <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">cream</span> (if using) and season to taste. Scatter over the <span data-default="0.5" data-quantity="&frac12;" data-unit="small bunch" class="tooltip scalable">coriander</span> and serve with naan breads or rice.</li>
+                <li itemprop="recipeInstructions">Heat one tbsp of the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a casserole pot over a medium-high heat. Season the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">beef</span> and fry in the pot for <b>5-8</b> mins, turning with a pair of tongs half way until evenly browned. Set aside on a plate.</li>
+                <li itemprop="recipeInstructions">Heat the remaining <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">butter</span> in the pan and add the onions. Fry gently for <b>15</b> mins or until golden brown and caramelised. Add the <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="1" data-defaultunit="thumb sized piece" data-quantity="1" data-unit="thumb sized piece" class="tooltip scalable">ginger</span>, <span data-default="0.25" data-defaultunit="tsp" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">chilli</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">turmeric</span>, <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">ground coriander</span> and <span data-default="3" data-defaultunit="pods" data-quantity="3" data-unit="pods" class="tooltip scalable">cardamom</span> and fry for two mins. Tip in the <span data-default="1x" data-defaultunit="400 g can" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">tomatoes</span>, <span data-default="300" data-defaultunit="ml" data-quantity="300" data-unit="ml" class="tooltip scalable">stock</span> and <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">sugar</span> and bring to the simmer.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">beef</span>, put a lid on top of the curry and cook over a low heat for <b>1</b><b>&frac12;</b> - <b>2</b> hrs or until the meat is tender and falling apart. Remove the lid for the last <b>20</b> minutes of cooking.</li>
+                <li itemprop="recipeInstructions">Stir through the <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">garam masala</span> and <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">cream</span> (if using) and season to taste. Scatter over the <span data-default="0.5" data-defaultunit="small bunch" data-quantity="&frac12;" data-unit="small bunch" class="tooltip scalable">coriander</span> and serve with naan breads or rice.</li>
                 </ol>
 
             <hr>

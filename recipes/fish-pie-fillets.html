@@ -13,7 +13,7 @@
         <title>Fish pie fillets | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,35 +43,45 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span>x 175 g thick white fish fillets</li>
+                        <span data-default="4" class="scalable">4</span>x <span data-unit="175 g">175 g</span> thick white fish fillets</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="small bunch" class="scalable">small bunch</span> dill, leaves only, chopped</li>
+                        <span data-default="small bunch" class="scalable">small bunch</span>
+                        <span data-unit=""></span> dill, leaves only, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> g half-fat soft cheese</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="g">g</span> half-fat soft cheese</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g frozen prawns, raw or cooked defrosted</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> frozen prawns, raw or cooked defrosted</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> sheets filo pastry</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> sheets filo pastry</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp rapeseed oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> rapeseed oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp Parmesan, finely grated</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> Parmesan, finely grated</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the oven to <b>200</b>&deg;C/Gas <b>7</b>. Put the fish onto a non-stick baking sheet and season all over. Mix the <span data-default="small bunch" data-quantity="small bunch" data-unit="" class="tooltip scalable">dill</span> and <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">soft cheese</span> in a small bowl, then stir in the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">prawns</span>, taking care not the break them up. Season with black pepper, then spread evenly over the fish.</li>
-                <li itemprop="recipeInstructions">Brush the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">filo sheets</span> with the <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">oil</span>, then cut into thick strips. Scrunch the pastry up a little and arrange on top of the fish. Scatter with <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">Parmesan</span>, then bake for <b>10</b> minutes until the fish is cooked through and the pastry is crisp and golden. If you've used raw <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">prawns</span> check they're cooked through.</li>
+                <li itemprop="recipeInstructions">Heat the oven to <b>200</b>&deg;C/Gas <b>7</b>. Put the fish onto a non-stick baking sheet and season all over. Mix the <span data-default="small bunch" data-defaultunit="" data-quantity="small bunch" data-unit="" class="tooltip scalable">dill</span> and <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">soft cheese</span> in a small bowl, then stir in the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">prawns</span>, taking care not the break them up. Season with black pepper, then spread evenly over the fish.</li>
+                <li itemprop="recipeInstructions">Brush the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">filo sheets</span> with the <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">oil</span>, then cut into thick strips. Scrunch the pastry up a little and arrange on top of the fish. Scatter with <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">Parmesan</span>, then bake for <b>10</b> minutes until the fish is cooked through and the pastry is crisp and golden. If you've used raw <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">prawns</span> check they're cooked through.</li>
                 </ol>
 
             <hr>

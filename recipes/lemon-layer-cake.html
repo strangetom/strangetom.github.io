@@ -13,7 +13,7 @@
         <title>Lemon layer cake | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Dessert" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,33 +43,46 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="225" class="scalable">225</span> g unsalted butter, softened</li>
+                        <span data-default="225" class="scalable">225</span>
+                        <span data-unit="g">g</span> unsalted butter, softened</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="125" class="scalable">125</span> caster sugar</li>
+                        <span data-default="125" class="scalable">125</span>
+                        <span data-unit=""></span> caster sugar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> g golden syrup</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="g">g</span> golden syrup</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="225" class="scalable">225</span> g self-raising flour</li>
+                        <span data-default="225" class="scalable">225</span>
+                        <span data-unit="g">g</span> self-raising flour</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp baking powder</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> baking powder</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> large eggs</li>
-                    <li itemprop="recipeIngredient">finely grated zest of 1 lemon</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="large">large</span> eggs</li>
+                    <li itemprop="recipeIngredient"> finely grated zest of 1 lemon</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> g unsalted butter</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="g">g</span> unsalted butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp golden syrup</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> golden syrup</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g icing sugar</li>
-                    <li itemprop="recipeIngredient">pared zest of 1 lemon, plus 3 tbsp of juice</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> icing sugar</li>
+                    <li itemprop="recipeIngredient"> pared zest of 1 lemon, plus 3 tbsp of juice</li>
                 </ul>
             </div>
         
@@ -77,9 +90,9 @@
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Preheat the oven to <b>160</b>&deg;C/Gas <b>4</b>. Grease and base-line <b>2</b> x <b>20</b> cm loose based sandwich tins.</li>
-                <li itemprop="recipeInstructions">Using an electric whisk, beat the <span data-default="225" data-quantity="225" data-unit="g" class="tooltip scalable">butter</span>, <span data-default="125" data-quantity="125" data-unit="" class="tooltip scalable">sugar</span>, <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">syrup</span>, <span data-default="225" data-quantity="225" data-unit="g" class="tooltip scalable">flour</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">baking powder</span>, <span data-default="4" data-quantity="4" data-unit="large" class="tooltip scalable">eggs</span> and grated lemon zest together in a bowl until combined. Scrape down the sides using a spatula then whisk again until the mixture is pale and fluffy.</li>
+                <li itemprop="recipeInstructions">Using an electric whisk, beat the <span data-default="225" data-defaultunit="g" data-quantity="225" data-unit="g" class="tooltip scalable">butter</span>, <span data-default="125" data-defaultunit="" data-quantity="125" data-unit="" class="tooltip scalable">sugar</span>, <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">syrup</span>, <span data-default="225" data-defaultunit="g" data-quantity="225" data-unit="g" class="tooltip scalable">flour</span>, <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">baking powder</span>, <span data-default="4" data-defaultunit="large" data-quantity="4" data-unit="large" class="tooltip scalable">eggs</span> and grated lemon zest together in a bowl until combined. Scrape down the sides using a spatula then whisk again until the mixture is pale and fluffy.</li>
                 <li itemprop="recipeInstructions">Divide the batter equally between the <b>2</b> prepared cake tins and level the tops. Bake for <b>20-25</b> minutes, or until the cakes are golden and springy to the touch. Cool in the tins for <b>5</b> minutes then loosen the edges with a knife and turn out onto wire racks. Remove and discard the base paper.</li>
-                <li itemprop="recipeInstructions">For the icing, cream the <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">unsalted butter</span> and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">golden syrup</span> in a large bowl until smooth and pale. Add the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">icing sugar</span> and lemon juice, then beat until the mixture is light and fluffy.</li>
+                <li itemprop="recipeInstructions">For the icing, cream the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">unsalted butter</span> and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">golden syrup</span> in a large bowl until smooth and pale. Add the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">icing sugar</span> and lemon juice, then beat until the mixture is light and fluffy.</li>
                 <li itemprop="recipeInstructions">Put <b>1</b> sponge onto a stand or plate. Spread over half the icing, then top with the second sponge. Spread the remaining icing over the top and decorate with the pared lemon zest.</li>
                 </ol>
 

@@ -13,7 +13,7 @@
         <title>Cheat's sausage cassoulet | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -48,44 +48,56 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 400 g pack Toulouse-inspired sausages</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g pack">400 g pack</span> Toulouse-inspired sausages</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> onion, finely chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> onion, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large carrot, finely diced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> carrot, finely diced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> stick celery, finely diced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="stick">stick</span> celery, finely diced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, finely chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 400 g tin cannellini beans, drained and rinsed</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g tin">400 g tin</span> cannellini beans, drained and rinsed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsp sundried tomato paste</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsp">tbsp</span> sundried tomato paste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> bay leaf</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> bay leaf</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> ml hot chicken stock</li>
-                    <li itemprop="recipeIngredient">handful of flat-leaf parsley, roughly chopped</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="ml">ml</span> hot chicken stock</li>
+                    <li itemprop="recipeIngredient"> handful of flat-leaf parsley, roughly chopped</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the oil in a nonstick deep saute or frying pan until hot. Add the <span data-default="1x" data-quantity="1x" data-unit="400 g pack" class="tooltip scalable">sausages</span> and fry over a medium heat for <b>10</b> minutes, turning occasionally, until golden. Remove to a plate.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">carrot</span>, <span data-default="1" data-quantity="1" data-unit="stick" class="tooltip scalable">celery</span> and <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> to the pan; cover with a lid and cook gently for <b>10</b> minutes. Take a spoonful of the <span data-default="1x" data-quantity="1x" data-unit="400 g tin" class="tooltip scalable">cannellini beans</span> and, using a fork, mash with the <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">tomato paste</span> to a rough paste.</li>
-                <li itemprop="recipeInstructions">After the <b>10</b> minutes, add the bean and <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">tomato paste</span>. Return the <span data-default="1x" data-quantity="1x" data-unit="400 g pack" class="tooltip scalable">sausages</span> to the pan, with the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">bay leaf</span> and the rest of the beans. Add the <span data-default="250" data-quantity="250" data-unit="ml" class="tooltip scalable">stock</span>; season.</li>
-                <li itemprop="recipeInstructions">Bring to the boil, reduce the heat and simmer, uncovered, for <b>10</b> minutes until reduced and the <span data-default="1x" data-quantity="1x" data-unit="400 g pack" class="tooltip scalable">sausages</span> are cooked through. Season to taste. Finish with parsley; serve with crusty bread.</li>
+                <li itemprop="recipeInstructions">Heat the oil in a nonstick deep saute or frying pan until hot. Add the <span data-default="1x" data-defaultunit="400 g pack" data-quantity="1x" data-unit="400 g pack" class="tooltip scalable">sausages</span> and fry over a medium heat for <b>10</b> minutes, turning occasionally, until golden. Remove to a plate.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">carrot</span>, <span data-default="1" data-defaultunit="stick" data-quantity="1" data-unit="stick" class="tooltip scalable">celery</span> and <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> to the pan; cover with a lid and cook gently for <b>10</b> minutes. Take a spoonful of the <span data-default="1x" data-defaultunit="400 g tin" data-quantity="1x" data-unit="400 g tin" class="tooltip scalable">cannellini beans</span> and, using a fork, mash with the <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">tomato paste</span> to a rough paste.</li>
+                <li itemprop="recipeInstructions">After the <b>10</b> minutes, add the bean and <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">tomato paste</span>. Return the <span data-default="1x" data-defaultunit="400 g pack" data-quantity="1x" data-unit="400 g pack" class="tooltip scalable">sausages</span> to the pan, with the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">bay leaf</span> and the rest of the beans. Add the <span data-default="250" data-defaultunit="ml" data-quantity="250" data-unit="ml" class="tooltip scalable">stock</span>; season.</li>
+                <li itemprop="recipeInstructions">Bring to the boil, reduce the heat and simmer, uncovered, for <b>10</b> minutes until reduced and the <span data-default="1x" data-defaultunit="400 g pack" data-quantity="1x" data-unit="400 g pack" class="tooltip scalable">sausages</span> are cooked through. Season to taste. Finish with parsley; serve with crusty bread.</li>
                 </ol>
 
             <hr>

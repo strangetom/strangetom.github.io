@@ -13,7 +13,7 @@
         <title>Coconut cod with lemon sauce and broccoli mash | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,44 +43,58 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> medium potatoes, peeled and cut into 2 cm chunks</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="medium">medium</span> potatoes, peeled and cut into 2 cm chunks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> small head broccoli, stalk chopped and head cut into florets</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="small head">small head</span> broccoli, stalk chopped and head cut into florets</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> mugs defrosted frozen peas</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="mugs">mugs</span> defrosted frozen peas</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="25" class="scalable">25</span> g butter</li>
+                        <span data-default="25" class="scalable">25</span>
+                        <span data-unit="g">g</span> butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="25" class="scalable">25</span> g butter</li>
+                        <span data-default="25" class="scalable">25</span>
+                        <span data-unit="g">g</span> butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> cod fillets</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> cod fillets</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> beaten egg</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> beaten egg</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tbsps dessicated coconut</li>
-                    <li itemprop="recipeIngredient">oil to fry</li>
-                    <li itemprop="recipeIngredient">juice of a lemon</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="tbsps">tbsps</span> dessicated coconut</li>
+                    <li itemprop="recipeIngredient"> oil to fry</li>
+                    <li itemprop="recipeIngredient"> juice of a lemon</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tbsp light brown sugar</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="tbsp">tbsp</span> light brown sugar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp water</li>
-                    <li itemprop="recipeIngredient">salt and pepper</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> water</li>
+                    <li itemprop="recipeIngredient"> salt and pepper</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Put the <span data-default="4" data-quantity="4" data-unit="medium" class="tooltip scalable">potatoes</span> and <span data-default="1" data-quantity="1" data-unit="small head" class="tooltip scalable">broccoli</span> stalks into a pan of boiling <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">water</span>, bring to the boil then turn down to simmer for <b>5</b> minutes. Add the <span data-default="1" data-quantity="1" data-unit="small head" class="tooltip scalable">broccoli</span> florets and <span data-default="2" data-quantity="2" data-unit="mugs" class="tooltip scalable">peas</span> and simmer for a further <b>5</b> minutes. Drain and mash roughly with the <span data-default="25" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span>.  </li>
-                <li itemprop="recipeInstructions">Dip the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">cod fillets</span> in the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">beaten egg</span> and then into the coconut. Heat the oil in a frying pan and cook the cod, on a medium heat until the fish is browned on the outside and cooked through. Should take about <b>5</b> minutes, depending on the thickness of the fish.  </li>
+                <li itemprop="recipeInstructions">Put the <span data-default="4" data-defaultunit="medium" data-quantity="4" data-unit="medium" class="tooltip scalable">potatoes</span> and <span data-default="1" data-defaultunit="small head" data-quantity="1" data-unit="small head" class="tooltip scalable">broccoli</span> stalks into a pan of boiling <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">water</span>, bring to the boil then turn down to simmer for <b>5</b> minutes. Add the <span data-default="1" data-defaultunit="small head" data-quantity="1" data-unit="small head" class="tooltip scalable">broccoli</span> florets and <span data-default="2" data-defaultunit="mugs" data-quantity="2" data-unit="mugs" class="tooltip scalable">peas</span> and simmer for a further <b>5</b> minutes. Drain and mash roughly with the <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span>.  </li>
+                <li itemprop="recipeInstructions">Dip the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">cod fillets</span> in the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">beaten egg</span> and then into the coconut. Heat the oil in a frying pan and cook the cod, on a medium heat until the fish is browned on the outside and cooked through. Should take about <b>5</b> minutes, depending on the thickness of the fish.  </li>
                 <li itemprop="recipeInstructions">Remove the fish from the pan and add the sauce ingredients. Allow to simmer for <b>2</b> minutes. The sauce should thicken slightly.  </li>
                 <li itemprop="recipeInstructions">Serve with the fish and the mash.</li>
                 </ol>

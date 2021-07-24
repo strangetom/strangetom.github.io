@@ -13,7 +13,7 @@
         <title>Orzo with prawns, tomato and marinated feta | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,45 +43,59 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g feta, broken into 1-2 cm pieces</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> feta, broken into 1-2 cm pieces</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp chilli flakes</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> chilli flakes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tsp fennel seeds, toasted and lightly crushed</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="tsp">tsp</span> fennel seeds, toasted and lightly crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="75" class="scalable">75</span> ml olive oil</li>
+                        <span data-default="75" class="scalable">75</span>
+                        <span data-unit="ml">ml</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g orzo</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="g">g</span> orzo</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> cloves garlic, crushed</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="cloves">cloves</span> garlic, crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> strips finely shaved orange skin</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="strips">strips</span> finely shaved orange skin</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 400 g tin chopped tomatoes</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g tin">400 g tin</span> chopped tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> ml vegetable stock</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="ml">ml</span> vegetable stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g raw shell-off prawns</li>
+                        <span data-default="400" class="scalable">400</span>
+                        <span data-unit="g">g</span> raw shell-off prawns</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="30" class="scalable">30</span> g basil leaves, roughly shredded</li>
-                    <li itemprop="recipeIngredient">salt and black pepper</li>
+                        <span data-default="30" class="scalable">30</span>
+                        <span data-unit="g">g</span> basil leaves, roughly shredded</li>
+                    <li itemprop="recipeIngredient"> salt and black pepper</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">In a medium bowl, mix the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">feta</span> with <b>&frac14;</b> tsp of the <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">chilli flakes</span>, <b>2</b> tsps of the <span data-default="4" data-quantity="4" data-unit="tsp" class="tooltip scalable">fennel seeds</span> and <b>1</b> tablespoon of the <span data-default="75" data-quantity="75" data-unit="ml" class="tooltip scalable">oil</span>. Set aside while you cook the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">orzo</span>.</li>
-                <li itemprop="recipeInstructions">Place a large sauté pan, for which you have a lid, on a medium high heat. Add <b>2</b> tablespoons of <span data-default="75" data-quantity="75" data-unit="ml" class="tooltip scalable">oil</span>, <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">orzo</span>, <b>&frac18;</b> tsp of salt and a good grind of pepper. Fry for <b>3-4</b> minutes, stirring frequently, until golden-brown, then remove from the pan and set aside.</li>
-                <li itemprop="recipeInstructions">Return the pan to the same heat and add the remaining <b>2</b> tablespoons of <span data-default="75" data-quantity="75" data-unit="ml" class="tooltip scalable">oil</span>, <b>&frac14;</b> tsp of <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">chilli flakes</span> and <b>2</b> tsps of <span data-default="4" data-quantity="4" data-unit="tsp" class="tooltip scalable">fennel seeds</span>, the <span data-default="3" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span> and the <span data-default="3" data-quantity="3" data-unit="strips" class="tooltip scalable">orange skin</span>. Fry for <b>1</b> minute, until the <span data-default="3" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span> starts to lightly brown, then add the <span data-default="1x" data-quantity="1x" data-unit="400 g tin" class="tooltip scalable">tomatoes</span>, <span data-default="500" data-quantity="500" data-unit="ml" class="tooltip scalable">stock</span>, <b>200</b> ml of water, <b>&frac34;</b> tsp of salt and plenty of pepper. Cook for <b>2-3</b> minutes, or until boiling, then stir in the fried <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">orzo</span>. Cover, then lower the heat to medium low and leave to simmer for <b>15</b> minutes, stirring once or twice throughout so the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">orzo</span> is cooked. Remove the lid and cook for a further <b>1-2</b> minutes, until the consistency is like a risotto. Stir in the <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">prawns</span> for <b>2-3</b> minutes until they are pink and cooked. Stir in the <span data-default="30" data-quantity="30" data-unit="g" class="tooltip scalable">basil</span> and serve at once, with the marinated <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">feta</span> sprinkled on top.</li>
+                <li itemprop="recipeInstructions">In a medium bowl, mix the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">feta</span> with <b>&frac14;</b> tsp of the <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">chilli flakes</span>, <b>2</b> tsps of the <span data-default="4" data-defaultunit="tsp" data-quantity="4" data-unit="tsp" class="tooltip scalable">fennel seeds</span> and <b>1</b> tablespoon of the <span data-default="75" data-defaultunit="ml" data-quantity="75" data-unit="ml" class="tooltip scalable">oil</span>. Set aside while you cook the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">orzo</span>.</li>
+                <li itemprop="recipeInstructions">Place a large sauté pan, for which you have a lid, on a medium high heat. Add <b>2</b> tablespoons of <span data-default="75" data-defaultunit="ml" data-quantity="75" data-unit="ml" class="tooltip scalable">oil</span>, <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">orzo</span>, <b>&frac18;</b> tsp of salt and a good grind of pepper. Fry for <b>3-4</b> minutes, stirring frequently, until golden-brown, then remove from the pan and set aside.</li>
+                <li itemprop="recipeInstructions">Return the pan to the same heat and add the remaining <b>2</b> tablespoons of <span data-default="75" data-defaultunit="ml" data-quantity="75" data-unit="ml" class="tooltip scalable">oil</span>, <b>&frac14;</b> tsp of <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">chilli flakes</span> and <b>2</b> tsps of <span data-default="4" data-defaultunit="tsp" data-quantity="4" data-unit="tsp" class="tooltip scalable">fennel seeds</span>, the <span data-default="3" data-defaultunit="cloves" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span> and the <span data-default="3" data-defaultunit="strips" data-quantity="3" data-unit="strips" class="tooltip scalable">orange skin</span>. Fry for <b>1</b> minute, until the <span data-default="3" data-defaultunit="cloves" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span> starts to lightly brown, then add the <span data-default="1x" data-defaultunit="400 g tin" data-quantity="1x" data-unit="400 g tin" class="tooltip scalable">tomatoes</span>, <span data-default="500" data-defaultunit="ml" data-quantity="500" data-unit="ml" class="tooltip scalable">stock</span>, <b>200</b> ml of water, <b>&frac34;</b> tsp of salt and plenty of pepper. Cook for <b>2-3</b> minutes, or until boiling, then stir in the fried <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">orzo</span>. Cover, then lower the heat to medium low and leave to simmer for <b>15</b> minutes, stirring once or twice throughout so the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">orzo</span> is cooked. Remove the lid and cook for a further <b>1-2</b> minutes, until the consistency is like a risotto. Stir in the <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">prawns</span> for <b>2-3</b> minutes until they are pink and cooked. Stir in the <span data-default="30" data-defaultunit="g" data-quantity="30" data-unit="g" class="tooltip scalable">basil</span> and serve at once, with the marinated <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">feta</span> sprinkled on top.</li>
                 </ol>
 
             <hr>

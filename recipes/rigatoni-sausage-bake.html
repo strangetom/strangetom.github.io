@@ -13,7 +13,7 @@
         <title>Rigatoni sausage bake | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,50 +43,68 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> onion, chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> onion, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g good quality pork sausages, skins discarded and meat chopped</li>
+                        <span data-default="400" class="scalable">400</span>
+                        <span data-unit="g">g</span> good quality pork sausages, skins discarded and meat chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large carrot, grated</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> carrot, grated</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="150" class="scalable">150</span> ml red wine</li>
+                        <span data-default="150" class="scalable">150</span>
+                        <span data-unit="ml">ml</span> red wine</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="300" class="scalable">300</span> ml vegetable stock</li>
+                        <span data-default="300" class="scalable">300</span>
+                        <span data-unit="ml">ml</span> vegetable stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsp tomato puree</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsp">tbsp</span> tomato puree</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g rigatoni</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="g">g</span> rigatoni</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g fresh spinach</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> fresh spinach</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="140" class="scalable">140</span> g mature cheddar cheese, grated</li>
+                        <span data-default="140" class="scalable">140</span>
+                        <span data-unit="g">g</span> mature cheddar cheese, grated</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> g butter</li>
+                        <span data-default="50" class="scalable">50</span>
+                        <span data-unit="g">g</span> butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> g plain flour</li>
+                        <span data-default="50" class="scalable">50</span>
+                        <span data-unit="g">g</span> plain flour</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="600" class="scalable">600</span> ml milk</li>
+                        <span data-default="600" class="scalable">600</span>
+                        <span data-unit="ml">ml</span> milk</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="good pinch" class="scalable">good pinch</span> nutmeg, freshly grated</li>
+                        <span data-default="good pinch" class="scalable">good pinch</span>
+                        <span data-unit=""></span> nutmeg, freshly grated</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Preheat the over to <b>170</b>&deg;C/Gas <b>5</b>. Heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large pan and fry the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> for <b>5</b> minutes until softened. Stir in the sausagemeat and fry until lightly coloured. Add the <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">carrot</span>, <span data-default="150" data-quantity="150" data-unit="ml" class="tooltip scalable">wine</span>, <span data-default="300" data-quantity="300" data-unit="ml" class="tooltip scalable">stock</span>, <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">puree</span> and seasoning. Bring to the boil and simmer uncovered for <b>15</b> minutes.  </li>
+                <li itemprop="recipeInstructions">Preheat the over to <b>170</b>&deg;C/Gas <b>5</b>. Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large pan and fry the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> for <b>5</b> minutes until softened. Stir in the sausagemeat and fry until lightly coloured. Add the <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">carrot</span>, <span data-default="150" data-defaultunit="ml" data-quantity="150" data-unit="ml" class="tooltip scalable">wine</span>, <span data-default="300" data-defaultunit="ml" data-quantity="300" data-unit="ml" class="tooltip scalable">stock</span>, <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">puree</span> and seasoning. Bring to the boil and simmer uncovered for <b>15</b> minutes.  </li>
                 <li itemprop="recipeInstructions">Put all the sauce ingredients in a pan with some seasoning and simmer, whisking all the time, until thick and smooth.  </li>
-                <li itemprop="recipeInstructions">Cook the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">pasta</span> according to the instructions on the packet, remove from the heat and stir in the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">spinach</span> until just wilted, then drain. Spread half the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">pasta</span> and <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">spinach</span> in a shallow <b>2.2</b>-litre ovenproof dish. Cover with the sausage sauce, then the remaining <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">pasta</span> and the white sauce. Sprinkle with the <span data-default="140" data-quantity="140" data-unit="g" class="tooltip scalable">cheese</span> and bake for <b>25</b> minutes until golden brown.  </li>
+                <li itemprop="recipeInstructions">Cook the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">pasta</span> according to the instructions on the packet, remove from the heat and stir in the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">spinach</span> until just wilted, then drain. Spread half the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">pasta</span> and <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">spinach</span> in a shallow <b>2.2</b>-litre ovenproof dish. Cover with the sausage sauce, then the remaining <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">pasta</span> and the white sauce. Sprinkle with the <span data-default="140" data-defaultunit="g" data-quantity="140" data-unit="g" class="tooltip scalable">cheese</span> and bake for <b>25</b> minutes until golden brown.  </li>
                 </ol>
 
             <hr>

@@ -13,7 +13,7 @@
         <title>Salmon & ginger fish cakes | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,24 +47,32 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large sweet potato, cut into chips</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> sweet potato, cut into chips</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tsp olive oil</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="tsp">tsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span>x 140 g skinless salmon fillets</li>
+                        <span data-default="2" class="scalable">2</span>x <span data-unit="140 g">140 g</span> skinless salmon fillets</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="thumbnail-size piece" class="scalable">thumbnail-size piece</span> ginger, grated</li>
-                    <li itemprop="recipeIngredient">zest 1 lime, plus wedges to serve</li>
+                        <span data-default="thumbnail-size piece" class="scalable">thumbnail-size piece</span>
+                        <span data-unit=""></span> ginger, grated</li>
+                    <li itemprop="recipeIngredient"> zest 1 lime, plus wedges to serve</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="bunch" class="scalable">bunch</span> spring onions, finely chopped</li>
+                        <span data-default="bunch" class="scalable">bunch</span>
+                        <span data-unit=""></span> spring onions, finely chopped</li>
                 </ul>
             </div>
         
@@ -72,7 +80,7 @@
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Heat oven to <b>200</b>&deg;C/<b>180</b>&deg;C fan/Gas <b>6</b>. Toss the chips in a roasting tin with <b>1</b> tsp oil. Season and bake for <b>20-25</b> mins.  </li>
-                <li itemprop="recipeInstructions">Chop the <span data-default="2x" data-quantity="2x" data-unit="140 g" class="tooltip scalable">salmon</span> as finely as you can and place in a bowl with the <span data-default="thumbnail-size piece" data-quantity="thumbnail-size piece" data-unit="" class="tooltip scalable">ginger</span>, lime zest and seasoning. Heat <b>1</b> tsp oil in a non-stick pan and soften the <span data-default="bunch" data-quantity="bunch" data-unit="" class="tooltip scalable">spring onions</span> for <b>2</b> mins. Stir into the <span data-default="2x" data-quantity="2x" data-unit="140 g" class="tooltip scalable">salmon</span>, mix well and shape into <b>4</b> patties.  </li>
+                <li itemprop="recipeInstructions">Chop the <span data-default="2x" data-defaultunit="140 g" data-quantity="2x" data-unit="140 g" class="tooltip scalable">salmon</span> as finely as you can and place in a bowl with the <span data-default="thumbnail-size piece" data-defaultunit="" data-quantity="thumbnail-size piece" data-unit="" class="tooltip scalable">ginger</span>, lime zest and seasoning. Heat <b>1</b> tsp oil in a non-stick pan and soften the <span data-default="bunch" data-defaultunit="" data-quantity="bunch" data-unit="" class="tooltip scalable">spring onions</span> for <b>2</b> mins. Stir into the <span data-default="2x" data-defaultunit="140 g" data-quantity="2x" data-unit="140 g" class="tooltip scalable">salmon</span>, mix well and shape into <b>4</b> patties.  </li>
                 <li itemprop="recipeInstructions">Heat remaining oil in the pan and cook the patties for <b>3-4</b> mins each side until golden and cooked through. Cover with a lid and leave to rest for a few mins. Serve <b>2</b> patties each with the chips, mayo and lime wedges for squeezing.  </li>
                 </ol>
 

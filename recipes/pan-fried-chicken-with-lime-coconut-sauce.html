@@ -13,7 +13,7 @@
         <title>Pan fried chicken with lime & coconut sauce | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -42,59 +42,76 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.5" class="scalable">1½</span> mugs basmati rice</li>
+                        <span data-default="1.5" class="scalable">1½</span>
+                        <span data-unit="mugs">mugs</span> basmati rice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp pilau seasoning</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> pilau seasoning</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp freshly chopped coriander</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> freshly chopped coriander</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp toasted sesame oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> toasted sesame oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> chicken breasts</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit=""></span> chicken breasts</li>
                 </ul>
                 <details open>
                     <summary class="ingredient-subheading">Lime and cocunut sauce</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp toasted sesame oil</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> toasted sesame oil</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> clove garlic</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="clove">clove</span> garlic</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tbsp freshly grated ginger</li>
-                        <li itemprop="recipeIngredient">juice of a lime</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tbsp">tbsp</span> freshly grated ginger</li>
+                        <li itemprop="recipeIngredient"> juice of a lime</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> chicken stock cube</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit=""></span> chicken stock cube</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tsp fish sauce</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tsp">tsp</span> fish sauce</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tsp sugar</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tsp">tsp</span> sugar</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="400" class="scalable">400</span> ml can coconut milk</li>
+                            <span data-default="1" class="scalable">1</span>x <span data-unit="400 ml can">400 ml can</span> coconut milk</li>
                     </ul>
                 </details>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp toasted sesame oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> toasted sesame oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> pak choi, sliced</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> pak choi, sliced</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Put the <span data-default="1.5" data-quantity="1&frac12;" data-unit="mugs" class="tooltip scalable">rice</span> on the cook in <b>3</b> mugs of boiling water. Add the <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">pilau seasoning</span> and simmer for <b>12</b> minutes. Just before you serve the <span data-default="1.5" data-quantity="1&frac12;" data-unit="mugs" class="tooltip scalable">rice</span>, add the chopped <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">coriander</span>.  </li>
-                <li itemprop="recipeInstructions">Heat the oil in a frying pan and add the <span data-default="3" data-quantity="3" data-unit="" class="tooltip scalable">chicken breasts</span>. Season well. Cook on a fairly high heat for <b>2</b> minutes each side. Turn down to medium heat and cook for a further <b>4</b> minutes each side, with a lid on the pan. If the <span data-default="3" data-quantity="3" data-unit="" class="tooltip scalable">chicken breasts</span> are smaller, then cook for less time. Remove from the pan and set to one side until needed.  </li>
-                <li itemprop="recipeInstructions">To make the sauce, heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">toasted sesame oil</span> in a small saucepan and gently fry the <span data-default="1" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span> and <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">ginger</span>. Add the rest of the sauce ingredients and simmer gently for <b>5-6</b> minutes.  </li>
-                <li itemprop="recipeInstructions">Heat the other tablespoon of <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">toasted sesame oil</span> in the frying pan and stir-fry the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">pak choi</span> for <b>1</b> minutes, or until it begins to wilt slights; it needs to be quite 'al dente'.</li>
+                <li itemprop="recipeInstructions">Put the <span data-default="1.5" data-defaultunit="mugs" data-quantity="1&frac12;" data-unit="mugs" class="tooltip scalable">rice</span> on the cook in <b>3</b> mugs of boiling water. Add the <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">pilau seasoning</span> and simmer for <b>12</b> minutes. Just before you serve the <span data-default="1.5" data-defaultunit="mugs" data-quantity="1&frac12;" data-unit="mugs" class="tooltip scalable">rice</span>, add the chopped <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">coriander</span>.  </li>
+                <li itemprop="recipeInstructions">Heat the oil in a frying pan and add the <span data-default="3" data-defaultunit="" data-quantity="3" data-unit="" class="tooltip scalable">chicken breasts</span>. Season well. Cook on a fairly high heat for <b>2</b> minutes each side. Turn down to medium heat and cook for a further <b>4</b> minutes each side, with a lid on the pan. If the <span data-default="3" data-defaultunit="" data-quantity="3" data-unit="" class="tooltip scalable">chicken breasts</span> are smaller, then cook for less time. Remove from the pan and set to one side until needed.  </li>
+                <li itemprop="recipeInstructions">To make the sauce, heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">toasted sesame oil</span> in a small saucepan and gently fry the <span data-default="1" data-defaultunit="clove" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span> and <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">ginger</span>. Add the rest of the sauce ingredients and simmer gently for <b>5-6</b> minutes.  </li>
+                <li itemprop="recipeInstructions">Heat the other tablespoon of <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">toasted sesame oil</span> in the frying pan and stir-fry the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">pak choi</span> for <b>1</b> minutes, or until it begins to wilt slights; it needs to be quite 'al dente'.</li>
                 </ol>
 
             <hr>

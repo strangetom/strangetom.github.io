@@ -13,7 +13,7 @@
         <title>Creamy egg curry | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -48,36 +48,46 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp sunflower oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> sunflower oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> onions, thinly sliced</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> onions, thinly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> heaped tbsp curry paste</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="heaped tbsp">heaped tbsp</span> curry paste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g can chopped tomatoes</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g can">400 g can</span> chopped tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="8" class="scalable">8</span> eggs</li>
+                        <span data-default="8" class="scalable">8</span>
+                        <span data-unit=""></span> eggs</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="140" class="scalable">140</span> g frozen peas</li>
+                        <span data-default="140" class="scalable">140</span>
+                        <span data-unit="g">g</span> frozen peas</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tbsp Greek yogurt</li>
-                    <li itemprop="recipeIngredient">rice and mango chutney, to serve</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="tbsp">tbsp</span> Greek yogurt</li>
+                    <li itemprop="recipeIngredient"> rice and mango chutney, to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a pan, then fry the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">onions</span> over a low heat for <b>10</b> mins until golden. Add the <span data-default="2" data-quantity="2" data-unit="heaped tbsp" class="tooltip scalable">curry paste</span> and sizzle for <b>2</b> mins, stirring. Add the <span data-default="400" data-quantity="400" data-unit="g can" class="tooltip scalable">tomatoes</span> and <b>200</b>ml water, season to taste, then bring to the boil. Simmer for <b>10</b> mins until you have a rich sauce.  </li>
-                <li itemprop="recipeInstructions">Meanwhile, boil the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">eggs</span> for <b>8</b> mins, cool in cold water, then peel and halve. <b>3</b> Stir the <span data-default="140" data-quantity="140" data-unit="g" class="tooltip scalable">peas</span> and <span data-default="4" data-quantity="4" data-unit="tbsp" class="tooltip scalable">yogurt</span> into the curry and simmer for another <b>2-3</b> mins. Put the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">eggs</span> into the pan, spoon the curry sauce over and leave for another <b>2</b> mins to heat through. Serve with rice and mango chutney.  </li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a pan, then fry the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">onions</span> over a low heat for <b>10</b> mins until golden. Add the <span data-default="2" data-defaultunit="heaped tbsp" data-quantity="2" data-unit="heaped tbsp" class="tooltip scalable">curry paste</span> and sizzle for <b>2</b> mins, stirring. Add the <span data-default="1x" data-defaultunit="400 g can" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">tomatoes</span> and <b>200</b>ml water, season to taste, then bring to the boil. Simmer for <b>10</b> mins until you have a rich sauce.  </li>
+                <li itemprop="recipeInstructions">Meanwhile, boil the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">eggs</span> for <b>8</b> mins, cool in cold water, then peel and halve. <b>3</b> Stir the <span data-default="140" data-defaultunit="g" data-quantity="140" data-unit="g" class="tooltip scalable">peas</span> and <span data-default="4" data-defaultunit="tbsp" data-quantity="4" data-unit="tbsp" class="tooltip scalable">yogurt</span> into the curry and simmer for another <b>2-3</b> mins. Put the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">eggs</span> into the pan, spoon the curry sauce over and leave for another <b>2</b> mins to heat through. Serve with rice and mango chutney.  </li>
                 </ol>
 
             <hr>

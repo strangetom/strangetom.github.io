@@ -13,7 +13,7 @@
         <title>White beans and pasta with rosemary pesto | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -48,32 +48,44 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> small yellow onion, peeled and roughly chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="small">small</span> yellow onion, peeled and roughly chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, peeled</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, peeled</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp extra virgin olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> extra virgin olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.125" class="scalable">⅛</span> tsp red pepper flakes</li>
+                        <span data-default="0.125" class="scalable">⅛</span>
+                        <span data-unit="tsp">tsp</span> red pepper flakes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g orecchiette pasta</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> orecchiette pasta</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> cup tomato paste</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit="cup">cup</span> tomato paste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 400 g can cannellini white beans, drained and rinsed</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g can">400 g can</span> cannellini white beans, drained and rinsed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp salted butter</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> salted butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> cup rosemary arugula pesto</li>
-                    <li itemprop="recipeIngredient">Crusty bread and fresh arugula for serving (optional)</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="cup">cup</span> rosemary arugula pesto</li>
+                    <li itemprop="recipeIngredient"> Crusty bread and fresh arugula for serving (optional)</li>
                 </ul>
             </div>
         
@@ -81,12 +93,12 @@
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Set a large pot of water on the stove and bring to a boil.</li>
-                <li itemprop="recipeInstructions">Meanwhile, place the <span data-default="1" data-quantity="1" data-unit="small" class="tooltip scalable">onion</span> and <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> in the bowl of a food processor and pulse until pureed.</li>
-                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">olive oil</span> in a large pan set over medium heat. Add the <span data-default="1" data-quantity="1" data-unit="small" class="tooltip scalable">onion</span>-<span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> puree along with the <span data-default="0.125" data-quantity="&frac18;" data-unit="tsp" class="tooltip scalable">red pepper flakes</span>. Cook, stirring frequently, until the onions have softened and lost their bite; about <b>8</b> to <b>10</b> minutes.</li>
-                <li itemprop="recipeInstructions">Meanwhile, add the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span> to the boiling water and cook <b>1</b> or <b>2</b> minutes shy of al dente according to package directions (until there is just the slightest bite left in the center).</li>
-                <li itemprop="recipeInstructions">When the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span> is nearly done cooking, add the <span data-default="0.25" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">tomato paste</span> and <span data-default="1x" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">beans</span> to the <span data-default="1" data-quantity="1" data-unit="small" class="tooltip scalable">onion</span>-<span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> mixture. Strain the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span>, reserving one cup of cooking water. Add half of the reserved cooking water to the tomato-<span data-default="1" data-quantity="1" data-unit="small" class="tooltip scalable">onion</span> mixture and cook for <b>2</b> to <b>3</b> minutes, until well-combined and slightly reduced.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">butter</span> and drained almost-al dente <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span> to the pan and toss well. Add enough of the remaining half cup <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span> cooking water to mostly submerge the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span>. Cook until the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span> is tender and the sauce is very thick, another <b>2</b> to <b>3</b> minutes.</li>
-                <li itemprop="recipeInstructions">Stir half of the <span data-default="0.5" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">pesto</span> into the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span>; taste and add salt as desired. Serve hot, with crusty bread and fresh arugula (optional). Garnish with the remaining <span data-default="0.5" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">pesto</span>.</li>
+                <li itemprop="recipeInstructions">Meanwhile, place the <span data-default="1" data-defaultunit="small" data-quantity="1" data-unit="small" class="tooltip scalable">onion</span> and <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> in the bowl of a food processor and pulse until pureed.</li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">olive oil</span> in a large pan set over medium heat. Add the <span data-default="1" data-defaultunit="small" data-quantity="1" data-unit="small" class="tooltip scalable">onion</span>-<span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> puree along with the <span data-default="0.125" data-defaultunit="tsp" data-quantity="&frac18;" data-unit="tsp" class="tooltip scalable">red pepper flakes</span>. Cook, stirring frequently, until the onions have softened and lost their bite; about <b>8</b> to <b>10</b> minutes.</li>
+                <li itemprop="recipeInstructions">Meanwhile, add the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span> to the boiling water and cook <b>1</b> or <b>2</b> minutes shy of al dente according to package directions (until there is just the slightest bite left in the center).</li>
+                <li itemprop="recipeInstructions">When the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span> is nearly done cooking, add the <span data-default="0.25" data-defaultunit="cup" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">tomato paste</span> and <span data-default="1x" data-defaultunit="400 g can" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">beans</span> to the <span data-default="1" data-defaultunit="small" data-quantity="1" data-unit="small" class="tooltip scalable">onion</span>-<span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> mixture. Strain the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span>, reserving one cup of cooking water. Add half of the reserved cooking water to the tomato-<span data-default="1" data-defaultunit="small" data-quantity="1" data-unit="small" class="tooltip scalable">onion</span> mixture and cook for <b>2</b> to <b>3</b> minutes, until well-combined and slightly reduced.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">butter</span> and drained almost-al dente <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span> to the pan and toss well. Add enough of the remaining half cup <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span> cooking water to mostly submerge the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span>. Cook until the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span> is tender and the sauce is very thick, another <b>2</b> to <b>3</b> minutes.</li>
+                <li itemprop="recipeInstructions">Stir half of the <span data-default="0.5" data-defaultunit="cup" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">pesto</span> into the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span>; taste and add salt as desired. Serve hot, with crusty bread and fresh arugula (optional). Garnish with the remaining <span data-default="0.5" data-defaultunit="cup" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">pesto</span>.</li>
                 </ol>
 
             <hr>

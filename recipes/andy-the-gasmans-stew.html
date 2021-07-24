@@ -13,7 +13,7 @@
         <title>Andy the gasman's stew | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Beef" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,42 +47,58 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
-                    <li itemprop="recipeIngredient">olive oil</li>
+                    <li itemprop="recipeIngredient"> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="700" class="scalable">700</span> g potatoes, peeled and cut into 2.5cm dice</li>
+                        <span data-default="700" class="scalable">700</span>
+                        <span data-unit="g">g</span> potatoes, peeled and cut into 2.5cm dice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> red onions, peeled and roughly chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> red onions, peeled and roughly chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> carrots, peeled and roughly chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> carrots, peeled and roughly chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> sticks celery, trimmed and roughly chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="sticks">sticks</span> celery, trimmed and roughly chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> sprigs fresh rosemary, leaves picked</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="sprigs">sprigs</span> fresh rosemary, leaves picked</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> level tsp ground cumin</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="level tsp">level tsp</span> ground cumin</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> heaped tbsp smoked paprika</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="heaped tbsp">heaped tbsp</span> smoked paprika</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> orange, zest and juice of</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> orange, zest and juice of</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="800" class="scalable">800</span> g stewing steak, quality lamb or higher-welfare pork, cubed</li>
+                        <span data-default="800" class="scalable">800</span>
+                        <span data-unit="g">g</span> stewing steak, quality lamb or higher-welfare pork, cubed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="410" class="scalable">410</span> g good-quality tinned cooked chickpeas, drained</li>
+                        <span data-default="410" class="scalable">410</span>
+                        <span data-unit="g">g</span> good-quality tinned cooked chickpeas, drained</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span>x 400 g tin good-quality plum tomatoes, chopped</li>
-                    <li itemprop="recipeIngredient">sea salt</li>
-                    <li itemprop="recipeIngredient">freshly ground black pepper</li>
+                        <span data-default="2" class="scalable">2</span>x <span data-unit="400 g tin">400 g tin</span> good-quality plum tomatoes, chopped</li>
+                    <li itemprop="recipeIngredient"> sea salt</li>
+                    <li itemprop="recipeIngredient"> freshly ground black pepper</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tub fresh live yoghurt, to serve</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tub">tub</span> fresh live yoghurt, to serve</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> handful fresh coriander, leaves picked to serve</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="handful">handful</span> fresh coriander, leaves picked to serve</li>
                 </ul>
             </div>
         
@@ -90,7 +106,7 @@
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">First of all, you need to preheat your oven, but the temperature will depend on how long you want to cook the stew for. If you want it ready in <b>3</b> hours, preheat it to <b>180</b>&deg;C/Gas <b>4</b>, but if you want to cook it for <b>6</b> hours, then you need the oven on at <b>140</b>&deg;C/Gas <b>1</b>.</li>
-                <li itemprop="recipeInstructions">Put a large casserole-type pan on the hob on a high heat and add a couple of good lugs of olive oil. Let this heat up, then add your <span data-default="700" data-quantity="700" data-unit="g" class="tooltip scalable">potatoes</span>, <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">onions</span>, <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">carrots</span>, <span data-default="2" data-quantity="2" data-unit="sticks" class="tooltip scalable">celery</span>, <span data-default="2" data-quantity="2" data-unit="sprigs" class="tooltip scalable">rosemary</span>, <span data-default="1" data-quantity="1" data-unit="level tsp" class="tooltip scalable">cumin</span>, <span data-default="1" data-quantity="1" data-unit="heaped tbsp" class="tooltip scalable">paprika</span>, and <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">orange</span> zest and juice, and stir together. Cook for <b>1</b> minute, then mix around again before adding the <span data-default="800" data-quantity="800" data-unit="g" class="tooltip scalable">meat</span>, the <span data-default="410" data-quantity="410" data-unit="g" class="tooltip scalable">chickpeas</span> and the <span data-default="2x" data-quantity="2x" data-unit="400 g tin" class="tooltip scalable">tomatoes</span>. Season lightly with salt and pepper and pour over enough water to cover everything. Bring to the boil and put into the oven. You are now free to go out for a few hours (for the whole day if you want to!). Serve the stew in bowls with a dollop of yoghurt and a sprinkle of coriander leaves.</li>
+                <li itemprop="recipeInstructions">Put a large casserole-type pan on the hob on a high heat and add a couple of good lugs of olive oil. Let this heat up, then add your <span data-default="700" data-defaultunit="g" data-quantity="700" data-unit="g" class="tooltip scalable">potatoes</span>, <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">onions</span>, <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">carrots</span>, <span data-default="2" data-defaultunit="sticks" data-quantity="2" data-unit="sticks" class="tooltip scalable">celery</span>, <span data-default="2" data-defaultunit="sprigs" data-quantity="2" data-unit="sprigs" class="tooltip scalable">rosemary</span>, <span data-default="1" data-defaultunit="level tsp" data-quantity="1" data-unit="level tsp" class="tooltip scalable">cumin</span>, <span data-default="1" data-defaultunit="heaped tbsp" data-quantity="1" data-unit="heaped tbsp" class="tooltip scalable">paprika</span>, and <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">orange</span> zest and juice, and stir together. Cook for <b>1</b> minute, then mix around again before adding the <span data-default="800" data-defaultunit="g" data-quantity="800" data-unit="g" class="tooltip scalable">meat</span>, the <span data-default="410" data-defaultunit="g" data-quantity="410" data-unit="g" class="tooltip scalable">chickpeas</span> and the <span data-default="2x" data-defaultunit="400 g tin" data-quantity="2x" data-unit="400 g tin" class="tooltip scalable">tomatoes</span>. Season lightly with salt and pepper and pour over enough water to cover everything. Bring to the boil and put into the oven. You are now free to go out for a few hours (for the whole day if you want to!). Serve the stew in bowls with a dollop of yoghurt and a sprinkle of coriander leaves.</li>
                 </ol>
 
             <hr>

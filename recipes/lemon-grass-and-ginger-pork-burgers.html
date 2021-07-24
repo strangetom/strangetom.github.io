@@ -13,7 +13,7 @@
         <title>Lemon grass and ginger pork burgers | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -42,30 +42,38 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="450" class="scalable">450</span> g minced pork</li>
+                        <span data-default="450" class="scalable">450</span>
+                        <span data-unit="g">g</span> minced pork</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp grated fresh ginger root</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> grated fresh ginger root</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> stalk lemon grass, outer layers discarded and centre chopped finely</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="stalk">stalk</span> lemon grass, outer layers discarded and centre chopped finely</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="30" class="scalable">30</span> ml sunflower oil</li>
-                    <li itemprop="recipeIngredient">salt and pepper</li>
+                        <span data-default="30" class="scalable">30</span>
+                        <span data-unit="ml">ml</span> sunflower oil</li>
+                    <li itemprop="recipeIngredient"> salt and pepper</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Put the <span data-default="450" data-quantity="450" data-unit="g" class="tooltip scalable">pork</span> in a bowl and stir in the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">ginger</span> and chopped <span data-default="1" data-quantity="1" data-unit="stalk" class="tooltip scalable">lemon grass</span>. Season with salt and pepper. Shape the mixture into <b>4</b> burgers and chill for about <b>20</b> minutes</li>
-                <li itemprop="recipeInstructions">Heat the <span data-default="30" data-quantity="30" data-unit="ml" class="tooltip scalable">oil</span> in a large, non-stick frying pan and add the burgers. Fry for <b>3-4</b> minutes on each side over a gently heat, until cooked through. Remove from the pan with a metal spatula and drain on kitchen paper, then serve with sliced tomato, lettuce and chilli sauce.</li>
+                <li itemprop="recipeInstructions">Put the <span data-default="450" data-defaultunit="g" data-quantity="450" data-unit="g" class="tooltip scalable">pork</span> in a bowl and stir in the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">ginger</span> and chopped <span data-default="1" data-defaultunit="stalk" data-quantity="1" data-unit="stalk" class="tooltip scalable">lemon grass</span>. Season with salt and pepper. Shape the mixture into <b>4</b> burgers and chill for about <b>20</b> minutes</li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="30" data-defaultunit="ml" data-quantity="30" data-unit="ml" class="tooltip scalable">oil</span> in a large, non-stick frying pan and add the burgers. Fry for <b>3-4</b> minutes on each side over a gently heat, until cooked through. Remove from the pan with a metal spatula and drain on kitchen paper, then serve with sliced tomato, lettuce and chilli sauce.</li>
                 </ol>
 
             <hr>

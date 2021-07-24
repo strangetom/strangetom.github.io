@@ -13,7 +13,7 @@
         <title>Garlic butter steak and potatoes skillet | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Beef" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,47 +43,61 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="650" class="scalable">650</span> g flank steak, sliced against the grain</li>
+                        <span data-default="650" class="scalable">650</span>
+                        <span data-unit="g">g</span> flank steak, sliced against the grain</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="650" class="scalable">650</span> g baby yellow potatoes, quartered</li>
+                        <span data-default="650" class="scalable">650</span>
+                        <span data-unit="g">g</span> baby yellow potatoes, quartered</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp olive oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsps butter, divided</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsps">tbsps</span> butter, divided</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="5" class="scalable">5</span> cloves garlic, minced</li>
+                        <span data-default="5" class="scalable">5</span>
+                        <span data-unit="cloves">cloves</span> garlic, minced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp fresh thyme, chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> fresh thyme, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp fresh rosemary, chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> fresh rosemary, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp fresh oregano, chopped</li>
-                    <li itemprop="recipeIngredient">Salt and fresh cracked pepper</li>
-                    <li itemprop="recipeIngredient">Crushed red chili pepper flakes, optional</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> fresh oregano, chopped</li>
+                    <li itemprop="recipeIngredient"> Salt and fresh cracked pepper</li>
+                    <li itemprop="recipeIngredient"> Crushed red chili pepper flakes, optional</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.333" class="scalable">⅓</span> cup soy sauce</li>
+                        <span data-default="0.333" class="scalable">⅓</span>
+                        <span data-unit="cup">cup</span> soy sauce</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp hot sauce, we used Sriracha</li>
-                    <li itemprop="recipeIngredient">Fresh cracked pepper</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> hot sauce, we used Sriracha</li>
+                    <li itemprop="recipeIngredient"> Fresh cracked pepper</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">In a large bowl, combine the steak strips with <span data-default="0.333" data-quantity="&frac13;" data-unit="cup" class="tooltip scalable">soy sauce</span>, <b>1</b> tablespoon <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">olive oil</span>, pepper, and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">hot sauce</span>. Set aside to marinate while you cook <span data-default="650" data-quantity="650" data-unit="g" class="tooltip scalable">potatoes</span>.</li>
-                <li itemprop="recipeInstructions">In a large skillet over medium-high heat, mix <b>1</b> tablespoon <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">olive oil</span> and <b>1</b> tablespoon <span data-default="3" data-quantity="3" data-unit="tbsps" class="tooltip scalable">butter</span>. When <span data-default="3" data-quantity="3" data-unit="tbsps" class="tooltip scalable">butter</span> is melted, add <span data-default="650" data-quantity="650" data-unit="g" class="tooltip scalable">potatoes</span>. Cook for about <b>4</b> minutes, stir and cook an additional <b>4-5</b> minutes until <span data-default="650" data-quantity="650" data-unit="g" class="tooltip scalable">potatoes</span> are golden and fork tender. Transfer to a plate and set aside.</li>
-                <li itemprop="recipeInstructions">Keep the same skillet over medium heat and add remaining <b>2</b> tablespoons <span data-default="3" data-quantity="3" data-unit="tbsps" class="tooltip scalable">butter</span>, <span data-default="5" data-quantity="5" data-unit="cloves" class="tooltip scalable">garlic</span>, red chili pepper flakes, and fresh herbs. Lay the steak strips in one layer in the skillet, keeping the drained marinade for later. Cook on each side for <b>1</b> minute each, until nicely browned – adjust timing depending on how you like your steak.</li>
-                <li itemprop="recipeInstructions">Right before the steak is done, you can stir in the reserved marinade if you like, and cook for one minute. Add the <span data-default="650" data-quantity="650" data-unit="g" class="tooltip scalable">potatoes</span> back to the pan and heat through. Adjust seasoning with salt and pepper if necessary.</li>
-                <li itemprop="recipeInstructions">Remove from heat and serve immediately, garnished with more crushed chili pepper, fresh herbs, and a sprinkle of parmesan cheese over the <span data-default="650" data-quantity="650" data-unit="g" class="tooltip scalable">potatoes</span> if you like. Enjoy!</li>
+                <li itemprop="recipeInstructions">In a large bowl, combine the steak strips with <span data-default="0.333" data-defaultunit="cup" data-quantity="&frac13;" data-unit="cup" class="tooltip scalable">soy sauce</span>, <b>1</b> tablespoon <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">olive oil</span>, pepper, and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">hot sauce</span>. Set aside to marinate while you cook <span data-default="650" data-defaultunit="g" data-quantity="650" data-unit="g" class="tooltip scalable">potatoes</span>.</li>
+                <li itemprop="recipeInstructions">In a large skillet over medium-high heat, mix <b>1</b> tablespoon <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">olive oil</span> and <b>1</b> tablespoon <span data-default="3" data-defaultunit="tbsps" data-quantity="3" data-unit="tbsps" class="tooltip scalable">butter</span>. When <span data-default="3" data-defaultunit="tbsps" data-quantity="3" data-unit="tbsps" class="tooltip scalable">butter</span> is melted, add <span data-default="650" data-defaultunit="g" data-quantity="650" data-unit="g" class="tooltip scalable">potatoes</span>. Cook for about <b>4</b> minutes, stir and cook an additional <b>4-5</b> minutes until <span data-default="650" data-defaultunit="g" data-quantity="650" data-unit="g" class="tooltip scalable">potatoes</span> are golden and fork tender. Transfer to a plate and set aside.</li>
+                <li itemprop="recipeInstructions">Keep the same skillet over medium heat and add remaining <b>2</b> tablespoons <span data-default="3" data-defaultunit="tbsps" data-quantity="3" data-unit="tbsps" class="tooltip scalable">butter</span>, <span data-default="5" data-defaultunit="cloves" data-quantity="5" data-unit="cloves" class="tooltip scalable">garlic</span>, red chili pepper flakes, and fresh herbs. Lay the steak strips in one layer in the skillet, keeping the drained marinade for later. Cook on each side for <b>1</b> minute each, until nicely browned – adjust timing depending on how you like your steak.</li>
+                <li itemprop="recipeInstructions">Right before the steak is done, you can stir in the reserved marinade if you like, and cook for one minute. Add the <span data-default="650" data-defaultunit="g" data-quantity="650" data-unit="g" class="tooltip scalable">potatoes</span> back to the pan and heat through. Adjust seasoning with salt and pepper if necessary.</li>
+                <li itemprop="recipeInstructions">Remove from heat and serve immediately, garnished with more crushed chili pepper, fresh herbs, and a sprinkle of parmesan cheese over the <span data-default="650" data-defaultunit="g" data-quantity="650" data-unit="g" class="tooltip scalable">potatoes</span> if you like. Enjoy!</li>
                 </ol>
 
             <hr>

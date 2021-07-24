@@ -13,7 +13,7 @@
         <title>Baked lamb, vegetables and rice | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Lamb" itemscope itemtype="https://schema.org/Recipe">
 
@@ -42,41 +42,54 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> kg lamb off the bone</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="kg">kg</span> lamb off the bone</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> large red onions</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="large">large</span> red onions</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3-4" class="scalable">3-4</span> cloves garlic</li>
+                        <span data-default="3-4" class="scalable">3-4</span>
+                        <span data-unit="cloves">cloves</span> garlic</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.5" class="scalable">1½</span> kg mixed vegetables, aubergines, courgettes, chard, carrots, peppers, green beans, pumpkin</li>
+                        <span data-default="1.5" class="scalable">1½</span>
+                        <span data-unit="kg">kg</span> mixed vegetables, aubergines, courgettes, chard, carrots, peppers, green beans, pumpkin</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="150" class="scalable">150</span> ml olive oil</li>
+                        <span data-default="150" class="scalable">150</span>
+                        <span data-unit="ml">ml</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g tomatoes, tinned is fine</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="g">g</span> tomatoes, tinned is fine</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp salt</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> salt</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp powdered chilli</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> powdered chilli</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="125" class="scalable">125</span> g risotto rice</li>
+                        <span data-default="125" class="scalable">125</span>
+                        <span data-unit="g">g</span> risotto rice</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Trim and cube the <span data-default="1" data-quantity="1" data-unit="kg" class="tooltip scalable">meat</span> into bite-sized pieces. Skin and slice the <span data-default="2" data-quantity="2" data-unit="large" class="tooltip scalable">onions</span> and <span data-default="3-4" data-quantity="3-4" data-unit="cloves" class="tooltip scalable">garlic</span>. Hull, scrape and slice or chunk the vegetables as appropriate. Scaled the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">tomatoes</span> to loosen the skins then peel and chop.  </li>
-                <li itemprop="recipeInstructions">Warm half of the olive <span data-default="150" data-quantity="150" data-unit="ml" class="tooltip scalable">oil</span> in a frying pan. Put in the <span data-default="2" data-quantity="2" data-unit="large" class="tooltip scalable">onions</span> and <span data-default="3-4" data-quantity="3-4" data-unit="cloves" class="tooltip scalable">garlic</span> and fry them until they turn pale gold, then push them to one side and add the <span data-default="1" data-quantity="1" data-unit="kg" class="tooltip scalable">meat</span>. Fry gently for a moment and then season with <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">salt</span> and <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">chilli</span>.  </li>
-                <li itemprop="recipeInstructions">Transfer the <span data-default="1" data-quantity="1" data-unit="kg" class="tooltip scalable">meat</span> and onion mixture with its <span data-default="150" data-quantity="150" data-unit="ml" class="tooltip scalable">oil</span> to a wide shallow baking dish. Cover the <span data-default="1" data-quantity="1" data-unit="kg" class="tooltip scalable">meat</span> with a layer of vegetables. Season again. Sprinkly in a layer of <span data-default="125" data-quantity="125" data-unit="g" class="tooltip scalable">rice</span>. Finish with a layer of the sliced <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">tomatoes</span>.  </li>
-                <li itemprop="recipeInstructions">Pour in enough boiling water to submerge to a depth of one finger. Trickle with the rest of the <span data-default="150" data-quantity="150" data-unit="ml" class="tooltip scalable">oil</span>.  </li>
+                <li itemprop="recipeInstructions">Trim and cube the <span data-default="1" data-defaultunit="kg" data-quantity="1" data-unit="kg" class="tooltip scalable">meat</span> into bite-sized pieces. Skin and slice the <span data-default="2" data-defaultunit="large" data-quantity="2" data-unit="large" class="tooltip scalable">onions</span> and <span data-default="3-4" data-defaultunit="cloves" data-quantity="3-4" data-unit="cloves" class="tooltip scalable">garlic</span>. Hull, scrape and slice or chunk the vegetables as appropriate. Scaled the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">tomatoes</span> to loosen the skins then peel and chop.  </li>
+                <li itemprop="recipeInstructions">Warm half of the olive <span data-default="150" data-defaultunit="ml" data-quantity="150" data-unit="ml" class="tooltip scalable">oil</span> in a frying pan. Put in the <span data-default="2" data-defaultunit="large" data-quantity="2" data-unit="large" class="tooltip scalable">onions</span> and <span data-default="3-4" data-defaultunit="cloves" data-quantity="3-4" data-unit="cloves" class="tooltip scalable">garlic</span> and fry them until they turn pale gold, then push them to one side and add the <span data-default="1" data-defaultunit="kg" data-quantity="1" data-unit="kg" class="tooltip scalable">meat</span>. Fry gently for a moment and then season with <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">salt</span> and <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">chilli</span>.  </li>
+                <li itemprop="recipeInstructions">Transfer the <span data-default="1" data-defaultunit="kg" data-quantity="1" data-unit="kg" class="tooltip scalable">meat</span> and onion mixture with its <span data-default="150" data-defaultunit="ml" data-quantity="150" data-unit="ml" class="tooltip scalable">oil</span> to a wide shallow baking dish. Cover the <span data-default="1" data-defaultunit="kg" data-quantity="1" data-unit="kg" class="tooltip scalable">meat</span> with a layer of vegetables. Season again. Sprinkly in a layer of <span data-default="125" data-defaultunit="g" data-quantity="125" data-unit="g" class="tooltip scalable">rice</span>. Finish with a layer of the sliced <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">tomatoes</span>.  </li>
+                <li itemprop="recipeInstructions">Pour in enough boiling water to submerge to a depth of one finger. Trickle with the rest of the <span data-default="150" data-defaultunit="ml" data-quantity="150" data-unit="ml" class="tooltip scalable">oil</span>.  </li>
                 <li itemprop="recipeInstructions">Cover the dish and put it to bake in a moderate oven, <b>180</b>&deg;C/Gas <b>4</b> for <b>1</b><b>&frac12;</b> hours.  </li>
                 <li itemprop="recipeInstructions">Take off the lid for the final <b>20</b> minutes. The kitchen will fill with the enticing scent and the cooking liquid will be concentrated into a rich sauce.  </li>
                 </ol>

@@ -13,7 +13,7 @@
         <title>Spiced lamb meatball stew | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Lamb" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,49 +43,64 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="12" class="scalable">12</span> lamb meatballs</li>
+                        <span data-default="12" class="scalable">12</span>
+                        <span data-unit=""></span> lamb meatballs</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> onion, sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> onion, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> large cloves garlic, crushed</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="large cloves">large cloves</span> garlic, crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp ground cumin</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> ground cumin</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp ground coriander</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> ground coriander</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp ground cinnamon</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> ground cinnamon</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp rose harrisa</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> rose harrisa</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g can chopped tomatoes</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g can">400 g can</span> chopped tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> ml low-salt stock (lamb or beef)</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="ml">ml</span> low-salt stock (lamb or beef)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span>x 400 g can chickpeas</li>
+                        <span data-default="2" class="scalable">2</span>x <span data-unit="400 g can">400 g can</span> chickpeas</li>
                     <li itemprop="recipeIngredient">small bunch parsley, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> small bunch mint, chopped</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="small bunch">small bunch</span> mint, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> g pomegranate seeds</li>
+                        <span data-default="50" class="scalable">50</span>
+                        <span data-unit="g">g</span> pomegranate seeds</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large, shallow casserole dish or deep frying pan. Add the <span data-default="12" data-quantity="12" data-unit="" class="tooltip scalable">meatballs</span> and fry for <b>3-4</b> mins, turning regularly, until golden. Remove and set aside.</li>
-                <li itemprop="recipeInstructions">Tip the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> into the pan and fry for <b>7</b> mins until softened. Stir through the <span data-default="2" data-quantity="2" data-unit="large cloves" class="tooltip scalable">garlic</span>, <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">cumin</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">coriander</span> and <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">cinnamon</span>, and cook for <b>1</b> min. Add the harissa, <span data-default="400" data-quantity="400" data-unit="g can" class="tooltip scalable">tomatoes</span> and lamb <span data-default="200" data-quantity="200" data-unit="ml" class="tooltip scalable">stock</span>, and bring to a simmer. Stir though the <span data-default="2x" data-quantity="2x" data-unit="400 g can" class="tooltip scalable">chickpeas</span> and <span data-default="12" data-quantity="12" data-unit="" class="tooltip scalable">meatballs</span>, season and simmer for <b>10-15</b> mins until slightly reduced and the <span data-default="12" data-quantity="12" data-unit="" class="tooltip scalable">meatballs</span> are cooked through.</li>
-                <li itemprop="recipeInstructions">Stir through half the herbs, then scatter the rest on top along with the <span data-default="50" data-quantity="50" data-unit="g" class="tooltip scalable">pomegranate seeds</span>.</li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large, shallow casserole dish or deep frying pan. Add the <span data-default="12" data-defaultunit="" data-quantity="12" data-unit="" class="tooltip scalable">meatballs</span> and fry for <b>3-4</b> mins, turning regularly, until golden. Remove and set aside.</li>
+                <li itemprop="recipeInstructions">Tip the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> into the pan and fry for <b>7</b> mins until softened. Stir through the <span data-default="2" data-defaultunit="large cloves" data-quantity="2" data-unit="large cloves" class="tooltip scalable">garlic</span>, <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">cumin</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">coriander</span> and <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">cinnamon</span>, and cook for <b>1</b> min. Add the harissa, <span data-default="1x" data-defaultunit="400 g can" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">tomatoes</span> and lamb <span data-default="200" data-defaultunit="ml" data-quantity="200" data-unit="ml" class="tooltip scalable">stock</span>, and bring to a simmer. Stir though the <span data-default="2x" data-defaultunit="400 g can" data-quantity="2x" data-unit="400 g can" class="tooltip scalable">chickpeas</span> and <span data-default="12" data-defaultunit="" data-quantity="12" data-unit="" class="tooltip scalable">meatballs</span>, season and simmer for <b>10-15</b> mins until slightly reduced and the <span data-default="12" data-defaultunit="" data-quantity="12" data-unit="" class="tooltip scalable">meatballs</span> are cooked through.</li>
+                <li itemprop="recipeInstructions">Stir through half the herbs, then scatter the rest on top along with the <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">pomegranate seeds</span>.</li>
                 </ol>
 
             <hr>

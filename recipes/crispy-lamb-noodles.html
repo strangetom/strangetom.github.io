@@ -13,7 +13,7 @@
         <title>Crispy lamb noodles | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Lamb" itemscope itemtype="https://schema.org/Recipe">
 
@@ -48,45 +48,60 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp sesame oil, plus extra to serve (optional)</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> sesame oil, plus extra to serve (optional)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g lamb mince</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="g">g</span> lamb mince</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> nests medium egg noodles</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="nests">nests</span> medium egg noodles</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> head broccoli, cut into medium florets stalk sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="head">head</span> broccoli, cut into medium florets stalk sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp soy sauce, plus extra to serve (optional)</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> soy sauce, plus extra to serve (optional)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp chilli flakes</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> chilli flakes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp sesame seeds</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> sesame seeds</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> cloves garlic, finely chopped</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="cloves">cloves</span> garlic, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="thumb-sized piece" class="scalable">thumb-sized piece</span> root ginger, finely chopped</li>
+                        <span data-default="thumb-sized piece" class="scalable">thumb-sized piece</span>
+                        <span data-unit=""></span> root ginger, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="6" class="scalable">6</span> spring onions, thinly sliced</li>
+                        <span data-default="6" class="scalable">6</span>
+                        <span data-unit=""></span> spring onions, thinly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="300" class="scalable">300</span> g pak choi, leaves separated</li>
+                        <span data-default="300" class="scalable">300</span>
+                        <span data-unit="g">g</span> pak choi, leaves separated</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat half the sesame <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large frying pan or wok over a high heat. Add the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">lamb mince</span> and use a wooden spoon to break the meat down into smaller pieces. Fry for <b>6-8</b> minutes until really crisp, stirring occasionally.</li>
-                <li itemprop="recipeInstructions">Meanwhile, bring a pan of salted water to the boil. Drop in the egg <span data-default="3" data-quantity="3" data-unit="nests" class="tooltip scalable">noodles</span> and <span data-default="1" data-quantity="1" data-unit="head" class="tooltip scalable">broccoli</span> florets. Bring back to the boil and cook for <b>3</b> minutes, then drain and set aside.</li>
-                <li itemprop="recipeInstructions">Mix the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">soy sauce</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">chilli flakes</span> and <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">sesame seeds</span> into the crispy mince, then transfer to a bowl using a slotted spoon, and put the pan back on the heat. There's no need to clean the pan as the bits all add flavour.</li>
-                <li itemprop="recipeInstructions">Heat the remaining sesame <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> and add the <span data-default="3" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="thumb-sized piece" data-quantity="thumb-sized piece" data-unit="" class="tooltip scalable">ginger</span>, most of the <span data-default="6" data-quantity="6" data-unit="" class="tooltip scalable">spring onions</span>, the <span data-default="1" data-quantity="1" data-unit="head" class="tooltip scalable">broccoli</span> stalks and <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">pak choi</span>. Stir-fry for <b>2</b> minutes until the <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">pak choi</span> has started to wilt, then tip the cooked <span data-default="3" data-quantity="3" data-unit="nests" class="tooltip scalable">noodles</span>, <span data-default="1" data-quantity="1" data-unit="head" class="tooltip scalable">broccoli</span> florets and crispy mince into the pan. Give everything a good stir to mix and heat through. Serve topped with the remaining <span data-default="6" data-quantity="6" data-unit="" class="tooltip scalable">spring onions</span>. Drizzle with extra soy and a few drops of sesame <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> at the table, if you like.</li>
+                <li itemprop="recipeInstructions">Heat half the sesame <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large frying pan or wok over a high heat. Add the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">lamb mince</span> and use a wooden spoon to break the meat down into smaller pieces. Fry for <b>6-8</b> minutes until really crisp, stirring occasionally.</li>
+                <li itemprop="recipeInstructions">Meanwhile, bring a pan of salted water to the boil. Drop in the egg <span data-default="3" data-defaultunit="nests" data-quantity="3" data-unit="nests" class="tooltip scalable">noodles</span> and <span data-default="1" data-defaultunit="head" data-quantity="1" data-unit="head" class="tooltip scalable">broccoli</span> florets. Bring back to the boil and cook for <b>3</b> minutes, then drain and set aside.</li>
+                <li itemprop="recipeInstructions">Mix the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">soy sauce</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">chilli flakes</span> and <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">sesame seeds</span> into the crispy mince, then transfer to a bowl using a slotted spoon, and put the pan back on the heat. There's no need to clean the pan as the bits all add flavour.</li>
+                <li itemprop="recipeInstructions">Heat the remaining sesame <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> and add the <span data-default="3" data-defaultunit="cloves" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="thumb-sized piece" data-defaultunit="" data-quantity="thumb-sized piece" data-unit="" class="tooltip scalable">ginger</span>, most of the <span data-default="6" data-defaultunit="" data-quantity="6" data-unit="" class="tooltip scalable">spring onions</span>, the <span data-default="1" data-defaultunit="head" data-quantity="1" data-unit="head" class="tooltip scalable">broccoli</span> stalks and <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">pak choi</span>. Stir-fry for <b>2</b> minutes until the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">pak choi</span> has started to wilt, then tip the cooked <span data-default="3" data-defaultunit="nests" data-quantity="3" data-unit="nests" class="tooltip scalable">noodles</span>, <span data-default="1" data-defaultunit="head" data-quantity="1" data-unit="head" class="tooltip scalable">broccoli</span> florets and crispy mince into the pan. Give everything a good stir to mix and heat through. Serve topped with the remaining <span data-default="6" data-defaultunit="" data-quantity="6" data-unit="" class="tooltip scalable">spring onions</span>. Drizzle with extra soy and a few drops of sesame <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> at the table, if you like.</li>
                 </ol>
 
             <hr>

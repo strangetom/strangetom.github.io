@@ -13,7 +13,7 @@
         <title>Roast cod with pancetta | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,35 +43,44 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g canned butter beans</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> canned butter beans</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="6" class="scalable">6</span> tbsp fruity olive oil</li>
+                        <span data-default="6" class="scalable">6</span>
+                        <span data-unit="tbsp">tbsp</span> fruity olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="8" class="scalable">8</span> thin slices of pancetta</li>
+                        <span data-default="8" class="scalable">8</span>
+                        <span data-unit=""></span> thin slices of pancetta</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> thick cod steaks, skinned</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> thick cod steaks, skinned</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="12" class="scalable">12</span> cherry tomatoes</li>
-                    <li itemprop="recipeIngredient">salt and ground black pepper</li>
-                    <li itemprop="recipeIngredient">parsley sprigs, to serve</li>
+                        <span data-default="12" class="scalable">12</span>
+                        <span data-unit=""></span> cherry tomatoes</li>
+                    <li itemprop="recipeIngredient"> salt and ground black pepper</li>
+                    <li itemprop="recipeIngredient"> parsley sprigs, to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Drain and rinse the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">beans</span> thoroughly, tip into a pan, season, then stir in <b>2</b> tbsp <span data-default="6" data-quantity="6" data-unit="tbsp" class="tooltip scalable">oil</span>. Heat gently and keep warm.</li>
-                <li itemprop="recipeInstructions">Preheat the oven to <b>200</b>&deg;C. Wrap two slices of <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">pancetta</span> around the edge of each <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">cod</span> steak, trying it on with kitchen string or securing it with a wooden cocktail stick. Insert a sage leaf between each slide of the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">pancetta</span> and the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">cod</span>. Season the fish with salt and pepper.</li>
-                <li itemprop="recipeInstructions">Heat a heavy frying pan, add <b>1</b> tbsp of the remaining <span data-default="6" data-quantity="6" data-unit="tbsp" class="tooltip scalable">oil</span> and seal the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">cod</span> steaks two at a time for <b>1</b> minute on each side. Transfer them to an ovenproof dish and roast in the oven for <b>5</b> minutes.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="12" data-quantity="12" data-unit="" class="tooltip scalable">tomatoes</span> to the dish and drizzle over the remaining olive <span data-default="6" data-quantity="6" data-unit="tbsp" class="tooltip scalable">oil</span>. Roast for <b>5</b> minutes more, until the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">cod</span> steaks are cooked but still juicy. Serve them on a bed of butter <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">beans</span> with the roasted <span data-default="12" data-quantity="12" data-unit="" class="tooltip scalable">tomatoes</span>. Garnish with parsley.</li>
+                <li itemprop="recipeInstructions">Drain and rinse the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">beans</span> thoroughly, tip into a pan, season, then stir in <b>2</b> tbsp <span data-default="6" data-defaultunit="tbsp" data-quantity="6" data-unit="tbsp" class="tooltip scalable">oil</span>. Heat gently and keep warm.</li>
+                <li itemprop="recipeInstructions">Preheat the oven to <b>200</b>&deg;C. Wrap two slices of <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">pancetta</span> around the edge of each <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">cod</span> steak, trying it on with kitchen string or securing it with a wooden cocktail stick. Insert a sage leaf between each slide of the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">pancetta</span> and the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">cod</span>. Season the fish with salt and pepper.</li>
+                <li itemprop="recipeInstructions">Heat a heavy frying pan, add <b>1</b> tbsp of the remaining <span data-default="6" data-defaultunit="tbsp" data-quantity="6" data-unit="tbsp" class="tooltip scalable">oil</span> and seal the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">cod</span> steaks two at a time for <b>1</b> minute on each side. Transfer them to an ovenproof dish and roast in the oven for <b>5</b> minutes.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="12" data-defaultunit="" data-quantity="12" data-unit="" class="tooltip scalable">tomatoes</span> to the dish and drizzle over the remaining olive <span data-default="6" data-defaultunit="tbsp" data-quantity="6" data-unit="tbsp" class="tooltip scalable">oil</span>. Roast for <b>5</b> minutes more, until the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">cod</span> steaks are cooked but still juicy. Serve them on a bed of butter <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">beans</span> with the roasted <span data-default="12" data-defaultunit="" data-quantity="12" data-unit="" class="tooltip scalable">tomatoes</span>. Garnish with parsley.</li>
                 </ol>
 
             <hr>

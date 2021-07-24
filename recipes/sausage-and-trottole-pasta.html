@@ -13,7 +13,7 @@
         <title>Sausage and trottole pasta | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,46 +44,61 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> red onion, chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> red onion, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g sausages</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="g">g</span> sausages</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> mug water</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="mug">mug</span> water</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> vegetable stock cube</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> vegetable stock cube</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> medium tomatoes</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="medium">medium</span> tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp tomato puree</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> tomato puree</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> fat red chilli, sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> fat red chilli, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> mugs trottole pasta</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="mugs">mugs</span> trottole pasta</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp freshly chopped basil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> freshly chopped basil</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a wok. Add the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> and fry until the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> beings to soften.  </li>
-                <li itemprop="recipeInstructions">Take the skins off the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">sausages</span> and break up. Add to the pan and fry until they begin to brown.  </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="1" data-quantity="1" data-unit="mug" class="tooltip scalable">water</span>, <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">stock cube</span>, <span data-default="4" data-quantity="4" data-unit="medium" class="tooltip scalable">tomatoes</span> and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">tomato puree</span>. Bring to the boil and then turn down to simmer for <b>5</b> minutes. Add the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">chilli</span> and season well with salt and pepper.  </li>
-                <li itemprop="recipeInstructions">Meanwhile cook the <span data-default="2" data-quantity="2" data-unit="mugs" class="tooltip scalable">pasta</span>, drain and combine with the sausage mixture.  </li>
-                <li itemprop="recipeInstructions">Sprinkle the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">basil</span> over and serve.</li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a wok. Add the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> and fry until the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> beings to soften.  </li>
+                <li itemprop="recipeInstructions">Take the skins off the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">sausages</span> and break up. Add to the pan and fry until they begin to brown.  </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="1" data-defaultunit="mug" data-quantity="1" data-unit="mug" class="tooltip scalable">water</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">stock cube</span>, <span data-default="4" data-defaultunit="medium" data-quantity="4" data-unit="medium" class="tooltip scalable">tomatoes</span> and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">tomato puree</span>. Bring to the boil and then turn down to simmer for <b>5</b> minutes. Add the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">chilli</span> and season well with salt and pepper.  </li>
+                <li itemprop="recipeInstructions">Meanwhile cook the <span data-default="2" data-defaultunit="mugs" data-quantity="2" data-unit="mugs" class="tooltip scalable">pasta</span>, drain and combine with the sausage mixture.  </li>
+                <li itemprop="recipeInstructions">Sprinkle the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">basil</span> over and serve.</li>
                 </ol>
 
             <hr>

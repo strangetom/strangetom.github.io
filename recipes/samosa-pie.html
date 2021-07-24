@@ -13,7 +13,7 @@
         <title>Samosa pie | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Lamb" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,42 +47,56 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2-3" class="scalable">2-3</span> tbsp vegetable oil</li>
+                        <span data-default="2-3" class="scalable">2-3</span>
+                        <span data-unit="tbsp">tbsp</span> vegetable oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> onion, chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> onion, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g lamb mince</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="g">g</span> lamb mince</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, finely chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp curry powder</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> curry powder</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large sweet potato (about 300g), peeled and grated</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> sweet potato (about 300g), peeled and grated</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> g frozen peas</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="g">g</span> frozen peas</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="handful" class="scalable">handful</span> coriander, roughly chopped</li>
-                    <li itemprop="recipeIngredient">juice 0.5 lemon</li>
+                        <span data-default="handful" class="scalable">handful</span>
+                        <span data-unit=""></span> coriander, roughly chopped</li>
+                    <li itemprop="recipeIngredient"> juice 0.5 lemon</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3-4" class="scalable">3-4</span> sheets filo pastry</li>
+                        <span data-default="3-4" class="scalable">3-4</span>
+                        <span data-unit="sheets">sheets</span> filo pastry</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp cumin seeds</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> cumin seeds</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat oven to <b>160</b>&deg;C/Gas <b>4</b>. Heat <b>1</b> tbsp of the <span data-default="2-3" data-quantity="2-3" data-unit="tbsp" class="tooltip scalable">oil</span> in a frying pan. Cook the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">mince</span> for about <b>5</b> mins until the meat is browned. Stir in the <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">curry powder</span>, <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">sweet potato</span> and <b>300</b> ml water. Cook for <b>5-8</b> mins until the potato has softened. Stir in the <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">peas</span>, <span data-default="handful" data-quantity="handful" data-unit="" class="tooltip scalable">coriander</span> and a squeeze of lemon juice, then season.  </li>
-                <li itemprop="recipeInstructions">Spoon the mixture into a baking dish. Brush the sheets of <span data-default="3-4" data-quantity="3-4" data-unit="sheets" class="tooltip scalable">filo</span> with the remaining <span data-default="2-3" data-quantity="2-3" data-unit="tbsp" class="tooltip scalable">oil</span> and scrunch over the top of the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">mince</span>. Sprinkle with <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">cumin seeds</span> and bake for <b>10-15</b> mins or until the top is crisp.  </li>
+                <li itemprop="recipeInstructions">Heat oven to <b>160</b>&deg;C/Gas <b>4</b>. Heat <b>1</b> tbsp of the <span data-default="2-3" data-defaultunit="tbsp" data-quantity="2-3" data-unit="tbsp" class="tooltip scalable">oil</span> in a frying pan. Cook the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">mince</span> for about <b>5</b> mins until the meat is browned. Stir in the <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">curry powder</span>, <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">sweet potato</span> and <b>300</b> ml water. Cook for <b>5-8</b> mins until the potato has softened. Stir in the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">peas</span>, <span data-default="handful" data-defaultunit="" data-quantity="handful" data-unit="" class="tooltip scalable">coriander</span> and a squeeze of lemon juice, then season.  </li>
+                <li itemprop="recipeInstructions">Spoon the mixture into a baking dish. Brush the sheets of <span data-default="3-4" data-defaultunit="sheets" data-quantity="3-4" data-unit="sheets" class="tooltip scalable">filo</span> with the remaining <span data-default="2-3" data-defaultunit="tbsp" data-quantity="2-3" data-unit="tbsp" class="tooltip scalable">oil</span> and scrunch over the top of the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">mince</span>. Sprinkle with <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">cumin seeds</span> and bake for <b>10-15</b> mins or until the top is crisp.  </li>
                 </ol>
 
             <hr>

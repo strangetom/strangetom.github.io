@@ -13,7 +13,7 @@
         <title>One-pot chicken & mushroom risotto | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,40 +43,53 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="60" class="scalable">60</span> g butter</li>
+                        <span data-default="60" class="scalable">60</span>
+                        <span data-unit="g">g</span> butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large onion, finely chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> onion, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> sprigs thyme, leaves picked</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="sprigs">sprigs</span> thyme, leaves picked</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g pack chestnut mushrooms, sliced</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="g">g</span> pack chestnut mushrooms, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="300" class="scalable">300</span> g risotto rice</li>
+                        <span data-default="300" class="scalable">300</span>
+                        <span data-unit="g">g</span> risotto rice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.5" class="scalable">1½</span> l hot chicken stock</li>
+                        <span data-default="1.5" class="scalable">1½</span>
+                        <span data-unit="l">l</span> hot chicken stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g cooked chicken, chopped into chunks</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> cooked chicken, chopped into chunks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> g grated parmesan, plus extra to serve (optional)</li>
+                        <span data-default="50" class="scalable">50</span>
+                        <span data-unit="g">g</span> grated parmesan, plus extra to serve (optional)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="small" class="scalable">small</span> pack parsley, finely chopped</li>
+                        <span data-default="small" class="scalable">small</span>
+                        <span data-unit="pack">pack</span> parsley, finely chopped</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="60" data-quantity="60" data-unit="g" class="tooltip scalable">butter</span> in a large pan over a gentle heat and add the <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span>. Cook for <b>10</b> mins until softened, then stir in the <span data-default="2" data-quantity="2" data-unit="sprigs" class="tooltip scalable">thyme</span> leaves and <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">mushrooms</span>. Cook for <b>5</b> mins, sprinkle in the <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">rice</span> and stir to coat in the mixture.</li>
-                <li itemprop="recipeInstructions">Ladle in a quarter of the <span data-default="1.5" data-quantity="1&frac12;" data-unit="l" class="tooltip scalable">stock</span> and continue cooking, stirring occasionally and topping up with more <span data-default="1.5" data-quantity="1&frac12;" data-unit="l" class="tooltip scalable">stock</span> as it absorbs (you may not need all the <span data-default="1.5" data-quantity="1&frac12;" data-unit="l" class="tooltip scalable">stock</span>).</li>
-                <li itemprop="recipeInstructions">When most of the <span data-default="1.5" data-quantity="1&frac12;" data-unit="l" class="tooltip scalable">stock</span> has been absorbed and the <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">rice</span> is nearly cooked, add the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">chicken</span> and stir to warm through. Season well and stir in the <span data-default="50" data-quantity="50" data-unit="g" class="tooltip scalable">parmesan</span> and <span data-default="small" data-quantity="small" data-unit="pack" class="tooltip scalable">parsley</span>. Serve scattered with extra <span data-default="50" data-quantity="50" data-unit="g" class="tooltip scalable">parmesan</span>, if you like.</li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="60" data-defaultunit="g" data-quantity="60" data-unit="g" class="tooltip scalable">butter</span> in a large pan over a gentle heat and add the <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span>. Cook for <b>10</b> mins until softened, then stir in the <span data-default="2" data-defaultunit="sprigs" data-quantity="2" data-unit="sprigs" class="tooltip scalable">thyme</span> leaves and <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">mushrooms</span>. Cook for <b>5</b> mins, sprinkle in the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">rice</span> and stir to coat in the mixture.</li>
+                <li itemprop="recipeInstructions">Ladle in a quarter of the <span data-default="1.5" data-defaultunit="l" data-quantity="1&frac12;" data-unit="l" class="tooltip scalable">stock</span> and continue cooking, stirring occasionally and topping up with more <span data-default="1.5" data-defaultunit="l" data-quantity="1&frac12;" data-unit="l" class="tooltip scalable">stock</span> as it absorbs (you may not need all the <span data-default="1.5" data-defaultunit="l" data-quantity="1&frac12;" data-unit="l" class="tooltip scalable">stock</span>).</li>
+                <li itemprop="recipeInstructions">When most of the <span data-default="1.5" data-defaultunit="l" data-quantity="1&frac12;" data-unit="l" class="tooltip scalable">stock</span> has been absorbed and the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">rice</span> is nearly cooked, add the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">chicken</span> and stir to warm through. Season well and stir in the <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">parmesan</span> and <span data-default="small" data-defaultunit="pack" data-quantity="small" data-unit="pack" class="tooltip scalable">parsley</span>. Serve scattered with extra <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">parmesan</span>, if you like.</li>
                 </ol>
 
             <hr>

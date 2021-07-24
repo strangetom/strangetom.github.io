@@ -13,7 +13,7 @@
         <title>Pappardelle with rosemary and sausage ragu | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,44 +47,56 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> small onion, finely chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="small">small</span> onion, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, finely chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1-2" class="scalable">1-2</span> sprigs rosemary, needles picked and finely chopped</li>
+                        <span data-default="1-2" class="scalable">1-2</span>
+                        <span data-unit="sprigs">sprigs</span> rosemary, needles picked and finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp fennel seeds</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> fennel seeds</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 400 g pack herby sausages</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g pack">400 g pack</span> herby sausages</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp tomato puree</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> tomato puree</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 400 g tin chopped tomatoes</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g tin">400 g tin</span> chopped tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="360" class="scalable">360</span> g pappardelle pasta</li>
-                    <li itemprop="recipeIngredient">a handful of rocket leaves</li>
+                        <span data-default="360" class="scalable">360</span>
+                        <span data-unit="g">g</span> pappardelle pasta</li>
+                    <li itemprop="recipeIngredient"> a handful of rocket leaves</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tbsp freshly grated Parmesan or shavings</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="tbsp">tbsp</span> freshly grated Parmesan or shavings</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large frying pan and cook the <span data-default="1" data-quantity="1" data-unit="small" class="tooltip scalable">onion</span> for <b>5</b> minutes until beginning to soften. Stir in the <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="1-2" data-quantity="1-2" data-unit="sprigs" class="tooltip scalable">rosemary</span> and <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">fennel seeds</span>, and cook for a further minute.</li>
-                <li itemprop="recipeInstructions">Split open the <span data-default="1x" data-quantity="1x" data-unit="400 g pack" class="tooltip scalable">sausage</span> skins and add the meat to the <span data-default="1" data-quantity="1" data-unit="small" class="tooltip scalable">onion</span>. Fry gently until lightly golden, breaking up the meat with a wooden spoon. Add the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">tomato puree</span> and cook with the <span data-default="1x" data-quantity="1x" data-unit="400 g pack" class="tooltip scalable">sausage</span> mixture for just one minute, then tip in the <span data-default="1x" data-quantity="1x" data-unit="400 g tin" class="tooltip scalable">chopped tomatoes</span> with a splash of water from the tin. Season with a pinch of sea salt and a good grinding of black pepper. Simmer the sauce uncovered for <b>10-15</b> minutes until thickened.</li>
-                <li itemprop="recipeInstructions">While the sauce is simmering, bring a large pan of water to the boil and cook the <span data-default="360" data-quantity="360" data-unit="g" class="tooltip scalable">pappardelle</span> according to the packet instructions. Drain well, reserving a ladle of pasta water, and return to the pan.</li>
-                <li itemprop="recipeInstructions">Ladle the sauce into the pan with the pasta and some reserved pasta water and gently toss everything together until coated. Serve piled into bowls, sprinkled with rocket leaves and <span data-default="4" data-quantity="4" data-unit="tbsp" class="tooltip scalable">Parmesan</span>.</li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large frying pan and cook the <span data-default="1" data-defaultunit="small" data-quantity="1" data-unit="small" class="tooltip scalable">onion</span> for <b>5</b> minutes until beginning to soften. Stir in the <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="1-2" data-defaultunit="sprigs" data-quantity="1-2" data-unit="sprigs" class="tooltip scalable">rosemary</span> and <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">fennel seeds</span>, and cook for a further minute.</li>
+                <li itemprop="recipeInstructions">Split open the <span data-default="1x" data-defaultunit="400 g pack" data-quantity="1x" data-unit="400 g pack" class="tooltip scalable">sausage</span> skins and add the meat to the <span data-default="1" data-defaultunit="small" data-quantity="1" data-unit="small" class="tooltip scalable">onion</span>. Fry gently until lightly golden, breaking up the meat with a wooden spoon. Add the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">tomato puree</span> and cook with the <span data-default="1x" data-defaultunit="400 g pack" data-quantity="1x" data-unit="400 g pack" class="tooltip scalable">sausage</span> mixture for just one minute, then tip in the <span data-default="1x" data-defaultunit="400 g tin" data-quantity="1x" data-unit="400 g tin" class="tooltip scalable">chopped tomatoes</span> with a splash of water from the tin. Season with a pinch of sea salt and a good grinding of black pepper. Simmer the sauce uncovered for <b>10-15</b> minutes until thickened.</li>
+                <li itemprop="recipeInstructions">While the sauce is simmering, bring a large pan of water to the boil and cook the <span data-default="360" data-defaultunit="g" data-quantity="360" data-unit="g" class="tooltip scalable">pappardelle</span> according to the packet instructions. Drain well, reserving a ladle of pasta water, and return to the pan.</li>
+                <li itemprop="recipeInstructions">Ladle the sauce into the pan with the pasta and some reserved pasta water and gently toss everything together until coated. Serve piled into bowls, sprinkled with rocket leaves and <span data-default="4" data-defaultunit="tbsp" data-quantity="4" data-unit="tbsp" class="tooltip scalable">Parmesan</span>.</li>
                 </ol>
 
             <hr>

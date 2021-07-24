@@ -13,7 +13,7 @@
         <title>Baked sweet potato with easy black bean chilli | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -48,41 +48,53 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span>x baking sweet potatoes, around 275 g-300 g each</li>
-                    <li itemprop="recipeIngredient">fine sea salt</li>
+                        <span data-default="4" class="scalable">4</span>x <span data-unit=""></span> baking sweet potatoes, around 275 g-300 g each</li>
+                    <li itemprop="recipeIngredient"> fine sea salt</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> onion, finely chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> onion, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp sunflower oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> sunflower oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 30 g pack taco seasoning mix</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="30 g pack">30 g pack</span> taco seasoning mix</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp tomato puree</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> tomato puree</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span>x 380 g carton black beans, rinsed and drained</li>
+                        <span data-default="2" class="scalable">2</span>x <span data-unit="380 g carton">380 g carton</span> black beans, rinsed and drained</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="15" class="scalable">15</span> g Belgian dark cooking chocolate, chopped</li>
+                        <span data-default="15" class="scalable">15</span>
+                        <span data-unit="g">g</span> Belgian dark cooking chocolate, chopped</li>
                 </ul>
                 <details open>
                     <summary class="ingredient-subheading">To serve</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="4" class="scalable">4</span> generous tbsp soured cream</li>
+                            <span data-default="4" class="scalable">4</span>
+                            <span data-unit="generous tbsp">generous tbsp</span> soured cream</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> avocado, sliced</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit=""></span> avocado, sliced</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tbsp chopped coriander leaves</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tbsp">tbsp</span> chopped coriander leaves</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> red chilli, deseeded and finely chopped</li>
-                        <li itemprop="recipeIngredient">lime zest, to serve</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit=""></span> red chilli, deseeded and finely chopped</li>
+                        <li itemprop="recipeIngredient"> lime zest, to serve</li>
                     </ul>
                 </details>
             </div>
@@ -90,9 +102,9 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Preheat the oven to <b>200</b>&deg;C/Gas <b>7</b>. Scrub the <span data-default="4x" data-quantity="4x" data-unit="" class="tooltip scalable">sweet potatoes</span>, prick with a fork and sprinkle with a little fine sea salt, which will stick to the damp skins. Bake directly on the oven shelf, but put a foil-lined baking tray on the shelf below to catch any sugary drips. Bake for <b>1</b> hour or until soft. Split open (or halve), and top with one of the fillings below.</li>
-                <li itemprop="recipeInstructions">In a large saucepan, soften the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> in the oil for <b>8-10</b> minutes then add the <span data-default="1x" data-quantity="1x" data-unit="30 g pack" class="tooltip scalable">taco seasoning mix</span> and the tomato purée. Cook, stirring, for <b>1</b> minute then add the <span data-default="2x" data-quantity="2x" data-unit="380 g carton" class="tooltip scalable">black beans</span>, the chocolate and <b>200</b> ml water. Simmer for <b>10</b> minutes.</li>
-                <li itemprop="recipeInstructions">Divide the black bean chilli between the halved or split <span data-default="4x" data-quantity="4x" data-unit="" class="tooltip scalable">sweet potatoes</span>. Add a dollop of <span data-default="4" data-quantity="4" data-unit="generous tbsp" class="tooltip scalable">soured cream</span>, sliced <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">avocado</span>, chopped coriander, <span data-default="0.5" data-quantity="&frac12;" data-unit="" class="tooltip scalable">red chilli</span> and lime zest, to serve.</li>
+                <li itemprop="recipeInstructions">Preheat the oven to <b>200</b>&deg;C/Gas <b>7</b>. Scrub the <span data-default="4x" data-defaultunit="" data-quantity="4x" data-unit="" class="tooltip scalable">sweet potatoes</span>, prick with a fork and sprinkle with a little fine sea salt, which will stick to the damp skins. Bake directly on the oven shelf, but put a foil-lined baking tray on the shelf below to catch any sugary drips. Bake for <b>1</b> hour or until soft. Split open (or halve), and top with one of the fillings below.</li>
+                <li itemprop="recipeInstructions">In a large saucepan, soften the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> in the oil for <b>8-10</b> minutes then add the <span data-default="1x" data-defaultunit="30 g pack" data-quantity="1x" data-unit="30 g pack" class="tooltip scalable">taco seasoning mix</span> and the tomato purée. Cook, stirring, for <b>1</b> minute then add the <span data-default="2x" data-defaultunit="380 g carton" data-quantity="2x" data-unit="380 g carton" class="tooltip scalable">black beans</span>, the chocolate and <b>200</b> ml water. Simmer for <b>10</b> minutes.</li>
+                <li itemprop="recipeInstructions">Divide the black bean chilli between the halved or split <span data-default="4x" data-defaultunit="" data-quantity="4x" data-unit="" class="tooltip scalable">sweet potatoes</span>. Add a dollop of <span data-default="4" data-defaultunit="generous tbsp" data-quantity="4" data-unit="generous tbsp" class="tooltip scalable">soured cream</span>, sliced <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">avocado</span>, chopped coriander, <span data-default="0.5" data-defaultunit="" data-quantity="&frac12;" data-unit="" class="tooltip scalable">red chilli</span> and lime zest, to serve.</li>
                 </ol>
 
             <hr>

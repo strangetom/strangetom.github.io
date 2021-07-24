@@ -13,7 +13,7 @@
         <title>Spanish fish pie | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,49 +47,62 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="700" class="scalable">700</span> ml semi-skimmed milk</li>
+                        <span data-default="700" class="scalable">700</span>
+                        <span data-unit="ml">ml</span> semi-skimmed milk</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> sprigs thyme</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="sprigs">sprigs</span> thyme</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp smoked paprika</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> smoked paprika</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span>x 250 g pack skinless cod, cut into large chunks</li>
+                        <span data-default="2" class="scalable">2</span>x <span data-unit="250 g pack">250 g pack</span> skinless cod, cut into large chunks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 180 g pack raw peeled king prawns</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="180 g pack">180 g pack</span> raw peeled king prawns</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp olive oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 150 g pack diced chorizo</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="150 g pack">150 g pack</span> diced chorizo</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> onions, finely chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> onions, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="60" class="scalable">60</span> g plain flour</li>
+                        <span data-default="60" class="scalable">60</span>
+                        <span data-unit="g">g</span> plain flour</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp butter</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="pinch" class="scalable">pinch</span> of saffron</li>
+                        <span data-default="pinch" class="scalable">pinch</span>
+                        <span data-unit=""></span> of saffron</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="800" class="scalable">800</span> g Maris Piper or King Edward potatoes, peeled</li>
+                        <span data-default="800" class="scalable">800</span>
+                        <span data-unit="g">g</span> Maris Piper or King Edward potatoes, peeled</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Bring the <span data-default="700" data-quantity="700" data-unit="ml" class="tooltip scalable">milk</span>, <span data-default="3" data-quantity="3" data-unit="sprigs" class="tooltip scalable">thyme</span> sprigs and <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">paprika</span> to a gentle simmer in a wide pan. Add the <span data-default="2x" data-quantity="2x" data-unit="250 g pack" class="tooltip scalable">cod</span> and <span data-default="1x" data-quantity="1x" data-unit="180 g pack" class="tooltip scalable">prawns</span>, remove from the heat and leave to poach for <b>4</b> minutes. Scoop out carefully onto a plate, reserving the <span data-default="700" data-quantity="700" data-unit="ml" class="tooltip scalable">milk</span>.</li>
-                <li itemprop="recipeInstructions">Heat the oil in a frying pan and cook the chorizo for <b>5</b> minutes. Add the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">onions</span> and cook for <b>10</b> minutes. Sprinkle over the <span data-default="60" data-quantity="60" data-unit="g" class="tooltip scalable">flour</span> and stir until it is absorbed.</li>
-                <li itemprop="recipeInstructions">Add the poaching <span data-default="700" data-quantity="700" data-unit="ml" class="tooltip scalable">milk</span> a splash at a time (transfer to a jug or use a ladle), continually stirring until it's completely incorporated. Simmer on a low heat, continually stirring, until thickened and smooth – about <b>5-10</b> minutes (you want it fairly thick at this stage, as the fish will release more liquid during cooking). Remove from the heat, season and add the fish and <span data-default="1x" data-quantity="1x" data-unit="180 g pack" class="tooltip scalable">prawns</span> to the sauce (don’t stir too much or the fish will flake up).</li>
-                <li itemprop="recipeInstructions">Melt the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">butter</span> in a small pan with the <span data-default="pinch" data-quantity="pinch" data-unit="" class="tooltip scalable">saffron</span>, take off the heat and leave to infuse.</li>
-                <li itemprop="recipeInstructions">Heat the oven to <b>180</b>&deg;C/Gas <b>6</b>. Cut the <span data-default="800" data-quantity="800" data-unit="g" class="tooltip scalable">potatoes</span> into slices <b>2-3</b> mm thick, discarding the two rounded ends. Blanch in a large pan of boiling salted water for <b>5</b> minutes, then drain in a colander, trying not to break them up. Leave to steam dry.</li>
-                <li itemprop="recipeInstructions">Spoon the fish mixture into an ovenproof dish about <b>25</b> cm diameter, then layer the <span data-default="800" data-quantity="800" data-unit="g" class="tooltip scalable">potatoes</span> on top, slightly overlapping, in a spiral or in lines. Brush over the <span data-default="pinch" data-quantity="pinch" data-unit="" class="tooltip scalable">saffron</span> <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">butter</span>, season and bake for <b>30</b> minutes until the <span data-default="800" data-quantity="800" data-unit="g" class="tooltip scalable">potatoes</span> are cooked and light golden. Grill for the last few minutes to crisp up the <span data-default="800" data-quantity="800" data-unit="g" class="tooltip scalable">potatoes</span> if you like.</li>
+                <li itemprop="recipeInstructions">Bring the <span data-default="700" data-defaultunit="ml" data-quantity="700" data-unit="ml" class="tooltip scalable">milk</span>, <span data-default="3" data-defaultunit="sprigs" data-quantity="3" data-unit="sprigs" class="tooltip scalable">thyme</span> sprigs and <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">paprika</span> to a gentle simmer in a wide pan. Add the <span data-default="2x" data-defaultunit="250 g pack" data-quantity="2x" data-unit="250 g pack" class="tooltip scalable">cod</span> and <span data-default="1x" data-defaultunit="180 g pack" data-quantity="1x" data-unit="180 g pack" class="tooltip scalable">prawns</span>, remove from the heat and leave to poach for <b>4</b> minutes. Scoop out carefully onto a plate, reserving the <span data-default="700" data-defaultunit="ml" data-quantity="700" data-unit="ml" class="tooltip scalable">milk</span>.</li>
+                <li itemprop="recipeInstructions">Heat the oil in a frying pan and cook the chorizo for <b>5</b> minutes. Add the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">onions</span> and cook for <b>10</b> minutes. Sprinkle over the <span data-default="60" data-defaultunit="g" data-quantity="60" data-unit="g" class="tooltip scalable">flour</span> and stir until it is absorbed.</li>
+                <li itemprop="recipeInstructions">Add the poaching <span data-default="700" data-defaultunit="ml" data-quantity="700" data-unit="ml" class="tooltip scalable">milk</span> a splash at a time (transfer to a jug or use a ladle), continually stirring until it's completely incorporated. Simmer on a low heat, continually stirring, until thickened and smooth – about <b>5-10</b> minutes (you want it fairly thick at this stage, as the fish will release more liquid during cooking). Remove from the heat, season and add the fish and <span data-default="1x" data-defaultunit="180 g pack" data-quantity="1x" data-unit="180 g pack" class="tooltip scalable">prawns</span> to the sauce (don’t stir too much or the fish will flake up).</li>
+                <li itemprop="recipeInstructions">Melt the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">butter</span> in a small pan with the <span data-default="pinch" data-defaultunit="" data-quantity="pinch" data-unit="" class="tooltip scalable">saffron</span>, take off the heat and leave to infuse.</li>
+                <li itemprop="recipeInstructions">Heat the oven to <b>180</b>&deg;C/Gas <b>6</b>. Cut the <span data-default="800" data-defaultunit="g" data-quantity="800" data-unit="g" class="tooltip scalable">potatoes</span> into slices <b>2-3</b> mm thick, discarding the two rounded ends. Blanch in a large pan of boiling salted water for <b>5</b> minutes, then drain in a colander, trying not to break them up. Leave to steam dry.</li>
+                <li itemprop="recipeInstructions">Spoon the fish mixture into an ovenproof dish about <b>25</b> cm diameter, then layer the <span data-default="800" data-defaultunit="g" data-quantity="800" data-unit="g" class="tooltip scalable">potatoes</span> on top, slightly overlapping, in a spiral or in lines. Brush over the <span data-default="pinch" data-defaultunit="" data-quantity="pinch" data-unit="" class="tooltip scalable">saffron</span> <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">butter</span>, season and bake for <b>30</b> minutes until the <span data-default="800" data-defaultunit="g" data-quantity="800" data-unit="g" class="tooltip scalable">potatoes</span> are cooked and light golden. Grill for the last few minutes to crisp up the <span data-default="800" data-defaultunit="g" data-quantity="800" data-unit="g" class="tooltip scalable">potatoes</span> if you like.</li>
                 </ol>
 
             <hr>

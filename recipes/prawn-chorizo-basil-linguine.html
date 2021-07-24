@@ -13,7 +13,7 @@
         <title>Prawn, chorizo & basil linguine | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,38 +43,47 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g chorizo ring</li>
-                    <li itemprop="recipeIngredient">dried chilli flakes</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="g">g</span> chorizo ring</li>
+                    <li itemprop="recipeIngredient"> dried chilli flakes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="165" class="scalable">165</span> g raw king prawns</li>
+                        <span data-default="165" class="scalable">165</span>
+                        <span data-unit="g">g</span> raw king prawns</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> clove garlic</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="clove">clove</span> garlic</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g passata</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="g">g</span> passata</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g dried linguine</li>
-                    <li itemprop="recipeIngredient">fresh basil</li>
-                    <li itemprop="recipeIngredient">olive oil</li>
-                    <li itemprop="recipeIngredient">salt and pepper</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="g">g</span> dried linguine</li>
+                    <li itemprop="recipeIngredient"> fresh basil</li>
+                    <li itemprop="recipeIngredient"> olive oil</li>
+                    <li itemprop="recipeIngredient"> salt and pepper</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Slice the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">chorizo</span> into bite-sized pieces. Add to a frying pan over a medium heat and cook until crispy.</li>
-                <li itemprop="recipeInstructions">Once crispy, add a pinch of dried chilli flakes and the raw <span data-default="165" data-quantity="165" data-unit="g" class="tooltip scalable">prawns</span>. Cook the <span data-default="165" data-quantity="165" data-unit="g" class="tooltip scalable">prawns</span> until they are pink, then add a chopped clove <span data-default="1" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span>. Cook for a further <b>30</b> seconds, and then pour in the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">passata</span>.</li>
+                <li itemprop="recipeInstructions">Slice the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">chorizo</span> into bite-sized pieces. Add to a frying pan over a medium heat and cook until crispy.</li>
+                <li itemprop="recipeInstructions">Once crispy, add a pinch of dried chilli flakes and the raw <span data-default="165" data-defaultunit="g" data-quantity="165" data-unit="g" class="tooltip scalable">prawns</span>. Cook the <span data-default="165" data-defaultunit="g" data-quantity="165" data-unit="g" class="tooltip scalable">prawns</span> until they are pink, then add a chopped clove <span data-default="1" data-defaultunit="clove" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span>. Cook for a further <b>30</b> seconds, and then pour in the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">passata</span>.</li>
                 <li itemprop="recipeInstructions">Get the linguine on (follow the instructions on the packet).</li>
                 <li itemprop="recipeInstructions">Meanwhile, bubble the sauce down until it is nice and thick. Then throw in a handful of chopped basil (keep some whole leaves to garnish) and season well with salt and pepper.</li>
-                <li itemprop="recipeInstructions">Drain your <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">pasta</span> and pour it into the sauce. Mix everything together and serve, with a drizzle of olive oil and the basil leaves scattered on top.</li>
+                <li itemprop="recipeInstructions">Drain your <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">pasta</span> and pour it into the sauce. Mix everything together and serve, with a drizzle of olive oil and the basil leaves scattered on top.</li>
                 </ol>
 
             <hr>

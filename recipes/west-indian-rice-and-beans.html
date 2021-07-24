@@ -13,7 +13,7 @@
         <title>West indian rice and beans | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -48,36 +48,48 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cups vegetable broth</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cups">cups</span> vegetable broth</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> can (15-ounce) kidney beans, drained and rinsed</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> can (15-ounce) kidney beans, drained and rinsed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> cup canned unsweetened coconut milk</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="cup">cup</span> canned unsweetened coconut milk</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> jalapeno, deseeded and minced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> jalapeno, deseeded and minced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp dried thyme</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> dried thyme</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp ground allspice</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> ground allspice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.75" class="scalable">¾</span> cup medium-grain white rice</li>
+                        <span data-default="0.75" class="scalable">¾</span>
+                        <span data-unit="cup">cup</span> medium-grain white rice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> cup green onion, thinly sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="cup">cup</span> green onion, thinly sliced</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">In a medium or large saucepan, combine everything but the rice and <span data-default="1" data-quantity="1" data-unit="cup" class="tooltip scalable">green onion</span> and bring to a boil. Stir in rice, reduce heat to a gentle simmer, and cook until the rice is almost tender and most of the liquid is absorbed, about <b>20</b> minutes.</li>
+                <li itemprop="recipeInstructions">In a medium or large saucepan, combine everything but the rice and <span data-default="1" data-defaultunit="cup" data-quantity="1" data-unit="cup" class="tooltip scalable">green onion</span> and bring to a boil. Stir in rice, reduce heat to a gentle simmer, and cook until the rice is almost tender and most of the liquid is absorbed, about <b>20</b> minutes.</li>
                 <li itemprop="recipeInstructions">Stir in most of the green onions, reserving some for garnish.  Continue cooking until the rice is completely tender.  Serve with remaining green onions as garnish.</li>
                 </ol>
 

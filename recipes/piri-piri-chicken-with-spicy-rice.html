@@ -13,7 +13,7 @@
         <title>Piri-piri chicken with spicy rice | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,38 +47,50 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="about 4" class="scalable">about 4</span> skin-on chicken thighs and 4 drumsticks</li>
+                        <span data-default="about 4" class="scalable">about 4</span>
+                        <span data-unit=""></span> skin-on chicken thighs and 4 drumsticks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="6" class="scalable">6</span> tbsp piri-piri marinade (you can buy mild, medium or hot)</li>
+                        <span data-default="6" class="scalable">6</span>
+                        <span data-unit="tbsp">tbsp</span> piri-piri marinade (you can buy mild, medium or hot)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp sunflower oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> sunflower oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> peppers, any colour, deseeded and finely chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> peppers, any colour, deseeded and finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> bunch spring onions, sliced white and green parts separated</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="bunch">bunch</span> spring onions, sliced white and green parts separated</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tbsp tomato puree</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="tbsp">tbsp</span> tomato puree</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp sweet smoked paprika</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> sweet smoked paprika</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g cooked rice</li>
-                    <li itemprop="recipeIngredient">vegetables or salad, to serve (optional)</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="g">g</span> cooked rice</li>
+                    <li itemprop="recipeIngredient"> vegetables or salad, to serve (optional)</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat oven to <b>200</b>&deg;C/<b>180</b>&deg;C fan/Gas <b>6</b>. Slash each piece of <span data-default="about 4" data-quantity="about 4" data-unit="" class="tooltip scalable">chicken</span> <b>3</b> times, so the marinade can really flavour the meat. Pour over the sauce and leave in the fridge to marinate, if you have time. If not, mix well and arrange, skin-side up, in a roasting tin. Cook for <b>30</b> mins, then increase heat to <b>220</b>&deg;C/<b>200</b>&deg;C fan/Gas <b>7</b> and cook for about <b>15</b> mins more until the skin is crispy and golden.  </li>
-                <li itemprop="recipeInstructions">When the <span data-default="about 4" data-quantity="about 4" data-unit="" class="tooltip scalable">chicken</span> is almost ready, heat the oil in a frying pan. Cook the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">peppers</span> and white parts of the <span data-default="0.5" data-quantity="&frac12;" data-unit="bunch" class="tooltip scalable">spring onions</span> for <b>5</b> mins. Tip in the <span data-default="4" data-quantity="4" data-unit="tbsp" class="tooltip scalable">puree</span> and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">paprika</span>, stir, then add the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">rice</span>, breaking up with a wooden spoon so all the grains are coated well. Use a high heat and scrape any that sticks off the bottom so you get some soft and some crispy parts. Heat until piping hot. Scatter the green parts of the spring onion on top and serve with the <span data-default="about 4" data-quantity="about 4" data-unit="" class="tooltip scalable">chicken</span>, and some vegetables or salad, if you like.</li>
+                <li itemprop="recipeInstructions">Heat oven to <b>200</b>&deg;C/<b>180</b>&deg;C fan/Gas <b>6</b>. Slash each piece of <span data-default="about 4" data-defaultunit="" data-quantity="about 4" data-unit="" class="tooltip scalable">chicken</span> <b>3</b> times, so the marinade can really flavour the meat. Pour over the sauce and leave in the fridge to marinate, if you have time. If not, mix well and arrange, skin-side up, in a roasting tin. Cook for <b>30</b> mins, then increase heat to <b>220</b>&deg;C/<b>200</b>&deg;C fan/Gas <b>7</b> and cook for about <b>15</b> mins more until the skin is crispy and golden.  </li>
+                <li itemprop="recipeInstructions">When the <span data-default="about 4" data-defaultunit="" data-quantity="about 4" data-unit="" class="tooltip scalable">chicken</span> is almost ready, heat the oil in a frying pan. Cook the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">peppers</span> and white parts of the <span data-default="0.5" data-defaultunit="bunch" data-quantity="&frac12;" data-unit="bunch" class="tooltip scalable">spring onions</span> for <b>5</b> mins. Tip in the <span data-default="4" data-defaultunit="tbsp" data-quantity="4" data-unit="tbsp" class="tooltip scalable">puree</span> and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">paprika</span>, stir, then add the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">rice</span>, breaking up with a wooden spoon so all the grains are coated well. Use a high heat and scrape any that sticks off the bottom so you get some soft and some crispy parts. Heat until piping hot. Scatter the green parts of the spring onion on top and serve with the <span data-default="about 4" data-defaultunit="" data-quantity="about 4" data-unit="" class="tooltip scalable">chicken</span>, and some vegetables or salad, if you like.</li>
                 </ol>
 
             <hr>

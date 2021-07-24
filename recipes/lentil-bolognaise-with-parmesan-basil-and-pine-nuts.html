@@ -13,7 +13,7 @@
         <title>Lentil bolognaise with parmesan basil and pine nuts | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -46,63 +46,85 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> brown onion, finely diced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> brown onion, finely diced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, minced</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, minced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> carrots, peeled and grated</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> carrots, peeled and grated</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> stalk celery stalk, finely diced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="stalk">stalk</span> celery stalk, finely diced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp fresh oregano, chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> fresh oregano, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> cup red wine</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="cup">cup</span> red wine</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> cup red split lentils</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="cup">cup</span> red split lentils</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> cup tomato paste</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit="cup">cup</span> tomato paste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span>x 400 g cans canned chopped tomatoes</li>
+                        <span data-default="2" class="scalable">2</span>x <span data-unit="400 g cans">400 g cans</span> canned chopped tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1-2" class="scalable">1-2</span> tsp brown sugar</li>
+                        <span data-default="1-2" class="scalable">1-2</span>
+                        <span data-unit="tsp">tsp</span> brown sugar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp balsamic vinegar</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> balsamic vinegar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp soy sauce (gluten-free if required)</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> soy sauce (gluten-free if required)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp salt</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> salt</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cups water</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cups">cups</span> water</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> cup sliced pitted olives</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit="cup">cup</span> sliced pitted olives</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g pappardelle pasta (fresh or dried), gluten-free if required</li>
+                        <span data-default="400" class="scalable">400</span>
+                        <span data-unit="g">g</span> pappardelle pasta (fresh or dried), gluten-free if required</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> cup pine nuts, toasted</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="cup">cup</span> pine nuts, toasted</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> cup fresh basil leaves</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit="cup">cup</span> fresh basil leaves</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> cup parmesan cheese, finely grated or shaved (omit for dairy-free)</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit="cup">cup</span> parmesan cheese, finely grated or shaved (omit for dairy-free)</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Bring a large pot of salted <span data-default="2" data-quantity="2" data-unit="cups" class="tooltip scalable">water</span> to the boil.</li>
-                <li itemprop="recipeInstructions">Heat a drizzle of oil in a large fry-pan on medium heat. Cook <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">carrots</span>, celery and <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oregano</span> for <b>6-7</b> minutes, until softened. Add <span data-default="0.5" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">wine</span> and simmer for <b>1</b> minute, until nearly all evaporated.</li>
-                <li itemprop="recipeInstructions">Stir through <span data-default="0.5" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">lentils</span>, <span data-default="0.25" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">tomato paste</span>, <span data-default="2x" data-quantity="2x" data-unit="400 g cans" class="tooltip scalable">tomatoes</span>, <span data-default="1-2" data-quantity="1-2" data-unit="tsp" class="tooltip scalable">sugar</span>, <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">vinegar</span>, <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">soy sauce</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">salt</span> and <span data-default="2" data-quantity="2" data-unit="cups" class="tooltip scalable">water</span>. Bring to a simmer, reduce heat to low and simmer, covered for about <b>25</b> minutes until <span data-default="0.5" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">lentils</span> are soft. Stir through <span data-default="0.25" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">olives</span> and season to taste with <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">salt</span> and pepper. If mixture dries out at any time, stir through <b>&frac14;</b> - <b>&frac12;</b> cups <span data-default="2" data-quantity="2" data-unit="cups" class="tooltip scalable">water</span>.</li>
-                <li itemprop="recipeInstructions">While sauce is cooking, prepare salad. Toss with salad leaves and <span data-default="0.25" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">parmesan</span> in a medium bowl. Drizzle with a little extra-virgin olive oil and balsamic <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">vinegar</span> just before serving.</li>
-                <li itemprop="recipeInstructions">When sauce has nearly finished cooking, cook <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">pasta</span> in pot of boiling <span data-default="2" data-quantity="2" data-unit="cups" class="tooltip scalable">water</span> according to packet instructions, until just tender. Drain, return to pot and drizzle with a little olive oil to prevent sticking.</li>
-                <li itemprop="recipeInstructions">To serve, divide <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">pasta</span> between plates and spoon over lentil bolognaise sauce. Sprinkle over <span data-default="0.5" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">pine nuts</span>, basil and <span data-default="0.25" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">parmesan</span>. Serve salad on the side.</li>
+                <li itemprop="recipeInstructions">Bring a large pot of salted <span data-default="2" data-defaultunit="cups" data-quantity="2" data-unit="cups" class="tooltip scalable">water</span> to the boil.</li>
+                <li itemprop="recipeInstructions">Heat a drizzle of oil in a large fry-pan on medium heat. Cook <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">carrots</span>, celery and <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oregano</span> for <b>6-7</b> minutes, until softened. Add <span data-default="0.5" data-defaultunit="cup" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">wine</span> and simmer for <b>1</b> minute, until nearly all evaporated.</li>
+                <li itemprop="recipeInstructions">Stir through <span data-default="0.5" data-defaultunit="cup" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">lentils</span>, <span data-default="0.25" data-defaultunit="cup" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">tomato paste</span>, <span data-default="2x" data-defaultunit="400 g cans" data-quantity="2x" data-unit="400 g cans" class="tooltip scalable">tomatoes</span>, <span data-default="1-2" data-defaultunit="tsp" data-quantity="1-2" data-unit="tsp" class="tooltip scalable">sugar</span>, <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">vinegar</span>, <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">soy sauce</span>, <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">salt</span> and <span data-default="2" data-defaultunit="cups" data-quantity="2" data-unit="cups" class="tooltip scalable">water</span>. Bring to a simmer, reduce heat to low and simmer, covered for about <b>25</b> minutes until <span data-default="0.5" data-defaultunit="cup" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">lentils</span> are soft. Stir through <span data-default="0.25" data-defaultunit="cup" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">olives</span> and season to taste with <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">salt</span> and pepper. If mixture dries out at any time, stir through <b>&frac14;</b> - <b>&frac12;</b> cups <span data-default="2" data-defaultunit="cups" data-quantity="2" data-unit="cups" class="tooltip scalable">water</span>.</li>
+                <li itemprop="recipeInstructions">While sauce is cooking, prepare salad. Toss with salad leaves and <span data-default="0.25" data-defaultunit="cup" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">parmesan</span> in a medium bowl. Drizzle with a little extra-virgin olive oil and balsamic <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">vinegar</span> just before serving.</li>
+                <li itemprop="recipeInstructions">When sauce has nearly finished cooking, cook <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">pasta</span> in pot of boiling <span data-default="2" data-defaultunit="cups" data-quantity="2" data-unit="cups" class="tooltip scalable">water</span> according to packet instructions, until just tender. Drain, return to pot and drizzle with a little olive oil to prevent sticking.</li>
+                <li itemprop="recipeInstructions">To serve, divide <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">pasta</span> between plates and spoon over lentil bolognaise sauce. Sprinkle over <span data-default="0.5" data-defaultunit="cup" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">pine nuts</span>, basil and <span data-default="0.25" data-defaultunit="cup" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">parmesan</span>. Serve salad on the side.</li>
                 </ol>
 
             <hr>

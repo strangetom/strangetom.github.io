@@ -13,7 +13,7 @@
         <title>Saffron chicken kababs with peaches | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -51,53 +51,68 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.5" class="scalable">1½</span> tsp saffron threads</li>
+                        <span data-default="1.5" class="scalable">1½</span>
+                        <span data-unit="tsp">tsp</span> saffron threads</li>
                     <li itemprop="recipeIngredient">pinch of granulated sugar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large lemon, zested, plus ⅓ cup fresh lemon juice</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> lemon, zested, plus ⅓ cup fresh lemon juice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> cup extra-virgin olive oil</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit="cup">cup</span> extra-virgin olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> large cloves garlic, finely grated</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="large cloves">large cloves</span> garlic, finely grated</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tsp kosher salt</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="tsp">tsp</span> kosher salt</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp black pepper</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> black pepper</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> lbs boneless, skinless chicken thighs, cut into 2-inch pieces</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="lbs">lbs</span> boneless, skinless chicken thighs, cut into 2-inch pieces</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large yellow onion, thinly sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> yellow onion, thinly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="12" class="scalable">12</span> oz cherry tomatoes</li>
+                        <span data-default="12" class="scalable">12</span>
+                        <span data-unit="oz">oz</span> cherry tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> large ripe but firm yellow peaches, cut into ¾-inch wedges</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="large">large</span> ripe but firm yellow peaches, cut into ¾-inch wedges</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp unsalted butter, melted, for basting</li>
-                    <li itemprop="recipeIngredient">Lavash bread, for serving (optional)</li>
-                    <li itemprop="recipeIngredient">Lime wedges, for serving</li>
-                    <li itemprop="recipeIngredient">Sumac, for serving</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> unsalted butter, melted, for basting</li>
+                    <li itemprop="recipeIngredient"> Lavash bread, for serving (optional)</li>
+                    <li itemprop="recipeIngredient"> Lime wedges, for serving</li>
+                    <li itemprop="recipeIngredient"> Sumac, for serving</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Using a mortar and pestle (or small bowl and the handle end of a wooden spoon), grind the <span data-default="1.5" data-quantity="1&frac12;" data-unit="tsp" class="tooltip scalable">saffron</span> with the sugar to a fine powder (about <b>&frac14;</b> teaspoon). Transfer to a large bowl.</li>
-                <li itemprop="recipeInstructions">Bring <b>2</b> tablespoons water to a boil in a kettle, saucepan or using the microwave, then let stand for <b>2</b> minutes to allow the water temperature to drop slightly. Add to the ground <span data-default="1.5" data-quantity="1&frac12;" data-unit="tsp" class="tooltip scalable">saffron</span> powder, gently stir, cover and steep for <b>5</b> minutes.</li>
-                <li itemprop="recipeInstructions">To the <span data-default="1.5" data-quantity="1&frac12;" data-unit="tsp" class="tooltip scalable">saffron</span> water, add the <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">lemon</span> zest, <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">lemon</span> juice, <span data-default="0.25" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">olive oil</span>, <span data-default="3" data-quantity="3" data-unit="large cloves" class="tooltip scalable">garlic</span>, <span data-default="4" data-quantity="4" data-unit="tsp" class="tooltip scalable">salt</span> and <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">pepper</span>; carefully stir to mix. Add the chicken and <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span> to the marinade and combine until well-coated. Cover and marinate in the refrigerator for <b>2</b> to <b>24</b> hours, turning the chicken pieces around in the marinade every once in a while.</li>
-                <li itemprop="recipeInstructions">Prepare a charcoal grill until the coals are ashed over and still hot, or heat a gas grill to medium-high. Skewer the <span data-default="12" data-quantity="12" data-unit="oz" class="tooltip scalable">tomatoes</span> and <span data-default="3" data-quantity="3" data-unit="large" class="tooltip scalable">peaches</span> separately and set aside. Remove the chicken pieces from the marinade and skewer them. It's best to use flat, <b>1/2</b>-inch-wide skewers or double skewers so the chicken pieces stay put when turned.</li>
-                <li itemprop="recipeInstructions">Transfer the <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span> and any remaining marinade to a medium skillet and cook over medium-high heat, stirring occasionally, for <b>5</b> minutes. Reduce the heat to medium-low and continue cooking, stirring occasionally, until the <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span> has softened and the skillet is nearly dry, <b>15</b> to <b>20</b> minutes.</li>
-                <li itemprop="recipeInstructions">Meanwhile, grill the chicken, basting with the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">butter</span> and turning every <b>2</b> minutes, until the chicken is cooked through, <b>10</b> to <b>12</b> minutes on a charcoal grill and <b>15</b> to <b>18</b> minutes on a gas grill.</li>
-                <li itemprop="recipeInstructions">Grill the <span data-default="12" data-quantity="12" data-unit="oz" class="tooltip scalable">tomatoes</span> and <span data-default="3" data-quantity="3" data-unit="large" class="tooltip scalable">peaches</span> alongside the chicken: Grill the <span data-default="12" data-quantity="12" data-unit="oz" class="tooltip scalable">tomatoes</span>, turning every <b>2</b> to <b>3</b> minutes, until softened and slightly blistered, <b>6</b> to <b>8</b> minutes on charcoal and about <b>10</b> minutes on a gas grill. Grill the <span data-default="3" data-quantity="3" data-unit="large" class="tooltip scalable">peaches</span>, turning every <b>2</b> to <b>3</b> minutes, until softened but not falling apart, about <b>10</b> minutes.</li>
-                <li itemprop="recipeInstructions">If using lavash bread, drape on a serving platter. Place the chicken, <span data-default="12" data-quantity="12" data-unit="oz" class="tooltip scalable">tomatoes</span> and <span data-default="3" data-quantity="3" data-unit="large" class="tooltip scalable">peaches</span> on the bread. (As the kababs sit, the bread soaks up the wonderful juices and becomes a highly sought-after bite.) Serve with the cooked onions, lime wedges for squeezing and sumac for sprinkling.</li>
+                <li itemprop="recipeInstructions">Using a mortar and pestle (or small bowl and the handle end of a wooden spoon), grind the <span data-default="1.5" data-defaultunit="tsp" data-quantity="1&frac12;" data-unit="tsp" class="tooltip scalable">saffron</span> with the sugar to a fine powder (about <b>&frac14;</b> teaspoon). Transfer to a large bowl.</li>
+                <li itemprop="recipeInstructions">Bring <b>2</b> tablespoons water to a boil in a kettle, saucepan or using the microwave, then let stand for <b>2</b> minutes to allow the water temperature to drop slightly. Add to the ground <span data-default="1.5" data-defaultunit="tsp" data-quantity="1&frac12;" data-unit="tsp" class="tooltip scalable">saffron</span> powder, gently stir, cover and steep for <b>5</b> minutes.</li>
+                <li itemprop="recipeInstructions">To the <span data-default="1.5" data-defaultunit="tsp" data-quantity="1&frac12;" data-unit="tsp" class="tooltip scalable">saffron</span> water, add the <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">lemon</span> zest, <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">lemon</span> juice, <span data-default="0.25" data-defaultunit="cup" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">olive oil</span>, <span data-default="3" data-defaultunit="large cloves" data-quantity="3" data-unit="large cloves" class="tooltip scalable">garlic</span>, <span data-default="4" data-defaultunit="tsp" data-quantity="4" data-unit="tsp" class="tooltip scalable">salt</span> and <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">pepper</span>; carefully stir to mix. Add the chicken and <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span> to the marinade and combine until well-coated. Cover and marinate in the refrigerator for <b>2</b> to <b>24</b> hours, turning the chicken pieces around in the marinade every once in a while.</li>
+                <li itemprop="recipeInstructions">Prepare a charcoal grill until the coals are ashed over and still hot, or heat a gas grill to medium-high. Skewer the <span data-default="12" data-defaultunit="oz" data-quantity="12" data-unit="oz" class="tooltip scalable">tomatoes</span> and <span data-default="3" data-defaultunit="large" data-quantity="3" data-unit="large" class="tooltip scalable">peaches</span> separately and set aside. Remove the chicken pieces from the marinade and skewer them. It's best to use flat, <b>1/2</b>-inch-wide skewers or double skewers so the chicken pieces stay put when turned.</li>
+                <li itemprop="recipeInstructions">Transfer the <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span> and any remaining marinade to a medium skillet and cook over medium-high heat, stirring occasionally, for <b>5</b> minutes. Reduce the heat to medium-low and continue cooking, stirring occasionally, until the <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span> has softened and the skillet is nearly dry, <b>15</b> to <b>20</b> minutes.</li>
+                <li itemprop="recipeInstructions">Meanwhile, grill the chicken, basting with the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">butter</span> and turning every <b>2</b> minutes, until the chicken is cooked through, <b>10</b> to <b>12</b> minutes on a charcoal grill and <b>15</b> to <b>18</b> minutes on a gas grill.</li>
+                <li itemprop="recipeInstructions">Grill the <span data-default="12" data-defaultunit="oz" data-quantity="12" data-unit="oz" class="tooltip scalable">tomatoes</span> and <span data-default="3" data-defaultunit="large" data-quantity="3" data-unit="large" class="tooltip scalable">peaches</span> alongside the chicken: Grill the <span data-default="12" data-defaultunit="oz" data-quantity="12" data-unit="oz" class="tooltip scalable">tomatoes</span>, turning every <b>2</b> to <b>3</b> minutes, until softened and slightly blistered, <b>6</b> to <b>8</b> minutes on charcoal and about <b>10</b> minutes on a gas grill. Grill the <span data-default="3" data-defaultunit="large" data-quantity="3" data-unit="large" class="tooltip scalable">peaches</span>, turning every <b>2</b> to <b>3</b> minutes, until softened but not falling apart, about <b>10</b> minutes.</li>
+                <li itemprop="recipeInstructions">If using lavash bread, drape on a serving platter. Place the chicken, <span data-default="12" data-defaultunit="oz" data-quantity="12" data-unit="oz" class="tooltip scalable">tomatoes</span> and <span data-default="3" data-defaultunit="large" data-quantity="3" data-unit="large" class="tooltip scalable">peaches</span> on the bread. (As the kababs sit, the bread soaks up the wonderful juices and becomes a highly sought-after bite.) Serve with the cooked onions, lime wedges for squeezing and sumac for sprinkling.</li>
                 </ol>
 
             <hr>

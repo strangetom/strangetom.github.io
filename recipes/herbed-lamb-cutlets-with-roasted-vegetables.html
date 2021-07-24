@@ -13,7 +13,7 @@
         <title>Herbed lamb cutlets with roasted vegetables | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Lamb" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,39 +47,51 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> peppers, any colour, deseeded and cut into chunky pieces</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> peppers, any colour, deseeded and cut into chunky pieces</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large sweet potato, peeled and cut into chunky pieces</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> sweet potato, peeled and cut into chunky pieces</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> courgettes, sliced into chunks</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> courgettes, sliced into chunks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> red onion, cut into wedges</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> red onion, cut into wedges</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="8" class="scalable">8</span> cutlets lean lamb</li>
+                        <span data-default="8" class="scalable">8</span>
+                        <span data-unit="cutlets">cutlets</span> lean lamb</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp thyme leaf, chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> thyme leaf, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp mint leaves, chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> mint leaves, chopped</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat oven to <b>200</b>&deg;C/Gas <b>7</b>. Put the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">peppers</span>, <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">sweet potato</span>, <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">courgettes</span> and <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> on a large baking tray and drizzle over the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span>. Season with lots of ground black pepper. Roast for <b>25</b> mins.  </li>
-                <li itemprop="recipeInstructions">Meanwhile, trim the <span data-default="8" data-quantity="8" data-unit="cutlets" class="tooltip scalable">lamb</span> of as much fat as possible. Mix the herbs with a few twists of ground black pepper and pat all over the <span data-default="8" data-quantity="8" data-unit="cutlets" class="tooltip scalable">lamb</span>.  </li>
+                <li itemprop="recipeInstructions">Heat oven to <b>200</b>&deg;C/Gas <b>7</b>. Put the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">peppers</span>, <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">sweet potato</span>, <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">courgettes</span> and <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> on a large baking tray and drizzle over the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span>. Season with lots of ground black pepper. Roast for <b>25</b> mins.  </li>
+                <li itemprop="recipeInstructions">Meanwhile, trim the <span data-default="8" data-defaultunit="cutlets" data-quantity="8" data-unit="cutlets" class="tooltip scalable">lamb</span> of as much fat as possible. Mix the herbs with a few twists of ground black pepper and pat all over the <span data-default="8" data-defaultunit="cutlets" data-quantity="8" data-unit="cutlets" class="tooltip scalable">lamb</span>.  </li>
                 <li itemprop="recipeInstructions">Take the vegetables out of the oven, turn over and push to one side of the tray. Place the cutlets on the hot tray and return to the oven for <b>10</b> mins.  </li>
-                <li itemprop="recipeInstructions">Turn the cutlets and cook for a further <b>10</b> mins or until the vegetables and <span data-default="8" data-quantity="8" data-unit="cutlets" class="tooltip scalable">lamb</span> are tender and lightly charred. Mix everything on the tray and serve.</li>
+                <li itemprop="recipeInstructions">Turn the cutlets and cook for a further <b>10</b> mins or until the vegetables and <span data-default="8" data-defaultunit="cutlets" data-quantity="8" data-unit="cutlets" class="tooltip scalable">lamb</span> are tender and lightly charred. Mix everything on the tray and serve.</li>
                 </ol>
 
             <hr>

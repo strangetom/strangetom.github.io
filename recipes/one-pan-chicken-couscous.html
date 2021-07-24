@@ -13,7 +13,7 @@
         <title>One-pan chicken couscous | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,43 +47,56 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> onion, thinly sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> onion, thinly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g chicken breast, diced</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> chicken breast, diced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="good chunk" class="scalable">good chunk</span> fresh root ginger</li>
+                        <span data-default="good chunk" class="scalable">good chunk</span>
+                        <span data-unit=""></span> fresh root ginger</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1-2" class="scalable">1-2</span> tbsp harissa paste, plus extra to serve</li>
+                        <span data-default="1-2" class="scalable">1-2</span>
+                        <span data-unit="tbsp">tbsp</span> harissa paste, plus extra to serve</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="10" class="scalable">10</span> dried apricots</li>
+                        <span data-default="10" class="scalable">10</span>
+                        <span data-unit=""></span> dried apricots</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="220" class="scalable">220</span> g can chickpeas, rinsed and drained</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="220 g can">220 g can</span> chickpeas, rinsed and drained</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g couscous</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> couscous</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> ml hot chicken stock</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="ml">ml</span> hot chicken stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="handful" class="scalable">handful</span> coriander, chopped, to serve</li>
+                        <span data-default="handful" class="scalable">handful</span>
+                        <span data-unit=""></span> coriander, chopped, to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the olive <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large frying pan and cook the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> for <b>1-2</b> mins just until softened. </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">chicken</span> and fry for <b>7-10</b> mins until cooked through and the onions have turned golden. Grate over the ginger, stir through the <span data-default="1-2" data-quantity="1-2" data-unit="tbsp" class="tooltip scalable">harissa</span> to coat everything and cook for <b>1</b> min more.</li>
-                <li itemprop="recipeInstructions">Tip in the <span data-default="10" data-quantity="10" data-unit="" class="tooltip scalable">apricots</span>, <span data-default="220" data-quantity="220" data-unit="g can" class="tooltip scalable">chickpeas</span> and <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">couscous</span>, then pour over the <span data-default="200" data-quantity="200" data-unit="ml" class="tooltip scalable">stock</span> and stir once. Cover with a lid or tightly cover the pan with foil and leave for about <b>5</b> mins until the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">couscous</span> has soaked up all the <span data-default="200" data-quantity="200" data-unit="ml" class="tooltip scalable">stock</span> and is soft. </li>
-                <li itemprop="recipeInstructions">Fluff up the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">couscous</span> with a fork and scatter over the <span data-default="handful" data-quantity="handful" data-unit="" class="tooltip scalable">coriander</span> to serve. Serve with extra <span data-default="1-2" data-quantity="1-2" data-unit="tbsp" class="tooltip scalable">harissa</span>, if you like.</li>
+                <li itemprop="recipeInstructions">Heat the olive <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large frying pan and cook the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> for <b>1-2</b> mins just until softened. </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">chicken</span> and fry for <b>7-10</b> mins until cooked through and the onions have turned golden. Grate over the ginger, stir through the <span data-default="1-2" data-defaultunit="tbsp" data-quantity="1-2" data-unit="tbsp" class="tooltip scalable">harissa</span> to coat everything and cook for <b>1</b> min more.</li>
+                <li itemprop="recipeInstructions">Tip in the <span data-default="10" data-defaultunit="" data-quantity="10" data-unit="" class="tooltip scalable">apricots</span>, <span data-default="1x" data-defaultunit="220 g can" data-quantity="1x" data-unit="220 g can" class="tooltip scalable">chickpeas</span> and <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">couscous</span>, then pour over the <span data-default="200" data-defaultunit="ml" data-quantity="200" data-unit="ml" class="tooltip scalable">stock</span> and stir once. Cover with a lid or tightly cover the pan with foil and leave for about <b>5</b> mins until the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">couscous</span> has soaked up all the <span data-default="200" data-defaultunit="ml" data-quantity="200" data-unit="ml" class="tooltip scalable">stock</span> and is soft. </li>
+                <li itemprop="recipeInstructions">Fluff up the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">couscous</span> with a fork and scatter over the <span data-default="handful" data-defaultunit="" data-quantity="handful" data-unit="" class="tooltip scalable">coriander</span> to serve. Serve with extra <span data-default="1-2" data-defaultunit="tbsp" data-quantity="1-2" data-unit="tbsp" class="tooltip scalable">harissa</span>, if you like.</li>
                 </ol>
 
             <hr>

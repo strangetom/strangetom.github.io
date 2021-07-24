@@ -13,7 +13,7 @@
         <title>Thai-style fishcakes | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -49,46 +49,60 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> skinless salmon fillets, cut into chunks</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> skinless salmon fillets, cut into chunks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 165 g pack raw peeled king prawns</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="165 g pack">165 g pack</span> raw peeled king prawns</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> red onion, finely chopped</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit=""></span> red onion, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> clove garlic, crushed</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="clove">clove</span> garlic, crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp Thai green curry paste</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> Thai green curry paste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp chopped coriander</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> chopped coriander</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp vegetable oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> vegetable oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> cucumber</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit=""></span> cucumber</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> medium carrot, peeled</li>
-                    <li itemprop="recipeIngredient">juice of ½ lime, plus wedges to serve</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="medium">medium</span> carrot, peeled</li>
+                    <li itemprop="recipeIngredient"> juice of ½ lime, plus wedges to serve</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp chopped coriander</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> chopped coriander</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp sweet chilli sauce, plus more to serve</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> sweet chilli sauce, plus more to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the grill to medium-high. Pulse the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">salmon</span> and two-thirds of the <span data-default="1x" data-quantity="1x" data-unit="165 g pack" class="tooltip scalable">prawns</span> in a food processor until finely chopped but not paste-like. Roughly chop the remaining <span data-default="1x" data-quantity="1x" data-unit="165 g pack" class="tooltip scalable">prawns</span> by hand.</li>
-                <li itemprop="recipeInstructions">Tip the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">salmon</span> mix and the chopped <span data-default="1x" data-quantity="1x" data-unit="165 g pack" class="tooltip scalable">prawns</span> into a bowl and add the <span data-default="0.5" data-quantity="&frac12;" data-unit="" class="tooltip scalable">onion</span>, <span data-default="1" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span>, <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">curry paste</span> and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">coriander</span>, along with a good pinch of salt, and mix together well.</li>
-                <li itemprop="recipeInstructions">Form the mixture into <b>4-6</b> smallish patties. Place these on a foil-lined baking sheet, brush with the <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">oil</span> and grill for about <b>10</b> minutes, turning halfway, until golden and cooked through.</li>
-                <li itemprop="recipeInstructions">Meanwhile, shave the <span data-default="0.5" data-quantity="&frac12;" data-unit="" class="tooltip scalable">cucumber</span> (discarding the seedy core) and <span data-default="1" data-quantity="1" data-unit="medium" class="tooltip scalable">carrot</span> with a vegetable peeler to get thin ribbons. Whisk the lime juice, <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">coriander</span> and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">sweet chilli sauce</span> together, then add the ribbons and toss in the dressing. Serve with the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">salmon</span> patties and more <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">sweet chilli sauce</span> and lime wedges if you like.</li>
+                <li itemprop="recipeInstructions">Heat the grill to medium-high. Pulse the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">salmon</span> and two-thirds of the <span data-default="1x" data-defaultunit="165 g pack" data-quantity="1x" data-unit="165 g pack" class="tooltip scalable">prawns</span> in a food processor until finely chopped but not paste-like. Roughly chop the remaining <span data-default="1x" data-defaultunit="165 g pack" data-quantity="1x" data-unit="165 g pack" class="tooltip scalable">prawns</span> by hand.</li>
+                <li itemprop="recipeInstructions">Tip the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">salmon</span> mix and the chopped <span data-default="1x" data-defaultunit="165 g pack" data-quantity="1x" data-unit="165 g pack" class="tooltip scalable">prawns</span> into a bowl and add the <span data-default="0.5" data-defaultunit="" data-quantity="&frac12;" data-unit="" class="tooltip scalable">onion</span>, <span data-default="1" data-defaultunit="clove" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span>, <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">curry paste</span> and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">coriander</span>, along with a good pinch of salt, and mix together well.</li>
+                <li itemprop="recipeInstructions">Form the mixture into <b>4-6</b> smallish patties. Place these on a foil-lined baking sheet, brush with the <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">oil</span> and grill for about <b>10</b> minutes, turning halfway, until golden and cooked through.</li>
+                <li itemprop="recipeInstructions">Meanwhile, shave the <span data-default="0.5" data-defaultunit="" data-quantity="&frac12;" data-unit="" class="tooltip scalable">cucumber</span> (discarding the seedy core) and <span data-default="1" data-defaultunit="medium" data-quantity="1" data-unit="medium" class="tooltip scalable">carrot</span> with a vegetable peeler to get thin ribbons. Whisk the lime juice, <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">coriander</span> and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">sweet chilli sauce</span> together, then add the ribbons and toss in the dressing. Serve with the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">salmon</span> patties and more <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">sweet chilli sauce</span> and lime wedges if you like.</li>
                 </ol>
 
             <hr>

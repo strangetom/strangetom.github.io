@@ -13,7 +13,7 @@
         <title>Baked vegetable biryani | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,61 +43,83 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> small cauliflower, broken into small florets</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="small">small</span> cauliflower, broken into small florets</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> sweet potatoes, peeled and cut into bitesized chunks</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> sweet potatoes, peeled and cut into bitesized chunks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large onion, sliced</li>
-                    <li itemprop="recipeIngredient">Low-calorie cooking spray</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> onion, sliced</li>
+                    <li itemprop="recipeIngredient"> Low-calorie cooking spray</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="800" class="scalable">800</span> ml hot vegetable stock</li>
+                        <span data-default="800" class="scalable">800</span>
+                        <span data-unit="ml">ml</span> hot vegetable stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp curry powder</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> curry powder</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> whole dried red Kashmiri chillies</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> whole dried red Kashmiri chillies</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp saffron strands</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> saffron strands</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp cumin seeds</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> cumin seeds</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp black mustard seeds</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> black mustard seeds</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> cinnamon stick</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> cinnamon stick</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> green cardamom pods, lightly crushed</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> green cardamom pods, lightly crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> cloves</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g dried basmati rice</li>
+                        <span data-default="400" class="scalable">400</span>
+                        <span data-unit="g">g</span> dried basmati rice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g green beans, halved</li>
-                    <li itemprop="recipeIngredient">juice of 1 lemon</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> green beans, halved</li>
+                    <li itemprop="recipeIngredient"> juice of 1 lemon</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp each of chopped fresh coriander and mint leaves</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> each of chopped fresh coriander and mint leaves</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="150" class="scalable">150</span> g fat-free natural yogurt</li>
+                        <span data-default="150" class="scalable">150</span>
+                        <span data-unit="g">g</span> fat-free natural yogurt</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> cucumber, deseeded and coarsely grated</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit=""></span> cucumber, deseeded and coarsely grated</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="pinch" class="scalable">pinch</span> of paprika</li>
+                        <span data-default="pinch" class="scalable">pinch</span>
+                        <span data-unit=""></span> of paprika</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Preheat the oven to <b>200</b>&deg;C/Gas <b>7</b>. Put the <span data-default="1" data-quantity="1" data-unit="small" class="tooltip scalable">cauliflower</span>, <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">sweet potatoes</span> and <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span> in a large non-stick roasting tin. Spray with low-calorie cooking spray, season and bake for <b>15</b> minutes until starting to brown.  </li>
-                <li itemprop="recipeInstructions">Meanwhile, stir together the <span data-default="800" data-quantity="800" data-unit="ml" class="tooltip scalable">stock</span>, <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">curry powder</span>, <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">chillies</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">saffron</span>, <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">cumin</span> and <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">mustard seeds</span>, <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">cinnamon stick</span>, <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">cardamom pods</span> and <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">cloves</span>.  </li>
-                <li itemprop="recipeInstructions">Mix the <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">rice</span> and <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">green beans</span> into the baked vegetables then pour over the stick mixture. Reduce the oven to <b>170</b>&deg;C/Gas <b>5</b>. Cover tightly with tin foil and bake for <b>30</b> minutes, or until the <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">rice</span> is tender and the liquid has been absorbed. Discard the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">cinnamon stick</span>.  </li>
-                <li itemprop="recipeInstructions">For the raita, mix the <span data-default="150" data-quantity="150" data-unit="g" class="tooltip scalable">yogurt</span> and <span data-default="0.5" data-quantity="&frac12;" data-unit="" class="tooltip scalable">cucumber</span> together in a small bowl, then top with the <span data-default="pinch" data-quantity="pinch" data-unit="" class="tooltip scalable">paprika</span> and reserved <span data-default="0.5" data-quantity="&frac12;" data-unit="" class="tooltip scalable">cucumber</span>. Stir the lemon juice into the biryani, then scatter over the chopped herbs and serve with the <span data-default="0.5" data-quantity="&frac12;" data-unit="" class="tooltip scalable">cucumber</span> raita. </li>
+                <li itemprop="recipeInstructions">Preheat the oven to <b>200</b>&deg;C/Gas <b>7</b>. Put the <span data-default="1" data-defaultunit="small" data-quantity="1" data-unit="small" class="tooltip scalable">cauliflower</span>, <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">sweet potatoes</span> and <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span> in a large non-stick roasting tin. Spray with low-calorie cooking spray, season and bake for <b>15</b> minutes until starting to brown.  </li>
+                <li itemprop="recipeInstructions">Meanwhile, stir together the <span data-default="800" data-defaultunit="ml" data-quantity="800" data-unit="ml" class="tooltip scalable">stock</span>, <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">curry powder</span>, <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">chillies</span>, <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">saffron</span>, <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">cumin</span> and <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">mustard seeds</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">cinnamon stick</span>, <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">cardamom pods</span> and <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">cloves</span>.  </li>
+                <li itemprop="recipeInstructions">Mix the <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">rice</span> and <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">green beans</span> into the baked vegetables then pour over the stick mixture. Reduce the oven to <b>170</b>&deg;C/Gas <b>5</b>. Cover tightly with tin foil and bake for <b>30</b> minutes, or until the <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">rice</span> is tender and the liquid has been absorbed. Discard the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">cinnamon stick</span>.  </li>
+                <li itemprop="recipeInstructions">For the raita, mix the <span data-default="150" data-defaultunit="g" data-quantity="150" data-unit="g" class="tooltip scalable">yogurt</span> and <span data-default="0.5" data-defaultunit="" data-quantity="&frac12;" data-unit="" class="tooltip scalable">cucumber</span> together in a small bowl, then top with the <span data-default="pinch" data-defaultunit="" data-quantity="pinch" data-unit="" class="tooltip scalable">paprika</span> and reserved <span data-default="0.5" data-defaultunit="" data-quantity="&frac12;" data-unit="" class="tooltip scalable">cucumber</span>. Stir the lemon juice into the biryani, then scatter over the chopped herbs and serve with the <span data-default="0.5" data-defaultunit="" data-quantity="&frac12;" data-unit="" class="tooltip scalable">cucumber</span> raita. </li>
                 </ol>
 
             <hr>

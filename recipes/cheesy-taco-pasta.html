@@ -13,7 +13,7 @@
         <title>Cheesy taco pasta | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -48,52 +48,70 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp extra virgin olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> extra virgin olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> red onion, diced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> red onion, diced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> red capsicum, finely diced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> red capsicum, finely diced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, crushed</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g tinned brown lentils, rinsed and drained</li>
+                        <span data-default="400" class="scalable">400</span>
+                        <span data-unit="g">g</span> tinned brown lentils, rinsed and drained</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> small red chilli, sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="small">small</span> red chilli, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsp taco seasoning, reduced salt</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsp">tbsp</span> taco seasoning, reduced salt</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> ml water</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="ml">ml</span> water</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g tinned tomatoes, diced</li>
+                        <span data-default="400" class="scalable">400</span>
+                        <span data-unit="g">g</span> tinned tomatoes, diced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> grams wholemeal pasta, any shape</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="grams">grams</span> wholemeal pasta, any shape</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="120" class="scalable">120</span> g reduced-fat cheddar cheese, grated</li>
+                        <span data-default="120" class="scalable">120</span>
+                        <span data-unit="g">g</span> reduced-fat cheddar cheese, grated</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="25" class="scalable">25</span> g plain corn chips, crushed</li>
+                        <span data-default="25" class="scalable">25</span>
+                        <span data-unit="g">g</span> plain corn chips, crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="65" class="scalable">65</span> g reduced-fat Greek natural yoghurt</li>
+                        <span data-default="65" class="scalable">65</span>
+                        <span data-unit="g">g</span> reduced-fat Greek natural yoghurt</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp fresh coriander, chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> fresh coriander, chopped</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">olive oil</span> in a saucepan over medium-high heat. Add <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">capsicum</span> and cook for <b>3-4</b> minutes or until soft.</li>
-                <li itemprop="recipeInstructions">Add <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">lentils</span>, <span data-default="1" data-quantity="1" data-unit="small" class="tooltip scalable">chilli</span> and <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">taco seasoning</span>. Stir to combine and cook for a couple of minutes.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="500" data-quantity="500" data-unit="ml" class="tooltip scalable">water</span>, tinned tomato and <span data-default="100" data-quantity="100" data-unit="grams" class="tooltip scalable">pasta</span>. Bring to the boil then reduce to a simmer, cover and cook for about <b>15</b> minutes or until the <span data-default="100" data-quantity="100" data-unit="grams" class="tooltip scalable">pasta</span> is tender.</li>
-                <li itemprop="recipeInstructions">Stir through the <span data-default="120" data-quantity="120" data-unit="g" class="tooltip scalable">grated cheese</span>, until melted.</li>
-                <li itemprop="recipeInstructions">Divide taco <span data-default="100" data-quantity="100" data-unit="grams" class="tooltip scalable">pasta</span> between four bowls and top each with some crushed <span data-default="25" data-quantity="25" data-unit="g" class="tooltip scalable">corn chips</span>, a dollop of <span data-default="65" data-quantity="65" data-unit="g" class="tooltip scalable">yoghurt</span> and a sprinkle of coriander to serve.</li>
+                <li itemprop="recipeInstructions">Heat <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">olive oil</span> in a saucepan over medium-high heat. Add <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">capsicum</span> and cook for <b>3-4</b> minutes or until soft.</li>
+                <li itemprop="recipeInstructions">Add <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">lentils</span>, <span data-default="1" data-defaultunit="small" data-quantity="1" data-unit="small" class="tooltip scalable">chilli</span> and <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">taco seasoning</span>. Stir to combine and cook for a couple of minutes.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="500" data-defaultunit="ml" data-quantity="500" data-unit="ml" class="tooltip scalable">water</span>, tinned tomato and <span data-default="100" data-defaultunit="grams" data-quantity="100" data-unit="grams" class="tooltip scalable">pasta</span>. Bring to the boil then reduce to a simmer, cover and cook for about <b>15</b> minutes or until the <span data-default="100" data-defaultunit="grams" data-quantity="100" data-unit="grams" class="tooltip scalable">pasta</span> is tender.</li>
+                <li itemprop="recipeInstructions">Stir through the <span data-default="120" data-defaultunit="g" data-quantity="120" data-unit="g" class="tooltip scalable">grated cheese</span>, until melted.</li>
+                <li itemprop="recipeInstructions">Divide taco <span data-default="100" data-defaultunit="grams" data-quantity="100" data-unit="grams" class="tooltip scalable">pasta</span> between four bowls and top each with some crushed <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">corn chips</span>, a dollop of <span data-default="65" data-defaultunit="g" data-quantity="65" data-unit="g" class="tooltip scalable">yoghurt</span> and a sprinkle of coriander to serve.</li>
                 </ol>
 
             <hr>

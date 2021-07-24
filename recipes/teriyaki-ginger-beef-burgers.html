@@ -13,7 +13,7 @@
         <title>Teriyaki & ginger beef burgers | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Beef" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,37 +43,45 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g beef mince</li>
-                    <li itemprop="recipeIngredient">sesame oil</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="g">g</span> beef mince</li>
+                    <li itemprop="recipeIngredient"> sesame oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="bunch" class="scalable">bunch</span> coriander</li>
+                        <span data-default="bunch" class="scalable">bunch</span>
+                        <span data-unit=""></span> coriander</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> brioche buns</li>
-                    <li itemprop="recipeIngredient">spring onions</li>
-                    <li itemprop="recipeIngredient">white cabbage</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> brioche buns</li>
+                    <li itemprop="recipeIngredient"> spring onions</li>
+                    <li itemprop="recipeIngredient"> white cabbage</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="Large" class="scalable">Large</span> knob ginger</li>
-                    <li itemprop="recipeIngredient">teriyaki sauce</li>
+                        <span data-default="Large" class="scalable">Large</span>
+                        <span data-unit="knob">knob</span> ginger</li>
+                    <li itemprop="recipeIngredient"> teriyaki sauce</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Put <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">mince</span> into bowl. Add a very heaped tablespoon of teriyaki sauce. Grate in a very big knob of <span data-default="Large" data-quantity="Large" data-unit="knob" class="tooltip scalable">ginger</span>. Finely chop <b>3</b> spring onions and chuck them in. Mix everything together.  </li>
+                <li itemprop="recipeInstructions">Put <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">mince</span> into bowl. Add a very heaped tablespoon of teriyaki sauce. Grate in a very big knob of <span data-default="Large" data-defaultunit="knob" data-quantity="Large" data-unit="knob" class="tooltip scalable">ginger</span>. Finely chop <b>3</b> spring onions and chuck them in. Mix everything together.  </li>
                 <li itemprop="recipeInstructions">Divide beef mix into <b>4</b> big patties. Place in the fridge for <b>5</b> minutes while you prepare the slaw and burger marinade.  </li>
-                <li itemprop="recipeInstructions">Marinade time. This will be the sauce to rub on your burgers as they cook - the key to making them sticky. Add two tablespoons of teriyaki sauce into a bowl. Grate in a big knob of <span data-default="Large" data-quantity="Large" data-unit="knob" class="tooltip scalable">ginger</span>. Pour in a small glass of water to loosen, and mix everything together. Set aside for when you cook the burgers.  </li>
-                <li itemprop="recipeInstructions">Slaw time. Finely slice your cabbage. Place in a bowl. Add a teaspoon of sesame oil, the juice of a lime, and a large handful of chopped <span data-default="bunch" data-quantity="bunch" data-unit="" class="tooltip scalable">coriander</span>. Add salt, pepper and olive oil. Toss together.  </li>
+                <li itemprop="recipeInstructions">Marinade time. This will be the sauce to rub on your burgers as they cook - the key to making them sticky. Add two tablespoons of teriyaki sauce into a bowl. Grate in a big knob of <span data-default="Large" data-defaultunit="knob" data-quantity="Large" data-unit="knob" class="tooltip scalable">ginger</span>. Pour in a small glass of water to loosen, and mix everything together. Set aside for when you cook the burgers.  </li>
+                <li itemprop="recipeInstructions">Slaw time. Finely slice your cabbage. Place in a bowl. Add a teaspoon of sesame oil, the juice of a lime, and a large handful of chopped <span data-default="bunch" data-defaultunit="" data-quantity="bunch" data-unit="" class="tooltip scalable">coriander</span>. Add salt, pepper and olive oil. Toss together.  </li>
                 <li itemprop="recipeInstructions">Burger time. Place burgers on a griddle pan (frying pan will do if you don't have one). Rub the topside with the marinade. In total, the burgers will need about <b>3-4</b> minutes each side, depending on how thick you make them. The key to the stickiness is to keep flipping them, and keep applying more of that marinade. You should flip around <b>6-8</b> times.  </li>
-                <li itemprop="recipeInstructions">To serve, toast you <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">brioche buns</span>. Run leftover marinate on the bottom half of the bun. Add your patty, then a big wodge of the slaw, and squeeze the top half of the bun on top. Enjoy.</li>
+                <li itemprop="recipeInstructions">To serve, toast you <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">brioche buns</span>. Run leftover marinate on the bottom half of the bun. Add your patty, then a big wodge of the slaw, and squeeze the top half of the bun on top. Enjoy.</li>
                 </ol>
 
             <hr>

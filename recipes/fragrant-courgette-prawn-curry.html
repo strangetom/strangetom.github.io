@@ -13,7 +13,7 @@
         <title>Fragrant courgette & prawn curry | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -46,48 +46,63 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp sunflower oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> sunflower oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g courgettes, thickly sliced</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="g">g</span> courgettes, thickly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp cumin seeds</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> cumin seeds</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="6" class="scalable">6</span> cloves garlic, crushed</li>
+                        <span data-default="6" class="scalable">6</span>
+                        <span data-unit="cloves">cloves</span> garlic, crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp finely chopped ginger</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> finely chopped ginger</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> red chilli, deseeded and chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> red chilli, deseeded and chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp ground coriander</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> ground coriander</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> tsp ground turmeric</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit="tsp">tsp</span> ground turmeric</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g tomatoes, chopped</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="g">g</span> tomatoes, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="150" class="scalable">150</span> ml hot vegetable stock</li>
+                        <span data-default="150" class="scalable">150</span>
+                        <span data-unit="ml">ml</span> hot vegetable stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="225" class="scalable">225</span> g pack raw peeled frozen jumbo prawns, thawed</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="225 g pack">225 g pack</span> raw peeled frozen jumbo prawns, thawed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> small bunch coriander, roughly chopped</li>
-                    <li itemprop="recipeIngredient">basmati rice and mango chutney</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="small bunch">small bunch</span> coriander, roughly chopped</li>
+                    <li itemprop="recipeIngredient"> basmati rice and mango chutney</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a large wok and stir-fry the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">courgettes</span> for <b>5-6</b> minutes until softened. Set aside on a plate leaving the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> behind.  </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">cumin seeds</span> to the wok and toast for a few seconds, then add the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">ginger</span>, <span data-default="6" data-quantity="6" data-unit="cloves" class="tooltip scalable">garlic</span>, chilli and spices. Cook, stirring, for <b>1-2</b> minutes, then tip in the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">tomatoes</span> and cook for a few minutes more.  </li>
-                <li itemprop="recipeInstructions">Pour in the <span data-default="150" data-quantity="150" data-unit="ml" class="tooltip scalable">stock</span> and simmer to make a pulpy sauce, then add the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">courgettes</span> and <span data-default="225" data-quantity="225" data-unit="g pack" class="tooltip scalable">prawns</span>. Cook gently until the <span data-default="225" data-quantity="225" data-unit="g pack" class="tooltip scalable">prawns</span> change from grey to pink and the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">courgettes</span> are tender but not too soft. Stir in most of the <span data-default="0.5" data-quantity="&frac12;" data-unit="small bunch" class="tooltip scalable">coriander</span>, saving some to sprinkle over the top.  </li>
-                <li itemprop="recipeInstructions">Serve with basmatic rice and mango chutney, and scatter over the remaining <span data-default="0.5" data-quantity="&frac12;" data-unit="small bunch" class="tooltip scalable">coriander</span>.  </li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a large wok and stir-fry the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">courgettes</span> for <b>5-6</b> minutes until softened. Set aside on a plate leaving the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> behind.  </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">cumin seeds</span> to the wok and toast for a few seconds, then add the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">ginger</span>, <span data-default="6" data-defaultunit="cloves" data-quantity="6" data-unit="cloves" class="tooltip scalable">garlic</span>, chilli and spices. Cook, stirring, for <b>1-2</b> minutes, then tip in the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">tomatoes</span> and cook for a few minutes more.  </li>
+                <li itemprop="recipeInstructions">Pour in the <span data-default="150" data-defaultunit="ml" data-quantity="150" data-unit="ml" class="tooltip scalable">stock</span> and simmer to make a pulpy sauce, then add the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">courgettes</span> and <span data-default="1x" data-defaultunit="225 g pack" data-quantity="1x" data-unit="225 g pack" class="tooltip scalable">prawns</span>. Cook gently until the <span data-default="1x" data-defaultunit="225 g pack" data-quantity="1x" data-unit="225 g pack" class="tooltip scalable">prawns</span> change from grey to pink and the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">courgettes</span> are tender but not too soft. Stir in most of the <span data-default="0.5" data-defaultunit="small bunch" data-quantity="&frac12;" data-unit="small bunch" class="tooltip scalable">coriander</span>, saving some to sprinkle over the top.  </li>
+                <li itemprop="recipeInstructions">Serve with basmatic rice and mango chutney, and scatter over the remaining <span data-default="0.5" data-defaultunit="small bunch" data-quantity="&frac12;" data-unit="small bunch" class="tooltip scalable">coriander</span>.  </li>
                 </ol>
 
             <hr>

@@ -13,7 +13,7 @@
         <title>Italian meatballs | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Beef" itemscope itemtype="https://schema.org/Recipe">
 
@@ -46,48 +46,63 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <details open>
                     <summary class="ingredient-subheading">Tomato sauce</summary>
                     <ul>
-                        <li itemprop="recipeIngredient">oil to fry</li>
+                        <li itemprop="recipeIngredient"> oil to fry</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> onion, finely chopped</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit=""></span> onion, finely chopped</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> clove garlic, finely chopped</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="clove">clove</span> garlic, finely chopped</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="400" class="scalable">400</span> g tin tomatoes</li>
+                            <span data-default="400" class="scalable">400</span>
+                            <span data-unit="g tin">g tin</span> tomatoes</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp tomato puree</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> tomato puree</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp brown sugar</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> brown sugar</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp wine vinegar</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> wine vinegar</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp fresh basil, chopped</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> fresh basil, chopped</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> mug water</li>
-                        <li itemprop="recipeIngredient">salt and pepper</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit="mug">mug</span> water</li>
+                        <li itemprop="recipeIngredient"> salt and pepper</li>
                     </ul>
                 </details>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g spaghetti</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="g">g</span> spaghetti</li>
                 </ul>
                 <details open>
                     <summary class="ingredient-subheading">Meatballs</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="250" class="scalable">250</span> g beef mince</li>
+                            <span data-default="250" class="scalable">250</span>
+                            <span data-unit="g">g</span> beef mince</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> small onion, finely chopped</li>
-                        <li itemprop="recipeIngredient">salt and pepper</li>
-                        <li itemprop="recipeIngredient">oil to fry</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit="small">small</span> onion, finely chopped</li>
+                        <li itemprop="recipeIngredient"> salt and pepper</li>
+                        <li itemprop="recipeIngredient"> oil to fry</li>
                     </ul>
                 </details>
             </div>
@@ -95,14 +110,14 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">To make the sauce, heat a little oil in a saucepan and fry the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and <span data-default="1" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span> for <b>2-3</b> minutes. Add the rest of the sauce ingredients and bring to the boil, then turn down and simmer for <b>5</b> minutes.  </li>
+                <li itemprop="recipeInstructions">To make the sauce, heat a little oil in a saucepan and fry the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and <span data-default="1" data-defaultunit="clove" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span> for <b>2-3</b> minutes. Add the rest of the sauce ingredients and bring to the boil, then turn down and simmer for <b>5</b> minutes.  </li>
                 <li itemprop="recipeInstructions">Once cooked, blitz with a hand-held blender.  </li>
-                <li itemprop="recipeInstructions">In a mixing bowl, combine the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">beef</span>, <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and seasoning together with your hands and make as smooth as possible.  </li>
+                <li itemprop="recipeInstructions">In a mixing bowl, combine the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">beef</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and seasoning together with your hands and make as smooth as possible.  </li>
                 <li itemprop="recipeInstructions">Take a dessertspoonful of mixture and form into balls and set aside. The mixture should make about <b>16</b> meatballs.  </li>
-                <li itemprop="recipeInstructions">Put the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">spaghetti</span> on to boil.  </li>
+                <li itemprop="recipeInstructions">Put the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">spaghetti</span> on to boil.  </li>
                 <li itemprop="recipeInstructions">Heat about <b>&frac12;</b>" of oil in the bottom of a frying pan. When the oil makes the meatballs sizzle (test one), add the meatballs to the pan. As they begin to brown, turn them so all sides become browned. Once cooked take from the pan and drain on some kitchen paper.  </li>
-                <li itemprop="recipeInstructions">Drain the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">spaghetti</span>.  </li>
-                <li itemprop="recipeInstructions">Add the meatballs and sauce to the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">spaghetti</span> and mix. Garnish with basil and serve.</li>
+                <li itemprop="recipeInstructions">Drain the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">spaghetti</span>.  </li>
+                <li itemprop="recipeInstructions">Add the meatballs and sauce to the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">spaghetti</span> and mix. Garnish with basil and serve.</li>
                 </ol>
 
             <hr>

@@ -13,7 +13,7 @@
         <title>Smoked haddock fishcakes | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -42,39 +42,51 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="450" class="scalable">450</span> g peeled potatoes, cut into chunks</li>
+                        <span data-default="450" class="scalable">450</span>
+                        <span data-unit="g">g</span> peeled potatoes, cut into chunks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> eggs</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> eggs</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="225" class="scalable">225</span> g skinless smoked haddock fillets</li>
+                        <span data-default="225" class="scalable">225</span>
+                        <span data-unit="g">g</span> skinless smoked haddock fillets</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tbsp skimmed milk</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="tbsp">tbsp</span> skimmed milk</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="knob" class="scalable">knob</span> butter</li>
+                        <span data-default="knob" class="scalable">knob</span>
+                        <span data-unit=""></span> butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="175" class="scalable">175</span> g frozen peas</li>
+                        <span data-default="175" class="scalable">175</span>
+                        <span data-unit="g">g</span> frozen peas</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> g white breadcrumbs</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="g">g</span> white breadcrumbs</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp vegetable oil</li>
-                    <li itemprop="recipeIngredient">salad leaves, to serve</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> vegetable oil</li>
+                    <li itemprop="recipeIngredient"> salad leaves, to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the oven to <b>180</b>&deg;C/Gas <b>6</b>. Boil the <span data-default="450" data-quantity="450" data-unit="g" class="tooltip scalable">potatoes</span> and <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">eggs</span> in salted water for <b>10-12</b> minutes. Meanwhile put the <span data-default="225" data-quantity="225" data-unit="g" class="tooltip scalable">fish</span>, <span data-default="4" data-quantity="4" data-unit="tbsp" class="tooltip scalable">milk</span> and <span data-default="knob" data-quantity="knob" data-unit="" class="tooltip scalable">butter</span> in a pan, season, cover and simmer for <b>4-5</b> minutes. Strain and reserve the liquid. Flake the <span data-default="225" data-quantity="225" data-unit="g" class="tooltip scalable">fish</span>.  </li>
-                <li itemprop="recipeInstructions">Drain the <span data-default="450" data-quantity="450" data-unit="g" class="tooltip scalable">potatoes</span> and <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">eggs</span>. Shell the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">eggs</span> and mash then with the <span data-default="450" data-quantity="450" data-unit="g" class="tooltip scalable">potatoes</span>. Add the liquid, season and stir in the <span data-default="225" data-quantity="225" data-unit="g" class="tooltip scalable">fish</span> and <span data-default="175" data-quantity="175" data-unit="g" class="tooltip scalable">peas</span>. Shape into <b>6</b> caked. Press into the <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">breadcrumbs</span>, coating evenly.  </li>
-                <li itemprop="recipeInstructions">Pour the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> into a roasting tin. Heat for <b>5</b> minutes in the oven. Add the fishcakes, coat in the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> and cook for <b>25-30</b> minutes, turning halfway through. Serve with salad leaves.  </li>
+                <li itemprop="recipeInstructions">Heat the oven to <b>180</b>&deg;C/Gas <b>6</b>. Boil the <span data-default="450" data-defaultunit="g" data-quantity="450" data-unit="g" class="tooltip scalable">potatoes</span> and <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">eggs</span> in salted water for <b>10-12</b> minutes. Meanwhile put the <span data-default="225" data-defaultunit="g" data-quantity="225" data-unit="g" class="tooltip scalable">fish</span>, <span data-default="4" data-defaultunit="tbsp" data-quantity="4" data-unit="tbsp" class="tooltip scalable">milk</span> and <span data-default="knob" data-defaultunit="" data-quantity="knob" data-unit="" class="tooltip scalable">butter</span> in a pan, season, cover and simmer for <b>4-5</b> minutes. Strain and reserve the liquid. Flake the <span data-default="225" data-defaultunit="g" data-quantity="225" data-unit="g" class="tooltip scalable">fish</span>.  </li>
+                <li itemprop="recipeInstructions">Drain the <span data-default="450" data-defaultunit="g" data-quantity="450" data-unit="g" class="tooltip scalable">potatoes</span> and <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">eggs</span>. Shell the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">eggs</span> and mash then with the <span data-default="450" data-defaultunit="g" data-quantity="450" data-unit="g" class="tooltip scalable">potatoes</span>. Add the liquid, season and stir in the <span data-default="225" data-defaultunit="g" data-quantity="225" data-unit="g" class="tooltip scalable">fish</span> and <span data-default="175" data-defaultunit="g" data-quantity="175" data-unit="g" class="tooltip scalable">peas</span>. Shape into <b>6</b> caked. Press into the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">breadcrumbs</span>, coating evenly.  </li>
+                <li itemprop="recipeInstructions">Pour the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> into a roasting tin. Heat for <b>5</b> minutes in the oven. Add the fishcakes, coat in the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> and cook for <b>25-30</b> minutes, turning halfway through. Serve with salad leaves.  </li>
                 </ol>
 
             <hr>

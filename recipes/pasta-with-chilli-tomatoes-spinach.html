@@ -13,7 +13,7 @@
         <title>Pasta with chilli tomatoes & spinach | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,43 +47,55 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp olive oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> onion, finely chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> onion, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, crushed</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp dried chilli flakes</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> dried chilli flakes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g wholemeal penne pasta</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> wholemeal penne pasta</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g can chopped tomatoes</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g can">400 g can</span> chopped tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> ml red wine</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="ml">ml</span> red wine</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp dried oregano</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> dried oregano</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="125" class="scalable">125</span> g bag young spinach leaves</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="125 g bag">125 g bag</span> young spinach leaves</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="25" class="scalable">25</span> g parmesan or vegetarian alternative, grated</li>
+                        <span data-default="25" class="scalable">25</span>
+                        <span data-unit="g">g</span> parmesan or vegetarian alternative, grated</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the oil in a non-stick frying pan and gently fry the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">chilli flakes</span>, stirring regularly, for <b>5</b> mins (add a little water if they begin to stick).</li>
-                <li itemprop="recipeInstructions">Cook <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span> following pack instructions. Add the <span data-default="400" data-quantity="400" data-unit="g can" class="tooltip scalable">tomatoes</span>, <span data-default="100" data-quantity="100" data-unit="ml" class="tooltip scalable">wine</span> and <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">oregano</span> to the frying pan and stir to combine. Bring to a gentle simmer and cook, stirring occasionally, for <b>10</b> mins.</li>
-                <li itemprop="recipeInstructions">Shake the <span data-default="125" data-quantity="125" data-unit="g bag" class="tooltip scalable">spinach</span> into the pan and cook for <b>1-2</b> mins until wilted. Drain the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span> and tip into the pan with the sauce.</li>
-                <li itemprop="recipeInstructions">Toss to combine, sprinkly with <span data-default="25" data-quantity="25" data-unit="g" class="tooltip scalable">cheese</span> and serve.</li>
+                <li itemprop="recipeInstructions">Heat the oil in a non-stick frying pan and gently fry the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">chilli flakes</span>, stirring regularly, for <b>5</b> mins (add a little water if they begin to stick).</li>
+                <li itemprop="recipeInstructions">Cook <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span> following pack instructions. Add the <span data-default="1x" data-defaultunit="400 g can" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">tomatoes</span>, <span data-default="100" data-defaultunit="ml" data-quantity="100" data-unit="ml" class="tooltip scalable">wine</span> and <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">oregano</span> to the frying pan and stir to combine. Bring to a gentle simmer and cook, stirring occasionally, for <b>10</b> mins.</li>
+                <li itemprop="recipeInstructions">Shake the <span data-default="1x" data-defaultunit="125 g bag" data-quantity="1x" data-unit="125 g bag" class="tooltip scalable">spinach</span> into the pan and cook for <b>1-2</b> mins until wilted. Drain the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span> and tip into the pan with the sauce.</li>
+                <li itemprop="recipeInstructions">Toss to combine, sprinkly with <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">cheese</span> and serve.</li>
                 </ol>
 
             <hr>

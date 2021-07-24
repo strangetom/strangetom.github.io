@@ -13,7 +13,7 @@
         <title>Citrus-spiced salmon | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,31 +47,42 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="6" class="scalable">6</span> skinless salmon fillets, about 100 g each</li>
+                        <span data-default="6" class="scalable">6</span>
+                        <span data-unit=""></span> skinless salmon fillets, about 100 g each</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsp dried edible rose petals, finely ground</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsp">tbsp</span> dried edible rose petals, finely ground</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp sumac</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> sumac</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp dried lime powder</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> dried lime powder</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp ground cumin</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> ground cumin</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp ground cinnamon</li>
-                    <li itemprop="recipeIngredient">finely grated rind of 1 orange</li>
-                    <li itemprop="recipeIngredient">finely grated rind of 1 lime</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> ground cinnamon</li>
+                    <li itemprop="recipeIngredient"> finely grated rind of 1 orange</li>
+                    <li itemprop="recipeIngredient"> finely grated rind of 1 lime</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3-6" class="scalable">3-6</span> tbsp olive oil</li>
-                    <li itemprop="recipeIngredient">sea salt flakes and freshly ground black pepper</li>
-                    <li itemprop="recipeIngredient">lemon wedges, to serve</li>
+                        <span data-default="3-6" class="scalable">3-6</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
+                    <li itemprop="recipeIngredient"> sea salt flakes and freshly ground black pepper</li>
+                    <li itemprop="recipeIngredient"> lemon wedges, to serve</li>
                 </ul>
             </div>
         
@@ -79,8 +90,8 @@
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Preheat the oven to <b>180</b>&deg;C/Gas <b>6</b> (preferably fan assisted for this recipe, as a higher heat gives better results). Line a baking sheet with nonstick baking paper.</li>
-                <li itemprop="recipeInstructions">Combine the ground <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">rose petals</span>, spices and grated orange and lime rind in a small bowl, add the <span data-default="3-6" data-quantity="3-6" data-unit="tbsp" class="tooltip scalable">olive oil</span> and stir well to form a wet marinade for the salmon.</li>
-                <li itemprop="recipeInstructions">Rub each <span data-default="6" data-quantity="6" data-unit="" class="tooltip scalable">salmon fillet</span> well with the spice marinade and place it on the prepared baking sheet. (At this stage you can cover with clingfilm and leave overnight in the refrigerator to marinate, if you wish.) Once all the fillets are well coated in the marinade, season them well with sea salt flakes and black pepper, then bake for <b>10-12</b> minutes until the fish is cooked through. I like to serve this with lemon wedges and a Fattoush Salad</li>
+                <li itemprop="recipeInstructions">Combine the ground <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">rose petals</span>, spices and grated orange and lime rind in a small bowl, add the <span data-default="3-6" data-defaultunit="tbsp" data-quantity="3-6" data-unit="tbsp" class="tooltip scalable">olive oil</span> and stir well to form a wet marinade for the salmon.</li>
+                <li itemprop="recipeInstructions">Rub each <span data-default="6" data-defaultunit="" data-quantity="6" data-unit="" class="tooltip scalable">salmon fillet</span> well with the spice marinade and place it on the prepared baking sheet. (At this stage you can cover with clingfilm and leave overnight in the refrigerator to marinate, if you wish.) Once all the fillets are well coated in the marinade, season them well with sea salt flakes and black pepper, then bake for <b>10-12</b> minutes until the fish is cooked through. I like to serve this with lemon wedges and a Fattoush Salad</li>
                 </ol>
 
             <hr>

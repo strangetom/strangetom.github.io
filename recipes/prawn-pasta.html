@@ -13,7 +13,7 @@
         <title>Prawn pasta | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -46,36 +46,46 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> g soft butter, at room temperature</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="g">g</span> soft butter, at room temperature</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> clove garlic, finely chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="clove">clove</span> garlic, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> hot red chilli, deseeded and thinly sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> hot red chilli, deseeded and thinly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp salt</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> salt</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="16-20" class="scalable">16-20</span> cooken peeled king prawns</li>
+                        <span data-default="16-20" class="scalable">16-20</span>
+                        <span data-unit=""></span> cooken peeled king prawns</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="320" class="scalable">320</span> g tagliatelle</li>
-                    <li itemprop="recipeIngredient">juice and zest of ½ lemon</li>
+                        <span data-default="320" class="scalable">320</span>
+                        <span data-unit="g">g</span> tagliatelle</li>
+                    <li itemprop="recipeIngredient"> juice and zest of ½ lemon</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Mix the <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">butter</span>, <span data-default="1" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span>, <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">chilli</span> and <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">salt</span> in a bowl. Add the <span data-default="16-20" data-quantity="16-20" data-unit="" class="tooltip scalable">prawns</span>, cover and leave in the fridge for at least an hour.  </li>
+                <li itemprop="recipeInstructions">Mix the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">butter</span>, <span data-default="1" data-defaultunit="clove" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">chilli</span> and <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">salt</span> in a bowl. Add the <span data-default="16-20" data-defaultunit="" data-quantity="16-20" data-unit="" class="tooltip scalable">prawns</span>, cover and leave in the fridge for at least an hour.  </li>
                 <li itemprop="recipeInstructions">Put a large pan of salted water on to boil. Add the pasta and let it cook in the boiling watr for <b>8-10</b> miuntes.  </li>
-                <li itemprop="recipeInstructions">For the last <b>4</b> minutes of pasta cooking time, put the <span data-default="16-20" data-quantity="16-20" data-unit="" class="tooltip scalable">prawns</span> with their flavoured <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">butter</span> in a saucepan and gently heat so the <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">butter</span> melts and the <span data-default="16-20" data-quantity="16-20" data-unit="" class="tooltip scalable">prawns</span> heat through.  </li>
-                <li itemprop="recipeInstructions">Toss the cooked <span data-default="320" data-quantity="320" data-unit="g" class="tooltip scalable">tagliatelle</span> with the melted <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">butter</span> and <span data-default="16-20" data-quantity="16-20" data-unit="" class="tooltip scalable">prawns</span> and arrange on <b>4</b> plates. Squeeze over the lemon juice and sprinkle over the lemon zest. Garnish with black pepper and a sprinkling of chives.  </li>
+                <li itemprop="recipeInstructions">For the last <b>4</b> minutes of pasta cooking time, put the <span data-default="16-20" data-defaultunit="" data-quantity="16-20" data-unit="" class="tooltip scalable">prawns</span> with their flavoured <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">butter</span> in a saucepan and gently heat so the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">butter</span> melts and the <span data-default="16-20" data-defaultunit="" data-quantity="16-20" data-unit="" class="tooltip scalable">prawns</span> heat through.  </li>
+                <li itemprop="recipeInstructions">Toss the cooked <span data-default="320" data-defaultunit="g" data-quantity="320" data-unit="g" class="tooltip scalable">tagliatelle</span> with the melted <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">butter</span> and <span data-default="16-20" data-defaultunit="" data-quantity="16-20" data-unit="" class="tooltip scalable">prawns</span> and arrange on <b>4</b> plates. Squeeze over the lemon juice and sprinkle over the lemon zest. Garnish with black pepper and a sprinkling of chives.  </li>
                 </ol>
 
             <hr>

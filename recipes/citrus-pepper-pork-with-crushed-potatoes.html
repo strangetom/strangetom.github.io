@@ -13,7 +13,7 @@
         <title>Citrus pepper pork with crushed potatoes | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,39 +43,48 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="300" class="scalable">300</span> g baby new potatoes</li>
+                        <span data-default="300" class="scalable">300</span>
+                        <span data-unit="g">g</span> baby new potatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g green beans, halved</li>
-                    <li itemprop="recipeIngredient">juice and zest of 1 orange</li>
-                    <li itemprop="recipeIngredient">juice and zest of 1 lemon</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> green beans, halved</li>
+                    <li itemprop="recipeIngredient"> juice and zest of 1 orange</li>
+                    <li itemprop="recipeIngredient"> juice and zest of 1 lemon</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp mixed peppercorns, crushed</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> mixed peppercorns, crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 300 g pack extra-lean pork fillet medallions</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="300 g pack">300 g pack</span> extra-lean pork fillet medallions</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tsp olive oil</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tsp">tsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp clear honey</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> clear honey</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Boil the <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">potatoes</span> in a pan of boiling salted water for <b>15</b> minutes. Add the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">green beans</span>; cook for <b>4-5</b> minutes until just tender.</li>
-                <li itemprop="recipeInstructions">Meanwhile, mix half of both zests with the crushed <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">peppercorns</span>; press onto the <span data-default="1x" data-quantity="1x" data-unit="300 g pack" class="tooltip scalable">pork</span>.</li>
-                <li itemprop="recipeInstructions">Heat <b>1</b> teaspoon <span data-default="3" data-quantity="3" data-unit="tsp" class="tooltip scalable">olive oil</span> in a nonstick frying pan, add the <span data-default="1x" data-quantity="1x" data-unit="300 g pack" class="tooltip scalable">pork</span> and fry over a high heat for <b>2</b> minutes each side.</li>
-                <li itemprop="recipeInstructions">Put the remaining zest in a bowl with half the lemon juice. Mix with <b>2</b> teaspoons <span data-default="3" data-quantity="3" data-unit="tsp" class="tooltip scalable">olive oil</span> to make a dressing; season.</li>
-                <li itemprop="recipeInstructions">Whisk the rest of the lemon juice, the orange juice and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">honey</span> together. Pour into the frying pan and bubble for <b>2-3</b> minutes until syrupy, turning the <span data-default="1x" data-quantity="1x" data-unit="300 g pack" class="tooltip scalable">pork</span> to glaze in the sauce.</li>
-                <li itemprop="recipeInstructions">Remove the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">green beans</span> with tongs, toss with the dressing and divide between <b>2</b> warmed plates, leaving any dressing in&nbsp;the bowl. Drain the <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">potatoes</span>, add to the bowl and crush lightly with a fork. Serve with the <span data-default="1x" data-quantity="1x" data-unit="300 g pack" class="tooltip scalable">pork</span> and sauce.</li>
+                <li itemprop="recipeInstructions">Boil the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">potatoes</span> in a pan of boiling salted water for <b>15</b> minutes. Add the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">green beans</span>; cook for <b>4-5</b> minutes until just tender.</li>
+                <li itemprop="recipeInstructions">Meanwhile, mix half of both zests with the crushed <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">peppercorns</span>; press onto the <span data-default="1x" data-defaultunit="300 g pack" data-quantity="1x" data-unit="300 g pack" class="tooltip scalable">pork</span>.</li>
+                <li itemprop="recipeInstructions">Heat <b>1</b> teaspoon <span data-default="3" data-defaultunit="tsp" data-quantity="3" data-unit="tsp" class="tooltip scalable">olive oil</span> in a nonstick frying pan, add the <span data-default="1x" data-defaultunit="300 g pack" data-quantity="1x" data-unit="300 g pack" class="tooltip scalable">pork</span> and fry over a high heat for <b>2</b> minutes each side.</li>
+                <li itemprop="recipeInstructions">Put the remaining zest in a bowl with half the lemon juice. Mix with <b>2</b> teaspoons <span data-default="3" data-defaultunit="tsp" data-quantity="3" data-unit="tsp" class="tooltip scalable">olive oil</span> to make a dressing; season.</li>
+                <li itemprop="recipeInstructions">Whisk the rest of the lemon juice, the orange juice and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">honey</span> together. Pour into the frying pan and bubble for <b>2-3</b> minutes until syrupy, turning the <span data-default="1x" data-defaultunit="300 g pack" data-quantity="1x" data-unit="300 g pack" class="tooltip scalable">pork</span> to glaze in the sauce.</li>
+                <li itemprop="recipeInstructions">Remove the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">green beans</span> with tongs, toss with the dressing and divide between <b>2</b> warmed plates, leaving any dressing in&nbsp;the bowl. Drain the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">potatoes</span>, add to the bowl and crush lightly with a fork. Serve with the <span data-default="1x" data-defaultunit="300 g pack" data-quantity="1x" data-unit="300 g pack" class="tooltip scalable">pork</span> and sauce.</li>
                 </ol>
 
             <hr>

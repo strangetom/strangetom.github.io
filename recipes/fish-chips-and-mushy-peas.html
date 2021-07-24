@@ -13,7 +13,7 @@
         <title>Fish, chips and mushy peas | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,38 +43,50 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g baking potatoes</li>
+                        <span data-default="400" class="scalable">400</span>
+                        <span data-unit="g">g</span> baking potatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp olive or rapeseed oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> olive or rapeseed oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> slices white bread</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="slices">slices</span> white bread</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> white fish fillets</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> white fish fillets</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp plain flour, seasoned</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> plain flour, seasoned</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> egg, beaten</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> egg, beaten</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="140" class="scalable">140</span> g frozen peas with mint</li>
+                        <span data-default="140" class="scalable">140</span>
+                        <span data-unit="g">g</span> frozen peas with mint</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp half-fat creme fraiche</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> half-fat creme fraiche</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the oven to <b>180</b>&deg;C/Gas <b>6</b>. Peel the <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">potatoes</span>, cut into thick chips, then toss with the <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">oil</span> and a little salt. Arrange them on a large non-stick baking sheet and roast for <b>20</b> minutes, turning halfway through</li>
-                <li itemprop="recipeInstructions">Lightly toast the <span data-default="2" data-quantity="2" data-unit="slices" class="tooltip scalable">bread</span>, then pulse briefly in a food processor to make coarse breadcrumbs. Dust the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">fish</span> in the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">flour</span>, then dip it first into the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">egg</span> and then the breadcrumbs, and coat thoroughly. Roast the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">fish</span> with the chips for a further <b>20</b> minutes or until both are golden.</li>
-                <li itemprop="recipeInstructions">Just before the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">fish</span> and chips are ready, boil the <span data-default="140" data-quantity="140" data-unit="g" class="tooltip scalable">peas</span> for <b>3-4</b> minutes, then drain and mash. Stir in the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">creme fraiche</span> and season, then serve with the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">fish</span> and chips.</li>
+                <li itemprop="recipeInstructions">Heat the oven to <b>180</b>&deg;C/Gas <b>6</b>. Peel the <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">potatoes</span>, cut into thick chips, then toss with the <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">oil</span> and a little salt. Arrange them on a large non-stick baking sheet and roast for <b>20</b> minutes, turning halfway through</li>
+                <li itemprop="recipeInstructions">Lightly toast the <span data-default="2" data-defaultunit="slices" data-quantity="2" data-unit="slices" class="tooltip scalable">bread</span>, then pulse briefly in a food processor to make coarse breadcrumbs. Dust the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">fish</span> in the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">flour</span>, then dip it first into the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">egg</span> and then the breadcrumbs, and coat thoroughly. Roast the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">fish</span> with the chips for a further <b>20</b> minutes or until both are golden.</li>
+                <li itemprop="recipeInstructions">Just before the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">fish</span> and chips are ready, boil the <span data-default="140" data-defaultunit="g" data-quantity="140" data-unit="g" class="tooltip scalable">peas</span> for <b>3-4</b> minutes, then drain and mash. Stir in the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">creme fraiche</span> and season, then serve with the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">fish</span> and chips.</li>
                 </ol>
 
             <hr>

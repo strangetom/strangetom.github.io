@@ -13,7 +13,7 @@
         <title>Root vegetable Thai curry | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -48,37 +48,47 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> g Thai curry paste (green or red)</li>
+                        <span data-default="50" class="scalable">50</span>
+                        <span data-unit="g">g</span> Thai curry paste (green or red)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="750" class="scalable">750</span> g mixed root vegetables (such as carrot, swede, turnip), peeled and chopped</li>
+                        <span data-default="750" class="scalable">750</span>
+                        <span data-unit="g">g</span> mixed root vegetables (such as carrot, swede, turnip), peeled and chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="160" class="scalable">160</span> ml coconut cream (or 75 g creamed coconut, broken into pieces)</li>
+                        <span data-default="160" class="scalable">160</span>
+                        <span data-unit="ml">ml</span> coconut cream (or 75 g creamed coconut, broken into pieces)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="750" class="scalable">750</span> ml vegetable stock, made from stock cube</li>
+                        <span data-default="750" class="scalable">750</span>
+                        <span data-unit="ml">ml</span> vegetable stock, made from stock cube</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g rice</li>
-                    <li itemprop="recipeIngredient">salt and black pepper</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> rice</li>
+                    <li itemprop="recipeIngredient"> salt and black pepper</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat a large non-stick saucepan with a lid over a medium heat. Add the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> and <span data-default="50" data-quantity="50" data-unit="g" class="tooltip scalable">curry paste</span> and stir over the heat for two minutes until you can smell the flavours.  </li>
-                <li itemprop="recipeInstructions">Mix in the chopped <span data-default="750" data-quantity="750" data-unit="g" class="tooltip scalable">root vegetables</span> and stir, coating the vegetables in the paste. Add a splash of water to help steam the vegetables and stop them from sticking. Place the lid on the saucepan and cook for <b>10</b> minutes, stirring every couple of minutes. Add a splash more water if needed to stop them sticking to the bottom of the pan.  </li>
-                <li itemprop="recipeInstructions">Meanwhile, in a jug, mix the <span data-default="160" data-quantity="160" data-unit="ml" class="tooltip scalable">coconut</span> and <span data-default="750" data-quantity="750" data-unit="ml" class="tooltip scalable">stock</span>, stirring until dissolved.  </li>
-                <li itemprop="recipeInstructions">Once the vegetables have cooked for <b>10</b> minutes, pour the <span data-default="750" data-quantity="750" data-unit="ml" class="tooltip scalable">stock</span> and <span data-default="160" data-quantity="160" data-unit="ml" class="tooltip scalable">coconut</span> mixture over the top and leave to simmer uncovered for <b>30</b> minutes, or until all the vegetables are soft and breaking up slightly and the sauce has thickened. If the sauce hasn’t thickened enough to your liking, then turn up the heat and allow it to bubble away for a further <b>10</b> minutes, or until thickened. Add salt and pepper to taste.  </li>
-                <li itemprop="recipeInstructions">Meanwhile, cook the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">rice</span> in a separate saucepan according to the packet instructions. Serve the curry on top of the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">rice</span>.  </li>
+                <li itemprop="recipeInstructions">Heat a large non-stick saucepan with a lid over a medium heat. Add the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> and <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">curry paste</span> and stir over the heat for two minutes until you can smell the flavours.  </li>
+                <li itemprop="recipeInstructions">Mix in the chopped <span data-default="750" data-defaultunit="g" data-quantity="750" data-unit="g" class="tooltip scalable">root vegetables</span> and stir, coating the vegetables in the paste. Add a splash of water to help steam the vegetables and stop them from sticking. Place the lid on the saucepan and cook for <b>10</b> minutes, stirring every couple of minutes. Add a splash more water if needed to stop them sticking to the bottom of the pan.  </li>
+                <li itemprop="recipeInstructions">Meanwhile, in a jug, mix the <span data-default="160" data-defaultunit="ml" data-quantity="160" data-unit="ml" class="tooltip scalable">coconut</span> and <span data-default="750" data-defaultunit="ml" data-quantity="750" data-unit="ml" class="tooltip scalable">stock</span>, stirring until dissolved.  </li>
+                <li itemprop="recipeInstructions">Once the vegetables have cooked for <b>10</b> minutes, pour the <span data-default="750" data-defaultunit="ml" data-quantity="750" data-unit="ml" class="tooltip scalable">stock</span> and <span data-default="160" data-defaultunit="ml" data-quantity="160" data-unit="ml" class="tooltip scalable">coconut</span> mixture over the top and leave to simmer uncovered for <b>30</b> minutes, or until all the vegetables are soft and breaking up slightly and the sauce has thickened. If the sauce hasn’t thickened enough to your liking, then turn up the heat and allow it to bubble away for a further <b>10</b> minutes, or until thickened. Add salt and pepper to taste.  </li>
+                <li itemprop="recipeInstructions">Meanwhile, cook the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">rice</span> in a separate saucepan according to the packet instructions. Serve the curry on top of the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">rice</span>.  </li>
                 </ol>
 
             <hr>

@@ -13,7 +13,7 @@
         <title>Pea and mint omelette | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,31 +44,39 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> g frozen peas</li>
+                        <span data-default="50" class="scalable">50</span>
+                        <span data-unit="g">g</span> frozen peas</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> eggs</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> eggs</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp chopped fresh mint</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> chopped fresh mint</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="knob" class="scalable">knob</span> of butter</li>
-                    <li itemprop="recipeIngredient">salt and ground black pepper</li>
+                        <span data-default="knob" class="scalable">knob</span>
+                        <span data-unit=""></span> of butter</li>
+                    <li itemprop="recipeIngredient"> salt and ground black pepper</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Break the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">eggs</span> into a large bowl and beat with a fork. Season well with salt and pepper and set aside</li>
-                <li itemprop="recipeInstructions">Cook the <span data-default="50" data-quantity="50" data-unit="g" class="tooltip scalable">peas</span> in a large pan of salted boiling water for <b>3-4</b> minutes until tender. Drain well in a colander and add to the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">eggs</span> in the bowl. Stir in the chopped fresh <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">mint</span> and swirl with a spoon until thoroughly mixed.</li>
-                <li itemprop="recipeInstructions">Heat the <span data-default="knob" data-quantity="knob" data-unit="" class="tooltip scalable">butter</span> in a medium frying pan until foamy. Pour in the egg mixture and cook over a medium heat for <b>3-4</b> minutes, drawing in the cooked egg from the edges from time to time, until the mixture is nearly set.</li>
+                <li itemprop="recipeInstructions">Break the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">eggs</span> into a large bowl and beat with a fork. Season well with salt and pepper and set aside</li>
+                <li itemprop="recipeInstructions">Cook the <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">peas</span> in a large pan of salted boiling water for <b>3-4</b> minutes until tender. Drain well in a colander and add to the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">eggs</span> in the bowl. Stir in the chopped fresh <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">mint</span> and swirl with a spoon until thoroughly mixed.</li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="knob" data-defaultunit="" data-quantity="knob" data-unit="" class="tooltip scalable">butter</span> in a medium frying pan until foamy. Pour in the egg mixture and cook over a medium heat for <b>3-4</b> minutes, drawing in the cooked egg from the edges from time to time, until the mixture is nearly set.</li>
                 <li itemprop="recipeInstructions">Finish off cooking the omelette under a hot grill until set and golden. Carefully fold the omelette, cut in half and serve immediately.</li>
                 </ol>
 

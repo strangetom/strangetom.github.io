@@ -13,7 +13,7 @@
         <title>Antipasto tortellini pasta salad | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,50 +47,70 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="20" class="scalable">20</span> oz cheese tortellini</li>
+                        <span data-default="20" class="scalable">20</span>
+                        <span data-unit="oz">oz</span> cheese tortellini</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.5" class="scalable">1½</span> cups grape or cherry tomatoes, sliced in half</li>
+                        <span data-default="1.5" class="scalable">1½</span>
+                        <span data-unit="cups">cups</span> grape or cherry tomatoes, sliced in half</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.5" class="scalable">1½</span> cups mixed pitted olives</li>
+                        <span data-default="1.5" class="scalable">1½</span>
+                        <span data-unit="cups">cups</span> mixed pitted olives</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="5" class="scalable">5</span> oz chopped pepperoni</li>
+                        <span data-default="5" class="scalable">5</span>
+                        <span data-unit="oz">oz</span> chopped pepperoni</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="5" class="scalable">5</span> oz chopped sopressata</li>
+                        <span data-default="5" class="scalable">5</span>
+                        <span data-unit="oz">oz</span> chopped sopressata</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> cup mozzarella pearls</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="cup">cup</span> mozzarella pearls</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="5" class="scalable">5</span> oz chopped sharp provolone cheese</li>
+                        <span data-default="5" class="scalable">5</span>
+                        <span data-unit="oz">oz</span> chopped sharp provolone cheese</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.75" class="scalable">¾</span> cup sliced roasted red peppers</li>
+                        <span data-default="0.75" class="scalable">¾</span>
+                        <span data-unit="cup">cup</span> sliced roasted red peppers</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> red onion, diced</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit=""></span> red onion, diced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="8" class="scalable">8</span> whole pepperoncini peppers, optional</li>
+                        <span data-default="8" class="scalable">8</span>
+                        <span data-unit=""></span> whole pepperoncini peppers, optional</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="6" class="scalable">6</span> fresh basil leaves, sliced into thin ribbons</li>
+                        <span data-default="6" class="scalable">6</span>
+                        <span data-unit=""></span> fresh basil leaves, sliced into thin ribbons</li>
                 </ul>
                 <details open>
                     <summary class="ingredient-subheading">For the dressing</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> cup olive oil</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit="cup">cup</span> olive oil</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.25" class="scalable">¼</span> cup red wine vinegar</li>
+                            <span data-default="0.25" class="scalable">¼</span>
+                            <span data-unit="cup">cup</span> red wine vinegar</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> cloves garlic, minced</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="cloves">cloves</span> garlic, minced</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tsp dried oregano</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tsp">tsp</span> dried oregano</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="pinch" class="scalable">pinch</span> of red pepper flakes</li>
-                        <li itemprop="recipeIngredient">kosher salt, to taste</li>
+                            <span data-default="pinch" class="scalable">pinch</span>
+                            <span data-unit=""></span> of red pepper flakes</li>
+                        <li itemprop="recipeIngredient"> kosher salt, to taste</li>
                     </ul>
                 </details>
             </div>
@@ -98,8 +118,8 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Cook the <span data-default="20" data-quantity="20" data-unit="oz" class="tooltip scalable">tortellini</span> in salted water according to package instructions, until al dente. Strain and rinse with cold water to prevent sticking.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="20" data-quantity="20" data-unit="oz" class="tooltip scalable">tortellini</span> and remaining pasta salad ingredients to a large bowl. Set aside.</li>
+                <li itemprop="recipeInstructions">Cook the <span data-default="20" data-defaultunit="oz" data-quantity="20" data-unit="oz" class="tooltip scalable">tortellini</span> in salted water according to package instructions, until al dente. Strain and rinse with cold water to prevent sticking.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="20" data-defaultunit="oz" data-quantity="20" data-unit="oz" class="tooltip scalable">tortellini</span> and remaining pasta salad ingredients to a large bowl. Set aside.</li>
                 <li itemprop="recipeInstructions">In a large jar or blender, combine the dressing ingredients and shake or blend until well-combined. Pour the dressing over the pasta salad and toss to evenly distribute. Refrigerate for at least <b>2</b> hours.</li>
                 </ol>
 

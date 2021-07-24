@@ -13,7 +13,7 @@
         <title>Riojan pork, chorizo and potato pot | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -48,51 +48,69 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp olive oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="700" class="scalable">700</span> g single pork ribs</li>
+                        <span data-default="700" class="scalable">700</span>
+                        <span data-unit="g">g</span> single pork ribs</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g mini cooking chorizo, cut into 1cm discs</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="g">g</span> mini cooking chorizo, cut into 1cm discs</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> medium onions, finely chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="medium">medium</span> onions, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> medium leek, finely chopped</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="medium">medium</span> leek, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> cloves garlic, crushed with the flat of a knife</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="cloves">cloves</span> garlic, crushed with the flat of a knife</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> green pepper, finely chopped</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit=""></span> green pepper, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> large plum tomatoes, coarsely grated</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="large">large</span> plum tomatoes, coarsely grated</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> ml white wine</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="ml">ml</span> white wine</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="800" class="scalable">800</span> g white potatoes, peeled and chopped into 2-3 cm cubes</li>
+                        <span data-default="800" class="scalable">800</span>
+                        <span data-unit="g">g</span> white potatoes, peeled and chopped into 2-3 cm cubes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp smoked paprika</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> smoked paprika</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> dried choricero peppers, halved, stems and seeds removed</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> dried choricero peppers, halved, stems and seeds removed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="150" class="scalable">150</span> g baby button chestnut mushrooms</li>
+                        <span data-default="150" class="scalable">150</span>
+                        <span data-unit="g">g</span> baby button chestnut mushrooms</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="a few" class="scalable">a few</span> sprigs thyme, to garnish</li>
+                        <span data-default="a few" class="scalable">a few</span>
+                        <span data-unit="sprigs">sprigs</span> thyme, to garnish</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a large, wide, deep pan or casserole. Fry the <span data-default="700" data-quantity="700" data-unit="g" class="tooltip scalable">ribs</span> until browned on all sides, in batches if needed, then lift out and keep to one side. Pour off any fat from the pan. Add the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">chorizo</span> pieces to the pan and fry for a few more minutes until golden, then scoop out and put aside.</li>
-                <li itemprop="recipeInstructions">Put the <span data-default="2" data-quantity="2" data-unit="medium" class="tooltip scalable">onions</span> and <span data-default="0.5" data-quantity="&frac12;" data-unit="medium" class="tooltip scalable">leek</span> into the pan and cook gently for about <b>5</b> minutes until softened and golden, then add the <span data-default="4" data-quantity="4" data-unit="cloves" class="tooltip scalable">garlic</span> and the <span data-default="0.5" data-quantity="&frac12;" data-unit="" class="tooltip scalable">green pepper</span> and continue to cook gently for another <b>5</b> minutes. Add the grated <span data-default="2" data-quantity="2" data-unit="large" class="tooltip scalable">tomatoes</span>, with any juice, and simmer for another <b>10</b> minutes.</li>
-                <li itemprop="recipeInstructions">Pour in the <span data-default="100" data-quantity="100" data-unit="ml" class="tooltip scalable">wine</span> and bubble up to burn off the alcohol. Then turn down the heat and simmer uncovered for another <b>5</b> minutes. Add the <span data-default="800" data-quantity="800" data-unit="g" class="tooltip scalable">potatoes</span> and stir to ensure they are well coated, then return the <span data-default="700" data-quantity="700" data-unit="g" class="tooltip scalable">ribs</span> to the pan, stir briefly, and add the <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">paprika</span>, <b>800</b> ml water and the peppers, and bring to a simmer. Lower the heat and cook gently for about <b>25</b> minutes. Once the <span data-default="800" data-quantity="800" data-unit="g" class="tooltip scalable">potatoes</span> are tender, add the <span data-default="150" data-quantity="150" data-unit="g" class="tooltip scalable">mushrooms</span> and <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">chorizo</span> and continue to cook for another <b>15</b> minutes.</li>
-                <li itemprop="recipeInstructions">Serve each plate with a half of choricero pepper on top if you’re using them. The idea is to scoop out the flesh and mix it into the stew. Garnish with the <span data-default="a few" data-quantity="a few" data-unit="sprigs" class="tooltip scalable">thyme</span> to serve.</li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a large, wide, deep pan or casserole. Fry the <span data-default="700" data-defaultunit="g" data-quantity="700" data-unit="g" class="tooltip scalable">ribs</span> until browned on all sides, in batches if needed, then lift out and keep to one side. Pour off any fat from the pan. Add the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">chorizo</span> pieces to the pan and fry for a few more minutes until golden, then scoop out and put aside.</li>
+                <li itemprop="recipeInstructions">Put the <span data-default="2" data-defaultunit="medium" data-quantity="2" data-unit="medium" class="tooltip scalable">onions</span> and <span data-default="0.5" data-defaultunit="medium" data-quantity="&frac12;" data-unit="medium" class="tooltip scalable">leek</span> into the pan and cook gently for about <b>5</b> minutes until softened and golden, then add the <span data-default="4" data-defaultunit="cloves" data-quantity="4" data-unit="cloves" class="tooltip scalable">garlic</span> and the <span data-default="0.5" data-defaultunit="" data-quantity="&frac12;" data-unit="" class="tooltip scalable">green pepper</span> and continue to cook gently for another <b>5</b> minutes. Add the grated <span data-default="2" data-defaultunit="large" data-quantity="2" data-unit="large" class="tooltip scalable">tomatoes</span>, with any juice, and simmer for another <b>10</b> minutes.</li>
+                <li itemprop="recipeInstructions">Pour in the <span data-default="100" data-defaultunit="ml" data-quantity="100" data-unit="ml" class="tooltip scalable">wine</span> and bubble up to burn off the alcohol. Then turn down the heat and simmer uncovered for another <b>5</b> minutes. Add the <span data-default="800" data-defaultunit="g" data-quantity="800" data-unit="g" class="tooltip scalable">potatoes</span> and stir to ensure they are well coated, then return the <span data-default="700" data-defaultunit="g" data-quantity="700" data-unit="g" class="tooltip scalable">ribs</span> to the pan, stir briefly, and add the <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">paprika</span>, <b>800</b> ml water and the peppers, and bring to a simmer. Lower the heat and cook gently for about <b>25</b> minutes. Once the <span data-default="800" data-defaultunit="g" data-quantity="800" data-unit="g" class="tooltip scalable">potatoes</span> are tender, add the <span data-default="150" data-defaultunit="g" data-quantity="150" data-unit="g" class="tooltip scalable">mushrooms</span> and <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">chorizo</span> and continue to cook for another <b>15</b> minutes.</li>
+                <li itemprop="recipeInstructions">Serve each plate with a half of choricero pepper on top if you’re using them. The idea is to scoop out the flesh and mix it into the stew. Garnish with the <span data-default="a few" data-defaultunit="sprigs" data-quantity="a few" data-unit="sprigs" class="tooltip scalable">thyme</span> to serve.</li>
                 </ol>
 
             <hr>

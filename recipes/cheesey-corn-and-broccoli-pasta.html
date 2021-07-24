@@ -13,7 +13,7 @@
         <title>Cheesey corn and broccoli pasta | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,34 +44,43 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> g farfelle (pasta bows)</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="g">g</span> farfelle (pasta bows)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="140" class="scalable">140</span> g broccoli florets</li>
+                        <span data-default="140" class="scalable">140</span>
+                        <span data-unit="g">g</span> broccoli florets</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="198" class="scalable">198</span> g can sweetcorn, drained and rinsed</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="198 g can">198 g can</span> sweetcorn, drained and rinsed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="25" class="scalable">25</span> g butter</li>
+                        <span data-default="25" class="scalable">25</span>
+                        <span data-unit="g">g</span> butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> ml milk</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="ml">ml</span> milk</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> g cheddar cheese grated</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="g">g</span> cheddar cheese grated</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Cook the <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">pasta</span> in a large pan of salted boiling water for <b>8-10</b> minutes, until tender. Add the <span data-default="140" data-quantity="140" data-unit="g" class="tooltip scalable">broccoli</span> and <span data-default="198" data-quantity="198" data-unit="g can" class="tooltip scalable">sweetcorn</span> to the water for the last <b>4</b> minutes.   </li>
-                <li itemprop="recipeInstructions">While the <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">pasta</span> is cooking, melt the <span data-default="25" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span> in a medium saucepan with the <span data-default="100" data-quantity="100" data-unit="ml" class="tooltip scalable">milk</span>, then bring to the boil and remove from the heat. Tip in the <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">cheese</span> and stir until melted.   </li>
-                <li itemprop="recipeInstructions">Drain the <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">pasta</span> and vegetables well, return to the pan and pour in the sauce. Toss to mix well and season to taste before serving.   </li>
+                <li itemprop="recipeInstructions">Cook the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">pasta</span> in a large pan of salted boiling water for <b>8-10</b> minutes, until tender. Add the <span data-default="140" data-defaultunit="g" data-quantity="140" data-unit="g" class="tooltip scalable">broccoli</span> and <span data-default="1x" data-defaultunit="198 g can" data-quantity="1x" data-unit="198 g can" class="tooltip scalable">sweetcorn</span> to the water for the last <b>4</b> minutes.   </li>
+                <li itemprop="recipeInstructions">While the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">pasta</span> is cooking, melt the <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span> in a medium saucepan with the <span data-default="100" data-defaultunit="ml" data-quantity="100" data-unit="ml" class="tooltip scalable">milk</span>, then bring to the boil and remove from the heat. Tip in the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">cheese</span> and stir until melted.   </li>
+                <li itemprop="recipeInstructions">Drain the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">pasta</span> and vegetables well, return to the pan and pour in the sauce. Toss to mix well and season to taste before serving.   </li>
                 </ol>
 
             <hr>

@@ -13,7 +13,7 @@
         <title>School dinner sponge cake | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Dessert" itemscope itemtype="https://schema.org/Recipe">
 
@@ -45,38 +45,50 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <details open>
                     <summary class="ingredient-subheading">For the sponge cake</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="400" class="scalable">400</span> g gluten free self raising flour</li>
+                            <span data-default="400" class="scalable">400</span>
+                            <span data-unit="g">g</span> gluten free self raising flour</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.25" class="scalable">¼</span> tsp xanthan gum</li>
+                            <span data-default="0.25" class="scalable">¼</span>
+                            <span data-unit="tsp">tsp</span> xanthan gum</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="400" class="scalable">400</span> g dairy free spread (butter at room temperature works if you don't need to be dairy free)</li>
+                            <span data-default="400" class="scalable">400</span>
+                            <span data-unit="g">g</span> dairy free spread (butter at room temperature works if you don't need to be dairy free)</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="350" class="scalable">350</span> g caster sugar</li>
+                            <span data-default="350" class="scalable">350</span>
+                            <span data-unit="g">g</span> caster sugar</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tsp vanilla extract</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tsp">tsp</span> vanilla extract</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="6" class="scalable">6</span> eggs</li>
+                            <span data-default="6" class="scalable">6</span>
+                            <span data-unit=""></span> eggs</li>
                     </ul>
                 </details>
                 <details open>
                     <summary class="ingredient-subheading">For the icing</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="400" class="scalable">400</span> g icing sugar</li>
+                            <span data-default="400" class="scalable">400</span>
+                            <span data-unit="g">g</span> icing sugar</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tsp vanilla extract</li>
-                        <li itemprop="recipeIngredient">a few tbsp water</li>
-                        <li itemprop="recipeIngredient">colour strands decorations</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tsp">tsp</span> vanilla extract</li>
+                        <li itemprop="recipeIngredient"> a few tbsp water</li>
+                        <li itemprop="recipeIngredient"> colour strands decorations</li>
                     </ul>
                 </details>
             </div>
@@ -85,12 +97,12 @@
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Preheat your oven to <b>160</b>&deg;C fan. Prepare a rectangular baking tin - mine is approx <b>32</b> cm x <b>21.5</b> cm. I grease the tin and then use baking paper - the baking paper should go over the edges so you can lift out the cake once it's cooled.</li>
-                <li itemprop="recipeInstructions">In a large mixing bowl, cream together your <span data-default="350" data-quantity="350" data-unit="g" class="tooltip scalable">caster sugar</span> and your dairy free <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">spread</span> (or butter). Cream until lighter and fluffy. I use an electric hand whisk.</li>
-                <li itemprop="recipeInstructions">Gradually add your <span data-default="6" data-quantity="6" data-unit="" class="tooltip scalable">eggs</span> and <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">vanilla extract</span> and whisk until combined.</li>
-                <li itemprop="recipeInstructions">Fold in the gluten free <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">self raising flour</span> and <span data-default="0.25" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">xanthan gum</span> to the mixture (this is a big mixture so make sure you carefully fold all the flour in properly)</li>
+                <li itemprop="recipeInstructions">In a large mixing bowl, cream together your <span data-default="350" data-defaultunit="g" data-quantity="350" data-unit="g" class="tooltip scalable">caster sugar</span> and your dairy free <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">spread</span> (or butter). Cream until lighter and fluffy. I use an electric hand whisk.</li>
+                <li itemprop="recipeInstructions">Gradually add your <span data-default="6" data-defaultunit="" data-quantity="6" data-unit="" class="tooltip scalable">eggs</span> and <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">vanilla extract</span> and whisk until combined.</li>
+                <li itemprop="recipeInstructions">Fold in the gluten free <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">self raising flour</span> and <span data-default="0.25" data-defaultunit="tsp" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">xanthan gum</span> to the mixture (this is a big mixture so make sure you carefully fold all the flour in properly)</li>
                 <li itemprop="recipeInstructions">Spoon/pour your mixture evenly into the baking tin. Place in the oven for about <b>60</b> minutes until fully cooked and golden.</li>
                 <li itemprop="recipeInstructions">Leave to cool in the tin and then lift out, using the baking paper and place on a cooling rack.</li>
-                <li itemprop="recipeInstructions">Whilst the cake is cooling you can make your icing. Sieve your <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">icing sugar</span> into a large mixing bowl. Add your <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">vanilla extract</span> and very gradually add a tbsp of water at a time and mix in until it becomes the right consistency. It should be quite thick and glossy, don't let it go too runny. If you do sieve in a little more <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">icing sugar</span>.</li>
+                <li itemprop="recipeInstructions">Whilst the cake is cooling you can make your icing. Sieve your <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">icing sugar</span> into a large mixing bowl. Add your <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">vanilla extract</span> and very gradually add a tbsp of water at a time and mix in until it becomes the right consistency. It should be quite thick and glossy, don't let it go too runny. If you do sieve in a little more <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">icing sugar</span>.</li>
                 <li itemprop="recipeInstructions">Once you are happy with the consistency of your icing spoon it over your sponge. Allow it to evenly cover the top and go all the way to the edges.</li>
                 <li itemprop="recipeInstructions">Sprinkle your coloured strands all over the top of the icing - as many as you like. I use a lot!! Now allow your icing to completely set before you cut into slices. I leave mine about <b>30</b> - <b>60</b> minutes.</li>
                 <li itemprop="recipeInstructions">Cut a thin strip off each side, then cut the sponge into squares.</li>

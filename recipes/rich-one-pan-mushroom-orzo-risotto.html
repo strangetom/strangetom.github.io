@@ -13,7 +13,7 @@
         <title>Rich one-pan mushroom orzo risotto | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,36 +44,44 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="20" class="scalable">20</span> g dried porcini mushrooms</li>
-                    <li itemprop="recipeIngredient">salted butter</li>
+                        <span data-default="20" class="scalable">20</span>
+                        <span data-unit="g">g</span> dried porcini mushrooms</li>
+                    <li itemprop="recipeIngredient"> salted butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> brown onion</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> brown onion</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g chestnut mushrooms</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="g">g</span> chestnut mushrooms</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g orzo pasta</li>
-                    <li itemprop="recipeIngredient">chicken stock cube</li>
-                    <li itemprop="recipeIngredient">Parmesan cheese</li>
-                    <li itemprop="recipeIngredient">fresh parsley</li>
-                    <li itemprop="recipeIngredient">fresh tarragon</li>
-                    <li itemprop="recipeIngredient">salt and pepper</li>
+                        <span data-default="400" class="scalable">400</span>
+                        <span data-unit="g">g</span> orzo pasta</li>
+                    <li itemprop="recipeIngredient"> chicken stock cube</li>
+                    <li itemprop="recipeIngredient"> Parmesan cheese</li>
+                    <li itemprop="recipeIngredient"> fresh parsley</li>
+                    <li itemprop="recipeIngredient"> fresh tarragon</li>
+                    <li itemprop="recipeIngredient"> salt and pepper</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Soak the <span data-default="20" data-quantity="20" data-unit="g" class="tooltip scalable">dried porcini mushrooms</span> in <b>120</b> ml of boiling water.</li>
-                <li itemprop="recipeInstructions">Melt <b>1</b> tbsp of salted butter in a large frying pan. Add a finely chopped <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">brown onion</span> and cook until soft. Add sliced <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">chestnut mushrooms</span> and cook until they are lightly browned.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">orzo pasta</span> and stir it around so it is covered with the butter.</li>
+                <li itemprop="recipeInstructions">Soak the <span data-default="20" data-defaultunit="g" data-quantity="20" data-unit="g" class="tooltip scalable">dried porcini mushrooms</span> in <b>120</b> ml of boiling water.</li>
+                <li itemprop="recipeInstructions">Melt <b>1</b> tbsp of salted butter in a large frying pan. Add a finely chopped <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">brown onion</span> and cook until soft. Add sliced <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">chestnut mushrooms</span> and cook until they are lightly browned.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">orzo pasta</span> and stir it around so it is covered with the butter.</li>
                 <li itemprop="recipeInstructions">Add a stock cube to a measuring jug and <b>675</b> ml of hot water. Stir and allow the cube to dissolve.</li>
                 <li itemprop="recipeInstructions">Add the chicken stock and the water from the porcini mushrooms (but not the mushrooms themselves yet). Bring to the boil over a high heat, then reduce the heat and simmer, stirring often until the pasta is tender and most of the liquid is absorbed. This should take <b>12</b> minutes. If the mixture becomes too thick before the pasta is done, add a little more water.</li>
                 <li itemprop="recipeInstructions">Stir in <b>100</b> g of grated Parmesan. Chop up your soaked porcini mushrooms and stir these in. Add both a handful of chopped parsley and chopped tarragon (reserving some whole leaves of both to garnish) and stir through the dish. Season with salt and pepper.</li>

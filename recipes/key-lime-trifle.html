@@ -13,7 +13,7 @@
         <title>Key lime trifle | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Dessert" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,48 +43,64 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="275" class="scalable">275</span> g Madeira sponge, cut into 2 cm cubes</li>
-                    <li itemprop="recipeIngredient">juice of 4 limes, reserve some zest to serve</li>
+                        <span data-default="275" class="scalable">275</span>
+                        <span data-unit="g">g</span> Madeira sponge, cut into 2 cm cubes</li>
+                    <li itemprop="recipeIngredient"> juice of 4 limes, reserve some zest to serve</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="5" class="scalable">5</span> tbsp Malibu (or 3 tbsp white rum)</li>
+                        <span data-default="5" class="scalable">5</span>
+                        <span data-unit="tbsp">tbsp</span> Malibu (or 3 tbsp white rum)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsp caster sugar</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsp">tbsp</span> caster sugar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1-2" class="scalable">1-2</span> Hobnob biscuits, bashed to coarse crumbs</li>
+                        <span data-default="1-2" class="scalable">1-2</span>
+                        <span data-unit=""></span> Hobnob biscuits, bashed to coarse crumbs</li>
                 </ul>
                 <details open>
                     <summary class="ingredient-subheading">For the lime custard</summary>
                     <ul>
-                        <li itemprop="recipeIngredient">zest of 4 and juice of 8 limes</li>
+                        <li itemprop="recipeIngredient"> zest of 4 and juice of 8 limes</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="4" class="scalable">4</span> large egg yolks</li>
+                            <span data-default="4" class="scalable">4</span>
+                            <span data-unit="large">large</span> egg yolks</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="4" class="scalable">4</span> tbsp caster sugar</li>
+                            <span data-default="4" class="scalable">4</span>
+                            <span data-unit="tbsp">tbsp</span> caster sugar</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1.5" class="scalable">1½</span> tbsp cornflour</li>
+                            <span data-default="1.5" class="scalable">1½</span>
+                            <span data-unit="tbsp">tbsp</span> cornflour</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="450" class="scalable">450</span> ml whipping cream</li>
+                            <span data-default="450" class="scalable">450</span>
+                            <span data-unit="ml">ml</span> whipping cream</li>
                     </ul>
                 </details>
                 <details open>
                     <summary class="ingredient-subheading">For the cream</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="450" class="scalable">450</span> ml whipping cream</li>
+                            <span data-default="450" class="scalable">450</span>
+                            <span data-unit="ml">ml</span> whipping cream</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1.5" class="scalable">1½</span> tbsp icing sugar</li>
+                            <span data-default="1.5" class="scalable">1½</span>
+                            <span data-unit="tbsp">tbsp</span> icing sugar</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tbsp Malibu (or ½ tbsp white rum)</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tbsp">tbsp</span> Malibu (or ½ tbsp white rum)</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tsp vanilla bean paste or extract</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tsp">tsp</span> vanilla bean paste or extract</li>
                     </ul>
                 </details>
             </div>
@@ -92,7 +108,7 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">For the lime custard, whisk the lime zest and juice, <span data-default="4" data-quantity="4" data-unit="large" class="tooltip scalable">egg yolks</span>, sugar and <span data-default="1.5" data-quantity="1&frac12;" data-unit="tbsp" class="tooltip scalable">cornflour</span> in a medium pan until smooth. Continually whisking, pour in the cream. Warm gently over a low flame, stirring frequently, for <b>10-12</b> minutes until the mixture is thick and glossy. It will thicken more as it cools, so don't make it too thick at this point. Taste to make sure the <span data-default="1.5" data-quantity="1&frac12;" data-unit="tbsp" class="tooltip scalable">cornflour</span> has cooked out; it shouldn't be floury. Pour through a fine sieve into a bowl (discarding the zest) and cover with clingfilm, pressing it to the surface of the custard to stop a skin forming. Cool to room temperature, then chill until ready to assemble.</li>
+                <li itemprop="recipeInstructions">For the lime custard, whisk the lime zest and juice, <span data-default="4" data-defaultunit="large" data-quantity="4" data-unit="large" class="tooltip scalable">egg yolks</span>, sugar and <span data-default="1.5" data-defaultunit="tbsp" data-quantity="1&frac12;" data-unit="tbsp" class="tooltip scalable">cornflour</span> in a medium pan until smooth. Continually whisking, pour in the cream. Warm gently over a low flame, stirring frequently, for <b>10-12</b> minutes until the mixture is thick and glossy. It will thicken more as it cools, so don't make it too thick at this point. Taste to make sure the <span data-default="1.5" data-defaultunit="tbsp" data-quantity="1&frac12;" data-unit="tbsp" class="tooltip scalable">cornflour</span> has cooked out; it shouldn't be floury. Pour through a fine sieve into a bowl (discarding the zest) and cover with clingfilm, pressing it to the surface of the custard to stop a skin forming. Cool to room temperature, then chill until ready to assemble.</li>
                 <li itemprop="recipeInstructions">Put the sponge cubes into the base of a <b>1.3</b>-<b>1.5</b> litre trifle dish. Mix the lime juice, Malibu or rum and sugar, whisking until the sugar dissolves. Pour over the sponge.</li>
                 <li itemprop="recipeInstructions">Whisk the chilled lime custard to loosen (add a tiny splash of cream or milk to slacken if you need to), then pour over the sponge. Chill for at least <b>2</b> hours or until ready to serve.</li>
                 <li itemprop="recipeInstructions">Put the cream ingredients together in a large bowl. Whisk with a balloon whisk until thickened to soft peaks. Alcohol makes it thicken more quickly, so be careful not to overwhisk. Spoon over the custard in the bowl. Scatter over the biscuit crumbs and extra lime zest to serve.</li>

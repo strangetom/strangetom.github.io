@@ -13,7 +13,7 @@
         <title>Sausage with apple and mustard | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -42,39 +42,51 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4-6" class="scalable">4-6</span> sausages, pork, herby or vegetarian</li>
+                        <span data-default="4-6" class="scalable">4-6</span>
+                        <span data-unit=""></span> sausages, pork, herby or vegetarian</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> small onion, sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="small">small</span> onion, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> medium potatoes, washed and cut into 2 cm cubes</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="medium">medium</span> potatoes, washed and cut into 2 cm cubes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> vegetable stock cube, dissolved in 1 mug of boiling water</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> vegetable stock cube, dissolved in 1 mug of boiling water</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> eating apple, cut into chunks</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> eating apple, cut into chunks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp mustard</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> mustard</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp of sweet chutney</li>
-                    <li itemprop="recipeIngredient">salt and pepper</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> of sweet chutney</li>
+                    <li itemprop="recipeIngredient"> salt and pepper</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat a little <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a wok or frying pan and fry the <span data-default="4-6" data-quantity="4-6" data-unit="" class="tooltip scalable">sausages</span> until they are browned on all sides. Take them from the pan.  </li>
-                <li itemprop="recipeInstructions">Tip out any excess <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> and fry the <span data-default="1" data-quantity="1" data-unit="small" class="tooltip scalable">onion</span> and <span data-default="2" data-quantity="2" data-unit="medium" class="tooltip scalable">potatoes</span>, until they begin to brown.  </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">stock</span>, water, <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">apple</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">mustard</span>, <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">chutney</span> and return the <span data-default="4-6" data-quantity="4-6" data-unit="" class="tooltip scalable">sausages</span> to the wok. Bring everything to the boil and then turn down and the heat and simmer for <b>10-15</b> minutes, until the <span data-default="2" data-quantity="2" data-unit="medium" class="tooltip scalable">potatoes</span> are cooked. Stir a couple of times during the cooking process.  </li>
+                <li itemprop="recipeInstructions">Heat a little <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a wok or frying pan and fry the <span data-default="4-6" data-defaultunit="" data-quantity="4-6" data-unit="" class="tooltip scalable">sausages</span> until they are browned on all sides. Take them from the pan.  </li>
+                <li itemprop="recipeInstructions">Tip out any excess <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> and fry the <span data-default="1" data-defaultunit="small" data-quantity="1" data-unit="small" class="tooltip scalable">onion</span> and <span data-default="2" data-defaultunit="medium" data-quantity="2" data-unit="medium" class="tooltip scalable">potatoes</span>, until they begin to brown.  </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">stock</span>, water, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">apple</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">mustard</span>, <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">chutney</span> and return the <span data-default="4-6" data-defaultunit="" data-quantity="4-6" data-unit="" class="tooltip scalable">sausages</span> to the wok. Bring everything to the boil and then turn down and the heat and simmer for <b>10-15</b> minutes, until the <span data-default="2" data-defaultunit="medium" data-quantity="2" data-unit="medium" class="tooltip scalable">potatoes</span> are cooked. Stir a couple of times during the cooking process.  </li>
                 <li itemprop="recipeInstructions">Season well with salt and pepper and serve.</li>
                 </ol>
 

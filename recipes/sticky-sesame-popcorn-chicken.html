@@ -13,7 +13,7 @@
         <title>Sticky sesame popcorn chicken | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,41 +43,48 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
-                    <li itemprop="recipeIngredient">sweet chilli sauce</li>
-                    <li itemprop="recipeIngredient">soy sauce</li>
-                    <li itemprop="recipeIngredient">ketchup</li>
-                    <li itemprop="recipeIngredient">garlic</li>
-                    <li itemprop="recipeIngredient">knob of ginger</li>
-                    <li itemprop="recipeIngredient">cornflour</li>
+                    <li itemprop="recipeIngredient"> sweet chilli sauce</li>
+                    <li itemprop="recipeIngredient"> soy sauce</li>
+                    <li itemprop="recipeIngredient"> ketchup</li>
+                    <li itemprop="recipeIngredient"> garlic</li>
+                    <li itemprop="recipeIngredient"> knob of ginger</li>
+                    <li itemprop="recipeIngredient"> cornflour</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> eggs</li>
-                    <li itemprop="recipeIngredient">basmati rice</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> eggs</li>
+                    <li itemprop="recipeIngredient"> basmati rice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="750" class="scalable">750</span> g skinless, boneless chicken thighs</li>
-                    <li itemprop="recipeIngredient">rice wine vinegar</li>
-                    <li itemprop="recipeIngredient">sesame oil</li>
+                        <span data-default="750" class="scalable">750</span>
+                        <span data-unit="g">g</span> skinless, boneless chicken thighs</li>
+                    <li itemprop="recipeIngredient"> rice wine vinegar</li>
+                    <li itemprop="recipeIngredient"> sesame oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="bunch" class="scalable">bunch</span> spring onions</li>
-                    <li itemprop="recipeIngredient">sesame seeds</li>
+                        <span data-default="bunch" class="scalable">bunch</span>
+                        <span data-unit=""></span> spring onions</li>
+                    <li itemprop="recipeIngredient"> sesame seeds</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Cut <span data-default="750" data-quantity="750" data-unit="g" class="tooltip scalable">chicken</span> into bitesize chunks. Get two bowls. Fill one with cornflour, and crack two <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">eggs</span> in to the other. Whisk <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">eggs</span>. Dip <span data-default="750" data-quantity="750" data-unit="g" class="tooltip scalable">chicken</span> in flour, then <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">eggs</span>, then flour. Make sure it is coated. Do this with all your <span data-default="750" data-quantity="750" data-unit="g" class="tooltip scalable">chicken</span>.</li>
-                <li itemprop="recipeInstructions">Heat a large glug of vegetable oil in a wok (enough for the <span data-default="750" data-quantity="750" data-unit="g" class="tooltip scalable">chicken</span> to shallow fry. Add your <span data-default="750" data-quantity="750" data-unit="g" class="tooltip scalable">chicken</span> bits in batches. Fry until crispy, and then remove from the wok and set aside.</li>
+                <li itemprop="recipeInstructions">Cut <span data-default="750" data-defaultunit="g" data-quantity="750" data-unit="g" class="tooltip scalable">chicken</span> into bitesize chunks. Get two bowls. Fill one with cornflour, and crack two <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">eggs</span> in to the other. Whisk <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">eggs</span>. Dip <span data-default="750" data-defaultunit="g" data-quantity="750" data-unit="g" class="tooltip scalable">chicken</span> in flour, then <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">eggs</span>, then flour. Make sure it is coated. Do this with all your <span data-default="750" data-defaultunit="g" data-quantity="750" data-unit="g" class="tooltip scalable">chicken</span>.</li>
+                <li itemprop="recipeInstructions">Heat a large glug of vegetable oil in a wok (enough for the <span data-default="750" data-defaultunit="g" data-quantity="750" data-unit="g" class="tooltip scalable">chicken</span> to shallow fry. Add your <span data-default="750" data-defaultunit="g" data-quantity="750" data-unit="g" class="tooltip scalable">chicken</span> bits in batches. Fry until crispy, and then remove from the wok and set aside.</li>
                 <li itemprop="recipeInstructions">Get your rice on – cook according to pack instructions.</li>
                 <li itemprop="recipeInstructions">Wipe the excess oil out of the wok. Then add a tablespoon of sesame oil. Add a large grated knob of ginger and two grated cloves of garlic. Fry for <b>30</b> seconds, and then add <b>4</b> tablespoons of sweet chilli sauce, <b>4</b> tablespoons of soy sauce, <b>3</b> tablespoons of ketchup and a tablespoon and a half of rice wine vinegar. Mix everything together, and then add <b>100</b>ml of cornflour slurry. To make the slurry add a heaped teaspoon of cornflour to a glass, and pour in <b>100</b>ml of warm water. Mix until the cornflour is dissolved.</li>
-                <li itemprop="recipeInstructions">Mix everything together. Once it starts thickening, re-add you <span data-default="750" data-quantity="750" data-unit="g" class="tooltip scalable">chicken</span>. Coat it in the sticky sauce.</li>
-                <li itemprop="recipeInstructions">Serve the <span data-default="750" data-quantity="750" data-unit="g" class="tooltip scalable">chicken</span> on top of the hot rice, with chopped <span data-default="bunch" data-quantity="bunch" data-unit="" class="tooltip scalable">spring onions</span> and sesame seeds scattered on top. Enjoy!</li>
+                <li itemprop="recipeInstructions">Mix everything together. Once it starts thickening, re-add you <span data-default="750" data-defaultunit="g" data-quantity="750" data-unit="g" class="tooltip scalable">chicken</span>. Coat it in the sticky sauce.</li>
+                <li itemprop="recipeInstructions">Serve the <span data-default="750" data-defaultunit="g" data-quantity="750" data-unit="g" class="tooltip scalable">chicken</span> on top of the hot rice, with chopped <span data-default="bunch" data-defaultunit="" data-quantity="bunch" data-unit="" class="tooltip scalable">spring onions</span> and sesame seeds scattered on top. Enjoy!</li>
                 </ol>
 
             <hr>

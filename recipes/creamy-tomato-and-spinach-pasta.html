@@ -13,7 +13,7 @@
         <title>Creamy tomato and spinach pasta | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,51 +44,68 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> lb penne pasta</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="lb">lb</span> penne pasta</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> yellow onion</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> yellow onion</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> 15 oz can diced tomatoes</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="15 oz can">15 oz can</span> diced tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp dried oregano</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> dried oregano</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp dried basil</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> dried basil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> pinch crushed red pepper</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="pinch">pinch</span> crushed red pepper</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp salt</li>
-                    <li itemprop="recipeIngredient">freshly cracked black pepper to taste</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> salt</li>
+                    <li itemprop="recipeIngredient"> freshly cracked black pepper to taste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp tomato paste</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> tomato paste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> oz cream cheese</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="oz">oz</span> cream cheese</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> cup grated Parmesan</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit="cup">cup</span> grated Parmesan</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> oz fresh spinach</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="oz">oz</span> fresh spinach</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Bring a large pot of water to a boil over high heat. Add the <span data-default="0.5" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">pasta</span> and continue to boil until tender (<b>7-10</b> minutes). Drain the <span data-default="0.5" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">pasta</span> in a colander.</li>
-                <li itemprop="recipeInstructions">While the <span data-default="0.5" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">pasta</span> is cooking, prepare the creamy tomato sauce. Dice the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and mince the <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>. Add the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>, and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">olive oil</span> to a large skillet and saute over medium heat until the onions are soft and translucent (<b>3-5</b> minutes).</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="1" data-quantity="1" data-unit="15 oz can" class="tooltip scalable">diced tomatoes</span> (with juices), <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">oregano</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">basil</span>, <span data-default="1" data-quantity="1" data-unit="pinch" class="tooltip scalable">crushed red pepper</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">salt</span>, and some freshly cracked pepper to the skillet. Stir to combine. Add the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">tomato paste</span> and a <b>&frac12;</b> cup of water to the skillet and stir until the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">tomato paste</span> has mixed into the sauce.</li>
-                <li itemprop="recipeInstructions">Turn the heat down to low. Cut the <span data-default="2" data-quantity="2" data-unit="oz" class="tooltip scalable">cream cheese</span> into a few pieces and then add them to the skillet with the tomato sauce. Use a whisk to stir the sauce until the <span data-default="2" data-quantity="2" data-unit="oz" class="tooltip scalable">cream cheese</span> has fully melted and the sauce is creamy. Add the <span data-default="0.25" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">Parmesan</span> to the skillet and stir until it is melted into the sauce.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="4" data-quantity="4" data-unit="oz" class="tooltip scalable">fresh spinach</span> to the skillet and gently stir it into the sauce until it has wilted (<b>2-3</b> minutes). Add the <span data-default="0.5" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">pasta</span> and stir until it is well coated in the creamy tomato sauce. Taste and adjust the <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">salt</span> and pepper as needed. Serve warm.</li>
+                <li itemprop="recipeInstructions">Bring a large pot of water to a boil over high heat. Add the <span data-default="0.5" data-defaultunit="lb" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">pasta</span> and continue to boil until tender (<b>7-10</b> minutes). Drain the <span data-default="0.5" data-defaultunit="lb" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">pasta</span> in a colander.</li>
+                <li itemprop="recipeInstructions">While the <span data-default="0.5" data-defaultunit="lb" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">pasta</span> is cooking, prepare the creamy tomato sauce. Dice the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and mince the <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>. Add the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>, and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">olive oil</span> to a large skillet and saute over medium heat until the onions are soft and translucent (<b>3-5</b> minutes).</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="1" data-defaultunit="15 oz can" data-quantity="1" data-unit="15 oz can" class="tooltip scalable">diced tomatoes</span> (with juices), <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">oregano</span>, <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">basil</span>, <span data-default="1" data-defaultunit="pinch" data-quantity="1" data-unit="pinch" class="tooltip scalable">crushed red pepper</span>, <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">salt</span>, and some freshly cracked pepper to the skillet. Stir to combine. Add the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">tomato paste</span> and a <b>&frac12;</b> cup of water to the skillet and stir until the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">tomato paste</span> has mixed into the sauce.</li>
+                <li itemprop="recipeInstructions">Turn the heat down to low. Cut the <span data-default="2" data-defaultunit="oz" data-quantity="2" data-unit="oz" class="tooltip scalable">cream cheese</span> into a few pieces and then add them to the skillet with the tomato sauce. Use a whisk to stir the sauce until the <span data-default="2" data-defaultunit="oz" data-quantity="2" data-unit="oz" class="tooltip scalable">cream cheese</span> has fully melted and the sauce is creamy. Add the <span data-default="0.25" data-defaultunit="cup" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">Parmesan</span> to the skillet and stir until it is melted into the sauce.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="4" data-defaultunit="oz" data-quantity="4" data-unit="oz" class="tooltip scalable">fresh spinach</span> to the skillet and gently stir it into the sauce until it has wilted (<b>2-3</b> minutes). Add the <span data-default="0.5" data-defaultunit="lb" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">pasta</span> and stir until it is well coated in the creamy tomato sauce. Taste and adjust the <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">salt</span> and pepper as needed. Serve warm.</li>
                 </ol>
 
             <hr>

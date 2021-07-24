@@ -13,7 +13,7 @@
         <title>Bean & sausage hotpot | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,46 +47,60 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="8" class="scalable">8</span> large sausages, course-cut ones like Toulouse or Cumberland are ideal</li>
+                        <span data-default="8" class="scalable">8</span>
+                        <span data-unit="large">large</span> sausages, course-cut ones like Toulouse or Cumberland are ideal</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span>x 400 g cans butter beans, beans</li>
+                        <span data-default="3" class="scalable">3</span>x <span data-unit="400 g cans">400 g cans</span> butter beans, beans</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp black treacle or muscovado sugar</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> black treacle or muscovado sugar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp English mustard</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> English mustard</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp olive oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> onion, finely chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> onion, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> carrots, finely chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> carrots, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> celery sticks, finely chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> celery sticks, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> clove garlic, crushed</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="clove">clove</span> garlic, crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> bay leaves</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> bay leaves</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp sugar</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> sugar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span>x 400 g cans chopped tomatoes</li>
+                        <span data-default="2" class="scalable">2</span>x <span data-unit="400 g cans">400 g cans</span> chopped tomatoes</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a pan and add the sauce vegetables and <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">bay leaves</span>. Stir in the <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">sugar</span> with some salt. Gently cook for <b>10-15</b> mins until the veg is tender. Stir in the <span data-default="2x" data-quantity="2x" data-unit="400 g cans" class="tooltip scalable">tomatoes</span> and <b>150</b> ml water. Simmer very gently for <b>30</b> mins until the sauce has reduced by two-thirds and is very thick.</li>
-                <li itemprop="recipeInstructions">In a large casserole, fry the <span data-default="8" data-quantity="8" data-unit="large" class="tooltip scalable">sausages</span> until brown all over - about <b>10</b> mins.</li>
-                <li itemprop="recipeInstructions">Add the tomato sauce, stirring well, then stir in the beans, <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">treacle</span> or <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">sugar</span> and <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">mustard</span>. Bring to the simmer, cover and cook for <b>30</b> mins. Great served with crusty bread or rice.</li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a pan and add the sauce vegetables and <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">bay leaves</span>. Stir in the <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">sugar</span> with some salt. Gently cook for <b>10-15</b> mins until the veg is tender. Stir in the <span data-default="2x" data-defaultunit="400 g cans" data-quantity="2x" data-unit="400 g cans" class="tooltip scalable">tomatoes</span> and <b>150</b> ml water. Simmer very gently for <b>30</b> mins until the sauce has reduced by two-thirds and is very thick.</li>
+                <li itemprop="recipeInstructions">In a large casserole, fry the <span data-default="8" data-defaultunit="large" data-quantity="8" data-unit="large" class="tooltip scalable">sausages</span> until brown all over - about <b>10</b> mins.</li>
+                <li itemprop="recipeInstructions">Add the tomato sauce, stirring well, then stir in the beans, <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">treacle</span> or <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">sugar</span> and <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">mustard</span>. Bring to the simmer, cover and cook for <b>30</b> mins. Great served with crusty bread or rice.</li>
                 </ol>
 
             <hr>

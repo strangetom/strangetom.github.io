@@ -13,7 +13,7 @@
         <title>Beef & lentil cottage pie with cauliflower & potato topping | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Beef" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,48 +47,64 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g minced beef</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="g">g</span> minced beef</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large carrot, coarsely grated</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> carrot, coarsely grated</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp tomato purée</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> tomato purée</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g red lentils</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> red lentils</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="600" class="scalable">600</span> ml beef stock</li>
+                        <span data-default="600" class="scalable">600</span>
+                        <span data-unit="ml">ml</span> beef stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="140" class="scalable">140</span> g frozen peas</li>
+                        <span data-default="140" class="scalable">140</span>
+                        <span data-unit="g">g</span> frozen peas</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.25" class="scalable">1¼</span> kg potatoes, cubed</li>
+                        <span data-default="1.25" class="scalable">1¼</span>
+                        <span data-unit="kg">kg</span> potatoes, cubed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large cauliflower (about 400 g), cut into florets</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> cauliflower (about 400 g), cut into florets</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="150" class="scalable">150</span> ml milk</li>
+                        <span data-default="150" class="scalable">150</span>
+                        <span data-unit="ml">ml</span> milk</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> g butter</li>
+                        <span data-default="50" class="scalable">50</span>
+                        <span data-unit="g">g</span> butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> g mature cheddar, grated</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="g">g</span> mature cheddar, grated</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat oven to <b>180</b>&deg;C/Gas <b>4</b>. Heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large pan and add the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">minced beef</span>. Cook for <b>5</b> mins until browned all over, then add the <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">carrot</span> and cook for <b>2</b> mins more.</li>
-                <li itemprop="recipeInstructions">Stir in the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">tomato purée</span> and add seasoning. Cook for a few mins, then add the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">lentils</span> and <span data-default="600" data-quantity="600" data-unit="ml" class="tooltip scalable">stock</span>. Simmer for <b>20</b> mins, then stir in the <span data-default="140" data-quantity="140" data-unit="g" class="tooltip scalable">peas</span>.</li>
-                <li itemprop="recipeInstructions">Meanwhile, bring a pan of water to the boil and add the <span data-default="1.25" data-quantity="1&frac14;" data-unit="kg" class="tooltip scalable">potatoes</span>. Simmer for <b>15</b> mins, then add the <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">cauliflower</span> and simmer for a further <b>10</b> mins until the veg is tender.</li>
-                <li itemprop="recipeInstructions">Drain, then return the veg to the pan for a few mins to dry out. add the <span data-default="150" data-quantity="150" data-unit="ml" class="tooltip scalable">milk</span>, <span data-default="50" data-quantity="50" data-unit="g" class="tooltip scalable">butter</span> and seasoning, and mash together. Finally, add the <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">cheese</span>, reserving a handful, and mix well.</li>
-                <li itemprop="recipeInstructions">Spoon the mince into a large roasting dish, about <b>30</b> x <b>20</b> cm, and spoon the mash over the top. Sprinkle with <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">cheese</span> and bake until golden, about <b>30</b> mins.</li>
+                <li itemprop="recipeInstructions">Heat oven to <b>180</b>&deg;C/Gas <b>4</b>. Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large pan and add the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">minced beef</span>. Cook for <b>5</b> mins until browned all over, then add the <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">carrot</span> and cook for <b>2</b> mins more.</li>
+                <li itemprop="recipeInstructions">Stir in the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">tomato purée</span> and add seasoning. Cook for a few mins, then add the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">lentils</span> and <span data-default="600" data-defaultunit="ml" data-quantity="600" data-unit="ml" class="tooltip scalable">stock</span>. Simmer for <b>20</b> mins, then stir in the <span data-default="140" data-defaultunit="g" data-quantity="140" data-unit="g" class="tooltip scalable">peas</span>.</li>
+                <li itemprop="recipeInstructions">Meanwhile, bring a pan of water to the boil and add the <span data-default="1.25" data-defaultunit="kg" data-quantity="1&frac14;" data-unit="kg" class="tooltip scalable">potatoes</span>. Simmer for <b>15</b> mins, then add the <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">cauliflower</span> and simmer for a further <b>10</b> mins until the veg is tender.</li>
+                <li itemprop="recipeInstructions">Drain, then return the veg to the pan for a few mins to dry out. add the <span data-default="150" data-defaultunit="ml" data-quantity="150" data-unit="ml" class="tooltip scalable">milk</span>, <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">butter</span> and seasoning, and mash together. Finally, add the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">cheese</span>, reserving a handful, and mix well.</li>
+                <li itemprop="recipeInstructions">Spoon the mince into a large roasting dish, about <b>30</b> x <b>20</b> cm, and spoon the mash over the top. Sprinkle with <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">cheese</span> and bake until golden, about <b>30</b> mins.</li>
                 </ol>
 
             <hr>

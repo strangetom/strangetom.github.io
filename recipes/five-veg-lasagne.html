@@ -13,7 +13,7 @@
         <title>Five-veg lasagne | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -48,41 +48,54 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tbsp olive oil</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> aubergine, cut into small chunks</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> aubergine, cut into small chunks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="150" class="scalable">150</span> g mushroom, chopped</li>
+                        <span data-default="150" class="scalable">150</span>
+                        <span data-unit="g">g</span> mushroom, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> roasted red peppers, chopped</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> roasted red peppers, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="700" class="scalable">700</span> g passata with onions and garlic</li>
+                        <span data-default="700" class="scalable">700</span>
+                        <span data-unit="g">g</span> passata with onions and garlic</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="8-10" class="scalable">8-10</span> lasagne sheets</li>
+                        <span data-default="8-10" class="scalable">8-10</span>
+                        <span data-unit=""></span> lasagne sheets</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g frozen spinach, defrosted</li>
+                        <span data-default="400" class="scalable">400</span>
+                        <span data-unit="g">g</span> frozen spinach, defrosted</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g tub ricotta</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="250 g tub">250 g tub</span> ricotta</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="25" class="scalable">25</span> g grated Parmesan (or vegetarian alternative)</li>
+                        <span data-default="25" class="scalable">25</span>
+                        <span data-unit="g">g</span> grated Parmesan (or vegetarian alternative)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="25" class="scalable">25</span> g pine nuts</li>
+                        <span data-default="25" class="scalable">25</span>
+                        <span data-unit="g">g</span> pine nuts</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat oven to <b>160</b>&deg;C/Gas <b>4</b>. Heat <b>2</b> tbsp <span data-default="4" data-quantity="4" data-unit="tbsp" class="tooltip scalable">olive oil</span> in a large, non-stick frying pan. Fry the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">aubergine</span> for <b>5</b> mins until softened, then tip into a bowl. Fry the mushrooms in the remaining oil for a few mins until golden, then mix with the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">aubergine</span> and <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">peppers</span>. Spoon half of the veg into a <b>20</b> x <b>30</b> cm baking dish. Spoon over half the <span data-default="700" data-quantity="700" data-unit="g" class="tooltip scalable">passata</span>, then arrange a layer of <span data-default="8-10" data-quantity="8-10" data-unit="" class="tooltip scalable">lasagne sheets</span> on top.  </li>
-                <li itemprop="recipeInstructions">Spread the rest of the veg over the pasta, cover with <span data-default="700" data-quantity="700" data-unit="g" class="tooltip scalable">passata</span> and another layer of pasta. Drain any excess liquid from the spinach and mix together with the <span data-default="250" data-quantity="250" data-unit="g tub" class="tooltip scalable">ricotta</span> and half the <span data-default="25" data-quantity="25" data-unit="g" class="tooltip scalable">Parmesan</span>. Spoon over the top of the pasta, then sprinkle with the remaining <span data-default="25" data-quantity="25" data-unit="g" class="tooltip scalable">Parmesan</span> and <span data-default="25" data-quantity="25" data-unit="g" class="tooltip scalable">pine nuts</span>. Cover with foil, bake for <b>20</b> mins, uncover, then bake for another <b>10</b> mins until browned. Serve with a crisp green salad.  </li>
+                <li itemprop="recipeInstructions">Heat oven to <b>160</b>&deg;C/Gas <b>4</b>. Heat <b>2</b> tbsp <span data-default="4" data-defaultunit="tbsp" data-quantity="4" data-unit="tbsp" class="tooltip scalable">olive oil</span> in a large, non-stick frying pan. Fry the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">aubergine</span> for <b>5</b> mins until softened, then tip into a bowl. Fry the mushrooms in the remaining oil for a few mins until golden, then mix with the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">aubergine</span> and <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">peppers</span>. Spoon half of the veg into a <b>20</b> x <b>30</b> cm baking dish. Spoon over half the <span data-default="700" data-defaultunit="g" data-quantity="700" data-unit="g" class="tooltip scalable">passata</span>, then arrange a layer of <span data-default="8-10" data-defaultunit="" data-quantity="8-10" data-unit="" class="tooltip scalable">lasagne sheets</span> on top.  </li>
+                <li itemprop="recipeInstructions">Spread the rest of the veg over the pasta, cover with <span data-default="700" data-defaultunit="g" data-quantity="700" data-unit="g" class="tooltip scalable">passata</span> and another layer of pasta. Drain any excess liquid from the spinach and mix together with the <span data-default="1x" data-defaultunit="250 g tub" data-quantity="1x" data-unit="250 g tub" class="tooltip scalable">ricotta</span> and half the <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">Parmesan</span>. Spoon over the top of the pasta, then sprinkle with the remaining <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">Parmesan</span> and <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">pine nuts</span>. Cover with foil, bake for <b>20</b> mins, uncover, then bake for another <b>10</b> mins until browned. Serve with a crisp green salad.  </li>
                 </ol>
 
             <hr>

@@ -13,7 +13,7 @@
         <title>Lamb kheema with naan bread | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Lamb" itemscope itemtype="https://schema.org/Recipe">
 
@@ -48,52 +48,70 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> onion, sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> onion, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp freshly grated ginger</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> freshly grated ginger</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp fennel seeds</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> fennel seeds</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp cumin seeds</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> cumin seeds</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp turmeric</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> turmeric</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g minced lamb</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="g">g</span> minced lamb</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> small sweet potatoes, peeled and cut into 2 cm chunks</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="small">small</span> sweet potatoes, peeled and cut into 2 cm chunks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tomatoes, chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> tomatoes, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> mug water + lamb stock cube</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="mug">mug</span> water + lamb stock cube</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> bay leaves</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit=""></span> bay leaves</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> mug frozen peas, defrosted</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="mug">mug</span> frozen peas, defrosted</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> fresh chilli, chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> fresh chilli, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp freshly chopped mint</li>
-                    <li itemprop="recipeIngredient">naan breads</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> freshly chopped mint</li>
+                    <li itemprop="recipeIngredient"> naan breads</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a wok or saucepan. Add the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and spices and fry for <b>1</b> minute.  </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">mince</span> and fry until it is no longer pink.  </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="2" data-quantity="2" data-unit="small" class="tooltip scalable">sweet potatoes</span>, <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">tomatoes</span>, <span data-default="1" data-quantity="1" data-unit="mug" class="tooltip scalable">water</span>, stock and <span data-default="3" data-quantity="3" data-unit="" class="tooltip scalable">bay leaves</span>. Bring to the boil and then turn down and simmer for <b>20</b> minutes. Stir occasionally.  </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="1" data-quantity="1" data-unit="mug" class="tooltip scalable">peas</span>, <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">chilli</span> and <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">mint</span> and heat through.  </li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a wok or saucepan. Add the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and spices and fry for <b>1</b> minute.  </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">mince</span> and fry until it is no longer pink.  </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="2" data-defaultunit="small" data-quantity="2" data-unit="small" class="tooltip scalable">sweet potatoes</span>, <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">tomatoes</span>, <span data-default="1" data-defaultunit="mug" data-quantity="1" data-unit="mug" class="tooltip scalable">water</span>, stock and <span data-default="3" data-defaultunit="" data-quantity="3" data-unit="" class="tooltip scalable">bay leaves</span>. Bring to the boil and then turn down and simmer for <b>20</b> minutes. Stir occasionally.  </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="1" data-defaultunit="mug" data-quantity="1" data-unit="mug" class="tooltip scalable">peas</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">chilli</span> and <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">mint</span> and heat through.  </li>
                 <li itemprop="recipeInstructions">Serve with naan breads.</li>
                 </ol>
 

@@ -13,7 +13,7 @@
         <title>Balsamic chicken with creamy mash | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,60 +44,77 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <details open>
                     <summary class="ingredient-subheading">Mash</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="5" class="scalable">5</span> medium potatoes, peeled and cut into 2 cm cubes</li>
+                            <span data-default="5" class="scalable">5</span>
+                            <span data-unit="medium">medium</span> potatoes, peeled and cut into 2 cm cubes</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="25" class="scalable">25</span> g butter</li>
+                            <span data-default="25" class="scalable">25</span>
+                            <span data-unit="g">g</span> butter</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tbsp double cream</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tbsp">tbsp</span> double cream</li>
                     </ul>
                 </details>
                 <details open>
                     <summary class="ingredient-subheading">Balsamic sauce</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="25" class="scalable">25</span> g butter</li>
+                            <span data-default="25" class="scalable">25</span>
+                            <span data-unit="g">g</span> butter</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> olive oil</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> red onions, sliced</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit=""></span> red onions, sliced</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> sprig fresh rosemary leaves, chopped</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="sprig">sprig</span> fresh rosemary leaves, chopped</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="6" class="scalable">6</span> tbsp balsamic vinegar</li>
+                            <span data-default="6" class="scalable">6</span>
+                            <span data-unit="tbsp">tbsp</span> balsamic vinegar</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tbsp runny honey</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tbsp">tbsp</span> runny honey</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> mug water</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit="mug">mug</span> water</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> chicken stock cube</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit=""></span> chicken stock cube</li>
                     </ul>
                 </details>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> chicken breasts</li>
-                    <li itemprop="recipeIngredient">sprouting broccoli</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> chicken breasts</li>
+                    <li itemprop="recipeIngredient"> sprouting broccoli</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Put the <span data-default="5" data-quantity="5" data-unit="medium" class="tooltip scalable">potatoes</span> in boiling <span data-default="0.5" data-quantity="&frac12;" data-unit="mug" class="tooltip scalable">water</span>, bring to the boil and then turn down to simmer for <b>10</b> minutes. Drain, return to the pan and mash with the <b>25</b> g <span data-default="25" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span> and <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">cream</span>. Season well.  </li>
-                <li itemprop="recipeInstructions">Meanwhile, heat the <span data-default="25" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span> in a saucepan and fry the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">onions</span> until they begin to brown. Add the <span data-default="1" data-quantity="1" data-unit="sprig" class="tooltip scalable">rosemary</span>, <span data-default="6" data-quantity="6" data-unit="tbsp" class="tooltip scalable">balsamic vinegar</span>, <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">honey</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="mug" class="tooltip scalable">water</span> and <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">stock cube</span>. Season well, bring to the boil and simmer for <b>10</b> minutes.  </li>
-                <li itemprop="recipeInstructions">Heat <b>1</b> tbsp of <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">olive oil</span> in a small frying pan and add the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">chicken breasts</span>. Cook on a fairly high heat for <b>2</b> minutes on each side. Turn down the heat to medium and fry for <b>4</b> minutes on each side, with a lid on the pan. Cook for less time if the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">chicken breasts</span> are small.  </li>
-                <li itemprop="recipeInstructions">Put the sprouting broccoli in boiling <span data-default="0.5" data-quantity="&frac12;" data-unit="mug" class="tooltip scalable">water</span> and then turn down to simmer for <b>4-5</b> minutes.  </li>
+                <li itemprop="recipeInstructions">Put the <span data-default="5" data-defaultunit="medium" data-quantity="5" data-unit="medium" class="tooltip scalable">potatoes</span> in boiling <span data-default="0.5" data-defaultunit="mug" data-quantity="&frac12;" data-unit="mug" class="tooltip scalable">water</span>, bring to the boil and then turn down to simmer for <b>10</b> minutes. Drain, return to the pan and mash with the <b>25</b> g <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span> and <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">cream</span>. Season well.  </li>
+                <li itemprop="recipeInstructions">Meanwhile, heat the <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span> in a saucepan and fry the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">onions</span> until they begin to brown. Add the <span data-default="1" data-defaultunit="sprig" data-quantity="1" data-unit="sprig" class="tooltip scalable">rosemary</span>, <span data-default="6" data-defaultunit="tbsp" data-quantity="6" data-unit="tbsp" class="tooltip scalable">balsamic vinegar</span>, <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">honey</span>, <span data-default="0.5" data-defaultunit="mug" data-quantity="&frac12;" data-unit="mug" class="tooltip scalable">water</span> and <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">stock cube</span>. Season well, bring to the boil and simmer for <b>10</b> minutes.  </li>
+                <li itemprop="recipeInstructions">Heat <b>1</b> tbsp of <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">olive oil</span> in a small frying pan and add the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">chicken breasts</span>. Cook on a fairly high heat for <b>2</b> minutes on each side. Turn down the heat to medium and fry for <b>4</b> minutes on each side, with a lid on the pan. Cook for less time if the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">chicken breasts</span> are small.  </li>
+                <li itemprop="recipeInstructions">Put the sprouting broccoli in boiling <span data-default="0.5" data-defaultunit="mug" data-quantity="&frac12;" data-unit="mug" class="tooltip scalable">water</span> and then turn down to simmer for <b>4-5</b> minutes.  </li>
                 <li itemprop="recipeInstructions">Serve everything together.</li>
                 </ol>
 

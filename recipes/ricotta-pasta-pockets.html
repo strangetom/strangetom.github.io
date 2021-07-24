@@ -13,7 +13,7 @@
         <title>Ricotta pasta pockets | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,34 +44,40 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g pack fresh lasagne sheets</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="250 g pack">250 g pack</span> fresh lasagne sheets</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g carton ricotta cheese</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="250 g carton">250 g carton</span> ricotta cheese</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> g bag rocket</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="50 g bag">50 g bag</span> rocket</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span>x 350 g jars tomato and chargrilled vegetable sauce or similar</li>
+                        <span data-default="2" class="scalable">2</span>x <span data-unit="350 g jars">350 g jars</span> tomato and chargrilled vegetable sauce or similar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> g mature vegetarian cheddar cheese, grated</li>
+                        <span data-default="50" class="scalable">50</span>
+                        <span data-unit="g">g</span> mature vegetarian cheddar cheese, grated</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Put the <span data-default="250" data-quantity="250" data-unit="g pack" class="tooltip scalable">lasagne sheets</span> in a large bowl, and pour over boiling water to cover. Leave to soak for <b>5</b> minutes. Meanwhile, preheat the oven to <b>180</b>&deg;C/Gas <b>6</b> and lightly <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> a shallow baking tray.</li>
-                <li itemprop="recipeInstructions">Drain the lasagne in a colander. Take on sheet and put a large spoonful of <span data-default="250" data-quantity="250" data-unit="g carton" class="tooltip scalable">ricotta</span> in the centre. Scatter over a few <span data-default="50" data-quantity="50" data-unit="g bag" class="tooltip scalable">rocket</span> leaves, then fold the sheet in half and press the edges together to form a pocket. Continue to fill all pasta sheets, then lay them on the baking tray so they overlap slightly.</li>
-                <li itemprop="recipeInstructions">Cover the pasta pockets with the <span data-default="2x" data-quantity="2x" data-unit="350 g jars" class="tooltip scalable">sauce</span>, sprinkle over the <span data-default="50" data-quantity="50" data-unit="g" class="tooltip scalable">cheese</span> and bake for <b>10-12</b> minutes until hot and bubbly.</li>
+                <li itemprop="recipeInstructions">Put the <span data-default="1x" data-defaultunit="250 g pack" data-quantity="1x" data-unit="250 g pack" class="tooltip scalable">lasagne sheets</span> in a large bowl, and pour over boiling water to cover. Leave to soak for <b>5</b> minutes. Meanwhile, preheat the oven to <b>180</b>&deg;C/Gas <b>6</b> and lightly <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> a shallow baking tray.</li>
+                <li itemprop="recipeInstructions">Drain the lasagne in a colander. Take on sheet and put a large spoonful of <span data-default="1x" data-defaultunit="250 g carton" data-quantity="1x" data-unit="250 g carton" class="tooltip scalable">ricotta</span> in the centre. Scatter over a few <span data-default="1x" data-defaultunit="50 g bag" data-quantity="1x" data-unit="50 g bag" class="tooltip scalable">rocket</span> leaves, then fold the sheet in half and press the edges together to form a pocket. Continue to fill all pasta sheets, then lay them on the baking tray so they overlap slightly.</li>
+                <li itemprop="recipeInstructions">Cover the pasta pockets with the <span data-default="2x" data-defaultunit="350 g jars" data-quantity="2x" data-unit="350 g jars" class="tooltip scalable">sauce</span>, sprinkle over the <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">cheese</span> and bake for <b>10-12</b> minutes until hot and bubbly.</li>
                 </ol>
 
             <hr>

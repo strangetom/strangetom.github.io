@@ -13,7 +13,7 @@
         <title>Leek and tarragon rigatoni | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -45,41 +45,54 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> mugs rigatoni</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="mugs">mugs</span> rigatoni</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> g butter</li>
+                        <span data-default="50" class="scalable">50</span>
+                        <span data-unit="g">g</span> butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> large leeks, chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="large">large</span> leeks, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g chestnut mushrooms</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="g">g</span> chestnut mushrooms</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp dried tarragon</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> dried tarragon</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="300" class="scalable">300</span> ml single cream</li>
+                        <span data-default="300" class="scalable">300</span>
+                        <span data-unit="ml">ml</span> single cream</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> veg stock cube</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> veg stock cube</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> mug grated parmesan</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit="mug">mug</span> grated parmesan</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Put the <span data-default="2" data-quantity="2" data-unit="mugs" class="tooltip scalable">pasta</span> on to cook. Once cooked, drain and return to the pan, with a drizzle of olive <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span>, until needed.   </li>
-                <li itemprop="recipeInstructions">Meanwhile, heat the <span data-default="50" data-quantity="50" data-unit="g" class="tooltip scalable">butter</span> and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a wok. Fry the <span data-default="2" data-quantity="2" data-unit="large" class="tooltip scalable">leeks</span> until soft and beginning to broken. Add the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">mushrooms</span> and fry for a further <b>2</b> minutes.   </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">tarragon</span>, <span data-default="300" data-quantity="300" data-unit="ml" class="tooltip scalable">cream</span>, <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">stock</span> and cook for <b>2</b> minutes. Season to taste.   </li>
-                <li itemprop="recipeInstructions">Stir in the <span data-default="2" data-quantity="2" data-unit="mugs" class="tooltip scalable">pasta</span> and the <span data-default="0.25" data-quantity="&frac14;" data-unit="mug" class="tooltip scalable">parmesan</span>. </li>
+                <li itemprop="recipeInstructions">Put the <span data-default="2" data-defaultunit="mugs" data-quantity="2" data-unit="mugs" class="tooltip scalable">pasta</span> on to cook. Once cooked, drain and return to the pan, with a drizzle of olive <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span>, until needed.   </li>
+                <li itemprop="recipeInstructions">Meanwhile, heat the <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">butter</span> and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a wok. Fry the <span data-default="2" data-defaultunit="large" data-quantity="2" data-unit="large" class="tooltip scalable">leeks</span> until soft and beginning to broken. Add the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">mushrooms</span> and fry for a further <b>2</b> minutes.   </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">tarragon</span>, <span data-default="300" data-defaultunit="ml" data-quantity="300" data-unit="ml" class="tooltip scalable">cream</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">stock</span> and cook for <b>2</b> minutes. Season to taste.   </li>
+                <li itemprop="recipeInstructions">Stir in the <span data-default="2" data-defaultunit="mugs" data-quantity="2" data-unit="mugs" class="tooltip scalable">pasta</span> and the <span data-default="0.25" data-defaultunit="mug" data-quantity="&frac14;" data-unit="mug" class="tooltip scalable">parmesan</span>. </li>
                 </ol>
 
             <hr>

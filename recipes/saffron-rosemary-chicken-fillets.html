@@ -13,7 +13,7 @@
         <title>Saffron & rosemary chicken fillets | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,34 +47,43 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> good pinches saffron threads</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="good pinches">good pinches</span> saffron threads</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp boiling water</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> boiling water</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="600" class="scalable">600</span> g mini chicken fillets (or use boneless skinless chicken breasts), cut into thick strips</li>
+                        <span data-default="600" class="scalable">600</span>
+                        <span data-unit="g">g</span> mini chicken fillets (or use boneless skinless chicken breasts), cut into thick strips</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="40" class="scalable">40</span> g rosemary, leaves picked and very finely chopped</li>
+                        <span data-default="40" class="scalable">40</span>
+                        <span data-unit="g">g</span> rosemary, leaves picked and very finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp garlic oil</li>
-                    <li itemprop="recipeIngredient">sea salt flakes and freshly ground black pepper</li>
-                    <li itemprop="recipeIngredient">vegetable oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> garlic oil</li>
+                    <li itemprop="recipeIngredient"> sea salt flakes and freshly ground black pepper</li>
+                    <li itemprop="recipeIngredient"> vegetable oil</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Grind the <span data-default="2" data-quantity="2" data-unit="good pinches" class="tooltip scalable">saffron</span> with a pestle and mortar, then pour over the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">boiling water</span> and leave to infuse for at least <b>20</b> minutes until the water has cooled and turned deep red colour.</li>
-                <li itemprop="recipeInstructions">Place the <span data-default="600" data-quantity="600" data-unit="g" class="tooltip scalable">chicken fillets</span> in a bowl and add the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">garlic oil</span>, finely chopped <span data-default="40" data-quantity="40" data-unit="g" class="tooltip scalable">rosemary</span>, a generous seasoning of salt flakes and black pepper and then the <span data-default="2" data-quantity="2" data-unit="good pinches" class="tooltip scalable">saffron</span> water. Mix well so that the chicken is evenly coated with the marinade, cover the bowl with clingfilm and leave in the refrigerator to marinate for <b>1</b> hour or so.</li>
-                <li itemprop="recipeInstructions">Preheat a large frying pan over a medium-high heat, drizzle a little oil into the pan and, without overcrowding the pan, fry the <span data-default="600" data-quantity="600" data-unit="g" class="tooltip scalable">chicken fillets</span> for <b>3-4</b> minutes on each side until a nice golden-brown crust forms and they are cooked through.</li>
+                <li itemprop="recipeInstructions">Grind the <span data-default="2" data-defaultunit="good pinches" data-quantity="2" data-unit="good pinches" class="tooltip scalable">saffron</span> with a pestle and mortar, then pour over the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">boiling water</span> and leave to infuse for at least <b>20</b> minutes until the water has cooled and turned deep red colour.</li>
+                <li itemprop="recipeInstructions">Place the <span data-default="600" data-defaultunit="g" data-quantity="600" data-unit="g" class="tooltip scalable">chicken fillets</span> in a bowl and add the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">garlic oil</span>, finely chopped <span data-default="40" data-defaultunit="g" data-quantity="40" data-unit="g" class="tooltip scalable">rosemary</span>, a generous seasoning of salt flakes and black pepper and then the <span data-default="2" data-defaultunit="good pinches" data-quantity="2" data-unit="good pinches" class="tooltip scalable">saffron</span> water. Mix well so that the chicken is evenly coated with the marinade, cover the bowl with clingfilm and leave in the refrigerator to marinate for <b>1</b> hour or so.</li>
+                <li itemprop="recipeInstructions">Preheat a large frying pan over a medium-high heat, drizzle a little oil into the pan and, without overcrowding the pan, fry the <span data-default="600" data-defaultunit="g" data-quantity="600" data-unit="g" class="tooltip scalable">chicken fillets</span> for <b>3-4</b> minutes on each side until a nice golden-brown crust forms and they are cooked through.</li>
                 </ol>
 
             <hr>

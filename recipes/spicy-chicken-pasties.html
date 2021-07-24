@@ -13,7 +13,7 @@
         <title>Spicy chicken pasties | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,48 +43,65 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <details open>
                     <summary class="ingredient-subheading">For the pastry</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="225" class="scalable">225</span> g plain flour</li>
+                            <span data-default="225" class="scalable">225</span>
+                            <span data-unit="g">g</span> plain flour</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="good pinch" class="scalable">good pinch</span> of salt</li>
+                            <span data-default="good pinch" class="scalable">good pinch</span>
+                            <span data-unit=""></span> of salt</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> tsp ground turmeric</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit="tsp">tsp</span> ground turmeric</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="125" class="scalable">125</span> g unsalted butter, chilled and diced</li>
+                            <span data-default="125" class="scalable">125</span>
+                            <span data-unit="g">g</span> unsalted butter, chilled and diced</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="4 tbsp" class="scalable">4 tbsp</span> icy water</li>
+                            <span data-default="4 tbsp" class="scalable">4 tbsp</span>
+                            <span data-unit=""></span> icy water</li>
                     </ul>
                 </details>
                 <details open>
                     <summary class="ingredient-subheading">For the filling</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="175" class="scalable">175</span> g skinless boneless chicken breast, cut into 1.5 cm cubes</li>
+                            <span data-default="175" class="scalable">175</span>
+                            <span data-unit="g">g</span> skinless boneless chicken breast, cut into 1.5 cm cubes</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="3" class="scalable">3</span> tbsp natural yoghurt</li>
+                            <span data-default="3" class="scalable">3</span>
+                            <span data-unit="tbsp">tbsp</span> natural yoghurt</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> cloves garlic, crushed</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="cloves">cloves</span> garlic, crushed</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> cm piece root ginger, peeled and grated</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="cm">cm</span> piece root ginger, peeled and grated</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.25" class="scalable">¼</span> tsp cayenne pepper</li>
+                            <span data-default="0.25" class="scalable">¼</span>
+                            <span data-unit="tsp">tsp</span> cayenne pepper</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.25" class="scalable">¼</span> tsp ground cumin</li>
+                            <span data-default="0.25" class="scalable">¼</span>
+                            <span data-unit="tsp">tsp</span> ground cumin</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.25" class="scalable">¼</span> tsp ground coriander</li>
-                        <li itemprop="recipeIngredient">good pinch of salt</li>
+                            <span data-default="0.25" class="scalable">¼</span>
+                            <span data-unit="tsp">tsp</span> ground coriander</li>
+                        <li itemprop="recipeIngredient"> good pinch of salt</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tbsp mango chutney</li>
-                        <li itemprop="recipeIngredient">beaten egg, to glaze</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tbsp">tbsp</span> mango chutney</li>
+                        <li itemprop="recipeIngredient"> beaten egg, to glaze</li>
                     </ul>
                 </details>
             </div>
@@ -92,12 +109,12 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">To make the pastry, sift the <span data-default="225" data-quantity="225" data-unit="g" class="tooltip scalable">flour</span>, <span data-default="good pinch" data-quantity="good pinch" data-unit="" class="tooltip scalable">salt</span> and <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">turmeric</span> into a mixing bowl. Add the diced <span data-default="125" data-quantity="125" data-unit="g" class="tooltip scalable">butter</span> and rub into the <span data-default="225" data-quantity="225" data-unit="g" class="tooltip scalable">flour</span> using the tips of your fingers until the mixture looks line fine crumbs.</li>
+                <li itemprop="recipeInstructions">To make the pastry, sift the <span data-default="225" data-defaultunit="g" data-quantity="225" data-unit="g" class="tooltip scalable">flour</span>, <span data-default="good pinch" data-defaultunit="" data-quantity="good pinch" data-unit="" class="tooltip scalable">salt</span> and <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">turmeric</span> into a mixing bowl. Add the diced <span data-default="125" data-defaultunit="g" data-quantity="125" data-unit="g" class="tooltip scalable">butter</span> and rub into the <span data-default="225" data-defaultunit="g" data-quantity="225" data-unit="g" class="tooltip scalable">flour</span> using the tips of your fingers until the mixture looks line fine crumbs.</li>
                 <li itemprop="recipeInstructions">Using a round-bladed knife, gradually stir in enough cold water to be the mixture together to form a ball of soft but not sticky dough. Wrap in clingfilm and keep chilled until needed.</li>
-                <li itemprop="recipeInstructions">To make the filling, combine the <span data-default="175" data-quantity="175" data-unit="g" class="tooltip scalable">chicken</span>, <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">yoghurt</span>, <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="2" data-quantity="2" data-unit="cm" class="tooltip scalable">ginger</span>, <span data-default="0.25" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">cayenne</span>, <span data-default="0.25" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">cumin</span>, <span data-default="0.25" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">coriander</span> and <span data-default="good pinch" data-quantity="good pinch" data-unit="" class="tooltip scalable">salt</span> in a bowl. Mix thoroughly. If you have the time cover and marinate for a couple of hours in the fridge.</li>
-                <li itemprop="recipeInstructions">Preheat the grill to its hottest setting and line the grill pan with oiled foil. Spoon the <span data-default="175" data-quantity="175" data-unit="g" class="tooltip scalable">chicken</span> mixture onto the foil and spread evenly in one layer. Grill for <b>5</b> to <b>6</b> minutes or until the <span data-default="175" data-quantity="175" data-unit="g" class="tooltip scalable">chicken</span> is just firm and starting to colour. Remove the grill pan from the heat and leave to cool.</li>
-                <li itemprop="recipeInstructions">Preheat the oven to <b>180</b>&deg;C/Gas <b>4</b>. Roll out the pastry on a lightly floured worktop to a <b>24</b> x <b>36</b> cm rectangle. Cut out <b>6</b> <b>12</b> cm rounds with a cutter, or by cutting around the saucer. Divide the <span data-default="175" data-quantity="175" data-unit="g" class="tooltip scalable">chicken</span> mixture into <b>6</b> equal portions, draining off any watery liquid that has collected. Spoon a portion of <span data-default="175" data-quantity="175" data-unit="g" class="tooltip scalable">chicken</span> onto one half of each pastry round, leaving a <b>1</b> cm border clear.</li>
-                <li itemprop="recipeInstructions">Top each with a teaspoonful of <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">mango chutney</span>. Dampen the pastry edges with beaten egg, then fold the pastry over the filling to make a semi-circle and press the edges together firmly to seal. Press down on the edges with the back of a fork tines to decorate. Place on the lined baking sheet. Brush lightly with beaten egg to glaze, then make a small steam hole in the centre of each pastie with the tip of a knife. Bake for about <b>30</b> minutes or until the pastry is golden and crisp. Serve warm with extra chutney.</li>
+                <li itemprop="recipeInstructions">To make the filling, combine the <span data-default="175" data-defaultunit="g" data-quantity="175" data-unit="g" class="tooltip scalable">chicken</span>, <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">yoghurt</span>, <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="2" data-defaultunit="cm" data-quantity="2" data-unit="cm" class="tooltip scalable">ginger</span>, <span data-default="0.25" data-defaultunit="tsp" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">cayenne</span>, <span data-default="0.25" data-defaultunit="tsp" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">cumin</span>, <span data-default="0.25" data-defaultunit="tsp" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">coriander</span> and <span data-default="good pinch" data-defaultunit="" data-quantity="good pinch" data-unit="" class="tooltip scalable">salt</span> in a bowl. Mix thoroughly. If you have the time cover and marinate for a couple of hours in the fridge.</li>
+                <li itemprop="recipeInstructions">Preheat the grill to its hottest setting and line the grill pan with oiled foil. Spoon the <span data-default="175" data-defaultunit="g" data-quantity="175" data-unit="g" class="tooltip scalable">chicken</span> mixture onto the foil and spread evenly in one layer. Grill for <b>5</b> to <b>6</b> minutes or until the <span data-default="175" data-defaultunit="g" data-quantity="175" data-unit="g" class="tooltip scalable">chicken</span> is just firm and starting to colour. Remove the grill pan from the heat and leave to cool.</li>
+                <li itemprop="recipeInstructions">Preheat the oven to <b>180</b>&deg;C/Gas <b>4</b>. Roll out the pastry on a lightly floured worktop to a <b>24</b> x <b>36</b> cm rectangle. Cut out <b>6</b> <b>12</b> cm rounds with a cutter, or by cutting around the saucer. Divide the <span data-default="175" data-defaultunit="g" data-quantity="175" data-unit="g" class="tooltip scalable">chicken</span> mixture into <b>6</b> equal portions, draining off any watery liquid that has collected. Spoon a portion of <span data-default="175" data-defaultunit="g" data-quantity="175" data-unit="g" class="tooltip scalable">chicken</span> onto one half of each pastry round, leaving a <b>1</b> cm border clear.</li>
+                <li itemprop="recipeInstructions">Top each with a teaspoonful of <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">mango chutney</span>. Dampen the pastry edges with beaten egg, then fold the pastry over the filling to make a semi-circle and press the edges together firmly to seal. Press down on the edges with the back of a fork tines to decorate. Place on the lined baking sheet. Brush lightly with beaten egg to glaze, then make a small steam hole in the centre of each pastie with the tip of a knife. Bake for about <b>30</b> minutes or until the pastry is golden and crisp. Serve warm with extra chutney.</li>
                 </ol>
 
             <hr>

@@ -13,7 +13,7 @@
         <title>Florentina pizza | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -48,32 +48,45 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="350" class="scalable">350</span> g young spinach leaves</li>
+                        <span data-default="350" class="scalable">350</span>
+                        <span data-unit="g">g</span> young spinach leaves</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp butter</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> pizza bases</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> pizza bases</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1-2" class="scalable">1-2</span> tbsp olive oil</li>
+                        <span data-default="1-2" class="scalable">1-2</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="650" class="scalable">650</span> g tomato sauce</li>
+                        <span data-default="650" class="scalable">650</span>
+                        <span data-unit="g">g</span> tomato sauce</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="150" class="scalable">150</span> g mozzarella cheese, drained and thinly sliced</li>
+                        <span data-default="150" class="scalable">150</span>
+                        <span data-unit="g">g</span> mozzarella cheese, drained and thinly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> small eggs</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="small">small</span> eggs</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> g fontina or Gruyere cheese, finely grated</li>
-                    <li itemprop="recipeIngredient">sea salt and freshly ground black pepper</li>
+                        <span data-default="50" class="scalable">50</span>
+                        <span data-unit="g">g</span> fontina or Gruyere cheese, finely grated</li>
+                    <li itemprop="recipeIngredient"> sea salt and freshly ground black pepper</li>
                 </ul>
             </div>
         
@@ -81,10 +94,10 @@
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Put <b>2</b> baking trays in the oven and preheat the oven to <b>220</b>&deg;C/Gas <b>7</b>.</li>
-                <li itemprop="recipeInstructions">Wash the <span data-default="350" data-quantity="350" data-unit="g" class="tooltip scalable">spinach</span> thoroughly and put into a large saucepan. Cover with a lid and cook for <b>2-3</b> minutes, until the <span data-default="350" data-quantity="350" data-unit="g" class="tooltip scalable">spinach</span> wilts. Drain well and, when the <span data-default="350" data-quantity="350" data-unit="g" class="tooltip scalable">spinach</span> is cool enough to handle, squeeze out any excess water with your hands.</li>
-                <li itemprop="recipeInstructions">Melt the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">butter</span> in a frying pan and cook the <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> for <b>1</b> minute. Add the drained <span data-default="350" data-quantity="350" data-unit="g" class="tooltip scalable">spinach</span> and cook for a further <b>3-4</b> minutes. Add salt and pepper to taste.</li>
-                <li itemprop="recipeInstructions">Brush the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">pizza bases</span> with a little oil and spoon over the <span data-default="650" data-quantity="650" data-unit="g" class="tooltip scalable">tomato sauce</span>. Put the <span data-default="350" data-quantity="350" data-unit="g" class="tooltip scalable">spinach</span> on the bases, leaving a space in the middle for the egg. Put of the <span data-default="150" data-quantity="150" data-unit="g" class="tooltip scalable">mozzarella</span> on top of the <span data-default="350" data-quantity="350" data-unit="g" class="tooltip scalable">spinach</span>, drizzle with a little more oil and sprinkle with salt and plenty of black pepper.</li>
-                <li itemprop="recipeInstructions">Carefully transfer the pizzas to the hot baking trays and cook for <b>10</b> minutes. Remove from the oven and crack an egg into the middle of each pizza. Top with half the fontina or Gruyere and return to the oven for a further <b>5-10</b> minutes, until the base is crisp and golden and the <span data-default="4" data-quantity="4" data-unit="small" class="tooltip scalable">eggs</span> have just set. Slice and serve immediately.</li>
+                <li itemprop="recipeInstructions">Wash the <span data-default="350" data-defaultunit="g" data-quantity="350" data-unit="g" class="tooltip scalable">spinach</span> thoroughly and put into a large saucepan. Cover with a lid and cook for <b>2-3</b> minutes, until the <span data-default="350" data-defaultunit="g" data-quantity="350" data-unit="g" class="tooltip scalable">spinach</span> wilts. Drain well and, when the <span data-default="350" data-defaultunit="g" data-quantity="350" data-unit="g" class="tooltip scalable">spinach</span> is cool enough to handle, squeeze out any excess water with your hands.</li>
+                <li itemprop="recipeInstructions">Melt the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">butter</span> in a frying pan and cook the <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> for <b>1</b> minute. Add the drained <span data-default="350" data-defaultunit="g" data-quantity="350" data-unit="g" class="tooltip scalable">spinach</span> and cook for a further <b>3-4</b> minutes. Add salt and pepper to taste.</li>
+                <li itemprop="recipeInstructions">Brush the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">pizza bases</span> with a little oil and spoon over the <span data-default="650" data-defaultunit="g" data-quantity="650" data-unit="g" class="tooltip scalable">tomato sauce</span>. Put the <span data-default="350" data-defaultunit="g" data-quantity="350" data-unit="g" class="tooltip scalable">spinach</span> on the bases, leaving a space in the middle for the egg. Put of the <span data-default="150" data-defaultunit="g" data-quantity="150" data-unit="g" class="tooltip scalable">mozzarella</span> on top of the <span data-default="350" data-defaultunit="g" data-quantity="350" data-unit="g" class="tooltip scalable">spinach</span>, drizzle with a little more oil and sprinkle with salt and plenty of black pepper.</li>
+                <li itemprop="recipeInstructions">Carefully transfer the pizzas to the hot baking trays and cook for <b>10</b> minutes. Remove from the oven and crack an egg into the middle of each pizza. Top with half the fontina or Gruyere and return to the oven for a further <b>5-10</b> minutes, until the base is crisp and golden and the <span data-default="4" data-defaultunit="small" data-quantity="4" data-unit="small" class="tooltip scalable">eggs</span> have just set. Slice and serve immediately.</li>
                 </ol>
 
             <hr>

@@ -13,7 +13,7 @@
         <title>Hawaiian shoyu chicken | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -46,30 +46,42 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="450" class="scalable">450</span> g boneless skinless chicken thighs</li>
+                        <span data-default="450" class="scalable">450</span>
+                        <span data-unit="g">g</span> boneless skinless chicken thighs</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="450" class="scalable">450</span> g boneless skinless chicken breasts</li>
+                        <span data-default="450" class="scalable">450</span>
+                        <span data-unit="g">g</span> boneless skinless chicken breasts</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> ml soy sauce</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="ml">ml</span> soy sauce</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> ml cup water</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="ml">ml</span> cup water</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="128" class="scalable">128</span> g sugar</li>
+                        <span data-default="128" class="scalable">128</span>
+                        <span data-unit="g">g</span> sugar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp Worcestershire sauce</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> Worcestershire sauce</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> inch piece fresh ginger, chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="inch piece">inch piece</span> fresh ginger, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> clove garlic, minced</li>
-                    <li itemprop="recipeIngredient">dash red pepper flakes</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="clove">clove</span> garlic, minced</li>
+                    <li itemprop="recipeIngredient"> dash red pepper flakes</li>
                 </ul>
             </div>
         
@@ -79,7 +91,7 @@
                 <li itemprop="recipeInstructions">Combine all ingredients in a large Dutch oven. Place in refrigerator overnight or for at least six hours.</li>
                 <li itemprop="recipeInstructions">Transfer Dutch oven to the stove top and bring contents to a boil over high heat. Once boiling, turn the heat down to low, cover, and let simmer for <b>1</b> hour.</li>
                 <li itemprop="recipeInstructions">Remove chicken from pot and place on a cutting board.</li>
-                <li itemprop="recipeInstructions">Strain the <span data-default="1" data-quantity="1" data-unit="inch piece" class="tooltip scalable">ginger</span> and <span data-default="1" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span> out of the pot, then bring the sauce to a boil over medium heat and cook until reduced by half. Turn off heat and let cool fifteen minutes.</li>
+                <li itemprop="recipeInstructions">Strain the <span data-default="1" data-defaultunit="inch piece" data-quantity="1" data-unit="inch piece" class="tooltip scalable">ginger</span> and <span data-default="1" data-defaultunit="clove" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span> out of the pot, then bring the sauce to a boil over medium heat and cook until reduced by half. Turn off heat and let cool fifteen minutes.</li>
                 <li itemprop="recipeInstructions">Meanwhile, use two forks to shred chicken into bite-sized pieces. Return chicken to the pot and toss with sauce. Serve warm.</li>
                 </ol>
 

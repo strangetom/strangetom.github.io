@@ -13,7 +13,7 @@
         <title>Spinach and cashew dhal | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -50,44 +50,59 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp sunflower or coconut oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> sunflower or coconut oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> cloves garlic, finely chopped</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="cloves">cloves</span> garlic, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="30" class="scalable">30</span> g root ginger, finely chopped</li>
+                        <span data-default="30" class="scalable">30</span>
+                        <span data-unit="g">g</span> root ginger, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="6" class="scalable">6</span> spring onions, sliced diagonally</li>
+                        <span data-default="6" class="scalable">6</span>
+                        <span data-unit=""></span> spring onions, sliced diagonally</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.5" class="scalable">1½</span> tsp ground turmeric</li>
+                        <span data-default="1.5" class="scalable">1½</span>
+                        <span data-unit="tsp">tsp</span> ground turmeric</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.5" class="scalable">1½</span> tbsp cumin seeds</li>
+                        <span data-default="1.5" class="scalable">1½</span>
+                        <span data-unit="tbsp">tbsp</span> cumin seeds</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="300" class="scalable">300</span> g dried red lentils, rinsed</li>
+                        <span data-default="300" class="scalable">300</span>
+                        <span data-unit="g">g</span> dried red lentils, rinsed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="900" class="scalable">900</span> ml vegetable stock - check if gluten free if needed</li>
+                        <span data-default="900" class="scalable">900</span>
+                        <span data-unit="ml">ml</span> vegetable stock - check if gluten free if needed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> medium eggs, at room temperature</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="medium">medium</span> eggs, at room temperature</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g baby leaf spinach</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> baby leaf spinach</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> g cashews, toasted and roughly chopped</li>
+                        <span data-default="50" class="scalable">50</span>
+                        <span data-unit="g">g</span> cashews, toasted and roughly chopped</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a deep frying pan, add the <span data-default="3" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="30" data-quantity="30" data-unit="g" class="tooltip scalable">ginger</span> and most of the <span data-default="6" data-quantity="6" data-unit="" class="tooltip scalable">spring onions</span>. Cook until the <span data-default="6" data-quantity="6" data-unit="" class="tooltip scalable">spring onions</span> have softened, then stir in the <span data-default="1.5" data-quantity="1&frac12;" data-unit="tsp" class="tooltip scalable">turmeric</span> and <span data-default="1.5" data-quantity="1&frac12;" data-unit="tbsp" class="tooltip scalable">cumin seeds</span> and cook for <b>1</b> minute more. Add the <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">red lentils</span> to the pan along with the <span data-default="900" data-quantity="900" data-unit="ml" class="tooltip scalable">vegetable stock</span>. Give everything a good mix, bring to the boil, then cover with a lid, reduce the heat and let the dhal simmer away for <b>20</b> minutes until the lentils are cooked through. If the dhal is looking too dry or thick, add a little water.</li>
-                <li itemprop="recipeInstructions">Meanwhile, bring a small pan of water to a medium boil. Drop in the <span data-default="4" data-quantity="4" data-unit="medium" class="tooltip scalable">eggs</span> and set a timer for <b>6</b><b>&frac12;</b> minutes (add an extra minute if cooking from fridge-cold). Drain, then rinse under cold water until cool enough to handle, peel and cut in half.</li>
-                <li itemprop="recipeInstructions">Stir the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">spinach</span> through the dhal and season to taste. Once wilted, divide between <b>4</b> bowls and top each portion of dhal with a halved egg, seasoned with a little salt. Scatter with the chopped <span data-default="50" data-quantity="50" data-unit="g" class="tooltip scalable">cashews</span>, remaining <span data-default="6" data-quantity="6" data-unit="" class="tooltip scalable">spring onions</span> and a drizzle of your favourite chilli sauce, if you like.</li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a deep frying pan, add the <span data-default="3" data-defaultunit="cloves" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="30" data-defaultunit="g" data-quantity="30" data-unit="g" class="tooltip scalable">ginger</span> and most of the <span data-default="6" data-defaultunit="" data-quantity="6" data-unit="" class="tooltip scalable">spring onions</span>. Cook until the <span data-default="6" data-defaultunit="" data-quantity="6" data-unit="" class="tooltip scalable">spring onions</span> have softened, then stir in the <span data-default="1.5" data-defaultunit="tsp" data-quantity="1&frac12;" data-unit="tsp" class="tooltip scalable">turmeric</span> and <span data-default="1.5" data-defaultunit="tbsp" data-quantity="1&frac12;" data-unit="tbsp" class="tooltip scalable">cumin seeds</span> and cook for <b>1</b> minute more. Add the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">red lentils</span> to the pan along with the <span data-default="900" data-defaultunit="ml" data-quantity="900" data-unit="ml" class="tooltip scalable">vegetable stock</span>. Give everything a good mix, bring to the boil, then cover with a lid, reduce the heat and let the dhal simmer away for <b>20</b> minutes until the lentils are cooked through. If the dhal is looking too dry or thick, add a little water.</li>
+                <li itemprop="recipeInstructions">Meanwhile, bring a small pan of water to a medium boil. Drop in the <span data-default="4" data-defaultunit="medium" data-quantity="4" data-unit="medium" class="tooltip scalable">eggs</span> and set a timer for <b>6</b><b>&frac12;</b> minutes (add an extra minute if cooking from fridge-cold). Drain, then rinse under cold water until cool enough to handle, peel and cut in half.</li>
+                <li itemprop="recipeInstructions">Stir the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">spinach</span> through the dhal and season to taste. Once wilted, divide between <b>4</b> bowls and top each portion of dhal with a halved egg, seasoned with a little salt. Scatter with the chopped <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">cashews</span>, remaining <span data-default="6" data-defaultunit="" data-quantity="6" data-unit="" class="tooltip scalable">spring onions</span> and a drizzle of your favourite chilli sauce, if you like.</li>
                 </ol>
 
             <hr>

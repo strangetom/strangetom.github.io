@@ -13,7 +13,7 @@
         <title>Cider pork & bacon pie with cauliflower and potato mash | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,42 +44,57 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="5" class="scalable">5</span> medium potatoes, peeled and cut into 2 cm chunks</li>
+                        <span data-default="5" class="scalable">5</span>
+                        <span data-unit="medium">medium</span> potatoes, peeled and cut into 2 cm chunks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> small cauliflower, cut into small pieces</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="small">small</span> cauliflower, cut into small pieces</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.75" class="scalable">¾</span> mug grated Cheddar cheese</li>
+                        <span data-default="0.75" class="scalable">¾</span>
+                        <span data-unit="mug">mug</span> grated Cheddar cheese</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp wholegrain mustard</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> wholegrain mustard</li>
                 </ul>
                 <details open>
                     <summary class="ingredient-subheading">Filling</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="150" class="scalable">150</span> g streaky bacon</li>
+                            <span data-default="150" class="scalable">150</span>
+                            <span data-unit="g">g</span> streaky bacon</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> onion</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit=""></span> onion</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="500" class="scalable">500</span> g pork mince</li>
+                            <span data-default="500" class="scalable">500</span>
+                            <span data-unit="g">g</span> pork mince</li>
                     </ul>
                 </details>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> leeks, sliced</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> leeks, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp plain flour</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> plain flour</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> mug cider</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="mug">mug</span> cider</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> veg stock cube</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> veg stock cube</li>
                 </ul>
             </div>
         
@@ -87,11 +102,11 @@
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Preheat the oven to <b>200</b>&deg;C/Gas <b>7</b>. Grease a large casserole dish.  </li>
-                <li itemprop="recipeInstructions">Put the <span data-default="5" data-quantity="5" data-unit="medium" class="tooltip scalable">potatoes</span> and the <span data-default="1" data-quantity="1" data-unit="small" class="tooltip scalable">cauliflower</span> in a saucepan of boiling water. Bring to the boil and then turn down to simmer for <b>10</b> minutes. Drain and return to the ban. Add the <span data-default="0.75" data-quantity="&frac34;" data-unit="mug" class="tooltip scalable">cheese</span> and <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">mustard</span> and mash together.  </li>
-                <li itemprop="recipeInstructions">Meanwhile, fry the <span data-default="150" data-quantity="150" data-unit="g" class="tooltip scalable">bacon</span> in a large frying pan until it is crispy. Remove from the pan and cut into small pieces.  </li>
-                <li itemprop="recipeInstructions">In the same frying pan, fry the onions until they become soft. Add the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">mince</span> and fry until it is no longer pink.  </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">leeks</span> and fry for <b>2</b> minutes. Add the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">flour</span> and stir well.  </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="1" data-quantity="1" data-unit="mug" class="tooltip scalable">cider</span> and the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">stock cube</span>. Mix together, bring to the boil and season. Add the chopped <span data-default="150" data-quantity="150" data-unit="g" class="tooltip scalable">bacon</span> and pour into the casserole dish.  </li>
+                <li itemprop="recipeInstructions">Put the <span data-default="5" data-defaultunit="medium" data-quantity="5" data-unit="medium" class="tooltip scalable">potatoes</span> and the <span data-default="1" data-defaultunit="small" data-quantity="1" data-unit="small" class="tooltip scalable">cauliflower</span> in a saucepan of boiling water. Bring to the boil and then turn down to simmer for <b>10</b> minutes. Drain and return to the ban. Add the <span data-default="0.75" data-defaultunit="mug" data-quantity="&frac34;" data-unit="mug" class="tooltip scalable">cheese</span> and <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">mustard</span> and mash together.  </li>
+                <li itemprop="recipeInstructions">Meanwhile, fry the <span data-default="150" data-defaultunit="g" data-quantity="150" data-unit="g" class="tooltip scalable">bacon</span> in a large frying pan until it is crispy. Remove from the pan and cut into small pieces.  </li>
+                <li itemprop="recipeInstructions">In the same frying pan, fry the onions until they become soft. Add the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">mince</span> and fry until it is no longer pink.  </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">leeks</span> and fry for <b>2</b> minutes. Add the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">flour</span> and stir well.  </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="1" data-defaultunit="mug" data-quantity="1" data-unit="mug" class="tooltip scalable">cider</span> and the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">stock cube</span>. Mix together, bring to the boil and season. Add the chopped <span data-default="150" data-defaultunit="g" data-quantity="150" data-unit="g" class="tooltip scalable">bacon</span> and pour into the casserole dish.  </li>
                 <li itemprop="recipeInstructions">Put the mash on top. Place in the oven for <b>25-30</b> minutes, or until the top is browned. </li>
                 </ol>
 

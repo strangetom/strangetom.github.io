@@ -13,7 +13,7 @@
         <title>Cinnamon pull-apart bread | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Dessert" itemscope itemtype="https://schema.org/Recipe">
 
@@ -42,57 +42,78 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cups whole milk</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cups">cups</span> whole milk</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> cups canaola oil</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="cups">cups</span> canaola oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> cups sugar</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="cups">cups</span> sugar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2.25" class="scalable">2¼</span> tsp active dry yeast</li>
+                        <span data-default="2.25" class="scalable">2¼</span>
+                        <span data-unit="tsp">tsp</span> active dry yeast</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> cups all-purpose flour</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="cups">cups</span> all-purpose flour</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> cups (additional) all-purpose flour</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="cups">cups</span> (additional) all-purpose flour</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp baking powder</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> baking powder</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp baking soda</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> baking soda</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp salt</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> salt</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> stick butter, melted</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="stick">stick</span> butter, melted</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.5" class="scalable">1½</span> cups sugar</li>
+                        <span data-default="1.5" class="scalable">1½</span>
+                        <span data-unit="cups">cups</span> sugar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsp ground cinnamon</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsp">tbsp</span> ground cinnamon</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> cups powdered sugar</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="cups">cups</span> powdered sugar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp butter, melted</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> butter, melted</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp maple extract</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> maple extract</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.333" class="scalable">⅓</span> cup whole milk</li>
+                        <span data-default="0.333" class="scalable">⅓</span>
+                        <span data-unit="cup">cup</span> whole milk</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="dash" class="scalable">dash</span> salt</li>
+                        <span data-default="dash" class="scalable">dash</span>
+                        <span data-unit=""></span> salt</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">To make the dough, combine <span data-default="2" data-quantity="2" data-unit="cups" class="tooltip scalable">milk</span>, canola oil, and <b>&frac12;</b> cup <span data-default="0.5" data-quantity="&frac12;" data-unit="cups" class="tooltip scalable">sugar</span> in a large saucepan. Heat it until very hot but not boiling. Turn off heat and allow to cool to warm (not at all hot.)  </li>
-                <li itemprop="recipeInstructions">Sprinkle in the <span data-default="2.25" data-quantity="2&frac14;" data-unit="tsp" class="tooltip scalable">yeast</span> and add <b>4</b> cups of <span data-default="4" data-quantity="4" data-unit="cups" class="tooltip scalable">flour</span>. Stir to combine, then put lid on the pot and allow to rise for <b>1</b> hour. After <b>1</b> hour, stir in additional <b>&frac12;</b> cup <span data-default="4" data-quantity="4" data-unit="cups" class="tooltip scalable">flour</span>, along with the <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">baking powder</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">baking soda</span>, and <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">salt</span>. If dough is overly sticky, stir in another <b>&frac12;</b> cup <span data-default="4" data-quantity="4" data-unit="cups" class="tooltip scalable">flour</span>.  </li>
+                <li itemprop="recipeInstructions">To make the dough, combine <span data-default="2" data-defaultunit="cups" data-quantity="2" data-unit="cups" class="tooltip scalable">milk</span>, canola oil, and <b>&frac12;</b> cup <span data-default="0.5" data-defaultunit="cups" data-quantity="&frac12;" data-unit="cups" class="tooltip scalable">sugar</span> in a large saucepan. Heat it until very hot but not boiling. Turn off heat and allow to cool to warm (not at all hot.)  </li>
+                <li itemprop="recipeInstructions">Sprinkle in the <span data-default="2.25" data-defaultunit="tsp" data-quantity="2&frac14;" data-unit="tsp" class="tooltip scalable">yeast</span> and add <b>4</b> cups of <span data-default="4" data-defaultunit="cups" data-quantity="4" data-unit="cups" class="tooltip scalable">flour</span>. Stir to combine, then put lid on the pot and allow to rise for <b>1</b> hour. After <b>1</b> hour, stir in additional <b>&frac12;</b> cup <span data-default="4" data-defaultunit="cups" data-quantity="4" data-unit="cups" class="tooltip scalable">flour</span>, along with the <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">baking powder</span>, <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">baking soda</span>, and <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">salt</span>. If dough is overly sticky, stir in another <b>&frac12;</b> cup <span data-default="4" data-defaultunit="cups" data-quantity="4" data-unit="cups" class="tooltip scalable">flour</span>.  </li>
                 <li itemprop="recipeInstructions">Place dough in the fridge for at least <b>1</b> hour to make it easier to work with.  </li>
-                <li itemprop="recipeInstructions">Roll out dough onto a floured surface. Drizzle on melted <span data-default="1" data-quantity="1" data-unit="stick" class="tooltip scalable">butter</span> and smear so that it covers all the dough. Mix together the <span data-default="0.5" data-quantity="&frac12;" data-unit="cups" class="tooltip scalable">sugar</span> with the <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">cinnamon</span> and sprinkle it all over the surface of the dough. (Dough should look very covered.)  </li>
+                <li itemprop="recipeInstructions">Roll out dough onto a floured surface. Drizzle on melted <span data-default="1" data-defaultunit="stick" data-quantity="1" data-unit="stick" class="tooltip scalable">butter</span> and smear so that it covers all the dough. Mix together the <span data-default="0.5" data-defaultunit="cups" data-quantity="&frac12;" data-unit="cups" class="tooltip scalable">sugar</span> with the <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">cinnamon</span> and sprinkle it all over the surface of the dough. (Dough should look very covered.)  </li>
                 <li itemprop="recipeInstructions">Cut the dough into <b>6</b> to <b>8</b> strips, then stack all the strips into one stack. Cut the stack of strips into <b>6</b> slices. Place the stacks sideways into a buttered bread pan. Do not cram the slices into the pan. (You may have a few leftover.)  </li>
                 <li itemprop="recipeInstructions">Cover with a dish towel and allow to rise for <b>20</b> minutes. Preheat oven to <b>180</b> C. Place the pan in the oven and bake for <b>30</b> minutes, checking at <b>20</b> minutes to make sure it's not getting too brown on top. It's important to bake the bread long enough to ensure that the middle won't be too doughy, because if it is it won't pull apart easily. If the top looks like it's getting too brown, cover it lightly with aluminum foil for the rest of the baking time. REPEAT: IT'S IMPORTANT TO BAKE THE BREAD LONG ENOUGH FOR THE CENTER TO NO LONGER BE DOUGHY.  </li>
                 <li itemprop="recipeInstructions">Remove the pan from the oven when it's done. Run a knife along the edges and take the bread out of the pan.   </li>

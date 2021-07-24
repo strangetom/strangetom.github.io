@@ -13,7 +13,7 @@
         <title>5-a-day turmeric traybake chicken | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,44 +43,58 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.5" class="scalable">1½</span> tbsp olive oil</li>
+                        <span data-default="1.5" class="scalable">1½</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp ground turmeric</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> ground turmeric</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp ground coriander</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> ground coriander</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp nigella seeds</li>
-                    <li itemprop="recipeIngredient">zest and juice of ½ lime or lemon</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> nigella seeds</li>
+                    <li itemprop="recipeIngredient"> zest and juice of ½ lime or lemon</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> skinless chicken breast fillets</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> skinless chicken breast fillets</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="350" class="scalable">350</span> g cauliflower florets, plus any leaves, torn</li>
+                        <span data-default="350" class="scalable">350</span>
+                        <span data-unit="g">g</span> cauliflower florets, plus any leaves, torn</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> red onion, cut into wedges</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> red onion, cut into wedges</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 400 g tin chickpeas, rinsed and drained</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g tin">400 g tin</span> chickpeas, rinsed and drained</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g baby plum or cherry tomatoes</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> baby plum or cherry tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="150" class="scalable">150</span> g green beans, trimmed</li>
+                        <span data-default="150" class="scalable">150</span>
+                        <span data-unit="g">g</span> green beans, trimmed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> g low fat natural yogurt</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="g">g</span> low fat natural yogurt</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Preheat the oven to <b>180</b>&deg;C/Gas <b>6</b>. Combine the oil, spices and lime or lemon juice in a large bowl with some seasoning. Turn the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">chicken</span> in the mixture to coat, then remove to a plate and cut <b>3</b> shallow slashes in the top of each breast. Add the <span data-default="350" data-quantity="350" data-unit="g" class="tooltip scalable">cauliflower</span>, <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">red onion</span>, <span data-default="1x" data-quantity="1x" data-unit="400 g tin" class="tooltip scalable">chickpeas</span> and <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">tomatoes</span> to the bowl and toss to coat in the spicy oil. Spread out on a shallow roasting tray in a single layer, add the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">chicken</span> breasts to the tray and roast for <b>20</b> minutes.</li>
-                <li itemprop="recipeInstructions">Meanwhile, parboil the <span data-default="150" data-quantity="150" data-unit="g" class="tooltip scalable">green beans</span> for <b>2</b> minutes. Stir into the veg on the tray and cook for a further <b>5</b> minutes.</li>
+                <li itemprop="recipeInstructions">Preheat the oven to <b>180</b>&deg;C/Gas <b>6</b>. Combine the oil, spices and lime or lemon juice in a large bowl with some seasoning. Turn the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">chicken</span> in the mixture to coat, then remove to a plate and cut <b>3</b> shallow slashes in the top of each breast. Add the <span data-default="350" data-defaultunit="g" data-quantity="350" data-unit="g" class="tooltip scalable">cauliflower</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">red onion</span>, <span data-default="1x" data-defaultunit="400 g tin" data-quantity="1x" data-unit="400 g tin" class="tooltip scalable">chickpeas</span> and <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">tomatoes</span> to the bowl and toss to coat in the spicy oil. Spread out on a shallow roasting tray in a single layer, add the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">chicken</span> breasts to the tray and roast for <b>20</b> minutes.</li>
+                <li itemprop="recipeInstructions">Meanwhile, parboil the <span data-default="150" data-defaultunit="g" data-quantity="150" data-unit="g" class="tooltip scalable">green beans</span> for <b>2</b> minutes. Stir into the veg on the tray and cook for a further <b>5</b> minutes.</li>
                 <li itemprop="recipeInstructions">Mix the lime or lemon zest and a little seasoning into the yogurt and serve alongside the traybake.</li>
                 </ol>
 

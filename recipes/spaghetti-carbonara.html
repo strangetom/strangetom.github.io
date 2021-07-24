@@ -13,7 +13,7 @@
         <title>Spaghetti carbonara | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -42,40 +42,50 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g spaghetti</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="g">g</span> spaghetti</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> onion, thinly sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> onion, thinly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> clove garlic</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="clove">clove</span> garlic</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g pack pancetta lardons</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="200 g pack">200 g pack</span> pancetta lardons</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> eggs</li>
-                    <li itemprop="recipeIngredient">a little freshly grated parmesan</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> eggs</li>
+                    <li itemprop="recipeIngredient"> a little freshly grated parmesan</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp chopped fresh basil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> chopped fresh basil</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Put the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">spaghetti</span> on to cook.  </li>
-                <li itemprop="recipeInstructions">Heat a little oil in a wok and fry onions and <span data-default="1" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span> until the onions are soft. Add the <span data-default="200" data-quantity="200" data-unit="g pack" class="tooltip scalable">pancetta lardons</span> and cook until they begin to brown.   </li>
-                <li itemprop="recipeInstructions">Put the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">eggs</span> in a large bowl and beat well.   </li>
+                <li itemprop="recipeInstructions">Put the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">spaghetti</span> on to cook.  </li>
+                <li itemprop="recipeInstructions">Heat a little oil in a wok and fry onions and <span data-default="1" data-defaultunit="clove" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span> until the onions are soft. Add the <span data-default="1x" data-defaultunit="200 g pack" data-quantity="1x" data-unit="200 g pack" class="tooltip scalable">pancetta lardons</span> and cook until they begin to brown.   </li>
+                <li itemprop="recipeInstructions">Put the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">eggs</span> in a large bowl and beat well.   </li>
                 <li itemprop="recipeInstructions">Drain the pasta, but retain a little of the cooking liquid (about <b>2</b> tablespoons).   </li>
-                <li itemprop="recipeInstructions">Stir all the ingredients, except the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">basil</span>, into the bowl containing the beaten egg. The heat from the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">spaghetti</span> and lardons should cook the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">eggs</span> and create a creamy sauce.   </li>
-                <li itemprop="recipeInstructions">Add the chopped <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">basil</span>. </li>
+                <li itemprop="recipeInstructions">Stir all the ingredients, except the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">basil</span>, into the bowl containing the beaten egg. The heat from the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">spaghetti</span> and lardons should cook the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">eggs</span> and create a creamy sauce.   </li>
+                <li itemprop="recipeInstructions">Add the chopped <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">basil</span>. </li>
                 </ol>
 
             <hr>

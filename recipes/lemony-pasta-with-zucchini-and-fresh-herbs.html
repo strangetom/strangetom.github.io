@@ -13,7 +13,7 @@
         <title>Lemony pasta with zucchini and fresh herbs | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -48,40 +48,51 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> lb fusilli or other short curvy pasta</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="lb">lb</span> fusilli or other short curvy pasta</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.5" class="scalable">1½</span> lbs zucchini or other summer squash, or a combination, halved lengthwise and cut into 0.5" thick pieces</li>
-                    <li itemprop="recipeIngredient">kosher salt and black pepper</li>
+                        <span data-default="1.5" class="scalable">1½</span>
+                        <span data-unit="lbs">lbs</span> zucchini or other summer squash, or a combination, halved lengthwise and cut into 0.5" thick pieces</li>
+                    <li itemprop="recipeIngredient"> kosher salt and black pepper</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tbsp olive oil</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, thinly sliced</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, thinly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp red-pepper flakes</li>
-                    <li itemprop="recipeIngredient">juice and zest of 1 lemon</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> red-pepper flakes</li>
+                    <li itemprop="recipeIngredient"> juice and zest of 1 lemon</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> cup grated Pecorino or grated Parmesan cheese, plus more for serving</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="cup">cup</span> grated Pecorino or grated Parmesan cheese, plus more for serving</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.5" class="scalable">1½</span> cups roughly chopped herbs, such as mint, basil, chervil, Italian parsley, plus more for garnish</li>
-                    <li itemprop="recipeIngredient">flaky salt, for serving (optional)</li>
+                        <span data-default="1.5" class="scalable">1½</span>
+                        <span data-unit="cups">cups</span> roughly chopped herbs, such as mint, basil, chervil, Italian parsley, plus more for garnish</li>
+                    <li itemprop="recipeIngredient"> flaky salt, for serving (optional)</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Bring a large pot of well-salted water (<b>2</b> heaping tablespoons kosher salt to about <b>7</b> quarts water) to a boil. Add <span data-default="1" data-quantity="1" data-unit="lb" class="tooltip scalable">pasta</span> and cook until it is just under al dente, <b>1</b> minute less than package directions. Drain, reserving <b>1</b> cup of the <span data-default="1" data-quantity="1" data-unit="lb" class="tooltip scalable">pasta</span> cooking water.</li>
-                <li itemprop="recipeInstructions">Meanwhile, prepare the zucchini or other squash: Season chunks with salt and pepper. Heat <b>3</b> tablespoons of <span data-default="4" data-quantity="4" data-unit="tbsp" class="tooltip scalable">olive oil</span> in a large skillet over medium heat and add the squash in one layer (you may need to do this in two batches) and cook undisturbed until it begins to turn golden brown, about <b>3</b> minutes. Flip and cook <b>2</b> to <b>3</b> minutes more. Remove from the pan and set aside. Taste and season again, if necessary.</li>
-                <li itemprop="recipeInstructions">Add the remaining <b>1</b> tablespoon oil to the pan. Add the <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">red-pepper flakes</span> and cook until the <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> becomes translucent, about <b>30</b> seconds. Add the squash back to the pan along with the lemon juice and half the lemon zest. Toss to combine.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="1" data-quantity="1" data-unit="lb" class="tooltip scalable">pasta</span> to the skillet, and toss to combine. Add <b>&frac12;</b> cup of the <span data-default="1" data-quantity="1" data-unit="lb" class="tooltip scalable">pasta</span> water and the grated cheese, and toss until the cheese emulsifies and is silky. If needed, add an additional <b>&frac14;</b> cup <span data-default="1" data-quantity="1" data-unit="lb" class="tooltip scalable">pasta</span> water or more to loosen. Add the fresh herbs and toss again. Top with additional herbs and the remaining lemon zest. Serve in bowls, and pass grated cheese at the table. Season with flaky salt, if desired.</li>
+                <li itemprop="recipeInstructions">Bring a large pot of well-salted water (<b>2</b> heaping tablespoons kosher salt to about <b>7</b> quarts water) to a boil. Add <span data-default="1" data-defaultunit="lb" data-quantity="1" data-unit="lb" class="tooltip scalable">pasta</span> and cook until it is just under al dente, <b>1</b> minute less than package directions. Drain, reserving <b>1</b> cup of the <span data-default="1" data-defaultunit="lb" data-quantity="1" data-unit="lb" class="tooltip scalable">pasta</span> cooking water.</li>
+                <li itemprop="recipeInstructions">Meanwhile, prepare the zucchini or other squash: Season chunks with salt and pepper. Heat <b>3</b> tablespoons of <span data-default="4" data-defaultunit="tbsp" data-quantity="4" data-unit="tbsp" class="tooltip scalable">olive oil</span> in a large skillet over medium heat and add the squash in one layer (you may need to do this in two batches) and cook undisturbed until it begins to turn golden brown, about <b>3</b> minutes. Flip and cook <b>2</b> to <b>3</b> minutes more. Remove from the pan and set aside. Taste and season again, if necessary.</li>
+                <li itemprop="recipeInstructions">Add the remaining <b>1</b> tablespoon oil to the pan. Add the <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">red-pepper flakes</span> and cook until the <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> becomes translucent, about <b>30</b> seconds. Add the squash back to the pan along with the lemon juice and half the lemon zest. Toss to combine.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="1" data-defaultunit="lb" data-quantity="1" data-unit="lb" class="tooltip scalable">pasta</span> to the skillet, and toss to combine. Add <b>&frac12;</b> cup of the <span data-default="1" data-defaultunit="lb" data-quantity="1" data-unit="lb" class="tooltip scalable">pasta</span> water and the grated cheese, and toss until the cheese emulsifies and is silky. If needed, add an additional <b>&frac14;</b> cup <span data-default="1" data-defaultunit="lb" data-quantity="1" data-unit="lb" class="tooltip scalable">pasta</span> water or more to loosen. Add the fresh herbs and toss again. Top with additional herbs and the remaining lemon zest. Serve in bowls, and pass grated cheese at the table. Season with flaky salt, if desired.</li>
                 </ol>
 
             <hr>

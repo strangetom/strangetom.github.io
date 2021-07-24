@@ -13,7 +13,7 @@
         <title>Leek, bacon & potato soup | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,37 +47,49 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="25" class="scalable">25</span> g butter</li>
+                        <span data-default="25" class="scalable">25</span>
+                        <span data-unit="g">g</span> butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> rashers streaky bacon, chopped</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="rashers">rashers</span> streaky bacon, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> onion, chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> onion, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g trimmed leek, sliced and well washed</li>
+                        <span data-default="400" class="scalable">400</span>
+                        <span data-unit="g">g</span> trimmed leek, sliced and well washed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> medium potatoes, peeled and diced</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="medium">medium</span> potatoes, peeled and diced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.4" class="scalable">1⅖</span> l hot vegetable stock</li>
+                        <span data-default="1.4" class="scalable">1⅖</span>
+                        <span data-unit="l">l</span> hot vegetable stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="142" class="scalable">142</span> ml pot single cream</li>
+                        <span data-default="142" class="scalable">142</span>
+                        <span data-unit="ml">ml</span> pot single cream</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> rashers streaky bacon, to serve</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="rashers">rashers</span> streaky bacon, to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Melt the <span data-default="25" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span> in a large pan, then fry the <span data-default="3" data-quantity="3" data-unit="rashers" class="tooltip scalable">bacon</span> and <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, stirring until they start to turn golden. Tip in the leeks and <span data-default="3" data-quantity="3" data-unit="medium" class="tooltip scalable">potatoes</span>, stir well, then cover and turn down the heat. Cook gently for <b>5</b> mins, shaking the pan every now and then to make sure that the mixture doesn't catch.</li>
-                <li itemprop="recipeInstructions">Pour in the <span data-default="1.4" data-quantity="1&frac25;" data-unit="l" class="tooltip scalable">stock</span>, season well and bring to the boil. Cover and simmer for <b>20</b> mins until the vegetables are soft. Leave to cool for a few mins, then blend in a food processor in batches until smooth. Return to the pan, pour in the <span data-default="142" data-quantity="142" data-unit="ml pot" class="tooltip scalable">cream</span> and stir well. Taste and season if necessary. Serve scattered with tasty <span data-default="4" data-quantity="4" data-unit="rashers" class="tooltip scalable">crisp bacon</span> and eat with toasted or warm crusty bread on the side.</li>
+                <li itemprop="recipeInstructions">Melt the <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span> in a large pan, then fry the <span data-default="3" data-defaultunit="rashers" data-quantity="3" data-unit="rashers" class="tooltip scalable">bacon</span> and <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, stirring until they start to turn golden. Tip in the leeks and <span data-default="3" data-defaultunit="medium" data-quantity="3" data-unit="medium" class="tooltip scalable">potatoes</span>, stir well, then cover and turn down the heat. Cook gently for <b>5</b> mins, shaking the pan every now and then to make sure that the mixture doesn't catch.</li>
+                <li itemprop="recipeInstructions">Pour in the <span data-default="1.4" data-defaultunit="l" data-quantity="1&frac25;" data-unit="l" class="tooltip scalable">stock</span>, season well and bring to the boil. Cover and simmer for <b>20</b> mins until the vegetables are soft. Leave to cool for a few mins, then blend in a food processor in batches until smooth. Return to the pan, pour in the <span data-default="142" data-defaultunit="ml" data-quantity="142" data-unit="ml" class="tooltip scalable">cream</span> and stir well. Taste and season if necessary. Serve scattered with tasty <span data-default="4" data-defaultunit="rashers" data-quantity="4" data-unit="rashers" class="tooltip scalable">crisp bacon</span> and eat with toasted or warm crusty bread on the side.</li>
                 </ol>
 
             <hr>

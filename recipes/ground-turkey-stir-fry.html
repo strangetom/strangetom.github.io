@@ -13,7 +13,7 @@
         <title>Ground turkey stir fry | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Turkey" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,51 +43,68 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> cup soy sauce</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit="cup">cup</span> soy sauce</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tbsp toasted sesame oil</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tbsp">tbsp</span> toasted sesame oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">¼</span> tbsp brown sugar</li>
+                        <span data-default="0.5" class="scalable">¼</span>
+                        <span data-unit="tbsp">tbsp</span> brown sugar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> pinch red pepper flakes (optional)</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="pinch">pinch</span> red pepper flakes (optional)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp water</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> water</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> bell peppers</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> bell peppers</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> green onions</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> green onions</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> oz spinach, two large handfuls or ¼ of an 8 oz bag</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="oz">oz</span> spinach, two large handfuls or ¼ of an 8 oz bag</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp cooking oil of choice</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> cooking oil of choice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, minced</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, minced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="19" class="scalable">19</span> oz ground turkey</li>
+                        <span data-default="19" class="scalable">19</span>
+                        <span data-unit="oz">oz</span> ground turkey</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> cup chopped peanuts</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit="cup">cup</span> chopped peanuts</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2.5" class="scalable">2½</span> cups cooked brown rice</li>
+                        <span data-default="2.5" class="scalable">2½</span>
+                        <span data-unit="cups">cups</span> cooked brown rice</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Make the stir fry sauce by stirring together the <span data-default="0.25" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">soy sauce</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="tbsp" class="tooltip scalable">toasted sesame oil</span>, <span data-default="0.5" data-quantity="&frac14;" data-unit="tbsp" class="tooltip scalable">brown sugar</span>, <span data-default="1" data-quantity="1" data-unit="pinch" class="tooltip scalable">red pepper</span>, and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">water</span> until the sugar is dissolved. Set the sauce aside.</li>
-                <li itemprop="recipeInstructions">Dice the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">bell peppers</span> and slice the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">green onions</span>.</li>
-                <li itemprop="recipeInstructions">Heat the cooking oil in a very large skillet over medium heat. Once hot, add the <span data-default="19" data-quantity="19" data-unit="oz" class="tooltip scalable">ground turkey</span> and minced <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>. Stir and cook until the turkey is cooked through and no <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">water</span> is left pooling on the bottom of the skillet (<b>8-10</b> minutes).</li>
-                <li itemprop="recipeInstructions">Once the turkey is cooked and the moisture has evaporated, add the bell pepper and <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">green onions</span> to the skillet. Stir and cook for about <b>2</b> minutes more, then add the <span data-default="2" data-quantity="2" data-unit="oz" class="tooltip scalable">spinach</span> and continue to cook just until it is about half wilted (<b>1-2</b> minutes).</li>
-                <li itemprop="recipeInstructions">Pour the stir fry sauce into the skillet. Continue to stir and cook the turkey and vegetables until everything is coated in sauce and the <span data-default="2" data-quantity="2" data-unit="oz" class="tooltip scalable">spinach</span> is fully wilted (about <b>2</b> minutes more).</li>
-                <li itemprop="recipeInstructions">Serve about <b>1</b> cup of the stir fry mixture with <b>&frac12;</b> cup rice and a sprinkle of <span data-default="0.25" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">chopped peanuts</span> over top.</li>
+                <li itemprop="recipeInstructions">Make the stir fry sauce by stirring together the <span data-default="0.25" data-defaultunit="cup" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">soy sauce</span>, <span data-default="0.5" data-defaultunit="tbsp" data-quantity="&frac12;" data-unit="tbsp" class="tooltip scalable">toasted sesame oil</span>, <span data-default="0.5" data-defaultunit="tbsp" data-quantity="&frac14;" data-unit="tbsp" class="tooltip scalable">brown sugar</span>, <span data-default="1" data-defaultunit="pinch" data-quantity="1" data-unit="pinch" class="tooltip scalable">red pepper</span>, and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">water</span> until the sugar is dissolved. Set the sauce aside.</li>
+                <li itemprop="recipeInstructions">Dice the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">bell peppers</span> and slice the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">green onions</span>.</li>
+                <li itemprop="recipeInstructions">Heat the cooking oil in a very large skillet over medium heat. Once hot, add the <span data-default="19" data-defaultunit="oz" data-quantity="19" data-unit="oz" class="tooltip scalable">ground turkey</span> and minced <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>. Stir and cook until the turkey is cooked through and no <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">water</span> is left pooling on the bottom of the skillet (<b>8-10</b> minutes).</li>
+                <li itemprop="recipeInstructions">Once the turkey is cooked and the moisture has evaporated, add the bell pepper and <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">green onions</span> to the skillet. Stir and cook for about <b>2</b> minutes more, then add the <span data-default="2" data-defaultunit="oz" data-quantity="2" data-unit="oz" class="tooltip scalable">spinach</span> and continue to cook just until it is about half wilted (<b>1-2</b> minutes).</li>
+                <li itemprop="recipeInstructions">Pour the stir fry sauce into the skillet. Continue to stir and cook the turkey and vegetables until everything is coated in sauce and the <span data-default="2" data-defaultunit="oz" data-quantity="2" data-unit="oz" class="tooltip scalable">spinach</span> is fully wilted (about <b>2</b> minutes more).</li>
+                <li itemprop="recipeInstructions">Serve about <b>1</b> cup of the stir fry mixture with <b>&frac12;</b> cup rice and a sprinkle of <span data-default="0.25" data-defaultunit="cup" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">chopped peanuts</span> over top.</li>
                 </ol>
 
             <hr>

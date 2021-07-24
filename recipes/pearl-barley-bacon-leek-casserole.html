@@ -13,7 +13,7 @@
         <title>Pearl barley, bacon & leek casserole | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,39 +43,52 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> leeks, thickly sliced</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> leeks, thickly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> clove garlic, finely chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="clove">clove</span> garlic, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="300" class="scalable">300</span> g pearl barley</li>
+                        <span data-default="300" class="scalable">300</span>
+                        <span data-unit="g">g</span> pearl barley</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> carrots, cubed</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> carrots, cubed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp Dijon mustard, plus extra to serve</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> Dijon mustard, plus extra to serve</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> litre chicken stock</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="litre">litre</span> chicken stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="300" class="scalable">300</span> g Savoy cabbage, shredded</li>
+                        <span data-default="300" class="scalable">300</span>
+                        <span data-unit="g">g</span> Savoy cabbage, shredded</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g lean bacon joint, cooked, chopped into small pieces</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> lean bacon joint, cooked, chopped into small pieces</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat a large pan over a medium heat. Add the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">olive oil</span> and cook the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">leeks</span> for a few mins, then add the <span data-default="2" data-quantity="2" data-unit="clove" class="tooltip scalable">garlic</span> and cook for just <b>1</b> min more.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">pearl barley</span>, <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">carrots</span> and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">mustard</span>, then pour over the <span data-default="1" data-quantity="1" data-unit="litre" class="tooltip scalable">chicken stock</span>. Season with plenty of ground black pepper and simmer for <b>20</b> mins, stirring occasionally. Add the <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">cabbage</span> with the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">bacon</span>, and cook for <b>5-10</b> mins until <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">cabbage</span> is wilted and tender. Serve with extra Dijon <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">mustard</span> on the side.</li>
+                <li itemprop="recipeInstructions">Heat a large pan over a medium heat. Add the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">olive oil</span> and cook the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">leeks</span> for a few mins, then add the <span data-default="2" data-defaultunit="clove" data-quantity="2" data-unit="clove" class="tooltip scalable">garlic</span> and cook for just <b>1</b> min more.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">pearl barley</span>, <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">carrots</span> and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">mustard</span>, then pour over the <span data-default="1" data-defaultunit="litre" data-quantity="1" data-unit="litre" class="tooltip scalable">chicken stock</span>. Season with plenty of ground black pepper and simmer for <b>20</b> mins, stirring occasionally. Add the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">cabbage</span> with the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">bacon</span>, and cook for <b>5-10</b> mins until <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">cabbage</span> is wilted and tender. Serve with extra Dijon <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">mustard</span> on the side.</li>
                 </ol>
 
             <hr>

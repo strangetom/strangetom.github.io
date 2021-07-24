@@ -13,7 +13,7 @@
         <title>Pesto shrimp pasta | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,39 +43,50 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="12" class="scalable">12</span> oz shrimp, peeled and deveined</li>
+                        <span data-default="12" class="scalable">12</span>
+                        <span data-unit="oz">oz</span> shrimp, peeled and deveined</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="8" class="scalable">8</span> oz angel hair pasta</li>
+                        <span data-default="8" class="scalable">8</span>
+                        <span data-unit="oz">oz</span> angel hair pasta</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp olive oil, divided</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil, divided</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, minced</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, minced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> pint grape tomatoes</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="pint">pint</span> grape tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> cup basil pesto</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit="cup">cup</span> basil pesto</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp grated Parmesan</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> grated Parmesan</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">If using frozen <span data-default="12" data-quantity="12" data-unit="oz" class="tooltip scalable">shrimp</span>, place them in a colander and run cool water over top to thaw (this should only take a few minutes). Peel the <span data-default="12" data-quantity="12" data-unit="oz" class="tooltip scalable">shrimp</span> and remove the tails. Pat the <span data-default="12" data-quantity="12" data-unit="oz" class="tooltip scalable">shrimp</span> dry with a paper towel.</li>
+                <li itemprop="recipeInstructions">If using frozen <span data-default="12" data-defaultunit="oz" data-quantity="12" data-unit="oz" class="tooltip scalable">shrimp</span>, place them in a colander and run cool water over top to thaw (this should only take a few minutes). Peel the <span data-default="12" data-defaultunit="oz" data-quantity="12" data-unit="oz" class="tooltip scalable">shrimp</span> and remove the tails. Pat the <span data-default="12" data-defaultunit="oz" data-quantity="12" data-unit="oz" class="tooltip scalable">shrimp</span> dry with a paper towel.</li>
                 <li itemprop="recipeInstructions">Bring a large pot of water to a boil for the pasta. Once boiling, add the pasta and continue to boil until the pasta is tender (about seven minutes). Reserve about  <b>&frac12;</b>  cup of the starchy pasta water before draining the pasta in a colander.</li>
-                <li itemprop="recipeInstructions">While the pasta is cooking, prepare the rest of the dish. Heat <b>1</b> tbsp <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">olive oil</span> in a large skillet. Once hot, add the prepared <span data-default="12" data-quantity="12" data-unit="oz" class="tooltip scalable">shrimp</span> and saute just until the <span data-default="12" data-quantity="12" data-unit="oz" class="tooltip scalable">shrimp</span> turns pink and opaque (<b>2-3</b> minutes). Remove the cooked <span data-default="12" data-quantity="12" data-unit="oz" class="tooltip scalable">shrimp</span> to a clean bowl.</li>
-                <li itemprop="recipeInstructions">Add another tablespoon <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">olive oil</span> to the skillet and add the <span data-default="1" data-quantity="1" data-unit="pint" class="tooltip scalable">grape tomatoes</span> and minced <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>. Continue to saute over medium until the tomatoes begin to burst and release their juices. If the <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> begins to brown before the tomatoes have burst, add a couple tablespoons of water to the skillet to slow the browning.</li>
+                <li itemprop="recipeInstructions">While the pasta is cooking, prepare the rest of the dish. Heat <b>1</b> tbsp <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">olive oil</span> in a large skillet. Once hot, add the prepared <span data-default="12" data-defaultunit="oz" data-quantity="12" data-unit="oz" class="tooltip scalable">shrimp</span> and saute just until the <span data-default="12" data-defaultunit="oz" data-quantity="12" data-unit="oz" class="tooltip scalable">shrimp</span> turns pink and opaque (<b>2-3</b> minutes). Remove the cooked <span data-default="12" data-defaultunit="oz" data-quantity="12" data-unit="oz" class="tooltip scalable">shrimp</span> to a clean bowl.</li>
+                <li itemprop="recipeInstructions">Add another tablespoon <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">olive oil</span> to the skillet and add the <span data-default="1" data-defaultunit="pint" data-quantity="1" data-unit="pint" class="tooltip scalable">grape tomatoes</span> and minced <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>. Continue to saute over medium until the tomatoes begin to burst and release their juices. If the <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> begins to brown before the tomatoes have burst, add a couple tablespoons of water to the skillet to slow the browning.</li>
                 <li itemprop="recipeInstructions">Once the tomatoes have broken down in the skillet, add the cooked and drained pasta,  <b>&frac14;</b>  cup pesto, and about half of the reserved pasta water. Stir to coat everything in the pesto, adding more of the pasta water if needed to loosen the pasta and spread the pesto over everything.</li>
-                <li itemprop="recipeInstructions">Finally, return the cooked <span data-default="12" data-quantity="12" data-unit="oz" class="tooltip scalable">shrimp</span> to the skillet and stir to combine with the pasta. Top with grated <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">Parmesan</span>, then serve!</li>
+                <li itemprop="recipeInstructions">Finally, return the cooked <span data-default="12" data-defaultunit="oz" data-quantity="12" data-unit="oz" class="tooltip scalable">shrimp</span> to the skillet and stir to combine with the pasta. Top with grated <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">Parmesan</span>, then serve!</li>
                 </ol>
 
             <hr>

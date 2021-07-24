@@ -13,7 +13,7 @@
         <title>Moroccan mushrooms with couscous | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -48,33 +48,45 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> red onion, sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> red onion, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp ground cinnamon</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> ground cinnamon</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp ground cumin</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> ground cumin</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="300" class="scalable">300</span> g mushrooms, quartered</li>
+                        <span data-default="300" class="scalable">300</span>
+                        <span data-unit="g">g</span> mushrooms, quartered</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g can chopped tomatoes</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g can">400 g can</span> chopped tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="410" class="scalable">410</span> g can chickpeas, rinsed and drained</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="410 g can">410 g can</span> chickpeas, rinsed and drained</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp clear honey</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> clear honey</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="175" class="scalable">175</span> g couscous</li>
+                        <span data-default="175" class="scalable">175</span>
+                        <span data-unit="g">g</span> couscous</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> g soft dried apricots, diced</li>
+                        <span data-default="50" class="scalable">50</span>
+                        <span data-unit="g">g</span> soft dried apricots, diced</li>
                     <li itemprop="recipeIngredient">handful flat-leaf parsley, roughly chopped</li>
                 </ul>
             </div>
@@ -82,8 +94,8 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Fry the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> in the oil for <b>6</b> mins until softened. Add the <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">cinnamon</span> and <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">cumin</span> and cook for <b>1</b> min, stirring. Add the <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">mushrooms</span>, cook for <b>2</b> mins, then stir in the <span data-default="400" data-quantity="400" data-unit="g can" class="tooltip scalable">tomatoes</span>, <span data-default="410" data-quantity="410" data-unit="g can" class="tooltip scalable">chickpeas</span> and <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">honey</span>. Season and simmer for <b>7-8</b> mins.</li>
-                <li itemprop="recipeInstructions">Meanwhile, mix the <span data-default="175" data-quantity="175" data-unit="g" class="tooltip scalable">couscous</span> with the dried apricots and some seasoning in a bowl. Pour over <b>250</b> ml boiling water, stir to mix, then cover. Leave to stand for <b>7</b> mins or until softened. To serve, fluff up with a fork, stir in the <span data-default="" data-quantity="" data-unit="handful" class="tooltip scalable">parsley</span> and top with the mushroom mixture. Great served with some green beans.</li>
+                <li itemprop="recipeInstructions">Fry the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> in the oil for <b>6</b> mins until softened. Add the <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">cinnamon</span> and <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">cumin</span> and cook for <b>1</b> min, stirring. Add the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">mushrooms</span>, cook for <b>2</b> mins, then stir in the <span data-default="1x" data-defaultunit="400 g can" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">tomatoes</span>, <span data-default="1x" data-defaultunit="410 g can" data-quantity="1x" data-unit="410 g can" class="tooltip scalable">chickpeas</span> and <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">honey</span>. Season and simmer for <b>7-8</b> mins.</li>
+                <li itemprop="recipeInstructions">Meanwhile, mix the <span data-default="175" data-defaultunit="g" data-quantity="175" data-unit="g" class="tooltip scalable">couscous</span> with the dried apricots and some seasoning in a bowl. Pour over <b>250</b> ml boiling water, stir to mix, then cover. Leave to stand for <b>7</b> mins or until softened. To serve, fluff up with a fork, stir in the <span data-default="" data-defaultunit="handful" data-quantity="" data-unit="handful" class="tooltip scalable">parsley</span> and top with the mushroom mixture. Great served with some green beans.</li>
                 </ol>
 
             <hr>

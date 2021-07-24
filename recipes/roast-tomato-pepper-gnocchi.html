@@ -13,7 +13,7 @@
         <title>Roast tomato & pepper gnocchi | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,36 +44,45 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="450" class="scalable">450</span> g ripe tomatoes, halved</li>
+                        <span data-default="450" class="scalable">450</span>
+                        <span data-unit="g">g</span> ripe tomatoes, halved</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> red peppers, deseeded and cut into strips</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> red peppers, deseeded and cut into strips</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, unpeeled</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, unpeeled</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.5" class="scalable">1½</span> tbsp olive oil</li>
+                        <span data-default="1.5" class="scalable">1½</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g pack fesh gnocchi</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="500 g pack">500 g pack</span> fesh gnocchi</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> g goat's cheese</li>
-                    <li itemprop="recipeIngredient">basil leaves, to garnish</li>
-                    <li itemprop="recipeIngredient">green salad, to serve</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="g">g</span> goat's cheese</li>
+                    <li itemprop="recipeIngredient"> basil leaves, to garnish</li>
+                    <li itemprop="recipeIngredient"> green salad, to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the oven to <b>220</b>&deg;C/Gas <b>7</b>. Put the <span data-default="450" data-quantity="450" data-unit="g" class="tooltip scalable">tomatoes</span>, <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">peppers</span>, <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="1.5" data-quantity="1&frac12;" data-unit="tbsp" class="tooltip scalable">oil</span> in a roasting tin. Sprinkly with salt and stir to coat. Just before the <span data-default="450" data-quantity="450" data-unit="g" class="tooltip scalable">tomatoes</span> and <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">peppers</span> are done, cook the <span data-default="500" data-quantity="500" data-unit="g pack" class="tooltip scalable">gnocchi</span> in salted boiling water for <b>2-3</b> minutes or according to the pack instructions.</li>
-                <li itemprop="recipeInstructions">Remove the <span data-default="450" data-quantity="450" data-unit="g" class="tooltip scalable">tomatoes</span>, <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">peppers</span> and <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> from the oven. Squeeze the <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> from is skin and put in a food processor with the <span data-default="450" data-quantity="450" data-unit="g" class="tooltip scalable">tomatoes</span>, <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">peppers</span> and pan juices. Season. Whizz for a few seconds for a rough sauce.</li>
-                <li itemprop="recipeInstructions">Drain the <span data-default="500" data-quantity="500" data-unit="g pack" class="tooltip scalable">gnocchi</span> and transfer to a bowl. Pour the sauce over the <span data-default="500" data-quantity="500" data-unit="g pack" class="tooltip scalable">gnocchi</span> and mix gently. Divide among plates, crumble over the <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">cheese</span> and tear over the basil leaves. Serve with a green salad.</li>
+                <li itemprop="recipeInstructions">Heat the oven to <b>220</b>&deg;C/Gas <b>7</b>. Put the <span data-default="450" data-defaultunit="g" data-quantity="450" data-unit="g" class="tooltip scalable">tomatoes</span>, <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">peppers</span>, <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="1.5" data-defaultunit="tbsp" data-quantity="1&frac12;" data-unit="tbsp" class="tooltip scalable">oil</span> in a roasting tin. Sprinkly with salt and stir to coat. Just before the <span data-default="450" data-defaultunit="g" data-quantity="450" data-unit="g" class="tooltip scalable">tomatoes</span> and <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">peppers</span> are done, cook the <span data-default="1x" data-defaultunit="500 g pack" data-quantity="1x" data-unit="500 g pack" class="tooltip scalable">gnocchi</span> in salted boiling water for <b>2-3</b> minutes or according to the pack instructions.</li>
+                <li itemprop="recipeInstructions">Remove the <span data-default="450" data-defaultunit="g" data-quantity="450" data-unit="g" class="tooltip scalable">tomatoes</span>, <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">peppers</span> and <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> from the oven. Squeeze the <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> from is skin and put in a food processor with the <span data-default="450" data-defaultunit="g" data-quantity="450" data-unit="g" class="tooltip scalable">tomatoes</span>, <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">peppers</span> and pan juices. Season. Whizz for a few seconds for a rough sauce.</li>
+                <li itemprop="recipeInstructions">Drain the <span data-default="1x" data-defaultunit="500 g pack" data-quantity="1x" data-unit="500 g pack" class="tooltip scalable">gnocchi</span> and transfer to a bowl. Pour the sauce over the <span data-default="1x" data-defaultunit="500 g pack" data-quantity="1x" data-unit="500 g pack" class="tooltip scalable">gnocchi</span> and mix gently. Divide among plates, crumble over the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">cheese</span> and tear over the basil leaves. Serve with a green salad.</li>
                 </ol>
 
             <hr>

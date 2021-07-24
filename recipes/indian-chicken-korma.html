@@ -13,7 +13,7 @@
         <title>Indian chicken korma | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,72 +47,102 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <details open>
                     <summary class="ingredient-subheading">For the chicken marinade</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="3" class="scalable">3</span> lbs boneless skinless chicken breasts</li>
+                            <span data-default="3" class="scalable">3</span>
+                            <span data-unit="lbs">lbs</span> boneless skinless chicken breasts</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tsp extra virgin olive oil</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tsp">tsp</span> extra virgin olive oil</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tsp garam masala</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tsp">tsp</span> garam masala</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tsp curry powder</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tsp">tsp</span> curry powder</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> tsp salt</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit="tsp">tsp</span> salt</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> tsp freshly ground black pepper</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit="tsp">tsp</span> freshly ground black pepper</li>
                     </ul>
                 </details>
                 <details open>
                     <summary class="ingredient-subheading">For the sauce</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> white onions, peeled and cut into quarters</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit=""></span> white onions, peeled and cut into quarters</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="6" class="scalable">6</span> cloves garlic, peeled</li>
+                            <span data-default="6" class="scalable">6</span>
+                            <span data-unit="cloves">cloves</span> garlic, peeled</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="4" class="scalable">4</span> tsp curry powder</li>
+                            <span data-default="4" class="scalable">4</span>
+                            <span data-unit="tsp">tsp</span> curry powder</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tsp ground turmeric</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tsp">tsp</span> ground turmeric</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tsp garam masala</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tsp">tsp</span> garam masala</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tsp ground coriander seed</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tsp">tsp</span> ground coriander seed</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tsp salt</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tsp">tsp</span> salt</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tsp black pepper</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tsp">tsp</span> black pepper</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> tsp cinnamon</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit="tsp">tsp</span> cinnamon</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> tsp cumin</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit="tsp">tsp</span> cumin</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.25" class="scalable">¼</span> tsp ground cardamom</li>
+                            <span data-default="0.25" class="scalable">¼</span>
+                            <span data-unit="tsp">tsp</span> ground cardamom</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.125" class="scalable">⅛</span> tsp freshly grated nutmeg</li>
+                            <span data-default="0.125" class="scalable">⅛</span>
+                            <span data-unit="tsp">tsp</span> freshly grated nutmeg</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="3" class="scalable">3</span> tbsps extra virgin olive oil</li>
+                            <span data-default="3" class="scalable">3</span>
+                            <span data-unit="tbsps">tbsps</span> extra virgin olive oil</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="3" class="scalable">3</span> large tomatoes, diced small</li>
+                            <span data-default="3" class="scalable">3</span>
+                            <span data-unit="large">large</span> tomatoes, diced small</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp freshly grated ginger root</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> freshly grated ginger root</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> cup ground raw almonds</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit="cup">cup</span> ground raw almonds</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> cup unsweetened canned coconut milk</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="cup">cup</span> unsweetened canned coconut milk</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1.5" class="scalable">1½</span> cups plain low-fat yogurt</li>
+                            <span data-default="1.5" class="scalable">1½</span>
+                            <span data-unit="cups">cups</span> plain low-fat yogurt</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> a small red chilli, de-seeded and minced (dried or fresh)</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit=""></span> a small red chilli, de-seeded and minced (dried or fresh)</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp brown sugar (packed)</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> brown sugar (packed)</li>
                     </ul>
                 </details>
             </div>
@@ -120,13 +150,13 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Drizzle the <span data-default="3" data-quantity="3" data-unit="lbs" class="tooltip scalable">chicken</span> with the <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">oil</span> and sprinkle on the <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">garam masala</span>, <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">curry powder</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">salt</span> and pepper. Massage into the meat and cover, leaving to marinate for at least <b>2</b> hours or overnight.</li>
-                <li itemprop="recipeInstructions">Heat a grill pan over medium-high heat. Grill the <span data-default="3" data-quantity="3" data-unit="lbs" class="tooltip scalable">chicken</span> for <b>5-6</b> minutes per side, until cooked through.</li>
-                <li itemprop="recipeInstructions">Meanwhile, make the sauce: place the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">onions</span>, <span data-default="6" data-quantity="6" data-unit="cloves" class="tooltip scalable">garlic</span>, and <b>1</b> cup of water in the bowl of a blender. Puree until smooth.</li>
-                <li itemprop="recipeInstructions">Measure out the spices (<span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">curry powder</span> through nutmeg) into a small bowl.</li>
-                <li itemprop="recipeInstructions">In a large saucepan heat <b>3</b> tbsps of olive <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">oil</span> over medium heat. Once the <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">oil</span> is shimmering, add the pureed onion mixture and cook for a <b>2-3</b> minutes, stirring constantly, until it begins to darken in color.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="3" data-quantity="3" data-unit="large" class="tooltip scalable">tomatoes</span>, <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">ginger</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">ground almonds</span>, <span data-default="1" data-quantity="1" data-unit="cup" class="tooltip scalable">coconut milk</span>, <span data-default="1.5" data-quantity="1&frac12;" data-unit="cups" class="tooltip scalable">yogurt</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="" class="tooltip scalable">red chilli</span>, pre-measured spices, and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">brown sugar</span>. Stir well.</li>
-                <li itemprop="recipeInstructions">Turn the heat down to low and simmer <b>30</b> minutes. Cut the <span data-default="3" data-quantity="3" data-unit="lbs" class="tooltip scalable">chicken</span> into bite-sized pieces and add to the pan; simmer for an additional <b>15</b> minutes. Serve with steamed basmati rice and/or naan.</li>
+                <li itemprop="recipeInstructions">Drizzle the <span data-default="3" data-defaultunit="lbs" data-quantity="3" data-unit="lbs" class="tooltip scalable">chicken</span> with the <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">oil</span> and sprinkle on the <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">garam masala</span>, <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">curry powder</span>, <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">salt</span> and pepper. Massage into the meat and cover, leaving to marinate for at least <b>2</b> hours or overnight.</li>
+                <li itemprop="recipeInstructions">Heat a grill pan over medium-high heat. Grill the <span data-default="3" data-defaultunit="lbs" data-quantity="3" data-unit="lbs" class="tooltip scalable">chicken</span> for <b>5-6</b> minutes per side, until cooked through.</li>
+                <li itemprop="recipeInstructions">Meanwhile, make the sauce: place the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">onions</span>, <span data-default="6" data-defaultunit="cloves" data-quantity="6" data-unit="cloves" class="tooltip scalable">garlic</span>, and <b>1</b> cup of water in the bowl of a blender. Puree until smooth.</li>
+                <li itemprop="recipeInstructions">Measure out the spices (<span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">curry powder</span> through nutmeg) into a small bowl.</li>
+                <li itemprop="recipeInstructions">In a large saucepan heat <b>3</b> tbsps of olive <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">oil</span> over medium heat. Once the <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">oil</span> is shimmering, add the pureed onion mixture and cook for a <b>2-3</b> minutes, stirring constantly, until it begins to darken in color.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="3" data-defaultunit="large" data-quantity="3" data-unit="large" class="tooltip scalable">tomatoes</span>, <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">ginger</span>, <span data-default="0.5" data-defaultunit="cup" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">ground almonds</span>, <span data-default="1" data-defaultunit="cup" data-quantity="1" data-unit="cup" class="tooltip scalable">coconut milk</span>, <span data-default="1.5" data-defaultunit="cups" data-quantity="1&frac12;" data-unit="cups" class="tooltip scalable">yogurt</span>, <span data-default="0.5" data-defaultunit="" data-quantity="&frac12;" data-unit="" class="tooltip scalable">red chilli</span>, pre-measured spices, and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">brown sugar</span>. Stir well.</li>
+                <li itemprop="recipeInstructions">Turn the heat down to low and simmer <b>30</b> minutes. Cut the <span data-default="3" data-defaultunit="lbs" data-quantity="3" data-unit="lbs" class="tooltip scalable">chicken</span> into bite-sized pieces and add to the pan; simmer for an additional <b>15</b> minutes. Serve with steamed basmati rice and/or naan.</li>
                 </ol>
 
             <hr>

@@ -13,7 +13,7 @@
         <title>Chicken & broccoli noodles | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -42,40 +42,53 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g packet egg noodles</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="g packet">g packet</span> egg noodles</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="350" class="scalable">350</span> g broccoli florets</li>
+                        <span data-default="350" class="scalable">350</span>
+                        <span data-unit="g">g</span> broccoli florets</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp olive oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2.5" class="scalable">2½</span> cm piece ginger, grated</li>
+                        <span data-default="2.5" class="scalable">2½</span>
+                        <span data-unit="cm piece">cm piece</span> ginger, grated</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> cloves garlic, finely sliced</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="cloves">cloves</span> garlic, finely sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> boneless skinless chicken breasts, cut into thin strips</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> boneless skinless chicken breasts, cut into thin strips</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> bunch spring onions, trimmed and cut in half horizontally</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="bunch">bunch</span> spring onions, trimmed and cut in half horizontally</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsp light soy sauce</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsp">tbsp</span> light soy sauce</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> ml chicken stock</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="ml">ml</span> chicken stock</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Cook the <span data-default="250" data-quantity="250" data-unit="g packet" class="tooltip scalable">noodles</span> in a pan of salted water for <b>5</b> minutes, adding the <span data-default="350" data-quantity="350" data-unit="g" class="tooltip scalable">broccoli</span> for the last <b>2</b> minutes. Drain and set aside.  </li>
-                <li itemprop="recipeInstructions">Meanwhile, heat a wok until very hot. Add the oil, then stir in the <span data-default="2.5" data-quantity="2&frac12;" data-unit="cm piece" class="tooltip scalable">ginger</span> and <span data-default="4" data-quantity="4" data-unit="cloves" class="tooltip scalable">garlic</span>. Cook for <b>30</b> seconds, stirring. Add the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">chicken</span> strips and cook for <b>5</b> minutes, stirring often, until tinged brown. Add the <span data-default="1" data-quantity="1" data-unit="bunch" class="tooltip scalable">spring onions</span> and stir briefly to heat through.  </li>
-                <li itemprop="recipeInstructions">Mix the <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">soy sauce</span> and <span data-default="200" data-quantity="200" data-unit="ml" class="tooltip scalable">stock</span> together, and stir into the wok. Add the drained <span data-default="250" data-quantity="250" data-unit="g packet" class="tooltip scalable">noodles</span> and <span data-default="350" data-quantity="350" data-unit="g" class="tooltip scalable">broccoli</span>, season with black pepper and toss everything together. Serve immediately.</li>
+                <li itemprop="recipeInstructions">Cook the <span data-default="250" data-defaultunit="g packet" data-quantity="250" data-unit="g packet" class="tooltip scalable">noodles</span> in a pan of salted water for <b>5</b> minutes, adding the <span data-default="350" data-defaultunit="g" data-quantity="350" data-unit="g" class="tooltip scalable">broccoli</span> for the last <b>2</b> minutes. Drain and set aside.  </li>
+                <li itemprop="recipeInstructions">Meanwhile, heat a wok until very hot. Add the oil, then stir in the <span data-default="2.5" data-defaultunit="cm piece" data-quantity="2&frac12;" data-unit="cm piece" class="tooltip scalable">ginger</span> and <span data-default="4" data-defaultunit="cloves" data-quantity="4" data-unit="cloves" class="tooltip scalable">garlic</span>. Cook for <b>30</b> seconds, stirring. Add the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">chicken</span> strips and cook for <b>5</b> minutes, stirring often, until tinged brown. Add the <span data-default="1" data-defaultunit="bunch" data-quantity="1" data-unit="bunch" class="tooltip scalable">spring onions</span> and stir briefly to heat through.  </li>
+                <li itemprop="recipeInstructions">Mix the <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">soy sauce</span> and <span data-default="200" data-defaultunit="ml" data-quantity="200" data-unit="ml" class="tooltip scalable">stock</span> together, and stir into the wok. Add the drained <span data-default="250" data-defaultunit="g packet" data-quantity="250" data-unit="g packet" class="tooltip scalable">noodles</span> and <span data-default="350" data-defaultunit="g" data-quantity="350" data-unit="g" class="tooltip scalable">broccoli</span>, season with black pepper and toss everything together. Serve immediately.</li>
                 </ol>
 
             <hr>

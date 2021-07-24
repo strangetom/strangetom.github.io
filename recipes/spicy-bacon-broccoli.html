@@ -13,7 +13,7 @@
         <title>Spicy bacon broccoli | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,41 +47,55 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp groundnut oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> groundnut oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> whole red dried chillis, torn</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> whole red dried chillis, torn</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, crushed, peeled and finely chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, crushed, peeled and finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> inch fresh root ginger, peeled and finely grated</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="inch">inch</span> fresh root ginger, peeled and finely grated</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="180" class="scalable">180</span> g smoky bacon lardons, diced</li>
+                        <span data-default="180" class="scalable">180</span>
+                        <span data-unit="g">g</span> smoky bacon lardons, diced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g Tenderstem broccoli, washed, sliced to 1 inch pieces on the angle</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> Tenderstem broccoli, washed, sliced to 1 inch pieces on the angle</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large organic carrot, sliced in half lengthwise in the middle, half again, then 2 inch pieces on the angle</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> organic carrot, sliced in half lengthwise in the middle, half again, then 2 inch pieces on the angle</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp Shaosing rice wine</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> Shaosing rice wine</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp Chinkiang black rice vinegar</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> Chinkiang black rice vinegar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp low sodium light soy sauce</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> low sodium light soy sauce</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat a wok over high heat and add the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">groundnut oil</span>. Add to the wok, the <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="1" data-quantity="1" data-unit="inch" class="tooltip scalable">ginger</span>, then tear the dried chilli pieces, and toss for a few seconds. Then quickly add the <span data-default="180" data-quantity="180" data-unit="g" class="tooltip scalable">bacon lardons</span> and stir-fry for <b>1</b> minute until browned.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">Shaosing rice wine</span> or dry sherry. Then add the <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">carrot</span> and <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">Tenderstem broccoli</span> pieces and cook tossing for <b>1</b> minute. Season with <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">Chinkiang black rice vinegar</span>. Cook for <b>1</b> more minute until the veggies are crisp then add the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">light soy sauce</span>. Toss together well and then serve immediately with Jasmine rice. </li>
+                <li itemprop="recipeInstructions">Heat a wok over high heat and add the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">groundnut oil</span>. Add to the wok, the <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="1" data-defaultunit="inch" data-quantity="1" data-unit="inch" class="tooltip scalable">ginger</span>, then tear the dried chilli pieces, and toss for a few seconds. Then quickly add the <span data-default="180" data-defaultunit="g" data-quantity="180" data-unit="g" class="tooltip scalable">bacon lardons</span> and stir-fry for <b>1</b> minute until browned.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">Shaosing rice wine</span> or dry sherry. Then add the <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">carrot</span> and <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">Tenderstem broccoli</span> pieces and cook tossing for <b>1</b> minute. Season with <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">Chinkiang black rice vinegar</span>. Cook for <b>1</b> more minute until the veggies are crisp then add the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">light soy sauce</span>. Toss together well and then serve immediately with Jasmine rice. </li>
                 </ol>
 
             <hr>

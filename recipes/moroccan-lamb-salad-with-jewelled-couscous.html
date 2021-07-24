@@ -13,7 +13,7 @@
         <title>Moroccan lamb salad with jewelled couscous | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Lamb" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,44 +47,55 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g couscous</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> couscous</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="300" class="scalable">300</span> g Greek-style yogurt</li>
-                    <li itemprop="recipeIngredient">juice of 2 lemons</li>
+                        <span data-default="300" class="scalable">300</span>
+                        <span data-unit="g">g</span> Greek-style yogurt</li>
+                    <li itemprop="recipeIngredient"> juice of 2 lemons</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.5" class="scalable">1½</span> tbsp olive oil, plus extra to drizzle</li>
-                    <li itemprop="recipeIngredient">seeds from 1 pomegranate</li>
+                        <span data-default="1.5" class="scalable">1½</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil, plus extra to drizzle</li>
+                    <li itemprop="recipeIngredient"> seeds from 1 pomegranate</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 28 g pack mint, chopped, reserving a few leaves to garnish</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="28 g pack">28 g pack</span> mint, chopped, reserving a few leaves to garnish</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">0.5</span>x 30 g pack coriander, chopped</li>
+                        <span data-default="0.5" class="scalable">0.5</span>x <span data-unit="30 g pack">30 g pack</span> coriander, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp ras el hanout (Moroccan spice blend)</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> ras el hanout (Moroccan spice blend)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="12" class="scalable">12</span> lamb cutlets</li>
+                        <span data-default="12" class="scalable">12</span>
+                        <span data-unit=""></span> lamb cutlets</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> courgettes, cut lengthways into 3 mm slices</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> courgettes, cut lengthways into 3 mm slices</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> pitta breads or flatbreads, griddled or toasted to serve</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> pitta breads or flatbreads, griddled or toasted to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Put the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">couscous</span> in a large bowl, cover with <b>300</b> ml boiling water, season with salt and pepper and stir briefly. Cover with clingfilm and set aside for <b>5</b> minutes.</li>
-                <li itemprop="recipeInstructions">Combine the <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">yogurt</span> and the juice from <b>1</b> lemon in a bowl; season.</li>
-                <li itemprop="recipeInstructions">Use a fork to fluff up the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">couscous</span> grains; add the remaining lemon juice, <b>&frac12;</b> tablespoon of <span data-default="1.5" data-quantity="1&frac12;" data-unit="tbsp" class="tooltip scalable">olive oil</span>, pomegranate seeds and chopped herbs. Stir and season.</li>
-                <li itemprop="recipeInstructions">Heat a griddle pan until very hot. In a bowl, mix the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">ras el hanout</span> with <b>1</b> tablespoon <span data-default="1.5" data-quantity="1&frac12;" data-unit="tbsp" class="tooltip scalable">olive oil</span> and a pinch of salt and pepper, then brush onto the <span data-default="12" data-quantity="12" data-unit="" class="tooltip scalable">cutlets</span>. Griddle the lamb, in batches, for <b>2</b> minutes each side. Remove to a plate to&nbsp;rest. Return the griddle pan to the heat, cook the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">courgette</span> slices in batches for <b>2</b> minutes each side or until tender. Season to taste.</li>
-                <li itemprop="recipeInstructions">Serve the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">pittas or flatbreads</span> with the jewelled <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">couscous</span>, <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">courgette</span> and lamb <span data-default="12" data-quantity="12" data-unit="" class="tooltip scalable">cutlets</span>; finish with a spoonful of <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">yogurt</span>. Garnish with the <span data-default="1x" data-quantity="1x" data-unit="28 g pack" class="tooltip scalable">mint</span> leaves.</li>
+                <li itemprop="recipeInstructions">Put the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">couscous</span> in a large bowl, cover with <b>300</b> ml boiling water, season with salt and pepper and stir briefly. Cover with clingfilm and set aside for <b>5</b> minutes.</li>
+                <li itemprop="recipeInstructions">Combine the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">yogurt</span> and the juice from <b>1</b> lemon in a bowl; season.</li>
+                <li itemprop="recipeInstructions">Use a fork to fluff up the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">couscous</span> grains; add the remaining lemon juice, <b>&frac12;</b> tablespoon of <span data-default="1.5" data-defaultunit="tbsp" data-quantity="1&frac12;" data-unit="tbsp" class="tooltip scalable">olive oil</span>, pomegranate seeds and chopped herbs. Stir and season.</li>
+                <li itemprop="recipeInstructions">Heat a griddle pan until very hot. In a bowl, mix the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">ras el hanout</span> with <b>1</b> tablespoon <span data-default="1.5" data-defaultunit="tbsp" data-quantity="1&frac12;" data-unit="tbsp" class="tooltip scalable">olive oil</span> and a pinch of salt and pepper, then brush onto the <span data-default="12" data-defaultunit="" data-quantity="12" data-unit="" class="tooltip scalable">cutlets</span>. Griddle the lamb, in batches, for <b>2</b> minutes each side. Remove to a plate to&nbsp;rest. Return the griddle pan to the heat, cook the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">courgette</span> slices in batches for <b>2</b> minutes each side or until tender. Season to taste.</li>
+                <li itemprop="recipeInstructions">Serve the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">pittas or flatbreads</span> with the jewelled <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">couscous</span>, <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">courgette</span> and lamb <span data-default="12" data-defaultunit="" data-quantity="12" data-unit="" class="tooltip scalable">cutlets</span>; finish with a spoonful of <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">yogurt</span>. Garnish with the <span data-default="1x" data-defaultunit="28 g pack" data-quantity="1x" data-unit="28 g pack" class="tooltip scalable">mint</span> leaves.</li>
                 </ol>
 
             <hr>

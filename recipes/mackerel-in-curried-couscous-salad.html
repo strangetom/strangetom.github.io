@@ -13,7 +13,7 @@
         <title>Mackerel in curried couscous salad | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,41 +43,55 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp rogan josh curry paste</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> rogan josh curry paste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> mugs boiling water</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="mugs">mugs</span> boiling water</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> mug couscous</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="mug">mug</span> couscous</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> g sultanas</li>
+                        <span data-default="50" class="scalable">50</span>
+                        <span data-unit="g">g</span> sultanas</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g smoked mackerel fillets, skinned and flaked</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="g">g</span> smoked mackerel fillets, skinned and flaked</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> spring onions</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> spring onions</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> red pepper, chopped</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit=""></span> red pepper, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tomatoes, chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> tomatoes, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp freshly chopped coriander</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> freshly chopped coriander</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> cucumber, diced</li>
-                    <li itemprop="recipeIngredient">juice of lemon</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit=""></span> cucumber, diced</li>
+                    <li itemprop="recipeIngredient"> juice of lemon</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Put the <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">curry paste</span> in a bowl, add the <span data-default="2" data-quantity="2" data-unit="mugs" class="tooltip scalable">boiling water</span> and stir. Add the <span data-default="1" data-quantity="1" data-unit="mug" class="tooltip scalable">couscous</span> and <span data-default="50" data-quantity="50" data-unit="g" class="tooltip scalable">sultanas</span> and cover. Leave for <b>5</b> minutes.  </li>
+                <li itemprop="recipeInstructions">Put the <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">curry paste</span> in a bowl, add the <span data-default="2" data-defaultunit="mugs" data-quantity="2" data-unit="mugs" class="tooltip scalable">boiling water</span> and stir. Add the <span data-default="1" data-defaultunit="mug" data-quantity="1" data-unit="mug" class="tooltip scalable">couscous</span> and <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">sultanas</span> and cover. Leave for <b>5</b> minutes.  </li>
                 <li itemprop="recipeInstructions">Add the rest of the ingredients and gently stir. Season with salt and pepper.</li>
                 </ol>
 

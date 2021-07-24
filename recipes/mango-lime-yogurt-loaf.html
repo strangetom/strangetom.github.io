@@ -13,7 +13,7 @@
         <title>Mango & lime yogurt loaf | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Dessert" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,45 +43,58 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> g dried mango</li>
-                    <li itemprop="recipeIngredient">finely grated zest and juice 2 limes, plus 1½ - 2 tbsp juice for the icing (about 2 extra limes)</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="g">g</span> dried mango</li>
+                    <li itemprop="recipeIngredient"> finely grated zest and juice 2 limes, plus 1½ - 2 tbsp juice for the icing (about 2 extra limes)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="175" class="scalable">175</span> g plain flour</li>
+                        <span data-default="175" class="scalable">175</span>
+                        <span data-unit="g">g</span> plain flour</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp baking powder</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> baking powder</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> tsp fine sea salt</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit="tsp">tsp</span> fine sea salt</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g full-fat Greek-style yogurt</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="g">g</span> full-fat Greek-style yogurt</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="125" class="scalable">125</span> ml sunflower oil, plus extra for greasing</li>
+                        <span data-default="125" class="scalable">125</span>
+                        <span data-unit="ml">ml</span> sunflower oil, plus extra for greasing</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="175" class="scalable">175</span> g caster sugar, plus 2 tbsp</li>
+                        <span data-default="175" class="scalable">175</span>
+                        <span data-unit="g">g</span> caster sugar, plus 2 tbsp</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> large eggs</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="large">large</span> eggs</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> g icing sugar</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="g">g</span> icing sugar</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Chop the <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">mango</span> into small pieces, put in a bowl with the lime zest and <b>75</b> ml boiling water. Cover and leave for <b>10-15</b> minutes.</li>
+                <li itemprop="recipeInstructions">Chop the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">mango</span> into small pieces, put in a bowl with the lime zest and <b>75</b> ml boiling water. Cover and leave for <b>10-15</b> minutes.</li>
                 <li itemprop="recipeInstructions">Preheat the oven to <b>180</b>&deg;C, fan <b>160</b>&deg;C, Gas <b>4</b>. Grease and line a <b>900</b> g loaf tin (about <b>10</b> x <b>20</b> m on the base) with baking paper.</li>
-                <li itemprop="recipeInstructions">Sift the <span data-default="175" data-quantity="175" data-unit="g" class="tooltip scalable">flour</span>, <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">baking powder</span> and <span data-default="0.25" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">salt</span> into a bowl. Discard excess liquid from the <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">mango</span>, then add to the bowl. Toss through the <span data-default="175" data-quantity="175" data-unit="g" class="tooltip scalable">flour</span> until the <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">mango</span> pieces are coated.</li>
-                <li itemprop="recipeInstructions">Mix the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">yogurt</span>, <span data-default="125" data-quantity="125" data-unit="ml" class="tooltip scalable">oil</span>, <b>175</b> g <span data-default="175" data-quantity="175" data-unit="g" class="tooltip scalable">sugar</span> and <span data-default="3" data-quantity="3" data-unit="large" class="tooltip scalable">eggs</span> together in a large jug. Add to the <span data-default="175" data-quantity="175" data-unit="g" class="tooltip scalable">flour</span> and stir until smooth. Pour into the tin and bake for <b>1</b> hour or until a skewer inserted into the centre comes out clean.</li>
-                <li itemprop="recipeInstructions">Meanwhile, warm the juice of <b>2</b> limes and the <b>2</b> tablespoons of caster <span data-default="175" data-quantity="175" data-unit="g" class="tooltip scalable">sugar</span> together in a small pan until the <span data-default="175" data-quantity="175" data-unit="g" class="tooltip scalable">sugar</span> has dissolved. Set this syrup aside to cool.</li>
+                <li itemprop="recipeInstructions">Sift the <span data-default="175" data-defaultunit="g" data-quantity="175" data-unit="g" class="tooltip scalable">flour</span>, <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">baking powder</span> and <span data-default="0.25" data-defaultunit="tsp" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">salt</span> into a bowl. Discard excess liquid from the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">mango</span>, then add to the bowl. Toss through the <span data-default="175" data-defaultunit="g" data-quantity="175" data-unit="g" class="tooltip scalable">flour</span> until the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">mango</span> pieces are coated.</li>
+                <li itemprop="recipeInstructions">Mix the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">yogurt</span>, <span data-default="125" data-defaultunit="ml" data-quantity="125" data-unit="ml" class="tooltip scalable">oil</span>, <b>175</b> g <span data-default="175" data-defaultunit="g" data-quantity="175" data-unit="g" class="tooltip scalable">sugar</span> and <span data-default="3" data-defaultunit="large" data-quantity="3" data-unit="large" class="tooltip scalable">eggs</span> together in a large jug. Add to the <span data-default="175" data-defaultunit="g" data-quantity="175" data-unit="g" class="tooltip scalable">flour</span> and stir until smooth. Pour into the tin and bake for <b>1</b> hour or until a skewer inserted into the centre comes out clean.</li>
+                <li itemprop="recipeInstructions">Meanwhile, warm the juice of <b>2</b> limes and the <b>2</b> tablespoons of caster <span data-default="175" data-defaultunit="g" data-quantity="175" data-unit="g" class="tooltip scalable">sugar</span> together in a small pan until the <span data-default="175" data-defaultunit="g" data-quantity="175" data-unit="g" class="tooltip scalable">sugar</span> has dissolved. Set this syrup aside to cool.</li>
                 <li itemprop="recipeInstructions">Leave the cake to cool in its tin for <b>10</b> minutes, then spoon over the lime syrup and set aside to cool completely.</li>
-                <li itemprop="recipeInstructions">Turn the cake out onto a cooling rack and peel away the paper. Mix just enough of the extra lime juice with the <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">icing sugar</span> to give a thick, slightly runny icing. Drizzle it back and forth over the top of the cake and leave it to set. Serve cut into slices.</li>
+                <li itemprop="recipeInstructions">Turn the cake out onto a cooling rack and peel away the paper. Mix just enough of the extra lime juice with the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">icing sugar</span> to give a thick, slightly runny icing. Drizzle it back and forth over the top of the cake and leave it to set. Serve cut into slices.</li>
                 </ol>
 
             <hr>

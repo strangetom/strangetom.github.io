@@ -13,7 +13,7 @@
         <title>Aubergine goulash | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,42 +47,54 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large aubergine, cut into 1 inch dice</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> aubergine, cut into 1 inch dice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> carrots, sliced</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> carrots, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> white cabbage, thinly sliced</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit=""></span> white cabbage, thinly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g good quality tinned tomatoes</li>
+                        <span data-default="400" class="scalable">400</span>
+                        <span data-unit="g">g</span> good quality tinned tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> ml vegetable stock</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="ml">ml</span> vegetable stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g tin kidney beans, drained</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g tin">400 g tin</span> kidney beans, drained</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp smoked paprika</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> smoked paprika</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="70" class="scalable">70</span> g uncooked pasta</li>
-                    <li itemprop="recipeIngredient">black pepper</li>
-                    <li itemprop="recipeIngredient">sour cream, crusty bread, to serve (optional)</li>
+                        <span data-default="70" class="scalable">70</span>
+                        <span data-unit="g">g</span> uncooked pasta</li>
+                    <li itemprop="recipeIngredient"> black pepper</li>
+                    <li itemprop="recipeIngredient"> sour cream, crusty bread, to serve (optional)</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a very large saucepan or casserole dish, and add the diced <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">aubergine</span>, sliced <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">carrot</span>, and thinly sliced <span data-default="0.25" data-quantity="&frac14;" data-unit="" class="tooltip scalable">cabbage</span>. Cook over a medium heat for a few minutes, until slightly softened.</li>
-                <li itemprop="recipeInstructions">Add the tinned <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">tomatoes</span>, <span data-default="500" data-quantity="500" data-unit="ml" class="tooltip scalable">vegetable stock</span>, <span data-default="400" data-quantity="400" data-unit="g tin" class="tooltip scalable">kidney beans</span>, and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">smoked paprika</span>, and mix well to combine. Add a lid to the pan, and leave to simmer gently for around <b>30</b> minutes, until the vegetables are soft.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="70" data-quantity="70" data-unit="g" class="tooltip scalable">uncooked pasta</span> to the pan, and leave to cook for a further <b>15</b> minutes, or until the pasta is cooked to your liking. You can add an extra dash of water if you'd like the stew to be a bit more soupy. Season generously with black pepper, and serve with a dollop of sour cream (optional) and some crusty bread.</li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a very large saucepan or casserole dish, and add the diced <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">aubergine</span>, sliced <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">carrot</span>, and thinly sliced <span data-default="0.25" data-defaultunit="" data-quantity="&frac14;" data-unit="" class="tooltip scalable">cabbage</span>. Cook over a medium heat for a few minutes, until slightly softened.</li>
+                <li itemprop="recipeInstructions">Add the tinned <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">tomatoes</span>, <span data-default="500" data-defaultunit="ml" data-quantity="500" data-unit="ml" class="tooltip scalable">vegetable stock</span>, <span data-default="1x" data-defaultunit="400 g tin" data-quantity="1x" data-unit="400 g tin" class="tooltip scalable">kidney beans</span>, and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">smoked paprika</span>, and mix well to combine. Add a lid to the pan, and leave to simmer gently for around <b>30</b> minutes, until the vegetables are soft.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="70" data-defaultunit="g" data-quantity="70" data-unit="g" class="tooltip scalable">uncooked pasta</span> to the pan, and leave to cook for a further <b>15</b> minutes, or until the pasta is cooked to your liking. You can add an extra dash of water if you'd like the stew to be a bit more soupy. Season generously with black pepper, and serve with a dollop of sour cream (optional) and some crusty bread.</li>
                 </ol>
 
             <hr>

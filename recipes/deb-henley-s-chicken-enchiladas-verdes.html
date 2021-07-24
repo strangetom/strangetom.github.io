@@ -13,7 +13,7 @@
         <title>Deb Henley's chicken enchiladas verdes | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -42,34 +42,47 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 790 g tin tomatillos</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="790 g tin">790 g tin</span> tomatillos</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> serrano or other medium-hot green chillis</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> serrano or other medium-hot green chillis</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> clove of garlic</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="clove">clove</span> of garlic</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> small onion, chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="small">small</span> onion, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="bunch" class="scalable">bunch</span> fresh coriander, finely chopped</li>
+                        <span data-default="bunch" class="scalable">bunch</span>
+                        <span data-unit=""></span> fresh coriander, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> ml chicken stock</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="ml">ml</span> chicken stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="8-12" class="scalable">8-12</span> soft corn tortillas</li>
+                        <span data-default="8-12" class="scalable">8-12</span>
+                        <span data-unit=""></span> soft corn tortillas</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="325" class="scalable">325</span> g cooked chicken, shredded</li>
+                        <span data-default="325" class="scalable">325</span>
+                        <span data-unit="g">g</span> cooked chicken, shredded</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="150" class="scalable">150</span> ml double cream</li>
+                        <span data-default="150" class="scalable">150</span>
+                        <span data-unit="ml">ml</span> double cream</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> g Manchego cheese, grated</li>
-                    <li itemprop="recipeIngredient">sea salt</li>
+                        <span data-default="50" class="scalable">50</span>
+                        <span data-unit="g">g</span> Manchego cheese, grated</li>
+                    <li itemprop="recipeIngredient"> sea salt</li>
                 </ul>
             </div>
         
@@ -77,12 +90,12 @@
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Heat the oven to <b>180</b>&deg;C/Gas <b>4</b>.  </li>
-                <li itemprop="recipeInstructions">Drain the <span data-default="1x" data-quantity="1x" data-unit="790 g tin" class="tooltip scalable">tomatillos</span> and set them aside in a bowl.  </li>
-                <li itemprop="recipeInstructions">Pop the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">chillis</span> into a small pan and add <b>125</b> ml water. Bring to the boil and simmer for <b>5</b> minutes, then remove from the heat. Put the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">chillis</span> and their cooking water, the <span data-default="1x" data-quantity="1x" data-unit="790 g tin" class="tooltip scalable">tomatillos</span>, garlic and <span data-default="1" data-quantity="1" data-unit="small" class="tooltip scalable">onion</span> into a blender and blitz until smooth.  </li>
-                <li itemprop="recipeInstructions">Heat the tomatillo mixture (salsa verde) and <b>2</b> tbsp of chopped <span data-default="bunch" data-quantity="bunch" data-unit="" class="tooltip scalable">coriander</span> for about <b>5</b> minutes over a medium heat. Add the chicken <span data-default="100" data-quantity="100" data-unit="ml" class="tooltip scalable">stock</span>, season with salt and cook until it thickens up a little - about <b>4</b> minutes. </li>
-                <li itemprop="recipeInstructions">Wrap the <span data-default="8-12" data-quantity="8-12" data-unit="" class="tooltip scalable">tortillas</span> in a clean tea towl and steam them, preferably in a tiered steamer, over boiling water for <b>1-2</b> minutes.  </li>
-                <li itemprop="recipeInstructions">Put a good portion of the <span data-default="325" data-quantity="325" data-unit="g" class="tooltip scalable">shredded chicken</span> on to each tortilla, roll them up like fat cigars and lay them side by side in a baking dish. Pour over the salsa, then the <span data-default="150" data-quantity="150" data-unit="ml" class="tooltip scalable">cream</span> and finely sprinkle with the grated <span data-default="50" data-quantity="50" data-unit="g" class="tooltip scalable">cheese</span>. Bake in the oven for about <b>30</b> minutes.  </li>
-                <li itemprop="recipeInstructions">Serve sprinkled with the rest of the chopped <span data-default="bunch" data-quantity="bunch" data-unit="" class="tooltip scalable">coriander</span>.  </li>
+                <li itemprop="recipeInstructions">Drain the <span data-default="1x" data-defaultunit="790 g tin" data-quantity="1x" data-unit="790 g tin" class="tooltip scalable">tomatillos</span> and set them aside in a bowl.  </li>
+                <li itemprop="recipeInstructions">Pop the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">chillis</span> into a small pan and add <b>125</b> ml water. Bring to the boil and simmer for <b>5</b> minutes, then remove from the heat. Put the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">chillis</span> and their cooking water, the <span data-default="1x" data-defaultunit="790 g tin" data-quantity="1x" data-unit="790 g tin" class="tooltip scalable">tomatillos</span>, garlic and <span data-default="1" data-defaultunit="small" data-quantity="1" data-unit="small" class="tooltip scalable">onion</span> into a blender and blitz until smooth.  </li>
+                <li itemprop="recipeInstructions">Heat the tomatillo mixture (salsa verde) and <b>2</b> tbsp of chopped <span data-default="bunch" data-defaultunit="" data-quantity="bunch" data-unit="" class="tooltip scalable">coriander</span> for about <b>5</b> minutes over a medium heat. Add the chicken <span data-default="100" data-defaultunit="ml" data-quantity="100" data-unit="ml" class="tooltip scalable">stock</span>, season with salt and cook until it thickens up a little - about <b>4</b> minutes. </li>
+                <li itemprop="recipeInstructions">Wrap the <span data-default="8-12" data-defaultunit="" data-quantity="8-12" data-unit="" class="tooltip scalable">tortillas</span> in a clean tea towl and steam them, preferably in a tiered steamer, over boiling water for <b>1-2</b> minutes.  </li>
+                <li itemprop="recipeInstructions">Put a good portion of the <span data-default="325" data-defaultunit="g" data-quantity="325" data-unit="g" class="tooltip scalable">shredded chicken</span> on to each tortilla, roll them up like fat cigars and lay them side by side in a baking dish. Pour over the salsa, then the <span data-default="150" data-defaultunit="ml" data-quantity="150" data-unit="ml" class="tooltip scalable">cream</span> and finely sprinkle with the grated <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">cheese</span>. Bake in the oven for about <b>30</b> minutes.  </li>
+                <li itemprop="recipeInstructions">Serve sprinkled with the rest of the chopped <span data-default="bunch" data-defaultunit="" data-quantity="bunch" data-unit="" class="tooltip scalable">coriander</span>.  </li>
                 </ol>
 
             <hr>

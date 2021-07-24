@@ -13,7 +13,7 @@
         <title>Moroccan lamb | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Lamb" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,31 +47,39 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g lamb neck fillets, cut into bite-size pieces</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="g">g</span> lamb neck fillets, cut into bite-size pieces</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp paprika</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> paprika</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tsp ground cinnamon</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tsp">tsp</span> ground cinnamon</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span>x 400 g cans chopped tomatoes with olive oil and garlic</li>
+                        <span data-default="2" class="scalable">2</span>x <span data-unit="400 g cans">400 g cans</span> chopped tomatoes with olive oil and garlic</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp finely chopped parsley, plus extra to serve</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> finely chopped parsley, plus extra to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat a large, non-stick frying pan. Cook the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">lamb</span> well on all sides without adding extra oil. Tip in the spices, then fry for <b>1</b> min more until aromatic.</li>
-                <li itemprop="recipeInstructions">Pour in the <span data-default="2x" data-quantity="2x" data-unit="400 g cans" class="tooltip scalable">chopped tomatoes</span> and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">parsley</span>, bring to the boil, then simmer gently, with a lid on, for <b>30</b> mins or until the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">lamb</span> is tender. Serve sprinkled with more <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">parsley</span>.</li>
+                <li itemprop="recipeInstructions">Heat a large, non-stick frying pan. Cook the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">lamb</span> well on all sides without adding extra oil. Tip in the spices, then fry for <b>1</b> min more until aromatic.</li>
+                <li itemprop="recipeInstructions">Pour in the <span data-default="2x" data-defaultunit="400 g cans" data-quantity="2x" data-unit="400 g cans" class="tooltip scalable">chopped tomatoes</span> and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">parsley</span>, bring to the boil, then simmer gently, with a lid on, for <b>30</b> mins or until the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">lamb</span> is tender. Serve sprinkled with more <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">parsley</span>.</li>
                 </ol>
 
             <hr>

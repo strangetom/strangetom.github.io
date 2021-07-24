@@ -13,7 +13,7 @@
         <title>Mango chicken, bean & rice bake | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,52 +47,67 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
-                    <li itemprop="recipeIngredient">spring onions, chopped</li>
+                    <li itemprop="recipeIngredient"> spring onions, chopped</li>
                     <li itemprop="recipeIngredient">thumb-sized piece ginger, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> cloves garlic</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="cloves">cloves</span> garlic</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> red chilli, deseeded</li>
-                    <li itemprop="recipeIngredient">freshly chopped coriander</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> red chilli, deseeded</li>
+                    <li itemprop="recipeIngredient"> freshly chopped coriander</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp thyme leaf</li>
-                    <li itemprop="recipeIngredient">zest and juice 1 lime</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> thyme leaf</li>
+                    <li itemprop="recipeIngredient"> zest and juice 1 lime</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> lime cut into wedges to serve</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> lime cut into wedges to serve</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.5" class="scalable">1½</span> tsp ground allspice</li>
+                        <span data-default="1.5" class="scalable">1½</span>
+                        <span data-unit="tsp">tsp</span> ground allspice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp sunflower oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> sunflower oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="8" class="scalable">8</span> chicken drumsticks</li>
+                        <span data-default="8" class="scalable">8</span>
+                        <span data-unit=""></span> chicken drumsticks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="300" class="scalable">300</span> g long grain rice</li>
+                        <span data-default="300" class="scalable">300</span>
+                        <span data-unit="g">g</span> long grain rice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g can kidney beans, rinsed and drained</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g can">400 g can</span> kidney beans, rinsed and drained</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> ml chicken stock</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="ml">ml</span> chicken stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> ripe mango, peeled stoned and cut into bite-sized chunks</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> ripe mango, peeled stoned and cut into bite-sized chunks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g mango chutney, plus extra to serve (optional)</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> mango chutney, plus extra to serve (optional)</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Put the spring onions, <span data-default="" data-quantity="" data-unit="thumb-sized piece" class="tooltip scalable">ginger</span>, <span data-default="3" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span>, chilli, coriander stalks, <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">thyme</span>, lime zest and juice, <span data-default="1.5" data-quantity="1&frac12;" data-unit="tsp" class="tooltip scalable">allspice</span> and <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a food processor, then blend to a paste. Pour over the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">chicken drumsticks</span> and leave to marinate for at least <b>1</b> hr, or preferably up to <b>1</b> day.  </li>
-                <li itemprop="recipeInstructions">Heat oven to <b>180</b>&deg;C/Gas <b>4</b>. Tip the <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">rice</span> and <span data-default="400" data-quantity="400" data-unit="g can" class="tooltip scalable">beans</span> into a large roasting tin with deep sides.  </li>
-                <li itemprop="recipeInstructions">Remove the chicken from the marinade and set aside. Mix the <span data-default="500" data-quantity="500" data-unit="ml" class="tooltip scalable">stock</span> into the marinade in the bowl and stir well. Pour the <span data-default="500" data-quantity="500" data-unit="ml" class="tooltip scalable">stock</span> over the <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">rice</span> and <span data-default="400" data-quantity="400" data-unit="g can" class="tooltip scalable">beans</span>, then put the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">chicken drumsticks</span> and the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">mango</span> pieces on top. Cover the tray tightly with foil and bake for <b>30</b> mins.  </li>
-                <li itemprop="recipeInstructions">Take the tray out of the oven and remove the foil. Increase the temperature to <b>220</b>&deg;C/Gas <b>7</b>. Spoon the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">mango chutney</span> over the drumsticks and return to the oven, uncovered, for <b>35-40</b> mins, to brown the chicken pieces and allow the <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">rice</span> to absorb all the liquid.  </li>
-                <li itemprop="recipeInstructions">Before serving, fluff up the <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">rice</span> a little with a fork and scatter with the coriander leaves. Serve with lime wedges and extra <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">mango chutney</span>.  </li>
+                <li itemprop="recipeInstructions">Put the spring onions, <span data-default="" data-defaultunit="thumb-sized piece" data-quantity="" data-unit="thumb-sized piece" class="tooltip scalable">ginger</span>, <span data-default="3" data-defaultunit="cloves" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span>, chilli, coriander stalks, <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">thyme</span>, lime zest and juice, <span data-default="1.5" data-defaultunit="tsp" data-quantity="1&frac12;" data-unit="tsp" class="tooltip scalable">allspice</span> and <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a food processor, then blend to a paste. Pour over the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">chicken drumsticks</span> and leave to marinate for at least <b>1</b> hr, or preferably up to <b>1</b> day.  </li>
+                <li itemprop="recipeInstructions">Heat oven to <b>180</b>&deg;C/Gas <b>4</b>. Tip the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">rice</span> and <span data-default="1x" data-defaultunit="400 g can" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">beans</span> into a large roasting tin with deep sides.  </li>
+                <li itemprop="recipeInstructions">Remove the chicken from the marinade and set aside. Mix the <span data-default="500" data-defaultunit="ml" data-quantity="500" data-unit="ml" class="tooltip scalable">stock</span> into the marinade in the bowl and stir well. Pour the <span data-default="500" data-defaultunit="ml" data-quantity="500" data-unit="ml" class="tooltip scalable">stock</span> over the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">rice</span> and <span data-default="1x" data-defaultunit="400 g can" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">beans</span>, then put the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">chicken drumsticks</span> and the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">mango</span> pieces on top. Cover the tray tightly with foil and bake for <b>30</b> mins.  </li>
+                <li itemprop="recipeInstructions">Take the tray out of the oven and remove the foil. Increase the temperature to <b>220</b>&deg;C/Gas <b>7</b>. Spoon the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">mango chutney</span> over the drumsticks and return to the oven, uncovered, for <b>35-40</b> mins, to brown the chicken pieces and allow the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">rice</span> to absorb all the liquid.  </li>
+                <li itemprop="recipeInstructions">Before serving, fluff up the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">rice</span> a little with a fork and scatter with the coriander leaves. Serve with lime wedges and extra <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">mango chutney</span>.  </li>
                 </ol>
 
             <hr>

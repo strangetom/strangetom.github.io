@@ -13,7 +13,7 @@
         <title>Citrus-glazed pork chops with gingery bok choy | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,43 +43,56 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> inch piece fresh ginger, peeled and grated</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="inch piece">inch piece</span> fresh ginger, peeled and grated</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp rice vinegar</li>
-                    <li itemprop="recipeIngredient">Kosher salt and black pepper</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> rice vinegar</li>
+                    <li itemprop="recipeIngredient"> Kosher salt and black pepper</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> lb large or baby bok choy</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="lb">lb</span> large or baby bok choy</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp neutral oil, like canola or grapeseed, plus more as needed</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> neutral oil, like canola or grapeseed, plus more as needed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> (1.5" thick) bone-in pork loin chops (about 2½ pounds)</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit=""></span> (1.5" thick) bone-in pork loin chops (about 2½ pounds)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.5" class="scalable">1½</span> tbsp light brown sugar</li>
+                        <span data-default="1.5" class="scalable">1½</span>
+                        <span data-unit="tbsp">tbsp</span> light brown sugar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> whole orange, cut in half crosswise, seeds removed, plus ¾ cup fresh orange juice</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> whole orange, cut in half crosswise, seeds removed, plus ¾ cup fresh orange juice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> shallots, peeled and quartered</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> shallots, peeled and quartered</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> cloves garlic, smashed</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="cloves">cloves</span> garlic, smashed</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">In a medium bowl, combine the <span data-default="2" data-quantity="2" data-unit="inch piece" class="tooltip scalable">ginger</span> and <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">rice vinegar</span>. Season with salt and pepper. Set aside.</li>
-                <li itemprop="recipeInstructions">Trim the <span data-default="1" data-quantity="1" data-unit="lb" class="tooltip scalable">bok choy</span> and cut into <b>3</b>- to <b>4</b>-inch pieces, if large, or cut down the middle lengthwise, if using baby <span data-default="1" data-quantity="1" data-unit="lb" class="tooltip scalable">bok choy</span>. Heat <b>1</b> tablespoon <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a large (<b>12</b>-inch) skillet over medium-high heat. Working in batches, add the <span data-default="1" data-quantity="1" data-unit="lb" class="tooltip scalable">bok choy</span> to the pan, cut-side down, if using baby <span data-default="1" data-quantity="1" data-unit="lb" class="tooltip scalable">bok choy</span>, and sear on one side until golden brown, <b>3</b> to <b>4</b> minutes. Add additional <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span>, if necessary. Flip to cook on the other side until just tender, about <b>1</b> minute. Transfer <span data-default="1" data-quantity="1" data-unit="lb" class="tooltip scalable">bok choy</span> to the <span data-default="2" data-quantity="2" data-unit="inch piece" class="tooltip scalable">ginger</span> marinade and toss to coat. Season to taste with salt and pepper and set aside.</li>
-                <li itemprop="recipeInstructions">Rub both sides of the <span data-default="3" data-quantity="3" data-unit="" class="tooltip scalable">pork chops</span> with the <span data-default="1.5" data-quantity="1&frac12;" data-unit="tbsp" class="tooltip scalable">brown sugar</span> and season generously with salt. Heat the remaining <b>1</b> tablespoon <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in the skillet over medium heat. Arrange chops and orange halves in the skillet, cut-side down. Sear one side of the pork (without moving it) until deep brown, <b>5</b> to <b>6</b> minutes. Flip the pork but leave the orange undisturbed. Cook on medium-low until the pork is browned on both sides and the orange halves are charred, <b>4</b> to <b>5</b> minutes. Move the orange to a serving platter and the pork to a plate.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">shallots</span> and <span data-default="4" data-quantity="4" data-unit="cloves" class="tooltip scalable">garlic</span> to skillet and cook until softened and starting to brown, about <b>3</b> minutes. Add all the <span data-default="3" data-quantity="3" data-unit="" class="tooltip scalable">pork chops</span> and any accumulated juices back to the pan, overlapping if necessary. Add the orange juice and <b>&frac14;</b> cup water. Bring the liquid to a simmer, swirling the pan to release any bits stuck to the bottom. Cover and cook for <b>3</b> minutes, then uncover and cook until the pork is cooked through, <b>6</b> to <b>8</b> minutes. Transfer the cooked chops to a board and allow the sauce to continue cooking until reduced and sticky, <b>2</b> to <b>3</b> minutes. Remove from heat.</li>
-                <li itemprop="recipeInstructions">Transfer the <span data-default="1" data-quantity="1" data-unit="lb" class="tooltip scalable">bok choy</span> to the serving platter. Slice the pork and transfer to the platter along with any accumulated juices from the meat. Spoon the pan sauce and squeeze the caramelized orange halves over the top.</li>
+                <li itemprop="recipeInstructions">In a medium bowl, combine the <span data-default="2" data-defaultunit="inch piece" data-quantity="2" data-unit="inch piece" class="tooltip scalable">ginger</span> and <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">rice vinegar</span>. Season with salt and pepper. Set aside.</li>
+                <li itemprop="recipeInstructions">Trim the <span data-default="1" data-defaultunit="lb" data-quantity="1" data-unit="lb" class="tooltip scalable">bok choy</span> and cut into <b>3</b>- to <b>4</b>-inch pieces, if large, or cut down the middle lengthwise, if using baby <span data-default="1" data-defaultunit="lb" data-quantity="1" data-unit="lb" class="tooltip scalable">bok choy</span>. Heat <b>1</b> tablespoon <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a large (<b>12</b>-inch) skillet over medium-high heat. Working in batches, add the <span data-default="1" data-defaultunit="lb" data-quantity="1" data-unit="lb" class="tooltip scalable">bok choy</span> to the pan, cut-side down, if using baby <span data-default="1" data-defaultunit="lb" data-quantity="1" data-unit="lb" class="tooltip scalable">bok choy</span>, and sear on one side until golden brown, <b>3</b> to <b>4</b> minutes. Add additional <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span>, if necessary. Flip to cook on the other side until just tender, about <b>1</b> minute. Transfer <span data-default="1" data-defaultunit="lb" data-quantity="1" data-unit="lb" class="tooltip scalable">bok choy</span> to the <span data-default="2" data-defaultunit="inch piece" data-quantity="2" data-unit="inch piece" class="tooltip scalable">ginger</span> marinade and toss to coat. Season to taste with salt and pepper and set aside.</li>
+                <li itemprop="recipeInstructions">Rub both sides of the <span data-default="3" data-defaultunit="" data-quantity="3" data-unit="" class="tooltip scalable">pork chops</span> with the <span data-default="1.5" data-defaultunit="tbsp" data-quantity="1&frac12;" data-unit="tbsp" class="tooltip scalable">brown sugar</span> and season generously with salt. Heat the remaining <b>1</b> tablespoon <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in the skillet over medium heat. Arrange chops and orange halves in the skillet, cut-side down. Sear one side of the pork (without moving it) until deep brown, <b>5</b> to <b>6</b> minutes. Flip the pork but leave the orange undisturbed. Cook on medium-low until the pork is browned on both sides and the orange halves are charred, <b>4</b> to <b>5</b> minutes. Move the orange to a serving platter and the pork to a plate.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">shallots</span> and <span data-default="4" data-defaultunit="cloves" data-quantity="4" data-unit="cloves" class="tooltip scalable">garlic</span> to skillet and cook until softened and starting to brown, about <b>3</b> minutes. Add all the <span data-default="3" data-defaultunit="" data-quantity="3" data-unit="" class="tooltip scalable">pork chops</span> and any accumulated juices back to the pan, overlapping if necessary. Add the orange juice and <b>&frac14;</b> cup water. Bring the liquid to a simmer, swirling the pan to release any bits stuck to the bottom. Cover and cook for <b>3</b> minutes, then uncover and cook until the pork is cooked through, <b>6</b> to <b>8</b> minutes. Transfer the cooked chops to a board and allow the sauce to continue cooking until reduced and sticky, <b>2</b> to <b>3</b> minutes. Remove from heat.</li>
+                <li itemprop="recipeInstructions">Transfer the <span data-default="1" data-defaultunit="lb" data-quantity="1" data-unit="lb" class="tooltip scalable">bok choy</span> to the serving platter. Slice the pork and transfer to the platter along with any accumulated juices from the meat. Spoon the pan sauce and squeeze the caramelized orange halves over the top.</li>
                 </ol>
 
             <hr>

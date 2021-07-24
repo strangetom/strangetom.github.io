@@ -7,13 +7,13 @@
         <meta name="theme-color" content="#3d4146"/>
         <meta property="og:title" content="Superhealthy pizza | Stranger Foods">
         <meta property="og:description" content="Superhealthy pizza">
-        <meta property="og:image" content="https://www.strangerfoods.org/img/Veggie.svg">
+        <meta property="og:image" content="https://www.strangerfoods.org/images/Superhealthy_pizza.webp">
         <meta property="og:url" content="https://www.strangerfoods.org/recipes/superhealthy-pizza.html">
         <meta name="twitter:card" content="summary_large_image">
         <title>Superhealthy pizza | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -26,8 +26,8 @@
             <h1 itemprop="name">Superhealthy pizza</h1>
 
             <meta itemprop="totalTime" content=PT45M>
-            <meta itemprop="prepTime" content=PTM>
-            <meta itemprop="performTime" content=PTMM>
+            <meta itemprop="prepTime" content=PT33M>
+            <meta itemprop="performTime" content=PT12M>
             <meta itemprop="recipeYield" content="2 servings">
             <span class="recipe-meta Veggie">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="#fff" stroke-width="10"/><path stroke="#fff" fill="none" stroke-width="10" d="M50 15v35l25 25"/></svg>
@@ -39,45 +39,60 @@
             </span>
 
             <span class="recipe-meta Veggie">Vegetarian</span>
-            <img itemprop="image" class="recipe-image" src="../img/Veggie.svg" alt="Recipe image" width="512" height="288">
+            <img itemprop="image" class="recipe-image" src="../images/Superhealthy_pizza.webp" alt="Recipe image" width="512" height="288">
             <p itemprop="description">Homemade pizza is easier to make than you think and needn't be loaded with fat. The portions are quite generous, so any lefovers can be enjoyed cold for lunch the next day.</p>
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> g each strong white and wholewheat flour</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> flour, half strong white flour, half wholewheat flour</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="7" class="scalable">7</span> g sachet fast-action dried yeast</li>
+                        <span data-default="7" class="scalable">7</span>
+                        <span data-unit="g">g</span> sachet fast-action dried yeast</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="125" class="scalable">125</span> ml warm water</li>
+                        <span data-default="125" class="scalable">125</span>
+                        <span data-unit="ml">ml</span> warm water</li>
                 </ul>
                 <details open>
                     <summary class="ingredient-subheading">For the topping</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="200" class="scalable">200</span> g can chopped tomatoes, juice drained</li>
+                            <span data-default="200" class="scalable">200</span>
+                            <span data-unit="g can">g can</span> chopped tomatoes, juice drained</li>
                         <li itemprop="recipeIngredient">handful cherry tomatoes, halved</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> large courgette, thinly sliced using a peeler</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="large">large</span> courgette, thinly sliced using a peeler</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="25" class="scalable">25</span> g mozzarella, torn into pieces</li>
+                            <span data-default="25" class="scalable">25</span>
+                            <span data-unit="g">g</span> mozzarella, torn into pieces</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tsp capers</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tsp">tsp</span> capers</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="8" class="scalable">8</span> pitted olives, roughly chopped</li>
+                            <span data-default="8" class="scalable">8</span>
+                            <span data-unit=""></span> pitted olives, roughly chopped</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> clove garlic, finely chopped</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="clove">clove</span> garlic, finely chopped</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> olive oil</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable"></span> tbsp chopped parsley (optional)</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tbsp">tbsp</span> chopped parsley (optional)</li>
                     </ul>
                 </details>
             </div>
@@ -85,9 +100,9 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Mix the <span data-default="100" data-quantity="100" data-unit="g each" class="tooltip scalable">flours</span> and <span data-default="7" data-quantity="7" data-unit="g" class="tooltip scalable">yeast</span> in a bowl, Pour in the <span data-default="125" data-quantity="125" data-unit="ml" class="tooltip scalable">water</span> and mix to a soft dough. Tip out onto a very lightly floured surface and knead for <b>5</b> mins until smooth and elastic. Press or roll out to around about <b>30</b> cm across then lift onto an oiled baking sheet.</li>
-                <li itemprop="recipeInstructions">Spread the canned tomatoes over the dough to within <b>2</b> cm of the edges. Arrange the <span data-default="" data-quantity="" data-unit="handful" class="tooltip scalable">cherry tomatoes</span> and <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">courgette</span> over the top, then scatter with the <span data-default="25" data-quantity="25" data-unit="g" class="tooltip scalable">mozzarella</span>. Scatter the <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">capers</span>, <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">olives</span> and <span data-default="1" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span> over the top and drizzle evenly with the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span>. Cover lightly with cling film and leave to rise for <b>20</b> mins in a warm place.</li>
-                <li itemprop="recipeInstructions">Heat oven to <b>220</b>&deg;C/Gas <b>9</b> or the highest setting then bake the pizza for <b>10-12</b> mins until crise and golden aroun edges. Scatter with the parsley, if using: and serve in wedges with salad.</li>
+                <li itemprop="recipeInstructions">Mix the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">flours</span> and <span data-default="7" data-defaultunit="g" data-quantity="7" data-unit="g" class="tooltip scalable">yeast</span> in a bowl, Pour in the <span data-default="125" data-defaultunit="ml" data-quantity="125" data-unit="ml" class="tooltip scalable">water</span> and mix to a soft dough. Tip out onto a very lightly floured surface and knead for <b>5</b> mins until smooth and elastic. Press or roll out to around about <b>30</b> cm across then lift onto an oiled baking sheet.</li>
+                <li itemprop="recipeInstructions">Spread the <span data-default="200" data-defaultunit="g can" data-quantity="200" data-unit="g can" class="tooltip scalable">canned tomatoes</span> over the dough to within <b>2</b> cm of the edges. Arrange the <span data-default="" data-defaultunit="handful" data-quantity="" data-unit="handful" class="tooltip scalable">cherry tomatoes</span> and <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">courgette</span> over the top, then scatter with the <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">mozzarella</span>. Scatter the <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">capers</span>, <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">olives</span> and <span data-default="1" data-defaultunit="clove" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span> over the top and drizzle evenly with the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span>. Cover lightly with cling film and leave to rise for <b>20</b> mins in a warm place.</li>
+                <li itemprop="recipeInstructions">Heat oven to <b>220</b>&deg;C/Gas <b>9</b> or the highest setting then bake the pizza for <b>10-12</b> mins until crisp and golden around edges. Scatter with the parsley, if using: and serve in wedges with salad.</li>
                 </ol>
 
             <hr>

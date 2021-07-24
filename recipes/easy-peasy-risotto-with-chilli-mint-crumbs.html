@@ -13,7 +13,7 @@
         <title>Easy peasy risotto with chilli & mint crumbs | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,43 +44,57 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil, plus a drizzle</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil, plus a drizzle</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> onion, chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> onion, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> cloves garlic, crushed</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="cloves">cloves</span> garlic, crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g risotto rice</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> risotto rice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> litre vegetable stock</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="litre">litre</span> vegetable stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="300" class="scalable">300</span> g frozen peas</li>
+                        <span data-default="300" class="scalable">300</span>
+                        <span data-unit="g">g</span> frozen peas</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="25" class="scalable">25</span> g Italian-style hard cheese, grated</li>
-                    <li itemprop="recipeIngredient">juice and zest 1 lemon</li>
+                        <span data-default="25" class="scalable">25</span>
+                        <span data-unit="g">g</span> Italian-style hard cheese, grated</li>
+                    <li itemprop="recipeIngredient"> juice and zest 1 lemon</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> slices leftover bread, a few days old is best</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="slices">slices</span> leftover bread, a few days old is best</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> frozen red chillies, or pinch of chilli flakes</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> frozen red chillies, or pinch of chilli flakes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> small bunch mint, chopped</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="small bunch">small bunch</span> mint, chopped</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large pan. Add the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and cook for <b>5</b> mins, then add the <span data-default="3" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span>. Stir in the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">rice</span> for <b>1-2</b> mins, then add the <span data-default="1" data-quantity="1" data-unit="litre" class="tooltip scalable">stock</span>, a little at a time, stirring continuously until the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">rice</span> is nearly cooked and the <span data-default="1" data-quantity="1" data-unit="litre" class="tooltip scalable">stock</span> has all been absorbed - this will take about <b>20</b> minutes. Meanwhile, tip the <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">peas</span> into a colander and run under the hot water tap until defrosted. Drain well, tip into a bowl and roughly mash with a potato masher.</li>
-                <li itemprop="recipeInstructions">Remove the risotto from the heat and stir in the <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">peas</span>, <span data-default="25" data-quantity="25" data-unit="g" class="tooltip scalable">cheese</span> and a squeeze of lemon juice.</li>
-                <li itemprop="recipeInstructions">Grate the <span data-default="2" data-quantity="2" data-unit="slices" class="tooltip scalable">bread</span> on a box grater into chunky crumbs. On the finer side of the grater, grate the frozen <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">chilli</span> if using. Heat a drizzle of <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a frying pan, add the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">chilli</span>, lemon zest and crumbs and cook for <b>2</b> mins until crispy, then add the <span data-default="0.5" data-quantity="&frac12;" data-unit="small bunch" class="tooltip scalable">mint</span> and sprinkle over the risotto before serving.</li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large pan. Add the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and cook for <b>5</b> mins, then add the <span data-default="3" data-defaultunit="cloves" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span>. Stir in the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">rice</span> for <b>1-2</b> mins, then add the <span data-default="1" data-defaultunit="litre" data-quantity="1" data-unit="litre" class="tooltip scalable">stock</span>, a little at a time, stirring continuously until the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">rice</span> is nearly cooked and the <span data-default="1" data-defaultunit="litre" data-quantity="1" data-unit="litre" class="tooltip scalable">stock</span> has all been absorbed - this will take about <b>20</b> minutes. Meanwhile, tip the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">peas</span> into a colander and run under the hot water tap until defrosted. Drain well, tip into a bowl and roughly mash with a potato masher.</li>
+                <li itemprop="recipeInstructions">Remove the risotto from the heat and stir in the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">peas</span>, <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">cheese</span> and a squeeze of lemon juice.</li>
+                <li itemprop="recipeInstructions">Grate the <span data-default="2" data-defaultunit="slices" data-quantity="2" data-unit="slices" class="tooltip scalable">bread</span> on a box grater into chunky crumbs. On the finer side of the grater, grate the frozen <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">chilli</span> if using. Heat a drizzle of <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a frying pan, add the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">chilli</span>, lemon zest and crumbs and cook for <b>2</b> mins until crispy, then add the <span data-default="0.5" data-defaultunit="small bunch" data-quantity="&frac12;" data-unit="small bunch" class="tooltip scalable">mint</span> and sprinkle over the risotto before serving.</li>
                 </ol>
 
             <hr>

@@ -13,7 +13,7 @@
         <title>Veggie shepherd's pie with sweet potato mash | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -48,44 +48,57 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large onion, halved and sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> onion, halved and sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> large carrots (500 g in total), cut into sugar-cube size pieces</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="large">large</span> carrots (500 g in total), cut into sugar-cube size pieces</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp thyme, chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> thyme, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> ml red wine</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="ml">ml</span> red wine</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g can chopped tomatoes</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g can">400 g can</span> chopped tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> vegetable stock cubes</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> vegetable stock cubes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="410" class="scalable">410</span> g can green lentils</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="410 g can">410 g can</span> green lentils</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="950" class="scalable">950</span> g sweet potatoes, peeled and cut into chunks</li>
+                        <span data-default="950" class="scalable">950</span>
+                        <span data-unit="g">g</span> sweet potatoes, peeled and cut into chunks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="25" class="scalable">25</span> g butter</li>
+                        <span data-default="25" class="scalable">25</span>
+                        <span data-unit="g">g</span> butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="85" class="scalable">85</span> g vegetarian mature cheddar, grated</li>
+                        <span data-default="85" class="scalable">85</span>
+                        <span data-unit="g">g</span> vegetarian mature cheddar, grated</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a frying pan, then fry the <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span> until golden. Add the <span data-default="2" data-quantity="2" data-unit="large" class="tooltip scalable">carrots</span> and all but a sprinkling of <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">thyme</span>. Pour in the <span data-default="200" data-quantity="200" data-unit="ml" class="tooltip scalable">wine</span>, <b>150</b>ml water and the <span data-default="400" data-quantity="400" data-unit="g can" class="tooltip scalable">tomatoes</span>, then sprinkle in the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">stock cubes</span> and simmer for <b>10</b> mins. Tip in the can of <span data-default="410" data-quantity="410" data-unit="g can" class="tooltip scalable">lentils</span>, including their juice, then cover and simmer for another <b>10</b> mins until the <span data-default="2" data-quantity="2" data-unit="large" class="tooltip scalable">carrots</span> still have a bit of bite and the <span data-default="410" data-quantity="410" data-unit="g can" class="tooltip scalable">lentils</span> are pulpy.</li>
-                <li itemprop="recipeInstructions">Meanwhile, boil the <span data-default="950" data-quantity="950" data-unit="g" class="tooltip scalable">sweet potatoes</span> for <b>15</b> mins until tender, drain well, then mash with the <span data-default="25" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span> and season to taste. </li>
-                <li itemprop="recipeInstructions">Pile the lentil mixture into a pie dish, spoon the mash on top, then sprinkle over the <span data-default="85" data-quantity="85" data-unit="g" class="tooltip scalable">cheese</span> and remaining <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">thyme</span>. The pie can now be covered and chilled for <b>2</b> days, or frozen for up to a month.</li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a frying pan, then fry the <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span> until golden. Add the <span data-default="2" data-defaultunit="large" data-quantity="2" data-unit="large" class="tooltip scalable">carrots</span> and all but a sprinkling of <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">thyme</span>. Pour in the <span data-default="200" data-defaultunit="ml" data-quantity="200" data-unit="ml" class="tooltip scalable">wine</span>, <b>150</b>ml water and the <span data-default="1x" data-defaultunit="400 g can" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">tomatoes</span>, then sprinkle in the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">stock cubes</span> and simmer for <b>10</b> mins. Tip in the can of <span data-default="1x" data-defaultunit="410 g can" data-quantity="1x" data-unit="410 g can" class="tooltip scalable">lentils</span>, including their juice, then cover and simmer for another <b>10</b> mins until the <span data-default="2" data-defaultunit="large" data-quantity="2" data-unit="large" class="tooltip scalable">carrots</span> still have a bit of bite and the <span data-default="1x" data-defaultunit="410 g can" data-quantity="1x" data-unit="410 g can" class="tooltip scalable">lentils</span> are pulpy.</li>
+                <li itemprop="recipeInstructions">Meanwhile, boil the <span data-default="950" data-defaultunit="g" data-quantity="950" data-unit="g" class="tooltip scalable">sweet potatoes</span> for <b>15</b> mins until tender, drain well, then mash with the <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span> and season to taste. </li>
+                <li itemprop="recipeInstructions">Pile the lentil mixture into a pie dish, spoon the mash on top, then sprinkle over the <span data-default="85" data-defaultunit="g" data-quantity="85" data-unit="g" class="tooltip scalable">cheese</span> and remaining <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">thyme</span>. The pie can now be covered and chilled for <b>2</b> days, or frozen for up to a month.</li>
                 <li itemprop="recipeInstructions">Heat oven to <b>170</b>&deg;C/Gas <b>5</b>. Cook for <b>20</b> mins if cooking straight away, or for <b>40</b> mins from chilled, until golden and hot all the way through. Serve with broccoli. </li>
                 </ol>
 

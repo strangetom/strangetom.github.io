@@ -13,7 +13,7 @@
         <title>Broccoli cheese soup | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,50 +44,66 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="700" class="scalable">700</span> g broccoli</li>
+                        <span data-default="700" class="scalable">700</span>
+                        <span data-unit="g">g</span> broccoli</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsps vegetable oil</li>
-                    <li itemprop="recipeIngredient">Kosher salt and freshly ground black pepper</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsps">tbsps</span> vegetable oil</li>
+                    <li itemprop="recipeIngredient"> Kosher salt and freshly ground black pepper</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="45" class="scalable">45</span> g unsalted butter</li>
+                        <span data-default="45" class="scalable">45</span>
+                        <span data-unit="g">g</span> unsalted butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> medium onion, sliced (about 6 ounces; 170g)</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="medium">medium</span> onion, sliced (about 6 ounces; 170g)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> medium carrot, peeled and finely diced (about 4 ounces; 120g)</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="medium">medium</span> carrot, peeled and finely diced (about 4 ounces; 120g)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> medium cloves garlic, thinly sliced</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="medium cloves">medium cloves</span> garlic, thinly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="475" class="scalable">475</span> ml water, or homemade or store-bought low-sodium chicken stock</li>
+                        <span data-default="475" class="scalable">475</span>
+                        <span data-unit="ml">ml</span> water, or homemade or store-bought low-sodium chicken stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="700" class="scalable">700</span> ml whole milk</li>
+                        <span data-default="700" class="scalable">700</span>
+                        <span data-unit="ml">ml</span> whole milk</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> small russet potato, peeled and sliced (about 4 ounces; 120g)</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="small">small</span> russet potato, peeled and sliced (about 4 ounces; 120g)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="340" class="scalable">340</span> g sharp cheddar cheese, grated (see note)</li>
+                        <span data-default="340" class="scalable">340</span>
+                        <span data-unit="g">g</span> sharp cheddar cheese, grated (see note)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="240" class="scalable">240</span> g deli-style American cheese, diced (see note)</li>
+                        <span data-default="240" class="scalable">240</span>
+                        <span data-unit="g">g</span> deli-style American cheese, diced (see note)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> g mustard powder</li>
-                    <li itemprop="recipeIngredient">Dash of hot sauce, such as Frank's RedHot</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="g">g</span> mustard powder</li>
+                    <li itemprop="recipeIngredient"> Dash of hot sauce, such as Frank's RedHot</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Separate <span data-default="700" data-quantity="700" data-unit="g" class="tooltip scalable">broccoli</span> into florets and stems. Cut florets into bite-size pieces and set aside. Roughly chop stems and reserve separately.</li>
-                <li itemprop="recipeInstructions">Heat <span data-default="2" data-quantity="2" data-unit="tbsps" class="tooltip scalable">oil</span> in a large Dutch oven over high heat until shimmering. Add <span data-default="700" data-quantity="700" data-unit="g" class="tooltip scalable">broccoli</span> florets and cook, without moving, until charred on the bottom, about <b>1</b> minute. Stir, season with salt and pepper, and continue cooking, stirring occasionally, until tender and charred on several surfaces, about <b>1</b> minute longer. Transfer to a rimmed baking sheet to cool.</li>
-                <li itemprop="recipeInstructions">Return Dutch oven to medium heat and add <span data-default="45" data-quantity="45" data-unit="g" class="tooltip scalable">butter</span>, <span data-default="1" data-quantity="1" data-unit="medium" class="tooltip scalable">onion</span>, <span data-default="1" data-quantity="1" data-unit="medium" class="tooltip scalable">carrot</span>, and <span data-default="700" data-quantity="700" data-unit="g" class="tooltip scalable">broccoli</span> stems. Season with salt and pepper and cook, stirring frequently, until tender but not browned, about <b>5</b> minutes, lowering heat if necessary. Add <span data-default="3" data-quantity="3" data-unit="medium cloves" class="tooltip scalable">garlic</span> and cook, stirring, until fragrant, about <b>30</b> seconds.</li>
-                <li itemprop="recipeInstructions">Add <span data-default="475" data-quantity="475" data-unit="ml" class="tooltip scalable">water</span> or chicken stock, <span data-default="700" data-quantity="700" data-unit="ml" class="tooltip scalable">milk</span>, and <span data-default="1" data-quantity="1" data-unit="small" class="tooltip scalable">potato</span> and bring to a boil over high heat. Reduce to a bare simmer and cook, stirring occasionally, until <span data-default="700" data-quantity="700" data-unit="g" class="tooltip scalable">broccoli</span> and <span data-default="1" data-quantity="1" data-unit="small" class="tooltip scalable">potato</span> are completely tender, about <b>30</b> minutes.</li>
-                <li itemprop="recipeInstructions">In a large bowl, toss both cheeses together along with <span data-default="3" data-quantity="3" data-unit="g" class="tooltip scalable">mustard powder</span>. Using an immersion blender or working in batches with a countertop blender, blend soup, adding cheese a handful at a time, until completely smooth. Stir in hot sauce and season to taste with salt and pepper. Stir in reserved <span data-default="700" data-quantity="700" data-unit="g" class="tooltip scalable">broccoli</span> florets and pulse with blender a few more times until a few pieces are broken down, but most bite-size pieces remain. Serve immediately.</li>
+                <li itemprop="recipeInstructions">Separate <span data-default="700" data-defaultunit="g" data-quantity="700" data-unit="g" class="tooltip scalable">broccoli</span> into florets and stems. Cut florets into bite-size pieces and set aside. Roughly chop stems and reserve separately.</li>
+                <li itemprop="recipeInstructions">Heat <span data-default="2" data-defaultunit="tbsps" data-quantity="2" data-unit="tbsps" class="tooltip scalable">oil</span> in a large Dutch oven over high heat until shimmering. Add <span data-default="700" data-defaultunit="g" data-quantity="700" data-unit="g" class="tooltip scalable">broccoli</span> florets and cook, without moving, until charred on the bottom, about <b>1</b> minute. Stir, season with salt and pepper, and continue cooking, stirring occasionally, until tender and charred on several surfaces, about <b>1</b> minute longer. Transfer to a rimmed baking sheet to cool.</li>
+                <li itemprop="recipeInstructions">Return Dutch oven to medium heat and add <span data-default="45" data-defaultunit="g" data-quantity="45" data-unit="g" class="tooltip scalable">butter</span>, <span data-default="1" data-defaultunit="medium" data-quantity="1" data-unit="medium" class="tooltip scalable">onion</span>, <span data-default="1" data-defaultunit="medium" data-quantity="1" data-unit="medium" class="tooltip scalable">carrot</span>, and <span data-default="700" data-defaultunit="g" data-quantity="700" data-unit="g" class="tooltip scalable">broccoli</span> stems. Season with salt and pepper and cook, stirring frequently, until tender but not browned, about <b>5</b> minutes, lowering heat if necessary. Add <span data-default="3" data-defaultunit="medium cloves" data-quantity="3" data-unit="medium cloves" class="tooltip scalable">garlic</span> and cook, stirring, until fragrant, about <b>30</b> seconds.</li>
+                <li itemprop="recipeInstructions">Add <span data-default="475" data-defaultunit="ml" data-quantity="475" data-unit="ml" class="tooltip scalable">water</span> or chicken stock, <span data-default="700" data-defaultunit="ml" data-quantity="700" data-unit="ml" class="tooltip scalable">milk</span>, and <span data-default="1" data-defaultunit="small" data-quantity="1" data-unit="small" class="tooltip scalable">potato</span> and bring to a boil over high heat. Reduce to a bare simmer and cook, stirring occasionally, until <span data-default="700" data-defaultunit="g" data-quantity="700" data-unit="g" class="tooltip scalable">broccoli</span> and <span data-default="1" data-defaultunit="small" data-quantity="1" data-unit="small" class="tooltip scalable">potato</span> are completely tender, about <b>30</b> minutes.</li>
+                <li itemprop="recipeInstructions">In a large bowl, toss both cheeses together along with <span data-default="3" data-defaultunit="g" data-quantity="3" data-unit="g" class="tooltip scalable">mustard powder</span>. Using an immersion blender or working in batches with a countertop blender, blend soup, adding cheese a handful at a time, until completely smooth. Stir in hot sauce and season to taste with salt and pepper. Stir in reserved <span data-default="700" data-defaultunit="g" data-quantity="700" data-unit="g" class="tooltip scalable">broccoli</span> florets and pulse with blender a few more times until a few pieces are broken down, but most bite-size pieces remain. Serve immediately.</li>
                 </ol>
 
             <hr>

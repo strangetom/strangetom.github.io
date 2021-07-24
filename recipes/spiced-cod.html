@@ -13,7 +13,7 @@
         <title>Spiced cod | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -42,42 +42,58 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <details open>
                     <summary class="ingredient-subheading">Sauce</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> clove garlic</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="clove">clove</span> garlic</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> red onion</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit=""></span> red onion</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> tsp turmeric</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit="tsp">tsp</span> turmeric</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp greshly grated ginger</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> greshly grated ginger</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> fat red chilli, deseeded and chopped</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit=""></span> fat red chilli, deseeded and chopped</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tsp fish sauce</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tsp">tsp</span> fish sauce</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> olive oil</li>
                     </ul>
                 </details>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="600" class="scalable">600</span> g cod fillets, cut into bitesized pieces</li>
+                        <span data-default="600" class="scalable">600</span>
+                        <span data-unit="g">g</span> cod fillets, cut into bitesized pieces</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp freshly chopped coriander</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> freshly chopped coriander</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.5" class="scalable">1½</span> mugs basmati rice</li>
+                        <span data-default="1.5" class="scalable">1½</span>
+                        <span data-unit="mugs">mugs</span> basmati rice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g mangetout</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> mangetout</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp toasted flaked almonds (optional)</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> toasted flaked almonds (optional)</li>
                 </ul>
             </div>
         
@@ -85,9 +101,9 @@
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Put the sauce ingredients in a blender and blitz.  </li>
-                <li itemprop="recipeInstructions">Put the <span data-default="600" data-quantity="600" data-unit="g" class="tooltip scalable">fish</span> in an oven proof dish and pour over the sauce. Season with salt and pepper and leave to marinade for about <b>30</b> minutes. Meanwhile, cook the rice. </li>
-                <li itemprop="recipeInstructions">Preheat the grill and place the <span data-default="600" data-quantity="600" data-unit="g" class="tooltip scalable">fish</span> under the grill for about <b>5</b> minutes on a high heat.  </li>
-                <li itemprop="recipeInstructions">Slice the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">mangetout</span> lengthways into thin strips, add to the rice pan and leave to simmer for a further <b>2</b> minutes. Add the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">almonds</span> and mix together. Serve with the <span data-default="600" data-quantity="600" data-unit="g" class="tooltip scalable">fish</span>.  </li>
+                <li itemprop="recipeInstructions">Put the <span data-default="600" data-defaultunit="g" data-quantity="600" data-unit="g" class="tooltip scalable">fish</span> in an oven proof dish and pour over the sauce. Season with salt and pepper and leave to marinade for about <b>30</b> minutes. Meanwhile, cook the rice. </li>
+                <li itemprop="recipeInstructions">Preheat the grill and place the <span data-default="600" data-defaultunit="g" data-quantity="600" data-unit="g" class="tooltip scalable">fish</span> under the grill for about <b>5</b> minutes on a high heat.  </li>
+                <li itemprop="recipeInstructions">Slice the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">mangetout</span> lengthways into thin strips, add to the rice pan and leave to simmer for a further <b>2</b> minutes. Add the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">almonds</span> and mix together. Serve with the <span data-default="600" data-defaultunit="g" data-quantity="600" data-unit="g" class="tooltip scalable">fish</span>.  </li>
                 </ol>
 
             <hr>

@@ -13,7 +13,7 @@
         <title>Mediterranean pork stew | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -46,42 +46,55 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="600" class="scalable">600</span> g lean pork medallions, fat trimmed</li>
+                        <span data-default="600" class="scalable">600</span>
+                        <span data-unit="g">g</span> lean pork medallions, fat trimmed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> onion, thinly sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> onion, thinly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> sticks celery, finely diced</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="sticks">sticks</span> celery, finely diced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> cloves garlic, crushed</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="cloves">cloves</span> garlic, crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp smoked paprika</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> smoked paprika</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp fennel seeds</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> fennel seeds</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g tin butter beans, drained and rinsed</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g tin">400 g tin</span> butter beans, drained and rinsed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="175" class="scalable">175</span> ml chick stock</li>
+                        <span data-default="175" class="scalable">175</span>
+                        <span data-unit="ml">ml</span> chick stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> sprigs rosemary, leaves picked</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="sprigs">sprigs</span> rosemary, leaves picked</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="12" class="scalable">12</span> cherry tomatoes</li>
+                        <span data-default="12" class="scalable">12</span>
+                        <span data-unit=""></span> cherry tomatoes</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Mist a large pan with cooking spray and set over a medium-high heat. In batches, sear the <span data-default="600" data-quantity="600" data-unit="g" class="tooltip scalable">pork</span> for <b>2</b> minutes of each side. Remove from the pan and set aside.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <span data-default="2" data-quantity="2" data-unit="sticks" class="tooltip scalable">celery</span> and <span data-default="3" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span> to the pan and cook for <b>6-8</b> minutes until soft. If the mixture starts to stick, add a splash of water to the pan.</li>
-                <li itemprop="recipeInstructions">Stir in the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">paprika</span> and <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">fennel seeds</span>, cook for <b>1</b> minute, then add the <span data-default="400" data-quantity="400" data-unit="g tin" class="tooltip scalable">butter beans</span>, <span data-default="175" data-quantity="175" data-unit="ml" class="tooltip scalable">stock</span> and <span data-default="2" data-quantity="2" data-unit="sprigs" class="tooltip scalable">rosemary</span>. Bring to a boil then reduce the heat to low. Return the <span data-default="600" data-quantity="600" data-unit="g" class="tooltip scalable">pork</span> to the pan, add the <span data-default="12" data-quantity="12" data-unit="" class="tooltip scalable">tomatoes</span>, then cover and simmer for <b>10</b> minutes. Remove the lid and continue to simmer for <b>5</b> minutes or until the <span data-default="600" data-quantity="600" data-unit="g" class="tooltip scalable">pork</span> is tender and the stew thickened.</li>
+                <li itemprop="recipeInstructions">Mist a large pan with cooking spray and set over a medium-high heat. In batches, sear the <span data-default="600" data-defaultunit="g" data-quantity="600" data-unit="g" class="tooltip scalable">pork</span> for <b>2</b> minutes of each side. Remove from the pan and set aside.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <span data-default="2" data-defaultunit="sticks" data-quantity="2" data-unit="sticks" class="tooltip scalable">celery</span> and <span data-default="3" data-defaultunit="cloves" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span> to the pan and cook for <b>6-8</b> minutes until soft. If the mixture starts to stick, add a splash of water to the pan.</li>
+                <li itemprop="recipeInstructions">Stir in the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">paprika</span> and <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">fennel seeds</span>, cook for <b>1</b> minute, then add the <span data-default="1x" data-defaultunit="400 g tin" data-quantity="1x" data-unit="400 g tin" class="tooltip scalable">butter beans</span>, <span data-default="175" data-defaultunit="ml" data-quantity="175" data-unit="ml" class="tooltip scalable">stock</span> and <span data-default="2" data-defaultunit="sprigs" data-quantity="2" data-unit="sprigs" class="tooltip scalable">rosemary</span>. Bring to a boil then reduce the heat to low. Return the <span data-default="600" data-defaultunit="g" data-quantity="600" data-unit="g" class="tooltip scalable">pork</span> to the pan, add the <span data-default="12" data-defaultunit="" data-quantity="12" data-unit="" class="tooltip scalable">tomatoes</span>, then cover and simmer for <b>10</b> minutes. Remove the lid and continue to simmer for <b>5</b> minutes or until the <span data-default="600" data-defaultunit="g" data-quantity="600" data-unit="g" class="tooltip scalable">pork</span> is tender and the stew thickened.</li>
                 </ol>
 
             <hr>

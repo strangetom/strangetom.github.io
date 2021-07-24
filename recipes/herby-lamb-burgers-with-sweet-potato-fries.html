@@ -13,7 +13,7 @@
         <title>Herby lamb burgers with sweet potato fries | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Lamb" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,30 +47,42 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g lamb mince</li>
+                        <span data-default="400" class="scalable">400</span>
+                        <span data-unit="g">g</span> lamb mince</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> small red onion, ½ grated ½ thinly sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="small">small</span> red onion, ½ grated ½ thinly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="handful" class="scalable">handful</span> parsley, roughly chopped</li>
+                        <span data-default="handful" class="scalable">handful</span>
+                        <span data-unit=""></span> parsley, roughly chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="handful" class="scalable">handful</span> mint, roughly chopped</li>
+                        <span data-default="handful" class="scalable">handful</span>
+                        <span data-unit=""></span> mint, roughly chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp olive oil, oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> olive oil, oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> sweet potatoes, cut into chips</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> sweet potatoes, cut into chips</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp light soy sauce</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> light soy sauce</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> bread rolls</li>
-                    <li itemprop="recipeIngredient">couple handfuls watercress</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> bread rolls</li>
+                    <li itemprop="recipeIngredient"> couple handfuls watercress</li>
                 </ul>
             </div>
         
@@ -78,9 +90,9 @@
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Heat oven to <b>200</b>&deg;C/Gas <b>6</b>. In a large bowl, toss the sweet potato chips with oil and soy sauce. Transfer to a shallow roasting tin and season with black pepper. Bake for <b>30-40</b> mins, until crisp.  </li>
-                <li itemprop="recipeInstructions">Meanwhile, mix the <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">lamb</span>, grated <span data-default="1" data-quantity="1" data-unit="small" class="tooltip scalable">onion</span> and herbs in a bowl with some seasoning, then divide the mix into <b>4</b> and shape into burgers.  </li>
+                <li itemprop="recipeInstructions">Meanwhile, mix the <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">lamb</span>, grated <span data-default="1" data-defaultunit="small" data-quantity="1" data-unit="small" class="tooltip scalable">onion</span> and herbs in a bowl with some seasoning, then divide the mix into <b>4</b> and shape into burgers.  </li>
                 <li itemprop="recipeInstructions">Heat a griddle pan until hot, rub the burgers with oil, and cook for <b>5-6</b> mins on each side, or until cooked through.  </li>
-                <li itemprop="recipeInstructions">Fill the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">bread rolls</span> with some watercress and a burger. Serve immediately.  </li>
+                <li itemprop="recipeInstructions">Fill the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">bread rolls</span> with some watercress and a burger. Serve immediately.  </li>
                 </ol>
 
             <hr>

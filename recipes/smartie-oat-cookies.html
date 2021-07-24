@@ -13,7 +13,7 @@
         <title>Smartie oat cookies | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Dessert" itemscope itemtype="https://schema.org/Recipe">
 
@@ -42,30 +42,42 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="125" class="scalable">125</span> g softened butter</li>
+                        <span data-default="125" class="scalable">125</span>
+                        <span data-unit="g">g</span> softened butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="210" class="scalable">210</span> g soft brown sugar</li>
+                        <span data-default="210" class="scalable">210</span>
+                        <span data-unit="g">g</span> soft brown sugar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp vanilla extract</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> vanilla extract</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> egg</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> egg</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="170" class="scalable">170</span> g self raising flour</li>
+                        <span data-default="170" class="scalable">170</span>
+                        <span data-unit="g">g</span> self raising flour</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="150" class="scalable">150</span> g smarties</li>
+                        <span data-default="150" class="scalable">150</span>
+                        <span data-unit="g">g</span> smarties</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> mug oats</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="mug">mug</span> oats</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp cocoa</li>
-                    <li itemprop="recipeIngredient">Smarties to decorate</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> cocoa</li>
+                    <li itemprop="recipeIngredient"> Smarties to decorate</li>
                 </ul>
             </div>
         
@@ -73,9 +85,9 @@
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Preheat the oven to <b>180</b>&deg;C/Gas <b>6</b>. Grease <b>2</b> baking trays.  </li>
-                <li itemprop="recipeInstructions">Beat the <span data-default="125" data-quantity="125" data-unit="g" class="tooltip scalable">butter</span> and <span data-default="210" data-quantity="210" data-unit="g" class="tooltip scalable">sugar</span> together. Add the <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">vanilla extract</span> and <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">egg</span> and beat well.  </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="170" data-quantity="170" data-unit="g" class="tooltip scalable">flour</span>, <span data-default="150" data-quantity="150" data-unit="g" class="tooltip scalable">smarties</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="mug" class="tooltip scalable">oats</span> and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">cocoa</span>. Mix to a stiff dough.  </li>
-                <li itemprop="recipeInstructions">Roll into a <b>30</b> cm 'sausage' and cut into about <b>34</b> cookies. Place on the baking trays. Leave space between them as they spread out. Press a few <span data-default="150" data-quantity="150" data-unit="g" class="tooltip scalable">smarties</span> in each to decorate.  </li>
+                <li itemprop="recipeInstructions">Beat the <span data-default="125" data-defaultunit="g" data-quantity="125" data-unit="g" class="tooltip scalable">butter</span> and <span data-default="210" data-defaultunit="g" data-quantity="210" data-unit="g" class="tooltip scalable">sugar</span> together. Add the <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">vanilla extract</span> and <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">egg</span> and beat well.  </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="170" data-defaultunit="g" data-quantity="170" data-unit="g" class="tooltip scalable">flour</span>, <span data-default="150" data-defaultunit="g" data-quantity="150" data-unit="g" class="tooltip scalable">smarties</span>, <span data-default="0.5" data-defaultunit="mug" data-quantity="&frac12;" data-unit="mug" class="tooltip scalable">oats</span> and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">cocoa</span>. Mix to a stiff dough.  </li>
+                <li itemprop="recipeInstructions">Roll into a <b>30</b> cm 'sausage' and cut into about <b>34</b> cookies. Place on the baking trays. Leave space between them as they spread out. Press a few <span data-default="150" data-defaultunit="g" data-quantity="150" data-unit="g" class="tooltip scalable">smarties</span> in each to decorate.  </li>
                 <li itemprop="recipeInstructions">Place in the oven for <b>15</b> minutes. The cookies should be crisp on the outside and a little chewy on the inside.</li>
                 </ol>
 

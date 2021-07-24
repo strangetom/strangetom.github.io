@@ -13,7 +13,7 @@
         <title>Five spice pork with ginger and honey | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,44 +44,61 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.5" class="scalable">1½</span> mugs basmati rice</li>
+                        <span data-default="1.5" class="scalable">1½</span>
+                        <span data-unit="mugs">mugs</span> basmati rice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp cornflour</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> cornflour</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tsp 5 spice powder</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tsp">tsp</span> 5 spice powder</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> pork steaks, thinly sliced</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> pork steaks, thinly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp toasted sesame oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> toasted sesame oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> green or red pepper, chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> green or red pepper, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="6" class="scalable">6</span> spring onions, chopped</li>
+                        <span data-default="6" class="scalable">6</span>
+                        <span data-unit=""></span> spring onions, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp freshly grated ginger</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> freshly grated ginger</li>
                 </ul>
                 <details open>
                     <summary class="ingredient-subheading">Sauce</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> mug water</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="mug">mug</span> water</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp cornflour</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> cornflour</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tbsp mirin</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tbsp">tbsp</span> mirin</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tbsp soy</li>
-                        <li itemprop="recipeIngredient">juice of ½ lime</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tbsp">tbsp</span> soy</li>
+                        <li itemprop="recipeIngredient"> juice of ½ lime</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tbsp honey</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tbsp">tbsp</span> honey</li>
                     </ul>
                 </details>
             </div>
@@ -89,12 +106,12 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Put the <span data-default="1.5" data-quantity="1&frac12;" data-unit="mugs" class="tooltip scalable">rice</span> on to cook in <b>3</b> mugs of boiling <span data-default="1" data-quantity="1" data-unit="mug" class="tooltip scalable">water</span>. Mix the sauce ingredients together.  </li>
-                <li itemprop="recipeInstructions">Mix the <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">cornflour</span> and <b>5</b> spice powder and place on a plate. Roll the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">pork</span> slices in the mixture, making sure to cover all the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">pork</span>. Season with salt and <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">pepper</span>.  </li>
-                <li itemprop="recipeInstructions">Heat the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a wok and fry the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">pork</span> for <b>1-2</b> minutes. Remove from the pan as soon as the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">pork</span> is cooked through.  </li>
-                <li itemprop="recipeInstructions">Add the peppers to the pan and fry for <b>1</b> minute. Add the <span data-default="6" data-quantity="6" data-unit="" class="tooltip scalable">onions</span> and <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">ginger</span> and fry for a further minute.  </li>
+                <li itemprop="recipeInstructions">Put the <span data-default="1.5" data-defaultunit="mugs" data-quantity="1&frac12;" data-unit="mugs" class="tooltip scalable">rice</span> on to cook in <b>3</b> mugs of boiling <span data-default="1" data-defaultunit="mug" data-quantity="1" data-unit="mug" class="tooltip scalable">water</span>. Mix the sauce ingredients together.  </li>
+                <li itemprop="recipeInstructions">Mix the <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">cornflour</span> and <b>5</b> spice powder and place on a plate. Roll the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">pork</span> slices in the mixture, making sure to cover all the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">pork</span>. Season with salt and <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">pepper</span>.  </li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a wok and fry the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">pork</span> for <b>1-2</b> minutes. Remove from the pan as soon as the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">pork</span> is cooked through.  </li>
+                <li itemprop="recipeInstructions">Add the peppers to the pan and fry for <b>1</b> minute. Add the <span data-default="6" data-defaultunit="" data-quantity="6" data-unit="" class="tooltip scalable">onions</span> and <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">ginger</span> and fry for a further minute.  </li>
                 <li itemprop="recipeInstructions">Add the sauce to the pan, bring to the boil and simmer for <b>1</b> minute.  </li>
-                <li itemprop="recipeInstructions">Serve with the <span data-default="1.5" data-quantity="1&frac12;" data-unit="mugs" class="tooltip scalable">rice</span>.</li>
+                <li itemprop="recipeInstructions">Serve with the <span data-default="1.5" data-defaultunit="mugs" data-quantity="1&frac12;" data-unit="mugs" class="tooltip scalable">rice</span>.</li>
                 </ol>
 
             <hr>

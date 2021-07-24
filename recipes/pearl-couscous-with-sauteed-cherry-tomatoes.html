@@ -13,7 +13,7 @@
         <title>Pearl couscous with sauteed cherry tomatoes | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -50,39 +50,51 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.33333" class="scalable">1⅓</span> cups pearl couscous</li>
+                        <span data-default="1.33333" class="scalable">1⅓</span>
+                        <span data-unit="cups">cups</span> pearl couscous</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> quarts water</li>
-                    <li itemprop="recipeIngredient">Salt to taste</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="quarts">quarts</span> water</li>
+                    <li itemprop="recipeIngredient"> Salt to taste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp extra-virgin olive oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> extra-virgin olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, minced or pureed</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, minced or pureed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> lb cherry tomatoes, the sweetest you can find, cut in half</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="lb">lb</span> cherry tomatoes, the sweetest you can find, cut in half</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> tsp sugar</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit="tsp">tsp</span> sugar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> sprig basil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="sprig">sprig</span> basil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp, or more, slivered basil leaves</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> tbsp, or more, slivered basil leaves</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat a large saucepan over medium-high heat and add <span data-default="1.33333" data-quantity="1&frac13;" data-unit="cups" class="tooltip scalable">couscous</span>. Toast <span data-default="1.33333" data-quantity="1&frac13;" data-unit="cups" class="tooltip scalable">couscous</span>, shaking pan or stirring often, until it colors very lightly and smells aromatic and toasty, a bit like popcorn. Immediately add <b>2</b> quarts <span data-default="2" data-quantity="2" data-unit="quarts" class="tooltip scalable">water</span> and salt to taste (be generous, as if you are cooking pasta) and boil <b>10</b> minutes, until <span data-default="1.33333" data-quantity="1&frac13;" data-unit="cups" class="tooltip scalable">couscous</span> is al dente; it should not be mushy, and there should still be plenty of <span data-default="2" data-quantity="2" data-unit="quarts" class="tooltip scalable">water</span> in the pot. Drain through a strainer and rinse with cold <span data-default="2" data-quantity="2" data-unit="quarts" class="tooltip scalable">water</span>. Tap strainer against sink to drain well, then return <span data-default="1.33333" data-quantity="1&frac13;" data-unit="cups" class="tooltip scalable">couscous</span> to the pot, cover pot with a kitchen towel, and return lid. Let sit for <b>10</b> minutes while you make the sauce.</li>
-                <li itemprop="recipeInstructions">In a wide, heavy skillet, heat olive oil over medium heat and add <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>. As soon as it begins to sizzle and smell fragrant, usually in about <b>30</b> seconds, add <span data-default="1" data-quantity="1" data-unit="lb" class="tooltip scalable">cherry tomatoes</span> and turn heat up to medium-high. Add <span data-default="0.25" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">sugar</span>, salt and <span data-default="1" data-quantity="1" data-unit="sprig" class="tooltip scalable">basil</span> sprig and cook, stirring often, until tomatoes collapse and skins shrivel. Some of the tomato pulp will be in the pan, and should thicken and caramelize slightly, but there should still be pulp inside the skins. This should only take about <b>5</b> minutes. Turn off heat and remove <span data-default="1" data-quantity="1" data-unit="sprig" class="tooltip scalable">basil</span> sprig. Taste and adjust seasonings. Add a little fresh pepper if desired.</li>
-                <li itemprop="recipeInstructions">Add <span data-default="1.33333" data-quantity="1&frac13;" data-unit="cups" class="tooltip scalable">couscous</span> to the pan along with slivered <span data-default="1" data-quantity="1" data-unit="sprig" class="tooltip scalable">basil</span>, stir together, and serve.</li>
+                <li itemprop="recipeInstructions">Heat a large saucepan over medium-high heat and add <span data-default="1.33333" data-defaultunit="cups" data-quantity="1&frac13;" data-unit="cups" class="tooltip scalable">couscous</span>. Toast <span data-default="1.33333" data-defaultunit="cups" data-quantity="1&frac13;" data-unit="cups" class="tooltip scalable">couscous</span>, shaking pan or stirring often, until it colors very lightly and smells aromatic and toasty, a bit like popcorn. Immediately add <b>2</b> quarts <span data-default="2" data-defaultunit="quarts" data-quantity="2" data-unit="quarts" class="tooltip scalable">water</span> and salt to taste (be generous, as if you are cooking pasta) and boil <b>10</b> minutes, until <span data-default="1.33333" data-defaultunit="cups" data-quantity="1&frac13;" data-unit="cups" class="tooltip scalable">couscous</span> is al dente; it should not be mushy, and there should still be plenty of <span data-default="2" data-defaultunit="quarts" data-quantity="2" data-unit="quarts" class="tooltip scalable">water</span> in the pot. Drain through a strainer and rinse with cold <span data-default="2" data-defaultunit="quarts" data-quantity="2" data-unit="quarts" class="tooltip scalable">water</span>. Tap strainer against sink to drain well, then return <span data-default="1.33333" data-defaultunit="cups" data-quantity="1&frac13;" data-unit="cups" class="tooltip scalable">couscous</span> to the pot, cover pot with a kitchen towel, and return lid. Let sit for <b>10</b> minutes while you make the sauce.</li>
+                <li itemprop="recipeInstructions">In a wide, heavy skillet, heat olive oil over medium heat and add <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>. As soon as it begins to sizzle and smell fragrant, usually in about <b>30</b> seconds, add <span data-default="1" data-defaultunit="lb" data-quantity="1" data-unit="lb" class="tooltip scalable">cherry tomatoes</span> and turn heat up to medium-high. Add <span data-default="0.25" data-defaultunit="tsp" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">sugar</span>, salt and <span data-default="1" data-defaultunit="sprig" data-quantity="1" data-unit="sprig" class="tooltip scalable">basil</span> sprig and cook, stirring often, until tomatoes collapse and skins shrivel. Some of the tomato pulp will be in the pan, and should thicken and caramelize slightly, but there should still be pulp inside the skins. This should only take about <b>5</b> minutes. Turn off heat and remove <span data-default="1" data-defaultunit="sprig" data-quantity="1" data-unit="sprig" class="tooltip scalable">basil</span> sprig. Taste and adjust seasonings. Add a little fresh pepper if desired.</li>
+                <li itemprop="recipeInstructions">Add <span data-default="1.33333" data-defaultunit="cups" data-quantity="1&frac13;" data-unit="cups" class="tooltip scalable">couscous</span> to the pan along with slivered <span data-default="1" data-defaultunit="sprig" data-quantity="1" data-unit="sprig" class="tooltip scalable">basil</span>, stir together, and serve.</li>
                 </ol>
 
             <hr>

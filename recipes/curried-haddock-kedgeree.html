@@ -13,7 +13,7 @@
         <title>Curried haddock kedgeree | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,43 +44,57 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> ml double cream</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="ml">ml</span> double cream</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="thumb-sized piece" class="scalable">thumb-sized piece</span> ginger, peeled and grated</li>
+                        <span data-default="thumb-sized piece" class="scalable">thumb-sized piece</span>
+                        <span data-unit=""></span> ginger, peeled and grated</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp turmeric</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> turmeric</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp ground cumin</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> ground cumin</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp garam masala</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> garam masala</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g undyed smoked haddock fillets (skin on)</li>
+                        <span data-default="400" class="scalable">400</span>
+                        <span data-unit="g">g</span> undyed smoked haddock fillets (skin on)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="300" class="scalable">300</span> g cooked basmati rice</li>
+                        <span data-default="300" class="scalable">300</span>
+                        <span data-unit="g">g</span> cooked basmati rice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g frozen peas</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> frozen peas</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> large eggs, boiled for 7 mins, peeled and cut into quarters</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="large">large</span> eggs, boiled for 7 mins, peeled and cut into quarters</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> small pack coriander, leaves roughly chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="small pack">small pack</span> coriander, leaves roughly chopped</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Pour the <span data-default="500" data-quantity="500" data-unit="ml" class="tooltip scalable">cream</span> into a large sauté pan with a lid. Stir in the <span data-default="thumb-sized piece" data-quantity="thumb-sized piece" data-unit="" class="tooltip scalable">ginger</span> and spices, then submerge the <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">smoked haddock fillets</span>, skin-side up. Put the lid on, bring the <span data-default="500" data-quantity="500" data-unit="ml" class="tooltip scalable">cream</span> slowly to the boil, then remove from the heat and leave to cool. Flake the fish into a bowl in large pieces, discarding the skin. </li>
-                <li itemprop="recipeInstructions">Put the spiced <span data-default="500" data-quantity="500" data-unit="ml" class="tooltip scalable">cream</span> back on a medium heat. Once warm, add the cooked <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">rice</span> and <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">peas</span> and stir through to combine. Cook for <b>3</b> mins until everything is heated through. </li>
+                <li itemprop="recipeInstructions">Pour the <span data-default="500" data-defaultunit="ml" data-quantity="500" data-unit="ml" class="tooltip scalable">cream</span> into a large sauté pan with a lid. Stir in the <span data-default="thumb-sized piece" data-defaultunit="" data-quantity="thumb-sized piece" data-unit="" class="tooltip scalable">ginger</span> and spices, then submerge the <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">smoked haddock fillets</span>, skin-side up. Put the lid on, bring the <span data-default="500" data-defaultunit="ml" data-quantity="500" data-unit="ml" class="tooltip scalable">cream</span> slowly to the boil, then remove from the heat and leave to cool. Flake the fish into a bowl in large pieces, discarding the skin. </li>
+                <li itemprop="recipeInstructions">Put the spiced <span data-default="500" data-defaultunit="ml" data-quantity="500" data-unit="ml" class="tooltip scalable">cream</span> back on a medium heat. Once warm, add the cooked <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">rice</span> and <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">peas</span> and stir through to combine. Cook for <b>3</b> mins until everything is heated through. </li>
                 <li itemprop="recipeInstructions">Gently mix in the haddock, being careful to keep it in large flakes. Cook for a further <b>2</b> mins and check the seasoning - the smoked haddock will be quite salty, but a good grind of black pepper could be welcome. </li>
-                <li itemprop="recipeInstructions">Top the kedgeree with the boiled <span data-default="2" data-quantity="2" data-unit="large" class="tooltip scalable">eggs</span> and scatter over the <span data-default="1" data-quantity="1" data-unit="small pack" class="tooltip scalable">coriander</span>, then tip it into a large dish and take it to the table to serve. </li>
+                <li itemprop="recipeInstructions">Top the kedgeree with the boiled <span data-default="2" data-defaultunit="large" data-quantity="2" data-unit="large" class="tooltip scalable">eggs</span> and scatter over the <span data-default="1" data-defaultunit="small pack" data-quantity="1" data-unit="small pack" class="tooltip scalable">coriander</span>, then tip it into a large dish and take it to the table to serve. </li>
                 </ol>
 
             <hr>

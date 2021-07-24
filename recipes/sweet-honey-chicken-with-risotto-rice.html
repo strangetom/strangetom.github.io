@@ -13,7 +13,7 @@
         <title>Sweet honey chicken with risotto rice | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -42,48 +42,66 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <details open>
                     <summary class="ingredient-subheading">Marinade</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tbsp soy sauce</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tbsp">tbsp</span> soy sauce</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tbsp fresh grated ginger</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tbsp">tbsp</span> fresh grated ginger</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tbsp honey</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tbsp">tbsp</span> honey</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> dessertspoon dried chives</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="dessertspoon">dessertspoon</span> dried chives</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> chicken breasts</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit=""></span> chicken breasts</li>
                     </ul>
                 </details>
                 <details open>
                     <summary class="ingredient-subheading">Risotto rice</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="25" class="scalable">25</span> g butter</li>
+                            <span data-default="25" class="scalable">25</span>
+                            <span data-unit="g">g</span> butter</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> clove garlic, finely chopped</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="clove">clove</span> garlic, finely chopped</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> yellow pepper, chopped</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit=""></span> yellow pepper, chopped</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> mug basmati rice</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="mug">mug</span> basmati rice</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> mugs water</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="mugs">mugs</span> water</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tsp liquid chicken stock or ½ stock cube</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tsp">tsp</span> liquid chicken stock or ½ stock cube</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> mushrooms, sliced</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit=""></span> mushrooms, sliced</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="4" class="scalable">4</span> spring onions, chopped</li>
+                            <span data-default="4" class="scalable">4</span>
+                            <span data-unit=""></span> spring onions, chopped</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> courgette, cut into small chunks</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit=""></span> courgette, cut into small chunks</li>
                     </ul>
                 </details>
             </div>
@@ -91,14 +109,14 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">In a big bowl mix the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">chicken breasts</span> and the marinade ingredients together. Leave for about half an hour.  </li>
-                <li itemprop="recipeInstructions">Prepare the risotto <span data-default="1" data-quantity="1" data-unit="mug" class="tooltip scalable">rice</span>. Melt the <span data-default="25" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span> in a saucepan and add the <span data-default="1" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span> and <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">peppers</span>. Cook for about <b>2</b> minutes, taking care not to burn the <span data-default="25" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span>. Add the <span data-default="1" data-quantity="1" data-unit="mug" class="tooltip scalable">rice</span> and cook for <b>1</b> minute, allowing the liquid to be absorbed by the <span data-default="1" data-quantity="1" data-unit="mug" class="tooltip scalable">rice</span>.  </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="2" data-quantity="2" data-unit="mugs" class="tooltip scalable">water</span> and <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">stock</span>, stir well and bring to the boil. Once boiling, turn down the heat and simmer for <b>10</b> minutes. Stir continuously.  </li>
-                <li itemprop="recipeInstructions">After <b>10</b> minutes, add the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">mushrooms</span>, <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">spring onions</span> and <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">courgette</span>. Cook for a further <b>5</b> minutes. Stir occasionally and add more <span data-default="2" data-quantity="2" data-unit="mugs" class="tooltip scalable">water</span> necessary.  </li>
+                <li itemprop="recipeInstructions">In a big bowl mix the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">chicken breasts</span> and the marinade ingredients together. Leave for about half an hour.  </li>
+                <li itemprop="recipeInstructions">Prepare the risotto <span data-default="1" data-defaultunit="mug" data-quantity="1" data-unit="mug" class="tooltip scalable">rice</span>. Melt the <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span> in a saucepan and add the <span data-default="1" data-defaultunit="clove" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span> and <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">peppers</span>. Cook for about <b>2</b> minutes, taking care not to burn the <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span>. Add the <span data-default="1" data-defaultunit="mug" data-quantity="1" data-unit="mug" class="tooltip scalable">rice</span> and cook for <b>1</b> minute, allowing the liquid to be absorbed by the <span data-default="1" data-defaultunit="mug" data-quantity="1" data-unit="mug" class="tooltip scalable">rice</span>.  </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="2" data-defaultunit="mugs" data-quantity="2" data-unit="mugs" class="tooltip scalable">water</span> and <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">stock</span>, stir well and bring to the boil. Once boiling, turn down the heat and simmer for <b>10</b> minutes. Stir continuously.  </li>
+                <li itemprop="recipeInstructions">After <b>10</b> minutes, add the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">mushrooms</span>, <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">spring onions</span> and <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">courgette</span>. Cook for a further <b>5</b> minutes. Stir occasionally and add more <span data-default="2" data-defaultunit="mugs" data-quantity="2" data-unit="mugs" class="tooltip scalable">water</span> necessary.  </li>
                 <li itemprop="recipeInstructions">While the risotto is cooking, heat a little oil in a frying pan. Remove the chicken from the marinade and cook on a high heat for <b>2</b> minutes each side.  </li>
                 <li itemprop="recipeInstructions">Add the rest of the marinade and turn down the heat. Cook, with a lid on, for a further <b>4-6</b> minutes, depending on the thickness of the chicken.  </li>
                 <li itemprop="recipeInstructions">Test that the chicken is cooked all the way through by cutting through the middle of one. If cooked, take the chicken out and cut into slices. If the sauce has not thickened, simmer gently for a few minutes.  </li>
-                <li itemprop="recipeInstructions">Serve the chicken on top of the risotto <span data-default="1" data-quantity="1" data-unit="mug" class="tooltip scalable">rice</span> and spoon over the sauce.</li>
+                <li itemprop="recipeInstructions">Serve the chicken on top of the risotto <span data-default="1" data-defaultunit="mug" data-quantity="1" data-unit="mug" class="tooltip scalable">rice</span> and spoon over the sauce.</li>
                 </ol>
 
             <hr>

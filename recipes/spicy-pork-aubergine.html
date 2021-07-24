@@ -13,7 +13,7 @@
         <title>Spicy pork & aubergine | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -42,37 +42,47 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> onions, sliced</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> onions, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> small aubergine, trimmed and diced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="small">small</span> aubergine, trimmed and diced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g lean pork fillet, trimmed of any fat and sliced</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="g">g</span> lean pork fillet, trimmed of any fat and sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> red peppers, deseeded and cut into chunky stips</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> red peppers, deseeded and cut into chunky stips</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2-3" class="scalable">2-3</span> tbsp mild curry powder</li>
+                        <span data-default="2-3" class="scalable">2-3</span>
+                        <span data-unit="tbsp">tbsp</span> mild curry powder</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g can plum tomatoes</li>
-                    <li itemprop="recipeIngredient">basmati rice, to serve</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g can">400 g can</span> plum tomatoes</li>
+                    <li itemprop="recipeIngredient"> basmati rice, to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large non-stick frying pan with a lid. Tip in the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">onions</span> and <span data-default="1" data-quantity="1" data-unit="small" class="tooltip scalable">aubergine</span> and fry for <b>8</b> minutes, stirring frequently until soft and golden brown.  </li>
-                <li itemprop="recipeInstructions">Tip in the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">pork</span> and fry for <b>5</b> minutes, stirring occassionally until it starts to brown. Mix in the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">pepper</span> stips and stir fry for about <b>3</b> minutes until soft.  </li>
-                <li itemprop="recipeInstructions">Sprinkle in the <span data-default="2-3" data-quantity="2-3" data-unit="tbsp" class="tooltip scalable">curry powder</span>. Stir fry for a minute, then pour in the <span data-default="400" data-quantity="400" data-unit="g can" class="tooltip scalable">tomatoes</span> and <b>150</b> ml water. Stir vigorously, cover th pan and leave the curry to simmer for <b>5</b> minutes until the <span data-default="400" data-quantity="400" data-unit="g can" class="tooltip scalable">tomatoes</span> break down to form a thick sauce. Season and serve with basmati rice. </li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large non-stick frying pan with a lid. Tip in the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">onions</span> and <span data-default="1" data-defaultunit="small" data-quantity="1" data-unit="small" class="tooltip scalable">aubergine</span> and fry for <b>8</b> minutes, stirring frequently until soft and golden brown.  </li>
+                <li itemprop="recipeInstructions">Tip in the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">pork</span> and fry for <b>5</b> minutes, stirring occassionally until it starts to brown. Mix in the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">pepper</span> stips and stir fry for about <b>3</b> minutes until soft.  </li>
+                <li itemprop="recipeInstructions">Sprinkle in the <span data-default="2-3" data-defaultunit="tbsp" data-quantity="2-3" data-unit="tbsp" class="tooltip scalable">curry powder</span>. Stir fry for a minute, then pour in the <span data-default="1x" data-defaultunit="400 g can" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">tomatoes</span> and <b>150</b> ml water. Stir vigorously, cover th pan and leave the curry to simmer for <b>5</b> minutes until the <span data-default="1x" data-defaultunit="400 g can" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">tomatoes</span> break down to form a thick sauce. Season and serve with basmati rice. </li>
                 </ol>
 
             <hr>

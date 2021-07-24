@@ -13,7 +13,7 @@
         <title>One-pan pancetta and chilli linguini | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,40 +43,50 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 80 g pack smoked cubetti pancetta</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="80 g pack">80 g pack</span> smoked cubetti pancetta</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> red chilli, sliced and deseeded if you wish</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> red chilli, sliced and deseeded if you wish</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, finely sliced</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, finely sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 300 g pack vine tomatoes, roughly chopped</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="300 g pack">300 g pack</span> vine tomatoes, roughly chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> ml vegetable or chicken stock</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="ml">ml</span> vegetable or chicken stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g dried linguini</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> dried linguini</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">0.5</span>x 28 g pack fesh basil leaves</li>
+                        <span data-default="0.5" class="scalable">0.5</span>x <span data-unit="28 g pack">28 g pack</span> fesh basil leaves</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp Parmesan, grated, to serve</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> Parmesan, grated, to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large heavy-based frying pan, about <b>23</b> cm base measurement; cook the <span data-default="1x" data-quantity="1x" data-unit="80 g pack" class="tooltip scalable">pancetta</span> for a few minutes until starting to turn golden. Add the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">chilli</span> and <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> and cook for just <b>1</b> minute. Tip in the <span data-default="1x" data-quantity="1x" data-unit="300 g pack" class="tooltip scalable">tomatoes</span> and <span data-default="500" data-quantity="500" data-unit="ml" class="tooltip scalable">stock</span> and stir together well, bringing the sauce to the boil.</li>
-                <li itemprop="recipeInstructions">Add the linguini to the pan, submerging it underneath the sauce. Cover the pan and simmer gently for <b>2-3</b> minutes, then, removing the lid and using a fork, stir the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span>, separating the strands so they don't stick together. Cook the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span> uncovered, at a fairly active bubble, for a further <b>10-12</b> mins, stirring every now and then, until it is cooked and tender, and the sauce has reduced and coats the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span> well.</li>
-                <li itemprop="recipeInstructions">Scatter in the fresh basil leaves, add the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">Parmesan</span> if using it, and serve in warmed bowls with a good grinding of black pepper.</li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large heavy-based frying pan, about <b>23</b> cm base measurement; cook the <span data-default="1x" data-defaultunit="80 g pack" data-quantity="1x" data-unit="80 g pack" class="tooltip scalable">pancetta</span> for a few minutes until starting to turn golden. Add the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">chilli</span> and <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> and cook for just <b>1</b> minute. Tip in the <span data-default="1x" data-defaultunit="300 g pack" data-quantity="1x" data-unit="300 g pack" class="tooltip scalable">tomatoes</span> and <span data-default="500" data-defaultunit="ml" data-quantity="500" data-unit="ml" class="tooltip scalable">stock</span> and stir together well, bringing the sauce to the boil.</li>
+                <li itemprop="recipeInstructions">Add the linguini to the pan, submerging it underneath the sauce. Cover the pan and simmer gently for <b>2-3</b> minutes, then, removing the lid and using a fork, stir the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span>, separating the strands so they don't stick together. Cook the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span> uncovered, at a fairly active bubble, for a further <b>10-12</b> mins, stirring every now and then, until it is cooked and tender, and the sauce has reduced and coats the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span> well.</li>
+                <li itemprop="recipeInstructions">Scatter in the fresh basil leaves, add the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">Parmesan</span> if using it, and serve in warmed bowls with a good grinding of black pepper.</li>
                 </ol>
 
             <hr>

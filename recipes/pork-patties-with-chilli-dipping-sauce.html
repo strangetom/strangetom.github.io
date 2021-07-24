@@ -13,7 +13,7 @@
         <title>Pork patties with chilli dipping sauce | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -42,52 +42,73 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp cornflour</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> cornflour</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> mug water</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="mug">mug</span> water</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> fat red chilli, chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> fat red chilli, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> spring onion, finely chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> spring onion, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp wine vinegar</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> wine vinegar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp tomato puree</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> tomato puree</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp sugar</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> sugar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> mug rice</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="mug">mug</span> rice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp pilau rice seasoning</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> pilau rice seasoning</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> cucumber, sliced diagonally</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> cucumber, sliced diagonally</li>
                 </ul>
                 <details open>
                     <summary class="ingredient-subheading">Patties</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="500" class="scalable">500</span> g pork mince</li>
+                            <span data-default="500" class="scalable">500</span>
+                            <span data-unit="g">g</span> pork mince</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> pork sausages, skins removed</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit=""></span> pork sausages, skins removed</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> spring onions, finely chopped</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit=""></span> spring onions, finely chopped</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> clove garlic, chopped finely</li>
-                        <li itemprop="recipeIngredient">zest of lemon</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="clove">clove</span> garlic, chopped finely</li>
+                        <li itemprop="recipeIngredient"> zest of lemon</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tsp ground coriander</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tsp">tsp</span> ground coriander</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tsp cumin</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tsp">tsp</span> cumin</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tbsp oil, to fry</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tbsp">tbsp</span> oil, to fry</li>
                     </ul>
                 </details>
             </div>
@@ -95,11 +116,11 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">In a small saucepan, mix the <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">cornflour</span> with the <span data-default="0.5" data-quantity="&frac12;" data-unit="mug" class="tooltip scalable">water</span>. Add the rest of the dipping sauce ingredients and bring to the boil, stirring frequently. Turn down the heat and simmer for <b>1-2</b> minutes. Leave to cool.  </li>
-                <li itemprop="recipeInstructions">Make the pilau <span data-default="1" data-quantity="1" data-unit="mug" class="tooltip scalable">rice</span>.  </li>
+                <li itemprop="recipeInstructions">In a small saucepan, mix the <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">cornflour</span> with the <span data-default="0.5" data-defaultunit="mug" data-quantity="&frac12;" data-unit="mug" class="tooltip scalable">water</span>. Add the rest of the dipping sauce ingredients and bring to the boil, stirring frequently. Turn down the heat and simmer for <b>1-2</b> minutes. Leave to cool.  </li>
+                <li itemprop="recipeInstructions">Make the pilau <span data-default="1" data-defaultunit="mug" data-quantity="1" data-unit="mug" class="tooltip scalable">rice</span>.  </li>
                 <li itemprop="recipeInstructions">Mix together the patty ingredients, use your hand to create a smooth paste. Form into small patties, making them quite flat so they are easier to cook. The mixture should make about <b>12</b>.  </li>
-                <li itemprop="recipeInstructions">Heat the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a frying pan. Once the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> is hot, add the patties. Cook on a medium/high heat for <b>2-3</b> minutes each side.  </li>
-                <li itemprop="recipeInstructions">Serve with the <span data-default="1" data-quantity="1" data-unit="mug" class="tooltip scalable">rice</span>, <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">cucumber</span> and dipping sauce.  </li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a frying pan. Once the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> is hot, add the patties. Cook on a medium/high heat for <b>2-3</b> minutes each side.  </li>
+                <li itemprop="recipeInstructions">Serve with the <span data-default="1" data-defaultunit="mug" data-quantity="1" data-unit="mug" class="tooltip scalable">rice</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">cucumber</span> and dipping sauce.  </li>
                 </ol>
 
             <hr>

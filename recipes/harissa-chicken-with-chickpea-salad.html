@@ -13,7 +13,7 @@
         <title>Harissa chicken with chickpea salad | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -42,36 +42,45 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g punnet cherry tomatoes, halved</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="g">g</span> punnet cherry tomatoes, halved</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> small red onion</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="small">small</span> red onion</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g can chickpeas, drained and rinsed</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g can">400 g can</span> chickpeas, drained and rinsed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="small bunch" class="scalable">small bunch</span> parsley, roughly chopped</li>
-                    <li itemprop="recipeIngredient">juice 1 lemon</li>
+                        <span data-default="small bunch" class="scalable">small bunch</span>
+                        <span data-unit=""></span> parsley, roughly chopped</li>
+                    <li itemprop="recipeIngredient"> juice 1 lemon</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> boneless skinless chicken breasts, halved lengthways through the middle</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> boneless skinless chicken breasts, halved lengthways through the middle</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp harissa paste</li>
-                    <li itemprop="recipeIngredient">fat-free natural yogurt and warmed wholemeal pitta bread, to serve</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> harissa paste</li>
+                    <li itemprop="recipeIngredient"> fat-free natural yogurt and warmed wholemeal pitta bread, to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Mix the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">tomatoes</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="small" class="tooltip scalable">onion</span> and <span data-default="400" data-quantity="400" data-unit="g can" class="tooltip scalable">chickpeas</span> together for the salad. Stir through the <span data-default="small bunch" data-quantity="small bunch" data-unit="" class="tooltip scalable">parsley</span> and lemon juice, and season. Set aside.  </li>
-                <li itemprop="recipeInstructions">Coat the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">chicken</span> with the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">harissa</span>. Heat a griddle or frying pan. Cook the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">chicken</span> for <b>3-4</b> minutes on each side until lightly charred and cooked through.  </li>
-                <li itemprop="recipeInstructions">Divide the salad between two plates, top with the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">harissa</span> <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">chicken</span> and serve with a dollop of yogurt and warmed pitta bread. </li>
+                <li itemprop="recipeInstructions">Mix the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">tomatoes</span>, <span data-default="0.5" data-defaultunit="small" data-quantity="&frac12;" data-unit="small" class="tooltip scalable">onion</span> and <span data-default="1x" data-defaultunit="400 g can" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">chickpeas</span> together for the salad. Stir through the <span data-default="small bunch" data-defaultunit="" data-quantity="small bunch" data-unit="" class="tooltip scalable">parsley</span> and lemon juice, and season. Set aside.  </li>
+                <li itemprop="recipeInstructions">Coat the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">chicken</span> with the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">harissa</span>. Heat a griddle or frying pan. Cook the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">chicken</span> for <b>3-4</b> minutes on each side until lightly charred and cooked through.  </li>
+                <li itemprop="recipeInstructions">Divide the salad between two plates, top with the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">harissa</span> <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">chicken</span> and serve with a dollop of yogurt and warmed pitta bread. </li>
                 </ol>
 
             <hr>

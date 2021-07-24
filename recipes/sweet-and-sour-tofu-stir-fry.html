@@ -13,7 +13,7 @@
         <title>Sweet and sour tofu stir fry | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -50,65 +50,89 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <details open>
                     <summary class="ingredient-subheading">Tofu</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="450" class="scalable">450</span> g block extra firm tofu, cut into ½ inch cubes</li>
+                            <span data-default="450" class="scalable">450</span>
+                            <span data-unit="g">g</span> block extra firm tofu, cut into ½ inch cubes</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tbsp soy sauce</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tbsp">tbsp</span> soy sauce</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="30" class="scalable">30</span> g cornstarch</li>
+                            <span data-default="30" class="scalable">30</span>
+                            <span data-unit="g">g</span> cornstarch</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> tsp salt</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit="tsp">tsp</span> salt</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.25" class="scalable">¼</span> tsp black pepper</li>
+                            <span data-default="0.25" class="scalable">¼</span>
+                            <span data-unit="tsp">tsp</span> black pepper</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp vegetable oil</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> vegetable oil</li>
                     </ul>
                 </details>
                 <details open>
                     <summary class="ingredient-subheading">Sweet &amp; sour sauce</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="120" class="scalable">120</span> ml pineapple juice, from a can of pineapple chunks</li>
+                            <span data-default="120" class="scalable">120</span>
+                            <span data-unit="ml">ml</span> pineapple juice, from a can of pineapple chunks</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="60" class="scalable">60</span> ml rice vinegar</li>
+                            <span data-default="60" class="scalable">60</span>
+                            <span data-unit="ml">ml</span> rice vinegar</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="55" class="scalable">55</span> g tomato paste</li>
+                            <span data-default="55" class="scalable">55</span>
+                            <span data-unit="g">g</span> tomato paste</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="3" class="scalable">3</span> tbsp soy sauce</li>
+                            <span data-default="3" class="scalable">3</span>
+                            <span data-unit="tbsp">tbsp</span> soy sauce</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tbsp maple syrup</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tbsp">tbsp</span> maple syrup</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> cloves garlic</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="cloves">cloves</span> garlic</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tsp cornstarch</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tsp">tsp</span> cornstarch</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tsp freshly grated ginger</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tsp">tsp</span> freshly grated ginger</li>
                     </ul>
                 </details>
                 <details open>
                     <summary class="ingredient-subheading">Stir fry</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="285" class="scalable">285</span> g rice, washed, drained</li>
+                            <span data-default="285" class="scalable">285</span>
+                            <span data-unit="g">g</span> rice, washed, drained</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tsp vegetable oil</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tsp">tsp</span> vegetable oil</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> medium red onion, thinly sliced</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="medium">medium</span> red onion, thinly sliced</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> large carrot, finely chopped</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="large">large</span> carrot, finely chopped</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> bell pepper, thinly sliced</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit=""></span> bell pepper, thinly sliced</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="100" class="scalable">100</span> g canned pineapple chunks</li>
+                            <span data-default="100" class="scalable">100</span>
+                            <span data-unit="g">g</span> canned pineapple chunks</li>
                     </ul>
                 </details>
             </div>
@@ -116,15 +140,15 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">To a large shallow bowl, add the <span data-default="450" data-quantity="450" data-unit="g" class="tooltip scalable">tofu</span> cubes and <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">soy sauce</span>, and gently toss to coat. Then add the <span data-default="30" data-quantity="30" data-unit="g" class="tooltip scalable">cornstarch</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">salt</span>, and <span data-default="0.25" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">pepper</span>. Gently stir until all the pieces are well coated.</li>
-                <li itemprop="recipeInstructions">Heat a large pan over medium-high heat, and add in the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span>. When hot, add the <span data-default="450" data-quantity="450" data-unit="g" class="tooltip scalable">tofu</span> and cook the <span data-default="450" data-quantity="450" data-unit="g" class="tooltip scalable">tofu</span> for <b>7-10</b> minutes, or until it's crispy and golden on all sides. Don't disturb the <span data-default="450" data-quantity="450" data-unit="g" class="tooltip scalable">tofu</span> too much while it's cooking, otherwise, it might crumble. Only stir it every couple of minutes. </li>
-                <li itemprop="recipeInstructions">While the <span data-default="450" data-quantity="450" data-unit="g" class="tooltip scalable">tofu</span> cooks, make the sauce: to a small bowl, whisk together the ingredients for the sauce. </li>
-                <li itemprop="recipeInstructions">If choosing to enjoy this stir fry with <span data-default="285" data-quantity="285" data-unit="g" class="tooltip scalable">rice</span>, now is the time to start cooking it according to the package instructions. </li>
-                <li itemprop="recipeInstructions">When the <span data-default="450" data-quantity="450" data-unit="g" class="tooltip scalable">tofu</span> is golden, transfer it to a bowl and set it aside.</li>
-                <li itemprop="recipeInstructions">Returning the same large pan to the heat, add the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span>, <span data-default="1" data-quantity="1" data-unit="medium" class="tooltip scalable">onion</span>, and <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">carrot</span>. Cook for <b>4-5</b> minutes.</li>
-                <li itemprop="recipeInstructions">Then add the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">bell pepper</span> and <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">pineapple chunks</span>, and cook for another minute.</li>
-                <li itemprop="recipeInstructions">Add the sweet & sour sauce to the veggies in the pan, along with the <span data-default="450" data-quantity="450" data-unit="g" class="tooltip scalable">tofu</span>. Let it simmer for <b>3</b> minutes, or until the sauce thickens a bit. </li>
-                <li itemprop="recipeInstructions">Remove it from the heat, and enjoy it on its own, or serve with <span data-default="285" data-quantity="285" data-unit="g" class="tooltip scalable">rice</span> and garnish with green onions.</li>
+                <li itemprop="recipeInstructions">To a large shallow bowl, add the <span data-default="450" data-defaultunit="g" data-quantity="450" data-unit="g" class="tooltip scalable">tofu</span> cubes and <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">soy sauce</span>, and gently toss to coat. Then add the <span data-default="30" data-defaultunit="g" data-quantity="30" data-unit="g" class="tooltip scalable">cornstarch</span>, <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">salt</span>, and <span data-default="0.25" data-defaultunit="tsp" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">pepper</span>. Gently stir until all the pieces are well coated.</li>
+                <li itemprop="recipeInstructions">Heat a large pan over medium-high heat, and add in the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span>. When hot, add the <span data-default="450" data-defaultunit="g" data-quantity="450" data-unit="g" class="tooltip scalable">tofu</span> and cook the <span data-default="450" data-defaultunit="g" data-quantity="450" data-unit="g" class="tooltip scalable">tofu</span> for <b>7-10</b> minutes, or until it's crispy and golden on all sides. Don't disturb the <span data-default="450" data-defaultunit="g" data-quantity="450" data-unit="g" class="tooltip scalable">tofu</span> too much while it's cooking, otherwise, it might crumble. Only stir it every couple of minutes. </li>
+                <li itemprop="recipeInstructions">While the <span data-default="450" data-defaultunit="g" data-quantity="450" data-unit="g" class="tooltip scalable">tofu</span> cooks, make the sauce: to a small bowl, whisk together the ingredients for the sauce. </li>
+                <li itemprop="recipeInstructions">If choosing to enjoy this stir fry with <span data-default="285" data-defaultunit="g" data-quantity="285" data-unit="g" class="tooltip scalable">rice</span>, now is the time to start cooking it according to the package instructions. </li>
+                <li itemprop="recipeInstructions">When the <span data-default="450" data-defaultunit="g" data-quantity="450" data-unit="g" class="tooltip scalable">tofu</span> is golden, transfer it to a bowl and set it aside.</li>
+                <li itemprop="recipeInstructions">Returning the same large pan to the heat, add the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span>, <span data-default="1" data-defaultunit="medium" data-quantity="1" data-unit="medium" class="tooltip scalable">onion</span>, and <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">carrot</span>. Cook for <b>4-5</b> minutes.</li>
+                <li itemprop="recipeInstructions">Then add the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">bell pepper</span> and <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">pineapple chunks</span>, and cook for another minute.</li>
+                <li itemprop="recipeInstructions">Add the sweet & sour sauce to the veggies in the pan, along with the <span data-default="450" data-defaultunit="g" data-quantity="450" data-unit="g" class="tooltip scalable">tofu</span>. Let it simmer for <b>3</b> minutes, or until the sauce thickens a bit. </li>
+                <li itemprop="recipeInstructions">Remove it from the heat, and enjoy it on its own, or serve with <span data-default="285" data-defaultunit="g" data-quantity="285" data-unit="g" class="tooltip scalable">rice</span> and garnish with green onions.</li>
                 </ol>
 
             <hr>

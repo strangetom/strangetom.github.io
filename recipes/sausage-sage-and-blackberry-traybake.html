@@ -13,7 +13,7 @@
         <title>Sausage, sage and blackberry traybake | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -45,39 +45,52 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> medium butternut squash, peeled deseeded and cut into 2 cm wedges</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="medium">medium</span> butternut squash, peeled deseeded and cut into 2 cm wedges</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> large parsnips, each peeled and cut lengthways into 6</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="large">large</span> parsnips, each peeled and cut lengthways into 6</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> medium red onions, cut into wedges</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="medium">medium</span> red onions, cut into wedges</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsp sage, finely chopped</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsp">tbsp</span> sage, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="8" class="scalable">8</span> sausages - make sure these are GF if required</li>
+                        <span data-default="8" class="scalable">8</span>
+                        <span data-unit=""></span> sausages - make sure these are GF if required</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tbsp olive oil</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tbsp clear honey</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="tbsp">tbsp</span> clear honey</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tbsp wholegrain mustard</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="tbsp">tbsp</span> wholegrain mustard</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="225" class="scalable">225</span> g sweet blackberries</li>
+                        <span data-default="225" class="scalable">225</span>
+                        <span data-unit="g">g</span> sweet blackberries</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Preheat the oven to <b>200</b>&deg;C, Gas <b>7</b>. Toss the vegetables, <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">sage</span> and <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">sausages</span> together in a large roasting tin with the <span data-default="4" data-quantity="4" data-unit="tbsp" class="tooltip scalable">oil</span> and some seasoning. Spread out in the tin. Roast for <b>40</b> minutes, turning the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">sausages</span> halfway through so that they colour evenly.</li>
-                <li itemprop="recipeInstructions">Whisk the <span data-default="4" data-quantity="4" data-unit="tbsp" class="tooltip scalable">honey</span> and <span data-default="4" data-quantity="4" data-unit="tbsp" class="tooltip scalable">mustard</span> together. Scatter the <span data-default="225" data-quantity="225" data-unit="g" class="tooltip scalable">blackberries</span> over the sausage and veg then toss the <span data-default="4" data-quantity="4" data-unit="tbsp" class="tooltip scalable">honey</span>-<span data-default="4" data-quantity="4" data-unit="tbsp" class="tooltip scalable">mustard</span> mixture through the tin. Return to the oven for <b>15</b> minutes until the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">sausages</span> are cooked through and the root veg are tender.</li>
+                <li itemprop="recipeInstructions">Preheat the oven to <b>200</b>&deg;C, Gas <b>7</b>. Toss the vegetables, <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">sage</span> and <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">sausages</span> together in a large roasting tin with the <span data-default="4" data-defaultunit="tbsp" data-quantity="4" data-unit="tbsp" class="tooltip scalable">oil</span> and some seasoning. Spread out in the tin. Roast for <b>40</b> minutes, turning the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">sausages</span> halfway through so that they colour evenly.</li>
+                <li itemprop="recipeInstructions">Whisk the <span data-default="4" data-defaultunit="tbsp" data-quantity="4" data-unit="tbsp" class="tooltip scalable">honey</span> and <span data-default="4" data-defaultunit="tbsp" data-quantity="4" data-unit="tbsp" class="tooltip scalable">mustard</span> together. Scatter the <span data-default="225" data-defaultunit="g" data-quantity="225" data-unit="g" class="tooltip scalable">blackberries</span> over the sausage and veg then toss the <span data-default="4" data-defaultunit="tbsp" data-quantity="4" data-unit="tbsp" class="tooltip scalable">honey</span>-<span data-default="4" data-defaultunit="tbsp" data-quantity="4" data-unit="tbsp" class="tooltip scalable">mustard</span> mixture through the tin. Return to the oven for <b>15</b> minutes until the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">sausages</span> are cooked through and the root veg are tender.</li>
                 </ol>
 
             <hr>

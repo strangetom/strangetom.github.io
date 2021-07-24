@@ -13,7 +13,7 @@
         <title>Garlicky mushroom penne | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -45,46 +45,61 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="210" class="scalable">210</span> g can chickpeas, no need to drain</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="210 g can">210 g can</span> chickpeas, no need to drain</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp lemon juice</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> lemon juice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large clove garlic</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large clove">large clove</span> garlic</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp vegetable bouillon</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> vegetable bouillon</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp tahini</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> tahini</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp ground coriander</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> ground coriander</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="115" class="scalable">115</span> g wholemeal penne</li>
+                        <span data-default="115" class="scalable">115</span>
+                        <span data-unit="g">g</span> wholemeal penne</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp rapeseed oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> rapeseed oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> red onions, halved and sliced</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> red onions, halved and sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g closed cup mushrooms, roughly chopped</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> closed cup mushrooms, roughly chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="generous handful" class="scalable">generous handful</span> chopped parsley</li>
+                        <span data-default="generous handful" class="scalable">generous handful</span>
+                        <span data-unit=""></span> chopped parsley</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> lemon, juiced</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit=""></span> lemon, juiced</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">To make the houmous, tip the <span data-default="210" data-quantity="210" data-unit="g can" class="tooltip scalable">chickpeas</span> and their liquid into a bowl and add the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">lemon juice</span>, <span data-default="1" data-quantity="1" data-unit="large clove" class="tooltip scalable">garlic</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">bouillon</span>, <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">tahini</span> and ground <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">coriander</span>. Blitz to a wet paste with a hand blender, still retaining some texture from the <span data-default="210" data-quantity="210" data-unit="g can" class="tooltip scalable">chickpeas</span>.</li>
-                <li itemprop="recipeInstructions">Cook the <span data-default="115" data-quantity="115" data-unit="g" class="tooltip scalable">pasta</span> according to pack instructions. Meanwhile, heat the <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">oil</span> in a non-stick wok or large frying pan and add the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">onions</span> and <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">mushrooms</span>, stirring frequently until softened and starting to caramelise.</li>
-                <li itemprop="recipeInstructions">Drain the <span data-default="115" data-quantity="115" data-unit="g" class="tooltip scalable">pasta</span> and tip in with the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">mushrooms</span>, then take off the heat and stir through the houmous and parsley. Toss together lightly, squeeze over the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">lemon juice</span> and serve, adding a dash of water to loosen the mixture a little if needed.</li>
+                <li itemprop="recipeInstructions">To make the houmous, tip the <span data-default="1x" data-defaultunit="210 g can" data-quantity="1x" data-unit="210 g can" class="tooltip scalable">chickpeas</span> and their liquid into a bowl and add the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">lemon juice</span>, <span data-default="1" data-defaultunit="large clove" data-quantity="1" data-unit="large clove" class="tooltip scalable">garlic</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">bouillon</span>, <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">tahini</span> and ground <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">coriander</span>. Blitz to a wet paste with a hand blender, still retaining some texture from the <span data-default="1x" data-defaultunit="210 g can" data-quantity="1x" data-unit="210 g can" class="tooltip scalable">chickpeas</span>.</li>
+                <li itemprop="recipeInstructions">Cook the <span data-default="115" data-defaultunit="g" data-quantity="115" data-unit="g" class="tooltip scalable">pasta</span> according to pack instructions. Meanwhile, heat the <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">oil</span> in a non-stick wok or large frying pan and add the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">onions</span> and <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">mushrooms</span>, stirring frequently until softened and starting to caramelise.</li>
+                <li itemprop="recipeInstructions">Drain the <span data-default="115" data-defaultunit="g" data-quantity="115" data-unit="g" class="tooltip scalable">pasta</span> and tip in with the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">mushrooms</span>, then take off the heat and stir through the houmous and parsley. Toss together lightly, squeeze over the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">lemon juice</span> and serve, adding a dash of water to loosen the mixture a little if needed.</li>
                 </ol>
 
             <hr>

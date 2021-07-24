@@ -13,7 +13,7 @@
         <title>10-minute couscous salad | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -48,36 +48,48 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> g couscous</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="g">g</span> couscous</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> ml hot low salt vegetable stock (from a cube is fine)</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="ml">ml</span> hot low salt vegetable stock (from a cube is fine)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> spring onions</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> spring onions</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> red pepper</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> red pepper</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> cucumber</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit=""></span> cucumber</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> g feta cheese, cubed</li>
+                        <span data-default="50" class="scalable">50</span>
+                        <span data-unit="g">g</span> feta cheese, cubed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp pesto</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> pesto</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp toasted pine nuts</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> toasted pine nuts</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Tip the <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">couscous</span> into a large bowl and pour over the <span data-default="200" data-quantity="200" data-unit="ml" class="tooltip scalable">stock</span>. Cover, then leave for <b>10</b> mins until fluffy and all the <span data-default="200" data-quantity="200" data-unit="ml" class="tooltip scalable">stock</span> has been absorbed. Meanwhile, slice the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">onions</span> and <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">pepper</span>, and dice the <span data-default="0.5" data-quantity="&frac12;" data-unit="" class="tooltip scalable">cucumber</span>. Add these to the <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">couscous</span>, fork through the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">pesto</span>, crumble in the <span data-default="50" data-quantity="50" data-unit="g" class="tooltip scalable">feta</span>, then sprinkle over <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">pine nuts</span> to serve.</li>
+                <li itemprop="recipeInstructions">Tip the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">couscous</span> into a large bowl and pour over the <span data-default="200" data-defaultunit="ml" data-quantity="200" data-unit="ml" class="tooltip scalable">stock</span>. Cover, then leave for <b>10</b> mins until fluffy and all the <span data-default="200" data-defaultunit="ml" data-quantity="200" data-unit="ml" class="tooltip scalable">stock</span> has been absorbed. Meanwhile, slice the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">onions</span> and <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">pepper</span>, and dice the <span data-default="0.5" data-defaultunit="" data-quantity="&frac12;" data-unit="" class="tooltip scalable">cucumber</span>. Add these to the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">couscous</span>, fork through the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">pesto</span>, crumble in the <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">feta</span>, then sprinkle over <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">pine nuts</span> to serve.</li>
                 </ol>
 
             <hr>

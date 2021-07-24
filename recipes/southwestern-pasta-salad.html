@@ -13,7 +13,7 @@
         <title>Southwestern pasta salad | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,48 +47,64 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="16" class="scalable">16</span> oz swirly short cut pasta such as rotini, cooked to al dente</li>
+                        <span data-default="16" class="scalable">16</span>
+                        <span data-unit="oz">oz</span> swirly short cut pasta such as rotini, cooked to al dente</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 15 oz can whole corn kernels, drained</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="15 oz can">15 oz can</span> whole corn kernels, drained</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 15 oz can black beans, drained and rinsed</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="15 oz can">15 oz can</span> black beans, drained and rinsed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> pint cherry tomatoes, halved</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="pint">pint</span> cherry tomatoes, halved</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> green onions, sliced</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> green onions, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1-2" class="scalable">1-2</span> jalapeno peppers, minced, plus slices to garnish</li>
+                        <span data-default="1-2" class="scalable">1-2</span>
+                        <span data-unit=""></span> jalapeno peppers, minced, plus slices to garnish</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="6" class="scalable">6</span> oz colby jack cheese, cubed</li>
+                        <span data-default="6" class="scalable">6</span>
+                        <span data-unit="oz">oz</span> colby jack cheese, cubed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> slices bacon, cooked and crumbled</li>
-                    <li itemprop="recipeIngredient">fresh cilantro leaves, to garnish</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="slices">slices</span> bacon, cooked and crumbled</li>
+                    <li itemprop="recipeIngredient"> fresh cilantro leaves, to garnish</li>
                 </ul>
                 <details open>
                     <summary class="ingredient-subheading">For the chipotle ranch dressing</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> cup mayonnaise</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit="cup">cup</span> mayonnaise</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> chipotle chiles from a can of chipotle chiles in adobo sauce, finely minced to a paste, or to taste</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit=""></span> chipotle chiles from a can of chipotle chiles in adobo sauce, finely minced to a paste, or to taste</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="3" class="scalable">3</span> cloves garlic, minced</li>
+                            <span data-default="3" class="scalable">3</span>
+                            <span data-unit="cloves">cloves</span> garlic, minced</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.25" class="scalable">¼</span> cup chopped fresh cilantro</li>
+                            <span data-default="0.25" class="scalable">¼</span>
+                            <span data-unit="cup">cup</span> chopped fresh cilantro</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.25" class="scalable">¼</span> cup chopped fresh dill</li>
-                        <li itemprop="recipeIngredient">juice of 1 lime</li>
-                        <li itemprop="recipeIngredient">kosher salt and black pepper, to taste</li>
+                            <span data-default="0.25" class="scalable">¼</span>
+                            <span data-unit="cup">cup</span> chopped fresh dill</li>
+                        <li itemprop="recipeIngredient"> juice of 1 lime</li>
+                        <li itemprop="recipeIngredient"> kosher salt and black pepper, to taste</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> cup buttermilk</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit="cup">cup</span> buttermilk</li>
                     </ul>
                 </details>
             </div>
@@ -96,9 +112,9 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Prepare the chipotle ranch dressing by whisking together the <span data-default="0.5" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">mayonnaise</span>, <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">chipotles in adobo</span>, <span data-default="3" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="0.25" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">cilantro</span>, <span data-default="0.25" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">dill</span>, lime juice, and salt and pepper. Slowly pour in the <span data-default="0.5" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">buttermilk</span>, while whisking, until you reach the desired consistency. Taste and adjust seasonings as desired. Set aside.</li>
-                <li itemprop="recipeInstructions">In a large bowl, add the <span data-default="16" data-quantity="16" data-unit="oz" class="tooltip scalable">pasta</span>, <span data-default="1x" data-quantity="1x" data-unit="15 oz can" class="tooltip scalable">corn</span>, <span data-default="6" data-quantity="6" data-unit="oz" class="tooltip scalable">colby jack</span>, <span data-default="1x" data-quantity="1x" data-unit="15 oz can" class="tooltip scalable">black beans</span>, <span data-default="1" data-quantity="1" data-unit="pint" class="tooltip scalable">cherry tomatoes</span>, <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">green onions</span>, <span data-default="1-2" data-quantity="1-2" data-unit="" class="tooltip scalable">jalapeno</span>, and <span data-default="4" data-quantity="4" data-unit="slices" class="tooltip scalable">bacon</span>. Drizzle with the dressing and toss to combine. Add dressing as needed.</li>
-                <li itemprop="recipeInstructions">Cover and refrigerate until ready to serve, at least one hour. Garnish with fresh <span data-default="0.25" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">cilantro</span> leaves and sliced <span data-default="1-2" data-quantity="1-2" data-unit="" class="tooltip scalable">jalapeno</span>, if desired.</li>
+                <li itemprop="recipeInstructions">Prepare the chipotle ranch dressing by whisking together the <span data-default="0.5" data-defaultunit="cup" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">mayonnaise</span>, <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">chipotles in adobo</span>, <span data-default="3" data-defaultunit="cloves" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="0.25" data-defaultunit="cup" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">cilantro</span>, <span data-default="0.25" data-defaultunit="cup" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">dill</span>, lime juice, and salt and pepper. Slowly pour in the <span data-default="0.5" data-defaultunit="cup" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">buttermilk</span>, while whisking, until you reach the desired consistency. Taste and adjust seasonings as desired. Set aside.</li>
+                <li itemprop="recipeInstructions">In a large bowl, add the <span data-default="16" data-defaultunit="oz" data-quantity="16" data-unit="oz" class="tooltip scalable">pasta</span>, <span data-default="1x" data-defaultunit="15 oz can" data-quantity="1x" data-unit="15 oz can" class="tooltip scalable">corn</span>, <span data-default="6" data-defaultunit="oz" data-quantity="6" data-unit="oz" class="tooltip scalable">colby jack</span>, <span data-default="1x" data-defaultunit="15 oz can" data-quantity="1x" data-unit="15 oz can" class="tooltip scalable">black beans</span>, <span data-default="1" data-defaultunit="pint" data-quantity="1" data-unit="pint" class="tooltip scalable">cherry tomatoes</span>, <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">green onions</span>, <span data-default="1-2" data-defaultunit="" data-quantity="1-2" data-unit="" class="tooltip scalable">jalapeno</span>, and <span data-default="4" data-defaultunit="slices" data-quantity="4" data-unit="slices" class="tooltip scalable">bacon</span>. Drizzle with the dressing and toss to combine. Add dressing as needed.</li>
+                <li itemprop="recipeInstructions">Cover and refrigerate until ready to serve, at least one hour. Garnish with fresh <span data-default="0.25" data-defaultunit="cup" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">cilantro</span> leaves and sliced <span data-default="1-2" data-defaultunit="" data-quantity="1-2" data-unit="" class="tooltip scalable">jalapeno</span>, if desired.</li>
                 </ol>
 
             <hr>

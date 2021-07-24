@@ -13,7 +13,7 @@
         <title>Slow-roast pork rolls | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,30 +43,38 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.25" class="scalable">1.25</span> kg pork shoulder joint, scored and tied</li>
+                        <span data-default="1.25" class="scalable">1.25</span>
+                        <span data-unit="kg">kg</span> pork shoulder joint, scored and tied</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp thyme leaves</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> thyme leaves</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp fennel seeds</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> fennel seeds</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
-                    <li itemprop="recipeIngredient">buttered soft bread rolls and apple chutney, or sauce, to serve</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
+                    <li itemprop="recipeIngredient"> buttered soft bread rolls and apple chutney, or sauce, to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the slow cooker if necessary. If the <span data-default="1.25" data-quantity="1.25" data-unit="kg" class="tooltip scalable">pork</span> skin isn't already scored for you, score it with a small sharp knife. Mix together the <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">thyme</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">fennel seeds</span>, <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> and <b>1</b> teaspoon of salt with a good grinding of black pepper. Rub this over the top and ends of the <span data-default="1.25" data-quantity="1.25" data-unit="kg" class="tooltip scalable">pork</span>. Brown the <span data-default="1.25" data-quantity="1.25" data-unit="kg" class="tooltip scalable">pork</span> in a large pan, turning frequently, until well browned, or roast as <b>220</b>&deg;C/Gas <b>7</b> for <b>30</b> minutes until browned.</li>
-                <li itemprop="recipeInstructions">Transfer the <span data-default="1.25" data-quantity="1.25" data-unit="kg" class="tooltip scalable">pork</span> to the slow cooker pot and cook on High for <b>4-5</b> hours until the meat can be shredded with a spoon. Remove the fat and use a couple of forks to shred the <span data-default="1.25" data-quantity="1.25" data-unit="kg" class="tooltip scalable">pork</span> from the joint.</li>
+                <li itemprop="recipeInstructions">Heat the slow cooker if necessary. If the <span data-default="1.25" data-defaultunit="kg" data-quantity="1.25" data-unit="kg" class="tooltip scalable">pork</span> skin isn't already scored for you, score it with a small sharp knife. Mix together the <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">thyme</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">fennel seeds</span>, <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> and <b>1</b> teaspoon of salt with a good grinding of black pepper. Rub this over the top and ends of the <span data-default="1.25" data-defaultunit="kg" data-quantity="1.25" data-unit="kg" class="tooltip scalable">pork</span>. Brown the <span data-default="1.25" data-defaultunit="kg" data-quantity="1.25" data-unit="kg" class="tooltip scalable">pork</span> in a large pan, turning frequently, until well browned, or roast as <b>220</b>&deg;C/Gas <b>7</b> for <b>30</b> minutes until browned.</li>
+                <li itemprop="recipeInstructions">Transfer the <span data-default="1.25" data-defaultunit="kg" data-quantity="1.25" data-unit="kg" class="tooltip scalable">pork</span> to the slow cooker pot and cook on High for <b>4-5</b> hours until the meat can be shredded with a spoon. Remove the fat and use a couple of forks to shred the <span data-default="1.25" data-defaultunit="kg" data-quantity="1.25" data-unit="kg" class="tooltip scalable">pork</span> from the joint.</li>
                 <li itemprop="recipeInstructions">Sandwich in soft buttered rolls with apple chutney, or sauce, warmed or at room temperate.</li>
                 </ol>
 

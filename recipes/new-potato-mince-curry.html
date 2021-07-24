@@ -13,7 +13,7 @@
         <title>New potato & mince curry | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Turkey" itemscope itemtype="https://schema.org/Recipe">
 
@@ -42,45 +42,60 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="450" class="scalable">450</span> g minced turkey</li>
+                        <span data-default="450" class="scalable">450</span>
+                        <span data-unit="g">g</span> minced turkey</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp vegetable oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> vegetable oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> small onion, chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="small">small</span> onion, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> cloves garlic, finely chopped</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="cloves">cloves</span> garlic, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp coarsely grated ginger</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> coarsely grated ginger</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> red chilli, deseed and finely sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> red chilli, deseed and finely sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp each of ground cumin and coriander</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> each of ground cumin and coriander</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp korma curry paste</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> korma curry paste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g new potatoes, halved</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="g">g</span> new potatoes, halved</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> g spinach leaves</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="g">g</span> spinach leaves</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="150" class="scalable">150</span> g 0% fat Greek yogurt</li>
-                    <li itemprop="recipeIngredient">chapattis or naan bread, to serve</li>
+                        <span data-default="150" class="scalable">150</span>
+                        <span data-unit="g">g</span> 0% fat Greek yogurt</li>
+                    <li itemprop="recipeIngredient"> chapattis or naan bread, to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat a frying pan and dry-fry the <span data-default="450" data-quantity="450" data-unit="g" class="tooltip scalable">mince</span>. Brown it all over, stirring to beak it up. Remove from the pan to a plate. Add the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> and <span data-default="1" data-quantity="1" data-unit="small" class="tooltip scalable">onion</span> to the pan, and cook for <b>5</b> minutes.  </li>
-                <li itemprop="recipeInstructions">Stir in the <span data-default="3" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">ginger</span>, <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">chilli</span>, spices and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">curry paste</span>. Stir-fry for <b>1</b> minute. Add the <span data-default="450" data-quantity="450" data-unit="g" class="tooltip scalable">mince</span>, <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">potatoes</span> and <b>600</b> ml water, bring to the boil, cover, then simmer for <b>30</b> minutes. Season with salt to taste.  </li>
-                <li itemprop="recipeInstructions">Stir in the <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">spinach</span> and simmer for <b>1</b> minute uncovered, until wilted. Swirl through the <span data-default="150" data-quantity="150" data-unit="g" class="tooltip scalable">yogurt</span> and serve with the naan bread.  </li>
+                <li itemprop="recipeInstructions">Heat a frying pan and dry-fry the <span data-default="450" data-defaultunit="g" data-quantity="450" data-unit="g" class="tooltip scalable">mince</span>. Brown it all over, stirring to beak it up. Remove from the pan to a plate. Add the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> and <span data-default="1" data-defaultunit="small" data-quantity="1" data-unit="small" class="tooltip scalable">onion</span> to the pan, and cook for <b>5</b> minutes.  </li>
+                <li itemprop="recipeInstructions">Stir in the <span data-default="3" data-defaultunit="cloves" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">ginger</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">chilli</span>, spices and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">curry paste</span>. Stir-fry for <b>1</b> minute. Add the <span data-default="450" data-defaultunit="g" data-quantity="450" data-unit="g" class="tooltip scalable">mince</span>, <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">potatoes</span> and <b>600</b> ml water, bring to the boil, cover, then simmer for <b>30</b> minutes. Season with salt to taste.  </li>
+                <li itemprop="recipeInstructions">Stir in the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">spinach</span> and simmer for <b>1</b> minute uncovered, until wilted. Swirl through the <span data-default="150" data-defaultunit="g" data-quantity="150" data-unit="g" class="tooltip scalable">yogurt</span> and serve with the naan bread.  </li>
                 </ol>
 
             <hr>

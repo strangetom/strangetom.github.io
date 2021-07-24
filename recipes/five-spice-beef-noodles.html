@@ -13,7 +13,7 @@
         <title>Five spice beef noodles | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Beef" itemscope itemtype="https://schema.org/Recipe">
 
@@ -42,43 +42,59 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="350" class="scalable">350</span> g rump, sirloin or topside beef, cut into stips</li>
+                        <span data-default="350" class="scalable">350</span>
+                        <span data-unit="g">g</span> rump, sirloin or topside beef, cut into stips</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> onion, sliced</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit=""></span> onion, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> small red or green pepper, thinly sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="small">small</span> red or green pepper, thinly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp grated fresh ginger</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> grated fresh ginger</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> clove garlic</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="clove">clove</span> garlic</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="6" class="scalable">6</span> mushrooms, sliced</li>
+                        <span data-default="6" class="scalable">6</span>
+                        <span data-unit=""></span> mushrooms, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp five spice powder</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> five spice powder</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x pack fresh or ready-to-wok egg noodles</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="pack">pack</span> fresh or ready-to-wok egg noodles</li>
                 </ul>
                 <details open>
                     <summary class="ingredient-subheading">Sauce</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.25" class="scalable">¼</span> mug hoisin sauce</li>
+                            <span data-default="0.25" class="scalable">¼</span>
+                            <span data-unit="mug">mug</span> hoisin sauce</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp soy sauce</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> soy sauce</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp wine vinegar</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> wine vinegar</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp water</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> water</li>
                     </ul>
                 </details>
             </div>
@@ -86,10 +102,10 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a wok. Add the <span data-default="350" data-quantity="350" data-unit="g" class="tooltip scalable">beef</span> stips and cook on a high heat for <b>2-3</b> minutes. Remove from the pan and set to one side.  </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="0.5" data-quantity="&frac12;" data-unit="" class="tooltip scalable">onion</span>, <span data-default="1" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span>, <span data-default="1" data-quantity="1" data-unit="small" class="tooltip scalable">pepper</span> and <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">ginger</span> to the pan. Stir fry for <b>1-2</b> minutes on high heat.  </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="6" data-quantity="6" data-unit="" class="tooltip scalable">mushrooms</span> and <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">five spice powder</span>. Cook for <b>1</b> minute on high heat.  </li>
-                <li itemprop="recipeInstructions">Return the <span data-default="350" data-quantity="350" data-unit="g" class="tooltip scalable">beef</span> to the pan with the sauce ingredients and the nooddles. Cook on high heat for <b>1</b> minute until everything is heated through.   </li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a wok. Add the <span data-default="350" data-defaultunit="g" data-quantity="350" data-unit="g" class="tooltip scalable">beef</span> stips and cook on a high heat for <b>2-3</b> minutes. Remove from the pan and set to one side.  </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="0.5" data-defaultunit="" data-quantity="&frac12;" data-unit="" class="tooltip scalable">onion</span>, <span data-default="1" data-defaultunit="clove" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span>, <span data-default="1" data-defaultunit="small" data-quantity="1" data-unit="small" class="tooltip scalable">pepper</span> and <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">ginger</span> to the pan. Stir fry for <b>1-2</b> minutes on high heat.  </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="6" data-defaultunit="" data-quantity="6" data-unit="" class="tooltip scalable">mushrooms</span> and <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">five spice powder</span>. Cook for <b>1</b> minute on high heat.  </li>
+                <li itemprop="recipeInstructions">Return the <span data-default="350" data-defaultunit="g" data-quantity="350" data-unit="g" class="tooltip scalable">beef</span> to the pan with the sauce ingredients and the nooddles. Cook on high heat for <b>1</b> minute until everything is heated through.   </li>
                 <li itemprop="recipeInstructions">Serve immediately.</li>
                 </ol>
 

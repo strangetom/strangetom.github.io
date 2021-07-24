@@ -13,7 +13,7 @@
         <title>Honey-mustard sausage, bacon and sweet potato bake | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -42,41 +42,54 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp clear honey</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> clear honey</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tbsp wholegrain mustard</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="tbsp">tbsp</span> wholegrain mustard</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="8" class="scalable">8</span> British pork sausages</li>
+                        <span data-default="8" class="scalable">8</span>
+                        <span data-unit=""></span> British pork sausages</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> rashers smoked streaky bacon, halved lengthwise</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="rashers">rashers</span> smoked streaky bacon, halved lengthwise</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> red pepper, sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> red pepper, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> yellow pepper, sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> yellow pepper, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> red onions, sliced</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> red onions, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="750" class="scalable">750</span> g sweet potato, sliced into wedges</li>
+                        <span data-default="750" class="scalable">750</span>
+                        <span data-unit="g">g</span> sweet potato, sliced into wedges</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp olive oil</li>
-                    <li itemprop="recipeIngredient">fresh parsley, to serve (optional)</li>
-                    <li itemprop="recipeIngredient">salad, to serve (optional)</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> olive oil</li>
+                    <li itemprop="recipeIngredient"> fresh parsley, to serve (optional)</li>
+                    <li itemprop="recipeIngredient"> salad, to serve (optional)</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Preheat the oven to <b>200</b>&deg;C/Gas <b>6</b>. In a bowl, mix the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">honey</span> and <span data-default="4" data-quantity="4" data-unit="tbsp" class="tooltip scalable">mustard</span> with <b>1</b> tbsp hot water.  </li>
-                <li itemprop="recipeInstructions">Wrap each <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">sausage</span> with a strip of <span data-default="4" data-quantity="4" data-unit="rashers" class="tooltip scalable">bacon</span>. Put them in a large roasting dish with the peppers, <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">onions</span> and <span data-default="750" data-quantity="750" data-unit="g" class="tooltip scalable">sweet potato</span> wedges, then pour over the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">honey</span> mixture. Season and drizzle with the <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">oil</span>.  </li>
+                <li itemprop="recipeInstructions">Preheat the oven to <b>200</b>&deg;C/Gas <b>6</b>. In a bowl, mix the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">honey</span> and <span data-default="4" data-defaultunit="tbsp" data-quantity="4" data-unit="tbsp" class="tooltip scalable">mustard</span> with <b>1</b> tbsp hot water.  </li>
+                <li itemprop="recipeInstructions">Wrap each <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">sausage</span> with a strip of <span data-default="4" data-defaultunit="rashers" data-quantity="4" data-unit="rashers" class="tooltip scalable">bacon</span>. Put them in a large roasting dish with the peppers, <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">onions</span> and <span data-default="750" data-defaultunit="g" data-quantity="750" data-unit="g" class="tooltip scalable">sweet potato</span> wedges, then pour over the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">honey</span> mixture. Season and drizzle with the <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">oil</span>.  </li>
                 <li itemprop="recipeInstructions">Roast for <b>30-35</b> minutes until the sausages are sticky and cooked through. Sprinkle with parsley and serve with a salad.  </li>
                 </ol>
 

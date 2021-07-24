@@ -13,7 +13,7 @@
         <title>Chestnut mushroom, fennel & bacon fusilli | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,43 +43,57 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> ml olive oil, plus 1 tbsp</li>
+                        <span data-default="50" class="scalable">50</span>
+                        <span data-unit="ml">ml</span> olive oil, plus 1 tbsp</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> fennel bulbs, finely sliced</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> fennel bulbs, finely sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> onions, finely sliced</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> onions, finely sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> cloves garlic, crushed</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="cloves">cloves</span> garlic, crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> red chillies, deseeded and finely sliced</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> red chillies, deseeded and finely sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tbsp tomato purée</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="tbsp">tbsp</span> tomato purée</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g pack streaky bacon, diced</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="g">g</span> pack streaky bacon, diced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="350" class="scalable">350</span> g fusilli</li>
+                        <span data-default="350" class="scalable">350</span>
+                        <span data-unit="g">g</span> fusilli</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="280" class="scalable">280</span> g baby chestnut mushrooms, sliced</li>
+                        <span data-default="280" class="scalable">280</span>
+                        <span data-unit="g">g</span> baby chestnut mushrooms, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="small pack" class="scalable">small pack</span> parsley, roughly chopped, to serve</li>
-                    <li itemprop="recipeIngredient">parmesan, grated, to serve</li>
+                        <span data-default="small pack" class="scalable">small pack</span>
+                        <span data-unit=""></span> parsley, roughly chopped, to serve</li>
+                    <li itemprop="recipeIngredient"> parmesan, grated, to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Bring a large saucepan of salted water to the boil. Heat <b>1</b> tbsp <span data-default="50" data-quantity="50" data-unit="ml" class="tooltip scalable">oil</span> in a large pan over a medium heat and fry the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">fennel</span> and onion for <b>15</b> mins, or until softened. Add the <span data-default="4" data-quantity="4" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">chilli</span>, and cook for <b>1</b> min, then add the <span data-default="4" data-quantity="4" data-unit="tbsp" class="tooltip scalable">tomato purée</span> and stir for <b>1</b> min more. Toss in the bacon and fry for <b>5-6</b> mins.  </li>
-                <li itemprop="recipeInstructions">Meanwhile, cook the pasta according to pack instructions. Add the <span data-default="280" data-quantity="280" data-unit="g" class="tooltip scalable">mushrooms</span> to the frying pan, stir and cover for <b>8</b> mins, or until the <span data-default="280" data-quantity="280" data-unit="g" class="tooltip scalable">mushrooms</span> are soft.  </li>
-                <li itemprop="recipeInstructions">Drain the pasta, adding a ladle of the cooking water to the sauce. Tip in the pasta and stir to coat. Add the rest of the <span data-default="50" data-quantity="50" data-unit="ml" class="tooltip scalable">oil</span> and scatter over the <span data-default="small pack" data-quantity="small pack" data-unit="" class="tooltip scalable">parsley</span> and Parmesan.  </li>
+                <li itemprop="recipeInstructions">Bring a large saucepan of salted water to the boil. Heat <b>1</b> tbsp <span data-default="50" data-defaultunit="ml" data-quantity="50" data-unit="ml" class="tooltip scalable">oil</span> in a large pan over a medium heat and fry the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">fennel</span> and onion for <b>15</b> mins, or until softened. Add the <span data-default="4" data-defaultunit="cloves" data-quantity="4" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">chilli</span>, and cook for <b>1</b> min, then add the <span data-default="4" data-defaultunit="tbsp" data-quantity="4" data-unit="tbsp" class="tooltip scalable">tomato purée</span> and stir for <b>1</b> min more. Toss in the bacon and fry for <b>5-6</b> mins.  </li>
+                <li itemprop="recipeInstructions">Meanwhile, cook the pasta according to pack instructions. Add the <span data-default="280" data-defaultunit="g" data-quantity="280" data-unit="g" class="tooltip scalable">mushrooms</span> to the frying pan, stir and cover for <b>8</b> mins, or until the <span data-default="280" data-defaultunit="g" data-quantity="280" data-unit="g" class="tooltip scalable">mushrooms</span> are soft.  </li>
+                <li itemprop="recipeInstructions">Drain the pasta, adding a ladle of the cooking water to the sauce. Tip in the pasta and stir to coat. Add the rest of the <span data-default="50" data-defaultunit="ml" data-quantity="50" data-unit="ml" class="tooltip scalable">oil</span> and scatter over the <span data-default="small pack" data-defaultunit="" data-quantity="small pack" data-unit="" class="tooltip scalable">parsley</span> and Parmesan.  </li>
                 </ol>
 
             <hr>

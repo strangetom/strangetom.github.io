@@ -13,7 +13,7 @@
         <title>Spiced lamb pie | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Lamb" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,60 +43,81 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsp vegetable oil</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsp">tbsp</span> vegetable oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="800" class="scalable">800</span> g lamb shoulder, fat removed diced</li>
+                        <span data-default="800" class="scalable">800</span>
+                        <span data-unit="g">g</span> lamb shoulder, fat removed diced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsp plain flour</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsp">tbsp</span> plain flour</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large onion, chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> onion, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, crushed</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp ras el hanout</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> ras el hanout</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp ground coriander</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> ground coriander</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp ground cumin</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> ground cumin</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="good pinch" class="scalable">good pinch</span> of ground cloves</li>
+                        <span data-default="good pinch" class="scalable">good pinch</span>
+                        <span data-unit=""></span> of ground cloves</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="good pinch" class="scalable">good pinch</span> of saffron (optional)</li>
+                        <span data-default="good pinch" class="scalable">good pinch</span>
+                        <span data-unit=""></span> of saffron (optional)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> cinnamon stick</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> cinnamon stick</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g can , chopped tomatoes</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g can">400 g can</span> , chopped tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> lemon, zested and juiced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> lemon, zested and juiced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp honey</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> honey</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tbsp pomegranate molasses</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="tbsp">tbsp</span> pomegranate molasses</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="270" class="scalable">270</span> g pack filo pastry (4-6 sheets)</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="270 g pack">270 g pack</span> filo pastry (4-6 sheets)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> g butter, melted</li>
+                        <span data-default="50" class="scalable">50</span>
+                        <span data-unit="g">g</span> butter, melted</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> g flaked almonds</li>
+                        <span data-default="50" class="scalable">50</span>
+                        <span data-unit="g">g</span> flaked almonds</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> g pomegranate seeds</li>
+                        <span data-default="50" class="scalable">50</span>
+                        <span data-unit="g">g</span> pomegranate seeds</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">oil</span> in a large flameproof casserole dish. Toss the <span data-default="800" data-quantity="800" data-unit="g" class="tooltip scalable">lamb</span> in the <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">flour</span> with some seasoning, then brown it in the dish. Do this in batches so you don't overcrowd the dish (which will cause the meat to steam instead of fry). Take your time to build up a deep brown colour, which will add lots of meaty flavour to the stew. Set the meat aside on a plate as you go.  </li>
-                <li itemprop="recipeInstructions">Add the remaining <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">oil</span> to the dish along with the <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span> and <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>. Cook for <b>5</b> mins until softened, then stir in the spices, <span data-default="400" data-quantity="400" data-unit="g can" class="tooltip scalable">tomatoes</span>, <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">lemon</span> zest and juice, <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">honey</span> and <span data-default="4" data-quantity="4" data-unit="tbsp" class="tooltip scalable">molasses</span>. Fill the tomato can halfway with water, swill around and add this too. Season well, bring to a simmer and cover with a lid. Reduce the heat and cook for <b>2</b> hrs <b>30</b> mins-<b>3</b> hrs or until the meat is tender. Leave to cool.  </li>
-                <li itemprop="recipeInstructions">Heat oven to <b>180</b>&deg;C/<b>160</b>&deg;C fan/Gas <b>4</b>. Transfer the meat to a pie dish that's about <b>25</b> cm wide, or leave it in the casserole if it's wide enough to fit the topping. Unwrap the <span data-default="270" data-quantity="270" data-unit="g pack" class="tooltip scalable">filo</span> and brush a sheet with <span data-default="50" data-quantity="50" data-unit="g" class="tooltip scalable">butter</span>, scrunch up and place on top of the pie. Continue with the remaining sheets until the tagine is covered. Drizzle any remaining <span data-default="50" data-quantity="50" data-unit="g" class="tooltip scalable">butter</span> over the top and scatter over the <span data-default="50" data-quantity="50" data-unit="g" class="tooltip scalable">almonds</span>, then bake for <b>45</b> mins or until the pastry is crisp and golden. Scatter over the <span data-default="50" data-quantity="50" data-unit="g" class="tooltip scalable">pomegranate seeds</span> just before serving.  </li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">oil</span> in a large flameproof casserole dish. Toss the <span data-default="800" data-defaultunit="g" data-quantity="800" data-unit="g" class="tooltip scalable">lamb</span> in the <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">flour</span> with some seasoning, then brown it in the dish. Do this in batches so you don't overcrowd the dish (which will cause the meat to steam instead of fry). Take your time to build up a deep brown colour, which will add lots of meaty flavour to the stew. Set the meat aside on a plate as you go.  </li>
+                <li itemprop="recipeInstructions">Add the remaining <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">oil</span> to the dish along with the <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span> and <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>. Cook for <b>5</b> mins until softened, then stir in the spices, <span data-default="1x" data-defaultunit="400 g can" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">tomatoes</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">lemon</span> zest and juice, <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">honey</span> and <span data-default="4" data-defaultunit="tbsp" data-quantity="4" data-unit="tbsp" class="tooltip scalable">molasses</span>. Fill the tomato can halfway with water, swill around and add this too. Season well, bring to a simmer and cover with a lid. Reduce the heat and cook for <b>2</b> hrs <b>30</b> mins-<b>3</b> hrs or until the meat is tender. Leave to cool.  </li>
+                <li itemprop="recipeInstructions">Heat oven to <b>180</b>&deg;C/<b>160</b>&deg;C fan/Gas <b>4</b>. Transfer the meat to a pie dish that's about <b>25</b> cm wide, or leave it in the casserole if it's wide enough to fit the topping. Unwrap the <span data-default="1x" data-defaultunit="270 g pack" data-quantity="1x" data-unit="270 g pack" class="tooltip scalable">filo</span> and brush a sheet with <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">butter</span>, scrunch up and place on top of the pie. Continue with the remaining sheets until the tagine is covered. Drizzle any remaining <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">butter</span> over the top and scatter over the <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">almonds</span>, then bake for <b>45</b> mins or until the pastry is crisp and golden. Scatter over the <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">pomegranate seeds</span> just before serving.  </li>
                 </ol>
 
             <hr>

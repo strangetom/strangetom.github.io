@@ -13,7 +13,7 @@
         <title>Mango chicken meal bowls | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,59 +47,81 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> chicken breasts, sliced in half lengthwise</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> chicken breasts, sliced in half lengthwise</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cups cooked basmati or jasmine rice</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cups">cups</span> cooked basmati or jasmine rice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> avocado, sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> avocado, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> cup shredded sweetened coconut</li>
-                    <li itemprop="recipeIngredient">Extra cilantro, for garnish</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit="cup">cup</span> shredded sweetened coconut</li>
+                    <li itemprop="recipeIngredient"> Extra cilantro, for garnish</li>
                 </ul>
                 <details open>
                     <summary class="ingredient-subheading">Mango marinade</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> mango</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit=""></span> mango</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tbsp olive oil</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tbsp">tbsp</span> olive oil</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tbsp lime juice</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tbsp">tbsp</span> lime juice</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp honey</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> honey</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp Sriracha</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> Sriracha</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> cloves garlic, minced</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="cloves">cloves</span> garlic, minced</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tsp salt</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tsp">tsp</span> salt</li>
                     </ul>
                 </details>
                 <details open>
                     <summary class="ingredient-subheading">Corn salsa</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> cups corn</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="cups">cups</span> corn</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> can black beans, drained</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit="can">can</span> black beans, drained</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> red pepper, diced</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit=""></span> red pepper, diced</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> small red onion, diced</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="small">small</span> red onion, diced</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp lime juice</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> lime juice</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.25" class="scalable">¼</span> cup chopped cilantro</li>
+                            <span data-default="0.25" class="scalable">¼</span>
+                            <span data-unit="cup">cup</span> chopped cilantro</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.75" class="scalable">¾</span> tsp salt</li>
+                            <span data-default="0.75" class="scalable">¾</span>
+                            <span data-unit="tsp">tsp</span> salt</li>
                     </ul>
                 </details>
             </div>
@@ -107,11 +129,11 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Preheat BBQ to med-high heat (alternatively, preheat oven to <b>425</b> F). Cook <span data-default="2" data-quantity="2" data-unit="cups" class="tooltip scalable">rice</span> in a <span data-default="2" data-quantity="2" data-unit="cups" class="tooltip scalable">rice</span> cooker according to package directions.</li>
-                <li itemprop="recipeInstructions">Blend ingredients for <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">mango</span> sauce together, then marinate <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">chicken</span> (each breast sliced in half lengthwise) in half of mixture for <b>10</b> mins.</li>
-                <li itemprop="recipeInstructions">IMPORTANT: when saving half your marinade, you want to make sure to mix the marinade ingredients in a bowl separate from the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">chicken</span> FIRST so as to avoid contamination. Divide the mixture in half, save the uncontaminated version for after you're done cooking everything, and the other half for marinading the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">chicken</span>. Safety first!</li>
-                <li itemprop="recipeInstructions">Meanwhile, mix together ingredients for <span data-default="1" data-quantity="1" data-unit="cups" class="tooltip scalable">corn</span> salsa.</li>
-                <li itemprop="recipeInstructions">Add <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">chicken</span> to grill and cook for <b>4</b> mins per side. Remove from heat. Divide <span data-default="2" data-quantity="2" data-unit="cups" class="tooltip scalable">rice</span> among four glass meal prep bowls. Add <b>2</b> pieces of <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">chicken</span> to each bowl (there should have been <b>8</b> slices total) and top with extra reserved <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">mango</span> sauce, <span data-default="1" data-quantity="1" data-unit="cups" class="tooltip scalable">corn</span> salsa, <span data-default="0.25" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">shredded coconut</span> and extra cilantro. Add slices of <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">avocado</span> and refrigerate up to <b>5</b> days in the fridge.</li>
+                <li itemprop="recipeInstructions">Preheat BBQ to med-high heat (alternatively, preheat oven to <b>425</b> F). Cook <span data-default="2" data-defaultunit="cups" data-quantity="2" data-unit="cups" class="tooltip scalable">rice</span> in a <span data-default="2" data-defaultunit="cups" data-quantity="2" data-unit="cups" class="tooltip scalable">rice</span> cooker according to package directions.</li>
+                <li itemprop="recipeInstructions">Blend ingredients for <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">mango</span> sauce together, then marinate <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">chicken</span> (each breast sliced in half lengthwise) in half of mixture for <b>10</b> mins.</li>
+                <li itemprop="recipeInstructions">IMPORTANT: when saving half your marinade, you want to make sure to mix the marinade ingredients in a bowl separate from the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">chicken</span> FIRST so as to avoid contamination. Divide the mixture in half, save the uncontaminated version for after you're done cooking everything, and the other half for marinading the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">chicken</span>. Safety first!</li>
+                <li itemprop="recipeInstructions">Meanwhile, mix together ingredients for <span data-default="1" data-defaultunit="cups" data-quantity="1" data-unit="cups" class="tooltip scalable">corn</span> salsa.</li>
+                <li itemprop="recipeInstructions">Add <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">chicken</span> to grill and cook for <b>4</b> mins per side. Remove from heat. Divide <span data-default="2" data-defaultunit="cups" data-quantity="2" data-unit="cups" class="tooltip scalable">rice</span> among four glass meal prep bowls. Add <b>2</b> pieces of <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">chicken</span> to each bowl (there should have been <b>8</b> slices total) and top with extra reserved <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">mango</span> sauce, <span data-default="1" data-defaultunit="cups" data-quantity="1" data-unit="cups" class="tooltip scalable">corn</span> salsa, <span data-default="0.25" data-defaultunit="cup" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">shredded coconut</span> and extra cilantro. Add slices of <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">avocado</span> and refrigerate up to <b>5</b> days in the fridge.</li>
                 </ol>
 
             <hr>

@@ -13,7 +13,7 @@
         <title>Teriyaki meatball bowls | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,61 +43,83 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <details open>
                     <summary class="ingredient-subheading">Pork and ginger meatballs</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> lb ground pork</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="lb">lb</span> ground pork</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> large egg</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="large">large</span> egg</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> cup breadcrumbs</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit="cup">cup</span> breadcrumbs</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> clove garlic, minced</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="clove">clove</span> garlic, minced</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tsp grated fresh ginger</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tsp">tsp</span> grated fresh ginger</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> tsp soy sauce</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit="tsp">tsp</span> soy sauce</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> green onions, sliced</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit=""></span> green onions, sliced</li>
                     </ul>
                 </details>
                 <details open>
                     <summary class="ingredient-subheading">Teriyaki sauce</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> cup soy sauce</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit="cup">cup</span> soy sauce</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> cup brown sugar</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit="cup">cup</span> brown sugar</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tsp grated fresh ginger</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tsp">tsp</span> grated fresh ginger</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> cloves garlic</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="cloves">cloves</span> garlic</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> cup water</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="cup">cup</span> water</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tbsp cornstarch</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tbsp">tbsp</span> cornstarch</li>
                     </ul>
                 </details>
                 <details open>
                     <summary class="ingredient-subheading">For servings</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> cup jasmine rice</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="cup">cup</span> jasmine rice</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> cups water</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="cups">cups</span> water</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> green onions</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit=""></span> green onions</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp sesame seeds</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> sesame seeds</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> lb frozen broccoli florets</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="lb">lb</span> frozen broccoli florets</li>
                     </ul>
                 </details>
             </div>
@@ -105,13 +127,13 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Preheat the oven to <b>200</b>&deg;C. Begin with the meatball mixture. Add the <span data-default="1" data-quantity="1" data-unit="lb" class="tooltip scalable">ground pork</span>, <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">egg</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">breadcrumbs</span>, minced <span data-default="1" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">ginger</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">soy sauce</span>, and sliced <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">green onions</span> to a bowl. Use your hands to mix the ingredients until evenly combined.</li>
+                <li itemprop="recipeInstructions">Preheat the oven to <b>200</b>&deg;C. Begin with the meatball mixture. Add the <span data-default="1" data-defaultunit="lb" data-quantity="1" data-unit="lb" class="tooltip scalable">ground pork</span>, <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">egg</span>, <span data-default="0.5" data-defaultunit="cup" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">breadcrumbs</span>, minced <span data-default="1" data-defaultunit="clove" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">ginger</span>, <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">soy sauce</span>, and sliced <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">green onions</span> to a bowl. Use your hands to mix the ingredients until evenly combined.</li>
                 <li itemprop="recipeInstructions">Divide and shape the meatball mixture into <b>16</b> ping pong sized balls. Place the shaped meatballs on a baking sheet lined with parchment paper. Baked the meatballs for about <b>20</b> minutes, or until they are golden brown and have reached an internal temperature of at least <b>70</b>&deg;C.</li>
-                <li itemprop="recipeInstructions">While the meatballs are cooking, begin the rice. Add the <span data-default="1" data-quantity="1" data-unit="cup" class="tooltip scalable">jasmine rice</span> and <span data-default="1" data-quantity="1" data-unit="cup" class="tooltip scalable">water</span> to a sauce pot. Place a lid on top and turn the heat onto high. Bring the pot up to a full boil, then turn the heat down to low and allow it to simmer, undisturbed for <b>15</b> minutes. After simmering for <b>15</b> minutes, turn the heat off and let it sit, with the lid still in place, for an additional <b>5</b> minutes. Fluff with a fork before serving.</li>
-                <li itemprop="recipeInstructions">While the rice and meatballs are cooking, prepare the teriyaki sauce. Combine the <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">soy sauce</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">brown sugar</span>, minced <span data-default="1" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span>, <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">grated ginger</span>, <span data-default="1" data-quantity="1" data-unit="cup" class="tooltip scalable">water</span>, and <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">cornstarch</span> in a medium sauce pot. Stir to dissolve the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">cornstarch</span>. Place the pot over medium heat. Stir and cook the sauce until it begins to simmer, at which point the sauce will thicken and turn from opaque to a shiny sauce. Remove the sauce from the heat.</li>
-                <li itemprop="recipeInstructions">Finally, if serving the meatball bowls immediately, cook the <span data-default="1" data-quantity="1" data-unit="lb" class="tooltip scalable">frozen broccoli florets</span> according to the package instructions. If you're packing the bowls as meal prep, the broccoli florets can be added in their frozen state.</li>
+                <li itemprop="recipeInstructions">While the meatballs are cooking, begin the rice. Add the <span data-default="1" data-defaultunit="cup" data-quantity="1" data-unit="cup" class="tooltip scalable">jasmine rice</span> and <span data-default="1" data-defaultunit="cup" data-quantity="1" data-unit="cup" class="tooltip scalable">water</span> to a sauce pot. Place a lid on top and turn the heat onto high. Bring the pot up to a full boil, then turn the heat down to low and allow it to simmer, undisturbed for <b>15</b> minutes. After simmering for <b>15</b> minutes, turn the heat off and let it sit, with the lid still in place, for an additional <b>5</b> minutes. Fluff with a fork before serving.</li>
+                <li itemprop="recipeInstructions">While the rice and meatballs are cooking, prepare the teriyaki sauce. Combine the <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">soy sauce</span>, <span data-default="0.5" data-defaultunit="cup" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">brown sugar</span>, minced <span data-default="1" data-defaultunit="clove" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span>, <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">grated ginger</span>, <span data-default="1" data-defaultunit="cup" data-quantity="1" data-unit="cup" class="tooltip scalable">water</span>, and <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">cornstarch</span> in a medium sauce pot. Stir to dissolve the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">cornstarch</span>. Place the pot over medium heat. Stir and cook the sauce until it begins to simmer, at which point the sauce will thicken and turn from opaque to a shiny sauce. Remove the sauce from the heat.</li>
+                <li itemprop="recipeInstructions">Finally, if serving the meatball bowls immediately, cook the <span data-default="1" data-defaultunit="lb" data-quantity="1" data-unit="lb" class="tooltip scalable">frozen broccoli florets</span> according to the package instructions. If you're packing the bowls as meal prep, the broccoli florets can be added in their frozen state.</li>
                 <li itemprop="recipeInstructions">Once the meatballs have finished baking, add them to the sauce pot with the teriyaki sauce and stir to coat.</li>
-                <li itemprop="recipeInstructions">To build the bowls, divide the cooked rice and broccoli florets between four bowls or containers. Add four meatballs to each bowl, then drizzle the extra sauce overtop. Finish the bowls by adding sliced green onion and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">sesame seeds</span> to each bowl.</li>
+                <li itemprop="recipeInstructions">To build the bowls, divide the cooked rice and broccoli florets between four bowls or containers. Add four meatballs to each bowl, then drizzle the extra sauce overtop. Finish the bowls by adding sliced green onion and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">sesame seeds</span> to each bowl.</li>
                 </ol>
 
             <hr>

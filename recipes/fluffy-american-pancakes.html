@@ -13,7 +13,7 @@
         <title>Fluffy American pancakes | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Dessert" itemscope itemtype="https://schema.org/Recipe">
 
@@ -46,36 +46,47 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="135" class="scalable">135</span> g plain flour</li>
+                        <span data-default="135" class="scalable">135</span>
+                        <span data-unit="g">g</span> plain flour</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp baking powder</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> baking powder</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp salt</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> salt</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp caster sugar</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> caster sugar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="130" class="scalable">130</span> ml milk</li>
+                        <span data-default="130" class="scalable">130</span>
+                        <span data-unit="ml">ml</span> milk</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large egg, lightly beaten</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> egg, lightly beaten</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp melted butter (allowed to cool slightly) or olive oil, plus extra for cooking</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> melted butter (allowed to cool slightly) or olive oil, plus extra for cooking</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Sift the <span data-default="135" data-quantity="135" data-unit="g" class="tooltip scalable">flour</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">baking powder</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">salt</span> and <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">caster sugar</span> into a large bowl. In a separate bowl or jug, lightly whisk together the <span data-default="130" data-quantity="130" data-unit="ml" class="tooltip scalable">milk</span> and <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">egg</span>, then whisk in the melted <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">butter</span>.  </li>
-                <li itemprop="recipeInstructions">Pour the <span data-default="130" data-quantity="130" data-unit="ml" class="tooltip scalable">milk</span> mixture into the <span data-default="135" data-quantity="135" data-unit="g" class="tooltip scalable">flour</span> mixture and, using a fork, beat until you have a smooth batter. Any lumps will soon disappear with a little mixing. Let the batter stand for a few minutes.  </li>
-                <li itemprop="recipeInstructions">Heat a non-stick frying pan over a medium heat and add a knob of <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">butter</span>. When it's melted, add a ladle of batter (or two if your frying pan is big enough to cook two pancakes at the same time). It will seem very thick but this is how it should be. Wait until the top of the pancake begins to bubble, then turn it over and cook until both sides are golden brown and the pancake has risen to about <b>1</b>cm (½in) thick.  </li>
+                <li itemprop="recipeInstructions">Sift the <span data-default="135" data-defaultunit="g" data-quantity="135" data-unit="g" class="tooltip scalable">flour</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">baking powder</span>, <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">salt</span> and <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">caster sugar</span> into a large bowl. In a separate bowl or jug, lightly whisk together the <span data-default="130" data-defaultunit="ml" data-quantity="130" data-unit="ml" class="tooltip scalable">milk</span> and <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">egg</span>, then whisk in the melted <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">butter</span>.  </li>
+                <li itemprop="recipeInstructions">Pour the <span data-default="130" data-defaultunit="ml" data-quantity="130" data-unit="ml" class="tooltip scalable">milk</span> mixture into the <span data-default="135" data-defaultunit="g" data-quantity="135" data-unit="g" class="tooltip scalable">flour</span> mixture and, using a fork, beat until you have a smooth batter. Any lumps will soon disappear with a little mixing. Let the batter stand for a few minutes.  </li>
+                <li itemprop="recipeInstructions">Heat a non-stick frying pan over a medium heat and add a knob of <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">butter</span>. When it's melted, add a ladle of batter (or two if your frying pan is big enough to cook two pancakes at the same time). It will seem very thick but this is how it should be. Wait until the top of the pancake begins to bubble, then turn it over and cook until both sides are golden brown and the pancake has risen to about <b>1</b>cm (½in) thick.  </li>
                 <li itemprop="recipeInstructions">Repeat until all the batter is used up. You can keep the pancakes warm in a low oven, but they taste best fresh out the pan.  </li>
                 </ol>
 

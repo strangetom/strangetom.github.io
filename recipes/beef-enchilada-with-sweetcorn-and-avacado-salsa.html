@@ -13,7 +13,7 @@
         <title>Beef enchilada with sweetcorn and avacado salsa | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Beef" itemscope itemtype="https://schema.org/Recipe">
 
@@ -42,78 +42,101 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <details open>
                     <summary class="ingredient-subheading">Enchilada filling</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> onion, chopped</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit=""></span> onion, chopped</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> cloves garlic, finely chopped</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="cloves">cloves</span> garlic, finely chopped</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="500" class="scalable">500</span> g beef mince</li>
+                            <span data-default="500" class="scalable">500</span>
+                            <span data-unit="g">g</span> beef mince</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span>x 400 g tin chopped tomatoes</li>
+                            <span data-default="1" class="scalable">1</span>x <span data-unit="400 g tin">400 g tin</span> chopped tomatoes</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tsp sugar</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tsp">tsp</span> sugar</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> fat red chillis, cut into thin slices</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit=""></span> fat red chillis, cut into thin slices</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tsp cumin</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tsp">tsp</span> cumin</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> beef stock cube</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit=""></span> beef stock cube</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp tomato puree</li>
-                        <li itemprop="recipeIngredient">salt and pepper</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> tomato puree</li>
+                        <li itemprop="recipeIngredient"> salt and pepper</li>
                     </ul>
                 </details>
                 <details open>
                     <summary class="ingredient-subheading">Tomato sauce</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1x 400" class="scalable">1x 400</span> g tin tomatoes</li>
+                            <span data-default="1" class="scalable">1x 40</span>x <span data-unit="400 g tin">400 g tin</span> tomatoes</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp tomato puree</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> tomato puree</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tsp sugar</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tsp">tsp</span> sugar</li>
                     </ul>
                 </details>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="8" class="scalable">8</span> corn tortillas</li>
+                        <span data-default="8" class="scalable">8</span>
+                        <span data-unit=""></span> corn tortillas</li>
                 </ul>
                 <details open>
                     <summary class="ingredient-subheading">Simple white sauce</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="300" class="scalable">300</span> ml creme fraiche or soured cream</li>
+                            <span data-default="300" class="scalable">300</span>
+                            <span data-unit="ml">ml</span> creme fraiche or soured cream</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp chopped basil</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> chopped basil</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> mug grated cheddar cheese</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="mug">mug</span> grated cheddar cheese</li>
                     </ul>
                 </details>
                 <details open>
                     <summary class="ingredient-subheading">Sweetcorn and avocado salsa</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tbsp olive oil</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tbsp">tbsp</span> olive oil</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> avacado, peeled and cut into chunks</li>
-                        <li itemprop="recipeIngredient">juice of lemon</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit=""></span> avacado, peeled and cut into chunks</li>
+                        <li itemprop="recipeIngredient"> juice of lemon</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="3" class="scalable">3</span> spring onions, chopped</li>
+                            <span data-default="3" class="scalable">3</span>
+                            <span data-unit=""></span> spring onions, chopped</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tsp sugar</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tsp">tsp</span> sugar</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tomatoes, chopped into chunks</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit=""></span> tomatoes, chopped into chunks</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">0.5</span>x 340 g tin sweetcorn</li>
+                            <span data-default="0.5" class="scalable">0.5</span>x <span data-unit="340 g tin">340 g tin</span> sweetcorn</li>
                     </ul>
                 </details>
             </div>
@@ -122,11 +145,11 @@
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Preheat the oven to <b>220</b>&deg;C/Gas <b>9</b>.  </li>
-                <li itemprop="recipeInstructions">Heat a little oil in a saucepan. Fry the onions and <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> for <b>2</b> minutes until they become soft. Add the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">mince</span> and fry until it is no longer pink.  </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="1x" data-quantity="1x" data-unit="400 g tin" class="tooltip scalable">chopped tomatoes</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">sugar</span>, chilli, <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">cumin</span>, <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">beef stock</span> and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">tomato puree</span>. Cook for about <b>5</b> minutes, the mixture should be quite thick, not runny. Season with salt and pepper. Leave to cool slightly.  </li>
+                <li itemprop="recipeInstructions">Heat a little oil in a saucepan. Fry the onions and <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> for <b>2</b> minutes until they become soft. Add the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">mince</span> and fry until it is no longer pink.  </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="1x" data-defaultunit="400 g tin" data-quantity="1x" data-unit="400 g tin" class="tooltip scalable">chopped tomatoes</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">sugar</span>, chilli, <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">cumin</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">beef stock</span> and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">tomato puree</span>. Cook for about <b>5</b> minutes, the mixture should be quite thick, not runny. Season with salt and pepper. Leave to cool slightly.  </li>
                 <li itemprop="recipeInstructions">Mix the tomato sauce ingredients and whizz with a hand held blender. </li>
                 <li itemprop="recipeInstructions">Mix the white sauce ingredients in a bowl.  </li>
-                <li itemprop="recipeInstructions">Grease a large oven proof dish with oil. Divide the meat mixture between the <b>8</b> <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">tortillas</span> and roll each one up. Place side by side in the dish.  </li>
+                <li itemprop="recipeInstructions">Grease a large oven proof dish with oil. Divide the meat mixture between the <b>8</b> <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">tortillas</span> and roll each one up. Place side by side in the dish.  </li>
                 <li itemprop="recipeInstructions">Pour over the tomato sauce and then pour the white sauce on top of that.  </li>
                 <li itemprop="recipeInstructions">Place in the oven for <b>10-15</b> minutes or until the top begins to brown. </li>
                 <li itemprop="recipeInstructions">While the enchiladas are cooking, prepare the salsa by mixing all the ingredients in a bowl.  </li>

@@ -13,7 +13,7 @@
         <title>Curried chicken & new potato traybake | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,44 +44,59 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="8" class="scalable">8</span> chicken drumsticks</li>
+                        <span data-default="8" class="scalable">8</span>
+                        <span data-unit=""></span> chicken drumsticks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsp olive oil</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp garlic paste</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> garlic paste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp ginger paste</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> ginger paste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp garam masala</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> garam masala</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp turmeric</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> turmeric</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="150" class="scalable">150</span> ml pot natural yogurt</li>
+                        <span data-default="150" class="scalable">150</span>
+                        <span data-unit="ml">ml</span> pot natural yogurt</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g new potatoes, halved</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="g">g</span> new potatoes, halved</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> large tomatoes, roughly chopped</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="large">large</span> tomatoes, roughly chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> red onion, finely chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> red onion, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="small" class="scalable">small</span> pack coriander, roughly chopped</li>
+                        <span data-default="small" class="scalable">small</span>
+                        <span data-unit="pack">pack</span> coriander, roughly chopped</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Put the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">drumsticks</span> in a large bowl with <b>1</b> tbsp <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">oil</span>, the <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">garlic</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">ginger</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">garam masala</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">turmeric</span> and <b>2</b> tbsp <span data-default="150" data-quantity="150" data-unit="ml" class="tooltip scalable">yogurt</span>. Toss together with your hands until coated. Leave to marinate for at least <b>30</b> mins (can be left in the fridge overnight). Heat oven to <b>180</b>&deg;C/Gas <b>4</b>.  </li>
-                <li itemprop="recipeInstructions">Put the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">potatoes</span> in a large roasting tin with the remaining <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">oil</span> and plenty of seasoning. Add the chicken <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">drumsticks</span> and bake for <b>40-45</b> mins until cooked and golden.  </li>
-                <li itemprop="recipeInstructions">Scatter the <span data-default="4" data-quantity="4" data-unit="large" class="tooltip scalable">tomatoes</span>, <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <span data-default="small" data-quantity="small" data-unit="pack" class="tooltip scalable">coriander</span> and some seasoning over the chicken and <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">potatoes</span>, with the remaining <span data-default="150" data-quantity="150" data-unit="ml" class="tooltip scalable">yogurt</span> served on the side.  </li>
+                <li itemprop="recipeInstructions">Put the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">drumsticks</span> in a large bowl with <b>1</b> tbsp <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">oil</span>, the <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">garlic</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">ginger</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">garam masala</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">turmeric</span> and <b>2</b> tbsp <span data-default="150" data-defaultunit="ml" data-quantity="150" data-unit="ml" class="tooltip scalable">yogurt</span>. Toss together with your hands until coated. Leave to marinate for at least <b>30</b> mins (can be left in the fridge overnight). Heat oven to <b>180</b>&deg;C/Gas <b>4</b>.  </li>
+                <li itemprop="recipeInstructions">Put the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">potatoes</span> in a large roasting tin with the remaining <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">oil</span> and plenty of seasoning. Add the chicken <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">drumsticks</span> and bake for <b>40-45</b> mins until cooked and golden.  </li>
+                <li itemprop="recipeInstructions">Scatter the <span data-default="4" data-defaultunit="large" data-quantity="4" data-unit="large" class="tooltip scalable">tomatoes</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <span data-default="small" data-defaultunit="pack" data-quantity="small" data-unit="pack" class="tooltip scalable">coriander</span> and some seasoning over the chicken and <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">potatoes</span>, with the remaining <span data-default="150" data-defaultunit="ml" data-quantity="150" data-unit="ml" class="tooltip scalable">yogurt</span> served on the side.  </li>
                 </ol>
 
             <hr>

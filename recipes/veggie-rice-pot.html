@@ -13,7 +13,7 @@
         <title>Veggie rice pot | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,46 +44,62 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp sunflower or rapeseed oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> sunflower or rapeseed oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> peppers (1 red, 1 yellow) , deseeded and thickly sliced</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> peppers (1 red, 1 yellow) , deseeded and thickly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g pack shiitake or chestnut mushrooms, sliced</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="g">g</span> pack shiitake or chestnut mushrooms, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g long grain rice (not the easy-cook type)</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="g">g</span> long grain rice (not the easy-cook type)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, finely chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> heaped tsp five-spice powder</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="heaped tsp">heaped tsp</span> five-spice powder</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsp dry sherry</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsp">tbsp</span> dry sherry</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="140" class="scalable">140</span> g frozen petit pois</li>
+                        <span data-default="140" class="scalable">140</span>
+                        <span data-unit="g">g</span> frozen petit pois</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp sesame oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> sesame oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> eggs, beaten</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> eggs, beaten</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> bunch spring onions, sliced diagonally</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="bunch">bunch</span> spring onions, sliced diagonally</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp light soy sauce, or more if you need it</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> light soy sauce, or more if you need it</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Boil the kettle. Heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large, deep frying pan with a lid, then add the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">peppers</span> and <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">mushrooms</span>. Fry over a high heat for <b>3</b> minutes or until starting to soften and turn golden. Turn down the heat, then stir in the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">rice</span>, <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="1" data-quantity="1" data-unit="heaped tsp" class="tooltip scalable">five-spice</span>. Sizzle for <b>2</b> minutes, then splash in the <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">sherry</span> and top up with <b>350</b> ml hot water.</li>
-                <li itemprop="recipeInstructions">Cover the pan and simmer for <b>15-20</b> minutes until all of the liquid has been absorbed and the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">rice</span> is tender, stirring now and again. Add the peas for the final few minutes.</li>
-                <li itemprop="recipeInstructions">Heat another frying pan, add a drop of <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">sesame oil</span>, then add the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">eggs</span>. Swirl them around the pan to make a think omelette. Once set, turn out on to a board, roll up and shred thinly. Tip the egg and <span data-default="1" data-quantity="1" data-unit="bunch" class="tooltip scalable">spring onions</span> on to the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">rice</span>, fluff up with a fork, season with soy sauce and the remaining <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">sesame oil</span>, then serve.</li>
+                <li itemprop="recipeInstructions">Boil the kettle. Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large, deep frying pan with a lid, then add the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">peppers</span> and <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">mushrooms</span>. Fry over a high heat for <b>3</b> minutes or until starting to soften and turn golden. Turn down the heat, then stir in the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">rice</span>, <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="1" data-defaultunit="heaped tsp" data-quantity="1" data-unit="heaped tsp" class="tooltip scalable">five-spice</span>. Sizzle for <b>2</b> minutes, then splash in the <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">sherry</span> and top up with <b>350</b> ml hot water.</li>
+                <li itemprop="recipeInstructions">Cover the pan and simmer for <b>15-20</b> minutes until all of the liquid has been absorbed and the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">rice</span> is tender, stirring now and again. Add the peas for the final few minutes.</li>
+                <li itemprop="recipeInstructions">Heat another frying pan, add a drop of <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">sesame oil</span>, then add the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">eggs</span>. Swirl them around the pan to make a think omelette. Once set, turn out on to a board, roll up and shred thinly. Tip the egg and <span data-default="1" data-defaultunit="bunch" data-quantity="1" data-unit="bunch" class="tooltip scalable">spring onions</span> on to the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">rice</span>, fluff up with a fork, season with soy sauce and the remaining <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">sesame oil</span>, then serve.</li>
                 </ol>
 
             <hr>

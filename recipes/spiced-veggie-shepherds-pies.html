@@ -13,7 +13,7 @@
         <title>Spiced veggie shepherd's pies  | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -48,63 +48,88 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> onion, finely chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> onion, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> carrot, finely diced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> carrot, finely diced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> stick celery, finely diced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="stick">stick</span> celery, finely diced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> cloves garlic, finely chopped</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="cloves">cloves</span> garlic, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp ground coriander</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> ground coriander</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp ground cumin</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> ground cumin</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp ground cinnamon</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> ground cinnamon</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp crushed chillies</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> crushed chillies</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 400 g tin chopped tomatoes</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g tin">400 g tin</span> chopped tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> ml hot vegetable stock</li>
+                        <span data-default="400" class="scalable">400</span>
+                        <span data-unit="ml">ml</span> hot vegetable stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 400 g tin Puy or green lentils, drained and rinsed</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g tin">400 g tin</span> Puy or green lentils, drained and rinsed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp sundried tomato paste (optional)</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> sundried tomato paste (optional)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp garam masala</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> garam masala</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp chopped coriander</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> chopped coriander</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp chopped mint</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> chopped mint</li>
                 </ul>
                 <details open>
                     <summary class="ingredient-subheading">For the mashed carrot topping</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tsp cumin seeds</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tsp">tsp</span> cumin seeds</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="750" class="scalable">750</span> g carrots, peeled and cut into 2 cm slices</li>
+                            <span data-default="750" class="scalable">750</span>
+                            <span data-unit="g">g</span> carrots, peeled and cut into 2 cm slices</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="500" class="scalable">500</span> ml hot vegetable stock</li>
+                            <span data-default="500" class="scalable">500</span>
+                            <span data-unit="ml">ml</span> hot vegetable stock</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="knob" class="scalable">knob</span> of butter</li>
+                            <span data-default="knob" class="scalable">knob</span>
+                            <span data-unit=""></span> of butter</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp chopped coriander and mint leaves</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> chopped coriander and mint leaves</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="200" class="scalable">200</span> g feta cheese, crumbled</li>
+                            <span data-default="200" class="scalable">200</span>
+                            <span data-unit="g">g</span> feta cheese, crumbled</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp chopped mint leaves</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> chopped mint leaves</li>
                     </ul>
                 </details>
             </div>
@@ -112,10 +137,10 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the oil in a deep frying pan, cook the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">carrot</span> and <span data-default="1" data-quantity="1" data-unit="stick" class="tooltip scalable">celery</span> gently for <b>10</b> minutes, until almost softened. Stir in the <span data-default="3" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">coriander</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">cumin</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">cinnamon</span> and <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">chilli</span>, and cook for a further <b>2</b> - <b>3</b> minutes.</li>
-                <li itemprop="recipeInstructions">Stir in the <span data-default="1x" data-quantity="1x" data-unit="400 g tin" class="tooltip scalable">tomatoes</span> and <b>400</b> ml <span data-default="400" data-quantity="400" data-unit="ml" class="tooltip scalable">stock</span>. Bring to the boil, reduce the heat and simmer gently for <b>15</b> minutes. Stir in the <span data-default="1x" data-quantity="1x" data-unit="400 g tin" class="tooltip scalable">lentils</span>, <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">tomato paste</span>, if using, and <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">garam masala</span>; simmer for a further <b>5</b> minutes. Season to taste. Stir in the herbs.</li>
-                <li itemprop="recipeInstructions">Meanwhile, put the <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">cumin seeds</span> in a large saucepan, toast over a medium heat for <b>2</b> minutes, then add the <span data-default="750" data-quantity="750" data-unit="g" class="tooltip scalable">carrots</span>, cover with the <span data-default="400" data-quantity="400" data-unit="ml" class="tooltip scalable">stock</span> and bring to the boil. Cover with a lid and simmer for <b>15</b> minutes until tender. Drain well through a sieve (to keep the <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">cumin seeds</span>), then return to the pan and mash with the <span data-default="knob" data-quantity="knob" data-unit="" class="tooltip scalable">butter</span>. Stir in the herbs, then briefly fold in the feta. Preheat the oven to <b>180</b>&deg;C/Gas <b>6</b>.</li>
-                <li itemprop="recipeInstructions">Transfer the lentil mixture to <b>4</b>x <b>300</b> ml individual pie/baking dishes (or a <b>1</b><b>&frac12;</b> - <b>2</b> litre capacity baking dish). Spoon the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">carrot</span> mash on top of the pies (or pie).</li>
+                <li itemprop="recipeInstructions">Heat the oil in a deep frying pan, cook the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">carrot</span> and <span data-default="1" data-defaultunit="stick" data-quantity="1" data-unit="stick" class="tooltip scalable">celery</span> gently for <b>10</b> minutes, until almost softened. Stir in the <span data-default="3" data-defaultunit="cloves" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">coriander</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">cumin</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">cinnamon</span> and <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">chilli</span>, and cook for a further <b>2</b> - <b>3</b> minutes.</li>
+                <li itemprop="recipeInstructions">Stir in the <span data-default="1x" data-defaultunit="400 g tin" data-quantity="1x" data-unit="400 g tin" class="tooltip scalable">tomatoes</span> and <b>400</b> ml <span data-default="400" data-defaultunit="ml" data-quantity="400" data-unit="ml" class="tooltip scalable">stock</span>. Bring to the boil, reduce the heat and simmer gently for <b>15</b> minutes. Stir in the <span data-default="1x" data-defaultunit="400 g tin" data-quantity="1x" data-unit="400 g tin" class="tooltip scalable">lentils</span>, <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">tomato paste</span>, if using, and <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">garam masala</span>; simmer for a further <b>5</b> minutes. Season to taste. Stir in the herbs.</li>
+                <li itemprop="recipeInstructions">Meanwhile, put the <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">cumin seeds</span> in a large saucepan, toast over a medium heat for <b>2</b> minutes, then add the <span data-default="750" data-defaultunit="g" data-quantity="750" data-unit="g" class="tooltip scalable">carrots</span>, cover with the <span data-default="400" data-defaultunit="ml" data-quantity="400" data-unit="ml" class="tooltip scalable">stock</span> and bring to the boil. Cover with a lid and simmer for <b>15</b> minutes until tender. Drain well through a sieve (to keep the <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">cumin seeds</span>), then return to the pan and mash with the <span data-default="knob" data-defaultunit="" data-quantity="knob" data-unit="" class="tooltip scalable">butter</span>. Stir in the herbs, then briefly fold in the feta. Preheat the oven to <b>180</b>&deg;C/Gas <b>6</b>.</li>
+                <li itemprop="recipeInstructions">Transfer the lentil mixture to <b>4</b>x <b>300</b> ml individual pie/baking dishes (or a <b>1</b><b>&frac12;</b> - <b>2</b> litre capacity baking dish). Spoon the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">carrot</span> mash on top of the pies (or pie).</li>
                 <li itemprop="recipeInstructions">Transfer to a baking sheet and bake for <b>25-30</b> minutes until bubbling and golden.</li>
                 </ol>
 

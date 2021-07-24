@@ -13,7 +13,7 @@
         <title>Tuna noodles with honey and ginger dressing | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -42,40 +42,53 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> spring onions, sliced lengthways</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit=""></span> spring onions, sliced lengthways</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> cucumber, cut in half seeds removed and sliced thinly</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit=""></span> cucumber, cut in half seeds removed and sliced thinly</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> red pepper, sliced thinly</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit=""></span> red pepper, sliced thinly</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="185" class="scalable">185</span> g tin of tuna, drained</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="185 g tin">185 g tin</span> of tuna, drained</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">0.5</span>x 400 g pack fresh egg noodles</li>
+                        <span data-default="0.5" class="scalable">0.5</span>x <span data-unit="400 g pack">400 g pack</span> fresh egg noodles</li>
                 </ul>
                 <details open>
                     <summary class="ingredient-subheading">Dressing</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tsp honey</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tsp">tsp</span> honey</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp fish sauce</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> fish sauce</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp white wine vinegar</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> white wine vinegar</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tbsp oil</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tbsp">tbsp</span> oil</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tsp grated fresh ginger</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tsp">tsp</span> grated fresh ginger</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> fat red chilli, deseeded and finely chopped</li>
-                        <li itemprop="recipeIngredient">salt and pepper</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit=""></span> fat red chilli, deseeded and finely chopped</li>
+                        <li itemprop="recipeIngredient"> salt and pepper</li>
                     </ul>
                 </details>
             </div>
@@ -84,9 +97,9 @@
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Mix the dressing ingredients together in a mug or bowl.  </li>
-                <li itemprop="recipeInstructions">In another bowl, mix togther the <span data-default="3" data-quantity="3" data-unit="" class="tooltip scalable">spring onions</span>, <span data-default="0.25" data-quantity="&frac14;" data-unit="" class="tooltip scalable">cucumber</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="" class="tooltip scalable">red pepper</span> and <span data-default="185" data-quantity="185" data-unit="g tin" class="tooltip scalable">tuna</span>.  </li>
-                <li itemprop="recipeInstructions">Boil some water in the kettle, pour the water over the fresh egg <span data-default="0.5x" data-quantity="0.5x" data-unit="400 g pack" class="tooltip scalable">noodles</span> and leave to stand for <b>1</b> minute. Drain  </li>
-                <li itemprop="recipeInstructions">Divide the <span data-default="0.5x" data-quantity="0.5x" data-unit="400 g pack" class="tooltip scalable">noodles</span> between the plates, placing the tune mix over the top. Drizzle over the dressing.</li>
+                <li itemprop="recipeInstructions">In another bowl, mix togther the <span data-default="3" data-defaultunit="" data-quantity="3" data-unit="" class="tooltip scalable">spring onions</span>, <span data-default="0.25" data-defaultunit="" data-quantity="&frac14;" data-unit="" class="tooltip scalable">cucumber</span>, <span data-default="0.5" data-defaultunit="" data-quantity="&frac12;" data-unit="" class="tooltip scalable">red pepper</span> and <span data-default="1x" data-defaultunit="185 g tin" data-quantity="1x" data-unit="185 g tin" class="tooltip scalable">tuna</span>.  </li>
+                <li itemprop="recipeInstructions">Boil some water in the kettle, pour the water over the fresh egg <span data-default="0.5x" data-defaultunit="400 g pack" data-quantity="0.5x" data-unit="400 g pack" class="tooltip scalable">noodles</span> and leave to stand for <b>1</b> minute. Drain  </li>
+                <li itemprop="recipeInstructions">Divide the <span data-default="0.5x" data-defaultunit="400 g pack" data-quantity="0.5x" data-unit="400 g pack" class="tooltip scalable">noodles</span> between the plates, placing the tune mix over the top. Drizzle over the dressing.</li>
                 </ol>
 
             <hr>

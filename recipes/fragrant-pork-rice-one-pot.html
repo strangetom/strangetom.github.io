@@ -13,7 +13,7 @@
         <title>Fragrant pork & rice one-pot | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,39 +47,51 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4-6" class="scalable">4-6</span> good quality sausages</li>
+                        <span data-default="4-6" class="scalable">4-6</span>
+                        <span data-unit=""></span> good quality sausages</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> onion, finely chopped</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit=""></span> onion, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, crushed</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp ground coriander and cumin</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> ground coriander and cumin</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="140" class="scalable">140</span> g long grain rice</li>
+                        <span data-default="140" class="scalable">140</span>
+                        <span data-unit="g">g</span> long grain rice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="850" class="scalable">850</span> ml vegetable stock</li>
+                        <span data-default="850" class="scalable">850</span>
+                        <span data-unit="ml">ml</span> vegetable stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tin tomatoes</li>
-                    <li itemprop="recipeIngredient">coriander leaves to garnish</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tin">tin</span> tomatoes</li>
+                    <li itemprop="recipeIngredient"> coriander leaves to garnish</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Split the sausage skins, squeeze out the meat, then roll it into small meatballs about the size of a large olive. Heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large non-stick saucepan, then brown the meatballs well on all sides until cooked – you might need to do this in batches. Set the meatballs aside.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="0.5" data-quantity="&frac12;" data-unit="" class="tooltip scalable">onion</span> and <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> to the pan. Soften for <b>5</b> mins, stir in the spices and <span data-default="140" data-quantity="140" data-unit="g" class="tooltip scalable">rice</span>, then cook for another min. Pour in the <span data-default="850" data-quantity="850" data-unit="ml" class="tooltip scalable">stock</span> and <span data-default="1" data-quantity="1" data-unit="tin" class="tooltip scalable">tomatoes</span>. </li>
-                <li itemprop="recipeInstructions">Bring to a simmer, scraping up any sausagey bits from the bottom of the pan. Simmer for <b>10</b> mins until the <span data-default="140" data-quantity="140" data-unit="g" class="tooltip scalable">rice</span> is just cooked, then stir in the meatballs with some seasoning. </li>
+                <li itemprop="recipeInstructions">Split the sausage skins, squeeze out the meat, then roll it into small meatballs about the size of a large olive. Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large non-stick saucepan, then brown the meatballs well on all sides until cooked – you might need to do this in batches. Set the meatballs aside.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="0.5" data-defaultunit="" data-quantity="&frac12;" data-unit="" class="tooltip scalable">onion</span> and <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> to the pan. Soften for <b>5</b> mins, stir in the spices and <span data-default="140" data-defaultunit="g" data-quantity="140" data-unit="g" class="tooltip scalable">rice</span>, then cook for another min. Pour in the <span data-default="850" data-defaultunit="ml" data-quantity="850" data-unit="ml" class="tooltip scalable">stock</span> and <span data-default="1" data-defaultunit="tin" data-quantity="1" data-unit="tin" class="tooltip scalable">tomatoes</span>. </li>
+                <li itemprop="recipeInstructions">Bring to a simmer, scraping up any sausagey bits from the bottom of the pan. Simmer for <b>10</b> mins until the <span data-default="140" data-defaultunit="g" data-quantity="140" data-unit="g" class="tooltip scalable">rice</span> is just cooked, then stir in the meatballs with some seasoning. </li>
                 </ol>
 
             <hr>

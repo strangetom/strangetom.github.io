@@ -13,7 +13,7 @@
         <title>Sweet potato & lentil soup | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,43 +43,57 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> g red split lentils</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="g">g</span> red split lentils</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> onion, chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> onion, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp olive oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> clove garlic, finely chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="clove">clove</span> garlic, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp curry paste</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> curry paste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="450" class="scalable">450</span> g sweet potatoes, peeled and cubed</li>
+                        <span data-default="450" class="scalable">450</span>
+                        <span data-unit="g">g</span> sweet potatoes, peeled and cubed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="450" class="scalable">450</span> g floury pototoes, peeled and cubed</li>
+                        <span data-default="450" class="scalable">450</span>
+                        <span data-unit="g">g</span> floury pototoes, peeled and cubed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.2" class="scalable">1⅕</span> l hot vegetable stock</li>
+                        <span data-default="1.2" class="scalable">1⅕</span>
+                        <span data-unit="l">l</span> hot vegetable stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp chopped mint (optional)</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> chopped mint (optional)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="142" class="scalable">142</span> g carton low-fat natural yoghurt</li>
-                    <li itemprop="recipeIngredient">warm bread, to serve</li>
+                        <span data-default="142" class="scalable">142</span>
+                        <span data-unit="g">g</span> carton low-fat natural yoghurt</li>
+                    <li itemprop="recipeIngredient"> warm bread, to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Cook the <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">lentils</span> in boiling water for <b>15</b> minutes. Fry the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> in the <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">oil</span> for <b>8</b> minutes until softened and beginning to brown. Stir in the <span data-default="1" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span>, <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">curry paste</span> and cubed <span data-default="450" data-quantity="450" data-unit="g" class="tooltip scalable">potatoes</span>. Cook for <b>5</b> minutes.  </li>
-                <li itemprop="recipeInstructions">Drain the <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">lentils</span>. Add to the <span data-default="450" data-quantity="450" data-unit="g" class="tooltip scalable">potatoes</span> with the <span data-default="1.2" data-quantity="1&frac15;" data-unit="l" class="tooltip scalable">stock</span> and simmer for <b>12-15</b> minutes until the <span data-default="450" data-quantity="450" data-unit="g" class="tooltip scalable">potatoes</span> are fully cooked. Whizz in a food processor until smooth. Season to taste and heat through.  </li>
-                <li itemprop="recipeInstructions">Stir the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">mint</span>, if using, into the yogurt and season to taste. Ladle the soup into bowl and swirl in the <span data-default="142" data-quantity="142" data-unit="g" class="tooltip scalable">yoghurt</span>. Serve with warm bread.  </li>
+                <li itemprop="recipeInstructions">Cook the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">lentils</span> in boiling water for <b>15</b> minutes. Fry the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> in the <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">oil</span> for <b>8</b> minutes until softened and beginning to brown. Stir in the <span data-default="1" data-defaultunit="clove" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span>, <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">curry paste</span> and cubed <span data-default="450" data-defaultunit="g" data-quantity="450" data-unit="g" class="tooltip scalable">potatoes</span>. Cook for <b>5</b> minutes.  </li>
+                <li itemprop="recipeInstructions">Drain the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">lentils</span>. Add to the <span data-default="450" data-defaultunit="g" data-quantity="450" data-unit="g" class="tooltip scalable">potatoes</span> with the <span data-default="1.2" data-defaultunit="l" data-quantity="1&frac15;" data-unit="l" class="tooltip scalable">stock</span> and simmer for <b>12-15</b> minutes until the <span data-default="450" data-defaultunit="g" data-quantity="450" data-unit="g" class="tooltip scalable">potatoes</span> are fully cooked. Whizz in a food processor until smooth. Season to taste and heat through.  </li>
+                <li itemprop="recipeInstructions">Stir the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">mint</span>, if using, into the yogurt and season to taste. Ladle the soup into bowl and swirl in the <span data-default="142" data-defaultunit="g" data-quantity="142" data-unit="g" class="tooltip scalable">yoghurt</span>. Serve with warm bread.  </li>
                 </ol>
 
             <hr>

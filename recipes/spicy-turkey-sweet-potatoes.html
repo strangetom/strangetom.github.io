@@ -13,7 +13,7 @@
         <title>Spicy turkey sweet potatoes | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Turkey" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,42 +43,56 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> sweet potatoes</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> sweet potatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp rapeseed oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> rapeseed oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> onion, finely chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> onion, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> clove garlic, crushed</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="clove">clove</span> garlic, crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g turkey thigh mince</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="g">g</span> turkey thigh mince</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g passata</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="g">g</span> passata</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tbsp barbecue or hoisin sauce</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="tbsp">tbsp</span> barbecue or hoisin sauce</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp smoked paprika</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> smoked paprika</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tbsp soured cream or yogurt</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="tbsp">tbsp</span> soured cream or yogurt</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> pack chives, finely snipped</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="pack">pack</span> chives, finely snipped</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the oven to <b>180</b>&deg;C/Gas <b>6</b>. Prick the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">potatoes</span>, place on a baking tray and bake for <b>45</b> minutes or until really soft.</li>
-                <li itemprop="recipeInstructions">Meanwhile, heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a frying pan, add the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and cook gently for <b>8</b> minutes until softened. Stir in the <span data-default="1" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span>, then tip in the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">mince</span> and stir to break up. Cook over a high heat until any liquid has evapourated and the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">mince</span> is browned, about <b>10</b> minutes. Pour in the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">passata</span>, then fill the carton a quarter full of water and tip that in too. Add the barbecue <span data-default="4" data-quantity="4" data-unit="tbsp" class="tooltip scalable">sauce</span> and <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">paprika</span>, then lower the heat and simmer gently for <b>15</b> minutes, add a little extra water if needed</li>
-                <li itemprop="recipeInstructions">When the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">potatoes</span> are soft, split them down the centre and spoon the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">mince</span> over the top. Add a dollop of soured cream or yoghurt and a sprinkling of <span data-default="0.5" data-quantity="&frac12;" data-unit="pack" class="tooltip scalable">chives</span>.</li>
+                <li itemprop="recipeInstructions">Heat the oven to <b>180</b>&deg;C/Gas <b>6</b>. Prick the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">potatoes</span>, place on a baking tray and bake for <b>45</b> minutes or until really soft.</li>
+                <li itemprop="recipeInstructions">Meanwhile, heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a frying pan, add the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and cook gently for <b>8</b> minutes until softened. Stir in the <span data-default="1" data-defaultunit="clove" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span>, then tip in the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">mince</span> and stir to break up. Cook over a high heat until any liquid has evapourated and the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">mince</span> is browned, about <b>10</b> minutes. Pour in the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">passata</span>, then fill the carton a quarter full of water and tip that in too. Add the barbecue <span data-default="4" data-defaultunit="tbsp" data-quantity="4" data-unit="tbsp" class="tooltip scalable">sauce</span> and <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">paprika</span>, then lower the heat and simmer gently for <b>15</b> minutes, add a little extra water if needed</li>
+                <li itemprop="recipeInstructions">When the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">potatoes</span> are soft, split them down the centre and spoon the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">mince</span> over the top. Add a dollop of soured cream or yoghurt and a sprinkling of <span data-default="0.5" data-defaultunit="pack" data-quantity="&frac12;" data-unit="pack" class="tooltip scalable">chives</span>.</li>
                 </ol>
 
             <hr>

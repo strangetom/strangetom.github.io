@@ -13,7 +13,7 @@
         <title>Lemony chicken with roast veg and olives | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,46 +43,61 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="300" class="scalable">300</span> g sweet potatoes, cut into 2cm cubes</li>
+                        <span data-default="300" class="scalable">300</span>
+                        <span data-unit="g">g</span> sweet potatoes, cut into 2cm cubes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g cauliflower, cut into small florets</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> cauliflower, cut into small florets</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp olive oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp cumin seeds</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> cumin seeds</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> skinless chicken breast fillets</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> skinless chicken breast fillets</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="20" class="scalable">20</span> g plain flour</li>
+                        <span data-default="20" class="scalable">20</span>
+                        <span data-unit="g">g</span> plain flour</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="150" class="scalable">150</span> ml chicken stock</li>
+                        <span data-default="150" class="scalable">150</span>
+                        <span data-unit="ml">ml</span> chicken stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp lemon juice</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> lemon juice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="40" class="scalable">40</span> g pitted green olives, halved</li>
+                        <span data-default="40" class="scalable">40</span>
+                        <span data-unit="g">g</span> pitted green olives, halved</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="20" class="scalable">20</span> g butter, diced</li>
+                        <span data-default="20" class="scalable">20</span>
+                        <span data-unit="g">g</span> butter, diced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp chopped coriander</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> chopped coriander</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Preheat the oven to <b>200</b>&deg;C/Gas <b>7</b>. Cook the <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">sweet potatoes</span> in boiling water for <b>2</b> minutes. Add the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">cauliflower</span> and cook for a further <b>2</b> minutes then drain well. Tip the <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">sweet potatoes</span> and <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">cauliflower</span> onto a baking tray and toss with <b>1</b> tablespoon of the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">olive oil</span>, the <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">cumin seeds</span>, salt and some freshly ground black pepper. Roast for <b>20</b> minutes until crispy.</li>
-                <li itemprop="recipeInstructions">Meanwhile, bash the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">chicken</span> breasts between <b>2</b> sheets of baking paper or clingfilm until they are an even thickness of about <b>1</b> cm. Season the <span data-default="20" data-quantity="20" data-unit="g" class="tooltip scalable">flour</span> well and coat the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">chicken</span> in the <span data-default="20" data-quantity="20" data-unit="g" class="tooltip scalable">flour</span>, shaking off the excess.</li>
-                <li itemprop="recipeInstructions">Heat the remaining <b>1</b> tablespoon of oil in a nonstick frying pan and brown the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">chicken</span> for <b>3</b> minutes on each side or until cooked through. Set aside, loosely covered with foil, while you make the sauce.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="150" data-quantity="150" data-unit="ml" class="tooltip scalable">chicken stock</span>, <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">lemon juice</span> and <span data-default="40" data-quantity="40" data-unit="g" class="tooltip scalable">olives</span> to the same pan, and bubble to reduce by almost half. Gradually whisk in the <span data-default="20" data-quantity="20" data-unit="g" class="tooltip scalable">butter</span> until the sauce has a coating consistency. Return the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">chicken</span> to the pan for <b>3-4</b> minutes to warm through, spooning over the sauce.</li>
-                <li itemprop="recipeInstructions">Serve the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">chicken</span> and sauce with the roasted veg and garnish with the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">chopped coriander</span>.</li>
+                <li itemprop="recipeInstructions">Preheat the oven to <b>200</b>&deg;C/Gas <b>7</b>. Cook the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">sweet potatoes</span> in boiling water for <b>2</b> minutes. Add the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">cauliflower</span> and cook for a further <b>2</b> minutes then drain well. Tip the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">sweet potatoes</span> and <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">cauliflower</span> onto a baking tray and toss with <b>1</b> tablespoon of the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">olive oil</span>, the <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">cumin seeds</span>, salt and some freshly ground black pepper. Roast for <b>20</b> minutes until crispy.</li>
+                <li itemprop="recipeInstructions">Meanwhile, bash the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">chicken</span> breasts between <b>2</b> sheets of baking paper or clingfilm until they are an even thickness of about <b>1</b> cm. Season the <span data-default="20" data-defaultunit="g" data-quantity="20" data-unit="g" class="tooltip scalable">flour</span> well and coat the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">chicken</span> in the <span data-default="20" data-defaultunit="g" data-quantity="20" data-unit="g" class="tooltip scalable">flour</span>, shaking off the excess.</li>
+                <li itemprop="recipeInstructions">Heat the remaining <b>1</b> tablespoon of oil in a nonstick frying pan and brown the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">chicken</span> for <b>3</b> minutes on each side or until cooked through. Set aside, loosely covered with foil, while you make the sauce.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="150" data-defaultunit="ml" data-quantity="150" data-unit="ml" class="tooltip scalable">chicken stock</span>, <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">lemon juice</span> and <span data-default="40" data-defaultunit="g" data-quantity="40" data-unit="g" class="tooltip scalable">olives</span> to the same pan, and bubble to reduce by almost half. Gradually whisk in the <span data-default="20" data-defaultunit="g" data-quantity="20" data-unit="g" class="tooltip scalable">butter</span> until the sauce has a coating consistency. Return the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">chicken</span> to the pan for <b>3-4</b> minutes to warm through, spooning over the sauce.</li>
+                <li itemprop="recipeInstructions">Serve the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">chicken</span> and sauce with the roasted veg and garnish with the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">chopped coriander</span>.</li>
                 </ol>
 
             <hr>

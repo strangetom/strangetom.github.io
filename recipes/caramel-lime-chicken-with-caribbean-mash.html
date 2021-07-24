@@ -13,7 +13,7 @@
         <title>Caramel-lime chicken with caribbean mash | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,39 +47,49 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="8" class="scalable">8</span> boneless skinless chicken thighs</li>
-                    <li itemprop="recipeIngredient">pinch of salt</li>
+                        <span data-default="8" class="scalable">8</span>
+                        <span data-unit=""></span> boneless skinless chicken thighs</li>
+                    <li itemprop="recipeIngredient"> pinch of salt</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp pepper</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> pepper</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp olive oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp granulated sugar</li>
-                    <li itemprop="recipeIngredient">juice of 2 limes</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> granulated sugar</li>
+                    <li itemprop="recipeIngredient"> juice of 2 limes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="900" class="scalable">900</span> g sweet potatoes, peeled</li>
+                        <span data-default="900" class="scalable">900</span>
+                        <span data-unit="g">g</span> sweet potatoes, peeled</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="40" class="scalable">40</span> g butter</li>
-                    <li itemprop="recipeIngredient">good grating of nutmeg</li>
-                    <li itemprop="recipeIngredient">pinch of ground allspice</li>
+                        <span data-default="40" class="scalable">40</span>
+                        <span data-unit="g">g</span> butter</li>
+                    <li itemprop="recipeIngredient"> good grating of nutmeg</li>
+                    <li itemprop="recipeIngredient"> pinch of ground allspice</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Toss the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">chicken</span> in the salt and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">pepper</span>. Put the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a large frying pan (with lid) and sprinkle on the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">sugar</span>. Leave to cook over a low to medium heat until the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">sugar</span> starts to brown (about <b>6-8</b> minutes). Do not stir or the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">chicken</span> will clump. You may want to turn the heat up slightly to after a few minutes to hurry it along a bit, but keep eye on it so it doesn't burn.   </li>
-                <li itemprop="recipeInstructions">Meanwhile, cut the <span data-default="900" data-quantity="900" data-unit="g" class="tooltip scalable">potatoes</span> into medium, equal sized chunks. Put in cold water, bring to the boil and simmer until tender (about <b>8-10</b> minutes). Drain and mash with the <span data-default="40" data-quantity="40" data-unit="g" class="tooltip scalable">butter</span> and season with nutmeg, allspice and salt and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">pepper</span>.   </li>
-                <li itemprop="recipeInstructions">Put the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">chicken</span> in the pan, turn down the heat and cover with the lid. Cook for <b>10</b> minutes, then turn the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">chicken</span> over, add the lime juice, put the lid back on and cook for another <b>10</b> minutes.   </li>
-                <li itemprop="recipeInstructions">Check that the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">chicken</span> is cooked through. Remove the pieces from the pan and keep warm. Stir the sauce, turn up the heat and let it bubble away for a couple of minutes to thicken slightly and come together. Pour over the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">chicken</span>. Serve with the mash.   </li>
+                <li itemprop="recipeInstructions">Toss the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">chicken</span> in the salt and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">pepper</span>. Put the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a large frying pan (with lid) and sprinkle on the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">sugar</span>. Leave to cook over a low to medium heat until the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">sugar</span> starts to brown (about <b>6-8</b> minutes). Do not stir or the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">chicken</span> will clump. You may want to turn the heat up slightly to after a few minutes to hurry it along a bit, but keep eye on it so it doesn't burn.   </li>
+                <li itemprop="recipeInstructions">Meanwhile, cut the <span data-default="900" data-defaultunit="g" data-quantity="900" data-unit="g" class="tooltip scalable">potatoes</span> into medium, equal sized chunks. Put in cold water, bring to the boil and simmer until tender (about <b>8-10</b> minutes). Drain and mash with the <span data-default="40" data-defaultunit="g" data-quantity="40" data-unit="g" class="tooltip scalable">butter</span> and season with nutmeg, allspice and salt and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">pepper</span>.   </li>
+                <li itemprop="recipeInstructions">Put the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">chicken</span> in the pan, turn down the heat and cover with the lid. Cook for <b>10</b> minutes, then turn the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">chicken</span> over, add the lime juice, put the lid back on and cook for another <b>10</b> minutes.   </li>
+                <li itemprop="recipeInstructions">Check that the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">chicken</span> is cooked through. Remove the pieces from the pan and keep warm. Stir the sauce, turn up the heat and let it bubble away for a couple of minutes to thicken slightly and come together. Pour over the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">chicken</span>. Serve with the mash.   </li>
                 </ol>
 
             <hr>

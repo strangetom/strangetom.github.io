@@ -13,7 +13,7 @@
         <title>Easy pesto chicken and vegetables | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,48 +43,63 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> red bell pepper</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> red bell pepper</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> zucchini</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> zucchini</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> yellow squash</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> yellow squash</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> red onion</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit=""></span> red onion</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="600" class="scalable">600</span> g boneless, skinless chicken breast</li>
+                        <span data-default="600" class="scalable">600</span>
+                        <span data-unit="g">g</span> boneless, skinless chicken breast</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp cooking oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> cooking oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> cup frozen green beans</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="cup">cup</span> frozen green beans</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.333" class="scalable">⅓</span> cup pesto</li>
+                        <span data-default="0.333" class="scalable">⅓</span>
+                        <span data-unit="cup">cup</span> pesto</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.125" class="scalable">⅛</span> tsp salt</li>
+                        <span data-default="0.125" class="scalable">⅛</span>
+                        <span data-unit="tsp">tsp</span> salt</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.125" class="scalable">⅛</span> tsp freshly cracked pepper</li>
+                        <span data-default="0.125" class="scalable">⅛</span>
+                        <span data-unit="tsp">tsp</span> freshly cracked pepper</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp grated Parmesan</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> grated Parmesan</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Chop the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">bell pepper</span>, <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">yellow squash</span>, and <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">zucchini</span>, and slice the <span data-default="0.5" data-quantity="&frac12;" data-unit="" class="tooltip scalable">red onion</span>.</li>
-                <li itemprop="recipeInstructions">Cube the <span data-default="600" data-quantity="600" data-unit="g" class="tooltip scalable">chicken</span> breasts into  <b>&frac12;</b>-inch pieces.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">cooking oil</span> to a large skillet and heat over medium-high. Once the skillet and oil are very hot, add the <span data-default="600" data-quantity="600" data-unit="g" class="tooltip scalable">chicken</span> and saute until the <span data-default="600" data-quantity="600" data-unit="g" class="tooltip scalable">chicken</span> pieces are opaque (<b>3-5</b> minutes - the <span data-default="600" data-quantity="600" data-unit="g" class="tooltip scalable">chicken</span> will continue to cook as you add vegetables).</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="1" data-quantity="1" data-unit="cup" class="tooltip scalable">green beans</span> to the skillet and saute for <b>1-2</b> minutes more, or just until thawed.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">bell pepper</span> and <span data-default="0.5" data-quantity="&frac12;" data-unit="" class="tooltip scalable">red onion</span> to the skillet. Saute for <b>1-2</b> minutes more. If water is beginning to pool in the skillet, turn the heat up slightly. It should be hot enough that the water released from the vegetables evaporates quickly.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">yellow squash</span> and <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">zucchini</span> to the skillet and continue to saute <b>2-3</b> minutes more, or just until the squash softens slightly.</li>
-                <li itemprop="recipeInstructions">Turn the heat off, add the <span data-default="0.333" data-quantity="&frac13;" data-unit="cup" class="tooltip scalable">pesto</span> to the skillet, and stir until everything is coated. Give the vegetables a taste and add <span data-default="0.125" data-quantity="&frac18;" data-unit="tsp" class="tooltip scalable">salt</span>, pepper, or more <span data-default="0.333" data-quantity="&frac13;" data-unit="cup" class="tooltip scalable">pesto</span> if desired. Top with a light sprinkle of <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">Parmesan</span> just before serving.</li>
+                <li itemprop="recipeInstructions">Chop the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">bell pepper</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">yellow squash</span>, and <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">zucchini</span>, and slice the <span data-default="0.5" data-defaultunit="" data-quantity="&frac12;" data-unit="" class="tooltip scalable">red onion</span>.</li>
+                <li itemprop="recipeInstructions">Cube the <span data-default="600" data-defaultunit="g" data-quantity="600" data-unit="g" class="tooltip scalable">chicken</span> breasts into  <b>&frac12;</b>-inch pieces.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">cooking oil</span> to a large skillet and heat over medium-high. Once the skillet and oil are very hot, add the <span data-default="600" data-defaultunit="g" data-quantity="600" data-unit="g" class="tooltip scalable">chicken</span> and saute until the <span data-default="600" data-defaultunit="g" data-quantity="600" data-unit="g" class="tooltip scalable">chicken</span> pieces are opaque (<b>3-5</b> minutes - the <span data-default="600" data-defaultunit="g" data-quantity="600" data-unit="g" class="tooltip scalable">chicken</span> will continue to cook as you add vegetables).</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="1" data-defaultunit="cup" data-quantity="1" data-unit="cup" class="tooltip scalable">green beans</span> to the skillet and saute for <b>1-2</b> minutes more, or just until thawed.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">bell pepper</span> and <span data-default="0.5" data-defaultunit="" data-quantity="&frac12;" data-unit="" class="tooltip scalable">red onion</span> to the skillet. Saute for <b>1-2</b> minutes more. If water is beginning to pool in the skillet, turn the heat up slightly. It should be hot enough that the water released from the vegetables evaporates quickly.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">yellow squash</span> and <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">zucchini</span> to the skillet and continue to saute <b>2-3</b> minutes more, or just until the squash softens slightly.</li>
+                <li itemprop="recipeInstructions">Turn the heat off, add the <span data-default="0.333" data-defaultunit="cup" data-quantity="&frac13;" data-unit="cup" class="tooltip scalable">pesto</span> to the skillet, and stir until everything is coated. Give the vegetables a taste and add <span data-default="0.125" data-defaultunit="tsp" data-quantity="&frac18;" data-unit="tsp" class="tooltip scalable">salt</span>, pepper, or more <span data-default="0.333" data-defaultunit="cup" data-quantity="&frac13;" data-unit="cup" class="tooltip scalable">pesto</span> if desired. Top with a light sprinkle of <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">Parmesan</span> just before serving.</li>
                 </ol>
 
             <hr>

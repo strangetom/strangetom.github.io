@@ -13,7 +13,7 @@
         <title>Meatball pasta bake | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Beef" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,47 +44,63 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> mugs pasta</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="mugs">mugs</span> pasta</li>
                 </ul>
                 <details open>
                     <summary class="ingredient-subheading">Meatballs</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="500" class="scalable">500</span> g minced beef</li>
+                            <span data-default="500" class="scalable">500</span>
+                            <span data-unit="g">g</span> minced beef</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> egg</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit=""></span> egg</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tsp dried oragano</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tsp">tsp</span> dried oragano</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> slices bread, made into breadcrumbs</li>
-                        <li itemprop="recipeIngredient">salt and pepper</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="slices">slices</span> bread, made into breadcrumbs</li>
+                        <li itemprop="recipeIngredient"> salt and pepper</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> olive oil</li>
                     </ul>
                 </details>
                 <details open>
                     <summary class="ingredient-subheading">Sauce</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> onion, chopped</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit=""></span> onion, chopped</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> ready-roasted red peppers (from a jar), roughly chopped</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit=""></span> ready-roasted red peppers (from a jar), roughly chopped</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="500" class="scalable">500</span> g passata</li>
+                            <span data-default="500" class="scalable">500</span>
+                            <span data-unit="g">g</span> passata</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> mug water + 1 beef stock cube</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit="mug">mug</span> water + 1 beef stock cube</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="200" class="scalable">200</span> g mozzarella cheese</li>
+                            <span data-default="200" class="scalable">200</span>
+                            <span data-unit="g">g</span> mozzarella cheese</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp fresh thyme leaves, chopped</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> fresh thyme leaves, chopped</li>
                     </ul>
                 </details>
             </div>
@@ -92,13 +108,13 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Put the <span data-default="3" data-quantity="3" data-unit="mugs" class="tooltip scalable">pasta</span> on to cook. Drain and return to the pan until needed.  </li>
-                <li itemprop="recipeInstructions">Meanwhile, make the meatballs. Mix together the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">egg</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">oregano</span>,  <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">mince</span> and <b>&frac12;</b> the breadcrumbs in a bowl. Season well with salt and pepper. Divide into <b>24</b> pieces and form the meatballs.  </li>
-                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large frying pan and fry the meatballs until the are cooked through and brown on all sides. Place in the casserole dish.  </li>
+                <li itemprop="recipeInstructions">Put the <span data-default="3" data-defaultunit="mugs" data-quantity="3" data-unit="mugs" class="tooltip scalable">pasta</span> on to cook. Drain and return to the pan until needed.  </li>
+                <li itemprop="recipeInstructions">Meanwhile, make the meatballs. Mix together the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">egg</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">oregano</span>,  <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">mince</span> and <b>&frac12;</b> the breadcrumbs in a bowl. Season well with salt and pepper. Divide into <b>24</b> pieces and form the meatballs.  </li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large frying pan and fry the meatballs until the are cooked through and brown on all sides. Place in the casserole dish.  </li>
                 <li itemprop="recipeInstructions">To make the sauce, add the onions to the pan and fry until they begin to soften.  </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">peppers</span>, <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">passata</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="mug" class="tooltip scalable">water</span> and stock cube and simmer for <b>2</b> minutes.  </li>
-                <li itemprop="recipeInstructions">Mix the drained <span data-default="3" data-quantity="3" data-unit="mugs" class="tooltip scalable">pasta</span> and pour into the casserole dish with the meatballs.  </li>
-                <li itemprop="recipeInstructions">Sprinkle the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">mozzarella</span> over the top, along with the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">thyme</span>. Sprinkle over the rest of the breadcrumbs. Place under the grill for <b>5</b> minutes. The cheese should be bubbling and the breadcrumbs browned.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">peppers</span>, <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">passata</span>, <span data-default="0.5" data-defaultunit="mug" data-quantity="&frac12;" data-unit="mug" class="tooltip scalable">water</span> and stock cube and simmer for <b>2</b> minutes.  </li>
+                <li itemprop="recipeInstructions">Mix the drained <span data-default="3" data-defaultunit="mugs" data-quantity="3" data-unit="mugs" class="tooltip scalable">pasta</span> and pour into the casserole dish with the meatballs.  </li>
+                <li itemprop="recipeInstructions">Sprinkle the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">mozzarella</span> over the top, along with the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">thyme</span>. Sprinkle over the rest of the breadcrumbs. Place under the grill for <b>5</b> minutes. The cheese should be bubbling and the breadcrumbs browned.</li>
                 </ol>
 
             <hr>

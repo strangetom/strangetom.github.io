@@ -13,7 +13,7 @@
         <title>Asian salmon & sweet potato tray bake | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -42,46 +42,59 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large sweet potato</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> sweet potato</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> stalks lemongrass</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="stalks">stalks</span> lemongrass</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2.5" class="scalable">2½</span> cm piece ginger</li>
+                        <span data-default="2.5" class="scalable">2½</span>
+                        <span data-unit="cm piece">cm piece</span> ginger</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp sesame oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> sesame oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="150" class="scalable">150</span> ml vegetable stock</li>
+                        <span data-default="150" class="scalable">150</span>
+                        <span data-unit="ml">ml</span> vegetable stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="150" class="scalable">150</span> ml reduced fat coconut milk</li>
+                        <span data-default="150" class="scalable">150</span>
+                        <span data-unit="ml">ml</span> reduced fat coconut milk</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> lime or 6-8 lime leaves</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> lime or 6-8 lime leaves</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> long red chilli</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> long red chilli</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span>x 150 g salmon fillets</li>
-                    <li itemprop="recipeIngredient">mangetout, to serve</li>
-                    <li itemprop="recipeIngredient">soy sauce</li>
+                        <span data-default="4" class="scalable">4</span>x <span data-unit="150 g">150 g</span> salmon fillets</li>
+                    <li itemprop="recipeIngredient"> mangetout, to serve</li>
+                    <li itemprop="recipeIngredient"> soy sauce</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Preheat the oven to <b>190</b>&deg;C/Gas <b>5</b>. Scrub the <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">sweet potato</span> clean, then slice into thin rounds. Arrange the slices overlapping in a large roasting tin.</li>
-                <li itemprop="recipeInstructions">Bruise the <span data-default="2" data-quantity="2" data-unit="stalks" class="tooltip scalable">lemongrass</span>, then finely chop the tender parts. Peel and finely chop the <span data-default="2.5" data-quantity="2&frac12;" data-unit="cm piece" class="tooltip scalable">ginger</span> and <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>. Peel and finely slice the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">chilli</span>.  </li>
-                <li itemprop="recipeInstructions">Mix the <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">sesame oil</span>, <span data-default="150" data-quantity="150" data-unit="ml" class="tooltip scalable">stock</span>, <span data-default="150" data-quantity="150" data-unit="ml" class="tooltip scalable">coconut milk</span> and two thirds each of the <span data-default="2" data-quantity="2" data-unit="stalks" class="tooltip scalable">lemongrass</span>, <span data-default="2.5" data-quantity="2&frac12;" data-unit="cm piece" class="tooltip scalable">ginger</span> and <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>. Pour over the potatoes, squeeze the lime juice of the top and scatter over the zest, and sprinkle with the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">chilli</span>.  </li>
-                <li itemprop="recipeInstructions">Roast for <b>20-25</b> minutes or until the potatoes are cooked. About <b>8-10</b> minutes before the cooking time is up, sit the <span data-default="4x" data-quantity="4x" data-unit="150 g" class="tooltip scalable">fish</span> on the potatoes and top with the rest of the <span data-default="2" data-quantity="2" data-unit="stalks" class="tooltip scalable">lemongrass</span>, <span data-default="2.5" data-quantity="2&frac12;" data-unit="cm piece" class="tooltip scalable">ginger</span> and <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>.  </li>
-                <li itemprop="recipeInstructions">When the <span data-default="4x" data-quantity="4x" data-unit="150 g" class="tooltip scalable">fish</span> is just cooked, drizzle with soy sauce. Serve with mangetout.</li>
+                <li itemprop="recipeInstructions">Preheat the oven to <b>190</b>&deg;C/Gas <b>5</b>. Scrub the <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">sweet potato</span> clean, then slice into thin rounds. Arrange the slices overlapping in a large roasting tin.</li>
+                <li itemprop="recipeInstructions">Bruise the <span data-default="2" data-defaultunit="stalks" data-quantity="2" data-unit="stalks" class="tooltip scalable">lemongrass</span>, then finely chop the tender parts. Peel and finely chop the <span data-default="2.5" data-defaultunit="cm piece" data-quantity="2&frac12;" data-unit="cm piece" class="tooltip scalable">ginger</span> and <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>. Peel and finely slice the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">chilli</span>.  </li>
+                <li itemprop="recipeInstructions">Mix the <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">sesame oil</span>, <span data-default="150" data-defaultunit="ml" data-quantity="150" data-unit="ml" class="tooltip scalable">stock</span>, <span data-default="150" data-defaultunit="ml" data-quantity="150" data-unit="ml" class="tooltip scalable">coconut milk</span> and two thirds each of the <span data-default="2" data-defaultunit="stalks" data-quantity="2" data-unit="stalks" class="tooltip scalable">lemongrass</span>, <span data-default="2.5" data-defaultunit="cm piece" data-quantity="2&frac12;" data-unit="cm piece" class="tooltip scalable">ginger</span> and <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>. Pour over the potatoes, squeeze the lime juice of the top and scatter over the zest, and sprinkle with the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">chilli</span>.  </li>
+                <li itemprop="recipeInstructions">Roast for <b>20-25</b> minutes or until the potatoes are cooked. About <b>8-10</b> minutes before the cooking time is up, sit the <span data-default="4x" data-defaultunit="150 g" data-quantity="4x" data-unit="150 g" class="tooltip scalable">fish</span> on the potatoes and top with the rest of the <span data-default="2" data-defaultunit="stalks" data-quantity="2" data-unit="stalks" class="tooltip scalable">lemongrass</span>, <span data-default="2.5" data-defaultunit="cm piece" data-quantity="2&frac12;" data-unit="cm piece" class="tooltip scalable">ginger</span> and <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>.  </li>
+                <li itemprop="recipeInstructions">When the <span data-default="4x" data-defaultunit="150 g" data-quantity="4x" data-unit="150 g" class="tooltip scalable">fish</span> is just cooked, drizzle with soy sauce. Serve with mangetout.</li>
                 </ol>
 
             <hr>

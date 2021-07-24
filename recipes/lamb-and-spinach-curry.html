@@ -13,7 +13,7 @@
         <title>Lamb and spinach curry | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Lamb" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,42 +43,52 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp cumin seeds</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> cumin seeds</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp sunflower oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> sunflower oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g lean lamb steak, cubed</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> lean lamb steak, cubed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> red pepper, deseeded and sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> red pepper, deseeded and sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> green chilli, deseeded and sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> green chilli, deseeded and sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp curry paste</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> curry paste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="225" class="scalable">225</span> g can chopped tomatoes, drained</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="225 g can">225 g can</span> chopped tomatoes, drained</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="150" class="scalable">150</span> ml can coconut cream</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="150 ml can">150 ml can</span> coconut cream</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> g bag baby leaf spinach</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="100 g bag">100 g bag</span> baby leaf spinach</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="10" class="scalable">10</span> g pack coriander, chopped</li>
-                    <li itemprop="recipeIngredient">rice or naan bread, to serve</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="10 g pack">10 g pack</span> coriander, chopped</li>
+                    <li itemprop="recipeIngredient"> rice or naan bread, to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the slow cooker if necessary. Dry-fry the <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">cumin seeds</span> for about <b>20</b> seconds in a pan, then add the <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">oil</span> and stir-fry the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">lamb</span> for about <b>1</b> minute until browned, but not cooked all the way through. Tip into the slow cooker pot with the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">peppers</span>, <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">chilli</span>, <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">curry paste</span>, <span data-default="225" data-quantity="225" data-unit="g can" class="tooltip scalable">tomatoes</span> and <span data-default="150" data-quantity="150" data-unit="ml can" class="tooltip scalable">coconut cream</span>. Cover and cook on high for <b>1</b><b>&frac12;</b>-<b>2</b> hours until the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">lamb</span> is tender.</li>
-                <li itemprop="recipeInstructions">Stir in the <span data-default="100" data-quantity="100" data-unit="g bag" class="tooltip scalable">spinach</span> and <span data-default="10" data-quantity="10" data-unit="g pack" class="tooltip scalable">coriander</span> with some seasoning if it needs it. Serve with rice or naan bread.</li>
+                <li itemprop="recipeInstructions">Heat the slow cooker if necessary. Dry-fry the <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">cumin seeds</span> for about <b>20</b> seconds in a pan, then add the <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">oil</span> and stir-fry the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">lamb</span> for about <b>1</b> minute until browned, but not cooked all the way through. Tip into the slow cooker pot with the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">peppers</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">chilli</span>, <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">curry paste</span>, <span data-default="1x" data-defaultunit="225 g can" data-quantity="1x" data-unit="225 g can" class="tooltip scalable">tomatoes</span> and <span data-default="1x" data-defaultunit="150 ml can" data-quantity="1x" data-unit="150 ml can" class="tooltip scalable">coconut cream</span>. Cover and cook on high for <b>1</b><b>&frac12;</b>-<b>2</b> hours until the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">lamb</span> is tender.</li>
+                <li itemprop="recipeInstructions">Stir in the <span data-default="1x" data-defaultunit="100 g bag" data-quantity="1x" data-unit="100 g bag" class="tooltip scalable">spinach</span> and <span data-default="1x" data-defaultunit="10 g pack" data-quantity="1x" data-unit="10 g pack" class="tooltip scalable">coriander</span> with some seasoning if it needs it. Serve with rice or naan bread.</li>
                 </ol>
 
             <hr>

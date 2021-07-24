@@ -13,7 +13,7 @@
         <title>South indian-style coconut fish curry | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,49 +47,60 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
-                    <li itemprop="recipeIngredient">ground turmeric</li>
-                    <li itemprop="recipeIngredient">ground cumin</li>
-                    <li itemprop="recipeIngredient">coriander seeds</li>
+                    <li itemprop="recipeIngredient"> ground turmeric</li>
+                    <li itemprop="recipeIngredient"> ground cumin</li>
+                    <li itemprop="recipeIngredient"> coriander seeds</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> cloves garlic</li>
-                    <li itemprop="recipeIngredient">fresh ginger</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="cloves">cloves</span> garlic</li>
+                    <li itemprop="recipeIngredient"> fresh ginger</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="550" class="scalable">550</span> g frozen white fish fillets</li>
+                        <span data-default="550" class="scalable">550</span>
+                        <span data-unit="g">g</span> frozen white fish fillets</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> lemon</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> lemon</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> brown onion</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> brown onion</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> vine tomatoes</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> vine tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> red chilli</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> red chilli</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g basmati rice</li>
+                        <span data-default="400" class="scalable">400</span>
+                        <span data-unit="g">g</span> basmati rice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 400 ml tin coconut milk</li>
-                    <li itemprop="recipeIngredient">fresh coriander</li>
-                    <li itemprop="recipeIngredient">olive oil</li>
-                    <li itemprop="recipeIngredient">salt</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 ml tin">400 ml tin</span> coconut milk</li>
+                    <li itemprop="recipeIngredient"> fresh coriander</li>
+                    <li itemprop="recipeIngredient"> olive oil</li>
+                    <li itemprop="recipeIngredient"> salt</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Prep your spice paste. Add <b>1</b> tsp of turmeric, <b>1</b> tsp of cumin, <b>2</b><b>&frac12;</b> tsp of coriander seeds, <span data-default="3" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span> and a peeled <b>5</b> cm piece of ginger into a blender. Blitz until you have a rough paste</li>
-                <li itemprop="recipeInstructions">Defrost the <span data-default="550" data-quantity="550" data-unit="g" class="tooltip scalable">white fish fillets</span> then place in a bowl. Grate in the zest and juice of <b>&frac12;</b> <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">lemon</span> and add a small pinch of turmeric. Mix it all together and cover.</li>
-                <li itemprop="recipeInstructions">Finely chop a brown <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>. Fry with a splash of oil in a wide frying pan until soft, then add your spice paste. You want in to be quite dry in the pan - don't be tempted to add more oil. Once the spices start getting toasty, grate the vine <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">tomatoes</span>, discarding the skins, and add them to the pan. Grate the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">chilli</span> into the pan and mix everything together.</li>
-                <li itemprop="recipeInstructions">Get the <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">rice</span> on (following the instructions on the packet)</li>
-                <li itemprop="recipeInstructions">Once the moisture from the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">tomatoes</span> has evaporated, add the <span data-default="1x" data-quantity="1x" data-unit="400 ml tin" class="tooltip scalable">coconut milk</span>. Stir everything together, and then add the fish, in large bite-sized chunks. Season the curry with salt. The fish should take about <b>5</b> minutes to cook perfectly.</li>
-                <li itemprop="recipeInstructions">Once the curry has thickened, throw in a handful of fresh coriander, squeeze in a bit more <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">lemon</span> juice, stir it in and remove from the heat.</li>
-                <li itemprop="recipeInstructions">Serve on top of the hot <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">rice</span> and enjoy!</li>
+                <li itemprop="recipeInstructions">Prep your spice paste. Add <b>1</b> tsp of turmeric, <b>1</b> tsp of cumin, <b>2</b><b>&frac12;</b> tsp of coriander seeds, <span data-default="3" data-defaultunit="cloves" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span> and a peeled <b>5</b> cm piece of ginger into a blender. Blitz until you have a rough paste</li>
+                <li itemprop="recipeInstructions">Defrost the <span data-default="550" data-defaultunit="g" data-quantity="550" data-unit="g" class="tooltip scalable">white fish fillets</span> then place in a bowl. Grate in the zest and juice of <b>&frac12;</b> <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">lemon</span> and add a small pinch of turmeric. Mix it all together and cover.</li>
+                <li itemprop="recipeInstructions">Finely chop a brown <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>. Fry with a splash of oil in a wide frying pan until soft, then add your spice paste. You want in to be quite dry in the pan - don't be tempted to add more oil. Once the spices start getting toasty, grate the vine <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">tomatoes</span>, discarding the skins, and add them to the pan. Grate the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">chilli</span> into the pan and mix everything together.</li>
+                <li itemprop="recipeInstructions">Get the <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">rice</span> on (following the instructions on the packet)</li>
+                <li itemprop="recipeInstructions">Once the moisture from the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">tomatoes</span> has evaporated, add the <span data-default="1x" data-defaultunit="400 ml tin" data-quantity="1x" data-unit="400 ml tin" class="tooltip scalable">coconut milk</span>. Stir everything together, and then add the fish, in large bite-sized chunks. Season the curry with salt. The fish should take about <b>5</b> minutes to cook perfectly.</li>
+                <li itemprop="recipeInstructions">Once the curry has thickened, throw in a handful of fresh coriander, squeeze in a bit more <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">lemon</span> juice, stir it in and remove from the heat.</li>
+                <li itemprop="recipeInstructions">Serve on top of the hot <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">rice</span> and enjoy!</li>
                 </ol>
 
             <hr>

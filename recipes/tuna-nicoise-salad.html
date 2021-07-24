@@ -13,7 +13,7 @@
         <title>Tuna nicoise salad | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,47 +47,62 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.75" class="scalable">¾</span> cup extra-virgin olive oil</li>
+                        <span data-default="0.75" class="scalable">¾</span>
+                        <span data-unit="cup">cup</span> extra-virgin olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> cup fresh lemon juice</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit="cup">cup</span> fresh lemon juice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp Dijon mustard</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> Dijon mustard</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp honey</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> honey</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp freshly ground black pepper</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> freshly ground black pepper</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp kosher salt, plus more</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> kosher salt, plus more</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="6" class="scalable">6</span> large eggs</li>
+                        <span data-default="6" class="scalable">6</span>
+                        <span data-unit="large">large</span> eggs</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> lb green beans, trimmed</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="lb">lb</span> green beans, trimmed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> lb baby potatoes, halved if larger</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="lb">lb</span> baby potatoes, halved if larger</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> cups seedless cucumbers</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="cups">cups</span> seedless cucumbers</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> cups oil-packed tuna</li>
-                    <li itemprop="recipeIngredient">Olives, capers, peperoncini, pickles, or other pickled-briny ingredients, for serving</li>
-                    <li itemprop="recipeIngredient">Flaky sea salt</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="cups">cups</span> oil-packed tuna</li>
+                    <li itemprop="recipeIngredient"> Olives, capers, peperoncini, pickles, or other pickled-briny ingredients, for serving</li>
+                    <li itemprop="recipeIngredient"> Flaky sea salt</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Whisk <span data-default="0.75" data-quantity="&frac34;" data-unit="cup" class="tooltip scalable">oil</span>, <span data-default="0.25" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">lemon juice</span>, <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">mustard</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">honey</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">pepper</span>, and <b>1</b> tsp. <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">kosher salt</span> in a medium bowl; set dressing aside.</li>
-                <li itemprop="recipeInstructions">Bring a medium pot of salted water to a boil. Carefully add <span data-default="6" data-quantity="6" data-unit="large" class="tooltip scalable">eggs</span> and cook <b>7</b> minutes. Using a slotted spoon, transfer <span data-default="6" data-quantity="6" data-unit="large" class="tooltip scalable">eggs</span> to a bowl of ice water (keep pot over high heat); chill until cold, about <b>5</b> minutes. Peel; set aside.</li>
-                <li itemprop="recipeInstructions">Meanwhile, add <span data-default="0.5" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">green beans</span> and <span data-default="0.5" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">potatoes</span> to the same pot of boiling water and cook until just tender, <b>2</b> - <b>4</b> minutes for <span data-default="0.5" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">green beans</span>, <b>10</b> - <b>15</b> minutes for <span data-default="0.5" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">potatoes</span>. Using a slotted spoon, transfer to bowl of ice water; let sit until cold, about <b>3</b> minutes. Transfer to paper towels; pat dry.</li>
-                <li itemprop="recipeInstructions">To serve, slice <span data-default="6" data-quantity="6" data-unit="large" class="tooltip scalable">eggs</span> in half and arrange on a platter with cooked and raw vegetables and tuna. Top with pickled-briny ingredient(s), sprinkle with sea salt, and drizzle some reserved dressing over. Serve with remaining dressing alongside.</li>
+                <li itemprop="recipeInstructions">Whisk <span data-default="0.75" data-defaultunit="cup" data-quantity="&frac34;" data-unit="cup" class="tooltip scalable">oil</span>, <span data-default="0.25" data-defaultunit="cup" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">lemon juice</span>, <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">mustard</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">honey</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">pepper</span>, and <b>1</b> tsp. <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">kosher salt</span> in a medium bowl; set dressing aside.</li>
+                <li itemprop="recipeInstructions">Bring a medium pot of salted water to a boil. Carefully add <span data-default="6" data-defaultunit="large" data-quantity="6" data-unit="large" class="tooltip scalable">eggs</span> and cook <b>7</b> minutes. Using a slotted spoon, transfer <span data-default="6" data-defaultunit="large" data-quantity="6" data-unit="large" class="tooltip scalable">eggs</span> to a bowl of ice water (keep pot over high heat); chill until cold, about <b>5</b> minutes. Peel; set aside.</li>
+                <li itemprop="recipeInstructions">Meanwhile, add <span data-default="0.5" data-defaultunit="lb" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">green beans</span> and <span data-default="0.5" data-defaultunit="lb" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">potatoes</span> to the same pot of boiling water and cook until just tender, <b>2</b> - <b>4</b> minutes for <span data-default="0.5" data-defaultunit="lb" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">green beans</span>, <b>10</b> - <b>15</b> minutes for <span data-default="0.5" data-defaultunit="lb" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">potatoes</span>. Using a slotted spoon, transfer to bowl of ice water; let sit until cold, about <b>3</b> minutes. Transfer to paper towels; pat dry.</li>
+                <li itemprop="recipeInstructions">To serve, slice <span data-default="6" data-defaultunit="large" data-quantity="6" data-unit="large" class="tooltip scalable">eggs</span> in half and arrange on a platter with cooked and raw vegetables and tuna. Top with pickled-briny ingredient(s), sprinkle with sea salt, and drizzle some reserved dressing over. Serve with remaining dressing alongside.</li>
                 <li itemprop="recipeInstructions">Do Ahead: Dressing can be made <b>5</b> days ahead; cover and chill. Eggs can be boiled and vegetables blanched <b>2</b> days ahead; cover and chill separately.</li>
                 </ol>
 

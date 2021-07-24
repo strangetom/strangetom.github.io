@@ -13,7 +13,7 @@
         <title>Spicy pies with sweet potato mash | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Beef" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,42 +43,58 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> kg sweet potatoes, peeled and cut into large chunks</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="kg">kg</span> sweet potatoes, peeled and cut into large chunks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp milk</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> milk</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> g mature cheddar, finely grated</li>
+                        <span data-default="50" class="scalable">50</span>
+                        <span data-unit="g">g</span> mature cheddar, finely grated</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp rapeseed oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> rapeseed oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> onions, halved and sliced</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> onions, halved and sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g lean beef mince (5% fat)</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="g">g</span> lean beef mince (5% fat)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp smoked paprika, plus extra for sprinkling</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> smoked paprika, plus extra for sprinkling</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp ground cumin</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> ground cumin</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp ground coriander</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> ground coriander</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp mild chilli powder</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> mild chilli powder</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp vegetable bouillon powder</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> vegetable bouillon powder</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g can black-eyed beans</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g can">400 g can</span> black-eyed beans</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g can chopped tomatoes</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g can">400 g can</span> chopped tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large green pepper, diced</li>
-                    <li itemprop="recipeIngredient">broccoli or salad, to serve (optional)</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> green pepper, diced</li>
+                    <li itemprop="recipeIngredient"> broccoli or salad, to serve (optional)</li>
                 </ul>
             </div>
         
@@ -86,8 +102,8 @@
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Boil the sweet potato for <b>15</b> mins or until tender, taking care not to overcook.</li>
-                <li itemprop="recipeInstructions">Meanwhile, heat the oil in a large, deep, non-stick frying pan. Add the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">onions</span>, cover and cook for <b>8</b> mins or until softened and starting to colour. Stir in the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">mince</span>, breaking it up with a wooden spoon until browned. Stir in all the spices and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">bouillon</span>, then add the <span data-default="400" data-quantity="400" data-unit="g can" class="tooltip scalable">beans</span> with their liquid, the <span data-default="400" data-quantity="400" data-unit="g can" class="tooltip scalable">tomatoes</span> and <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">pepper</span>. Cover and simmer for <b>20</b> mins. Stir in the corn with its liquid, season and take off the heat.</li>
-                <li itemprop="recipeInstructions">While the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">mince</span> cooks, mash the potatoes with the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">milk</span> to make a stiff mash. Spoon the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">mince</span> into six individual pie dishes, top each with some mash, then sprinkle over the cheese and a little paprika.</li>
+                <li itemprop="recipeInstructions">Meanwhile, heat the oil in a large, deep, non-stick frying pan. Add the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">onions</span>, cover and cook for <b>8</b> mins or until softened and starting to colour. Stir in the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">mince</span>, breaking it up with a wooden spoon until browned. Stir in all the spices and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">bouillon</span>, then add the <span data-default="1x" data-defaultunit="400 g can" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">beans</span> with their liquid, the <span data-default="1x" data-defaultunit="400 g can" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">tomatoes</span> and <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">pepper</span>. Cover and simmer for <b>20</b> mins. Stir in the corn with its liquid, season and take off the heat.</li>
+                <li itemprop="recipeInstructions">While the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">mince</span> cooks, mash the potatoes with the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">milk</span> to make a stiff mash. Spoon the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">mince</span> into six individual pie dishes, top each with some mash, then sprinkle over the cheese and a little paprika.</li>
                 <li itemprop="recipeInstructions">The pies can now be frozen. If eating straight away, put under a hot grill until piping hot and the cheese is melted. To cook from frozen, thaw completely, then reheat in the oven on a baking tray at <b>180</b>&deg;C/<b>160</b>&deg;C fan/ Gas <b>4</b> for <b>30-40</b> mins or until piping hot throughout. Serve with broccoli or a salad, if you like, which will take you to all <b>5</b> of your <b>5</b>-a-day.</li>
                 </ol>
 

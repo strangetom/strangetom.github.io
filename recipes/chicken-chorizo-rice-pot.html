@@ -13,7 +13,7 @@
         <title>Chicken & chorizo rice pot | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,47 +47,63 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="8" class="scalable">8</span> chicken pieces or 1 whole chicken, jointed</li>
+                        <span data-default="8" class="scalable">8</span>
+                        <span data-unit=""></span> chicken pieces or 1 whole chicken, jointed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large onion, chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> onion, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> red pepper, deseeded and chopped into large chunks</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> red pepper, deseeded and chopped into large chunks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> cloves garlic, crushed</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="cloves">cloves</span> garlic, crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="225" class="scalable">225</span> g chorizo, skinned and sliced</li>
+                        <span data-default="225" class="scalable">225</span>
+                        <span data-unit="g">g</span> chorizo, skinned and sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp tomato purée</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> tomato purée</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp thyme leaf, chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> thyme leaf, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="150" class="scalable">150</span> ml white wine</li>
+                        <span data-default="150" class="scalable">150</span>
+                        <span data-unit="ml">ml</span> white wine</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="850" class="scalable">850</span> ml chicken stock</li>
+                        <span data-default="850" class="scalable">850</span>
+                        <span data-unit="ml">ml</span> chicken stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g long grain rice</li>
+                        <span data-default="400" class="scalable">400</span>
+                        <span data-unit="g">g</span> long grain rice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp chopped parsley</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> chopped parsley</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large flameproof casserole dish and brown the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">chicken</span> pieces on all sides - you may have to do this in batches. Remove from the dish and put to one side.  </li>
-                <li itemprop="recipeInstructions">Lower the heat, add the <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span> and <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">pepper</span>, and gently cook for <b>10</b> mins until softened. Add the <span data-default="3" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="225" data-quantity="225" data-unit="g" class="tooltip scalable">chorizo</span>, and cook for a further <b>2</b> mins until the <span data-default="225" data-quantity="225" data-unit="g" class="tooltip scalable">chorizo</span> has released some of its oils into the dish. Stir in the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">tomato purée</span> and cook for <b>1</b> min more.  </li>
-                <li itemprop="recipeInstructions">Return the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">chicken</span> pieces to the dish along with the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">thyme</span>, white <span data-default="150" data-quantity="150" data-unit="ml" class="tooltip scalable">wine</span> and <span data-default="850" data-quantity="850" data-unit="ml" class="tooltip scalable">stock</span>. Bring the liquid to a boil, cover the dish with a tight-fitting lid and lower the heat. Cook for <b>30</b> mins.  </li>
-                <li itemprop="recipeInstructions">Tip in the <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">rice</span> and stir everything together. Cover, set over a low heat and cook for a further <b>15</b> mins, or until the <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">rice</span> is cooked and has absorbed most of the cooking liquid. Remove from the heat and leave the dish to sit for <b>10</b> mins to absorb any remaining liquid. Season to taste and scatter with <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">parsley</span> to serve.</li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large flameproof casserole dish and brown the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">chicken</span> pieces on all sides - you may have to do this in batches. Remove from the dish and put to one side.  </li>
+                <li itemprop="recipeInstructions">Lower the heat, add the <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span> and <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">pepper</span>, and gently cook for <b>10</b> mins until softened. Add the <span data-default="3" data-defaultunit="cloves" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="225" data-defaultunit="g" data-quantity="225" data-unit="g" class="tooltip scalable">chorizo</span>, and cook for a further <b>2</b> mins until the <span data-default="225" data-defaultunit="g" data-quantity="225" data-unit="g" class="tooltip scalable">chorizo</span> has released some of its oils into the dish. Stir in the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">tomato purée</span> and cook for <b>1</b> min more.  </li>
+                <li itemprop="recipeInstructions">Return the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">chicken</span> pieces to the dish along with the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">thyme</span>, white <span data-default="150" data-defaultunit="ml" data-quantity="150" data-unit="ml" class="tooltip scalable">wine</span> and <span data-default="850" data-defaultunit="ml" data-quantity="850" data-unit="ml" class="tooltip scalable">stock</span>. Bring the liquid to a boil, cover the dish with a tight-fitting lid and lower the heat. Cook for <b>30</b> mins.  </li>
+                <li itemprop="recipeInstructions">Tip in the <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">rice</span> and stir everything together. Cover, set over a low heat and cook for a further <b>15</b> mins, or until the <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">rice</span> is cooked and has absorbed most of the cooking liquid. Remove from the heat and leave the dish to sit for <b>10</b> mins to absorb any remaining liquid. Season to taste and scatter with <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">parsley</span> to serve.</li>
                 </ol>
 
             <hr>

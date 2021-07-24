@@ -13,7 +13,7 @@
         <title>Penne boscaiola | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,40 +44,52 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> mugs penne pasta</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="mugs">mugs</span> penne pasta</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g streaky bacon, cut into 2 cm strips</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> streaky bacon, cut into 2 cm strips</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="6" class="scalable">6</span> spring onions, chopped</li>
+                        <span data-default="6" class="scalable">6</span>
+                        <span data-unit=""></span> spring onions, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g chestnut mushrooms, sliced</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="g">g</span> chestnut mushrooms, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="300" class="scalable">300</span> ml single cream</li>
+                        <span data-default="300" class="scalable">300</span>
+                        <span data-unit="ml">ml</span> single cream</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> mug grated parmesan</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="mug">mug</span> grated parmesan</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp freshly chopped basil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> freshly chopped basil</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Cook the <span data-default="3" data-quantity="3" data-unit="mugs" class="tooltip scalable">pasta</span> in a pan of boiling, salted water. Drain and return to the pan until needed.   </li>
-                <li itemprop="recipeInstructions">Heart the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large saucepan or wok. Fry the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">bacon</span> until it begins to brown.   </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="6" data-quantity="6" data-unit="" class="tooltip scalable">onions</span> and the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">mushrooms</span> and fry for <b>2-3</b> minutes.   </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="300" data-quantity="300" data-unit="ml" class="tooltip scalable">cream</span> and <span data-default="0.5" data-quantity="&frac12;" data-unit="mug" class="tooltip scalable">parmesan</span> and season to taste. Bring to the boil.   </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="3" data-quantity="3" data-unit="mugs" class="tooltip scalable">pasta</span> and the chopped <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">basil</span> and serve immediately. </li>
+                <li itemprop="recipeInstructions">Cook the <span data-default="3" data-defaultunit="mugs" data-quantity="3" data-unit="mugs" class="tooltip scalable">pasta</span> in a pan of boiling, salted water. Drain and return to the pan until needed.   </li>
+                <li itemprop="recipeInstructions">Heart the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large saucepan or wok. Fry the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">bacon</span> until it begins to brown.   </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="6" data-defaultunit="" data-quantity="6" data-unit="" class="tooltip scalable">onions</span> and the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">mushrooms</span> and fry for <b>2-3</b> minutes.   </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="300" data-defaultunit="ml" data-quantity="300" data-unit="ml" class="tooltip scalable">cream</span> and <span data-default="0.5" data-defaultunit="mug" data-quantity="&frac12;" data-unit="mug" class="tooltip scalable">parmesan</span> and season to taste. Bring to the boil.   </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="3" data-defaultunit="mugs" data-quantity="3" data-unit="mugs" class="tooltip scalable">pasta</span> and the chopped <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">basil</span> and serve immediately. </li>
                 </ol>
 
             <hr>

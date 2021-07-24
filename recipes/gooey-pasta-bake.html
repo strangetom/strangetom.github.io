@@ -13,7 +13,7 @@
         <title>Gooey pasta bake | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,33 +44,42 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g carton Neapolitan sauce</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="500 g carton">500 g carton</span> Neapolitan sauce</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="good handful" class="scalable">good handful</span> fresh basil leaves</li>
+                        <span data-default="good handful" class="scalable">good handful</span>
+                        <span data-unit=""></span> fresh basil leaves</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g fresh stuffed spinach and riccota tortellini</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="g">g</span> fresh stuffed spinach and riccota tortellini</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> g mozzarella cheese, sliced</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="g">g</span> mozzarella cheese, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp freshly grated parmesan cheese</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> freshly grated parmesan cheese</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp pine nuts</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> pine nuts</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Preheat the oven to <b>160</b>&deg;C/Gas <b>4</b>. Tip the pasta <span data-default="500" data-quantity="500" data-unit="g carton" class="tooltip scalable">sauce</span> into a large bowl and thin it down with <b>100</b> ml water. Scatter in the basil leaves and torellini, season and give it all a really good stir.</li>
-                <li itemprop="recipeInstructions">Divide half of the pasta mixture between two gratin dishes and tear half of the <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">mozzarella</span> over them. Spoon the rest of the pasta mixture on top, press the pasta down into the <span data-default="500" data-quantity="500" data-unit="g carton" class="tooltip scalable">sauce</span>, then tear the remaining <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">mozzarella</span> over the <span data-default="500" data-quantity="500" data-unit="g carton" class="tooltip scalable">sauce</span> and scatter with the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">parmesan</span> and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">pine nuts</span>.</li>
+                <li itemprop="recipeInstructions">Preheat the oven to <b>160</b>&deg;C/Gas <b>4</b>. Tip the pasta <span data-default="1x" data-defaultunit="500 g carton" data-quantity="1x" data-unit="500 g carton" class="tooltip scalable">sauce</span> into a large bowl and thin it down with <b>100</b> ml water. Scatter in the basil leaves and torellini, season and give it all a really good stir.</li>
+                <li itemprop="recipeInstructions">Divide half of the pasta mixture between two gratin dishes and tear half of the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">mozzarella</span> over them. Spoon the rest of the pasta mixture on top, press the pasta down into the <span data-default="1x" data-defaultunit="500 g carton" data-quantity="1x" data-unit="500 g carton" class="tooltip scalable">sauce</span>, then tear the remaining <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">mozzarella</span> over the <span data-default="1x" data-defaultunit="500 g carton" data-quantity="1x" data-unit="500 g carton" class="tooltip scalable">sauce</span> and scatter with the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">parmesan</span> and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">pine nuts</span>.</li>
                 <li itemprop="recipeInstructions">Put the dishes on a baking sheet to catch any spills and bake for <b>25-30</b> minutes until golden and bubbling.</li>
                 </ol>
 

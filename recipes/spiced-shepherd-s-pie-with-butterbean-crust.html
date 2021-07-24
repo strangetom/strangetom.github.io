@@ -13,7 +13,7 @@
         <title>Spiced shepherd's pie with butterbean crust | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Lamb" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,53 +43,72 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="90" class="scalable">90</span> ml olive oil</li>
+                        <span data-default="90" class="scalable">90</span>
+                        <span data-unit="ml">ml</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> cloves garlic, crushed</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="cloves">cloves</span> garlic, crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> banana shallots, thinly sliced (180 g)</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit=""></span> banana shallots, thinly sliced (180 g)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="600" class="scalable">600</span> g lamb mince</li>
+                        <span data-default="600" class="scalable">600</span>
+                        <span data-unit="g">g</span> lamb mince</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp cumin seeds</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> cumin seeds</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp ground allspice</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> ground allspice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> lemons: finely grate the zest to get 2 tsp</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> lemons: finely grate the zest to get 2 tsp</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsp tomato paste</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsp">tbsp</span> tomato paste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsp rose harissa</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsp">tbsp</span> rose harissa</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> g dried apricots, quartered</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="g">g</span> dried apricots, quartered</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="280" class="scalable">280</span> ml chicken stock</li>
+                        <span data-default="280" class="scalable">280</span>
+                        <span data-unit="ml">ml</span> chicken stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="220" class="scalable">220</span> ml white wine</li>
+                        <span data-default="220" class="scalable">220</span>
+                        <span data-unit="ml">ml</span> white wine</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="80" class="scalable">80</span> g pitted green olives, halved lengthways</li>
+                        <span data-default="80" class="scalable">80</span>
+                        <span data-unit="g">g</span> pitted green olives, halved lengthways</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="670" class="scalable">670</span> g cooked butterbeans (either 3x 400g tins drained or 400 g uncooked beans soaked overnight and cooked)</li>
+                        <span data-default="670" class="scalable">670</span>
+                        <span data-unit="g">g</span> cooked butterbeans (either 3x 400g tins drained or 400 g uncooked beans soaked overnight and cooked)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tbsp tahini</li>
-                    <li itemprop="recipeIngredient">salt and black pepper</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="tbsp">tbsp</span> tahini</li>
+                    <li itemprop="recipeIngredient"> salt and black pepper</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Put <b>3</b> tablespoons of <span data-default="90" data-quantity="90" data-unit="ml" class="tooltip scalable">oil</span> into a large, heavy-based pan, for which you have a lid, and place on a medium high heat. Add the <span data-default="3" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="3" data-quantity="3" data-unit="" class="tooltip scalable">shallots</span> and sauté for <b>5</b> minutes, stirring frequently, until soft and golden. Increase the heat to high and add the <span data-default="600" data-quantity="600" data-unit="g" class="tooltip scalable">lamb</span>, <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">cumin</span>, <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">allspice</span>, half the lemon zest and <b>&frac12;</b> teaspoon of salt. Fry for <b>5</b> minutes, until browned, stirring every now and then, then add the <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">tomato paste</span>, <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">harissa</span> and <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">apricots</span>. Fry for another <b>2</b> minutes, then pour over the <span data-default="280" data-quantity="280" data-unit="ml" class="tooltip scalable">stock</span> and <span data-default="220" data-quantity="220" data-unit="ml" class="tooltip scalable">wine</span>. Reduce the heat to medium and simmer, covered, for <b>30</b> minutes. Once cooked, set aside to cool, then add the <span data-default="80" data-quantity="80" data-unit="g" class="tooltip scalable">olives</span>. Spoon into a <b>20</b> x <b>25</b> cm ovenproof high-sided dish and refrigerate for at least half an hour. This will firm the meat up, making it easier to spread the mash on top.</li>
+                <li itemprop="recipeInstructions">Put <b>3</b> tablespoons of <span data-default="90" data-defaultunit="ml" data-quantity="90" data-unit="ml" class="tooltip scalable">oil</span> into a large, heavy-based pan, for which you have a lid, and place on a medium high heat. Add the <span data-default="3" data-defaultunit="cloves" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="3" data-defaultunit="" data-quantity="3" data-unit="" class="tooltip scalable">shallots</span> and sauté for <b>5</b> minutes, stirring frequently, until soft and golden. Increase the heat to high and add the <span data-default="600" data-defaultunit="g" data-quantity="600" data-unit="g" class="tooltip scalable">lamb</span>, <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">cumin</span>, <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">allspice</span>, half the lemon zest and <b>&frac12;</b> teaspoon of salt. Fry for <b>5</b> minutes, until browned, stirring every now and then, then add the <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">tomato paste</span>, <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">harissa</span> and <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">apricots</span>. Fry for another <b>2</b> minutes, then pour over the <span data-default="280" data-defaultunit="ml" data-quantity="280" data-unit="ml" class="tooltip scalable">stock</span> and <span data-default="220" data-defaultunit="ml" data-quantity="220" data-unit="ml" class="tooltip scalable">wine</span>. Reduce the heat to medium and simmer, covered, for <b>30</b> minutes. Once cooked, set aside to cool, then add the <span data-default="80" data-defaultunit="g" data-quantity="80" data-unit="g" class="tooltip scalable">olives</span>. Spoon into a <b>20</b> x <b>25</b> cm ovenproof high-sided dish and refrigerate for at least half an hour. This will firm the meat up, making it easier to spread the mash on top.</li>
                 <li itemprop="recipeInstructions">Preheat the oven to <b>180</b>&deg;C fan.</li>
-                <li itemprop="recipeInstructions">To make the mash, mix the <span data-default="670" data-quantity="670" data-unit="g" class="tooltip scalable">butterbeans</span> in a bowl with the remaining lemon zest, <b>2</b> tablespoons of olive <span data-default="90" data-quantity="90" data-unit="ml" class="tooltip scalable">oil</span>, the <span data-default="4" data-quantity="4" data-unit="tbsp" class="tooltip scalable">tahini</span> paste, <b>3</b> tablespoons of water, <b>&frac34;</b> teaspoon of salt and a grind of black pepper. Use a potato masher to mash the beans; they don't need to be completely smooth, just spreadable. Spread the mash over the <span data-default="600" data-quantity="600" data-unit="g" class="tooltip scalable">lamb</span>, then use a spoon to make a few shallow dips. Drizzle over the remaining tablespoon of <span data-default="90" data-quantity="90" data-unit="ml" class="tooltip scalable">oil</span> and bake for <b>30</b> minutes until nicely coloured and bubbly. Rest for <b>10</b> minutes before serving.</li>
+                <li itemprop="recipeInstructions">To make the mash, mix the <span data-default="670" data-defaultunit="g" data-quantity="670" data-unit="g" class="tooltip scalable">butterbeans</span> in a bowl with the remaining lemon zest, <b>2</b> tablespoons of olive <span data-default="90" data-defaultunit="ml" data-quantity="90" data-unit="ml" class="tooltip scalable">oil</span>, the <span data-default="4" data-defaultunit="tbsp" data-quantity="4" data-unit="tbsp" class="tooltip scalable">tahini</span> paste, <b>3</b> tablespoons of water, <b>&frac34;</b> teaspoon of salt and a grind of black pepper. Use a potato masher to mash the beans; they don't need to be completely smooth, just spreadable. Spread the mash over the <span data-default="600" data-defaultunit="g" data-quantity="600" data-unit="g" class="tooltip scalable">lamb</span>, then use a spoon to make a few shallow dips. Drizzle over the remaining tablespoon of <span data-default="90" data-defaultunit="ml" data-quantity="90" data-unit="ml" class="tooltip scalable">oil</span> and bake for <b>30</b> minutes until nicely coloured and bubbly. Rest for <b>10</b> minutes before serving.</li>
                 </ol>
 
             <hr>

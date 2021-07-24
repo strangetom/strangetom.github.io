@@ -13,7 +13,7 @@
         <title>Thai prawn curry | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -46,39 +46,48 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> mugs rice</li>
-                    <li itemprop="recipeIngredient">pilau rice seasoning</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="mugs">mugs</span> rice</li>
+                    <li itemprop="recipeIngredient"> pilau rice seasoning</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span>x 180 g pack cooked prawns</li>
+                        <span data-default="2" class="scalable">2</span>x <span data-unit="180 g pack">180 g pack</span> cooked prawns</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp Thai red curry paste</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> Thai red curry paste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g tin coconut milk</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g tin">400 g tin</span> coconut milk</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g pack of mangetout and baby sweetcorn, both cut in half length ways</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> pack of mangetout and baby sweetcorn, both cut in half length ways</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="6" class="scalable">6</span> spring onions</li>
+                        <span data-default="6" class="scalable">6</span>
+                        <span data-unit=""></span> spring onions</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Make the pilau <span data-default="2" data-quantity="2" data-unit="mugs" class="tooltip scalable">rice</span> (<b>1</b>:<b>2</b> ratio of <span data-default="2" data-quantity="2" data-unit="mugs" class="tooltip scalable">rice</span>:water).  </li>
-                <li itemprop="recipeInstructions">Place the <span data-default="2x" data-quantity="2x" data-unit="180 g pack" class="tooltip scalable">prawns</span> of some kitchen towel to absorb any extra moisture from them.  </li>
-                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a frying pan. Add the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">curry paste</span> and cook for <b>30</b> seconds stirring frequently. Add the <span data-default="400" data-quantity="400" data-unit="g tin" class="tooltip scalable">coconut milk</span> and baby sweetcorn. Cook on a high heat for <b>3-4</b> minutes, the sauce should thicken slightly.  </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="2x" data-quantity="2x" data-unit="180 g pack" class="tooltip scalable">prawns</span>, <span data-default="6" data-quantity="6" data-unit="" class="tooltip scalable">spring onions</span> and the mange tout and cook for <b>1-2</b> minutes.  </li>
-                <li itemprop="recipeInstructions">When the <span data-default="2" data-quantity="2" data-unit="mugs" class="tooltip scalable">rice</span> is cooked, serve the curry on top of the <span data-default="2" data-quantity="2" data-unit="mugs" class="tooltip scalable">rice</span>.</li>
+                <li itemprop="recipeInstructions">Make the pilau <span data-default="2" data-defaultunit="mugs" data-quantity="2" data-unit="mugs" class="tooltip scalable">rice</span> (<b>1</b>:<b>2</b> ratio of <span data-default="2" data-defaultunit="mugs" data-quantity="2" data-unit="mugs" class="tooltip scalable">rice</span>:water).  </li>
+                <li itemprop="recipeInstructions">Place the <span data-default="2x" data-defaultunit="180 g pack" data-quantity="2x" data-unit="180 g pack" class="tooltip scalable">prawns</span> of some kitchen towel to absorb any extra moisture from them.  </li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a frying pan. Add the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">curry paste</span> and cook for <b>30</b> seconds stirring frequently. Add the <span data-default="1x" data-defaultunit="400 g tin" data-quantity="1x" data-unit="400 g tin" class="tooltip scalable">coconut milk</span> and baby sweetcorn. Cook on a high heat for <b>3-4</b> minutes, the sauce should thicken slightly.  </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="2x" data-defaultunit="180 g pack" data-quantity="2x" data-unit="180 g pack" class="tooltip scalable">prawns</span>, <span data-default="6" data-defaultunit="" data-quantity="6" data-unit="" class="tooltip scalable">spring onions</span> and the mange tout and cook for <b>1-2</b> minutes.  </li>
+                <li itemprop="recipeInstructions">When the <span data-default="2" data-defaultunit="mugs" data-quantity="2" data-unit="mugs" class="tooltip scalable">rice</span> is cooked, serve the curry on top of the <span data-default="2" data-defaultunit="mugs" data-quantity="2" data-unit="mugs" class="tooltip scalable">rice</span>.</li>
                 </ol>
 
             <hr>

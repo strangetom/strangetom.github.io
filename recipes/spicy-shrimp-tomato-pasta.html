@@ -13,7 +13,7 @@
         <title>Spicy shrimp tomato pasta | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,42 +43,53 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="8" class="scalable">8</span> oz. fettuccine</li>
+                        <span data-default="8" class="scalable">8</span>
+                        <span data-unit="oz.">oz.</span> fettuccine</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp olive oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp butter</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> cloves garlic</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="cloves">cloves</span> garlic</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> lb peeled &amp; deveined shrimp, 41/50 size</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="lb">lb</span> peeled &amp; deveined shrimp, 41/50 size</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 15 oz can diced tomatoes</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="15 oz">15 oz</span> can diced tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> tsp crushed red pepper flakes</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit="tsp">tsp</span> crushed red pepper flakes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> tsp salt</li>
-                    <li itemprop="recipeIngredient">Freshly cracked pepper to taste</li>
-                    <li itemprop="recipeIngredient">Handful fresh parsley</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit="tsp">tsp</span> salt</li>
+                    <li itemprop="recipeIngredient"> Freshly cracked pepper to taste</li>
+                    <li itemprop="recipeIngredient"> Handful fresh parsley</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Bring a large pot of water to a boil, add the <span data-default="8" data-quantity="8" data-unit="oz." class="tooltip scalable">pasta</span>, and continue to boil for <b>7-10</b> minutes, or until tender. Drain the <span data-default="8" data-quantity="8" data-unit="oz." class="tooltip scalable">pasta</span> in a colander.</li>
-                <li itemprop="recipeInstructions">While the <span data-default="8" data-quantity="8" data-unit="oz." class="tooltip scalable">pasta</span> is cooking, add the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">olive oil</span> and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">butter</span> to a large skillet and place over medium heat. Mince the <span data-default="4" data-quantity="4" data-unit="cloves" class="tooltip scalable">garlic</span> while waiting for the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">butter</span> to melt.</li>
-                <li itemprop="recipeInstructions">Rinse the <span data-default="0.5" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">shrimp</span> with cool water and allow the excess water to drain away. Add the <span data-default="0.5" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">shrimp</span> and minced <span data-default="4" data-quantity="4" data-unit="cloves" class="tooltip scalable">garlic</span> to the skillet. Saute the <span data-default="0.5" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">shrimp</span> and <span data-default="4" data-quantity="4" data-unit="cloves" class="tooltip scalable">garlic</span> for <b>3-5</b> minutes, or just until the <span data-default="0.5" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">shrimp</span> turns opaque and slightly pink (no longer grey and translucent). Remove the <span data-default="0.5" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">shrimp</span> from the skillet and set it aside until later.</li>
-                <li itemprop="recipeInstructions">Add the can of <span data-default="1x" data-quantity="1x" data-unit="15 oz" class="tooltip scalable">tomatoes</span> with juices to the skillet, along with the <span data-default="0.25" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">crushed red pepper flakes</span>, <span data-default="0.25" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">salt</span>, and some freshly cracked pepper. Stir to combine and let the sauce simmer over medium heat for about five minutes.</li>
-                <li itemprop="recipeInstructions">When the sauce has thickened slightly, add the cooked and drained <span data-default="8" data-quantity="8" data-unit="oz." class="tooltip scalable">pasta</span>. Toss to coat in the sauce. Add the cooked <span data-default="0.5" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">shrimp</span> back to the skillet and toss to combine with the <span data-default="8" data-quantity="8" data-unit="oz." class="tooltip scalable">pasta</span>. Taste and adjust the <span data-default="0.25" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">salt</span> if needed.</li>
+                <li itemprop="recipeInstructions">Bring a large pot of water to a boil, add the <span data-default="8" data-defaultunit="oz." data-quantity="8" data-unit="oz." class="tooltip scalable">pasta</span>, and continue to boil for <b>7-10</b> minutes, or until tender. Drain the <span data-default="8" data-defaultunit="oz." data-quantity="8" data-unit="oz." class="tooltip scalable">pasta</span> in a colander.</li>
+                <li itemprop="recipeInstructions">While the <span data-default="8" data-defaultunit="oz." data-quantity="8" data-unit="oz." class="tooltip scalable">pasta</span> is cooking, add the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">olive oil</span> and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">butter</span> to a large skillet and place over medium heat. Mince the <span data-default="4" data-defaultunit="cloves" data-quantity="4" data-unit="cloves" class="tooltip scalable">garlic</span> while waiting for the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">butter</span> to melt.</li>
+                <li itemprop="recipeInstructions">Rinse the <span data-default="0.5" data-defaultunit="lb" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">shrimp</span> with cool water and allow the excess water to drain away. Add the <span data-default="0.5" data-defaultunit="lb" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">shrimp</span> and minced <span data-default="4" data-defaultunit="cloves" data-quantity="4" data-unit="cloves" class="tooltip scalable">garlic</span> to the skillet. Saute the <span data-default="0.5" data-defaultunit="lb" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">shrimp</span> and <span data-default="4" data-defaultunit="cloves" data-quantity="4" data-unit="cloves" class="tooltip scalable">garlic</span> for <b>3-5</b> minutes, or just until the <span data-default="0.5" data-defaultunit="lb" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">shrimp</span> turns opaque and slightly pink (no longer grey and translucent). Remove the <span data-default="0.5" data-defaultunit="lb" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">shrimp</span> from the skillet and set it aside until later.</li>
+                <li itemprop="recipeInstructions">Add the can of <span data-default="1x" data-defaultunit="15 oz" data-quantity="1x" data-unit="15 oz" class="tooltip scalable">tomatoes</span> with juices to the skillet, along with the <span data-default="0.25" data-defaultunit="tsp" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">crushed red pepper flakes</span>, <span data-default="0.25" data-defaultunit="tsp" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">salt</span>, and some freshly cracked pepper. Stir to combine and let the sauce simmer over medium heat for about five minutes.</li>
+                <li itemprop="recipeInstructions">When the sauce has thickened slightly, add the cooked and drained <span data-default="8" data-defaultunit="oz." data-quantity="8" data-unit="oz." class="tooltip scalable">pasta</span>. Toss to coat in the sauce. Add the cooked <span data-default="0.5" data-defaultunit="lb" data-quantity="&frac12;" data-unit="lb" class="tooltip scalable">shrimp</span> back to the skillet and toss to combine with the <span data-default="8" data-defaultunit="oz." data-quantity="8" data-unit="oz." class="tooltip scalable">pasta</span>. Taste and adjust the <span data-default="0.25" data-defaultunit="tsp" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">salt</span> if needed.</li>
                 <li itemprop="recipeInstructions">Roughly chop a handful of parsley leaves and sprinkle over top before serving.</li>
                 </ol>
 

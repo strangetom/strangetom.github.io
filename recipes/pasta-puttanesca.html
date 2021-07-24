@@ -13,7 +13,7 @@
         <title>Pasta puttanesca | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -48,40 +48,50 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
-                    <li itemprop="recipeIngredient">Salt to taste</li>
+                    <li itemprop="recipeIngredient"> Salt to taste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsp olive oil</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> cloves garlic, or more, lightly smashed and peeled</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="cloves">cloves</span> garlic, or more, lightly smashed and peeled</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> anchovy fillets, or more</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit=""></span> anchovy fillets, or more</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 28-ounce can whole plum tomatoes</li>
-                    <li itemprop="recipeIngredient">Freshly ground black pepper, to taste</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="28 oz can">28 oz can</span> whole plum tomatoes</li>
+                    <li itemprop="recipeIngredient"> Freshly ground black pepper, to taste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> cup pitted black olives, preferably oil-cured</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit="cup">cup</span> pitted black olives, preferably oil-cured</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp capers</li>
-                    <li itemprop="recipeIngredient">Crushed red pepper flakes, to taste</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> capers</li>
+                    <li itemprop="recipeIngredient"> Crushed red pepper flakes, to taste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> lb linguine or other long pasta</li>
-                    <li itemprop="recipeIngredient">Chopped fresh parsley, oregano, marjoram or basil leaves for garnish, optional</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="lb">lb</span> linguine or other long pasta</li>
+                    <li itemprop="recipeIngredient"> Chopped fresh parsley, oregano, marjoram or basil leaves for garnish, optional</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Bring pot of water to boil and salt it. Warm <b>2</b> tablespoons <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">oil</span> with <span data-default="3" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="3" data-quantity="3" data-unit="" class="tooltip scalable">anchovies</span> in skillet over medium-low heat. Cook, stirring occasionally, until <span data-default="3" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span> is lightly golden.</li>
-                <li itemprop="recipeInstructions">Drain <span data-default="1x" data-quantity="1x" data-unit="28-ounce can" class="tooltip scalable">tomatoes</span> and crush with fork or hands. Add to skillet, with some salt and pepper. Raise heat to medium-high and cook, stirring occasionally, until <span data-default="1x" data-quantity="1x" data-unit="28-ounce can" class="tooltip scalable">tomatoes</span> break down and mixture becomes saucy, about <b>10</b> minutes. Stir in <span data-default="0.25" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">olives</span>, <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">capers</span> and red pepper flakes, and continue to simmer.</li>
-                <li itemprop="recipeInstructions">Cook <span data-default="1" data-quantity="1" data-unit="lb" class="tooltip scalable">pasta</span>, stirring occasionally, until it is tender but not mushy. Drain quickly and toss with sauce and remaining tablespoon of <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">oil</span>. Taste and adjust seasonings as necessary, garnish with herbs if you like, and serve.</li>
+                <li itemprop="recipeInstructions">Bring pot of water to boil and salt it. Warm <b>2</b> tablespoons <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">oil</span> with <span data-default="3" data-defaultunit="cloves" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="3" data-defaultunit="" data-quantity="3" data-unit="" class="tooltip scalable">anchovies</span> in skillet over medium-low heat. Cook, stirring occasionally, until <span data-default="3" data-defaultunit="cloves" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span> is lightly golden.</li>
+                <li itemprop="recipeInstructions">Drain <span data-default="1x" data-defaultunit="28 oz can" data-quantity="1x" data-unit="28 oz can" class="tooltip scalable">tomatoes</span> and crush with fork or hands. Add to skillet, with some salt and pepper. Raise heat to medium-high and cook, stirring occasionally, until <span data-default="1x" data-defaultunit="28 oz can" data-quantity="1x" data-unit="28 oz can" class="tooltip scalable">tomatoes</span> break down and mixture becomes saucy, about <b>10</b> minutes. Stir in <span data-default="0.25" data-defaultunit="cup" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">olives</span>, <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">capers</span> and red pepper flakes, and continue to simmer.</li>
+                <li itemprop="recipeInstructions">Cook <span data-default="1" data-defaultunit="lb" data-quantity="1" data-unit="lb" class="tooltip scalable">pasta</span>, stirring occasionally, until it is tender but not mushy. Drain quickly and toss with sauce and remaining tablespoon of <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">oil</span>. Taste and adjust seasonings as necessary, garnish with herbs if you like, and serve.</li>
                 </ol>
 
             <hr>

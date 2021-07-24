@@ -13,7 +13,7 @@
         <title>Chicken & mushroom puff pie | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,44 +47,57 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp vegetable oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> vegetable oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="8" class="scalable">8</span> skinless boneless chicken thighs</li>
+                        <span data-default="8" class="scalable">8</span>
+                        <span data-unit=""></span> skinless boneless chicken thighs</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="8" class="scalable">8</span> rashers smoked streaky bacon, cut into large pieces</li>
+                        <span data-default="8" class="scalable">8</span>
+                        <span data-unit="rashers">rashers</span> smoked streaky bacon, cut into large pieces</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> onion, halved and sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> onion, halved and sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g pack baby button mushrooms</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="250 g pack">250 g pack</span> baby button mushrooms</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="handful" class="scalable">handful</span> sprigs thyme</li>
+                        <span data-default="handful" class="scalable">handful</span>
+                        <span data-unit="sprigs">sprigs</span> thyme</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp plain flour</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> plain flour</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> ml chicken stock</li>
+                        <span data-default="400" class="scalable">400</span>
+                        <span data-unit="ml">ml</span> chicken stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> ml milk</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="ml">ml</span> milk</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g pack fresh puff pastry, or frozen and defrosted</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="500 g pack">500 g pack</span> fresh puff pastry, or frozen and defrosted</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> egg, beaten</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> egg, beaten</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the oil in a large, non-stick frying pan. Season the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">chicken</span> to taste and fry for <b>5-8</b> mins until golden brown, turning occasionally. You may need to do this in two batches, depending on the size of your pan. Lift the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">chicken</span> onto a plate and tip the <span data-default="8" data-quantity="8" data-unit="rashers" class="tooltip scalable">bacon</span> into the pan. Fry for <b>5</b> mins until crisp. Add the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <span data-default="250" data-quantity="250" data-unit="g pack" class="tooltip scalable">mushrooms</span> and <span data-default="handful" data-quantity="handful" data-unit="sprigs" class="tooltip scalable">thyme</span>, then fry on a high heat for another <b>3</b> mins until the onions start to colour.</li>
-                <li itemprop="recipeInstructions">Tip the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">flour</span> into the pan and cook, stirring, for <b>1</b> min. With the pan off the heat, gradually stir or whisk in the <span data-default="400" data-quantity="400" data-unit="ml" class="tooltip scalable">stock</span>, followed by the <span data-default="200" data-quantity="200" data-unit="ml" class="tooltip scalable">milk</span>, then add the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">chicken</span> back to the pan. Bring to the boil, then simmer for <b>30</b> mins. Spoon the filling into a large pie or baking dish (approx <b>20</b> x <b>30</b> cm) with a lip and leave to cool.</li>
-                <li itemprop="recipeInstructions">Heat oven to <b>220</b>&deg;C/Gas <b>7</b>. On a floured surface, roll the <span data-default="500" data-quantity="500" data-unit="g pack" class="tooltip scalable">pastry</span> to the thickness of two £<b>1</b> coins. Cut a long strip as wide as the rim of the pie dish and, using a little of the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">egg</span>, fix to the edge of the pie dish. Brush with <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">egg</span>, then lift the rest of the <span data-default="500" data-quantity="500" data-unit="g pack" class="tooltip scalable">pastry</span> over the pie, using the rolling pin to help. Gently press the edges with your fingers and trim with a sharp knife. Brush lightly with <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">egg</span> to glaze, then bake for <b>30</b> mins or until the <span data-default="500" data-quantity="500" data-unit="g pack" class="tooltip scalable">pastry</span> is risen and dark golden brown.</li>
+                <li itemprop="recipeInstructions">Heat the oil in a large, non-stick frying pan. Season the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">chicken</span> to taste and fry for <b>5-8</b> mins until golden brown, turning occasionally. You may need to do this in two batches, depending on the size of your pan. Lift the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">chicken</span> onto a plate and tip the <span data-default="8" data-defaultunit="rashers" data-quantity="8" data-unit="rashers" class="tooltip scalable">bacon</span> into the pan. Fry for <b>5</b> mins until crisp. Add the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <span data-default="1x" data-defaultunit="250 g pack" data-quantity="1x" data-unit="250 g pack" class="tooltip scalable">mushrooms</span> and <span data-default="handful" data-defaultunit="sprigs" data-quantity="handful" data-unit="sprigs" class="tooltip scalable">thyme</span>, then fry on a high heat for another <b>3</b> mins until the onions start to colour.</li>
+                <li itemprop="recipeInstructions">Tip the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">flour</span> into the pan and cook, stirring, for <b>1</b> min. With the pan off the heat, gradually stir or whisk in the <span data-default="400" data-defaultunit="ml" data-quantity="400" data-unit="ml" class="tooltip scalable">stock</span>, followed by the <span data-default="200" data-defaultunit="ml" data-quantity="200" data-unit="ml" class="tooltip scalable">milk</span>, then add the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">chicken</span> back to the pan. Bring to the boil, then simmer for <b>30</b> mins. Spoon the filling into a large pie or baking dish (approx <b>20</b> x <b>30</b> cm) with a lip and leave to cool.</li>
+                <li itemprop="recipeInstructions">Heat oven to <b>220</b>&deg;C/Gas <b>7</b>. On a floured surface, roll the <span data-default="1x" data-defaultunit="500 g pack" data-quantity="1x" data-unit="500 g pack" class="tooltip scalable">pastry</span> to the thickness of two £<b>1</b> coins. Cut a long strip as wide as the rim of the pie dish and, using a little of the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">egg</span>, fix to the edge of the pie dish. Brush with <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">egg</span>, then lift the rest of the <span data-default="1x" data-defaultunit="500 g pack" data-quantity="1x" data-unit="500 g pack" class="tooltip scalable">pastry</span> over the pie, using the rolling pin to help. Gently press the edges with your fingers and trim with a sharp knife. Brush lightly with <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">egg</span> to glaze, then bake for <b>30</b> mins or until the <span data-default="1x" data-defaultunit="500 g pack" data-quantity="1x" data-unit="500 g pack" class="tooltip scalable">pastry</span> is risen and dark golden brown.</li>
                 </ol>
 
             <hr>

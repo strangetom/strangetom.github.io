@@ -13,7 +13,7 @@
         <title>Very easy lamb with red wine gravy | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Lamb" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,36 +43,47 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp sunflower oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> sunflower oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="8" class="scalable">8</span> frozen lamb loin chops or cutlets, idealy herb rubbed</li>
+                        <span data-default="8" class="scalable">8</span>
+                        <span data-unit=""></span> frozen lamb loin chops or cutlets, idealy herb rubbed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> ml red wine</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="ml">ml</span> red wine</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> lamb stock cube</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit=""></span> lamb stock cube</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="150" class="scalable">150</span> ml cold water, plus 2 tbsp</li>
+                        <span data-default="150" class="scalable">150</span>
+                        <span data-unit="ml">ml</span> cold water, plus 2 tbsp</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp redcurrant jelly</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> redcurrant jelly</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp cornflour</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> cornflour</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a large non-stick frying pan and fry the frozen <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">lamb</span> for <b>8-10</b> minutes on each side (<b>4-5</b> minutes if thawed), depending on thickness, until hot throughout. Keep the heat to a medium setting so the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">lamb</span> sizzles without burning. Turn the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">lamb</span> on to its side to brown the fat and continue cooking for a further <b>2-3</b> minutes until golden.</li>
-                <li itemprop="recipeInstructions">Remove the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">lamb</span> to a plate and leave to rest. Spoon the fat out of the pan: discard and return the pan to the heat. Pour the <span data-default="100" data-quantity="100" data-unit="ml" class="tooltip scalable">wine</span> into the pan and bring to a simmer. Drop the <span data-default="0.5" data-quantity="&frac12;" data-unit="" class="tooltip scalable">stock cube</span> into the pan and break it up with a wooden spoon so that it dissolves into the <span data-default="100" data-quantity="100" data-unit="ml" class="tooltip scalable">wine</span>: Add the water and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">redcurrant jelly</span> and return to a simmer. Cook for <b>2-3</b> minutes until the <span data-default="0.5" data-quantity="&frac12;" data-unit="" class="tooltip scalable">stock cube</span> dissolves and the jelly melts, stirring regularly.</li>
-                <li itemprop="recipeInstructions">Mix the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">cornflour</span> with <b>2</b> tablespoons of <span data-default="150" data-quantity="150" data-unit="ml" class="tooltip scalable">cold water</span> and stir into the sauce. Cook for <b>1-2</b> minutes more, stirring constantly until thickened and glossy. Return the chops to the pan and warm through gently in the sauce until hot throughout.</li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a large non-stick frying pan and fry the frozen <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">lamb</span> for <b>8-10</b> minutes on each side (<b>4-5</b> minutes if thawed), depending on thickness, until hot throughout. Keep the heat to a medium setting so the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">lamb</span> sizzles without burning. Turn the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">lamb</span> on to its side to brown the fat and continue cooking for a further <b>2-3</b> minutes until golden.</li>
+                <li itemprop="recipeInstructions">Remove the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">lamb</span> to a plate and leave to rest. Spoon the fat out of the pan: discard and return the pan to the heat. Pour the <span data-default="100" data-defaultunit="ml" data-quantity="100" data-unit="ml" class="tooltip scalable">wine</span> into the pan and bring to a simmer. Drop the <span data-default="0.5" data-defaultunit="" data-quantity="&frac12;" data-unit="" class="tooltip scalable">stock cube</span> into the pan and break it up with a wooden spoon so that it dissolves into the <span data-default="100" data-defaultunit="ml" data-quantity="100" data-unit="ml" class="tooltip scalable">wine</span>: Add the water and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">redcurrant jelly</span> and return to a simmer. Cook for <b>2-3</b> minutes until the <span data-default="0.5" data-defaultunit="" data-quantity="&frac12;" data-unit="" class="tooltip scalable">stock cube</span> dissolves and the jelly melts, stirring regularly.</li>
+                <li itemprop="recipeInstructions">Mix the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">cornflour</span> with <b>2</b> tablespoons of <span data-default="150" data-defaultunit="ml" data-quantity="150" data-unit="ml" class="tooltip scalable">cold water</span> and stir into the sauce. Cook for <b>1-2</b> minutes more, stirring constantly until thickened and glossy. Return the chops to the pan and warm through gently in the sauce until hot throughout.</li>
                 </ol>
 
             <hr>

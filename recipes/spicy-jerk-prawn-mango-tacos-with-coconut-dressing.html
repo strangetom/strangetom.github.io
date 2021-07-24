@@ -13,7 +13,7 @@
         <title>Spicy jerk prawn & mango tacos with coconut dressing | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -51,42 +51,57 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="300" class="scalable">300</span> g raw peeled king prawns</li>
+                        <span data-default="300" class="scalable">300</span>
+                        <span data-unit="g">g</span> raw peeled king prawns</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.5" class="scalable">1½</span> tbsp Jamaican jerk paste</li>
+                        <span data-default="1.5" class="scalable">1½</span>
+                        <span data-unit="tbsp">tbsp</span> Jamaican jerk paste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g can black beans, drained and rinsed</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g can">400 g can</span> black beans, drained and rinsed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large mango, stoned, peeled and diced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> mango, stoned, peeled and diced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> red onion, sliced</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit=""></span> red onion, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> cucumber, chopped</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit=""></span> cucumber, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="bunch" class="scalable">bunch</span> coriander, leaves roughly chopped</li>
+                        <span data-default="bunch" class="scalable">bunch</span>
+                        <span data-unit=""></span> coriander, leaves roughly chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="8" class="scalable">8</span> taco shells</li>
+                        <span data-default="8" class="scalable">8</span>
+                        <span data-unit=""></span> taco shells</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tbsp vegetable oil</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tbsp">tbsp</span> vegetable oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> little gem lettuce, shredded</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> little gem lettuce, shredded</li>
                 </ul>
                 <details open>
                     <summary class="ingredient-subheading">For the dressing</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="165" class="scalable">165</span> ml can coconut milk</li>
-                        <li itemprop="recipeIngredient">zest and juice 1 lime</li>
+                            <span data-default="165" class="scalable">165</span>
+                            <span data-unit="ml can">ml can</span> coconut milk</li>
+                        <li itemprop="recipeIngredient"> zest and juice 1 lime</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> pinches of sugar</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="pinches">pinches</span> of sugar</li>
                     </ul>
                 </details>
             </div>
@@ -94,10 +109,10 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Stir the <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">prawns</span> and <span data-default="1.5" data-quantity="1&frac12;" data-unit="tbsp" class="tooltip scalable">jerk paste</span> together in a bowl and set aside. Mix together the dressing ingredients.  </li>
-                <li itemprop="recipeInstructions">Tip the <span data-default="400" data-quantity="400" data-unit="g can" class="tooltip scalable">beans</span> into a bowl along with the <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">mango</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="" class="tooltip scalable">onion</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="" class="tooltip scalable">cucumber</span>, most of the <span data-default="bunch" data-quantity="bunch" data-unit="" class="tooltip scalable">coriander</span>, the dressing and some seasoning. Warm the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">taco shells</span> following pack instructions.  </li>
-                <li itemprop="recipeInstructions">Heat the <span data-default="0.5" data-quantity="&frac12;" data-unit="tbsp" class="tooltip scalable">oil</span> in a large frying pan, add the <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">prawns</span> and cook for <b>2-3</b> mins or until cooked through.  </li>
-                <li itemprop="recipeInstructions">To build the tacos, start with a handful of <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">lettuce</span>, followed by the bean salad, then top with the <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">prawns</span>. Sprinkle over the remaining <span data-default="bunch" data-quantity="bunch" data-unit="" class="tooltip scalable">coriander</span> and serve.  </li>
+                <li itemprop="recipeInstructions">Stir the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">prawns</span> and <span data-default="1.5" data-defaultunit="tbsp" data-quantity="1&frac12;" data-unit="tbsp" class="tooltip scalable">jerk paste</span> together in a bowl and set aside. Mix together the dressing ingredients.  </li>
+                <li itemprop="recipeInstructions">Tip the <span data-default="1x" data-defaultunit="400 g can" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">beans</span> into a bowl along with the <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">mango</span>, <span data-default="0.5" data-defaultunit="" data-quantity="&frac12;" data-unit="" class="tooltip scalable">onion</span>, <span data-default="0.5" data-defaultunit="" data-quantity="&frac12;" data-unit="" class="tooltip scalable">cucumber</span>, most of the <span data-default="bunch" data-defaultunit="" data-quantity="bunch" data-unit="" class="tooltip scalable">coriander</span>, the dressing and some seasoning. Warm the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">taco shells</span> following pack instructions.  </li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="0.5" data-defaultunit="tbsp" data-quantity="&frac12;" data-unit="tbsp" class="tooltip scalable">oil</span> in a large frying pan, add the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">prawns</span> and cook for <b>2-3</b> mins or until cooked through.  </li>
+                <li itemprop="recipeInstructions">To build the tacos, start with a handful of <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">lettuce</span>, followed by the bean salad, then top with the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">prawns</span>. Sprinkle over the remaining <span data-default="bunch" data-defaultunit="" data-quantity="bunch" data-unit="" class="tooltip scalable">coriander</span> and serve.  </li>
                 </ol>
 
             <hr>

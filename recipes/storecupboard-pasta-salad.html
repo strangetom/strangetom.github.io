@@ -13,7 +13,7 @@
         <title>Storecupboard pasta salad | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,34 +47,44 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp finely chopped red onion</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> finely chopped red onion</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp capers</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> capers</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp pesto</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> pesto</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp olive oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 185 g can tuna in spring water, drained</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="185 g can">185 g can</span> tuna in spring water, drained</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> g leftover pasta shapes</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="g">g</span> leftover pasta shapes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> sundried tomatoes, chopped</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit=""></span> sundried tomatoes, chopped</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Mix the <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">onion</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">capers</span>, <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">pesto</span> and <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">oil</span>. Flake the <span data-default="1x" data-quantity="1x" data-unit="185 g can" class="tooltip scalable">tuna</span> into a bowl with the <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">pasta</span> and <span data-default="3" data-quantity="3" data-unit="" class="tooltip scalable">tomatoes</span>, then stir in the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">pesto</span> mix.</li>
+                <li itemprop="recipeInstructions">Mix the <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">onion</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">capers</span>, <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">pesto</span> and <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">oil</span>. Flake the <span data-default="1x" data-defaultunit="185 g can" data-quantity="1x" data-unit="185 g can" class="tooltip scalable">tuna</span> into a bowl with the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">pasta</span> and <span data-default="3" data-defaultunit="" data-quantity="3" data-unit="" class="tooltip scalable">tomatoes</span>, then stir in the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">pesto</span> mix.</li>
                 </ol>
 
             <hr>

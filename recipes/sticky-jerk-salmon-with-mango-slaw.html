@@ -13,7 +13,7 @@
         <title>Sticky jerk salmon with mango slaw | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,37 +47,48 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> heaped tbsp Jamaican jerk paste</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="heaped tbsp">heaped tbsp</span> Jamaican jerk paste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp clear honey</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> clear honey</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> salmon fillets</li>
-                    <li itemprop="recipeIngredient">juice 2 limes</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> salmon fillets</li>
+                    <li itemprop="recipeIngredient"> juice 2 limes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> red cabbage, core removed thinly sliced</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit=""></span> red cabbage, core removed thinly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> firm but ripe mango, skin removed, thinly sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> firm but ripe mango, skin removed, thinly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> red pepper, thinly sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> red pepper, thinly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="6" class="scalable">6</span> spring onions, thinly sliced on an angle</li>
-                    <li itemprop="recipeIngredient">small bunch coriander, leaves picked</li>
+                        <span data-default="6" class="scalable">6</span>
+                        <span data-unit=""></span> spring onions, thinly sliced on an angle</li>
+                    <li itemprop="recipeIngredient"> small bunch coriander, leaves picked</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the grill to medium-high. Mix the <span data-default="2" data-quantity="2" data-unit="heaped tbsp" class="tooltip scalable">jerk paste</span> and <b>1</b> tbsp <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">honey</span> together in a bowl. Place the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">salmon fillets</span> on a foil-lined baking tray and brush all over with the sauce. Cook on the top shelf for <b>8-10</b> mins or until just cooked through (move the tray down a shelf if the salmon starts getting too caramelised).  </li>
-                <li itemprop="recipeInstructions">Meanwhile, put the remaining <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">honey</span>, lime juice and some seasoning in a large bowl and mix together. Add the <span data-default="0.5" data-quantity="&frac12;" data-unit="" class="tooltip scalable">red cabbage</span>, <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">mango</span>, <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">pepper</span>, <span data-default="6" data-quantity="6" data-unit="" class="tooltip scalable">spring onions</span> and coriander, and toss through the dressing. Serve the salmon on a pile of the slaw.</li>
+                <li itemprop="recipeInstructions">Heat the grill to medium-high. Mix the <span data-default="2" data-defaultunit="heaped tbsp" data-quantity="2" data-unit="heaped tbsp" class="tooltip scalable">jerk paste</span> and <b>1</b> tbsp <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">honey</span> together in a bowl. Place the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">salmon fillets</span> on a foil-lined baking tray and brush all over with the sauce. Cook on the top shelf for <b>8-10</b> mins or until just cooked through (move the tray down a shelf if the salmon starts getting too caramelised).  </li>
+                <li itemprop="recipeInstructions">Meanwhile, put the remaining <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">honey</span>, lime juice and some seasoning in a large bowl and mix together. Add the <span data-default="0.5" data-defaultunit="" data-quantity="&frac12;" data-unit="" class="tooltip scalable">red cabbage</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">mango</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">pepper</span>, <span data-default="6" data-defaultunit="" data-quantity="6" data-unit="" class="tooltip scalable">spring onions</span> and coriander, and toss through the dressing. Serve the salmon on a pile of the slaw.</li>
                 </ol>
 
             <hr>

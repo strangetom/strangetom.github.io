@@ -13,7 +13,7 @@
         <title>Ginger steamed salmon with wild rice | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,24 +43,32 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> lime</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> lime</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> salmon fillets</li>
-                    <li itemprop="recipeIngredient">fresh ginger</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> salmon fillets</li>
+                    <li itemprop="recipeIngredient"> fresh ginger</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1-2" class="scalable">1-2</span> red chillis</li>
-                    <li itemprop="recipeIngredient">fresh coriander</li>
-                    <li itemprop="recipeIngredient">soy sauce</li>
+                        <span data-default="1-2" class="scalable">1-2</span>
+                        <span data-unit=""></span> red chillis</li>
+                    <li itemprop="recipeIngredient"> fresh coriander</li>
+                    <li itemprop="recipeIngredient"> soy sauce</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g wild rice</li>
+                        <span data-default="400" class="scalable">400</span>
+                        <span data-unit="g">g</span> wild rice</li>
                 </ul>
             </div>
         
@@ -68,13 +76,13 @@
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Preheat the oven to <b>180</b>&deg;C/Gas <b>6</b>.</li>
-                <li itemprop="recipeInstructions">Cut the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">lime</span> into thin slices and place them on a baking sheet. Lay the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">salmon</span> fillet on top of the slices.</li>
+                <li itemprop="recipeInstructions">Cut the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">lime</span> into thin slices and place them on a baking sheet. Lay the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">salmon</span> fillet on top of the slices.</li>
                 <li itemprop="recipeInstructions">Add a peeled, chopped, thumb-sized piece of ginger, a chopped chilli and a handful of chopped coriander stalks to the sheet. Add a small glass of water, and the same amount of soy sauce.</li>
                 <li itemprop="recipeInstructions">Cover the sheet tightly in foil (you don't want any of the steam to escape).</li>
                 <li itemprop="recipeInstructions">Bake in the oven for <b>12</b> minutes</li>
-                <li itemprop="recipeInstructions">While the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">salmon</span> is in the oven, put the wild <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">rice</span> (in the ratio of <b>1</b> part <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">rice</span> to <b>2</b> parts boiling water) into a pan and boil until the water has been absorbed.</li>
-                <li itemprop="recipeInstructions">Take the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">salmon</span> out of the oven. Remove the foil and scatter over some coriander leaves and an extra sliced chilli, if you want some extra kick.</li>
-                <li itemprop="recipeInstructions">Serve the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">salmon</span> on top of the <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">rice</span> with all the juices poured on top.</li>
+                <li itemprop="recipeInstructions">While the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">salmon</span> is in the oven, put the wild <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">rice</span> (in the ratio of <b>1</b> part <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">rice</span> to <b>2</b> parts boiling water) into a pan and boil until the water has been absorbed.</li>
+                <li itemprop="recipeInstructions">Take the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">salmon</span> out of the oven. Remove the foil and scatter over some coriander leaves and an extra sliced chilli, if you want some extra kick.</li>
+                <li itemprop="recipeInstructions">Serve the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">salmon</span> on top of the <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">rice</span> with all the juices poured on top.</li>
                 </ol>
 
             <hr>

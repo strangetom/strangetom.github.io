@@ -13,7 +13,7 @@
         <title>Cauliflower, paneer & pea curry | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -48,41 +48,52 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp sunflower oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> sunflower oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="225" class="scalable">225</span> g pack paneer, cut into cubes</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="225 g pack">225 g pack</span> paneer, cut into cubes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> head of cauliflower, broken into small florets</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="head">head</span> of cauliflower, broken into small florets</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> onions, thickly sliced</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> onions, thickly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, crushed</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> heaped tbsp tikka masala paste</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> heaped tbsp tikka masala paste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g carton passata</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="500 g carton">500 g carton</span> passata</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g frozen peas</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> frozen peas</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="small" class="scalable">small</span> pack coriander, roughly chopped</li>
-                    <li itemprop="recipeIngredient">basmati rice or naan breads, to serve</li>
-                    <li itemprop="recipeIngredient">raita or your favourite chutney, to serve</li>
+                        <span data-default="small" class="scalable">small</span>
+                        <span data-unit="pack">pack</span> coriander, roughly chopped</li>
+                    <li itemprop="recipeIngredient"> basmati rice or naan breads, to serve</li>
+                    <li itemprop="recipeIngredient"> raita or your favourite chutney, to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat <b>1</b> tbsp of <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a large non-stick frying pan, add the <span data-default="225" data-quantity="225" data-unit="g pack" class="tooltip scalable">paneer</span> and fry gently until crisp. Remove with a slotted spoon and set aside. Add the remaining <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> and the <span data-default="1" data-quantity="1" data-unit="head" class="tooltip scalable">cauliflower</span> to the pan, and cook for <b>10</b> mins until browned. Add the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">onions</span>, and a little more <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> if needed, and cook for a further <b>5</b> mins until softened. Stir in the <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">curry paste</span>, then pour in the <span data-default="500" data-quantity="500" data-unit="g carton" class="tooltip scalable">passata</span> and <b>250</b> ml water, and season. Bring to a simmer, then cover and cook for <b>18-20</b> mins or until the <span data-default="1" data-quantity="1" data-unit="head" class="tooltip scalable">cauliflower</span> is just tender.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">frozen peas</span> and crispy <span data-default="225" data-quantity="225" data-unit="g pack" class="tooltip scalable">paneer</span> to the pan and cook for a further <b>5</b> mins. Stir through most of the <span data-default="small" data-quantity="small" data-unit="pack" class="tooltip scalable">coriander</span> and garnish with the rest. Serve with basmati rice or naan bread, raita or your favourite chutney.</li>
+                <li itemprop="recipeInstructions">Heat <b>1</b> tbsp of <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a large non-stick frying pan, add the <span data-default="1x" data-defaultunit="225 g pack" data-quantity="1x" data-unit="225 g pack" class="tooltip scalable">paneer</span> and fry gently until crisp. Remove with a slotted spoon and set aside. Add the remaining <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> and the <span data-default="1" data-defaultunit="head" data-quantity="1" data-unit="head" class="tooltip scalable">cauliflower</span> to the pan, and cook for <b>10</b> mins until browned. Add the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">onions</span>, and a little more <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> if needed, and cook for a further <b>5</b> mins until softened. Stir in the <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">curry paste</span>, then pour in the <span data-default="1x" data-defaultunit="500 g carton" data-quantity="1x" data-unit="500 g carton" class="tooltip scalable">passata</span> and <b>250</b> ml water, and season. Bring to a simmer, then cover and cook for <b>18-20</b> mins or until the <span data-default="1" data-defaultunit="head" data-quantity="1" data-unit="head" class="tooltip scalable">cauliflower</span> is just tender.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">frozen peas</span> and crispy <span data-default="1x" data-defaultunit="225 g pack" data-quantity="1x" data-unit="225 g pack" class="tooltip scalable">paneer</span> to the pan and cook for a further <b>5</b> mins. Stir through most of the <span data-default="small" data-defaultunit="pack" data-quantity="small" data-unit="pack" class="tooltip scalable">coriander</span> and garnish with the rest. Serve with basmati rice or naan bread, raita or your favourite chutney.</li>
                 </ol>
 
             <hr>

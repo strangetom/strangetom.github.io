@@ -13,7 +13,7 @@
         <title>Spaghetti with salmon and prawns | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,38 +43,49 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="300" class="scalable">300</span> g salmon fillet</li>
+                        <span data-default="300" class="scalable">300</span>
+                        <span data-unit="g">g</span> salmon fillet</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> ml dry white wine</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="ml">ml</span> dry white wine</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="a few" class="scalable">a few</span> sprigs fresh basil, plus extra basil leaves to garnish</li>
+                        <span data-default="a few" class="scalable">a few</span>
+                        <span data-unit="sprigs">sprigs</span> fresh basil, plus extra basil leaves to garnish</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="150" class="scalable">150</span> ml double cream</li>
+                        <span data-default="150" class="scalable">150</span>
+                        <span data-unit="ml">ml</span> double cream</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="6" class="scalable">6</span> ripe Italian plum tomatoes, peeled and finely chopped</li>
+                        <span data-default="6" class="scalable">6</span>
+                        <span data-unit=""></span> ripe Italian plum tomatoes, peeled and finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="350" class="scalable">350</span> g dried spaghetti</li>
+                        <span data-default="350" class="scalable">350</span>
+                        <span data-unit="g">g</span> dried spaghetti</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="115" class="scalable">115</span> g prawns, peeled and cooked</li>
-                    <li itemprop="recipeIngredient">salt and ground black pepper</li>
+                        <span data-default="115" class="scalable">115</span>
+                        <span data-unit="g">g</span> prawns, peeled and cooked</li>
+                    <li itemprop="recipeIngredient"> salt and ground black pepper</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Put the <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">salmon</span> skin side up in a wide shallow pan. Pour the <span data-default="200" data-quantity="200" data-unit="ml" class="tooltip scalable">wine</span> over, then add the <span data-default="a few" data-quantity="a few" data-unit="sprigs" class="tooltip scalable">basil</span> sprigs to the pan and sprinkle the fish with salt and pepper. Bring the <span data-default="200" data-quantity="200" data-unit="ml" class="tooltip scalable">wine</span> to the boil, cover the pan and simmer gently for no more than <b>5</b> minutes. Using a fish slice, lift the fish out of the pan and set it aside to cool a little.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="150" data-quantity="150" data-unit="ml" class="tooltip scalable">cream</span> and <span data-default="6" data-quantity="6" data-unit="" class="tooltip scalable">tomatoes</span> to the liquid remaining in the pan and bring to the boil. Stir well, then lower the heat and simmer, uncovered, for <b>10-15</b> minutes. Meanwhile, cook the <span data-default="350" data-quantity="350" data-unit="g" class="tooltip scalable">pasta</span> in a large pan of lightly salted boiling water for <b>10-12</b> minutes.</li>
-                <li itemprop="recipeInstructions">Flake the fish into large chunks, discarding the skin and any bones. Add the fish the sauce with the <span data-default="115" data-quantity="115" data-unit="g" class="tooltip scalable">prawns</span>, shaking he pan until the fish and shellfish and well coated. Taste the sauce for seasoning.</li>
-                <li itemprop="recipeInstructions">Drain the <span data-default="350" data-quantity="350" data-unit="g" class="tooltip scalable">pasta</span> and tip it into a warm bowl. Pour the sauce over the <span data-default="350" data-quantity="350" data-unit="g" class="tooltip scalable">pasta</span> and toss to combine. Serve immediately, garnished with the <span data-default="a few" data-quantity="a few" data-unit="sprigs" class="tooltip scalable">basil</span>.</li>
+                <li itemprop="recipeInstructions">Put the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">salmon</span> skin side up in a wide shallow pan. Pour the <span data-default="200" data-defaultunit="ml" data-quantity="200" data-unit="ml" class="tooltip scalable">wine</span> over, then add the <span data-default="a few" data-defaultunit="sprigs" data-quantity="a few" data-unit="sprigs" class="tooltip scalable">basil</span> sprigs to the pan and sprinkle the fish with salt and pepper. Bring the <span data-default="200" data-defaultunit="ml" data-quantity="200" data-unit="ml" class="tooltip scalable">wine</span> to the boil, cover the pan and simmer gently for no more than <b>5</b> minutes. Using a fish slice, lift the fish out of the pan and set it aside to cool a little.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="150" data-defaultunit="ml" data-quantity="150" data-unit="ml" class="tooltip scalable">cream</span> and <span data-default="6" data-defaultunit="" data-quantity="6" data-unit="" class="tooltip scalable">tomatoes</span> to the liquid remaining in the pan and bring to the boil. Stir well, then lower the heat and simmer, uncovered, for <b>10-15</b> minutes. Meanwhile, cook the <span data-default="350" data-defaultunit="g" data-quantity="350" data-unit="g" class="tooltip scalable">pasta</span> in a large pan of lightly salted boiling water for <b>10-12</b> minutes.</li>
+                <li itemprop="recipeInstructions">Flake the fish into large chunks, discarding the skin and any bones. Add the fish the sauce with the <span data-default="115" data-defaultunit="g" data-quantity="115" data-unit="g" class="tooltip scalable">prawns</span>, shaking he pan until the fish and shellfish and well coated. Taste the sauce for seasoning.</li>
+                <li itemprop="recipeInstructions">Drain the <span data-default="350" data-defaultunit="g" data-quantity="350" data-unit="g" class="tooltip scalable">pasta</span> and tip it into a warm bowl. Pour the sauce over the <span data-default="350" data-defaultunit="g" data-quantity="350" data-unit="g" class="tooltip scalable">pasta</span> and toss to combine. Serve immediately, garnished with the <span data-default="a few" data-defaultunit="sprigs" data-quantity="a few" data-unit="sprigs" class="tooltip scalable">basil</span>.</li>
                 </ol>
 
             <hr>

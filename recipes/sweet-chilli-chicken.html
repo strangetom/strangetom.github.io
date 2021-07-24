@@ -13,7 +13,7 @@
         <title>Sweet chilli chicken | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,52 +43,66 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <details open>
                     <summary class="ingredient-subheading">Sauce</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="4" class="scalable">4</span> tbsp soft brown sugar</li>
+                            <span data-default="4" class="scalable">4</span>
+                            <span data-unit="tbsp">tbsp</span> soft brown sugar</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tbsp freshly grated ginger</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tbsp">tbsp</span> freshly grated ginger</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">0.5</span>x 190 ml bottle sweet chilli sauce</li>
+                            <span data-default="0.5" class="scalable">0.5</span>x <span data-unit="190 ml bottle">190 ml bottle</span> sweet chilli sauce</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="4" class="scalable">4</span> tbsp mirin or white wine vinegar</li>
-                        <li itemprop="recipeIngredient">juice of 2 limes</li>
+                            <span data-default="4" class="scalable">4</span>
+                            <span data-unit="tbsp">tbsp</span> mirin or white wine vinegar</li>
+                        <li itemprop="recipeIngredient"> juice of 2 limes</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> mug water</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit="mug">mug</span> water</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tsp cornflour</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tsp">tsp</span> cornflour</li>
                     </ul>
                 </details>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> chicken breasts, cut into thin strips</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit=""></span> chicken breasts, cut into thin strips</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.5" class="scalable">1½</span> mugs basmati rice</li>
+                        <span data-default="1.5" class="scalable">1½</span>
+                        <span data-unit="mugs">mugs</span> basmati rice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g mangetout, cut into thin strips</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> mangetout, cut into thin strips</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> fat red chilli, chopped (optional)</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> fat red chilli, chopped (optional)</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Mix together the sauce ingredients. Add the <span data-default="3" data-quantity="3" data-unit="" class="tooltip scalable">chicken</span> strips and leave for <b>5</b> minutes.   </li>
-                <li itemprop="recipeInstructions">Meanwhile, put the  <span data-default="1.5" data-quantity="1&frac12;" data-unit="mugs" class="tooltip scalable">rice</span> on to cook. Once it's cooked, put the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">mangetout</span> on top and replace pan lid. The <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">mangetout</span> will cook in the heat from the <span data-default="1.5" data-quantity="1&frac12;" data-unit="mugs" class="tooltip scalable">rice</span>.   </li>
-                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large frying pan or wok. Add the <span data-default="3" data-quantity="3" data-unit="" class="tooltip scalable">chicken</span> but not the sauce. Fry on a medium heat until the <span data-default="3" data-quantity="3" data-unit="" class="tooltip scalable">chicken</span> is cooked, around <b>4-5</b> minutes.   </li>
-                <li itemprop="recipeInstructions">Add the sauce and bring to the boil. Simmer for <b>1</b> minute. Add the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">chilli</span> now.   </li>
-                <li itemprop="recipeInstructions">Serve with the <span data-default="1.5" data-quantity="1&frac12;" data-unit="mugs" class="tooltip scalable">rice</span> and <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">mangetout</span>. </li>
+                <li itemprop="recipeInstructions">Mix together the sauce ingredients. Add the <span data-default="3" data-defaultunit="" data-quantity="3" data-unit="" class="tooltip scalable">chicken</span> strips and leave for <b>5</b> minutes.   </li>
+                <li itemprop="recipeInstructions">Meanwhile, put the  <span data-default="1.5" data-defaultunit="mugs" data-quantity="1&frac12;" data-unit="mugs" class="tooltip scalable">rice</span> on to cook. Once it's cooked, put the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">mangetout</span> on top and replace pan lid. The <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">mangetout</span> will cook in the heat from the <span data-default="1.5" data-defaultunit="mugs" data-quantity="1&frac12;" data-unit="mugs" class="tooltip scalable">rice</span>.   </li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large frying pan or wok. Add the <span data-default="3" data-defaultunit="" data-quantity="3" data-unit="" class="tooltip scalable">chicken</span> but not the sauce. Fry on a medium heat until the <span data-default="3" data-defaultunit="" data-quantity="3" data-unit="" class="tooltip scalable">chicken</span> is cooked, around <b>4-5</b> minutes.   </li>
+                <li itemprop="recipeInstructions">Add the sauce and bring to the boil. Simmer for <b>1</b> minute. Add the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">chilli</span> now.   </li>
+                <li itemprop="recipeInstructions">Serve with the <span data-default="1.5" data-defaultunit="mugs" data-quantity="1&frac12;" data-unit="mugs" class="tooltip scalable">rice</span> and <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">mangetout</span>. </li>
                 </ol>
 
             <hr>

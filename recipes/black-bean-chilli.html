@@ -13,7 +13,7 @@
         <title>Black bean chilli | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,40 +43,51 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp olive or rapeseed oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> olive or rapeseed oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> cloves garlic, finely choppped</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="cloves">cloves</span> garlic, finely choppped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> large onions, chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="large">large</span> onions, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsp sweet pimenton or mild chilli powder</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsp">tbsp</span> sweet pimenton or mild chilli powder</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsp ground cumin</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsp">tbsp</span> ground cumin</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsp cider vinegar</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsp">tbsp</span> cider vinegar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp brown sugar</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> brown sugar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span>x 400 g cans chopped tomatoes</li>
+                        <span data-default="2" class="scalable">2</span>x <span data-unit="400 g cans">400 g cans</span> chopped tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span>x 400 g cans black beans, drained and rinsed</li>
-                    <li itemprop="recipeIngredient">boiled long grain rice, plus some of the following toppings: crumbled feta, chopped spring onions, sliced radishes, avocado chunks</li>
+                        <span data-default="2" class="scalable">2</span>x <span data-unit="400 g cans">400 g cans</span> black beans, drained and rinsed</li>
+                    <li itemprop="recipeIngredient"> boiled long grain rice, plus some of the following toppings: crumbled feta, chopped spring onions, sliced radishes, avocado chunks</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">In a large pan, heat the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> and fry the <span data-default="4" data-quantity="4" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="2" data-quantity="2" data-unit="large" class="tooltip scalable">onions</span> for <b>5</b> minutes until almost softened. Add the pimenton or <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">chilli powder</span> and <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">cumin</span>, cook for a few minutes, then add the <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">vinegar</span>, <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">sugar</span>, <span data-default="2x" data-quantity="2x" data-unit="400 g cans" class="tooltip scalable">tomatoes</span> and some seasoning. Cook for <b>10</b> minutes.  </li>
-                <li itemprop="recipeInstructions">Pour in the <span data-default="2x" data-quantity="2x" data-unit="400 g cans" class="tooltip scalable">black beans</span> and cook for another <b>10</b> minutes. Serve with rice and the accompaniments of your choice.</li>
+                <li itemprop="recipeInstructions">In a large pan, heat the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> and fry the <span data-default="4" data-defaultunit="cloves" data-quantity="4" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="2" data-defaultunit="large" data-quantity="2" data-unit="large" class="tooltip scalable">onions</span> for <b>5</b> minutes until almost softened. Add the pimenton or <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">chilli powder</span> and <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">cumin</span>, cook for a few minutes, then add the <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">vinegar</span>, <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">sugar</span>, <span data-default="2x" data-defaultunit="400 g cans" data-quantity="2x" data-unit="400 g cans" class="tooltip scalable">tomatoes</span> and some seasoning. Cook for <b>10</b> minutes.  </li>
+                <li itemprop="recipeInstructions">Pour in the <span data-default="2x" data-defaultunit="400 g cans" data-quantity="2x" data-unit="400 g cans" class="tooltip scalable">black beans</span> and cook for another <b>10</b> minutes. Serve with rice and the accompaniments of your choice.</li>
                 </ol>
 
             <hr>

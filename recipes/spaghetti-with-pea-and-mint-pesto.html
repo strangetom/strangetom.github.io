@@ -13,7 +13,7 @@
         <title>Spaghetti with pea and mint pesto | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,33 +44,44 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g shelled fresh peas</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="g">g</span> shelled fresh peas</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> fat cloves garlic, finely chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="fat cloves">fat cloves</span> garlic, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> g pine nuts, toasted</li>
+                        <span data-default="50" class="scalable">50</span>
+                        <span data-unit="g">g</span> pine nuts, toasted</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> g Parmesan cheese, chopped into small chunks</li>
+                        <span data-default="50" class="scalable">50</span>
+                        <span data-unit="g">g</span> Parmesan cheese, chopped into small chunks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="good" class="scalable">good</span> handful fresh mint leaves</li>
+                        <span data-default="good" class="scalable">good</span>
+                        <span data-unit="handful">handful</span> fresh mint leaves</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="6" class="scalable">6</span> tbsp extra virgin olive oil</li>
+                        <span data-default="6" class="scalable">6</span>
+                        <span data-unit="tbsp">tbsp</span> extra virgin olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="350" class="scalable">350</span> g spaghetti</li>
+                        <span data-default="350" class="scalable">350</span>
+                        <span data-unit="g">g</span> spaghetti</li>
                 </ul>
                 <details open>
                     <summary class="ingredient-subheading">To serve</summary>
                     <ul>
-                        <li itemprop="recipeIngredient">freshly grated Parmesan cheese</li>
-                        <li itemprop="recipeIngredient">extra virgin olive oil</li>
+                        <li itemprop="recipeIngredient"> freshly grated Parmesan cheese</li>
+                        <li itemprop="recipeIngredient"> extra virgin olive oil</li>
                     </ul>
                 </details>
             </div>
@@ -78,9 +89,9 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Cook the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">peas</span> in boiling water for <b>2-3</b> minutes until just tender, then drain and refresh under cold running water. Pat dry, then tip into a food processor and add the <span data-default="2" data-quantity="2" data-unit="fat cloves" class="tooltip scalable">garlic</span>, <span data-default="50" data-quantity="50" data-unit="g" class="tooltip scalable">pine nuts</span>, <span data-default="50" data-quantity="50" data-unit="g" class="tooltip scalable">Parmesan</span>, <span data-default="good" data-quantity="good" data-unit="handful" class="tooltip scalable">mint</span> and <span data-default="6" data-quantity="6" data-unit="tbsp" class="tooltip scalable">oil</span>. Season, then pulse very briefly until the ingredients are roughly chopped.   </li>
-                <li itemprop="recipeInstructions">Cook the <span data-default="350" data-quantity="350" data-unit="g" class="tooltip scalable">spaghetti</span> according to the packet instructions until tender. Drain, reserving some of the water, then toss with the pesto and about <b>2</b> tbsp of the water.  </li>
-                <li itemprop="recipeInstructions">Put into warmed bowls and serve at once with <span data-default="50" data-quantity="50" data-unit="g" class="tooltip scalable">Parmesan</span> and olive <span data-default="6" data-quantity="6" data-unit="tbsp" class="tooltip scalable">oil</span> at the table.   </li>
+                <li itemprop="recipeInstructions">Cook the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">peas</span> in boiling water for <b>2-3</b> minutes until just tender, then drain and refresh under cold running water. Pat dry, then tip into a food processor and add the <span data-default="2" data-defaultunit="fat cloves" data-quantity="2" data-unit="fat cloves" class="tooltip scalable">garlic</span>, <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">pine nuts</span>, <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">Parmesan</span>, <span data-default="good" data-defaultunit="handful" data-quantity="good" data-unit="handful" class="tooltip scalable">mint</span> and <span data-default="6" data-defaultunit="tbsp" data-quantity="6" data-unit="tbsp" class="tooltip scalable">oil</span>. Season, then pulse very briefly until the ingredients are roughly chopped.   </li>
+                <li itemprop="recipeInstructions">Cook the <span data-default="350" data-defaultunit="g" data-quantity="350" data-unit="g" class="tooltip scalable">spaghetti</span> according to the packet instructions until tender. Drain, reserving some of the water, then toss with the pesto and about <b>2</b> tbsp of the water.  </li>
+                <li itemprop="recipeInstructions">Put into warmed bowls and serve at once with <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">Parmesan</span> and olive <span data-default="6" data-defaultunit="tbsp" data-quantity="6" data-unit="tbsp" class="tooltip scalable">oil</span> at the table.   </li>
                 </ol>
 
             <hr>

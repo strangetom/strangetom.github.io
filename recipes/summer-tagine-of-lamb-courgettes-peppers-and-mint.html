@@ -13,7 +13,7 @@
         <title>Summer tagine of lamb, courgettes, peppers and mint | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Lamb" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,48 +47,63 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3-4" class="scalable">3-4</span> tbsp olive oil</li>
+                        <span data-default="3-4" class="scalable">3-4</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> onion, roughly chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> onion, roughly chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> cloves garlic, roughly chopped</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="cloves">cloves</span> garlic, roughly chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp cumin seeds</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> cumin seeds</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp coriander seeds</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> coriander seeds</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp dried mint</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> dried mint</li>
                     <li itemprop="recipeIngredient">thumb-sized piece fresh ginger, peeled and finely chopped or grated</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="750" class="scalable">750</span> g lean lamb, cut into bite-sized pieces</li>
-                    <li itemprop="recipeIngredient">sea salt and freshly ground black pepper</li>
+                        <span data-default="750" class="scalable">750</span>
+                        <span data-unit="g">g</span> lean lamb, cut into bite-sized pieces</li>
+                    <li itemprop="recipeIngredient"> sea salt and freshly ground black pepper</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> small courgettes, sliced thickly on the diagonal</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="small">small</span> courgettes, sliced thickly on the diagonal</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> red or green (bell) pepper, deseeded and cut into thick strips</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> red or green (bell) pepper, deseeded and cut into thick strips</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tomatoes, skinned, deseeded and cut into chunks</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> tomatoes, skinned, deseeded and cut into chunks</li>
                     <li itemprop="recipeIngredient">small bunch fresh flat-leaf parsley, roughly chopped</li>
                     <li itemprop="recipeIngredient">small bunch fresh mint leaves, roughly chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> lemon, cut into quarters, to serve</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> lemon, cut into quarters, to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="3-4" data-quantity="3-4" data-unit="tbsp" class="tooltip scalable">olive oil</span> in a tagine or a heavy-based casserole. Stir in the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <span data-default="4" data-quantity="4" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">cumin</span> and <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">coriander seeds</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">dried mint</span> and <span data-default="" data-quantity="" data-unit="thumb-sized piece" class="tooltip scalable">ginger</span>. Once the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> begins to soften, toss in the meat and pour in enough water to just cover it. Bring the water to the boil, reduce the heat, cover with a lid and cook gently for about <b>1</b><b>&frac12;</b> hours.</li>
-                <li itemprop="recipeInstructions">Season the cooking juices with salt and <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">pepper</span>. Add the <span data-default="2" data-quantity="2" data-unit="small" class="tooltip scalable">courgettes</span>, <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">pepper</span> and <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">tomatoes</span>, tucking them around the meat (add a little more water if necessary). Cover with a lid again and cook for about <b>15</b> minutes, until the <span data-default="2" data-quantity="2" data-unit="small" class="tooltip scalable">courgettes</span> and <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">pepper</span> are cooked but retain a bite.</li>
-                <li itemprop="recipeInstructions">Toss in some of the chopped <span data-default="" data-quantity="" data-unit="small bunch" class="tooltip scalable">parsley</span> and fresh <span data-default="" data-quantity="" data-unit="small bunch" class="tooltip scalable">mint</span>, sprinkle the rest over the top and serve immediately with <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">lemon</span> wedges to squeeze over the dish.</li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="3-4" data-defaultunit="tbsp" data-quantity="3-4" data-unit="tbsp" class="tooltip scalable">olive oil</span> in a tagine or a heavy-based casserole. Stir in the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <span data-default="4" data-defaultunit="cloves" data-quantity="4" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">cumin</span> and <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">coriander seeds</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">dried mint</span> and <span data-default="" data-defaultunit="thumb-sized piece" data-quantity="" data-unit="thumb-sized piece" class="tooltip scalable">ginger</span>. Once the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> begins to soften, toss in the meat and pour in enough water to just cover it. Bring the water to the boil, reduce the heat, cover with a lid and cook gently for about <b>1</b><b>&frac12;</b> hours.</li>
+                <li itemprop="recipeInstructions">Season the cooking juices with salt and <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">pepper</span>. Add the <span data-default="2" data-defaultunit="small" data-quantity="2" data-unit="small" class="tooltip scalable">courgettes</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">pepper</span> and <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">tomatoes</span>, tucking them around the meat (add a little more water if necessary). Cover with a lid again and cook for about <b>15</b> minutes, until the <span data-default="2" data-defaultunit="small" data-quantity="2" data-unit="small" class="tooltip scalable">courgettes</span> and <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">pepper</span> are cooked but retain a bite.</li>
+                <li itemprop="recipeInstructions">Toss in some of the chopped <span data-default="" data-defaultunit="small bunch" data-quantity="" data-unit="small bunch" class="tooltip scalable">parsley</span> and fresh <span data-default="" data-defaultunit="small bunch" data-quantity="" data-unit="small bunch" class="tooltip scalable">mint</span>, sprinkle the rest over the top and serve immediately with <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">lemon</span> wedges to squeeze over the dish.</li>
                 <li itemprop="recipeInstructions">This summery tagine is best accompanied by a fresh green salad of young beetroot/beets, spinach and lettuce leaves. </li>
                 </ol>
 

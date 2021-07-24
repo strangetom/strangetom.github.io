@@ -13,7 +13,7 @@
         <title>Jerk sweet potato & black bean curry | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -49,48 +49,63 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> onion, 1 diced, 1 roughly chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> onion, 1 diced, 1 roughly chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp sunflower oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> sunflower oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> g ginger, roughly chopped</li>
+                        <span data-default="50" class="scalable">50</span>
+                        <span data-unit="g">g</span> ginger, roughly chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="small bunch" class="scalable">small bunch</span> coriander, leaves and stalks separated</li>
+                        <span data-default="small bunch" class="scalable">small bunch</span>
+                        <span data-unit=""></span> coriander, leaves and stalks separated</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsp jerk seasoning</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsp">tbsp</span> jerk seasoning</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> sprigs thyme</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="sprigs">sprigs</span> thyme</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g can chopped tomatoes</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g can">400 g can</span> chopped tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tbsp red wine vinegar</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="tbsp">tbsp</span> red wine vinegar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsp demerara sugar</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsp">tbsp</span> demerara sugar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> vegetable stock cubes, crumbled</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> vegetable stock cubes, crumbled</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> kg sweet potatoes, peeled and cut into chunks</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="kg">kg</span> sweet potatoes, peeled and cut into chunks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span>x 400 g cans black beans, rinsed and drained</li>
+                        <span data-default="2" class="scalable">2</span>x <span data-unit="400 g cans">400 g cans</span> black beans, rinsed and drained</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="450" class="scalable">450</span> g jar roasted red pepper, cut into thick slices</li>
+                        <span data-default="450" class="scalable">450</span>
+                        <span data-unit="g">g</span> jar roasted red pepper, cut into thick slices</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Gently soften the diced <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">onion</span> in the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">sunflower oil</span> in a big pan or casserole.  </li>
-                <li itemprop="recipeInstructions">Meanwhile, whizz together the roughly chopped <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">onion</span>, <span data-default="50" data-quantity="50" data-unit="g" class="tooltip scalable">ginger</span>, <span data-default="small bunch" data-quantity="small bunch" data-unit="" class="tooltip scalable">coriander</span> stalks and <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">jerk seasoning</span> with a hand-held blender. Add to the softened <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">onion</span> and fry until fragrant. Stir in the <span data-default="2" data-quantity="2" data-unit="sprigs" class="tooltip scalable">thyme</span>, <span data-default="400" data-quantity="400" data-unit="g can" class="tooltip scalable">chopped tomatoes</span>, <span data-default="4" data-quantity="4" data-unit="tbsp" class="tooltip scalable">vinegar</span>, <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">sugar</span> and <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">stock cubes</span> with <b>600</b>ml water and bring to a simmer. Simmer for <b>10</b> mins, then drop in the <span data-default="1" data-quantity="1" data-unit="kg" class="tooltip scalable">sweet potatoes</span> and simmer for <b>10</b> mins more. Stir in the <span data-default="2x" data-quantity="2x" data-unit="400 g cans" class="tooltip scalable">beans</span>, <span data-default="450" data-quantity="450" data-unit="g" class="tooltip scalable">peppers</span> and some seasoning, and simmer for another <b>5</b> mins until the potatoes are almost tender. Cool and chill for up to <b>2</b> days.  </li>
-                <li itemprop="recipeInstructions">To serve, gently heat through on the hob. Roughly chop most of the <span data-default="small bunch" data-quantity="small bunch" data-unit="" class="tooltip scalable">coriander</span> leaves and stir in, then serve scattered with the remaining leaves.  </li>
+                <li itemprop="recipeInstructions">Gently soften the diced <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">onion</span> in the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">sunflower oil</span> in a big pan or casserole.  </li>
+                <li itemprop="recipeInstructions">Meanwhile, whizz together the roughly chopped <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">onion</span>, <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">ginger</span>, <span data-default="small bunch" data-defaultunit="" data-quantity="small bunch" data-unit="" class="tooltip scalable">coriander</span> stalks and <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">jerk seasoning</span> with a hand-held blender. Add to the softened <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">onion</span> and fry until fragrant. Stir in the <span data-default="2" data-defaultunit="sprigs" data-quantity="2" data-unit="sprigs" class="tooltip scalable">thyme</span>, <span data-default="1x" data-defaultunit="400 g can" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">chopped tomatoes</span>, <span data-default="4" data-defaultunit="tbsp" data-quantity="4" data-unit="tbsp" class="tooltip scalable">vinegar</span>, <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">sugar</span> and <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">stock cubes</span> with <b>600</b>ml water and bring to a simmer. Simmer for <b>10</b> mins, then drop in the <span data-default="1" data-defaultunit="kg" data-quantity="1" data-unit="kg" class="tooltip scalable">sweet potatoes</span> and simmer for <b>10</b> mins more. Stir in the <span data-default="2x" data-defaultunit="400 g cans" data-quantity="2x" data-unit="400 g cans" class="tooltip scalable">beans</span>, <span data-default="450" data-defaultunit="g" data-quantity="450" data-unit="g" class="tooltip scalable">peppers</span> and some seasoning, and simmer for another <b>5</b> mins until the potatoes are almost tender. Cool and chill for up to <b>2</b> days.  </li>
+                <li itemprop="recipeInstructions">To serve, gently heat through on the hob. Roughly chop most of the <span data-default="small bunch" data-defaultunit="" data-quantity="small bunch" data-unit="" class="tooltip scalable">coriander</span> leaves and stir in, then serve scattered with the remaining leaves.  </li>
                 </ol>
 
             <hr>

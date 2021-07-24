@@ -13,7 +13,7 @@
         <title>Prawn &  spinach risotto | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,40 +44,52 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp olive oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> onion, finely chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> onion, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> mug risotto rice</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="mug">mug</span> risotto rice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> mugs water</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="mugs">mugs</span> water</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> fish stock cubes</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> fish stock cubes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="450" class="scalable">450</span> g king prawns</li>
+                        <span data-default="450" class="scalable">450</span>
+                        <span data-unit="g">g</span> king prawns</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g spinach, roughly chopped</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> spinach, roughly chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> mug finely grated parmesan</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="mug">mug</span> finely grated parmesan</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a wok, add the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and fry until they begin to soften.   </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="1" data-quantity="1" data-unit="mug" class="tooltip scalable">rice</span> and fry for <b>1</b> minute, to allow the <span data-default="1" data-quantity="1" data-unit="mug" class="tooltip scalable">rice</span> to absorb the juices in the pan.   </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="2" data-quantity="2" data-unit="mugs" class="tooltip scalable">water</span> and the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">stock</span>, bring to the boil, and then turn down to simmer, with a lid on the pan, for <b>10-12</b> minutes, or until the <span data-default="1" data-quantity="1" data-unit="mug" class="tooltip scalable">rice</span> is tender. Stir the risotto occasionally and add more <span data-default="2" data-quantity="2" data-unit="mugs" class="tooltip scalable">water</span> is necessary. Risotto should not be dry, but have a creamy consistency.   </li>
-                <li itemprop="recipeInstructions">Once the <span data-default="1" data-quantity="1" data-unit="mug" class="tooltip scalable">rice</span> is tender, add the <span data-default="450" data-quantity="450" data-unit="g" class="tooltip scalable">prawns</span> and the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">spinach</span> and heat through for <b>1-2</b> minutes.   </li>
-                <li itemprop="recipeInstructions">Stir in the <span data-default="0.5" data-quantity="&frac12;" data-unit="mug" class="tooltip scalable">parmesan</span> and season well with salt and pepper. Serve hot. </li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a wok, add the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and fry until they begin to soften.   </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="1" data-defaultunit="mug" data-quantity="1" data-unit="mug" class="tooltip scalable">rice</span> and fry for <b>1</b> minute, to allow the <span data-default="1" data-defaultunit="mug" data-quantity="1" data-unit="mug" class="tooltip scalable">rice</span> to absorb the juices in the pan.   </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="2" data-defaultunit="mugs" data-quantity="2" data-unit="mugs" class="tooltip scalable">water</span> and the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">stock</span>, bring to the boil, and then turn down to simmer, with a lid on the pan, for <b>10-12</b> minutes, or until the <span data-default="1" data-defaultunit="mug" data-quantity="1" data-unit="mug" class="tooltip scalable">rice</span> is tender. Stir the risotto occasionally and add more <span data-default="2" data-defaultunit="mugs" data-quantity="2" data-unit="mugs" class="tooltip scalable">water</span> is necessary. Risotto should not be dry, but have a creamy consistency.   </li>
+                <li itemprop="recipeInstructions">Once the <span data-default="1" data-defaultunit="mug" data-quantity="1" data-unit="mug" class="tooltip scalable">rice</span> is tender, add the <span data-default="450" data-defaultunit="g" data-quantity="450" data-unit="g" class="tooltip scalable">prawns</span> and the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">spinach</span> and heat through for <b>1-2</b> minutes.   </li>
+                <li itemprop="recipeInstructions">Stir in the <span data-default="0.5" data-defaultunit="mug" data-quantity="&frac12;" data-unit="mug" class="tooltip scalable">parmesan</span> and season well with salt and pepper. Serve hot. </li>
                 </ol>
 
             <hr>

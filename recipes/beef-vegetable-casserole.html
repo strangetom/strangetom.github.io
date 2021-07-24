@@ -13,7 +13,7 @@
         <title>Beef & vegetable casserole | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Beef" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,37 +47,53 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> sticks celery, thickly sliced</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="sticks">sticks</span> celery, thickly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> onion, chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> onion, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> really big carrots, halved lengthways then very chunkily sliced</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="really big">really big</span> carrots, halved lengthways then very chunkily sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="5" class="scalable">5</span> bay leaves</li>
+                        <span data-default="5" class="scalable">5</span>
+                        <span data-unit=""></span> bay leaves</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> sprigs thyme, 1 whole and 1 leaves picked</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="sprigs">sprigs</span> thyme, 1 whole and 1 leaves picked</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp vegetable oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> vegetable oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp butter</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp plain flour</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> plain flour</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp tomato puree</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> tomato puree</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp Worcestershire sauce</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> Worcestershire sauce</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> beef stock cubes, crumbled</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> beef stock cubes, crumbled</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="850" class="scalable">850</span> g stewing beef (featherblade or brisket works nicely), cut into nice large chunks</li>
+                        <span data-default="850" class="scalable">850</span>
+                        <span data-unit="g">g</span> stewing beef (featherblade or brisket works nicely), cut into nice large chunks</li>
                 </ul>
             </div>
         
@@ -85,11 +101,11 @@
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Heat oven to <b>140</b>&deg;C/Gas <b>3</b> and put the kettle on.</li>
-                <li itemprop="recipeInstructions">Put <b>2</b> thickly sliced <span data-default="2" data-quantity="2" data-unit="sticks" class="tooltip scalable">celery</span> sticks, <b>1</b> chopped <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <b>2</b> chunkily sliced <span data-default="2" data-quantity="2" data-unit="really big" class="tooltip scalable">carrots</span>, <b>5</b> <span data-default="5" data-quantity="5" data-unit="" class="tooltip scalable">bay leaves</span> and <b>1</b> whole <span data-default="2" data-quantity="2" data-unit="sprigs" class="tooltip scalable">thyme</span> sprig in a flameproof casserole dish with <b>1</b> tbsp <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">vegetable oil</span> and <b>1</b> tbsp <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">butter</span>.</li>
-                <li itemprop="recipeInstructions">Soften for <b>10</b> mins, then stir in <b>2</b> tbsp <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">plain flour</span> until it doesn't look dusty anymore, followed by <b>2</b> tbsp <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">tomato puree</span>, <b>2</b> tbsp <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">Worcestershire sauce</span> and <b>2</b> crumbled <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">beef stock cubes</span>.</li>
-                <li itemprop="recipeInstructions">Gradually stir in <b>600</b> ml hot water, then tip in <b>850</b> g <span data-default="850" data-quantity="850" data-unit="g" class="tooltip scalable">stewing beef</span> and bring to a gentle simmer.</li>
+                <li itemprop="recipeInstructions">Put <b>2</b> thickly sliced <span data-default="2" data-defaultunit="sticks" data-quantity="2" data-unit="sticks" class="tooltip scalable">celery</span> sticks, <b>1</b> chopped <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <b>2</b> chunkily sliced <span data-default="2" data-defaultunit="really big" data-quantity="2" data-unit="really big" class="tooltip scalable">carrots</span>, <b>5</b> <span data-default="5" data-defaultunit="" data-quantity="5" data-unit="" class="tooltip scalable">bay leaves</span> and <b>1</b> whole <span data-default="2" data-defaultunit="sprigs" data-quantity="2" data-unit="sprigs" class="tooltip scalable">thyme</span> sprig in a flameproof casserole dish with <b>1</b> tbsp <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">vegetable oil</span> and <b>1</b> tbsp <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">butter</span>.</li>
+                <li itemprop="recipeInstructions">Soften for <b>10</b> mins, then stir in <b>2</b> tbsp <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">plain flour</span> until it doesn't look dusty anymore, followed by <b>2</b> tbsp <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">tomato puree</span>, <b>2</b> tbsp <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">Worcestershire sauce</span> and <b>2</b> crumbled <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">beef stock cubes</span>.</li>
+                <li itemprop="recipeInstructions">Gradually stir in <b>600</b> ml hot water, then tip in <b>850</b> g <span data-default="850" data-defaultunit="g" data-quantity="850" data-unit="g" class="tooltip scalable">stewing beef</span> and bring to a gentle simmer.</li>
                 <li itemprop="recipeInstructions">Cover and put in the oven for <b>2</b> hrs <b>30</b> mins, then uncover and cook for <b>30</b> mins - <b>1</b> hr more until the meat is really tender and the sauce is thickened.</li>
-                <li itemprop="recipeInstructions">Garnish with the picked leaves of the remaining <span data-default="2" data-quantity="2" data-unit="sprigs" class="tooltip scalable">thyme</span> sprig.</li>
+                <li itemprop="recipeInstructions">Garnish with the picked leaves of the remaining <span data-default="2" data-defaultunit="sprigs" data-quantity="2" data-unit="sprigs" class="tooltip scalable">thyme</span> sprig.</li>
                 </ol>
 
             <hr>

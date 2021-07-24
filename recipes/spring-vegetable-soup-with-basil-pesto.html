@@ -13,7 +13,7 @@
         <title>Spring vegetable soup with basil pesto | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -48,43 +48,59 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> leeks, washed and chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> leeks, washed and chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> g green beans, cut into lengths</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="g">g</span> green beans, cut into lengths</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large courgette, diced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> courgette, diced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.2" class="scalable">1⅕</span> l hot vegetable stock</li>
+                        <span data-default="1.2" class="scalable">1⅕</span>
+                        <span data-unit="l">l</span> hot vegetable stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> vine-ripe tomatoes, deseeded and chopped</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit=""></span> vine-ripe tomatoes, deseeded and chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g can cannellini beans</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g can">400 g can</span> cannellini beans</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> nest vermicelli, about 35 g</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="nest">nest</span> vermicelli, about 35 g</li>
                 </ul>
                 <details open>
                     <summary class="ingredient-subheading">For the pesto</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="25" class="scalable">25</span> g pack basil</li>
+                            <span data-default="25" class="scalable">25</span>
+                            <span data-unit="g pack">g pack</span> basil</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> clove garlic, crushed</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="clove">clove</span> garlic, crushed</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="25" class="scalable">25</span> g pistachio nuts</li>
+                            <span data-default="25" class="scalable">25</span>
+                            <span data-unit="g">g</span> pistachio nuts</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="25" class="scalable">25</span> g vegetarian Parmesan-style cheese</li>
+                            <span data-default="25" class="scalable">25</span>
+                            <span data-unit="g">g</span> vegetarian Parmesan-style cheese</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tbsp olive oil</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tbsp">tbsp</span> olive oil</li>
                     </ul>
                 </details>
             </div>
@@ -92,9 +108,9 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span>, then fry the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">leeks</span> until softened. Add the <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">green beans</span> and <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">courgette</span>, then pour in the <span data-default="1.2" data-quantity="1&frac15;" data-unit="l" class="tooltip scalable">stock</span> and season to taste. Cover and simmer for <b>5</b> mins.  </li>
-                <li itemprop="recipeInstructions">Meanwhile, make the pesto: put the <span data-default="25" data-quantity="25" data-unit="g pack" class="tooltip scalable">basil</span>, <span data-default="1" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span>, <span data-default="25" data-quantity="25" data-unit="g" class="tooltip scalable">nuts</span>, <span data-default="25" data-quantity="25" data-unit="g" class="tooltip scalable">Parmesan</span>, <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> and <b>&frac12;</b> tsp salt in a food processor, then blitz until smooth.  </li>
-                <li itemprop="recipeInstructions">Stir the <span data-default="3" data-quantity="3" data-unit="" class="tooltip scalable">tomatoes</span>, <span data-default="400" data-quantity="400" data-unit="g can" class="tooltip scalable">cannellini beans</span> and <span data-default="1" data-quantity="1" data-unit="nest" class="tooltip scalable">vermicelli</span> into the soup pan, then simmer for <b>5</b> mins more until the veg are just tender. The soup and pesto can now be chilled for up to a day.  </li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span>, then fry the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">leeks</span> until softened. Add the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">green beans</span> and <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">courgette</span>, then pour in the <span data-default="1.2" data-defaultunit="l" data-quantity="1&frac15;" data-unit="l" class="tooltip scalable">stock</span> and season to taste. Cover and simmer for <b>5</b> mins.  </li>
+                <li itemprop="recipeInstructions">Meanwhile, make the pesto: put the <span data-default="25" data-defaultunit="g pack" data-quantity="25" data-unit="g pack" class="tooltip scalable">basil</span>, <span data-default="1" data-defaultunit="clove" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span>, <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">nuts</span>, <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">Parmesan</span>, <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> and <b>&frac12;</b> tsp salt in a food processor, then blitz until smooth.  </li>
+                <li itemprop="recipeInstructions">Stir the <span data-default="3" data-defaultunit="" data-quantity="3" data-unit="" class="tooltip scalable">tomatoes</span>, <span data-default="1x" data-defaultunit="400 g can" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">cannellini beans</span> and <span data-default="1" data-defaultunit="nest" data-quantity="1" data-unit="nest" class="tooltip scalable">vermicelli</span> into the soup pan, then simmer for <b>5</b> mins more until the veg are just tender. The soup and pesto can now be chilled for up to a day.  </li>
                 <li itemprop="recipeInstructions">Reheat the soup, if necessary, then stir in half the pesto. Ladle into bowls and serve with the rest of the pesto spooned on top. Eat with chunks of crusty bread.</li>
                 </ol>
 

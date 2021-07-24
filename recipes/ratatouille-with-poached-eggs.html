@@ -13,7 +13,7 @@
         <title>Ratatouille with poached eggs | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,46 +43,60 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large onion, chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> onion, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> red pepper, deseeded and thinly sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> red pepper, deseeded and thinly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, finely chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp chopped rosemary leaves</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> chopped rosemary leaves</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> aubergine, diced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> aubergine, diced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> courgettes, diced</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> courgettes, diced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp balsamic vinegar</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> balsamic vinegar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g can chopped tomatoes</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g can">400 g can</span> chopped tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> eggs</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> eggs</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="handful" class="scalable">handful</span> basil leaves</li>
-                    <li itemprop="recipeIngredient">crusty bread</li>
+                        <span data-default="handful" class="scalable">handful</span>
+                        <span data-unit=""></span> basil leaves</li>
+                    <li itemprop="recipeIngredient"> crusty bread</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large frying pan with a lid. Add the <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span>, <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">pepper</span>, <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">rosemary</span>, then cook for <b>5</b> minutes stirring frequently until the <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span> has softened. Add the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">courgettes</span> and the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">aubergine</span>, the cook for <b>2</b> minutes more.  </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="400" data-quantity="400" data-unit="g can" class="tooltip scalable">tomatoes</span>, then fill the can with water, swirl it around and tip into the pan. Bring to the boil, cover, then simmer for <b>40</b> minutes, uncovering after <b>20</b> minutes, or until the sauce is reduced and pulpy.  </li>
-                <li itemprop="recipeInstructions">Stir the vinegar into the ratatouille, then make four spaces for the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">eggs</span>. Crack an egg into each hole and season with black <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">pepper</span>.  </li>
-                <li itemprop="recipeInstructions">Cover, the cook for <b>2-5</b> minutes until set as softly or firmly as you like. Scatter over the <span data-default="handful" data-quantity="handful" data-unit="" class="tooltip scalable">basil</span> and serve with some crusty bread to mop up the juices.  </li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large frying pan with a lid. Add the <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">pepper</span>, <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">rosemary</span>, then cook for <b>5</b> minutes stirring frequently until the <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span> has softened. Add the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">courgettes</span> and the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">aubergine</span>, the cook for <b>2</b> minutes more.  </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="1x" data-defaultunit="400 g can" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">tomatoes</span>, then fill the can with water, swirl it around and tip into the pan. Bring to the boil, cover, then simmer for <b>40</b> minutes, uncovering after <b>20</b> minutes, or until the sauce is reduced and pulpy.  </li>
+                <li itemprop="recipeInstructions">Stir the vinegar into the ratatouille, then make four spaces for the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">eggs</span>. Crack an egg into each hole and season with black <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">pepper</span>.  </li>
+                <li itemprop="recipeInstructions">Cover, the cook for <b>2-5</b> minutes until set as softly or firmly as you like. Scatter over the <span data-default="handful" data-defaultunit="" data-quantity="handful" data-unit="" class="tooltip scalable">basil</span> and serve with some crusty bread to mop up the juices.  </li>
                 </ol>
 
             <hr>

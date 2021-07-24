@@ -13,7 +13,7 @@
         <title>Lamb carry | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Lamb" itemscope itemtype="https://schema.org/Recipe">
 
@@ -46,43 +46,59 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="30" class="scalable">30</span> g butter</li>
+                        <span data-default="30" class="scalable">30</span>
+                        <span data-unit="g">g</span> butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> onion, chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> onion, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, finely chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g can chopped tomatoes</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g can">400 g can</span> chopped tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> sprigs thyme</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="sprigs">sprigs</span> thyme</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> bay leaf</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> bay leaf</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> cloves</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp grated nutmeg</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> grated nutmeg</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp gound cinnamon</li>
-                    <li itemprop="recipeIngredient">salt and pepper</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> gound cinnamon</li>
+                    <li itemprop="recipeIngredient"> salt and pepper</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="900" class="scalable">900</span> g lean lamb, cut into 3 cm chunks</li>
+                        <span data-default="900" class="scalable">900</span>
+                        <span data-unit="g">g</span> lean lamb, cut into 3 cm chunks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> ml chicken stock</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="ml">ml</span> chicken stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> ml can coconut milk</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 ml cans">400 ml cans</span> coconut milk</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="150" class="scalable">150</span> ml double cream</li>
+                        <span data-default="150" class="scalable">150</span>
+                        <span data-unit="ml">ml</span> double cream</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp lime juice</li>
-                    <li itemprop="recipeIngredient">rice and peas , to serve</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> lime juice</li>
+                    <li itemprop="recipeIngredient"> rice and peas , to serve</li>
                 </ul>
             </div>
         
@@ -90,9 +106,9 @@
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Wash the meat and pat it dry with kitchen paper.  </li>
-                <li itemprop="recipeInstructions">Melt the <span data-default="30" data-quantity="30" data-unit="g" class="tooltip scalable">butter</span> in a large, lidded casserole dish. Soften the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and <span data-default="2" data-quantity="2" data-unit="<span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">cloves</span>" class="tooltip scalable">garlic</span> in the <span data-default="30" data-quantity="30" data-unit="g" class="tooltip scalable">butter</span>. Add the <span data-default="400" data-quantity="400" data-unit="g can" class="tooltip scalable">tomatoes</span>, <span data-default="2" data-quantity="2" data-unit="sprigs" class="tooltip scalable">thyme</span>, <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">bay leaf</span>, <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">cloves</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">nutmeg</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">cinnamon</span> and seasoning. Cook, stirring occasionally, for <b>5</b> minutes.  </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="900" data-quantity="900" data-unit="g" class="tooltip scalable">lamb</span> and cook for <b>3</b> minutes, stirring. Add the <span data-default="200" data-quantity="200" data-unit="ml" class="tooltip scalable">stock</span>, <span data-default="400" data-quantity="400" data-unit="ml can" class="tooltip scalable">coconut milk</span> and <span data-default="150" data-quantity="150" data-unit="ml" class="tooltip scalable">cream</span>. Cover, bring to the boil, then lower the heat and simmer for <b>2</b> - <b>2</b><b>&frac12;</b> hours until the meat is completely tender and cooked through.  </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">lime juice</span>, cook for another minute or two and check for seasoning. Serve with rice and peas.  </li>
+                <li itemprop="recipeInstructions">Melt the <span data-default="30" data-defaultunit="g" data-quantity="30" data-unit="g" class="tooltip scalable">butter</span> in a large, lidded casserole dish. Soften the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and <span data-default="2" data-defaultunit="<span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">cloves</span>" data-quantity="2" data-unit="<span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">cloves</span>" class="tooltip scalable">garlic</span> in the <span data-default="30" data-defaultunit="g" data-quantity="30" data-unit="g" class="tooltip scalable">butter</span>. Add the <span data-default="1x" data-defaultunit="400 g can" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">tomatoes</span>, <span data-default="2" data-defaultunit="sprigs" data-quantity="2" data-unit="sprigs" class="tooltip scalable">thyme</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">bay leaf</span>, <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">cloves</span>, <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">nutmeg</span>, <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">cinnamon</span> and seasoning. Cook, stirring occasionally, for <b>5</b> minutes.  </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="900" data-defaultunit="g" data-quantity="900" data-unit="g" class="tooltip scalable">lamb</span> and cook for <b>3</b> minutes, stirring. Add the <span data-default="200" data-defaultunit="ml" data-quantity="200" data-unit="ml" class="tooltip scalable">stock</span>, <span data-default="1x" data-defaultunit="400 ml cans" data-quantity="1x" data-unit="400 ml cans" class="tooltip scalable">coconut milk</span> and <span data-default="150" data-defaultunit="ml" data-quantity="150" data-unit="ml" class="tooltip scalable">cream</span>. Cover, bring to the boil, then lower the heat and simmer for <b>2</b> - <b>2</b><b>&frac12;</b> hours until the meat is completely tender and cooked through.  </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">lime juice</span>, cook for another minute or two and check for seasoning. Serve with rice and peas.  </li>
                 </ol>
 
             <hr>

@@ -13,7 +13,7 @@
         <title>Sausage meatball sandwiches | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,44 +43,57 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.5" class="scalable">1½</span> lbs hot and/or sweet Italian sausage, casings removed</li>
+                        <span data-default="1.5" class="scalable">1½</span>
+                        <span data-unit="lbs">lbs</span> hot and/or sweet Italian sausage, casings removed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="8" class="scalable">8</span> tbsps olive oil, divided</li>
+                        <span data-default="8" class="scalable">8</span>
+                        <span data-unit="tbsps">tbsps</span> olive oil, divided</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> fennel bulb, core removed, thinly sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> fennel bulb, core removed, thinly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large onion, chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> onion, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="10" class="scalable">10</span> cloves garlic, thinly sliced divided</li>
-                    <li itemprop="recipeIngredient">Kosher salt, freshly ground pepper</li>
+                        <span data-default="10" class="scalable">10</span>
+                        <span data-unit="cloves">cloves</span> garlic, thinly sliced divided</li>
+                    <li itemprop="recipeIngredient"> Kosher salt, freshly ground pepper</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> 28 oz can whole peeled tomatoes</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="28 oz can">28 oz can</span> whole peeled tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> cup (unpacked) basil leaves</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="cup (unpacked)">cup (unpacked)</span> basil leaves</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> soft hoagie rolls, split lengthwise down tops</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> soft hoagie rolls, split lengthwise down tops</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> oz fresh mozzarella, sliced</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="oz">oz</span> fresh mozzarella, sliced</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Using wet hands, lightly roll <span data-default="1.5" data-quantity="1&frac12;" data-unit="lbs" class="tooltip scalable">sausage</span> into <b>12</b> golf ball size balls (about <b>2</b> oz. each). Heat <b>2</b> tbsp oil in a large Dutch oven or other heavy pot over medium. Cook meatballs, turning occasionally, until browned all over, <b>10-12</b> minutes. Transfer to a plate.</li>
-                <li itemprop="recipeInstructions">Add <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">fennel</span>, <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span>, half of <span data-default="10" data-quantity="10" data-unit="cloves" class="tooltip scalable">garlic</span>, and <b>2</b> tbsp oil to same pot; season with salt and pepper and cook, stirring often, until <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span> is translucent and golden brown around edges, <b>8-10</b> minutes.</li>
-                <li itemprop="recipeInstructions">Add <span data-default="1" data-quantity="1" data-unit="28 oz can" class="tooltip scalable">tomatoes</span>, crushing with your hands as you go, and bring to a simmer. Season with salt and pepper and cook, stirring occasionally, until sauce just begins to thicken, <b>5-8</b> minutes.</li>
+                <li itemprop="recipeInstructions">Using wet hands, lightly roll <span data-default="1.5" data-defaultunit="lbs" data-quantity="1&frac12;" data-unit="lbs" class="tooltip scalable">sausage</span> into <b>12</b> golf ball size balls (about <b>2</b> oz. each). Heat <b>2</b> tbsp oil in a large Dutch oven or other heavy pot over medium. Cook meatballs, turning occasionally, until browned all over, <b>10-12</b> minutes. Transfer to a plate.</li>
+                <li itemprop="recipeInstructions">Add <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">fennel</span>, <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span>, half of <span data-default="10" data-defaultunit="cloves" data-quantity="10" data-unit="cloves" class="tooltip scalable">garlic</span>, and <b>2</b> tbsp oil to same pot; season with salt and pepper and cook, stirring often, until <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span> is translucent and golden brown around edges, <b>8-10</b> minutes.</li>
+                <li itemprop="recipeInstructions">Add <span data-default="1" data-defaultunit="28 oz can" data-quantity="1" data-unit="28 oz can" class="tooltip scalable">tomatoes</span>, crushing with your hands as you go, and bring to a simmer. Season with salt and pepper and cook, stirring occasionally, until sauce just begins to thicken, <b>5-8</b> minutes.</li>
                 <li itemprop="recipeInstructions">Return meatballs to pot, bring to a simmer, and cook, stirring occasionally, until sauce is reduced by half and meatballs are coated and cooked through, <b>15-20</b> minutes.</li>
-                <li itemprop="recipeInstructions">Meanwhile, heat broiler. Process <span data-default="1" data-quantity="1" data-unit="cup (unpacked)" class="tooltip scalable">basil</span>, remaining <span data-default="10" data-quantity="10" data-unit="cloves" class="tooltip scalable">garlic</span>, and remaining <b>4</b> tbsp oil in a food processor to a smooth paste; season with salt and pepper. Smear half of <span data-default="1" data-quantity="1" data-unit="cup (unpacked)" class="tooltip scalable">basil</span> mixture over cut sides of <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">rolls</span> and place on a rimmed baking sheet. Broil <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">rolls</span> until golden brown, about <b>2</b> minutes.</li>
-                <li itemprop="recipeInstructions">Place meatballs inside <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">rolls</span>, then top with sauce and <span data-default="4" data-quantity="4" data-unit="oz" class="tooltip scalable">mozzarella</span>. Broil until <span data-default="4" data-quantity="4" data-unit="oz" class="tooltip scalable">mozzarella</span> is melted and bubbling, about <b>5</b> minutes. Spoon remaining <span data-default="1" data-quantity="1" data-unit="cup (unpacked)" class="tooltip scalable">basil</span> mixture over sandwiches.</li>
+                <li itemprop="recipeInstructions">Meanwhile, heat broiler. Process <span data-default="1" data-defaultunit="cup (unpacked)" data-quantity="1" data-unit="cup (unpacked)" class="tooltip scalable">basil</span>, remaining <span data-default="10" data-defaultunit="cloves" data-quantity="10" data-unit="cloves" class="tooltip scalable">garlic</span>, and remaining <b>4</b> tbsp oil in a food processor to a smooth paste; season with salt and pepper. Smear half of <span data-default="1" data-defaultunit="cup (unpacked)" data-quantity="1" data-unit="cup (unpacked)" class="tooltip scalable">basil</span> mixture over cut sides of <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">rolls</span> and place on a rimmed baking sheet. Broil <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">rolls</span> until golden brown, about <b>2</b> minutes.</li>
+                <li itemprop="recipeInstructions">Place meatballs inside <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">rolls</span>, then top with sauce and <span data-default="4" data-defaultunit="oz" data-quantity="4" data-unit="oz" class="tooltip scalable">mozzarella</span>. Broil until <span data-default="4" data-defaultunit="oz" data-quantity="4" data-unit="oz" class="tooltip scalable">mozzarella</span> is melted and bubbling, about <b>5</b> minutes. Spoon remaining <span data-default="1" data-defaultunit="cup (unpacked)" data-quantity="1" data-unit="cup (unpacked)" class="tooltip scalable">basil</span> mixture over sandwiches.</li>
                 </ol>
 
             <hr>

@@ -13,7 +13,7 @@
         <title>Cider sausages with leek and potato mash | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,33 +44,45 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="8" class="scalable">8</span> sausages</li>
+                        <span data-default="8" class="scalable">8</span>
+                        <span data-unit=""></span> sausages</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> onion, sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> onion, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp plain flour</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> plain flour</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> mugs cider</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="mugs">mugs</span> cider</li>
                 </ul>
                 <details open>
                     <summary class="ingredient-subheading">Mash</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="5" class="scalable">5</span> potatoes, peeled and cut into 2 cm chunks</li>
+                            <span data-default="5" class="scalable">5</span>
+                            <span data-unit=""></span> potatoes, peeled and cut into 2 cm chunks</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="50" class="scalable">50</span> g butter</li>
+                            <span data-default="50" class="scalable">50</span>
+                            <span data-unit="g">g</span> butter</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="3" class="scalable">3</span> leeks, sliced</li>
+                            <span data-default="3" class="scalable">3</span>
+                            <span data-unit=""></span> leeks, sliced</li>
                     </ul>
                 </details>
             </div>
@@ -78,10 +90,10 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Simmer the <span data-default="5" data-quantity="5" data-unit="" class="tooltip scalable">potatoes</span> for <b>10</b> minutes. Drain and return to the pan. Mash and put the lid on to keep warm.  </li>
-                <li itemprop="recipeInstructions">Meanwhile, heat the <span data-default="50" data-quantity="50" data-unit="g" class="tooltip scalable">butter</span> in a large frying pan and fry the <span data-default="3" data-quantity="3" data-unit="" class="tooltip scalable">leeks</span> until the begin to brown. Add to the mashed potato and mix together. Set to one side with the lid on until needed.  </li>
-                <li itemprop="recipeInstructions">Using the same frying pan, heat <b>1</b> tbsp <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">olive oil</span>. Take the skins off the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">sausages</span> and pinch each one into <b>4</b> 'medallions'. Fry the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">sausages</span> and <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> until they are browned. Remove the sausges from the pan.  </li>
-                <li itemprop="recipeInstructions">Add the flour to the frying pan and mix. Add the <span data-default="2" data-quantity="2" data-unit="mugs" class="tooltip scalable">cider</span> and stir. The sauce should thickens. Put the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">sausages</span> back in the pan and simmer for <b>2-3</b> minutes.  </li>
+                <li itemprop="recipeInstructions">Simmer the <span data-default="5" data-defaultunit="" data-quantity="5" data-unit="" class="tooltip scalable">potatoes</span> for <b>10</b> minutes. Drain and return to the pan. Mash and put the lid on to keep warm.  </li>
+                <li itemprop="recipeInstructions">Meanwhile, heat the <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">butter</span> in a large frying pan and fry the <span data-default="3" data-defaultunit="" data-quantity="3" data-unit="" class="tooltip scalable">leeks</span> until the begin to brown. Add to the mashed potato and mix together. Set to one side with the lid on until needed.  </li>
+                <li itemprop="recipeInstructions">Using the same frying pan, heat <b>1</b> tbsp <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">olive oil</span>. Take the skins off the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">sausages</span> and pinch each one into <b>4</b> 'medallions'. Fry the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">sausages</span> and <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> until they are browned. Remove the sausges from the pan.  </li>
+                <li itemprop="recipeInstructions">Add the flour to the frying pan and mix. Add the <span data-default="2" data-defaultunit="mugs" data-quantity="2" data-unit="mugs" class="tooltip scalable">cider</span> and stir. The sauce should thickens. Put the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">sausages</span> back in the pan and simmer for <b>2-3</b> minutes.  </li>
                 <li itemprop="recipeInstructions">Season well with salt and pepper. Serve with the mash.</li>
                 </ol>
 

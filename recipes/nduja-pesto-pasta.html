@@ -13,7 +13,7 @@
         <title>Nduja pesto pasta | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,42 +44,51 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tbsp of Sacla' 'Nduja pesto</li>
-                    <li itemprop="recipeIngredient">Bunch of basil</li>
-                    <li itemprop="recipeIngredient">Cheddar</li>
-                    <li itemprop="recipeIngredient">Parmesan</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="tbsp">tbsp</span> of Sacla' 'Nduja pesto</li>
+                    <li itemprop="recipeIngredient"> Bunch of basil</li>
+                    <li itemprop="recipeIngredient"> Cheddar</li>
+                    <li itemprop="recipeIngredient"> Parmesan</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g fusilli</li>
-                    <li itemprop="recipeIngredient">Oregano</li>
-                    <li itemprop="recipeIngredient">Red wine vinegar</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="g">g</span> fusilli</li>
+                    <li itemprop="recipeIngredient"> Oregano</li>
+                    <li itemprop="recipeIngredient"> Red wine vinegar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> lemon</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> lemon</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> clove garlic</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="clove">clove</span> garlic</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="pack" class="scalable">pack</span> of sweet peppers</li>
+                        <span data-default="pack" class="scalable">pack</span>
+                        <span data-unit=""></span> of sweet peppers</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Slice up your <span data-default="pack" data-quantity="pack" data-unit="" class="tooltip scalable">peppers</span>.</li>
+                <li itemprop="recipeInstructions">Slice up your <span data-default="pack" data-defaultunit="" data-quantity="pack" data-unit="" class="tooltip scalable">peppers</span>.</li>
                 <li itemprop="recipeInstructions">Add to a wide frying pan with a splash of oil. </li>
-                <li itemprop="recipeInstructions">Fry your <span data-default="pack" data-quantity="pack" data-unit="" class="tooltip scalable">peppers</span> until they begin to soften. Then add a clove of chopped <span data-default="1" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span>, a heaped teaspoon of oregano and <b>2</b> tablespoons of red wine vinegar.</li>
-                <li itemprop="recipeInstructions">Once the <span data-default="1" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span> is soft, add <b>4</b> tablespoons of Sacla’ ‘Nduja Pesto. Mix it in.</li>
-                <li itemprop="recipeInstructions">Get your <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">pasta</span> cooking in a large pan of salted boiling water.</li>
-                <li itemprop="recipeInstructions">Add <b>8</b> tablespoons of the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">pasta</span> water to your pesto sauce. Mix it in. Grate in <b>150</b> g parmesan and <b>150</b> g cheddar in to the sauce. Stir in the cheese until it has melted.</li>
-                <li itemprop="recipeInstructions">Once the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">pasta</span> is cooked, drain it, and then add it to your sauce. Fold it through. Squeeze in the juice of a <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">lemon</span>, add a large handful of chopped basil, and a good grinding of pepper.</li>
-                <li itemprop="recipeInstructions">Stir everything together, and remove the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">pasta</span> from the heat.</li>
+                <li itemprop="recipeInstructions">Fry your <span data-default="pack" data-defaultunit="" data-quantity="pack" data-unit="" class="tooltip scalable">peppers</span> until they begin to soften. Then add a clove of chopped <span data-default="1" data-defaultunit="clove" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span>, a heaped teaspoon of oregano and <b>2</b> tablespoons of red wine vinegar.</li>
+                <li itemprop="recipeInstructions">Once the <span data-default="1" data-defaultunit="clove" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span> is soft, add <b>4</b> tablespoons of Sacla’ ‘Nduja Pesto. Mix it in.</li>
+                <li itemprop="recipeInstructions">Get your <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">pasta</span> cooking in a large pan of salted boiling water.</li>
+                <li itemprop="recipeInstructions">Add <b>8</b> tablespoons of the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">pasta</span> water to your pesto sauce. Mix it in. Grate in <b>150</b> g parmesan and <b>150</b> g cheddar in to the sauce. Stir in the cheese until it has melted.</li>
+                <li itemprop="recipeInstructions">Once the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">pasta</span> is cooked, drain it, and then add it to your sauce. Fold it through. Squeeze in the juice of a <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">lemon</span>, add a large handful of chopped basil, and a good grinding of pepper.</li>
+                <li itemprop="recipeInstructions">Stir everything together, and remove the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">pasta</span> from the heat.</li>
                 <li itemprop="recipeInstructions">Serve it up and demolish.</li>
                 </ol>
 

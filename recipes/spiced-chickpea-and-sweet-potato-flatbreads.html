@@ -13,7 +13,7 @@
         <title>Spiced chickpea and sweet potato flatbreads | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -48,42 +48,54 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> sweet potato (about 250 g)</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> sweet potato (about 250 g)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 400 g tin chickpeas, rinsed and drained</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g tin">400 g tin</span> chickpeas, rinsed and drained</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> medium red onion, thinly sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="medium">medium</span> red onion, thinly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> ripe medium avocado</li>
-                    <li itemprop="recipeIngredient">a squeeze of lemon juice</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> ripe medium avocado</li>
+                    <li itemprop="recipeIngredient"> a squeeze of lemon juice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsp coriander, chopped</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsp">tbsp</span> coriander, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp ras el hanout spices or harissa paste</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> ras el hanout spices or harissa paste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> wholemeal folded flatbreads</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> wholemeal folded flatbreads</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp natural yogurt</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> natural yogurt</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Peel the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">sweet potato</span>; cut into <b>1</b>cm dice. Put in a microwave-safe bowl with <b>1</b> tablespoon of water, cover and cook on high for <b>5</b> minutes or until tender (stir halfway); drain and pat dry on kitchen paper. Rinse and drain the <span data-default="1x" data-quantity="1x" data-unit="400 g tin" class="tooltip scalable">chickpeas</span>; partially crush with a masher.</li>
-                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a frying pan and fry the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">sweet potato</span> and <span data-default="1" data-quantity="1" data-unit="medium" class="tooltip scalable">red onion</span> for <b>2-3</b> minutes over a high heat until starting to colour. Add the <span data-default="1x" data-quantity="1x" data-unit="400 g tin" class="tooltip scalable">chickpeas</span> and stir-fry for another <b>2</b> minutes or until heated through.</li>
-                <li itemprop="recipeInstructions">Meanwhile, roughly mash the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">avocado</span> with a squeeze of lemon juice; season and stir in most of the <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">coriander</span>. Warm the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">flatbreads</span>.</li>
-                <li itemprop="recipeInstructions">Mix the <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">ras el hanout</span> into the chickpea mixture with another squeeze of lemon and a splash of water; season. Spread the smashed <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">avocado</span> onto the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">flatbreads</span> (opened out), then top with the spicy veg and <span data-default="1x" data-quantity="1x" data-unit="400 g tin" class="tooltip scalable">chickpeas</span>, a drizzle of <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">yogurt</span> and the rest of the <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">coriander</span>.</li>
+                <li itemprop="recipeInstructions">Peel the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">sweet potato</span>; cut into <b>1</b>cm dice. Put in a microwave-safe bowl with <b>1</b> tablespoon of water, cover and cook on high for <b>5</b> minutes or until tender (stir halfway); drain and pat dry on kitchen paper. Rinse and drain the <span data-default="1x" data-defaultunit="400 g tin" data-quantity="1x" data-unit="400 g tin" class="tooltip scalable">chickpeas</span>; partially crush with a masher.</li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a frying pan and fry the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">sweet potato</span> and <span data-default="1" data-defaultunit="medium" data-quantity="1" data-unit="medium" class="tooltip scalable">red onion</span> for <b>2-3</b> minutes over a high heat until starting to colour. Add the <span data-default="1x" data-defaultunit="400 g tin" data-quantity="1x" data-unit="400 g tin" class="tooltip scalable">chickpeas</span> and stir-fry for another <b>2</b> minutes or until heated through.</li>
+                <li itemprop="recipeInstructions">Meanwhile, roughly mash the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">avocado</span> with a squeeze of lemon juice; season and stir in most of the <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">coriander</span>. Warm the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">flatbreads</span>.</li>
+                <li itemprop="recipeInstructions">Mix the <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">ras el hanout</span> into the chickpea mixture with another squeeze of lemon and a splash of water; season. Spread the smashed <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">avocado</span> onto the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">flatbreads</span> (opened out), then top with the spicy veg and <span data-default="1x" data-defaultunit="400 g tin" data-quantity="1x" data-unit="400 g tin" class="tooltip scalable">chickpeas</span>, a drizzle of <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">yogurt</span> and the rest of the <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">coriander</span>.</li>
                 </ol>
 
             <hr>

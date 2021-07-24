@@ -13,7 +13,7 @@
         <title>Moroccan lamb tagine | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Lamb" itemscope itemtype="https://schema.org/Recipe">
 
@@ -46,53 +46,69 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
-                    <li itemprop="recipeIngredient">low-calorie cooking spray</li>
+                    <li itemprop="recipeIngredient"> low-calorie cooking spray</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="8" class="scalable">8</span> lean lamb leg steaks, visible fat removed, cut into bite-sized chunks</li>
+                        <span data-default="8" class="scalable">8</span>
+                        <span data-unit=""></span> lean lamb leg steaks, visible fat removed, cut into bite-sized chunks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> onion, sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> onion, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, crushed</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp grated fresh root ginger</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> grated fresh root ginger</li>
                     <li itemprop="recipeIngredient">large pinch of saffron</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp ground cumin</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> ground cumin</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp ground cinnamon</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> ground cinnamon</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp dried harissa spice mix</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> dried harissa spice mix</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g can chopped tomatoes</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g can">400 g can</span> chopped tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> aubergine, cut into bite-sized chunks</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> aubergine, cut into bite-sized chunks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> red peppers, deseeded and cut into bite-sized chunks</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> red peppers, deseeded and cut into bite-sized chunks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> courgette, cut into bite-sized chunks</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> courgette, cut into bite-sized chunks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g can chickpeas, drained</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g can">400 g can</span> chickpeas, drained</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="275" class="scalable">275</span> ml chicken stock</li>
+                        <span data-default="275" class="scalable">275</span>
+                        <span data-unit="ml">ml</span> chicken stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="300" class="scalable">300</span> g plain dried couscous, to serve</li>
-                    <li itemprop="recipeIngredient">chopped fresh flat-leaf parsley, to serve</li>
+                        <span data-default="300" class="scalable">300</span>
+                        <span data-unit="g">g</span> plain dried couscous, to serve</li>
+                    <li itemprop="recipeIngredient"> chopped fresh flat-leaf parsley, to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Spray a large, non-stick saucepan with low-calorie cooking spray and place over a medium high heat. Fry the <span data-default="8" data-quantity="8" data-unit="" class="tooltip scalable">lamb</span>, <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">ginger</span> for <b>5</b> minutes. Add the <span data-default="" data-quantity="" data-unit="large pinch" class="tooltip scalable">saffron</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">cumin</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">cinnamon</span> and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">harissa mix</span>, and fry for a further minute until fragrant.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="400" data-quantity="400" data-unit="g can" class="tooltip scalable">tomatoes</span>, <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">aubergine</span>, <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">peppers</span> and <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">courgette</span>, and stir well to coat in the spices. Cook for <b>8-10</b> minutes, then add the <span data-default="400" data-quantity="400" data-unit="g can" class="tooltip scalable">chickpeas</span> and <span data-default="275" data-quantity="275" data-unit="ml" class="tooltip scalable">stock</span>, and season. Simmer for <b>15-20</b> minutes, or until the veg are tender.</li>
-                <li itemprop="recipeInstructions">Make up the <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">couscous</span> according to the pack instructions. To serve, divide the tagine and <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">couscous</span> between <b>4</b> bowels and scatter over the parsley.</li>
+                <li itemprop="recipeInstructions">Spray a large, non-stick saucepan with low-calorie cooking spray and place over a medium high heat. Fry the <span data-default="8" data-defaultunit="" data-quantity="8" data-unit="" class="tooltip scalable">lamb</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">ginger</span> for <b>5</b> minutes. Add the <span data-default="" data-defaultunit="large pinch" data-quantity="" data-unit="large pinch" class="tooltip scalable">saffron</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">cumin</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">cinnamon</span> and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">harissa mix</span>, and fry for a further minute until fragrant.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="1x" data-defaultunit="400 g can" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">tomatoes</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">aubergine</span>, <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">peppers</span> and <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">courgette</span>, and stir well to coat in the spices. Cook for <b>8-10</b> minutes, then add the <span data-default="1x" data-defaultunit="400 g can" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">chickpeas</span> and <span data-default="275" data-defaultunit="ml" data-quantity="275" data-unit="ml" class="tooltip scalable">stock</span>, and season. Simmer for <b>15-20</b> minutes, or until the veg are tender.</li>
+                <li itemprop="recipeInstructions">Make up the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">couscous</span> according to the pack instructions. To serve, divide the tagine and <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">couscous</span> between <b>4</b> bowels and scatter over the parsley.</li>
                 </ol>
 
             <hr>

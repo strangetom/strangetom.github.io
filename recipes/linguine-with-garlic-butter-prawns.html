@@ -13,7 +13,7 @@
         <title>Linguine with garlic butter prawns | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,22 +47,29 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g linguine</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> linguine</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2-3" class="scalable">2-3</span> fat cloves garlic, finely chopped</li>
+                        <span data-default="2-3" class="scalable">2-3</span>
+                        <span data-unit="fat cloves">fat cloves</span> garlic, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> g butter</li>
+                        <span data-default="50" class="scalable">50</span>
+                        <span data-unit="g">g</span> butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="175" class="scalable">175</span> g pack raw shelled king prawns, de-veined and split in half length ways</li>
-                    <li itemprop="recipeIngredient">finely grated zest 1 lemon, then cut the lemon into wedges</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="175 g pack">175 g pack</span> raw shelled king prawns, de-veined and split in half length ways</li>
+                    <li itemprop="recipeIngredient"> finely grated zest 1 lemon, then cut the lemon into wedges</li>
                     <li itemprop="recipeIngredient">small pack parsley, chopped</li>
                 </ul>
             </div>
@@ -70,8 +77,8 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Boil the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span> following pack instructions. Meanwhile, very gently cook the <span data-default="2-3" data-quantity="2-3" data-unit="fat cloves" class="tooltip scalable">garlic</span> in the <span data-default="50" data-quantity="50" data-unit="g" class="tooltip scalable">butter</span> in a medium pan until softened. Add the <span data-default="175" data-quantity="175" data-unit="g pack" class="tooltip scalable">prawns</span> and cook until they just turn from grey to pink. It is important not to overcook them or they will be tough. Remove from the heat and stir in the zest and seasoning.</li>
-                <li itemprop="recipeInstructions">Drain the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span> and toss into the pan with the prawn mixture and <span data-default="" data-quantity="" data-unit="small pack" class="tooltip scalable">parsley</span> until well mixed. Divide between two bowls and serve with the lemon wedges.</li>
+                <li itemprop="recipeInstructions">Boil the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span> following pack instructions. Meanwhile, very gently cook the <span data-default="2-3" data-defaultunit="fat cloves" data-quantity="2-3" data-unit="fat cloves" class="tooltip scalable">garlic</span> in the <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">butter</span> in a medium pan until softened. Add the <span data-default="1x" data-defaultunit="175 g pack" data-quantity="1x" data-unit="175 g pack" class="tooltip scalable">prawns</span> and cook until they just turn from grey to pink. It is important not to overcook them or they will be tough. Remove from the heat and stir in the zest and seasoning.</li>
+                <li itemprop="recipeInstructions">Drain the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">pasta</span> and toss into the pan with the prawn mixture and <span data-default="" data-defaultunit="small pack" data-quantity="" data-unit="small pack" class="tooltip scalable">parsley</span> until well mixed. Divide between two bowls and serve with the lemon wedges.</li>
                 </ol>
 
             <hr>

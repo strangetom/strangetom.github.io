@@ -13,7 +13,7 @@
         <title>Creamy white bean and spinach quesadillas | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -48,40 +48,52 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 15 oz can cannellini beans</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="15 oz can">15 oz can</span> cannellini beans</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.75" class="scalable">¾</span> tsp chili powder</li>
+                        <span data-default="0.75" class="scalable">¾</span>
+                        <span data-unit="tsp">tsp</span> chili powder</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> tsp ground cumin</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit="tsp">tsp</span> ground cumin</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.125" class="scalable">⅛</span> tsp garlic powder</li>
+                        <span data-default="0.125" class="scalable">⅛</span>
+                        <span data-unit="tsp">tsp</span> garlic powder</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.125" class="scalable">⅛</span> tsp salt</li>
+                        <span data-default="0.125" class="scalable">⅛</span>
+                        <span data-unit="tsp">tsp</span> salt</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cups fresh spinach</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cups">cups</span> fresh spinach</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> oz pepper jack cheese, shredded</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="oz">oz</span> pepper jack cheese, shredded</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> cup sour cream</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="cup">cup</span> sour cream</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> 8-inch flour tortillas</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> 8-inch flour tortillas</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Rinse and drain the <span data-default="1x" data-quantity="1x" data-unit="15 oz can" class="tooltip scalable">cannellini beans</span> well. Once well drained, transfer them to a bowl and add the <span data-default="0.75" data-quantity="&frac34;" data-unit="tsp" class="tooltip scalable">chili powder</span>, <span data-default="0.25" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">cumin</span>, <span data-default="0.125" data-quantity="&frac18;" data-unit="tsp" class="tooltip scalable">garlic powder</span>, and <span data-default="0.125" data-quantity="&frac18;" data-unit="tsp" class="tooltip scalable">salt</span>. Stir to combine the beans with the spices.</li>
-                <li itemprop="recipeInstructions">Roughly chop the <span data-default="2" data-quantity="2" data-unit="cups" class="tooltip scalable">spinach</span> into smaller pieces. Add the <span data-default="2" data-quantity="2" data-unit="cups" class="tooltip scalable">spinach</span>, <span data-default="4" data-quantity="4" data-unit="oz" class="tooltip scalable">cheese</span>, and <span data-default="0.5" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">sour cream</span> to the bowl with the beans, then stir to combine.</li>
-                <li itemprop="recipeInstructions">Divide the <span data-default="2" data-quantity="2" data-unit="cups" class="tooltip scalable">spinach</span> and bean mixture between the four tortillas, then fold them in half to close.</li>
+                <li itemprop="recipeInstructions">Rinse and drain the <span data-default="1x" data-defaultunit="15 oz can" data-quantity="1x" data-unit="15 oz can" class="tooltip scalable">cannellini beans</span> well. Once well drained, transfer them to a bowl and add the <span data-default="0.75" data-defaultunit="tsp" data-quantity="&frac34;" data-unit="tsp" class="tooltip scalable">chili powder</span>, <span data-default="0.25" data-defaultunit="tsp" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">cumin</span>, <span data-default="0.125" data-defaultunit="tsp" data-quantity="&frac18;" data-unit="tsp" class="tooltip scalable">garlic powder</span>, and <span data-default="0.125" data-defaultunit="tsp" data-quantity="&frac18;" data-unit="tsp" class="tooltip scalable">salt</span>. Stir to combine the beans with the spices.</li>
+                <li itemprop="recipeInstructions">Roughly chop the <span data-default="2" data-defaultunit="cups" data-quantity="2" data-unit="cups" class="tooltip scalable">spinach</span> into smaller pieces. Add the <span data-default="2" data-defaultunit="cups" data-quantity="2" data-unit="cups" class="tooltip scalable">spinach</span>, <span data-default="4" data-defaultunit="oz" data-quantity="4" data-unit="oz" class="tooltip scalable">cheese</span>, and <span data-default="0.5" data-defaultunit="cup" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">sour cream</span> to the bowl with the beans, then stir to combine.</li>
+                <li itemprop="recipeInstructions">Divide the <span data-default="2" data-defaultunit="cups" data-quantity="2" data-unit="cups" class="tooltip scalable">spinach</span> and bean mixture between the four tortillas, then fold them in half to close.</li>
                 <li itemprop="recipeInstructions">Cook the quesadillas, one or two at a time, in a skillet over medium heat until the tortillas are brown and crispy and the filling is melted and gooey (<b>3-5</b> minutes each side).</li>
                 <li itemprop="recipeInstructions">Cut the quesadillas in half, then serve.</li>
                 </ol>

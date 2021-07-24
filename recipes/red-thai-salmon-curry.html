@@ -13,7 +13,7 @@
         <title>Red Thai salmon curry | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,34 +47,43 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp vegetable or sunflower oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> vegetable or sunflower oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp Thai red curry paste</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> Thai red curry paste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> onion, sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> onion, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> ml reduced fat coconut milk</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="ml">ml</span> reduced fat coconut milk</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span>x 250 g skinless salmon fillets, cut into chunks</li>
+                        <span data-default="2" class="scalable">2</span>x <span data-unit="250 g">250 g</span> skinless salmon fillets, cut into chunks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g trimmed green beans</li>
-                    <li itemprop="recipeIngredient">plain rice, to serve</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> trimmed green beans</li>
+                    <li itemprop="recipeIngredient"> plain rice, to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the slow cooker if necessary. Warm the <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">oil</span> in a large pan, then add the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">curry paste</span>. Stir in the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, then cook gently for about <b>5</b> minutes until softened.</li>
-                <li itemprop="recipeInstructions">Transfer the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> to the slow cooker pot with the <span data-default="250" data-quantity="250" data-unit="ml" class="tooltip scalable">coconut milk</span>, <span data-default="2x" data-quantity="2x" data-unit="250 g" class="tooltip scalable">salmon</span> chunks and <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">beans</span>. Cook on low for <b>1</b><b>&frac12;</b>-<b>2</b> hours until the fish flakes easily and the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">beans</span> are cooked but have a little crunch. Serve with plain rice.</li>
+                <li itemprop="recipeInstructions">Heat the slow cooker if necessary. Warm the <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">oil</span> in a large pan, then add the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">curry paste</span>. Stir in the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, then cook gently for about <b>5</b> minutes until softened.</li>
+                <li itemprop="recipeInstructions">Transfer the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> to the slow cooker pot with the <span data-default="250" data-defaultunit="ml" data-quantity="250" data-unit="ml" class="tooltip scalable">coconut milk</span>, <span data-default="2x" data-defaultunit="250 g" data-quantity="2x" data-unit="250 g" class="tooltip scalable">salmon</span> chunks and <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">beans</span>. Cook on low for <b>1</b><b>&frac12;</b>-<b>2</b> hours until the fish flakes easily and the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">beans</span> are cooked but have a little crunch. Serve with plain rice.</li>
                 </ol>
 
             <hr>

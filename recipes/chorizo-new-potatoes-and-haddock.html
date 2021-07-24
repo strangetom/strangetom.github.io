@@ -13,7 +13,7 @@
         <title>Chorizo, new potatoes and haddock | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -42,36 +42,47 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp extra virgin olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> extra virgin olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> g chorizo, peeled and thinly sliced</li>
+                        <span data-default="50" class="scalable">50</span>
+                        <span data-unit="g">g</span> chorizo, peeled and thinly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="450" class="scalable">450</span> g salad or new potatoes, sliced</li>
+                        <span data-default="450" class="scalable">450</span>
+                        <span data-unit="g">g</span> salad or new potatoes, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tbsp dry sherry</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="tbsp">tbsp</span> dry sherry</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> fillets skinless thick white fish</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="fillets">fillets</span> skinless thick white fish</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="handful" class="scalable">handful</span> cherry tomatoes</li>
+                        <span data-default="handful" class="scalable">handful</span>
+                        <span data-unit=""></span> cherry tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="20" class="scalable">20</span> g bunch flat-leaf parsley</li>
-                    <li itemprop="recipeIngredient">crusty bread, to serve</li>
+                        <span data-default="20" class="scalable">20</span>
+                        <span data-unit="g">g</span> bunch flat-leaf parsley</li>
+                    <li itemprop="recipeIngredient"> crusty bread, to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat a large lidded frying pan, then add the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span>. Tip in the <span data-default="50" data-quantity="50" data-unit="g" class="tooltip scalable">chorizo</span>, fry for <b>2</b> minutes until it starts to release its <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span>, then tip in the <span data-default="450" data-quantity="450" data-unit="g" class="tooltip scalable">potatoes</span> and some seasoning. Splash over <b>2</b> tbsp of the <span data-default="4" data-quantity="4" data-unit="tbsp" class="tooltip scalable">sherry</span>, cover the pan tightly, then leave to cook for <b>10-15</b> minutes until the <span data-default="450" data-quantity="450" data-unit="g" class="tooltip scalable">potatoes</span> are just tender. Move them around the pan a bit halfway through.  </li>
-                <li itemprop="recipeInstructions">Season the <span data-default="2" data-quantity="2" data-unit="fillets" class="tooltip scalable">fish</span> well. Give the <span data-default="450" data-quantity="450" data-unit="g" class="tooltip scalable">potatoes</span> another stir, add the <span data-default="handful" data-quantity="handful" data-unit="" class="tooltip scalable">cherry tomatoes</span> and most of the chopped <span data-default="20" data-quantity="20" data-unit="g" class="tooltip scalable">parsley</span> to the pan, then lay the <span data-default="2" data-quantity="2" data-unit="fillets" class="tooltip scalable">fish</span> on top. Splash over <b>1</b> tbsp more of the <span data-default="4" data-quantity="4" data-unit="tbsp" class="tooltip scalable">sherry</span>, put the lid on again, then leave to cook for <b>5</b> minutes, or until the <span data-default="2" data-quantity="2" data-unit="fillets" class="tooltip scalable">fish</span> has turned white and is flaky. Scatter the whole dish with the rest of the <span data-default="20" data-quantity="20" data-unit="g" class="tooltip scalable">parsley</span> and drizzle with more of the olive <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span>. Serve straight away with crusty bread. </li>
+                <li itemprop="recipeInstructions">Heat a large lidded frying pan, then add the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span>. Tip in the <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">chorizo</span>, fry for <b>2</b> minutes until it starts to release its <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span>, then tip in the <span data-default="450" data-defaultunit="g" data-quantity="450" data-unit="g" class="tooltip scalable">potatoes</span> and some seasoning. Splash over <b>2</b> tbsp of the <span data-default="4" data-defaultunit="tbsp" data-quantity="4" data-unit="tbsp" class="tooltip scalable">sherry</span>, cover the pan tightly, then leave to cook for <b>10-15</b> minutes until the <span data-default="450" data-defaultunit="g" data-quantity="450" data-unit="g" class="tooltip scalable">potatoes</span> are just tender. Move them around the pan a bit halfway through.  </li>
+                <li itemprop="recipeInstructions">Season the <span data-default="2" data-defaultunit="fillets" data-quantity="2" data-unit="fillets" class="tooltip scalable">fish</span> well. Give the <span data-default="450" data-defaultunit="g" data-quantity="450" data-unit="g" class="tooltip scalable">potatoes</span> another stir, add the <span data-default="handful" data-defaultunit="" data-quantity="handful" data-unit="" class="tooltip scalable">cherry tomatoes</span> and most of the chopped <span data-default="20" data-defaultunit="g" data-quantity="20" data-unit="g" class="tooltip scalable">parsley</span> to the pan, then lay the <span data-default="2" data-defaultunit="fillets" data-quantity="2" data-unit="fillets" class="tooltip scalable">fish</span> on top. Splash over <b>1</b> tbsp more of the <span data-default="4" data-defaultunit="tbsp" data-quantity="4" data-unit="tbsp" class="tooltip scalable">sherry</span>, put the lid on again, then leave to cook for <b>5</b> minutes, or until the <span data-default="2" data-defaultunit="fillets" data-quantity="2" data-unit="fillets" class="tooltip scalable">fish</span> has turned white and is flaky. Scatter the whole dish with the rest of the <span data-default="20" data-defaultunit="g" data-quantity="20" data-unit="g" class="tooltip scalable">parsley</span> and drizzle with more of the olive <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span>. Serve straight away with crusty bread. </li>
                 </ol>
 
             <hr>

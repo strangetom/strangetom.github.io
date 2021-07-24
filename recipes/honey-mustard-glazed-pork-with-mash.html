@@ -13,7 +13,7 @@
         <title>Honey mustard glazed pork with mash | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -42,36 +42,44 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> kg potatoes</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="kg">kg</span> potatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> leeks</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> leeks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> savoy cabbage, shredded</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> savoy cabbage, shredded</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> pork loin fillet</li>
-                    <li itemprop="recipeIngredient">honey</li>
-                    <li itemprop="recipeIngredient">wholegrain mustard</li>
-                    <li itemprop="recipeIngredient">Tracklements apple and sage jelly</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> pork loin fillet</li>
+                    <li itemprop="recipeIngredient"> honey</li>
+                    <li itemprop="recipeIngredient"> wholegrain mustard</li>
+                    <li itemprop="recipeIngredient"> Tracklements apple and sage jelly</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Chop the <span data-default="1" data-quantity="1" data-unit="kg" class="tooltip scalable">potatoes</span> into <b>2</b> cm chunks (no need to peel!). Bring a large saucepan of water to the boil with <b>&frac12;</b> tsp of salt for the <span data-default="1" data-quantity="1" data-unit="kg" class="tooltip scalable">potatoes</span>. When boiling add the <span data-default="1" data-quantity="1" data-unit="kg" class="tooltip scalable">potatoes</span> and cook until you can easily slip a knife through, <b>15-20</b> mins. Trim the root and the dark green leafy part from the leek. Halve lengthways then thinly slice widthways.</li>
-                <li itemprop="recipeInstructions">Heat a saucepan over medium heat with a drizzle of oil and some butter if you have some. Add the leek and cook until soft, <b>6-7</b> mins, stirring regularly. Add the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">cabbage</span> with a splash of water. Season with salt and pepper, cover with a lid and cook until soft, <b>5-6</b> mins.</li>
-                <li itemprop="recipeInstructions">While the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">cabbage</span> is cooking, heat a frying pan over high heat with a drizzle of oil. Season the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">pork</span> with salt and pepper, then lay the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">pork</span> in your hot pan and cook until golden brown, <b>4-5</b> mins each side. IMPORTANT; The <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">pork</span> is cooked when it is no longer pink in the middle.</li>
-                <li itemprop="recipeInstructions">Once the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">pork</span> is cooked, add the honey and mustard to the pan and turn to coat the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">pork</span> in it until sticky, <b>30</b> seconds. Remove from the heat. Once cooked, transfer the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">pork</span> to a chopping board, cover with foil and leave to rest. Remove the pan from the heat but don't wash the pan up!</li>
-                <li itemprop="recipeInstructions">Drain the <span data-default="1" data-quantity="1" data-unit="kg" class="tooltip scalable">potatoes</span> in a colander then return to the pan with a knob of butter and a splash of milk (if you have some). Roughly mash and season with salt and pepper.</li>
-                <li itemprop="recipeInstructions">Return the frying pan you cooked the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">pork</span> in to medium heat add the apple and sage jelly with a splash of water and bring to a simmer and remove from the heat. Warm the mashed <span data-default="1" data-quantity="1" data-unit="kg" class="tooltip scalable">potatoes</span> and vegetables up if you need to then serve the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">pork</span> with the mash, the greens and sauce drizzled over. Enjoy!</li>
+                <li itemprop="recipeInstructions">Chop the <span data-default="1" data-defaultunit="kg" data-quantity="1" data-unit="kg" class="tooltip scalable">potatoes</span> into <b>2</b> cm chunks (no need to peel!). Bring a large saucepan of water to the boil with <b>&frac12;</b> tsp of salt for the <span data-default="1" data-defaultunit="kg" data-quantity="1" data-unit="kg" class="tooltip scalable">potatoes</span>. When boiling add the <span data-default="1" data-defaultunit="kg" data-quantity="1" data-unit="kg" class="tooltip scalable">potatoes</span> and cook until you can easily slip a knife through, <b>15-20</b> mins. Trim the root and the dark green leafy part from the leek. Halve lengthways then thinly slice widthways.</li>
+                <li itemprop="recipeInstructions">Heat a saucepan over medium heat with a drizzle of oil and some butter if you have some. Add the leek and cook until soft, <b>6-7</b> mins, stirring regularly. Add the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">cabbage</span> with a splash of water. Season with salt and pepper, cover with a lid and cook until soft, <b>5-6</b> mins.</li>
+                <li itemprop="recipeInstructions">While the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">cabbage</span> is cooking, heat a frying pan over high heat with a drizzle of oil. Season the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">pork</span> with salt and pepper, then lay the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">pork</span> in your hot pan and cook until golden brown, <b>4-5</b> mins each side. IMPORTANT; The <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">pork</span> is cooked when it is no longer pink in the middle.</li>
+                <li itemprop="recipeInstructions">Once the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">pork</span> is cooked, add the honey and mustard to the pan and turn to coat the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">pork</span> in it until sticky, <b>30</b> seconds. Remove from the heat. Once cooked, transfer the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">pork</span> to a chopping board, cover with foil and leave to rest. Remove the pan from the heat but don't wash the pan up!</li>
+                <li itemprop="recipeInstructions">Drain the <span data-default="1" data-defaultunit="kg" data-quantity="1" data-unit="kg" class="tooltip scalable">potatoes</span> in a colander then return to the pan with a knob of butter and a splash of milk (if you have some). Roughly mash and season with salt and pepper.</li>
+                <li itemprop="recipeInstructions">Return the frying pan you cooked the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">pork</span> in to medium heat add the apple and sage jelly with a splash of water and bring to a simmer and remove from the heat. Warm the mashed <span data-default="1" data-defaultunit="kg" data-quantity="1" data-unit="kg" class="tooltip scalable">potatoes</span> and vegetables up if you need to then serve the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">pork</span> with the mash, the greens and sauce drizzled over. Enjoy!</li>
                 </ol>
 
             <hr>

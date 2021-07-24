@@ -13,7 +13,7 @@
         <title>Beef tagine with sweet potatoes, peas, ginger and ras el hanout | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Beef" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,41 +47,53 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp ghee or olive oil</li>
-                    <li itemprop="recipeIngredient">a large thumb-sized piece of fresh ginger, peeled and finely shredded</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> ghee or olive oil</li>
+                    <li itemprop="recipeIngredient"> a large thumb-sized piece of fresh ginger, peeled and finely shredded</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">4</span> onion, finely chopped</li>
+                        <span data-default="1" class="scalable">4</span>
+                        <span data-unit=""></span> onion, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">4</span> kg lean beef, cubed</li>
+                        <span data-default="1" class="scalable">4</span>
+                        <span data-unit="kg">kg</span> lean beef, cubed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1-2" class="scalable">1-2</span> tsp ras el hanout</li>
+                        <span data-default="1-2" class="scalable">1-2</span>
+                        <span data-unit="tsp">tsp</span> ras el hanout</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> medium sweet potatoes, peeled and cubed</li>
-                    <li itemprop="recipeIngredient">sea salt and freshly ground black pepper</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="medium">medium</span> sweet potatoes, peeled and cubed</li>
+                    <li itemprop="recipeIngredient"> sea salt and freshly ground black pepper</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g shelled fresh peas or frozen peas</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="g">g</span> shelled fresh peas or frozen peas</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2-3" class="scalable">2-3</span> tomatoes, skinned, deseeded and chopped</li>
+                        <span data-default="2-3" class="scalable">2-3</span>
+                        <span data-unit=""></span> tomatoes, skinned, deseeded and chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> preserved lemon, finely shredded or chopped</li>
-                    <li itemprop="recipeIngredient">a small bunch of fresh coriander leaves, finely chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> preserved lemon, finely shredded or chopped</li>
+                    <li itemprop="recipeIngredient"> a small bunch of fresh coriander leaves, finely chopped</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">ghee</span> in a tagine or a heavy-based casserole. Stir in the ginger and <span data-default="1" data-quantity="4" data-unit="" class="tooltip scalable">onion</span> and saute until soft. Toss in the <span data-default="1" data-quantity="4" data-unit="kg" class="tooltip scalable">beef</span> and sear it on all sides, then stir in the <span data-default="1-2" data-quantity="1-2" data-unit="tsp" class="tooltip scalable">ras el hanout</span>. Pour in enough water to just cover the meat mixture and bring It to the boil. Reduce the heat, cover with the lid and cook gently for about <b>40</b> minutes.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="2" data-quantity="2" data-unit="medium" class="tooltip scalable">sweet potato</span> to the tagine, season with salt and pepper to taste, cover with the lid and cook gently for a further <b>20</b> minutes, until the meat is tender. Toss in the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">peas</span> and <span data-default="2-3" data-quantity="2-3" data-unit="" class="tooltip scalable">tomatoes</span>, cover with the lid and cook for <b>5-10</b> minutes.</li>
-                <li itemprop="recipeInstructions">Sprinkle the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">preserved lemon</span> and the coriander over the top and serve. </li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">ghee</span> in a tagine or a heavy-based casserole. Stir in the ginger and <span data-default="1" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">onion</span> and saute until soft. Toss in the <span data-default="1" data-defaultunit="kg" data-quantity="4" data-unit="kg" class="tooltip scalable">beef</span> and sear it on all sides, then stir in the <span data-default="1-2" data-defaultunit="tsp" data-quantity="1-2" data-unit="tsp" class="tooltip scalable">ras el hanout</span>. Pour in enough water to just cover the meat mixture and bring It to the boil. Reduce the heat, cover with the lid and cook gently for about <b>40</b> minutes.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="2" data-defaultunit="medium" data-quantity="2" data-unit="medium" class="tooltip scalable">sweet potato</span> to the tagine, season with salt and pepper to taste, cover with the lid and cook gently for a further <b>20</b> minutes, until the meat is tender. Toss in the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">peas</span> and <span data-default="2-3" data-defaultunit="" data-quantity="2-3" data-unit="" class="tooltip scalable">tomatoes</span>, cover with the lid and cook for <b>5-10</b> minutes.</li>
+                <li itemprop="recipeInstructions">Sprinkle the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">preserved lemon</span> and the coriander over the top and serve. </li>
                 </ol>
 
             <hr>

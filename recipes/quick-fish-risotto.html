@@ -13,7 +13,7 @@
         <title>Quick fish risotto | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -42,38 +42,50 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> onion, finely chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> onion, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> clove garlic, finely chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="clove">clove</span> garlic, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> vegetable or fish stock cube</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> vegetable or fish stock cube</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g risotto rice</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="g">g</span> risotto rice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="350" class="scalable">350</span> g smoked cod or haddock, skinned and cut into chunks</li>
+                        <span data-default="350" class="scalable">350</span>
+                        <span data-unit="g">g</span> smoked cod or haddock, skinned and cut into chunks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="large" class="scalable">large</span> cupful frozen peas</li>
+                        <span data-default="large" class="scalable">large</span>
+                        <span data-unit="cupful">cupful</span> frozen peas</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="knob" class="scalable">knob</span> butter</li>
+                        <span data-default="knob" class="scalable">knob</span>
+                        <span data-unit=""></span> butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> lemon, cut into 8 wedges, to garnish</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> lemon, cut into 8 wedges, to garnish</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Put the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and <span data-default="1" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span> in a large heatproof, non-metallic bowl with the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">stock cube</span> and <b>300</b> ml boiling water. Stir well, then cover and microwave on High for <b>3</b> minutes.  </li>
-                <li itemprop="recipeInstructions">Stir in the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">rice</span> with another <b>300</b> ml boiling water and microwave on High for <b>10</b> minutes, stirring after <b>5</b> minutes.  </li>
-                <li itemprop="recipeInstructions">Stir the <span data-default="350" data-quantity="350" data-unit="g" class="tooltip scalable">fish</span> into the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">rice</span> with the <span data-default="large" data-quantity="large" data-unit="cupful" class="tooltip scalable">peas</span> and another <b>300</b> ml boiling water. Cover and microwave on High for <b>4</b> minutes. Check the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">rice</span> is cooked and leave to stand for <b>1-2</b> minutes for the liquid to be absorbed. Stir in the <span data-default="knob" data-quantity="knob" data-unit="" class="tooltip scalable">butter</span> and season well. Serve hot with <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">lemon</span> wedges to squeeze over.  </li>
+                <li itemprop="recipeInstructions">Put the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and <span data-default="1" data-defaultunit="clove" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span> in a large heatproof, non-metallic bowl with the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">stock cube</span> and <b>300</b> ml boiling water. Stir well, then cover and microwave on High for <b>3</b> minutes.  </li>
+                <li itemprop="recipeInstructions">Stir in the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">rice</span> with another <b>300</b> ml boiling water and microwave on High for <b>10</b> minutes, stirring after <b>5</b> minutes.  </li>
+                <li itemprop="recipeInstructions">Stir the <span data-default="350" data-defaultunit="g" data-quantity="350" data-unit="g" class="tooltip scalable">fish</span> into the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">rice</span> with the <span data-default="large" data-defaultunit="cupful" data-quantity="large" data-unit="cupful" class="tooltip scalable">peas</span> and another <b>300</b> ml boiling water. Cover and microwave on High for <b>4</b> minutes. Check the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">rice</span> is cooked and leave to stand for <b>1-2</b> minutes for the liquid to be absorbed. Stir in the <span data-default="knob" data-defaultunit="" data-quantity="knob" data-unit="" class="tooltip scalable">butter</span> and season well. Serve hot with <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">lemon</span> wedges to squeeze over.  </li>
                 </ol>
 
             <hr>

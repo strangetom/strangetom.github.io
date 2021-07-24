@@ -13,7 +13,7 @@
         <title>Ham and peas pasta with garlic parmesan cream sauce | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,48 +43,64 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="8" class="scalable">8</span> oz spaghetti</li>
+                        <span data-default="8" class="scalable">8</span>
+                        <span data-unit="oz">oz</span> spaghetti</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.25" class="scalable">¼</span> cup unsalted butter</li>
+                        <span data-default="0.25" class="scalable">¼</span>
+                        <span data-unit="cup">cup</span> unsalted butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> cloves garlic, minced</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="cloves">cloves</span> garlic, minced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp all-purpose flour</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> all-purpose flour</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> cup chicken broth, or more as needed</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="cup">cup</span> chicken broth, or more as needed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp dried thyme</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> dried thyme</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp dried basil</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> dried basil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> cup cream</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="cup">cup</span> cream</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> cup freshly grated Parmesan</li>
-                    <li itemprop="recipeIngredient">Kosher salt and freshly ground black pepper, to taste</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="cup">cup</span> freshly grated Parmesan</li>
+                    <li itemprop="recipeIngredient"> Kosher salt and freshly ground black pepper, to taste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cups chopped ham</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cups">cups</span> chopped ham</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> cup frozen sweet peas</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="cup">cup</span> frozen sweet peas</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp chopped fresh parsley leaves</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> chopped fresh parsley leaves</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">In a large pot of boiling salted water, cook <span data-default="8" data-quantity="8" data-unit="oz" class="tooltip scalable">pasta</span> according to package instructions; drain well.</li>
-                <li itemprop="recipeInstructions">To make the <span data-default="4" data-quantity="4" data-unit="cloves" class="tooltip scalable">garlic</span> parmesan cream sauce, melt <span data-default="0.25" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">butter</span> in the skillet skillet over medium heat. Add <span data-default="4" data-quantity="4" data-unit="cloves" class="tooltip scalable">garlic</span>, and cook, stirring frequently, until fragrant, about <b>1-2</b> minutes. Whisk in <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">flour</span> until lightly browned, about <b>1</b> minute.</li>
-                <li itemprop="recipeInstructions">Gradually whisk in <span data-default="1" data-quantity="1" data-unit="cup" class="tooltip scalable">chicken broth</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">thyme</span> and <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">basil</span>. Cook, whisking constantly, until incorporated, about <b>1-2</b> minutes. Stir in <span data-default="0.5" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">half and half</span> and <span data-default="0.5" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">Parmesan</span> until slightly thickened, about <b>1-2</b> minutes. If the mixture is too thick, add more <span data-default="0.5" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">half and half</span> as needed; season with salt and pepper, to taste.</li>
-                <li itemprop="recipeInstructions">Stir in spaghetti, <span data-default="2" data-quantity="2" data-unit="cups" class="tooltip scalable">ham</span> and <span data-default="1" data-quantity="1" data-unit="cup" class="tooltip scalable">peas</span>, and gently toss to combine.</li>
+                <li itemprop="recipeInstructions">In a large pot of boiling salted water, cook <span data-default="8" data-defaultunit="oz" data-quantity="8" data-unit="oz" class="tooltip scalable">pasta</span> according to package instructions; drain well.</li>
+                <li itemprop="recipeInstructions">To make the <span data-default="4" data-defaultunit="cloves" data-quantity="4" data-unit="cloves" class="tooltip scalable">garlic</span> parmesan cream sauce, melt <span data-default="0.25" data-defaultunit="cup" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">butter</span> in the skillet skillet over medium heat. Add <span data-default="4" data-defaultunit="cloves" data-quantity="4" data-unit="cloves" class="tooltip scalable">garlic</span>, and cook, stirring frequently, until fragrant, about <b>1-2</b> minutes. Whisk in <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">flour</span> until lightly browned, about <b>1</b> minute.</li>
+                <li itemprop="recipeInstructions">Gradually whisk in <span data-default="1" data-defaultunit="cup" data-quantity="1" data-unit="cup" class="tooltip scalable">chicken broth</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">thyme</span> and <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">basil</span>. Cook, whisking constantly, until incorporated, about <b>1-2</b> minutes. Stir in <span data-default="0.5" data-defaultunit="cup" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">half and half</span> and <span data-default="0.5" data-defaultunit="cup" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">Parmesan</span> until slightly thickened, about <b>1-2</b> minutes. If the mixture is too thick, add more <span data-default="0.5" data-defaultunit="cup" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">half and half</span> as needed; season with salt and pepper, to taste.</li>
+                <li itemprop="recipeInstructions">Stir in spaghetti, <span data-default="2" data-defaultunit="cups" data-quantity="2" data-unit="cups" class="tooltip scalable">ham</span> and <span data-default="1" data-defaultunit="cup" data-quantity="1" data-unit="cup" class="tooltip scalable">peas</span>, and gently toss to combine.</li>
                 <li itemprop="recipeInstructions">Serve immediately, garnished with parsley, if desired.</li>
                 </ol>
 

@@ -13,7 +13,7 @@
         <title>Fettuccine with spiced cherry tomato sauce | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,38 +44,50 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="75" class="scalable">75</span> ml olive oil</li>
+                        <span data-default="75" class="scalable">75</span>
+                        <span data-unit="ml">ml</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, thinly sliced</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, thinly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> kg cherry tomatoes, sliced in half</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="kg">kg</span> cherry tomatoes, sliced in half</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp caster sugar, or a bit more or less, depending on the sweetness of the tomatoes</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> caster sugar, or a bit more or less, depending on the sweetness of the tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> dried ancho chilli, torn apart</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> dried ancho chilli, torn apart</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="20" class="scalable">20</span> g basil leaves</li>
+                        <span data-default="20" class="scalable">20</span>
+                        <span data-unit="g">g</span> basil leaves</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g fettuccine (or spaghetti)</li>
+                        <span data-default="400" class="scalable">400</span>
+                        <span data-unit="g">g</span> fettuccine (or spaghetti)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="35" class="scalable">35</span> g Parmesan, finely grated</li>
-                    <li itemprop="recipeIngredient">salt</li>
+                        <span data-default="35" class="scalable">35</span>
+                        <span data-unit="g">g</span> Parmesan, finely grated</li>
+                    <li itemprop="recipeIngredient"> salt</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Put the <span data-default="75" data-quantity="75" data-unit="ml" class="tooltip scalable">oil</span> into a large saute pan and place on a medium high heat. Once hot, add the <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> and fry for up to <b>1</b> minute, stirring a few times, until starting to caramelise. Add the <span data-default="1" data-quantity="1" data-unit="kg" class="tooltip scalable">tomatoes</span> - carefully, so that the <span data-default="75" data-quantity="75" data-unit="ml" class="tooltip scalable">oil</span> doesn't spit - along with the <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">sugar</span>, <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">chilli</span> and  <b>&frac12;</b> teaspoon of salt. Pour over <b>200</b> ml of water and stir for <b>4</b> minutes, until the <span data-default="1" data-quantity="1" data-unit="kg" class="tooltip scalable">tomatoes</span> are starting to break down and the liquid is bubbling. Reduce the heat to medium low and cook for about <b>1</b> hour, stirring every once in a while, until the <span data-default="1" data-quantity="1" data-unit="kg" class="tooltip scalable">tomatoes</span> and ancho have broken down and the sauce has thickened. Stir in the <span data-default="20" data-quantity="20" data-unit="g" class="tooltip scalable">basil</span> and set aside somewhere warm.</li>
-                <li itemprop="recipeInstructions">Fill a large saucepan with plenty of salted water and place on a high heat. Bring to the boil, then add the <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">pasta</span>. Cook for <b>10-12</b> minutes, or according to the packet instructions, until al dente. Drain the <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">pasta</span> and stir it together with the sauce. Divide between bowls, sprinkle with <span data-default="35" data-quantity="35" data-unit="g" class="tooltip scalable">Parmesan</span> and serve.</li>
+                <li itemprop="recipeInstructions">Put the <span data-default="75" data-defaultunit="ml" data-quantity="75" data-unit="ml" class="tooltip scalable">oil</span> into a large saute pan and place on a medium high heat. Once hot, add the <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> and fry for up to <b>1</b> minute, stirring a few times, until starting to caramelise. Add the <span data-default="1" data-defaultunit="kg" data-quantity="1" data-unit="kg" class="tooltip scalable">tomatoes</span> - carefully, so that the <span data-default="75" data-defaultunit="ml" data-quantity="75" data-unit="ml" class="tooltip scalable">oil</span> doesn't spit - along with the <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">sugar</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">chilli</span> and  <b>&frac12;</b> teaspoon of salt. Pour over <b>200</b> ml of water and stir for <b>4</b> minutes, until the <span data-default="1" data-defaultunit="kg" data-quantity="1" data-unit="kg" class="tooltip scalable">tomatoes</span> are starting to break down and the liquid is bubbling. Reduce the heat to medium low and cook for about <b>1</b> hour, stirring every once in a while, until the <span data-default="1" data-defaultunit="kg" data-quantity="1" data-unit="kg" class="tooltip scalable">tomatoes</span> and ancho have broken down and the sauce has thickened. Stir in the <span data-default="20" data-defaultunit="g" data-quantity="20" data-unit="g" class="tooltip scalable">basil</span> and set aside somewhere warm.</li>
+                <li itemprop="recipeInstructions">Fill a large saucepan with plenty of salted water and place on a high heat. Bring to the boil, then add the <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">pasta</span>. Cook for <b>10-12</b> minutes, or according to the packet instructions, until al dente. Drain the <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">pasta</span> and stir it together with the sauce. Divide between bowls, sprinkle with <span data-default="35" data-defaultunit="g" data-quantity="35" data-unit="g" class="tooltip scalable">Parmesan</span> and serve.</li>
                 </ol>
 
             <hr>

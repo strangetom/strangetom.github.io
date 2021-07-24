@@ -13,7 +13,7 @@
         <title>Barbecue pulled pork | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -43,37 +43,48 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1.5-2" class="scalable">1.5-2</span> kg pork shoulder, all fat removed</li>
+                        <span data-default="1.5-2" class="scalable">1.5-2</span>
+                        <span data-unit="kg">kg</span> pork shoulder, all fat removed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="5" class="scalable">5</span> tbsp Worcestershire sauce</li>
+                        <span data-default="5" class="scalable">5</span>
+                        <span data-unit="tbsp">tbsp</span> Worcestershire sauce</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp mustard powder</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> mustard powder</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g passata</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="g">g</span> passata</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsp balsamic vinegar</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsp">tbsp</span> balsamic vinegar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, crushed</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsp sweetener</li>
-                    <li itemprop="recipeIngredient">Salt and freshly ground black pepper</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsp">tbsp</span> sweetener</li>
+                    <li itemprop="recipeIngredient"> Salt and freshly ground black pepper</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">In a small bowl, mix <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">passata</span>, <span data-default="5" data-quantity="5" data-unit="tbsp" class="tooltip scalable">Worcestershire sauce</span>, <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">balsamic vinegar</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">mustard powder</span>, <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">sweetener</span> and seasoning. Transfer to a small pan and simmer for <b>15</b> minutes, or until the sauce thickens.</li>
-                <li itemprop="recipeInstructions">Meanwhile, trim and remove all visible fat from the <span data-default="1.5-2" data-quantity="1.5-2" data-unit="kg" class="tooltip scalable">pork</span> and sear all sides in a hot frying pan. Transfer to a slow cooker coat with the sauce and cook for <b>8</b> - <b>12</b> hours on LOW.</li>
-                <li itemprop="recipeInstructions">Remove the <span data-default="1.5-2" data-quantity="1.5-2" data-unit="kg" class="tooltip scalable">pork</span> from the slow cooker and place on a cutting board. Allow the meat to cool for approximately <b>15</b> minutes, then shred into bite-sized pieces using two forks.</li>
+                <li itemprop="recipeInstructions">In a small bowl, mix <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">passata</span>, <span data-default="5" data-defaultunit="tbsp" data-quantity="5" data-unit="tbsp" class="tooltip scalable">Worcestershire sauce</span>, <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">balsamic vinegar</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">mustard powder</span>, <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">sweetener</span> and seasoning. Transfer to a small pan and simmer for <b>15</b> minutes, or until the sauce thickens.</li>
+                <li itemprop="recipeInstructions">Meanwhile, trim and remove all visible fat from the <span data-default="1.5-2" data-defaultunit="kg" data-quantity="1.5-2" data-unit="kg" class="tooltip scalable">pork</span> and sear all sides in a hot frying pan. Transfer to a slow cooker coat with the sauce and cook for <b>8</b> - <b>12</b> hours on LOW.</li>
+                <li itemprop="recipeInstructions">Remove the <span data-default="1.5-2" data-defaultunit="kg" data-quantity="1.5-2" data-unit="kg" class="tooltip scalable">pork</span> from the slow cooker and place on a cutting board. Allow the meat to cool for approximately <b>15</b> minutes, then shred into bite-sized pieces using two forks.</li>
                 <li itemprop="recipeInstructions">Remove the sauce from the pan and set aside to drizzle on the meat later.</li>
                 </ol>
 

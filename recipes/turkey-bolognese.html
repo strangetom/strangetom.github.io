@@ -13,7 +13,7 @@
         <title>Turkey bolognese | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Turkey" itemscope itemtype="https://schema.org/Recipe">
 
@@ -42,44 +42,58 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp olive oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large onion, chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> onion, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, finely chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g turkey mince</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="g">g</span> turkey mince</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g can chopped tomatoes</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g can">400 g can</span> chopped tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp tomato puree</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> tomato puree</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="300" class="scalable">300</span> ml chicken or beef stock</li>
+                        <span data-default="300" class="scalable">300</span>
+                        <span data-unit="ml">ml</span> chicken or beef stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g spaghetti</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="g">g</span> spaghetti</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large courgette, finely chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> courgette, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="6" class="scalable">6</span> tomatoes, deseeded and chopped</li>
+                        <span data-default="6" class="scalable">6</span>
+                        <span data-unit=""></span> tomatoes, deseeded and chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="small handful" class="scalable">small handful</span> chopped flat-leaf parsley leaves, to serve</li>
+                        <span data-default="small handful" class="scalable">small handful</span>
+                        <span data-unit=""></span> chopped flat-leaf parsley leaves, to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a large pan and fry the <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span> and <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> for <b>4-5</b> minutes over a low heat until softened. Stir in the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">turkey mince</span> and cook for <b>5</b> minutes, stirring frequently. Stir in the <span data-default="400" data-quantity="400" data-unit="g can" class="tooltip scalable">chopped tomatoes</span>, <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">tomato puree</span> and <span data-default="300" data-quantity="300" data-unit="ml" class="tooltip scalable">stock</span>. Bring to the boil then simmer, uncovered, for <b>10</b> minutes.  </li>
-                <li itemprop="recipeInstructions">Meanwhile, cook the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">spaghetti</span> according to the pack instructions. Stir the <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">courgette</span> and fresh <span data-default="6" data-quantity="6" data-unit="" class="tooltip scalable">tomatoes</span> into the sauce and simmer for <b>5-6</b> minutes. Season.  </li>
-                <li itemprop="recipeInstructions">Drain the pasta and divide amonst four plates. Spoon over the sauce and serve scattered with <span data-default="small handful" data-quantity="small handful" data-unit="" class="tooltip scalable">parsley</span></li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in a large pan and fry the <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span> and <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> for <b>4-5</b> minutes over a low heat until softened. Stir in the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">turkey mince</span> and cook for <b>5</b> minutes, stirring frequently. Stir in the <span data-default="1x" data-defaultunit="400 g can" data-quantity="1x" data-unit="400 g can" class="tooltip scalable">chopped tomatoes</span>, <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">tomato puree</span> and <span data-default="300" data-defaultunit="ml" data-quantity="300" data-unit="ml" class="tooltip scalable">stock</span>. Bring to the boil then simmer, uncovered, for <b>10</b> minutes.  </li>
+                <li itemprop="recipeInstructions">Meanwhile, cook the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">spaghetti</span> according to the pack instructions. Stir the <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">courgette</span> and fresh <span data-default="6" data-defaultunit="" data-quantity="6" data-unit="" class="tooltip scalable">tomatoes</span> into the sauce and simmer for <b>5-6</b> minutes. Season.  </li>
+                <li itemprop="recipeInstructions">Drain the pasta and divide amonst four plates. Spoon over the sauce and serve scattered with <span data-default="small handful" data-defaultunit="" data-quantity="small handful" data-unit="" class="tooltip scalable">parsley</span></li>
                 </ol>
 
             <hr>

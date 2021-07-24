@@ -13,7 +13,7 @@
         <title>Mediterranean fish roast | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,33 +47,46 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> kg new potatoes, unpeeled halved or quartered if large</li>
-                    <li itemprop="recipeIngredient">low calorie cooking spray</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="kg">kg</span> new potatoes, unpeeled halved or quartered if large</li>
+                    <li itemprop="recipeIngredient"> low calorie cooking spray</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large red onion, thinly sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> red onion, thinly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> ripe tomatoes, quartered</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> ripe tomatoes, quartered</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> large courgettes, trimmed, halved lengthways and sliced</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="large">large</span> courgettes, trimmed, halved lengthways and sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="12" class="scalable">12</span> pitted black olives in brine</li>
+                        <span data-default="12" class="scalable">12</span>
+                        <span data-unit=""></span> pitted black olives in brine</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> frozen skinless white fish fillets (cod, haddock or basa) thawed</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> frozen skinless white fish fillets (cod, haddock or basa) thawed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> lemon</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> lemon</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="6" class="scalable">6</span> tbsp hot fish stock</li>
-                    <li itemprop="recipeIngredient">salt and freshly ground black pepper</li>
+                        <span data-default="6" class="scalable">6</span>
+                        <span data-unit="tbsp">tbsp</span> hot fish stock</li>
+                    <li itemprop="recipeIngredient"> salt and freshly ground black pepper</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="small handful" class="scalable">small handful</span> of roughly chopped fresh parsley, to garnish (optional)</li>
+                        <span data-default="small handful" class="scalable">small handful</span>
+                        <span data-unit=""></span> of roughly chopped fresh parsley, to garnish (optional)</li>
                 </ul>
             </div>
         
@@ -81,10 +94,10 @@
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Preheat the oven to <b>180</b>&deg;C/Gas <b>6</b>.</li>
-                <li itemprop="recipeInstructions">Cook the <span data-default="1" data-quantity="1" data-unit="kg" class="tooltip scalable">potatoes</span> in a pan of lightly salted boiling water for <b>10</b> minutes or until just tender. Drain well and tip into a large roasting tin.</li>
-                <li itemprop="recipeInstructions">Meanwhile, spray a frying pan with low calorie cooking spray and sauté the <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span> for <b>5</b> minutes or until softened and beginning to colour. Scatter the <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span> over the <span data-default="1" data-quantity="1" data-unit="kg" class="tooltip scalable">potatoes</span> along with the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">tomatoes</span>, <span data-default="2" data-quantity="2" data-unit="large" class="tooltip scalable">courgettes</span> and <span data-default="12" data-quantity="12" data-unit="" class="tooltip scalable">olives</span>.</li>
-                <li itemprop="recipeInstructions">Arrange the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">fish fillets</span> on top of the vegetables. Cut four slices from the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">lemon</span> and place one slice on each piece of fish, then squeeze the juice from the remaining <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">lemon</span> over the fish. Pour over the <span data-default="6" data-quantity="6" data-unit="tbsp" class="tooltip scalable">stock</span>, spray with a little low calorie cooking spray and roast for <b>20</b> minutes.</li>
-                <li itemprop="recipeInstructions">Season, scatter the <span data-default="small handful" data-quantity="small handful" data-unit="" class="tooltip scalable">parsley</span>, if using, and serve with your favourite vegetables.</li>
+                <li itemprop="recipeInstructions">Cook the <span data-default="1" data-defaultunit="kg" data-quantity="1" data-unit="kg" class="tooltip scalable">potatoes</span> in a pan of lightly salted boiling water for <b>10</b> minutes or until just tender. Drain well and tip into a large roasting tin.</li>
+                <li itemprop="recipeInstructions">Meanwhile, spray a frying pan with low calorie cooking spray and sauté the <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span> for <b>5</b> minutes or until softened and beginning to colour. Scatter the <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span> over the <span data-default="1" data-defaultunit="kg" data-quantity="1" data-unit="kg" class="tooltip scalable">potatoes</span> along with the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">tomatoes</span>, <span data-default="2" data-defaultunit="large" data-quantity="2" data-unit="large" class="tooltip scalable">courgettes</span> and <span data-default="12" data-defaultunit="" data-quantity="12" data-unit="" class="tooltip scalable">olives</span>.</li>
+                <li itemprop="recipeInstructions">Arrange the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">fish fillets</span> on top of the vegetables. Cut four slices from the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">lemon</span> and place one slice on each piece of fish, then squeeze the juice from the remaining <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">lemon</span> over the fish. Pour over the <span data-default="6" data-defaultunit="tbsp" data-quantity="6" data-unit="tbsp" class="tooltip scalable">stock</span>, spray with a little low calorie cooking spray and roast for <b>20</b> minutes.</li>
+                <li itemprop="recipeInstructions">Season, scatter the <span data-default="small handful" data-defaultunit="" data-quantity="small handful" data-unit="" class="tooltip scalable">parsley</span>, if using, and serve with your favourite vegetables.</li>
                 </ol>
 
             <hr>

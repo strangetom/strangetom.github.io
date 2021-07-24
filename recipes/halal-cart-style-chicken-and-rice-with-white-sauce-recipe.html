@@ -13,7 +13,7 @@
         <title>Halal cart-style chicken and rice with white sauce | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,75 +47,99 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <details open>
                     <summary class="ingredient-subheading">For the chicken:</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tbsps fresh lemon juice</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tbsps">tbsps</span> fresh lemon juice</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp chopped fresh oregano</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> chopped fresh oregano</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> tsp ground coriander seed</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit="tsp">tsp</span> ground coriander seed</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="3" class="scalable">3</span> cloves garlic, roughly chopped</li>
+                            <span data-default="3" class="scalable">3</span>
+                            <span data-unit="cloves">cloves</span> garlic, roughly chopped</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.25" class="scalable">¼</span> cup light olive oil</li>
-                        <li itemprop="recipeIngredient">Kosher salt and freshly ground black pepper</li>
+                            <span data-default="0.25" class="scalable">¼</span>
+                            <span data-unit="cup">cup</span> light olive oil</li>
+                        <li itemprop="recipeIngredient"> Kosher salt and freshly ground black pepper</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> lbs boneless skinless chicken thighs, trimmed of excess fat (6 to 8 thighs)</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="lbs">lbs</span> boneless skinless chicken thighs, trimmed of excess fat (6 to 8 thighs)</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp vegetable or canola oil</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> vegetable or canola oil</li>
                     </ul>
                 </details>
                 <details open>
                     <summary class="ingredient-subheading">For the rice:</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tbsps unsalted butter</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tbsps">tbsps</span> unsalted butter</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> tsp turmeric</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit="tsp">tsp</span> turmeric</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.25" class="scalable">¼</span> tsp ground cumin</li>
+                            <span data-default="0.25" class="scalable">¼</span>
+                            <span data-unit="tsp">tsp</span> ground cumin</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1.5" class="scalable">1½</span> cups long-grain or Basmati rice</li>
+                            <span data-default="1.5" class="scalable">1½</span>
+                            <span data-unit="cups">cups</span> long-grain or Basmati rice</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2.5" class="scalable">2½</span> cups chicken broth</li>
-                        <li itemprop="recipeIngredient">Kosher salt and freshly ground black pepper</li>
+                            <span data-default="2.5" class="scalable">2½</span>
+                            <span data-unit="cups">cups</span> chicken broth</li>
+                        <li itemprop="recipeIngredient"> Kosher salt and freshly ground black pepper</li>
                     </ul>
                 </details>
                 <details open>
                     <summary class="ingredient-subheading">For the sauce:</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> cup mayonnaise</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit="cup">cup</span> mayonnaise</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.5" class="scalable">½</span> cup Greek yogurt</li>
+                            <span data-default="0.5" class="scalable">½</span>
+                            <span data-unit="cup">cup</span> Greek yogurt</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tbsp sugar</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tbsp">tbsp</span> sugar</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="2" class="scalable">2</span> tbsps white vinegar</li>
+                            <span data-default="2" class="scalable">2</span>
+                            <span data-unit="tbsps">tbsps</span> white vinegar</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> tsp lemon juice</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="tsp">tsp</span> lemon juice</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="0.25" class="scalable">¼</span> cup chopped fresh parsley</li>
-                        <li itemprop="recipeIngredient">Kosher salt and freshly ground black pepper</li>
+                            <span data-default="0.25" class="scalable">¼</span>
+                            <span data-unit="cup">cup</span> chopped fresh parsley</li>
+                        <li itemprop="recipeIngredient"> Kosher salt and freshly ground black pepper</li>
                     </ul>
                 </details>
                 <details open>
                     <summary class="ingredient-subheading">To serve:</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> head iceberg lettuce, shredded</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="head">head</span> iceberg lettuce, shredded</li>
                         <li itemprop="recipeIngredient">
-                            <span data-default="1" class="scalable">1</span> large tomato, cut into wedges</li>
-                        <li itemprop="recipeIngredient">Fluffy pocketless pita bread, brushed in butter, lightly toasted, and cut into 1-3 inch strips</li>
-                        <li itemprop="recipeIngredient">Harissa-style hot sauce, for serving</li>
+                            <span data-default="1" class="scalable">1</span>
+                            <span data-unit="large">large</span> tomato, cut into wedges</li>
+                        <li itemprop="recipeIngredient"> Fluffy pocketless pita bread, brushed in butter, lightly toasted, and cut into 1-3 inch strips</li>
+                        <li itemprop="recipeIngredient"> Harissa-style hot sauce, for serving</li>
                     </ul>
                 </details>
             </div>
@@ -123,12 +147,12 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">For the <span data-default="2" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span>: Combine the <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">lemon juice</span>, <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oregano</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">coriander</span>, <span data-default="3" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span>, and <span data-default="0.25" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">olive oil</span> in a blender. Blend until smooth. Season the marinade to taste with kosher salt and black pepper. Place the <span data-default="2" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span> in a <b>1</b>-gallon zipper-lock bag and add half of the marinade (reserve the remaining marinade in the refrigerator). Turn the <span data-default="2" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span> to coat, seal the bag, and marinate the <span data-default="2" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span> in the refrigerator for at least <b>1</b> hour and up to <b>4</b> hours, turning occasionally to redistribute the marinade.</li>
-                <li itemprop="recipeInstructions">Remove the <span data-default="2" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span> from the bag and pat it dry with paper towels. Season with kosher salt and pepper, going heavy on the pepper. Heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a <b>12</b> inch heavy-bottomed cast iron or stainless-steel skillet over medium-high heat until it is lightly smoking. Add the <span data-default="2" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span> pieces and cook without disturbing until they are lightly browned on the first side, about <b>4</b> minutes. Using tongs, flip the <span data-default="2" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span>. Reduce the heat to medium and cook until the <span data-default="2" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span> is cooked through, about <b>6</b> minutes longer. Transfer the <span data-default="2" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span> to a cutting board and allow to cool for <b>5</b> minutes.</li>
-                <li itemprop="recipeInstructions">Using a chef's knife, roughly chop the <span data-default="2" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span> into <b>&frac12;</b> to <b>&frac14;</b> inch chunks. Transfer to a medium bowl, add the remaining marinade, cover loosely with plastic, and refrigerate while you cook the <span data-default="1.5" data-quantity="1&frac12;" data-unit="cups" class="tooltip scalable">rice</span> and prepare the sauce.</li>
-                <li itemprop="recipeInstructions">For the <span data-default="1.5" data-quantity="1&frac12;" data-unit="cups" class="tooltip scalable">rice</span>: Melt the <span data-default="2" data-quantity="2" data-unit="tbsps" class="tooltip scalable">butter</span> over medium heat in a large Dutch oven. Add the <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">turmeric</span> and <span data-default="0.25" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">cumin</span> and cook until fragrant but not browned, about <b>1</b> minute. Add the <span data-default="1.5" data-quantity="1&frac12;" data-unit="cups" class="tooltip scalable">rice</span> and stir to coat. Cook, stirring frequently, until the <span data-default="1.5" data-quantity="1&frac12;" data-unit="cups" class="tooltip scalable">rice</span> is lightly toasted, about <b>4</b> minutes. Add the <span data-default="2" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span> <span data-default="2.5" data-quantity="2&frac12;" data-unit="cups" class="tooltip scalable">broth</span>. Season to taste with salt and pepper. Raise the heat to high and bring to a boil. Cover, reduce to a simmer, and cook for <b>15</b> minutes without disturbing. Remove from the heat and allow to rest until the water is completely absorbed and the <span data-default="1.5" data-quantity="1&frac12;" data-unit="cups" class="tooltip scalable">rice</span> is tender, about <b>15</b> minutes.</li>
-                <li itemprop="recipeInstructions">For the sauce: In a small bowl, combine the <span data-default="0.5" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">mayonnaise</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">yogurt</span>, <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">sugar</span>, vinegar, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">lemon juice</span>, <span data-default="0.25" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">parsley</span>, and <b>2</b> tsps black pepper. Whisk to combine. Season to taste with salt.</li>
-                <li itemprop="recipeInstructions">To serve: Return the entire contents of the <span data-default="2" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span> bowl (<span data-default="2" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span>, marinade, and all juices) to the skillet. Cook over medium-high heat, stirring occasionally, until heated through. To serve, divide the <span data-default="1.5" data-quantity="1&frac12;" data-unit="cups" class="tooltip scalable">rice</span>, lettuce, <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">tomato</span>, and toasted pita bread evenly among four to six plates. Pile the <span data-default="2" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span> on top of the <span data-default="1.5" data-quantity="1&frac12;" data-unit="cups" class="tooltip scalable">rice</span>. Top with the white sauce and hot sauce. Serve immediately, passing extra sauce at the table. Note: Do not marinate the <span data-default="2" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span> longer than <b>4</b> hours or it'll get a mushy texture. If you must delay cooking the <span data-default="2" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span> for any reason, remove it from the marinade, pat it dry with paper towels, and refrigerate until ready to cook.</li>
+                <li itemprop="recipeInstructions">For the <span data-default="2" data-defaultunit="lbs" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span>: Combine the <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">lemon juice</span>, <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oregano</span>, <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">coriander</span>, <span data-default="3" data-defaultunit="cloves" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span>, and <span data-default="0.25" data-defaultunit="cup" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">olive oil</span> in a blender. Blend until smooth. Season the marinade to taste with kosher salt and black pepper. Place the <span data-default="2" data-defaultunit="lbs" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span> in a <b>1</b>-gallon zipper-lock bag and add half of the marinade (reserve the remaining marinade in the refrigerator). Turn the <span data-default="2" data-defaultunit="lbs" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span> to coat, seal the bag, and marinate the <span data-default="2" data-defaultunit="lbs" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span> in the refrigerator for at least <b>1</b> hour and up to <b>4</b> hours, turning occasionally to redistribute the marinade.</li>
+                <li itemprop="recipeInstructions">Remove the <span data-default="2" data-defaultunit="lbs" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span> from the bag and pat it dry with paper towels. Season with kosher salt and pepper, going heavy on the pepper. Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a <b>12</b> inch heavy-bottomed cast iron or stainless-steel skillet over medium-high heat until it is lightly smoking. Add the <span data-default="2" data-defaultunit="lbs" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span> pieces and cook without disturbing until they are lightly browned on the first side, about <b>4</b> minutes. Using tongs, flip the <span data-default="2" data-defaultunit="lbs" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span>. Reduce the heat to medium and cook until the <span data-default="2" data-defaultunit="lbs" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span> is cooked through, about <b>6</b> minutes longer. Transfer the <span data-default="2" data-defaultunit="lbs" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span> to a cutting board and allow to cool for <b>5</b> minutes.</li>
+                <li itemprop="recipeInstructions">Using a chef's knife, roughly chop the <span data-default="2" data-defaultunit="lbs" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span> into <b>&frac12;</b> to <b>&frac14;</b> inch chunks. Transfer to a medium bowl, add the remaining marinade, cover loosely with plastic, and refrigerate while you cook the <span data-default="1.5" data-defaultunit="cups" data-quantity="1&frac12;" data-unit="cups" class="tooltip scalable">rice</span> and prepare the sauce.</li>
+                <li itemprop="recipeInstructions">For the <span data-default="1.5" data-defaultunit="cups" data-quantity="1&frac12;" data-unit="cups" class="tooltip scalable">rice</span>: Melt the <span data-default="2" data-defaultunit="tbsps" data-quantity="2" data-unit="tbsps" class="tooltip scalable">butter</span> over medium heat in a large Dutch oven. Add the <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">turmeric</span> and <span data-default="0.25" data-defaultunit="tsp" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">cumin</span> and cook until fragrant but not browned, about <b>1</b> minute. Add the <span data-default="1.5" data-defaultunit="cups" data-quantity="1&frac12;" data-unit="cups" class="tooltip scalable">rice</span> and stir to coat. Cook, stirring frequently, until the <span data-default="1.5" data-defaultunit="cups" data-quantity="1&frac12;" data-unit="cups" class="tooltip scalable">rice</span> is lightly toasted, about <b>4</b> minutes. Add the <span data-default="2" data-defaultunit="lbs" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span> <span data-default="2.5" data-defaultunit="cups" data-quantity="2&frac12;" data-unit="cups" class="tooltip scalable">broth</span>. Season to taste with salt and pepper. Raise the heat to high and bring to a boil. Cover, reduce to a simmer, and cook for <b>15</b> minutes without disturbing. Remove from the heat and allow to rest until the water is completely absorbed and the <span data-default="1.5" data-defaultunit="cups" data-quantity="1&frac12;" data-unit="cups" class="tooltip scalable">rice</span> is tender, about <b>15</b> minutes.</li>
+                <li itemprop="recipeInstructions">For the sauce: In a small bowl, combine the <span data-default="0.5" data-defaultunit="cup" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">mayonnaise</span>, <span data-default="0.5" data-defaultunit="cup" data-quantity="&frac12;" data-unit="cup" class="tooltip scalable">yogurt</span>, <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">sugar</span>, vinegar, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">lemon juice</span>, <span data-default="0.25" data-defaultunit="cup" data-quantity="&frac14;" data-unit="cup" class="tooltip scalable">parsley</span>, and <b>2</b> tsps black pepper. Whisk to combine. Season to taste with salt.</li>
+                <li itemprop="recipeInstructions">To serve: Return the entire contents of the <span data-default="2" data-defaultunit="lbs" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span> bowl (<span data-default="2" data-defaultunit="lbs" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span>, marinade, and all juices) to the skillet. Cook over medium-high heat, stirring occasionally, until heated through. To serve, divide the <span data-default="1.5" data-defaultunit="cups" data-quantity="1&frac12;" data-unit="cups" class="tooltip scalable">rice</span>, lettuce, <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">tomato</span>, and toasted pita bread evenly among four to six plates. Pile the <span data-default="2" data-defaultunit="lbs" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span> on top of the <span data-default="1.5" data-defaultunit="cups" data-quantity="1&frac12;" data-unit="cups" class="tooltip scalable">rice</span>. Top with the white sauce and hot sauce. Serve immediately, passing extra sauce at the table. Note: Do not marinate the <span data-default="2" data-defaultunit="lbs" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span> longer than <b>4</b> hours or it'll get a mushy texture. If you must delay cooking the <span data-default="2" data-defaultunit="lbs" data-quantity="2" data-unit="lbs" class="tooltip scalable">chicken</span> for any reason, remove it from the marinade, pat it dry with paper towels, and refrigerate until ready to cook.</li>
                 </ol>
 
             <hr>

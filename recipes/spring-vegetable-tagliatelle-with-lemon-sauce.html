@@ -13,7 +13,7 @@
         <title>Spring vegetable tagliatelle with lemon sauce | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,34 +44,43 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="450" class="scalable">450</span> g mixed spring vegetables, including green beans, asparagus, broad beans, peas.</li>
+                        <span data-default="450" class="scalable">450</span>
+                        <span data-unit="g">g</span> mixed spring vegetables, including green beans, asparagus, broad beans, peas.</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g tagliatelle</li>
-                    <li itemprop="recipeIngredient">juice of 1 lemon, zest of half</li>
+                        <span data-default="400" class="scalable">400</span>
+                        <span data-unit="g">g</span> tagliatelle</li>
+                    <li itemprop="recipeIngredient"> juice of 1 lemon, zest of half</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp Dijon mustard, mustard</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> Dijon mustard, mustard</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive or rapeseed oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive or rapeseed oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsp snipped chives</li>
-                    <li itemprop="recipeIngredient">shaved Parmesan, to serve</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsp">tbsp</span> snipped chives</li>
+                    <li itemprop="recipeIngredient"> shaved Parmesan, to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Halve the green beans and cut the asparagus into three pieces on the diagonal. Cook the <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">tagliatelle</span> according to the pack instructione, adding the mixed vegetables for the final <b>5</b> minutes.  </li>
-                <li itemprop="recipeInstructions">Meanwhile, put the lemon juice in a small pan with the mustard, <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> and a little black pepper. Warm through, stirring until smooth.  </li>
-                <li itemprop="recipeInstructions">Drain the pasta and veg, add <b>4</b> tablespoons of the cooking water to the lemon sauce. Return the pasta and veg to the pan, reheat the sauce, adding most of the <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">chives</span>, then add the pasta mix, tossing everything together well. Divide among four shallow bowls and top each with a grinding of black pepper, a few shavings of cheese and the remaining <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">chives</span>.  </li>
+                <li itemprop="recipeInstructions">Halve the green beans and cut the asparagus into three pieces on the diagonal. Cook the <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">tagliatelle</span> according to the pack instructione, adding the mixed vegetables for the final <b>5</b> minutes.  </li>
+                <li itemprop="recipeInstructions">Meanwhile, put the lemon juice in a small pan with the mustard, <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> and a little black pepper. Warm through, stirring until smooth.  </li>
+                <li itemprop="recipeInstructions">Drain the pasta and veg, add <b>4</b> tablespoons of the cooking water to the lemon sauce. Return the pasta and veg to the pan, reheat the sauce, adding most of the <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">chives</span>, then add the pasta mix, tossing everything together well. Divide among four shallow bowls and top each with a grinding of black pepper, a few shavings of cheese and the remaining <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">chives</span>.  </li>
                 </ol>
 
             <hr>

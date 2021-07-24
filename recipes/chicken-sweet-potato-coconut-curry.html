@@ -13,7 +13,7 @@
         <title>Chicken, sweet potato & coconut curry | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Chicken" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,37 +47,48 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp sunflower oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> sunflower oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp mild curry paste</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> mild curry paste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> large boneless skinless chicken breast, cut into bite-size pieces</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="large">large</span> boneless skinless chicken breast, cut into bite-size pieces</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> medium-sized sweet potatoes, peeled and cut into bite-size pieces</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> medium-sized sweet potatoes, peeled and cut into bite-size pieces</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> tbsp red split lentils</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="tbsp">tbsp</span> red split lentils</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="300" class="scalable">300</span> ml chicken stock</li>
+                        <span data-default="300" class="scalable">300</span>
+                        <span data-unit="ml">ml</span> chicken stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> ml can coconut milk</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 ml cans">400 ml cans</span> coconut milk</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="175" class="scalable">175</span> g frozen peas</li>
+                        <span data-default="175" class="scalable">175</span>
+                        <span data-unit="g">g</span> frozen peas</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a deep frying pan or wok, stir in the <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">curry paste</span> and fry for <b>1</b> minute. Add the <span data-default="2" data-quantity="2" data-unit="large" class="tooltip scalable">chicken</span>, <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">sweet potatoes</span> and <span data-default="4" data-quantity="4" data-unit="tbsp" class="tooltip scalable">lentils</span> and stir to coat in the paste, then pour in the <span data-default="300" data-quantity="300" data-unit="ml" class="tooltip scalable">stock</span> and <span data-default="400" data-quantity="400" data-unit="ml can" class="tooltip scalable">coconut milk</span>. Bring to the boil, then simmer for <b>15</b> minutes.  </li>
-                <li itemprop="recipeInstructions">Tip in the <span data-default="175" data-quantity="175" data-unit="g" class="tooltip scalable">peas</span>, bring back to the boil and simmer for a further <b>4-5</b> minutes. Season to taste before serving.  </li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a deep frying pan or wok, stir in the <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">curry paste</span> and fry for <b>1</b> minute. Add the <span data-default="2" data-defaultunit="large" data-quantity="2" data-unit="large" class="tooltip scalable">chicken</span>, <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">sweet potatoes</span> and <span data-default="4" data-defaultunit="tbsp" data-quantity="4" data-unit="tbsp" class="tooltip scalable">lentils</span> and stir to coat in the paste, then pour in the <span data-default="300" data-defaultunit="ml" data-quantity="300" data-unit="ml" class="tooltip scalable">stock</span> and <span data-default="1x" data-defaultunit="400 ml cans" data-quantity="1x" data-unit="400 ml cans" class="tooltip scalable">coconut milk</span>. Bring to the boil, then simmer for <b>15</b> minutes.  </li>
+                <li itemprop="recipeInstructions">Tip in the <span data-default="175" data-defaultunit="g" data-quantity="175" data-unit="g" class="tooltip scalable">peas</span>, bring back to the boil and simmer for a further <b>4-5</b> minutes. Season to taste before serving.  </li>
                 </ol>
 
             <hr>

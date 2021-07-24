@@ -13,7 +13,7 @@
         <title>Mediterranean vegetables with lamb | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Lamb" itemscope itemtype="https://schema.org/Recipe">
 
@@ -46,46 +46,61 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g lean lamb fillet, trimmed of fat and thinly sliced</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="g">g</span> lean lamb fillet, trimmed of fat and thinly sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="140" class="scalable">140</span> g shallots, halved</li>
+                        <span data-default="140" class="scalable">140</span>
+                        <span data-unit="g">g</span> shallots, halved</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> large courgettes, cut into chunks</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="large">large</span> courgettes, cut into chunks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp ground cumin</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> ground cumin</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp paprika</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> paprika</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp ground coriander</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> ground coriander</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> peppers (1 red, 1 orange 1 green), deseeded and cut into chunks</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit=""></span> peppers (1 red, 1 orange 1 green), deseeded and cut into chunks</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> clove garlic, sliced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="clove">clove</span> garlic, sliced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="150" class="scalable">150</span> ml vegetable stock</li>
+                        <span data-default="150" class="scalable">150</span>
+                        <span data-unit="ml">ml</span> vegetable stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="250" class="scalable">250</span> g cherry tomatoes</li>
-                    <li itemprop="recipeIngredient">freshly chopped coriander leaves</li>
+                        <span data-default="250" class="scalable">250</span>
+                        <span data-unit="g">g</span> cherry tomatoes</li>
+                    <li itemprop="recipeIngredient"> freshly chopped coriander leaves</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the oil in a large frying pan. Cook the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">lamb</span> and <span data-default="140" data-quantity="140" data-unit="g" class="tooltip scalable">shallots</span> over a high heat for <b>2-3</b> minutes until golden.  </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="2" data-quantity="2" data-unit="large" class="tooltip scalable">courgettes</span> and stir-fry for <b>3-4</b> minutes until they begin to soften.  </li>
-                <li itemprop="recipeInstructions">Add the spices and toss well, then add the peppers and <span data-default="1" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span>. Reduce the heat and cook over a moderate heat for <b>4-5</b> minutes until the peppers begin to soften.  </li>
-                <li itemprop="recipeInstructions">Pour in the <span data-default="150" data-quantity="150" data-unit="ml" class="tooltip scalable">stock</span> and stir to coat. Add the <span data-default="250" data-quantity="250" data-unit="g" class="tooltip scalable">tomatoes</span>, season, then cover with a lid and simmer for <b>15</b> minutes, stirring occasionally until the vegetables are tender.  </li>
+                <li itemprop="recipeInstructions">Heat the oil in a large frying pan. Cook the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">lamb</span> and <span data-default="140" data-defaultunit="g" data-quantity="140" data-unit="g" class="tooltip scalable">shallots</span> over a high heat for <b>2-3</b> minutes until golden.  </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="2" data-defaultunit="large" data-quantity="2" data-unit="large" class="tooltip scalable">courgettes</span> and stir-fry for <b>3-4</b> minutes until they begin to soften.  </li>
+                <li itemprop="recipeInstructions">Add the spices and toss well, then add the peppers and <span data-default="1" data-defaultunit="clove" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span>. Reduce the heat and cook over a moderate heat for <b>4-5</b> minutes until the peppers begin to soften.  </li>
+                <li itemprop="recipeInstructions">Pour in the <span data-default="150" data-defaultunit="ml" data-quantity="150" data-unit="ml" class="tooltip scalable">stock</span> and stir to coat. Add the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">tomatoes</span>, season, then cover with a lid and simmer for <b>15</b> minutes, stirring occasionally until the vegetables are tender.  </li>
                 <li itemprop="recipeInstructions">Stir through the coriander to serve.  </li>
                 </ol>
 

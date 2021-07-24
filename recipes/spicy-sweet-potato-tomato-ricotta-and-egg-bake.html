@@ -13,7 +13,7 @@
         <title>Spicy sweet potato, tomato, ricotta and egg bake | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,36 +44,44 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="600" class="scalable">600</span> g sweet potatoes</li>
+                        <span data-default="600" class="scalable">600</span>
+                        <span data-unit="g">g</span> sweet potatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp cayenne pepper</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> cayenne pepper</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp olive oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 270 g pack Vittoria cherry tomatoes, halved</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="270 g pack">270 g pack</span> Vittoria cherry tomatoes, halved</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 250 g pot ricotta</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="250 g pot">250 g pot</span> ricotta</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="6" class="scalable">6</span> large eggs</li>
+                        <span data-default="6" class="scalable">6</span>
+                        <span data-unit="large">large</span> eggs</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 25 g pack chives, chopped</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="25 g pack">25 g pack</span> chives, chopped</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Preheat the oven to <b>180</b>&deg;C, Gas <b>6</b>. Cut the <span data-default="600" data-quantity="600" data-unit="g" class="tooltip scalable">sweet potatoes</span> into small wedges, leaving the skin on. Put in a large ovenproof baking dish or roasting tin and toss with the <span data-default="0.5" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">cayenne pepper</span> until evenly coated. Add the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> and mix.</li>
-                <li itemprop="recipeInstructions">Put in the oven and roast for <b>20-25</b> minutes until just tender, then add the <span data-default="1x" data-quantity="1x" data-unit="270 g pack" class="tooltip scalable">cherry tomatoes</span> and continue to roast for a further <b>10</b> minutes, until the potatoes are golden and the tomatoes have softened.</li>
-                <li itemprop="recipeInstructions">Dot spoonfuls of the <span data-default="1x" data-quantity="1x" data-unit="250 g pot" class="tooltip scalable">ricotta</span> on top of the sweet potato wedges and tomatoes, then crack the <span data-default="6" data-quantity="6" data-unit="large" class="tooltip scalable">eggs</span> over the top. Season generously with salt and pepper, return to the oven and bake for a further <b>10</b> minutes until the <span data-default="6" data-quantity="6" data-unit="large" class="tooltip scalable">eggs</span> are set. Scatter over the <span data-default="1x" data-quantity="1x" data-unit="25 g pack" class="tooltip scalable">chives</span> and serve with crusty bread, if you like.</li>
+                <li itemprop="recipeInstructions">Preheat the oven to <b>180</b>&deg;C, Gas <b>6</b>. Cut the <span data-default="600" data-defaultunit="g" data-quantity="600" data-unit="g" class="tooltip scalable">sweet potatoes</span> into small wedges, leaving the skin on. Put in a large ovenproof baking dish or roasting tin and toss with the <span data-default="0.5" data-defaultunit="tsp" data-quantity="&frac12;" data-unit="tsp" class="tooltip scalable">cayenne pepper</span> until evenly coated. Add the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> and mix.</li>
+                <li itemprop="recipeInstructions">Put in the oven and roast for <b>20-25</b> minutes until just tender, then add the <span data-default="1x" data-defaultunit="270 g pack" data-quantity="1x" data-unit="270 g pack" class="tooltip scalable">cherry tomatoes</span> and continue to roast for a further <b>10</b> minutes, until the potatoes are golden and the tomatoes have softened.</li>
+                <li itemprop="recipeInstructions">Dot spoonfuls of the <span data-default="1x" data-defaultunit="250 g pot" data-quantity="1x" data-unit="250 g pot" class="tooltip scalable">ricotta</span> on top of the sweet potato wedges and tomatoes, then crack the <span data-default="6" data-defaultunit="large" data-quantity="6" data-unit="large" class="tooltip scalable">eggs</span> over the top. Season generously with salt and pepper, return to the oven and bake for a further <b>10</b> minutes until the <span data-default="6" data-defaultunit="large" data-quantity="6" data-unit="large" class="tooltip scalable">eggs</span> are set. Scatter over the <span data-default="1x" data-defaultunit="25 g pack" data-quantity="1x" data-unit="25 g pack" class="tooltip scalable">chives</span> and serve with crusty bread, if you like.</li>
                 </ol>
 
             <hr>

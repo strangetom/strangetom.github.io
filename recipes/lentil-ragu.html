@@ -13,7 +13,7 @@
         <title>Lentil ragu | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -48,46 +48,60 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> tbsp olive oil</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> onions, finely chopped</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit=""></span> onions, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> carrots, finely chopped</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit=""></span> carrots, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> sticks celery, finely chopped</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="sticks">sticks</span> celery, finely chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> cloves garlic, crushed</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="cloves">cloves</span> garlic, crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g bag dried red lentils</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="500 g bag">500 g bag</span> dried red lentils</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span>x 400 g cans chopped tomatoes</li>
+                        <span data-default="2" class="scalable">2</span>x <span data-unit="400 g cans">400 g cans</span> chopped tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp tomato purée</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> tomato purée</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp each dried oregano and thyme</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> each dried oregano and thyme</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> bay leaves</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit=""></span> bay leaves</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> l vegetable stock</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="l">l</span> vegetable stock</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g spaghetti</li>
-                    <li itemprop="recipeIngredient">parmesan or vegetarian cheese, grated, to serve</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="g">g</span> spaghetti</li>
+                    <li itemprop="recipeIngredient"> parmesan or vegetarian cheese, grated, to serve</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="3" data-quantity="3" data-unit="tbsp" class="tooltip scalable">oil</span> in a large saucepan and add the <span data-default="2" data-quantity="2" data-unit="" class="tooltip scalable">onions</span>, <span data-default="3" data-quantity="3" data-unit="" class="tooltip scalable">carrots</span>, <span data-default="3" data-quantity="3" data-unit="sticks" class="tooltip scalable">celery</span> and <span data-default="3" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span>. Cook gently for <b>15-20</b> mins until everything is softened. Stir in the <span data-default="500" data-quantity="500" data-unit="g bag" class="tooltip scalable">lentils</span>, <span data-default="2x" data-quantity="2x" data-unit="400 g cans" class="tooltip scalable">chopped tomatoes</span>, <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">tomato purée</span>, herbs and <span data-default="1" data-quantity="1" data-unit="l" class="tooltip scalable">stock</span>. Bring to a simmer, then cook for <b>40-50</b> mins until the <span data-default="500" data-quantity="500" data-unit="g bag" class="tooltip scalable">lentils</span> are tender and saucy – splash in water if you need. Season.  </li>
-                <li itemprop="recipeInstructions">If eating straight away, keep on a low heat while you cook the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">spaghetti</span>, following pack instructions. Drain well, divide between pasta bowls or plates, spoon sauce over the top and grate over some cheese. Alternatively, cool the sauce and chill for up to <b>3</b> days.  </li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">oil</span> in a large saucepan and add the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">onions</span>, <span data-default="3" data-defaultunit="" data-quantity="3" data-unit="" class="tooltip scalable">carrots</span>, <span data-default="3" data-defaultunit="sticks" data-quantity="3" data-unit="sticks" class="tooltip scalable">celery</span> and <span data-default="3" data-defaultunit="cloves" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span>. Cook gently for <b>15-20</b> mins until everything is softened. Stir in the <span data-default="1x" data-defaultunit="500 g bag" data-quantity="1x" data-unit="500 g bag" class="tooltip scalable">lentils</span>, <span data-default="2x" data-defaultunit="400 g cans" data-quantity="2x" data-unit="400 g cans" class="tooltip scalable">chopped tomatoes</span>, <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">tomato purée</span>, herbs and <span data-default="1" data-defaultunit="l" data-quantity="1" data-unit="l" class="tooltip scalable">stock</span>. Bring to a simmer, then cook for <b>40-50</b> mins until the <span data-default="1x" data-defaultunit="500 g bag" data-quantity="1x" data-unit="500 g bag" class="tooltip scalable">lentils</span> are tender and saucy – splash in water if you need. Season.  </li>
+                <li itemprop="recipeInstructions">If eating straight away, keep on a low heat while you cook the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">spaghetti</span>, following pack instructions. Drain well, divide between pasta bowls or plates, spoon sauce over the top and grate over some cheese. Alternatively, cool the sauce and chill for up to <b>3</b> days.  </li>
                 </ol>
 
             <hr>

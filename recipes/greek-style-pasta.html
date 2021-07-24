@@ -13,7 +13,7 @@
         <title>Greek-style pasta | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,40 +47,52 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tsp olive oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tsp">tsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="3" class="scalable">3</span> cloves garlic, crushed</li>
+                        <span data-default="3" class="scalable">3</span>
+                        <span data-unit="cloves">cloves</span> garlic, crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 400 g tin cherry tomatoes</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g tin">400 g tin</span> cherry tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> ml robust red wine (such as Rioja or Merlot)</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="ml">ml</span> robust red wine (such as Rioja or Merlot)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp caster sugar</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> caster sugar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="150" class="scalable">150</span> g pappardelle, or other pasta of your choice</li>
+                        <span data-default="150" class="scalable">150</span>
+                        <span data-unit="g">g</span> pappardelle, or other pasta of your choice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="100" class="scalable">100</span> g pitted Manzanilla olives with garlic and herbs</li>
+                        <span data-default="100" class="scalable">100</span>
+                        <span data-unit="g">g</span> pitted Manzanilla olives with garlic and herbs</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="a large handful" class="scalable">a large handful</span> basil, roughly torn</li>
+                        <span data-default="a large handful" class="scalable">a large handful</span>
+                        <span data-unit=""></span> basil, roughly torn</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="40" class="scalable">40</span> g vegetarian feta, crumbled</li>
+                        <span data-default="40" class="scalable">40</span>
+                        <span data-unit="g">g</span> vegetarian feta, crumbled</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="2" data-quantity="2" data-unit="tsp" class="tooltip scalable">oil</span> in a high-sided frying pan, add the <span data-default="3" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span> and fry over a medium heat for <b>30</b> seconds, stirring, until golden. Add the tomatoes, <span data-default="100" data-quantity="100" data-unit="ml" class="tooltip scalable">red wine</span>, <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">sugar</span> and a pinch of salt. Cook vigorously for <b>10</b> minutes.</li>
-                <li itemprop="recipeInstructions">Meanwhile, bring a large pan of water to the boil. Salt the water, add the <span data-default="150" data-quantity="150" data-unit="g" class="tooltip scalable">pasta</span> and boil for <b>9-10</b> minutes, or according to the packet instructions. Add a splash of water from the <span data-default="150" data-quantity="150" data-unit="g" class="tooltip scalable">pasta</span> pan to the sauce if it's looking too dry.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="100" data-quantity="100" data-unit="g" class="tooltip scalable">olives</span> to the sauce, reduce the heat to medium and continue to cook, stirring occasionally, while the <span data-default="150" data-quantity="150" data-unit="g" class="tooltip scalable">pasta</span> finishes cooking. Drain the <span data-default="150" data-quantity="150" data-unit="g" class="tooltip scalable">pasta</span> and stir the <span data-default="a large handful" data-quantity="a large handful" data-unit="" class="tooltip scalable">basil</span> into the sauce. Serve the <span data-default="150" data-quantity="150" data-unit="g" class="tooltip scalable">pasta</span> with the tomato sauce, and with the <span data-default="40" data-quantity="40" data-unit="g" class="tooltip scalable">feta</span> sprinkled over.</li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">oil</span> in a high-sided frying pan, add the <span data-default="3" data-defaultunit="cloves" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span> and fry over a medium heat for <b>30</b> seconds, stirring, until golden. Add the tomatoes, <span data-default="100" data-defaultunit="ml" data-quantity="100" data-unit="ml" class="tooltip scalable">red wine</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">sugar</span> and a pinch of salt. Cook vigorously for <b>10</b> minutes.</li>
+                <li itemprop="recipeInstructions">Meanwhile, bring a large pan of water to the boil. Salt the water, add the <span data-default="150" data-defaultunit="g" data-quantity="150" data-unit="g" class="tooltip scalable">pasta</span> and boil for <b>9-10</b> minutes, or according to the packet instructions. Add a splash of water from the <span data-default="150" data-defaultunit="g" data-quantity="150" data-unit="g" class="tooltip scalable">pasta</span> pan to the sauce if it's looking too dry.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">olives</span> to the sauce, reduce the heat to medium and continue to cook, stirring occasionally, while the <span data-default="150" data-defaultunit="g" data-quantity="150" data-unit="g" class="tooltip scalable">pasta</span> finishes cooking. Drain the <span data-default="150" data-defaultunit="g" data-quantity="150" data-unit="g" class="tooltip scalable">pasta</span> and stir the <span data-default="a large handful" data-defaultunit="" data-quantity="a large handful" data-unit="" class="tooltip scalable">basil</span> into the sauce. Serve the <span data-default="150" data-defaultunit="g" data-quantity="150" data-unit="g" class="tooltip scalable">pasta</span> with the tomato sauce, and with the <span data-default="40" data-defaultunit="g" data-quantity="40" data-unit="g" class="tooltip scalable">feta</span> sprinkled over.</li>
                 </ol>
 
             <hr>

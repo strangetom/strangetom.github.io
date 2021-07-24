@@ -13,7 +13,7 @@
         <title>Vegetarian minestrone | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,52 +44,67 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> yellow onion</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> yellow onion</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> carrots</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit=""></span> carrots</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp olive oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp tomato paste</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> tomato paste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span>x 400 g tin diced tomatoes</li>
+                        <span data-default="2" class="scalable">2</span>x <span data-unit="400 g tin">400 g tin</span> diced tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 400 g tin kidney beans</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g tin">400 g tin</span> kidney beans</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span>x 400 g tin chickpeas</li>
+                        <span data-default="1" class="scalable">1</span>x <span data-unit="400 g tin">400 g tin</span> chickpeas</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp Italian seasoning</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> Italian seasoning</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="4" class="scalable">4</span> cups vegetable broth</li>
+                        <span data-default="4" class="scalable">4</span>
+                        <span data-unit="cups">cups</span> vegetable broth</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> zucchini</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> zucchini</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> cup frozen green beans</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="cup">cup</span> frozen green beans</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp lemon juice</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> lemon juice</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp chopped parsley (optional)</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> chopped parsley (optional)</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Dice the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, mince the <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>, and slice the <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">carrots</span>. Add the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">olive oil</span>, <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>, and <span data-default="4" data-quantity="4" data-unit="" class="tooltip scalable">carrots</span> to a large soup pot. Saute over medium heat until the onions become soft and translucent (about <b>5</b> minutes).</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">tomato paste</span> to the pot and continue to saute for <b>2-3</b> minutes more, or until the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">tomato paste</span> begins to coat the bottom of the pot (do not let it burn).</li>
-                <li itemprop="recipeInstructions">Rinse and drain the <span data-default="1x" data-quantity="1x" data-unit="400 g tin" class="tooltip scalable">kidney beans</span> and <span data-default="1x" data-quantity="1x" data-unit="400 g tin" class="tooltip scalable">chickpeas</span>, and then add them to the pot along with the <span data-default="2x" data-quantity="2x" data-unit="400 g tin" class="tooltip scalable">diced tomatoes</span> (with juices), <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">Italian seasoning</span>, and <span data-default="4" data-quantity="4" data-unit="cups" class="tooltip scalable">vegetable broth</span>. Give everything a good stir, place a lid on top, and allow it to come up to a simmer. Allow the soup to simmer for <b>20</b> minutes, stirring occasionally.</li>
-                <li itemprop="recipeInstructions">While the soup is simmering, slice the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">zucchini</span> into quarter-rounds. After the soup has simmered for <b>20</b> minutes, add the sliced <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">zucchini</span> and <span data-default="1" data-quantity="1" data-unit="cup" class="tooltip scalable">frozen green beans</span> (no need to thaw first). Stir and simmer the soup for an additional <b>5-10</b> minutes, or until the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">zucchini</span> just begin to soften.</li>
-                <li itemprop="recipeInstructions">Finish the soup by adding <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">lemon juice</span> and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">chopped parsley</span>. Give it a taste and add extra salt if needed. Serve hot with crusty bread for dipping!</li>
+                <li itemprop="recipeInstructions">Dice the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, mince the <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>, and slice the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">carrots</span>. Add the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">olive oil</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>, and <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">carrots</span> to a large soup pot. Saute over medium heat until the onions become soft and translucent (about <b>5</b> minutes).</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">tomato paste</span> to the pot and continue to saute for <b>2-3</b> minutes more, or until the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">tomato paste</span> begins to coat the bottom of the pot (do not let it burn).</li>
+                <li itemprop="recipeInstructions">Rinse and drain the <span data-default="1x" data-defaultunit="400 g tin" data-quantity="1x" data-unit="400 g tin" class="tooltip scalable">kidney beans</span> and <span data-default="1x" data-defaultunit="400 g tin" data-quantity="1x" data-unit="400 g tin" class="tooltip scalable">chickpeas</span>, and then add them to the pot along with the <span data-default="2x" data-defaultunit="400 g tin" data-quantity="2x" data-unit="400 g tin" class="tooltip scalable">diced tomatoes</span> (with juices), <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">Italian seasoning</span>, and <span data-default="4" data-defaultunit="cups" data-quantity="4" data-unit="cups" class="tooltip scalable">vegetable broth</span>. Give everything a good stir, place a lid on top, and allow it to come up to a simmer. Allow the soup to simmer for <b>20</b> minutes, stirring occasionally.</li>
+                <li itemprop="recipeInstructions">While the soup is simmering, slice the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">zucchini</span> into quarter-rounds. After the soup has simmered for <b>20</b> minutes, add the sliced <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">zucchini</span> and <span data-default="1" data-defaultunit="cup" data-quantity="1" data-unit="cup" class="tooltip scalable">frozen green beans</span> (no need to thaw first). Stir and simmer the soup for an additional <b>5-10</b> minutes, or until the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">zucchini</span> just begin to soften.</li>
+                <li itemprop="recipeInstructions">Finish the soup by adding <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">lemon juice</span> and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">chopped parsley</span>. Give it a taste and add extra salt if needed. Serve hot with crusty bread for dipping!</li>
                 </ol>
 
             <hr>

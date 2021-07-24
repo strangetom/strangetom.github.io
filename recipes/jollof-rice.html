@@ -13,7 +13,7 @@
         <title>Jollof rice | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,59 +44,80 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp sunflower oil</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> sunflower oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp butter</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> onion, chopped</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> onion, chopped</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2.5" class="scalable">2.5</span> cm piece fresh root ginger, peeled and grated</li>
+                        <span data-default="2.5" class="scalable">2.5</span>
+                        <span data-unit="cm piece">cm piece</span> fresh root ginger, peeled and grated</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> cloves garlic, crushed</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="cloves">cloves</span> garlic, crushed</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large red pepper, deseeded and diced</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large">large</span> red pepper, deseeded and diced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g chopped tomatoes</li>
+                        <span data-default="400" class="scalable">400</span>
+                        <span data-unit="g">g</span> chopped tomatoes</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> Scotch bonnet, deseeded (optional)</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit=""></span> Scotch bonnet, deseeded (optional)</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp tomato puree/paste</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> tomato puree/paste</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp thyme leaves or 1 tsp dried thyme</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> thyme leaves or 1 tsp dried thyme</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="0.5" class="scalable">½</span> tsp sweet smoked paprika</li>
+                        <span data-default="0.5" class="scalable">½</span>
+                        <span data-unit="tsp">tsp</span> sweet smoked paprika</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp paprika</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> paprika</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> heaped tsp ground cumin</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="heaped tsp">heaped tsp</span> ground cumin</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp dried shrimp</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> dried shrimp</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tsp soft brown sugar</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tsp">tsp</span> soft brown sugar</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="350" class="scalable">350</span> g white basmati rice, rinsed and drained</li>
+                        <span data-default="350" class="scalable">350</span>
+                        <span data-unit="g">g</span> white basmati rice, rinsed and drained</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="750" class="scalable">750</span> ml chicken stock</li>
-                    <li itemprop="recipeIngredient">freshly snipped chives</li>
-                    <li itemprop="recipeIngredient">salt</li>
+                        <span data-default="750" class="scalable">750</span>
+                        <span data-unit="ml">ml</span> chicken stock</li>
+                    <li itemprop="recipeIngredient"> freshly snipped chives</li>
+                    <li itemprop="recipeIngredient"> salt</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> and <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">butter</span> in a deep heavy-based saucepan. Add the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <span data-default="2.5" data-quantity="2.5" data-unit="cm piece" class="tooltip scalable">ginger</span>, <span data-default="2" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="1" data-quantity="1" data-unit="large" class="tooltip scalable">red pepper</span> and fry over a medium heat until the onior begins to become brown and sweet.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">tomatoes</span>, <span data-default="0.5" data-quantity="&frac12;" data-unit="" class="tooltip scalable">Scotch bonnet</span>, <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">tomato puree/paste</span>, <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">thyme</span>, both the paprikas, the <span data-default="1" data-quantity="1" data-unit="heaped tsp" class="tooltip scalable">ground cumin</span>, <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">dried shrimp</span> and <span data-default="1" data-quantity="1" data-unit="tsp" class="tooltip scalable">sugar</span> and season with salt to taste. Simmer this mixture over a medium-low heat for around <b>8</b> minutes. The oils in the mixture should begin to stain red and sit as a veneer on top of the tomato sauce.</li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> and <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">butter</span> in a deep heavy-based saucepan. Add the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <span data-default="2.5" data-defaultunit="cm piece" data-quantity="2.5" data-unit="cm piece" class="tooltip scalable">ginger</span>, <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> and <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">red pepper</span> and fry over a medium heat until the onior begins to become brown and sweet.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">tomatoes</span>, <span data-default="0.5" data-defaultunit="" data-quantity="&frac12;" data-unit="" class="tooltip scalable">Scotch bonnet</span>, <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">tomato puree/paste</span>, <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">thyme</span>, both the paprikas, the <span data-default="1" data-defaultunit="heaped tsp" data-quantity="1" data-unit="heaped tsp" class="tooltip scalable">ground cumin</span>, <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">dried shrimp</span> and <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">sugar</span> and season with salt to taste. Simmer this mixture over a medium-low heat for around <b>8</b> minutes. The oils in the mixture should begin to stain red and sit as a veneer on top of the tomato sauce.</li>
                 <li itemprop="recipeInstructions">With a hand blender or a conventional blender, blend the mixture to a smooth paste, then return it to the pan if necessary.</li>
-                <li itemprop="recipeInstructions">Stir in the <span data-default="350" data-quantity="350" data-unit="g" class="tooltip scalable">rice</span> and continue to stir for about <b>3</b> minutes over a medium-low heat. Now slowly pour in the <span data-default="750" data-quantity="750" data-unit="ml" class="tooltip scalable">stock</span> and simmer over a low heat for about <b>20</b> minutes. Stir occasionally during the early stages of cooking but never once the <span data-default="350" data-quantity="350" data-unit="g" class="tooltip scalable">rice</span> begins to form a more solid mass. If the <span data-default="350" data-quantity="350" data-unit="g" class="tooltip scalable">rice</span> begins to look very dry, add a little extra water. Once all the liquid has been absorbed, put a tightly fitting lid over the <span data-default="350" data-quantity="350" data-unit="g" class="tooltip scalable">rice</span> and switch off the heat. Leave the pan for <b>10</b> minutes.</li>
+                <li itemprop="recipeInstructions">Stir in the <span data-default="350" data-defaultunit="g" data-quantity="350" data-unit="g" class="tooltip scalable">rice</span> and continue to stir for about <b>3</b> minutes over a medium-low heat. Now slowly pour in the <span data-default="750" data-defaultunit="ml" data-quantity="750" data-unit="ml" class="tooltip scalable">stock</span> and simmer over a low heat for about <b>20</b> minutes. Stir occasionally during the early stages of cooking but never once the <span data-default="350" data-defaultunit="g" data-quantity="350" data-unit="g" class="tooltip scalable">rice</span> begins to form a more solid mass. If the <span data-default="350" data-defaultunit="g" data-quantity="350" data-unit="g" class="tooltip scalable">rice</span> begins to look very dry, add a little extra water. Once all the liquid has been absorbed, put a tightly fitting lid over the <span data-default="350" data-defaultunit="g" data-quantity="350" data-unit="g" class="tooltip scalable">rice</span> and switch off the heat. Leave the pan for <b>10</b> minutes.</li>
                 <li itemprop="recipeInstructions">Remove the lid, sprinkle with the snipped chives and serve either on its own or as sweet, heat-tinged accompaniment to chicken and fish dishes.</li>
                 </ol>
 

@@ -13,7 +13,7 @@
         <title>Mushroom and sage pasta | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -44,45 +44,57 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="500" class="scalable">500</span> g mushrooms</li>
+                        <span data-default="500" class="scalable">500</span>
+                        <span data-unit="g">g</span> mushrooms</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> onion</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit=""></span> onion</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> clove of garlic</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="clove">clove</span> of garlic</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="small bunch" class="scalable">small bunch</span> of sage</li>
+                        <span data-default="small bunch" class="scalable">small bunch</span>
+                        <span data-unit=""></span> of sage</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="600" class="scalable">600</span> g creme fraiche</li>
+                        <span data-default="600" class="scalable">600</span>
+                        <span data-unit="g">g</span> creme fraiche</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="20" class="scalable">20</span> g salted butter</li>
+                        <span data-default="20" class="scalable">20</span>
+                        <span data-unit="g">g</span> salted butter</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="400" class="scalable">400</span> g conchiglie pasta</li>
+                        <span data-default="400" class="scalable">400</span>
+                        <span data-unit="g">g</span> conchiglie pasta</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="150" class="scalable">150</span> g Parmesan</li>
-                    <li itemprop="recipeIngredient">salt</li>
-                    <li itemprop="recipeIngredient">pepper</li>
-                    <li itemprop="recipeIngredient">olive oil</li>
+                        <span data-default="150" class="scalable">150</span>
+                        <span data-unit="g">g</span> Parmesan</li>
+                    <li itemprop="recipeIngredient"> salt</li>
+                    <li itemprop="recipeIngredient"> pepper</li>
+                    <li itemprop="recipeIngredient"> olive oil</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Finely dice the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, slice the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">mushrooms</span> and crush the <span data-default="1" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span>.</li>
-                <li itemprop="recipeInstructions">Pour some olive oil in the pan, add the <span data-default="1" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and a pinch of salt, then cook for around <b>10</b> minutes until they start to go transparent. Then add the <span data-default="1" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span> and <span data-default="small bunch" data-quantity="small bunch" data-unit="" class="tooltip scalable">sage</span> and cook for a further <b>2</b> minutes.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">mushrooms</span> to the pan and give everything a good mix so that the <span data-default="500" data-quantity="500" data-unit="g" class="tooltip scalable">mushrooms</span> are coated. Whack in the <span data-default="20" data-quantity="20" data-unit="g" class="tooltip scalable">butter</span> and allow it to melt into the mixture then give it a good stir.</li>
-                <li itemprop="recipeInstructions">Once the <span data-default="20" data-quantity="20" data-unit="g" class="tooltip scalable">butter</span> has melted add the <span data-default="600" data-quantity="600" data-unit="g" class="tooltip scalable">creme fraiche</span>, give it a mix and then let it simmer for about <b>10</b> minutes until the sauce starts to pick up some colour.</li>
-                <li itemprop="recipeInstructions">While the sauce is simmering, boil your <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">pasta</span> as instructed on the package.</li>
-                <li itemprop="recipeInstructions">To finish off the sauce add the <span data-default="150" data-quantity="150" data-unit="g" class="tooltip scalable">Parmesan</span>, but save some for later, and then season well with generous amounts of pepper and salt to taste.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="400" data-quantity="400" data-unit="g" class="tooltip scalable">pasta</span> to the sauce and give it a good stir. Plate it up with another sprinkle of <span data-default="150" data-quantity="150" data-unit="g" class="tooltip scalable">Parmesan</span> and garnish with a little sprig of <span data-default="small bunch" data-quantity="small bunch" data-unit="" class="tooltip scalable">sage</span>.</li>
+                <li itemprop="recipeInstructions">Finely dice the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, slice the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">mushrooms</span> and crush the <span data-default="1" data-defaultunit="clove" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span>.</li>
+                <li itemprop="recipeInstructions">Pour some olive oil in the pan, add the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and a pinch of salt, then cook for around <b>10</b> minutes until they start to go transparent. Then add the <span data-default="1" data-defaultunit="clove" data-quantity="1" data-unit="clove" class="tooltip scalable">garlic</span> and <span data-default="small bunch" data-defaultunit="" data-quantity="small bunch" data-unit="" class="tooltip scalable">sage</span> and cook for a further <b>2</b> minutes.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">mushrooms</span> to the pan and give everything a good mix so that the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">mushrooms</span> are coated. Whack in the <span data-default="20" data-defaultunit="g" data-quantity="20" data-unit="g" class="tooltip scalable">butter</span> and allow it to melt into the mixture then give it a good stir.</li>
+                <li itemprop="recipeInstructions">Once the <span data-default="20" data-defaultunit="g" data-quantity="20" data-unit="g" class="tooltip scalable">butter</span> has melted add the <span data-default="600" data-defaultunit="g" data-quantity="600" data-unit="g" class="tooltip scalable">creme fraiche</span>, give it a mix and then let it simmer for about <b>10</b> minutes until the sauce starts to pick up some colour.</li>
+                <li itemprop="recipeInstructions">While the sauce is simmering, boil your <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">pasta</span> as instructed on the package.</li>
+                <li itemprop="recipeInstructions">To finish off the sauce add the <span data-default="150" data-defaultunit="g" data-quantity="150" data-unit="g" class="tooltip scalable">Parmesan</span>, but save some for later, and then season well with generous amounts of pepper and salt to taste.</li>
+                <li itemprop="recipeInstructions">Add the <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">pasta</span> to the sauce and give it a good stir. Plate it up with another sprinkle of <span data-default="150" data-defaultunit="g" data-quantity="150" data-unit="g" class="tooltip scalable">Parmesan</span> and garnish with a little sprig of <span data-default="small bunch" data-defaultunit="" data-quantity="small bunch" data-unit="" class="tooltip scalable">sage</span>.</li>
                 </ol>
 
             <hr>

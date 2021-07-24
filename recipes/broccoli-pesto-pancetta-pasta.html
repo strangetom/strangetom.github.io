@@ -13,7 +13,7 @@
         <title>Broccoli pesto & pancetta pasta | Stranger Foods</title>
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale.min.js"></script>
-        <noscript><style type="text/css">.scale-btns {display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns, .unit-btns {display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -47,40 +47,53 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button" onclick="scaleRecipe(this, 0.5)">x0.5</button>
-                <button type="button" class="selected" onclick="scaleRecipe(this, 1)">x1</button>
-                <button type="button" onclick="scaleRecipe(this, 2)">x2</button>
-                <button type="button" onclick="scaleRecipe(this, 3)">x3</button>
+                <button type="button" onclick="scaleRecipe(this)">x0.5</button>
+                <button type="button" class="selected" onclick="scaleRecipe(this)">x1</button>
+                <button type="button" onclick="scaleRecipe(this)">x2</button>
+                <button type="button" onclick="scaleRecipe(this)">x3</button>
             </div>
+            <div class="unit-btns">
+                <button type="button" class="selected" onclick="scaleRecipe(this)">Metric</button>
+                <button type="button" onclick="scaleRecipe(this)">Imperial</button>
+                </div>
             <div>
                 <ul>
                     <li itemprop="recipeIngredient">
-                        <span data-default="300" class="scalable">300</span> g head broccoli, broken into florets</li>
+                        <span data-default="300" class="scalable">300</span>
+                        <span data-unit="g">g</span> head broccoli, broken into florets</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="300" class="scalable">300</span> g pasta, we used orecchiette</li>
+                        <span data-default="300" class="scalable">300</span>
+                        <span data-unit="g">g</span> pasta, we used orecchiette</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp pine nuts</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> pine nuts</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large bunch basil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large bunch">large bunch</span> basil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> large clove garlic</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="large clove">large clove</span> garlic</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="2" class="scalable">2</span> tbsp parmesan, finely grated</li>
+                        <span data-default="2" class="scalable">2</span>
+                        <span data-unit="tbsp">tbsp</span> parmesan, finely grated</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="1" class="scalable">1</span> tbsp olive oil</li>
+                        <span data-default="1" class="scalable">1</span>
+                        <span data-unit="tbsp">tbsp</span> olive oil</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="50" class="scalable">50</span> g smoked pancetta, diced</li>
+                        <span data-default="50" class="scalable">50</span>
+                        <span data-unit="g">g</span> smoked pancetta, diced</li>
                     <li itemprop="recipeIngredient">
-                        <span data-default="200" class="scalable">200</span> g cherry tomatoes, halved</li>
+                        <span data-default="200" class="scalable">200</span>
+                        <span data-unit="g">g</span> cherry tomatoes, halved</li>
                 </ul>
             </div>
         
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Bring a pan of lightly salted water to the boil. Add the <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">broccoli</span> and boil for <b>5</b> mins. Scoop out with a slotted spoon and set aside.</li>
-                <li itemprop="recipeInstructions">Put the <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">pasta</span> in the same pan and cook following pack instructions. Meanwhile, tip the <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">broccoli</span> into a food processor with the <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">pine nuts</span>, <span data-default="1" data-quantity="1" data-unit="large bunch" class="tooltip scalable">basil</span>, <span data-default="1" data-quantity="1" data-unit="large clove" class="tooltip scalable">garlic</span>, <span data-default="2" data-quantity="2" data-unit="tbsp" class="tooltip scalable">parmesan</span> and <span data-default="1" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span>, and blitz until smooth. Season with black pepper and a little salt (the <span data-default="50" data-quantity="50" data-unit="g" class="tooltip scalable">pancetta</span> is very salty).</li>
-                <li itemprop="recipeInstructions">Set a frying pan over a medium heat and cook the <span data-default="50" data-quantity="50" data-unit="g" class="tooltip scalable">pancetta</span> for <b>2</b> mins. Add the <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">tomatoes</span> and cook&nbsp;for <b>3</b> mins, or until softened. Toss the <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">pasta</span> with the <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">broccoli</span> pesto, <span data-default="200" data-quantity="200" data-unit="g" class="tooltip scalable">tomatoes</span> and <span data-default="50" data-quantity="50" data-unit="g" class="tooltip scalable">pancetta</span>, and loosen with a splash of <span data-default="300" data-quantity="300" data-unit="g" class="tooltip scalable">pasta</span> water, if needed. Spoon into bowls and serve.</li>
+                <li itemprop="recipeInstructions">Bring a pan of lightly salted water to the boil. Add the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">broccoli</span> and boil for <b>5</b> mins. Scoop out with a slotted spoon and set aside.</li>
+                <li itemprop="recipeInstructions">Put the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">pasta</span> in the same pan and cook following pack instructions. Meanwhile, tip the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">broccoli</span> into a food processor with the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">pine nuts</span>, <span data-default="1" data-defaultunit="large bunch" data-quantity="1" data-unit="large bunch" class="tooltip scalable">basil</span>, <span data-default="1" data-defaultunit="large clove" data-quantity="1" data-unit="large clove" class="tooltip scalable">garlic</span>, <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">parmesan</span> and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span>, and blitz until smooth. Season with black pepper and a little salt (the <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">pancetta</span> is very salty).</li>
+                <li itemprop="recipeInstructions">Set a frying pan over a medium heat and cook the <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">pancetta</span> for <b>2</b> mins. Add the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">tomatoes</span> and cook&nbsp;for <b>3</b> mins, or until softened. Toss the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">pasta</span> with the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">broccoli</span> pesto, <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">tomatoes</span> and <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">pancetta</span>, and loosen with a splash of <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">pasta</span> water, if needed. Spoon into bowls and serve.</li>
                 </ol>
 
             <hr>
