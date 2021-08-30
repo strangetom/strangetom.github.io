@@ -5,6 +5,58 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>All-in one sausage and crispy potato bake</title>
+      <link>https://www.strangerfoods.org/recipes/all-in-one-sausage-and-crispy-potato-bake.html</link>
+      <description>
+        &lt;h1&gt;All-in one sausage and crispy potato bake&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;https://www.strangerfoods.org/images/All-in_one_sausage_and_crispy_potato_bake.webp&quot; style=&quot;text-align: center;&quot;/&gt;
+        &lt;br&gt;
+        &lt;p&gt;Move over bangers and mash, this tasty traybake is sure to become the new family favourite    &lt;/p&gt;
+      </description>
+      <pubDate>Thu, 26 Aug 2021 23:00:00 -0000</pubDate>
+      <guid>https://www.strangerfoods.org/recipes/all-in-one-sausage-and-crispy-potato-bake.html</guid>
+    </item>
+    <item>
+      <title>Melting meatball macaroni</title>
+      <link>https://www.strangerfoods.org/recipes/melting-meatball-macaroni.html</link>
+      <description>
+        &lt;h1&gt;Melting meatball macaroni&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;https://www.strangerfoods.org/images/Melting_meatball_macaroni.webp&quot; style=&quot;text-align: center;&quot;/&gt;
+        &lt;br&gt;
+        &lt;p&gt;This recipe has all the elements of comfort food: beef and pork meatballs with an oozing cheesy filling, a rich tomato sauce and pasta&lt;/p&gt;
+      </description>
+      <pubDate>Thu, 26 Aug 2021 23:00:00 -0000</pubDate>
+      <guid>https://www.strangerfoods.org/recipes/melting-meatball-macaroni.html</guid>
+    </item>
+    <item>
+      <title>Cheat's macaroni cheese with ham, peas and stilton</title>
+      <link>https://www.strangerfoods.org/recipes/cheats-macaroni-cheese-with-ham-peas-and-stilton.html</link>
+      <description>
+        &lt;h1&gt;Cheat's macaroni cheese with ham, peas and stilton&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;https://www.strangerfoods.org/images/Cheats_macaroni_cheese_with_ham_peas_and_stilton.webp&quot; style=&quot;text-align: center;&quot;/&gt;
+        &lt;br&gt;
+        &lt;p&gt;Step-by-step method for making Cheat's macaroni cheese with ham, peas and Stilton yourself.&lt;/p&gt;
+      </description>
+      <pubDate>Thu, 19 Aug 2021 23:00:00 -0000</pubDate>
+      <guid>https://www.strangerfoods.org/recipes/cheats-macaroni-cheese-with-ham-peas-and-stilton.html</guid>
+    </item>
+    <item>
+      <title>Grilled harissa sardines with fennel &#x26; potato salad</title>
+      <link>https://www.strangerfoods.org/recipes/grilled-harissa-sardines-with-fennel-potato-salad.html</link>
+      <description>
+        &lt;h1&gt;Grilled harissa sardines with fennel &#x26; potato salad&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;https://www.strangerfoods.org/images/Grilled_harissa_sardines_with_fennel_&#x26;_potato_salad.webp&quot; style=&quot;text-align: center;&quot;/&gt;
+        &lt;br&gt;
+        &lt;p&gt;Pair sardines with harissa to make this fabulous summer salad with fennel, olives and new potatoes. The freshness of the fennel really balances the richness of the fish&lt;/p&gt;
+      </description>
+      <pubDate>Thu, 19 Aug 2021 23:00:00 -0000</pubDate>
+      <guid>https://www.strangerfoods.org/recipes/grilled-harissa-sardines-with-fennel-potato-salad.html</guid>
+    </item>
+    <item>
       <title>Sweet potato pastilla</title>
       <link>https://www.strangerfoods.org/recipes/sweet-potato-pastilla.html</link>
       <description>
@@ -16,58 +68,6 @@
       </description>
       <pubDate>Tue, 10 Aug 2021 23:00:00 -0000</pubDate>
       <guid>https://www.strangerfoods.org/recipes/sweet-potato-pastilla.html</guid>
-    </item>
-    <item>
-      <title>Sweet potato cakes with poached eggs</title>
-      <link>https://www.strangerfoods.org/recipes/sweet-potato-cakes-with-poached-eggs.html</link>
-      <description>
-        &lt;h1&gt;Sweet potato cakes with poached eggs&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src=&quot;https://www.strangerfoods.org/images/Sweet_potato_cakes_with_poached_eggs.webp&quot; style=&quot;text-align: center;&quot;/&gt;
-        &lt;br&gt;
-        &lt;p&gt;Try these gluten-free sweet potato cakes with poached eggs for a weekend brunch, or as a quick dinner. They're spiced with harissa to wake up your tastebuds&lt;/p&gt;
-      </description>
-      <pubDate>Thu, 05 Aug 2021 23:00:00 -0000</pubDate>
-      <guid>https://www.strangerfoods.org/recipes/sweet-potato-cakes-with-poached-eggs.html</guid>
-    </item>
-    <item>
-      <title>Tuscan chicken pasta</title>
-      <link>https://www.strangerfoods.org/recipes/tuscan-chicken-pasta.html</link>
-      <description>
-        &lt;h1&gt;Tuscan chicken pasta&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src=&quot;https://www.strangerfoods.org/images/Tuscan_chicken_pasta.webp&quot; style=&quot;text-align: center;&quot;/&gt;
-        &lt;br&gt;
-        &lt;p&gt;Wholewheat pasta brings more fibre to this tasty recipe with chicken breast, tomatoes, garlic and spinach&lt;/p&gt;
-      </description>
-      <pubDate>Thu, 05 Aug 2021 23:00:00 -0000</pubDate>
-      <guid>https://www.strangerfoods.org/recipes/tuscan-chicken-pasta.html</guid>
-    </item>
-    <item>
-      <title>Soft lemon cookies</title>
-      <link>https://www.strangerfoods.org/recipes/soft-lemon-cookies.html</link>
-      <description>
-        &lt;h1&gt;Soft lemon cookies&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src=&quot;https://www.strangerfoods.org/images/Soft_lemon_cookies.webp&quot; style=&quot;text-align: center;&quot;/&gt;
-        &lt;br&gt;
-        &lt;p&gt;&lt;/p&gt;
-      </description>
-      <pubDate>Sun, 01 Aug 2021 23:00:00 -0000</pubDate>
-      <guid>https://www.strangerfoods.org/recipes/soft-lemon-cookies.html</guid>
-    </item>
-    <item>
-      <title>Salmon pasta salad with lemon &#x26; capers</title>
-      <link>https://www.strangerfoods.org/recipes/salmon-pasta-salad-with-lemon-capers.html</link>
-      <description>
-        &lt;h1&gt;Salmon pasta salad with lemon &#x26; capers&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src=&quot;https://www.strangerfoods.org/images/Salmon_pasta_salad_with_lemon_&#x26;_capers.webp&quot; style=&quot;text-align: center;&quot;/&gt;
-        &lt;br&gt;
-        &lt;p&gt;Use frozen, skinless wild salmon fillets for a cheap and filling lunch on the go. This low-calorie, healthy dish couldn't be easier to whip up&lt;/p&gt;
-      </description>
-      <pubDate>Thu, 29 Jul 2021 23:00:00 -0000</pubDate>
-      <guid>https://www.strangerfoods.org/recipes/salmon-pasta-salad-with-lemon-capers.html</guid>
     </item>
     </channel>
 </rss>
