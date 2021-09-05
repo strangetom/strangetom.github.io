@@ -5,6 +5,19 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Pasta del maresciallo</title>
+      <link>https://www.strangerfoods.org/recipes/pasta-del-maresciallo.html</link>
+      <description>
+        &lt;h1&gt;Pasta del maresciallo&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;https://www.strangerfoods.org/images/Pasta_del_maresciallo.webp&quot; style=&quot;text-align: center;&quot;/&gt;
+        &lt;br&gt;
+        &lt;p&gt;Quick pasta is our passion: an espresso sauce that is prepared during the cooking time of the pasta and that's it, no sudden guest will scare you anymore!&lt;/p&gt;
+      </description>
+      <pubDate>Mon, 30 Aug 2021 23:00:00 -0000</pubDate>
+      <guid>https://www.strangerfoods.org/recipes/pasta-del-maresciallo.html</guid>
+    </item>
+    <item>
       <title>All-in one sausage and crispy potato bake</title>
       <link>https://www.strangerfoods.org/recipes/all-in-one-sausage-and-crispy-potato-bake.html</link>
       <description>
@@ -55,19 +68,6 @@
       </description>
       <pubDate>Thu, 19 Aug 2021 23:00:00 -0000</pubDate>
       <guid>https://www.strangerfoods.org/recipes/grilled-harissa-sardines-with-fennel-potato-salad.html</guid>
-    </item>
-    <item>
-      <title>Sweet potato pastilla</title>
-      <link>https://www.strangerfoods.org/recipes/sweet-potato-pastilla.html</link>
-      <description>
-        &lt;h1&gt;Sweet potato pastilla&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src=&quot;https://www.strangerfoods.org/images/Sweet_potato_pastilla.webp&quot; style=&quot;text-align: center;&quot;/&gt;
-        &lt;br&gt;
-        &lt;p&gt;A Moroccan pastilla is traditionally filled with pigeon and apricots. This colourful vegetarian version uses sweet potato and cinnamon. Serve with roast carrots and buttered kale&lt;/p&gt;
-      </description>
-      <pubDate>Tue, 10 Aug 2021 23:00:00 -0000</pubDate>
-      <guid>https://www.strangerfoods.org/recipes/sweet-potato-pastilla.html</guid>
     </item>
     </channel>
 </rss>
