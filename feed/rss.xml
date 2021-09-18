@@ -5,6 +5,45 @@
     <description>A catalogue of recipes Tom has made.</description>
     <language>en</language>
     <item>
+      <title>Chicken bastilla</title>
+      <link>https://www.strangerfoods.org/recipes/chicken-bastilla.html</link>
+      <description>
+        &lt;h1&gt;Chicken bastilla&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;https://www.strangerfoods.org/images/Chicken_bastilla.webp&quot; style=&quot;text-align: center;&quot;/&gt;
+        &lt;br&gt;
+        &lt;p&gt;A bastilla is the pie equivalent of the Moroccan world and what a pie it is!&lt;/p&gt;
+      </description>
+      <pubDate>Wed, 15 Sep 2021 23:00:00 -0000</pubDate>
+      <guid>https://www.strangerfoods.org/recipes/chicken-bastilla.html</guid>
+    </item>
+    <item>
+      <title>Baked chicken tenders</title>
+      <link>https://www.strangerfoods.org/recipes/baked-chicken-tenders.html</link>
+      <description>
+        &lt;h1&gt;Baked chicken tenders&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;https://www.strangerfoods.org/images/Baked_chicken_tenders.webp&quot; style=&quot;text-align: center;&quot;/&gt;
+        &lt;br&gt;
+        &lt;p&gt;&lt;/p&gt;
+      </description>
+      <pubDate>Thu, 09 Sep 2021 23:00:00 -0000</pubDate>
+      <guid>https://www.strangerfoods.org/recipes/baked-chicken-tenders.html</guid>
+    </item>
+    <item>
+      <title>Lentil tagine with ginger and res el hanout</title>
+      <link>https://www.strangerfoods.org/recipes/lentil-tagine-with-ginger-and-res-el-hanout.html</link>
+      <description>
+        &lt;h1&gt;Lentil tagine with ginger and res el hanout&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;https://www.strangerfoods.org/images/Lentil_tagine_with_ginger_and_res_el_hanout.webp&quot; style=&quot;text-align: center;&quot;/&gt;
+        &lt;br&gt;
+        &lt;p&gt;Packed with flavour, this spicy lentil tagine is best served on its own with a dollop of thick, creamy yogurt, a Moroccan fruit chutney and toasted flatbread.&lt;/p&gt;
+      </description>
+      <pubDate>Thu, 09 Sep 2021 23:00:00 -0000</pubDate>
+      <guid>https://www.strangerfoods.org/recipes/lentil-tagine-with-ginger-and-res-el-hanout.html</guid>
+    </item>
+    <item>
       <title>Pasta del maresciallo</title>
       <link>https://www.strangerfoods.org/recipes/pasta-del-maresciallo.html</link>
       <description>
@@ -29,45 +68,6 @@
       </description>
       <pubDate>Thu, 26 Aug 2021 23:00:00 -0000</pubDate>
       <guid>https://www.strangerfoods.org/recipes/all-in-one-sausage-and-crispy-potato-bake.html</guid>
-    </item>
-    <item>
-      <title>Melting meatball macaroni</title>
-      <link>https://www.strangerfoods.org/recipes/melting-meatball-macaroni.html</link>
-      <description>
-        &lt;h1&gt;Melting meatball macaroni&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src=&quot;https://www.strangerfoods.org/images/Melting_meatball_macaroni.webp&quot; style=&quot;text-align: center;&quot;/&gt;
-        &lt;br&gt;
-        &lt;p&gt;This recipe has all the elements of comfort food: beef and pork meatballs with an oozing cheesy filling, a rich tomato sauce and pasta&lt;/p&gt;
-      </description>
-      <pubDate>Thu, 26 Aug 2021 23:00:00 -0000</pubDate>
-      <guid>https://www.strangerfoods.org/recipes/melting-meatball-macaroni.html</guid>
-    </item>
-    <item>
-      <title>Cheat's macaroni cheese with ham, peas and stilton</title>
-      <link>https://www.strangerfoods.org/recipes/cheats-macaroni-cheese-with-ham-peas-and-stilton.html</link>
-      <description>
-        &lt;h1&gt;Cheat's macaroni cheese with ham, peas and stilton&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src=&quot;https://www.strangerfoods.org/images/Cheats_macaroni_cheese_with_ham_peas_and_stilton.webp&quot; style=&quot;text-align: center;&quot;/&gt;
-        &lt;br&gt;
-        &lt;p&gt;Step-by-step method for making Cheat's macaroni cheese with ham, peas and Stilton yourself.&lt;/p&gt;
-      </description>
-      <pubDate>Thu, 19 Aug 2021 23:00:00 -0000</pubDate>
-      <guid>https://www.strangerfoods.org/recipes/cheats-macaroni-cheese-with-ham-peas-and-stilton.html</guid>
-    </item>
-    <item>
-      <title>Grilled harissa sardines with fennel &#x26; potato salad</title>
-      <link>https://www.strangerfoods.org/recipes/grilled-harissa-sardines-with-fennel-potato-salad.html</link>
-      <description>
-        &lt;h1&gt;Grilled harissa sardines with fennel &#x26; potato salad&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src=&quot;https://www.strangerfoods.org/images/Grilled_harissa_sardines_with_fennel_&#x26;_potato_salad.webp&quot; style=&quot;text-align: center;&quot;/&gt;
-        &lt;br&gt;
-        &lt;p&gt;Pair sardines with harissa to make this fabulous summer salad with fennel, olives and new potatoes. The freshness of the fennel really balances the richness of the fish&lt;/p&gt;
-      </description>
-      <pubDate>Thu, 19 Aug 2021 23:00:00 -0000</pubDate>
-      <guid>https://www.strangerfoods.org/recipes/grilled-harissa-sardines-with-fennel-potato-salad.html</guid>
     </item>
     </channel>
 </rss>
