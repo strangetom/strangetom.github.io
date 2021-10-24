@@ -1,73 +1,67 @@
-<rss version="2.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Stranger Foods</title>
-    <link>https://www.strangerfoods.org</link>
+    <link>https://strangerfoods.org</link>
     <description>A catalogue of recipes Tom has made.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
     <language>en</language>
+    <lastBuildDate>Sun, 24 Oct 2021 11:13:05 +0000</lastBuildDate>
     <item>
-      <title>Homemade hamburger helper</title>
-      <link>https://www.strangerfoods.org/recipes/homemade-hamburger-helper.html</link>
-      <description>
-        &lt;h1&gt;Homemade hamburger helper&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src=&quot;https://www.strangerfoods.org/images/Homemade_hamburger_helper.webp&quot; style=&quot;text-align: center;&quot;/&gt;
-        &lt;br&gt;
-        &lt;p&gt;&lt;/p&gt;
-      </description>
-      <pubDate>Wed, 06 Oct 2021 23:00:00 -0000</pubDate>
-      <guid>https://www.strangerfoods.org/recipes/homemade-hamburger-helper.html</guid>
+      <title>Lamb tagine</title>
+      <link>https://www.strangerfoods.org/recipes/lamb-tagine.html</link>
+      <description>&lt;h1&gt;Lamb tagine&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Lamb_tagine.webp" style="text-align: center;"/&gt;
+            &lt;br&gt;
+            &lt;p&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/lamb-tagine.html</guid>
+      <pubDate>Wed, 29 Sep 2021 23:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Sausage, apple and stilton strudel</title>
       <link>https://www.strangerfoods.org/recipes/sausage-apple-and-stilton-strudel.html</link>
-      <description>
-        &lt;h1&gt;Sausage, apple and stilton strudel&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src=&quot;https://www.strangerfoods.org/images/Sausage_apple_and_stilton_strudel.webp&quot; style=&quot;text-align: center;&quot;/&gt;
-        &lt;br&gt;
-        &lt;p&gt;The strudel can be served as a starter or main, sliced up for buffet-type parties, or even made into bite-size treats.'&lt;/p&gt;
-      </description>
-      <pubDate>Wed, 06 Oct 2021 23:00:00 -0000</pubDate>
-      <guid>https://www.strangerfoods.org/recipes/sausage-apple-and-stilton-strudel.html</guid>
+      <description>&lt;h1&gt;Sausage, apple and stilton strudel&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Sausage_apple_and_stilton_strudel.webp" style="text-align: center;"/&gt;
+            &lt;br&gt;
+            &lt;p&gt;The strudel can be served as a starter or main, sliced up for buffet-type parties, or even made into bite-size treats.'&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/sausage-apple-and-stilton-strudel.html</guid>
+      <pubDate>Wed, 06 Oct 2021 23:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Lamb tagine</title>
-      <link>https://www.strangerfoods.org/recipes/lamb-tagine.html</link>
-      <description>
-        &lt;h1&gt;Lamb tagine&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src=&quot;https://www.strangerfoods.org/images/Lamb_tagine.webp&quot; style=&quot;text-align: center;&quot;/&gt;
-        &lt;br&gt;
-        &lt;p&gt;&lt;/p&gt;
-      </description>
-      <pubDate>Wed, 29 Sep 2021 23:00:00 -0000</pubDate>
-      <guid>https://www.strangerfoods.org/recipes/lamb-tagine.html</guid>
+      <title>Homemade hamburger helper</title>
+      <link>https://www.strangerfoods.org/recipes/homemade-hamburger-helper.html</link>
+      <description>&lt;h1&gt;Homemade hamburger helper&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Homemade_hamburger_helper.webp" style="text-align: center;"/&gt;
+            &lt;br&gt;
+            &lt;p&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/homemade-hamburger-helper.html</guid>
+      <pubDate>Wed, 06 Oct 2021 23:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Hearty lentil one pot</title>
-      <link>https://www.strangerfoods.org/recipes/hearty-lentil-one-pot.html</link>
-      <description>
-        &lt;h1&gt;Hearty lentil one pot&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src=&quot;https://www.strangerfoods.org/images/Hearty_lentil_one_pot.webp&quot; style=&quot;text-align: center;&quot;/&gt;
-        &lt;br&gt;
-        &lt;p&gt;Providing an impressive five of your 5-a-day in each portion, this filling vegan stew is low calorie and low fat, and also provides fibre, vitamin C, iron and calcium&lt;/p&gt;
-      </description>
-      <pubDate>Thu, 23 Sep 2021 23:00:00 -0000</pubDate>
-      <guid>https://www.strangerfoods.org/recipes/hearty-lentil-one-pot.html</guid>
+      <title>Frying pan hawaiian pizza</title>
+      <link>https://www.strangerfoods.org/recipes/frying-pan-hawaiian-pizza.html</link>
+      <description>&lt;h1&gt;Frying pan hawaiian pizza&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Frying_pan_hawaiian_pizza.webp" style="text-align: center;"/&gt;
+            &lt;br&gt;
+            &lt;p&gt;Cooking this retro deep-dish pizza in a frying pan makes a super-crisp base and fluffy crust. Don't miss out on the dipping sauce! &lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/frying-pan-hawaiian-pizza.html</guid>
+      <pubDate>Wed, 13 Oct 2021 23:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Poached fish with ginger &#x26; sesame broth</title>
-      <link>https://www.strangerfoods.org/recipes/poached-fish-with-ginger-sesame-broth.html</link>
-      <description>
-        &lt;h1&gt;Poached fish with ginger &#x26; sesame broth&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src=&quot;https://www.strangerfoods.org/images/Poached_fish_with_ginger_&#x26;_sesame_broth.webp&quot; style=&quot;text-align: center;&quot;/&gt;
-        &lt;br&gt;
-        &lt;p&gt;Frozen soya beans add to the protein in the subtle-tasting broth that's packed with white fish and vegetables.&lt;/p&gt;
-      </description>
-      <pubDate>Thu, 23 Sep 2021 23:00:00 -0000</pubDate>
-      <guid>https://www.strangerfoods.org/recipes/poached-fish-with-ginger-sesame-broth.html</guid>
+      <title>Beef braised in beer</title>
+      <link>https://www.strangerfoods.org/recipes/beef-braised-in-beer.html</link>
+      <description>&lt;h1&gt;Beef braised in beer&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Beef_braised_in_beer.webp" style="text-align: center;"/&gt;
+            &lt;br&gt;
+            &lt;p&gt;Hearty slow cooked casserole for cold days. Beef braising or stewing cubes cooked with root vegetables and stout topped with herby dumplings.&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/beef-braised-in-beer.html</guid>
+      <pubDate>Wed, 20 Oct 2021 23:00:00 +0000</pubDate>
     </item>
-    </channel>
+  </channel>
 </rss>
