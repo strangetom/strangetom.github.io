@@ -1,0 +1,60 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Stranger Foods",
+  "home_page_url": "https://strangerfoods.org",
+  "feed_url": "https://strangerfoods.org/feed/feed.json",
+  "description": "A catalogue of recipes Tom has made.",
+  "authors": [
+    {
+      "name": "Tom Strange"
+    }
+  ],
+  "language": "en",
+  "items": [
+    {
+      "id": "https://www.strangerfoods.org/recipes/beef-braised-in-beer.html",
+      "url": "https://www.strangerfoods.org/recipes/beef-braised-in-beer.html",
+      "title": "Beef braised in beer",
+      "content_html": "<h1>Beef braised in beer</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Beef_braised_in_beer.webp\" style=\"text-align: center;\"/>\n            <br>\n            <p>Hearty slow cooked casserole for cold days. Beef braising or stewing cubes cooked with root vegetables and stout topped with herby dumplings.</p>",
+      "image": "https://www.strangerfoods.org/images/Beef_braised_in_beer.webp",
+      "date_published": "Wed, 20 Oct 2021 23:00:00 -0000",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/frying-pan-hawaiian-pizza.html",
+      "url": "https://www.strangerfoods.org/recipes/frying-pan-hawaiian-pizza.html",
+      "title": "Frying pan hawaiian pizza",
+      "content_html": "<h1>Frying pan hawaiian pizza</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Frying_pan_hawaiian_pizza.webp\" style=\"text-align: center;\"/>\n            <br>\n            <p>Cooking this retro deep-dish pizza in a frying pan makes a super-crisp base and fluffy crust. Don't miss out on the dipping sauce! </p>",
+      "image": "https://www.strangerfoods.org/images/Frying_pan_hawaiian_pizza.webp",
+      "date_published": "Wed, 13 Oct 2021 23:00:00 -0000",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/homemade-hamburger-helper.html",
+      "url": "https://www.strangerfoods.org/recipes/homemade-hamburger-helper.html",
+      "title": "Homemade hamburger helper",
+      "content_html": "<h1>Homemade hamburger helper</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Homemade_hamburger_helper.webp\" style=\"text-align: center;\"/>\n            <br>\n            <p></p>",
+      "image": "https://www.strangerfoods.org/images/Homemade_hamburger_helper.webp",
+      "date_published": "Wed, 06 Oct 2021 23:00:00 -0000",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/sausage-apple-and-stilton-strudel.html",
+      "url": "https://www.strangerfoods.org/recipes/sausage-apple-and-stilton-strudel.html",
+      "title": "Sausage, apple and stilton strudel",
+      "content_html": "<h1>Sausage, apple and stilton strudel</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Sausage_apple_and_stilton_strudel.webp\" style=\"text-align: center;\"/>\n            <br>\n            <p>The strudel can be served as a starter or main, sliced up for buffet-type parties, or even made into bite-size treats.'</p>",
+      "image": "https://www.strangerfoods.org/images/Sausage_apple_and_stilton_strudel.webp",
+      "date_published": "Wed, 06 Oct 2021 23:00:00 -0000",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/lamb-tagine.html",
+      "url": "https://www.strangerfoods.org/recipes/lamb-tagine.html",
+      "title": "Lamb tagine",
+      "content_html": "<h1>Lamb tagine</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Lamb_tagine.webp\" style=\"text-align: center;\"/>\n            <br>\n            <p></p>",
+      "image": "https://www.strangerfoods.org/images/Lamb_tagine.webp",
+      "date_published": "Wed, 29 Sep 2021 23:00:00 -0000",
+      "language": "en"
+    }
+  ]
+}
