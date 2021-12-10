@@ -7,40 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Nov 2021 12:58:53 +0000</lastBuildDate>
-    <item>
-      <title>The big bosh! burger</title>
-      <link>https://www.strangerfoods.org/recipes/the-big-bosh-burger</link>
-      <description>&lt;h1&gt;The big bosh! burger&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/The_big_bosh_burger.webp" style="text-align: center;"/&gt;
-            &lt;br&gt;
-            &lt;p&gt;We do love a good burger, and creating a big meaty tasting burger was high up on our list of priorities. This one gets its richness from sweet potatoes, black beans and a whole host of herbs.&lt;/p&gt;</description>
-      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/the-big-bosh-burger</guid>
-      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Speedy lamb naans</title>
-      <link>https://www.strangerfoods.org/recipes/speedy-lamb-naans</link>
-      <description>&lt;h1&gt;Speedy lamb naans&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Speedy_lamb_naans.webp" style="text-align: center;"/&gt;
-            &lt;br&gt;
-            &lt;p&gt;These speedy lamb naans with lamb mince are an ideal quick supper dish that uses only five ingredients - lamb mince, sun-dried tomatoes, baby spinach leaves, plain naan bread, mozzerella cheese and some store cupboard ingredients.&lt;/p&gt;</description>
-      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/speedy-lamb-naans</guid>
-      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Aushak - afghan dumplings</title>
-      <link>https://www.strangerfoods.org/recipes/aushak-afghan-dumplings</link>
-      <description>&lt;h1&gt;Aushak - afghan dumplings&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Aushak_afghan_dumplings.webp" style="text-align: center;"/&gt;
-            &lt;br&gt;
-            &lt;p&gt;Aushak are an Afghan version of dumplings, usually filled with leeks, onions, or chives. It's served with creamy garlic yogurt and a hearty tomato-based meat or lentil sauce. As aushak are time-consuming to make, this dish is usually reserved for special occasions. Filling and sealing the aushak is a wonderful opportunity to sit together and prepare this lovely dish in good company.&lt;/p&gt;</description>
-      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/aushak-afghan-dumplings</guid>
-      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 10 Dec 2021 19:54:20 +0000</lastBuildDate>
     <item>
       <title>Confit tandoori chickpeas</title>
       <link>https://www.strangerfoods.org/recipes/confit-tandoori-chickpeas</link>
@@ -62,6 +29,39 @@
             &lt;p&gt;Berbere is an Ethiopian spice blend with quite a bit of a kick, so use a little less if you’re not into heat. We use store-bought berbere spice, but you can also toast and grind your own homemade blend, especially if you have a well-stocked spice rack. We love this for being a complete meal in a tray, but wouldn’t say no to a big ol’ bowl of greens to eat alongside.&lt;/p&gt;</description>
       <guid isPermaLink="true">https://www.strangerfoods.org/recipes/berbere-spiced-chicken-carrots-and-chickpeas</guid>
       <pubDate>Wed, 17 Nov 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chickpea pancakes with mango pickle yoghurt</title>
+      <link>https://www.strangerfoods.org/recipes/chickpea-pancakes-with-mango-pickle-yoghurt</link>
+      <description>&lt;h1&gt;Chickpea pancakes with mango pickle yoghurt&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Chickpea_pancakes_with_mango_pickle_yoghurt.webp" style="text-align: center;"/&gt;
+            &lt;br&gt;
+            &lt;p&gt;These vegan pancakes, flavoured with ginger, garlic and chilli, are thick, light and soft all at once – sort of like savoury American-style pancakes. Soft-boiled eggs are a welcome addition, but feel free to leave out the egg and use a yoghurt alternative if you want to keep things vegan.&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/chickpea-pancakes-with-mango-pickle-yoghurt</guid>
+      <pubDate>Sun, 21 Nov 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mushrooms and dumplings</title>
+      <link>https://www.strangerfoods.org/recipes/mushrooms-and-dumplings</link>
+      <description>&lt;h1&gt;Mushrooms and dumplings&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Mushrooms_and_dumplings.webp" style="text-align: center;"/&gt;
+            &lt;br&gt;
+            &lt;p&gt;This hearty vegetarian riff on chicken and dumplings uses meaty fresh mushrooms and concentrated dried mushrooms to quickly build layers of rich flavor.&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/mushrooms-and-dumplings</guid>
+      <pubDate>Tue, 30 Nov 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sausages with parsnip and apple mash</title>
+      <link>https://www.strangerfoods.org/recipes/sausages-with-parsnip-and-apple-mash</link>
+      <description>&lt;h1&gt;Sausages with parsnip and apple mash&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Sausages_with_parsnip_and_apple_mash.webp" style="text-align: center;"/&gt;
+            &lt;br&gt;
+            &lt;p&gt;Add a touch of sweetness to your bangers and mash with the addition of parsnips and a cider-laced onion gravy&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/sausages-with-parsnip-and-apple-mash</guid>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
