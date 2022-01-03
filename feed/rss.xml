@@ -7,29 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 01 Jan 2022 17:23:22 +0000</lastBuildDate>
-    <item>
-      <title>Mushrooms and dumplings</title>
-      <link>https://www.strangerfoods.org/recipes/mushrooms-and-dumplings</link>
-      <description>&lt;h1&gt;Mushrooms and dumplings&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Mushrooms_and_dumplings.webp" style="text-align: center;"/&gt;
-            &lt;br&gt;
-            &lt;p&gt;This hearty vegetarian riff on chicken and dumplings uses meaty fresh mushrooms and concentrated dried mushrooms to quickly build layers of rich flavor.&lt;/p&gt;</description>
-      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/mushrooms-and-dumplings</guid>
-      <pubDate>Tue, 30 Nov 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sausages with parsnip and apple mash</title>
-      <link>https://www.strangerfoods.org/recipes/sausages-with-parsnip-and-apple-mash</link>
-      <description>&lt;h1&gt;Sausages with parsnip and apple mash&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Sausages_with_parsnip_and_apple_mash.webp" style="text-align: center;"/&gt;
-            &lt;br&gt;
-            &lt;p&gt;Add a touch of sweetness to your bangers and mash with the addition of parsnips and a cider-laced onion gravy&lt;/p&gt;</description>
-      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/sausages-with-parsnip-and-apple-mash</guid>
-      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 03 Jan 2022 16:28:39 +0000</lastBuildDate>
     <item>
       <title>Sausage and chorizo ragu</title>
       <link>https://www.strangerfoods.org/recipes/sausage-and-chorizo-ragu</link>
@@ -37,7 +15,7 @@
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Sausage_and_chorizo_ragu.webp" style="text-align: center;"/&gt;
             &lt;br&gt;
-            &lt;p&gt;Smoky chorizo and crispy sausage all cooked down in a rich tomato stew with chunky rigatoni. Why didn’t we think of this before?&lt;/p&gt;</description>
+            &lt;p&gt;Smoky chorizo and crispy sausage all cooked down in a rich tomato stew with chunky rigatoni. Why didn't we think of this before?&lt;/p&gt;</description>
       <guid isPermaLink="true">https://www.strangerfoods.org/recipes/sausage-and-chorizo-ragu</guid>
       <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
     </item>
@@ -62,6 +40,28 @@
             &lt;p&gt;&lt;/p&gt;</description>
       <guid isPermaLink="true">https://www.strangerfoods.org/recipes/polpette-in-bianco</guid>
       <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lemon and poppy seed cake</title>
+      <link>https://www.strangerfoods.org/recipes/lemon-and-poppy-seed-cake</link>
+      <description>&lt;h1&gt;Lemon and poppy seed cake&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Lemon_and_poppy_seed_cake.webp" style="text-align: center;"/&gt;
+            &lt;br&gt;
+            &lt;p&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/lemon-and-poppy-seed-cake</guid>
+      <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Classic french toast</title>
+      <link>https://www.strangerfoods.org/recipes/classic-french-toast</link>
+      <description>&lt;h1&gt;Classic french toast&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Classic_french_toast.webp" style="text-align: center;"/&gt;
+            &lt;br&gt;
+            &lt;p&gt;Here's a recipe for the kind of French toast people line up for outside restaurants on Sunday morning. It's simple: no new ingredients, tools or technology needed. You don't even need stale bread. What you do need is thick-cut white bread, dunked into an egg-milk mixture with extra richness from egg yolks and heavy cream. That gives the French toast a buttery taste and firm but fluffy texture.&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/classic-french-toast</guid>
+      <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
