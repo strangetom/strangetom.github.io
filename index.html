@@ -41,7 +41,7 @@
             </div>
 
             <div id="search-name">
-                <input id="name-pattern" class="search-pattern" type="text" placeholder="Search 530 recipes" aria-label="Search for recipes">
+                <input id="name-pattern" class="search-pattern" type="text" placeholder="Search 535 recipes" aria-label="Search for recipes">
             </div>
 
             <div id="search-ingredient" class="tab-content-hidden">
@@ -53,12 +53,12 @@
                 <select id="select">
                     <option value="">Select a category</option>
                     <optgroup id="category-select" label="Categories">
-                        <option value="Dessert">Dessert (16)</option>
-                        <option value="Pork">Pork (97)</option>
-                        <option value="Poultry">Poultry (102)</option>
-                        <option value="RedMeat">RedMeat (79)</option>
+                        <option value="Dessert">Dessert (18)</option>
+                        <option value="Pork">Pork (98)</option>
+                        <option value="Poultry">Poultry (104)</option>
+                        <option value="RedMeat">Red Meat (78)</option>
                         <option value="Seafood">Seafood (97)</option>
-                        <option value="Veggie">Veggie (139)</option>
+                        <option value="Veggie">Veggie (140)</option>
                         </optgroup>
                     <optgroup id="cuisine-select" label="Cuisine">
                        <option value="Afghan">Afghan (1)</option>
@@ -75,13 +75,14 @@
                         <option value="Hungarian">Hungarian (2)</option>
                         <option value="Indian">Indian (24)</option>
                         <option value="Iranian">Iranian (4)</option>
-                        <option value="Italian">Italian (41)</option>
+                        <option value="Italian">Italian (42)</option>
                         <option value="Japanese">Japanese (1)</option>
                         <option value="Mediterranean">Mediterranean (7)</option>
                         <option value="Mexican">Mexican (14)</option>
-                        <option value="Middle Eastern">Middle Eastern (9)</option>
+                        <option value="Middle Eastern">Middle Eastern (10)</option>
                         <option value="Moroccan">Moroccan (20)</option>
                         <option value="North African">North African (1)</option>
+                        <option value="Peruvian">Peruvian (1)</option>
                         <option value="Portuguese">Portuguese (1)</option>
                         <option value="Russian">Russian (1)</option>
                         <option value="Spanish">Spanish (11)</option>
@@ -89,10 +90,17 @@
                         <option value="Turkish">Turkish (2)</option>
                         </optgroup>
                     <optgroup id="diet-select" label="Diet">
-                        <option value="DairyFree">DairyFree (22)</option>
-                        <option value="GlutenFree">GlutenFree (66)</option>
-                        <option value="NutFree">NutFree (5)</option>
-                        <option value="Vegan">Vegan (21)</option>
+                        <option value="DairyFree">Dairy Free (22)</option>
+                        <option value="GlutenFree">Gluten Free (66)</option>
+                        <option value="NutFree">Nut Free (7)</option>
+                        <option value="Vegan">Vegan (22)</option>
+                        </optgroup>
+                    <optgroup id="tags-select" label="Tags">
+                        <option value="beef">Beef (36)</option>
+                        <option value="cake">Cake (8)</option>
+                        <option value="cookies">Cookies (2)</option>
+                        <option value="lamb">Lamb (40)</option>
+                        <option value="pie">Pie (26)</option>
                         </optgroup>
                 </select>
             </div>
@@ -107,6 +115,83 @@
         <section id="recent">
             <button class="recent-btn" id="recent-btn">Recent recipes</button>
             <div id="slider" class="slider closed">
+                <div class="recent-item">
+                    <a href="./recipes/chicken-shawarma-pie">
+                        <img class="recent-photo" src="./images/Chicken_shawarma_pie.webp" alt="Chicken shawarma pie" width="512" height="288">
+                        <div>
+                            <h2 class="recent-title">Chicken shawarma pie</h2>
+                            <span class="recipe-meta Poultry"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="#fff" stroke-width="10"></circle><path stroke="#fff" fill="none" stroke-width="10" d="M50 15v35l25 25"></path></svg>
+                            2 hr 30 mins</span>
+                            <span class="recipe-meta Poultry"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 60 90"><g fill="#fff"><path d="M26.814 21.33c0-10.2-6.003-21.3-13.407-21.3C6.002.03 0 11.13 0 21.33c0 6.429 2.387 10.96 6.006 13.433 2.262 1.546 3.647 4.075 3.599 6.814l-.76 43.582c-.042 2.419 1.717 4.6 4.126 4.824a4.568 4.568 0 005.003-4.626l-.764-43.78c-.048-2.739 1.338-5.268 3.599-6.814 3.618-2.474 6.005-7.004 6.005-13.433zM60.983 29.703L60.219.973a1 1 0 00-1-.973h-2.222a1 1 0 00-1 1v24.127a1 1 0 01-1 1h-1.915a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.297a1 1 0 00-1 1v24.127a1 1 0 01-1 1H44.87a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.222a1 1 0 00-1 .973l-.764 28.73a3.999 3.999 0 002.961 3.969l2.14.575a2.998 2.998 0 012.221 2.95l-.84 48.159a4.566 4.566 0 109.132 0l-.84-48.159a3.001 3.001 0 012.221-2.95l2.14-.575a3.998 3.998 0 002.964-3.969z"></path></g></svg>
+                            Serves 6</span>
+                            <span class="recipe-meta Poultry">
+                                <svg class="meta-icon" viewBox="0 0 24 31" xmlns="http://www.w3.org/2000/svg"><path d="M12.26 1.5C5.489 1.5 2 5.489 2 12.26S10.627 31 12.26 31c1.633 0 10.26-11.969 10.26-18.74 0-6.771-3.489-10.76-10.26-10.76zm0 15.139c-6.423 0-6.423-9.634 0-9.634a4.817 4.817 0 110 9.634z" fill="#fff"/></svg>
+                                Middle Eastern
+                            </span>
+                            </div>
+                    </a>
+                </div>
+                <div class="recent-item">
+                    <a href="./recipes/tessas-spice-cake">
+                        <img class="recent-photo" src="./images/Tessas_spice_cake.webp" alt="Tessa’s spice cake" width="512" height="288">
+                        <div>
+                            <h2 class="recent-title">Tessa’s spice cake</h2>
+                            <span class="recipe-meta Dessert"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="#fff" stroke-width="10"></circle><path stroke="#fff" fill="none" stroke-width="10" d="M50 15v35l25 25"></path></svg>
+                            1 hr 15 mins</span>
+                            <span class="recipe-meta Dessert"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 60 90"><g fill="#fff"><path d="M26.814 21.33c0-10.2-6.003-21.3-13.407-21.3C6.002.03 0 11.13 0 21.33c0 6.429 2.387 10.96 6.006 13.433 2.262 1.546 3.647 4.075 3.599 6.814l-.76 43.582c-.042 2.419 1.717 4.6 4.126 4.824a4.568 4.568 0 005.003-4.626l-.764-43.78c-.048-2.739 1.338-5.268 3.599-6.814 3.618-2.474 6.005-7.004 6.005-13.433zM60.983 29.703L60.219.973a1 1 0 00-1-.973h-2.222a1 1 0 00-1 1v24.127a1 1 0 01-1 1h-1.915a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.297a1 1 0 00-1 1v24.127a1 1 0 01-1 1H44.87a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.222a1 1 0 00-1 .973l-.764 28.73a3.999 3.999 0 002.961 3.969l2.14.575a2.998 2.998 0 012.221 2.95l-.84 48.159a4.566 4.566 0 109.132 0l-.84-48.159a3.001 3.001 0 012.221-2.95l2.14-.575a3.998 3.998 0 002.964-3.969z"></path></g></svg>
+                            Serves 12</span>
+                            <span class="recipe-meta Dessert">Nut Free</span>
+                            </div>
+                    </a>
+                </div>
+                <div class="recent-item">
+                    <a href="./recipes/peruvian-style-grilled-chicken-sandwiches-with-spicy-green-sauce-recipe">
+                        <img class="recent-photo" src="./images/Peruvian-style_grilled-chicken_sandwiches_with_spicy_green_sauce_recipe.webp" alt="Peruvian-style grilled-chicken sandwiches with spicy green sauce recipe" width="512" height="288">
+                        <div>
+                            <h2 class="recent-title">Peruvian-style grilled-chicken sandwiches with spicy green sauce recipe</h2>
+                            <span class="recipe-meta Poultry"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="#fff" stroke-width="10"></circle><path stroke="#fff" fill="none" stroke-width="10" d="M50 15v35l25 25"></path></svg>
+                            40 mins</span>
+                            <span class="recipe-meta Poultry"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 60 90"><g fill="#fff"><path d="M26.814 21.33c0-10.2-6.003-21.3-13.407-21.3C6.002.03 0 11.13 0 21.33c0 6.429 2.387 10.96 6.006 13.433 2.262 1.546 3.647 4.075 3.599 6.814l-.76 43.582c-.042 2.419 1.717 4.6 4.126 4.824a4.568 4.568 0 005.003-4.626l-.764-43.78c-.048-2.739 1.338-5.268 3.599-6.814 3.618-2.474 6.005-7.004 6.005-13.433zM60.983 29.703L60.219.973a1 1 0 00-1-.973h-2.222a1 1 0 00-1 1v24.127a1 1 0 01-1 1h-1.915a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.297a1 1 0 00-1 1v24.127a1 1 0 01-1 1H44.87a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.222a1 1 0 00-1 .973l-.764 28.73a3.999 3.999 0 002.961 3.969l2.14.575a2.998 2.998 0 012.221 2.95l-.84 48.159a4.566 4.566 0 109.132 0l-.84-48.159a3.001 3.001 0 012.221-2.95l2.14-.575a3.998 3.998 0 002.964-3.969z"></path></g></svg>
+                            Serves 4</span>
+                            <span class="recipe-meta Poultry">Nutrition &#10003;</span>
+                            <span class="recipe-meta Poultry">
+                                <svg class="meta-icon" viewBox="0 0 24 31" xmlns="http://www.w3.org/2000/svg"><path d="M12.26 1.5C5.489 1.5 2 5.489 2 12.26S10.627 31 12.26 31c1.633 0 10.26-11.969 10.26-18.74 0-6.771-3.489-10.76-10.26-10.76zm0 15.139c-6.423 0-6.423-9.634 0-9.634a4.817 4.817 0 110 9.634z" fill="#fff"/></svg>
+                                Peruvian
+                            </span>
+                            </div>
+                    </a>
+                </div>
+                <div class="recent-item">
+                    <a href="./recipes/gnocchi-with-mushroom-lentil-ragu">
+                        <img class="recent-photo" src="./images/Gnocchi_with_mushroom-lentil_ragu.webp" alt="Gnocchi with mushroom-lentil ragu" width="512" height="288">
+                        <div>
+                            <h2 class="recent-title">Gnocchi with mushroom-lentil ragu</h2>
+                            <span class="recipe-meta Veggie"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="#fff" stroke-width="10"></circle><path stroke="#fff" fill="none" stroke-width="10" d="M50 15v35l25 25"></path></svg>
+                            30 mins</span>
+                            <span class="recipe-meta Veggie"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 60 90"><g fill="#fff"><path d="M26.814 21.33c0-10.2-6.003-21.3-13.407-21.3C6.002.03 0 11.13 0 21.33c0 6.429 2.387 10.96 6.006 13.433 2.262 1.546 3.647 4.075 3.599 6.814l-.76 43.582c-.042 2.419 1.717 4.6 4.126 4.824a4.568 4.568 0 005.003-4.626l-.764-43.78c-.048-2.739 1.338-5.268 3.599-6.814 3.618-2.474 6.005-7.004 6.005-13.433zM60.983 29.703L60.219.973a1 1 0 00-1-.973h-2.222a1 1 0 00-1 1v24.127a1 1 0 01-1 1h-1.915a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.297a1 1 0 00-1 1v24.127a1 1 0 01-1 1H44.87a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.222a1 1 0 00-1 .973l-.764 28.73a3.999 3.999 0 002.961 3.969l2.14.575a2.998 2.998 0 012.221 2.95l-.84 48.159a4.566 4.566 0 109.132 0l-.84-48.159a3.001 3.001 0 012.221-2.95l2.14-.575a3.998 3.998 0 002.964-3.969z"></path></g></svg>
+                            Serves 2</span>
+                            <span class="recipe-meta Veggie">Nutrition &#10003;</span>
+                            <span class="recipe-meta Veggie">Vegan</span>
+                            <span class="recipe-meta Veggie">
+                                <svg class="meta-icon" viewBox="0 0 24 31" xmlns="http://www.w3.org/2000/svg"><path d="M12.26 1.5C5.489 1.5 2 5.489 2 12.26S10.627 31 12.26 31c1.633 0 10.26-11.969 10.26-18.74 0-6.771-3.489-10.76-10.26-10.76zm0 15.139c-6.423 0-6.423-9.634 0-9.634a4.817 4.817 0 110 9.634z" fill="#fff"/></svg>
+                                Italian
+                            </span>
+                            </div>
+                    </a>
+                </div>
+                <div class="recent-item">
+                    <a href="./recipes/spiced-apple-cake">
+                        <img class="recent-photo" src="./images/Spiced_apple_cake.webp" alt="Spiced apple cake" width="512" height="288">
+                        <div>
+                            <h2 class="recent-title">Spiced apple cake</h2>
+                            <span class="recipe-meta Dessert"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="#fff" stroke-width="10"></circle><path stroke="#fff" fill="none" stroke-width="10" d="M50 15v35l25 25"></path></svg>
+                            1 hr 25 mins</span>
+                            <span class="recipe-meta Dessert"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 60 90"><g fill="#fff"><path d="M26.814 21.33c0-10.2-6.003-21.3-13.407-21.3C6.002.03 0 11.13 0 21.33c0 6.429 2.387 10.96 6.006 13.433 2.262 1.546 3.647 4.075 3.599 6.814l-.76 43.582c-.042 2.419 1.717 4.6 4.126 4.824a4.568 4.568 0 005.003-4.626l-.764-43.78c-.048-2.739 1.338-5.268 3.599-6.814 3.618-2.474 6.005-7.004 6.005-13.433zM60.983 29.703L60.219.973a1 1 0 00-1-.973h-2.222a1 1 0 00-1 1v24.127a1 1 0 01-1 1h-1.915a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.297a1 1 0 00-1 1v24.127a1 1 0 01-1 1H44.87a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.222a1 1 0 00-1 .973l-.764 28.73a3.999 3.999 0 002.961 3.969l2.14.575a2.998 2.998 0 012.221 2.95l-.84 48.159a4.566 4.566 0 109.132 0l-.84-48.159a3.001 3.001 0 012.221-2.95l2.14-.575a3.998 3.998 0 002.964-3.969z"></path></g></svg>
+                            Serves 10</span>
+                            <span class="recipe-meta Dessert">Nut Free</span>
+                            </div>
+                    </a>
+                </div>
                 <div class="recent-item">
                     <a href="./recipes/classic-french-toast">
                         <img class="recent-photo" src="./images/Classic_french_toast.webp" alt="Classic french toast" width="512" height="288">
@@ -145,72 +230,6 @@
                                 <svg class="meta-icon" viewBox="0 0 24 31" xmlns="http://www.w3.org/2000/svg"><path d="M12.26 1.5C5.489 1.5 2 5.489 2 12.26S10.627 31 12.26 31c1.633 0 10.26-11.969 10.26-18.74 0-6.771-3.489-10.76-10.26-10.76zm0 15.139c-6.423 0-6.423-9.634 0-9.634a4.817 4.817 0 110 9.634z" fill="#fff"/></svg>
                                 Italian
                             </span>
-                            </div>
-                    </a>
-                </div>
-                <div class="recent-item">
-                    <a href="./recipes/one-pan-crispy-spaghetti-and-chicken">
-                        <img class="recent-photo" src="./images/One-pan crispy spaghetti and chicken.webp" alt="One-pan crispy spaghetti and chicken" width="512" height="288">
-                        <div>
-                            <h2 class="recent-title">One-pan crispy spaghetti and chicken</h2>
-                            <span class="recipe-meta Poultry"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="#fff" stroke-width="10"></circle><path stroke="#fff" fill="none" stroke-width="10" d="M50 15v35l25 25"></path></svg>
-                            1 hr 20 mins</span>
-                            <span class="recipe-meta Poultry"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 60 90"><g fill="#fff"><path d="M26.814 21.33c0-10.2-6.003-21.3-13.407-21.3C6.002.03 0 11.13 0 21.33c0 6.429 2.387 10.96 6.006 13.433 2.262 1.546 3.647 4.075 3.599 6.814l-.76 43.582c-.042 2.419 1.717 4.6 4.126 4.824a4.568 4.568 0 005.003-4.626l-.764-43.78c-.048-2.739 1.338-5.268 3.599-6.814 3.618-2.474 6.005-7.004 6.005-13.433zM60.983 29.703L60.219.973a1 1 0 00-1-.973h-2.222a1 1 0 00-1 1v24.127a1 1 0 01-1 1h-1.915a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.297a1 1 0 00-1 1v24.127a1 1 0 01-1 1H44.87a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.222a1 1 0 00-1 .973l-.764 28.73a3.999 3.999 0 002.961 3.969l2.14.575a2.998 2.998 0 012.221 2.95l-.84 48.159a4.566 4.566 0 109.132 0l-.84-48.159a3.001 3.001 0 012.221-2.95l2.14-.575a3.998 3.998 0 002.964-3.969z"></path></g></svg>
-                            Serves 4</span>
-                            </div>
-                    </a>
-                </div>
-                <div class="recent-item">
-                    <a href="./recipes/sausage-and-chorizo-ragu">
-                        <img class="recent-photo" src="./images/Sausage_and_chorizo_ragu.webp" alt="Sausage and chorizo ragu" width="512" height="288">
-                        <div>
-                            <h2 class="recent-title">Sausage and chorizo ragu</h2>
-                            <span class="recipe-meta Pork"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="#fff" stroke-width="10"></circle><path stroke="#fff" fill="none" stroke-width="10" d="M50 15v35l25 25"></path></svg>
-                            1 hr 40 mins</span>
-                            <span class="recipe-meta Pork"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 60 90"><g fill="#fff"><path d="M26.814 21.33c0-10.2-6.003-21.3-13.407-21.3C6.002.03 0 11.13 0 21.33c0 6.429 2.387 10.96 6.006 13.433 2.262 1.546 3.647 4.075 3.599 6.814l-.76 43.582c-.042 2.419 1.717 4.6 4.126 4.824a4.568 4.568 0 005.003-4.626l-.764-43.78c-.048-2.739 1.338-5.268 3.599-6.814 3.618-2.474 6.005-7.004 6.005-13.433zM60.983 29.703L60.219.973a1 1 0 00-1-.973h-2.222a1 1 0 00-1 1v24.127a1 1 0 01-1 1h-1.915a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.297a1 1 0 00-1 1v24.127a1 1 0 01-1 1H44.87a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.222a1 1 0 00-1 .973l-.764 28.73a3.999 3.999 0 002.961 3.969l2.14.575a2.998 2.998 0 012.221 2.95l-.84 48.159a4.566 4.566 0 109.132 0l-.84-48.159a3.001 3.001 0 012.221-2.95l2.14-.575a3.998 3.998 0 002.964-3.969z"></path></g></svg>
-                            Serves 6</span>
-                            <span class="recipe-meta Pork">
-                                <svg class="meta-icon" viewBox="0 0 24 31" xmlns="http://www.w3.org/2000/svg"><path d="M12.26 1.5C5.489 1.5 2 5.489 2 12.26S10.627 31 12.26 31c1.633 0 10.26-11.969 10.26-18.74 0-6.771-3.489-10.76-10.26-10.76zm0 15.139c-6.423 0-6.423-9.634 0-9.634a4.817 4.817 0 110 9.634z" fill="#fff"/></svg>
-                                Italian
-                            </span>
-                            </div>
-                    </a>
-                </div>
-                <div class="recent-item">
-                    <a href="./recipes/sausages-with-parsnip-and-apple-mash">
-                        <img class="recent-photo" src="./images/Sausages_with_parsnip_and_apple_mash.webp" alt="Sausages with parsnip and apple mash" width="512" height="288">
-                        <div>
-                            <h2 class="recent-title">Sausages with parsnip and apple mash</h2>
-                            <span class="recipe-meta Pork"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="#fff" stroke-width="10"></circle><path stroke="#fff" fill="none" stroke-width="10" d="M50 15v35l25 25"></path></svg>
-                            30 mins</span>
-                            <span class="recipe-meta Pork"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 60 90"><g fill="#fff"><path d="M26.814 21.33c0-10.2-6.003-21.3-13.407-21.3C6.002.03 0 11.13 0 21.33c0 6.429 2.387 10.96 6.006 13.433 2.262 1.546 3.647 4.075 3.599 6.814l-.76 43.582c-.042 2.419 1.717 4.6 4.126 4.824a4.568 4.568 0 005.003-4.626l-.764-43.78c-.048-2.739 1.338-5.268 3.599-6.814 3.618-2.474 6.005-7.004 6.005-13.433zM60.983 29.703L60.219.973a1 1 0 00-1-.973h-2.222a1 1 0 00-1 1v24.127a1 1 0 01-1 1h-1.915a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.297a1 1 0 00-1 1v24.127a1 1 0 01-1 1H44.87a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.222a1 1 0 00-1 .973l-.764 28.73a3.999 3.999 0 002.961 3.969l2.14.575a2.998 2.998 0 012.221 2.95l-.84 48.159a4.566 4.566 0 109.132 0l-.84-48.159a3.001 3.001 0 012.221-2.95l2.14-.575a3.998 3.998 0 002.964-3.969z"></path></g></svg>
-                            Serves 2</span>
-                            <span class="recipe-meta Pork">Nutrition &#10003;</span>
-                            </div>
-                    </a>
-                </div>
-                <div class="recent-item">
-                    <a href="./recipes/mushrooms-and-dumplings">
-                        <img class="recent-photo" src="./images/Mushrooms_and_dumplings.webp" alt="Mushrooms and dumplings" width="512" height="288">
-                        <div>
-                            <h2 class="recent-title">Mushrooms and dumplings</h2>
-                            <span class="recipe-meta Veggie"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="#fff" stroke-width="10"></circle><path stroke="#fff" fill="none" stroke-width="10" d="M50 15v35l25 25"></path></svg>
-                            50 mins</span>
-                            <span class="recipe-meta Veggie"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 60 90"><g fill="#fff"><path d="M26.814 21.33c0-10.2-6.003-21.3-13.407-21.3C6.002.03 0 11.13 0 21.33c0 6.429 2.387 10.96 6.006 13.433 2.262 1.546 3.647 4.075 3.599 6.814l-.76 43.582c-.042 2.419 1.717 4.6 4.126 4.824a4.568 4.568 0 005.003-4.626l-.764-43.78c-.048-2.739 1.338-5.268 3.599-6.814 3.618-2.474 6.005-7.004 6.005-13.433zM60.983 29.703L60.219.973a1 1 0 00-1-.973h-2.222a1 1 0 00-1 1v24.127a1 1 0 01-1 1h-1.915a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.297a1 1 0 00-1 1v24.127a1 1 0 01-1 1H44.87a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.222a1 1 0 00-1 .973l-.764 28.73a3.999 3.999 0 002.961 3.969l2.14.575a2.998 2.998 0 012.221 2.95l-.84 48.159a4.566 4.566 0 109.132 0l-.84-48.159a3.001 3.001 0 012.221-2.95l2.14-.575a3.998 3.998 0 002.964-3.969z"></path></g></svg>
-                            Serves 4</span>
-                            </div>
-                    </a>
-                </div>
-                <div class="recent-item">
-                    <a href="./recipes/chickpea-pancakes-with-mango-pickle-yoghurt">
-                        <img class="recent-photo" src="./images/Chickpea_pancakes_with_mango_pickle_yoghurt.webp" alt="Chickpea pancakes with mango pickle yoghurt" width="512" height="288">
-                        <div>
-                            <h2 class="recent-title">Chickpea pancakes with mango pickle yoghurt</h2>
-                            <span class="recipe-meta Veggie"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="#fff" stroke-width="10"></circle><path stroke="#fff" fill="none" stroke-width="10" d="M50 15v35l25 25"></path></svg>
-                            30 mins</span>
-                            <span class="recipe-meta Veggie"><svg xmlns="http://www.w3.org/2000/svg" class="meta-icon" viewBox="0 0 60 90"><g fill="#fff"><path d="M26.814 21.33c0-10.2-6.003-21.3-13.407-21.3C6.002.03 0 11.13 0 21.33c0 6.429 2.387 10.96 6.006 13.433 2.262 1.546 3.647 4.075 3.599 6.814l-.76 43.582c-.042 2.419 1.717 4.6 4.126 4.824a4.568 4.568 0 005.003-4.626l-.764-43.78c-.048-2.739 1.338-5.268 3.599-6.814 3.618-2.474 6.005-7.004 6.005-13.433zM60.983 29.703L60.219.973a1 1 0 00-1-.973h-2.222a1 1 0 00-1 1v24.127a1 1 0 01-1 1h-1.915a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.297a1 1 0 00-1 1v24.127a1 1 0 01-1 1H44.87a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.222a1 1 0 00-1 .973l-.764 28.73a3.999 3.999 0 002.961 3.969l2.14.575a2.998 2.998 0 012.221 2.95l-.84 48.159a4.566 4.566 0 109.132 0l-.84-48.159a3.001 3.001 0 012.221-2.95l2.14-.575a3.998 3.998 0 002.964-3.969z"></path></g></svg>
-                            Serves 4</span>
-                            <span class="recipe-meta Veggie">Vegan</span>
                             </div>
                     </a>
                 </div>
