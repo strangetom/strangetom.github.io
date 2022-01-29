@@ -7,18 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 23 Jan 2022 18:19:34 +0000</lastBuildDate>
-    <item>
-      <title>Peruvian-style grilled-chicken sandwiches with spicy green sauce</title>
-      <link>https://www.strangerfoods.org/recipes/peruvian-style-grilled-chicken-sandwiches-with-spicy-green-sauce</link>
-      <description>&lt;h1&gt;Peruvian-style grilled-chicken sandwiches with spicy green sauce&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Peruvian-style_grilled-chicken_sandwiches_with_spicy_green_sauce.webp" style="text-align: center;"/&gt;
-            &lt;br&gt;
-            &lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/peruvian-style-grilled-chicken-sandwiches-with-spicy-green-sauce</guid>
-      <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 29 Jan 2022 17:56:10 +0000</lastBuildDate>
     <item>
       <title>Tessa’s spice cake</title>
       <link>https://www.strangerfoods.org/recipes/tessas-spice-cake</link>
@@ -62,6 +51,17 @@
             &lt;p&gt;The fish tagines of coastal Morocco are often made with whole fish, or with large chunks of fleshy fish such as sea bass, monkfish and cod. The fish is first marinated in the classic chermoula flavouring, and the dish is given an additional fillip with white wine of sherry. Serve with new potatoes and a leafy salad.&lt;/p&gt;</description>
       <guid isPermaLink="true">https://www.strangerfoods.org/recipes/fish-tagine-with-preserved-lemon-and-mint</guid>
       <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Curried shepherd's pie</title>
+      <link>https://www.strangerfoods.org/recipes/curried-shepherds-pie</link>
+      <description>&lt;h1&gt;Curried shepherd's pie&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Curried_shepherds_pie.webp" style="text-align: center;"/&gt;
+            &lt;br&gt;
+            &lt;p&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/curried-shepherds-pie</guid>
+      <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
