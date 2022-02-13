@@ -7,40 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 29 Jan 2022 17:56:10 +0000</lastBuildDate>
-    <item>
-      <title>Tessa’s spice cake</title>
-      <link>https://www.strangerfoods.org/recipes/tessas-spice-cake</link>
-      <description>&lt;h1&gt;Tessa’s spice cake&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Tessas_spice_cake.webp" style="text-align: center;"/&gt;
-            &lt;br&gt;
-            &lt;p&gt;This is a simple spiced pound cake, but one that is seriously moist, with a lovely fine crumb. There’s enough going on, spice-wise, that we’ve restrained ourselves when it comes to an icing and left it unadorned.&lt;/p&gt;</description>
-      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/tessas-spice-cake</guid>
-      <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chicken shawarma pie</title>
-      <link>https://www.strangerfoods.org/recipes/chicken-shawarma-pie</link>
-      <description>&lt;h1&gt;Chicken shawarma pie&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Chicken_shawarma_pie.webp" style="text-align: center;"/&gt;
-            &lt;br&gt;
-            &lt;p&gt;Spiced marinated chicken thighs, slow-cooked until meltingly tender, layered with baked potato slices and rich tahini sauce, all wrapped up in thin-as-a-feather butter-brushed filo.&lt;/p&gt;</description>
-      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/chicken-shawarma-pie</guid>
-      <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Orange cookies</title>
-      <link>https://www.strangerfoods.org/recipes/orange-cookies</link>
-      <description>&lt;h1&gt;Orange cookies&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Orange_cookies.webp" style="text-align: center;"/&gt;
-            &lt;br&gt;
-            &lt;p&gt;Filled with bright citrus flavor, these Orange Cookies are a delightful dessert everyone will love. Perfect for any occasion, these soft and fluffy cookies will melt in your mouth.&lt;/p&gt;</description>
-      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/orange-cookies</guid>
-      <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 13 Feb 2022 17:12:49 +0000</lastBuildDate>
     <item>
       <title>Fish tagine with preserved lemon and mint</title>
       <link>https://www.strangerfoods.org/recipes/fish-tagine-with-preserved-lemon-and-mint</link>
@@ -62,6 +29,39 @@
             &lt;p&gt;&lt;/p&gt;</description>
       <guid isPermaLink="true">https://www.strangerfoods.org/recipes/curried-shepherds-pie</guid>
       <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kimchi-brined fried chicken sandwich</title>
+      <link>https://www.strangerfoods.org/recipes/kimchi-brined-fried-chicken-sandwich</link>
+      <description>&lt;h1&gt;Kimchi-brined fried chicken sandwich&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Kimchi-brined_fried_chicken_sandwich.webp" style="text-align: center;"/&gt;
+            &lt;br&gt;
+            &lt;p&gt;A kimchi-and-buttermilk brine tenderizes and seasons chicken thighs, which are then fried until they're super crisp and stacked on a tender toasted bun or a flaky and buttery homemade biscuit.&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/kimchi-brined-fried-chicken-sandwich</guid>
+      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ultimate traybake ragu</title>
+      <link>https://www.strangerfoods.org/recipes/ultimate-traybake-ragu</link>
+      <description>&lt;h1&gt;Ultimate traybake ragu&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Ultimate_traybake_ragu.webp" style="text-align: center;"/&gt;
+            &lt;br&gt;
+            &lt;p&gt;The plant-based ragu to end all others: this recipe delivers an incredible punch of umami flavour that will satisfy vegans and meat-eaters alike. It also happens to be extremely easy to throw together, and can be served with pasta or used as the base for a lasagne or shepherd's pie.&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/ultimate-traybake-ragu</guid>
+      <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pork katsu stir-fry</title>
+      <link>https://www.strangerfoods.org/recipes/pork-katsu-stir-fry</link>
+      <description>&lt;h1&gt;Pork katsu stir-fry&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Pork_katsu_stir-fry.webp" style="text-align: center;"/&gt;
+            &lt;br&gt;
+            &lt;p&gt;Katsu curry sauce adds a tangy Japanese twist to this stir-fry. Pork loin steaks are a lean source of protein but could be swapped for thinly sliced chicken breast fillets if you prefer&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/pork-katsu-stir-fry</guid>
+      <pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
