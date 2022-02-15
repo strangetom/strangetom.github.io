@@ -10,7 +10,7 @@
         <meta property="og:image" content="https://www.strangerfoods.org/images/Moroccan_chicken_with_sweet_potato_mash.webp">
         <meta property="og:url" content="https://www.strangerfoods.org/recipes/moroccan-chicken-with-sweet-potato-mash">
         <meta name="twitter:card" content="summary_large_image">        
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-bdHSTGu4UxznwcaxoNWATiZoh3acqqNWhJviz/iP4DA='">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-bdHSTGu4UxznwcaxoNWATiZoh3acqqNWhJviz/iP4DA='; script-src 'self' 'sha256-l0l5iZ43h79t0Zyj3BKTEDDWzz37RO8QZF8amAun2OM=';">
         <title>Moroccan chicken with sweet potato mash | Stranger Foods</title>
         <link rel="preload" href="../fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="../css/colours.min.css" as="style">
@@ -31,7 +31,7 @@
             <meta itemprop="prepTime" content=PT10M>
             <meta itemprop="performTime" content=PT25M>
             <meta itemprop="recipeYield" content="4 servings">
-            <span class="recipe-meta Poultry">
+            <span class="recipe-meta">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="#fff" stroke-width="10"/><path stroke="#fff" fill="none" stroke-width="10" d="M50 15v35l25 25"/></svg>
                 35 mins
             </span>
@@ -40,7 +40,7 @@
                 Serves <span id="servings" data-default="4">4</span>
             </span>
 
-            <span class="recipe-meta Poultry">
+            <span class="recipe-meta">
                 <svg class="icon" viewBox="0 0 24 31" xmlns="http://www.w3.org/2000/svg"><path d="M12.26 1.5C5.489 1.5 2 5.489 2 12.26S10.627 31 12.26 31c1.633 0 10.26-11.969 10.26-18.74 0-6.771-3.489-10.76-10.26-10.76zm0 15.139c-6.423 0-6.423-9.634 0-9.634a4.817 4.817 0 110 9.634z" fill="#fff"/></svg>
                 Moroccan
             </span>
@@ -139,6 +139,31 @@
             <a class="link" href="http://www.bbcgoodfood.com/recipes/764636/moroccan-chicken-with-sweet-potato-mash">www.bbcgoodfood.com</a>
             <a class="link" data-url="https://www.strangerfoods.org/recipes/50e93d" href="../recipes/50e93d">Short Link</a> 
             <a class="link" data-url="https://www.strangerfoods.org/recipes/moroccan-chicken-with-sweet-potato-mash" href="../recipes/moroccan-chicken-with-sweet-potato-mash">Long Link</a>
+
+            <span id="share" class="link hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+                </svg>
+                <span class="share-text">Share<span>
+            </span>
         </section>
+        <script type="text/javascript">
+            'use strict';
+            async function shareRecipe() {
+                const title = document.querySelector('h1').textContent;
+                const text = `${title} from Stranger Foods`;
+                const url = location.href;
+                await navigator.share({
+                    title: title,
+                    text: text,
+                    url: url
+                });
+            }
+            if (navigator.share !== undefined) {
+                document.querySelector('#share').addEventListener('click', shareRecipe);
+                document.querySelector('#share').classList.remove('hidden');
+                document.querySelectorAll('a[data-url]').forEach( el => el.classList.add('hidden'));
+            };
+        </script>
     </body>
 </html>
