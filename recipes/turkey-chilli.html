@@ -10,7 +10,7 @@
         <meta property="og:image" content="https://www.strangerfoods.org/images/Turkey_chilli.webp">
         <meta property="og:url" content="https://www.strangerfoods.org/recipes/turkey-chilli">
         <meta name="twitter:card" content="summary_large_image">        
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-bdHSTGu4UxznwcaxoNWATiZoh3acqqNWhJviz/iP4DA='; script-src 'self' 'sha256-l0l5iZ43h79t0Zyj3BKTEDDWzz37RO8QZF8amAun2OM=';">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-bdHSTGu4UxznwcaxoNWATiZoh3acqqNWhJviz/iP4DA='; script-src 'self' 'sha256-YZg6kvn7pRIrH7uGQOvph9+baU3DWl7gPEuRWKpLGg4=';">
         <title>Turkey chilli | Stranger Foods</title>
         <link rel="preload" href="../fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="../css/colours.min.css" as="style">
@@ -158,18 +158,17 @@
             <a class="link" data-url="https://www.strangerfoods.org/recipes/3833a8" href="../recipes/3833a8">Short Link</a> 
             <a class="link" data-url="https://www.strangerfoods.org/recipes/turkey-chilli" href="../recipes/turkey-chilli">Long Link</a>
 
-            <span id="share" class="link hidden">
+            <a id="share" href="javascript:;" class="link hidden">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
-                </svg>
-                <span class="share-text">Share<span>
-            </span>
+                </svg>Share
+            </a>
         </section>
         <script type="text/javascript">
             'use strict';
             async function shareRecipe() {
                 const title = document.querySelector('h1').textContent;
-                const text = `${title} from Stranger Foods`;
+                const text = `${title} on Stranger Foods`;
                 const url = location.href;
                 await navigator.share({
                     title: title,
