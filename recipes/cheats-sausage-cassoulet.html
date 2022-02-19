@@ -10,7 +10,7 @@
         <meta property="og:image" content="https://www.strangerfoods.org/images/Cheats_sausage_cassoulet.webp">
         <meta property="og:url" content="https://www.strangerfoods.org/recipes/cheats-sausage-cassoulet">
         <meta name="twitter:card" content="summary_large_image">        
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-bdHSTGu4UxznwcaxoNWATiZoh3acqqNWhJviz/iP4DA='; script-src 'self' 'sha256-YZg6kvn7pRIrH7uGQOvph9+baU3DWl7gPEuRWKpLGg4=';">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-bdHSTGu4UxznwcaxoNWATiZoh3acqqNWhJviz/iP4DA='; script-src 'self' 'sha256-DgYEFShnA5b6vmTdGIE4oSaDIZA3ocyuPMz8wR2U4aM=';">
         <title>Cheat's sausage cassoulet | Stranger Foods</title>
         <link rel="preload" href="../fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="../css/colours.min.css" as="style">
@@ -148,20 +148,17 @@
         </section>
         <script type="text/javascript">
             'use strict';
-            async function shareRecipe() {
-                const title = document.querySelector('h1').textContent;
-                const text = `${title} on Stranger Foods`;
-                const url = location.href;
-                await navigator.share({
-                    title: title,
-                    text: text,
-                    url: url
-                });
+            const shareData = {
+                title: document.querySelector('h1').textContent,
+                text: `${document.querySelector('h1').textContent} on Stranger Foods`,
+                url: location.href
             }
             if (navigator.share !== undefined) {
-                document.querySelector('#share').addEventListener('click', shareRecipe);
                 document.querySelector('#share').classList.remove('hidden');
                 document.querySelectorAll('a[data-url]').forEach( el => el.classList.add('hidden'));
+                document.querySelector('#share').addEventListener('click', async () => {
+                    await navigator.share(shareData);
+                });
             };
         </script>
     </body>
