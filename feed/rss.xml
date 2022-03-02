@@ -7,40 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Feb 2022 19:39:51 +0000</lastBuildDate>
-    <item>
-      <title>Fish tagine with preserved lemon and mint</title>
-      <link>https://www.strangerfoods.org/recipes/fish-tagine-with-preserved-lemon-and-mint</link>
-      <description>&lt;h1&gt;Fish tagine with preserved lemon and mint&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Fish_tagine_with_preserved_lemon_and_mint.webp" style="text-align: center;"/&gt;
-            &lt;br&gt;
-            &lt;p&gt;The fish tagines of coastal Morocco are often made with whole fish, or with large chunks of fleshy fish such as sea bass, monkfish and cod. The fish is first marinated in the classic chermoula flavouring, and the dish is given an additional fillip with white wine of sherry. Serve with new potatoes and a leafy salad.&lt;/p&gt;</description>
-      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/fish-tagine-with-preserved-lemon-and-mint</guid>
-      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Curried shepherd's pie</title>
-      <link>https://www.strangerfoods.org/recipes/curried-shepherds-pie</link>
-      <description>&lt;h1&gt;Curried shepherd's pie&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Curried_shepherds_pie.webp" style="text-align: center;"/&gt;
-            &lt;br&gt;
-            &lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/curried-shepherds-pie</guid>
-      <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Kimchi-brined fried chicken sandwich</title>
-      <link>https://www.strangerfoods.org/recipes/kimchi-brined-fried-chicken-sandwich</link>
-      <description>&lt;h1&gt;Kimchi-brined fried chicken sandwich&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Kimchi-brined_fried_chicken_sandwich.webp" style="text-align: center;"/&gt;
-            &lt;br&gt;
-            &lt;p&gt;A kimchi-and-buttermilk brine tenderizes and seasons chicken thighs, which are then fried until they're super crisp and stacked on a tender toasted bun or a flaky and buttery homemade biscuit.&lt;/p&gt;</description>
-      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/kimchi-brined-fried-chicken-sandwich</guid>
-      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 02 Mar 2022 18:00:42 +0000</lastBuildDate>
     <item>
       <title>Ultimate traybake ragu</title>
       <link>https://www.strangerfoods.org/recipes/ultimate-traybake-ragu</link>
@@ -62,6 +29,39 @@
             &lt;p&gt;Katsu curry sauce adds a tangy Japanese twist to this stir-fry. Pork loin steaks are a lean source of protein but could be swapped for thinly sliced chicken breast fillets if you prefer&lt;/p&gt;</description>
       <guid isPermaLink="true">https://www.strangerfoods.org/recipes/pork-katsu-stir-fry</guid>
       <pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Coconut pork stew with garam masala</title>
+      <link>https://www.strangerfoods.org/recipes/coconut-pork-stew-with-garam-masala</link>
+      <description>&lt;h1&gt;Coconut pork stew with garam masala&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Coconut_pork_stew_with_garam_masala.webp" style="text-align: center;"/&gt;
+            &lt;br&gt;
+            &lt;p&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/coconut-pork-stew-with-garam-masala</guid>
+      <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Prawn fried rice</title>
+      <link>https://www.strangerfoods.org/recipes/prawn-fried-rice</link>
+      <description>&lt;h1&gt;Prawn fried rice&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Prawn_fried_rice.webp" style="text-align: center;"/&gt;
+            &lt;br&gt;
+            &lt;p&gt;Make this easy Asian-inspired dish in just 30 minutes. It's healthy and low in calories but big on flavour, making it perfect for a speedy family supper&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/prawn-fried-rice</guid>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>One pot veggie pasta</title>
+      <link>https://www.strangerfoods.org/recipes/one-pot-veggie-pasta</link>
+      <description>&lt;h1&gt;One pot veggie pasta&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/One_pot_veggie_pasta.webp" style="text-align: center;"/&gt;
+            &lt;br&gt;
+            &lt;p&gt;This one pot veggie pasta is an easy, satisfying, and quick dinner. Use whatever vegetables you have on hand and make it your own!&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/one-pot-veggie-pasta</guid>
+      <pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
