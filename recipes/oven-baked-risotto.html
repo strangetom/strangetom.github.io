@@ -10,13 +10,13 @@
         <meta property="og:image" content="https://www.strangerfoods.org/images/Oven-baked_risotto.webp">
         <meta property="og:url" content="https://www.strangerfoods.org/recipes/oven-baked-risotto">
         <meta name="twitter:card" content="summary_large_image">        
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-AgBLzm/GOfQuqtoWJNmfHkyOjsuX+Hfydw9/hpPRW94='; script-src 'self' 'sha256-DgYEFShnA5b6vmTdGIE4oSaDIZA3ocyuPMz8wR2U4aM=';">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-SKNntjR/YEmnQyV505Tu9Lq6l/H78s9kzRcKiOxewhM='; script-src 'self' 'sha256-DgYEFShnA5b6vmTdGIE4oSaDIZA3ocyuPMz8wR2U4aM=';">
         <title>Oven-baked risotto | Stranger Foods</title>
         <link rel="preload" href="../fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="../css/colours.min.css" as="style">
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale_timers.min.js"></script>
-        <noscript><style type="text/css">.scale-btns,.unit-btns,.timer-tooltip,.substitute-icon{display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns,.unit-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -27,6 +27,7 @@
         <section class="recipe">
             <h1 itemprop="name">Oven-baked risotto</h1>
 
+            <meta itemprop="datePublished" content="2019-04-01">
             <meta itemprop="totalTime" content=PT35M>
             <meta itemprop="prepTime" content=>
             <meta itemprop="performTime" content=PT35M>
@@ -44,14 +45,14 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button">x0.5</button>
-                <button type="button" class="selected">x1</button>
-                <button type="button">x2</button>
-                <button type="button">x3</button>
+                <button type="button" class="button">x0.5</button>
+                <button type="button" class="button selected">x1</button>
+                <button type="button" class="button">x2</button>
+                <button type="button" class="button">x3</button>
             </div>
             <div class="unit-btns">
-                <button type="button" class="selected">Metric</button>
-                <button type="button">Imperial</button>
+                <button type="button" class="button selected">Metric</button>
+                <button type="button" class="button">Imperial</button>
                 </div>
             <div>
                 <ul>
@@ -82,8 +83,8 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat oven to <b>200</b>&deg;C/Gas <b>6</b>. Fry the <span data-default="1x" data-defaultunit="250 g pack" data-quantity="1x" data-unit="250 g pack" class="tooltip scalable">bacon</span> pieces in an ovenproof pan or casserole dish with a lid for <span class="timer-wrapper"><b>3-5</b> minutes<div class="timer-tooltip"><span class="timer-display" data-time="180"></span><span class="timer-btn timer-start"></span></div></span> until golden and crisp. Stir in the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span> and cook for <span class="timer-wrapper"><b>3-4</b> minutes<div class="timer-tooltip"><span class="timer-display" data-time="180"></span><span class="timer-btn timer-start"></span></div></span> until soft. Tip in the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">rice</span> and mix well until coated. Pour over the <span data-default="" data-defaultunit="half a glass" data-quantity="" data-unit="half a glass" class="tooltip scalable">white wine</span>, if using, and cook for <span class="timer-wrapper"><b>2</b> minutes<div class="timer-tooltip"><span class="timer-display" data-time="120"></span><span class="timer-btn timer-start"></span></div></span> more until absorbed.  </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="150" data-defaultunit="g" data-quantity="150" data-unit="g" class="tooltip scalable">cherry tomatoes</span> and the hot stock, then give the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">rice</span> a quick stir. Cover with a tightly fitting lid and bake for <span class="timer-wrapper"><b>18</b> minutes<div class="timer-tooltip"><span class="timer-display" data-time="1080"></span><span class="timer-btn timer-start"></span></div></span> until just cooked.  </li>
+                <li itemprop="recipeInstructions">Heat oven to <b>200</b>&deg;C/Gas <b>6</b>. Fry the <span data-default="1x" data-defaultunit="250 g pack" data-quantity="1x" data-unit="250 g pack" class="tooltip scalable">bacon</span> pieces in an ovenproof pan or casserole dish with a lid for <button class="toast-btn" data-time="180" title="Start timer"><img class="toast-btn-icon" src="../img/clock.svg" alt="Create timer"></button><b>3-5</b> minutes until golden and crisp. Stir in the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">butter</span> and cook for <button class="toast-btn" data-time="180" title="Start timer"><img class="toast-btn-icon" src="../img/clock.svg" alt="Create timer"></button><b>3-4</b> minutes until soft. Tip in the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">rice</span> and mix well until coated. Pour over the <span data-default="" data-defaultunit="half a glass" data-quantity="" data-unit="half a glass" class="tooltip scalable">white wine</span>, if using, and cook for <button class="toast-btn" data-time="120" title="Start timer"><img class="toast-btn-icon" src="../img/clock.svg" alt="Create timer"></button><b>2</b> minutes more until absorbed.  </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="150" data-defaultunit="g" data-quantity="150" data-unit="g" class="tooltip scalable">cherry tomatoes</span> and the hot stock, then give the <span data-default="300" data-defaultunit="g" data-quantity="300" data-unit="g" class="tooltip scalable">rice</span> a quick stir. Cover with a tightly fitting lid and bake for <button class="toast-btn" data-time="1080" title="Start timer"><img class="toast-btn-icon" src="../img/clock.svg" alt="Create timer"></button><b>18</b> minutes until just cooked.  </li>
                 <li itemprop="recipeInstructions">Stir through most of the <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">Parmesan</span> and serve sprinkled with the remainder.  </li>
                 </ol>
 
@@ -141,6 +142,7 @@
                 <a href="/random">Random</a>
             </div>
         </footer>
+        <section id="timers"></section>
         <script type="text/javascript">
             'use strict';
             const shareData = {

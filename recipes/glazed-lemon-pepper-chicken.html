@@ -10,13 +10,13 @@
         <meta property="og:image" content="https://www.strangerfoods.org/images/Glazed_lemon-pepper_chicken.webp">
         <meta property="og:url" content="https://www.strangerfoods.org/recipes/glazed-lemon-pepper-chicken">
         <meta name="twitter:card" content="summary_large_image">        
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-AgBLzm/GOfQuqtoWJNmfHkyOjsuX+Hfydw9/hpPRW94='; script-src 'self' 'sha256-DgYEFShnA5b6vmTdGIE4oSaDIZA3ocyuPMz8wR2U4aM=';">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-SKNntjR/YEmnQyV505Tu9Lq6l/H78s9kzRcKiOxewhM='; script-src 'self' 'sha256-DgYEFShnA5b6vmTdGIE4oSaDIZA3ocyuPMz8wR2U4aM=';">
         <title>Glazed lemon-pepper chicken | Stranger Foods</title>
         <link rel="preload" href="../fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="../css/colours.min.css" as="style">
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale_timers.min.js"></script>
-        <noscript><style type="text/css">.scale-btns,.unit-btns,.timer-tooltip,.substitute-icon{display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns,.unit-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
     </head>
     <body class="Poultry" itemscope itemtype="https://schema.org/Recipe">
 
@@ -27,6 +27,7 @@
         <section class="recipe">
             <h1 itemprop="name">Glazed lemon-pepper chicken</h1>
 
+            <meta itemprop="datePublished" content="2019-04-01">
             <meta itemprop="totalTime" content=PT15M>
             <meta itemprop="prepTime" content=>
             <meta itemprop="performTime" content=PT15M>
@@ -44,14 +45,14 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button">x0.5</button>
-                <button type="button" class="selected">x1</button>
-                <button type="button">x2</button>
-                <button type="button">x3</button>
+                <button type="button" class="button">x0.5</button>
+                <button type="button" class="button selected">x1</button>
+                <button type="button" class="button">x2</button>
+                <button type="button" class="button">x3</button>
             </div>
             <div class="unit-btns">
-                <button type="button" class="selected">Metric</button>
-                <button type="button">Imperial</button>
+                <button type="button" class="button selected">Metric</button>
+                <button type="button" class="button">Imperial</button>
                 </div>
             <div>
                 <ul>
@@ -82,8 +83,8 @@
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Slash each <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">chicken breasts</span> two or three times with a sharp knife. In a shallow dish mix the honey, lemon zest and juice, <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">mustard</span> and <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">black pepper</span> for the marinade.  </li>
-                <li itemprop="recipeInstructions">Add the chicken to the marinade and turn to coat. Leave to marinate for <span class="timer-wrapper"><b>30</b> minutes<div class="timer-tooltip"><span class="timer-display" data-time="1800"></span><span class="timer-btn timer-start"></span></div></span> or prefereably overnight.  </li>
-                <li itemprop="recipeInstructions">Heat the oven to <b>220</b>&deg;C/Gas <b>7</b>. Arrange the <span data-default="750" data-defaultunit="g" data-quantity="750" data-unit="g" class="tooltip scalable">potatoes</span> and chicken in a single layer in a shallow-sided roatingg tin and pour any excess marinade on top. Roast until the <span data-default="750" data-defaultunit="g" data-quantity="750" data-unit="g" class="tooltip scalable">potatoes</span> are tender and the chicken is cooked, about <span class="timer-wrapper"><b>25-30</b> minutes<div class="timer-tooltip"><span class="timer-display" data-time="1500"></span><span class="timer-btn timer-start"></span></div></span>. Serve with the steamed <span data-default="750" data-defaultunit="g" data-quantity="750" data-unit="g" class="tooltip scalable">potatoes</span> and any pan juices.  </li>
+                <li itemprop="recipeInstructions">Add the chicken to the marinade and turn to coat. Leave to marinate for <button class="toast-btn" data-time="1800" title="Start timer"><img class="toast-btn-icon" src="../img/clock.svg" alt="Create timer"></button><b>30</b> minutes or prefereably overnight.  </li>
+                <li itemprop="recipeInstructions">Heat the oven to <b>220</b>&deg;C/Gas <b>7</b>. Arrange the <span data-default="750" data-defaultunit="g" data-quantity="750" data-unit="g" class="tooltip scalable">potatoes</span> and chicken in a single layer in a shallow-sided roatingg tin and pour any excess marinade on top. Roast until the <span data-default="750" data-defaultunit="g" data-quantity="750" data-unit="g" class="tooltip scalable">potatoes</span> are tender and the chicken is cooked, about <button class="toast-btn" data-time="1500" title="Start timer"><img class="toast-btn-icon" src="../img/clock.svg" alt="Create timer"></button><b>25-30</b> minutes. Serve with the steamed <span data-default="750" data-defaultunit="g" data-quantity="750" data-unit="g" class="tooltip scalable">potatoes</span> and any pan juices.  </li>
                 </ol>
 
             <hr>
@@ -140,6 +141,7 @@
                 <a href="/random">Random</a>
             </div>
         </footer>
+        <section id="timers"></section>
         <script type="text/javascript">
             'use strict';
             const shareData = {

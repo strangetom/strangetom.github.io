@@ -10,13 +10,13 @@
         <meta property="og:image" content="https://www.strangerfoods.org/images/Beef_braised_in_beer.webp">
         <meta property="og:url" content="https://www.strangerfoods.org/recipes/beef-braised-in-beer">
         <meta name="twitter:card" content="summary_large_image">        
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-AgBLzm/GOfQuqtoWJNmfHkyOjsuX+Hfydw9/hpPRW94='; script-src 'self' 'sha256-DgYEFShnA5b6vmTdGIE4oSaDIZA3ocyuPMz8wR2U4aM=';">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-SKNntjR/YEmnQyV505Tu9Lq6l/H78s9kzRcKiOxewhM='; script-src 'self' 'sha256-DgYEFShnA5b6vmTdGIE4oSaDIZA3ocyuPMz8wR2U4aM=';">
         <title>Beef braised in beer | Stranger Foods</title>
         <link rel="preload" href="../fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="../css/colours.min.css" as="style">
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale_timers.min.js"></script>
-        <noscript><style type="text/css">.scale-btns,.unit-btns,.timer-tooltip,.substitute-icon{display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns,.unit-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
     </head>
     <body class="RedMeat" itemscope itemtype="https://schema.org/Recipe">
 
@@ -27,6 +27,7 @@
         <section class="recipe">
             <h1 itemprop="name">Beef braised in beer</h1>
 
+            <meta itemprop="datePublished" content="2021-10-21">
             <meta itemprop="totalTime" content=PT2H50M>
             <meta itemprop="prepTime" content=PT20M>
             <meta itemprop="performTime" content=PT2H30M>
@@ -45,14 +46,14 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button">x0.5</button>
-                <button type="button" class="selected">x1</button>
-                <button type="button">x2</button>
-                <button type="button">x3</button>
+                <button type="button" class="button">x0.5</button>
+                <button type="button" class="button selected">x1</button>
+                <button type="button" class="button">x2</button>
+                <button type="button" class="button">x3</button>
             </div>
             <div class="unit-btns">
-                <button type="button" class="selected">Metric</button>
-                <button type="button">Imperial</button>
+                <button type="button" class="button selected">Metric</button>
+                <button type="button" class="button">Imperial</button>
                 </div>
             <div>
                 <ul>
@@ -131,11 +132,11 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">In a large non-stick frying pan heat the <span data-default="75" data-defaultunit="g" data-quantity="75" data-unit="g" class="tooltip scalable">butter</span> and saute the <span data-default="175" data-defaultunit="g" data-quantity="175" data-unit="g" class="tooltip scalable">bacon or pancetta</span> for <span class="timer-wrapper"><b>2-3</b> minutes<div class="timer-tooltip"><span class="timer-display" data-time="120"></span><span class="timer-btn timer-start"></span></div></span>. Spoon into a <b>1.7</b> L ovenproof casserole dish.</li>
-                <li itemprop="recipeInstructions">Using the frying pan saute the vegetables and <span data-default="1" data-defaultunit="bulb" data-quantity="1" data-unit="bulb" class="tooltip scalable">garlic</span> for <span class="timer-wrapper"><b>3-4</b> minutes<div class="timer-tooltip"><span class="timer-display" data-time="180"></span><span class="timer-btn timer-start"></span></div></span> until caramelised. Add all the vegetables (except the <span data-default="1" data-defaultunit="bulb" data-quantity="1" data-unit="bulb" class="tooltip scalable">garlic</span> bulb) to the casserole dish with the <span data-default="175" data-defaultunit="g" data-quantity="175" data-unit="g" class="tooltip scalable">bacon or pancetta</span>. Preheat the oven to <b>150</b>&deg;C/Gas <b>3</b>.</li>
-                <li itemprop="recipeInstructions">Place the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">seasoned flour</span> into a large plastic food bag, add the <span data-default="675" data-defaultunit="g" data-quantity="675" data-unit="g" class="tooltip scalable">beef</span>, seal tightly and toss gently. Heat the remaining <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in the frying pan and cook the <span data-default="675" data-defaultunit="g" data-quantity="675" data-unit="g" class="tooltip scalable">beef</span> for <span class="timer-wrapper"><b>3-4</b> minutes<div class="timer-tooltip"><span class="timer-display" data-time="180"></span><span class="timer-btn timer-start"></span></div></span> until brown or caramelised then add to the casserole dish.</li>
+                <li itemprop="recipeInstructions">In a large non-stick frying pan heat the <span data-default="75" data-defaultunit="g" data-quantity="75" data-unit="g" class="tooltip scalable">butter</span> and saute the <span data-default="175" data-defaultunit="g" data-quantity="175" data-unit="g" class="tooltip scalable">bacon or pancetta</span> for <button class="toast-btn" data-time="120" title="Start timer"><img class="toast-btn-icon" src="../img/clock.svg" alt="Create timer"></button><b>2-3</b> minutes. Spoon into a <b>1.7</b> L ovenproof casserole dish.</li>
+                <li itemprop="recipeInstructions">Using the frying pan saute the vegetables and <span data-default="1" data-defaultunit="bulb" data-quantity="1" data-unit="bulb" class="tooltip scalable">garlic</span> for <button class="toast-btn" data-time="180" title="Start timer"><img class="toast-btn-icon" src="../img/clock.svg" alt="Create timer"></button><b>3-4</b> minutes until caramelised. Add all the vegetables (except the <span data-default="1" data-defaultunit="bulb" data-quantity="1" data-unit="bulb" class="tooltip scalable">garlic</span> bulb) to the casserole dish with the <span data-default="175" data-defaultunit="g" data-quantity="175" data-unit="g" class="tooltip scalable">bacon or pancetta</span>. Preheat the oven to <b>150</b>&deg;C/Gas <b>3</b>.</li>
+                <li itemprop="recipeInstructions">Place the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">seasoned flour</span> into a large plastic food bag, add the <span data-default="675" data-defaultunit="g" data-quantity="675" data-unit="g" class="tooltip scalable">beef</span>, seal tightly and toss gently. Heat the remaining <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span> in the frying pan and cook the <span data-default="675" data-defaultunit="g" data-quantity="675" data-unit="g" class="tooltip scalable">beef</span> for <button class="toast-btn" data-time="180" title="Start timer"><img class="toast-btn-icon" src="../img/clock.svg" alt="Create timer"></button><b>3-4</b> minutes until brown or caramelised then add to the casserole dish.</li>
                 <li itemprop="recipeInstructions">Add <b>100</b> ml of <span data-default="1" data-defaultunit="L" data-quantity="1" data-unit="L" class="tooltip scalable">stout</span> to the frying pan, stir with a wooden spoon, scraping the base of the pan to release any rich <span data-default="675" data-defaultunit="g" data-quantity="675" data-unit="g" class="tooltip scalable">beef</span> sediment and pour into the casserole dish. Add the remaining <span data-default="1" data-defaultunit="L" data-quantity="1" data-unit="L" class="tooltip scalable">stout</span> and water.</li>
-                <li itemprop="recipeInstructions">Wrap the herbs and <span data-default="5" data-defaultunit="" data-quantity="5" data-unit="" class="tooltip scalable">peppercorns</span> in a small fine muslin square tie and add to the stew. Season and add the <span data-default="2" data-defaultunit="tablespoons" data-quantity="2" data-unit="tablespoons" class="tooltip scalable">Worcestershire sauce</span> and <span data-default="1-2" data-defaultunit="tbsp" data-quantity="1-2" data-unit="tbsp" class="tooltip scalable">chilli sauce</span> (if used). Cover, transfer to the oven and cook for <span class="timer-wrapper"><b>2-2.5</b> hours<div class="timer-tooltip"><span class="timer-display" data-time="7200"></span><span class="timer-btn timer-start"></span></div></span> until the <span data-default="675" data-defaultunit="g" data-quantity="675" data-unit="g" class="tooltip scalable">beef</span> is tender.</li>
+                <li itemprop="recipeInstructions">Wrap the herbs and <span data-default="5" data-defaultunit="" data-quantity="5" data-unit="" class="tooltip scalable">peppercorns</span> in a small fine muslin square tie and add to the stew. Season and add the <span data-default="2" data-defaultunit="tablespoons" data-quantity="2" data-unit="tablespoons" class="tooltip scalable">Worcestershire sauce</span> and <span data-default="1-2" data-defaultunit="tbsp" data-quantity="1-2" data-unit="tbsp" class="tooltip scalable">chilli sauce</span> (if used). Cover, transfer to the oven and cook for <button class="toast-btn" data-time="7200" title="Start timer"><img class="toast-btn-icon" src="../img/clock.svg" alt="Create timer"></button><b>2-2.5</b> hours until the <span data-default="675" data-defaultunit="g" data-quantity="675" data-unit="g" class="tooltip scalable">beef</span> is tender.</li>
                 <li itemprop="recipeInstructions">Meanwhile prepare the dumplings; place the <span data-default="175" data-defaultunit="g" data-quantity="175" data-unit="g" class="tooltip scalable">flour</span>, salt and <span data-default="75" data-defaultunit="g" data-quantity="75" data-unit="g" class="tooltip scalable">butter</span> in a large bowl, rub the <span data-default="75" data-defaultunit="g" data-quantity="75" data-unit="g" class="tooltip scalable">butter</span> into the <span data-default="175" data-defaultunit="g" data-quantity="175" data-unit="g" class="tooltip scalable">flour</span> with your fingertips and add the herbs. Stir in enough water to form a smooth dough and shape into <b>8</b> evenly-sized dumplings. Cover and set aside.</li>
                 <li itemprop="recipeInstructions"><b>20</b> minutes before the end of cooking, remove the <span data-default="675" data-defaultunit="g" data-quantity="675" data-unit="g" class="tooltip scalable">beef</span> from the oven, add the dumplings and return to the oven uncovered for the remainder of the cooking time.</li>
                 <li itemprop="recipeInstructions">Remove the bouquet garni muslin and serve the <span data-default="675" data-defaultunit="g" data-quantity="675" data-unit="g" class="tooltip scalable">beef</span> with the dumplings and seasonal vegetables.</li>
@@ -195,6 +196,7 @@
                 <a href="/random">Random</a>
             </div>
         </footer>
+        <section id="timers"></section>
         <script type="text/javascript">
             'use strict';
             const shareData = {

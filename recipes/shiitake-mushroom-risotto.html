@@ -10,13 +10,13 @@
         <meta property="og:image" content="https://www.strangerfoods.org/images/Shiitake_mushroom_risotto.webp">
         <meta property="og:url" content="https://www.strangerfoods.org/recipes/shiitake-mushroom-risotto">
         <meta name="twitter:card" content="summary_large_image">        
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-AgBLzm/GOfQuqtoWJNmfHkyOjsuX+Hfydw9/hpPRW94='; script-src 'self' 'sha256-DgYEFShnA5b6vmTdGIE4oSaDIZA3ocyuPMz8wR2U4aM=';">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-SKNntjR/YEmnQyV505Tu9Lq6l/H78s9kzRcKiOxewhM='; script-src 'self' 'sha256-DgYEFShnA5b6vmTdGIE4oSaDIZA3ocyuPMz8wR2U4aM=';">
         <title>Shiitake mushroom risotto | Stranger Foods</title>
         <link rel="preload" href="../fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="../css/colours.min.css" as="style">
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale_timers.min.js"></script>
-        <noscript><style type="text/css">.scale-btns,.unit-btns,.timer-tooltip,.substitute-icon{display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns,.unit-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -27,6 +27,7 @@
         <section class="recipe">
             <h1 itemprop="name">Shiitake mushroom risotto</h1>
 
+            <meta itemprop="datePublished" content="2019-04-01">
             <meta itemprop="totalTime" content=PT30M>
             <meta itemprop="prepTime" content=>
             <meta itemprop="performTime" content=PT30M>
@@ -45,14 +46,14 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button">x0.5</button>
-                <button type="button" class="selected">x1</button>
-                <button type="button">x2</button>
-                <button type="button">x3</button>
+                <button type="button" class="button">x0.5</button>
+                <button type="button" class="button selected">x1</button>
+                <button type="button" class="button">x2</button>
+                <button type="button" class="button">x3</button>
             </div>
             <div class="unit-btns">
-                <button type="button" class="selected">Metric</button>
-                <button type="button">Imperial</button>
+                <button type="button" class="button selected">Metric</button>
+                <button type="button" class="button">Imperial</button>
                 </div>
             <div>
                 <ul>
@@ -87,9 +88,9 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Melt the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">butter</span> in a pan, add the <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span> and <span data-default="2" data-defaultunit="small cloves" data-quantity="2" data-unit="small cloves" class="tooltip scalable">garlic</span> and fry for <span class="timer-wrapper"><b>2-3</b> minutes<div class="timer-tooltip"><span class="timer-display" data-time="120"></span><span class="timer-btn timer-start"></span></div></span> until the onions are soft.  </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="1.5" data-defaultunit="mug" data-quantity="1&frac12;" data-unit="mug" class="tooltip scalable">rice</span> and cook for <span class="timer-wrapper"><b>1</b> minute<div class="timer-tooltip"><span class="timer-display" data-time="60"></span><span class="timer-btn timer-start"></span></div></span> until the <span data-default="1.5" data-defaultunit="mug" data-quantity="1&frac12;" data-unit="mug" class="tooltip scalable">rice</span> has absorbed the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">butter</span>. Add the <span data-default="4" data-defaultunit="mugs" data-quantity="4" data-unit="mugs" class="tooltip scalable">water</span> and <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">stock</span> cubes. Bring to the boil, then turn down to simmer for <span class="timer-wrapper"><b>10</b> minutes<div class="timer-tooltip"><span class="timer-display" data-time="600"></span><span class="timer-btn timer-start"></span></div></span>. Stir every now and then.  </li>
-                <li itemprop="recipeInstructions">Add the mushrooms and simmer for a further <span class="timer-wrapper"><b>5-6</b> minutes<div class="timer-tooltip"><span class="timer-display" data-time="300"></span><span class="timer-btn timer-start"></span></div></span>. Stir frequently. The <span data-default="1.5" data-defaultunit="mug" data-quantity="1&frac12;" data-unit="mug" class="tooltip scalable">rice</span> should be cooked and most of the liquid absorbed. If not, then add a little more <span data-default="4" data-defaultunit="mugs" data-quantity="4" data-unit="mugs" class="tooltip scalable">water</span> and cook for <b>2-3</b> more minutes.  </li>
+                <li itemprop="recipeInstructions">Melt the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">butter</span> in a pan, add the <span data-default="1" data-defaultunit="large" data-quantity="1" data-unit="large" class="tooltip scalable">onion</span> and <span data-default="2" data-defaultunit="small cloves" data-quantity="2" data-unit="small cloves" class="tooltip scalable">garlic</span> and fry for <button class="toast-btn" data-time="120" title="Start timer"><img class="toast-btn-icon" src="../img/clock.svg" alt="Create timer"></button><b>2-3</b> minutes until the onions are soft.  </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="1.5" data-defaultunit="mug" data-quantity="1&frac12;" data-unit="mug" class="tooltip scalable">rice</span> and cook for <button class="toast-btn" data-time="60" title="Start timer"><img class="toast-btn-icon" src="../img/clock.svg" alt="Create timer"></button><b>1</b> minute until the <span data-default="1.5" data-defaultunit="mug" data-quantity="1&frac12;" data-unit="mug" class="tooltip scalable">rice</span> has absorbed the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">butter</span>. Add the <span data-default="4" data-defaultunit="mugs" data-quantity="4" data-unit="mugs" class="tooltip scalable">water</span> and <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">stock</span> cubes. Bring to the boil, then turn down to simmer for <button class="toast-btn" data-time="600" title="Start timer"><img class="toast-btn-icon" src="../img/clock.svg" alt="Create timer"></button><b>10</b> minutes. Stir every now and then.  </li>
+                <li itemprop="recipeInstructions">Add the mushrooms and simmer for a further <button class="toast-btn" data-time="300" title="Start timer"><img class="toast-btn-icon" src="../img/clock.svg" alt="Create timer"></button><b>5-6</b> minutes. Stir frequently. The <span data-default="1.5" data-defaultunit="mug" data-quantity="1&frac12;" data-unit="mug" class="tooltip scalable">rice</span> should be cooked and most of the liquid absorbed. If not, then add a little more <span data-default="4" data-defaultunit="mugs" data-quantity="4" data-unit="mugs" class="tooltip scalable">water</span> and cook for <b>2-3</b> more minutes.  </li>
                 <li itemprop="recipeInstructions">Season well with salt and pepper and stir in the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">basil</span> at the last minute.  </li>
                 <li itemprop="recipeInstructions">Serve in a bowl with some freshly shaved Parmesan over the top</li>
                 </ol>
@@ -112,6 +113,7 @@
                 <a href="/random">Random</a>
             </div>
         </footer>
+        <section id="timers"></section>
         <script type="text/javascript">
             'use strict';
             const shareData = {

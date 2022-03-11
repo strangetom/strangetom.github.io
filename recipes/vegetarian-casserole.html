@@ -10,13 +10,13 @@
         <meta property="og:image" content="https://www.strangerfoods.org/images/Vegetarian_casserole.webp">
         <meta property="og:url" content="https://www.strangerfoods.org/recipes/vegetarian-casserole">
         <meta name="twitter:card" content="summary_large_image">        
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-AgBLzm/GOfQuqtoWJNmfHkyOjsuX+Hfydw9/hpPRW94='; script-src 'self' 'sha256-DgYEFShnA5b6vmTdGIE4oSaDIZA3ocyuPMz8wR2U4aM=';">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-SKNntjR/YEmnQyV505Tu9Lq6l/H78s9kzRcKiOxewhM='; script-src 'self' 'sha256-DgYEFShnA5b6vmTdGIE4oSaDIZA3ocyuPMz8wR2U4aM=';">
         <title>Vegetarian casserole | Stranger Foods</title>
         <link rel="preload" href="../fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="../css/colours.min.css" as="style">
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale_timers.min.js"></script>
-        <noscript><style type="text/css">.scale-btns,.unit-btns,.timer-tooltip,.substitute-icon{display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns,.unit-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
     </head>
     <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
 
@@ -27,6 +27,7 @@
         <section class="recipe">
             <h1 itemprop="name">Vegetarian casserole</h1>
 
+            <meta itemprop="datePublished" content="2019-04-01">
             <meta itemprop="totalTime" content=PT50M>
             <meta itemprop="prepTime" content=>
             <meta itemprop="performTime" content=PT50M>
@@ -51,14 +52,14 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button">x0.5</button>
-                <button type="button" class="selected">x1</button>
-                <button type="button">x2</button>
-                <button type="button">x3</button>
+                <button type="button" class="button">x0.5</button>
+                <button type="button" class="button selected">x1</button>
+                <button type="button" class="button">x2</button>
+                <button type="button" class="button">x3</button>
             </div>
             <div class="unit-btns">
-                <button type="button" class="selected">Metric</button>
-                <button type="button">Imperial</button>
+                <button type="button" class="button selected">Metric</button>
+                <button type="button" class="button">Imperial</button>
                 </div>
             <div>
                 <ul>
@@ -112,9 +113,9 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large, heavy-based pan. Add the onions and cook gently for <span class="timer-wrapper"><b>5-10</b> mins<div class="timer-tooltip"><span class="timer-display" data-time="300"></span><span class="timer-btn timer-start"></span></div></span> until softened. </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="3" data-defaultunit="clove" data-quantity="3" data-unit="clove" class="tooltip scalable">garlic</span>, spices, dried thyme, carrots, <span data-default="2" data-defaultunit="medium sticks" data-quantity="2" data-unit="medium sticks" class="tooltip scalable">celery</span> and peppers and cook for <span class="timer-wrapper"><b>5</b> minutes<div class="timer-tooltip"><span class="timer-display" data-time="300"></span><span class="timer-btn timer-start"></span></div></span>.  </li>
-                <li itemprop="recipeInstructions">Add the <span data-default="2x" data-defaultunit="400 g tins" data-quantity="2x" data-unit="400 g tins" class="tooltip scalable">tomatoes</span>, <span data-default="250" data-defaultunit="ml" data-quantity="250" data-unit="ml" class="tooltip scalable">stock</span>, <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">courgettes</span> and <span data-default="2" data-defaultunit="sprigs" data-quantity="2" data-unit="sprigs" class="tooltip scalable">fresh thyme</span> and cook for <b>20</b> - <span class="timer-wrapper"><b>25</b> minutes<div class="timer-tooltip"><span class="timer-display" data-time="1500"></span><span class="timer-btn timer-start"></span></div></span>.  </li>
+                <li itemprop="recipeInstructions">Heat the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">oil</span> in a large, heavy-based pan. Add the onions and cook gently for <button class="toast-btn" data-time="300" title="Start timer"><img class="toast-btn-icon" src="../img/clock.svg" alt="Create timer"></button><b>5-10</b> mins until softened. </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="3" data-defaultunit="clove" data-quantity="3" data-unit="clove" class="tooltip scalable">garlic</span>, spices, dried thyme, carrots, <span data-default="2" data-defaultunit="medium sticks" data-quantity="2" data-unit="medium sticks" class="tooltip scalable">celery</span> and peppers and cook for <button class="toast-btn" data-time="300" title="Start timer"><img class="toast-btn-icon" src="../img/clock.svg" alt="Create timer"></button><b>5</b> minutes.  </li>
+                <li itemprop="recipeInstructions">Add the <span data-default="2x" data-defaultunit="400 g tins" data-quantity="2x" data-unit="400 g tins" class="tooltip scalable">tomatoes</span>, <span data-default="250" data-defaultunit="ml" data-quantity="250" data-unit="ml" class="tooltip scalable">stock</span>, <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">courgettes</span> and <span data-default="2" data-defaultunit="sprigs" data-quantity="2" data-unit="sprigs" class="tooltip scalable">fresh thyme</span> and cook for <b>20</b> - <button class="toast-btn" data-time="1500" title="Start timer"><img class="toast-btn-icon" src="../img/clock.svg" alt="Create timer"></button><b>25</b> minutes.  </li>
                 <li itemprop="recipeInstructions">Take out the thyme sprigs. Stir in the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">lentils</span> and bring back to a simmer. Serve with wild and white basmati rice, mash or quinoa.  </li>
                 </ol>
 
@@ -172,6 +173,7 @@
                 <a href="/random">Random</a>
             </div>
         </footer>
+        <section id="timers"></section>
         <script type="text/javascript">
             'use strict';
             const shareData = {

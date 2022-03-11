@@ -10,13 +10,13 @@
         <meta property="og:image" content="https://www.strangerfoods.org/images/Lamb_chops_with_pancetta_salad_&_yoghurt_dressing.webp">
         <meta property="og:url" content="https://www.strangerfoods.org/recipes/lamb-chops-with-pancetta-salad-yoghurt-dressing">
         <meta name="twitter:card" content="summary_large_image">        
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-AgBLzm/GOfQuqtoWJNmfHkyOjsuX+Hfydw9/hpPRW94='; script-src 'self' 'sha256-DgYEFShnA5b6vmTdGIE4oSaDIZA3ocyuPMz8wR2U4aM=';">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-SKNntjR/YEmnQyV505Tu9Lq6l/H78s9kzRcKiOxewhM='; script-src 'self' 'sha256-DgYEFShnA5b6vmTdGIE4oSaDIZA3ocyuPMz8wR2U4aM=';">
         <title>Lamb chops with pancetta salad & yoghurt dressing | Stranger Foods</title>
         <link rel="preload" href="../fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="../css/colours.min.css" as="style">
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale_timers.min.js"></script>
-        <noscript><style type="text/css">.scale-btns,.unit-btns,.timer-tooltip,.substitute-icon{display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns,.unit-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
     </head>
     <body class="RedMeat" itemscope itemtype="https://schema.org/Recipe">
 
@@ -27,6 +27,7 @@
         <section class="recipe">
             <h1 itemprop="name">Lamb chops with pancetta salad & yoghurt dressing</h1>
 
+            <meta itemprop="datePublished" content="2019-04-01">
             <meta itemprop="totalTime" content=PT30M>
             <meta itemprop="prepTime" content=>
             <meta itemprop="performTime" content=PT30M>
@@ -46,14 +47,14 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button">x0.5</button>
-                <button type="button" class="selected">x1</button>
-                <button type="button">x2</button>
-                <button type="button">x3</button>
+                <button type="button" class="button">x0.5</button>
+                <button type="button" class="button selected">x1</button>
+                <button type="button" class="button">x2</button>
+                <button type="button" class="button">x3</button>
             </div>
             <div class="unit-btns">
-                <button type="button" class="selected">Metric</button>
-                <button type="button">Imperial</button>
+                <button type="button" class="button selected">Metric</button>
+                <button type="button" class="button">Imperial</button>
                 </div>
             <div>
                 <details open>
@@ -111,7 +112,7 @@
                 <li itemprop="recipeInstructions">To make the croutons, heat the oil in a frying pan and fry the <span data-default="2" data-defaultunit="slices" data-quantity="2" data-unit="slices" class="tooltip scalable">bread</span> until it is brown on both sides. Take out of the pan and cut into small squares.  </li>
                 <li itemprop="recipeInstructions">Fry the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">pancetta</span> lightly; don't make it too crisp. Remove from the pan and cut into bite-sized pieces.  </li>
                 <li itemprop="recipeInstructions">Mix all the <span data-default="0.5x" data-defaultunit="100 g bag" data-quantity="0.5x" data-unit="100 g bag" class="tooltip scalable">salad</span> ingredients together.  </li>
-                <li itemprop="recipeInstructions">Heat a little oil in a frying pan and fry the <span data-default="8" data-defaultunit="small" data-quantity="8" data-unit="small" class="tooltip scalable">lamb chops</span> for <span class="timer-wrapper"><b>2</b> minutes<div class="timer-tooltip"><span class="timer-display" data-time="120"></span><span class="timer-btn timer-start"></span></div></span> on each side. If you have larger, or thicker, chops you will need to fry for a little longer. Season well.  </li>
+                <li itemprop="recipeInstructions">Heat a little oil in a frying pan and fry the <span data-default="8" data-defaultunit="small" data-quantity="8" data-unit="small" class="tooltip scalable">lamb chops</span> for <button class="toast-btn" data-time="120" title="Start timer"><img class="toast-btn-icon" src="../img/clock.svg" alt="Create timer"></button><b>2</b> minutes on each side. If you have larger, or thicker, chops you will need to fry for a little longer. Season well.  </li>
                 <li itemprop="recipeInstructions">Serve everything together.</li>
                 </ol>
 
@@ -133,6 +134,7 @@
                 <a href="/random">Random</a>
             </div>
         </footer>
+        <section id="timers"></section>
         <script type="text/javascript">
             'use strict';
             const shareData = {

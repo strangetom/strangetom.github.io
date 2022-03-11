@@ -10,13 +10,13 @@
         <meta property="og:image" content="https://www.strangerfoods.org/images/Barbecue_pulled_pork.webp">
         <meta property="og:url" content="https://www.strangerfoods.org/recipes/barbecue-pulled-pork">
         <meta name="twitter:card" content="summary_large_image">        
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-AgBLzm/GOfQuqtoWJNmfHkyOjsuX+Hfydw9/hpPRW94='; script-src 'self' 'sha256-DgYEFShnA5b6vmTdGIE4oSaDIZA3ocyuPMz8wR2U4aM=';">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-SKNntjR/YEmnQyV505Tu9Lq6l/H78s9kzRcKiOxewhM='; script-src 'self' 'sha256-DgYEFShnA5b6vmTdGIE4oSaDIZA3ocyuPMz8wR2U4aM=';">
         <title>Barbecue pulled pork | Stranger Foods</title>
         <link rel="preload" href="../fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="../css/colours.min.css" as="style">
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale_timers.min.js"></script>
-        <noscript><style type="text/css">.scale-btns,.unit-btns,.timer-tooltip,.substitute-icon{display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns,.unit-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -27,6 +27,7 @@
         <section class="recipe">
             <h1 itemprop="name">Barbecue pulled pork</h1>
 
+            <meta itemprop="datePublished" content="2019-05-26">
             <meta itemprop="totalTime" content=PT615M>
             <meta itemprop="prepTime" content=PT15M>
             <meta itemprop="performTime" content=P600TM>
@@ -45,14 +46,14 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button">x0.5</button>
-                <button type="button" class="selected">x1</button>
-                <button type="button">x2</button>
-                <button type="button">x3</button>
+                <button type="button" class="button">x0.5</button>
+                <button type="button" class="button selected">x1</button>
+                <button type="button" class="button">x2</button>
+                <button type="button" class="button">x3</button>
             </div>
             <div class="unit-btns">
-                <button type="button" class="selected">Metric</button>
-                <button type="button">Imperial</button>
+                <button type="button" class="button selected">Metric</button>
+                <button type="button" class="button">Imperial</button>
                 </div>
             <div>
                 <ul>
@@ -84,9 +85,9 @@
             <hr>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">In a small bowl, mix <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">passata</span>, <span data-default="5" data-defaultunit="tbsp" data-quantity="5" data-unit="tbsp" class="tooltip scalable">Worcestershire sauce</span>, <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">balsamic vinegar</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">mustard powder</span>, <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">sweetener</span> and seasoning. Transfer to a small pan and simmer for <span class="timer-wrapper"><b>15</b> minutes<div class="timer-tooltip"><span class="timer-display" data-time="900"></span><span class="timer-btn timer-start"></span></div></span>, or until the sauce thickens.</li>
-                <li itemprop="recipeInstructions">Meanwhile, trim and remove all visible fat from the <span data-default="1.5-2" data-defaultunit="kg" data-quantity="1.5-2" data-unit="kg" class="tooltip scalable">pork</span> and sear all sides in a hot frying pan. Transfer to a slow cooker coat with the sauce and cook for <b>8</b> - <span class="timer-wrapper"><b>12</b> hours<div class="timer-tooltip"><span class="timer-display" data-time="43200"></span><span class="timer-btn timer-start"></span></div></span> on LOW.</li>
-                <li itemprop="recipeInstructions">Remove the <span data-default="1.5-2" data-defaultunit="kg" data-quantity="1.5-2" data-unit="kg" class="tooltip scalable">pork</span> from the slow cooker and place on a cutting board. Allow the meat to cool for approximately <span class="timer-wrapper"><b>15</b> minutes<div class="timer-tooltip"><span class="timer-display" data-time="900"></span><span class="timer-btn timer-start"></span></div></span>, then shred into bite-sized pieces using two forks.</li>
+                <li itemprop="recipeInstructions">In a small bowl, mix <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">passata</span>, <span data-default="5" data-defaultunit="tbsp" data-quantity="5" data-unit="tbsp" class="tooltip scalable">Worcestershire sauce</span>, <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">balsamic vinegar</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">mustard powder</span>, <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">sweetener</span> and seasoning. Transfer to a small pan and simmer for <button class="toast-btn" data-time="900" title="Start timer"><img class="toast-btn-icon" src="../img/clock.svg" alt="Create timer"></button><b>15</b> minutes, or until the sauce thickens.</li>
+                <li itemprop="recipeInstructions">Meanwhile, trim and remove all visible fat from the <span data-default="1.5-2" data-defaultunit="kg" data-quantity="1.5-2" data-unit="kg" class="tooltip scalable">pork</span> and sear all sides in a hot frying pan. Transfer to a slow cooker coat with the sauce and cook for <b>8</b> - <button class="toast-btn" data-time="43200" title="Start timer"><img class="toast-btn-icon" src="../img/clock.svg" alt="Create timer"></button><b>12</b> hours on LOW.</li>
+                <li itemprop="recipeInstructions">Remove the <span data-default="1.5-2" data-defaultunit="kg" data-quantity="1.5-2" data-unit="kg" class="tooltip scalable">pork</span> from the slow cooker and place on a cutting board. Allow the meat to cool for approximately <button class="toast-btn" data-time="900" title="Start timer"><img class="toast-btn-icon" src="../img/clock.svg" alt="Create timer"></button><b>15</b> minutes, then shred into bite-sized pieces using two forks.</li>
                 <li itemprop="recipeInstructions">Remove the sauce from the pan and set aside to drizzle on the meat later.</li>
                 </ol>
 
@@ -108,6 +109,7 @@
                 <a href="/random">Random</a>
             </div>
         </footer>
+        <section id="timers"></section>
         <script type="text/javascript">
             'use strict';
             const shareData = {

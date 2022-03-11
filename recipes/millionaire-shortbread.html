@@ -10,13 +10,13 @@
         <meta property="og:image" content="https://www.strangerfoods.org/images/Millionaire_shortbread.webp">
         <meta property="og:url" content="https://www.strangerfoods.org/recipes/millionaire-shortbread">
         <meta name="twitter:card" content="summary_large_image">        
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-AgBLzm/GOfQuqtoWJNmfHkyOjsuX+Hfydw9/hpPRW94='; script-src 'self' 'sha256-DgYEFShnA5b6vmTdGIE4oSaDIZA3ocyuPMz8wR2U4aM=';">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-SKNntjR/YEmnQyV505Tu9Lq6l/H78s9kzRcKiOxewhM='; script-src 'self' 'sha256-DgYEFShnA5b6vmTdGIE4oSaDIZA3ocyuPMz8wR2U4aM=';">
         <title>Millionaire shortbread | Stranger Foods</title>
         <link rel="preload" href="../fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="../css/colours.min.css" as="style">
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale_timers.min.js"></script>
-        <noscript><style type="text/css">.scale-btns,.unit-btns,.timer-tooltip,.substitute-icon{display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns,.unit-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
     </head>
     <body class="Dessert" itemscope itemtype="https://schema.org/Recipe">
 
@@ -27,6 +27,7 @@
         <section class="recipe">
             <h1 itemprop="name">Millionaire shortbread</h1>
 
+            <meta itemprop="datePublished" content="2019-04-01">
             <meta itemprop="totalTime" content=PT30M>
             <meta itemprop="prepTime" content=>
             <meta itemprop="performTime" content=PT30M>
@@ -44,14 +45,14 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button">x0.5</button>
-                <button type="button" class="selected">x1</button>
-                <button type="button">x2</button>
-                <button type="button">x3</button>
+                <button type="button" class="button">x0.5</button>
+                <button type="button" class="button selected">x1</button>
+                <button type="button" class="button">x2</button>
+                <button type="button" class="button">x3</button>
             </div>
             <div class="unit-btns">
-                <button type="button">Metric</button>
-                <button type="button" class="selected">Imperial</button>
+                <button type="button" class="button">Metric</button>
+                <button type="button" class="button selected">Imperial</button>
                 </div>
             <div>
                 <ul>
@@ -86,11 +87,11 @@
                 <li itemprop="recipeInstructions">Mix <b>3&frac12;</b> oz (<b>100</b> g) <span data-default="8" data-defaultunit="oz" data-quantity="8" data-unit="oz" class="tooltip scalable">butter</span> and <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">caster sugar</span> until light and fluffy  </li>
                 <li itemprop="recipeInstructions">Add <span data-default="5.5" data-defaultunit="oz" data-quantity="5&frac12;" data-unit="oz" class="tooltip scalable">flour</span>, make soft dough: turn onto board, draw together, knead lightly  </li>
                 <li itemprop="recipeInstructions">Press into tin, prick with fork  </li>
-                <li itemprop="recipeInstructions">Bake at <b>180</b>&deg;C until light brown (~<span class="timer-wrapper"><b>15</b> minutes<div class="timer-tooltip"><span class="timer-display" data-time="900"></span><span class="timer-btn timer-start"></span></div></span>)  </li>
+                <li itemprop="recipeInstructions">Bake at <b>180</b>&deg;C until light brown (~<button class="toast-btn" data-time="900" title="Start timer"><img class="toast-btn-icon" src="../img/clock.svg" alt="Create timer"></button><b>15</b> minutes)  </li>
                 <li itemprop="recipeInstructions">Mark out piece sizes with knife and allow to cool  </li>
                 <li itemprop="recipeInstructions">Melt remaining <span data-default="8" data-defaultunit="oz" data-quantity="8" data-unit="oz" class="tooltip scalable">butter</span> (<b>4&frac12;</b> oz, <b>127</b> g) and <span data-default="3" data-defaultunit="oz" data-quantity="3" data-unit="oz" class="tooltip scalable">brown sugar</span> over low heat  </li>
                 <li itemprop="recipeInstructions">Add <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">honey</span> and <span data-default="1" data-defaultunit="tin" data-quantity="1" data-unit="tin" class="tooltip scalable">condensed milk</span>  </li>
-                <li itemprop="recipeInstructions">Stir until mixture thickens (~<span class="timer-wrapper"><b>20-30</b> minutes<div class="timer-tooltip"><span class="timer-display" data-time="1200"></span><span class="timer-btn timer-start"></span></div></span>)  </li>
+                <li itemprop="recipeInstructions">Stir until mixture thickens (~<button class="toast-btn" data-time="1200" title="Start timer"><img class="toast-btn-icon" src="../img/clock.svg" alt="Create timer"></button><b>20-30</b> minutes)  </li>
                 <li itemprop="recipeInstructions">Cool slightly and poor over shortbread  </li>
                 <li itemprop="recipeInstructions">Place in fridge to set  </li>
                 <li itemprop="recipeInstructions">Melt <span data-default="8" data-defaultunit="oz" data-quantity="8" data-unit="oz" class="tooltip scalable">chocolate</span> and poor over caramel.  </li>
@@ -116,6 +117,7 @@
                 <a href="/random">Random</a>
             </div>
         </footer>
+        <section id="timers"></section>
         <script type="text/javascript">
             'use strict';
             const shareData = {

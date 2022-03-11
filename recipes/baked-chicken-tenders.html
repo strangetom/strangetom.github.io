@@ -10,13 +10,13 @@
         <meta property="og:image" content="https://www.strangerfoods.org/images/Baked_chicken_tenders.webp">
         <meta property="og:url" content="https://www.strangerfoods.org/recipes/baked-chicken-tenders">
         <meta name="twitter:card" content="summary_large_image">        
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-AgBLzm/GOfQuqtoWJNmfHkyOjsuX+Hfydw9/hpPRW94='; script-src 'self' 'sha256-DgYEFShnA5b6vmTdGIE4oSaDIZA3ocyuPMz8wR2U4aM=';">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-SKNntjR/YEmnQyV505Tu9Lq6l/H78s9kzRcKiOxewhM='; script-src 'self' 'sha256-DgYEFShnA5b6vmTdGIE4oSaDIZA3ocyuPMz8wR2U4aM=';">
         <title>Baked chicken tenders | Stranger Foods</title>
         <link rel="preload" href="../fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="../css/colours.min.css" as="style">
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale_timers.min.js"></script>
-        <noscript><style type="text/css">.scale-btns,.unit-btns,.timer-tooltip,.substitute-icon{display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns,.unit-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
     </head>
     <body class="Poultry" itemscope itemtype="https://schema.org/Recipe">
 
@@ -27,6 +27,7 @@
         <section class="recipe">
             <h1 itemprop="name">Baked chicken tenders</h1>
 
+            <meta itemprop="datePublished" content="2021-09-10">
             <meta itemprop="totalTime" content=PT45M>
             <meta itemprop="prepTime" content=>
             <meta itemprop="performTime" content=>
@@ -48,14 +49,14 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button">x0.5</button>
-                <button type="button" class="selected">x1</button>
-                <button type="button">x2</button>
-                <button type="button">x3</button>
+                <button type="button" class="button">x0.5</button>
+                <button type="button" class="button selected">x1</button>
+                <button type="button" class="button">x2</button>
+                <button type="button" class="button">x3</button>
             </div>
             <div class="unit-btns">
-                <button type="button">Metric</button>
-                <button type="button" class="selected">Imperial</button>
+                <button type="button" class="button">Metric</button>
+                <button type="button" class="button selected">Imperial</button>
                 </div>
             <div>
                 <ul>
@@ -108,7 +109,7 @@
                 <li itemprop="recipeInstructions">Mix together <span data-default="1" data-defaultunit="cup" data-quantity="1" data-unit="cup" class="tooltip scalable">flour</span> and <span data-default="2" data-defaultunit="teaspoons" data-quantity="2" data-unit="teaspoons" class="tooltip scalable">paprika</span> in a medium bowl, and season with salt and pepper. Place <span data-default="2" data-defaultunit="large" data-quantity="2" data-unit="large" class="tooltip scalable">eggs</span> in a large bowl and whisk with <b>1</b> teaspoon water. Season with salt and pepper. Put <span data-default="2" data-defaultunit="cups" data-quantity="2" data-unit="cups" class="tooltip scalable">bread crumbs</span> in a large bowl or shallow baking dish, and season with salt and pepper.</li>
                 <li itemprop="recipeInstructions">Working with few pieces at a time, toss the chicken in the <span data-default="1" data-defaultunit="cup" data-quantity="1" data-unit="cup" class="tooltip scalable">flour</span> mixture, making sure it's evenly coated. Shake off excess <span data-default="1" data-defaultunit="cup" data-quantity="1" data-unit="cup" class="tooltip scalable">flour</span>, and dip into egg wash. Shake off any excess.</li>
                 <li itemprop="recipeInstructions">Dip chicken into bread crumb mixture a few pieces at a time, pressing to adhere as many <span data-default="2" data-defaultunit="cups" data-quantity="2" data-unit="cups" class="tooltip scalable">bread crumbs</span> as possible. Shake off any excess, and set chicken aside on a large plate.</li>
-                <li itemprop="recipeInstructions">Place breaded chicken strips on a foil- or parchment-lined rimmed baking sheet. Drizzle with <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">olive oil</span>, and bake until one side is beginning to brown, <span class="timer-wrapper"><b>6-8</b> minutes<div class="timer-tooltip"><span class="timer-display" data-time="360"></span><span class="timer-btn timer-start"></span></div></span>. Using tongs or a spatula, flip chicken and continue to cook until the other side is golden brown and crisp, another <span class="timer-wrapper"><b>6-8</b> minutes<div class="timer-tooltip"><span class="timer-display" data-time="360"></span><span class="timer-btn timer-start"></span></div></span>. Serve with herbed <span data-default="1.5" data-defaultunit="cups" data-quantity="1&frac12;" data-unit="cups" class="tooltip scalable">yogurt</span> dip.</li>
+                <li itemprop="recipeInstructions">Place breaded chicken strips on a foil- or parchment-lined rimmed baking sheet. Drizzle with <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">olive oil</span>, and bake until one side is beginning to brown, <button class="toast-btn" data-time="360" title="Start timer"><img class="toast-btn-icon" src="../img/clock.svg" alt="Create timer"></button><b>6-8</b> minutes. Using tongs or a spatula, flip chicken and continue to cook until the other side is golden brown and crisp, another <button class="toast-btn" data-time="360" title="Start timer"><img class="toast-btn-icon" src="../img/clock.svg" alt="Create timer"></button><b>6-8</b> minutes. Serve with herbed <span data-default="1.5" data-defaultunit="cups" data-quantity="1&frac12;" data-unit="cups" class="tooltip scalable">yogurt</span> dip.</li>
                 </ol>
 
             <hr>
@@ -165,6 +166,7 @@
                 <a href="/random">Random</a>
             </div>
         </footer>
+        <section id="timers"></section>
         <script type="text/javascript">
             'use strict';
             const shareData = {

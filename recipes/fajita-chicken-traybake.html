@@ -10,13 +10,13 @@
         <meta property="og:image" content="https://www.strangerfoods.org/images/Fajita_chicken_traybake.webp">
         <meta property="og:url" content="https://www.strangerfoods.org/recipes/fajita-chicken-traybake">
         <meta name="twitter:card" content="summary_large_image">        
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-AgBLzm/GOfQuqtoWJNmfHkyOjsuX+Hfydw9/hpPRW94='; script-src 'self' 'sha256-DgYEFShnA5b6vmTdGIE4oSaDIZA3ocyuPMz8wR2U4aM=';">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-SKNntjR/YEmnQyV505Tu9Lq6l/H78s9kzRcKiOxewhM='; script-src 'self' 'sha256-DgYEFShnA5b6vmTdGIE4oSaDIZA3ocyuPMz8wR2U4aM=';">
         <title>Fajita chicken traybake | Stranger Foods</title>
         <link rel="preload" href="../fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="../css/colours.min.css" as="style">
         <link rel="stylesheet" type="text/css" href="../css/recipe.min.css">
         <script src="../js/scale_timers.min.js"></script>
-        <noscript><style type="text/css">.scale-btns,.unit-btns,.timer-tooltip,.substitute-icon{display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns,.unit-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
     </head>
     <body class="Poultry" itemscope itemtype="https://schema.org/Recipe">
 
@@ -27,6 +27,7 @@
         <section class="recipe">
             <h1 itemprop="name">Fajita chicken traybake</h1>
 
+            <meta itemprop="datePublished" content="2019-06-16">
             <meta itemprop="totalTime" content=PT30M>
             <meta itemprop="prepTime" content=PT10M>
             <meta itemprop="performTime" content=P20TM>
@@ -50,14 +51,14 @@
             <hr>
             <h2>Ingredients</h2>
             <div class="scale-btns">
-                <button type="button">x0.5</button>
-                <button type="button" class="selected">x1</button>
-                <button type="button">x2</button>
-                <button type="button">x3</button>
+                <button type="button" class="button">x0.5</button>
+                <button type="button" class="button selected">x1</button>
+                <button type="button" class="button">x2</button>
+                <button type="button" class="button">x3</button>
             </div>
             <div class="unit-btns">
-                <button type="button" class="selected">Metric</button>
-                <button type="button">Imperial</button>
+                <button type="button" class="button selected">Metric</button>
+                <button type="button" class="button">Imperial</button>
                 </div>
             <div>
                 <ul>
@@ -93,8 +94,8 @@
             <h2>Instructions</h2>
             <ol>
                 <li itemprop="recipeInstructions">Preheat the oven to <b>200</b>&deg;C, Gas <b>7</b>, with a very large shallow roasting tin inside (if you don’t have a really large one, use <b>2</b> trays).</li>
-                <li itemprop="recipeInstructions">In a large bowl, stir the <span data-default="1" data-defaultunit="pack" data-quantity="1" data-unit="pack" class="tooltip scalable">spice mix</span> into the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span>, then toss the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">onions</span>, <span data-default="3" data-defaultunit="" data-quantity="3" data-unit="" class="tooltip scalable">peppers</span> and <span data-default="320" data-defaultunit="g" data-quantity="320" data-unit="g" class="tooltip scalable">chicken</span> in to coat. Tip into the hot roasting tin (or divide between <b>2</b> trays – you want everything fairly well spread out so that they roast rather than steam). Roast in the oven for <span class="timer-wrapper"><b>10</b> minutes<div class="timer-tooltip"><span class="timer-display" data-time="600"></span><span class="timer-btn timer-start"></span></div></span>.</li>
-                <li itemprop="recipeInstructions">Stir everything around and cook for another <span class="timer-wrapper"><b>5</b> minutes<div class="timer-tooltip"><span class="timer-display" data-time="300"></span><span class="timer-btn timer-start"></span></div></span>, then mix in the <span data-default="1x" data-defaultunit="380 g pack" data-quantity="1x" data-unit="380 g pack" class="tooltip scalable">black beans</span> and <span data-default="1x" data-defaultunit="250 g pack" data-quantity="1x" data-unit="250 g pack" class="tooltip scalable">rice</span> and return to the oven to heat through for <span class="timer-wrapper"><b>5</b> minutes<div class="timer-tooltip"><span class="timer-display" data-time="300"></span><span class="timer-btn timer-start"></span></div></span>.</li>
+                <li itemprop="recipeInstructions">In a large bowl, stir the <span data-default="1" data-defaultunit="pack" data-quantity="1" data-unit="pack" class="tooltip scalable">spice mix</span> into the <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">oil</span>, then toss the <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">onions</span>, <span data-default="3" data-defaultunit="" data-quantity="3" data-unit="" class="tooltip scalable">peppers</span> and <span data-default="320" data-defaultunit="g" data-quantity="320" data-unit="g" class="tooltip scalable">chicken</span> in to coat. Tip into the hot roasting tin (or divide between <b>2</b> trays – you want everything fairly well spread out so that they roast rather than steam). Roast in the oven for <button class="toast-btn" data-time="600" title="Start timer"><img class="toast-btn-icon" src="../img/clock.svg" alt="Create timer"></button><b>10</b> minutes.</li>
+                <li itemprop="recipeInstructions">Stir everything around and cook for another <button class="toast-btn" data-time="300" title="Start timer"><img class="toast-btn-icon" src="../img/clock.svg" alt="Create timer"></button><b>5</b> minutes, then mix in the <span data-default="1x" data-defaultunit="380 g pack" data-quantity="1x" data-unit="380 g pack" class="tooltip scalable">black beans</span> and <span data-default="1x" data-defaultunit="250 g pack" data-quantity="1x" data-unit="250 g pack" class="tooltip scalable">rice</span> and return to the oven to heat through for <button class="toast-btn" data-time="300" title="Start timer"><img class="toast-btn-icon" src="../img/clock.svg" alt="Create timer"></button><b>5</b> minutes.</li>
                 <li itemprop="recipeInstructions">Serve with the <span data-default="150" data-defaultunit="ml" data-quantity="150" data-unit="ml" class="tooltip scalable">soured cream</span> drizzled over, scattered with <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">chopped coriander</span>.</li>
                 </ol>
 
@@ -152,6 +153,7 @@
                 <a href="/random">Random</a>
             </div>
         </footer>
+        <section id="timers"></section>
         <script type="text/javascript">
             'use strict';
             const shareData = {
