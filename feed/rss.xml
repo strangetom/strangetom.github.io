@@ -7,29 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Mar 2022 12:40:20 +0000</lastBuildDate>
-    <item>
-      <title>Pork katsu stir-fry</title>
-      <link>https://www.strangerfoods.org/recipes/pork-katsu-stir-fry</link>
-      <description>&lt;h1&gt;Pork katsu stir-fry&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Pork_katsu_stir-fry.webp" style="text-align: center;"/&gt;
-            &lt;br&gt;
-            &lt;p&gt;Katsu curry sauce adds a tangy Japanese twist to this stir-fry. Pork loin steaks are a lean source of protein but could be swapped for thinly sliced chicken breast fillets if you prefer&lt;/p&gt;</description>
-      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/pork-katsu-stir-fry</guid>
-      <pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Coconut pork stew with garam masala</title>
-      <link>https://www.strangerfoods.org/recipes/coconut-pork-stew-with-garam-masala</link>
-      <description>&lt;h1&gt;Coconut pork stew with garam masala&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Coconut_pork_stew_with_garam_masala.webp" style="text-align: center;"/&gt;
-            &lt;br&gt;
-            &lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/coconut-pork-stew-with-garam-masala</guid>
-      <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 19 Mar 2022 16:08:43 +0000</lastBuildDate>
     <item>
       <title>Prawn fried rice</title>
       <link>https://www.strangerfoods.org/recipes/prawn-fried-rice</link>
@@ -62,6 +40,28 @@
             &lt;p&gt;Feast like a king with this Arabian style flavorful rice and grilled chicken&lt;/p&gt;</description>
       <guid isPermaLink="true">https://www.strangerfoods.org/recipes/chicken-kabsa</guid>
       <pubDate>Sat, 26 Feb 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lemon pepper cajun chicken fettuccine alfredo</title>
+      <link>https://www.strangerfoods.org/recipes/lemon-pepper-cajun-chicken-fettuccine-alfredo</link>
+      <description>&lt;h1&gt;Lemon pepper cajun chicken fettuccine alfredo&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Lemon_pepper_cajun_chicken_fettuccine_alfredo.webp" style="text-align: center;"/&gt;
+            &lt;br&gt;
+            &lt;p&gt;Every twirl of pasta melts in your mouth and the chicken adds a delicious buttery, spiciness with every bite!&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/lemon-pepper-cajun-chicken-fettuccine-alfredo</guid>
+      <pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Coconut-braised spring greens</title>
+      <link>https://www.strangerfoods.org/recipes/coconut-braised-spring-greens</link>
+      <description>&lt;h1&gt;Coconut-braised spring greens&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Coconut-braised_spring_greens.webp" style="text-align: center;"/&gt;
+            &lt;br&gt;
+            &lt;p&gt;'This recipe was inspired by one for collard greens, popular in the Caribbean and America's Deep South. Use tamari rather than soy, if required for gluten-free.&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/coconut-braised-spring-greens</guid>
+      <pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
