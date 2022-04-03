@@ -12,48 +12,48 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/chicken-stroganoff",
+      "url": "https://www.strangerfoods.org/recipes/chicken-stroganoff",
+      "title": "Chicken stroganoff",
+      "content_html": "<h1>Chicken stroganoff</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Chicken_stroganoff.webp\" style=\"text-align: center;\"/>\n            <br>\n            <p>Try our healthier, but no-less-comforting, take on the Russian classic. </p>",
+      "image": "https://www.strangerfoods.org/images/Chicken_stroganoff.webp",
+      "date_published": "Thu, 31 Mar 2022 23:00:00 -0000",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/harissa-prawns-with-warm-chickpea-salad",
+      "url": "https://www.strangerfoods.org/recipes/harissa-prawns-with-warm-chickpea-salad",
+      "title": "Harissa prawns with warm chickpea salad",
+      "content_html": "<h1>Harissa prawns with warm chickpea salad</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Harissa_prawns_with_warm_chickpea_salad.webp\" style=\"text-align: center;\"/>\n            <br>\n            <p>This makes a very speedy supper, packed with good things. You could add some halved cherry tomatoes to the salad, too.</p>",
+      "image": "https://www.strangerfoods.org/images/Harissa_prawns_with_warm_chickpea_salad.webp",
+      "date_published": "Thu, 31 Mar 2022 23:00:00 -0000",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/mushroom-kidney-bean-coconut-curry",
+      "url": "https://www.strangerfoods.org/recipes/mushroom-kidney-bean-coconut-curry",
+      "title": "Mushroom &#x26; kidney bean coconut curry",
+      "content_html": "<h1>Mushroom &#x26; kidney bean coconut curry</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Mushroom_&#x26;_kidney_bean_coconut_curry.webp\" style=\"text-align: center;\"/>\n            <br>\n            <p>Kidney beans are the star of the show in this creamy curry recipe! They're high in protein, folate, iron and phosphorous, and overall this curry offers a considerable amount of iron per serving.</p>",
+      "image": "https://www.strangerfoods.org/images/Mushroom_&#x26;_kidney_bean_coconut_curry.webp",
+      "date_published": "Fri, 25 Mar 2022 00:00:00 -0000",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/lebanese-pizza",
+      "url": "https://www.strangerfoods.org/recipes/lebanese-pizza",
+      "title": "Lebanese pizza",
+      "content_html": "<h1>Lebanese pizza</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Lebanese_pizza.webp\" style=\"text-align: center;\"/>\n            <br>\n            <p></p>",
+      "image": "https://www.strangerfoods.org/images/Lebanese_pizza.webp",
+      "date_published": "Tue, 22 Mar 2022 00:00:00 -0000",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/cranberry-oat-and-white-chocolate-biscuits",
       "url": "https://www.strangerfoods.org/recipes/cranberry-oat-and-white-chocolate-biscuits",
       "title": "Cranberry, oat and white chocolate biscuits",
       "content_html": "<h1>Cranberry, oat and white chocolate biscuits</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Cranberry_oat_and_white_chocolate_biscuits.webp\" style=\"text-align: center;\"/>\n            <br>\n            <p></p>",
       "image": "https://www.strangerfoods.org/images/Cranberry_oat_and_white_chocolate_biscuits.webp",
       "date_published": "Fri, 18 Mar 2022 00:00:00 -0000",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/pasta-and-lentils",
-      "url": "https://www.strangerfoods.org/recipes/pasta-and-lentils",
-      "title": "Pasta and lentils (pasta e lenticchie)",
-      "content_html": "<h1>Pasta and lentils (pasta e lenticchie)</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Pasta_and_lentils.webp\" style=\"text-align: center;\"/>\n            <br>\n            <p></p>",
-      "image": "https://www.strangerfoods.org/images/Pasta_and_lentils.webp",
-      "date_published": "Fri, 18 Mar 2022 00:00:00 -0000",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/coconut-braised-spring-greens",
-      "url": "https://www.strangerfoods.org/recipes/coconut-braised-spring-greens",
-      "title": "Coconut-braised spring greens",
-      "content_html": "<h1>Coconut-braised spring greens</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Coconut-braised_spring_greens.webp\" style=\"text-align: center;\"/>\n            <br>\n            <p>'This recipe was inspired by one for collard greens, popular in the Caribbean and America's Deep South. Use tamari rather than soy, if required for gluten-free.</p>",
-      "image": "https://www.strangerfoods.org/images/Coconut-braised_spring_greens.webp",
-      "date_published": "Mon, 14 Mar 2022 00:00:00 -0000",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/lemon-pepper-cajun-chicken-fettuccine-alfredo",
-      "url": "https://www.strangerfoods.org/recipes/lemon-pepper-cajun-chicken-fettuccine-alfredo",
-      "title": "Lemon pepper cajun chicken fettuccine alfredo",
-      "content_html": "<h1>Lemon pepper cajun chicken fettuccine alfredo</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Lemon_pepper_cajun_chicken_fettuccine_alfredo.webp\" style=\"text-align: center;\"/>\n            <br>\n            <p>Every twirl of pasta melts in your mouth and the chicken adds a delicious buttery, spiciness with every bite!</p>",
-      "image": "https://www.strangerfoods.org/images/Lemon_pepper_cajun_chicken_fettuccine_alfredo.webp",
-      "date_published": "Sat, 12 Mar 2022 00:00:00 -0000",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/chicken-kabsa",
-      "url": "https://www.strangerfoods.org/recipes/chicken-kabsa",
-      "title": "Chicken kabsa",
-      "content_html": "<h1>Chicken kabsa</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Chicken_kabsa.webp\" style=\"text-align: center;\"/>\n            <br>\n            <p>Feast like a king with this Arabian style flavorful rice and grilled chicken</p>",
-      "image": "https://www.strangerfoods.org/images/Chicken_kabsa.webp",
-      "date_published": "Sat, 26 Feb 2022 00:00:00 -0000",
       "language": "en"
     }
   ]
