@@ -7,29 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 03 Apr 2022 17:15:04 +0000</lastBuildDate>
-    <item>
-      <title>Cranberry, oat and white chocolate biscuits</title>
-      <link>https://www.strangerfoods.org/recipes/cranberry-oat-and-white-chocolate-biscuits</link>
-      <description>&lt;h1&gt;Cranberry, oat and white chocolate biscuits&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Cranberry_oat_and_white_chocolate_biscuits.webp" style="text-align: center;"/&gt;
-            &lt;br&gt;
-            &lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/cranberry-oat-and-white-chocolate-biscuits</guid>
-      <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lebanese pizza</title>
-      <link>https://www.strangerfoods.org/recipes/lebanese-pizza</link>
-      <description>&lt;h1&gt;Lebanese pizza&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Lebanese_pizza.webp" style="text-align: center;"/&gt;
-            &lt;br&gt;
-            &lt;p&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/lebanese-pizza</guid>
-      <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 10 Apr 2022 17:04:17 +0000</lastBuildDate>
     <item>
       <title>Mushroom &amp;#x26; kidney bean coconut curry</title>
       <link>https://www.strangerfoods.org/recipes/mushroom-kidney-bean-coconut-curry</link>
@@ -62,6 +40,28 @@
             &lt;p&gt;Try our healthier, but no-less-comforting, take on the Russian classic. &lt;/p&gt;</description>
       <guid isPermaLink="true">https://www.strangerfoods.org/recipes/chicken-stroganoff</guid>
       <pubDate>Thu, 31 Mar 2022 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pastelillos de carne</title>
+      <link>https://www.strangerfoods.org/recipes/pastelillos-de-carne</link>
+      <description>&lt;h1&gt;Pastelillos de carne&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Pastelillos_de_carne.webp" style="text-align: center;"/&gt;
+            &lt;br&gt;
+            &lt;p&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/pastelillos-de-carne</guid>
+      <pubDate>Wed, 06 Apr 2022 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codfish omelet sandwich</title>
+      <link>https://www.strangerfoods.org/recipes/codfish-omelet-sandwich</link>
+      <description>&lt;h1&gt;Codfish omelet sandwich&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Codfish_omelet_sandwich.webp" style="text-align: center;"/&gt;
+            &lt;br&gt;
+            &lt;p&gt;Tortas are Portuguese sandwiches and a typical way to use leftovers. Add last night’s dinner, in chopped-up bits, to a basic egg omelet and you have a pretty phenomenal sandwich filler. The olive oil rallies around the beaten egg and gives it a good bubbling fry that pairs well with American cheese. Stuffed into a fresh crusty bread roll, the combination is hard to beat.&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/codfish-omelet-sandwich</guid>
+      <pubDate>Wed, 06 Apr 2022 23:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
