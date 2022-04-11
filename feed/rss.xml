@@ -7,18 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 10 Apr 2022 17:04:17 +0000</lastBuildDate>
-    <item>
-      <title>Mushroom &amp;#x26; kidney bean coconut curry</title>
-      <link>https://www.strangerfoods.org/recipes/mushroom-kidney-bean-coconut-curry</link>
-      <description>&lt;h1&gt;Mushroom &amp;#x26; kidney bean coconut curry&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Mushroom_&amp;#x26;_kidney_bean_coconut_curry.webp" style="text-align: center;"/&gt;
-            &lt;br&gt;
-            &lt;p&gt;Kidney beans are the star of the show in this creamy curry recipe! They're high in protein, folate, iron and phosphorous, and overall this curry offers a considerable amount of iron per serving.&lt;/p&gt;</description>
-      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/mushroom-kidney-bean-coconut-curry</guid>
-      <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 11 Apr 2022 17:41:45 +0000</lastBuildDate>
     <item>
       <title>Harissa prawns with warm chickpea salad</title>
       <link>https://www.strangerfoods.org/recipes/harissa-prawns-with-warm-chickpea-salad</link>
@@ -62,6 +51,17 @@
             &lt;p&gt;Tortas are Portuguese sandwiches and a typical way to use leftovers. Add last night’s dinner, in chopped-up bits, to a basic egg omelet and you have a pretty phenomenal sandwich filler. The olive oil rallies around the beaten egg and gives it a good bubbling fry that pairs well with American cheese. Stuffed into a fresh crusty bread roll, the combination is hard to beat.&lt;/p&gt;</description>
       <guid isPermaLink="true">https://www.strangerfoods.org/recipes/codfish-omelet-sandwich</guid>
       <pubDate>Wed, 06 Apr 2022 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Alcaparrado</title>
+      <link>https://www.strangerfoods.org/recipes/alcaparrado</link>
+      <description>&lt;h1&gt;Alcaparrado&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Alcaparrado.webp" style="text-align: center;"/&gt;
+            &lt;br&gt;
+            &lt;p&gt;As with many cooking staples, there are times when it would be much easier to just head down to the grocery store and buy a jar of olives and capers in oil. When you see how effortless it is to make your own alcaparrado and how much better it tastes though, you may never go back to store bought.&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/alcaparrado</guid>
+      <pubDate>Sat, 09 Apr 2022 23:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
