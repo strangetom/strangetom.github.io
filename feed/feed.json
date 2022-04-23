@@ -12,10 +12,28 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/apple-blackberry-crumble",
+      "url": "https://www.strangerfoods.org/recipes/apple-blackberry-crumble",
+      "title": "Apple &#x26; blackberry crumble",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Apple &#x26; blackberry crumble</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Apple_&#x26;_blackberry_crumble.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>Make this seasonal apple and blackberry crumble for a comforting family pud. Pre-cooking the topping will make it extra-crispy, while also retaining the texture of the fruit</p>",
+      "image": "https://www.strangerfoods.org/images/Apple_&#x26;_blackberry_crumble.webp",
+      "date_published": "Sun, 17 Apr 2022 23:00:00 -0000",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/meat-stuffed-potato-pancake",
+      "url": "https://www.strangerfoods.org/recipes/meat-stuffed-potato-pancake",
+      "title": "Meat stuffed potato pancake",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Meat stuffed potato pancake</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Meat_stuffed_potato_pancake.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>This meat stuffed potato pancake is full of excellent flavors. Chicken, peas, corn, mushrooms, and red bell pepper \u2013 a delicious combination. The perfect idea for a weekend lunch.</p>",
+      "image": "https://www.strangerfoods.org/images/Meat_stuffed_potato_pancake.webp",
+      "date_published": "Wed, 13 Apr 2022 23:00:00 -0000",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/alcaparrado",
       "url": "https://www.strangerfoods.org/recipes/alcaparrado",
       "title": "Alcaparrado",
-      "content_html": "<h1>Alcaparrado</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Alcaparrado.webp\" style=\"text-align: center;\"/>\n            <br>\n            <p>As with many cooking staples, there are times when it would be much easier to just head down to the grocery store and buy a jar of olives and capers in oil. When you see how effortless it is to make your own alcaparrado and how much better it tastes though, you may never go back to store bought.</p>",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Alcaparrado</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Alcaparrado.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>As with many cooking staples, there are times when it would be much easier to just head down to the grocery store and buy a jar of olives and capers in oil. When you see how effortless it is to make your own alcaparrado and how much better it tastes though, you may never go back to store bought.</p>",
       "image": "https://www.strangerfoods.org/images/Alcaparrado.webp",
       "date_published": "Sat, 09 Apr 2022 23:00:00 -0000",
       "language": "en"
@@ -24,7 +42,7 @@
       "id": "https://www.strangerfoods.org/recipes/codfish-omelet-sandwich",
       "url": "https://www.strangerfoods.org/recipes/codfish-omelet-sandwich",
       "title": "Codfish omelet sandwich",
-      "content_html": "<h1>Codfish omelet sandwich</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Codfish_omelet_sandwich.webp\" style=\"text-align: center;\"/>\n            <br>\n            <p>Tortas are Portuguese sandwiches and a typical way to use leftovers. Add last night\u2019s dinner, in chopped-up bits, to a basic egg omelet and you have a pretty phenomenal sandwich filler. The olive oil rallies around the beaten egg and gives it a good bubbling fry that pairs well with American cheese. Stuffed into a fresh crusty bread roll, the combination is hard to beat.</p>",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Codfish omelet sandwich</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Codfish_omelet_sandwich.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>Tortas are Portuguese sandwiches and a typical way to use leftovers. Add last night\u2019s dinner, in chopped-up bits, to a basic egg omelet and you have a pretty phenomenal sandwich filler. The olive oil rallies around the beaten egg and gives it a good bubbling fry that pairs well with American cheese. Stuffed into a fresh crusty bread roll, the combination is hard to beat.</p>",
       "image": "https://www.strangerfoods.org/images/Codfish_omelet_sandwich.webp",
       "date_published": "Wed, 06 Apr 2022 23:00:00 -0000",
       "language": "en"
@@ -33,27 +51,9 @@
       "id": "https://www.strangerfoods.org/recipes/pastelillos-de-carne",
       "url": "https://www.strangerfoods.org/recipes/pastelillos-de-carne",
       "title": "Pastelillos de carne",
-      "content_html": "<h1>Pastelillos de carne</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Pastelillos_de_carne.webp\" style=\"text-align: center;\"/>\n            <br>\n            <p></p>",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Pastelillos de carne</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Pastelillos_de_carne.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;></p>",
       "image": "https://www.strangerfoods.org/images/Pastelillos_de_carne.webp",
       "date_published": "Wed, 06 Apr 2022 23:00:00 -0000",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/chicken-stroganoff",
-      "url": "https://www.strangerfoods.org/recipes/chicken-stroganoff",
-      "title": "Chicken stroganoff",
-      "content_html": "<h1>Chicken stroganoff</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Chicken_stroganoff.webp\" style=\"text-align: center;\"/>\n            <br>\n            <p>Try our healthier, but no-less-comforting, take on the Russian classic. </p>",
-      "image": "https://www.strangerfoods.org/images/Chicken_stroganoff.webp",
-      "date_published": "Thu, 31 Mar 2022 23:00:00 -0000",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/harissa-prawns-with-warm-chickpea-salad",
-      "url": "https://www.strangerfoods.org/recipes/harissa-prawns-with-warm-chickpea-salad",
-      "title": "Harissa prawns with warm chickpea salad",
-      "content_html": "<h1>Harissa prawns with warm chickpea salad</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Harissa_prawns_with_warm_chickpea_salad.webp\" style=\"text-align: center;\"/>\n            <br>\n            <p>This makes a very speedy supper, packed with good things. You could add some halved cherry tomatoes to the salad, too.</p>",
-      "image": "https://www.strangerfoods.org/images/Harissa_prawns_with_warm_chickpea_salad.webp",
-      "date_published": "Thu, 31 Mar 2022 23:00:00 -0000",
       "language": "en"
     }
   ]
