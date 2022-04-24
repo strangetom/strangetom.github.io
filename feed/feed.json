@@ -12,6 +12,24 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/japanese-style-potato-croquette",
+      "url": "https://www.strangerfoods.org/recipes/japanese-style-potato-croquette",
+      "title": "Japanese-style potato croquette",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Japanese-style potato croquette</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Japanese_style_potato_croquette.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>Japanese-style potato croquette, or korokke, is my favorite way to enjoy potatoes. Korokke are mashed potato patties with chunky bits of onion and ground meat mixed in, covered with a crispy shell of panko bread crumbs. I tweaked the tradi\u00adtional recipe and swapped the meat for tempeh crumbles. Tempeh crumbles gain an irresistibly rich flavor once you cook them in oil and soy sauce, and I bet even traditional korokke lovers won\u2019t notice the difference.</p>",
+      "image": "https://www.strangerfoods.org/images/Japanese_style_potato_croquette.webp",
+      "date_published": "2022-04-21T00:00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/oven-fried-fish-fillets",
+      "url": "https://www.strangerfoods.org/recipes/oven-fried-fish-fillets",
+      "title": "Oven fried fish fillets",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Oven fried fish fillets</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Oven_fried_fish_fillets.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>With a serving of fries, this dish is the Lebanese version of fish and chips. The fillets\nare crispy on the outside and juicy on the inside, and, more importantly, they have\nvery few bones, making them easy for kids as well as adults to eat and enjoy.</p>",
+      "image": "https://www.strangerfoods.org/images/Oven_fried_fish_fillets.webp",
+      "date_published": "2022-04-21T00:00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/apple-blackberry-crumble",
       "url": "https://www.strangerfoods.org/recipes/apple-blackberry-crumble",
       "title": "Apple & blackberry crumble",
@@ -36,24 +54,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Alcaparrado</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Alcaparrado.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>As with many cooking staples, there are times when it would be much easier to just head down to the grocery store and buy a jar of olives and capers in oil. When you see how effortless it is to make your own alcaparrado and how much better it tastes though, you may never go back to store bought.</p>",
       "image": "https://www.strangerfoods.org/images/Alcaparrado.webp",
       "date_published": "2022-04-10T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/codfish-omelet-sandwich",
-      "url": "https://www.strangerfoods.org/recipes/codfish-omelet-sandwich",
-      "title": "Codfish omelet sandwich",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Codfish omelet sandwich</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Codfish_omelet_sandwich.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>Tortas are Portuguese sandwiches and a typical way to use leftovers. Add last night\u2019s dinner, in chopped-up bits, to a basic egg omelet and you have a pretty phenomenal sandwich filler. The olive oil rallies around the beaten egg and gives it a good bubbling fry that pairs well with American cheese. Stuffed into a fresh crusty bread roll, the combination is hard to beat.</p>",
-      "image": "https://www.strangerfoods.org/images/Codfish_omelet_sandwich.webp",
-      "date_published": "2022-04-07T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/pastelillos-de-carne",
-      "url": "https://www.strangerfoods.org/recipes/pastelillos-de-carne",
-      "title": "Pastelillos de carne",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Pastelillos de carne</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Pastelillos_de_carne.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;></p>",
-      "image": "https://www.strangerfoods.org/images/Pastelillos_de_carne.webp",
-      "date_published": "2022-04-07T00:00:00Z",
       "language": "en"
     }
   ]

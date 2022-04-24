@@ -7,29 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 23 Apr 2022 11:57:11 +0000</lastBuildDate>
-    <item>
-      <title>Pastelillos de carne</title>
-      <link>https://www.strangerfoods.org/recipes/pastelillos-de-carne</link>
-      <description>&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pastelillos de carne&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Pastelillos_de_carne.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/pastelillos-de-carne</guid>
-      <pubDate>Wed, 06 Apr 2022 23:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codfish omelet sandwich</title>
-      <link>https://www.strangerfoods.org/recipes/codfish-omelet-sandwich</link>
-      <description>&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Codfish omelet sandwich&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Codfish_omelet_sandwich.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Tortas are Portuguese sandwiches and a typical way to use leftovers. Add last night’s dinner, in chopped-up bits, to a basic egg omelet and you have a pretty phenomenal sandwich filler. The olive oil rallies around the beaten egg and gives it a good bubbling fry that pairs well with American cheese. Stuffed into a fresh crusty bread roll, the combination is hard to beat.&lt;/p&gt;</description>
-      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/codfish-omelet-sandwich</guid>
-      <pubDate>Wed, 06 Apr 2022 23:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 24 Apr 2022 16:18:44 +0000</lastBuildDate>
     <item>
       <title>Alcaparrado</title>
       <link>https://www.strangerfoods.org/recipes/alcaparrado</link>
@@ -62,6 +40,30 @@
             &lt;p style="font-family:sans-serif;&gt;Make this seasonal apple and blackberry crumble for a comforting family pud. Pre-cooking the topping will make it extra-crispy, while also retaining the texture of the fruit&lt;/p&gt;</description>
       <guid isPermaLink="true">https://www.strangerfoods.org/recipes/apple-blackberry-crumble</guid>
       <pubDate>Sun, 17 Apr 2022 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Oven fried fish fillets</title>
+      <link>https://www.strangerfoods.org/recipes/oven-fried-fish-fillets</link>
+      <description>&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Oven fried fish fillets&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Oven_fried_fish_fillets.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;With a serving of fries, this dish is the Lebanese version of fish and chips. The fillets
+are crispy on the outside and juicy on the inside, and, more importantly, they have
+very few bones, making them easy for kids as well as adults to eat and enjoy.&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/oven-fried-fish-fillets</guid>
+      <pubDate>Wed, 20 Apr 2022 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Japanese-style potato croquette</title>
+      <link>https://www.strangerfoods.org/recipes/japanese-style-potato-croquette</link>
+      <description>&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Japanese-style potato croquette&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Japanese_style_potato_croquette.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;Japanese-style potato croquette, or korokke, is my favorite way to enjoy potatoes. Korokke are mashed potato patties with chunky bits of onion and ground meat mixed in, covered with a crispy shell of panko bread crumbs. I tweaked the tradi­tional recipe and swapped the meat for tempeh crumbles. Tempeh crumbles gain an irresistibly rich flavor once you cook them in oil and soy sauce, and I bet even traditional korokke lovers won’t notice the difference.&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/japanese-style-potato-croquette</guid>
+      <pubDate>Wed, 20 Apr 2022 23:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
