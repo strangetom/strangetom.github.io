@@ -7,29 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 24 Apr 2022 16:18:44 +0000</lastBuildDate>
-    <item>
-      <title>Alcaparrado</title>
-      <link>https://www.strangerfoods.org/recipes/alcaparrado</link>
-      <description>&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Alcaparrado&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Alcaparrado.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;As with many cooking staples, there are times when it would be much easier to just head down to the grocery store and buy a jar of olives and capers in oil. When you see how effortless it is to make your own alcaparrado and how much better it tastes though, you may never go back to store bought.&lt;/p&gt;</description>
-      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/alcaparrado</guid>
-      <pubDate>Sat, 09 Apr 2022 23:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Meat stuffed potato pancake</title>
-      <link>https://www.strangerfoods.org/recipes/meat-stuffed-potato-pancake</link>
-      <description>&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Meat stuffed potato pancake&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Meat_stuffed_potato_pancake.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;This meat stuffed potato pancake is full of excellent flavors. Chicken, peas, corn, mushrooms, and red bell pepper – a delicious combination. The perfect idea for a weekend lunch.&lt;/p&gt;</description>
-      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/meat-stuffed-potato-pancake</guid>
-      <pubDate>Wed, 13 Apr 2022 23:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 01 May 2022 16:57:52 +0000</lastBuildDate>
     <item>
       <title>Apple &amp; blackberry crumble</title>
       <link>https://www.strangerfoods.org/recipes/apple-blackberry-crumble</link>
@@ -64,6 +42,28 @@ very few bones, making them easy for kids as well as adults to eat and enjoy.&lt
             &lt;p style="font-family:sans-serif;&gt;Japanese-style potato croquette, or korokke, is my favorite way to enjoy potatoes. Korokke are mashed potato patties with chunky bits of onion and ground meat mixed in, covered with a crispy shell of panko bread crumbs. I tweaked the tradi­tional recipe and swapped the meat for tempeh crumbles. Tempeh crumbles gain an irresistibly rich flavor once you cook them in oil and soy sauce, and I bet even traditional korokke lovers won’t notice the difference.&lt;/p&gt;</description>
       <guid isPermaLink="true">https://www.strangerfoods.org/recipes/japanese-style-potato-croquette</guid>
       <pubDate>Wed, 20 Apr 2022 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Asparagus and ham tart</title>
+      <link>https://www.strangerfoods.org/recipes/asparagus-and-ham-tart</link>
+      <description>&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Asparagus and ham tart&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Asparagus_and_ham_tart.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;This speedy tart uses a sheet of ready-rolled shortcrust pastry for ease and speed&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/asparagus-and-ham-tart</guid>
+      <pubDate>Mon, 25 Apr 2022 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Make-ahead freezer burritos</title>
+      <link>https://www.strangerfoods.org/recipes/make-ahead-freezer-burritos</link>
+      <description>&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Make-ahead freezer burritos&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Make-ahead_freezer_burritos.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;Wraps are fantastic since you can fill them with all kinds of tasty things. This burrito-inspired version is filled with hearty refried beans, juicy corn, and crunchy peppers. Having a stash in the freezer makes packing breakfast or lunch on a busy day a breeze.&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/make-ahead-freezer-burritos</guid>
+      <pubDate>Wed, 27 Apr 2022 23:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
