@@ -12,6 +12,33 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/veneto-style-rice-and-peas",
+      "url": "https://www.strangerfoods.org/recipes/veneto-style-rice-and-peas",
+      "title": "Veneto-Style Rice and Peas",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Veneto-Style Rice and Peas</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Veneto_style_rice_and_peas.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>Risi e bisi is a typical recipe from Veneto, great for springtime, when you can find fresh bisi (Venetian dialect for \u201cpeas\u201d). This is not quite a risotto, and not really a soup, but something in between.</p>",
+      "image": "https://www.strangerfoods.org/images/Veneto_style_rice_and_peas.webp",
+      "date_published": "2022-05-12T00:00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/skillet-chicken-with-cumin-paprika-and-mint",
+      "url": "https://www.strangerfoods.org/recipes/skillet-chicken-with-cumin-paprika-and-mint",
+      "title": "Skillet chicken with cumin, paprika and mint",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Skillet chicken with cumin, paprika and mint</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Skillet_chicken_with_cumin_paprika_and_mint.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>Chicken shawarma, a rotisserie favorite heady with spice and flavor, is usually cooked on a spit, then shaved into sandwiches and salads. But it also belongs on a bed of rice, cooked in a pan for a filling family meal that\u2019s easy to return to again and again. White rice does a fine job rounding out this meal, and cooks quickly. But, if brown rice is more your speed, look for the sprouted short-grain variety, which cooks faster than regular brown rice and reaches al dente just as the chicken begins to split into tender morsels.</p>",
+      "image": "https://www.strangerfoods.org/images/Skillet_chicken_with_cumin_paprika_and_mint.webp",
+      "date_published": "2022-05-11T00:00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/tuna-burgers-with-cucumber-salsa",
+      "url": "https://www.strangerfoods.org/recipes/tuna-burgers-with-cucumber-salsa",
+      "title": "Tuna burgers with cucumber salsa",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Tuna burgers with cucumber salsa</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Tuna_burgers_with_cucumber_salsa.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>Transform a tin of tuna into delicious fishcakes for midweek  </p>",
+      "image": "https://www.strangerfoods.org/images/Tuna_burgers_with_cucumber_salsa.webp",
+      "date_published": "2022-05-02T00:00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/make-ahead-freezer-burritos",
       "url": "https://www.strangerfoods.org/recipes/make-ahead-freezer-burritos",
       "title": "Make-ahead freezer burritos",
@@ -27,33 +54,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Asparagus and ham tart</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Asparagus_and_ham_tart.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>This speedy tart uses a sheet of ready-rolled shortcrust pastry for ease and speed</p>",
       "image": "https://www.strangerfoods.org/images/Asparagus_and_ham_tart.webp",
       "date_published": "2022-04-26T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/japanese-style-potato-croquette",
-      "url": "https://www.strangerfoods.org/recipes/japanese-style-potato-croquette",
-      "title": "Japanese-style potato croquette",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Japanese-style potato croquette</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Japanese_style_potato_croquette.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>Japanese-style potato croquette, or korokke, is my favorite way to enjoy potatoes. Korokke are mashed potato patties with chunky bits of onion and ground meat mixed in, covered with a crispy shell of panko bread crumbs. I tweaked the tradi\u00adtional recipe and swapped the meat for tempeh crumbles. Tempeh crumbles gain an irresistibly rich flavor once you cook them in oil and soy sauce, and I bet even traditional korokke lovers won\u2019t notice the difference.</p>",
-      "image": "https://www.strangerfoods.org/images/Japanese_style_potato_croquette.webp",
-      "date_published": "2022-04-21T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/oven-fried-fish-fillets",
-      "url": "https://www.strangerfoods.org/recipes/oven-fried-fish-fillets",
-      "title": "Oven fried fish fillets",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Oven fried fish fillets</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Oven_fried_fish_fillets.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>With a serving of fries, this dish is the Lebanese version of fish and chips. The fillets\nare crispy on the outside and juicy on the inside, and, more importantly, they have\nvery few bones, making them easy for kids as well as adults to eat and enjoy.</p>",
-      "image": "https://www.strangerfoods.org/images/Oven_fried_fish_fillets.webp",
-      "date_published": "2022-04-21T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/apple-blackberry-crumble",
-      "url": "https://www.strangerfoods.org/recipes/apple-blackberry-crumble",
-      "title": "Apple & blackberry crumble",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Apple & blackberry crumble</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Apple_&#x26;_blackberry_crumble.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>Make this seasonal apple and blackberry crumble for a comforting family pud. Pre-cooking the topping will make it extra-crispy, while also retaining the texture of the fruit</p>",
-      "image": "https://www.strangerfoods.org/images/Apple_&#x26;_blackberry_crumble.webp",
-      "date_published": "2022-04-18T00:00:00Z",
       "language": "en"
     }
   ]
