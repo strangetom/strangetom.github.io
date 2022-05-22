@@ -7,29 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 15 May 2022 16:54:10 +0000</lastBuildDate>
-    <item>
-      <title>Asparagus and ham tart</title>
-      <link>https://www.strangerfoods.org/recipes/asparagus-and-ham-tart</link>
-      <description>&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Asparagus and ham tart&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Asparagus_and_ham_tart.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;This speedy tart uses a sheet of ready-rolled shortcrust pastry for ease and speed&lt;/p&gt;</description>
-      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/asparagus-and-ham-tart</guid>
-      <pubDate>Mon, 25 Apr 2022 23:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Make-ahead freezer burritos</title>
-      <link>https://www.strangerfoods.org/recipes/make-ahead-freezer-burritos</link>
-      <description>&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Make-ahead freezer burritos&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Make-ahead_freezer_burritos.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Wraps are fantastic since you can fill them with all kinds of tasty things. This burrito-inspired version is filled with hearty refried beans, juicy corn, and crunchy peppers. Having a stash in the freezer makes packing breakfast or lunch on a busy day a breeze.&lt;/p&gt;</description>
-      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/make-ahead-freezer-burritos</guid>
-      <pubDate>Wed, 27 Apr 2022 23:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 22 May 2022 16:42:14 +0000</lastBuildDate>
     <item>
       <title>Tuna burgers with cucumber salsa</title>
       <link>https://www.strangerfoods.org/recipes/tuna-burgers-with-cucumber-salsa</link>
@@ -62,6 +40,28 @@
             &lt;p style="font-family:sans-serif;&gt;Risi e bisi is a typical recipe from Veneto, great for springtime, when you can find fresh bisi (Venetian dialect for “peas”). This is not quite a risotto, and not really a soup, but something in between.&lt;/p&gt;</description>
       <guid isPermaLink="true">https://www.strangerfoods.org/recipes/veneto-style-rice-and-peas</guid>
       <pubDate>Wed, 11 May 2022 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Arancini di riso al forno</title>
+      <link>https://www.strangerfoods.org/recipes/arancini-di-riso-al-forno</link>
+      <description>&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Arancini di riso al forno&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Arancini_di_riso_al_forno.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;The baked rice arancini are a tasty variant of the classic Sicilian arancini stuffed with ragu and peas.&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/arancini-di-riso-al-forno</guid>
+      <pubDate>Fri, 13 May 2022 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sticky sweet and sour plums and sausages</title>
+      <link>https://www.strangerfoods.org/recipes/sticky-sweet-and-sour-plums-and-sausages</link>
+      <description>&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sticky sweet and sour plums and sausages&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Sticky_sweet_and_sour_plums_and_sausages.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;Here we celebrate plums in all their beautiful red glory. As they cook, they gently break down to create a sweet/sour sauce for the sausages and potatoes. Paired with sticky pomegranate molasses and sour sumac, you can’t really go wrong. &lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/sticky-sweet-and-sour-plums-and-sausages</guid>
+      <pubDate>Thu, 19 May 2022 23:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
