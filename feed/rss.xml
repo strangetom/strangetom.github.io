@@ -7,40 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 May 2022 16:42:14 +0000</lastBuildDate>
-    <item>
-      <title>Tuna burgers with cucumber salsa</title>
-      <link>https://www.strangerfoods.org/recipes/tuna-burgers-with-cucumber-salsa</link>
-      <description>&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Tuna burgers with cucumber salsa&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Tuna_burgers_with_cucumber_salsa.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Transform a tin of tuna into delicious fishcakes for midweek  &lt;/p&gt;</description>
-      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/tuna-burgers-with-cucumber-salsa</guid>
-      <pubDate>Sun, 01 May 2022 23:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Skillet chicken with cumin, paprika and mint</title>
-      <link>https://www.strangerfoods.org/recipes/skillet-chicken-with-cumin-paprika-and-mint</link>
-      <description>&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Skillet chicken with cumin, paprika and mint&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Skillet_chicken_with_cumin_paprika_and_mint.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Chicken shawarma, a rotisserie favorite heady with spice and flavor, is usually cooked on a spit, then shaved into sandwiches and salads. But it also belongs on a bed of rice, cooked in a pan for a filling family meal that’s easy to return to again and again. White rice does a fine job rounding out this meal, and cooks quickly. But, if brown rice is more your speed, look for the sprouted short-grain variety, which cooks faster than regular brown rice and reaches al dente just as the chicken begins to split into tender morsels.&lt;/p&gt;</description>
-      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/skillet-chicken-with-cumin-paprika-and-mint</guid>
-      <pubDate>Tue, 10 May 2022 23:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Veneto-Style Rice and Peas</title>
-      <link>https://www.strangerfoods.org/recipes/veneto-style-rice-and-peas</link>
-      <description>&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Veneto-Style Rice and Peas&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Veneto_style_rice_and_peas.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Risi e bisi is a typical recipe from Veneto, great for springtime, when you can find fresh bisi (Venetian dialect for “peas”). This is not quite a risotto, and not really a soup, but something in between.&lt;/p&gt;</description>
-      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/veneto-style-rice-and-peas</guid>
-      <pubDate>Wed, 11 May 2022 23:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 10 Jun 2022 19:22:45 +0000</lastBuildDate>
     <item>
       <title>Arancini di riso al forno</title>
       <link>https://www.strangerfoods.org/recipes/arancini-di-riso-al-forno</link>
@@ -62,6 +29,39 @@
             &lt;p style="font-family:sans-serif;&gt;Here we celebrate plums in all their beautiful red glory. As they cook, they gently break down to create a sweet/sour sauce for the sausages and potatoes. Paired with sticky pomegranate molasses and sour sumac, you can’t really go wrong. &lt;/p&gt;</description>
       <guid isPermaLink="true">https://www.strangerfoods.org/recipes/sticky-sweet-and-sour-plums-and-sausages</guid>
       <pubDate>Thu, 19 May 2022 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Prawn pasta salad</title>
+      <link>https://www.strangerfoods.org/recipes/prawn-pasta-salad</link>
+      <description>&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Prawn pasta salad&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Prawn_pasta_salad.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/prawn-pasta-salad</guid>
+      <pubDate>Sun, 22 May 2022 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tomato and rosemary pearl barley risotto</title>
+      <link>https://www.strangerfoods.org/recipes/tomato-and-rosemary-pearl-barley-risotto</link>
+      <description>&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Tomato and rosemary pearl barley risotto&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Tomato_and_rosemary_pearl_barley_risotto.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;Step-by-step method for making Tomato and rosemary pearl barley risotto yourself.&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/tomato-and-rosemary-pearl-barley-risotto</guid>
+      <pubDate>Wed, 01 Jun 2022 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Moroccan-spiced chicken meatballs</title>
+      <link>https://www.strangerfoods.org/recipes/moroccan-spiced-chicken-meatballs</link>
+      <description>&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Moroccan-spiced chicken meatballs&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Moroccan-spiced_chicken_meatballs.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;Chicken meatballs may not be a traditionally Moroccan dish, but they work beautifully when spiced with paprika, cumin, cinnamon, ginger and garlic, which are commonly found in the country’s cuisine. Serve the meatballs with couscous and a green vegetable for a flavorful weeknight dinner that’s well worth the effort.&lt;/p&gt;</description>
+      <guid isPermaLink="true">https://www.strangerfoods.org/recipes/moroccan-spiced-chicken-meatballs</guid>
+      <pubDate>Wed, 01 Jun 2022 23:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

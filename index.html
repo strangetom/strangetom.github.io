@@ -40,7 +40,7 @@
             </div>
 
             <div id="search-name">
-                <input id="name-pattern" class="search-pattern" type="text" placeholder="Search 567 recipes" aria-label="Search for recipes">
+                <input id="name-pattern" class="search-pattern" type="text" placeholder="Search 572 recipes" aria-label="Search for recipes">
             </div>
 
             <div id="search-category" class="tab-content-hidden">
@@ -49,10 +49,10 @@
                     <optgroup id="category-select" label="Categories">
                         <option value="Dessert">Dessert (21)</option>
                         <option value="Pork">Pork (104)</option>
-                        <option value="Poultry">Poultry (110)</option>
+                        <option value="Poultry">Poultry (111)</option>
                         <option value="RedMeat">Red Meat (81)</option>
-                        <option value="Seafood">Seafood (103)</option>
-                        <option value="Veggie">Veggie (148)</option>
+                        <option value="Seafood">Seafood (104)</option>
+                        <option value="Veggie">Veggie (149)</option>
                         </optgroup>
                     <optgroup id="cuisine-select" label="Cuisine">
                        <option value="Afghan">Afghan (1)</option>
@@ -69,13 +69,13 @@
                         <option value="Hungarian">Hungarian (2)</option>
                         <option value="Indian">Indian (24)</option>
                         <option value="Iranian">Iranian (4)</option>
-                        <option value="Italian">Italian (44)</option>
+                        <option value="Italian">Italian (45)</option>
                         <option value="Japanese">Japanese (3)</option>
                         <option value="Lebanese">Lebanese (2)</option>
-                        <option value="Mediterranean">Mediterranean (7)</option>
+                        <option value="Mediterranean">Mediterranean (8)</option>
                         <option value="Mexican">Mexican (15)</option>
                         <option value="Middle Eastern">Middle Eastern (12)</option>
-                        <option value="Moroccan">Moroccan (21)</option>
+                        <option value="Moroccan">Moroccan (22)</option>
                         <option value="North African">North African (1)</option>
                         <option value="Peruvian">Peruvian (1)</option>
                         <option value="Portuguese">Portuguese (2)</option>
@@ -102,6 +102,11 @@
                         </optgroup>
                 </select>
             </div>
+            <div class="cache-section hidden">
+                <meta name="update-hash" content="ff664681fff2d0c946816fa6c3024d90b86b65b2d1755b2972712532add058cc">
+                <meta name="cache-size" content="23129496">
+                <button role="button" id="update-cache"></button>
+            </div>
             <noscript>
                 <p>Recipe search and dropdown menu selection are unavailable whilst javascript is disabled.</p>
                 <p>See <a href='/all-recipes'>here</a> for a list of all recipes</p>
@@ -116,6 +121,15 @@
         <section id="recent">
             <button class="recent-btn" id="recent-btn">Recent recipes</button>
             <div id="slider" class="slider closed">
+                <a href="/recipes/moroccan-spiced-chicken-meatballs" class="recent-item">
+                    <h2 class="recent-title" style="--bg: url(/images/Moroccan-spiced_chicken_meatballs.webp);">Moroccan-spiced chicken meatballs</h2>
+                    </a>
+                <a href="/recipes/tomato-and-rosemary-pearl-barley-risotto" class="recent-item">
+                    <h2 class="recent-title" style="--bg: url(/images/Tomato_and_rosemary_pearl_barley_risotto.webp);">Tomato and rosemary pearl barley risotto</h2>
+                    </a>
+                <a href="/recipes/prawn-pasta-salad" class="recent-item">
+                    <h2 class="recent-title" style="--bg: url(/images/Prawn_pasta_salad.webp);">Prawn pasta salad</h2>
+                    </a>
                 <a href="/recipes/sticky-sweet-and-sour-plums-and-sausages" class="recent-item">
                     <h2 class="recent-title" style="--bg: url(/images/Sticky_sweet_and_sour_plums_and_sausages.webp);">Sticky sweet and sour plums and sausages</h2>
                     </a>
@@ -130,15 +144,6 @@
                     </a>
                 <a href="/recipes/tuna-burgers-with-cucumber-salsa" class="recent-item">
                     <h2 class="recent-title" style="--bg: url(/images/Tuna_burgers_with_cucumber_salsa.webp);">Tuna burgers with cucumber salsa</h2>
-                    </a>
-                <a href="/recipes/make-ahead-freezer-burritos" class="recent-item">
-                    <h2 class="recent-title" style="--bg: url(/images/Make-ahead_freezer_burritos.webp);">Make-ahead freezer burritos</h2>
-                    </a>
-                <a href="/recipes/asparagus-and-ham-tart" class="recent-item">
-                    <h2 class="recent-title" style="--bg: url(/images/Asparagus_and_ham_tart.webp);">Asparagus and ham tart</h2>
-                    </a>
-                <a href="/recipes/japanese-style-potato-croquette" class="recent-item">
-                    <h2 class="recent-title" style="--bg: url(/images/Japanese_style_potato_croquette.webp);">Japanese-style potato croquette</h2>
                     </a>
                 </div>
         </section>
