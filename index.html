@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width">  
         <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline';">
         <title>Stranger Foods</title>
-        <link rel="alternate" type="application/rss+xml" title="Stranger Foods" href="https://www.strangerfoods.org/feed/rss.xml" />
+        <link rel="alternate" type="application/atom+xml" title="Stranger Foods" href="https://www.strangerfoods.org/feed/atom.xml" />
         <link rel="alternate" type="application/feed+json" title="Stranger Foods" href="https://www.strangerfoods.org/feed/feed.json" />
         <link rel="preload" href="/fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="/css/colours.min.css" as="style">
@@ -40,7 +40,7 @@
             </div>
 
             <div id="search-name">
-                <input id="name-pattern" class="search-pattern" type="text" placeholder="Search 573 recipes" aria-label="Search for recipes">
+                <input id="name-pattern" class="search-pattern" type="text" placeholder="Search 577 recipes" aria-label="Search for recipes">
             </div>
 
             <div id="search-category" class="tab-content-hidden">
@@ -50,9 +50,9 @@
                         <option value="Dessert">Dessert (21)</option>
                         <option value="Pork">Pork (104)</option>
                         <option value="Poultry">Poultry (112)</option>
-                        <option value="RedMeat">Red Meat (82)</option>
+                        <option value="RedMeat">Red Meat (84)</option>
                         <option value="Seafood">Seafood (104)</option>
-                        <option value="Veggie">Veggie (150)</option>
+                        <option value="Veggie">Veggie (152)</option>
                         </optgroup>
                     <optgroup id="cuisine-select" label="Cuisine">
                        <option value="Afghan">Afghan (1)</option>
@@ -90,7 +90,7 @@
                         <option value="DairyFree">Dairy Free (25)</option>
                         <option value="GlutenFree">Gluten Free (70)</option>
                         <option value="NutFree">Nut Free (10)</option>
-                        <option value="Vegan">Vegan (27)</option>
+                        <option value="Vegan">Vegan (28)</option>
                         </optgroup>
                     <optgroup id="tags-select" label="Tags">
                         <option value="beef">Beef (39)</option>
@@ -103,8 +103,8 @@
                 </select>
             </div>
             <div class="cache-section hidden">
-                <meta name="update-hash" content="3b2d6d69580f54c5659c48ec9785ae311156a58a5d3904cbe6fd95f420ed8b7b">
-                <meta name="cache-size" content="23218737">
+                <meta name="update-hash" content="24626f687501ae4b3233a739cafc6672e581be6741933841ee692bcf0b6212ad">
+                <meta name="cache-size" content="23375053">
                 <button role="button" id="update-cache"></button>
             </div>
             <noscript>
@@ -121,6 +121,22 @@
         <section id="recent">
             <button class="recent-btn" id="recent-btn">Recent recipes</button>
             <div id="slider" class="slider closed">
+                <a href="/recipes/bbq-beef-and-beans" class="recent-item">
+                    <h2 class="recent-title-new">
+                        <span class="recent-new RedMeat">Coming Soon</span>
+                        BBQ beef and beans
+                    </h2>
+
+                    </a>
+                <a href="/recipes/easy-red-lentil-meatballs" class="recent-item">
+                    <h2 class="recent-title" style="--bg: url(/images/Easy_red_lentil_meatballs.webp);">Easy red lentil meatballs</h2>
+                    </a>
+                <a href="/recipes/pesto-mozzarella-roll-ups" class="recent-item">
+                    <h2 class="recent-title" style="--bg: url(/images/Pesto_mozzarella_roll_ups.webp);">Pesto mozzarella roll ups</h2>
+                    </a>
+                <a href="/recipes/sun-dried-tomato-meatball-sub" class="recent-item">
+                    <h2 class="recent-title" style="--bg: url(/images/Sun-dried_tomato_meatball_sub.webp);">Sun-dried tomato meatball sub</h2>
+                    </a>
                 <a href="/recipes/the-best-ever-ground-beef-tacos" class="recent-item">
                     <h2 class="recent-title" style="--bg: url(/images/The_best_ever_ground_beef_tacos.webp);">The best ever ground beef tacos</h2>
                     </a>
@@ -132,18 +148,6 @@
                     </a>
                 <a href="/recipes/moroccan-spiced-chicken-meatballs" class="recent-item">
                     <h2 class="recent-title" style="--bg: url(/images/Moroccan-spiced_chicken_meatballs.webp);">Moroccan-spiced chicken meatballs</h2>
-                    </a>
-                <a href="/recipes/tomato-and-rosemary-pearl-barley-risotto" class="recent-item">
-                    <h2 class="recent-title" style="--bg: url(/images/Tomato_and_rosemary_pearl_barley_risotto.webp);">Tomato and rosemary pearl barley risotto</h2>
-                    </a>
-                <a href="/recipes/prawn-pasta-salad" class="recent-item">
-                    <h2 class="recent-title" style="--bg: url(/images/Prawn_pasta_salad.webp);">Prawn pasta salad</h2>
-                    </a>
-                <a href="/recipes/sticky-sweet-and-sour-plums-and-sausages" class="recent-item">
-                    <h2 class="recent-title" style="--bg: url(/images/Sticky_sweet_and_sour_plums_and_sausages.webp);">Sticky sweet and sour plums and sausages</h2>
-                    </a>
-                <a href="/recipes/arancini-di-riso-al-forno" class="recent-item">
-                    <h2 class="recent-title" style="--bg: url(/images/Arancini_di_riso_al_forno.webp);">Arancini di riso al forno</h2>
                     </a>
                 </div>
         </section>
