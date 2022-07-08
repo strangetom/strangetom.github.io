@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2022-07-04T18:48:57.714593+00:00</updated>
+  <updated>2022-07-08T17:59:56.482869+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -10,33 +10,9 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/penne-all-arrabbiata-con-funghi-champignon</id>
-    <title>Penne all'arrabbiata con funghi champignon</title>
-    <updated>2022-07-04T18:48:57.715215+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Penne all'arrabbiata con funghi champignon&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Penne_all_arrabbiata_con_funghi_champignon.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Penne all'arrabbiata with champignon mushrooms are a really tasty and spicy vegetarian first course. Made with tomato and chilli!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/penne-all-arrabbiata-con-funghi-champignon" rel="alternate"/>
-    <published>2022-06-06T23:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/the-best-ever-ground-beef-tacos</id>
-    <title>The best ever ground beef tacos</title>
-    <updated>2022-07-04T18:48:57.715115+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;The best ever ground beef tacos&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/The_best_ever_ground_beef_tacos.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Filled with a homemade taco spice blend, tomatoes and mashed pinto beans for the Best Ever Ground Beef Tacos done in 30 minutes or less. These easy tacos will be a new weeknight dinner favorite!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/the-best-ever-ground-beef-tacos" rel="alternate"/>
-    <published>2022-06-15T23:00:00+00:00</published>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/sun-dried-tomato-meatball-sub</id>
     <title>Sun-dried tomato meatball sub</title>
-    <updated>2022-07-04T18:48:57.715012+00:00</updated>
+    <updated>2022-07-08T17:59:56.483542+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sun-dried tomato meatball sub&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Sun-dried_tomato_meatball_sub.webp" style="text-align:center;"/&gt;
@@ -48,7 +24,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/pesto-mozzarella-roll-ups</id>
     <title>Pesto mozzarella roll ups</title>
-    <updated>2022-07-04T18:48:57.714900+00:00</updated>
+    <updated>2022-07-08T17:59:56.483440+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pesto mozzarella roll ups&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Pesto_mozzarella_roll_ups.webp" style="text-align:center;"/&gt;
@@ -60,7 +36,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/easy-red-lentil-meatballs</id>
     <title>Easy red lentil meatballs</title>
-    <updated>2022-07-04T18:48:57.714680+00:00</updated>
+    <updated>2022-07-08T17:59:56.483334+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Easy red lentil meatballs&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Easy_red_lentil_meatballs.webp" style="text-align:center;"/&gt;
@@ -68,5 +44,29 @@
             &lt;p style="font-family:sans-serif;&gt;This is such an easy red lentil meatball recipe! They are filling, spicy, and these red lentil meatballs will be a fabulous addition to your recipe box!&lt;/p&gt;</content>
     <link href="https://www.strangerfoods.org/recipes/easy-red-lentil-meatballs" rel="alternate"/>
     <published>2022-06-25T23:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/bbq-beef-and-beans</id>
+    <title>BBQ beef and beans</title>
+    <updated>2022-07-08T17:59:56.483218+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;BBQ beef and beans&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Bbq_beef_and_beans.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;Serve these sweet, tangy, and savory BBQ Beef and Beans with rice and cheese for a simple and comforting weeknight dinner the whole family will love.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/bbq-beef-and-beans" rel="alternate"/>
+    <published>2022-07-02T23:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/sheet-pan-cookies</id>
+    <title>Sheet-pan cookies</title>
+    <updated>2022-07-08T17:59:56.482946+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sheet-pan cookies&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Sheet-pan_cookies.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;Can't decide which flavour of cookie to make? Make four at once with this super-easy traybake! Feel free to use whatever toppings you like best - banana chips would work well with a dollop of peanut butter through the dough, or try some frozen raspberries to add a splash of colour &lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/sheet-pan-cookies" rel="alternate"/>
+    <published>2022-07-05T23:00:00+00:00</published>
   </entry>
 </feed>
