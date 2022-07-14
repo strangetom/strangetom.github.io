@@ -12,6 +12,15 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/moroccan-chicken-and-lentil-pies",
+      "url": "https://www.strangerfoods.org/recipes/moroccan-chicken-and-lentil-pies",
+      "title": "Moroccan chicken and lentil pies",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Moroccan chicken and lentil pies</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Moroccan_chicken_and_lentil_pies.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>Step-by-step method for making Moroccan chicken and lentil pies yourself.</p>",
+      "image": "https://www.strangerfoods.org/images/Moroccan_chicken_and_lentil_pies.webp",
+      "date_published": "2022-07-06T00:00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/sheet-pan-cookies",
       "url": "https://www.strangerfoods.org/recipes/sheet-pan-cookies",
       "title": "Sheet-pan cookies",
@@ -45,15 +54,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Pesto mozzarella roll ups</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Pesto_mozzarella_roll_ups.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>Pesto mozzarella roll ups combine melty mozzarella cheese and flavorful basil pesto rolled up in a flour tortilla then baked to perfection!</p>",
       "image": "https://www.strangerfoods.org/images/Pesto_mozzarella_roll_ups.webp",
       "date_published": "2022-06-23T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/sun-dried-tomato-meatball-sub",
-      "url": "https://www.strangerfoods.org/recipes/sun-dried-tomato-meatball-sub",
-      "title": "Sun-dried tomato meatball sub",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Sun-dried tomato meatball sub</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Sun-dried_tomato_meatball_sub.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>This sun-dried tomato meatball sub recipe is easy to make and you're going to love the deep, savoury flavour sun-dried tomatoes add to meatballs.</p>",
-      "image": "https://www.strangerfoods.org/images/Sun-dried_tomato_meatball_sub.webp",
-      "date_published": "2022-06-21T00:00:00Z",
       "language": "en"
     }
   ]

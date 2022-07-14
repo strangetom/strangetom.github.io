@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2022-07-08T17:59:56.482869+00:00</updated>
+  <updated>2022-07-14T16:22:50.729193+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -10,21 +10,9 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/sun-dried-tomato-meatball-sub</id>
-    <title>Sun-dried tomato meatball sub</title>
-    <updated>2022-07-08T17:59:56.483542+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sun-dried tomato meatball sub&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Sun-dried_tomato_meatball_sub.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;This sun-dried tomato meatball sub recipe is easy to make and you're going to love the deep, savoury flavour sun-dried tomatoes add to meatballs.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/sun-dried-tomato-meatball-sub" rel="alternate"/>
-    <published>2022-06-20T23:00:00+00:00</published>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/pesto-mozzarella-roll-ups</id>
     <title>Pesto mozzarella roll ups</title>
-    <updated>2022-07-08T17:59:56.483440+00:00</updated>
+    <updated>2022-07-14T16:22:50.729813+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pesto mozzarella roll ups&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Pesto_mozzarella_roll_ups.webp" style="text-align:center;"/&gt;
@@ -36,7 +24,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/easy-red-lentil-meatballs</id>
     <title>Easy red lentil meatballs</title>
-    <updated>2022-07-08T17:59:56.483334+00:00</updated>
+    <updated>2022-07-14T16:22:50.729713+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Easy red lentil meatballs&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Easy_red_lentil_meatballs.webp" style="text-align:center;"/&gt;
@@ -48,7 +36,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/bbq-beef-and-beans</id>
     <title>BBQ beef and beans</title>
-    <updated>2022-07-08T17:59:56.483218+00:00</updated>
+    <updated>2022-07-14T16:22:50.729609+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;BBQ beef and beans&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Bbq_beef_and_beans.webp" style="text-align:center;"/&gt;
@@ -60,13 +48,25 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/sheet-pan-cookies</id>
     <title>Sheet-pan cookies</title>
-    <updated>2022-07-08T17:59:56.482946+00:00</updated>
+    <updated>2022-07-14T16:22:50.729501+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sheet-pan cookies&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Sheet-pan_cookies.webp" style="text-align:center;"/&gt;
             &lt;br&gt;
             &lt;p style="font-family:sans-serif;&gt;Can't decide which flavour of cookie to make? Make four at once with this super-easy traybake! Feel free to use whatever toppings you like best - banana chips would work well with a dollop of peanut butter through the dough, or try some frozen raspberries to add a splash of colour &lt;/p&gt;</content>
     <link href="https://www.strangerfoods.org/recipes/sheet-pan-cookies" rel="alternate"/>
+    <published>2022-07-05T23:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/moroccan-chicken-and-lentil-pies</id>
+    <title>Moroccan chicken and lentil pies</title>
+    <updated>2022-07-14T16:22:50.729277+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Moroccan chicken and lentil pies&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Moroccan_chicken_and_lentil_pies.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;Step-by-step method for making Moroccan chicken and lentil pies yourself.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/moroccan-chicken-and-lentil-pies" rel="alternate"/>
     <published>2022-07-05T23:00:00+00:00</published>
   </entry>
 </feed>
