@@ -1,18 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet href="/css/atom.xsl" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2022-07-14T16:22:50.729193+00:00</updated>
+  <updated>2022-07-16T13:41:30.129034+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
   <link href="https://strangerfoods.org/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
+  <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
     <id>https://www.strangerfoods.org/recipes/pesto-mozzarella-roll-ups</id>
     <title>Pesto mozzarella roll ups</title>
-    <updated>2022-07-14T16:22:50.729813+00:00</updated>
+    <updated>2022-07-16T13:41:30.129768+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pesto mozzarella roll ups&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Pesto_mozzarella_roll_ups.webp" style="text-align:center;"/&gt;
@@ -24,7 +26,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/easy-red-lentil-meatballs</id>
     <title>Easy red lentil meatballs</title>
-    <updated>2022-07-14T16:22:50.729713+00:00</updated>
+    <updated>2022-07-16T13:41:30.129655+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Easy red lentil meatballs&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Easy_red_lentil_meatballs.webp" style="text-align:center;"/&gt;
@@ -36,7 +38,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/bbq-beef-and-beans</id>
     <title>BBQ beef and beans</title>
-    <updated>2022-07-14T16:22:50.729609+00:00</updated>
+    <updated>2022-07-16T13:41:30.129503+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;BBQ beef and beans&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Bbq_beef_and_beans.webp" style="text-align:center;"/&gt;
@@ -48,7 +50,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/sheet-pan-cookies</id>
     <title>Sheet-pan cookies</title>
-    <updated>2022-07-14T16:22:50.729501+00:00</updated>
+    <updated>2022-07-16T13:41:30.129376+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sheet-pan cookies&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Sheet-pan_cookies.webp" style="text-align:center;"/&gt;
@@ -60,7 +62,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/moroccan-chicken-and-lentil-pies</id>
     <title>Moroccan chicken and lentil pies</title>
-    <updated>2022-07-14T16:22:50.729277+00:00</updated>
+    <updated>2022-07-16T13:41:30.129121+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Moroccan chicken and lentil pies&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Moroccan_chicken_and_lentil_pies.webp" style="text-align:center;"/&gt;
