@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2022-07-16T13:41:30.129034+00:00</updated>
+  <updated>2022-08-11T18:58:22.524960+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,63 +12,63 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/pesto-mozzarella-roll-ups</id>
-    <title>Pesto mozzarella roll ups</title>
-    <updated>2022-07-16T13:41:30.129768+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pesto mozzarella roll ups&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/rigatoni-caponata-gratin</id>
+    <title>Rigatoni caponata gratin</title>
+    <updated>2022-08-11T18:58:22.525822+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Rigatoni caponata gratin&lt;/h1&gt;
             &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Pesto_mozzarella_roll_ups.webp" style="text-align:center;"/&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Rigatoni_caponata_gratin.webp" style="text-align:center;"/&gt;
             &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Pesto mozzarella roll ups combine melty mozzarella cheese and flavorful basil pesto rolled up in a flour tortilla then baked to perfection!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/pesto-mozzarella-roll-ups" rel="alternate"/>
-    <published>2022-06-22T23:00:00+00:00</published>
+            &lt;p style="font-family:sans-serif;&gt;A comforting pasta gratin, ready to serve in 30 minutes &lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/rigatoni-caponata-gratin" rel="alternate"/>
+    <published>2022-07-11T23:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/easy-red-lentil-meatballs</id>
-    <title>Easy red lentil meatballs</title>
-    <updated>2022-07-16T13:41:30.129655+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Easy red lentil meatballs&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/salmon-and-couscous-salad-with-cucumber-feta-dressing</id>
+    <title>Salmon and couscous salad with cucumber-feta dressing</title>
+    <updated>2022-08-11T18:58:22.525661+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Salmon and couscous salad with cucumber-feta dressing&lt;/h1&gt;
             &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Easy_red_lentil_meatballs.webp" style="text-align:center;"/&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Salmon_and_couscous_salad_with_cucumber-feta_dressing.webp" style="text-align:center;"/&gt;
             &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;This is such an easy red lentil meatball recipe! They are filling, spicy, and these red lentil meatballs will be a fabulous addition to your recipe box!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/easy-red-lentil-meatballs" rel="alternate"/>
-    <published>2022-06-25T23:00:00+00:00</published>
+            &lt;p style="font-family:sans-serif;&gt;The dressing in this 30-minute recipe is inspired by green goddess dressing and mast-o khiar, a Persian side dish of cucumbers and yogurt. Here, thick yogurt is combined with fresh herbs, tangy feta and crunchy Persian cucumbers. If you have trouble finding Persian cucumbers, they can be swapped for similarly sweet-skinned English cucumbers or peeled regular cucumbers. Flaking the salmon into the salad evenly distributes it and is a nice alternative to serving a fillet for dinner. Leftover salad can be enjoyed cold for lunch the next day, freshened up with a squeeze of lime juice and more fresh herbs.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/salmon-and-couscous-salad-with-cucumber-feta-dressing" rel="alternate"/>
+    <published>2022-07-14T23:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/bbq-beef-and-beans</id>
-    <title>BBQ beef and beans</title>
-    <updated>2022-07-16T13:41:30.129503+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;BBQ beef and beans&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/german-potato-salad</id>
+    <title>German potato salad</title>
+    <updated>2022-08-11T18:58:22.525497+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;German potato salad&lt;/h1&gt;
             &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Bbq_beef_and_beans.webp" style="text-align:center;"/&gt;
+            &lt;img src="https://www.strangerfoods.org/images/German_potato_salad.webp" style="text-align:center;"/&gt;
             &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Serve these sweet, tangy, and savory BBQ Beef and Beans with rice and cheese for a simple and comforting weeknight dinner the whole family will love.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/bbq-beef-and-beans" rel="alternate"/>
-    <published>2022-07-02T23:00:00+00:00</published>
+            &lt;p style="font-family:sans-serif;&gt;The reassurance of potato salad, its portability, conviviality and – depending on the cook – blank slate for creativity have been appealing to Americans since the last half of the 19th century. Immigrants and travellers to America introduced many styles, including variations of salade Nicoise (the French salad of potatoes, olives, green beans and tuna, dressed with vinaigrette), and salade Russe (cubed potatoes, peas and carrots bound with mayonnaise). German settlers brought hot potato salad, and that savory combination of warm potatoes lightly dressed with hot bacon fat and vinegar became entrenched in Pennsylvania and throughout the Midwest. This is an adaptation of a classic version that was first published in the 1931 edition of “The Joy of Cooking.”&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/german-potato-salad" rel="alternate"/>
+    <published>2022-07-14T23:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/sheet-pan-cookies</id>
-    <title>Sheet-pan cookies</title>
-    <updated>2022-07-16T13:41:30.129376+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sheet-pan cookies&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/lamb-rosemary-and-apple-burgers-with-apple-and-cider-relish</id>
+    <title>Lamb rosemary and apple burgers with apple and cider relish</title>
+    <updated>2022-08-11T18:58:22.525320+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lamb rosemary and apple burgers with apple and cider relish&lt;/h1&gt;
             &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Sheet-pan_cookies.webp" style="text-align:center;"/&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Lamb_rosemary_and_apple_burgers_with_apple_and_cider_relish.webp" style="text-align:center;"/&gt;
             &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Can't decide which flavour of cookie to make? Make four at once with this super-easy traybake! Feel free to use whatever toppings you like best - banana chips would work well with a dollop of peanut butter through the dough, or try some frozen raspberries to add a splash of colour &lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/sheet-pan-cookies" rel="alternate"/>
-    <published>2022-07-05T23:00:00+00:00</published>
+            &lt;p style="font-family:sans-serif;&gt;Lamb Rosemary and Apple Burgers with Apple and Cider Relish&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/lamb-rosemary-and-apple-burgers-with-apple-and-cider-relish" rel="alternate"/>
+    <published>2022-07-27T23:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/moroccan-chicken-and-lentil-pies</id>
-    <title>Moroccan chicken and lentil pies</title>
-    <updated>2022-07-16T13:41:30.129121+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Moroccan chicken and lentil pies&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/pasta-with-sausage-and-white-beans</id>
+    <title>Pasta with sausage and white beans</title>
+    <updated>2022-08-11T18:58:22.525031+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pasta with sausage and white beans&lt;/h1&gt;
             &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Moroccan_chicken_and_lentil_pies.webp" style="text-align:center;"/&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Pasta_with_sausage_and_white_beans.webp" style="text-align:center;"/&gt;
             &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Step-by-step method for making Moroccan chicken and lentil pies yourself.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/moroccan-chicken-and-lentil-pies" rel="alternate"/>
-    <published>2022-07-05T23:00:00+00:00</published>
+            &lt;p style="font-family:sans-serif;&gt;This pasta with sausage and white beans is a perfect midweek recipe. It&amp;#39;s an easy-to-prepare pasta recipe, and you can throw just about anything in it.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/pasta-with-sausage-and-white-beans" rel="alternate"/>
+    <published>2022-07-29T23:00:00+00:00</published>
   </entry>
 </feed>
