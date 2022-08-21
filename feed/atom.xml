@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2022-08-21T13:35:28.768241+00:00</updated>
+  <updated>2022-08-21T17:48:12.229582+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,21 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/pasta-with-sausage-and-white-beans</id>
-    <title>Pasta with sausage and white beans</title>
-    <updated>2022-08-21T13:35:28.768834+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pasta with sausage and white beans&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Pasta_with_sausage_and_white_beans.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;This pasta with sausage and white beans is a perfect midweek recipe. It&amp;#39;s an easy-to-prepare pasta recipe, and you can throw just about anything in it.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/pasta-with-sausage-and-white-beans" rel="alternate"/>
-    <published>2022-07-29T23:00:00+00:00</published>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/menemen-turkish-scrambled-eggs-with-tomato</id>
     <title>Menemen (turkish scrambled eggs with tomato)</title>
-    <updated>2022-08-21T13:35:28.768735+00:00</updated>
+    <updated>2022-08-21T17:48:12.230226+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Menemen (turkish scrambled eggs with tomato)&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Menemen_turkish_scrambled_eggs_with_tomato.webp" style="text-align:center;"/&gt;
@@ -38,7 +26,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/chorizo-patatas-bravas</id>
     <title>Chorizo patatas bravas</title>
-    <updated>2022-08-21T13:35:28.768631+00:00</updated>
+    <updated>2022-08-21T17:48:12.230119+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chorizo patatas bravas&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Chorizo_patatas_bravas.webp" style="text-align:center;"/&gt;
@@ -48,9 +36,21 @@
     <published>2022-08-10T23:00:00+00:00</published>
   </entry>
   <entry>
+    <id>https://www.strangerfoods.org/recipes/peruvian-chicken-bowl-with-potatoes</id>
+    <title>Peruvian chicken bowl with potatoes</title>
+    <updated>2022-08-21T17:48:12.230012+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Peruvian chicken bowl with potatoes&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Peruvian_chicken_bowl_with_potatoes.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;An homage to my favorite Peruvian dinner recipes, this Peruvian chicken bowl with potatoes is a flavorful experience of contrasting textures.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/peruvian-chicken-bowl-with-potatoes" rel="alternate"/>
+    <published>2022-08-16T23:00:00+00:00</published>
+  </entry>
+  <entry>
     <id>https://www.strangerfoods.org/recipes/lemon-pollock-with-sweet-potato-chips-broccoli-mash</id>
     <title>Lemon pollock with sweet potato chips &amp; broccoli mash</title>
-    <updated>2022-08-21T13:35:28.768520+00:00</updated>
+    <updated>2022-08-21T17:48:12.229893+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lemon pollock with sweet potato chips &amp; broccoli mash&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Lemon_pollock_with_sweet_potato_chips_&amp;#x26;_broccoli_mash.webp" style="text-align:center;"/&gt;
@@ -62,7 +62,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/blackberry-and-apple-hedgerow-crumble-bars</id>
     <title>Blackberry and apple hedgerow crumble bars</title>
-    <updated>2022-08-21T13:35:28.768321+00:00</updated>
+    <updated>2022-08-21T17:48:12.229634+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Blackberry and apple hedgerow crumble bars&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Blackberry_and_apple_hedgerow_crumble_bars.webp" style="text-align:center;"/&gt;

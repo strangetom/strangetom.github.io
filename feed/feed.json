@@ -30,6 +30,15 @@
       "language": "en"
     },
     {
+      "id": "https://www.strangerfoods.org/recipes/peruvian-chicken-bowl-with-potatoes",
+      "url": "https://www.strangerfoods.org/recipes/peruvian-chicken-bowl-with-potatoes",
+      "title": "Peruvian chicken bowl with potatoes",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Peruvian chicken bowl with potatoes</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Peruvian_chicken_bowl_with_potatoes.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>An homage to my favorite Peruvian dinner recipes, this Peruvian chicken bowl with potatoes is a flavorful experience of contrasting textures.</p>",
+      "image": "https://www.strangerfoods.org/images/Peruvian_chicken_bowl_with_potatoes.webp",
+      "date_published": "2022-08-17T00:00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/chorizo-patatas-bravas",
       "url": "https://www.strangerfoods.org/recipes/chorizo-patatas-bravas",
       "title": "Chorizo patatas bravas",
@@ -45,15 +54,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Menemen (turkish scrambled eggs with tomato)</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Menemen_turkish_scrambled_eggs_with_tomato.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>Menemen, made from eggs, tomatoes, peppers and sometimes onions, is a distinctly Turkish breakfast comfort food. Although a year-round dish, it is especially pleasing in the summer, with really ripe tomatoes from the garden or farmer\u2019s market.</p>",
       "image": "https://www.strangerfoods.org/images/Menemen_turkish_scrambled_eggs_with_tomato.webp",
       "date_published": "2022-08-11T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/pasta-with-sausage-and-white-beans",
-      "url": "https://www.strangerfoods.org/recipes/pasta-with-sausage-and-white-beans",
-      "title": "Pasta with sausage and white beans",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Pasta with sausage and white beans</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Pasta_with_sausage_and_white_beans.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>This pasta with sausage and white beans is a perfect midweek recipe. It&#39;s an easy-to-prepare pasta recipe, and you can throw just about anything in it.</p>",
-      "image": "https://www.strangerfoods.org/images/Pasta_with_sausage_and_white_beans.webp",
-      "date_published": "2022-07-30T00:00:00Z",
       "language": "en"
     }
   ]
