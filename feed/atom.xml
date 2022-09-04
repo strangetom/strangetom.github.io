@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2022-08-22T13:40:01.020691+00:00</updated>
+  <updated>2022-09-04T16:45:00.182179+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,45 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/menemen-turkish-scrambled-eggs-with-tomato</id>
-    <title>Menemen (turkish scrambled eggs with tomato)</title>
-    <updated>2022-08-22T13:40:01.021523+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Menemen (turkish scrambled eggs with tomato)&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Menemen_turkish_scrambled_eggs_with_tomato.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Menemen, made from eggs, tomatoes, peppers and sometimes onions, is a distinctly Turkish breakfast comfort food. Although a year-round dish, it is especially pleasing in the summer, with really ripe tomatoes from the garden or farmer’s market.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/menemen-turkish-scrambled-eggs-with-tomato" rel="alternate"/>
-    <published>2022-08-10T23:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/chorizo-patatas-bravas</id>
-    <title>Chorizo patatas bravas</title>
-    <updated>2022-08-22T13:40:01.021358+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chorizo patatas bravas&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Chorizo_patatas_bravas.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Everyone's favourite - tinned tomatoes - makes an appearance in this twist on the classic Spanish tapas dish&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/chorizo-patatas-bravas" rel="alternate"/>
-    <published>2022-08-10T23:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/peruvian-chicken-bowl-with-potatoes</id>
-    <title>Peruvian chicken bowl with potatoes</title>
-    <updated>2022-08-22T13:40:01.021202+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Peruvian chicken bowl with potatoes&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Peruvian_chicken_bowl_with_potatoes.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;An homage to my favorite Peruvian dinner recipes, this Peruvian chicken bowl with potatoes is a flavorful experience of contrasting textures.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/peruvian-chicken-bowl-with-potatoes" rel="alternate"/>
-    <published>2022-08-16T23:00:00+00:00</published>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/lemon-pollock-with-sweet-potato-chips-broccoli-mash</id>
     <title>Lemon pollock with sweet potato chips &amp; broccoli mash</title>
-    <updated>2022-08-22T13:40:01.021032+00:00</updated>
+    <updated>2022-09-04T16:45:00.187874+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lemon pollock with sweet potato chips &amp; broccoli mash&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Lemon_pollock_with_sweet_potato_chips_&amp;#x26;_broccoli_mash.webp" style="text-align:center;"/&gt;
@@ -62,7 +26,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/blackberry-and-apple-hedgerow-crumble-bars</id>
     <title>Blackberry and apple hedgerow crumble bars</title>
-    <updated>2022-08-22T13:40:01.020764+00:00</updated>
+    <updated>2022-09-04T16:45:00.186685+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Blackberry and apple hedgerow crumble bars&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Blackberry_and_apple_hedgerow_crumble_bars.webp" style="text-align:center;"/&gt;
@@ -70,5 +34,41 @@
             &lt;p style="font-family:sans-serif;&gt;Part biscuit, part tart and part crumble, these hedgerow bars will be a firm favourite every autumn&lt;/p&gt;</content>
     <link href="https://www.strangerfoods.org/recipes/blackberry-and-apple-hedgerow-crumble-bars" rel="alternate"/>
     <published>2022-08-19T23:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/chorizo-and-black-bean-loaded-sweet-potato-boats</id>
+    <title>Chorizo and black bean loaded sweet potato boats</title>
+    <updated>2022-09-04T16:45:00.185403+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chorizo and black bean loaded sweet potato boats&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/chorizo_and_black_bean_loaded_sweet_potato_boats.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;These smoky sweet potatoes are an ideal plant-based barbecue option and they're gluten free, too&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/chorizo-and-black-bean-loaded-sweet-potato-boats" rel="alternate"/>
+    <published>2022-08-23T23:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/bandari-monkfish-tails</id>
+    <title>Bandari monkfish tails</title>
+    <updated>2022-09-04T16:45:00.184181+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Bandari monkfish tails&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Bandari_monkfish_tails.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;The term Bandari signifies anything that comes from a port, but is usually a reference to the southern port of Bandar Abbas in Iran. When applied to food, Bandari indicates the use of spice in a dish. This simple fish dish is rubbed using a special spice mix made with fresh herbs and aromatics that permeates the fish with a wonderful heady flour.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/bandari-monkfish-tails" rel="alternate"/>
+    <published>2022-08-25T23:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/saffron-salmon-kababs</id>
+    <title>Saffron salmon kababs</title>
+    <updated>2022-09-04T16:45:00.182536+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Saffron salmon kababs&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Saffron_salmon_kababs.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;Buttery, saffron-stained and gently spiced, these Iranian kababs come together in no time and make for a beautiful, flavorful meal. The warming spice mix of oregano, coriander, black pepper and turmeric balances and lifts the sweet notes from the saffron and salmon. To keep the fish in place when turning the kababs on the grill, use ½-inch-wide flat skewers or two thin, round skewers. You can entertain with these skewers or enjoy them on a quiet weeknight, along with dill rice and a side of fresh herbs, or cucumber, tomato and onion salad.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/saffron-salmon-kababs" rel="alternate"/>
+    <published>2022-08-28T23:00:00+00:00</published>
   </entry>
 </feed>
