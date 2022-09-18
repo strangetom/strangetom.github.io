@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2022-09-04T16:45:00.182179+00:00</updated>
+  <updated>2022-09-18T16:44:29.769512+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,45 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/lemon-pollock-with-sweet-potato-chips-broccoli-mash</id>
-    <title>Lemon pollock with sweet potato chips &amp; broccoli mash</title>
-    <updated>2022-09-04T16:45:00.187874+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lemon pollock with sweet potato chips &amp; broccoli mash&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Lemon_pollock_with_sweet_potato_chips_&amp;#x26;_broccoli_mash.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Fish and chips get a healthy makeover with a zesty caper dressing and minty mushy peas - replace with aubergine for a veggie option&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/lemon-pollock-with-sweet-potato-chips-broccoli-mash" rel="alternate"/>
-    <published>2022-08-17T23:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/blackberry-and-apple-hedgerow-crumble-bars</id>
-    <title>Blackberry and apple hedgerow crumble bars</title>
-    <updated>2022-09-04T16:45:00.186685+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Blackberry and apple hedgerow crumble bars&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Blackberry_and_apple_hedgerow_crumble_bars.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Part biscuit, part tart and part crumble, these hedgerow bars will be a firm favourite every autumn&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/blackberry-and-apple-hedgerow-crumble-bars" rel="alternate"/>
-    <published>2022-08-19T23:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/chorizo-and-black-bean-loaded-sweet-potato-boats</id>
-    <title>Chorizo and black bean loaded sweet potato boats</title>
-    <updated>2022-09-04T16:45:00.185403+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chorizo and black bean loaded sweet potato boats&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/chorizo_and_black_bean_loaded_sweet_potato_boats.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;These smoky sweet potatoes are an ideal plant-based barbecue option and they're gluten free, too&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/chorizo-and-black-bean-loaded-sweet-potato-boats" rel="alternate"/>
-    <published>2022-08-23T23:00:00+00:00</published>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/bandari-monkfish-tails</id>
     <title>Bandari monkfish tails</title>
-    <updated>2022-09-04T16:45:00.184181+00:00</updated>
+    <updated>2022-09-18T16:44:29.774892+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Bandari monkfish tails&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Bandari_monkfish_tails.webp" style="text-align:center;"/&gt;
@@ -62,7 +26,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/saffron-salmon-kababs</id>
     <title>Saffron salmon kababs</title>
-    <updated>2022-09-04T16:45:00.182536+00:00</updated>
+    <updated>2022-09-18T16:44:29.773729+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Saffron salmon kababs&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Saffron_salmon_kababs.webp" style="text-align:center;"/&gt;
@@ -70,5 +34,41 @@
             &lt;p style="font-family:sans-serif;&gt;Buttery, saffron-stained and gently spiced, these Iranian kababs come together in no time and make for a beautiful, flavorful meal. The warming spice mix of oregano, coriander, black pepper and turmeric balances and lifts the sweet notes from the saffron and salmon. To keep the fish in place when turning the kababs on the grill, use ½-inch-wide flat skewers or two thin, round skewers. You can entertain with these skewers or enjoy them on a quiet weeknight, along with dill rice and a side of fresh herbs, or cucumber, tomato and onion salad.&lt;/p&gt;</content>
     <link href="https://www.strangerfoods.org/recipes/saffron-salmon-kababs" rel="alternate"/>
     <published>2022-08-28T23:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/spinach-and-toasted-orzo-with-dill-and-green-chilli-salsa</id>
+    <title>Spinach and toasted orzo, with dill and green chilli salsa</title>
+    <updated>2022-09-18T16:44:29.772511+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Spinach and toasted orzo, with dill and green chilli salsa&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Spinach_and_toasted_orzo_with_dill_and_green_chilli_salsa.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;This is a quick, easy and satisfying dish to make for a midweek supper. It works either as a veggie main or as a side to something like grilled salmon or chicken.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/spinach-and-toasted-orzo-with-dill-and-green-chilli-salsa" rel="alternate"/>
+    <published>2022-09-08T23:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/open-meat-pies</id>
+    <title>Open meat pies</title>
+    <updated>2022-09-18T16:44:29.771357+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Open meat pies&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Open_meat_pies.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;These easy-to-make ‘open’ pies are loved by kids and grown-ups alike. They are perfect party food: great to snack on and also really practical, as they can be batch-made and then baked from frozen. They’re also lovely for a light meal, served with a fattoush  (or any other) salad.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/open-meat-pies" rel="alternate"/>
+    <published>2022-09-08T23:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/caramelized-zucchini-pasta</id>
+    <title>Caramelized zucchini pasta</title>
+    <updated>2022-09-18T16:44:29.769843+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Caramelized zucchini pasta&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Caramelized_zucchini_pasta.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;This recipe transforms two pounds of grated fresh zucchini into one cup of caramelized zucchini that’s rich, sweet and jammy enough to become a pasta sauce. Cooked over moderately high heat in a combination of olive oil and butter, the zucchini fries in its own juices and concentrates its flavor. Adding garlic and basil lends sweetness, but consider adding anchovy, preserved lemon or red-pepper flakes. As browned bits appear in the skillet, deglaze with a few tablespoons of water, chicken stock or vegetable stock to help prevent burning and to incorporate all of those tasty caramelized bits into the sauce.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/caramelized-zucchini-pasta" rel="alternate"/>
+    <published>2022-09-12T23:00:00+00:00</published>
   </entry>
 </feed>
