@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2022-09-18T16:44:29.769512+00:00</updated>
+  <updated>2022-09-25T16:34:10.126491+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,21 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/bandari-monkfish-tails</id>
-    <title>Bandari monkfish tails</title>
-    <updated>2022-09-18T16:44:29.774892+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Bandari monkfish tails&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Bandari_monkfish_tails.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;The term Bandari signifies anything that comes from a port, but is usually a reference to the southern port of Bandar Abbas in Iran. When applied to food, Bandari indicates the use of spice in a dish. This simple fish dish is rubbed using a special spice mix made with fresh herbs and aromatics that permeates the fish with a wonderful heady flour.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/bandari-monkfish-tails" rel="alternate"/>
-    <published>2022-08-25T23:00:00+00:00</published>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/saffron-salmon-kababs</id>
     <title>Saffron salmon kababs</title>
-    <updated>2022-09-18T16:44:29.773729+00:00</updated>
+    <updated>2022-09-25T16:34:10.132008+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Saffron salmon kababs&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Saffron_salmon_kababs.webp" style="text-align:center;"/&gt;
@@ -38,7 +26,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/spinach-and-toasted-orzo-with-dill-and-green-chilli-salsa</id>
     <title>Spinach and toasted orzo, with dill and green chilli salsa</title>
-    <updated>2022-09-18T16:44:29.772511+00:00</updated>
+    <updated>2022-09-25T16:34:10.130838+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Spinach and toasted orzo, with dill and green chilli salsa&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Spinach_and_toasted_orzo_with_dill_and_green_chilli_salsa.webp" style="text-align:center;"/&gt;
@@ -50,7 +38,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/open-meat-pies</id>
     <title>Open meat pies</title>
-    <updated>2022-09-18T16:44:29.771357+00:00</updated>
+    <updated>2022-09-25T16:34:10.129584+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Open meat pies&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Open_meat_pies.webp" style="text-align:center;"/&gt;
@@ -62,7 +50,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/caramelized-zucchini-pasta</id>
     <title>Caramelized zucchini pasta</title>
-    <updated>2022-09-18T16:44:29.769843+00:00</updated>
+    <updated>2022-09-25T16:34:10.128409+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Caramelized zucchini pasta&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Caramelized_zucchini_pasta.webp" style="text-align:center;"/&gt;
@@ -70,5 +58,17 @@
             &lt;p style="font-family:sans-serif;&gt;This recipe transforms two pounds of grated fresh zucchini into one cup of caramelized zucchini that’s rich, sweet and jammy enough to become a pasta sauce. Cooked over moderately high heat in a combination of olive oil and butter, the zucchini fries in its own juices and concentrates its flavor. Adding garlic and basil lends sweetness, but consider adding anchovy, preserved lemon or red-pepper flakes. As browned bits appear in the skillet, deglaze with a few tablespoons of water, chicken stock or vegetable stock to help prevent burning and to incorporate all of those tasty caramelized bits into the sauce.&lt;/p&gt;</content>
     <link href="https://www.strangerfoods.org/recipes/caramelized-zucchini-pasta" rel="alternate"/>
     <published>2022-09-12T23:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/gigli-with-chickpeas-and-zaatar</id>
+    <title>Gigli with chickpeas and za’atar</title>
+    <updated>2022-09-25T16:34:10.126822+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Gigli with chickpeas and za’atar&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Gigli_with_chickpeas_and_zaatar.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;Gigli means ‘lilies’ in Italian, and their floral wavy edges are a great vehicle for the chickpeas and anchovies in the sauce. Orecchiette (ears) or conchiglie (shells), are also good for scooping and work really well here too.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/gigli-with-chickpeas-and-zaatar" rel="alternate"/>
+    <published>2022-09-17T23:00:00+00:00</published>
   </entry>
 </feed>

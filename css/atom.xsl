@@ -96,7 +96,9 @@ Styles an Atom feed, making it friendly for humans viewers
           </h1>
           <p>This preview only shows titles, but the actual feed contains the full content. <strong>Subscribe</strong> by copying the URL from the address bar into your newsreader.</p>
           <h2>Recent Items</h2>
-          <xsl:apply-templates select="atom:feed/atom:entry" />
+          <xsl:apply-templates select="atom:feed/atom:entry" >
+            <xsl:sort select="position()" data-type="number" order="descending"/>
+          </xsl:apply-templates>
         </div>
       </body>
     </html>
