@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2022-10-08T17:31:17.426486+00:00</updated>
+  <updated>2022-10-15T17:45:37.641711+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,33 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/gigli-with-chickpeas-and-zaatar</id>
-    <title>Gigli with chickpeas and za’atar</title>
-    <updated>2022-10-08T17:31:17.427070+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Gigli with chickpeas and za’atar&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Gigli_with_chickpeas_and_zaatar.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Gigli means ‘lilies’ in Italian, and their floral wavy edges are a great vehicle for the chickpeas and anchovies in the sauce. Orecchiette (ears) or conchiglie (shells), are also good for scooping and work really well here too.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/gigli-with-chickpeas-and-zaatar" rel="alternate"/>
-    <published>2022-09-17T23:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/belly-bonnet-biryani</id>
-    <title>Belly bonnet biryani</title>
-    <updated>2022-10-08T17:31:17.426968+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Belly bonnet biryani&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Belly_bonnet_biryani.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;I call this a biryani but it's more like a rice cassoulet. This is the stuff of a swift supper with a crisp salad, not an elaborate affair. Scotch bonnet i the headline ingredient because it has such an incredible flavour.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/belly-bonnet-biryani" rel="alternate"/>
-    <published>2022-09-28T23:00:00+00:00</published>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/satay-chicken-salad-wraps</id>
     <title>Satay chicken salad wraps</title>
-    <updated>2022-10-08T17:31:17.426865+00:00</updated>
+    <updated>2022-10-15T17:45:37.642301+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Satay chicken salad wraps&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Satay_chicken_salad_wraps.webp" style="text-align:center;"/&gt;
@@ -50,7 +26,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/effortless-doughnuts</id>
     <title>Effortless doughnuts</title>
-    <updated>2022-10-08T17:31:17.426751+00:00</updated>
+    <updated>2022-10-15T17:45:37.642199+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Effortless doughnuts&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Effortless_doughnuts.webp" style="text-align:center;"/&gt;
@@ -60,9 +36,21 @@
     <published>2022-10-01T23:00:00+00:00</published>
   </entry>
   <entry>
+    <id>https://www.strangerfoods.org/recipes/curry-crusted-sweet-potatoes</id>
+    <title>Curry-crusted sweet potatoes</title>
+    <updated>2022-10-15T17:45:37.642095+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Curry-crusted sweet potatoes&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Curry_crusted_sweet_potatoes.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;We've mixed up the traditional stuffed potato by putting our filling on the outside in this recipe. The flavours work a treat with a fresh lime crust contrasting really will with a delicious sweet potato. This is one to freestyle with and try different flavour combos. It works great in the oven or cooked on a BBQ.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/curry-crusted-sweet-potatoes" rel="alternate"/>
+    <published>2022-10-03T23:00:00+00:00</published>
+  </entry>
+  <entry>
     <id>https://www.strangerfoods.org/recipes/black-lime-beef-skewers-with-sumac-onions</id>
     <title>Black lime beef skewers with sumac onions</title>
-    <updated>2022-10-08T17:31:17.426538+00:00</updated>
+    <updated>2022-10-15T17:45:37.641978+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Black lime beef skewers with sumac onions&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Black_lime_beef_skewers_with_sumac_onions.webp" style="text-align:center;"/&gt;
@@ -70,5 +58,17 @@
             &lt;p style="font-family:sans-serif;&gt;Black limes act as both a flavour enhancer and a tenderiser in this marinade, softening the meat but also giving it an edgy tang. This dish is native to Bahrain and is locally called ‘tikka’, but is not really tikka as we know it to be. Grilled to order, the tikka comes wrapped up in a little flatbread bundle with raw onion, local rocket (called ‘jarjeer’) and lime wedges to squeeze on top. Be sure to source meat with some fat attached – this truly adds to the whole authentic eating experience. We urge you to give this marinade a go, if not with beef then with lamb, chicken, tofu or meaty mushrooms. Serve this with the roasted potatoes with aïoli (see recipe).&lt;/p&gt;</content>
     <link href="https://www.strangerfoods.org/recipes/black-lime-beef-skewers-with-sumac-onions" rel="alternate"/>
     <published>2022-10-03T23:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/sweet-mustard-salmon-with-garlicky-veg</id>
+    <title>Sweet mustard salmon with garlicky veg</title>
+    <updated>2022-10-15T17:45:37.641763+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sweet mustard salmon with garlicky veg&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Sweet_mustard_salmon_with_garlicky_veg.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;A healthy and simple way to tart up salmon&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/sweet-mustard-salmon-with-garlicky-veg" rel="alternate"/>
+    <published>2022-10-11T23:00:00+00:00</published>
   </entry>
 </feed>
