@@ -12,6 +12,24 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/general-tsos-chicken",
+      "url": "https://www.strangerfoods.org/recipes/general-tsos-chicken",
+      "title": "General tso\u2019s chicken",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">General tso\u2019s chicken</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/General_tso\u2019s_chicken.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>A favourite dish in Chinese restaurants, try making your own General Tso's chicken. It looks complicated but get all the components ready and it's quite easy</p>",
+      "image": "https://www.strangerfoods.org/images/General_tso\u2019s_chicken.webp",
+      "date_published": "2022-10-27T00:00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/dorset-apple-cake",
+      "url": "https://www.strangerfoods.org/recipes/dorset-apple-cake",
+      "title": "Dorset apple cake",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Dorset apple cake</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Dorset_apple_cake.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;></p>",
+      "image": "https://www.strangerfoods.org/images/Dorset_apple_cake.webp",
+      "date_published": "2022-10-26T00:00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/lamb-mini-roast-with-warm-spices",
       "url": "https://www.strangerfoods.org/recipes/lamb-mini-roast-with-warm-spices",
       "title": "Lamb mini roast with warm spices",
@@ -36,24 +54,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Creamy tuscan sausage gnocchi</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Creamy_tuscan_sausage_gnocchi.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;></p>",
       "image": "https://www.strangerfoods.org/images/Creamy_tuscan_sausage_gnocchi.webp",
       "date_published": "2022-10-11T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/black-lime-beef-skewers-with-sumac-onions",
-      "url": "https://www.strangerfoods.org/recipes/black-lime-beef-skewers-with-sumac-onions",
-      "title": "Black lime beef skewers with sumac onions",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Black lime beef skewers with sumac onions</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Black_lime_beef_skewers_with_sumac_onions.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>Black limes act as both a flavour enhancer and a tenderiser in this marinade, softening the meat but also giving it an edgy tang. This dish is native to Bahrain and is locally called \u2018tikka\u2019, but is not really tikka as we know it to be. Grilled to order, the tikka comes wrapped up in a little flatbread bundle with raw onion, local rocket (called \u2018jarjeer\u2019) and lime wedges to squeeze on top. Be sure to source meat with some fat attached \u2013 this truly adds to the whole authentic eating experience. We urge you to give this marinade a go, if not with beef then with lamb, chicken, tofu or meaty mushrooms. Serve this with the roasted potatoes with a\u00efoli (see recipe).</p>",
-      "image": "https://www.strangerfoods.org/images/Black_lime_beef_skewers_with_sumac_onions.webp",
-      "date_published": "2022-10-04T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/curry-crusted-sweet-potatoes",
-      "url": "https://www.strangerfoods.org/recipes/curry-crusted-sweet-potatoes",
-      "title": "Curry-crusted sweet potatoes",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Curry-crusted sweet potatoes</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Curry_crusted_sweet_potatoes.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>We've mixed up the traditional stuffed potato by putting our filling on the outside in this recipe. The flavours work a treat with a fresh lime crust contrasting really will with a delicious sweet potato. This is one to freestyle with and try different flavour combos. It works great in the oven or cooked on a BBQ.</p>",
-      "image": "https://www.strangerfoods.org/images/Curry_crusted_sweet_potatoes.webp",
-      "date_published": "2022-10-04T00:00:00Z",
       "language": "en"
     }
   ]
