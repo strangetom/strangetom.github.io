@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2022-10-30T18:17:25.155078+00:00</updated>
+  <updated>2022-12-03T10:34:45.090334+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,63 +12,63 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/creamy-tuscan-sausage-gnocchi</id>
-    <title>Creamy tuscan sausage gnocchi</title>
-    <updated>2022-10-30T18:17:25.160096+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Creamy tuscan sausage gnocchi&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/lahmacun</id>
+    <title>Lahmacun</title>
+    <updated>2022-12-03T10:34:45.091106+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lahmacun&lt;/h1&gt;
             &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Creamy_tuscan_sausage_gnocchi.webp" style="text-align:center;"/&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Lahmacun.webp" style="text-align:center;"/&gt;
             &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/creamy-tuscan-sausage-gnocchi" rel="alternate"/>
-    <published>2022-10-10T23:00:00+00:00</published>
+            &lt;p style="font-family:sans-serif;&gt;Often described as mini Turkish pizzas, these breads are traditionally fired up in seconds in the searing heat of a wood-fired oven. Topped with spicy minced lamb and herbs, they are great as a snack or a main meal. Making them in your own home isn’t a chore at all and you can achieve pretty spectacular results. This is great family food, although hold back on a little of the spicing if not everyone likes chilli heat. &lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/lahmacun" rel="alternate"/>
+    <published>2022-11-03T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/sweet-mustard-salmon-with-garlicky-veg</id>
-    <title>Sweet mustard salmon with garlicky veg</title>
-    <updated>2022-10-30T18:17:25.159192+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sweet mustard salmon with garlicky veg&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/campfire-chilli</id>
+    <title>Campfire chilli</title>
+    <updated>2022-12-03T10:34:45.091000+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Campfire chilli&lt;/h1&gt;
             &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Sweet_mustard_salmon_with_garlicky_veg.webp" style="text-align:center;"/&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Campfire_chilli.webp" style="text-align:center;"/&gt;
             &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;A healthy and simple way to tart up salmon&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/sweet-mustard-salmon-with-garlicky-veg" rel="alternate"/>
-    <published>2022-10-11T23:00:00+00:00</published>
+            &lt;p style="font-family:sans-serif;&gt;Made with meltingly tender brisket instead of mince, this rich, smoky beef chilli is perfect bowl food for Bonfire Night or cold winter evenings &lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/campfire-chilli" rel="alternate"/>
+    <published>2022-11-04T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/lamb-mini-roast-with-warm-spices</id>
-    <title>Lamb mini roast with warm spices</title>
-    <updated>2022-10-30T18:17:25.158075+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lamb mini roast with warm spices&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/roasted-potatoes-with-aioli-and-buttered-pine-nuts</id>
+    <title>Roasted potatoes with aïoli and buttered pine nuts</title>
+    <updated>2022-12-03T10:34:45.090891+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Roasted potatoes with aïoli and buttered pine nuts&lt;/h1&gt;
             &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Lamb_mini_roast_with_warm_spices.webp" style="text-align:center;"/&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Roasted_potatoes_with_aioli_and_buttered_pine_nuts.webp" style="text-align:center;"/&gt;
             &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;A great all in one mid week roasting joint for two to three people that takes only 35 to 40 minutes to cook.  Mini lamb leg or shoulder roasting joint brushed with a warm spice mix made from with cumin powder, turmeric, ground coriander, seasoning and the juice of 1 small orange.  Joint is roasted on a bed of small new potatoes onions and fresh bay leaves.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/lamb-mini-roast-with-warm-spices" rel="alternate"/>
-    <published>2022-10-17T23:00:00+00:00</published>
+            &lt;p style="font-family:sans-serif;&gt;Kebab shop ‘chips with mayo’ are the inspiration for this dish, although this version is a little more involved. There’s a generous sauce-to-potato ratio here, which is kind of naughty, but also what you really, truly want. This goes really well with the black lime beef skewers.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/roasted-potatoes-with-aioli-and-buttered-pine-nuts" rel="alternate"/>
+    <published>2022-11-10T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/dorset-apple-cake</id>
-    <title>Dorset apple cake</title>
-    <updated>2022-10-30T18:17:25.156985+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Dorset apple cake&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/harira</id>
+    <title>Harira</title>
+    <updated>2022-12-03T10:34:45.090773+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Harira&lt;/h1&gt;
             &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Dorset_apple_cake.webp" style="text-align:center;"/&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Harira.webp" style="text-align:center;"/&gt;
             &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/dorset-apple-cake" rel="alternate"/>
-    <published>2022-10-25T23:00:00+00:00</published>
+            &lt;p style="font-family:sans-serif;&gt;One of the most popular soups throughout the Middle East is Harira which has Moroccan and North African origins. It's essentially a tomato based soup that is made with meat, chickpeas and lentils, as well as a number of herbs and warming spices. Once cooked, the soup is thickened, and the result is a warmly spiced soup with a silky smooth texture and a chunky array of meat and legumes.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/harira" rel="alternate"/>
+    <published>2022-11-10T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/general-tsos-chicken</id>
-    <title>General tso’s chicken</title>
-    <updated>2022-10-30T18:17:25.155452+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;General tso’s chicken&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/ciabatta-pizza-with-tahini-balsamic-drizzle</id>
+    <title>Ciabatta pizza with tahini balsamic drizzle</title>
+    <updated>2022-12-03T10:34:45.090379+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Ciabatta pizza with tahini balsamic drizzle&lt;/h1&gt;
             &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/General_tso’s_chicken.webp" style="text-align:center;"/&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Ciabatta_pizza_with_tahini_balsamic_drizzle.webp" style="text-align:center;"/&gt;
             &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;A favourite dish in Chinese restaurants, try making your own General Tso's chicken. It looks complicated but get all the components ready and it's quite easy&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/general-tsos-chicken" rel="alternate"/>
-    <published>2022-10-26T23:00:00+00:00</published>
+            &lt;p style="font-family:sans-serif;&gt;This recipe is like a hybrid between pizza and bruschetta, and it's delicious. It's also incredibly simple to make. Add whichever veggies you'd like, and enjoy!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/ciabatta-pizza-with-tahini-balsamic-drizzle" rel="alternate"/>
+    <published>2022-11-26T00:00:00+00:00</published>
   </entry>
 </feed>
