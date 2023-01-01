@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2022-12-03T10:34:45.090334+00:00</updated>
+  <updated>2023-01-01T17:41:35.518849+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,63 +12,63 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/lahmacun</id>
-    <title>Lahmacun</title>
-    <updated>2022-12-03T10:34:45.091106+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lahmacun&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/tacos-al-pastor</id>
+    <title>Tacos al pastor</title>
+    <updated>2023-01-01T17:41:35.523481+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Tacos al pastor&lt;/h1&gt;
             &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Lahmacun.webp" style="text-align:center;"/&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Tacos_al_pastor.webp" style="text-align:center;"/&gt;
             &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Often described as mini Turkish pizzas, these breads are traditionally fired up in seconds in the searing heat of a wood-fired oven. Topped with spicy minced lamb and herbs, they are great as a snack or a main meal. Making them in your own home isn’t a chore at all and you can achieve pretty spectacular results. This is great family food, although hold back on a little of the spicing if not everyone likes chilli heat. &lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/lahmacun" rel="alternate"/>
-    <published>2022-11-03T00:00:00+00:00</published>
+            &lt;p style="font-family:sans-serif;&gt;Tacos al pastor, a Mexican street-food staple, are a perfect synthesis of local flavors (pineapple, chiles, annatto), Spanish influence (pork, adobo), and Middle Eastern technique (a spinning, shawarma-style vertical rotisserie). The synthesis comes from Mexico’s history, but perfection comes from the combination of sweet pineapple, spicy meat and fragrant corn. This recipe, from the chef Gabriela Cámara, provides an easy way to make it at home; try boneless chicken thighs if you don’t want pork. Either way, make sure to blot the meat until very dry before cooking it so you get a hard sear that mimics the char of a grill. &lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/tacos-al-pastor" rel="alternate"/>
+    <published>2022-12-07T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/campfire-chilli</id>
-    <title>Campfire chilli</title>
-    <updated>2022-12-03T10:34:45.091000+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Campfire chilli&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/egyptian-hawawshi</id>
+    <title>Egyptian hawawshi</title>
+    <updated>2023-01-01T17:41:35.522568+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Egyptian hawawshi&lt;/h1&gt;
             &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Campfire_chilli.webp" style="text-align:center;"/&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Egyptian_hawawshi.webp" style="text-align:center;"/&gt;
             &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Made with meltingly tender brisket instead of mince, this rich, smoky beef chilli is perfect bowl food for Bonfire Night or cold winter evenings &lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/campfire-chilli" rel="alternate"/>
-    <published>2022-11-04T00:00:00+00:00</published>
+            &lt;p style="font-family:sans-serif;&gt;Straight from my Egyptian kitchen, this hawawshi recipe is made with crispy pita pockets that are stuffed with a tantalizing meat mixture, seasoned with a warm spice mixture, onions, peppers, and fresh herbs. Think of it as Egypt&amp;#039;s answer to a hamburger but on steroids!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/egyptian-hawawshi" rel="alternate"/>
+    <published>2022-12-15T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/roasted-potatoes-with-aioli-and-buttered-pine-nuts</id>
-    <title>Roasted potatoes with aïoli and buttered pine nuts</title>
-    <updated>2022-12-03T10:34:45.090891+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Roasted potatoes with aïoli and buttered pine nuts&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/saffron-tagliatelle-with-ricotta-and-crispy-chipotle-shallots</id>
+    <title>Saffron tagliatelle with ricotta and crispy chipotle shallots</title>
+    <updated>2023-01-01T17:41:35.521552+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Saffron tagliatelle with ricotta and crispy chipotle shallots&lt;/h1&gt;
             &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Roasted_potatoes_with_aioli_and_buttered_pine_nuts.webp" style="text-align:center;"/&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Saffron_tagliatelle_with_ricotta_and_crispy_chipotle_shallots.webp" style="text-align:center;"/&gt;
             &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Kebab shop ‘chips with mayo’ are the inspiration for this dish, although this version is a little more involved. There’s a generous sauce-to-potato ratio here, which is kind of naughty, but also what you really, truly want. This goes really well with the black lime beef skewers.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/roasted-potatoes-with-aioli-and-buttered-pine-nuts" rel="alternate"/>
-    <published>2022-11-10T00:00:00+00:00</published>
+            &lt;p style="font-family:sans-serif;&gt;You can use shop-bought fresh or dried pasta here, or make your own saffron tagliatelle. Either way, there is so much going on – from the Parmesan sauce to the pickled chillies to the crispy chipotle shallots – that you are sure to both surprise and delight the lucky recipients of this dish.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/saffron-tagliatelle-with-ricotta-and-crispy-chipotle-shallots" rel="alternate"/>
+    <published>2022-12-26T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/harira</id>
-    <title>Harira</title>
-    <updated>2022-12-03T10:34:45.090773+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Harira&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/chicken-musakhan</id>
+    <title>Chicken musakhan</title>
+    <updated>2023-01-01T17:41:35.520574+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chicken musakhan&lt;/h1&gt;
             &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Harira.webp" style="text-align:center;"/&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Chicken_musakhan.webp" style="text-align:center;"/&gt;
             &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;One of the most popular soups throughout the Middle East is Harira which has Moroccan and North African origins. It's essentially a tomato based soup that is made with meat, chickpeas and lentils, as well as a number of herbs and warming spices. Once cooked, the soup is thickened, and the result is a warmly spiced soup with a silky smooth texture and a chunky array of meat and legumes.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/harira" rel="alternate"/>
-    <published>2022-11-10T00:00:00+00:00</published>
+            &lt;p style="font-family:sans-serif;&gt;Musakhan is the hugely popular national dish of Palestine: growing up, Sami ate it once a week, pulling a piece of chicken and sandwiching it between a piece of pita or flatbread. It’s a dish to eat with your hands and with your friends, served from one pot or plate, for everyone to then tear at some of the bread and spoon over the chicken and topping for themselves.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/chicken-musakhan" rel="alternate"/>
+    <published>2022-12-26T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/ciabatta-pizza-with-tahini-balsamic-drizzle</id>
-    <title>Ciabatta pizza with tahini balsamic drizzle</title>
-    <updated>2022-12-03T10:34:45.090379+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Ciabatta pizza with tahini balsamic drizzle&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/smoked-salmon-spaghetti-with-crispy-capers</id>
+    <title>Smoked salmon spaghetti with crispy capers</title>
+    <updated>2023-01-01T17:41:35.519160+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Smoked salmon spaghetti with crispy capers&lt;/h1&gt;
             &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Ciabatta_pizza_with_tahini_balsamic_drizzle.webp" style="text-align:center;"/&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Smoked_salmon_spaghetti_with_crispy_capers.webp" style="text-align:center;"/&gt;
             &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;This recipe is like a hybrid between pizza and bruschetta, and it's delicious. It's also incredibly simple to make. Add whichever veggies you'd like, and enjoy!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/ciabatta-pizza-with-tahini-balsamic-drizzle" rel="alternate"/>
-    <published>2022-11-26T00:00:00+00:00</published>
+            &lt;p style="font-family:sans-serif;&gt;Rustle up this one-pan pasta for a budget-friendly midweek treat&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/smoked-salmon-spaghetti-with-crispy-capers" rel="alternate"/>
+    <published>2023-01-01T00:00:00+00:00</published>
   </entry>
 </feed>
