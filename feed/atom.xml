@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2023-01-15T18:05:58.385905+00:00</updated>
+  <updated>2023-01-15T19:02:08.305107+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/chicken-musakhan</id>
     <title>Chicken musakhan</title>
-    <updated>2023-01-15T18:05:58.390489+00:00</updated>
+    <updated>2023-01-15T19:02:08.309808+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chicken musakhan&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Chicken_musakhan.webp" style="text-align:center;"/&gt;
@@ -26,7 +26,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/smoked-salmon-spaghetti-with-crispy-capers</id>
     <title>Smoked salmon spaghetti with crispy capers</title>
-    <updated>2023-01-15T18:05:58.389503+00:00</updated>
+    <updated>2023-01-15T19:02:08.308631+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Smoked salmon spaghetti with crispy capers&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Smoked_salmon_spaghetti_with_crispy_capers.webp" style="text-align:center;"/&gt;
@@ -38,7 +38,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/chicken-kiev</id>
     <title>Chicken kiev</title>
-    <updated>2023-01-15T18:05:58.388583+00:00</updated>
+    <updated>2023-01-15T19:02:08.307761+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chicken kiev&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Chicken_kiev.webp" style="text-align:center;"/&gt;
@@ -50,7 +50,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/sweet-potato-spiced-chili</id>
     <title>Sweet potato spiced chili</title>
-    <updated>2023-01-15T18:05:58.387618+00:00</updated>
+    <updated>2023-01-15T19:02:08.306819+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sweet potato spiced chili&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Sweet_potato_spiced_chili.webp" style="text-align:center;"/&gt;
@@ -62,7 +62,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/vegetarian-turkish-pide</id>
     <title>Vegetarian turkish pide</title>
-    <updated>2023-01-15T18:05:58.386228+00:00</updated>
+    <updated>2023-01-15T19:02:08.305424+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Vegetarian turkish pide&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Vegetarian_turkish_pide.webp" style="text-align:center;"/&gt;
