@@ -12,6 +12,33 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/vegetarian-turkish-pide",
+      "url": "https://www.strangerfoods.org/recipes/vegetarian-turkish-pide",
+      "title": "Vegetarian turkish pide",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Vegetarian turkish pide</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Vegetarian_turkish_pide.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>Pide, oval flat breads with various toppings, is a  popular and healthy \"fast food\" in Turkey. There are pide shops called Pideci that only bake these flat breads and serve them all day long.  Pide is made with a wide variety of toppings from vegetables or with meats such as sucuk (Turkish spicy sausage) and pastirma, Turkish dried cured beef.</p>",
+      "image": "https://www.strangerfoods.org/images/Vegetarian_turkish_pide.webp",
+      "date_published": "2023-01-12T00:00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/sweet-potato-spiced-chili",
+      "url": "https://www.strangerfoods.org/recipes/sweet-potato-spiced-chili",
+      "title": "Sweet potato spiced chili",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Sweet potato spiced chili</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Sweet_potato_spiced_chili.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>This spicy chili is super hearty, comforting, filling and makes for the perfect weeknight meal. We always like to make a massive batch as meal prep to enjoy throughout the week. Topping with avocado, lime, or yogurt really helps to marry all the flavours together.</p>",
+      "image": "https://www.strangerfoods.org/images/Sweet_potato_spiced_chili.webp",
+      "date_published": "2023-01-07T00:00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/chicken-kiev",
+      "url": "https://www.strangerfoods.org/recipes/chicken-kiev",
+      "title": "Chicken kiev",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Chicken kiev</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Chicken_kiev.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>This version of the classic chicken dish is the work of the wonderful chef Silvena Rowe. Her restaurant Quince in London's Mayfair is a fortress of delicious Eastern Mediterranean cuisine. It's a dish that requires a little attention to detail as the chicken must have a perfect seal or you will end up with butter all over the kitchen. Try not to double coat the chicken in the egg as it can make the dish a little soggy.</p>",
+      "image": "https://www.strangerfoods.org/images/Chicken_kiev.webp",
+      "date_published": "2023-01-06T00:00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/smoked-salmon-spaghetti-with-crispy-capers",
       "url": "https://www.strangerfoods.org/recipes/smoked-salmon-spaghetti-with-crispy-capers",
       "title": "Smoked salmon spaghetti with crispy capers",
@@ -27,33 +54,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Chicken musakhan</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Chicken_musakhan.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>Musakhan is the hugely popular national dish of Palestine: growing up, Sami ate it once a week, pulling a piece of chicken and sandwiching it between a piece of pita or flatbread. It\u2019s a dish to eat with your hands and with your friends, served from one pot or plate, for everyone to then tear at some of the bread and spoon over the chicken and topping for themselves.</p>",
       "image": "https://www.strangerfoods.org/images/Chicken_musakhan.webp",
       "date_published": "2022-12-26T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/saffron-tagliatelle-with-ricotta-and-crispy-chipotle-shallots",
-      "url": "https://www.strangerfoods.org/recipes/saffron-tagliatelle-with-ricotta-and-crispy-chipotle-shallots",
-      "title": "Saffron tagliatelle with ricotta and crispy chipotle shallots",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Saffron tagliatelle with ricotta and crispy chipotle shallots</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Saffron_tagliatelle_with_ricotta_and_crispy_chipotle_shallots.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>You can use shop-bought fresh or dried pasta here, or make your own saffron tagliatelle. Either way, there is so much going on \u2013 from the Parmesan sauce to the pickled chillies to the crispy chipotle shallots \u2013 that you are sure to both surprise and delight the lucky recipients of this dish.</p>",
-      "image": "https://www.strangerfoods.org/images/Saffron_tagliatelle_with_ricotta_and_crispy_chipotle_shallots.webp",
-      "date_published": "2022-12-26T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/egyptian-hawawshi",
-      "url": "https://www.strangerfoods.org/recipes/egyptian-hawawshi",
-      "title": "Egyptian hawawshi",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Egyptian hawawshi</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Egyptian_hawawshi.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>Straight from my Egyptian kitchen, this hawawshi recipe is made with crispy pita pockets that are stuffed with a tantalizing meat mixture, seasoned with a warm spice mixture, onions, peppers, and fresh herbs. Think of it as Egypt&#039;s answer to a hamburger but on steroids!</p>",
-      "image": "https://www.strangerfoods.org/images/Egyptian_hawawshi.webp",
-      "date_published": "2022-12-15T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/tacos-al-pastor",
-      "url": "https://www.strangerfoods.org/recipes/tacos-al-pastor",
-      "title": "Tacos al pastor",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Tacos al pastor</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Tacos_al_pastor.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>Tacos al pastor, a Mexican street-food staple, are a perfect synthesis of local flavors (pineapple, chiles, annatto), Spanish influence (pork, adobo), and Middle Eastern technique (a spinning, shawarma-style vertical rotisserie). The synthesis comes from Mexico\u2019s history, but perfection comes from the combination of sweet pineapple, spicy meat and fragrant corn. This recipe, from the chef Gabriela C\u00e1mara, provides an easy way to make it at home; try boneless chicken thighs if you don\u2019t want pork. Either way, make sure to blot the meat until very dry before cooking it so you get a hard sear that mimics the char of a grill. </p>",
-      "image": "https://www.strangerfoods.org/images/Tacos_al_pastor.webp",
-      "date_published": "2022-12-07T00:00:00Z",
       "language": "en"
     }
   ]
