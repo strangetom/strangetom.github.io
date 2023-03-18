@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2023-02-26T18:43:14.270048+00:00</updated>
+  <updated>2023-03-18T17:03:53.840043+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,63 +12,63 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/smoky-pork-and-pineapple-tostadas</id>
-    <title>Smoky pork and pineapple tostadas</title>
-    <updated>2023-02-26T18:43:14.270617+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Smoky pork and pineapple tostadas&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/bbq-cauliflower-and-chickpea-tray-bake</id>
+    <title>BBQ cauliflower and chickpea tray bake</title>
+    <updated>2023-03-18T17:03:53.840584+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;BBQ cauliflower and chickpea tray bake&lt;/h1&gt;
             &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Smoky_pork_and_pineapple_tostadas.webp" style="text-align:center;"/&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Bbq_cauliflower_and_chickpea_tray_bake.webp" style="text-align:center;"/&gt;
             &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;These flavoursome pork mince tostadas topped with a pineapple, tomato and herb salsa are great as a casual meal for family or friends. &lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/smoky-pork-and-pineapple-tostadas" rel="alternate"/>
-    <published>2023-02-03T00:00:00+00:00</published>
+            &lt;p style="font-family:sans-serif;&gt;Colorful, easy to make, and bursting with flavor: that is what these BBQ cauliflower and chickpea-filled tortillas are all about. The smokey marinade pairs especially well with the garlicky sauce and crispy red onions. We would definitely suggest adding a couple of slices of creamy avocado and a squeeze of zesty lime juice. Yum!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/bbq-cauliflower-and-chickpea-tray-bake" rel="alternate"/>
+    <published>2023-02-25T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/sheet-pan-sausage-peppers-and-onions</id>
-    <title>Sheet pan sausage, peppers and onions</title>
-    <updated>2023-02-26T18:43:14.270517+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sheet pan sausage, peppers and onions&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/key-lime-loaf-cake</id>
+    <title>Key lime loaf cake</title>
+    <updated>2023-03-18T17:03:53.840484+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Key lime loaf cake&lt;/h1&gt;
             &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Sheet_pan_sausage,_peppers_and_onions.webp" style="text-align:center;"/&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Key_lime_loaf_cake.webp" style="text-align:center;"/&gt;
             &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;It takes less than 20 minutes to make this simple, lightened up sausage and peppers recipe! Chicken sausage, colourful peppers, onions, and juicy grape tomatoes with extra virgin olive oil, fresh thyme and oregano, all on one sheet pan. A family favourite that's perfect for busy weeknights. It's also gluten-free and Mediterranean diet- and keto-friendly!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/sheet-pan-sausage-peppers-and-onions" rel="alternate"/>
-    <published>2023-02-09T00:00:00+00:00</published>
+            &lt;p style="font-family:sans-serif;&gt;Inspired by the American classic Key lime pie, this sweet-but-tangy bake features regular limes (Floridian Key limes are more intensely aromatic), condensed milk and a crunchy biscuit crumb topping - divine!  &lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/key-lime-loaf-cake" rel="alternate"/>
+    <published>2023-03-02T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/asian-spiced-burgers-with-mango-salsa</id>
-    <title>Asian spiced burgers with mango salsa</title>
-    <updated>2023-02-26T18:43:14.270415+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Asian spiced burgers with mango salsa&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/no-churn-ice-cream</id>
+    <title>No churn ice cream</title>
+    <updated>2023-03-18T17:03:53.840381+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;No churn ice cream&lt;/h1&gt;
             &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Asian_spiced_burgers_with_mango_salsa.webp" style="text-align:center;"/&gt;
+            &lt;img src="https://www.strangerfoods.org/images/No_churn_ice_cream.webp" style="text-align:center;"/&gt;
             &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Asian Spiced Burgers with Mango Salsa&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/asian-spiced-burgers-with-mango-salsa" rel="alternate"/>
-    <published>2023-02-09T00:00:00+00:00</published>
+            &lt;p style="font-family:sans-serif;&gt;No churn ice cream (whether it's cookies and cream, or chocolate fudge) is easy and great to make. Unless you are in love with churning. If that's the case, you probably have muscular forearms and fantastic priorities.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/no-churn-ice-cream" rel="alternate"/>
+    <published>2023-03-03T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/chicago-style-deep-dish-pizza</id>
-    <title>Chicago-style deep dish pizza</title>
-    <updated>2023-02-26T18:43:14.270305+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chicago-style deep dish pizza&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/coconut-curry-salmon</id>
+    <title>Coconut curry salmon</title>
+    <updated>2023-03-18T17:03:53.840268+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Coconut curry salmon&lt;/h1&gt;
             &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Chicago-style_deep_dish_pizza.webp" style="text-align:center;"/&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Coconut_curry_salmon.webp" style="text-align:center;"/&gt;
             &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Did you ever wonder about the "pie" in pizza pie? This dish will make that connection clear for you. With its 1&amp;frac12" tall crust cradling distinct layers of cheese, sausage, and tomatoes, this is definitely a knife-and-fork pizza PIE. We like to bake this in a big, 14" deep-dish pizza pan; it makes a spectacular presentation, right out of the oven. But if you don't have a big pan, feel free to use two 9" round cake pans.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/chicago-style-deep-dish-pizza" rel="alternate"/>
-    <published>2023-02-17T00:00:00+00:00</published>
+            &lt;p style="font-family:sans-serif;&gt;An easy pan fried salmon that simmers in an unbelievable coconut curry for the easiest weeknight dinner. &lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/coconut-curry-salmon" rel="alternate"/>
+    <published>2023-03-06T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/vegan-pasta-salad</id>
-    <title>Vegan pasta salad</title>
-    <updated>2023-02-26T18:43:14.270107+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Vegan pasta salad&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/simple-pancetta-pasta-with-peas-and-parmesan</id>
+    <title>Simple pancetta pasta with peas and parmesan</title>
+    <updated>2023-03-18T17:03:53.840083+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Simple pancetta pasta with peas and parmesan&lt;/h1&gt;
             &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Vegan_pasta_salad.webp" style="text-align:center;"/&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Simple_pancetta_pasta_with_peas_and_parmesan.webp" style="text-align:center;"/&gt;
             &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;This vegan pasta salad is guaranteed to impress at all your summer BBQs and picnics! Pasta is coated in a creamy and dreamy roasted red pepper sauce and topped with a herby bread crumb topping for extra fresh flavor for an exquisite, grown-up pasta salad.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/vegan-pasta-salad" rel="alternate"/>
-    <published>2023-02-22T00:00:00+00:00</published>
+            &lt;p style="font-family:sans-serif;&gt;Simple pancetta pasta and peas, tossed in a simple garlic and olive oil sauce and finished with Parmesan cheese. So good!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/simple-pancetta-pasta-with-peas-and-parmesan" rel="alternate"/>
+    <published>2023-03-09T00:00:00+00:00</published>
   </entry>
 </feed>

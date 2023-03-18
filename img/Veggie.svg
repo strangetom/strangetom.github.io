@@ -1,1 +1,15 @@
-<svg height="289" width="512" viewBox="0 0 624.387 352.437" xmlns="http://www.w3.org/2000/svg"><defs><clipPath clipPathUnits="userSpaceOnUse" id="a"><path fill="#0a5c0a" stroke-width="19.827" stroke-linecap="round" d="M0 0h624.387v352.437H0z"/></clipPath></defs><path fill="#0a5c0a" d="M0 0h624.387v352.437H0z"/><g clip-path="url(#a)" stroke="#bddbbd" stroke-width="10.306" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><path d="M569.211 68.153L519.54 48.005c-27.306-11.098-55.116 2.93-61.779 31.146L402.18 314.28c-3.338 14.118 5.107 30.172 18.773 35.725 13.658 5.536 31.231.026 39.05-12.256l130.409-204.757c15.646-24.577 6.114-53.754-21.2-64.838z" fill="#0a5c0a"/><path d="M544.384-55.932c16.062 38.013 14.87 78.798-.008 114.017 14.88-35.219 16.075-76 .008-114.017z" fill="#0a5c0a"/><path d="M649.724 15.322C608.568-1.384 561.42 17.768 544.375 58.08 555.73 31.196 542.72.384 515.277-10.744 542.72.384 555.73 31.196 544.375 58.081c17.048-40.317 64.193-59.465 105.345-42.76zm-198.28 90.539l62.081 25.19zm95.314 95.688l-53.802-21.825zm-119.9 8.343l45.532 18.474zm62.195 82.23l-37.232-15.11zm-108.24-272.86l-38.708 30.103-39.602-41.531 1.967 56.817-49.103 5.519a76.457 74.906 0 0135.423 29.25 76.724 75.167 0 0151.512 2.553l-.005-.017a76.461 74.91 0 0134.595-37.49 73.65 73.65 0 013.92-45.209z" fill="#0a5c0a"/><path d="M457.76 79.156a49.48 49.48 0 013.443-9.913c-21.975-14.784-50.88-18.758-77.35-8.025a76.479 74.927 0 00-41.556 40.73l.005.02a76.637 75.081 0 00-58.796-.007c-41.581 16.86-61.323 63.55-44.109 104.28 27.793 65.708 103.098 97.838 170.742 74.321z" fill="#bddbbd"/></g></svg>
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 288">
+  <defs>
+    <linearGradient id="0" x1="0.5" y1="1" x2="0.5" y2="0">
+      <stop offset="0%" stop-color="#b8bb26"/>
+      <stop offset="70%" stop-color="#98971aaa"/>
+    </linearGradient>
+    <pattern id="1" x="0" y="0" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y="0" x2="0" y2="55" stroke="#1d202140" stroke-width="1" />
+    </pattern>
+  </defs>
+  <rect fill="#1d2021" height="100%" width="100%"/>
+  <rect fill="url(#0)" height="100%" width="100%"/>
+  <rect fill="url(#1)" height="100%" width="100%"/>
+</svg>

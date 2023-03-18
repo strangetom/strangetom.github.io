@@ -10,9 +10,11 @@
     </head>
     <body>
 
-        <a class="header" href="/">
-            <p class="site">Stranger&nbsp;Foods</p>
-        </a>
+        <header>
+            <a href="/">
+                <p class="site">Stranger&nbsp;Foods</p>
+            </a>
+        </header>
 
         <section class="recipe">
             <h1>
@@ -79,5 +81,11 @@
                 <a href="/random">Random</a>
             </div>
         </footer>
+        <script type="text/javascript">
+          if (localStorage.getItem("light-theme") == "true") {
+            let html = document.querySelector("html");
+            html.classList.add("light-theme");
+          }
+        </script>
     </body>
 </html>

@@ -1,1 +1,15 @@
-<svg height="289" width="512" viewBox="0 0 624.387 352.437" xmlns="http://www.w3.org/2000/svg"><defs><clipPath clipPathUnits="userSpaceOnUse" id="a"><path fill="#180a5c" stroke-width="13.4" stroke-linecap="round" d="M0 0h624.387v352.437H0z"/></clipPath></defs><path fill="#180a5c" d="M0 0h624.387v352.437H0z"/><path d="M418.066 30.478c-20.899.202-40.545 4.387-58.683 11.06 8.944 24.819 36.446 116.425-3.889 213.422 64.827 26.187 148.4 21.567 236.171-84.545l63.21 31.376V94.108l-63.194 29.182C528.712 53.547 469.6 29.934 418.066 30.447zm-65.139 13.557c-76.61 31.22-124.88 105.427-124.88 105.427l2.427-2.489s9.038 8.883 21.91 16.933c12.873 8.042 29.33 14.87 43.54 11.822l1.462 6.75c-17.25 3.734-35.077-4.238-48.657-12.724a146.867 146.867 0 01-11.31-7.855c17.268 21.645 57.494 66.313 111.705 90.33 39.355-94.6 12.475-184.068 3.811-208.21zm-44.94 70.45a18.511 18.511 0 0118.511 18.496 18.511 18.511 0 01-18.518 18.488 18.511 18.511 0 01-18.488-18.488 18.511 18.511 0 0118.488-18.495z" fill="#b8b8e0" clip-path="url(#a)"/></svg>
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 288">
+  <defs>
+    <linearGradient id="0" x1="0.5" y1="1" x2="0.5" y2="0">
+      <stop offset="0%" stop-color="#83a598"/>
+      <stop offset="70%" stop-color="#458588aa"/>
+    </linearGradient>
+    <pattern id="1" x="0" y="0" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y="0" x2="0" y2="55" stroke="#1d202140" stroke-width="1" />
+    </pattern>
+  </defs>
+  <rect fill="#1d2021" height="100%" width="100%"/>
+  <rect fill="url(#0)" height="100%" width="100%"/>
+  <rect fill="url(#1)" height="100%" width="100%"/>
+</svg>

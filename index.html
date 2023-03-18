@@ -1,114 +1,366 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta name="Description" content="Homepage for Tom's recipes">
-        <meta name="viewport" content="width=device-width">  
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline';">
+        <meta charset="utf-8"/>
+        <meta name="Description" content="Homepage for Tom's recipes"/>
+        <meta name="viewport" content="width=device-width"/>  
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline';"/>
         <title>Stranger Foods</title>
-        <link rel="alternate" type="application/atom+xml" title="Stranger Foods" href="https://www.strangerfoods.org/feed/atom.xml" />
-        <link rel="alternate" type="application/feed+json" title="Stranger Foods" href="https://www.strangerfoods.org/feed/feed.json" />
-        <link rel="preload" href="/fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin>
-        <link rel="preload" href="/css/colours.min.css" as="style">
-        <link rel="stylesheet" type="text/css" href="/css/index.min.css">        
+        <link rel="alternate" type="application/atom+xml" title="Stranger Foods" href="https://www.strangerfoods.org/feed/atom.xml"/>
+        <link rel="alternate" type="application/feed+json" title="Stranger Foods" href="https://www.strangerfoods.org/feed/feed.json"/>
+        <link rel="preload" href="/fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin/>
+        <link rel="stylesheet" type="text/css" href="/css/index.min.css"/>
         <script defer src="/js/flexsearch.light.js"></script>
         <script defer src="/js/search_data.min.js"></script>
         <script defer src="/js/search.min.js"></script>
         <noscript><style type="text/css">.slider.closed {max-height: unset;}</style></noscript>
         <!-- icons and manifest for PWA -->
-        <link rel="manifest" href="./manifest.json">
-        <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
-        <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+        <link rel="manifest" href="./manifest.json"/>
+        <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png"/>
+        <link rel="icon" href="favicon.svg" type="image/svg+xml"/>
         <meta name="theme-color" content="#292d33"/>  
-        <meta name="apple-mobile-web-app-capable" content="yes">  
-        <meta name="apple-mobile-web-app-status-bar-style" content="#757575"> 
-        <meta name="apple-mobile-web-app-title" content="Stranger Foods"> 
-        <meta name="msapplication-TileImage" content="icons/icon-144.png">  
-        <meta name="msapplication-TileColor" content="#757575">
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <meta name="apple-mobile-web-app-status-bar-style" content="#757575"/> 
+        <meta name="apple-mobile-web-app-title" content="Stranger Foods"/> 
+        <meta name="msapplication-TileImage" content="icons/icon-144.png"/>  
+        <meta name="msapplication-TileColor" content="#757575"/>
     </head>
     <body>
         <header>
-            <a href="/"><img class="header-img" src="./img/header-lrg.svg" alt="Stranger Foods" width="252" height="234"></a>
+            <a href="/">
+                <p>Stranger&nbsp;Foods</p>
+            </a>
         </header>
 
-        <section id="search"> 
+        <main>
+            <section id="recent">
+                <p class="orange">Latest</p>
+                <div id="recent-recipes">
+                    <a href="/recipes/simple-pancetta-pasta-with-peas-and-parmesan">
+                        <h2 style="--bg-img: url('/images/Simple_pancetta_pasta_with_peas_and_parmesan.webp');">Simple pancetta pasta with peas and parmesan</h2>
+                        </a>
+                    <a href="/recipes/coconut-curry-salmon">
+                        <h2 style="--bg-img: url('/images/Coconut_curry_salmon.webp');">Coconut curry salmon</h2>
+                        </a>
+                    <a href="/recipes/no-churn-ice-cream">
+                        <h2 style="--bg-img: url('/images/No_churn_ice_cream.webp');">No churn ice cream</h2>
+                        </a>
+                    <a href="/recipes/key-lime-loaf-cake">
+                        <h2 style="--bg-img: url('/images/Key_lime_loaf_cake.webp');">Key lime loaf cake</h2>
+                        </a>
+                    <a href="/recipes/bbq-cauliflower-and-chickpea-tray-bake">
+                        <h2 style="--bg-img: url('/images/Bbq_cauliflower_and_chickpea_tray_bake.webp');">BBQ cauliflower and chickpea tray bake</h2>
+                        </a>
+                    <a href="/recipes/harissa-lamb-and-rice-salad">
+                        <h2 style="--bg-img: url('/images/Harissa_lamb_and_rice_salad.webp');">Harissa lamb and rice salad</h2>
+                        </a>
+                    <a href="/recipes/vegan-pasta-salad">
+                        <h2 style="--bg-img: url('/images/Vegan_pasta_salad.webp');">Vegan pasta salad</h2>
+                        </a>
+                    <a href="/recipes/chicago-style-deep-dish-pizza">
+                        <h2 style="--bg-img: url('/images/Chicago-style_deep_dish_pizza.webp');">Chicago-style deep dish pizza</h2>
+                        </a>
+                    <a href="/recipes/asian-spiced-burgers-with-mango-salsa">
+                        <h2 style="--bg-img: url('/images/Asian_spiced_burgers_with_mango_salsa.webp');">Asian spiced burgers with mango salsa</h2>
+                        </a>
+                    </div>
+            </section>
 
-            <h1>Search by</h1>
-            <div class="tabs">
-                <button id="name-btn" class="tab">Name</button>
-                <button id="category-btn" class="tab tab-faded">Category</button>
-                <button id="source-btn" class="tab tab-faded">Source</button>
+            <section id="search">
+                <p class="purple">Search</p>
+                <noscript><p>Javascript must be enabled for search functionality.</p></noscript>
+                <div id="search-buttons">
+                    <button type="button" id="name-btn" disabled>Name</button>
+                    <button type="button" id="category-btn" disabled>Category</button>
+                    <button type="button" id="cuisine-btn" disabled>Cuisine</button>
+                    <button type="button" id="diet-btn" disabled>Diet</button>
+                    <button type="button" id="tag-btn" disabled>Tag</button>
+                    <button type="button" id="source-btn" disabled>Source</button>
+                </div>
+            </section>
+
+            <section id="settings">
+                <meta name="update-hash" content="0d2da418eb5435a6a06fd55469c6860bf6f1e260a64889827bf1c1439e39f0a3"/>
+                <meta name="cache-size" content="27202475"/>
+                <p class="yellow">Settings</p>
+                <noscript><p>Javascript must be enabled for settings functionality.</p></noscript>
+                <div id="settings-options">
+                    <button type="button" id="cache-site-btn" disabled>Cache Site</button>
+                    <button type="button" id="theme-btn" disabled>
+                        Theme<br/>
+                        <span class="light-text">Dark</span>
+                    </button>
+                </div>
+            </section>
+        </main>
+
+    </body>
+
+    <dialog id="dialog-category">
+        <form method="dialog">
+            <div class="dialog-header">
+                <p>Filter by category</p>
+                <button type="button">&Cross;</button>
             </div>
+            <div class="checkboxes" style="--selected:var(--orange);--selected-text:var(--bg)">
+                <div class="checkbox">
+                    <input type="checkbox" value="Dessert" name="Dessert"/>
+                    <label for="Dessert">Dessert (27)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Pork" name="Pork"/>
+                    <label for="Pork">Pork (113)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Poultry" name="Poultry"/>
+                    <label for="Poultry">Poultry (122)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="RedMeat" name="RedMeat"/>
+                    <label for="RedMeat">Red Meat (94)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Seafood" name="Seafood"/>
+                    <label for="Seafood">Seafood (112)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Veggie" name="Veggie"/>
+                    <label for="Veggie">Veggie (168)</label>
+                </div>
+                </div>
+            <div id="result-category" class="search-results"></div>
+        </form>
+    </dialog>
 
-            <div id="search-name">
-                <input id="name-pattern" class="search-pattern" type="text" placeholder="Search 630 recipes" aria-label="Search for recipes">
+    <dialog id="dialog-cuisine">
+        <form method="dialog">
+            <div class="dialog-header">
+                <p>Filter by cuisine</p>
+                <button type="button">&Cross;</button>
             </div>
+            <div class="checkboxes" style="--selected:var(--blue);--selected-text:var(--bg)">
+                <div class="checkbox">
+                    <input type="checkbox" value="Afghan" name="Afghan"/>
+                    <label for="Afghan">Afghan (1)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="American" name="American"/>
+                    <label for="American">American (18)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Asian" name="Asian"/>
+                    <label for="Asian">Asian (16)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="British" name="British"/>
+                    <label for="British">British (26)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Cajun" name="Cajun"/>
+                    <label for="Cajun">Cajun (5)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Caribbean" name="Caribbean"/>
+                    <label for="Caribbean">Caribbean (18)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Chinese" name="Chinese"/>
+                    <label for="Chinese">Chinese (1)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Creole" name="Creole"/>
+                    <label for="Creole">Creole (3)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Egyptian" name="Egyptian"/>
+                    <label for="Egyptian">Egyptian (1)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Ethiopian" name="Ethiopian"/>
+                    <label for="Ethiopian">Ethiopian (1)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="French" name="French"/>
+                    <label for="French">French (5)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Greek" name="Greek"/>
+                    <label for="Greek">Greek (2)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Hawaiian" name="Hawaiian"/>
+                    <label for="Hawaiian">Hawaiian (1)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Hungarian" name="Hungarian"/>
+                    <label for="Hungarian">Hungarian (2)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Indian" name="Indian"/>
+                    <label for="Indian">Indian (24)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Iranian" name="Iranian"/>
+                    <label for="Iranian">Iranian (5)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Italian" name="Italian"/>
+                    <label for="Italian">Italian (48)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Japanese" name="Japanese"/>
+                    <label for="Japanese">Japanese (3)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Lebanese" name="Lebanese"/>
+                    <label for="Lebanese">Lebanese (2)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Mediterranean" name="Mediterranean"/>
+                    <label for="Mediterranean">Mediterranean (8)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Mexican" name="Mexican"/>
+                    <label for="Mexican">Mexican (17)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Middle Eastern" name="Middle Eastern"/>
+                    <label for="Middle Eastern">Middle Eastern (17)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Moroccan" name="Moroccan"/>
+                    <label for="Moroccan">Moroccan (24)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="North African" name="North African"/>
+                    <label for="North African">North African (2)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Peruvian" name="Peruvian"/>
+                    <label for="Peruvian">Peruvian (2)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Portuguese" name="Portuguese"/>
+                    <label for="Portuguese">Portuguese (2)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Puerto Rican" name="Puerto Rican"/>
+                    <label for="Puerto Rican">Puerto Rican (2)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Russian" name="Russian"/>
+                    <label for="Russian">Russian (2)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="South Korean" name="South Korean"/>
+                    <label for="South Korean">South Korean (1)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Spanish" name="Spanish"/>
+                    <label for="Spanish">Spanish (13)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Thai" name="Thai"/>
+                    <label for="Thai">Thai (10)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Turkish" name="Turkish"/>
+                    <label for="Turkish">Turkish (6)</label>
+                </div>
+                </div>
+            <div id="result-cuisine" class="search-results"></div>
+        </form>
+    </dialog>
 
-            <div id="search-category" class="tab-content-hidden">
-                <select id="select">
-                    <option value="">Select a category</option>
-                    <optgroup id="category-select" label="Categories">
-                        <option value="Dessert">Dessert (25)</option>
-                        <option value="Pork">Pork (112)</option>
-                        <option value="Poultry">Poultry (122)</option>
-                        <option value="RedMeat">Red Meat (93)</option>
-                        <option value="Seafood">Seafood (111)</option>
-                        <option value="Veggie">Veggie (167)</option>
-                        </optgroup>
-                    <optgroup id="cuisine-select" label="Cuisine">
-                       <option value="Afghan">Afghan (1)</option>
-                        <option value="American">American (17)</option>
-                        <option value="Asian">Asian (16)</option>
-                        <option value="British">British (26)</option>
-                        <option value="Cajun">Cajun (5)</option>
-                        <option value="Caribbean">Caribbean (18)</option>
-                        <option value="Chinese">Chinese (1)</option>
-                        <option value="Creole">Creole (3)</option>
-                        <option value="Egyptian">Egyptian (1)</option>
-                        <option value="Ethiopian">Ethiopian (1)</option>
-                        <option value="French">French (5)</option>
-                        <option value="Greek">Greek (2)</option>
-                        <option value="Hawaiian">Hawaiian (1)</option>
-                        <option value="Hungarian">Hungarian (2)</option>
-                        <option value="Indian">Indian (24)</option>
-                        <option value="Iranian">Iranian (5)</option>
-                        <option value="Italian">Italian (47)</option>
-                        <option value="Japanese">Japanese (3)</option>
-                        <option value="Lebanese">Lebanese (2)</option>
-                        <option value="Mediterranean">Mediterranean (8)</option>
-                        <option value="Mexican">Mexican (17)</option>
-                        <option value="Middle Eastern">Middle Eastern (17)</option>
-                        <option value="Moroccan">Moroccan (24)</option>
-                        <option value="North African">North African (2)</option>
-                        <option value="Peruvian">Peruvian (2)</option>
-                        <option value="Portuguese">Portuguese (2)</option>
-                        <option value="Puerto Rican">Puerto Rican (2)</option>
-                        <option value="Russian">Russian (2)</option>
-                        <option value="South Korean">South Korean (1)</option>
-                        <option value="Spanish">Spanish (13)</option>
-                        <option value="Thai">Thai (10)</option>
-                        <option value="Turkish">Turkish (6)</option>
-                        </optgroup>
-                    <optgroup id="diet-select" label="Diet">
-                        <option value="DairyFree">Dairy Free (27)</option>
-                        <option value="GlutenFree">Gluten Free (71)</option>
-                        <option value="NutFree">Nut Free (10)</option>
-                        <option value="Vegan">Vegan (31)</option>
-                        </optgroup>
-                    <optgroup id="tags-select" label="Tags">
-                        <option value="beef">Beef (43)</option>
-                        <option value="cake">Cake (8)</option>
-                        <option value="cookies">Cookies (4)</option>
-                        <option value="deep-fryer">Deep-Fryer (4)</option>
-                        <option value="lamb">Lamb (44)</option>
-                        <option value="pie">Pie (28)</option>
-                        <option value="slow-cooker">Slow-Cooker (11)</option>
-                        </optgroup>
-                </select>
+    <dialog id="dialog-diet">
+        <form method="dialog">
+            <div class="dialog-header">
+                <p>Filter by diet</p>
+                <button type="button">&Cross;</button>
             </div>
+            <div class="checkboxes" style="--selected:var(--aqua);--selected-text:var(--bg)">
+                <div class="checkbox">
+                    <input type="checkbox" value="DairyFree" name="DairyFree"/>
+                    <label for="DairyFree">Dairy Free (27)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="GlutenFree" name="GlutenFree"/>
+                    <label for="GlutenFree">Gluten Free (72)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="NutFree" name="NutFree"/>
+                    <label for="NutFree">Nut Free (10)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="Vegan" name="Vegan"/>
+                    <label for="Vegan">Vegan (32)</label>
+                </div>
+                </div>
+            <div id="result-diet" class="search-results"></div>
+        </form>
+    </dialog>
 
-            <div id="search-source" class="tab-content-hidden">
-                <input list="recipe-sources" name="search-source" placeholder="Search recipe sources" class="search-pattern" id="search-source" autocomplete="off">
+    <dialog id="dialog-tag">
+        <form method="dialog">
+            <div class="dialog-header">
+                <p>Filter by tag</p>
+                <button type="button">&Cross;</button>
+            </div>
+            <div class="checkboxes" style="--selected:var(--purple);--selected-text:var(--bg)">
+                <div class="checkbox">
+                    <input type="checkbox" value="beef" name="beef"/>
+                    <label for="beef">Beef (43)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="cake" name="cake"/>
+                    <label for="cake">Cake (9)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="cookies" name="cookies"/>
+                    <label for="cookies">Cookies (4)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="deep-fryer" name="deep-fryer"/>
+                    <label for="deep-fryer">Deep-Fryer (4)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="lamb" name="lamb"/>
+                    <label for="lamb">Lamb (45)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="pie" name="pie"/>
+                    <label for="pie">Pie (28)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" value="slow-cooker" name="slow-cooker"/>
+                    <label for="slow-cooker">Slow-Cooker (11)</label>
+                </div>
+                </div>
+            <div id="result-tag" class="search-results"></div>
+        </form>
+    </dialog>
+
+    <dialog id="dialog-name">
+        <form method="dialog">
+            <div class="dialog-header">
+                <p>Filter by name</p>
+                <button type="button">&Cross;</button>
+            </div>
+            <div>
+                <input id="search-name" class="search-pattern" type="search" placeholder="Search 636 recipes" aria-label="Search for recipes"/>
+            </div>
+            <div id="result-name" class="search-results"></div>
+        </form>
+    </dialog>
+
+    <dialog id="dialog-source">
+        <form method="dialog">
+            <div class="dialog-header">
+                <p>Filter by source</p>
+                <button type="button">&Cross;</button>
+            </div>
+            <div>
+                <input list="recipe-sources" type="search" name="search-source" placeholder="Search recipe sources" class="search-pattern" id="search-source" autocomplete="off"/>
                 <datalist id="recipe-sources">
                 <option name="100 Best Slow Cooker Recipes">100 Best Slow Cooker Recipes</option>
                 <option name="12tomatoes.com">12tomatoes.com</option>
@@ -191,6 +443,7 @@
                 <option name="www.chinghehuang.com">www.chinghehuang.com</option>
                 <option name="www.cookhomey.com">www.cookhomey.com</option>
                 <option name="www.deliaonline.com">www.deliaonline.com</option>
+                <option name="www.delish.com">www.delish.com</option>
                 <option name="www.emmafontanella.com">www.emmafontanella.com</option>
                 <option name="www.gordonrhodes.co.uk">www.gordonrhodes.co.uk</option>
                 <option name="www.halfbakedharvest.com">www.halfbakedharvest.com</option>
@@ -221,54 +474,7 @@
                 <option name="www.youtube.com">www.youtube.com</option>
                 </datalist>
             </div>
-
-            <div class="cache-section hidden">
-                <meta name="update-hash" content="96ba510cbfff59df47258c26e55d2e92ea006ff759917857a97e3b9659b92500">
-                <meta name="cache-size" content="25812698">
-                <button role="button" id="update-cache"></button>
-            </div>
-            <noscript>
-                <p>Recipe search and dropdown menu selection are unavailable whilst javascript is disabled.</p>
-                <p>See <a href='/all-recipes'>here</a> for a list of all recipes</p>
-            </noscript>
-        </section>
-
-            <!--- List of recipes -->
-        <section id="results">
-            <ul class="recipe-list" id="search-results"></ul>
-        </section>
-
-        <section id="recent">
-            <button class="recent-btn" id="recent-btn">Recent recipes</button>
-            <div id="slider" class="slider closed">
-                <a href="/recipes/vegan-pasta-salad" class="recent-item">
-                    <h2 class="recent-title" style="--bg: url(/images/Vegan_pasta_salad.webp);">Vegan pasta salad</h2>
-                    </a>
-                <a href="/recipes/chicago-style-deep-dish-pizza" class="recent-item">
-                    <h2 class="recent-title" style="--bg: url(/images/Chicago-style_deep_dish_pizza.webp);">Chicago-style deep dish pizza</h2>
-                    </a>
-                <a href="/recipes/asian-spiced-burgers-with-mango-salsa" class="recent-item">
-                    <h2 class="recent-title" style="--bg: url(/images/Asian_spiced_burgers_with_mango_salsa.webp);">Asian spiced burgers with mango salsa</h2>
-                    </a>
-                <a href="/recipes/sheet-pan-sausage-peppers-and-onions" class="recent-item">
-                    <h2 class="recent-title" style="--bg: url(/images/Sheet_pan_sausage,_peppers_and_onions.webp);">Sheet pan sausage, peppers and onions</h2>
-                    </a>
-                <a href="/recipes/smoky-pork-and-pineapple-tostadas" class="recent-item">
-                    <h2 class="recent-title" style="--bg: url(/images/Smoky_pork_and_pineapple_tostadas.webp);">Smoky pork and pineapple tostadas</h2>
-                    </a>
-                <a href="/recipes/15-minute-vegan-chili-garlic-noodles" class="recent-item">
-                    <h2 class="recent-title" style="--bg: url(/images/15-minute_vegan_chili_garlic_noodles.webp);">15-minute vegan chili garlic noodles</h2>
-                    </a>
-                <a href="/recipes/creamy-butter-chicken" class="recent-item">
-                    <h2 class="recent-title" style="--bg: url(/images/Creamy_butter_chicken.webp);">Creamy butter chicken</h2>
-                    </a>
-                <a href="/recipes/doner-kebab-with-chicken" class="recent-item">
-                    <h2 class="recent-title" style="--bg: url(/images/Doner_kebab_with_chicken.webp);">Doner kebab with chicken</h2>
-                    </a>
-                <a href="/recipes/potato-salad-recipe-with-tuna" class="recent-item">
-                    <h2 class="recent-title" style="--bg: url(/images/Potato_salad_recipe_with_tuna.webp);">Potato salad recipe with tuna</h2>
-                    </a>
-                </div>
-        </section>
-    </body>
+            <div id="result-source" class="search-results"></div>
+        </form>
+    </dialog>
 </html>

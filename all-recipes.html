@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta name="Description" content="Homepage for Tom's recipes">
-        <meta name="viewport" content="width=device-width">  
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self';">
+        <meta charset="utf-8"/>
+        <meta name="Description" content="Homepage for Tom's recipes"/>
+        <meta name="viewport" content="width=device-width"/>  
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-6l82ZEf8BjqBPnufiAafqNVGEPKzEk2VZBJMbSWbGYo=';"/>
         <title>Stranger Foods</title>
-        <link rel="preload" href="/fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin>
-        <link rel="stylesheet" type="text/css" href="/css/all.min.css">        
+        <link rel="preload" href="/fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin/>
+        <link rel="preload" href="/css/colours.min.css" as="style"/>
+        <link rel="stylesheet" type="text/css" href="/css/all.min.css"/>
         <!-- icons and manifest for PWA -->
         <meta name="theme-color" content="#292d33"/>  
     </head>
     <body>
-        <a class="header" href="/">
-            <p class="site">Stranger&nbsp;Foods</p>
-        </a>
+        <header>
+            <a href="/">
+                <p>Stranger&nbsp;Foods</p>
+            </a>
+        </header>
 
         <section id="recipes"> 
             <h1>All recipes</h1>
@@ -129,6 +132,11 @@
                 <li>
                     <a href="/recipes/bbq-beef-and-beans">
                         BBQ beef and beans
+                    </a>
+                </li>
+                <li>
+                    <a href="/recipes/bbq-cauliflower-and-chickpea-tray-bake">
+                        BBQ cauliflower and chickpea tray bake
                     </a>
                 </li>
                 <li>
@@ -670,6 +678,11 @@
                     </a>
                 </li>
                 <li>
+                    <a href="/recipes/coconut-curry-salmon">
+                        Coconut curry salmon
+                    </a>
+                </li>
+                <li>
                     <a href="/recipes/coconut-pork-stew-with-garam-masala">
                         Coconut pork stew with garam masala
                     </a>
@@ -1090,6 +1103,11 @@
                     </a>
                 </li>
                 <li>
+                    <a href="/recipes/harissa-lamb-and-rice-salad">
+                        Harissa lamb and rice salad
+                    </a>
+                </li>
+                <li>
                     <a href="/recipes/harissa-prawns-with-warm-chickpea-salad">
                         Harissa prawns with warm chickpea salad
                     </a>
@@ -1223,6 +1241,11 @@
                 </ul>
             <h2 id="K">K</h2>
             <ul>
+                <li>
+                    <a href="/recipes/key-lime-loaf-cake">
+                        Key lime loaf cake
+                    </a>
+                </li>
                 <li>
                     <a href="/recipes/key-lime-trifle">
                         Key lime trifle
@@ -1615,6 +1638,11 @@
                 <li>
                     <a href="/recipes/new-potato-mince-curry">
                         New potato & mince curry
+                    </a>
+                </li>
+                <li>
+                    <a href="/recipes/no-churn-ice-cream">
+                        No churn ice cream
                     </a>
                 </li>
                 </ul>
@@ -2365,6 +2393,11 @@
                 <li>
                     <a href="/recipes/sicilian-lamb-with-noodles">
                         Sicilian lamb with noodles
+                    </a>
+                </li>
+                <li>
+                    <a href="/recipes/simple-pancetta-pasta-with-peas-and-parmesan">
+                        Simple pancetta pasta with peas and parmesan
                     </a>
                 </li>
                 <li>
@@ -3246,7 +3279,7 @@
             </section>
         <footer>
             <div>
-                <img src="/img/logo.svg" alt="">
+                <img src="/img/logo.svg" alt="" height="1" width="1"/>
             </div>
             <div class="footer-links">
                 <a href="/">Homepage</a>
@@ -3255,5 +3288,11 @@
                 <a href="/feed/atom.xml">Feed</a>
             </div>
         </footer>
+        <script type="text/javascript">
+          if (localStorage.getItem("light-theme") == "true") {
+            let html = document.querySelector("html");
+            html.classList.add("light-theme");
+          }
+        </script>
     </body>
 </html>
