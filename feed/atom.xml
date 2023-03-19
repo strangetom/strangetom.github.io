@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2023-03-19T15:00:06.733102+00:00</updated>
+  <updated>2023-03-19T17:44:17.691636+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,24 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/harissa-lamb-and-rice-salad</id>
-    <title>Harissa lamb and rice salad</title>
-    <updated>2023-03-19T15:00:06.734288+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Harissa lamb and rice salad&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Harissa_lamb_and_rice_salad.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;This recipe is a super, speedy meal that is cooked in under 10 minutes.  Thin cut lamb steaks brushed with harissa paste, cooked and served with a flavour-packed rice salad made with wholegrain rice, sweetcorn, sweet peppers, chilli, fresh coriander or parsley, rocket leaves and fresh lemon juice.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/harissa-lamb-and-rice-salad" rel="alternate"/>
-    <published>2023-02-23T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Harissa_lamb_and_rice_salad.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/bbq-cauliflower-and-chickpea-tray-bake</id>
     <title>BBQ cauliflower and chickpea tray bake</title>
-    <updated>2023-03-19T15:00:06.734180+00:00</updated>
+    <updated>2023-03-19T17:44:17.700749+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;BBQ cauliflower and chickpea tray bake&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Bbq_cauliflower_and_chickpea_tray_bake.webp" style="text-align:center;"/&gt;
@@ -44,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/key-lime-loaf-cake</id>
     <title>Key lime loaf cake</title>
-    <updated>2023-03-19T15:00:06.734071+00:00</updated>
+    <updated>2023-03-19T17:44:17.699924+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Key lime loaf cake&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Key_lime_loaf_cake.webp" style="text-align:center;"/&gt;
@@ -59,7 +44,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/no-churn-ice-cream</id>
     <title>No churn ice cream</title>
-    <updated>2023-03-19T15:00:06.733950+00:00</updated>
+    <updated>2023-03-19T17:44:17.699073+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;No churn ice cream&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/No_churn_ice_cream.webp" style="text-align:center;"/&gt;
@@ -74,7 +59,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/coconut-curry-salmon</id>
     <title>Coconut curry salmon</title>
-    <updated>2023-03-19T15:00:06.733815+00:00</updated>
+    <updated>2023-03-19T17:44:17.698144+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Coconut curry salmon&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Coconut_curry_salmon.webp" style="text-align:center;"/&gt;
@@ -89,7 +74,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/simple-pancetta-pasta-with-peas-and-parmesan</id>
     <title>Simple pancetta pasta with peas and parmesan</title>
-    <updated>2023-03-19T15:00:06.733622+00:00</updated>
+    <updated>2023-03-19T17:44:17.697115+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Simple pancetta pasta with peas and parmesan&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Simple_pancetta_pasta_with_peas_and_parmesan.webp" style="text-align:center;"/&gt;
@@ -99,6 +84,21 @@
     <published>2023-03-09T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/Simple_pancetta_pasta_with_peas_and_parmesan.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/ginger-lime-chicken</id>
+    <title>Ginger-lime chicken</title>
+    <updated>2023-03-19T17:44:17.695746+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Ginger-lime chicken&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Ginger-lime_chicken.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;Though this may look like regular old chicken, don’t be fooled: It’s buzzing with the bright flavors of ginger and lime. Mayonnaise is the secret ingredient in this recipe. When slathered on boneless chicken and cooked, the beloved condiment carries flavor, sticks to the meat well, encourages browning and prevents the pieces of lime zest and ginger — or whatever seasonings you choose — from burning. &lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/ginger-lime-chicken" rel="alternate"/>
+    <published>2023-03-14T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Ginger-lime_chicken.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
