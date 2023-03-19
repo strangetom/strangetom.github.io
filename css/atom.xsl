@@ -7,7 +7,8 @@ Styles an Atom feed, making it friendly for humans viewers
 <xsl:stylesheet
     version="3.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:atom="http://www.w3.org/2005/Atom">
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:media="http://search.yahoo.com/mrss/">
   <xsl:output method="html" version="4.0" encoding="UTF-8" indent="yes"/>
   <xsl:template match="/">
     <html lang="en">
@@ -15,12 +16,9 @@ Styles an Atom feed, making it friendly for humans viewers
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title><xsl:value-of select="atom:feed/atom:title"/></title>
+        <link rel="preload" href="/css/colours.min.css" as="style"/>
         <style type="text/css">
-          :root {
-            --bg: #fff;
-            --bg-texture: url("../img/page-bg-light.svg");
-            --text: #272427;
-          }
+          @import '../css/colours.min.css';
           @font-face {
             font-family: 'latin_modern';
             src: local('Latin Modern Mono'),
@@ -31,31 +29,37 @@ Styles an Atom feed, making it friendly for humans viewers
           }
           body {
             font-family: sans-serif;
-            color: var(--text);
-            background-color: var(--bg); 
-            background-image: var(--bg-texture);
+            background-color: var(--bg-s);
             margin: 0 auto;
+            padding: 0;
             line-height: 1.5;
-            max-width: 800px;
+            max-width: 90ch;
+            display: flex;
+            flex-flow: column;
+            height: 100vh;
             -webkit-font-smoothing: antialiased;
           }
-          .header {
-            text-decoration: none; 
+          header {
+            color: var(--fg);
+            border-bottom: 5px double var(--fg);
           }
-          .site {
-            font-family: 'latin_modern', sans-serif;  
-            font-size: 2.1em; 
+          header a {
+            text-decoration: none;
+          }
+          header p {
+            font-family: 'latin_modern', sans-serif;
+            font-size: 2.1rem; 
             text-transform: uppercase;
             text-align: center;
             transform: scaleY(1.4);
             padding: 0;
             margin: 0;
-            color: var(--text);
+            color: var(--fg);
           }
           .container {
-            border-top: solid #ccc 5px;
             background-color: var(--bg);
-            padding: 1em;
+            color: var(--fg);
+            padding: 1em; 
           }
           h1 {
             margin-top: 0;
@@ -66,56 +70,110 @@ Styles an Atom feed, making it friendly for humans viewers
             width: 1.2em;
             height: 1.2em;
           }
-          h3 {
-            font-family: 'latin_modern', sans-serif; 
-            margin-bottom: 0;
+          .recent {
+            display: grid;
+            /* The body is 90ch wide with a padding of 1 rem on each side. 
+            The grid layout has a gap of 10 px between items and padding of 5 px of each side.
+            Therefore to get two colums, each column must by (90ch - 2 rem - 10px)/2 wide. */
+            grid-template-columns: repeat(auto-fill, calc(calc(90ch - 2rem - 20px) / 2));
+            grid-auto-flow: row;
+            gap: 10px;
+            padding: 0 5px;
+            justify-items: center;
           }
-          @media (prefers-color-scheme: dark) {
-            :root {
-              --bg: #333;
-              --bg-texture: url("../img/page-bg-dark.svg");
-              --text: #e4e4e4;
-            }
-            a{
-             color: #56a0fb;
-            }
-            a:visited {
-              color: #dd7dff;
-            }
+          .recent a {
+            padding: 0;
+            text-align: left;
+            text-decoration: none;
+            color: #fff;
+            margin: 5px; 
+            border-radius: var(--photo-radius);
+            height: 220px;
+            width: calc(100% - 10px);
+          }
+          .recent h3 {
+            position: relative;
+            font-family: latin_modern,sans-serif;
+            font-weight: 700;
+            font-size: 1.25rem;
+            margin: 0;
+            padding: 10px;
+            height: 100%;
+            border: 1px solid var(--bg-2);
+            background: var(--bg-img),linear-gradient(rgb(100,100,100),20%,transparent);
+            background-size: auto 100%;
+            background-position: 50%;
+            background-blend-mode: multiply;
+            border-radius: var(--photo-radius);
+            box-shadow: var(--shadow);
+            box-sizing: border-box;
+          }
+          .recipe-label {
+            font-family: sans-serif;
+            font-size: .9rem;
+            font-weight: 400;
+            display: inline-block;
+            margin: 3px;
+            padding: 4px 12px;
+            color: var(--fg);
+            background-color: var(--bg);
+            border-radius: var(--button-radius);
+            position: absolute;
+            left: 5px;
+            bottom: 0;
+          }
+          .recipe-label-icon {
+            position: relative;
+            bottom: -2px;
+            margin-right: .5rem;
           }
         </style>
+        <script type="text/javascript">
+          if (localStorage.getItem("light-theme") == "true") {
+            let html = document.querySelector("html");
+            html.classList.add("light-theme");
+          }
+        </script>
       </head>
       <body>
-        <a class="header" href="/">
-            <p class="site">Stranger&#160;Foods</p>
-        </a>
+        <header>
+          <a href="/">
+              <p>Stranger&#160;Foods</p>
+          </a>
+        </header>
         <div class="container">
           <h1>
-            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16"><path d="M2 0a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V2a2 2 0 00-2-2H2zm1.5 2.5c5.523 0 10 4.477 10 10a1 1 0 11-2 0 8 8 0 00-8-8 1 1 0 010-2zm0 4a6 6 0 016 6 1 1 0 11-2 0 4 4 0 00-4-4 1 1 0 010-2zm.5 7a1.5 1.5 0 110-3 1.5 1.5 0 010 3z" fill="var(--text)"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16">
+              <path d="M2 0a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V2a2 2 0 00-2-2H2zm1.5 2.5c5.523 0 10 4.477 10 10a1 1 0 11-2 0 8 8 0 00-8-8 1 1 0 010-2zm0 4a6 6 0 016 6 1 1 0 11-2 0 4 4 0 00-4-4 1 1 0 010-2zm.5 7a1.5 1.5 0 110-3 1.5 1.5 0 010 3z" fill="var(--orange-alt)"/>
+            </svg>
             Atom Feed
           </h1>
-          <p>This preview only shows titles, but the actual feed contains the full content. <strong>Subscribe</strong> by copying the URL from the address bar into your newsreader.</p>
+          <p><strong>Subscribe</strong> by copying the URL from the address bar into your newsreader.</p>
           <h2>Recent Items</h2>
-          <xsl:apply-templates select="atom:feed/atom:entry" >
-            <xsl:sort select="position()" data-type="number" order="descending"/>
-          </xsl:apply-templates>
+          <div class="recent">
+            <xsl:apply-templates select="atom:feed/atom:entry" >
+              <xsl:sort select="position()" data-type="number" order="descending"/>
+            </xsl:apply-templates>
+          </div>
         </div>
       </body>
     </html>
   </xsl:template>
   <xsl:template match="atom:feed/atom:entry">
-    <div class="item">
+    <a>
+      <xsl:attribute name="href">
+        <xsl:value-of select="atom:link/@href"/>
+      </xsl:attribute>
       <h3>
-        <a>
-          <xsl:attribute name="href">
-            <xsl:value-of select="atom:link/@href"/>
-          </xsl:attribute>
-          <xsl:value-of select="atom:title"/>
-        </a>
+        <xsl:attribute name="style">--bg-img: url('<xsl:value-of select="media:group/media:thumbnail/@url"/>');</xsl:attribute>
+        <xsl:value-of select="atom:title"/>
+        <span class="recipe-label">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" class="recipe-label-icon">
+            <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
+          </svg>
+          <xsl:value-of select="substring(atom:published, 0, 11)"/>
+        </span>
       </h3>
-      <small>
-        Published: <xsl:value-of select="atom:published" />
-      </small>
-    </div>
+    </a>
   </xsl:template>
 </xsl:stylesheet>
