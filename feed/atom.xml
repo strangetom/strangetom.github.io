@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2023-03-25T18:04:02.530090+00:00</updated>
+  <updated>2023-04-06T07:56:51.453444+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,24 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/coconut-curry-salmon</id>
-    <title>Coconut curry salmon</title>
-    <updated>2023-03-25T18:04:02.531404+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Coconut curry salmon&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Coconut_curry_salmon.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;An easy pan fried salmon that simmers in an unbelievable coconut curry for the easiest weeknight dinner. &lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/coconut-curry-salmon" rel="alternate"/>
-    <published>2023-03-06T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Coconut_curry_salmon.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/simple-pancetta-pasta-with-peas-and-parmesan</id>
     <title>Simple pancetta pasta with peas and parmesan</title>
-    <updated>2023-03-25T18:04:02.531290+00:00</updated>
+    <updated>2023-04-06T07:56:51.454578+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Simple pancetta pasta with peas and parmesan&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Simple_pancetta_pasta_with_peas_and_parmesan.webp" style="text-align:center;"/&gt;
@@ -44,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/ginger-lime-chicken</id>
     <title>Ginger-lime chicken</title>
-    <updated>2023-03-25T18:04:02.531175+00:00</updated>
+    <updated>2023-04-06T07:56:51.454475+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Ginger-lime chicken&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Ginger-lime_chicken.webp" style="text-align:center;"/&gt;
@@ -59,7 +44,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/barbari-bread</id>
     <title>Barbari bread</title>
-    <updated>2023-03-25T18:04:02.531055+00:00</updated>
+    <updated>2023-04-06T07:56:51.454371+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Barbari bread&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Barbari_bread.webp" style="text-align:center;"/&gt;
@@ -74,7 +59,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/vegan-red-lentil-curry</id>
     <title>Vegan red lentil curry</title>
-    <updated>2023-03-25T18:04:02.530930+00:00</updated>
+    <updated>2023-04-06T07:56:51.454264+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Vegan red lentil curry&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Vegan_red_lentil_curry.webp" style="text-align:center;"/&gt;
@@ -89,7 +74,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/easy-honey-mustard-salmon</id>
     <title>Easy honey mustard salmon</title>
-    <updated>2023-03-25T18:04:02.530703+00:00</updated>
+    <updated>2023-04-06T07:56:51.454150+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Easy honey mustard salmon&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Easy_honey_mustard_salmon.webp" style="text-align:center;"/&gt;
@@ -99,6 +84,21 @@
     <published>2023-03-23T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/Easy_honey_mustard_salmon.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/steak-and-chips-pie</id>
+    <title>Steak and chips pie</title>
+    <updated>2023-04-06T07:56:51.453961+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Steak and chips pie&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Steak_and_chips_pie.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;Steak pie and chips is a classic pub staple, but we’ve given it a makeover by switching out the high-fat pastry for an even better topping: chips! We’ve packed it full of veggies and a savoury gravy so you can bring a taste of slimming-friendly pub grub to your kitchen without even having to leave the house.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/steak-and-chips-pie" rel="alternate"/>
+    <published>2023-03-28T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Steak_and_chips_pie.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
