@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2023-04-06T07:56:51.453444+00:00</updated>
+  <updated>2023-04-16T16:04:32.126031+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,69 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/simple-pancetta-pasta-with-peas-and-parmesan</id>
-    <title>Simple pancetta pasta with peas and parmesan</title>
-    <updated>2023-04-06T07:56:51.454578+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Simple pancetta pasta with peas and parmesan&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Simple_pancetta_pasta_with_peas_and_parmesan.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Simple pancetta pasta and peas, tossed in a simple garlic and olive oil sauce and finished with Parmesan cheese. So good!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/simple-pancetta-pasta-with-peas-and-parmesan" rel="alternate"/>
-    <published>2023-03-09T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Simple_pancetta_pasta_with_peas_and_parmesan.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/ginger-lime-chicken</id>
-    <title>Ginger-lime chicken</title>
-    <updated>2023-04-06T07:56:51.454475+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Ginger-lime chicken&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Ginger-lime_chicken.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Though this may look like regular old chicken, don’t be fooled: It’s buzzing with the bright flavors of ginger and lime. Mayonnaise is the secret ingredient in this recipe. When slathered on boneless chicken and cooked, the beloved condiment carries flavor, sticks to the meat well, encourages browning and prevents the pieces of lime zest and ginger — or whatever seasonings you choose — from burning. &lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/ginger-lime-chicken" rel="alternate"/>
-    <published>2023-03-14T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Ginger-lime_chicken.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/barbari-bread</id>
-    <title>Barbari bread</title>
-    <updated>2023-04-06T07:56:51.454371+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Barbari bread&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Barbari_bread.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Delightfully crispy on the outside and fluffy on the inside, Persian Barbari bread is the perfect flatbread to toast and eat with cheese and jam for breakfast, or as a side for lunch and dinner.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/barbari-bread" rel="alternate"/>
-    <published>2023-03-19T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Barbari_bread.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/vegan-red-lentil-curry</id>
-    <title>Vegan red lentil curry</title>
-    <updated>2023-04-06T07:56:51.454264+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Vegan red lentil curry&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Vegan_red_lentil_curry.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;This Vegan Red Lentil Curry is a fan favorite and the BEST lentil curry you will ever try! It’s easy and quick, making it a perfect weeknight dinner! Plus, it’s creamy and indulgent but made with wholesome vegan ingredients!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/vegan-red-lentil-curry" rel="alternate"/>
-    <published>2023-03-22T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Vegan_red_lentil_curry.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/easy-honey-mustard-salmon</id>
     <title>Easy honey mustard salmon</title>
-    <updated>2023-04-06T07:56:51.454150+00:00</updated>
+    <updated>2023-04-16T16:04:32.128426+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Easy honey mustard salmon&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Easy_honey_mustard_salmon.webp" style="text-align:center;"/&gt;
@@ -89,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/steak-and-chips-pie</id>
     <title>Steak and chips pie</title>
-    <updated>2023-04-06T07:56:51.453961+00:00</updated>
+    <updated>2023-04-16T16:04:32.128253+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Steak and chips pie&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Steak_and_chips_pie.webp" style="text-align:center;"/&gt;
@@ -99,6 +39,66 @@
     <published>2023-03-28T23:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/Steak_and_chips_pie.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/lebanese-rice-with-vermicelli</id>
+    <title>Lebanese rice with vermicelli</title>
+    <updated>2023-04-16T16:04:32.128070+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lebanese rice with vermicelli&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Lebanese_rice_with_vermicelli.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;Vegan Lebanese rice with vermicelli and pine nuts. A great side dish next to many Mediterranean favorites.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/lebanese-rice-with-vermicelli" rel="alternate"/>
+    <published>2023-04-06T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Lebanese_rice_with_vermicelli.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/baked-cod-with-lemon-and-garlic</id>
+    <title>Baked cod with lemon and garlic</title>
+    <updated>2023-04-16T16:04:32.127868+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Baked cod with lemon and garlic&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Baked_cod_with_lemon_and_garlic.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;Best baked cod recipe out there! Prepared Mediterranean style with a few spices and a mixture of lemon juice, olive oil and lots of garlic. Bakes in 15 mins!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/baked-cod-with-lemon-and-garlic" rel="alternate"/>
+    <published>2023-04-06T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Baked_cod_with_lemon_and_garlic.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/honey-mustard-chicken-tenders</id>
+    <title>Honey-mustard chicken tenders</title>
+    <updated>2023-04-16T16:04:32.127658+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Honey-mustard chicken tenders&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Honey-mustard_chicken_tenders.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;The combination of honey and mustard has been around since ancient Egypt and Rome, and midcentury American cooks used it in any number of dishes, from baked chicken to glazed ham. But it wasn't until the 1970s and '80s, when restaurants started pairing the zesty sauce with breaded pieces of boneless chicken, that it became wildly popular. As a coating for chicken, honey mustard not only tastes great, but the acidity in the mustard helps keep the meat juicy. For hot honey mustard chicken tenders, add 1/2 teaspoon cayenne to the honey mustard. For an even quicker dinner, do steps 1 and 2 up to a day ahead. (Refrigerate the chicken and store the toasted panko at room temperature.) Eat the tenders dipped into barbecue sauce, hot sauce, ketchup, or -- you guessed it -- more honey mustard.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/honey-mustard-chicken-tenders" rel="alternate"/>
+    <published>2023-04-12T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Honey-mustard_chicken_tenders.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/four-spice-salmon</id>
+    <title>Four-spice salmon</title>
+    <updated>2023-04-16T16:04:32.127341+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Four-spice salmon&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Four-spice_salmon.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;Fish fillets can be a weeknight cook's savior. They are healthful and easy to prepare, require little time to cook and take well to all manner of spices. In this straightforward recipe, adapted from the New York chef Katy Sparks, you start with salmon fillets, liberally rub them on one side with a mixture of ground coriander, cloves, cumin and nutmeg, and then brown them in a very hot pan so the spices form a crust. Flip once, and that's it. For the best results, use fillets of equal sizes, cook them to medium rare, and use freshly ground spices. If you have only pre-ground, be sure they haven't gone stale sitting in your cabinet too long. (Yes, spices can go stale.)&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/four-spice-salmon" rel="alternate"/>
+    <published>2023-04-12T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Four-spice_salmon.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
