@@ -1,6 +1,7 @@
 	{
   "name": "Stranger Foods",
   "short_name": "StrangerFoods",
+  "description": "All the recipes Tom has cooked, updated regularly.",
   "icons": [{
     "src": "icons/icon-128.png",
       "sizes": "128x128",
@@ -35,5 +36,56 @@
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#292d33",
-  "theme_color": "#292d33"
+  "theme_color": "#292d33",
+  "screenshots":
+  [
+    {
+      "src": "/screenshots/home-mobile-dark.png",
+      "type": "image/png",
+      "sizes": "822x1546",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshots/home-mobile-light.png",
+      "type": "image/png",
+      "sizes": "822x1546",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshots/recipe-mobile-dark.png",
+      "type": "image/png",
+      "sizes": "822x1546",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshots/recipe-mobile-light.png",
+      "type": "image/png",
+      "sizes": "822x1546",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshots/home-desktop-dark.png",
+      "type": "image/png",
+      "sizes": "1100x886",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshots/home-desktop-light.png",
+      "type": "image/png",
+      "sizes": "1100x886",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshots/recipe-desktop-dark.png",
+      "type": "image/png",
+      "sizes": "1100x886",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshots/recipe-desktop-light.png",
+      "type": "image/png",
+      "sizes": "1100x886",
+      "form_factor": "wide"
+    }
+  ]
 }
