@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2023-04-16T16:04:32.126031+00:00</updated>
+  <updated>2023-04-30T19:44:16.083583+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,39 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/easy-honey-mustard-salmon</id>
-    <title>Easy honey mustard salmon</title>
-    <updated>2023-04-16T16:04:32.128426+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Easy honey mustard salmon&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Easy_honey_mustard_salmon.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;This honey mustard salmon recipe features perfectly flaky salmon fillet covered in a quick honey mustard sauce with fresh garlic, smoked paprika, and a pinch of cayenne. Slightly sweet, smokey and all sorts of delicious!  You can bake this salmon in the oven or cook it on your grill.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/easy-honey-mustard-salmon" rel="alternate"/>
-    <published>2023-03-23T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Easy_honey_mustard_salmon.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/steak-and-chips-pie</id>
-    <title>Steak and chips pie</title>
-    <updated>2023-04-16T16:04:32.128253+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Steak and chips pie&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Steak_and_chips_pie.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Steak pie and chips is a classic pub staple, but we’ve given it a makeover by switching out the high-fat pastry for an even better topping: chips! We’ve packed it full of veggies and a savoury gravy so you can bring a taste of slimming-friendly pub grub to your kitchen without even having to leave the house.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/steak-and-chips-pie" rel="alternate"/>
-    <published>2023-03-28T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Steak_and_chips_pie.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/lebanese-rice-with-vermicelli</id>
     <title>Lebanese rice with vermicelli</title>
-    <updated>2023-04-16T16:04:32.128070+00:00</updated>
+    <updated>2023-04-30T19:44:16.084805+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lebanese rice with vermicelli&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Lebanese_rice_with_vermicelli.webp" style="text-align:center;"/&gt;
@@ -59,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/baked-cod-with-lemon-and-garlic</id>
     <title>Baked cod with lemon and garlic</title>
-    <updated>2023-04-16T16:04:32.127868+00:00</updated>
+    <updated>2023-04-30T19:44:16.084654+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Baked cod with lemon and garlic&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Baked_cod_with_lemon_and_garlic.webp" style="text-align:center;"/&gt;
@@ -74,7 +44,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/honey-mustard-chicken-tenders</id>
     <title>Honey-mustard chicken tenders</title>
-    <updated>2023-04-16T16:04:32.127658+00:00</updated>
+    <updated>2023-04-30T19:44:16.084539+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Honey-mustard chicken tenders&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Honey-mustard_chicken_tenders.webp" style="text-align:center;"/&gt;
@@ -89,7 +59,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/four-spice-salmon</id>
     <title>Four-spice salmon</title>
-    <updated>2023-04-16T16:04:32.127341+00:00</updated>
+    <updated>2023-04-30T19:44:16.084410+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Four-spice salmon&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Four-spice_salmon.webp" style="text-align:center;"/&gt;
@@ -99,6 +69,36 @@
     <published>2023-04-12T23:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/Four-spice_salmon.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/godfather-pasta</id>
+    <title>Godfather pasta</title>
+    <updated>2023-04-30T19:44:16.084257+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Godfather pasta&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Godfather_pasta.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;I love films that take you into people’s kitchens and show you how they eat. The scene in The Godfather where Pete Clemenza teaches Michael Corleone how to cook his meatball pasta has always held a grip on my heart, so much so that I recreated his recipe by playing the film over and over whilst I cooked along at the hob. I have to say the result was magnificent. So here it is for you because, as Clemenza says, “You never know, you might have to cook for 20 guys someday”.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/godfather-pasta" rel="alternate"/>
+    <published>2023-04-19T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Godfather_pasta.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/angry-bird</id>
+    <title>Angry bird</title>
+    <updated>2023-04-30T19:44:16.084055+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Angry bird&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Angry_bird.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;Thighs or drumsticks are the best meats for this simple tandoori dish, though this is a great marinade for any meats or fish that you can then roast, grill/broil or barbecue. The yogurt and lemon go a long way in helping to tenderise the meat and almost break down the structure so that the spices can better penetrate. Use mild paprika powder to give a good flavour and colour. In India they use chilli powder, which makes this dish seriously hot.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/angry-bird" rel="alternate"/>
+    <published>2023-04-26T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Angry_bird.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
