@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2023-04-30T19:44:16.083583+00:00</updated>
+  <updated>2023-05-14T16:31:23.329030+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,84 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/lebanese-rice-with-vermicelli</id>
-    <title>Lebanese rice with vermicelli</title>
-    <updated>2023-04-30T19:44:16.084805+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lebanese rice with vermicelli&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Lebanese_rice_with_vermicelli.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Vegan Lebanese rice with vermicelli and pine nuts. A great side dish next to many Mediterranean favorites.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/lebanese-rice-with-vermicelli" rel="alternate"/>
-    <published>2023-04-06T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Lebanese_rice_with_vermicelli.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/baked-cod-with-lemon-and-garlic</id>
-    <title>Baked cod with lemon and garlic</title>
-    <updated>2023-04-30T19:44:16.084654+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Baked cod with lemon and garlic&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Baked_cod_with_lemon_and_garlic.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Best baked cod recipe out there! Prepared Mediterranean style with a few spices and a mixture of lemon juice, olive oil and lots of garlic. Bakes in 15 mins!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/baked-cod-with-lemon-and-garlic" rel="alternate"/>
-    <published>2023-04-06T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Baked_cod_with_lemon_and_garlic.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/honey-mustard-chicken-tenders</id>
-    <title>Honey-mustard chicken tenders</title>
-    <updated>2023-04-30T19:44:16.084539+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Honey-mustard chicken tenders&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Honey-mustard_chicken_tenders.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;The combination of honey and mustard has been around since ancient Egypt and Rome, and midcentury American cooks used it in any number of dishes, from baked chicken to glazed ham. But it wasn't until the 1970s and '80s, when restaurants started pairing the zesty sauce with breaded pieces of boneless chicken, that it became wildly popular. As a coating for chicken, honey mustard not only tastes great, but the acidity in the mustard helps keep the meat juicy. For hot honey mustard chicken tenders, add 1/2 teaspoon cayenne to the honey mustard. For an even quicker dinner, do steps 1 and 2 up to a day ahead. (Refrigerate the chicken and store the toasted panko at room temperature.) Eat the tenders dipped into barbecue sauce, hot sauce, ketchup, or -- you guessed it -- more honey mustard.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/honey-mustard-chicken-tenders" rel="alternate"/>
-    <published>2023-04-12T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Honey-mustard_chicken_tenders.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/four-spice-salmon</id>
-    <title>Four-spice salmon</title>
-    <updated>2023-04-30T19:44:16.084410+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Four-spice salmon&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Four-spice_salmon.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Fish fillets can be a weeknight cook's savior. They are healthful and easy to prepare, require little time to cook and take well to all manner of spices. In this straightforward recipe, adapted from the New York chef Katy Sparks, you start with salmon fillets, liberally rub them on one side with a mixture of ground coriander, cloves, cumin and nutmeg, and then brown them in a very hot pan so the spices form a crust. Flip once, and that's it. For the best results, use fillets of equal sizes, cook them to medium rare, and use freshly ground spices. If you have only pre-ground, be sure they haven't gone stale sitting in your cabinet too long. (Yes, spices can go stale.)&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/four-spice-salmon" rel="alternate"/>
-    <published>2023-04-12T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Four-spice_salmon.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/godfather-pasta</id>
-    <title>Godfather pasta</title>
-    <updated>2023-04-30T19:44:16.084257+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Godfather pasta&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Godfather_pasta.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;I love films that take you into people’s kitchens and show you how they eat. The scene in The Godfather where Pete Clemenza teaches Michael Corleone how to cook his meatball pasta has always held a grip on my heart, so much so that I recreated his recipe by playing the film over and over whilst I cooked along at the hob. I have to say the result was magnificent. So here it is for you because, as Clemenza says, “You never know, you might have to cook for 20 guys someday”.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/godfather-pasta" rel="alternate"/>
-    <published>2023-04-19T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Godfather_pasta.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/angry-bird</id>
     <title>Angry bird</title>
-    <updated>2023-04-30T19:44:16.084055+00:00</updated>
+    <updated>2023-05-14T16:31:23.331968+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Angry bird&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Angry_bird.webp" style="text-align:center;"/&gt;
@@ -99,6 +24,81 @@
     <published>2023-04-26T23:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/Angry_bird.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/chacarero-chileno-chilean-steak-and-bean-sandwiches</id>
+    <title>Chacarero chileno (chilean steak and bean sandwiches)</title>
+    <updated>2023-05-14T16:31:23.331775+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chacarero chileno (chilean steak and bean sandwiches)&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Chacarero_chileno_chilean_steak_and_bean_sandwiches.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;On paper, the chacarero chileno sandwich seems...weird. Grilled beef, sliced tomato, and cooked green beans. But when done properly, it works. Prove it to yourself by trying this recipe.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/chacarero-chileno-chilean-steak-and-bean-sandwiches" rel="alternate"/>
+    <published>2023-04-30T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Chacarero_chileno_chilean_steak_and_bean_sandwiches.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/oozy-tuna-and-apple-pasta-bake</id>
+    <title>Oozy tuna and apple pasta bake</title>
+    <updated>2023-05-14T16:31:23.331571+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Oozy tuna and apple pasta bake&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Oozy_tuna_and_apple_pasta_bake.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;I love dishes that wake up those ingredients hibernating at the back of your storecupboard. This recipe breathes new life into canned tuna, canned tomatoes and dry pasta, making it is a great option when the fridge is bare. The apple is the real game changer here and it adds an interesting twist and a lovely bite to this superb traybake.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/oozy-tuna-and-apple-pasta-bake" rel="alternate"/>
+    <published>2023-05-03T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Oozy_tuna_and_apple_pasta_bake.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/turkish-flatbread</id>
+    <title>Turkish flatbread</title>
+    <updated>2023-05-14T16:31:23.331348+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Turkish flatbread&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Turkish_flatbread.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/turkish-flatbread" rel="alternate"/>
+    <published>2023-05-09T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Turkish_flatbread.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/lazy-potato-curry</id>
+    <title>Lazy potato curry</title>
+    <updated>2023-05-14T16:31:23.331113+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lazy potato curry&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Lazy_potato_curry.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;Aloo dom was one of my mother’s staple curries, made with the crop of new potatoes and tinned tomatoes. I have always felt at odds with the dish. It was the curry she made when she had nothing much in and a general lack of enthusiasm. It was one of the few bones of contention between us! This recipe is a little different to my mother’s version. It’s a simple dish, but sometimes an uncomplicated, everyday, filling curry is just what’s needed, especially when the cupboards are a bit bare. It is easily doubled to serve more.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/lazy-potato-curry" rel="alternate"/>
+    <published>2023-05-09T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Lazy_potato_curry.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/mango-and-coriander-salmon</id>
+    <title>Mango and coriander salmon</title>
+    <updated>2023-05-14T16:31:23.330482+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Mango and coriander salmon&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Mango_and_coriander_salmon.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;I love this dish. The fact that it’s super simple and that the magic at the heart of it comes from opening a tin of mango slices makes me even more proud of how achievable and truly delicious it is. It also works brilliantly with tinned gooseberries or rhubarb in lieu of the mango, if you prefer tart to sweet.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/mango-and-coriander-salmon" rel="alternate"/>
+    <published>2023-05-10T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Mango_and_coriander_salmon.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
