@@ -29,7 +29,7 @@ Styles an Atom feed, making it friendly for humans viewers
           }
           body {
             font-family: sans-serif;
-            background-color: var(--bg-s);
+            background-color: var(--bg);
             margin: 0 auto;
             padding: 0;
             line-height: 1.5;
@@ -57,7 +57,7 @@ Styles an Atom feed, making it friendly for humans viewers
             color: var(--fg);
           }
           .container {
-            background-color: var(--bg);
+            background-color: var(--bg-s);
             color: var(--fg);
             padding: 1em; 
           }
@@ -105,7 +105,7 @@ Styles an Atom feed, making it friendly for humans viewers
             background-position: 50%;
             background-blend-mode: multiply;
             border-radius: var(--photo-radius);
-            box-shadow: var(--shadow);
+            box-shadow: var(--big-shadow);
             box-sizing: border-box;
           }
           .recipe-label {
