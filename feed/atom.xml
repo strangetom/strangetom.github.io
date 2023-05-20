@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2023-05-14T16:31:23.329030+00:00</updated>
+  <updated>2023-05-20T19:58:19.509562+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,39 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/angry-bird</id>
-    <title>Angry bird</title>
-    <updated>2023-05-14T16:31:23.331968+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Angry bird&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Angry_bird.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Thighs or drumsticks are the best meats for this simple tandoori dish, though this is a great marinade for any meats or fish that you can then roast, grill/broil or barbecue. The yogurt and lemon go a long way in helping to tenderise the meat and almost break down the structure so that the spices can better penetrate. Use mild paprika powder to give a good flavour and colour. In India they use chilli powder, which makes this dish seriously hot.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/angry-bird" rel="alternate"/>
-    <published>2023-04-26T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Angry_bird.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/chacarero-chileno-chilean-steak-and-bean-sandwiches</id>
-    <title>Chacarero chileno (chilean steak and bean sandwiches)</title>
-    <updated>2023-05-14T16:31:23.331775+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chacarero chileno (chilean steak and bean sandwiches)&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Chacarero_chileno_chilean_steak_and_bean_sandwiches.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;On paper, the chacarero chileno sandwich seems...weird. Grilled beef, sliced tomato, and cooked green beans. But when done properly, it works. Prove it to yourself by trying this recipe.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/chacarero-chileno-chilean-steak-and-bean-sandwiches" rel="alternate"/>
-    <published>2023-04-30T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Chacarero_chileno_chilean_steak_and_bean_sandwiches.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/oozy-tuna-and-apple-pasta-bake</id>
     <title>Oozy tuna and apple pasta bake</title>
-    <updated>2023-05-14T16:31:23.331571+00:00</updated>
+    <updated>2023-05-20T19:58:19.510726+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Oozy tuna and apple pasta bake&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Oozy_tuna_and_apple_pasta_bake.webp" style="text-align:center;"/&gt;
@@ -59,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/turkish-flatbread</id>
     <title>Turkish flatbread</title>
-    <updated>2023-05-14T16:31:23.331348+00:00</updated>
+    <updated>2023-05-20T19:58:19.510615+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Turkish flatbread&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Turkish_flatbread.webp" style="text-align:center;"/&gt;
@@ -74,7 +44,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/lazy-potato-curry</id>
     <title>Lazy potato curry</title>
-    <updated>2023-05-14T16:31:23.331113+00:00</updated>
+    <updated>2023-05-20T19:58:19.510499+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lazy potato curry&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Lazy_potato_curry.webp" style="text-align:center;"/&gt;
@@ -89,7 +59,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/mango-and-coriander-salmon</id>
     <title>Mango and coriander salmon</title>
-    <updated>2023-05-14T16:31:23.330482+00:00</updated>
+    <updated>2023-05-20T19:58:19.510371+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Mango and coriander salmon&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Mango_and_coriander_salmon.webp" style="text-align:center;"/&gt;
@@ -99,6 +69,36 @@
     <published>2023-05-10T23:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/Mango_and_coriander_salmon.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/boston-baked-beans</id>
+    <title>Boston baked beans</title>
+    <updated>2023-05-20T19:58:19.510245+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Boston baked beans&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Boston_baked_beans.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;My mum used to eat cold baked beans straight from a can when she was pregnant with me; I guess this explains where my appreciation of this classic comes from! The recipe is super simple, you just need to let the oven do its work. Be patient though as the beans can take a good 3 hours to become beautifully creamy. And don’t forget to soak your beans overnight before starting to cook!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/boston-baked-beans" rel="alternate"/>
+    <published>2023-05-17T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Boston_baked_beans.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/blueberry-muffin-crumb-cake</id>
+    <title>Blueberry muffin crumb cake</title>
+    <updated>2023-05-20T19:58:19.510050+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Blueberry muffin crumb cake&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Blueberry_muffin_crumb_cake.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;This Blueberry Muffin Crumb Cake is moist, tender and soft with juicy blueberries and a mountain of brown sugary crumbs! You'll flip for this decadent brunchtime treat!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/blueberry-muffin-crumb-cake" rel="alternate"/>
+    <published>2023-05-17T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Blueberry_muffin_crumb_cake.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>

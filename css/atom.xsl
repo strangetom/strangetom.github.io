@@ -143,7 +143,7 @@ Styles an Atom feed, making it friendly for humans viewers
         </header>
         <div class="container">
           <h1>
-            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 16 16">
               <path d="M2 0a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V2a2 2 0 00-2-2H2zm1.5 2.5c5.523 0 10 4.477 10 10a1 1 0 11-2 0 8 8 0 00-8-8 1 1 0 010-2zm0 4a6 6 0 016 6 1 1 0 11-2 0 4 4 0 00-4-4 1 1 0 010-2zm.5 7a1.5 1.5 0 110-3 1.5 1.5 0 010 3z" fill="var(--orange-alt)"/>
             </svg>
             Atom Feed
@@ -168,8 +168,8 @@ Styles an Atom feed, making it friendly for humans viewers
         <xsl:attribute name="style">--bg-img: url('<xsl:value-of select="media:group/media:thumbnail/@url"/>');</xsl:attribute>
         <xsl:value-of select="atom:title"/>
         <span class="recipe-label">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" class="recipe-label-icon">
-            <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="recipe-label-icon" viewBox="0 0 16 16">
+            <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zM9.5 7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm3 0h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zM2 10.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5z"/>
           </svg>
           <xsl:value-of select="substring(atom:published, 0, 11)"/>
         </span>
