@@ -118,6 +118,8 @@ Styles an Atom feed, making it friendly for humans viewers
             color: var(--fg);
             background-color: var(--bg);
             border-radius: var(--button-radius);
+            border: 1px solid var(--bg-2);
+            box-shadow: var(--small-shadow);
             position: absolute;
             left: 5px;
             bottom: 0;

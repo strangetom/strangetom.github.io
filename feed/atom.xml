@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2023-05-20T19:58:19.509562+00:00</updated>
+  <updated>2023-06-09T19:04:30.162517+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,54 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/oozy-tuna-and-apple-pasta-bake</id>
-    <title>Oozy tuna and apple pasta bake</title>
-    <updated>2023-05-20T19:58:19.510726+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Oozy tuna and apple pasta bake&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Oozy_tuna_and_apple_pasta_bake.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;I love dishes that wake up those ingredients hibernating at the back of your storecupboard. This recipe breathes new life into canned tuna, canned tomatoes and dry pasta, making it is a great option when the fridge is bare. The apple is the real game changer here and it adds an interesting twist and a lovely bite to this superb traybake.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/oozy-tuna-and-apple-pasta-bake" rel="alternate"/>
-    <published>2023-05-03T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Oozy_tuna_and_apple_pasta_bake.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/turkish-flatbread</id>
-    <title>Turkish flatbread</title>
-    <updated>2023-05-20T19:58:19.510615+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Turkish flatbread&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Turkish_flatbread.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/turkish-flatbread" rel="alternate"/>
-    <published>2023-05-09T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Turkish_flatbread.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/lazy-potato-curry</id>
-    <title>Lazy potato curry</title>
-    <updated>2023-05-20T19:58:19.510499+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lazy potato curry&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Lazy_potato_curry.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Aloo dom was one of my mother’s staple curries, made with the crop of new potatoes and tinned tomatoes. I have always felt at odds with the dish. It was the curry she made when she had nothing much in and a general lack of enthusiasm. It was one of the few bones of contention between us! This recipe is a little different to my mother’s version. It’s a simple dish, but sometimes an uncomplicated, everyday, filling curry is just what’s needed, especially when the cupboards are a bit bare. It is easily doubled to serve more.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/lazy-potato-curry" rel="alternate"/>
-    <published>2023-05-09T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Lazy_potato_curry.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/mango-and-coriander-salmon</id>
     <title>Mango and coriander salmon</title>
-    <updated>2023-05-20T19:58:19.510371+00:00</updated>
+    <updated>2023-06-09T19:04:30.163718+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Mango and coriander salmon&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Mango_and_coriander_salmon.webp" style="text-align:center;"/&gt;
@@ -74,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/boston-baked-beans</id>
     <title>Boston baked beans</title>
-    <updated>2023-05-20T19:58:19.510245+00:00</updated>
+    <updated>2023-06-09T19:04:30.163608+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Boston baked beans&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Boston_baked_beans.webp" style="text-align:center;"/&gt;
@@ -89,7 +44,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/blueberry-muffin-crumb-cake</id>
     <title>Blueberry muffin crumb cake</title>
-    <updated>2023-05-20T19:58:19.510050+00:00</updated>
+    <updated>2023-06-09T19:04:30.163493+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Blueberry muffin crumb cake&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Blueberry_muffin_crumb_cake.webp" style="text-align:center;"/&gt;
@@ -99,6 +54,51 @@
     <published>2023-05-17T23:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/Blueberry_muffin_crumb_cake.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/creamy-tomato-orzo</id>
+    <title>Creamy tomato orzo</title>
+    <updated>2023-06-09T19:04:30.163368+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Creamy tomato orzo&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Creamy_tomato_orzo.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;This simple and speedy recipe for creamy orzo uses fresh cherry tomatoes to create a flavorful base, and is topped off with crunchy roasted pine nuts, making it the perfect meal for busy days.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/creamy-tomato-orzo" rel="alternate"/>
+    <published>2023-05-20T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Creamy_tomato_orzo.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/harissa-baked-cod-with-giant-couscous-black-chickpeas-carrots-coriander-and-lemon</id>
+    <title>Harissa baked cod with giant couscous, black chickpeas, carrots, coriander &amp; lemon</title>
+    <updated>2023-06-09T19:04:30.163238+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Harissa baked cod with giant couscous, black chickpeas, carrots, coriander &amp; lemon&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Harissa_baked_cod_with_giant_couscous_black_chickpeas_carrots_coriander_and_lemon.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;One of my favourite ways to cook carrots is to simply sweat them in a pot, with the lid on, in extra virgin olive oil, cracked coriander seeds and a sprinkling of salt. Once they’re very soft, I mix through a generous amount of fresh coriander (cilantro) and nothing more. And therein lies the inspiration for this recipe!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/harissa-baked-cod-with-giant-couscous-black-chickpeas-carrots-coriander-and-lemon" rel="alternate"/>
+    <published>2023-05-24T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Harissa_baked_cod_with_giant_couscous_black_chickpeas_carrots_coriander_and_lemon.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/sausage-lentil-and-fennel-stew-with-creme-fraiche-and-dijon-mustard</id>
+    <title>Sausage, lentil &amp; fennel stew with creme fraiche &amp; dijon mustard</title>
+    <updated>2023-06-09T19:04:30.163023+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sausage, lentil &amp; fennel stew with creme fraiche &amp; dijon mustard&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Sausage_lentil_and_fennel_stew_with_creme_fraiche_and_dijon_mustard.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;There are few things more comforting than a bowl of lentils and sausages. Cooking the stew for the most part in the oven means you get lovely caramelized sausages as well as the occasional carrot or lentil tinged golden brown and crunchy from the all-round fierce heat of the oven. If you’re counting the calories, you can use low-fat crème fraîche (or none at all), but I love how, when mixed with the mustard, it adds a silky indulgence with a bit of oomph to the dish!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/sausage-lentil-and-fennel-stew-with-creme-fraiche-and-dijon-mustard" rel="alternate"/>
+    <published>2023-05-31T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Sausage_lentil_and_fennel_stew_with_creme_fraiche_and_dijon_mustard.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
