@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2023-06-09T19:04:30.162517+00:00</updated>
+  <updated>2023-06-25T17:11:54.930136+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,84 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/mango-and-coriander-salmon</id>
-    <title>Mango and coriander salmon</title>
-    <updated>2023-06-09T19:04:30.163718+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Mango and coriander salmon&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Mango_and_coriander_salmon.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;I love this dish. The fact that it’s super simple and that the magic at the heart of it comes from opening a tin of mango slices makes me even more proud of how achievable and truly delicious it is. It also works brilliantly with tinned gooseberries or rhubarb in lieu of the mango, if you prefer tart to sweet.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/mango-and-coriander-salmon" rel="alternate"/>
-    <published>2023-05-10T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Mango_and_coriander_salmon.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/boston-baked-beans</id>
-    <title>Boston baked beans</title>
-    <updated>2023-06-09T19:04:30.163608+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Boston baked beans&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Boston_baked_beans.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;My mum used to eat cold baked beans straight from a can when she was pregnant with me; I guess this explains where my appreciation of this classic comes from! The recipe is super simple, you just need to let the oven do its work. Be patient though as the beans can take a good 3 hours to become beautifully creamy. And don’t forget to soak your beans overnight before starting to cook!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/boston-baked-beans" rel="alternate"/>
-    <published>2023-05-17T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Boston_baked_beans.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/blueberry-muffin-crumb-cake</id>
-    <title>Blueberry muffin crumb cake</title>
-    <updated>2023-06-09T19:04:30.163493+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Blueberry muffin crumb cake&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Blueberry_muffin_crumb_cake.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;This Blueberry Muffin Crumb Cake is moist, tender and soft with juicy blueberries and a mountain of brown sugary crumbs! You'll flip for this decadent brunchtime treat!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/blueberry-muffin-crumb-cake" rel="alternate"/>
-    <published>2023-05-17T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Blueberry_muffin_crumb_cake.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/creamy-tomato-orzo</id>
-    <title>Creamy tomato orzo</title>
-    <updated>2023-06-09T19:04:30.163368+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Creamy tomato orzo&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Creamy_tomato_orzo.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;This simple and speedy recipe for creamy orzo uses fresh cherry tomatoes to create a flavorful base, and is topped off with crunchy roasted pine nuts, making it the perfect meal for busy days.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/creamy-tomato-orzo" rel="alternate"/>
-    <published>2023-05-20T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Creamy_tomato_orzo.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/harissa-baked-cod-with-giant-couscous-black-chickpeas-carrots-coriander-and-lemon</id>
-    <title>Harissa baked cod with giant couscous, black chickpeas, carrots, coriander &amp; lemon</title>
-    <updated>2023-06-09T19:04:30.163238+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Harissa baked cod with giant couscous, black chickpeas, carrots, coriander &amp; lemon&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Harissa_baked_cod_with_giant_couscous_black_chickpeas_carrots_coriander_and_lemon.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;One of my favourite ways to cook carrots is to simply sweat them in a pot, with the lid on, in extra virgin olive oil, cracked coriander seeds and a sprinkling of salt. Once they’re very soft, I mix through a generous amount of fresh coriander (cilantro) and nothing more. And therein lies the inspiration for this recipe!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/harissa-baked-cod-with-giant-couscous-black-chickpeas-carrots-coriander-and-lemon" rel="alternate"/>
-    <published>2023-05-24T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Harissa_baked_cod_with_giant_couscous_black_chickpeas_carrots_coriander_and_lemon.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/sausage-lentil-and-fennel-stew-with-creme-fraiche-and-dijon-mustard</id>
     <title>Sausage, lentil &amp; fennel stew with creme fraiche &amp; dijon mustard</title>
-    <updated>2023-06-09T19:04:30.163023+00:00</updated>
+    <updated>2023-06-25T17:11:54.931319+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sausage, lentil &amp; fennel stew with creme fraiche &amp; dijon mustard&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Sausage_lentil_and_fennel_stew_with_creme_fraiche_and_dijon_mustard.webp" style="text-align:center;"/&gt;
@@ -99,6 +24,82 @@
     <published>2023-05-31T23:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/Sausage_lentil_and_fennel_stew_with_creme_fraiche_and_dijon_mustard.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/honey-mustard-bacon-steaks-with-sweetcorn-crush</id>
+    <title>Honey-mustard bacon steaks with sweetcorn crush</title>
+    <updated>2023-06-25T17:11:54.931207+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Honey-mustard bacon steaks with sweetcorn crush&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Honey-mustard_bacon_steaks_with_sweetcorn_crush.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;A simple honey and mustard glaze is one of the simplest pan sauces you can make - try it with chicken or salmon, too&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/honey-mustard-bacon-steaks-with-sweetcorn-crush" rel="alternate"/>
+    <published>2023-06-03T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Honey-mustard_bacon_steaks_with_sweetcorn_crush.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/chicken-tikka-naanwhich</id>
+    <title>Chicken tikka naanwhich</title>
+    <updated>2023-06-25T17:11:54.931086+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chicken tikka naanwhich&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Chicken_tikka_naanwhich.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;Why make a sandwich when you can have a Naanwich?
+If you are bored of the same old lunches, this is guaranteed to spice up your midday meal! Our Naan Breads freeze really well, so stock your freezer for days just like today. The slimming-friendly raita in the Naanwich filling is not to be missed – it’s so light and refreshing.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/chicken-tikka-naanwhich" rel="alternate"/>
+    <published>2023-06-06T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Chicken_tikka_naanwhich.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/salmon-and-spinach-kouliabac</id>
+    <title>Salmon &amp; spinach kouliabac</title>
+    <updated>2023-06-25T17:11:54.930957+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Salmon &amp; spinach kouliabac&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Salmon_and_spinach_kouliabac.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;This is a form of wellington, made almost entirely from frozen and store-cupboard ingredients, and is no less impressive for that. You will need thick strips of salmon fillet (rather than any flatter fillets from the tail end of the fish), if you want to shape the lovely ridges across the top of the kouliabac.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/salmon-and-spinach-kouliabac" rel="alternate"/>
+    <published>2023-06-14T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Salmon_and_spinach_kouliabac.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/braised-indian-chickpea-stew</id>
+    <title>Braised indian chickpea stew</title>
+    <updated>2023-06-25T17:11:54.930830+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Braised indian chickpea stew&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Braised_indian_chickpea_stew.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;This Indian-inspired chickpea stew features lots of warming spices, chickpeas, cabbage, and carrots. Everything gets braised in the oven and the result is a rich and hearty yet wholesome stew that will satisfy the heartiest of appetites.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/braised-indian-chickpea-stew" rel="alternate"/>
+    <published>2023-06-14T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Braised_indian_chickpea_stew.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/malaysian-red-curry-noodles</id>
+    <title>Malaysian red curry noodles</title>
+    <updated>2023-06-25T17:11:54.930624+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Malaysian red curry noodles&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Malaysian_red_curry_noodles.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;This Malaysian red curry noodle recipe is a perfect quick vegetarian dinner recipe.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/malaysian-red-curry-noodles" rel="alternate"/>
+    <published>2023-06-19T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Malaysian_red_curry_noodles.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
