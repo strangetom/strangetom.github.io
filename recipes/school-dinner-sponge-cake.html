@@ -167,16 +167,66 @@
             <hr/>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Preheat your oven to <b>160</b>&deg;C fan. Prepare a rectangular baking tin - mine is approx <b>32</b> cm x <b>21.5</b> cm. I grease the tin and then use baking paper - the baking paper should go over the edges so you can lift out the cake once it's cooled.</li>
-                <li itemprop="recipeInstructions">In a large mixing bowl, cream together your <span data-default="350" data-defaultunit="g" data-quantity="350" data-unit="g" class="tooltip scalable">caster sugar</span> and your dairy free <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">spread</span> (or butter). Cream until lighter and fluffy. I use an electric hand whisk.</li>
-                <li itemprop="recipeInstructions">Gradually add your <span data-default="6" data-defaultunit="" data-quantity="6" data-unit="" class="tooltip scalable">eggs</span> and <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">vanilla extract</span> and whisk until combined.</li>
-                <li itemprop="recipeInstructions">Fold in the gluten free <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">self raising flour</span> and <span data-default="0.25" data-defaultunit="tsp" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">xanthan gum</span> to the mixture (this is a big mixture so make sure you carefully fold all the flour in properly)</li>
-                <li itemprop="recipeInstructions">Spoon/pour your mixture evenly into the baking tin. Place in the oven for about <button class="toast-btn" data-time="3600" data-label="" title="Start timer"><svg width="16" height="16" class="toast-btn-icon" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></button><b>60</b> minutes until fully cooked and golden.</li>
-                <li itemprop="recipeInstructions">Leave to cool in the tin and then lift out, using the baking paper and place on a cooling rack.</li>
-                <li itemprop="recipeInstructions">Whilst the cake is cooling you can make your icing. Sieve your <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">icing sugar</span> into a large mixing bowl. Add your <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">vanilla extract</span> and very gradually add a tbsp of water at a time and mix in until it becomes the right consistency. It should be quite thick and glossy, don't let it go too runny. If you do sieve in a little more <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">icing sugar</span>.</li>
-                <li itemprop="recipeInstructions">Once you are happy with the consistency of your icing spoon it over your sponge. Allow it to evenly cover the top and go all the way to the edges.</li>
-                <li itemprop="recipeInstructions">Sprinkle your coloured strands all over the top of the icing - as many as you like. I use a lot!! Now allow your icing to completely set before you cut into slices. I leave mine about <b>30</b> - <button class="toast-btn" data-time="3600" data-label="" title="Start timer"><svg width="16" height="16" class="toast-btn-icon" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></button><b>60</b> minutes.</li>
-                <li itemprop="recipeInstructions">Cut a thin strip off each side, then cut the sponge into squares.</li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-1" />
+                    <label for="instruction-1">
+                        Preheat your oven to <b>160</b>&deg;C fan. Prepare a rectangular baking tin - mine is approx <b>32</b> cm x <b>21.5</b> cm. I grease the tin and then use baking paper - the baking paper should go over the edges so you can lift out the cake once it's cooled.
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-2" />
+                    <label for="instruction-2">
+                        In a large mixing bowl, cream together your <span data-default="350" data-defaultunit="g" data-quantity="350" data-unit="g" class="tooltip scalable">caster sugar</span> and your dairy free <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">spread</span> (or butter). Cream until lighter and fluffy. I use an electric hand whisk.
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-3" />
+                    <label for="instruction-3">
+                        Gradually add your <span data-default="6" data-defaultunit="" data-quantity="6" data-unit="" class="tooltip scalable">eggs</span> and <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">vanilla extract</span> and whisk until combined.
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-4" />
+                    <label for="instruction-4">
+                        Fold in the gluten free <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">self raising flour</span> and <span data-default="0.25" data-defaultunit="tsp" data-quantity="&frac14;" data-unit="tsp" class="tooltip scalable">xanthan gum</span> to the mixture (this is a big mixture so make sure you carefully fold all the flour in properly)
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-5" />
+                    <label for="instruction-5">
+                        Spoon/pour your mixture evenly into the baking tin. Place in the oven for about <button class="toast-btn" data-time="3600" data-label="" title="Start timer"><svg width="16" height="16" class="toast-btn-icon" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></button><b>60</b> minutes until fully cooked and golden.
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-6" />
+                    <label for="instruction-6">
+                        Leave to cool in the tin and then lift out, using the baking paper and place on a cooling rack.
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-7" />
+                    <label for="instruction-7">
+                        Whilst the cake is cooling you can make your icing. Sieve your <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">icing sugar</span> into a large mixing bowl. Add your <span data-default="2" data-defaultunit="tsp" data-quantity="2" data-unit="tsp" class="tooltip scalable">vanilla extract</span> and very gradually add a tbsp of water at a time and mix in until it becomes the right consistency. It should be quite thick and glossy, don't let it go too runny. If you do sieve in a little more <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">icing sugar</span>.
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-8" />
+                    <label for="instruction-8">
+                        Once you are happy with the consistency of your icing spoon it over your sponge. Allow it to evenly cover the top and go all the way to the edges.
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-9" />
+                    <label for="instruction-9">
+                        Sprinkle your coloured strands all over the top of the icing - as many as you like. I use a lot!! Now allow your icing to completely set before you cut into slices. I leave mine about <b>30</b> - <button class="toast-btn" data-time="3600" data-label="" title="Start timer"><svg width="16" height="16" class="toast-btn-icon" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></button><b>60</b> minutes.
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-10" />
+                    <label for="instruction-10">
+                        Cut a thin strip off each side, then cut the sponge into squares.
+                    </label>
+                </li>
                 </ol>
 
             <hr/>

@@ -137,19 +137,59 @@
             <hr/>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Preheat the oven to <b>180</b>&deg;C/gas <b>6</b>.</li>
-                <li itemprop="recipeInstructions">Cut the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">lime</span> into thin slices and place them on a baking sheet. Lay the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">salmon</span> fillet on top of the slices.</li>
-                <li itemprop="recipeInstructions">Add a peeled, chopped, thumb-sized piece of ginger, a chopped chilli and a handful of chopped coriander stalks to the sheet. Add a small glass of water, and the same amount of soy sauce.</li>
-                <li itemprop="recipeInstructions">Cover the sheet tightly in foil (you don't want any of the steam to escape).</li>
-                <li itemprop="recipeInstructions">Bake in the oven for <button class="toast-btn" data-time="720" data-label="" title="Start timer"><svg width="16" height="16" class="toast-btn-icon" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></button><b>12</b> minutes</li>
-                <li itemprop="recipeInstructions">While the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">salmon</span> is in the oven, put the wild <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">rice</span> (in the ratio of <b>1</b> part <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">rice</span> to <b>2</b> parts boiling water) into a pan and boil until the water has been absorbed.</li>
-                <li itemprop="recipeInstructions">Take the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">salmon</span> out of the oven. Remove the foil and scatter over some coriander leaves and an extra sliced chilli, if you want some extra kick.</li>
-                <li itemprop="recipeInstructions">Serve the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">salmon</span> on top of the <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">rice</span> with all the juices poured on top.</li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-1" />
+                    <label for="instruction-1">
+                        Preheat the oven to <b>180</b>&deg;C/gas <b>6</b>.
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-2" />
+                    <label for="instruction-2">
+                        Cut the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">lime</span> into thin slices and place them on a baking sheet. Lay the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">salmon</span> fillet on top of the slices.
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-3" />
+                    <label for="instruction-3">
+                        Add a peeled, chopped, thumb-sized piece of ginger, a chopped chilli and a handful of chopped coriander stalks to the sheet. Add a small glass of water, and the same amount of soy sauce.
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-4" />
+                    <label for="instruction-4">
+                        Cover the sheet tightly in foil (you don't want any of the steam to escape).
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-5" />
+                    <label for="instruction-5">
+                        Bake in the oven for <button class="toast-btn" data-time="720" data-label="" title="Start timer"><svg width="16" height="16" class="toast-btn-icon" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></button><b>12</b> minutes
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-6" />
+                    <label for="instruction-6">
+                        While the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">salmon</span> is in the oven, put the wild <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">rice</span> (in the ratio of <b>1</b> part <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">rice</span> to <b>2</b> parts boiling water) into a pan and boil until the water has been absorbed.
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-7" />
+                    <label for="instruction-7">
+                        Take the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">salmon</span> out of the oven. Remove the foil and scatter over some coriander leaves and an extra sliced chilli, if you want some extra kick.
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-8" />
+                    <label for="instruction-8">
+                        Serve the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">salmon</span> on top of the <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">rice</span> with all the juices poured on top.
+                    </label>
+                </li>
                 </ol>
 
             <hr/>
             <a class="link" href="https://www.goodreads.com/search/search?search_type=books&search[query]=9781911624011" target="_blank">
-                <img src="/covers/mob-kitchen.webp" class="book-cover">
+                <img src="/covers/mob-kitchen.webp" class="book-cover" alt="Image of Mob Kitchen book cover.">
                 <h3>Mob Kitchen</h3>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="link-icon"><path fill-rule="evenodd" d="M16 .5a.5.5 0 00-.5-.5h-5a.5.5 0 000 1h3.793L6.146 9.146a.5.5 0 10.708.708L15 1.707V5.5a.5.5 0 001 0v-5z" fill=currentColor/></svg>
             </a>

@@ -142,20 +142,90 @@
             <hr/>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Line (<b>7</b>"x<b>11</b>") tray  </li>
-                <li itemprop="recipeInstructions">Mix <b>3&frac12;</b> oz <span data-default="8" data-defaultunit="oz" data-quantity="8" data-unit="oz" class="tooltip scalable">butter</span> and <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">caster sugar</span> until light and fluffy  </li>
-                <li itemprop="recipeInstructions">Add <span data-default="5.5" data-defaultunit="oz" data-quantity="5&frac12;" data-unit="oz" class="tooltip scalable">flour</span>, make soft dough: turn onto board, draw together, knead lightly  </li>
-                <li itemprop="recipeInstructions">Press into tin, prick with fork  </li>
-                <li itemprop="recipeInstructions">Bake at <b>180</b>&deg;C until light brown (~<button class="toast-btn" data-time="900" data-label="" title="Start timer"><svg width="16" height="16" class="toast-btn-icon" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></button><b>15</b> minutes)  </li>
-                <li itemprop="recipeInstructions">Mark out piece sizes with knife and allow to cool  </li>
-                <li itemprop="recipeInstructions">Melt remaining <span data-default="8" data-defaultunit="oz" data-quantity="8" data-unit="oz" class="tooltip scalable">butter</span> (<b>4&frac12;</b> oz) and <span data-default="3" data-defaultunit="oz" data-quantity="3" data-unit="oz" class="tooltip scalable">brown sugar</span> over low heat  </li>
-                <li itemprop="recipeInstructions">Add <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">honey</span> and <span data-default="1" data-defaultunit="tin" data-quantity="1" data-unit="tin" class="tooltip scalable">condensed milk</span>  </li>
-                <li itemprop="recipeInstructions">Stir until mixture thickens (~<button class="toast-btn" data-time="1200" data-label="" title="Start timer"><svg width="16" height="16" class="toast-btn-icon" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></button><b>20-30</b> minutes)  </li>
-                <li itemprop="recipeInstructions">Cool slightly and poor over shortbread  </li>
-                <li itemprop="recipeInstructions">Place in fridge to set  </li>
-                <li itemprop="recipeInstructions">Melt <span data-default="8" data-defaultunit="oz" data-quantity="8" data-unit="oz" class="tooltip scalable">chocolate</span> and poor over caramel.  </li>
-                <li itemprop="recipeInstructions">Return to fridge until set  </li>
-                <li itemprop="recipeInstructions">Use knife dipped in hot water to mark out pieces then cut.</li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-1" />
+                    <label for="instruction-1">
+                        Line (<b>7</b>"x<b>11</b>") tray  
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-2" />
+                    <label for="instruction-2">
+                        Mix <b>3&frac12;</b> oz <span data-default="8" data-defaultunit="oz" data-quantity="8" data-unit="oz" class="tooltip scalable">butter</span> and <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">caster sugar</span> until light and fluffy  
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-3" />
+                    <label for="instruction-3">
+                        Add <span data-default="5.5" data-defaultunit="oz" data-quantity="5&frac12;" data-unit="oz" class="tooltip scalable">flour</span>, make soft dough: turn onto board, draw together, knead lightly  
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-4" />
+                    <label for="instruction-4">
+                        Press into tin, prick with fork  
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-5" />
+                    <label for="instruction-5">
+                        Bake at <b>180</b>&deg;C until light brown (~<button class="toast-btn" data-time="900" data-label="" title="Start timer"><svg width="16" height="16" class="toast-btn-icon" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></button><b>15</b> minutes)  
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-6" />
+                    <label for="instruction-6">
+                        Mark out piece sizes with knife and allow to cool  
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-7" />
+                    <label for="instruction-7">
+                        Melt remaining <span data-default="8" data-defaultunit="oz" data-quantity="8" data-unit="oz" class="tooltip scalable">butter</span> (<b>4&frac12;</b> oz) and <span data-default="3" data-defaultunit="oz" data-quantity="3" data-unit="oz" class="tooltip scalable">brown sugar</span> over low heat  
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-8" />
+                    <label for="instruction-8">
+                        Add <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">honey</span> and <span data-default="1" data-defaultunit="tin" data-quantity="1" data-unit="tin" class="tooltip scalable">condensed milk</span>  
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-9" />
+                    <label for="instruction-9">
+                        Stir until mixture thickens (~<button class="toast-btn" data-time="1200" data-label="" title="Start timer"><svg width="16" height="16" class="toast-btn-icon" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></button><b>20-30</b> minutes)  
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-10" />
+                    <label for="instruction-10">
+                        Cool slightly and poor over shortbread  
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-11" />
+                    <label for="instruction-11">
+                        Place in fridge to set  
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-12" />
+                    <label for="instruction-12">
+                        Melt <span data-default="8" data-defaultunit="oz" data-quantity="8" data-unit="oz" class="tooltip scalable">chocolate</span> and poor over caramel.  
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-13" />
+                    <label for="instruction-13">
+                        Return to fridge until set  
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-14" />
+                    <label for="instruction-14">
+                        Use knife dipped in hot water to mark out pieces then cut.
+                    </label>
+                </li>
                 </ol>
 
             <hr/>

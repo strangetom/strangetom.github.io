@@ -141,18 +141,53 @@
             <hr/>
             <h2>Instructions</h2>
             <ol>
-                <li itemprop="recipeInstructions">Soak the <span data-default="20" data-defaultunit="g" data-quantity="20" data-unit="g" class="tooltip scalable">dried porcini mushrooms</span> in <b>120</b> ml of boiling water.</li>
-                <li itemprop="recipeInstructions">Melt <b>1</b> tbsp of salted butter in a large frying pan. Add a finely chopped <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">brown onion</span> and cook until soft. Add sliced <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">chestnut mushrooms</span> and cook until they are lightly browned.</li>
-                <li itemprop="recipeInstructions">Add the <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">orzo pasta</span> and stir it around so it is covered with the butter.</li>
-                <li itemprop="recipeInstructions">Add a stock cube to a measuring jug and <b>675</b> ml of hot water. Stir and allow the cube to dissolve.</li>
-                <li itemprop="recipeInstructions">Add the chicken stock and the water from the porcini mushrooms (but not the mushrooms themselves yet). Bring to the boil over a high heat, then reduce the heat and simmer, stirring often until the pasta is tender and most of the liquid is absorbed. This should take <button class="toast-btn" data-time="720" data-label="" title="Start timer"><svg width="16" height="16" class="toast-btn-icon" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></button><b>12</b> minutes. If the mixture becomes too thick before the pasta is done, add a little more water.</li>
-                <li itemprop="recipeInstructions">Stir in <b>100</b> g of grated Parmesan. Chop up your soaked porcini mushrooms and stir these in. Add both a handful of chopped parsley and chopped tarragon (reserving some whole leaves of both to garnish) and stir through the dish. Season with salt and pepper.</li>
-                <li itemprop="recipeInstructions">Spoon the risotto into wide bowls and sprinkle with leftover herbage and some extra Parmesan.</li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-1" />
+                    <label for="instruction-1">
+                        Soak the <span data-default="20" data-defaultunit="g" data-quantity="20" data-unit="g" class="tooltip scalable">dried porcini mushrooms</span> in <b>120</b> ml of boiling water.
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-2" />
+                    <label for="instruction-2">
+                        Melt <b>1</b> tbsp of salted butter in a large frying pan. Add a finely chopped <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">brown onion</span> and cook until soft. Add sliced <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">chestnut mushrooms</span> and cook until they are lightly browned.
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-3" />
+                    <label for="instruction-3">
+                        Add the <span data-default="400" data-defaultunit="g" data-quantity="400" data-unit="g" class="tooltip scalable">orzo pasta</span> and stir it around so it is covered with the butter.
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-4" />
+                    <label for="instruction-4">
+                        Add a stock cube to a measuring jug and <b>675</b> ml of hot water. Stir and allow the cube to dissolve.
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-5" />
+                    <label for="instruction-5">
+                        Add the chicken stock and the water from the porcini mushrooms (but not the mushrooms themselves yet). Bring to the boil over a high heat, then reduce the heat and simmer, stirring often until the pasta is tender and most of the liquid is absorbed. This should take <button class="toast-btn" data-time="720" data-label="" title="Start timer"><svg width="16" height="16" class="toast-btn-icon" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></button><b>12</b> minutes. If the mixture becomes too thick before the pasta is done, add a little more water.
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-6" />
+                    <label for="instruction-6">
+                        Stir in <b>100</b> g of grated Parmesan. Chop up your soaked porcini mushrooms and stir these in. Add both a handful of chopped parsley and chopped tarragon (reserving some whole leaves of both to garnish) and stir through the dish. Season with salt and pepper.
+                    </label>
+                </li>
+                <li itemprop="recipeInstructions">
+                    <input type="checkbox" id="instruction-7" />
+                    <label for="instruction-7">
+                        Spoon the risotto into wide bowls and sprinkle with leftover herbage and some extra Parmesan.
+                    </label>
+                </li>
                 </ol>
 
             <hr/>
             <a class="link" href="https://www.goodreads.com/search/search?search_type=books&search[query]=9781911624011" target="_blank">
-                <img src="/covers/mob-kitchen.webp" class="book-cover">
+                <img src="/covers/mob-kitchen.webp" class="book-cover" alt="Image of Mob Kitchen book cover.">
                 <h3>Mob Kitchen</h3>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="link-icon"><path fill-rule="evenodd" d="M16 .5a.5.5 0 00-.5-.5h-5a.5.5 0 000 1h3.793L6.146 9.146a.5.5 0 10.708.708L15 1.707V5.5a.5.5 0 001 0v-5z" fill=currentColor/></svg>
             </a>
