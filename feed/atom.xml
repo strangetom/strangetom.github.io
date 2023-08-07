@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2023-07-16T16:49:00.879685+00:00</updated>
+  <updated>2023-08-07T16:37:50.153218+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,84 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/malaysian-red-curry-noodles</id>
-    <title>Malaysian red curry noodles</title>
-    <updated>2023-07-16T16:49:00.881457+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Malaysian red curry noodles&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Malaysian_red_curry_noodles.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;This Malaysian red curry noodle recipe is a perfect quick vegetarian dinner recipe.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/malaysian-red-curry-noodles" rel="alternate"/>
-    <published>2023-06-19T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Malaysian_red_curry_noodles.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/speedy-lamb-shawarma</id>
-    <title>Speedy lamb shawarma</title>
-    <updated>2023-07-16T16:49:00.881291+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Speedy lamb shawarma&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Speedy_lamb_shawarma.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;I do love a kebab. Admittedly, this is not the world’s best-kept secret, as over the years I have written many kebab recipes using every kind of meat. This is my go-to when I want good value and quick, easy results. Lamb neck is completely underrated, especially for quick cooking, although it is equally good for slow-cooked dishes. Once you try this recipe, I know it will become as firm a favourite of yours as it is mine. Serve in wraps or warmed pitta bread with yogurt, sliced onion, tomato, pickled cucumber and coriander leaves, or on a bed of mixed leaves with pomegranate seeds and a good drizzle of pomegranate molasses.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/speedy-lamb-shawarma" rel="alternate"/>
-    <published>2023-06-23T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Speedy_lamb_shawarma.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/aromatic-prawn-and-sweetcorn-rice</id>
-    <title>Aromatic prawn &amp; sweetcorn rice</title>
-    <updated>2023-07-16T16:49:00.881116+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Aromatic prawn &amp; sweetcorn rice&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Aromatic_prawn_and_sweetcorn_rice.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;The roots of this dish come from a restaurant I used to work in where the head chef used to make a Japanese-style risotto using sushi rice, infusing ginger and other aromatics into the stock and serving it with seared scallops. I loved the dish so much that I developed a version with prawns that I often make at home.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/aromatic-prawn-and-sweetcorn-rice" rel="alternate"/>
-    <published>2023-06-26T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Aromatic_prawn_and_sweetcorn_rice.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/harissa-and-lemon-roasted-chicken-thighs</id>
-    <title>Harissa &amp; lemon roasted chicken thighs</title>
-    <updated>2023-07-16T16:49:00.880927+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Harissa &amp; lemon roasted chicken thighs&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Harissa_and_lemon_roasted_chicken_thighs.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;This is such a simple recipe that I confess I have been making it for years and never thought to put it in one of my books. It’s so handy and versatile, as it can be sliced and stuffed into pitta bread or wraps and sandwiches for lunchboxes, shredded and added to salads, or used in stir-fries or rice noodle dishes. But it also pairs perfectly with steamed rice or naan in the same way tandoori chicken does. You can also marinate the chicken up to 48 hours in advance, or freeze the marinated raw chicken for use at a later date or for batch cooking.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/harissa-and-lemon-roasted-chicken-thighs" rel="alternate"/>
-    <published>2023-07-05T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Harissa_and_lemon_roasted_chicken_thighs.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/herby-olive-italian-orzo-salad</id>
-    <title>Herby olive italian orzo salad</title>
-    <updated>2023-07-16T16:49:00.880736+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Herby olive italian orzo salad&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Herby_olive_italian_orzo_salad.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Beautiful herby Italian orzo salad filled with crunchy veggies, savory olives and delicious feta crumbles. Everything gets tossed in a light homemade Italian dressing for the perfect summer lunch or dinner that's easy to customize. Bring this fresh Italian orzo salad to your next BBQ!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/herby-olive-italian-orzo-salad" rel="alternate"/>
-    <published>2023-07-10T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Herby_olive_italian_orzo_salad.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/all-in-one-fish-chickpea-and-spinach-stew</id>
     <title>All-in-one fish, chickpea &amp; spinach stew</title>
-    <updated>2023-07-16T16:49:00.880441+00:00</updated>
+    <updated>2023-08-07T16:37:50.155611+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;All-in-one fish, chickpea &amp; spinach stew&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/All_in_one_fish_chickpea_and_spinach_stew.webp" style="text-align:center;"/&gt;
@@ -99,6 +24,81 @@
     <published>2023-07-14T23:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/All_in_one_fish_chickpea_and_spinach_stew.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/stuffed-energy-balls</id>
+    <title>Stuffed energy balls</title>
+    <updated>2023-08-07T16:37:50.155444+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Stuffed energy balls&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Stuffed_energy_balls.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;Energy balls are a great, easy-to-transport snack. These are deliciously sweet, with a creamy, oozy, nutty filling. Take a few with you to keep you charged all day or enjoy as a simple evening snack with a cup of tea.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/stuffed-energy-balls" rel="alternate"/>
+    <published>2023-07-17T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Stuffed_energy_balls.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/20-minute-ginger-pineapple-chicken-stir-fry</id>
+    <title>20 minute ginger pineapple chicken stir fry</title>
+    <updated>2023-08-07T16:37:50.155271+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;20 minute ginger pineapple chicken stir fry&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/20_minute_ginger_pineapple_chicken_stir_fry.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;Inspired by my dad's summer stir fry, only made healthier, quicker, and with a few little tweaks!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/20-minute-ginger-pineapple-chicken-stir-fry" rel="alternate"/>
+    <published>2023-07-18T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/20_minute_ginger_pineapple_chicken_stir_fry.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/pull-apart-meatball-sliders</id>
+    <title>Pull-apart meatball sliders</title>
+    <updated>2023-08-07T16:37:50.155075+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pull-apart meatball sliders&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Pull-apart_meatball_sliders.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;Make these moreish meatball sliders with tomato sauce and melted cheese for a party or buffet. They're easy to make and the whole family will enjoy them&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/pull-apart-meatball-sliders" rel="alternate"/>
+    <published>2023-07-23T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Pull-apart_meatball_sliders.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/hot-italian-stromboli</id>
+    <title>Hot italian stromboli</title>
+    <updated>2023-08-07T16:37:50.154864+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Hot italian stromboli&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Hot_italian_stromboli.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;A delicious and fun change from the everyday pizza night...like your favorite pizzeria, but at home!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/hot-italian-stromboli" rel="alternate"/>
+    <published>2023-07-26T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Hot_italian_stromboli.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/quick-pesto-couscous-salad</id>
+    <title>Quick pesto couscous salad</title>
+    <updated>2023-08-07T16:37:50.154521+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Quick pesto couscous salad&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Quick_pesto_couscous_salad.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;Easy, quick, and delicious: words that perfectly describe this couscous salad! It's also an incredibly versatile recipe, so adjust to your own taste by using red pesto, or bell pepper instead of cucumber, different herbs, or add some lemon juice. Anything goes!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/quick-pesto-couscous-salad" rel="alternate"/>
+    <published>2023-08-02T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Quick_pesto_couscous_salad.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
