@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2023-08-07T16:37:50.153218+00:00</updated>
+  <updated>2023-09-09T07:14:14.469852+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,93 +12,93 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/all-in-one-fish-chickpea-and-spinach-stew</id>
-    <title>All-in-one fish, chickpea &amp; spinach stew</title>
-    <updated>2023-08-07T16:37:50.155611+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;All-in-one fish, chickpea &amp; spinach stew&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/enchiladas-con-carne</id>
+    <title>Enchiladas con carne</title>
+    <updated>2023-09-09T07:14:14.471170+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Enchiladas con carne&lt;/h1&gt;
             &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/All_in_one_fish_chickpea_and_spinach_stew.webp" style="text-align:center;"/&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Enchiladas_con_carne.webp" style="text-align:center;"/&gt;
             &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;The foundations of this dish lie in Marcella Hazan’s famous pasta sauce that calls for only four ingredients; tomatoes, butter, a whole onion and salt. While Hazan instructs to remove the onion, so it merely infuses the tomato sauce, I like a stronger onion flavour and so, in my recipe, the onion is grated, melting into the other ingredients over the course of time. This recipe is simple and clean, allowing the short list of ingredients to do all the talking.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/all-in-one-fish-chickpea-and-spinach-stew" rel="alternate"/>
-    <published>2023-07-14T23:00:00+00:00</published>
+            &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/enchiladas-con-carne" rel="alternate"/>
+    <published>2023-08-15T23:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/All_in_one_fish_chickpea_and_spinach_stew.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Enchiladas_con_carne.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/stuffed-energy-balls</id>
-    <title>Stuffed energy balls</title>
-    <updated>2023-08-07T16:37:50.155444+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Stuffed energy balls&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/grilled-corn-salad</id>
+    <title>Grilled corn salad</title>
+    <updated>2023-09-09T07:14:14.471043+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Grilled corn salad&lt;/h1&gt;
             &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Stuffed_energy_balls.webp" style="text-align:center;"/&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Grilled_corn_salad.webp" style="text-align:center;"/&gt;
             &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Energy balls are a great, easy-to-transport snack. These are deliciously sweet, with a creamy, oozy, nutty filling. Take a few with you to keep you charged all day or enjoy as a simple evening snack with a cup of tea.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/stuffed-energy-balls" rel="alternate"/>
-    <published>2023-07-17T23:00:00+00:00</published>
+            &lt;p style="font-family:sans-serif;&gt;With just 10 ingredients and less than 30 minutes, this Grilled Corn Salad is a foolproof side dish or light lunch for summer. Despite being so easy, it's packed with flavor, a little heat, and is guaranteed to impress. Perfect for summer barbecues and picnics!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/grilled-corn-salad" rel="alternate"/>
+    <published>2023-08-22T23:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Stuffed_energy_balls.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Grilled_corn_salad.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/20-minute-ginger-pineapple-chicken-stir-fry</id>
-    <title>20 minute ginger pineapple chicken stir fry</title>
-    <updated>2023-08-07T16:37:50.155271+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;20 minute ginger pineapple chicken stir fry&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/meatball-and-mushroom-stroganoff</id>
+    <title>Meatball &amp; mushroom stroganoff</title>
+    <updated>2023-09-09T07:14:14.470913+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Meatball &amp; mushroom stroganoff&lt;/h1&gt;
             &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/20_minute_ginger_pineapple_chicken_stir_fry.webp" style="text-align:center;"/&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Meatball_and_mushroom_stroganoff.webp" style="text-align:center;"/&gt;
             &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Inspired by my dad's summer stir fry, only made healthier, quicker, and with a few little tweaks!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/20-minute-ginger-pineapple-chicken-stir-fry" rel="alternate"/>
-    <published>2023-07-18T23:00:00+00:00</published>
+            &lt;p style="font-family:sans-serif;&gt;Who doesn’t love a stroganoff? Even in Iran, due to our close proximity to Russia, we enjoy a good stroganoff. ‘Always with thin, matchstick fries,’ says my mother, as she recounts her memories from her youth in Tehran. I’ve had some really good stroganoffs in my time, from a fantastic one in St Petersburg served with mashed potato, to versions with noodles, and the British interpretation with rice. Each recipe differed wildly and came in various shades from brown and beige to neon orange. This is a simplified version of the classic, and I’ve used meatballs just because they work really well and taste fantastic in the mushroom sauce, making it very nearly as good as the traditional beef steak, served with french fries.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/meatball-and-mushroom-stroganoff" rel="alternate"/>
+    <published>2023-08-23T23:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/20_minute_ginger_pineapple_chicken_stir_fry.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Meatball_and_mushroom_stroganoff.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/pull-apart-meatball-sliders</id>
-    <title>Pull-apart meatball sliders</title>
-    <updated>2023-08-07T16:37:50.155075+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pull-apart meatball sliders&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/brown-sugar-shortbread</id>
+    <title>Brown sugar shortbread</title>
+    <updated>2023-09-09T07:14:14.470779+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Brown sugar shortbread&lt;/h1&gt;
             &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Pull-apart_meatball_sliders.webp" style="text-align:center;"/&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Brown_sugar_shortbread.webp" style="text-align:center;"/&gt;
             &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Make these moreish meatball sliders with tomato sauce and melted cheese for a party or buffet. They're easy to make and the whole family will enjoy them&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/pull-apart-meatball-sliders" rel="alternate"/>
-    <published>2023-07-23T23:00:00+00:00</published>
+            &lt;p style="font-family:sans-serif;&gt;Chewy, crisp, tender, and EASY brown sugar shortbread!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/brown-sugar-shortbread" rel="alternate"/>
+    <published>2023-08-26T23:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Pull-apart_meatball_sliders.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Brown_sugar_shortbread.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/hot-italian-stromboli</id>
-    <title>Hot italian stromboli</title>
-    <updated>2023-08-07T16:37:50.154864+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Hot italian stromboli&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/sheet-pan-chicken-and-potatoes-with-feta-lemon-and-dill</id>
+    <title>Sheet-pan chicken and potatoes with feta, lemon and dill</title>
+    <updated>2023-09-09T07:14:14.470641+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sheet-pan chicken and potatoes with feta, lemon and dill&lt;/h1&gt;
             &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Hot_italian_stromboli.webp" style="text-align:center;"/&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Sheet-pan_chicken_and_potatoes_with_feta,_lemon_and_dill.webp" style="text-align:center;"/&gt;
             &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;A delicious and fun change from the everyday pizza night...like your favorite pizzeria, but at home!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/hot-italian-stromboli" rel="alternate"/>
-    <published>2023-07-26T23:00:00+00:00</published>
+            &lt;p style="font-family:sans-serif;&gt;In this simple but elegant sheet-pan dinner, chicken thighs and potatoes roast together at a high temperature, coming out crispy and golden. A generous squeeze of lemon juice, along with a scattering of fresh dill and feta cheese, elevates this dish from weeknight meat and potatoes to dinner-party fare. While the chicken will still be delicious if marinated for just 30 minutes, marinating it for several hours will yield the best results.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/sheet-pan-chicken-and-potatoes-with-feta-lemon-and-dill" rel="alternate"/>
+    <published>2023-08-30T23:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Hot_italian_stromboli.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Sheet-pan_chicken_and_potatoes_with_feta,_lemon_and_dill.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/quick-pesto-couscous-salad</id>
-    <title>Quick pesto couscous salad</title>
-    <updated>2023-08-07T16:37:50.154521+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Quick pesto couscous salad&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/sage-butter-feta-and-black-pepper-pasta</id>
+    <title>Sage butter, feta &amp; black pepper pasta</title>
+    <updated>2023-09-09T07:14:14.470414+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sage butter, feta &amp; black pepper pasta&lt;/h1&gt;
             &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Quick_pesto_couscous_salad.webp" style="text-align:center;"/&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Sage_butter_feta_and_black_pepper_pasta.webp" style="text-align:center;"/&gt;
             &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Easy, quick, and delicious: words that perfectly describe this couscous salad! It's also an incredibly versatile recipe, so adjust to your own taste by using red pesto, or bell pepper instead of cucumber, different herbs, or add some lemon juice. Anything goes!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/quick-pesto-couscous-salad" rel="alternate"/>
-    <published>2023-08-02T23:00:00+00:00</published>
+            &lt;p style="font-family:sans-serif;&gt;When a method is really simple, I find I’m most likely to turn to that recipe again and again. This pasta dish is a case in point – easy, quick and satisfying, perfect for a midweek meal. It also works well with fresh oregano instead of sage; either way, the gently infused herb butter really does make the dish.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/sage-butter-feta-and-black-pepper-pasta" rel="alternate"/>
+    <published>2023-08-30T23:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Quick_pesto_couscous_salad.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Sage_butter_feta_and_black_pepper_pasta.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
