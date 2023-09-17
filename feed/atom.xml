@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2023-09-09T07:14:14.469852+00:00</updated>
+  <updated>2023-09-17T16:44:44.910799+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,69 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/enchiladas-con-carne</id>
-    <title>Enchiladas con carne</title>
-    <updated>2023-09-09T07:14:14.471170+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Enchiladas con carne&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Enchiladas_con_carne.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/enchiladas-con-carne" rel="alternate"/>
-    <published>2023-08-15T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Enchiladas_con_carne.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/grilled-corn-salad</id>
-    <title>Grilled corn salad</title>
-    <updated>2023-09-09T07:14:14.471043+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Grilled corn salad&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Grilled_corn_salad.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;With just 10 ingredients and less than 30 minutes, this Grilled Corn Salad is a foolproof side dish or light lunch for summer. Despite being so easy, it's packed with flavor, a little heat, and is guaranteed to impress. Perfect for summer barbecues and picnics!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/grilled-corn-salad" rel="alternate"/>
-    <published>2023-08-22T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Grilled_corn_salad.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/meatball-and-mushroom-stroganoff</id>
-    <title>Meatball &amp; mushroom stroganoff</title>
-    <updated>2023-09-09T07:14:14.470913+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Meatball &amp; mushroom stroganoff&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Meatball_and_mushroom_stroganoff.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Who doesn’t love a stroganoff? Even in Iran, due to our close proximity to Russia, we enjoy a good stroganoff. ‘Always with thin, matchstick fries,’ says my mother, as she recounts her memories from her youth in Tehran. I’ve had some really good stroganoffs in my time, from a fantastic one in St Petersburg served with mashed potato, to versions with noodles, and the British interpretation with rice. Each recipe differed wildly and came in various shades from brown and beige to neon orange. This is a simplified version of the classic, and I’ve used meatballs just because they work really well and taste fantastic in the mushroom sauce, making it very nearly as good as the traditional beef steak, served with french fries.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/meatball-and-mushroom-stroganoff" rel="alternate"/>
-    <published>2023-08-23T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Meatball_and_mushroom_stroganoff.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/brown-sugar-shortbread</id>
-    <title>Brown sugar shortbread</title>
-    <updated>2023-09-09T07:14:14.470779+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Brown sugar shortbread&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/Brown_sugar_shortbread.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Chewy, crisp, tender, and EASY brown sugar shortbread!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/brown-sugar-shortbread" rel="alternate"/>
-    <published>2023-08-26T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/Brown_sugar_shortbread.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/sheet-pan-chicken-and-potatoes-with-feta-lemon-and-dill</id>
     <title>Sheet-pan chicken and potatoes with feta, lemon and dill</title>
-    <updated>2023-09-09T07:14:14.470641+00:00</updated>
+    <updated>2023-09-17T16:44:44.912636+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sheet-pan chicken and potatoes with feta, lemon and dill&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Sheet-pan_chicken_and_potatoes_with_feta,_lemon_and_dill.webp" style="text-align:center;"/&gt;
@@ -89,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/sage-butter-feta-and-black-pepper-pasta</id>
     <title>Sage butter, feta &amp; black pepper pasta</title>
-    <updated>2023-09-09T07:14:14.470414+00:00</updated>
+    <updated>2023-09-17T16:44:44.912466+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sage butter, feta &amp; black pepper pasta&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/Sage_butter_feta_and_black_pepper_pasta.webp" style="text-align:center;"/&gt;
@@ -99,6 +39,66 @@
     <published>2023-08-30T23:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/Sage_butter_feta_and_black_pepper_pasta.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/pork-chops-with-mushroom-scallion-risotto</id>
+    <title>Pork chops with mushroom-scallion risotto</title>
+    <updated>2023-09-17T16:44:44.912283+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pork chops with mushroom-scallion risotto&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Pork_chops_with_mushroom-scallion_risotto.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;These pork chops are served with a luxurious mushroom-scallion risotto for an easy, filling dinner.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/pork-chops-with-mushroom-scallion-risotto" rel="alternate"/>
+    <published>2023-09-04T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Pork_chops_with_mushroom-scallion_risotto.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/crispy-cajun-cauli-tacos-and-slaw</id>
+    <title>Crispy cajun cauli tacos and slaw</title>
+    <updated>2023-09-17T16:44:44.912082+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Crispy cajun cauli tacos and slaw&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Crispy_cajun_cauli_tacos_and_slaw.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;If you've got time to get ahead, marinate the cauliflower florets in the spiced yogurt mixture for a few hours, before coating and cooking to crunchy perfection&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/crispy-cajun-cauli-tacos-and-slaw" rel="alternate"/>
+    <published>2023-09-04T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Crispy_cajun_cauli_tacos_and_slaw.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/arroz-chaufa</id>
+    <title>Arroz chaufa</title>
+    <updated>2023-09-17T16:44:44.911879+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Arroz chaufa&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Arroz_chaufa.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;Arroz Chaufa is Peruvian Fried Rice made with rice, chicken, hot dogs, bell peppers, and onion in less than 20 minutes! It's delicious served as a main dish or a side dish, and is a great way to use leftover rice, meat and veggies.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/arroz-chaufa" rel="alternate"/>
+    <published>2023-09-05T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Arroz_chaufa.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/sticky-honey-mustard-posh-dogs-with-chips</id>
+    <title>Sticky honey mustard posh dogs with chips</title>
+    <updated>2023-09-17T16:44:44.911572+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sticky honey mustard posh dogs with chips&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/Sticky_honey_mustard_posh_dogs_with_chips.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;What's more classic than a hotdog in the summer? Make this crowd pleaser with Jolly Hog sausages coated in a sticky honey mustard glaze, and top with caramelised onions to serve.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/sticky-honey-mustard-posh-dogs-with-chips" rel="alternate"/>
+    <published>2023-09-14T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/Sticky_honey_mustard_posh_dogs_with_chips.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
