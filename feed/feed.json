@@ -12,57 +12,57 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/creamy-hummus-pasta-bake",
+      "url": "https://www.strangerfoods.org/recipes/creamy-hummus-pasta-bake",
+      "title": "Creamy hummus pasta bake",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Creamy hummus pasta bake</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Creamy_hummus_pasta_bake.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>This pasta recipe is rich and creamy, and easy to whip together. It comes together with under 10 ingredients, and makes use of hummus to both flavour and add a wonderful creaminess to the sauce. The recipe is a forgiving one, so toss in whatever veggies you have in the fridge, and enjoy!</p>",
+      "image": "https://www.strangerfoods.org/images/Creamy_hummus_pasta_bake.webp",
+      "date_published": "2023-10-05T00:00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/sausage-mustard-apple-hash",
+      "url": "https://www.strangerfoods.org/recipes/sausage-mustard-apple-hash",
+      "title": "Sausage, mustard & apple hash",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Sausage, mustard & apple hash</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Sausage,_mustard_&#x26;_apple_hash.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>Looking for a healthy dish that's good for your wallet too? This sausage, mustard & apple hash costs less than $1 per serving and is perfect for a family</p>",
+      "image": "https://www.strangerfoods.org/images/Sausage,_mustard_&#x26;_apple_hash.webp",
+      "date_published": "2023-10-05T00:00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/the-best-vegan-chow-mein",
+      "url": "https://www.strangerfoods.org/recipes/the-best-vegan-chow-mein",
+      "title": "The best vegan chow mein",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">The best vegan chow mein</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/The_best_vegan_chow_mein.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>To effortlessly serve up this dish that outshines takeout, the secret is having all your vegetables chopped and prepped. Once you begin cooking, this recipe comes together swiftly, and with everything ready, the entire meal flows seamlessly.</p>",
+      "image": "https://www.strangerfoods.org/images/The_best_vegan_chow_mein.webp",
+      "date_published": "2023-09-29T00:00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/salmon-tacos-mediterranean-style",
+      "url": "https://www.strangerfoods.org/recipes/salmon-tacos-mediterranean-style",
+      "title": "Salmon tacos (mediterranean-style)",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Salmon tacos (mediterranean-style)</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Salmon_tacos_mediterranean-style.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>Salmon tacos are made with baked salmon in this easy yet far-from-basic weeknight dinner recipe. Creamy and cooling tzatziki sauce and quick-pickled sumac onions bring the Mediterranean flavor that makes these simple salmon tacos special.</p>",
+      "image": "https://www.strangerfoods.org/images/Salmon_tacos_mediterranean-style.webp",
+      "date_published": "2023-09-28T00:00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/parmesan-chicken-butties-with-red-cabbage-slaw",
+      "url": "https://www.strangerfoods.org/recipes/parmesan-chicken-butties-with-red-cabbage-slaw",
+      "title": "Parmesan chicken butties with red cabbage slaw",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Parmesan chicken butties with red cabbage slaw</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Parmesan_chicken_butties_with_red_cabbage_slaw.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>You can easily double the quantities for the slaw; it keeps in the fridge for up to four days and is great for impromptu barbecues</p>",
+      "image": "https://www.strangerfoods.org/images/Parmesan_chicken_butties_with_red_cabbage_slaw.webp",
+      "date_published": "2023-09-18T00:00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/sticky-honey-mustard-posh-dogs-with-chips",
       "url": "https://www.strangerfoods.org/recipes/sticky-honey-mustard-posh-dogs-with-chips",
       "title": "Sticky honey mustard posh dogs with chips",
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Sticky honey mustard posh dogs with chips</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Sticky_honey_mustard_posh_dogs_with_chips.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>What's more classic than a hotdog in the summer? Make this crowd pleaser with Jolly Hog sausages coated in a sticky honey mustard glaze, and top with caramelised onions to serve.</p>",
       "image": "https://www.strangerfoods.org/images/Sticky_honey_mustard_posh_dogs_with_chips.webp",
       "date_published": "2023-09-15T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/arroz-chaufa",
-      "url": "https://www.strangerfoods.org/recipes/arroz-chaufa",
-      "title": "Arroz chaufa",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Arroz chaufa</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Arroz_chaufa.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>Arroz Chaufa is Peruvian Fried Rice made with rice, chicken, hot dogs, bell peppers, and onion in less than 20 minutes! It's delicious served as a main dish or a side dish, and is a great way to use leftover rice, meat and veggies.</p>",
-      "image": "https://www.strangerfoods.org/images/Arroz_chaufa.webp",
-      "date_published": "2023-09-06T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/crispy-cajun-cauli-tacos-and-slaw",
-      "url": "https://www.strangerfoods.org/recipes/crispy-cajun-cauli-tacos-and-slaw",
-      "title": "Crispy cajun cauli tacos and slaw",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Crispy cajun cauli tacos and slaw</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Crispy_cajun_cauli_tacos_and_slaw.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>If you've got time to get ahead, marinate the cauliflower florets in the spiced yogurt mixture for a few hours, before coating and cooking to crunchy perfection</p>",
-      "image": "https://www.strangerfoods.org/images/Crispy_cajun_cauli_tacos_and_slaw.webp",
-      "date_published": "2023-09-05T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/pork-chops-with-mushroom-scallion-risotto",
-      "url": "https://www.strangerfoods.org/recipes/pork-chops-with-mushroom-scallion-risotto",
-      "title": "Pork chops with mushroom-scallion risotto",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Pork chops with mushroom-scallion risotto</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Pork_chops_with_mushroom-scallion_risotto.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>These pork chops are served with a luxurious mushroom-scallion risotto for an easy, filling dinner.</p>",
-      "image": "https://www.strangerfoods.org/images/Pork_chops_with_mushroom-scallion_risotto.webp",
-      "date_published": "2023-09-05T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/sage-butter-feta-and-black-pepper-pasta",
-      "url": "https://www.strangerfoods.org/recipes/sage-butter-feta-and-black-pepper-pasta",
-      "title": "Sage butter, feta & black pepper pasta",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Sage butter, feta & black pepper pasta</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Sage_butter_feta_and_black_pepper_pasta.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>When a method is really simple, I find I\u2019m most likely to turn to that recipe again and again. This pasta dish is a case in point \u2013 easy, quick and satisfying, perfect for a midweek meal. It also works well with fresh oregano instead of sage; either way, the gently infused herb butter really does make the dish.</p>",
-      "image": "https://www.strangerfoods.org/images/Sage_butter_feta_and_black_pepper_pasta.webp",
-      "date_published": "2023-08-31T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/sheet-pan-chicken-and-potatoes-with-feta-lemon-and-dill",
-      "url": "https://www.strangerfoods.org/recipes/sheet-pan-chicken-and-potatoes-with-feta-lemon-and-dill",
-      "title": "Sheet-pan chicken and potatoes with feta, lemon and dill",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Sheet-pan chicken and potatoes with feta, lemon and dill</h1>\n            <br>\n            <img src=\"https://www.strangerfoods.org/images/Sheet-pan_chicken_and_potatoes_with_feta,_lemon_and_dill.webp\" style=\"text-align:center;\"/>\n            <br>\n            <p style=\"font-family:sans-serif;>In this simple but elegant sheet-pan dinner, chicken thighs and potatoes roast together at a high temperature, coming out crispy and golden. A generous squeeze of lemon juice, along with a scattering of fresh dill and feta cheese, elevates this dish from weeknight meat and potatoes to dinner-party fare. While the chicken will still be delicious if marinated for just 30 minutes, marinating it for several hours will yield the best results.</p>",
-      "image": "https://www.strangerfoods.org/images/Sheet-pan_chicken_and_potatoes_with_feta,_lemon_and_dill.webp",
-      "date_published": "2023-08-31T00:00:00Z",
       "language": "en"
     }
   ]
