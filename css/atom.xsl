@@ -29,7 +29,7 @@ Styles an Atom feed, making it friendly for humans viewers
           }
           body {
             font-family: sans-serif;
-            background-color: var(--bg);
+            background-color: var(--bg-s);
             margin: 0 auto;
             padding: 0;
             line-height: 1.5;
@@ -40,8 +40,8 @@ Styles an Atom feed, making it friendly for humans viewers
             -webkit-font-smoothing: antialiased;
           }
           header {
-            color: var(--fg);
-            border-bottom: 5px double var(--fg);
+            color: var(--fg-1);
+            border-bottom: 5px double var(--fg-1);
           }
           header a {
             text-decoration: none;
@@ -54,11 +54,11 @@ Styles an Atom feed, making it friendly for humans viewers
             transform: scaleY(1.4);
             padding: 0;
             margin: 0;
-            color: var(--fg);
+            color: var(--fg-1);
           }
           .container {
             background-color: var(--bg-s);
-            color: var(--fg);
+            color: var(--fg-1);
             padding: 1em; 
           }
           h1 {
@@ -69,6 +69,14 @@ Styles an Atom feed, making it friendly for humans viewers
             vertical-align: text-bottom;
             width: 1.2em;
             height: 1.2em;
+          }
+          h2 {
+            font-family: 'latin_modern', sans-serif;  
+            font-size: 1.8rem;
+            font-weight: normal;
+            margin: 0;
+            color: var(--fg);
+            text-align: center;
           }
           .recent {
             display: grid;
@@ -100,13 +108,15 @@ Styles an Atom feed, making it friendly for humans viewers
             padding: 10px;
             height: 100%;
             border: 1px solid var(--bg-2);
-            background: var(--bg-img),linear-gradient(rgb(100,100,100),20%,transparent);
+            background: var(--bg-img),linear-gradient(rgb(50,50,50),25%,transparent);
             background-size: auto 100%;
             background-position: 50%;
             background-blend-mode: multiply;
             border-radius: var(--photo-radius);
             box-shadow: var(--big-shadow);
             box-sizing: border-box;
+            color: #ebdbb2; /* --fg-1 */
+            letter-spacing: 1px;
           }
           .recipe-label {
             font-family: sans-serif;
@@ -116,9 +126,9 @@ Styles an Atom feed, making it friendly for humans viewers
             margin: 3px;
             padding: 4px 12px;
             color: var(--fg);
-            background-color: var(--bg);
+            background-color: var(--bg-1);
             border-radius: var(--button-radius);
-            border: 1px solid var(--bg-2);
+            border: 1px solid var(--bg-3);
             box-shadow: var(--small-shadow);
             position: absolute;
             left: 5px;
@@ -128,6 +138,24 @@ Styles an Atom feed, making it friendly for humans viewers
             position: relative;
             bottom: -2px;
             margin-right: .5rem;
+          }
+          hr {
+            padding: 0;
+            height: 1rem;
+            border: none;
+            border-top: 1px solid var(--fg-1);
+            color: var(--fg-1);
+            text-align: center;
+            overflow: visible;
+          }
+          hr:after {
+            content: "§";
+            display: inline-block;
+            position: relative;
+            top: -0.8em;
+            font-size: 1.2rem;
+            padding: 0 0.25em;
+            background: var(--bg-s);
           }
         </style>
         <script type="text/javascript">
@@ -150,8 +178,9 @@ Styles an Atom feed, making it friendly for humans viewers
             </svg>
             Atom Feed
           </h1>
-          <p><strong>Subscribe</strong> by copying the URL from the address bar into your newsreader.</p>
+          <p>Subscribe by copying the URL from the address bar into your newsreader.</p>
           <h2>Recent Items</h2>
+          <hr/>
           <div class="recent">
             <xsl:apply-templates select="atom:feed/atom:entry" >
               <xsl:sort select="position()" data-type="number" order="descending"/>

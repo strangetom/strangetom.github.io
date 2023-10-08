@@ -19,7 +19,7 @@
         <link rel="preload" href="/fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin/>
         <link rel="preload" href="/css/colours.min.css" as="style"/>
         <link rel="stylesheet" type="text/css" href="/css/recipe.min.css"/>
-        <link rel="icon" href="favicon.svg" type="image/svg+xml"/>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
         <script src="/js/scale_timers.min.js"></script>
         <noscript><style type="text/css">.scale-btns,.unit-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
     </head>
@@ -77,15 +77,18 @@
                 Share
             </span>
 
+            <span id="wake" class="recipe-info hidden">
+                <div class="checkbox">
+                    <input type="checkbox" id="wakelock" name="wakelock"/>
+                    <label for="wakelock">Keep Awake</label>
+                </div>
+            </span>
+
             <img itemprop="image" class="recipe-image" src="/images/Salmon_and_couscous_salad_with_cucumber-feta_dressing.webp" alt="Recipe image" width="512" height="288"/>
             <p itemprop="description">The dressing in this 30-minute recipe is inspired by green goddess dressing and mast-o khiar, a Persian side dish of cucumbers and yogurt. Here, thick yogurt is combined with fresh herbs, tangy feta and crunchy Persian cucumbers. If you have trouble finding Persian cucumbers, they can be swapped for similarly sweet-skinned English cucumbers or peeled regular cucumbers. Flaking the salmon into the salad evenly distributes it and is a nice alternative to serving a fillet for dinner. Leftover salad can be enjoyed cold for lunch the next day, freshened up with a squeeze of lime juice and more fresh herbs.</p>
-            <hr/>
-            <div class="checkbox hidden">
-                <input type="checkbox" id="wakelock" name="wakelock"/>
-                <label for="wakelock">Keep Screen On</label>
-            </div>
-
             <h2>Ingredients</h2>
+            <hr/>
+
             <div class="scale-btns">
                 <div class="radio-btn">
                     <input type="radio" name="scale" value="x0.5" id="x0.5"/>
@@ -181,8 +184,8 @@
                 </ul>
             </div>
         
-            <hr/>
             <h2>Instructions</h2>
+            <hr/>
             <ol>
                 <li itemprop="recipeInstructions">
                     <input type="checkbox" id="instruction-1" />
@@ -216,6 +219,7 @@
                 </li>
                 </ol>
 
+            
             <hr/>
             <a class="link" href="https://cooking.nytimes.com/recipes/1021970-salmon-and-couscous-salad-with-cucumber-feta-dressing" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="web-icon">

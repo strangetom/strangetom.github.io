@@ -19,7 +19,7 @@
         <link rel="preload" href="/fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin/>
         <link rel="preload" href="/css/colours.min.css" as="style"/>
         <link rel="stylesheet" type="text/css" href="/css/recipe.min.css"/>
-        <link rel="icon" href="favicon.svg" type="image/svg+xml"/>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
         <script src="/js/scale_timers.min.js"></script>
         <noscript><style type="text/css">.scale-btns,.unit-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
     </head>
@@ -78,15 +78,18 @@
                 Share
             </span>
 
+            <span id="wake" class="recipe-info hidden">
+                <div class="checkbox">
+                    <input type="checkbox" id="wakelock" name="wakelock"/>
+                    <label for="wakelock">Keep Awake</label>
+                </div>
+            </span>
+
             <img itemprop="image" class="recipe-image" src="/images/Portobello_mushrooms_with_brioche_and_a_poached_egg.webp" alt="Recipe image" width="512" height="288"/>
             <p itemprop="description">As with all dishes which involve eggs and toast and getting ready in the morning, this is all about timing. Ideally, you want the mushrooms and toast coming out of the oven at about the same time, to both be warm, and the eggs poached and ready soon after. Get the mushrooms cooking first, put the bread into the oven halfway through, and then get the eggs poaching. This works as well as a starter late in the day as it does in the morning. Use duck eggs for an extra-rich twist.</p>
-            <hr/>
-            <div class="checkbox hidden">
-                <input type="checkbox" id="wakelock" name="wakelock"/>
-                <label for="wakelock">Keep Screen On</label>
-            </div>
-
             <h2>Ingredients</h2>
+            <hr/>
+
             <div class="scale-btns">
                 <div class="radio-btn">
                     <input type="radio" name="scale" value="x0.5" id="x0.5"/>
@@ -164,8 +167,8 @@
                 </ul>
             </div>
         
-            <hr/>
             <h2>Instructions</h2>
+            <hr/>
             <ol>
                 <li itemprop="recipeInstructions">
                     <input type="checkbox" id="instruction-1" />
@@ -199,6 +202,7 @@
                 </li>
                 </ol>
 
+            
             <hr/>
             <a class="link" href="https://www.goodreads.com/search/search?search_type=books&search[query]=9781785031168" target="_blank">
                 <img src="/covers/simple-by-ottolenghi.webp" class="book-cover" alt="Image of SIMPLE by Ottolenghi book cover.">

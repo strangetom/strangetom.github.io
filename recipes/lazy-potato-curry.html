@@ -19,7 +19,7 @@
         <link rel="preload" href="/fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin/>
         <link rel="preload" href="/css/colours.min.css" as="style"/>
         <link rel="stylesheet" type="text/css" href="/css/recipe.min.css"/>
-        <link rel="icon" href="favicon.svg" type="image/svg+xml"/>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
         <script src="/js/scale_timers.min.js"></script>
         <noscript><style type="text/css">.scale-btns,.unit-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
     </head>
@@ -82,15 +82,18 @@
                 Share
             </span>
 
+            <span id="wake" class="recipe-info hidden">
+                <div class="checkbox">
+                    <input type="checkbox" id="wakelock" name="wakelock"/>
+                    <label for="wakelock">Keep Awake</label>
+                </div>
+            </span>
+
             <img itemprop="image" class="recipe-image" src="/images/Lazy_potato_curry.webp" alt="Recipe image" width="512" height="288"/>
             <p itemprop="description">Aloo dom was one of my mother’s staple curries, made with the crop of new potatoes and tinned tomatoes. I have always felt at odds with the dish. It was the curry she made when she had nothing much in and a general lack of enthusiasm. It was one of the few bones of contention between us! This recipe is a little different to my mother’s version. It’s a simple dish, but sometimes an uncomplicated, everyday, filling curry is just what’s needed, especially when the cupboards are a bit bare. It is easily doubled to serve more.</p>
-            <hr/>
-            <div class="checkbox hidden">
-                <input type="checkbox" id="wakelock" name="wakelock"/>
-                <label for="wakelock">Keep Screen On</label>
-            </div>
-
             <h2>Ingredients</h2>
+            <hr/>
+
             <div class="scale-btns">
                 <div class="radio-btn">
                     <input type="radio" name="scale" value="x0.5" id="x0.5"/>
@@ -183,8 +186,8 @@
                 </ul>
             </div>
         
-            <hr/>
             <h2>Instructions</h2>
+            <hr/>
             <ol>
                 <li itemprop="recipeInstructions">
                     <input type="checkbox" id="instruction-1" />
@@ -218,6 +221,7 @@
                 </li>
                 </ol>
 
+            
             <hr/>
             <a class="link" href="https://www.goodreads.com/search/search?search_type=books&search[query]=9781848994119" target="_blank">
                 <img src="/covers/meat-free-mowgli.webp" class="book-cover" alt="Image of Meat Free Mowgli book cover.">

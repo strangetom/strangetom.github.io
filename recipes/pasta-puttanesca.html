@@ -19,7 +19,7 @@
         <link rel="preload" href="/fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin/>
         <link rel="preload" href="/css/colours.min.css" as="style"/>
         <link rel="stylesheet" type="text/css" href="/css/recipe.min.css"/>
-        <link rel="icon" href="favicon.svg" type="image/svg+xml"/>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
         <script src="/js/scale_timers.min.js"></script>
         <noscript><style type="text/css">.scale-btns,.unit-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
     </head>
@@ -82,15 +82,18 @@
                 Share
             </span>
 
+            <span id="wake" class="recipe-info hidden">
+                <div class="checkbox">
+                    <input type="checkbox" id="wakelock" name="wakelock"/>
+                    <label for="wakelock">Keep Awake</label>
+                </div>
+            </span>
+
             <img itemprop="image" class="recipe-image" src="/images/Pasta_puttanesca.webp" alt="Recipe image" width="512" height="288"/>
             <p itemprop="description">There are almost as many explanations for the origins of pasta puttanesca as there are ways to make it. Ostensibly a sauce invented and made by prostitutes, it was designed to lure customers with its powerful aroma. Whatever the origin, no better cold-weather pasta sauce has come down to us. Puttanesca can be made completely with ingredients from the larder; in fact, it can be prepared entirely without ingredients that require refrigeration, though a bit of a fresh herb at the end does help. The basis is a garlicky tomato sauce; canned tomatoes are preferable here. This is brought to a high level of flavor by the addition of anchovies, capers and olives. Red pepper flakes make things even better. The whole process is ridiculously easy.</p>
-            <hr/>
-            <div class="checkbox hidden">
-                <input type="checkbox" id="wakelock" name="wakelock"/>
-                <label for="wakelock">Keep Screen On</label>
-            </div>
-
             <h2>Ingredients</h2>
+            <hr/>
+
             <div class="scale-btns">
                 <div class="radio-btn">
                     <input type="radio" name="scale" value="x0.5" id="x0.5"/>
@@ -172,8 +175,8 @@
                 </ul>
             </div>
         
-            <hr/>
             <h2>Instructions</h2>
+            <hr/>
             <ol>
                 <li itemprop="recipeInstructions">
                     <input type="checkbox" id="instruction-1" />
@@ -195,6 +198,7 @@
                 </li>
                 </ol>
 
+            
             <hr/>
             <a class="link" href="https://cooking.nytimes.com/recipes/11583-pasta-puttanesca" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="web-icon">

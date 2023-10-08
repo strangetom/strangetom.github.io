@@ -19,7 +19,7 @@
         <link rel="preload" href="/fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin/>
         <link rel="preload" href="/css/colours.min.css" as="style"/>
         <link rel="stylesheet" type="text/css" href="/css/recipe.min.css"/>
-        <link rel="icon" href="favicon.svg" type="image/svg+xml"/>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
         <script src="/js/scale_timers.min.js"></script>
         <noscript><style type="text/css">.scale-btns,.unit-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
     </head>
@@ -77,15 +77,18 @@
                 Share
             </span>
 
+            <span id="wake" class="recipe-info hidden">
+                <div class="checkbox">
+                    <input type="checkbox" id="wakelock" name="wakelock"/>
+                    <label for="wakelock">Keep Awake</label>
+                </div>
+            </span>
+
             <img itemprop="image" class="recipe-image" src="/images/Citrus-glazed_pork_chops_with_gingery_bok_choy.webp" alt="Recipe image" width="512" height="288"/>
             <p itemprop="description">Rich pork makes a perfect companion to tart oranges in this tasty weeknight meal. The bold, bright, citrusy sauce demands a robust cut of meat, so pick well-marbled, thick-cut pork chops with a nice fat cap. A dry rub of brown sugar creates a caramelized layer that lends depth to the pan sauce, and the gingery bok choy adds a delightful bit of freshness.</p>
-            <hr/>
-            <div class="checkbox hidden">
-                <input type="checkbox" id="wakelock" name="wakelock"/>
-                <label for="wakelock">Keep Screen On</label>
-            </div>
-
             <h2>Ingredients</h2>
+            <hr/>
+
             <div class="scale-btns">
                 <div class="radio-btn">
                     <input type="radio" name="scale" value="x0.5" id="x0.5"/>
@@ -164,8 +167,8 @@
                 </ul>
             </div>
         
-            <hr/>
             <h2>Instructions</h2>
+            <hr/>
             <ol>
                 <li itemprop="recipeInstructions">
                     <input type="checkbox" id="instruction-1" />
@@ -199,6 +202,7 @@
                 </li>
                 </ol>
 
+            
             <hr/>
             <a class="link" href="https://cooking.nytimes.com/recipes/1020552-citrus-glazed-pork-chops-with-gingery-bok-choy" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="web-icon">

@@ -19,7 +19,7 @@
         <link rel="preload" href="/fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin/>
         <link rel="preload" href="/css/colours.min.css" as="style"/>
         <link rel="stylesheet" type="text/css" href="/css/recipe.min.css"/>
-        <link rel="icon" href="favicon.svg" type="image/svg+xml"/>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
         <script src="/js/scale_timers.min.js"></script>
         <noscript><style type="text/css">.scale-btns,.unit-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
     </head>
@@ -78,15 +78,18 @@
                 Share
             </span>
 
+            <span id="wake" class="recipe-info hidden">
+                <div class="checkbox">
+                    <input type="checkbox" id="wakelock" name="wakelock"/>
+                    <label for="wakelock">Keep Awake</label>
+                </div>
+            </span>
+
             <img itemprop="image" class="recipe-image" src="/images/Saffron_tagliatelle_with_ricotta_and_crispy_chipotle_shallots.webp" alt="Recipe image" width="512" height="288"/>
             <p itemprop="description">You can use shop-bought fresh or dried pasta here, or make your own saffron tagliatelle. Either way, there is so much going on – from the Parmesan sauce to the pickled chillies to the crispy chipotle shallots – that you are sure to both surprise and delight the lucky recipients of this dish.</p>
-            <hr/>
-            <div class="checkbox hidden">
-                <input type="checkbox" id="wakelock" name="wakelock"/>
-                <label for="wakelock">Keep Screen On</label>
-            </div>
-
             <h2>Ingredients</h2>
+            <hr/>
+
             <div class="scale-btns">
                 <div class="radio-btn">
                     <input type="radio" name="scale" value="x0.5" id="x0.5"/>
@@ -215,8 +218,8 @@
                 </details>
             </div>
         
-            <hr/>
             <h2>Instructions</h2>
+            <hr/>
             <ol>
                 <li itemprop="recipeInstructions">
                     <input type="checkbox" id="instruction-1" />
@@ -256,6 +259,7 @@
                 </li>
                 </ol>
 
+            
             <hr/>
             <a class="link" href="https://www.goodreads.com/search/search?search_type=books&search[query]=9781785038938" target="_blank">
                 <img src="/covers/flavour-by-ottolenghi.webp" class="book-cover" alt="Image of FLAVOUR by Ottolenghi book cover.">

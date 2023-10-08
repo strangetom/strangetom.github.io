@@ -19,7 +19,7 @@
         <link rel="preload" href="/fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin/>
         <link rel="preload" href="/css/colours.min.css" as="style"/>
         <link rel="stylesheet" type="text/css" href="/css/recipe.min.css"/>
-        <link rel="icon" href="favicon.svg" type="image/svg+xml"/>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
         <script src="/js/scale_timers.min.js"></script>
         <noscript><style type="text/css">.scale-btns,.unit-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
     </head>
@@ -83,15 +83,18 @@
                 Share
             </span>
 
+            <span id="wake" class="recipe-info hidden">
+                <div class="checkbox">
+                    <input type="checkbox" id="wakelock" name="wakelock"/>
+                    <label for="wakelock">Keep Awake</label>
+                </div>
+            </span>
+
             <img itemprop="image" class="recipe-image" src="/images/Roasted_tomato_and_white_bean_stew.webp" alt="Recipe image" width="512" height="288"/>
             <p itemprop="description">This hearty, flexible stew comes together with pantry ingredients and delivers layers of flavors. Cherry tomatoes, roasted in a generous glug of olive oil to amplify their sweetness, lend a welcome brightness to this otherwise rich dish. Onion, garlic and red-pepper flakes form the backbone of this dish, to which white beans and broth are added, then simmered until thick. While this stew is lovely on its own, you could also add wilt-able greens such as kale, escarole or Swiss chard at the end, and toasted bread crumbs on top. The dish is vegan as written, but should you choose to top your bowl with a showering of grated pecorino or Parmesan, it would most likely work well in your favor.</p>
-            <hr/>
-            <div class="checkbox hidden">
-                <input type="checkbox" id="wakelock" name="wakelock"/>
-                <label for="wakelock">Keep Screen On</label>
-            </div>
-
             <h2>Ingredients</h2>
+            <hr/>
+
             <div class="scale-btns">
                 <div class="radio-btn">
                     <input type="radio" name="scale" value="x0.5" id="x0.5"/>
@@ -180,8 +183,8 @@
                 </ul>
             </div>
         
-            <hr/>
             <h2>Instructions</h2>
+            <hr/>
             <ol>
                 <li itemprop="recipeInstructions">
                     <input type="checkbox" id="instruction-1" />
@@ -215,6 +218,7 @@
                 </li>
                 </ol>
 
+            
             <hr/>
             <a class="link" href="https://cooking.nytimes.com/recipes/1020926-roasted-tomato-and-white-bean-stew" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="web-icon">

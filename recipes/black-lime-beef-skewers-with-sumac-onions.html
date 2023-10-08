@@ -19,7 +19,7 @@
         <link rel="preload" href="/fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin/>
         <link rel="preload" href="/css/colours.min.css" as="style"/>
         <link rel="stylesheet" type="text/css" href="/css/recipe.min.css"/>
-        <link rel="icon" href="favicon.svg" type="image/svg+xml"/>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
         <script src="/js/scale_timers.min.js"></script>
         <noscript><style type="text/css">.scale-btns,.unit-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
     </head>
@@ -84,15 +84,18 @@
                 Share
             </span>
 
+            <span id="wake" class="recipe-info hidden">
+                <div class="checkbox">
+                    <input type="checkbox" id="wakelock" name="wakelock"/>
+                    <label for="wakelock">Keep Awake</label>
+                </div>
+            </span>
+
             <img itemprop="image" class="recipe-image" src="/images/Black_lime_beef_skewers_with_sumac_onions.webp" alt="Recipe image" width="512" height="288"/>
             <p itemprop="description">Black limes act as both a flavour enhancer and a tenderiser in this marinade, softening the meat but also giving it an edgy tang. This dish is native to Bahrain and is locally called ‘tikka’, but is not really tikka as we know it to be. Grilled to order, the tikka comes wrapped up in a little flatbread bundle with raw onion, local rocket (called ‘jarjeer’) and lime wedges to squeeze on top. Be sure to source meat with some fat attached – this truly adds to the whole authentic eating experience. We urge you to give this marinade a go, if not with beef then with lamb, chicken, tofu or meaty mushrooms. Serve this with the roasted potatoes with aïoli (see recipe).</p>
-            <hr/>
-            <div class="checkbox hidden">
-                <input type="checkbox" id="wakelock" name="wakelock"/>
-                <label for="wakelock">Keep Screen On</label>
-            </div>
-
             <h2>Ingredients</h2>
+            <hr/>
+
             <div class="scale-btns">
                 <div class="radio-btn">
                     <input type="radio" name="scale" value="x0.5" id="x0.5"/>
@@ -201,8 +204,8 @@
                 </details>
             </div>
         
-            <hr/>
             <h2>Instructions</h2>
+            <hr/>
             <ol>
                 <li itemprop="recipeInstructions">
                     <input type="checkbox" id="instruction-1" />
@@ -242,6 +245,7 @@
                 </li>
                 </ol>
 
+            
             <hr/>
             <a class="link" href="https://www.goodreads.com/search/search?search_type=books&search[query]=9781529109481" target="_blank">
                 <img src="/covers/ottolenghi-test-kitchen-shelf-love.webp" class="book-cover" alt="Image of Ottolenghi Test Kitchen: Shelf Love book cover.">

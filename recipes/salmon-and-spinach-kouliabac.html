@@ -19,7 +19,7 @@
         <link rel="preload" href="/fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin/>
         <link rel="preload" href="/css/colours.min.css" as="style"/>
         <link rel="stylesheet" type="text/css" href="/css/recipe.min.css"/>
-        <link rel="icon" href="favicon.svg" type="image/svg+xml"/>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
         <script src="/js/scale_timers.min.js"></script>
         <noscript><style type="text/css">.scale-btns,.unit-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
     </head>
@@ -84,15 +84,18 @@
                 Share
             </span>
 
+            <span id="wake" class="recipe-info hidden">
+                <div class="checkbox">
+                    <input type="checkbox" id="wakelock" name="wakelock"/>
+                    <label for="wakelock">Keep Awake</label>
+                </div>
+            </span>
+
             <img itemprop="image" class="recipe-image" src="/images/Salmon_and_spinach_kouliabac.webp" alt="Recipe image" width="512" height="288"/>
             <p itemprop="description">This is a form of wellington, made almost entirely from frozen and store-cupboard ingredients, and is no less impressive for that. You will need thick strips of salmon fillet (rather than any flatter fillets from the tail end of the fish), if you want to shape the lovely ridges across the top of the kouliabac.</p>
-            <hr/>
-            <div class="checkbox hidden">
-                <input type="checkbox" id="wakelock" name="wakelock"/>
-                <label for="wakelock">Keep Screen On</label>
-            </div>
-
             <h2>Ingredients</h2>
+            <hr/>
+
             <div class="scale-btns">
                 <div class="radio-btn">
                     <input type="radio" name="scale" value="x0.5" id="x0.5"/>
@@ -189,8 +192,8 @@
                 </ul>
             </div>
         
-            <hr/>
             <h2>Instructions</h2>
+            <hr/>
             <ol>
                 <li itemprop="recipeInstructions">
                     <input type="checkbox" id="instruction-1" />
@@ -218,6 +221,7 @@
                 </li>
                 </ol>
 
+            
             <hr/>
             <a class="link" href="https://www.goodreads.com/search/search?search_type=books&search[query]=9781787136595" target="_blank">
                 <img src="/covers/foolproof-freezer-60-fuss-free-meals-that-make-the-most-of-your-freezer.webp" class="book-cover" alt="Image of Foolproof Freezer: 60 Fuss-Free Meals that Make the Most of Your Freezer book cover.">

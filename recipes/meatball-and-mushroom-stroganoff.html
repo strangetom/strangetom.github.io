@@ -19,7 +19,7 @@
         <link rel="preload" href="/fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin/>
         <link rel="preload" href="/css/colours.min.css" as="style"/>
         <link rel="stylesheet" type="text/css" href="/css/recipe.min.css"/>
-        <link rel="icon" href="favicon.svg" type="image/svg+xml"/>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
         <script src="/js/scale_timers.min.js"></script>
         <noscript><style type="text/css">.scale-btns,.unit-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
     </head>
@@ -77,15 +77,18 @@
                 Share
             </span>
 
+            <span id="wake" class="recipe-info hidden">
+                <div class="checkbox">
+                    <input type="checkbox" id="wakelock" name="wakelock"/>
+                    <label for="wakelock">Keep Awake</label>
+                </div>
+            </span>
+
             <img itemprop="image" class="recipe-image" src="/images/Meatball_and_mushroom_stroganoff.webp" alt="Recipe image" width="512" height="288"/>
             <p itemprop="description">Who doesn’t love a stroganoff? Even in Iran, due to our close proximity to Russia, we enjoy a good stroganoff. ‘Always with thin, matchstick fries,’ says my mother, as she recounts her memories from her youth in Tehran. I’ve had some really good stroganoffs in my time, from a fantastic one in St Petersburg served with mashed potato, to versions with noodles, and the British interpretation with rice. Each recipe differed wildly and came in various shades from brown and beige to neon orange. This is a simplified version of the classic, and I’ve used meatballs just because they work really well and taste fantastic in the mushroom sauce, making it very nearly as good as the traditional beef steak, served with french fries.</p>
-            <hr/>
-            <div class="checkbox hidden">
-                <input type="checkbox" id="wakelock" name="wakelock"/>
-                <label for="wakelock">Keep Screen On</label>
-            </div>
-
             <h2>Ingredients</h2>
+            <hr/>
+
             <div class="scale-btns">
                 <div class="radio-btn">
                     <input type="radio" name="scale" value="x0.5" id="x0.5"/>
@@ -165,8 +168,8 @@
                 </ul>
             </div>
         
-            <hr/>
             <h2>Instructions</h2>
+            <hr/>
             <ol>
                 <li itemprop="recipeInstructions">
                     <input type="checkbox" id="instruction-1" />
@@ -200,6 +203,7 @@
                 </li>
                 </ol>
 
+            
             <hr/>
             <a class="link" href="https://www.goodreads.com/search/search?search_type=books&search[query]=9781783255146" target="_blank">
                 <img src="/covers/persiana-everyday.webp" class="book-cover" alt="Image of Persiana Everyday book cover.">
