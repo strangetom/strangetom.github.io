@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2023-10-09T11:07:02.905083+00:00</updated>
+  <updated>2023-10-21T17:01:15.765232+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,69 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/sticky-honey-mustard-posh-dogs-with-chips</id>
-    <title>Sticky honey mustard posh dogs with chips</title>
-    <updated>2023-10-09T11:07:02.906822+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sticky honey mustard posh dogs with chips&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/sticky-honey-mustard-posh-dogs-with-chips.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;What's more classic than a hotdog in the summer? Make this crowd pleaser with Jolly Hog sausages coated in a sticky honey mustard glaze, and top with caramelised onions to serve.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/sticky-honey-mustard-posh-dogs-with-chips" rel="alternate"/>
-    <published>2023-09-14T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/sticky-honey-mustard-posh-dogs-with-chips.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/parmesan-chicken-butties-with-red-cabbage-slaw</id>
-    <title>Parmesan chicken butties with red cabbage slaw</title>
-    <updated>2023-10-09T11:07:02.906657+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Parmesan chicken butties with red cabbage slaw&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/parmesan-chicken-butties-with-red-cabbage-slaw.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;You can easily double the quantities for the slaw; it keeps in the fridge for up to four days and is great for impromptu barbecues&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/parmesan-chicken-butties-with-red-cabbage-slaw" rel="alternate"/>
-    <published>2023-09-17T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/parmesan-chicken-butties-with-red-cabbage-slaw.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/salmon-tacos-mediterranean-style</id>
-    <title>Salmon tacos (mediterranean-style)</title>
-    <updated>2023-10-09T11:07:02.906484+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Salmon tacos (mediterranean-style)&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/salmon-tacos-mediterranean-style.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Salmon tacos are made with baked salmon in this easy yet far-from-basic weeknight dinner recipe. Creamy and cooling tzatziki sauce and quick-pickled sumac onions bring the Mediterranean flavor that makes these simple salmon tacos special.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/salmon-tacos-mediterranean-style" rel="alternate"/>
-    <published>2023-09-27T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/salmon-tacos-mediterranean-style.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/the-best-vegan-chow-mein</id>
-    <title>The best vegan chow mein</title>
-    <updated>2023-10-09T11:07:02.906295+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;The best vegan chow mein&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/the-best-vegan-chow-mein.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;To effortlessly serve up this dish that outshines takeout, the secret is having all your vegetables chopped and prepped. Once you begin cooking, this recipe comes together swiftly, and with everything ready, the entire meal flows seamlessly.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/the-best-vegan-chow-mein" rel="alternate"/>
-    <published>2023-09-28T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/the-best-vegan-chow-mein.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/sausage-mustard-apple-hash</id>
     <title>Sausage, mustard &amp; apple hash</title>
-    <updated>2023-10-09T11:07:02.906106+00:00</updated>
+    <updated>2023-10-21T17:01:15.767020+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sausage, mustard &amp; apple hash&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/sausage-mustard-apple-hash.webp" style="text-align:center;"/&gt;
@@ -89,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/creamy-hummus-pasta-bake</id>
     <title>Creamy hummus pasta bake</title>
-    <updated>2023-10-09T11:07:02.905816+00:00</updated>
+    <updated>2023-10-21T17:01:15.766852+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Creamy hummus pasta bake&lt;/h1&gt;
             &lt;br&gt;
             &lt;img src="https://www.strangerfoods.org/images/creamy-hummus-pasta-bake.webp" style="text-align:center;"/&gt;
@@ -99,6 +39,66 @@
     <published>2023-10-04T23:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/creamy-hummus-pasta-bake.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/pork-tenderloin-with-cabbage</id>
+    <title>Pork tenderloin with cabbage</title>
+    <updated>2023-10-21T17:01:15.766673+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pork tenderloin with cabbage&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/pork-tenderloin-with-cabbage.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;This pork tenderloin with cabbage is the perfect autumn dinner.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/pork-tenderloin-with-cabbage" rel="alternate"/>
+    <published>2023-10-08T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/pork-tenderloin-with-cabbage.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/corn-ish-pie</id>
+    <title>Corn-ish pie</title>
+    <updated>2023-10-21T17:01:15.766455+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Corn-ish pie&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/corn-ish-pie.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/corn-ish-pie" rel="alternate"/>
+    <published>2023-10-12T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/corn-ish-pie.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/lavash-bread</id>
+    <title>Lavash bread</title>
+    <updated>2023-10-21T17:01:15.766266+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lavash bread&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/lavash-bread.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;Lavash is a paper-thin, pillowy-soft flatbread that's a beloved staple of Middle Eastern cuisine. I've adapted the traditional Armenian method to make a lavash recipe that's easy to accomplish at home. Tender and fragrant, this versatile flatbread is perfect for wraps, dips, alongside soup, meat, fish and more.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/lavash-bread" rel="alternate"/>
+    <published>2023-10-15T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/lavash-bread.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/chorizo-potato-sweetcorn-tomato-and-onion-traybake</id>
+    <title>Chorizo, potato, sweetcorn, tomato &amp; onion traybake</title>
+    <updated>2023-10-21T17:01:15.765985+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chorizo, potato, sweetcorn, tomato &amp; onion traybake&lt;/h1&gt;
+            &lt;br&gt;
+            &lt;img src="https://www.strangerfoods.org/images/chorizo-potato-sweetcorn-tomato-and-onion-traybake.webp" style="text-align:center;"/&gt;
+            &lt;br&gt;
+            &lt;p style="font-family:sans-serif;&gt;This recipe is a combination of some of my favourite ingredients simply thrown together and baked in one tray. Isn’t that how some of the best recipes in the world are born? It’s sweet, savoury, juicy, meaty, soft and salty all at once – a riot of flavour. Just try it.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/chorizo-potato-sweetcorn-tomato-and-onion-traybake" rel="alternate"/>
+    <published>2023-10-18T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/chorizo-potato-sweetcorn-tomato-and-onion-traybake.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
