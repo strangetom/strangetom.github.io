@@ -14,14 +14,14 @@
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:title" content="Chorizo & chickpea stew | Stranger Foods"/>
         <meta name="twitter:description" content="Chorizo & chickpea stew"/>     
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-SKNntjR/YEmnQyV505Tu9Lq6l/H78s9kzRcKiOxewhM='; script-src 'self';"/>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-nmzy2DG24X8KUJXizq6xugo0xzFj7WRa7FdbzEzw/cE='; script-src 'self';"/>
         <title>Chorizo & chickpea stew | Stranger Foods</title>
         <link rel="preload" href="/fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin/>
         <link rel="preload" href="/css/colours.min.css" as="style"/>
         <link rel="stylesheet" type="text/css" href="/css/recipe.min.css"/>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
         <script src="/js/scale_timers.min.js"></script>
-        <noscript><style type="text/css">.scale-btns,.unit-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns,.unit-btns,.temp-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
     </head>
     <body class="Pork" itemscope itemtype="https://schema.org/Recipe">
 
@@ -170,6 +170,24 @@
         
             <h2>Instructions</h2>
             <hr/>
+
+            <div class="temp-btns">
+                <div class="radio-btn">
+                    <input type="radio" name="temp" value="C" id="C" checked/>
+                    <label for="C">&deg;C</label>
+                </div>
+                <div class="radio-btn">
+                    <input type="radio" name="temp" value="F" id="F"/>
+                    <label for="C">&deg;F</label>
+                </div>
+            </div>
+            <span id="show-amounts" class="recipe-info hidden">
+                <div class="checkbox">
+                    <input type="checkbox" id="amounts" name="amounts"/>
+                    <label for="amounts">Inline Amounts</label>
+                </div>
+            </span>
+            
             <ol>
                 <li itemprop="recipeInstructions">
                     <input type="checkbox" id="instruction-1" />

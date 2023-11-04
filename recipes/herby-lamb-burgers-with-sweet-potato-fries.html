@@ -14,14 +14,14 @@
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:title" content="Herby lamb burgers with sweet potato fries | Stranger Foods"/>
         <meta name="twitter:description" content="Herby lamb burgers with sweet potato fries"/>     
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-SKNntjR/YEmnQyV505Tu9Lq6l/H78s9kzRcKiOxewhM='; script-src 'self';"/>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-nmzy2DG24X8KUJXizq6xugo0xzFj7WRa7FdbzEzw/cE='; script-src 'self';"/>
         <title>Herby lamb burgers with sweet potato fries | Stranger Foods</title>
         <link rel="preload" href="/fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin/>
         <link rel="preload" href="/css/colours.min.css" as="style"/>
         <link rel="stylesheet" type="text/css" href="/css/recipe.min.css"/>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
         <script src="/js/scale_timers.min.js"></script>
-        <noscript><style type="text/css">.scale-btns,.unit-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns,.unit-btns,.temp-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
     </head>
     <body class="RedMeat" itemscope itemtype="https://schema.org/Recipe">
 
@@ -164,11 +164,29 @@
         
             <h2>Instructions</h2>
             <hr/>
+
+            <div class="temp-btns">
+                <div class="radio-btn">
+                    <input type="radio" name="temp" value="C" id="C" checked/>
+                    <label for="C">&deg;C</label>
+                </div>
+                <div class="radio-btn">
+                    <input type="radio" name="temp" value="F" id="F"/>
+                    <label for="C">&deg;F</label>
+                </div>
+            </div>
+            <span id="show-amounts" class="recipe-info hidden">
+                <div class="checkbox">
+                    <input type="checkbox" id="amounts" name="amounts"/>
+                    <label for="amounts">Inline Amounts</label>
+                </div>
+            </span>
+            
             <ol>
                 <li itemprop="recipeInstructions">
                     <input type="checkbox" id="instruction-1" />
                     <label for="instruction-1">
-                        Heat oven to <b>200</b>&deg;C/gas <b>6</b>. In a large bowl, toss the sweet potato chips with oil and soy sauce. Transfer to a shallow roasting tin and season with black pepper. Bake for <button class="toast-btn" data-time="1800" data-label="" title="Start timer"><svg width="16" height="16" class="toast-btn-icon" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></button><b>30-40</b> mins, until crisp.  
+                        Heat oven to <span class="temperature" data-value="200" data-unit="C"><b>200</b>&deg;C</span>/gas <b>6</b>. In a large bowl, toss the sweet potato chips with oil and soy sauce. Transfer to a shallow roasting tin and season with black pepper. Bake for <button class="toast-btn" data-time="1800" data-label="" title="Start timer"><svg width="16" height="16" class="toast-btn-icon" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></button><b>30-40</b> mins, until crisp.  
                     </label>
                 </li>
                 <li itemprop="recipeInstructions">

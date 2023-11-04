@@ -14,14 +14,14 @@
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:title" content="Oven fried fish fillets | Stranger Foods"/>
         <meta name="twitter:description" content="Oven fried fish fillets"/>     
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-SKNntjR/YEmnQyV505Tu9Lq6l/H78s9kzRcKiOxewhM='; script-src 'self';"/>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-nmzy2DG24X8KUJXizq6xugo0xzFj7WRa7FdbzEzw/cE='; script-src 'self';"/>
         <title>Oven fried fish fillets | Stranger Foods</title>
         <link rel="preload" href="/fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin/>
         <link rel="preload" href="/css/colours.min.css" as="style"/>
         <link rel="stylesheet" type="text/css" href="/css/recipe.min.css"/>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
         <script src="/js/scale_timers.min.js"></script>
-        <noscript><style type="text/css">.scale-btns,.unit-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
+        <noscript><style type="text/css">.scale-btns,.unit-btns,.temp-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
     </head>
     <body class="Seafood" itemscope itemtype="https://schema.org/Recipe">
 
@@ -186,6 +186,24 @@ very few bones, making them easy for kids as well as adults to eat and enjoy.</p
         
             <h2>Instructions</h2>
             <hr/>
+
+            <div class="temp-btns">
+                <div class="radio-btn">
+                    <input type="radio" name="temp" value="C" id="C" checked/>
+                    <label for="C">&deg;C</label>
+                </div>
+                <div class="radio-btn">
+                    <input type="radio" name="temp" value="F" id="F"/>
+                    <label for="C">&deg;F</label>
+                </div>
+            </div>
+            <span id="show-amounts" class="recipe-info hidden">
+                <div class="checkbox">
+                    <input type="checkbox" id="amounts" name="amounts"/>
+                    <label for="amounts">Inline Amounts</label>
+                </div>
+            </span>
+            
             <ol>
                 <li itemprop="recipeInstructions">
                     <input type="checkbox" id="instruction-1" />
@@ -196,7 +214,7 @@ very few bones, making them easy for kids as well as adults to eat and enjoy.</p
                 <li itemprop="recipeInstructions">
                     <input type="checkbox" id="instruction-2" />
                     <label for="instruction-2">
-                        Preheat the oven to <b>205</b>&deg;C. Grease a baking sheet with the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">butter</span>. 
+                        Preheat the oven to <span class="temperature" data-value="205" data-unit="C"><b>205</b>&deg;C</span>. Grease a baking sheet with the <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">butter</span>. 
                     </label>
                 </li>
                 <li itemprop="recipeInstructions">

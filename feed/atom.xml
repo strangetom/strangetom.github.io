@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2023-10-21T17:01:15.765232+00:00</updated>
+  <updated>2023-11-04T14:05:49.367506+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,44 +12,14 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/sausage-mustard-apple-hash</id>
-    <title>Sausage, mustard &amp; apple hash</title>
-    <updated>2023-10-21T17:01:15.767020+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sausage, mustard &amp; apple hash&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/sausage-mustard-apple-hash.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Looking for a healthy dish that's good for your wallet too? This sausage, mustard &amp; apple hash costs less than $1 per serving and is perfect for a family&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/sausage-mustard-apple-hash" rel="alternate"/>
-    <published>2023-10-04T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/sausage-mustard-apple-hash.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/creamy-hummus-pasta-bake</id>
-    <title>Creamy hummus pasta bake</title>
-    <updated>2023-10-21T17:01:15.766852+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Creamy hummus pasta bake&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/creamy-hummus-pasta-bake.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;This pasta recipe is rich and creamy, and easy to whip together. It comes together with under 10 ingredients, and makes use of hummus to both flavour and add a wonderful creaminess to the sauce. The recipe is a forgiving one, so toss in whatever veggies you have in the fridge, and enjoy!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/creamy-hummus-pasta-bake" rel="alternate"/>
-    <published>2023-10-04T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/creamy-hummus-pasta-bake.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/pork-tenderloin-with-cabbage</id>
     <title>Pork tenderloin with cabbage</title>
-    <updated>2023-10-21T17:01:15.766673+00:00</updated>
+    <updated>2023-11-04T14:05:49.368984+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pork tenderloin with cabbage&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/pork-tenderloin-with-cabbage.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;This pork tenderloin with cabbage is the perfect autumn dinner.&lt;/p&gt;</content>
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/pork-tenderloin-with-cabbage.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This pork tenderloin with cabbage is the perfect autumn dinner.&lt;/p&gt;</content>
     <link href="https://www.strangerfoods.org/recipes/pork-tenderloin-with-cabbage" rel="alternate"/>
     <published>2023-10-08T23:00:00+00:00</published>
     <media:group>
@@ -59,12 +29,12 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/corn-ish-pie</id>
     <title>Corn-ish pie</title>
-    <updated>2023-10-21T17:01:15.766455+00:00</updated>
+    <updated>2023-11-04T14:05:49.368830+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Corn-ish pie&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/corn-ish-pie.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/corn-ish-pie.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
     <link href="https://www.strangerfoods.org/recipes/corn-ish-pie" rel="alternate"/>
     <published>2023-10-12T23:00:00+00:00</published>
     <media:group>
@@ -74,12 +44,12 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/lavash-bread</id>
     <title>Lavash bread</title>
-    <updated>2023-10-21T17:01:15.766266+00:00</updated>
+    <updated>2023-11-04T14:05:49.368718+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lavash bread&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/lavash-bread.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;Lavash is a paper-thin, pillowy-soft flatbread that's a beloved staple of Middle Eastern cuisine. I've adapted the traditional Armenian method to make a lavash recipe that's easy to accomplish at home. Tender and fragrant, this versatile flatbread is perfect for wraps, dips, alongside soup, meat, fish and more.&lt;/p&gt;</content>
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/lavash-bread.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Lavash is a paper-thin, pillowy-soft flatbread that's a beloved staple of Middle Eastern cuisine. I've adapted the traditional Armenian method to make a lavash recipe that's easy to accomplish at home. Tender and fragrant, this versatile flatbread is perfect for wraps, dips, alongside soup, meat, fish and more.&lt;/p&gt;</content>
     <link href="https://www.strangerfoods.org/recipes/lavash-bread" rel="alternate"/>
     <published>2023-10-15T23:00:00+00:00</published>
     <media:group>
@@ -89,16 +59,46 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/chorizo-potato-sweetcorn-tomato-and-onion-traybake</id>
     <title>Chorizo, potato, sweetcorn, tomato &amp; onion traybake</title>
-    <updated>2023-10-21T17:01:15.765985+00:00</updated>
+    <updated>2023-11-04T14:05:49.368600+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chorizo, potato, sweetcorn, tomato &amp; onion traybake&lt;/h1&gt;
-            &lt;br&gt;
-            &lt;img src="https://www.strangerfoods.org/images/chorizo-potato-sweetcorn-tomato-and-onion-traybake.webp" style="text-align:center;"/&gt;
-            &lt;br&gt;
-            &lt;p style="font-family:sans-serif;&gt;This recipe is a combination of some of my favourite ingredients simply thrown together and baked in one tray. Isn’t that how some of the best recipes in the world are born? It’s sweet, savoury, juicy, meaty, soft and salty all at once – a riot of flavour. Just try it.&lt;/p&gt;</content>
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/chorizo-potato-sweetcorn-tomato-and-onion-traybake.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This recipe is a combination of some of my favourite ingredients simply thrown together and baked in one tray. Isn’t that how some of the best recipes in the world are born? It’s sweet, savoury, juicy, meaty, soft and salty all at once – a riot of flavour. Just try it.&lt;/p&gt;</content>
     <link href="https://www.strangerfoods.org/recipes/chorizo-potato-sweetcorn-tomato-and-onion-traybake" rel="alternate"/>
     <published>2023-10-18T23:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/chorizo-potato-sweetcorn-tomato-and-onion-traybake.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/basil-parmesan-chicken-and-rice-with-tomatoes</id>
+    <title>Basil-parmesan chicken and rice with tomatoes</title>
+    <updated>2023-11-04T14:05:49.368432+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Basil-parmesan chicken and rice with tomatoes&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/basil-parmesan-chicken-and-rice-with-tomatoes.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This basil-Parmesan chicken and rice with tomatoes is a dinner that's perfect for any day of the week.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/basil-parmesan-chicken-and-rice-with-tomatoes" rel="alternate"/>
+    <published>2023-10-24T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/basil-parmesan-chicken-and-rice-with-tomatoes.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/smoky-rice-with-black-beans-feta-corn-and-salsa</id>
+    <title>Smoky rice with black beans, feta, corn &amp; salsa</title>
+    <updated>2023-11-04T14:05:49.368139+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Smoky rice with black beans, feta, corn &amp; salsa&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/smoky-rice-with-black-beans-feta-corn-and-salsa.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This is a recipe of two halves: baked fragrant basmati rice combined with a raw and punchy salsa. This vibrant dish makes for a perfect summer lunch or light dinner.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/smoky-rice-with-black-beans-feta-corn-and-salsa" rel="alternate"/>
+    <published>2023-10-25T23:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/smoky-rice-with-black-beans-feta-corn-and-salsa.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
