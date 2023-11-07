@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2023-11-04T14:05:49.367506+00:00</updated>
+  <updated>2023-11-07T17:17:01.526911+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,39 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/pork-tenderloin-with-cabbage</id>
-    <title>Pork tenderloin with cabbage</title>
-    <updated>2023-11-04T14:05:49.368984+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pork tenderloin with cabbage&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/pork-tenderloin-with-cabbage.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This pork tenderloin with cabbage is the perfect autumn dinner.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/pork-tenderloin-with-cabbage" rel="alternate"/>
-    <published>2023-10-08T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/pork-tenderloin-with-cabbage.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/corn-ish-pie</id>
-    <title>Corn-ish pie</title>
-    <updated>2023-11-04T14:05:49.368830+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Corn-ish pie&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/corn-ish-pie.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/corn-ish-pie" rel="alternate"/>
-    <published>2023-10-12T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/corn-ish-pie.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/lavash-bread</id>
     <title>Lavash bread</title>
-    <updated>2023-11-04T14:05:49.368718+00:00</updated>
+    <updated>2023-11-07T17:17:01.528877+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lavash bread&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/lavash-bread.webp" style="text-align:center;"/&gt;
@@ -59,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/chorizo-potato-sweetcorn-tomato-and-onion-traybake</id>
     <title>Chorizo, potato, sweetcorn, tomato &amp; onion traybake</title>
-    <updated>2023-11-04T14:05:49.368600+00:00</updated>
+    <updated>2023-11-07T17:17:01.528769+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chorizo, potato, sweetcorn, tomato &amp; onion traybake&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/chorizo-potato-sweetcorn-tomato-and-onion-traybake.webp" style="text-align:center;"/&gt;
@@ -74,7 +44,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/basil-parmesan-chicken-and-rice-with-tomatoes</id>
     <title>Basil-parmesan chicken and rice with tomatoes</title>
-    <updated>2023-11-04T14:05:49.368432+00:00</updated>
+    <updated>2023-11-07T17:17:01.528656+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Basil-parmesan chicken and rice with tomatoes&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/basil-parmesan-chicken-and-rice-with-tomatoes.webp" style="text-align:center;"/&gt;
@@ -89,7 +59,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/smoky-rice-with-black-beans-feta-corn-and-salsa</id>
     <title>Smoky rice with black beans, feta, corn &amp; salsa</title>
-    <updated>2023-11-04T14:05:49.368139+00:00</updated>
+    <updated>2023-11-07T17:17:01.528532+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Smoky rice with black beans, feta, corn &amp; salsa&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/smoky-rice-with-black-beans-feta-corn-and-salsa.webp" style="text-align:center;"/&gt;
@@ -99,6 +69,36 @@
     <published>2023-10-25T23:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/smoky-rice-with-black-beans-feta-corn-and-salsa.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/zanzibari-curry-with-date-chutney</id>
+    <title>Zanzibari curry with date chutney</title>
+    <updated>2023-11-07T17:17:01.528405+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Zanzibari curry with date chutney&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/zanzibari-curry-with-date-chutney.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Zanzibar was once the biggest producer of cloves in the world and cloves are still a key flavour in the local cuisine. Here they're used in a fragrant clove masala which is added at the end of cooking to give a lovely depth of flavour.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/zanzibari-curry-with-date-chutney" rel="alternate"/>
+    <published>2023-11-02T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/zanzibari-curry-with-date-chutney.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/ethopian-doro-wat</id>
+    <title>Ethopian doro wat</title>
+    <updated>2023-11-07T17:17:01.528202+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Ethopian doro wat&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/ethopian-doro-wat.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This recipe is a traditional Ethiopian stew, with a rich sauce that's really fragrant and satisfying.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/ethopian-doro-wat" rel="alternate"/>
+    <published>2023-11-02T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/ethopian-doro-wat.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>

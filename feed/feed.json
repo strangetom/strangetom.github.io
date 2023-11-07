@@ -12,6 +12,24 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/ethopian-doro-wat",
+      "url": "https://www.strangerfoods.org/recipes/ethopian-doro-wat",
+      "title": "Ethopian doro wat",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Ethopian doro wat</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/ethopian-doro-wat.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This recipe is a traditional Ethiopian stew, with a rich sauce that's really fragrant and satisfying.</p>",
+      "image": "https://www.strangerfoods.org/images/ethopian-doro-wat.webp",
+      "date_published": "2023-11-02T00:00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/zanzibari-curry-with-date-chutney",
+      "url": "https://www.strangerfoods.org/recipes/zanzibari-curry-with-date-chutney",
+      "title": "Zanzibari curry with date chutney",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Zanzibari curry with date chutney</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/zanzibari-curry-with-date-chutney.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Zanzibar was once the biggest producer of cloves in the world and cloves are still a key flavour in the local cuisine. Here they're used in a fragrant clove masala which is added at the end of cooking to give a lovely depth of flavour.</p>",
+      "image": "https://www.strangerfoods.org/images/zanzibari-curry-with-date-chutney.webp",
+      "date_published": "2023-11-02T00:00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/smoky-rice-with-black-beans-feta-corn-and-salsa",
       "url": "https://www.strangerfoods.org/recipes/smoky-rice-with-black-beans-feta-corn-and-salsa",
       "title": "Smoky rice with black beans, feta, corn & salsa",
@@ -45,24 +63,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Lavash bread</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/lavash-bread.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Lavash is a paper-thin, pillowy-soft flatbread that's a beloved staple of Middle Eastern cuisine. I've adapted the traditional Armenian method to make a lavash recipe that's easy to accomplish at home. Tender and fragrant, this versatile flatbread is perfect for wraps, dips, alongside soup, meat, fish and more.</p>",
       "image": "https://www.strangerfoods.org/images/lavash-bread.webp",
       "date_published": "2023-10-16T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/corn-ish-pie",
-      "url": "https://www.strangerfoods.org/recipes/corn-ish-pie",
-      "title": "Corn-ish pie",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Corn-ish pie</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/corn-ish-pie.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;></p>",
-      "image": "https://www.strangerfoods.org/images/corn-ish-pie.webp",
-      "date_published": "2023-10-13T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/pork-tenderloin-with-cabbage",
-      "url": "https://www.strangerfoods.org/recipes/pork-tenderloin-with-cabbage",
-      "title": "Pork tenderloin with cabbage",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Pork tenderloin with cabbage</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/pork-tenderloin-with-cabbage.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This pork tenderloin with cabbage is the perfect autumn dinner.</p>",
-      "image": "https://www.strangerfoods.org/images/pork-tenderloin-with-cabbage.webp",
-      "date_published": "2023-10-09T00:00:00Z",
       "language": "en"
     }
   ]

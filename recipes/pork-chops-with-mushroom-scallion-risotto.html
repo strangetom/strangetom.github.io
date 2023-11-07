@@ -89,32 +89,34 @@
             <h2>Ingredients</h2>
             <hr/>
 
-            <div class="scale-btns">
-                <div class="radio-btn">
-                    <input type="radio" name="scale" value="x0.5" id="x0.5"/>
-                    <label for="x0.5">x0.5</label>
+            <div class="controls">
+                <div class="scale-btns">
+                    <div class="radio-btn">
+                        <input type="radio" name="scale" value="x0.5" id="x0.5"/>
+                        <label for="x0.5">x0.5</label>
+                    </div>
+                    <div class="radio-btn">
+                        <input type="radio" name="scale" value="x1" id="x1" checked/>
+                        <label for="x1">x1</label>
+                    </div>
+                    <div class="radio-btn">
+                        <input type="radio" name="scale" value="x2" id="x2"/>
+                        <label for="x2">x2</label>
+                    </div>
+                    <div class="radio-btn">
+                        <input type="radio" name="scale" value="x3" id="x3"/>
+                        <label for="x3">x3</label>
+                    </div>
                 </div>
-                <div class="radio-btn">
-                    <input type="radio" name="scale" value="x1" id="x1" checked/>
-                    <label for="x1">x1</label>
-                </div>
-                <div class="radio-btn">
-                    <input type="radio" name="scale" value="x2" id="x2"/>
-                    <label for="x2">x2</label>
-                </div>
-                <div class="radio-btn">
-                    <input type="radio" name="scale" value="x3" id="x3"/>
-                    <label for="x3">x3</label>
-                </div>
-            </div>
-            <div class="unit-btns">
-                <div class="radio-btn">
-                    <input type="radio" name="units" value="metric" id="metric" />
-                    <label for="metric">Metric</label>
-                </div>
-                <div class="radio-btn">
-                    <input type="radio" name="units" value="imperial" id="imperial" checked/>
-                    <label for="imperial">Imperial</label>
+                <div class="unit-btns">
+                    <div class="radio-btn">
+                        <input type="radio" name="units" value="metric" id="metric" />
+                        <label for="metric">Metric</label>
+                    </div>
+                    <div class="radio-btn">
+                        <input type="radio" name="units" value="imperial" id="imperial" checked/>
+                        <label for="imperial">Imperial</label>
+                    </div>
                 </div>
             </div>
             <div>
@@ -181,22 +183,24 @@
             <h2>Instructions</h2>
             <hr/>
 
-            <div class="temp-btns">
-                <div class="radio-btn">
-                    <input type="radio" name="temp" value="C" id="C" checked/>
-                    <label for="C">&deg;C</label>
+            <div class="controls">
+                <div class="temp-btns">
+                    <div class="radio-btn">
+                        <input type="radio" name="temp" value="C" id="C" checked/>
+                        <label for="C">°C</label>
+                    </div>
+                    <div class="radio-btn">
+                        <input type="radio" name="temp" value="F" id="F"/>
+                        <label for="C">°F</label>
+                    </div>
                 </div>
-                <div class="radio-btn">
-                    <input type="radio" name="temp" value="F" id="F"/>
-                    <label for="C">&deg;F</label>
-                </div>
+                <span id="show-amounts" class="recipe-info hidden">
+                    <div class="checkbox">
+                        <input type="checkbox" id="amounts" name="amounts"/>
+                        <label for="amounts">Inline Amounts</label>
+                    </div>
+                </span>
             </div>
-            <span id="show-amounts" class="recipe-info hidden">
-                <div class="checkbox">
-                    <input type="checkbox" id="amounts" name="amounts"/>
-                    <label for="amounts">Inline Amounts</label>
-                </div>
-            </span>
             
             <ol>
                 <li itemprop="recipeInstructions">
