@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2023-11-07T17:17:01.526911+00:00</updated>
+  <updated>2023-11-07T20:47:11.451122+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/lavash-bread</id>
     <title>Lavash bread</title>
-    <updated>2023-11-07T17:17:01.528877+00:00</updated>
+    <updated>2023-11-07T20:47:11.452727+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lavash bread&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/lavash-bread.webp" style="text-align:center;"/&gt;
@@ -29,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/chorizo-potato-sweetcorn-tomato-and-onion-traybake</id>
     <title>Chorizo, potato, sweetcorn, tomato &amp; onion traybake</title>
-    <updated>2023-11-07T17:17:01.528769+00:00</updated>
+    <updated>2023-11-07T20:47:11.452614+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chorizo, potato, sweetcorn, tomato &amp; onion traybake&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/chorizo-potato-sweetcorn-tomato-and-onion-traybake.webp" style="text-align:center;"/&gt;
@@ -44,7 +44,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/basil-parmesan-chicken-and-rice-with-tomatoes</id>
     <title>Basil-parmesan chicken and rice with tomatoes</title>
-    <updated>2023-11-07T17:17:01.528656+00:00</updated>
+    <updated>2023-11-07T20:47:11.452448+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Basil-parmesan chicken and rice with tomatoes&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/basil-parmesan-chicken-and-rice-with-tomatoes.webp" style="text-align:center;"/&gt;
@@ -59,7 +59,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/smoky-rice-with-black-beans-feta-corn-and-salsa</id>
     <title>Smoky rice with black beans, feta, corn &amp; salsa</title>
-    <updated>2023-11-07T17:17:01.528532+00:00</updated>
+    <updated>2023-11-07T20:47:11.452272+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Smoky rice with black beans, feta, corn &amp; salsa&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/smoky-rice-with-black-beans-feta-corn-and-salsa.webp" style="text-align:center;"/&gt;
@@ -74,7 +74,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/zanzibari-curry-with-date-chutney</id>
     <title>Zanzibari curry with date chutney</title>
-    <updated>2023-11-07T17:17:01.528405+00:00</updated>
+    <updated>2023-11-07T20:47:11.452067+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Zanzibari curry with date chutney&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/zanzibari-curry-with-date-chutney.webp" style="text-align:center;"/&gt;
@@ -89,7 +89,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/ethopian-doro-wat</id>
     <title>Ethopian doro wat</title>
-    <updated>2023-11-07T17:17:01.528202+00:00</updated>
+    <updated>2023-11-07T20:47:11.451757+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Ethopian doro wat&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/ethopian-doro-wat.webp" style="text-align:center;"/&gt;
