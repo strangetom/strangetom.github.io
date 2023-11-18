@@ -12,6 +12,15 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/cajun-blackened-chicken-with-dirty-rice",
+      "url": "https://www.strangerfoods.org/recipes/cajun-blackened-chicken-with-dirty-rice",
+      "title": "Cajun blackened chicken with dirty rice",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Cajun blackened chicken with dirty rice</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/cajun-blackened-chicken-with-dirty-rice.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>\"Blackening\" is a modern technique associated with Cajun cookery and involves the caramelisation of spices on the outside of the chicken of fish to provide a delicious edible crust. The chicken is served two Cajun staples - a fiery hot sauce and dirty rice (a delicious concoction of rice, vegetables and traditionally chicken liver or sausage).</p>",
+      "image": "https://www.strangerfoods.org/images/cajun-blackened-chicken-with-dirty-rice.webp",
+      "date_published": "2023-11-13T00:00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/mangalore-curry-with-kosambari",
       "url": "https://www.strangerfoods.org/recipes/mangalore-curry-with-kosambari",
       "title": "Mangalore curry with kosambari",
@@ -54,15 +63,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Smoky rice with black beans, feta, corn & salsa</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/smoky-rice-with-black-beans-feta-corn-and-salsa.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This is a recipe of two halves: baked fragrant basmati rice combined with a raw and punchy salsa. This vibrant dish makes for a perfect summer lunch or light dinner.</p>",
       "image": "https://www.strangerfoods.org/images/smoky-rice-with-black-beans-feta-corn-and-salsa.webp",
       "date_published": "2023-10-26T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/basil-parmesan-chicken-and-rice-with-tomatoes",
-      "url": "https://www.strangerfoods.org/recipes/basil-parmesan-chicken-and-rice-with-tomatoes",
-      "title": "Basil-parmesan chicken and rice with tomatoes",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Basil-parmesan chicken and rice with tomatoes</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/basil-parmesan-chicken-and-rice-with-tomatoes.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This basil-Parmesan chicken and rice with tomatoes is a dinner that's perfect for any day of the week.</p>",
-      "image": "https://www.strangerfoods.org/images/basil-parmesan-chicken-and-rice-with-tomatoes.webp",
-      "date_published": "2023-10-25T00:00:00Z",
       "language": "en"
     }
   ]
