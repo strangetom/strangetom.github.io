@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2023-11-07T20:47:11.451122+00:00</updated>
+  <updated>2023-11-18T17:35:36.349511+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,46 +12,16 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/lavash-bread</id>
-    <title>Lavash bread</title>
-    <updated>2023-11-07T20:47:11.452727+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lavash bread&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/lavash-bread.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Lavash is a paper-thin, pillowy-soft flatbread that's a beloved staple of Middle Eastern cuisine. I've adapted the traditional Armenian method to make a lavash recipe that's easy to accomplish at home. Tender and fragrant, this versatile flatbread is perfect for wraps, dips, alongside soup, meat, fish and more.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/lavash-bread" rel="alternate"/>
-    <published>2023-10-15T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/lavash-bread.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/chorizo-potato-sweetcorn-tomato-and-onion-traybake</id>
-    <title>Chorizo, potato, sweetcorn, tomato &amp; onion traybake</title>
-    <updated>2023-11-07T20:47:11.452614+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chorizo, potato, sweetcorn, tomato &amp; onion traybake&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/chorizo-potato-sweetcorn-tomato-and-onion-traybake.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This recipe is a combination of some of my favourite ingredients simply thrown together and baked in one tray. Isn’t that how some of the best recipes in the world are born? It’s sweet, savoury, juicy, meaty, soft and salty all at once – a riot of flavour. Just try it.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/chorizo-potato-sweetcorn-tomato-and-onion-traybake" rel="alternate"/>
-    <published>2023-10-18T23:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/chorizo-potato-sweetcorn-tomato-and-onion-traybake.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/basil-parmesan-chicken-and-rice-with-tomatoes</id>
     <title>Basil-parmesan chicken and rice with tomatoes</title>
-    <updated>2023-11-07T20:47:11.452448+00:00</updated>
+    <updated>2023-11-18T17:35:36.352287+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Basil-parmesan chicken and rice with tomatoes&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/basil-parmesan-chicken-and-rice-with-tomatoes.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
         &lt;p style="font-family:sans-serif;&gt;This basil-Parmesan chicken and rice with tomatoes is a dinner that's perfect for any day of the week.&lt;/p&gt;</content>
     <link href="https://www.strangerfoods.org/recipes/basil-parmesan-chicken-and-rice-with-tomatoes" rel="alternate"/>
-    <published>2023-10-24T23:00:00+00:00</published>
+    <published>2023-10-25T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/basil-parmesan-chicken-and-rice-with-tomatoes.webp" height="288" width="512" time="0"/>
     </media:group>
@@ -59,14 +29,14 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/smoky-rice-with-black-beans-feta-corn-and-salsa</id>
     <title>Smoky rice with black beans, feta, corn &amp; salsa</title>
-    <updated>2023-11-07T20:47:11.452272+00:00</updated>
+    <updated>2023-11-18T17:35:36.352074+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Smoky rice with black beans, feta, corn &amp; salsa&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/smoky-rice-with-black-beans-feta-corn-and-salsa.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
         &lt;p style="font-family:sans-serif;&gt;This is a recipe of two halves: baked fragrant basmati rice combined with a raw and punchy salsa. This vibrant dish makes for a perfect summer lunch or light dinner.&lt;/p&gt;</content>
     <link href="https://www.strangerfoods.org/recipes/smoky-rice-with-black-beans-feta-corn-and-salsa" rel="alternate"/>
-    <published>2023-10-25T23:00:00+00:00</published>
+    <published>2023-10-26T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/smoky-rice-with-black-beans-feta-corn-and-salsa.webp" height="288" width="512" time="0"/>
     </media:group>
@@ -74,7 +44,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/zanzibari-curry-with-date-chutney</id>
     <title>Zanzibari curry with date chutney</title>
-    <updated>2023-11-07T20:47:11.452067+00:00</updated>
+    <updated>2023-11-18T17:35:36.351850+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Zanzibari curry with date chutney&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/zanzibari-curry-with-date-chutney.webp" style="text-align:center;"/&gt;
@@ -89,7 +59,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/ethopian-doro-wat</id>
     <title>Ethopian doro wat</title>
-    <updated>2023-11-07T20:47:11.451757+00:00</updated>
+    <updated>2023-11-18T17:35:36.351611+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Ethopian doro wat&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/ethopian-doro-wat.webp" style="text-align:center;"/&gt;
@@ -99,6 +69,36 @@
     <published>2023-11-02T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/ethopian-doro-wat.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/creamy-roasted-red-pepper-rigatoni-pasta</id>
+    <title>Creamy roasted red pepper rigatoni pasta</title>
+    <updated>2023-11-18T17:35:36.351313+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Creamy roasted red pepper rigatoni pasta&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/creamy-roasted-red-pepper-rigatoni-pasta.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;With just five ingredients, dinner doesn't get easier or more delicious than this creamy roasted red pepper rigatoni pasta. If you've got ten minutes and can open a jar, you can make this tonight.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/creamy-roasted-red-pepper-rigatoni-pasta" rel="alternate"/>
+    <published>2023-11-06T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/creamy-roasted-red-pepper-rigatoni-pasta.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/mangalore-curry-with-kosambari</id>
+    <title>Mangalore curry with kosambari</title>
+    <updated>2023-11-18T17:35:36.350919+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Mangalore curry with kosambari&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/mangalore-curry-with-kosambari.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This curry is from Mangalore on the rugged west coast of India where seafood, coconut and rice are the stable foods. In the fish curries of the region a souring agent is always added - in this recipe we're using kokum, a mangosteen fruit that's been salted and dried and gives a subtle fruit acidity to the sauce. The curry is delicious served here with rice and a fresh, crunchy salad known as kosambari.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/mangalore-curry-with-kosambari" rel="alternate"/>
+    <published>2023-11-07T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/mangalore-curry-with-kosambari.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>

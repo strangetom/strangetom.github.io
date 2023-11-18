@@ -12,6 +12,24 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/mangalore-curry-with-kosambari",
+      "url": "https://www.strangerfoods.org/recipes/mangalore-curry-with-kosambari",
+      "title": "Mangalore curry with kosambari",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Mangalore curry with kosambari</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/mangalore-curry-with-kosambari.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This curry is from Mangalore on the rugged west coast of India where seafood, coconut and rice are the stable foods. In the fish curries of the region a souring agent is always added - in this recipe we're using kokum, a mangosteen fruit that's been salted and dried and gives a subtle fruit acidity to the sauce. The curry is delicious served here with rice and a fresh, crunchy salad known as kosambari.</p>",
+      "image": "https://www.strangerfoods.org/images/mangalore-curry-with-kosambari.webp",
+      "date_published": "2023-11-07T00:00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/creamy-roasted-red-pepper-rigatoni-pasta",
+      "url": "https://www.strangerfoods.org/recipes/creamy-roasted-red-pepper-rigatoni-pasta",
+      "title": "Creamy roasted red pepper rigatoni pasta",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Creamy roasted red pepper rigatoni pasta</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/creamy-roasted-red-pepper-rigatoni-pasta.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>With just five ingredients, dinner doesn't get easier or more delicious than this creamy roasted red pepper rigatoni pasta. If you've got ten minutes and can open a jar, you can make this tonight.</p>",
+      "image": "https://www.strangerfoods.org/images/creamy-roasted-red-pepper-rigatoni-pasta.webp",
+      "date_published": "2023-11-06T00:00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/ethopian-doro-wat",
       "url": "https://www.strangerfoods.org/recipes/ethopian-doro-wat",
       "title": "Ethopian doro wat",
@@ -45,24 +63,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Basil-parmesan chicken and rice with tomatoes</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/basil-parmesan-chicken-and-rice-with-tomatoes.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This basil-Parmesan chicken and rice with tomatoes is a dinner that's perfect for any day of the week.</p>",
       "image": "https://www.strangerfoods.org/images/basil-parmesan-chicken-and-rice-with-tomatoes.webp",
       "date_published": "2023-10-25T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/chorizo-potato-sweetcorn-tomato-and-onion-traybake",
-      "url": "https://www.strangerfoods.org/recipes/chorizo-potato-sweetcorn-tomato-and-onion-traybake",
-      "title": "Chorizo, potato, sweetcorn, tomato & onion traybake",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Chorizo, potato, sweetcorn, tomato & onion traybake</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/chorizo-potato-sweetcorn-tomato-and-onion-traybake.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This recipe is a combination of some of my favourite ingredients simply thrown together and baked in one tray. Isn\u2019t that how some of the best recipes in the world are born? It\u2019s sweet, savoury, juicy, meaty, soft and salty all at once \u2013 a riot of flavour. Just try it.</p>",
-      "image": "https://www.strangerfoods.org/images/chorizo-potato-sweetcorn-tomato-and-onion-traybake.webp",
-      "date_published": "2023-10-19T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/lavash-bread",
-      "url": "https://www.strangerfoods.org/recipes/lavash-bread",
-      "title": "Lavash bread",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Lavash bread</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/lavash-bread.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Lavash is a paper-thin, pillowy-soft flatbread that's a beloved staple of Middle Eastern cuisine. I've adapted the traditional Armenian method to make a lavash recipe that's easy to accomplish at home. Tender and fragrant, this versatile flatbread is perfect for wraps, dips, alongside soup, meat, fish and more.</p>",
-      "image": "https://www.strangerfoods.org/images/lavash-bread.webp",
-      "date_published": "2023-10-16T00:00:00Z",
       "language": "en"
     }
   ]
