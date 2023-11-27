@@ -12,12 +12,30 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/sticky-gingerbread",
+      "url": "https://www.strangerfoods.org/recipes/sticky-gingerbread",
+      "title": "Sticky gingerbread",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Sticky gingerbread</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/sticky-gingerbread.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;></p>",
+      "image": "https://www.strangerfoods.org/images/sticky-gingerbread.webp",
+      "date_published": "2023-11-25T00:00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/gong-bao-chicken-with-smashed-cucumber-salad",
+      "url": "https://www.strangerfoods.org/recipes/gong-bao-chicken-with-smashed-cucumber-salad",
+      "title": "Gong bao chicken with smashed cucumber salad",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Gong bao chicken with smashed cucumber salad</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/gong-bao-chicken-with-smashed-cucumber-salad.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Gong bao chicken is a dish of succulent chicken stir-fried with peanuts and spring onions. The kick of chilli, tingle of Sichuan pepper and gentle sweet-sour sauce form a typical Sichuanese combination of flavours and this delicious dish needs little more accompaniment than some plain rice and a simple smashed cucumber salad.</p>",
+      "image": "https://www.strangerfoods.org/images/gong-bao-chicken-with-smashed-cucumber-salad.webp",
+      "date_published": "2023-11-24T00:00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/cajun-blackened-chicken-with-dirty-rice",
       "url": "https://www.strangerfoods.org/recipes/cajun-blackened-chicken-with-dirty-rice",
       "title": "Cajun blackened chicken with dirty rice",
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Cajun blackened chicken with dirty rice</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/cajun-blackened-chicken-with-dirty-rice.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>\"Blackening\" is a modern technique associated with Cajun cookery and involves the caramelisation of spices on the outside of the chicken of fish to provide a delicious edible crust. The chicken is served two Cajun staples - a fiery hot sauce and dirty rice (a delicious concoction of rice, vegetables and traditionally chicken liver or sausage).</p>",
       "image": "https://www.strangerfoods.org/images/cajun-blackened-chicken-with-dirty-rice.webp",
-      "date_published": "2023-11-13T00:00:00Z",
+      "date_published": "2023-11-18T00:00:00Z",
       "language": "en"
     },
     {
@@ -26,7 +44,7 @@
       "title": "Mangalore curry with kosambari",
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Mangalore curry with kosambari</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/mangalore-curry-with-kosambari.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This curry is from Mangalore on the rugged west coast of India where seafood, coconut and rice are the stable foods. In the fish curries of the region a souring agent is always added - in this recipe we're using kokum, a mangosteen fruit that's been salted and dried and gives a subtle fruit acidity to the sauce. The curry is delicious served here with rice and a fresh, crunchy salad known as kosambari.</p>",
       "image": "https://www.strangerfoods.org/images/mangalore-curry-with-kosambari.webp",
-      "date_published": "2023-11-07T00:00:00Z",
+      "date_published": "2023-11-12T00:00:00Z",
       "language": "en"
     },
     {
@@ -35,7 +53,7 @@
       "title": "Creamy roasted red pepper rigatoni pasta",
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Creamy roasted red pepper rigatoni pasta</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/creamy-roasted-red-pepper-rigatoni-pasta.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>With just five ingredients, dinner doesn't get easier or more delicious than this creamy roasted red pepper rigatoni pasta. If you've got ten minutes and can open a jar, you can make this tonight.</p>",
       "image": "https://www.strangerfoods.org/images/creamy-roasted-red-pepper-rigatoni-pasta.webp",
-      "date_published": "2023-11-06T00:00:00Z",
+      "date_published": "2023-11-10T00:00:00Z",
       "language": "en"
     },
     {
@@ -44,25 +62,7 @@
       "title": "Ethopian doro wat",
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Ethopian doro wat</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/ethopian-doro-wat.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This recipe is a traditional Ethiopian stew, with a rich sauce that's really fragrant and satisfying.</p>",
       "image": "https://www.strangerfoods.org/images/ethopian-doro-wat.webp",
-      "date_published": "2023-11-02T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/zanzibari-curry-with-date-chutney",
-      "url": "https://www.strangerfoods.org/recipes/zanzibari-curry-with-date-chutney",
-      "title": "Zanzibari curry with date chutney",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Zanzibari curry with date chutney</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/zanzibari-curry-with-date-chutney.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Zanzibar was once the biggest producer of cloves in the world and cloves are still a key flavour in the local cuisine. Here they're used in a fragrant clove masala which is added at the end of cooking to give a lovely depth of flavour.</p>",
-      "image": "https://www.strangerfoods.org/images/zanzibari-curry-with-date-chutney.webp",
-      "date_published": "2023-11-02T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/smoky-rice-with-black-beans-feta-corn-and-salsa",
-      "url": "https://www.strangerfoods.org/recipes/smoky-rice-with-black-beans-feta-corn-and-salsa",
-      "title": "Smoky rice with black beans, feta, corn & salsa",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Smoky rice with black beans, feta, corn & salsa</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/smoky-rice-with-black-beans-feta-corn-and-salsa.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This is a recipe of two halves: baked fragrant basmati rice combined with a raw and punchy salsa. This vibrant dish makes for a perfect summer lunch or light dinner.</p>",
-      "image": "https://www.strangerfoods.org/images/smoky-rice-with-black-beans-feta-corn-and-salsa.webp",
-      "date_published": "2023-10-26T00:00:00Z",
+      "date_published": "2023-11-05T00:00:00Z",
       "language": "en"
     }
   ]
