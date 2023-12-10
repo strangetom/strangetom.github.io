@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2023-11-27T12:40:04.874475+00:00</updated>
+  <updated>2023-12-09T18:05:21.615856+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,54 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/ethopian-doro-wat</id>
-    <title>Ethopian doro wat</title>
-    <updated>2023-11-27T12:40:04.876597+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Ethopian doro wat&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/ethopian-doro-wat.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This recipe is a traditional Ethiopian stew, with a rich sauce that's really fragrant and satisfying.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/ethopian-doro-wat" rel="alternate"/>
-    <published>2023-11-05T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/ethopian-doro-wat.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/creamy-roasted-red-pepper-rigatoni-pasta</id>
-    <title>Creamy roasted red pepper rigatoni pasta</title>
-    <updated>2023-11-27T12:40:04.876371+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Creamy roasted red pepper rigatoni pasta&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/creamy-roasted-red-pepper-rigatoni-pasta.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;With just five ingredients, dinner doesn't get easier or more delicious than this creamy roasted red pepper rigatoni pasta. If you've got ten minutes and can open a jar, you can make this tonight.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/creamy-roasted-red-pepper-rigatoni-pasta" rel="alternate"/>
-    <published>2023-11-10T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/creamy-roasted-red-pepper-rigatoni-pasta.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/mangalore-curry-with-kosambari</id>
-    <title>Mangalore curry with kosambari</title>
-    <updated>2023-11-27T12:40:04.876157+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Mangalore curry with kosambari&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/mangalore-curry-with-kosambari.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This curry is from Mangalore on the rugged west coast of India where seafood, coconut and rice are the stable foods. In the fish curries of the region a souring agent is always added - in this recipe we're using kokum, a mangosteen fruit that's been salted and dried and gives a subtle fruit acidity to the sauce. The curry is delicious served here with rice and a fresh, crunchy salad known as kosambari.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/mangalore-curry-with-kosambari" rel="alternate"/>
-    <published>2023-11-12T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/mangalore-curry-with-kosambari.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/cajun-blackened-chicken-with-dirty-rice</id>
     <title>Cajun blackened chicken with dirty rice</title>
-    <updated>2023-11-27T12:40:04.875930+00:00</updated>
+    <updated>2023-12-09T18:05:21.618043+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Cajun blackened chicken with dirty rice&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/cajun-blackened-chicken-with-dirty-rice.webp" style="text-align:center;"/&gt;
@@ -74,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/gong-bao-chicken-with-smashed-cucumber-salad</id>
     <title>Gong bao chicken with smashed cucumber salad</title>
-    <updated>2023-11-27T12:40:04.875682+00:00</updated>
+    <updated>2023-12-09T18:05:21.617833+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Gong bao chicken with smashed cucumber salad&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/gong-bao-chicken-with-smashed-cucumber-salad.webp" style="text-align:center;"/&gt;
@@ -89,7 +44,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/sticky-gingerbread</id>
     <title>Sticky gingerbread</title>
-    <updated>2023-11-27T12:40:04.875321+00:00</updated>
+    <updated>2023-12-09T18:05:21.617592+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sticky gingerbread&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/sticky-gingerbread.webp" style="text-align:center;"/&gt;
@@ -99,6 +54,51 @@
     <published>2023-11-25T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/sticky-gingerbread.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/pesto-courgette-and-wild-rice-gratin</id>
+    <title>Pesto, courgette &amp; wild rice gratin</title>
+    <updated>2023-12-09T18:05:21.617355+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pesto, courgette &amp; wild rice gratin&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/pesto-courgette-and-wild-rice-gratin.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Apart from a little onion cooking, this recipe is simply a question of mixing some ingredients together before baking. The dish is inspired partly by Heidi Swanson’s wild rice casserole, as well as a courgette gratin I learned to make early in my career. You can use pretty much any wholegrain cooked rice for this dish.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/pesto-courgette-and-wild-rice-gratin" rel="alternate"/>
+    <published>2023-12-01T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/pesto-courgette-and-wild-rice-gratin.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/sausage-bean-and-fennel-casserole</id>
+    <title>Sausage, bean &amp; fennel casserole</title>
+    <updated>2023-12-09T18:05:21.617112+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sausage, bean &amp; fennel casserole&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/sausage-bean-and-fennel-casserole.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;If you can find proper meaty Italian fennel sausages for this, it will be well worth the hunt for that hit of aniseedy flavour. Try an Italian deli for these, if you can stretch to it. If not, it’s a pretty tasty stew regardless.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/sausage-bean-and-fennel-casserole" rel="alternate"/>
+    <published>2023-12-02T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/sausage-bean-and-fennel-casserole.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/trini-brown-stew-chicken-with-hot-pepper-sauce</id>
+    <title>Trini brown stew chicken with hot pepper sauce</title>
+    <updated>2023-12-09T18:05:21.616742+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Trini brown stew chicken with hot pepper sauce&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/trini-brown-stew-chicken-with-hot-pepper-sauce.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Brown stew is a distinctively Caribbean dish where the meat is browned in caramelised sugar then cooked in a sauce rich in herbs and spices to produce a thick, flavoursome gravy. The combination of Indian spices, European herbs and Latin American allspice and chilli is also really characteristic of Caribbean cooking and a legacy of the islands being something of a crossroads throughout history.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/trini-brown-stew-chicken-with-hot-pepper-sauce" rel="alternate"/>
+    <published>2023-12-09T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/trini-brown-stew-chicken-with-hot-pepper-sauce.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
