@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2023-12-09T18:05:21.615856+00:00</updated>
+  <updated>2024-01-06T18:32:52.084120+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,84 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/cajun-blackened-chicken-with-dirty-rice</id>
-    <title>Cajun blackened chicken with dirty rice</title>
-    <updated>2023-12-09T18:05:21.618043+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Cajun blackened chicken with dirty rice&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/cajun-blackened-chicken-with-dirty-rice.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;"Blackening" is a modern technique associated with Cajun cookery and involves the caramelisation of spices on the outside of the chicken of fish to provide a delicious edible crust. The chicken is served two Cajun staples - a fiery hot sauce and dirty rice (a delicious concoction of rice, vegetables and traditionally chicken liver or sausage).&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/cajun-blackened-chicken-with-dirty-rice" rel="alternate"/>
-    <published>2023-11-18T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/cajun-blackened-chicken-with-dirty-rice.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/gong-bao-chicken-with-smashed-cucumber-salad</id>
-    <title>Gong bao chicken with smashed cucumber salad</title>
-    <updated>2023-12-09T18:05:21.617833+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Gong bao chicken with smashed cucumber salad&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/gong-bao-chicken-with-smashed-cucumber-salad.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Gong bao chicken is a dish of succulent chicken stir-fried with peanuts and spring onions. The kick of chilli, tingle of Sichuan pepper and gentle sweet-sour sauce form a typical Sichuanese combination of flavours and this delicious dish needs little more accompaniment than some plain rice and a simple smashed cucumber salad.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/gong-bao-chicken-with-smashed-cucumber-salad" rel="alternate"/>
-    <published>2023-11-24T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/gong-bao-chicken-with-smashed-cucumber-salad.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/sticky-gingerbread</id>
-    <title>Sticky gingerbread</title>
-    <updated>2023-12-09T18:05:21.617592+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sticky gingerbread&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/sticky-gingerbread.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/sticky-gingerbread" rel="alternate"/>
-    <published>2023-11-25T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/sticky-gingerbread.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/pesto-courgette-and-wild-rice-gratin</id>
-    <title>Pesto, courgette &amp; wild rice gratin</title>
-    <updated>2023-12-09T18:05:21.617355+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pesto, courgette &amp; wild rice gratin&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/pesto-courgette-and-wild-rice-gratin.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Apart from a little onion cooking, this recipe is simply a question of mixing some ingredients together before baking. The dish is inspired partly by Heidi Swanson’s wild rice casserole, as well as a courgette gratin I learned to make early in my career. You can use pretty much any wholegrain cooked rice for this dish.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/pesto-courgette-and-wild-rice-gratin" rel="alternate"/>
-    <published>2023-12-01T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/pesto-courgette-and-wild-rice-gratin.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/sausage-bean-and-fennel-casserole</id>
-    <title>Sausage, bean &amp; fennel casserole</title>
-    <updated>2023-12-09T18:05:21.617112+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sausage, bean &amp; fennel casserole&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/sausage-bean-and-fennel-casserole.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;If you can find proper meaty Italian fennel sausages for this, it will be well worth the hunt for that hit of aniseedy flavour. Try an Italian deli for these, if you can stretch to it. If not, it’s a pretty tasty stew regardless.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/sausage-bean-and-fennel-casserole" rel="alternate"/>
-    <published>2023-12-02T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/sausage-bean-and-fennel-casserole.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/trini-brown-stew-chicken-with-hot-pepper-sauce</id>
     <title>Trini brown stew chicken with hot pepper sauce</title>
-    <updated>2023-12-09T18:05:21.616742+00:00</updated>
+    <updated>2024-01-06T18:32:52.085340+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Trini brown stew chicken with hot pepper sauce&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/trini-brown-stew-chicken-with-hot-pepper-sauce.webp" style="text-align:center;"/&gt;
@@ -99,6 +24,81 @@
     <published>2023-12-09T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/trini-brown-stew-chicken-with-hot-pepper-sauce.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/honey-roast-carrots-with-garlicky-bean-mash</id>
+    <title>Honey roast carrots with garlicky bean mash</title>
+    <updated>2024-01-06T18:32:52.085236+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Honey roast carrots with garlicky bean mash&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/honey-roast-carrots-with-garlicky-bean-mash.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;The indigenous Mexican diet is full of bean and pulse purées, ladled into, or scooped up with, toasted tortillas. Here I use marrowfat peas, which are a creamy and fun alternative to white beans or chickpeas and one that Hodmedod's is growing across parts of the UK. It makes the most delicious purée for the roast carrots, which are spiked with the mild, fruity guajillo chilli. Alternatively, just use chickpeas or butter beans&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/honey-roast-carrots-with-garlicky-bean-mash" rel="alternate"/>
+    <published>2023-12-17T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/honey-roast-carrots-with-garlicky-bean-mash.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/tom-yum-nam-khon</id>
+    <title>Tom yum nam khon</title>
+    <updated>2024-01-06T18:32:52.085129+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Tom yum nam khon&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/tom-yum-nam-khon.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/tom-yum-nam-khon" rel="alternate"/>
+    <published>2023-12-28T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/tom-yum-nam-khon.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/healthier-coq-au-vin</id>
+    <title>Healthier coq au vin</title>
+    <updated>2024-01-06T18:32:52.085012+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Healthier coq au vin&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/healthier-coq-au-vin.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/healthier-coq-au-vin" rel="alternate"/>
+    <published>2023-12-29T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/healthier-coq-au-vin.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/snowman-cinnamon-rolls</id>
+    <title>Snowman cinnamon rolls</title>
+    <updated>2024-01-06T18:32:52.084893+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Snowman cinnamon rolls&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/snowman-cinnamon-rolls.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/snowman-cinnamon-rolls" rel="alternate"/>
+    <published>2024-01-06T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/snowman-cinnamon-rolls.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/sweet-potato-kale-salad-with-creamy-honey-mustard-dressing</id>
+    <title>Sweet potato kale salad with creamy honey mustard dressing</title>
+    <updated>2024-01-06T18:32:52.084662+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sweet potato kale salad with creamy honey mustard dressing&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/sweet-potato-kale-salad-with-creamy-honey-mustard-dressing.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;So much happening for a simple-to-prepare salad...fun to make, exciting to eat!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/sweet-potato-kale-salad-with-creamy-honey-mustard-dressing" rel="alternate"/>
+    <published>2024-01-06T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/sweet-potato-kale-salad-with-creamy-honey-mustard-dressing.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
