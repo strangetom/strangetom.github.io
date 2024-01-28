@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2024-01-06T18:32:52.084120+00:00</updated>
+  <updated>2024-01-28T17:40:37.713579+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,93 +12,93 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/trini-brown-stew-chicken-with-hot-pepper-sauce</id>
-    <title>Trini brown stew chicken with hot pepper sauce</title>
-    <updated>2024-01-06T18:32:52.085340+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Trini brown stew chicken with hot pepper sauce&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/chinese-pan-fried-salmon</id>
+    <title>Chinese pan fried salmon</title>
+    <updated>2024-01-28T17:40:37.715797+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chinese pan fried salmon&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/trini-brown-stew-chicken-with-hot-pepper-sauce.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Brown stew is a distinctively Caribbean dish where the meat is browned in caramelised sugar then cooked in a sauce rich in herbs and spices to produce a thick, flavoursome gravy. The combination of Indian spices, European herbs and Latin American allspice and chilli is also really characteristic of Caribbean cooking and a legacy of the islands being something of a crossroads throughout history.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/trini-brown-stew-chicken-with-hot-pepper-sauce" rel="alternate"/>
-    <published>2023-12-09T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/trini-brown-stew-chicken-with-hot-pepper-sauce.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/honey-roast-carrots-with-garlicky-bean-mash</id>
-    <title>Honey roast carrots with garlicky bean mash</title>
-    <updated>2024-01-06T18:32:52.085236+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Honey roast carrots with garlicky bean mash&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/honey-roast-carrots-with-garlicky-bean-mash.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;The indigenous Mexican diet is full of bean and pulse purées, ladled into, or scooped up with, toasted tortillas. Here I use marrowfat peas, which are a creamy and fun alternative to white beans or chickpeas and one that Hodmedod's is growing across parts of the UK. It makes the most delicious purée for the roast carrots, which are spiked with the mild, fruity guajillo chilli. Alternatively, just use chickpeas or butter beans&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/honey-roast-carrots-with-garlicky-bean-mash" rel="alternate"/>
-    <published>2023-12-17T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/honey-roast-carrots-with-garlicky-bean-mash.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/tom-yum-nam-khon</id>
-    <title>Tom yum nam khon</title>
-    <updated>2024-01-06T18:32:52.085129+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Tom yum nam khon&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/tom-yum-nam-khon.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/chinese-pan-fried-salmon.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
         &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/tom-yum-nam-khon" rel="alternate"/>
-    <published>2023-12-28T00:00:00+00:00</published>
+    <link href="https://www.strangerfoods.org/recipes/chinese-pan-fried-salmon" rel="alternate"/>
+    <published>2024-01-07T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/tom-yum-nam-khon.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/chinese-pan-fried-salmon.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/healthier-coq-au-vin</id>
-    <title>Healthier coq au vin</title>
-    <updated>2024-01-06T18:32:52.085012+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Healthier coq au vin&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/pull-apart-italian-sub-sliders</id>
+    <title>Pull apart italian sub sliders</title>
+    <updated>2024-01-28T17:40:37.715592+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pull apart italian sub sliders&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/healthier-coq-au-vin.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/pull-apart-italian-sub-sliders.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Spicy and layered with peppers...a fun and easy appetizer for relaxed nights of entertaining family and friends!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/pull-apart-italian-sub-sliders" rel="alternate"/>
+    <published>2024-01-12T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/pull-apart-italian-sub-sliders.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/sweet-and-sticky-chicken-thighs</id>
+    <title>Sweet and sticky chicken thighs</title>
+    <updated>2024-01-28T17:40:37.715375+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sweet and sticky chicken thighs&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/sweet-and-sticky-chicken-thighs.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
         &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/healthier-coq-au-vin" rel="alternate"/>
-    <published>2023-12-29T00:00:00+00:00</published>
+    <link href="https://www.strangerfoods.org/recipes/sweet-and-sticky-chicken-thighs" rel="alternate"/>
+    <published>2024-01-13T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/healthier-coq-au-vin.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/sweet-and-sticky-chicken-thighs.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/snowman-cinnamon-rolls</id>
-    <title>Snowman cinnamon rolls</title>
-    <updated>2024-01-06T18:32:52.084893+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Snowman cinnamon rolls&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/thai-chicken-zucchini-meatballs-in-coconut-curry</id>
+    <title>Thai chicken zucchini meatballs in coconut curry</title>
+    <updated>2024-01-28T17:40:37.715115+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Thai chicken zucchini meatballs in coconut curry&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/snowman-cinnamon-rolls.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/thai-chicken-zucchini-meatballs-in-coconut-curry.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/snowman-cinnamon-rolls" rel="alternate"/>
-    <published>2024-01-06T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;The perfect any night of the week dinner, served over rice, and made in under 30 minutes - YUM!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/thai-chicken-zucchini-meatballs-in-coconut-curry" rel="alternate"/>
+    <published>2024-01-20T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/snowman-cinnamon-rolls.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/thai-chicken-zucchini-meatballs-in-coconut-curry.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/sweet-potato-kale-salad-with-creamy-honey-mustard-dressing</id>
-    <title>Sweet potato kale salad with creamy honey mustard dressing</title>
-    <updated>2024-01-06T18:32:52.084662+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sweet potato kale salad with creamy honey mustard dressing&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/sesame-barbecued-beef</id>
+    <title>Sesame barbecued beef</title>
+    <updated>2024-01-28T17:40:37.714851+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sesame barbecued beef&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/sweet-potato-kale-salad-with-creamy-honey-mustard-dressing.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/sesame-barbecued-beef.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;So much happening for a simple-to-prepare salad...fun to make, exciting to eat!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/sweet-potato-kale-salad-with-creamy-honey-mustard-dressing" rel="alternate"/>
-    <published>2024-01-06T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;The beef was very thinly sliced and gently marinated, then served raw on a platter with vegetables for each guest to cook on a shared grill at the table. Keeping the delicious, clean flavours, here is a modern take on the traditional dish with everything cooked in a pan instead.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/sesame-barbecued-beef" rel="alternate"/>
+    <published>2024-01-21T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/sweet-potato-kale-salad-with-creamy-honey-mustard-dressing.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/sesame-barbecued-beef.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/sun-dried-tomato-pesto-turkey-sandwich</id>
+    <title>Sun-dried tomato pesto turkey sandwich</title>
+    <updated>2024-01-28T17:40:37.714486+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sun-dried tomato pesto turkey sandwich&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/sun-dried-tomato-pesto-turkey-sandwich.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;A delicious dinner-style sandwich...great for playoff games and the upcoming Super Bowl!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/sun-dried-tomato-pesto-turkey-sandwich" rel="alternate"/>
+    <published>2024-01-28T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/sun-dried-tomato-pesto-turkey-sandwich.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
