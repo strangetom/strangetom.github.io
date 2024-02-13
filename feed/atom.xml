@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2024-01-28T17:40:37.713579+00:00</updated>
+  <updated>2024-02-13T16:06:57.533392+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,54 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/chinese-pan-fried-salmon</id>
-    <title>Chinese pan fried salmon</title>
-    <updated>2024-01-28T17:40:37.715797+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chinese pan fried salmon&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/chinese-pan-fried-salmon.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/chinese-pan-fried-salmon" rel="alternate"/>
-    <published>2024-01-07T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/chinese-pan-fried-salmon.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/pull-apart-italian-sub-sliders</id>
-    <title>Pull apart italian sub sliders</title>
-    <updated>2024-01-28T17:40:37.715592+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pull apart italian sub sliders&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/pull-apart-italian-sub-sliders.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Spicy and layered with peppers...a fun and easy appetizer for relaxed nights of entertaining family and friends!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/pull-apart-italian-sub-sliders" rel="alternate"/>
-    <published>2024-01-12T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/pull-apart-italian-sub-sliders.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/sweet-and-sticky-chicken-thighs</id>
-    <title>Sweet and sticky chicken thighs</title>
-    <updated>2024-01-28T17:40:37.715375+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sweet and sticky chicken thighs&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/sweet-and-sticky-chicken-thighs.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/sweet-and-sticky-chicken-thighs" rel="alternate"/>
-    <published>2024-01-13T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/sweet-and-sticky-chicken-thighs.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/thai-chicken-zucchini-meatballs-in-coconut-curry</id>
     <title>Thai chicken zucchini meatballs in coconut curry</title>
-    <updated>2024-01-28T17:40:37.715115+00:00</updated>
+    <updated>2024-02-13T16:06:57.534647+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Thai chicken zucchini meatballs in coconut curry&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/thai-chicken-zucchini-meatballs-in-coconut-curry.webp" style="text-align:center;"/&gt;
@@ -74,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/sesame-barbecued-beef</id>
     <title>Sesame barbecued beef</title>
-    <updated>2024-01-28T17:40:37.714851+00:00</updated>
+    <updated>2024-02-13T16:06:57.534538+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sesame barbecued beef&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/sesame-barbecued-beef.webp" style="text-align:center;"/&gt;
@@ -89,7 +44,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/sun-dried-tomato-pesto-turkey-sandwich</id>
     <title>Sun-dried tomato pesto turkey sandwich</title>
-    <updated>2024-01-28T17:40:37.714486+00:00</updated>
+    <updated>2024-02-13T16:06:57.534421+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sun-dried tomato pesto turkey sandwich&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/sun-dried-tomato-pesto-turkey-sandwich.webp" style="text-align:center;"/&gt;
@@ -99,6 +54,51 @@
     <published>2024-01-28T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/sun-dried-tomato-pesto-turkey-sandwich.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/southwestern-vegetarian-stuffed-bell-peppers-with-rice</id>
+    <title>Southwestern vegetarian stuffed bell peppers with rice</title>
+    <updated>2024-02-13T16:06:57.534295+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Southwestern vegetarian stuffed bell peppers with rice&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/southwestern-vegetarian-stuffed-bell-peppers-with-rice.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;A fork-and-knife vegetarian main, Southwestern stuffed peppers have the smoky and mildly spicy flavors we crave! Stuffed with veggies like zucchini, and corn, with brown rice and black beans, the bell peppers are par-cooked, stuffed, then baked again creating a tender yet firm texture just right for cutting into with a knife. Vegetarian stuffed bell peppers are satisfying, nourishing and freezer friendly. This recipe is vegetarian, easily gluten free and/or vegan. *Note there is some overlap in cook and prep time.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/southwestern-vegetarian-stuffed-bell-peppers-with-rice" rel="alternate"/>
+    <published>2024-02-03T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/southwestern-vegetarian-stuffed-bell-peppers-with-rice.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/creamy-maple-and-bacon-chicken</id>
+    <title>Creamy maple and bacon chicken</title>
+    <updated>2024-02-13T16:06:57.534167+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Creamy maple and bacon chicken&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/creamy-maple-and-bacon-chicken.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;A little bit of maple syrup goes a long way in this indulgent-tasting recipe! The sweet and smoky syrup is the perfect match for savoury, salty bacon and juicy chicken. It all comes together into a rich, creamy dish that we love to pair with the fresh flavour of steamed green veggies.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/creamy-maple-and-bacon-chicken" rel="alternate"/>
+    <published>2024-02-10T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/creamy-maple-and-bacon-chicken.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/lamb-loin-with-harissa-and-sweet-potato-mash</id>
+    <title>Lamb loin with harissa and sweet potato mash</title>
+    <updated>2024-02-13T16:06:57.533950+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lamb loin with harissa and sweet potato mash&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/lamb-loin-with-harissa-and-sweet-potato-mash.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This dish has bags of flavour and looks like you’ve gone to a lot of trouble to make it, when actually it’s a doddle. Just make sure you buy a good-quality jar of rose harissa paste.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/lamb-loin-with-harissa-and-sweet-potato-mash" rel="alternate"/>
+    <published>2024-02-11T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/lamb-loin-with-harissa-and-sweet-potato-mash.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
