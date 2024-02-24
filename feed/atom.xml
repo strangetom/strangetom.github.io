@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2024-02-13T16:06:57.533392+00:00</updated>
+  <updated>2024-02-24T19:30:41.929781+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,69 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/thai-chicken-zucchini-meatballs-in-coconut-curry</id>
-    <title>Thai chicken zucchini meatballs in coconut curry</title>
-    <updated>2024-02-13T16:06:57.534647+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Thai chicken zucchini meatballs in coconut curry&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/thai-chicken-zucchini-meatballs-in-coconut-curry.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;The perfect any night of the week dinner, served over rice, and made in under 30 minutes - YUM!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/thai-chicken-zucchini-meatballs-in-coconut-curry" rel="alternate"/>
-    <published>2024-01-20T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/thai-chicken-zucchini-meatballs-in-coconut-curry.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/sesame-barbecued-beef</id>
-    <title>Sesame barbecued beef</title>
-    <updated>2024-02-13T16:06:57.534538+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sesame barbecued beef&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/sesame-barbecued-beef.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;The beef was very thinly sliced and gently marinated, then served raw on a platter with vegetables for each guest to cook on a shared grill at the table. Keeping the delicious, clean flavours, here is a modern take on the traditional dish with everything cooked in a pan instead.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/sesame-barbecued-beef" rel="alternate"/>
-    <published>2024-01-21T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/sesame-barbecued-beef.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/sun-dried-tomato-pesto-turkey-sandwich</id>
-    <title>Sun-dried tomato pesto turkey sandwich</title>
-    <updated>2024-02-13T16:06:57.534421+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sun-dried tomato pesto turkey sandwich&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/sun-dried-tomato-pesto-turkey-sandwich.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;A delicious dinner-style sandwich...great for playoff games and the upcoming Super Bowl!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/sun-dried-tomato-pesto-turkey-sandwich" rel="alternate"/>
-    <published>2024-01-28T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/sun-dried-tomato-pesto-turkey-sandwich.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/southwestern-vegetarian-stuffed-bell-peppers-with-rice</id>
-    <title>Southwestern vegetarian stuffed bell peppers with rice</title>
-    <updated>2024-02-13T16:06:57.534295+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Southwestern vegetarian stuffed bell peppers with rice&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/southwestern-vegetarian-stuffed-bell-peppers-with-rice.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;A fork-and-knife vegetarian main, Southwestern stuffed peppers have the smoky and mildly spicy flavors we crave! Stuffed with veggies like zucchini, and corn, with brown rice and black beans, the bell peppers are par-cooked, stuffed, then baked again creating a tender yet firm texture just right for cutting into with a knife. Vegetarian stuffed bell peppers are satisfying, nourishing and freezer friendly. This recipe is vegetarian, easily gluten free and/or vegan. *Note there is some overlap in cook and prep time.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/southwestern-vegetarian-stuffed-bell-peppers-with-rice" rel="alternate"/>
-    <published>2024-02-03T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/southwestern-vegetarian-stuffed-bell-peppers-with-rice.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/creamy-maple-and-bacon-chicken</id>
     <title>Creamy maple and bacon chicken</title>
-    <updated>2024-02-13T16:06:57.534167+00:00</updated>
+    <updated>2024-02-24T19:30:41.930996+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Creamy maple and bacon chicken&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/creamy-maple-and-bacon-chicken.webp" style="text-align:center;"/&gt;
@@ -89,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/lamb-loin-with-harissa-and-sweet-potato-mash</id>
     <title>Lamb loin with harissa and sweet potato mash</title>
-    <updated>2024-02-13T16:06:57.533950+00:00</updated>
+    <updated>2024-02-24T19:30:41.930866+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lamb loin with harissa and sweet potato mash&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/lamb-loin-with-harissa-and-sweet-potato-mash.webp" style="text-align:center;"/&gt;
@@ -99,6 +39,66 @@
     <published>2024-02-11T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/lamb-loin-with-harissa-and-sweet-potato-mash.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/salmon-fillets-with-vine-tomatoes-beans-and-green-sauce</id>
+    <title>Salmon fillets with vine tomatoes, beans and green sauce</title>
+    <updated>2024-02-24T19:30:41.930722+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Salmon fillets with vine tomatoes, beans and green sauce&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/salmon-fillets-with-vine-tomatoes-beans-and-green-sauce.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This is one of the best ways to cook salmon fillets – they’re pretty much steamed, with just a few aromatics and vegetables. The green sauce is intense and punchy; perfect with fish, it’s also fantastic spooned over lamb or chicken.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/salmon-fillets-with-vine-tomatoes-beans-and-green-sauce" rel="alternate"/>
+    <published>2024-02-17T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/salmon-fillets-with-vine-tomatoes-beans-and-green-sauce.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/house-lamb-curry</id>
+    <title>House lamb curry</title>
+    <updated>2024-02-24T19:30:41.930591+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;House lamb curry&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/house-lamb-curry.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Every Indian home needs an all-guns-blazing rich meat curry. Ordinarily we would only ever cook lamb on the bone, and hence in Mowgli we add marrow bones in for the long simmer. A luxurious richness is brought with the aromatic spicings and I added a sweet headiness by including ground anise and prunes, which turn to a thick, sweet mass in the pan. I love using rotis to mop up the deep, sweet juices.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/house-lamb-curry" rel="alternate"/>
+    <published>2024-02-18T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/house-lamb-curry.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/orange-dark-chocolate-rubble-cake</id>
+    <title>Orange &amp; dark chocolate rubble cake</title>
+    <updated>2024-02-24T19:30:41.930468+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Orange &amp; dark chocolate rubble cake&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/orange-dark-chocolate-rubble-cake.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;I have been using this recipe for years, turning it out as muffins, a loaf cake, a round cake and even a sandwich-style cake, but I’ve finally settled for a square tin because I really like cutting it into squares and snacking on little bites of it. It’s light and airy, but the chocolate rubble is a masterstroke because every bite is different as the chocolate ratio changes throughout the cake. Try it! You won’t be disappointed.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/orange-dark-chocolate-rubble-cake" rel="alternate"/>
+    <published>2024-02-23T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/orange-dark-chocolate-rubble-cake.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/spiced-chicken-arayes</id>
+    <title>Spiced chicken arayes</title>
+    <updated>2024-02-24T19:30:41.930272+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Spiced chicken arayes&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/spiced-chicken-arayes.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Arayes is the plural of the word for ‘bride’, in Arabic, which is ‘aroos’. There are various tales as to why this particular name is given to this snack: one is that the white bread represents the white dress of the bride wrapped around a dark tuxedo (typically a lamb filling) of the groom in a deep embrace (!). Thinking slightly more practically, for those with an appetite arayes are essentially pan-fried pita bread sandwiches. They’re great either for snacking on before a meal or as a meal in themselves, served with a fresh chopped salad and some sumac yoghurt. &lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/spiced-chicken-arayes" rel="alternate"/>
+    <published>2024-02-24T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/spiced-chicken-arayes.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
