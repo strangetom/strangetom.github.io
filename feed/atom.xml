@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2024-03-16T18:49:01.980039+00:00</updated>
+  <updated>2024-04-06T16:55:53.863296+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,84 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/shredded-bbq-tofu-wrap</id>
-    <title>Shredded bbq tofu wrap</title>
-    <updated>2024-03-16T18:49:01.982199+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Shredded bbq tofu wrap&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/shredded-bbq-tofu-wrap.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;These colourful wraps are packed with the perfect balance of textures and flavours: the tofu gets grated, providing a unique bite. Then, it gets cooked with smoked paprika and BBQ sauce, making it the perfect addition to the crisp cabbage and sweet corn. Make sure not to skip the chipotle mayo, it takes these wraps to the next level!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/shredded-bbq-tofu-wrap" rel="alternate"/>
-    <published>2024-03-01T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/shredded-bbq-tofu-wrap.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/pork-coriander-spring-onion-meatballs-with-tamarind-glaze</id>
-    <title>Pork, coriander &amp; spring onion meatballs with tamarind glaze</title>
-    <updated>2024-03-16T18:49:01.981994+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pork, coriander &amp; spring onion meatballs with tamarind glaze&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/pork-coriander-spring-onion-meatballs-with-tamarind-glaze.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Meatballs are an easy dish to put together, and the sticky sweet and sour glaze on these makes them ever so moreish. I like to eat them banh mi-style, served in a baguette with a little quick-pickled onion and carrot (make your own by combining salt with a little caster sugar and some rice vinegar in a lidded container, add thinly sliced onion and carrot and shake for a couple of minutes).&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/pork-coriander-spring-onion-meatballs-with-tamarind-glaze" rel="alternate"/>
-    <published>2024-03-02T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/pork-coriander-spring-onion-meatballs-with-tamarind-glaze.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/healthy-granola</id>
-    <title>Healthy granola</title>
-    <updated>2024-03-16T18:49:01.981779+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Healthy granola&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/healthy-granola.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This delicious healthy granola recipe is naturally sweetened with maple syrup (or honey). It's made with oats, coconut oil and your favorite nuts and fruit. Make it your own! Recipe yields about 8 cups granola, enough for about 16 half-cup servings.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/healthy-granola" rel="alternate"/>
-    <published>2024-03-02T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/healthy-granola.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/black-beans-and-rice-with-jammy-peppers</id>
-    <title>Black beans and rice with jammy peppers</title>
-    <updated>2024-03-16T18:49:01.981548+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Black beans and rice with jammy peppers&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/black-beans-and-rice-with-jammy-peppers.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Beans and rice are a staple in multiple cultures around the world and for good reason. Humble and comforting, the two come together to create a meal in itself. Here the jammy peppers and herby avocado take the whole thing up a notch (or three). If serving this as a side, it pairs really well with the spicy rotisserie chicken bake. &lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/black-beans-and-rice-with-jammy-peppers" rel="alternate"/>
-    <published>2024-03-09T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/black-beans-and-rice-with-jammy-peppers.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/pork-agrodolce</id>
-    <title>Pork agrodolce</title>
-    <updated>2024-03-16T18:49:01.981286+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pork agrodolce&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/pork-agrodolce.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;I’m a great fan of sweet and sour flavours so this recipe, inspired by the food of Sicily, really suits my palate. Over the course of time, Sicily was invaded by many different cultures, leading to a melting pot of influences across their culinary repertoire. Here, rich fatty pork is married with sweet and sour flavours as well as a touch of north African spice.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/pork-agrodolce" rel="alternate"/>
-    <published>2024-03-10T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/pork-agrodolce.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/smoked-trout-with-parsnip-rosti</id>
     <title>Smoked trout with parsnip rosti</title>
-    <updated>2024-03-16T18:49:01.980940+00:00</updated>
+    <updated>2024-04-06T16:55:53.865416+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Smoked trout with parsnip rosti&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/smoked-trout-with-parsnip-rosti.webp" style="text-align:center;"/&gt;
@@ -99,6 +24,81 @@
     <published>2024-03-16T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/smoked-trout-with-parsnip-rosti.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/korean-style-roast-salmon-sweet-and-spicy-potatoes-tenderstem-broccoli</id>
+    <title>Korean-style roast salmon, sweet and spicy potatoes &amp; tenderstem broccoli</title>
+    <updated>2024-04-06T16:55:53.865195+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Korean-style roast salmon, sweet and spicy potatoes &amp; tenderstem broccoli&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/korean-style-roast-salmon-sweet-and-spicy-potatoes-tenderstem-broccoli.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This dish really delivers on flavour considering how quick and easy it is to prepare! The honey and gochujang caramelize into a spicy, sweet and salty crust around the potatoes, which go into the oven first. Then, when the salmon steaks and broccoli go on top, the juices from the fish mix with the caramelized bits, creating a delicious self-saucing dish that you’ll come back to again and again!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/korean-style-roast-salmon-sweet-and-spicy-potatoes-tenderstem-broccoli" rel="alternate"/>
+    <published>2024-03-23T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/korean-style-roast-salmon-sweet-and-spicy-potatoes-tenderstem-broccoli.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/lebanese-lamb-flatbreads</id>
+    <title>Lebanese lamb flatbreads</title>
+    <updated>2024-04-06T16:55:53.864970+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lebanese lamb flatbreads&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/lebanese-lamb-flatbreads.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;These are a quick and delicious way to utilize a pack of frozen lamb mince. Frozen mince is often not super lean, which is perfect for this as no extra liquid is added to the mix, so a little natural fat keeps the topping from drying out. I like to use Greek-style flatbreads (and generally have a pack in the freezer for emergencies), but you could use pita breads too, if that’s what you happen to have to hand.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/lebanese-lamb-flatbreads" rel="alternate"/>
+    <published>2024-03-26T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/lebanese-lamb-flatbreads.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/persian-lamb-and-yellow-split-pea-stew</id>
+    <title>Persian lamb and yellow split pea stew</title>
+    <updated>2024-04-06T16:55:53.864731+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Persian lamb and yellow split pea stew&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/persian-lamb-and-yellow-split-pea-stew.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This aromatic stew, inspired by a Persian recipe called gheymey, is great for stretching out a little lamb, as the yellow split peas help to make it satisfying. Traditionally it would be served with chips or roasted potatoes and a pile of saffron rice.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/persian-lamb-and-yellow-split-pea-stew" rel="alternate"/>
+    <published>2024-03-30T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/persian-lamb-and-yellow-split-pea-stew.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/wild-mushroom-tarragon-cobbler</id>
+    <title>Wild mushroom &amp; tarragon cobbler</title>
+    <updated>2024-04-06T16:55:53.864491+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Wild mushroom &amp; tarragon cobbler&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/wild-mushroom-tarragon-cobbler.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This straightforward recipe makes a perfect comforting dinner. Serve with a simple dressed green salad.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/wild-mushroom-tarragon-cobbler" rel="alternate"/>
+    <published>2024-04-02T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/wild-mushroom-tarragon-cobbler.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/spicy-ancho-mushroom-pasta-bake</id>
+    <title>Spicy ancho mushroom pasta bake</title>
+    <updated>2024-04-06T16:55:53.864148+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Spicy ancho mushroom pasta bake&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/spicy-ancho-mushroom-pasta-bake.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Smoky, rounded, rich flavours from medium-spiced chillies, roast mushrooms, garlic, charred tomatoes and grilled cheese, this pasta bake is bold and robust, full of upfront, mouth-filling, umami-rich flavours, partly tempered by the sweet mellow undertones of the ancho and tomatoes, but then gently smoothed out by the soothing cheeses. My ten-year-old eats it by the trayful. It is a dish you will want to cook again and again, putting it on the table with a modest air, knowing that it will be a knockout. A red wine and a crisp green salad is a fine match.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/spicy-ancho-mushroom-pasta-bake" rel="alternate"/>
+    <published>2024-04-06T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/spicy-ancho-mushroom-pasta-bake.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
