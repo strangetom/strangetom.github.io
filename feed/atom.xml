@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2024-04-20T17:08:22.689147+00:00</updated>
+  <updated>2024-05-05T17:09:28.848797+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,69 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/persian-lamb-and-yellow-split-pea-stew</id>
-    <title>Persian lamb and yellow split pea stew</title>
-    <updated>2024-04-20T17:08:22.691637+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Persian lamb and yellow split pea stew&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/persian-lamb-and-yellow-split-pea-stew.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This aromatic stew, inspired by a Persian recipe called gheymey, is great for stretching out a little lamb, as the yellow split peas help to make it satisfying. Traditionally it would be served with chips or roasted potatoes and a pile of saffron rice.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/persian-lamb-and-yellow-split-pea-stew"/>
-    <published>2024-03-30T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/persian-lamb-and-yellow-split-pea-stew.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/wild-mushroom-tarragon-cobbler</id>
-    <title>Wild mushroom &amp; tarragon cobbler</title>
-    <updated>2024-04-20T17:08:22.691419+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Wild mushroom &amp; tarragon cobbler&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/wild-mushroom-tarragon-cobbler.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This straightforward recipe makes a perfect comforting dinner. Serve with a simple dressed green salad.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/wild-mushroom-tarragon-cobbler"/>
-    <published>2024-04-02T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/wild-mushroom-tarragon-cobbler.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/spicy-ancho-mushroom-pasta-bake</id>
-    <title>Spicy ancho mushroom pasta bake</title>
-    <updated>2024-04-20T17:08:22.691202+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Spicy ancho mushroom pasta bake&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/spicy-ancho-mushroom-pasta-bake.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Smoky, rounded, rich flavours from medium-spiced chillies, roast mushrooms, garlic, charred tomatoes and grilled cheese, this pasta bake is bold and robust, full of upfront, mouth-filling, umami-rich flavours, partly tempered by the sweet mellow undertones of the ancho and tomatoes, but then gently smoothed out by the soothing cheeses. My ten-year-old eats it by the trayful. It is a dish you will want to cook again and again, putting it on the table with a modest air, knowing that it will be a knockout. A red wine and a crisp green salad is a fine match.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/spicy-ancho-mushroom-pasta-bake"/>
-    <published>2024-04-06T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/spicy-ancho-mushroom-pasta-bake.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/potato-pockets</id>
-    <title>Potato pockets</title>
-    <updated>2024-04-20T17:08:22.690977+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Potato pockets&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/potato-pockets.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This is the kind of recipe that can suit any mealtime, and it’s a rival for all weekend breakfasts! Filled with soft herby mashed potato and an encased runny egg yolk, it’s the layers of delicious flavour that make these crisp filo pastry pockets totally special.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/potato-pockets"/>
-    <published>2024-04-13T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/potato-pockets.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/coconut-ginger-chicken</id>
     <title>Coconut &amp; ginger chicken</title>
-    <updated>2024-04-20T17:08:22.690700+00:00</updated>
+    <updated>2024-05-05T17:09:28.851098+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Coconut &amp; ginger chicken&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/coconut-ginger-chicken.webp" style="text-align:center;"/&gt;
@@ -89,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/butternut-feta-chilli-rolls</id>
     <title>Butternut, feta &amp; chilli rolls</title>
-    <updated>2024-04-20T17:08:22.690277+00:00</updated>
+    <updated>2024-05-05T17:09:28.850882+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Butternut, feta &amp; chilli rolls&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/butternut-feta-chilli-rolls.webp" style="text-align:center;"/&gt;
@@ -99,6 +39,66 @@
     <published>2024-04-20T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/butternut-feta-chilli-rolls.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/spicy-pasta-bake</id>
+    <title>Spicy pasta bake</title>
+    <updated>2024-05-05T17:09:28.850625+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Spicy pasta bake&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/spicy-pasta-bake.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Sami, like so many kids – Middle Eastern or otherwise – did a lot of his growing up at home on pasta bakes. There’s quite a kick in our version, but the chilli flakes can be reduced or left out if you prefer. Don’t skimp on the time the bolognese sauce sits on the stove, though. It’s this which gives the dish such depth and makes the house smell like home.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/spicy-pasta-bake"/>
+    <published>2024-04-27T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/spicy-pasta-bake.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/curried-sausages</id>
+    <title>Curried sausages</title>
+    <updated>2024-05-05T17:09:28.850407+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Curried sausages&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/curried-sausages.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This recipe came about after having a hankering for a chippy dinner one night. Sadly, a visit to the chippy and trying to lose weight don’t usually work well together, so we thought we’d make our own instead! We’ve crammed as much veg as we can into our version of this popular Aussie dish: even the sauce is made from fresh veggies, which means it’s a great way to make sure you’re getting your five-a-day and is ideal for picky eaters. Serve with rice, chips, or even both!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/curried-sausages"/>
+    <published>2024-04-28T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/curried-sausages.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/italian-chop-pasta-salad</id>
+    <title>Italian chop pasta salad</title>
+    <updated>2024-05-05T17:09:28.850149+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Italian chop pasta salad&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/italian-chop-pasta-salad.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This salad comes together quickly with little effort. Serve this up at your next spring/summer party, it’s always delicious!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/italian-chop-pasta-salad"/>
+    <published>2024-05-05T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/italian-chop-pasta-salad.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/roast-vegetable-bastilla</id>
+    <title>Roast vegetable bastilla</title>
+    <updated>2024-05-05T17:09:28.849757+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Roast vegetable bastilla&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/roast-vegetable-bastilla.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Bastilla is traditionally a celebratory Moroccan dish made with pigeon, but I’ve made this with leftover roasted vegetables – which is how this version was born. You can pretty much throw anything together with Moroccan spices, dried fruits and nuts and turn it into something beautiful, so this makes an impressive centrepiece – yet ridiculously easy to make.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/roast-vegetable-bastilla"/>
+    <published>2024-05-05T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/roast-vegetable-bastilla.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
