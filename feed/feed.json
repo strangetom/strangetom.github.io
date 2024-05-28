@@ -12,6 +12,42 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/chicken-apricot-pastries",
+      "url": "https://www.strangerfoods.org/recipes/chicken-apricot-pastries",
+      "title": "Chicken & apricot pastries",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Chicken & apricot pastries</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/chicken-apricot-pastries.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Growing up in a nation that makes savoury pies and pastries like no other means constantly craving and coming up with new and interesting fillings to wrap in a variety of different pastries to keep myself satisfied. The first time I made these was when I had leftover roast chicken and builders had set up scaffolding outside my apartment. Let\u2019s just say it was the perfect welcoming gesture that kept them friendly and kind for the duration of our relationship.</p>",
+      "image": "https://www.strangerfoods.org/images/chicken-apricot-pastries.webp",
+      "date_published": "2024-05-26T00:00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/spiced-pork-wraps-with-green-apple-salsa",
+      "url": "https://www.strangerfoods.org/recipes/spiced-pork-wraps-with-green-apple-salsa",
+      "title": "Spiced pork wraps with green apple salsa",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Spiced pork wraps with green apple salsa</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/spiced-pork-wraps-with-green-apple-salsa.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Pork and apple is a classic combination, and the sweet yet tangy apple certainly does so much to complement the meat, but pack in some spices and you take it to a whole other level. Think of these as a kind of taco, one of my favourite things to eat \u2013 messy, gratifying and utterly delicious. I particularly enjoy food that can be eaten using your hands and where the finished components can be plated up and served to guests so that you can all pile in and it becomes a shared, convivial meal together.</p>",
+      "image": "https://www.strangerfoods.org/images/spiced-pork-wraps-with-green-apple-salsa.webp",
+      "date_published": "2024-05-24T00:00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/sweet-potato-lime-soup",
+      "url": "https://www.strangerfoods.org/recipes/sweet-potato-lime-soup",
+      "title": "Sweet potato & lime soup",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Sweet potato & lime soup</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/sweet-potato-lime-soup.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>I love sweet potatoes in any way, shape or form. There is something addictive about their sweet and pleasingly digestible nature which I find genuinely comforting. In this delicious soup, their sweetness is balanced beautifully with fresh lime \u2013 and a crumble of feta on top makes it more of a meal.</p>",
+      "image": "https://www.strangerfoods.org/images/sweet-potato-lime-soup.webp",
+      "date_published": "2024-05-19T00:00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/crispy-cod-wraps-with-salsa-harissa-lime-mayo",
+      "url": "https://www.strangerfoods.org/recipes/crispy-cod-wraps-with-salsa-harissa-lime-mayo",
+      "title": "Crispy cod wraps with salsa & harissa lime mayo",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Crispy cod wraps with salsa & harissa lime mayo</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/crispy-cod-wraps-with-salsa-harissa-lime-mayo.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>I sometimes find that fish can be a bit of a hard sell to some folk, but this is the perfect recipe for converting fussy eaters.</p>",
+      "image": "https://www.strangerfoods.org/images/crispy-cod-wraps-with-salsa-harissa-lime-mayo.webp",
+      "date_published": "2024-05-18T00:00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/roast-vegetable-bastilla",
       "url": "https://www.strangerfoods.org/recipes/roast-vegetable-bastilla",
       "title": "Roast vegetable bastilla",
@@ -27,42 +63,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Italian chop pasta salad</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/italian-chop-pasta-salad.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This salad comes together quickly with little effort. Serve this up at your next spring/summer party, it\u2019s always delicious!</p>",
       "image": "https://www.strangerfoods.org/images/italian-chop-pasta-salad.webp",
       "date_published": "2024-05-05T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/curried-sausages",
-      "url": "https://www.strangerfoods.org/recipes/curried-sausages",
-      "title": "Curried sausages",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Curried sausages</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/curried-sausages.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This recipe came about after having a hankering for a chippy dinner one night. Sadly, a visit to the chippy and trying to lose weight don\u2019t usually work well together, so we thought we\u2019d make our own instead! We\u2019ve crammed as much veg as we can into our version of this popular Aussie dish: even the sauce is made from fresh veggies, which means it\u2019s a great way to make sure you\u2019re getting your five-a-day and is ideal for picky eaters. Serve with rice, chips, or even both!</p>",
-      "image": "https://www.strangerfoods.org/images/curried-sausages.webp",
-      "date_published": "2024-04-28T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/spicy-pasta-bake",
-      "url": "https://www.strangerfoods.org/recipes/spicy-pasta-bake",
-      "title": "Spicy pasta bake",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Spicy pasta bake</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/spicy-pasta-bake.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Sami, like so many kids \u2013 Middle Eastern or otherwise \u2013 did a lot of his growing up at home on pasta bakes. There\u2019s quite a kick in our version, but the chilli flakes can be reduced or left out if you prefer. Don\u2019t skimp on the time the bolognese sauce sits on the stove, though. It\u2019s this which gives the dish such depth and makes the house smell like home.</p>",
-      "image": "https://www.strangerfoods.org/images/spicy-pasta-bake.webp",
-      "date_published": "2024-04-27T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/butternut-feta-chilli-rolls",
-      "url": "https://www.strangerfoods.org/recipes/butternut-feta-chilli-rolls",
-      "title": "Butternut, feta & chilli rolls",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Butternut, feta & chilli rolls</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/butternut-feta-chilli-rolls.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>I first came up with this recipe for the launch of my second cookbook, Sirocco. I wanted something delicious and substantial for those who didn\u2019t eat meat as well as those who did. This recipe went on to become a favourite at pop-up feasts in all sorts of different shapes and sizes. If butternut squash isn\u2019t your thing, it also works beautifully with other types of squash when in season.</p>",
-      "image": "https://www.strangerfoods.org/images/butternut-feta-chilli-rolls.webp",
-      "date_published": "2024-04-20T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/coconut-ginger-chicken",
-      "url": "https://www.strangerfoods.org/recipes/coconut-ginger-chicken",
-      "title": "Coconut & ginger chicken",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Coconut & ginger chicken</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/coconut-ginger-chicken.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This is a south indian take on a stir-fry with just a tiny bit of sauce to coat the chicken. it\u2019s perfect with dal and rice \u2013 they\u2019re best mates. i like this dish very hot, and usually with double the amount of chilli powder. make it with the normal amount to begin with and see what you think \u2013 you can always add more at the end, but taking it out would be a real task.</p>",
-      "image": "https://www.strangerfoods.org/images/coconut-ginger-chicken.webp",
-      "date_published": "2024-04-14T00:00:00Z",
       "language": "en"
     }
   ]
