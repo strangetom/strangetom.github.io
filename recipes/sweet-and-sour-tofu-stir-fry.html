@@ -16,7 +16,8 @@
         <meta name="twitter:description" content="Sweet and sour tofu stir fry"/>     
         <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-nmzy2DG24X8KUJXizq6xugo0xzFj7WRa7FdbzEzw/cE='; script-src 'self';"/>
         <title>Sweet and sour tofu stir fry | Stranger Foods</title>
-        <link rel="preload" href="/fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin/>
+        <link rel="preload" href="/fonts/latin-modern-mono-prop-light-10-regular-latin.woff2" as="font" type="font/woff2" crossorigin/>
+        <link rel="preload" href="/fonts/latin-modern-mono-prop-light-10-regular-latin-ext.woff2" as="font" type="font/woff2" crossorigin/>
         <link rel="preload" href="/css/colours.min.css" as="style"/>
         <link rel="stylesheet" type="text/css" href="/css/recipe.min.css"/>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
@@ -137,28 +138,40 @@
                             <span data-default="450" class="scalable">450</span>
                             <span data-unit="g">g</span>
                             <span>block extra firm tofu</span>, <span class="prep">cut into 0.5 inch cubes</span>
-                            <span class="substitute">
-                                <img class="substitute-icon icon" src="../img/cart-fill.svg" alt="Substitute ingredient">
-                                <small class="substitute-text hidden">Substitute with: Tempeh</small>
-                            </span>
+                            <button class="substitute-btn">
+                                <div class="substitute-btn-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"></path>
+                                    </svg>
+                                </div>
+                                <span class="substitute-text hidden">or Tempeh</span>
+                            </button>
                         </li>
                         <li itemprop="recipeIngredient">
                             <span data-default="2" class="scalable">2</span>
                             <span data-unit="tbsp">tbsp</span>
                             <span>soy sauce</span>
-                            <span class="substitute">
-                                <img class="substitute-icon icon" src="../img/cart-fill.svg" alt="Substitute ingredient">
-                                <small class="substitute-text hidden">Substitute with: Tamari</small>
-                            </span>
+                            <button class="substitute-btn">
+                                <div class="substitute-btn-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"></path>
+                                    </svg>
+                                </div>
+                                <span class="substitute-text hidden">or Tamari</span>
+                            </button>
                         </li>
                         <li itemprop="recipeIngredient">
                             <span data-default="30" class="scalable">30</span>
                             <span data-unit="g">g</span>
                             <span>cornstarch</span>
-                            <span class="substitute">
-                                <img class="substitute-icon icon" src="../img/cart-fill.svg" alt="Substitute ingredient">
-                                <small class="substitute-text hidden">Substitute with: Arrowroot starch</small>
-                            </span>
+                            <button class="substitute-btn">
+                                <div class="substitute-btn-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"></path>
+                                    </svg>
+                                </div>
+                                <span class="substitute-text hidden">or Arrowroot starch</span>
+                            </button>
                         </li>
                         <li itemprop="recipeIngredient">
                             <span data-default="0.5" class="scalable">½</span>
@@ -201,19 +214,27 @@
                             <span data-default="3" class="scalable">3</span>
                             <span data-unit="tbsp">tbsp</span>
                             <span>soy sauce</span>
-                            <span class="substitute">
-                                <img class="substitute-icon icon" src="../img/cart-fill.svg" alt="Substitute ingredient">
-                                <small class="substitute-text hidden">Substitute with: Tamari</small>
-                            </span>
+                            <button class="substitute-btn">
+                                <div class="substitute-btn-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"></path>
+                                    </svg>
+                                </div>
+                                <span class="substitute-text hidden">or Tamari</span>
+                            </button>
                         </li>
                         <li itemprop="recipeIngredient">
                             <span data-default="2" class="scalable">2</span>
                             <span data-unit="tbsp">tbsp</span>
                             <span>maple syrup</span>
-                            <span class="substitute">
-                                <img class="substitute-icon icon" src="../img/cart-fill.svg" alt="Substitute ingredient">
-                                <small class="substitute-text hidden">Substitute with: Agave syrup</small>
-                            </span>
+                            <button class="substitute-btn">
+                                <div class="substitute-btn-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"></path>
+                                    </svg>
+                                </div>
+                                <span class="substitute-text hidden">or Agave syrup</span>
+                            </button>
                         </li>
                         <li itemprop="recipeIngredient">
                             <span data-default="2" class="scalable">2</span>
@@ -224,10 +245,14 @@
                             <span data-default="2" class="scalable">2</span>
                             <span data-unit="tsp">tsp</span>
                             <span>cornstarch</span>
-                            <span class="substitute">
-                                <img class="substitute-icon icon" src="../img/cart-fill.svg" alt="Substitute ingredient">
-                                <small class="substitute-text hidden">Substitute with: Arrowroot starch</small>
-                            </span>
+                            <button class="substitute-btn">
+                                <div class="substitute-btn-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"></path>
+                                    </svg>
+                                </div>
+                                <span class="substitute-text hidden">or Arrowroot starch</span>
+                            </button>
                         </li>
                         <li itemprop="recipeIngredient">
                             <span data-default="1" class="scalable">1</span>
@@ -256,10 +281,14 @@
                             <span data-default="1" class="scalable">1</span>
                             <span data-unit="medium">medium</span>
                             <span>red onion</span>, <span class="prep">thinly sliced</span>
-                            <span class="substitute">
-                                <img class="substitute-icon icon" src="../img/cart-fill.svg" alt="Substitute ingredient">
-                                <small class="substitute-text hidden">Substitute with: Yellow onion / White onion</small>
-                            </span>
+                            <button class="substitute-btn">
+                                <div class="substitute-btn-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"></path>
+                                    </svg>
+                                </div>
+                                <span class="substitute-text hidden">or Yellow onion / White onion</span>
+                            </button>
                         </li>
                         <li itemprop="recipeIngredient">
                             <span data-default="1" class="scalable">1</span>
@@ -270,19 +299,27 @@
                             <span data-default="1" class="scalable">1</span>
                             <span data-unit=""></span>
                             <span>red bell pepper</span>, <span class="prep">thinly sliced</span>
-                            <span class="substitute">
-                                <img class="substitute-icon icon" src="../img/cart-fill.svg" alt="Substitute ingredient">
-                                <small class="substitute-text hidden">Substitute with: Green bell pepper / Bok choy</small>
-                            </span>
+                            <button class="substitute-btn">
+                                <div class="substitute-btn-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"></path>
+                                    </svg>
+                                </div>
+                                <span class="substitute-text hidden">or Green bell pepper / Bok choy</span>
+                            </button>
                         </li>
                         <li itemprop="recipeIngredient">
                             <span data-default="100" class="scalable">100</span>
                             <span data-unit="g">g</span>
                             <span>canned pineapple chunks</span>
-                            <span class="substitute">
-                                <img class="substitute-icon icon" src="../img/cart-fill.svg" alt="Substitute ingredient">
-                                <small class="substitute-text hidden">Substitute with: Fresh pineapple chunks</small>
-                            </span>
+                            <button class="substitute-btn">
+                                <div class="substitute-btn-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"></path>
+                                    </svg>
+                                </div>
+                                <span class="substitute-text hidden">or Fresh pineapple chunks</span>
+                            </button>
                         </li>
                     </ul>
                 </details>

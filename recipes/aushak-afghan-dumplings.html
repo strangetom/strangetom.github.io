@@ -16,7 +16,8 @@
         <meta name="twitter:description" content="Aushak - afghan dumplings"/>     
         <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-nmzy2DG24X8KUJXizq6xugo0xzFj7WRa7FdbzEzw/cE='; script-src 'self';"/>
         <title>Aushak - afghan dumplings | Stranger Foods</title>
-        <link rel="preload" href="/fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin/>
+        <link rel="preload" href="/fonts/latin-modern-mono-prop-light-10-regular-latin.woff2" as="font" type="font/woff2" crossorigin/>
+        <link rel="preload" href="/fonts/latin-modern-mono-prop-light-10-regular-latin-ext.woff2" as="font" type="font/woff2" crossorigin/>
         <link rel="preload" href="/css/colours.min.css" as="style"/>
         <link rel="stylesheet" type="text/css" href="/css/recipe.min.css"/>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
@@ -180,10 +181,14 @@
                             <span data-default="2" class="scalable">2</span>
                             <span data-unit="cup">cup</span>
                             <span>unsweetened soy yogurt</span>
-                            <span class="substitute">
-                                <img class="substitute-icon icon" src="../img/cart-fill.svg" alt="Substitute ingredient">
-                                <small class="substitute-text hidden">Substitute with: Unsweetened almond yohurt</small>
-                            </span>
+                            <button class="substitute-btn">
+                                <div class="substitute-btn-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"></path>
+                                    </svg>
+                                </div>
+                                <span class="substitute-text hidden">or Unsweetened almond yohurt</span>
+                            </button>
                         </li>
                         <li itemprop="recipeIngredient">
                             <span data-default="2" class="scalable">2</span>
@@ -227,10 +232,14 @@
                             <span data-default="1" class="scalable">1</span>
                             <span data-unit=""></span>
                             <span>green chili pepper</span>, <span class="prep">seeds removed, minced</span>
-                            <span class="substitute">
-                                <img class="substitute-icon icon" src="../img/cart-fill.svg" alt="Substitute ingredient">
-                                <small class="substitute-text hidden">Substitute with: Fresh jalapeno</small>
-                            </span>
+                            <button class="substitute-btn">
+                                <div class="substitute-btn-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"></path>
+                                    </svg>
+                                </div>
+                                <span class="substitute-text hidden">or Fresh jalapeno</span>
+                            </button>
                         </li>
                         <li itemprop="recipeIngredient">
                             <span data-default="2" class="scalable">2</span>

@@ -16,7 +16,8 @@
         <meta name="twitter:description" content="Loaded chilli sweet potato fries"/>     
         <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-nmzy2DG24X8KUJXizq6xugo0xzFj7WRa7FdbzEzw/cE='; script-src 'self';"/>
         <title>Loaded chilli sweet potato fries | Stranger Foods</title>
-        <link rel="preload" href="/fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin/>
+        <link rel="preload" href="/fonts/latin-modern-mono-prop-light-10-regular-latin.woff2" as="font" type="font/woff2" crossorigin/>
+        <link rel="preload" href="/fonts/latin-modern-mono-prop-light-10-regular-latin-ext.woff2" as="font" type="font/woff2" crossorigin/>
         <link rel="preload" href="/css/colours.min.css" as="style"/>
         <link rel="stylesheet" type="text/css" href="/css/recipe.min.css"/>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
@@ -138,10 +139,14 @@
                             <span data-default="4" class="scalable">4</span>
                             <span data-unit="medium">medium</span>
                             <span>sweet potatoes</span>, <span class="prep">peeled</span>
-                            <span class="substitute">
-                                <img class="substitute-icon icon" src="../img/cart-fill.svg" alt="Substitute ingredient">
-                                <small class="substitute-text hidden">Substitute with: Potato</small>
-                            </span>
+                            <button class="substitute-btn">
+                                <div class="substitute-btn-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"></path>
+                                    </svg>
+                                </div>
+                                <span class="substitute-text hidden">or Potato</span>
+                            </button>
                         </li>
                         <li itemprop="recipeIngredient">
                             <span data-default="1" class="scalable">1</span>
@@ -190,10 +195,14 @@
                             <span data-default="1" class="scalable">1</span>
                             <span data-unit="medium">medium</span>
                             <span>yellow onion</span>, <span class="prep">finely chopped</span>
-                            <span class="substitute">
-                                <img class="substitute-icon icon" src="../img/cart-fill.svg" alt="Substitute ingredient">
-                                <small class="substitute-text hidden">Substitute with: Red onion / White onion</small>
-                            </span>
+                            <button class="substitute-btn">
+                                <div class="substitute-btn-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"></path>
+                                    </svg>
+                                </div>
+                                <span class="substitute-text hidden">or Red onion / White onion</span>
+                            </button>
                         </li>
                         <li itemprop="recipeIngredient">
                             <span data-default="3" class="scalable">3</span>
@@ -233,18 +242,26 @@
                         <li itemprop="recipeIngredient">
                             <span data-default="1" class="scalable">1</span>x <span data-unit="400 g tin">400 g tin</span>
                             <span>diced tomatoes</span>
-                            <span class="substitute">
-                                <img class="substitute-icon icon" src="../img/cart-fill.svg" alt="Substitute ingredient">
-                                <small class="substitute-text hidden">Substitute with: Medium tomato</small>
-                            </span>
+                            <button class="substitute-btn">
+                                <div class="substitute-btn-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"></path>
+                                    </svg>
+                                </div>
+                                <span class="substitute-text hidden">or Medium tomato</span>
+                            </button>
                         </li>
                         <li itemprop="recipeIngredient">
                             <span data-default="1" class="scalable">1</span>x <span data-unit="400 g tin">400 g tin</span>
                             <span>black beans</span>
-                            <span class="substitute">
-                                <img class="substitute-icon icon" src="../img/cart-fill.svg" alt="Substitute ingredient">
-                                <small class="substitute-text hidden">Substitute with: Cooked brown lentils / Red kidney beans</small>
-                            </span>
+                            <button class="substitute-btn">
+                                <div class="substitute-btn-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"></path>
+                                    </svg>
+                                </div>
+                                <span class="substitute-text hidden">or Cooked brown lentils / Red kidney beans</span>
+                            </button>
                         </li>
                         <li itemprop="recipeIngredient">
                             <span data-default="0.5" class="scalable">½</span>
@@ -326,10 +343,14 @@
                             <span data-default="0.5" class="scalable">½</span>
                             <span data-unit=""></span>
                             <span>lime</span>, <span class="prep">juiced</span>
-                            <span class="substitute">
-                                <img class="substitute-icon icon" src="../img/cart-fill.svg" alt="Substitute ingredient">
-                                <small class="substitute-text hidden">Substitute with: Lemon</small>
-                            </span>
+                            <button class="substitute-btn">
+                                <div class="substitute-btn-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"></path>
+                                    </svg>
+                                </div>
+                                <span class="substitute-text hidden">or Lemon</span>
+                            </button>
                         </li>
                     </ul>
                 </details>

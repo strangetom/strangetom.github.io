@@ -19,14 +19,6 @@ Styles an Atom feed, making it friendly for humans viewers
         <link rel="preload" href="/css/colours.min.css" as="style"/>
         <style type="text/css">
           @import '../css/colours.min.css';
-          @font-face {
-            font-family: 'latin_modern';
-            src: local('Latin Modern Mono'),
-                 url('../fonts/lmmonoproplt10-regular-webfont-subset.woff2') format('woff2');
-            font-weight: normal;
-            font-style: normal;
-            font-display: swap;
-          }
           body {
             font-family: sans-serif;
             background-color: var(--bg-s);

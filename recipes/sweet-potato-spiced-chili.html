@@ -16,7 +16,8 @@
         <meta name="twitter:description" content="Sweet potato spiced chili"/>     
         <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'sha256-nmzy2DG24X8KUJXizq6xugo0xzFj7WRa7FdbzEzw/cE='; script-src 'self';"/>
         <title>Sweet potato spiced chili | Stranger Foods</title>
-        <link rel="preload" href="/fonts/lmmonoproplt10-regular-webfont-subset.woff2" as="font" type="font/woff2" crossorigin/>
+        <link rel="preload" href="/fonts/latin-modern-mono-prop-light-10-regular-latin.woff2" as="font" type="font/woff2" crossorigin/>
+        <link rel="preload" href="/fonts/latin-modern-mono-prop-light-10-regular-latin-ext.woff2" as="font" type="font/woff2" crossorigin/>
         <link rel="preload" href="/css/colours.min.css" as="style"/>
         <link rel="stylesheet" type="text/css" href="/css/recipe.min.css"/>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
@@ -148,10 +149,14 @@
                     <li itemprop="recipeIngredient">
                         <span data-default="1" class="scalable">1</span>
                         <span data-unit="tbsp">tbsp</span>
-                        <span>chili powder</span>, or less for less spicy<span class="substitute">
-                            <img class="substitute-icon icon" src="../img/cart-fill.svg" alt="Substitute ingredient">
-                            <small class="substitute-text hidden">Substitute with: sliced chili peppers</small>
-                        </span>
+                        <span>chili powder</span>, or less for less spicy<button class="substitute-btn">
+                            <div class="substitute-btn-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"></path>
+                                </svg>
+                            </div>
+                            <span class="substitute-text hidden">or sliced chili peppers</span>
+                        </button>
                     </li>
                     <li itemprop="recipeIngredient">
                         <span data-default="2" class="scalable">2</span>
@@ -162,10 +167,14 @@
                         <span data-default="1" class="scalable">1</span>
                         <span data-unit="tsp">tsp</span>
                         <span>smoked sweet paprika powder</span>
-                        <span class="substitute">
-                            <img class="substitute-icon icon" src="../img/cart-fill.svg" alt="Substitute ingredient">
-                            <small class="substitute-text hidden">Substitute with: paprika powder</small>
-                        </span>
+                        <button class="substitute-btn">
+                            <div class="substitute-btn-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"></path>
+                                </svg>
+                            </div>
+                            <span class="substitute-text hidden">or paprika powder</span>
+                        </button>
                     </li>
                     <li itemprop="recipeIngredient">
                         <span data-default="0.25" class="scalable">¼</span>
@@ -243,19 +252,27 @@
                             <span data-default="0.5" class="scalable">½</span>
                             <span data-unit="cup">cup</span>
                             <span>vegan sour cream</span>
-                            <span class="substitute">
-                                <img class="substitute-icon icon" src="../img/cart-fill.svg" alt="Substitute ingredient">
-                                <small class="substitute-text hidden">Substitute with: unsweetened yogurt</small>
-                            </span>
+                            <button class="substitute-btn">
+                                <div class="substitute-btn-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"></path>
+                                    </svg>
+                                </div>
+                                <span class="substitute-text hidden">or unsweetened yogurt</span>
+                            </button>
                         </li>
                         <li itemprop="recipeIngredient">
                             <span data-default="1" class="scalable">1</span>
                             <span data-unit=""></span>
                             <span>jalapeno</span>, <span class="prep">sliced</span>
-                            <span class="substitute">
-                                <img class="substitute-icon icon" src="../img/cart-fill.svg" alt="Substitute ingredient">
-                                <small class="substitute-text hidden">Substitute with: pickled jalapeno</small>
-                            </span>
+                            <button class="substitute-btn">
+                                <div class="substitute-btn-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"></path>
+                                    </svg>
+                                </div>
+                                <span class="substitute-text hidden">or pickled jalapeno</span>
+                            </button>
                         </li>
                     </ul>
                 </details>
