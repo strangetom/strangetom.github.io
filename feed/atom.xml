@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2024-06-16T16:54:14.456238+00:00</updated>
+  <updated>2024-06-17T13:01:51.520573+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,24 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/spiced-pork-wraps-with-green-apple-salsa</id>
-    <title>Spiced pork wraps with green apple salsa</title>
-    <updated>2024-06-16T16:54:14.459361+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Spiced pork wraps with green apple salsa&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/spiced-pork-wraps-with-green-apple-salsa.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Pork and apple is a classic combination, and the sweet yet tangy apple certainly does so much to complement the meat, but pack in some spices and you take it to a whole other level. Think of these as a kind of taco, one of my favourite things to eat – messy, gratifying and utterly delicious. I particularly enjoy food that can be eaten using your hands and where the finished components can be plated up and served to guests so that you can all pile in and it becomes a shared, convivial meal together.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/spiced-pork-wraps-with-green-apple-salsa"/>
-    <published>2024-05-24T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/spiced-pork-wraps-with-green-apple-salsa.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/chicken-apricot-pastries</id>
     <title>Chicken &amp; apricot pastries</title>
-    <updated>2024-06-16T16:54:14.459140+00:00</updated>
+    <updated>2024-06-17T13:01:51.523666+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chicken &amp; apricot pastries&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/chicken-apricot-pastries.webp" style="text-align:center;"/&gt;
@@ -44,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/thai-pork-with-lemongrass-lime-dipping-sauce</id>
     <title>Thai pork with lemongrass &amp; lime dipping sauce</title>
-    <updated>2024-06-16T16:54:14.458916+00:00</updated>
+    <updated>2024-06-17T13:01:51.523445+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Thai pork with lemongrass &amp; lime dipping sauce&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/thai-pork-with-lemongrass-lime-dipping-sauce.webp" style="text-align:center;"/&gt;
@@ -59,7 +44,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/potato-pineapple-cashew-curry</id>
     <title>Potato, pineapple &amp; cashew curry</title>
-    <updated>2024-06-16T16:54:14.458670+00:00</updated>
+    <updated>2024-06-17T13:01:51.523224+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Potato, pineapple &amp; cashew curry&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/potato-pineapple-cashew-curry.webp" style="text-align:center;"/&gt;
@@ -74,7 +59,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/hawaiian-bbq-dog-with-mango-chili-pineapple-and-lime-relish</id>
     <title>Hawaiian bbq dog with mango, chili, pineapple and lime relish.</title>
-    <updated>2024-06-16T16:54:14.458304+00:00</updated>
+    <updated>2024-06-17T13:01:51.522974+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Hawaiian bbq dog with mango, chili, pineapple and lime relish.&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/hawaiian-bbq-dog-with-mango-chili-pineapple-and-lime-relish.webp" style="text-align:center;"/&gt;
@@ -89,7 +74,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/succotash-of-sweet-potato-edamame-corn</id>
     <title>Succotash of sweet potato, edamame &amp; corn</title>
-    <updated>2024-06-16T16:54:14.457839+00:00</updated>
+    <updated>2024-06-17T13:01:51.522616+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Succotash of sweet potato, edamame &amp; corn&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/succotash-of-sweet-potato-edamame-corn.webp" style="text-align:center;"/&gt;
@@ -99,6 +84,21 @@
     <published>2024-06-14T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/succotash-of-sweet-potato-edamame-corn.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/roasted-broccoli-bacon-conchiglie-bake-with-lemon-creme-fraiche</id>
+    <title>Roasted broccoli &amp; bacon conchiglie bake with lemon crème fraîche</title>
+    <updated>2024-06-17T13:01:51.522168+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Roasted broccoli &amp; bacon conchiglie bake with lemon crème fraîche&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/roasted-broccoli-bacon-conchiglie-bake-with-lemon-creme-fraiche.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;I like to make this mac &amp; cheese-style dish in a large, shallow roasting tin, so you get the maximum surface area for the crunchy topping. There’s broccoli and spinach for added greens and a wonderful savoury note from the bacon. Feel free to use any cheese you have left over in the fridge; blue cheese or cheddar would work well.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/roasted-broccoli-bacon-conchiglie-bake-with-lemon-creme-fraiche"/>
+    <published>2024-06-16T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/roasted-broccoli-bacon-conchiglie-bake-with-lemon-creme-fraiche.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
