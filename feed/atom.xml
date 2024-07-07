@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2024-06-17T13:01:51.520573+00:00</updated>
+  <updated>2024-07-07T15:29:56.214305+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,69 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/chicken-apricot-pastries</id>
-    <title>Chicken &amp; apricot pastries</title>
-    <updated>2024-06-17T13:01:51.523666+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chicken &amp; apricot pastries&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/chicken-apricot-pastries.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Growing up in a nation that makes savoury pies and pastries like no other means constantly craving and coming up with new and interesting fillings to wrap in a variety of different pastries to keep myself satisfied. The first time I made these was when I had leftover roast chicken and builders had set up scaffolding outside my apartment. Let’s just say it was the perfect welcoming gesture that kept them friendly and kind for the duration of our relationship.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/chicken-apricot-pastries"/>
-    <published>2024-05-26T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/chicken-apricot-pastries.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/thai-pork-with-lemongrass-lime-dipping-sauce</id>
-    <title>Thai pork with lemongrass &amp; lime dipping sauce</title>
-    <updated>2024-06-17T13:01:51.523445+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Thai pork with lemongrass &amp; lime dipping sauce&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/thai-pork-with-lemongrass-lime-dipping-sauce.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/thai-pork-with-lemongrass-lime-dipping-sauce"/>
-    <published>2024-06-01T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/thai-pork-with-lemongrass-lime-dipping-sauce.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/potato-pineapple-cashew-curry</id>
-    <title>Potato, pineapple &amp; cashew curry</title>
-    <updated>2024-06-17T13:01:51.523224+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Potato, pineapple &amp; cashew curry&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/potato-pineapple-cashew-curry.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Although it has a fairly lengthy ingredients list, this curry is straightforward to make. It’s sweet, sour and fragrant, with aromatic spices. I like to eat it as it is, but you can make it go further by serving with some plain rice or flatbreads, of course.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/potato-pineapple-cashew-curry"/>
-    <published>2024-06-02T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/potato-pineapple-cashew-curry.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/hawaiian-bbq-dog-with-mango-chili-pineapple-and-lime-relish</id>
-    <title>Hawaiian bbq dog with mango, chili, pineapple and lime relish.</title>
-    <updated>2024-06-17T13:01:51.522974+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Hawaiian bbq dog with mango, chili, pineapple and lime relish.&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/hawaiian-bbq-dog-with-mango-chili-pineapple-and-lime-relish.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Hot dogs are just classic summertime cookout food, and let's be honest they taste pretty good going down.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/hawaiian-bbq-dog-with-mango-chili-pineapple-and-lime-relish"/>
-    <published>2024-06-08T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/hawaiian-bbq-dog-with-mango-chili-pineapple-and-lime-relish.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/succotash-of-sweet-potato-edamame-corn</id>
     <title>Succotash of sweet potato, edamame &amp; corn</title>
-    <updated>2024-06-17T13:01:51.522616+00:00</updated>
+    <updated>2024-07-07T15:29:56.216410+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Succotash of sweet potato, edamame &amp; corn&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/succotash-of-sweet-potato-edamame-corn.webp" style="text-align:center;"/&gt;
@@ -89,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/roasted-broccoli-bacon-conchiglie-bake-with-lemon-creme-fraiche</id>
     <title>Roasted broccoli &amp; bacon conchiglie bake with lemon crème fraîche</title>
-    <updated>2024-06-17T13:01:51.522168+00:00</updated>
+    <updated>2024-07-07T15:29:56.216172+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Roasted broccoli &amp; bacon conchiglie bake with lemon crème fraîche&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/roasted-broccoli-bacon-conchiglie-bake-with-lemon-creme-fraiche.webp" style="text-align:center;"/&gt;
@@ -99,6 +39,66 @@
     <published>2024-06-16T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/roasted-broccoli-bacon-conchiglie-bake-with-lemon-creme-fraiche.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/pork-juniper-pink-peppercorn-meatballs-with-leeks-puy-lentils</id>
+    <title>Pork, juniper &amp; pink peppercorn meatballs with leeks &amp; puy lentils</title>
+    <updated>2024-07-07T15:29:56.215933+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pork, juniper &amp; pink peppercorn meatballs with leeks &amp; puy lentils&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/pork-juniper-pink-peppercorn-meatballs-with-leeks-puy-lentils.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;These are some of the nicest meatballs I’ve ever had and it’s well worth looking at the spice section in the supermarket for the slightly more unusual juniper berries and pink peppercorns (they won’t go to waste, as you’ll definitely want to make these again). Use good-quality sausages, as the texture works really well here and you’ll need the added seasoning from them.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/pork-juniper-pink-peppercorn-meatballs-with-leeks-puy-lentils"/>
+    <published>2024-06-22T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/pork-juniper-pink-peppercorn-meatballs-with-leeks-puy-lentils.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/baked-gnocchi-with-crispy-ham-hock-peas</id>
+    <title>Baked gnocchi with crispy ham hock &amp; peas</title>
+    <updated>2024-07-07T15:29:56.215689+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Baked gnocchi with crispy ham hock &amp; peas&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/baked-gnocchi-with-crispy-ham-hock-peas.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;What’s better than baked gnocchi? Baked gnocchi with crispy ham hock on top. This simple family-friendly dinner is perfect for a quick, easy weeknight meal: all the major food groups in one tin.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/baked-gnocchi-with-crispy-ham-hock-peas"/>
+    <published>2024-06-23T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/baked-gnocchi-with-crispy-ham-hock-peas.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/smashed-potato-salad</id>
+    <title>Smashed potato salad</title>
+    <updated>2024-07-07T15:29:56.215429+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Smashed potato salad&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/smashed-potato-salad.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This potato salad is revolutionary. It's going to be your new favourite salad, guaranteed. It's the viral smashed potato salad, and it's viral for good reason with its irresistible combination of crispy spiced potatoes, creamy dressing, and crisp, fresh veggies.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/smashed-potato-salad"/>
+    <published>2024-06-29T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/smashed-potato-salad.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/storecupboard-pasta-bake-crispy-red-pepper-cannellini-beans-with-blue-cheese</id>
+    <title>Storecupboard pasta bake: crispy red pepper &amp; cannellini beans with blue cheese</title>
+    <updated>2024-07-07T15:29:56.214501+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Storecupboard pasta bake: crispy red pepper &amp; cannellini beans with blue cheese&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/storecupboard-pasta-bake-crispy-red-pepper-cannellini-beans-with-blue-cheese.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This is a good quick storecupboard pasta bake. I often buy jars of ready roasted red peppers, then don’t know what to do with them – this is a perfect way to use them up. You can use any cheese you have lying about – I like the contrast of blue cheese with this, but feta or goat’s cheese would be just as good.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/storecupboard-pasta-bake-crispy-red-pepper-cannellini-beans-with-blue-cheese"/>
+    <published>2024-07-05T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/storecupboard-pasta-bake-crispy-red-pepper-cannellini-beans-with-blue-cheese.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
