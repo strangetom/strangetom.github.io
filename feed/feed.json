@@ -12,6 +12,42 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/spinach-meatball-curry",
+      "url": "https://www.strangerfoods.org/recipes/spinach-meatball-curry",
+      "title": "Spinach meatball curry",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Spinach meatball curry</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/spinach-meatball-curry.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This simple curry of spiced meatballs bobbing around in a fragrant sauce is much-loved in my house. I always have spinach that needs using up in my fridge and curries such as this are tremendous at hiding it under a robe of distracting and delicious flavour and texture from veg-dodging children.</p>",
+      "image": "https://www.strangerfoods.org/images/spinach-meatball-curry.webp",
+      "date_published": "2024-07-20T00:00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/grasmere-style-gingerbread",
+      "url": "https://www.strangerfoods.org/recipes/grasmere-style-gingerbread",
+      "title": "Grasmere-style gingerbread",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Grasmere-style gingerbread</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/grasmere-style-gingerbread.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;></p>",
+      "image": "https://www.strangerfoods.org/images/grasmere-style-gingerbread.webp",
+      "date_published": "2024-07-19T00:00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/lamb-buckwheat-pilaf-with-cherries-chestnuts-dill",
+      "url": "https://www.strangerfoods.org/recipes/lamb-buckwheat-pilaf-with-cherries-chestnuts-dill",
+      "title": "Lamb & buckwheat pilaf with cherries, chestnuts & dill",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Lamb & buckwheat pilaf with cherries, chestnuts & dill</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/lamb-buckwheat-pilaf-with-cherries-chestnuts-dill.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Pilafs can be found all over Eastern Europe, central Asia and the Middle East, ranging from the simple to the most complicated depending on the occasion. In this recipe, cherries and chestnuts impart their unmistakeable fruity sweetness on savoury lamb, buckwheat and fresh dill. Cooking the pilaf in the oven avoids any burnt bottoms and, I think, gives a nice crunch to the buckwheat at the surface of the dish.</p>",
+      "image": "https://www.strangerfoods.org/images/lamb-buckwheat-pilaf-with-cherries-chestnuts-dill.webp",
+      "date_published": "2024-07-13T00:00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/herby-roasted-peppers-stuffed-with-artichokes-feta",
+      "url": "https://www.strangerfoods.org/recipes/herby-roasted-peppers-stuffed-with-artichokes-feta",
+      "title": "Herby roasted peppers stuffed with artichokes & feta",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Herby roasted peppers stuffed with artichokes & feta</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/herby-roasted-peppers-stuffed-with-artichokes-feta.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Stuffed peppers \u2013 retro or fantastic? As with pineapple upside-down cake, I think they are both. These lovely parcels, stuffed with rich artichokes and feta, are a far cry from the ones that turned up in school dinners, and show just how lovely stuffed vegetables can be.</p>",
+      "image": "https://www.strangerfoods.org/images/herby-roasted-peppers-stuffed-with-artichokes-feta.webp",
+      "date_published": "2024-07-12T00:00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/storecupboard-pasta-bake-crispy-red-pepper-cannellini-beans-with-blue-cheese",
       "url": "https://www.strangerfoods.org/recipes/storecupboard-pasta-bake-crispy-red-pepper-cannellini-beans-with-blue-cheese",
       "title": "Storecupboard pasta bake: crispy red pepper & cannellini beans with blue cheese",
@@ -27,42 +63,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Smashed potato salad</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/smashed-potato-salad.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This potato salad is revolutionary. It's going to be your new favourite salad, guaranteed. It's the viral smashed potato salad, and it's viral for good reason with its irresistible combination of crispy spiced potatoes, creamy dressing, and crisp, fresh veggies.</p>",
       "image": "https://www.strangerfoods.org/images/smashed-potato-salad.webp",
       "date_published": "2024-06-29T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/baked-gnocchi-with-crispy-ham-hock-peas",
-      "url": "https://www.strangerfoods.org/recipes/baked-gnocchi-with-crispy-ham-hock-peas",
-      "title": "Baked gnocchi with crispy ham hock & peas",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Baked gnocchi with crispy ham hock & peas</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/baked-gnocchi-with-crispy-ham-hock-peas.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>What\u2019s better than baked gnocchi? Baked gnocchi with crispy ham hock on top. This simple family-friendly dinner is perfect for a quick, easy weeknight meal: all the major food groups in one tin.</p>",
-      "image": "https://www.strangerfoods.org/images/baked-gnocchi-with-crispy-ham-hock-peas.webp",
-      "date_published": "2024-06-23T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/pork-juniper-pink-peppercorn-meatballs-with-leeks-puy-lentils",
-      "url": "https://www.strangerfoods.org/recipes/pork-juniper-pink-peppercorn-meatballs-with-leeks-puy-lentils",
-      "title": "Pork, juniper & pink peppercorn meatballs with leeks & puy lentils",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Pork, juniper & pink peppercorn meatballs with leeks & puy lentils</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/pork-juniper-pink-peppercorn-meatballs-with-leeks-puy-lentils.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>These are some of the nicest meatballs I\u2019ve ever had and it\u2019s well worth looking at the spice section in the supermarket for the slightly more unusual juniper berries and pink peppercorns (they won\u2019t go to waste, as you\u2019ll definitely want to make these again). Use good-quality sausages, as the texture works really well here and you\u2019ll need the added seasoning from them.</p>",
-      "image": "https://www.strangerfoods.org/images/pork-juniper-pink-peppercorn-meatballs-with-leeks-puy-lentils.webp",
-      "date_published": "2024-06-22T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/roasted-broccoli-bacon-conchiglie-bake-with-lemon-creme-fraiche",
-      "url": "https://www.strangerfoods.org/recipes/roasted-broccoli-bacon-conchiglie-bake-with-lemon-creme-fraiche",
-      "title": "Roasted broccoli & bacon conchiglie bake with lemon cr\u00e8me fra\u00eeche",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Roasted broccoli & bacon conchiglie bake with lemon cr\u00e8me fra\u00eeche</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/roasted-broccoli-bacon-conchiglie-bake-with-lemon-creme-fraiche.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>I like to make this mac & cheese-style dish in a large, shallow roasting tin, so you get the maximum surface area for the crunchy topping. There\u2019s broccoli and spinach for added greens and a wonderful savoury note from the bacon. Feel free to use any cheese you have left over in the fridge; blue cheese or cheddar would work well.</p>",
-      "image": "https://www.strangerfoods.org/images/roasted-broccoli-bacon-conchiglie-bake-with-lemon-creme-fraiche.webp",
-      "date_published": "2024-06-16T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/succotash-of-sweet-potato-edamame-corn",
-      "url": "https://www.strangerfoods.org/recipes/succotash-of-sweet-potato-edamame-corn",
-      "title": "Succotash of sweet potato, edamame & corn",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Succotash of sweet potato, edamame & corn</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/succotash-of-sweet-potato-edamame-corn.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This simple recipe, inspired by the succotash of indigenous Americans, is a celebration of seasonal vegetables. You can, of course, use fresh corn kernels cut from a cob, but using frozen is easiest. Serve with some crusty bread, at room temperature or straight from the bubbling pot.</p>",
-      "image": "https://www.strangerfoods.org/images/succotash-of-sweet-potato-edamame-corn.webp",
-      "date_published": "2024-06-14T00:00:00Z",
       "language": "en"
     }
   ]

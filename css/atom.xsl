@@ -87,7 +87,7 @@ Styles an Atom feed, making it friendly for humans viewers
             grid-auto-flow: row;
             gap: 10px;
             padding: 0 5px;
-            justify-items: center;
+            justify-content: center;
           }
           .recent a {
             padding: 0;
