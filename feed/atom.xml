@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2024-07-20T16:34:28.469160+00:00</updated>
+  <updated>2024-08-17T16:20:38.570641+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,84 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/smashed-potato-salad</id>
-    <title>Smashed potato salad</title>
-    <updated>2024-07-20T16:34:28.470411+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Smashed potato salad&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/smashed-potato-salad.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This potato salad is revolutionary. It's going to be your new favourite salad, guaranteed. It's the viral smashed potato salad, and it's viral for good reason with its irresistible combination of crispy spiced potatoes, creamy dressing, and crisp, fresh veggies.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/smashed-potato-salad"/>
-    <published>2024-06-29T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/smashed-potato-salad.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/storecupboard-pasta-bake-crispy-red-pepper-cannellini-beans-with-blue-cheese</id>
-    <title>Storecupboard pasta bake: crispy red pepper &amp; cannellini beans with blue cheese</title>
-    <updated>2024-07-20T16:34:28.470218+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Storecupboard pasta bake: crispy red pepper &amp; cannellini beans with blue cheese&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/storecupboard-pasta-bake-crispy-red-pepper-cannellini-beans-with-blue-cheese.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This is a good quick storecupboard pasta bake. I often buy jars of ready roasted red peppers, then don’t know what to do with them – this is a perfect way to use them up. You can use any cheese you have lying about – I like the contrast of blue cheese with this, but feta or goat’s cheese would be just as good.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/storecupboard-pasta-bake-crispy-red-pepper-cannellini-beans-with-blue-cheese"/>
-    <published>2024-07-05T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/storecupboard-pasta-bake-crispy-red-pepper-cannellini-beans-with-blue-cheese.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/herby-roasted-peppers-stuffed-with-artichokes-feta</id>
-    <title>Herby roasted peppers stuffed with artichokes &amp; feta</title>
-    <updated>2024-07-20T16:34:28.470028+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Herby roasted peppers stuffed with artichokes &amp; feta&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/herby-roasted-peppers-stuffed-with-artichokes-feta.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Stuffed peppers – retro or fantastic? As with pineapple upside-down cake, I think they are both. These lovely parcels, stuffed with rich artichokes and feta, are a far cry from the ones that turned up in school dinners, and show just how lovely stuffed vegetables can be.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/herby-roasted-peppers-stuffed-with-artichokes-feta"/>
-    <published>2024-07-12T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/herby-roasted-peppers-stuffed-with-artichokes-feta.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/lamb-buckwheat-pilaf-with-cherries-chestnuts-dill</id>
-    <title>Lamb &amp; buckwheat pilaf with cherries, chestnuts &amp; dill</title>
-    <updated>2024-07-20T16:34:28.469833+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lamb &amp; buckwheat pilaf with cherries, chestnuts &amp; dill&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/lamb-buckwheat-pilaf-with-cherries-chestnuts-dill.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Pilafs can be found all over Eastern Europe, central Asia and the Middle East, ranging from the simple to the most complicated depending on the occasion. In this recipe, cherries and chestnuts impart their unmistakeable fruity sweetness on savoury lamb, buckwheat and fresh dill. Cooking the pilaf in the oven avoids any burnt bottoms and, I think, gives a nice crunch to the buckwheat at the surface of the dish.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/lamb-buckwheat-pilaf-with-cherries-chestnuts-dill"/>
-    <published>2024-07-13T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/lamb-buckwheat-pilaf-with-cherries-chestnuts-dill.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/grasmere-style-gingerbread</id>
-    <title>Grasmere-style gingerbread</title>
-    <updated>2024-07-20T16:34:28.469608+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Grasmere-style gingerbread&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/grasmere-style-gingerbread.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/grasmere-style-gingerbread"/>
-    <published>2024-07-19T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/grasmere-style-gingerbread.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/spinach-meatball-curry</id>
     <title>Spinach meatball curry</title>
-    <updated>2024-07-20T16:34:28.469336+00:00</updated>
+    <updated>2024-08-17T16:20:38.575142+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Spinach meatball curry&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/spinach-meatball-curry.webp" style="text-align:center;"/&gt;
@@ -99,6 +24,81 @@
     <published>2024-07-20T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/spinach-meatball-curry.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/the-ultimate-fish-finger-sarnie</id>
+    <title>The ultimate fish finger sarnie</title>
+    <updated>2024-08-17T16:20:38.574885+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;The ultimate fish finger sarnie&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/the-ultimate-fish-finger-sarnie.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Fish fingers are a freezer staple, but sometimes they need a little dressing up, so try this, the best of butties. Usually I’m a strong advocate for sourdough, but not for this recipe. Fish fingers require something a little fluffier, preferably baked that day and sliced at home into doorstop-style hunks. Team with fancy salted butter – preferably the stuff that’s golden in hue and has crystals of salt in it.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/the-ultimate-fish-finger-sarnie"/>
+    <published>2024-07-26T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/the-ultimate-fish-finger-sarnie.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/silk-road-style-lamb-cumin-pasta</id>
+    <title>Silk road-style lamb &amp; cumin pasta</title>
+    <updated>2024-08-17T16:20:38.574635+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Silk road-style lamb &amp; cumin pasta&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/silk-road-style-lamb-cumin-pasta.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;I know this sounds like a weird combination to be thrown over pasta and I know it may seem like it’s cumin-heavy (which it is), but it really works, and I have won over quite a few sceptics with this recipe, mostly because it’s actually, and perhaps for some surprisingly, very delicious and satisfying. Try it – it’s one of my favourite recipes in this book and I knew instantly that I had to share it with you.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/silk-road-style-lamb-cumin-pasta"/>
+    <published>2024-07-29T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/silk-road-style-lamb-cumin-pasta.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/lazy-beef-caramelized-onion-pide</id>
+    <title>Lazy beef &amp; caramelized onion pide</title>
+    <updated>2024-08-17T16:20:38.574351+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lazy beef &amp; caramelized onion pide&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/lazy-beef-caramelized-onion-pide.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;I love Turkish pide and Georgian hachapuri, but you really need time and patience to make the dough from scratch. This is a quicker, lighter version using puff pastry to satisfy my inner lazy girl, and perfect for sharing – but only if you’re in a sharing mood, of course.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/lazy-beef-caramelized-onion-pide"/>
+    <published>2024-08-10T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/lazy-beef-caramelized-onion-pide.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/harissa-chicken-noodle-lettuce-cups</id>
+    <title>Harissa chicken noodle lettuce cups</title>
+    <updated>2024-08-17T16:20:38.574032+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Harissa chicken noodle lettuce cups&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/harissa-chicken-noodle-lettuce-cups.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Lettuce cups are one of my favourite things to eat – I’ll pile them high with flavourful fillings and munch on them at any opportunity. This combo of sweet and spicy noodles with shredded chicken is a great one for sharing and especially perfect in the warmer months (although I never let a thing like weather dictate when I eat these) – a perfectly virtuous snack, finger food or main meal.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/harissa-chicken-noodle-lettuce-cups"/>
+    <published>2024-08-13T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/harissa-chicken-noodle-lettuce-cups.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/smoky-beef-potato-pea-pan-fry-with-eggs-yogurt</id>
+    <title>Smoky beef, potato &amp; pea pan-fry with eggs &amp; yogurt</title>
+    <updated>2024-08-17T16:20:38.573319+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Smoky beef, potato &amp; pea pan-fry with eggs &amp; yogurt&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/smoky-beef-potato-pea-pan-fry-with-eggs-yogurt.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Every once in a while, laziness prevails and I want something that can be made and served in the same pan and then placed in the centre of the table to be shared. I like to take the time to fry the potatoes properly, as they really are the star of the show.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/smoky-beef-potato-pea-pan-fry-with-eggs-yogurt"/>
+    <published>2024-08-17T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/smoky-beef-potato-pea-pan-fry-with-eggs-yogurt.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
