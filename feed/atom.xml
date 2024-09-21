@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2024-08-17T16:20:38.570641+00:00</updated>
+  <updated>2024-09-21T16:43:01.654276+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,93 +12,94 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/spinach-meatball-curry</id>
-    <title>Spinach meatball curry</title>
-    <updated>2024-08-17T16:20:38.575142+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Spinach meatball curry&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/lime-and-coconut-potato-gratin</id>
+    <title>Lime and coconut potato gratin</title>
+    <updated>2024-09-21T16:43:01.658266+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lime and coconut potato gratin&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/spinach-meatball-curry.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/lime-and-coconut-potato-gratin.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This simple curry of spiced meatballs bobbing around in a fragrant sauce is much-loved in my house. I always have spinach that needs using up in my fridge and curries such as this are tremendous at hiding it under a robe of distracting and delicious flavour and texture from veg-dodging children.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/spinach-meatball-curry"/>
-    <published>2024-07-20T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;This gratin was part of a Christmas feast that we created for the Guardian which also included a roasted Szechuan lamb shoulder, steamed aubergines and a cucumber salad. You can easily stick to this spirit, even if you lose the lamb, and serve the gratin as part of a Chinese-ish vegetable feast with our cucumber salad à la Xi’an Impression, steamed aubergines with charred chilli salsa and sweet and sour sprouts with chestnuts and grapes.
+Ideally, you want to cut the potatoes thinly using a mandolin or a food processor with the appropriate attachment. Don’t worry if you have neither, though – cutting them by hand is also fine; you might just need to cook them a little longer if they are thicker than 3mm. You can bake the gratin the day before and reheat it in a very hot oven just before serving if you want to get ahead. Top with the aromatics and zest just as you serve, and not before.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/lime-and-coconut-potato-gratin"/>
+    <published>2024-08-24T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/spinach-meatball-curry.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/lime-and-coconut-potato-gratin.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/the-ultimate-fish-finger-sarnie</id>
-    <title>The ultimate fish finger sarnie</title>
-    <updated>2024-08-17T16:20:38.574885+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;The ultimate fish finger sarnie&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/prawn-herb-brewat</id>
+    <title>Prawn &amp; herb brewat</title>
+    <updated>2024-09-21T16:43:01.658028+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Prawn &amp; herb brewat&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/the-ultimate-fish-finger-sarnie.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/prawn-herb-brewat.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Fish fingers are a freezer staple, but sometimes they need a little dressing up, so try this, the best of butties. Usually I’m a strong advocate for sourdough, but not for this recipe. Fish fingers require something a little fluffier, preferably baked that day and sliced at home into doorstop-style hunks. Team with fancy salted butter – preferably the stuff that’s golden in hue and has crystals of salt in it.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/the-ultimate-fish-finger-sarnie"/>
-    <published>2024-07-26T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/prawn-herb-brewat"/>
+    <published>2024-08-26T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/the-ultimate-fish-finger-sarnie.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/prawn-herb-brewat.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/silk-road-style-lamb-cumin-pasta</id>
-    <title>Silk road-style lamb &amp; cumin pasta</title>
-    <updated>2024-08-17T16:20:38.574635+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Silk road-style lamb &amp; cumin pasta&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/chilli-crab-linguine</id>
+    <title>Chilli crab linguine</title>
+    <updated>2024-09-21T16:43:01.657785+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chilli crab linguine&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/silk-road-style-lamb-cumin-pasta.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/chilli-crab-linguine.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;I know this sounds like a weird combination to be thrown over pasta and I know it may seem like it’s cumin-heavy (which it is), but it really works, and I have won over quite a few sceptics with this recipe, mostly because it’s actually, and perhaps for some surprisingly, very delicious and satisfying. Try it – it’s one of my favourite recipes in this book and I knew instantly that I had to share it with you.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/silk-road-style-lamb-cumin-pasta"/>
-    <published>2024-07-29T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;Need a quick, tasty dinner that’ll impress your friends and family? This speedy pasta dish brings so much flavour to the table, no one will guess how easy it is to make. It turns tinned white crabmeat into a dinner that tastes just as good as restaurant versions, for a fraction of the calories. We’d say this recipe is medium hot, thanks to leaving the seeds in our red chilli, but you can add more or less to make it right for you.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/chilli-crab-linguine"/>
+    <published>2024-09-10T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/silk-road-style-lamb-cumin-pasta.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/chilli-crab-linguine.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/lazy-beef-caramelized-onion-pide</id>
-    <title>Lazy beef &amp; caramelized onion pide</title>
-    <updated>2024-08-17T16:20:38.574351+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lazy beef &amp; caramelized onion pide&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/bbq-bolognese</id>
+    <title>BBQ bolognese</title>
+    <updated>2024-09-21T16:43:01.657536+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;BBQ bolognese&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/lazy-beef-caramelized-onion-pide.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/bbq-bolognese.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;I love Turkish pide and Georgian hachapuri, but you really need time and patience to make the dough from scratch. This is a quicker, lighter version using puff pastry to satisfy my inner lazy girl, and perfect for sharing – but only if you’re in a sharing mood, of course.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/lazy-beef-caramelized-onion-pide"/>
-    <published>2024-08-10T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;We never get bored of finding fresh ways to make spag bol even better! BBQ seasoning and sweet smoked paprika makes a gorgeous, smoky-flavoured sauce that’ll transform one pack of mince into a batch-cookable family favourite. Enjoy it with the fun of twisting spaghetti around your fork or serve it with any pasta shape – you won’t regret wiping your plate clean with some crusty garlic bread …&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/bbq-bolognese"/>
+    <published>2024-09-14T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/lazy-beef-caramelized-onion-pide.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/bbq-bolognese.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/harissa-chicken-noodle-lettuce-cups</id>
-    <title>Harissa chicken noodle lettuce cups</title>
-    <updated>2024-08-17T16:20:38.574032+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Harissa chicken noodle lettuce cups&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/lux-warm-winter-salad-roasted-potatoes-celeriac-with-truffle-soft-boiled-eggs</id>
+    <title>Lux warm winter salad: roasted potatoes &amp; celeriac with truffle &amp; soft-boiled eggs</title>
+    <updated>2024-09-21T16:43:01.657263+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lux warm winter salad: roasted potatoes &amp; celeriac with truffle &amp; soft-boiled eggs&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/harissa-chicken-noodle-lettuce-cups.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/lux-warm-winter-salad-roasted-potatoes-celeriac-with-truffle-soft-boiled-eggs.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Lettuce cups are one of my favourite things to eat – I’ll pile them high with flavourful fillings and munch on them at any opportunity. This combo of sweet and spicy noodles with shredded chicken is a great one for sharing and especially perfect in the warmer months (although I never let a thing like weather dictate when I eat these) – a perfectly virtuous snack, finger food or main meal.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/harissa-chicken-noodle-lettuce-cups"/>
-    <published>2024-08-13T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;This is such a rich dish – egg and truffle were made to go with roast potatoes. The celeriac adds freshness, and there’s pepper from the watercress – perfect. You can easily cook the eggs in the tin for the last 10 minutes, as with the roast potato hash here, but I prefer the look and texture of soft-boiled eggs with this.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/lux-warm-winter-salad-roasted-potatoes-celeriac-with-truffle-soft-boiled-eggs"/>
+    <published>2024-09-20T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/harissa-chicken-noodle-lettuce-cups.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/lux-warm-winter-salad-roasted-potatoes-celeriac-with-truffle-soft-boiled-eggs.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/smoky-beef-potato-pea-pan-fry-with-eggs-yogurt</id>
-    <title>Smoky beef, potato &amp; pea pan-fry with eggs &amp; yogurt</title>
-    <updated>2024-08-17T16:20:38.573319+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Smoky beef, potato &amp; pea pan-fry with eggs &amp; yogurt&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/smoky-chicken-and-bean-stew</id>
+    <title>Smoky chicken and bean stew</title>
+    <updated>2024-09-21T16:43:01.654468+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Smoky chicken and bean stew&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/smoky-beef-potato-pea-pan-fry-with-eggs-yogurt.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/smoky-chicken-and-bean-stew.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Every once in a while, laziness prevails and I want something that can be made and served in the same pan and then placed in the centre of the table to be shared. I like to take the time to fry the potatoes properly, as they really are the star of the show.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/smoky-beef-potato-pea-pan-fry-with-eggs-yogurt"/>
-    <published>2024-08-17T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;When it comes to wholesome home-cooked food, there’s nothing quite like a stew. This is undeniably one of the best, with bacon and paprika turning the flavours up a notch, making sure every spoonful is rich, smoky and satisfying. The store-cupboard ingredients help keep costs down – and we’ve included 3 different methods, so that this recipe is ready on a timescale that suits you!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/smoky-chicken-and-bean-stew"/>
+    <published>2024-09-21T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/smoky-beef-potato-pea-pan-fry-with-eggs-yogurt.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/smoky-chicken-and-bean-stew.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
