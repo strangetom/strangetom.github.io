@@ -90,54 +90,57 @@ Styles an Atom feed, making it friendly for humans viewers
             justify-content: center;
           }
           .recent a {
+            display: block;
             padding: 0;
             text-align: left;
+            scroll-snap-align: start;
             text-decoration: none;
             color: #fff;
             margin: 5px; 
             border-radius: var(--photo-radius);
-            height: 220px;
-            width: calc(100% - 10px);
           }
           .recent h3 {
-            position: relative;
-            font-family: latin_modern,sans-serif;
-            font-weight: 700;
-            font-size: 1.25rem;
+            font-family: 'latin_modern', sans-serif;
+            font-weight: bold;
+            font-size: 1.35rem;
             margin: 0;
             padding: 10px;
-            height: 100%;
+            height: 140px;
             border: 1px solid var(--bg-2);
-            background: var(--bg-img),linear-gradient(rgb(50,50,50),25%,transparent);
-            background-size: auto 100%;
+            background: var(--bg-img),linear-gradient(rgb(70, 70, 70), 40%, transparent);
+            background-size: 100% auto;
             background-position: 50%;
             background-blend-mode: multiply;
             border-radius: var(--photo-radius);
             box-shadow: var(--big-shadow);
-            box-sizing: border-box;
+            position: relative;
             color: #ebdbb2; /* --fg-1 */
             letter-spacing: 1px;
+            text-shadow: rgba(0,0,0,.5) 2px 2px 1px;
           }
           .recipe-label {
             font-family: sans-serif;
-            font-size: .9rem;
-            font-weight: 400;
+            font-size: 0.9rem;
+            font-weight: normal;
             display: inline-block;
             margin: 3px;
             padding: 4px 12px;
-            color: var(--fg);
+            color: var(--fg-1);
             background-color: var(--bg-1);
             border-radius: var(--button-radius);
             border: 1px solid var(--bg-3);
             box-shadow: var(--small-shadow);
+            text-shadow: none;
             position: absolute;
             left: 5px;
             bottom: 0;
           }
           .recipe-label-icon {
+            height: calc(1em + .5px);
+            width: 1em;
+            margin-right: .5rem;
             position: relative;
             bottom: -2px;
-            margin-right: .5rem;
           }
           hr {
             padding: 0;

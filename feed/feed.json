@@ -12,6 +12,42 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/braised-beef-short-ribs-with-butter-beans-and-figs",
+      "url": "https://www.strangerfoods.org/recipes/braised-beef-short-ribs-with-butter-beans-and-figs",
+      "title": "Braised beef short ribs with butter beans and figs",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Braised beef short ribs with butter beans and figs</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/braised-beef-short-ribs-with-butter-beans-and-figs.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This is a braise for the winter months, when fall-off-the-bone ribs and warming spices are what you\u2019re craving. Don\u2019t be intimidated by the long cooking time here \u2013 it\u2019s mostly a waiting game once the pot goes into the oven, so it can easily be put together in the afternoon, ready for a decadent dinner.</p>",
+      "image": "https://www.strangerfoods.org/images/braised-beef-short-ribs-with-butter-beans-and-figs.webp",
+      "date_published": "2024-10-12T00:00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/coconut-curry-fish-soup",
+      "url": "https://www.strangerfoods.org/recipes/coconut-curry-fish-soup",
+      "title": "Coconut curry fish soup",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Coconut curry fish soup</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/coconut-curry-fish-soup.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This Thai-inspired coconut curry soup is comforting like a chowder but also light and alive with fresh lime juice, ginger, and cilantro. We love making it on the boat because the ingredients are simple and readily available, yet the flavor is fresh and tangy. Red curry paste (we used store-bought) brings the broth to life with its red chilies, coriander, lemongrass, garlic, and shallots. This soup is tasty made with salmon, halibut, rockfish, or shrimp\u2014or throw in a combination! You can double the recipe for a big pot that will last you all week and add fresh garnishes to each bowl you enjoy. When we\u2019re fishing in Prince William Sound during the summer, we like to add fresh spot prawns that we caught and serve the soup over steaming white rice for an even heartier meal.</p>",
+      "image": "https://www.strangerfoods.org/images/coconut-curry-fish-soup.webp",
+      "date_published": "2024-10-07T00:00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/lunchbox-pasta-salad-quick-roast-broccoli-with-olives-sun-dried-tomatoes-basil-pine-nuts",
+      "url": "https://www.strangerfoods.org/recipes/lunchbox-pasta-salad-quick-roast-broccoli-with-olives-sun-dried-tomatoes-basil-pine-nuts",
+      "title": "Lunchbox pasta salad: quick-roast broccoli with olives, sun-dried tomatoes, basil & pine nuts",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Lunchbox pasta salad: quick-roast broccoli with olives, sun-dried tomatoes, basil & pine nuts</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/lunchbox-pasta-salad-quick-roast-broccoli-with-olives-sun-dried-tomatoes-basil-pine-nuts.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>I often prefer pasta with just roasted vegetables and plenty of olive oil, rather than with a sauce. This puttanesca style broccoli works perfectly for a filling lunch.</p>",
+      "image": "https://www.strangerfoods.org/images/lunchbox-pasta-salad-quick-roast-broccoli-with-olives-sun-dried-tomatoes-basil-pine-nuts.webp",
+      "date_published": "2024-10-05T00:00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/cevapi-southeastern-european-meat-and-onion-sausages",
+      "url": "https://www.strangerfoods.org/recipes/cevapi-southeastern-european-meat-and-onion-sausages",
+      "title": "Cevapi (southeastern european meat and onion sausages)",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Cevapi (southeastern european meat and onion sausages)</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/cevapi-southeastern-european-meat-and-onion-sausages.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Cevapi is a simple finger-sized sausage of Balkan origin whose simplicity makes finding the right few ingredients important to getting the tastiest links possible.</p>",
+      "image": "https://www.strangerfoods.org/images/cevapi-southeastern-european-meat-and-onion-sausages.webp",
+      "date_published": "2024-09-28T00:00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/smoky-chicken-and-bean-stew",
       "url": "https://www.strangerfoods.org/recipes/smoky-chicken-and-bean-stew",
       "title": "Smoky chicken and bean stew",
@@ -27,42 +63,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Lux warm winter salad: roasted potatoes & celeriac with truffle & soft-boiled eggs</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/lux-warm-winter-salad-roasted-potatoes-celeriac-with-truffle-soft-boiled-eggs.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This is such a rich dish \u2013 egg and truffle were made to go with roast potatoes. The celeriac adds freshness, and there\u2019s pepper from the watercress \u2013 perfect. You can easily cook the eggs in the tin for the last 10 minutes, as with the roast potato hash here, but I prefer the look and texture of soft-boiled eggs with this.</p>",
       "image": "https://www.strangerfoods.org/images/lux-warm-winter-salad-roasted-potatoes-celeriac-with-truffle-soft-boiled-eggs.webp",
       "date_published": "2024-09-20T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/bbq-bolognese",
-      "url": "https://www.strangerfoods.org/recipes/bbq-bolognese",
-      "title": "BBQ bolognese",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">BBQ bolognese</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/bbq-bolognese.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>We never get bored of finding fresh ways to make spag bol even better! BBQ seasoning and sweet smoked paprika makes a gorgeous, smoky-flavoured sauce that\u2019ll transform one pack of mince into a batch-cookable family favourite. Enjoy it with the fun of twisting spaghetti around your fork or serve it with any pasta shape \u2013 you won\u2019t regret wiping your plate clean with some crusty garlic bread \u2026</p>",
-      "image": "https://www.strangerfoods.org/images/bbq-bolognese.webp",
-      "date_published": "2024-09-14T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/chilli-crab-linguine",
-      "url": "https://www.strangerfoods.org/recipes/chilli-crab-linguine",
-      "title": "Chilli crab linguine",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Chilli crab linguine</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/chilli-crab-linguine.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Need a quick, tasty dinner that\u2019ll impress your friends and family? This speedy pasta dish brings so much flavour to the table, no one will guess how easy it is to make. It turns tinned white crabmeat into a dinner that tastes just as good as restaurant versions, for a fraction of the calories. We\u2019d say this recipe is medium hot, thanks to leaving the seeds in our red chilli, but you can add more or less to make it right for you.</p>",
-      "image": "https://www.strangerfoods.org/images/chilli-crab-linguine.webp",
-      "date_published": "2024-09-10T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/prawn-herb-brewat",
-      "url": "https://www.strangerfoods.org/recipes/prawn-herb-brewat",
-      "title": "Prawn & herb brewat",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Prawn & herb brewat</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/prawn-herb-brewat.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;></p>",
-      "image": "https://www.strangerfoods.org/images/prawn-herb-brewat.webp",
-      "date_published": "2024-08-26T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/lime-and-coconut-potato-gratin",
-      "url": "https://www.strangerfoods.org/recipes/lime-and-coconut-potato-gratin",
-      "title": "Lime and coconut potato gratin",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Lime and coconut potato gratin</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/lime-and-coconut-potato-gratin.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This gratin was part of a Christmas feast that we created for the Guardian which also included a roasted Szechuan lamb shoulder, steamed aubergines and a cucumber salad. You can easily stick to this spirit, even if you lose the lamb, and serve the gratin as part of a Chinese-ish vegetable feast with our cucumber salad \u00e0 la Xi\u2019an Impression, steamed aubergines with charred chilli salsa and sweet and sour sprouts with chestnuts and grapes.\nIdeally, you want to cut the potatoes thinly using a mandolin or a food processor with the appropriate attachment. Don\u2019t worry if you have neither, though \u2013 cutting them by hand is also fine; you might just need to cook them a little longer if they are thicker than 3mm. You can bake the gratin the day before and reheat it in a very hot oven just before serving if you want to get ahead. Top with the aromatics and zest just as you serve, and not before.</p>",
-      "image": "https://www.strangerfoods.org/images/lime-and-coconut-potato-gratin.webp",
-      "date_published": "2024-08-24T00:00:00Z",
       "language": "en"
     }
   ]
