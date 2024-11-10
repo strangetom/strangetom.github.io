@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2024-10-12T19:23:54.783747+00:00</updated>
+  <updated>2024-11-10T13:32:56.041834+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,93 +12,93 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/lux-warm-winter-salad-roasted-potatoes-celeriac-with-truffle-soft-boiled-eggs</id>
-    <title>Lux warm winter salad: roasted potatoes &amp; celeriac with truffle &amp; soft-boiled eggs</title>
-    <updated>2024-10-12T19:23:54.784941+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lux warm winter salad: roasted potatoes &amp; celeriac with truffle &amp; soft-boiled eggs&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/marzipan-lemon-cardamom-loaf</id>
+    <title>Marzipan, lemon &amp; cardamom loaf</title>
+    <updated>2024-11-10T13:32:56.059791+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Marzipan, lemon &amp; cardamom loaf&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/lux-warm-winter-salad-roasted-potatoes-celeriac-with-truffle-soft-boiled-eggs.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/marzipan-lemon-cardamom-loaf.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This is such a rich dish – egg and truffle were made to go with roast potatoes. The celeriac adds freshness, and there’s pepper from the watercress – perfect. You can easily cook the eggs in the tin for the last 10 minutes, as with the roast potato hash here, but I prefer the look and texture of soft-boiled eggs with this.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/lux-warm-winter-salad-roasted-potatoes-celeriac-with-truffle-soft-boiled-eggs"/>
-    <published>2024-09-20T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;Many of my favourite things in one loaf: this chapter wouldn’t be complete without a lemon cake, and as for some reason I’ve never got on with lemon drizzle, this cake is spiked with golden pieces of marzipan instead. Extremely moreish – especially baked in mini-loaf tins.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/marzipan-lemon-cardamom-loaf"/>
+    <published>2024-10-25T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/lux-warm-winter-salad-roasted-potatoes-celeriac-with-truffle-soft-boiled-eggs.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/marzipan-lemon-cardamom-loaf.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/smoky-chicken-and-bean-stew</id>
-    <title>Smoky chicken and bean stew</title>
-    <updated>2024-10-12T19:23:54.784754+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Smoky chicken and bean stew&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/bacon-pittas</id>
+    <title>Bacon pittas</title>
+    <updated>2024-11-10T13:32:56.059607+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Bacon pittas&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/smoky-chicken-and-bean-stew.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/bacon-pittas.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;When it comes to wholesome home-cooked food, there’s nothing quite like a stew. This is undeniably one of the best, with bacon and paprika turning the flavours up a notch, making sure every spoonful is rich, smoky and satisfying. The store-cupboard ingredients help keep costs down – and we’ve included 3 different methods, so that this recipe is ready on a timescale that suits you!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/smoky-chicken-and-bean-stew"/>
-    <published>2024-09-21T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;Nothing beats a great bacon sarnie for breakfast… or so I thought until I was served a bacon naan in Dishoom restaurant in London. Their bacon naans, generously stuffed with chunky, crispy bacon and a spicy-sweet sauce, are absolutely epic. This is my humble homage to the great bacon naan of Dishoom – a wonderful bacon sandwich at any time of day.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/bacon-pittas"/>
+    <published>2024-10-26T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/smoky-chicken-and-bean-stew.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/bacon-pittas.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/cevapi-southeastern-european-meat-and-onion-sausages</id>
-    <title>Cevapi (southeastern european meat and onion sausages)</title>
-    <updated>2024-10-12T19:23:54.784590+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Cevapi (southeastern european meat and onion sausages)&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/spiced-beef-pancakes-with-chopped-egg-dill-creme-fraiche</id>
+    <title>Spiced beef pancakes with chopped egg, dill &amp; crème fraîche</title>
+    <updated>2024-11-10T13:32:56.059416+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Spiced beef pancakes with chopped egg, dill &amp; crème fraîche&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/cevapi-southeastern-european-meat-and-onion-sausages.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/spiced-beef-pancakes-with-chopped-egg-dill-creme-fraiche.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Cevapi is a simple finger-sized sausage of Balkan origin whose simplicity makes finding the right few ingredients important to getting the tastiest links possible.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/cevapi-southeastern-european-meat-and-onion-sausages"/>
-    <published>2024-09-28T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;Whenever I think of pancakes or Pancake Day (Shrove Tuesday), I rarely think of sweet combinations, unlike many people, and I must admit that I will always choose savoury over sweet dishes. These pancakes combine some of my favourite ingredients in every mouthful, and what is really lovely about them is how convivial they are, ideal for feasting and sharing where everyone can make their own combinations and enjoy them without you having to plate them up individually.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/spiced-beef-pancakes-with-chopped-egg-dill-creme-fraiche"/>
+    <published>2024-10-28T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/cevapi-southeastern-european-meat-and-onion-sausages.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/spiced-beef-pancakes-with-chopped-egg-dill-creme-fraiche.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/lunchbox-pasta-salad-quick-roast-broccoli-with-olives-sun-dried-tomatoes-basil-pine-nuts</id>
-    <title>Lunchbox pasta salad: quick-roast broccoli with olives, sun-dried tomatoes, basil &amp; pine nuts</title>
-    <updated>2024-10-12T19:23:54.784408+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lunchbox pasta salad: quick-roast broccoli with olives, sun-dried tomatoes, basil &amp; pine nuts&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/thai-green-curry-gaeng-keow-waan</id>
+    <title>Thai green curry (gaeng keow waan) </title>
+    <updated>2024-11-10T13:32:56.059193+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Thai green curry (gaeng keow waan) &lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/lunchbox-pasta-salad-quick-roast-broccoli-with-olives-sun-dried-tomatoes-basil-pine-nuts.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/thai-green-curry-gaeng-keow-waan.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;I often prefer pasta with just roasted vegetables and plenty of olive oil, rather than with a sauce. This puttanesca style broccoli works perfectly for a filling lunch.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/lunchbox-pasta-salad-quick-roast-broccoli-with-olives-sun-dried-tomatoes-basil-pine-nuts"/>
-    <published>2024-10-05T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/thai-green-curry-gaeng-keow-waan"/>
+    <published>2024-11-02T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/lunchbox-pasta-salad-quick-roast-broccoli-with-olives-sun-dried-tomatoes-basil-pine-nuts.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/thai-green-curry-gaeng-keow-waan.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/coconut-curry-fish-soup</id>
-    <title>Coconut curry fish soup</title>
-    <updated>2024-10-12T19:23:54.784223+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Coconut curry fish soup&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/persian-red-curry</id>
+    <title>Persian red curry</title>
+    <updated>2024-11-10T13:32:56.058960+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Persian red curry&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/coconut-curry-fish-soup.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/persian-red-curry.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This Thai-inspired coconut curry soup is comforting like a chowder but also light and alive with fresh lime juice, ginger, and cilantro. We love making it on the boat because the ingredients are simple and readily available, yet the flavor is fresh and tangy. Red curry paste (we used store-bought) brings the broth to life with its red chilies, coriander, lemongrass, garlic, and shallots. This soup is tasty made with salmon, halibut, rockfish, or shrimp—or throw in a combination! You can double the recipe for a big pot that will last you all week and add fresh garnishes to each bowl you enjoy. When we’re fishing in Prince William Sound during the summer, we like to add fresh spot prawns that we caught and serve the soup over steaming white rice for an even heartier meal.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/coconut-curry-fish-soup"/>
-    <published>2024-10-07T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;Adapted from a traditional Parsi recipe, our flavour-filled Persian red curry tones down the Kashmiri chilli in favour of a gentler Romano pepper heat; removing the fiery hit of chili whilst keeping the delicious intensity that the dish is renowned for. &lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/persian-red-curry"/>
+    <published>2024-11-03T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/coconut-curry-fish-soup.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/persian-red-curry.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/braised-beef-short-ribs-with-butter-beans-and-figs</id>
-    <title>Braised beef short ribs with butter beans and figs</title>
-    <updated>2024-10-12T19:23:54.783963+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Braised beef short ribs with butter beans and figs&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/timballo-di-pasta-e-polpettine</id>
+    <title>Timballo di pasta e polpettine</title>
+    <updated>2024-11-10T13:32:56.051482+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Timballo di pasta e polpettine&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/braised-beef-short-ribs-with-butter-beans-and-figs.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/timballo-di-pasta-e-polpettine.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This is a braise for the winter months, when fall-off-the-bone ribs and warming spices are what you’re craving. Don’t be intimidated by the long cooking time here – it’s mostly a waiting game once the pot goes into the oven, so it can easily be put together in the afternoon, ready for a decadent dinner.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/braised-beef-short-ribs-with-butter-beans-and-figs"/>
-    <published>2024-10-12T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;Nonna Caterina didn’t always have hours to pull together a lasagna (see Lasagna al Ragù di Lady Caterina), but she never cut corners on deliciousness. One of her go-to weekday dishes was pasta baked with meatballs bound together with melted cheese. There’s a big controversy in Italy about pasta and meatballs. It’s not typical in most of its fiercely regional cuisines so many Italians write it off as a purely American invention. After all, spaghetti (a first course) and meatballs (a second course) are traditionally served separately. Still, I know for a fact that many families, including mine, have gone against the grain and served pasta with meatballs for generations. All over the south of Italy and in parts of Abruzzo, nonne bake trays of pasta studded with tiny meatballs, proving that the combination does indeed exist!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/timballo-di-pasta-e-polpettine"/>
+    <published>2024-11-08T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/braised-beef-short-ribs-with-butter-beans-and-figs.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/timballo-di-pasta-e-polpettine.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
