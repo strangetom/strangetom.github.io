@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="Description" content="Tom's top recipes"/>
+        <meta name="viewport" content="width=device-width"/>  
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-/3O9DH+/A7bxWkDC4SrLP0nr9Wmb7h11Q8QET5Fb+0I='; style-src 'self' 'unsafe-inline';"/>
+        <title>Search recipes | Stranger Foods</title>
+        <link rel="preload" href="/fonts/latin-modern-mono-prop-light-10-regular-latin.woff2" as="font" type="font/woff2" crossorigin/>
+        <link rel="preload" href="/fonts/latin-modern-mono-prop-light-10-regular-latin-ext.woff2" as="font" type="font/woff2" crossorigin/>
+        <link rel="preload" href="/css/colours.min.css" as="style"/>
+        <link rel="stylesheet" type="text/css" href="/css/search.min.css"/>
+        <script defer src="/js/menu.min.js"></script>
+        <script defer src="/js/flexsearch.light.js"></script>
+        <script defer src="/js/search_data.min.js"></script>
+        <script defer src="/js/search.min.js"></script>
+        <!-- icons and manifest for PWA -->
+        <meta name="theme-color" content="#292d33"/> 
+        <link rel="icon" href="favicon.svg" type="image/svg+xml"/>
+    </head>
+    <body>
+        <main>
+            <header>
+                <a href="/">Stranger&nbsp;Foods</a>
+                <button type="button" id="sidebar" aria-label="Menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>
+            </header>
+
+            <section id="search">
+                <form>
+                    <input id="search-box" class="search-box" type="search" placeholder="Search 785 recipes" aria-label="Search for recipes"/>
+                    <button type="submit" id="search-btn">Search</button>
+                </form>
+            </section>
+
+            <section id="search-filters">
+                <details>
+                    <summary>Cuisines</summary>
+                    <div class="checkboxes">
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Afghan" id="Afghan" name="Afghan"/>
+                            <label for="Afghan">Afghan (1)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/American" id="American" name="American"/>
+                            <label for="American">American (20)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Asian" id="Asian" name="Asian"/>
+                            <label for="Asian">Asian (13)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Bahamian" id="Bahamian" name="Bahamian"/>
+                            <label for="Bahamian">Bahamian (1)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Balkan" id="Balkan" name="Balkan"/>
+                            <label for="Balkan">Balkan (1)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/British" id="British" name="British"/>
+                            <label for="British">British (26)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Cajun" id="Cajun" name="Cajun"/>
+                            <label for="Cajun">Cajun (5)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Caribbean" id="Caribbean" name="Caribbean"/>
+                            <label for="Caribbean">Caribbean (18)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Chilean" id="Chilean" name="Chilean"/>
+                            <label for="Chilean">Chilean (1)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Chinese" id="Chinese" name="Chinese"/>
+                            <label for="Chinese">Chinese (4)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Creole" id="Creole" name="Creole"/>
+                            <label for="Creole">Creole (3)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Egyptian" id="Egyptian" name="Egyptian"/>
+                            <label for="Egyptian">Egyptian (1)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Ethiopian" id="Ethiopian" name="Ethiopian"/>
+                            <label for="Ethiopian">Ethiopian (2)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/French" id="French" name="French"/>
+                            <label for="French">French (6)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Greek" id="Greek" name="Greek"/>
+                            <label for="Greek">Greek (2)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Hawaiian" id="Hawaiian" name="Hawaiian"/>
+                            <label for="Hawaiian">Hawaiian (1)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Hungarian" id="Hungarian" name="Hungarian"/>
+                            <label for="Hungarian">Hungarian (2)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Indian" id="Indian" name="Indian"/>
+                            <label for="Indian">Indian (29)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Iranian" id="Iranian" name="Iranian"/>
+                            <label for="Iranian">Iranian (5)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Italian" id="Italian" name="Italian"/>
+                            <label for="Italian">Italian (51)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Japanese" id="Japanese" name="Japanese"/>
+                            <label for="Japanese">Japanese (3)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Lebanese" id="Lebanese" name="Lebanese"/>
+                            <label for="Lebanese">Lebanese (3)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Maghrebi" id="Maghrebi" name="Maghrebi"/>
+                            <label for="Maghrebi">Maghrebi (2)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Malaysian" id="Malaysian" name="Malaysian"/>
+                            <label for="Malaysian">Malaysian (1)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Mediterranean" id="Mediterranean" name="Mediterranean"/>
+                            <label for="Mediterranean">Mediterranean (10)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Mexican" id="Mexican" name="Mexican"/>
+                            <label for="Mexican">Mexican (18)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Middle Eastern" id="Middle Eastern" name="Middle Eastern"/>
+                            <label for="Middle Eastern">Middle Eastern (9)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Moroccan" id="Moroccan" name="Moroccan"/>
+                            <label for="Moroccan">Moroccan (23)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Pakistani" id="Pakistani" name="Pakistani"/>
+                            <label for="Pakistani">Pakistani (1)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Palestinian" id="Palestinian" name="Palestinian"/>
+                            <label for="Palestinian">Palestinian (2)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Peruvian" id="Peruvian" name="Peruvian"/>
+                            <label for="Peruvian">Peruvian (3)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Portuguese" id="Portuguese" name="Portuguese"/>
+                            <label for="Portuguese">Portuguese (2)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Puerto Rican" id="Puerto Rican" name="Puerto Rican"/>
+                            <label for="Puerto Rican">Puerto Rican (2)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Russian" id="Russian" name="Russian"/>
+                            <label for="Russian">Russian (3)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Saudi Arabian" id="Saudi Arabian" name="Saudi Arabian"/>
+                            <label for="Saudi Arabian">Saudi Arabian (1)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/South Korean" id="South Korean" name="South Korean"/>
+                            <label for="South Korean">South Korean (3)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Spanish" id="Spanish" name="Spanish"/>
+                            <label for="Spanish">Spanish (14)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Sri Lankan" id="Sri Lankan" name="Sri Lankan"/>
+                            <label for="Sri Lankan">Sri Lankan (1)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Syrian" id="Syrian" name="Syrian"/>
+                            <label for="Syrian">Syrian (1)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Thai" id="Thai" name="Thai"/>
+                            <label for="Thai">Thai (13)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Trinidad and Tobago" id="Trinidad and Tobago" name="Trinidad and Tobago"/>
+                            <label for="Trinidad and Tobago">Trinidad And Tobago (1)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Turkish" id="Turkish" name="Turkish"/>
+                            <label for="Turkish">Turkish (7)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="cuisine/Zanzibari" id="Zanzibari" name="Zanzibari"/>
+                            <label for="Zanzibari">Zanzibari (1)</label>
+                        </div>
+                        </div>
+                </details>
+                <details>
+                    <summary>Tags</summary>
+                    <div class="checkboxes">
+                        <div class="checkbox">
+                            <input type="checkbox" value="tags/beef" id="beef" name="beef"/>
+                            <label for="beef">Beef (58)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="tags/bread" id="bread" name="bread"/>
+                            <label for="bread">Bread (4)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="tags/cake" id="cake" name="cake"/>
+                            <label for="cake">Cake (13)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="tags/cookies" id="cookies" name="cookies"/>
+                            <label for="cookies">Cookies (4)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="tags/deep-fryer" id="deep-fryer" name="deep-fryer"/>
+                            <label for="deep-fryer">Deep-Fryer (4)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="tags/lamb" id="lamb" name="lamb"/>
+                            <label for="lamb">Lamb (54)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="tags/pie" id="pie" name="pie"/>
+                            <label for="pie">Pie (29)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="tags/sandwich" id="sandwich" name="sandwich"/>
+                            <label for="sandwich">Sandwich (9)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="tags/slow-cooker" id="slow-cooker" name="slow-cooker"/>
+                            <label for="slow-cooker">Slow-Cooker (14)</label>
+                        </div>
+                        </div>
+                </details>
+                <details>
+                    <summary>Diet</summary>
+                    <div class="checkboxes">
+                        <div class="checkbox">
+                            <input type="checkbox" value="diets/DairyFree" id="DairyFree" name="DairyFree"/>
+                            <label for="DairyFree">Dairy Free (28)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="diets/GlutenFree" id="GlutenFree" name="GlutenFree"/>
+                            <label for="GlutenFree">Gluten Free (75)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="diets/NutFree" id="NutFree" name="NutFree"/>
+                            <label for="NutFree">Nut Free (13)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="diets/Vegan" id="Vegan" name="Vegan"/>
+                            <label for="Vegan">Vegan (44)</label>
+                        </div>
+                        </div>
+                </details>
+                <details>
+                    <summary>Source</summary>
+                    <div class="checkboxes">
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/100 Best Slow Cooker Recipes" id="100 Best Slow Cooker Recipes" name="100 Best Slow Cooker Recipes"/>
+                            <label for="100 Best Slow Cooker Recipes" title="100 Best Slow Cooker Recipes">100 Best Slow Cooker Reci...</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/12tomatoes.com" id="12tomatoes.com" name="12tomatoes.com"/>
+                            <label for="12tomatoes.com" title="12tomatoes.com">12tomatoes.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/30 Minute Mowgli" id="30 Minute Mowgli" name="30 Minute Mowgli"/>
+                            <label for="30 Minute Mowgli" title="30 Minute Mowgli">30 Minute Mowgli</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/BBC Good Food: Cheap & Healthy" id="BBC Good Food: Cheap & Healthy" name="BBC Good Food: Cheap & Healthy"/>
+                            <label for="BBC Good Food: Cheap & Healthy" title="BBC Good Food: Cheap & Healthy">BBC Good Food: Cheap & He...</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/BBC Good Food: Low-fat Feasts" id="BBC Good Food: Low-fat Feasts" name="BBC Good Food: Low-fat Feasts"/>
+                            <label for="BBC Good Food: Low-fat Feasts" title="BBC Good Food: Low-fat Feasts">BBC Good Food: Low-fat Fe...</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/BBC Good Food: One-pot Dishes" id="BBC Good Food: One-pot Dishes" name="BBC Good Food: One-pot Dishes"/>
+                            <label for="BBC Good Food: One-pot Dishes" title="BBC Good Food: One-pot Dishes">BBC Good Food: One-pot Di...</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/BBC Good Food: Pasta & Noodle Dishes" id="BBC Good Food: Pasta & Noodle Dishes" name="BBC Good Food: Pasta & Noodle Dishes"/>
+                            <label for="BBC Good Food: Pasta & Noodle Dishes" title="BBC Good Food: Pasta & Noodle Dishes">BBC Good Food: Pasta & No...</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/BBC Good Food: Slow Cooker Favourites" id="BBC Good Food: Slow Cooker Favourites" name="BBC Good Food: Slow Cooker Favourites"/>
+                            <label for="BBC Good Food: Slow Cooker Favourites" title="BBC Good Food: Slow Cooker Favourites">BBC Good Food: Slow Cooke...</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Bake It Yourself" id="Bake It Yourself" name="Bake It Yourself"/>
+                            <label for="Bake It Yourself" title="Bake It Yourself">Bake It Yourself</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Bazaar" id="Bazaar" name="Bazaar"/>
+                            <label for="Bazaar" title="Bazaar">Bazaar</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Blue Dragon Thai Green Curry" id="Blue Dragon Thai Green Curry" name="Blue Dragon Thai Green Curry"/>
+                            <label for="Blue Dragon Thai Green Curry" title="Blue Dragon Thai Green Curry">Blue Dragon Thai Green Cu...</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Blue Dragon Thai Massaman Curry" id="Blue Dragon Thai Massaman Curry" name="Blue Dragon Thai Massaman Curry"/>
+                            <label for="Blue Dragon Thai Massaman Curry" title="Blue Dragon Thai Massaman Curry">Blue Dragon Thai Massaman...</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Bosh!" id="Bosh!" name="Bosh!"/>
+                            <label for="Bosh!" title="Bosh!">Bosh!</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Caribbean Food Made Easy" id="Caribbean Food Made Easy" name="Caribbean Food Made Easy"/>
+                            <label for="Caribbean Food Made Easy" title="Caribbean Food Made Easy">Caribbean Food Made Easy</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Coop magazine" id="Coop magazine" name="Coop magazine"/>
+                            <label for="Coop magazine" title="Coop magazine">Coop magazine</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/David" id="David" name="David"/>
+                            <label for="David" title="David">David</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Easy Comfort Food" id="Easy Comfort Food" name="Easy Comfort Food"/>
+                            <label for="Easy Comfort Food" title="Easy Comfort Food">Easy Comfort Food</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Easy Portuguese Cookbook" id="Easy Portuguese Cookbook" name="Easy Portuguese Cookbook"/>
+                            <label for="Easy Portuguese Cookbook" title="Easy Portuguese Cookbook">Easy Portuguese Cookbook</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/European Peasant Cookery" id="European Peasant Cookery" name="European Peasant Cookery"/>
+                            <label for="European Peasant Cookery" title="European Peasant Cookery">European Peasant Cookery</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/FLAVOUR by Ottolenghi" id="FLAVOUR by Ottolenghi" name="FLAVOUR by Ottolenghi"/>
+                            <label for="FLAVOUR by Ottolenghi" title="FLAVOUR by Ottolenghi">FLAVOUR by Ottolenghi</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Falastin" id="Falastin" name="Falastin"/>
+                            <label for="Falastin" title="Falastin">Falastin</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Fire and Spice" id="Fire and Spice" name="Fire and Spice"/>
+                            <label for="Fire and Spice" title="Fire and Spice">Fire and Spice</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Foolproof Freezer: 60 Fuss-Free Meals that Make the Most of Your Freezer" id="Foolproof Freezer: 60 Fuss-Free Meals that Make the Most of Your Freezer" name="Foolproof Freezer: 60 Fuss-Free Meals that Make the Most of Your Freezer"/>
+                            <label for="Foolproof Freezer: 60 Fuss-Free Meals that Make the Most of Your Freezer" title="Foolproof Freezer: 60 Fuss-Free Meals that Make the Most of Your Freezer">Foolproof Freezer: 60 Fus...</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Foolproof One-Pot: 60 Simple and Satisfying Recipes" id="Foolproof One-Pot: 60 Simple and Satisfying Recipes" name="Foolproof One-Pot: 60 Simple and Satisfying Recipes"/>
+                            <label for="Foolproof One-Pot: 60 Simple and Satisfying Recipes" title="Foolproof One-Pot: 60 Simple and Satisfying Recipes">Foolproof One-Pot: 60 Sim...</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Foolproof Roasting Pan" id="Foolproof Roasting Pan" name="Foolproof Roasting Pan"/>
+                            <label for="Foolproof Roasting Pan" title="Foolproof Roasting Pan">Foolproof Roasting Pan</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Foolproof Slowcooker: 60 Essential Recipes that Make the Most of Your Slow Cooker" id="Foolproof Slowcooker: 60 Essential Recipes that Make the Most of Your Slow Cooker" name="Foolproof Slowcooker: 60 Essential Recipes that Make the Most of Your Slow Cooker"/>
+                            <label for="Foolproof Slowcooker: 60 Essential Recipes that Make the Most of Your Slow Cooker" title="Foolproof Slowcooker: 60 Essential Recipes that Make the Most of Your Slow Cooker">Foolproof Slowcooker: 60 ...</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Foolproof Veggie One-Pot: 60 Vibrant and Easy-Going Vegetarian Dishes" id="Foolproof Veggie One-Pot: 60 Vibrant and Easy-Going Vegetarian Dishes" name="Foolproof Veggie One-Pot: 60 Vibrant and Easy-Going Vegetarian Dishes"/>
+                            <label for="Foolproof Veggie One-Pot: 60 Vibrant and Easy-Going Vegetarian Dishes" title="Foolproof Veggie One-Pot: 60 Vibrant and Easy-Going Vegetarian Dishes">Foolproof Veggie One-Pot:...</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Freeze - Justine Pattison" id="Freeze - Justine Pattison" name="Freeze - Justine Pattison"/>
+                            <label for="Freeze - Justine Pattison" title="Freeze - Justine Pattison">Freeze - Justine Pattison</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/James' nan" id="James' nan" name="James' nan"/>
+                            <label for="James' nan" title="James' nan">James' nan</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Kat" id="Kat" name="Kat"/>
+                            <label for="Kat" title="Kat">Kat</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Lemongrass and Ginger" id="Lemongrass and Ginger" name="Lemongrass and Ginger"/>
+                            <label for="Lemongrass and Ginger" title="Lemongrass and Ginger">Lemongrass and Ginger</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Leon Family & Friends" id="Leon Family & Friends" name="Leon Family & Friends"/>
+                            <label for="Leon Family & Friends" title="Leon Family & Friends">Leon Family & Friends</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Meat Free Mowgli" id="Meat Free Mowgli" name="Meat Free Mowgli"/>
+                            <label for="Meat Free Mowgli" title="Meat Free Mowgli">Meat Free Mowgli</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Meat-free Mexican" id="Meat-free Mexican" name="Meat-free Mexican"/>
+                            <label for="Meat-free Mexican" title="Meat-free Mexican">Meat-free Mexican</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Mob Kitchen" id="Mob Kitchen" name="Mob Kitchen"/>
+                            <label for="Mob Kitchen" title="Mob Kitchen">Mob Kitchen</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Morrisons" id="Morrisons" name="Morrisons"/>
+                            <label for="Morrisons" title="Morrisons">Morrisons</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Mowgli Street Food" id="Mowgli Street Food" name="Mowgli Street Food"/>
+                            <label for="Mowgli Street Food" title="Mowgli Street Food">Mowgli Street Food</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/My Lebanese Cookbook" id="My Lebanese Cookbook" name="My Lebanese Cookbook"/>
+                            <label for="My Lebanese Cookbook" title="My Lebanese Cookbook">My Lebanese Cookbook</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Nadia Sawalha" id="Nadia Sawalha" name="Nadia Sawalha"/>
+                            <label for="Nadia Sawalha" title="Nadia Sawalha">Nadia Sawalha</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Nadiya's British Food Adventure" id="Nadiya's British Food Adventure" name="Nadiya's British Food Adventure"/>
+                            <label for="Nadiya's British Food Adventure" title="Nadiya's British Food Adventure">Nadiya's British Food Adv...</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Nadiya's Fast Flavours" id="Nadiya's Fast Flavours" name="Nadiya's Fast Flavours"/>
+                            <label for="Nadiya's Fast Flavours" title="Nadiya's Fast Flavours">Nadiya's Fast Flavours</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Nosh for Students" id="Nosh for Students" name="Nosh for Students"/>
+                            <label for="Nosh for Students" title="Nosh for Students">Nosh for Students</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Nosh for Students Vol 2" id="Nosh for Students Vol 2" name="Nosh for Students Vol 2"/>
+                            <label for="Nosh for Students Vol 2" title="Nosh for Students Vol 2">Nosh for Students Vol 2</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Nosh for graduates" id="Nosh for graduates" name="Nosh for graduates"/>
+                            <label for="Nosh for graduates" title="Nosh for graduates">Nosh for graduates</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Nosh: Quick & Easy" id="Nosh: Quick & Easy" name="Nosh: Quick & Easy"/>
+                            <label for="Nosh: Quick & Easy" title="Nosh: Quick & Easy">Nosh: Quick & Easy</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Ottolenghi Test Kitchen: Extra Good Things" id="Ottolenghi Test Kitchen: Extra Good Things" name="Ottolenghi Test Kitchen: Extra Good Things"/>
+                            <label for="Ottolenghi Test Kitchen: Extra Good Things" title="Ottolenghi Test Kitchen: Extra Good Things">Ottolenghi Test Kitchen: ...</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Ottolenghi Test Kitchen: Shelf Love" id="Ottolenghi Test Kitchen: Shelf Love" name="Ottolenghi Test Kitchen: Shelf Love"/>
+                            <label for="Ottolenghi Test Kitchen: Shelf Love" title="Ottolenghi Test Kitchen: Shelf Love">Ottolenghi Test Kitchen: ...</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Persiana" id="Persiana" name="Persiana"/>
+                            <label for="Persiana" title="Persiana">Persiana</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Persiana Everyday" id="Persiana Everyday" name="Persiana Everyday"/>
+                            <label for="Persiana Everyday" title="Persiana Everyday">Persiana Everyday</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Pimp My Rice" id="Pimp My Rice" name="Pimp My Rice"/>
+                            <label for="Pimp My Rice" title="Pimp My Rice">Pimp My Rice</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Pinch of Nom Comfort Food" id="Pinch of Nom Comfort Food" name="Pinch of Nom Comfort Food"/>
+                            <label for="Pinch of Nom Comfort Food" title="Pinch of Nom Comfort Food">Pinch of Nom Comfort Food</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Pinch of Nom Enjoy" id="Pinch of Nom Enjoy" name="Pinch of Nom Enjoy"/>
+                            <label for="Pinch of Nom Enjoy" title="Pinch of Nom Enjoy">Pinch of Nom Enjoy</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Pinch of Nom Express" id="Pinch of Nom Express" name="Pinch of Nom Express"/>
+                            <label for="Pinch of Nom Express" title="Pinch of Nom Express">Pinch of Nom Express</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Preston & Fylde Live Magazine" id="Preston & Fylde Live Magazine" name="Preston & Fylde Live Magazine"/>
+                            <label for="Preston & Fylde Live Magazine" title="Preston & Fylde Live Magazine">Preston & Fylde Live Maga...</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/SIMPLE by Ottolenghi" id="SIMPLE by Ottolenghi" name="SIMPLE by Ottolenghi"/>
+                            <label for="SIMPLE by Ottolenghi" title="SIMPLE by Ottolenghi">SIMPLE by Ottolenghi</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/SWEET by Ottolenghi" id="SWEET by Ottolenghi" name="SWEET by Ottolenghi"/>
+                            <label for="SWEET by Ottolenghi" title="SWEET by Ottolenghi">SWEET by Ottolenghi</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Sainsbury's" id="Sainsbury's" name="Sainsbury's"/>
+                            <label for="Sainsbury's" title="Sainsbury's">Sainsbury's</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Simon's Wife" id="Simon's Wife" name="Simon's Wife"/>
+                            <label for="Simon's Wife" title="Simon's Wife">Simon's Wife</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Simply" id="Simply" name="Simply"/>
+                            <label for="Simply" title="Simply">Simply</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Sirocco" id="Sirocco" name="Sirocco"/>
+                            <label for="Sirocco" title="Sirocco">Sirocco</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Slimming World" id="Slimming World" name="Slimming World"/>
+                            <label for="Slimming World" title="Slimming World">Slimming World</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Slimming World Magazine" id="Slimming World Magazine" name="Slimming World Magazine"/>
+                            <label for="Slimming World Magazine" title="Slimming World Magazine">Slimming World Magazine</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Sumac" id="Sumac" name="Sumac"/>
+                            <label for="Sumac" title="Sumac">Sumac</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Tesco Magazine" id="Tesco Magazine" name="Tesco Magazine"/>
+                            <label for="Tesco Magazine" title="Tesco Magazine">Tesco Magazine</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/The Coconut Kitchen" id="The Coconut Kitchen" name="The Coconut Kitchen"/>
+                            <label for="The Coconut Kitchen" title="The Coconut Kitchen">The Coconut Kitchen</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/The Complete Italian Cookbook" id="The Complete Italian Cookbook" name="The Complete Italian Cookbook"/>
+                            <label for="The Complete Italian Cookbook" title="The Complete Italian Cookbook">The Complete Italian Cook...</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/The Easy Puerto Rican Cookbook" id="The Easy Puerto Rican Cookbook" name="The Easy Puerto Rican Cookbook"/>
+                            <label for="The Easy Puerto Rican Cookbook" title="The Easy Puerto Rican Cookbook">The Easy Puerto Rican Coo...</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/The Great British Bake Off: How to Bake" id="The Great British Bake Off: How to Bake" name="The Great British Bake Off: How to Bake"/>
+                            <label for="The Great British Bake Off: How to Bake" title="The Great British Bake Off: How to Bake">The Great British Bake Of...</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/The Green Roasting Tin" id="The Green Roasting Tin" name="The Green Roasting Tin"/>
+                            <label for="The Green Roasting Tin" title="The Green Roasting Tin">The Green Roasting Tin</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/The Hairy Dieters: Good Eating" id="The Hairy Dieters: Good Eating" name="The Hairy Dieters: Good Eating"/>
+                            <label for="The Hairy Dieters: Good Eating" title="The Hairy Dieters: Good Eating">The Hairy Dieters: Good E...</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/The Half Hour Cook" id="The Half Hour Cook" name="The Half Hour Cook"/>
+                            <label for="The Half Hour Cook" title="The Half Hour Cook">The Half Hour Cook</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/The Modern Tagine Cookbook" id="The Modern Tagine Cookbook" name="The Modern Tagine Cookbook"/>
+                            <label for="The Modern Tagine Cookbook" title="The Modern Tagine Cookbook">The Modern Tagine Cookboo...</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/The Pasta Queen" id="The Pasta Queen" name="The Pasta Queen"/>
+                            <label for="The Pasta Queen" title="The Pasta Queen">The Pasta Queen</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/The Quick Roasting Tin" id="The Quick Roasting Tin" name="The Quick Roasting Tin"/>
+                            <label for="The Quick Roasting Tin" title="The Quick Roasting Tin">The Quick Roasting Tin</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/The Salmon Sisters" id="The Salmon Sisters" name="The Salmon Sisters"/>
+                            <label for="The Salmon Sisters" title="The Salmon Sisters">The Salmon Sisters</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/The Spicery" id="The Spicery" name="The Spicery"/>
+                            <label for="The Spicery" title="The Spicery">The Spicery</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/The Sweet Roasting Tin" id="The Sweet Roasting Tin" name="The Sweet Roasting Tin"/>
+                            <label for="The Sweet Roasting Tin" title="The Sweet Roasting Tin">The Sweet Roasting Tin</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/The Vegan Japanese Cookbook" id="The Vegan Japanese Cookbook" name="The Vegan Japanese Cookbook"/>
+                            <label for="The Vegan Japanese Cookbook" title="The Vegan Japanese Cookbook">The Vegan Japanese Cookbo...</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Tyga" id="Tyga" name="Tyga"/>
+                            <label for="Tyga" title="Tyga">Tyga</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Weight Watchers Magazine" id="Weight Watchers Magazine" name="Weight Watchers Magazine"/>
+                            <label for="Weight Watchers Magazine" title="Weight Watchers Magazine">Weight Watchers Magazine</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/Who Put the Beef in Wellington" id="Who Put the Beef in Wellington" name="Who Put the Beef in Wellington"/>
+                            <label for="Who Put the Beef in Wellington" title="Who Put the Beef in Wellington">Who Put the Beef in Welli...</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/basicswithbabish.co" id="basicswithbabish.co" name="basicswithbabish.co"/>
+                            <label for="basicswithbabish.co" title="basicswithbabish.co">basicswithbabish.co</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/charlotteslivelykitchen.com" id="charlotteslivelykitchen.com" name="charlotteslivelykitchen.com"/>
+                            <label for="charlotteslivelykitchen.com" title="charlotteslivelykitchen.com">charlotteslivelykitchen.c...</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/cookieandkate.com" id="cookieandkate.com" name="cookieandkate.com"/>
+                            <label for="cookieandkate.com" title="cookieandkate.com">cookieandkate.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/cooking.nytimes.com" id="cooking.nytimes.com" name="cooking.nytimes.com"/>
+                            <label for="cooking.nytimes.com" title="cooking.nytimes.com">cooking.nytimes.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/damndelicious.net" id="damndelicious.net" name="damndelicious.net"/>
+                            <label for="damndelicious.net" title="damndelicious.net">damndelicious.net</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/glutenfreecuppatea.co.uk" id="glutenfreecuppatea.co.uk" name="glutenfreecuppatea.co.uk"/>
+                            <label for="glutenfreecuppatea.co.uk" title="glutenfreecuppatea.co.uk">glutenfreecuppatea.co.uk</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/honeywellbakes.com" id="honeywellbakes.com" name="honeywellbakes.com"/>
+                            <label for="honeywellbakes.com" title="honeywellbakes.com">honeywellbakes.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/hostthetoast.com" id="hostthetoast.com" name="hostthetoast.com"/>
+                            <label for="hostthetoast.com" title="hostthetoast.com">hostthetoast.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/joanne-eatswellwithothers.com" id="joanne-eatswellwithothers.com" name="joanne-eatswellwithothers.com"/>
+                            <label for="joanne-eatswellwithothers.com" title="joanne-eatswellwithothers.com">joanne-eatswellwithothers...</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/letthebakingbeginblog.com" id="letthebakingbeginblog.com" name="letthebakingbeginblog.com"/>
+                            <label for="letthebakingbeginblog.com" title="letthebakingbeginblog.com">letthebakingbeginblog.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/madewithlau.com" id="madewithlau.com" name="madewithlau.com"/>
+                            <label for="madewithlau.com" title="madewithlau.com">madewithlau.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/mobkitchen.co.uk" id="mobkitchen.co.uk" name="mobkitchen.co.uk"/>
+                            <label for="mobkitchen.co.uk" title="mobkitchen.co.uk">mobkitchen.co.uk</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/nishkitchen.com" id="nishkitchen.com" name="nishkitchen.com"/>
+                            <label for="nishkitchen.com" title="nishkitchen.com">nishkitchen.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/pinchofnom.com" id="pinchofnom.com" name="pinchofnom.com"/>
+                            <label for="pinchofnom.com" title="pinchofnom.com">pinchofnom.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/preppykitchen.com" id="preppykitchen.com" name="preppykitchen.com"/>
+                            <label for="preppykitchen.com" title="preppykitchen.com">preppykitchen.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/rainbowplantlife.com" id="rainbowplantlife.com" name="rainbowplantlife.com"/>
+                            <label for="rainbowplantlife.com" title="rainbowplantlife.com">rainbowplantlife.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/ricette.giallozafferano.it" id="ricette.giallozafferano.it" name="ricette.giallozafferano.it"/>
+                            <label for="ricette.giallozafferano.it" title="ricette.giallozafferano.it">ricette.giallozafferano.i...</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/sallysbakingaddiction.com" id="sallysbakingaddiction.com" name="sallysbakingaddiction.com"/>
+                            <label for="sallysbakingaddiction.com" title="sallysbakingaddiction.com">sallysbakingaddiction.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/slimmingworld.co.uk" id="slimmingworld.co.uk" name="slimmingworld.co.uk"/>
+                            <label for="slimmingworld.co.uk" title="slimmingworld.co.uk">slimmingworld.co.uk</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/sortedfood.com" id="sortedfood.com" name="sortedfood.com"/>
+                            <label for="sortedfood.com" title="sortedfood.com">sortedfood.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/tastesbetterfromscratch.com" id="tastesbetterfromscratch.com" name="tastesbetterfromscratch.com"/>
+                            <label for="tastesbetterfromscratch.com" title="tastesbetterfromscratch.com">tastesbetterfromscratch.c...</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/thedomesticrebel.com" id="thedomesticrebel.com" name="thedomesticrebel.com"/>
+                            <label for="thedomesticrebel.com" title="thedomesticrebel.com">thedomesticrebel.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/thegirlonbloor.com" id="thegirlonbloor.com" name="thegirlonbloor.com"/>
+                            <label for="thegirlonbloor.com" title="thegirlonbloor.com">thegirlonbloor.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/thehappyfoodie.co.uk" id="thehappyfoodie.co.uk" name="thehappyfoodie.co.uk"/>
+                            <label for="thehappyfoodie.co.uk" title="thehappyfoodie.co.uk">thehappyfoodie.co.uk</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/themindfulmeringue.com" id="themindfulmeringue.com" name="themindfulmeringue.com"/>
+                            <label for="themindfulmeringue.com" title="themindfulmeringue.com">themindfulmeringue.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/themodernproper.com" id="themodernproper.com" name="themodernproper.com"/>
+                            <label for="themodernproper.com" title="themodernproper.com">themodernproper.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/thepioneerwoman.com" id="thepioneerwoman.com" name="thepioneerwoman.com"/>
+                            <label for="thepioneerwoman.com" title="thepioneerwoman.com">thepioneerwoman.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/theskullery.net" id="theskullery.net" name="theskullery.net"/>
+                            <label for="theskullery.net" title="theskullery.net">theskullery.net</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/tipsforhealthy.life" id="tipsforhealthy.life" name="tipsforhealthy.life"/>
+                            <label for="tipsforhealthy.life" title="tipsforhealthy.life">tipsforhealthy.life</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/vanillaandbean.com" id="vanillaandbean.com" name="vanillaandbean.com"/>
+                            <label for="vanillaandbean.com" title="vanillaandbean.com">vanillaandbean.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.ambitiouskitchen.com" id="www.ambitiouskitchen.com" name="www.ambitiouskitchen.com"/>
+                            <label for="www.ambitiouskitchen.com" title="www.ambitiouskitchen.com">www.ambitiouskitchen.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.amuse-your-bouche.com" id="www.amuse-your-bouche.com" name="www.amuse-your-bouche.com"/>
+                            <label for="www.amuse-your-bouche.com" title="www.amuse-your-bouche.com">www.amuse-your-bouche.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.annabelkarmel.com" id="www.annabelkarmel.com" name="www.annabelkarmel.com"/>
+                            <label for="www.annabelkarmel.com" title="www.annabelkarmel.com">www.annabelkarmel.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.asda.com" id="www.asda.com" name="www.asda.com"/>
+                            <label for="www.asda.com" title="www.asda.com">www.asda.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.bbc.co.uk" id="www.bbc.co.uk" name="www.bbc.co.uk"/>
+                            <label for="www.bbc.co.uk" title="www.bbc.co.uk">www.bbc.co.uk</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.bbcgoodfood.com" id="www.bbcgoodfood.com" name="www.bbcgoodfood.com"/>
+                            <label for="www.bbcgoodfood.com" title="www.bbcgoodfood.com">www.bbcgoodfood.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.bonappetit.com" id="www.bonappetit.com" name="www.bonappetit.com"/>
+                            <label for="www.bonappetit.com" title="www.bonappetit.com">www.bonappetit.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.budgetbytes.com" id="www.budgetbytes.com" name="www.budgetbytes.com"/>
+                            <label for="www.budgetbytes.com" title="www.budgetbytes.com">www.budgetbytes.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.chinghehuang.com" id="www.chinghehuang.com" name="www.chinghehuang.com"/>
+                            <label for="www.chinghehuang.com" title="www.chinghehuang.com">www.chinghehuang.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.cookhomey.com" id="www.cookhomey.com" name="www.cookhomey.com"/>
+                            <label for="www.cookhomey.com" title="www.cookhomey.com">www.cookhomey.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.cooksinstinct.com" id="www.cooksinstinct.com" name="www.cooksinstinct.com"/>
+                            <label for="www.cooksinstinct.com" title="www.cooksinstinct.com">www.cooksinstinct.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.deliaonline.com" id="www.deliaonline.com" name="www.deliaonline.com"/>
+                            <label for="www.deliaonline.com" title="www.deliaonline.com">www.deliaonline.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.delish.com" id="www.delish.com" name="www.delish.com"/>
+                            <label for="www.delish.com" title="www.delish.com">www.delish.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.emmafontanella.com" id="www.emmafontanella.com" name="www.emmafontanella.com"/>
+                            <label for="www.emmafontanella.com" title="www.emmafontanella.com">www.emmafontanella.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.gordonrhodes.co.uk" id="www.gordonrhodes.co.uk" name="www.gordonrhodes.co.uk"/>
+                            <label for="www.gordonrhodes.co.uk" title="www.gordonrhodes.co.uk">www.gordonrhodes.co.uk</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.gousto.co.uk" id="www.gousto.co.uk" name="www.gousto.co.uk"/>
+                            <label for="www.gousto.co.uk" title="www.gousto.co.uk">www.gousto.co.uk</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.halfbakedharvest.com" id="www.halfbakedharvest.com" name="www.halfbakedharvest.com"/>
+                            <label for="www.halfbakedharvest.com" title="www.halfbakedharvest.com">www.halfbakedharvest.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.happyveggiekitchen.com" id="www.happyveggiekitchen.com" name="www.happyveggiekitchen.com"/>
+                            <label for="www.happyveggiekitchen.com" title="www.happyveggiekitchen.com">www.happyveggiekitchen.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.healthymummy.com" id="www.healthymummy.com" name="www.healthymummy.com"/>
+                            <label for="www.healthymummy.com" title="www.healthymummy.com">www.healthymummy.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.hellofresh.co.uk" id="www.hellofresh.co.uk" name="www.hellofresh.co.uk"/>
+                            <label for="www.hellofresh.co.uk" title="www.hellofresh.co.uk">www.hellofresh.co.uk</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.itv.com" id="www.itv.com" name="www.itv.com"/>
+                            <label for="www.itv.com" title="www.itv.com">www.itv.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.jamieoliver.com" id="www.jamieoliver.com" name="www.jamieoliver.com"/>
+                            <label for="www.jamieoliver.com" title="www.jamieoliver.com">www.jamieoliver.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.joyfulhealthyeats.com" id="www.joyfulhealthyeats.com" name="www.joyfulhealthyeats.com"/>
+                            <label for="www.joyfulhealthyeats.com" title="www.joyfulhealthyeats.com">www.joyfulhealthyeats.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.kingarthurbaking.com" id="www.kingarthurbaking.com" name="www.kingarthurbaking.com"/>
+                            <label for="www.kingarthurbaking.com" title="www.kingarthurbaking.com">www.kingarthurbaking.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.littlegrazers.com" id="www.littlegrazers.com" name="www.littlegrazers.com"/>
+                            <label for="www.littlegrazers.com" title="www.littlegrazers.com">www.littlegrazers.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.lovepork.co.uk" id="www.lovepork.co.uk" name="www.lovepork.co.uk"/>
+                            <label for="www.lovepork.co.uk" title="www.lovepork.co.uk">www.lovepork.co.uk</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.mobkitchen.co.uk" id="www.mobkitchen.co.uk" name="www.mobkitchen.co.uk"/>
+                            <label for="www.mobkitchen.co.uk" title="www.mobkitchen.co.uk">www.mobkitchen.co.uk</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.mobkitchen.com" id="www.mobkitchen.com" name="www.mobkitchen.com"/>
+                            <label for="www.mobkitchen.com" title="www.mobkitchen.com">www.mobkitchen.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.nadialim.com" id="www.nadialim.com" name="www.nadialim.com"/>
+                            <label for="www.nadialim.com" title="www.nadialim.com">www.nadialim.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.noshbooks.com" id="www.noshbooks.com" name="www.noshbooks.com"/>
+                            <label for="www.noshbooks.com" title="www.noshbooks.com">www.noshbooks.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.pickuplimes.com" id="www.pickuplimes.com" name="www.pickuplimes.com"/>
+                            <label for="www.pickuplimes.com" title="www.pickuplimes.com">www.pickuplimes.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.sainsburysmagazine.co.uk" id="www.sainsburysmagazine.co.uk" name="www.sainsburysmagazine.co.uk"/>
+                            <label for="www.sainsburysmagazine.co.uk" title="www.sainsburysmagazine.co.uk">www.sainsburysmagazine.co.uk</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.seriouseats.com" id="www.seriouseats.com" name="www.seriouseats.com"/>
+                            <label for="www.seriouseats.com" title="www.seriouseats.com">www.seriouseats.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.simplybeefandlamb.co.uk" id="www.simplybeefandlamb.co.uk" name="www.simplybeefandlamb.co.uk"/>
+                            <label for="www.simplybeefandlamb.co.uk" title="www.simplybeefandlamb.co.uk">www.simplybeefandlamb.co.uk</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.slimmingeats.com" id="www.slimmingeats.com" name="www.slimmingeats.com"/>
+                            <label for="www.slimmingeats.com" title="www.slimmingeats.com">www.slimmingeats.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.slimmingworld.co.uk" id="www.slimmingworld.co.uk" name="www.slimmingworld.co.uk"/>
+                            <label for="www.slimmingworld.co.uk" title="www.slimmingworld.co.uk">www.slimmingworld.co.uk</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.thecomfortofcooking.com" id="www.thecomfortofcooking.com" name="www.thecomfortofcooking.com"/>
+                            <label for="www.thecomfortofcooking.com" title="www.thecomfortofcooking.com">www.thecomfortofcooking.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.theguardian.com" id="www.theguardian.com" name="www.theguardian.com"/>
+                            <label for="www.theguardian.com" title="www.theguardian.com">www.theguardian.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.themediterraneandish.com" id="www.themediterraneandish.com" name="www.themediterraneandish.com"/>
+                            <label for="www.themediterraneandish.com" title="www.themediterraneandish.com">www.themediterraneandish.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.thewanderlustkitchen.com" id="www.thewanderlustkitchen.com" name="www.thewanderlustkitchen.com"/>
+                            <label for="www.thewanderlustkitchen.com" title="www.thewanderlustkitchen.com">www.thewanderlustkitchen.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.triedandtruerecipe.com" id="www.triedandtruerecipe.com" name="www.triedandtruerecipe.com"/>
+                            <label for="www.triedandtruerecipe.com" title="www.triedandtruerecipe.com">www.triedandtruerecipe.com</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="source/www.youtube.com" id="www.youtube.com" name="www.youtube.com"/>
+                            <label for="www.youtube.com" title="www.youtube.com">www.youtube.com</label>
+                        </div>
+                        </div>
+                </details>
+
+                <button type="button" id="clear-filters">Clear all filters</button>
+            </section>
+
+            <section id="search-results">
+                <div id="search-results-header">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
+                    </svg>
+                    <h2>Search results</h2>
+                    <button type="button" id="close-search-results">
+                        <svg width="55" height="55.016" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55">
+                            <path d="M2.32 2.32l50.36 50.36m0-50.36L2.32 52.68" fill="none" stroke="currentColor" stroke-width="4.639" stroke-linecap="round"/>
+                        </svg>
+                    </button>
+                </div>
+                <div id="search-results-filters">
+                </div>
+                <div id="search-results-list">
+                </div>
+            </section>
+        </main>
+
+        <nav>
+            <div>
+                <h3><a href="/">Home</a></h3>
+                <h3><a href="/top-recipes">Top Recipes</a></h3>
+                <h3><a href="/all-recipes">All Recipes</a></h3>
+                <h3><a href="/search">Search</a></h3>
+                <h3><a href="/feed/atom.xml">Feed</a></h3>
+            </div>
+            <div id="settings-options">
+                <meta name="update-hash" content="f50a4433e01cf934b5c9b138407b993bd97468edad9af5f5b560fc7aece66880"/>
+                <meta name="cache-size" content="41102938"/>
+                <button type="button" id="cache-site-btn" disabled>Cache Site</button>
+                <button type="button" id="theme-btn" disabled>
+                    Theme<span class="light-text">Auto</span>
+                </button>
+            </div>
+        </nav>
+    </body>
+</html>

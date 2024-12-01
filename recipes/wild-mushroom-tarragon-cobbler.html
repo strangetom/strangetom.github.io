@@ -21,107 +21,90 @@
         <link rel="preload" href="/css/colours.min.css" as="style"/>
         <link rel="stylesheet" type="text/css" href="/css/recipe.min.css"/>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+        <script defer src="/js/menu.min.js"></script>
         <script src="/js/scale_timers.min.js"></script>
         <noscript><style type="text/css">.scale-btns,.unit-btns,.temp-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
     </head>
-    <body class="Veggie" itemscope itemtype="https://schema.org/Recipe">
-
-        <header>
-            <a href="/">
-                <p>Stranger&nbsp;Foods</p>
-            </a>
-        </header>
-
-        <section class="recipe">
-            <h1 itemprop="name">Wild mushroom & tarragon cobbler</h1>
+    <body itemscope itemtype="https://schema.org/Recipe">
+        <main>            <header>
+                <a href="/">Stranger&nbsp;Foods</a>
+                <button type="button" id="sidebar" aria-label="Menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>
+            </header>
 
             <meta itemprop="datePublished" content="2024-04-02"/>
             <meta itemprop="totalTime" content="PT85M"/>
             <meta itemprop="prepTime" content="PT15M"/>
             <meta itemprop="performTime" content="PT70M"/>
-            <meta itemprop="recipeYield" content="4 servings"/>
-            <span class="recipe-info">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 60 90"><g fill="currentColor"><path d="M26.814 21.33c0-10.2-6.003-21.3-13.407-21.3C6.002.03 0 11.13 0 21.33c0 6.429 2.387 10.96 6.006 13.433 2.262 1.546 3.647 4.075 3.599 6.814l-.76 43.582c-.042 2.419 1.717 4.6 4.126 4.824a4.568 4.568 0 005.003-4.626l-.764-43.78c-.048-2.739 1.338-5.268 3.599-6.814 3.618-2.474 6.005-7.004 6.005-13.433zM60.983 29.703L60.219.973a1 1 0 00-1-.973h-2.222a1 1 0 00-1 1v24.127a1 1 0 01-1 1h-1.915a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.297a1 1 0 00-1 1v24.127a1 1 0 01-1 1H44.87a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.222a1 1 0 00-1 .973l-.764 28.73a3.999 3.999 0 002.961 3.969l2.14.575a2.998 2.998 0 012.221 2.95l-.84 48.159a4.566 4.566 0 109.132 0l-.84-48.159a3.001 3.001 0 012.221-2.95l2.14-.575a3.998 3.998 0 002.964-3.969z"/></g></svg>
-                Serves <span id="servings" data-default="4">4</span>
-            </span>
-            <span class="recipe-info expander">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="10"/><path stroke="currentColor" fill="none" stroke-width="10" d="M50 15v35l25 25"/></svg>
-                <input type="checkbox" id="time-info"/>
-                <label for="time-info">
-                    1 hr 25 mins
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                    </svg>
-                    <div class="extra-time-info">
-                        <table>
-                            <tr>
-                                <td>
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="10"/><path stroke="currentColor" fill="none" stroke-width="10" d="M50 15v35l25 25"/></svg>
-                                    1 hr 25 mins
-                                </td>
-                                <td>Total</td>
-                            </tr><tr>
-                                <td>15 mins</td>
-                                <td>Prep</td>
-                            </tr><tr>
-                                <td>1 hr 10 mins</td>
-                                <td>Cook</td>
-                            </tr></table>
-                    </div>
-                </label>
-                </span>
-
-            <span class="recipe-info">Vegetarian</span>
-            <span id="share" href="javascript:;" class="recipe-info hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon" viewBox="0 0 16 16">
-                  <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
-                </svg>
-                Share
-            </span>
-
-            <span id="wake" class="recipe-info hidden">
-                <div class="checkbox">
-                    <input type="checkbox" id="wakelock" name="wakelock"/>
-                    <label for="wakelock">Keep Awake</label>
+            <meta itemprop="recipeYield" content="4 servings"/><img itemprop="image" class="recipe-image" src="/images/wild-mushroom-tarragon-cobbler.webp" alt="Photograph of Wild mushroom & tarragon cobbler." width="512" height="288"/><div class="recipe-icons">
+                <div></div>
+                <div>
+                    <span class="recipe-icon hidden" id="wakelock">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                          <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                          <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+                        </svg>
+                    </span>
+                    <span class="recipe-icon hidden", id="share">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5"/>
+                        </svg>
+                    </span>
                 </div>
-            </span>
+            </div>
 
-            <img itemprop="image" class="recipe-image" src="/images/wild-mushroom-tarragon-cobbler.webp" alt="Recipe image" width="512" height="288"/>
-            <p itemprop="description">This straightforward recipe makes a perfect comforting dinner. Serve with a simple dressed green salad.</p>
-            <h2>Ingredients</h2>
-            <hr/>
+            <section class="recipe">
+                <h1 itemprop="name">Wild mushroom & tarragon cobbler
+                </h1>
 
-            <div class="controls">
-                <div class="scale-btns">
-                    <div class="radio-btn">
-                        <input type="radio" name="scale" value="x0.5" id="x0.5"/>
-                        <label for="x0.5">x0.5</label>
-                    </div>
-                    <div class="radio-btn">
-                        <input type="radio" name="scale" value="x1" id="x1" checked/>
-                        <label for="x1">x1</label>
-                    </div>
-                    <div class="radio-btn">
-                        <input type="radio" name="scale" value="x2" id="x2"/>
-                        <label for="x2">x2</label>
-                    </div>
-                    <div class="radio-btn">
-                        <input type="radio" name="scale" value="x3" id="x3"/>
-                        <label for="x3">x3</label>
-                    </div>
-                </div>
-                <div class="unit-btns">
-                    <div class="radio-btn">
+                <div class="recipe-metadata">
+                    <span id="serves">Serves <span id="servings" data-default="4">4</span></span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span>Prep 15 mins</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span>Cook 1 hr 10 mins</span>
+                </div><hr/>
+                <p itemprop="description">This straightforward recipe makes a perfect comforting dinner. Serve with a simple dressed green salad.</p><p class="source">Source: <a href="https://www.goodreads.com/search/search?search_type=books&search[query]=9781787138377" target="_blank">Foolproof Veggie One-Pot: 60 Vibrant and Easy-Going Vegetarian Dishes</a></p><hr/>
+                <h2>Ingredients</h2>
+                
+                <div class="unit-controls">
+                    <div class="cntrl">
                         <input type="radio" name="units" value="metric" id="metric" checked/>
                         <label for="metric">Metric</label>
                     </div>
-                    <div class="radio-btn">
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="cntrl">
                         <input type="radio" name="units" value="imperial" id="imperial" />
                         <label for="imperial">Imperial</label>
                     </div>
                 </div>
-            </div>
-            <div>
+
+                <div class="scale-controls">
+                    <div class="cntrl">
+                        <input type="radio" name="scale" value="x0.5" id="x0.5"/>
+                        <label for="x0.5">x0.5</label>
+                    </div>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="cntrl">
+                        <input type="radio" name="scale" value="x1" id="x1" checked/>
+                        <label for="x1">x1</label>
+                    </div>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="cntrl">
+                        <input type="radio" name="scale" value="x2" id="x2"/>
+                        <label for="x2">x2</label>
+                    </div>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="cntrl">
+                        <input type="radio" name="scale" value="x3" id="x3"/>
+                        <label for="x3">x3</label>
+                    </div>
+
+                </div>
+                <div>
                 <ul>
                     <li itemprop="recipeIngredient">
                         <span data-default="50" class="scalable">50</span>
@@ -190,92 +173,97 @@
                     </li>
                 </ul>
             </div>
-        
-            <h2>Instructions</h2>
-            <hr/>
-
-            <div class="controls">
-                <div class="temp-btns">
-                    <div class="radio-btn">
+            
+                <hr/>
+                <h2>Instructions</h2>
+                
+                <div class="temp-controls">
+                    <div class="cntrl">
                         <input type="radio" name="temp" value="C" id="C" checked/>
                         <label for="C">°C</label>
                     </div>
-                    <div class="radio-btn">
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="cntrl">
                         <input type="radio" name="temp" value="F" id="F"/>
                         <label for="F">°F</label>
                     </div>
                 </div>
-                <span id="show-amounts" class="recipe-info hidden">
-                    <div class="checkbox">
-                        <input type="checkbox" id="amounts" name="amounts"/>
-                        <label for="amounts">Inline Amounts</label>
-                    </div>
-                </span>
-            </div>
-            
-            <ol>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-1" />
-                    <label for="instruction-1">
-                        Preheat the oven to <span class="temperature" data-value="200" data-unit="C"><b>200</b>&deg;C</span>.
-                    </label>
-                </li>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-2" />
-                    <label for="instruction-2">
-                        Place the dried <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">porcini</span> in a bowl and pour over about <b>400</b> ml boiling water. Set aside for up to <button class="toast-btn" data-time="900" data-label="" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>15</b> minutes</span></button> to rehydrate.
-                    </label>
-                </li>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-3" />
-                    <label for="instruction-3">
-                        Melt the <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">butter</span> in your deep pot over a low-medium heat. Add the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and cook gently for <button class="toast-btn" data-time="600" data-label="" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>10</b> minutes</span></button> until soft but not browning. Add the <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> and cook for <button class="toast-btn" data-time="60" data-label="" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>1</b> minute</span></button> more.
-                    </label>
-                </li>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-4" />
-                    <label for="instruction-4">
-                        Drain the <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">porcini</span> in a sieve and rinse them well with water to remove any grit. Squeeze them to remove any excess moisture, then roughly chop.
-                    </label>
-                </li>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-5" />
-                    <label for="instruction-5">
-                        Add the chopped <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">porcini</span> and fresh <span data-default="800" data-defaultunit="g" data-quantity="800" data-unit="g" class="tooltip scalable">mushrooms</span> to the pot, along with the <span data-default="2" data-defaultunit="tbsps" data-quantity="2" data-unit="tbsps" class="tooltip scalable">brandy</span>, <b>1½</b> tsp salt and <b>¼</b> tsp black pepper. The pot will seem quite full and dry, but don’t worry: the <span data-default="800" data-defaultunit="g" data-quantity="800" data-unit="g" class="tooltip scalable">mushrooms</span> will soon cook down and release some moisture. Cook over a medium-high heat for <button class="toast-btn" data-time="300" data-label="" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>5-6</b> minutes</span></button>, stirring regularly, until the <span data-default="800" data-defaultunit="g" data-quantity="800" data-unit="g" class="tooltip scalable">mushrooms</span> have reduced by about half in volume and are releasing their juices. Turn off the heat, then stir in the <span data-default="150" data-defaultunit="g" data-quantity="150" data-unit="g" class="tooltip scalable">cream cheese</span> and <span data-default="1.5" data-defaultunit="tsps" data-quantity="1½" data-unit="tsps" class="tooltip scalable">tarragon</span>.
-                    </label>
-                </li>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-6" />
-                    <label for="instruction-6">
-                        To make the cobbler topping, add the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">flour</span> to a large bowl with <b>½</b> tsp salt and then, using your fingertips, rub in the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">grated butter</span> until the mixture resembles coarse breadcrumbs. Pour in the <span data-default="100" data-defaultunit="ml" data-quantity="100" data-unit="ml" class="tooltip scalable">milk</span> and mix with a fork to incorporate. Bring the mixture together with your hands, but without working it too much. Divide into <b>8</b> pieces and roll them into balls, flattening them slightly into scone-like shapes. Add them to the surface of the mushroom stew and brush the surface of each with a little of the beaten <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">egg</span>. Bake for <button class="toast-btn" data-time="1800" data-label="" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>30-35</b> minutes</span></button> until the topping is golden.
-                    </label>
-                </li>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-7" />
-                    <label for="instruction-7">
-                        Serve straight from the pot in the middle of the table with some mixed dressed leaves on the side.
-                    </label>
-                </li>
-                </ol>
 
-            
-            <hr/>
-            <a class="link" href="https://www.goodreads.com/search/search?search_type=books&search[query]=9781787138377" target="_blank">
-                <img src="/covers/foolproof-veggie-one-pot-60-vibrant-and-easy-going-vegetarian-dishes.webp" class="book-cover" alt="Image of Foolproof Veggie One-Pot: 60 Vibrant and Easy-Going Vegetarian Dishes book cover.">
-                <h3>Foolproof Veggie One-Pot: 60 Vibrant and Easy-Going Vegetarian Dishes</h3>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="link-icon"><path fill-rule="evenodd" d="M16 .5a.5.5 0 00-.5-.5h-5a.5.5 0 000 1h3.793L6.146 9.146a.5.5 0 10.708.708L15 1.707V5.5a.5.5 0 001 0v-5z" fill=currentColor/></svg>
-            </a>
+                <div class="inline-amount-controls">
+                    <div class="cntrl">
+                        <input type="checkbox" id="amounts" name="amounts"/>
+                        <label for="amounts">Show amounts inline</label>
+                    </div>
+                </div>
+
+                <span id="show-amounts" class="recipe-info hidden">
+
+                </span>
+                
+                <ol><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-1" />
+                        <label for="instruction-1">
+                            Preheat the oven to <span class="temperature" data-value="200" data-unit="C"><b>200</b>&deg;C</span>.
+                        </label>
+                    </li><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-2" />
+                        <label for="instruction-2">
+                            Place the dried <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">porcini</span> in a bowl and pour over about <b>400</b> ml boiling water. Set aside for up to <button class="toast-btn" data-time="900" data-label="Step 2" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>15</b> minutes</span></button> to rehydrate.
+                        </label>
+                    </li><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-3" />
+                        <label for="instruction-3">
+                            Melt the <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">butter</span> in your deep pot over a low-medium heat. Add the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> and cook gently for <button class="toast-btn" data-time="600" data-label="Step 3" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>10</b> minutes</span></button> until soft but not browning. Add the <span data-default="2" data-defaultunit="cloves" data-quantity="2" data-unit="cloves" class="tooltip scalable">garlic</span> and cook for <button class="toast-btn" data-time="60" data-label="Step 3" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>1</b> minute</span></button> more.
+                        </label>
+                    </li><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-4" />
+                        <label for="instruction-4">
+                            Drain the <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">porcini</span> in a sieve and rinse them well with water to remove any grit. Squeeze them to remove any excess moisture, then roughly chop.
+                        </label>
+                    </li><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-5" />
+                        <label for="instruction-5">
+                            Add the chopped <span data-default="50" data-defaultunit="g" data-quantity="50" data-unit="g" class="tooltip scalable">porcini</span> and fresh <span data-default="800" data-defaultunit="g" data-quantity="800" data-unit="g" class="tooltip scalable">mushrooms</span> to the pot, along with the <span data-default="2" data-defaultunit="tbsps" data-quantity="2" data-unit="tbsps" class="tooltip scalable">brandy</span>, <b>1½</b> tsp salt and <b>¼</b> tsp black pepper. The pot will seem quite full and dry, but don’t worry: the <span data-default="800" data-defaultunit="g" data-quantity="800" data-unit="g" class="tooltip scalable">mushrooms</span> will soon cook down and release some moisture. Cook over a medium-high heat for <button class="toast-btn" data-time="300" data-label="Step 5" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>5-6</b> minutes</span></button>, stirring regularly, until the <span data-default="800" data-defaultunit="g" data-quantity="800" data-unit="g" class="tooltip scalable">mushrooms</span> have reduced by about half in volume and are releasing their juices. Turn off the heat, then stir in the <span data-default="150" data-defaultunit="g" data-quantity="150" data-unit="g" class="tooltip scalable">cream cheese</span> and <span data-default="1.5" data-defaultunit="tsps" data-quantity="1½" data-unit="tsps" class="tooltip scalable">tarragon</span>.
+                        </label>
+                    </li><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-6" />
+                        <label for="instruction-6">
+                            To make the cobbler topping, add the <span data-default="250" data-defaultunit="g" data-quantity="250" data-unit="g" class="tooltip scalable">flour</span> to a large bowl with <b>½</b> tsp salt and then, using your fingertips, rub in the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">grated butter</span> until the mixture resembles coarse breadcrumbs. Pour in the <span data-default="100" data-defaultunit="ml" data-quantity="100" data-unit="ml" class="tooltip scalable">milk</span> and mix with a fork to incorporate. Bring the mixture together with your hands, but without working it too much. Divide into <b>8</b> pieces and roll them into balls, flattening them slightly into scone-like shapes. Add them to the surface of the mushroom stew and brush the surface of each with a little of the beaten <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">egg</span>. Bake for <button class="toast-btn" data-time="1800" data-label="Step 6" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>30-35</b> minutes</span></button> until the topping is golden.
+                        </label>
+                    </li><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-7" />
+                        <label for="instruction-7">
+                            Serve straight from the pot in the middle of the table with some mixed dressed leaves on the side.
+                        </label>
+                    </li></ol><hr/>
+                <h2>Similar recipes</h2>
+                <div id="similar"><a href="/recipes/pesto-courgette-and-wild-rice-gratin">
+                        <img src="/images/pesto-courgette-and-wild-rice-gratin.webp" alt="Photograph of Pesto, courgette & wild rice gratin."/>
+                        Pesto, courgette & wild rice gratin
+                    </a><a href="/recipes/pasta-with-sausage-and-white-beans">
+                        <img src="/images/pasta-with-sausage-and-white-beans.webp" alt="Photograph of Pasta with sausage and white beans."/>
+                        Pasta with sausage and white beans
+                    </a><a href="/recipes/pork-agrodolce">
+                        <img src="/images/pork-agrodolce.webp" alt="Photograph of Pork agrodolce."/>
+                        Pork agrodolce
+                    </a><a href="/recipes/sausage-lentil-and-fennel-stew-with-creme-fraiche-and-dijon-mustard">
+                        <img src="/images/sausage-lentil-and-fennel-stew-with-creme-fraiche-and-dijon-mustard.webp" alt="Photograph of Sausage, lentil & fennel stew with creme fraiche & dijon mustard."/>
+                        Sausage, lentil & fennel stew with creme fraiche & dijon mustard
+                    </a></div>
             </section>
-        <footer>
+        </main>        <nav>
             <div>
-                <img src="/img/logo.svg" alt="" height="1" width="1"/>
+                <h3><a href="/">Home</a></h3>
+                <h3><a href="/top-recipes">Top Recipes</a></h3>
+                <h3><a href="/all-recipes">All Recipes</a></h3>
+                <h3><a href="/search">Search</a></h3>
+                <h3><a href="/feed/atom.xml">Feed</a></h3>
             </div>
-            <div class="footer-links">
-                <a href="/">Homepage</a>
-                <a href="/all-recipes">All Recipes</a>
-                <a href="/top-recipes">Top Rated</a>
-                <a href="/feed/atom.xml">Feed</a>
+            <div id="settings-options">
+                <button type="button" id="theme-btn" disabled>
+                    Theme<span class="light-text">Auto</span>
+                </button>
             </div>
-        </footer>
+        </nav>
     </body>
 </html>

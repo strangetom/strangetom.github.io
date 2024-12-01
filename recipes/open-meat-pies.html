@@ -21,111 +21,92 @@
         <link rel="preload" href="/css/colours.min.css" as="style"/>
         <link rel="stylesheet" type="text/css" href="/css/recipe.min.css"/>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+        <script defer src="/js/menu.min.js"></script>
         <script src="/js/scale_timers.min.js"></script>
         <noscript><style type="text/css">.scale-btns,.unit-btns,.temp-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
     </head>
-    <body class="RedMeat" itemscope itemtype="https://schema.org/Recipe">
-
-        <header>
-            <a href="/">
-                <p>Stranger&nbsp;Foods</p>
-            </a>
-        </header>
-
-        <section class="recipe">
-            <h1 itemprop="name">Open meat pies</h1>
+    <body itemscope itemtype="https://schema.org/Recipe">
+        <main>            <header>
+                <a href="/">Stranger&nbsp;Foods</a>
+                <button type="button" id="sidebar" aria-label="Menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>
+            </header>
 
             <meta itemprop="datePublished" content="2022-09-10"/>
             <meta itemprop="totalTime" content="PT2H20M"/>
             <meta itemprop="prepTime" content="PT2H"/>
             <meta itemprop="performTime" content="PT20M"/>
-            <meta itemprop="recipeYield" content="12 servings"/>
-            <span class="recipe-info">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 60 90"><g fill="currentColor"><path d="M26.814 21.33c0-10.2-6.003-21.3-13.407-21.3C6.002.03 0 11.13 0 21.33c0 6.429 2.387 10.96 6.006 13.433 2.262 1.546 3.647 4.075 3.599 6.814l-.76 43.582c-.042 2.419 1.717 4.6 4.126 4.824a4.568 4.568 0 005.003-4.626l-.764-43.78c-.048-2.739 1.338-5.268 3.599-6.814 3.618-2.474 6.005-7.004 6.005-13.433zM60.983 29.703L60.219.973a1 1 0 00-1-.973h-2.222a1 1 0 00-1 1v24.127a1 1 0 01-1 1h-1.915a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.297a1 1 0 00-1 1v24.127a1 1 0 01-1 1H44.87a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.222a1 1 0 00-1 .973l-.764 28.73a3.999 3.999 0 002.961 3.969l2.14.575a2.998 2.998 0 012.221 2.95l-.84 48.159a4.566 4.566 0 109.132 0l-.84-48.159a3.001 3.001 0 012.221-2.95l2.14-.575a3.998 3.998 0 002.964-3.969z"/></g></svg>
-                Serves <span id="servings" data-default="12">12</span>
-            </span>
-            <span class="recipe-info expander">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="10"/><path stroke="currentColor" fill="none" stroke-width="10" d="M50 15v35l25 25"/></svg>
-                <input type="checkbox" id="time-info"/>
-                <label for="time-info">
-                    2 hr 20 mins
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                    </svg>
-                    <div class="extra-time-info">
-                        <table>
-                            <tr>
-                                <td>
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="10"/><path stroke="currentColor" fill="none" stroke-width="10" d="M50 15v35l25 25"/></svg>
-                                    2 hr 20 mins
-                                </td>
-                                <td>Total</td>
-                            </tr><tr>
-                                <td>2 hr</td>
-                                <td>Prep</td>
-                            </tr><tr>
-                                <td>20 mins</td>
-                                <td>Cook</td>
-                            </tr></table>
-                    </div>
-                </label>
-                </span>
-
-            <span id="share" href="javascript:;" class="recipe-info hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon" viewBox="0 0 16 16">
-                  <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
-                </svg>
-                Share
-            </span>
-
-            <span id="wake" class="recipe-info hidden">
-                <div class="checkbox">
-                    <input type="checkbox" id="wakelock" name="wakelock"/>
-                    <label for="wakelock">Keep Awake</label>
+            <meta itemprop="recipeYield" content="12 servings"/><img itemprop="image" class="recipe-image" src="/images/open-meat-pies.webp" alt="Photograph of Open meat pies." width="512" height="288"/><div class="recipe-icons">
+                <div></div>
+                <div>
+                    <span class="recipe-icon hidden" id="wakelock">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                          <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                          <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+                        </svg>
+                    </span>
+                    <span class="recipe-icon hidden", id="share">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5"/>
+                        </svg>
+                    </span>
                 </div>
-            </span>
+            </div>
 
-            <img itemprop="image" class="recipe-image" src="/images/open-meat-pies.webp" alt="Recipe image" width="512" height="288"/>
-            <p itemprop="description">These easy-to-make ‘open’ pies are loved by kids and grown-ups alike. They are perfect party food: great to snack on and also really practical, as they can be batch-made and then baked from frozen. They’re also lovely for a light meal, served with a fattoush  (or any other) salad.</p>
-            <h2>Ingredients</h2>
-            <hr/>
+            <section class="recipe">
+                <h1 itemprop="name">Open meat pies
+                </h1>
 
-            <div class="controls">
-                <div class="scale-btns">
-                    <div class="radio-btn">
-                        <input type="radio" name="scale" value="x0.5" id="x0.5"/>
-                        <label for="x0.5">x0.5</label>
-                    </div>
-                    <div class="radio-btn">
-                        <input type="radio" name="scale" value="x1" id="x1" checked/>
-                        <label for="x1">x1</label>
-                    </div>
-                    <div class="radio-btn">
-                        <input type="radio" name="scale" value="x2" id="x2"/>
-                        <label for="x2">x2</label>
-                    </div>
-                    <div class="radio-btn">
-                        <input type="radio" name="scale" value="x3" id="x3"/>
-                        <label for="x3">x3</label>
-                    </div>
-                </div>
-                <div class="unit-btns">
-                    <div class="radio-btn">
+                <div class="recipe-metadata">
+                    <span id="serves">Serves <span id="servings" data-default="12">12</span></span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span>Prep 2 hr</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span>Cook 20 mins</span>
+                </div><hr/>
+                <p itemprop="description">These easy-to-make ‘open’ pies are loved by kids and grown-ups alike. They are perfect party food: great to snack on and also really practical, as they can be batch-made and then baked from frozen. They’re also lovely for a light meal, served with a fattoush  (or any other) salad.</p><p class="source">Source: <a href="https://www.goodreads.com/search/search?search_type=books&search[query]=9781785038723" target="_blank">Falastin</a></p><hr/>
+                <h2>Ingredients</h2>
+                
+                <div class="unit-controls">
+                    <div class="cntrl">
                         <input type="radio" name="units" value="metric" id="metric" checked/>
                         <label for="metric">Metric</label>
                     </div>
-                    <div class="radio-btn">
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="cntrl">
                         <input type="radio" name="units" value="imperial" id="imperial" />
                         <label for="imperial">Imperial</label>
                     </div>
                 </div>
-            </div>
-            <div>
+
+                <div class="scale-controls">
+                    <div class="cntrl">
+                        <input type="radio" name="scale" value="x0.5" id="x0.5"/>
+                        <label for="x0.5">x0.5</label>
+                    </div>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="cntrl">
+                        <input type="radio" name="scale" value="x1" id="x1" checked/>
+                        <label for="x1">x1</label>
+                    </div>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="cntrl">
+                        <input type="radio" name="scale" value="x2" id="x2"/>
+                        <label for="x2">x2</label>
+                    </div>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="cntrl">
+                        <input type="radio" name="scale" value="x3" id="x3"/>
+                        <label for="x3">x3</label>
+                    </div>
+
+                </div>
+                <div>
                 <details open>
-                    <summary class="ingredient-subheading">Dough<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
-                        </svg>
-                    </summary>
+                    <summary class="ingredient-subheading">Dough</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
                             <span data-default="1.5" class="scalable">1½</span>
@@ -174,10 +155,7 @@
                     </ul>
                 </details>
                 <details open>
-                    <summary class="ingredient-subheading">Meat topping<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
-                        </svg>
-                    </summary>
+                    <summary class="ingredient-subheading">Meat topping</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
                             <span data-default="250" class="scalable">250</span>
@@ -236,10 +214,7 @@
                     </ul>
                 </details>
                 <details open>
-                    <summary class="ingredient-subheading">To serve<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
-                        </svg>
-                    </summary>
+                    <summary class="ingredient-subheading">To serve</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
                             <span data-default="2" class="scalable">2</span>
@@ -249,86 +224,92 @@
                     </ul>
                 </details>
             </div>
-        
-            <h2>Instructions</h2>
-            <hr/>
-
-            <div class="controls">
-                <div class="temp-btns">
-                    <div class="radio-btn">
+            
+                <hr/>
+                <h2>Instructions</h2>
+                
+                <div class="temp-controls">
+                    <div class="cntrl">
                         <input type="radio" name="temp" value="C" id="C" checked/>
                         <label for="C">°C</label>
                     </div>
-                    <div class="radio-btn">
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="cntrl">
                         <input type="radio" name="temp" value="F" id="F"/>
                         <label for="F">°F</label>
                     </div>
                 </div>
-                <span id="show-amounts" class="recipe-info hidden">
-                    <div class="checkbox">
-                        <input type="checkbox" id="amounts" name="amounts"/>
-                        <label for="amounts">Inline Amounts</label>
-                    </div>
-                </span>
-            </div>
-            
-            <ol>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-1" />
-                    <label for="instruction-1">
-                        First make the dough. Put the <span data-default="1.5" data-defaultunit="tsp" data-quantity="1½" data-unit="tsp" class="tooltip scalable">yeast</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">sugar</span> and <span data-default="170" data-defaultunit="ml" data-quantity="170" data-unit="ml" class="tooltip scalable">water</span> into a small bowl and whisk to combine. Set aside for <button class="toast-btn" data-time="300" data-label="" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>5</b> minutes</span></button>, until it starts to bubble.
-                    </label>
-                </li>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-2" />
-                    <label for="instruction-2">
-                        Put the <span data-default="320" data-defaultunit="g" data-quantity="320" data-unit="g" class="tooltip scalable">flour</span>, <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">milk powder</span>, <span data-default="0.125" data-defaultunit="tsp" data-quantity="⅛" data-unit="tsp" class="tooltip scalable">turmeric</span>, if using, and <b>¾</b> teaspoon of salt into the bowl of a free-standing mixer with the dough hook in place. Mix for <button class="toast-btn" data-time="60" data-label="" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>1</b> minute</span></button>, just to incorporate, then add the <span data-default="1.5" data-defaultunit="tsp" data-quantity="1½" data-unit="tsp" class="tooltip scalable">yeast</span> mixture, followed by both oils. Work on a low speed for about <button class="toast-btn" data-time="120" data-label="" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>2</b> minutes</span></button>, to bring everything together, then increase the speed to medium. Continue to mix for <button class="toast-btn" data-time="300" data-label="" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>5-6</b> minutes</span></button>, until the dough is soft and elastic. It will feel very soft and almost sticky, but this is how it should be. Tip the dough on to a clean work surface and bring together to form a ball. Grease the mixing bowl with <b>1</b> tablespoon of oil and return the dough to the bowl. Turn it a couple of times so that it’s completely coated in oil, then cover the bowl with a clean tea towel. Set aside somewhere warm for <button class="toast-btn" data-time="3600" data-label="Dough" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>1</b> hour</span></button>, until it’s doubled in size.
-                    </label>
-                </li>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-3" />
-                    <label for="instruction-3">
-                        Roll the dough out into the shape of a sausage, about <b>30</b> cm long, and cut into <b>12</b> even pieces, about <b>45</b> g each. Roll each piece into a ball, place on a large plate, cover with a clean tea towel and set aside for <button class="toast-btn" data-time="1200" data-label="Dough balls" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>20</b> minutes</span></button>, to rest.
-                    </label>
-                </li>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-4" />
-                    <label for="instruction-4">
-                        If making the meat topping, put all the ingredients for the topping, apart from the <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">pine nuts</span> and lemon wedges, into a separate bowl. Add <b>1¼</b> teaspoons of salt and mix well to combine: doing this with your hands is the best way. Set aside.
-                    </label>
-                </li>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-5" />
-                    <label for="instruction-5">
-                        Preheat the oven temperature to <span class="temperature" data-value="200" data-unit="C"><b>200</b>&deg;C</span> fan.
-                    </label>
-                </li>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-6" />
-                    <label for="instruction-6">
-                        Arrange the dough balls on two large parchment-lined baking trays, spaced well apart. Using your fingers, flatten each ball into a round disc, about <b>10</b> cm wide and <b>2–3</b> mm thick. Spoon <b>2</b> heaped tablespoons (about 50 g) of whichever topping you are using into the centre of each disc and spread it out evenly, leaving a 1 cm border clear around the edge. Sprinkle over the <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">pine nuts</span>, if you are doing the meat topping, and set aside for another <button class="toast-btn" data-time="600" data-label="" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>10</b> minutes</span></button>. Bake for <button class="toast-btn" data-time="1020" data-label="" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>17-18</b> minutes</span></button>, rotating the trays around halfway through (or even switching around the position of the trays if it looks like the pies on the top tray are taking on too much colour), or until the sfiha are cooked and the edges are golden brown. Remove from the oven and serve warm or at room temperature, with a wedge of lemon alongside.
-                    </label>
-                </li>
-                </ol>
 
-            
-            <hr/>
-            <a class="link" href="https://www.goodreads.com/search/search?search_type=books&search[query]=9781785038723" target="_blank">
-                <img src="/covers/falastin.webp" class="book-cover" alt="Image of Falastin book cover.">
-                <h3>Falastin</h3>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="link-icon"><path fill-rule="evenodd" d="M16 .5a.5.5 0 00-.5-.5h-5a.5.5 0 000 1h3.793L6.146 9.146a.5.5 0 10.708.708L15 1.707V5.5a.5.5 0 001 0v-5z" fill=currentColor/></svg>
-            </a>
+                <div class="inline-amount-controls">
+                    <div class="cntrl">
+                        <input type="checkbox" id="amounts" name="amounts"/>
+                        <label for="amounts">Show amounts inline</label>
+                    </div>
+                </div>
+
+                <span id="show-amounts" class="recipe-info hidden">
+
+                </span>
+                
+                <ol><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-1" />
+                        <label for="instruction-1">
+                            First make the dough. Put the <span data-default="1.5" data-defaultunit="tsp" data-quantity="1½" data-unit="tsp" class="tooltip scalable">yeast</span>, <span data-default="1" data-defaultunit="tsp" data-quantity="1" data-unit="tsp" class="tooltip scalable">sugar</span> and <span data-default="170" data-defaultunit="ml" data-quantity="170" data-unit="ml" class="tooltip scalable">water</span> into a small bowl and whisk to combine. Set aside for <button class="toast-btn" data-time="300" data-label="Step 1" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>5</b> minutes</span></button>, until it starts to bubble.
+                        </label>
+                    </li><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-2" />
+                        <label for="instruction-2">
+                            Put the <span data-default="320" data-defaultunit="g" data-quantity="320" data-unit="g" class="tooltip scalable">flour</span>, <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">milk powder</span>, <span data-default="0.125" data-defaultunit="tsp" data-quantity="⅛" data-unit="tsp" class="tooltip scalable">turmeric</span>, if using, and <b>¾</b> teaspoon of salt into the bowl of a free-standing mixer with the dough hook in place. Mix for <button class="toast-btn" data-time="60" data-label="Step 2" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>1</b> minute</span></button>, just to incorporate, then add the <span data-default="1.5" data-defaultunit="tsp" data-quantity="1½" data-unit="tsp" class="tooltip scalable">yeast</span> mixture, followed by both oils. Work on a low speed for about <button class="toast-btn" data-time="120" data-label="Step 2" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>2</b> minutes</span></button>, to bring everything together, then increase the speed to medium. Continue to mix for <button class="toast-btn" data-time="300" data-label="Step 2" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>5-6</b> minutes</span></button>, until the dough is soft and elastic. It will feel very soft and almost sticky, but this is how it should be. Tip the dough on to a clean work surface and bring together to form a ball. Grease the mixing bowl with <b>1</b> tablespoon of oil and return the dough to the bowl. Turn it a couple of times so that it’s completely coated in oil, then cover the bowl with a clean tea towel. Set aside somewhere warm for <button class="toast-btn" data-time="3600" data-label="Dough" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>1</b> hour</span></button>, until it’s doubled in size.
+                        </label>
+                    </li><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-3" />
+                        <label for="instruction-3">
+                            Roll the dough out into the shape of a sausage, about <b>30</b> cm long, and cut into <b>12</b> even pieces, about <b>45</b> g each. Roll each piece into a ball, place on a large plate, cover with a clean tea towel and set aside for <button class="toast-btn" data-time="1200" data-label="Dough balls" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>20</b> minutes</span></button>, to rest.
+                        </label>
+                    </li><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-4" />
+                        <label for="instruction-4">
+                            If making the meat topping, put all the ingredients for the topping, apart from the <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">pine nuts</span> and lemon wedges, into a separate bowl. Add <b>1¼</b> teaspoons of salt and mix well to combine: doing this with your hands is the best way. Set aside.
+                        </label>
+                    </li><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-5" />
+                        <label for="instruction-5">
+                            Preheat the oven temperature to <span class="temperature" data-value="200" data-unit="C"><b>200</b>&deg;C</span> fan.
+                        </label>
+                    </li><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-6" />
+                        <label for="instruction-6">
+                            Arrange the dough balls on two large parchment-lined baking trays, spaced well apart. Using your fingers, flatten each ball into a round disc, about <b>10</b> cm wide and <b>2–3</b> mm thick. Spoon <b>2</b> heaped tablespoons (about 50 g) of whichever topping you are using into the centre of each disc and spread it out evenly, leaving a 1 cm border clear around the edge. Sprinkle over the <span data-default="25" data-defaultunit="g" data-quantity="25" data-unit="g" class="tooltip scalable">pine nuts</span>, if you are doing the meat topping, and set aside for another <button class="toast-btn" data-time="600" data-label="Step 6" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>10</b> minutes</span></button>. Bake for <button class="toast-btn" data-time="1020" data-label="Step 6" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>17-18</b> minutes</span></button>, rotating the trays around halfway through (or even switching around the position of the trays if it looks like the pies on the top tray are taking on too much colour), or until the sfiha are cooked and the edges are golden brown. Remove from the oven and serve warm or at room temperature, with a wedge of lemon alongside.
+                        </label>
+                    </li></ol><hr/>
+                <h2>Similar recipes</h2>
+                <div id="similar"><a href="/recipes/lahmacun">
+                        <img src="/images/lahmacun.webp" alt="Photograph of Lahmacun."/>
+                        Lahmacun
+                    </a><a href="/recipes/vegetarian-turkish-pide">
+                        <img src="/images/vegetarian-turkish-pide.webp" alt="Photograph of Vegetarian turkish pide."/>
+                        Vegetarian turkish pide
+                    </a><a href="/recipes/cranberry-oat-and-white-chocolate-biscuits">
+                        <img src="/images/cranberry-oat-and-white-chocolate-biscuits.webp" alt="Photograph of Cranberry, oat and white chocolate biscuits."/>
+                        Cranberry, oat and white chocolate biscuits
+                    </a><a href="/recipes/turkish-flatbread">
+                        <img src="/images/turkish-flatbread.webp" alt="Photograph of Turkish flatbread."/>
+                        Turkish flatbread
+                    </a></div>
             </section>
-        <footer>
+        </main>        <nav>
             <div>
-                <img src="/img/logo.svg" alt="" height="1" width="1"/>
+                <h3><a href="/">Home</a></h3>
+                <h3><a href="/top-recipes">Top Recipes</a></h3>
+                <h3><a href="/all-recipes">All Recipes</a></h3>
+                <h3><a href="/search">Search</a></h3>
+                <h3><a href="/feed/atom.xml">Feed</a></h3>
             </div>
-            <div class="footer-links">
-                <a href="/">Homepage</a>
-                <a href="/all-recipes">All Recipes</a>
-                <a href="/top-recipes">Top Rated</a>
-                <a href="/feed/atom.xml">Feed</a>
+            <div id="settings-options">
+                <button type="button" id="theme-btn" disabled>
+                    Theme<span class="light-text">Auto</span>
+                </button>
             </div>
-        </footer>
+        </nav>
     </body>
 </html>

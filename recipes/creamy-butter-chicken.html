@@ -21,111 +21,96 @@
         <link rel="preload" href="/css/colours.min.css" as="style"/>
         <link rel="stylesheet" type="text/css" href="/css/recipe.min.css"/>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+        <script defer src="/js/menu.min.js"></script>
         <script src="/js/scale_timers.min.js"></script>
         <noscript><style type="text/css">.scale-btns,.unit-btns,.temp-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
     </head>
-    <body class="Poultry" itemscope itemtype="https://schema.org/Recipe">
-
-        <header>
-            <a href="/">
-                <p>Stranger&nbsp;Foods</p>
-            </a>
-        </header>
-
-        <section class="recipe">
-            <h1 itemprop="name">Creamy butter chicken</h1>
+    <body itemscope itemtype="https://schema.org/Recipe">
+        <main>            <header>
+                <a href="/">Stranger&nbsp;Foods</a>
+                <button type="button" id="sidebar" aria-label="Menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>
+            </header>
 
             <meta itemprop="datePublished" content="2023-01-28"/>
             <meta itemprop="totalTime" content="PT35M"/>
             <meta itemprop="prepTime" content="PT10M"/>
             <meta itemprop="performTime" content="PT25M"/>
-            <meta itemprop="recipeYield" content="6 servings"/>
-            <span class="recipe-info">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 60 90"><g fill="currentColor"><path d="M26.814 21.33c0-10.2-6.003-21.3-13.407-21.3C6.002.03 0 11.13 0 21.33c0 6.429 2.387 10.96 6.006 13.433 2.262 1.546 3.647 4.075 3.599 6.814l-.76 43.582c-.042 2.419 1.717 4.6 4.126 4.824a4.568 4.568 0 005.003-4.626l-.764-43.78c-.048-2.739 1.338-5.268 3.599-6.814 3.618-2.474 6.005-7.004 6.005-13.433zM60.983 29.703L60.219.973a1 1 0 00-1-.973h-2.222a1 1 0 00-1 1v24.127a1 1 0 01-1 1h-1.915a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.297a1 1 0 00-1 1v24.127a1 1 0 01-1 1H44.87a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.222a1 1 0 00-1 .973l-.764 28.73a3.999 3.999 0 002.961 3.969l2.14.575a2.998 2.998 0 012.221 2.95l-.84 48.159a4.566 4.566 0 109.132 0l-.84-48.159a3.001 3.001 0 012.221-2.95l2.14-.575a3.998 3.998 0 002.964-3.969z"/></g></svg>
-                Serves <span id="servings" data-default="6">6</span>
-            </span>
-            <span class="recipe-info expander">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="10"/><path stroke="currentColor" fill="none" stroke-width="10" d="M50 15v35l25 25"/></svg>
-                <input type="checkbox" id="time-info"/>
-                <label for="time-info">
-                    35 mins
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                    </svg>
-                    <div class="extra-time-info">
-                        <table>
-                            <tr>
-                                <td>
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="10"/><path stroke="currentColor" fill="none" stroke-width="10" d="M50 15v35l25 25"/></svg>
-                                    35 mins
-                                </td>
-                                <td>Total</td>
-                            </tr><tr>
-                                <td>10 mins</td>
-                                <td>Prep</td>
-                            </tr><tr>
-                                <td>25 mins</td>
-                                <td>Cook</td>
-                            </tr></table>
-                    </div>
-                </label>
-                </span>
-
-            <span id="share" href="javascript:;" class="recipe-info hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon" viewBox="0 0 16 16">
-                  <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
-                </svg>
-                Share
-            </span>
-
-            <span id="wake" class="recipe-info hidden">
-                <div class="checkbox">
-                    <input type="checkbox" id="wakelock" name="wakelock"/>
-                    <label for="wakelock">Keep Awake</label>
+            <meta itemprop="recipeYield" content="6 servings"/><img itemprop="image" class="recipe-image" src="/images/creamy-butter-chicken.webp" alt="Photograph of Creamy butter chicken." width="512" height="288"/><div class="recipe-icons">
+                <div><span class="recipe-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
+                        </svg>
+                    </span></div>
+                <div>
+                    <span class="recipe-icon hidden" id="wakelock">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                          <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                          <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+                        </svg>
+                    </span>
+                    <span class="recipe-icon hidden", id="share">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5"/>
+                        </svg>
+                    </span>
                 </div>
-            </span>
+            </div>
 
-            <img itemprop="image" class="recipe-image" src="/images/creamy-butter-chicken.webp" alt="Recipe image" width="512" height="288"/>
-            <p itemprop="description">A Creamy Butter Chicken dish might seem impossible if you're counting calories, but never fear - this slimming recipe is perfect no matter what plan you're following!</p>
-            <h2>Ingredients</h2>
-            <hr/>
+            <section class="recipe">
+                <h1 itemprop="name">Creamy butter chicken
+                </h1>
 
-            <div class="controls">
-                <div class="scale-btns">
-                    <div class="radio-btn">
-                        <input type="radio" name="scale" value="x0.5" id="x0.5"/>
-                        <label for="x0.5">x0.5</label>
-                    </div>
-                    <div class="radio-btn">
-                        <input type="radio" name="scale" value="x1" id="x1" checked/>
-                        <label for="x1">x1</label>
-                    </div>
-                    <div class="radio-btn">
-                        <input type="radio" name="scale" value="x2" id="x2"/>
-                        <label for="x2">x2</label>
-                    </div>
-                    <div class="radio-btn">
-                        <input type="radio" name="scale" value="x3" id="x3"/>
-                        <label for="x3">x3</label>
-                    </div>
-                </div>
-                <div class="unit-btns">
-                    <div class="radio-btn">
+                <div class="recipe-metadata">
+                    <span id="serves">Serves <span id="servings" data-default="6">6</span></span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span>Prep 10 mins</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span>Cook 25 mins</span>
+                </div><hr/>
+                <p itemprop="description">A Creamy Butter Chicken dish might seem impossible if you're counting calories, but never fear - this slimming recipe is perfect no matter what plan you're following!</p><p class="source">Source: <a href="https://pinchofnom.com/recipes/creamy-butter-chicken/" target="_blank">pinchofnom.com</a></p><hr/>
+                <h2>Ingredients</h2>
+                
+                <div class="unit-controls">
+                    <div class="cntrl">
                         <input type="radio" name="units" value="metric" id="metric" checked/>
                         <label for="metric">Metric</label>
                     </div>
-                    <div class="radio-btn">
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="cntrl">
                         <input type="radio" name="units" value="imperial" id="imperial" />
                         <label for="imperial">Imperial</label>
                     </div>
                 </div>
-            </div>
-            <div>
+
+                <div class="scale-controls">
+                    <div class="cntrl">
+                        <input type="radio" name="scale" value="x0.5" id="x0.5"/>
+                        <label for="x0.5">x0.5</label>
+                    </div>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="cntrl">
+                        <input type="radio" name="scale" value="x1" id="x1" checked/>
+                        <label for="x1">x1</label>
+                    </div>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="cntrl">
+                        <input type="radio" name="scale" value="x2" id="x2"/>
+                        <label for="x2">x2</label>
+                    </div>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="cntrl">
+                        <input type="radio" name="scale" value="x3" id="x3"/>
+                        <label for="x3">x3</label>
+                    </div>
+
+                </div>
+                <div>
                 <details open>
-                    <summary class="ingredient-subheading">Spice Mix<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
-                        </svg>
-                    </summary>
+                    <summary class="ingredient-subheading">Spice Mix</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
                             <span data-default="0.25" class="scalable">¼</span>
@@ -150,10 +135,7 @@
                     </ul>
                 </details>
                 <details open>
-                    <summary class="ingredient-subheading">For the curry<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
-                        </svg>
-                    </summary>
+                    <summary class="ingredient-subheading">For the curry</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
                             <span data-default="4" class="scalable">4</span>
@@ -204,14 +186,6 @@
                             <span data-default="3" class="scalable">3</span>
                             <span data-unit="tbsp">tbsp</span>
                             <span>fat free natural yoghurt</span>
-                            <button class="substitute-btn">
-                                <div class="substitute-btn-icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"></path>
-                                    </svg>
-                                </div>
-                                <span class="substitute-text hidden">or coconut cream</span>
-                            </button>
                         </li>
                         <li itemprop="recipeIngredient">
                             <span data-default="2" class="scalable">2</span>
@@ -241,127 +215,138 @@
                     </ul>
                 </details>
             </div>
-        
-            <h2>Instructions</h2>
-            <hr/>
-
-            <div class="controls">
-                <div class="temp-btns">
-                    <div class="radio-btn">
+            
+                <hr/>
+                <h2>Instructions</h2>
+                
+                <div class="temp-controls">
+                    <div class="cntrl">
                         <input type="radio" name="temp" value="C" id="C" checked/>
                         <label for="C">°C</label>
                     </div>
-                    <div class="radio-btn">
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="cntrl">
                         <input type="radio" name="temp" value="F" id="F"/>
                         <label for="F">°F</label>
                     </div>
                 </div>
-                <span id="show-amounts" class="recipe-info hidden">
-                    <div class="checkbox">
+
+                <div class="inline-amount-controls">
+                    <div class="cntrl">
                         <input type="checkbox" id="amounts" name="amounts"/>
-                        <label for="amounts">Inline Amounts</label>
+                        <label for="amounts">Show amounts inline</label>
                     </div>
+                </div>
+
+                <span id="show-amounts" class="recipe-info hidden">
+
                 </span>
-            </div>
-            
-            <ol>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-1" />
-                    <label for="instruction-1">
-                        Finely chop the <span data-default="3" data-defaultunit="cloves" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="1-2" data-defaultunit="cm" data-quantity="1-2" data-unit="cm" class="tooltip scalable">ginger</span> and <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> using a food processor or stick blender, then gently saute in the <span data-default="3-4" data-defaultunit="sprays" data-quantity="3-4" data-unit="sprays" class="tooltip scalable">low calorie cooking spray</span> until soft and coloured slightly.
-                    </label>
-                </li>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-2" />
-                    <label for="instruction-2">
-                        Puree the <span data-default="1" data-defaultunit="tin" data-quantity="1" data-unit="tin" class="tooltip scalable">tomatoes</span>, <span data-default="60" data-defaultunit="g" data-quantity="60" data-unit="g" class="tooltip scalable">almond flour</span>, <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">tomato paste</span>, <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">stock cubes</span> and <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">water</span> together, then add it to the pan.
-                    </label>
-                </li>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-3" />
-                    <label for="instruction-3">
-                        Add the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">chicken</span>, <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">yoghurt</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">lime</span> juice, spices, and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">reduced fat spread</span> then stir well.
-                    </label>
-                </li>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-4" />
-                    <label for="instruction-4">
-                        Bring up to the boil, stirring continuously, then cover and simmer on LOW for <button class="toast-btn" data-time="900" data-label="" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>15-20</b> minutes</span></button>, stirring occasionally.
-                    </label>
-                </li>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-5" />
-                    <label for="instruction-5">
-                        After <button class="toast-btn" data-time="900" data-label="" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>15-20</b> minutes</span></button> check to see if the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">chicken</span> is cooked through. If not let it simmer for another <button class="toast-btn" data-time="300" data-label="" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>5</b> minutes</span></button>.
-                    </label>
-                </li>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-6" />
-                    <label for="instruction-6">
-                        Serve over boiled rice.
-                    </label>
-                </li>
-                </ol>
+                
+                <ol><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-1" />
+                        <label for="instruction-1">
+                            Finely chop the <span data-default="3" data-defaultunit="cloves" data-quantity="3" data-unit="cloves" class="tooltip scalable">garlic</span>, <span data-default="1-2" data-defaultunit="cm" data-quantity="1-2" data-unit="cm" class="tooltip scalable">ginger</span> and <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span> using a food processor or stick blender, then gently saute in the <span data-default="3-4" data-defaultunit="sprays" data-quantity="3-4" data-unit="sprays" class="tooltip scalable">low calorie cooking spray</span> until soft and coloured slightly.
+                        </label>
+                    </li><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-2" />
+                        <label for="instruction-2">
+                            Puree the <span data-default="1" data-defaultunit="tin" data-quantity="1" data-unit="tin" class="tooltip scalable">tomatoes</span>, <span data-default="60" data-defaultunit="g" data-quantity="60" data-unit="g" class="tooltip scalable">almond flour</span>, <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">tomato paste</span>, <span data-default="2" data-defaultunit="" data-quantity="2" data-unit="" class="tooltip scalable">stock cubes</span> and <span data-default="2" data-defaultunit="tbsp" data-quantity="2" data-unit="tbsp" class="tooltip scalable">water</span> together, then add it to the pan.
+                        </label>
+                    </li><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-3" />
+                        <label for="instruction-3">
+                            Add the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">chicken</span>, <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">yoghurt</span>, <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">lime</span> juice, spices, and <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">reduced fat spread</span> then stir well.
+                        </label>
+                    </li><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-4" />
+                        <label for="instruction-4">
+                            Bring up to the boil, stirring continuously, then cover and simmer on LOW for <button class="toast-btn" data-time="900" data-label="Step 4" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>15-20</b> minutes</span></button>, stirring occasionally.
+                        </label>
+                    </li><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-5" />
+                        <label for="instruction-5">
+                            After <button class="toast-btn" data-time="900" data-label="Step 5" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>15-20</b> minutes</span></button> check to see if the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">chicken</span> is cooked through. If not let it simmer for another <button class="toast-btn" data-time="300" data-label="Step 5" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>5</b> minutes</span></button>.
+                        </label>
+                    </li><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-6" />
+                        <label for="instruction-6">
+                            Serve over boiled rice.
+                        </label>
+                    </li></ol><hr/>
+                <h2>Nutrition</h2>
 
-            
-            <h2>Nutrition</h2>
-            <hr/>
-
-            <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
-                <ul class="nutrition">
-                    <li>
-                        <span class="nutrition-label">kcal</span>
-                        <span itemprop="calories" class="nutrition-value">210</span>
-                    </li>
-                    <li>
-                        <span class="nutrition-label">fat</span>
-                        <span itemprop="fatContent" class="nutrition-value">2 g</span>
-                    </li>
-                    <li>
-                        <span class="nutrition-label">saturates</span>
-                        <span itemprop="saturatedFatContent" class="nutrition-value">0.5 g</span>
-                    </li>
-                    <li>
-                        <span class="nutrition-label">carbs</span>
-                        <span itemprop="carbohydrateContent" class="nutrition-value">9 g</span>
-                    </li>
-                    <li>
-                        <span class="nutrition-label">sugar</span>
-                        <span itemprop="sugarContent" class="nutrition-value">4 g</span>
-                    </li>                   
-                    <li>
-                        <span class="nutrition-label">fibre</span>
-                        <span itemprop="fiberContent" class="nutrition-value">2 g</span>
-                    </li>
-                    <li>
-                        <span class="nutrition-label">protein</span>
-                        <span itemprop="proteinContent" class="nutrition-value">28 g</span>
-                    </li>
-                    <li>
-                        <span class="nutrition-label">salt</span>
-                        <span itemprop="sodiumContent" class="nutrition-value">0.586 g</span>
-                    </li>
-                </ul>
-            </div>  
-            <hr/>
-            <a class="link" href="https://pinchofnom.com/recipes/creamy-butter-chicken/" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="web-icon">
-                    <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"/>
-                </svg>
-                <h3 class="external">pinchofnom.com</h3>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="link-icon"><path fill-rule="evenodd" d="M16 .5a.5.5 0 00-.5-.5h-5a.5.5 0 000 1h3.793L6.146 9.146a.5.5 0 10.708.708L15 1.707V5.5a.5.5 0 001 0v-5z" fill=currentColor/></svg>
-            </a>
+                <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
+                    <table class="nutrition">
+                        <thead>
+                            <tr>
+                                <th>Per Serving</th>
+                                <th>% Daily Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="nutrition-label">Calories <span itemprop="calories" class="nutrition-value">210 kcal</span></td>
+                                <td><span class="bold-value">10.5</span>% </td>
+                            </tr>
+                            <tr>
+                                <td class="nutrition-label">Total Fat <span itemprop="fatContent" class="nutrition-value">2 g</span></td>
+                                <td><span class="bold-value">2.6</span>% </td>
+                            </tr>
+                            <tr>
+                                <td class="nutrition-sub-label">Saturated Fat <span itemprop="saturatedFatContent" class="nutrition-value">0.5 g</span></td>
+                                <td><span class="bold-value">2.5</span>% </td>
+                            </tr>
+                            <tr>
+                                <td class="nutrition-label">Carbohydrates <span itemprop="carbohydrateContent" class="nutrition-value">9 g</span></td>
+                                <td><span class="bold-value">3.3</span>% </td>
+                            </tr>
+                            <tr>
+                                <td class="nutrition-sub-label">Dietary Fibre <span itemprop="fiberContent" class="nutrition-value">2 g</span></td>
+                                <td><span class="bold-value">7.1</span>% </td>
+                            </tr>
+                            <tr>
+                                <td class="nutrition-sub-label">Sugars <span itemprop="sugarContent" class="nutrition-value">4 g</span></td>
+                                <td><span class="bold-value">8.0</span>% </td>
+                            </tr>
+                            <tr>
+                                <td class="nutrition-label">Protein <span itemprop="proteinContent" class="nutrition-value">28 g</span></td>
+                                <td><span class="bold-value">56.0</span>% </td>
+                            </tr>
+                            <tr>
+                                <td class="nutrition-label">Sodium <span itemprop="sodiumContent" class="nutrition-value">0.586 g</span></td>
+                                <td><span class="bold-value">25.5</span>% </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div><hr/>
+                <h2>Similar recipes</h2>
+                <div id="similar"><a href="/recipes/sweet-potato-curry">
+                        <img src="/images/sweet-potato-curry.webp" alt="Photograph of Sweet potato curry."/>
+                        Sweet potato curry
+                    </a><a href="/recipes/lemon-garlic-chicken-orzo-soup">
+                        <img src="/images/lemon-garlic-chicken-orzo-soup.webp" alt="Photograph of Lemon garlic chicken orzo soup."/>
+                        Lemon garlic chicken orzo soup
+                    </a><a href="/recipes/creamy-maple-and-bacon-chicken">
+                        <img src="/images/creamy-maple-and-bacon-chicken.webp" alt="Photograph of Creamy maple and bacon chicken."/>
+                        Creamy maple and bacon chicken
+                    </a><a href="/recipes/curried-sausages">
+                        <img src="/images/curried-sausages.webp" alt="Photograph of Curried sausages."/>
+                        Curried sausages
+                    </a></div>
             </section>
-        <footer>
+        </main>        <nav>
             <div>
-                <img src="/img/logo.svg" alt="" height="1" width="1"/>
+                <h3><a href="/">Home</a></h3>
+                <h3><a href="/top-recipes">Top Recipes</a></h3>
+                <h3><a href="/all-recipes">All Recipes</a></h3>
+                <h3><a href="/search">Search</a></h3>
+                <h3><a href="/feed/atom.xml">Feed</a></h3>
             </div>
-            <div class="footer-links">
-                <a href="/">Homepage</a>
-                <a href="/all-recipes">All Recipes</a>
-                <a href="/top-recipes">Top Rated</a>
-                <a href="/feed/atom.xml">Feed</a>
+            <div id="settings-options">
+                <button type="button" id="theme-btn" disabled>
+                    Theme<span class="light-text">Auto</span>
+                </button>
             </div>
-        </footer>
+        </nav>
     </body>
 </html>

@@ -21,110 +21,90 @@
         <link rel="preload" href="/css/colours.min.css" as="style"/>
         <link rel="stylesheet" type="text/css" href="/css/recipe.min.css"/>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+        <script defer src="/js/menu.min.js"></script>
         <script src="/js/scale_timers.min.js"></script>
         <noscript><style type="text/css">.scale-btns,.unit-btns,.temp-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
     </head>
-    <body class="RedMeat" itemscope itemtype="https://schema.org/Recipe">
-
-        <header>
-            <a href="/">
-                <p>Stranger&nbsp;Foods</p>
-            </a>
-        </header>
-
-        <section class="recipe">
-            <h1 itemprop="name">Ouzi — phyllo pastries with meat and rice filling</h1>
+    <body itemscope itemtype="https://schema.org/Recipe">
+        <main>            <header>
+                <a href="/">Stranger&nbsp;Foods</a>
+                <button type="button" id="sidebar" aria-label="Menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>
+            </header>
 
             <meta itemprop="datePublished" content="2023-08-13"/>
             <meta itemprop="totalTime" content="PT70M"/>
             <meta itemprop="prepTime" content="PT20M"/>
             <meta itemprop="performTime" content="PT50M"/>
-            <meta itemprop="recipeYield" content="10 servings"/>
-            <span class="recipe-info">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 60 90"><g fill="currentColor"><path d="M26.814 21.33c0-10.2-6.003-21.3-13.407-21.3C6.002.03 0 11.13 0 21.33c0 6.429 2.387 10.96 6.006 13.433 2.262 1.546 3.647 4.075 3.599 6.814l-.76 43.582c-.042 2.419 1.717 4.6 4.126 4.824a4.568 4.568 0 005.003-4.626l-.764-43.78c-.048-2.739 1.338-5.268 3.599-6.814 3.618-2.474 6.005-7.004 6.005-13.433zM60.983 29.703L60.219.973a1 1 0 00-1-.973h-2.222a1 1 0 00-1 1v24.127a1 1 0 01-1 1h-1.915a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.297a1 1 0 00-1 1v24.127a1 1 0 01-1 1H44.87a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.222a1 1 0 00-1 .973l-.764 28.73a3.999 3.999 0 002.961 3.969l2.14.575a2.998 2.998 0 012.221 2.95l-.84 48.159a4.566 4.566 0 109.132 0l-.84-48.159a3.001 3.001 0 012.221-2.95l2.14-.575a3.998 3.998 0 002.964-3.969z"/></g></svg>
-                Serves <span id="servings" data-default="10">10</span>
-            </span>
-            <span class="recipe-info expander">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="10"/><path stroke="currentColor" fill="none" stroke-width="10" d="M50 15v35l25 25"/></svg>
-                <input type="checkbox" id="time-info"/>
-                <label for="time-info">
-                    1 hr 10 mins
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                    </svg>
-                    <div class="extra-time-info">
-                        <table>
-                            <tr>
-                                <td>
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="10"/><path stroke="currentColor" fill="none" stroke-width="10" d="M50 15v35l25 25"/></svg>
-                                    1 hr 10 mins
-                                </td>
-                                <td>Total</td>
-                            </tr><tr>
-                                <td>20 mins</td>
-                                <td>Prep</td>
-                            </tr><tr>
-                                <td>50 mins</td>
-                                <td>Cook</td>
-                            </tr></table>
-                    </div>
-                </label>
-                </span>
-
-            <span class="recipe-info">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" fill="currentColor"/></svg>
-                Syrian
-            </span>
-            <span id="share" href="javascript:;" class="recipe-info hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon" viewBox="0 0 16 16">
-                  <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
-                </svg>
-                Share
-            </span>
-
-            <span id="wake" class="recipe-info hidden">
-                <div class="checkbox">
-                    <input type="checkbox" id="wakelock" name="wakelock"/>
-                    <label for="wakelock">Keep Awake</label>
+            <meta itemprop="recipeYield" content="10 servings"/><img itemprop="image" class="recipe-image" src="/images/ouzi-phyllo-pastries-with-meat-and-rice-filling.webp" alt="Photograph of Ouzi — phyllo pastries with meat and rice filling." width="512" height="288"/><div class="recipe-icons">
+                <div></div>
+                <div>
+                    <span class="recipe-icon hidden" id="wakelock">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                          <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                          <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+                        </svg>
+                    </span>
+                    <span class="recipe-icon hidden", id="share">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5"/>
+                        </svg>
+                    </span>
                 </div>
-            </span>
+            </div>
 
-            <img itemprop="image" class="recipe-image" src="/images/ouzi-phyllo-pastries-with-meat-and-rice-filling.webp" alt="Recipe image" width="512" height="288"/>
-            <p itemprop="description">This is a comfort food typically eaten in Damascus. The pastries make an impression and are beautiful to present. Every guest is served their own small, savoury ouzi, as though made especially with them in mind. As a child, I ate these often when we were invited to my parents’ friends’ house. They came from the capital city and I thought it was exciting to visit them, wondering: will they serve ouzi pastries again?</p>
-            <h2>Ingredients</h2>
-            <hr/>
+            <section class="recipe">
+                <h1 itemprop="name"><span id="cuisine">Syrian</span>Ouzi — phyllo pastries with meat and rice filling
+                </h1>
 
-            <div class="controls">
-                <div class="scale-btns">
-                    <div class="radio-btn">
-                        <input type="radio" name="scale" value="x0.5" id="x0.5"/>
-                        <label for="x0.5">x0.5</label>
-                    </div>
-                    <div class="radio-btn">
-                        <input type="radio" name="scale" value="x1" id="x1" checked/>
-                        <label for="x1">x1</label>
-                    </div>
-                    <div class="radio-btn">
-                        <input type="radio" name="scale" value="x2" id="x2"/>
-                        <label for="x2">x2</label>
-                    </div>
-                    <div class="radio-btn">
-                        <input type="radio" name="scale" value="x3" id="x3"/>
-                        <label for="x3">x3</label>
-                    </div>
-                </div>
-                <div class="unit-btns">
-                    <div class="radio-btn">
+                <div class="recipe-metadata">
+                    <span id="serves">Serves <span id="servings" data-default="10">10</span></span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span>Prep 20 mins</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span>Cook 50 mins</span>
+                </div><hr/>
+                <p itemprop="description">This is a comfort food typically eaten in Damascus. The pastries make an impression and are beautiful to present. Every guest is served their own small, savoury ouzi, as though made especially with them in mind. As a child, I ate these often when we were invited to my parents’ friends’ house. They came from the capital city and I thought it was exciting to visit them, wondering: will they serve ouzi pastries again?</p><p class="source">Source: <a href="https://www.goodreads.com/search/search?search_type=books&search[query]=9781761061707" target="_blank">Sumac</a></p><hr/>
+                <h2>Ingredients</h2>
+                
+                <div class="unit-controls">
+                    <div class="cntrl">
                         <input type="radio" name="units" value="metric" id="metric" checked/>
                         <label for="metric">Metric</label>
                     </div>
-                    <div class="radio-btn">
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="cntrl">
                         <input type="radio" name="units" value="imperial" id="imperial" />
                         <label for="imperial">Imperial</label>
                     </div>
                 </div>
-            </div>
-            <div>
+
+                <div class="scale-controls">
+                    <div class="cntrl">
+                        <input type="radio" name="scale" value="x0.5" id="x0.5"/>
+                        <label for="x0.5">x0.5</label>
+                    </div>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="cntrl">
+                        <input type="radio" name="scale" value="x1" id="x1" checked/>
+                        <label for="x1">x1</label>
+                    </div>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="cntrl">
+                        <input type="radio" name="scale" value="x2" id="x2"/>
+                        <label for="x2">x2</label>
+                    </div>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="cntrl">
+                        <input type="radio" name="scale" value="x3" id="x3"/>
+                        <label for="x3">x3</label>
+                    </div>
+
+                </div>
+                <div>
                 <ul>
                     <li itemprop="recipeIngredient">
                         <span data-default="2" class="scalable">2</span>
@@ -180,10 +160,7 @@
                         <span>Olive oil</span>, for brushing</li>
                 </ul>
                 <details open>
-                    <summary class="ingredient-subheading">To serve<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
-                        </svg>
-                    </summary>
+                    <summary class="ingredient-subheading">To serve</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
                             <span data-default="1" class="scalable">1</span>
@@ -193,86 +170,92 @@
                     </ul>
                 </details>
             </div>
-        
-            <h2>Instructions</h2>
-            <hr/>
-
-            <div class="controls">
-                <div class="temp-btns">
-                    <div class="radio-btn">
+            
+                <hr/>
+                <h2>Instructions</h2>
+                
+                <div class="temp-controls">
+                    <div class="cntrl">
                         <input type="radio" name="temp" value="C" id="C" checked/>
                         <label for="C">°C</label>
                     </div>
-                    <div class="radio-btn">
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="cntrl">
                         <input type="radio" name="temp" value="F" id="F"/>
                         <label for="F">°F</label>
                     </div>
                 </div>
-                <span id="show-amounts" class="recipe-info hidden">
-                    <div class="checkbox">
-                        <input type="checkbox" id="amounts" name="amounts"/>
-                        <label for="amounts">Inline Amounts</label>
-                    </div>
-                </span>
-            </div>
-            
-            <ol>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-1" />
-                    <label for="instruction-1">
-                        Heat the <span data-default="2" data-defaultunit="tablespoons" data-quantity="2" data-unit="tablespoons" class="tooltip scalable">oil</span> in a large pan on medium heat. Break the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">minced beef</span> up into small pieces with a wooden spoon and brown for <button class="toast-btn" data-time="420" data-label="" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>7</b> minutes</span></button>. Stir in the <span data-default="1" data-defaultunit="tablespoon" data-quantity="1" data-unit="tablespoon" class="tooltip scalable">7 spices blend</span>.
-                    </label>
-                </li>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-2" />
-                    <label for="instruction-2">
-                        Mix the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">rice</span> and <span data-default="0.5" data-defaultunit="teaspoons" data-quantity="½" data-unit="teaspoons" class="tooltip scalable">cardamom</span> into the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">minced beef</span> and add the <span data-default="500" data-defaultunit="ml" data-quantity="500" data-unit="ml" class="tooltip scalable">beef stock</span>. Add salt and pepper, and continue cooking the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">rice</span> for <button class="toast-btn" data-time="900" data-label="" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>15</b> minutes</span></button>, or until most of the stock has been absorbed.
-                    </label>
-                </li>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-3" />
-                    <label for="instruction-3">
-                        Stir the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">peas</span> and the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">toasted nuts</span> into the cooked <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">rice</span>. Warm everything for another minute and then turn the heat off, cover and let the pilaf rest for <button class="toast-btn" data-time="300" data-label="" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>5</b> minutes</span></button>. Salt and pepper to taste.
-                    </label>
-                </li>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-4" />
-                    <label for="instruction-4">
-                        Make the pastries by using a little bowl or cup (<b>9</b> cm diameter). Make a double layer of two sheets of <span data-default="20" data-defaultunit="sheets" data-quantity="20" data-unit="sheets" class="tooltip scalable">phyllo dough</span>, fold them in half and brush on some olive <span data-default="2" data-defaultunit="tablespoons" data-quantity="2" data-unit="tablespoons" class="tooltip scalable">oil</span> to help them stick together. Line the little bowl or cup with this double layer of dough to form a phyllo cup.
-                    </label>
-                </li>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-5" />
-                    <label for="instruction-5">
-                        Fill the phyllo cup with the pilaf and press on the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">rice</span> with the round part of a spoon. Fold the excess dough hanging at the edges over the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">rice</span> to cover. Seal the phyllo edges by brushing once more with some olive <span data-default="2" data-defaultunit="tablespoons" data-quantity="2" data-unit="tablespoons" class="tooltip scalable">oil</span>. Turn the pastry out onto a plate. Repeat to form the other pastries in the same way.
-                    </label>
-                </li>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-6" />
-                    <label for="instruction-6">
-                        Heat the oven to <span class="temperature" data-value="200" data-unit="C"><b>200</b>&deg;C</span>. Prepare a baking tray with baking paper, set the pastries on the baking paper and then brush with olive <span data-default="2" data-defaultunit="tablespoons" data-quantity="2" data-unit="tablespoons" class="tooltip scalable">oil</span>. Bake for <button class="toast-btn" data-time="900" data-label="" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>15-20</b> minutes</span></button>, until they are a nice golden brown. Garnish the pastries with a pistachio and eat them warm.
-                    </label>
-                </li>
-                </ol>
 
-            
-            <hr/>
-            <a class="link" href="https://www.goodreads.com/search/search?search_type=books&search[query]=9781761061707" target="_blank">
-                <img src="/covers/sumac.webp" class="book-cover" alt="Image of Sumac book cover.">
-                <h3>Sumac</h3>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="link-icon"><path fill-rule="evenodd" d="M16 .5a.5.5 0 00-.5-.5h-5a.5.5 0 000 1h3.793L6.146 9.146a.5.5 0 10.708.708L15 1.707V5.5a.5.5 0 001 0v-5z" fill=currentColor/></svg>
-            </a>
+                <div class="inline-amount-controls">
+                    <div class="cntrl">
+                        <input type="checkbox" id="amounts" name="amounts"/>
+                        <label for="amounts">Show amounts inline</label>
+                    </div>
+                </div>
+
+                <span id="show-amounts" class="recipe-info hidden">
+
+                </span>
+                
+                <ol><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-1" />
+                        <label for="instruction-1">
+                            Heat the <span data-default="2" data-defaultunit="tablespoons" data-quantity="2" data-unit="tablespoons" class="tooltip scalable">oil</span> in a large pan on medium heat. Break the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">minced beef</span> up into small pieces with a wooden spoon and brown for <button class="toast-btn" data-time="420" data-label="Step 1" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>7</b> minutes</span></button>. Stir in the <span data-default="1" data-defaultunit="tablespoon" data-quantity="1" data-unit="tablespoon" class="tooltip scalable">7 spices blend</span>.
+                        </label>
+                    </li><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-2" />
+                        <label for="instruction-2">
+                            Mix the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">rice</span> and <span data-default="0.5" data-defaultunit="teaspoons" data-quantity="½" data-unit="teaspoons" class="tooltip scalable">cardamom</span> into the <span data-default="500" data-defaultunit="g" data-quantity="500" data-unit="g" class="tooltip scalable">minced beef</span> and add the <span data-default="500" data-defaultunit="ml" data-quantity="500" data-unit="ml" class="tooltip scalable">beef stock</span>. Add salt and pepper, and continue cooking the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">rice</span> for <button class="toast-btn" data-time="900" data-label="Step 2" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>15</b> minutes</span></button>, or until most of the stock has been absorbed.
+                        </label>
+                    </li><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-3" />
+                        <label for="instruction-3">
+                            Stir the <span data-default="200" data-defaultunit="g" data-quantity="200" data-unit="g" class="tooltip scalable">peas</span> and the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">toasted nuts</span> into the cooked <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">rice</span>. Warm everything for another minute and then turn the heat off, cover and let the pilaf rest for <button class="toast-btn" data-time="300" data-label="Step 3" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>5</b> minutes</span></button>. Salt and pepper to taste.
+                        </label>
+                    </li><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-4" />
+                        <label for="instruction-4">
+                            Make the pastries by using a little bowl or cup (<b>9</b> cm diameter). Make a double layer of two sheets of <span data-default="20" data-defaultunit="sheets" data-quantity="20" data-unit="sheets" class="tooltip scalable">phyllo dough</span>, fold them in half and brush on some olive <span data-default="2" data-defaultunit="tablespoons" data-quantity="2" data-unit="tablespoons" class="tooltip scalable">oil</span> to help them stick together. Line the little bowl or cup with this double layer of dough to form a phyllo cup.
+                        </label>
+                    </li><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-5" />
+                        <label for="instruction-5">
+                            Fill the phyllo cup with the pilaf and press on the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">rice</span> with the round part of a spoon. Fold the excess dough hanging at the edges over the <span data-default="100" data-defaultunit="g" data-quantity="100" data-unit="g" class="tooltip scalable">rice</span> to cover. Seal the phyllo edges by brushing once more with some olive <span data-default="2" data-defaultunit="tablespoons" data-quantity="2" data-unit="tablespoons" class="tooltip scalable">oil</span>. Turn the pastry out onto a plate. Repeat to form the other pastries in the same way.
+                        </label>
+                    </li><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-6" />
+                        <label for="instruction-6">
+                            Heat the oven to <span class="temperature" data-value="200" data-unit="C"><b>200</b>&deg;C</span>. Prepare a baking tray with baking paper, set the pastries on the baking paper and then brush with olive <span data-default="2" data-defaultunit="tablespoons" data-quantity="2" data-unit="tablespoons" class="tooltip scalable">oil</span>. Bake for <button class="toast-btn" data-time="900" data-label="Step 6" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>15-20</b> minutes</span></button>, until they are a nice golden brown. Garnish the pastries with a pistachio and eat them warm.
+                        </label>
+                    </li></ol><hr/>
+                <h2>Similar recipes</h2>
+                <div id="similar"><a href="/recipes/vegetarian-turkish-pide">
+                        <img src="/images/vegetarian-turkish-pide.webp" alt="Photograph of Vegetarian turkish pide."/>
+                        Vegetarian turkish pide
+                    </a><a href="/recipes/smoky-beef-potato-pea-pan-fry-with-eggs-yogurt">
+                        <img src="/images/smoky-beef-potato-pea-pan-fry-with-eggs-yogurt.webp" alt="Photograph of Smoky beef, potato & pea pan-fry with eggs & yogurt."/>
+                        Smoky beef, potato & pea pan-fry with eggs & yogurt
+                    </a><a href="/recipes/pork-chops-with-mushroom-scallion-risotto">
+                        <img src="/images/pork-chops-with-mushroom-scallion-risotto.webp" alt="Photograph of Pork chops with mushroom-scallion risotto."/>
+                        Pork chops with mushroom-scallion risotto
+                    </a><a href="/recipes/tah-chin">
+                        <img src="/images/tah-chin.webp" alt="Photograph of Tah chin."/>
+                        Tah chin
+                    </a></div>
             </section>
-        <footer>
+        </main>        <nav>
             <div>
-                <img src="/img/logo.svg" alt="" height="1" width="1"/>
+                <h3><a href="/">Home</a></h3>
+                <h3><a href="/top-recipes">Top Recipes</a></h3>
+                <h3><a href="/all-recipes">All Recipes</a></h3>
+                <h3><a href="/search">Search</a></h3>
+                <h3><a href="/feed/atom.xml">Feed</a></h3>
             </div>
-            <div class="footer-links">
-                <a href="/">Homepage</a>
-                <a href="/all-recipes">All Recipes</a>
-                <a href="/top-recipes">Top Rated</a>
-                <a href="/feed/atom.xml">Feed</a>
+            <div id="settings-options">
+                <button type="button" id="theme-btn" disabled>
+                    Theme<span class="light-text">Auto</span>
+                </button>
             </div>
-        </footer>
+        </nav>
     </body>
 </html>

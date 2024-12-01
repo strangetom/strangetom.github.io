@@ -9,239 +9,466 @@
         <link rel="preload" href="/fonts/latin-modern-mono-prop-light-10-regular-latin.woff2" as="font" type="font/woff2" crossorigin/>
         <link rel="preload" href="/fonts/latin-modern-mono-prop-light-10-regular-latin-ext.woff2" as="font" type="font/woff2" crossorigin/>
         <link rel="preload" href="/css/colours.min.css" as="style"/>
-        <link rel="stylesheet" type="text/css" href="/css/top.min.css"/>
+        <link rel="stylesheet" type="text/css" href="/css/index.min.css"/>
+        <script defer src="/js/menu.min.js"></script>
         <!-- icons and manifest for PWA -->
         <meta name="theme-color" content="#292d33"/> 
         <link rel="icon" href="favicon.svg" type="image/svg+xml"/>
     </head>
     <body>
-        <header>
-            <a href="/">
-                <p>Stranger&nbsp;Foods</p>
-            </a>
-        </header>
+        <main>
+            <header>
+                <a href="/">Stranger&nbsp;Foods</a>
+                <button type="button" id="sidebar" aria-label="Menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>
+            </header>
 
-        <section id="recipes"> 
             <h1>Top recipes</h1>
-            <div class="top">
-                <a href="/recipes/harissa-chicken-noodle-lettuce-cups" class="recipe-card"><h2 style="--bg-img: url('/images/harissa-chicken-noodle-lettuce-cups.webp');">Harissa chicken noodle lettuce cups
+            <section id="recent">
+                <a href="/recipes/harissa-chicken-noodle-lettuce-cups" class="recipe-card">
+                    <h2 class="">Harissa chicken noodle lettuce cups
+                        <div class="info">
+                            <span>25 mins</span>
+                            <span>Serves 4-6</span>
+                        </div>
+                    </h2>
+                    <div class="">
+                        <img src="images/harissa-chicken-noodle-lettuce-cups.webp" alt="Photograph of Harissa chicken noodle lettuce cups."/>
                         <span class="recipe-heart">
                             <svg xmlns="http://www.w3.org/2000/svg" class="label-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
                             </svg>
                         </span>
-                        </h2>
+                        </div>
                 </a>
-                <a href="/recipes/pork-juniper-pink-peppercorn-meatballs-with-leeks-puy-lentils" class="recipe-card"><h2 style="--bg-img: url('/images/pork-juniper-pink-peppercorn-meatballs-with-leeks-puy-lentils.webp');">Pork, juniper & pink peppercorn meatballs with leeks & puy lentils
+                <hr/>
+                <a href="/recipes/pork-juniper-pink-peppercorn-meatballs-with-leeks-puy-lentils" class="recipe-card">
+                    <h2 class="swap">Pork, juniper & pink peppercorn meatballs with leeks & puy lentils
+                        <div class="info">
+                            <span>40 mins</span>
+                            <span>Serves 2-3</span>
+                        </div>
+                    </h2>
+                    <div class="swap">
+                        <img src="images/pork-juniper-pink-peppercorn-meatballs-with-leeks-puy-lentils.webp" alt="Photograph of Pork, juniper & pink peppercorn meatballs with leeks & puy lentils."/>
                         <span class="recipe-heart">
                             <svg xmlns="http://www.w3.org/2000/svg" class="label-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
                             </svg>
                         </span>
-                        </h2>
+                        </div>
                 </a>
-                <a href="/recipes/italian-chop-pasta-salad" class="recipe-card"><h2 style="--bg-img: url('/images/italian-chop-pasta-salad.webp');">Italian chop pasta salad
+                <hr/>
+                <a href="/recipes/italian-chop-pasta-salad" class="recipe-card">
+                    <h2 class="">Italian chop pasta salad
+                        <div class="info">
+                            <span>30 mins</span>
+                            <span>Serves 8</span>
+                        </div>
+                    </h2>
+                    <div class="">
+                        <img src="images/italian-chop-pasta-salad.webp" alt="Photograph of Italian chop pasta salad."/>
                         <span class="recipe-heart">
                             <svg xmlns="http://www.w3.org/2000/svg" class="label-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
                             </svg>
                         </span>
-                        </h2>
+                        </div>
                 </a>
-                <a href="/recipes/roast-vegetable-bastilla" class="recipe-card"><h2 style="--bg-img: url('/images/roast-vegetable-bastilla.webp');">Roast vegetable bastilla
+                <hr/>
+                <a href="/recipes/roast-vegetable-bastilla" class="recipe-card">
+                    <h2 class="swap">Roast vegetable bastilla
+                        <div class="info">
+                            <span>1 hr 45 mins</span>
+                            <span>Serves 6</span>
+                        </div>
+                    </h2>
+                    <div class="swap">
+                        <img src="images/roast-vegetable-bastilla.webp" alt="Photograph of Roast vegetable bastilla."/>
                         <span class="recipe-heart">
                             <svg xmlns="http://www.w3.org/2000/svg" class="label-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
                             </svg>
                         </span>
-                        </h2>
+                        </div>
                 </a>
-                <a href="/recipes/coconut-ginger-chicken" class="recipe-card"><h2 style="--bg-img: url('/images/coconut-ginger-chicken.webp');">Coconut & ginger chicken
+                <hr/>
+                <a href="/recipes/coconut-ginger-chicken" class="recipe-card">
+                    <h2 class="">Coconut & ginger chicken
+                        <div class="info">
+                            <span>20 mins</span>
+                            <span>Serves 4</span>
+                        </div>
+                    </h2>
+                    <div class="">
+                        <img src="images/coconut-ginger-chicken.webp" alt="Photograph of Coconut & ginger chicken."/>
                         <span class="recipe-heart">
                             <svg xmlns="http://www.w3.org/2000/svg" class="label-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
                             </svg>
                         </span>
-                        </h2>
+                        </div>
                 </a>
-                <a href="/recipes/pork-agrodolce" class="recipe-card"><h2 style="--bg-img: url('/images/pork-agrodolce.webp');">Pork agrodolce
+                <hr/>
+                <a href="/recipes/pork-agrodolce" class="recipe-card">
+                    <h2 class="swap">Pork agrodolce
+                        <div class="info">
+                            <span>2 hr 42 mins</span>
+                            <span>Serves 4</span>
+                        </div>
+                    </h2>
+                    <div class="swap">
+                        <img src="images/pork-agrodolce.webp" alt="Photograph of Pork agrodolce."/>
                         <span class="recipe-heart">
                             <svg xmlns="http://www.w3.org/2000/svg" class="label-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
                             </svg>
                         </span>
-                        </h2>
+                        </div>
                 </a>
-                <a href="/recipes/sweet-potato-kale-salad-with-creamy-honey-mustard-dressing" class="recipe-card"><h2 style="--bg-img: url('/images/sweet-potato-kale-salad-with-creamy-honey-mustard-dressing.webp');">Sweet potato kale salad with creamy honey mustard dressing
+                <hr/>
+                <a href="/recipes/sweet-potato-kale-salad-with-creamy-honey-mustard-dressing" class="recipe-card">
+                    <h2 class="">Sweet potato kale salad with creamy honey mustard dressing
+                        <div class="info">
+                            <span>1 hr</span>
+                            <span>Serves 6</span>
+                        </div>
+                    </h2>
+                    <div class="">
+                        <img src="images/sweet-potato-kale-salad-with-creamy-honey-mustard-dressing.webp" alt="Photograph of Sweet potato kale salad with creamy honey mustard dressing."/>
                         <span class="recipe-heart">
                             <svg xmlns="http://www.w3.org/2000/svg" class="label-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
                             </svg>
                         </span>
-                        </h2>
+                        </div>
                 </a>
-                <a href="/recipes/zanzibari-curry-with-date-chutney" class="recipe-card"><h2 style="--bg-img: url('/images/zanzibari-curry-with-date-chutney.webp');">Zanzibari curry with date chutney
+                <hr/>
+                <a href="/recipes/zanzibari-curry-with-date-chutney" class="recipe-card">
+                    <h2 class="swap">Zanzibari curry with date chutney
+                        <div class="info">
+                            <span>1 hr 30 mins</span>
+                            <span>Serves 4</span>
+                        </div>
+                    </h2>
+                    <div class="swap">
+                        <img src="images/zanzibari-curry-with-date-chutney.webp" alt="Photograph of Zanzibari curry with date chutney."/>
                         <span class="recipe-heart">
                             <svg xmlns="http://www.w3.org/2000/svg" class="label-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
                             </svg>
                         </span>
-                        </h2>
+                        </div>
                 </a>
-                <a href="/recipes/smoky-rice-with-black-beans-feta-corn-and-salsa" class="recipe-card"><h2 style="--bg-img: url('/images/smoky-rice-with-black-beans-feta-corn-and-salsa.webp');">Smoky rice with black beans, feta, corn & salsa
+                <hr/>
+                <a href="/recipes/smoky-rice-with-black-beans-feta-corn-and-salsa" class="recipe-card">
+                    <h2 class="">Smoky rice with black beans, feta, corn & salsa
+                        <div class="info">
+                            <span>55 mins</span>
+                            <span>Serves 4</span>
+                        </div>
+                    </h2>
+                    <div class="">
+                        <img src="images/smoky-rice-with-black-beans-feta-corn-and-salsa.webp" alt="Photograph of Smoky rice with black beans, feta, corn & salsa."/>
                         <span class="recipe-heart">
                             <svg xmlns="http://www.w3.org/2000/svg" class="label-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
                             </svg>
                         </span>
-                        </h2>
+                        </div>
                 </a>
-                <a href="/recipes/basil-parmesan-chicken-and-rice-with-tomatoes" class="recipe-card"><h2 style="--bg-img: url('/images/basil-parmesan-chicken-and-rice-with-tomatoes.webp');">Basil-parmesan chicken and rice with tomatoes
+                <hr/>
+                <a href="/recipes/basil-parmesan-chicken-and-rice-with-tomatoes" class="recipe-card">
+                    <h2 class="swap">Basil-parmesan chicken and rice with tomatoes
+                        <div class="info">
+                            <span>55 mins</span>
+                            <span>Serves 4</span>
+                        </div>
+                    </h2>
+                    <div class="swap">
+                        <img src="images/basil-parmesan-chicken-and-rice-with-tomatoes.webp" alt="Photograph of Basil-parmesan chicken and rice with tomatoes."/>
                         <span class="recipe-heart">
                             <svg xmlns="http://www.w3.org/2000/svg" class="label-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
                             </svg>
                         </span>
-                        </h2>
+                        </div>
                 </a>
-                <a href="/recipes/crispy-cajun-cauli-tacos-and-slaw" class="recipe-card"><h2 style="--bg-img: url('/images/crispy-cajun-cauli-tacos-and-slaw.webp');">Crispy cajun cauli tacos and slaw
+                <hr/>
+                <a href="/recipes/crispy-cajun-cauli-tacos-and-slaw" class="recipe-card">
+                    <h2 class="">Crispy cajun cauli tacos and slaw
+                        <div class="info">
+                            <span>30 mins</span>
+                            <span>Serves 2</span>
+                        </div>
+                    </h2>
+                    <div class="">
+                        <img src="images/crispy-cajun-cauli-tacos-and-slaw.webp" alt="Photograph of Crispy cajun cauli tacos and slaw."/>
                         <span class="recipe-heart">
                             <svg xmlns="http://www.w3.org/2000/svg" class="label-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
                             </svg>
                         </span>
-                        </h2>
+                        </div>
                 </a>
-                <a href="/recipes/hot-italian-stromboli" class="recipe-card"><h2 style="--bg-img: url('/images/hot-italian-stromboli.webp');">Hot italian stromboli
+                <hr/>
+                <a href="/recipes/hot-italian-stromboli" class="recipe-card">
+                    <h2 class="swap">Hot italian stromboli
+                        <div class="info">
+                            <span>40 mins</span>
+                            <span>Serves 2</span>
+                        </div>
+                    </h2>
+                    <div class="swap">
+                        <img src="images/hot-italian-stromboli.webp" alt="Photograph of Hot italian stromboli."/>
                         <span class="recipe-heart">
                             <svg xmlns="http://www.w3.org/2000/svg" class="label-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
                             </svg>
                         </span>
-                        </h2>
+                        </div>
                 </a>
-                <a href="/recipes/harissa-baked-cod-with-giant-couscous-black-chickpeas-carrots-coriander-and-lemon" class="recipe-card"><h2 style="--bg-img: url('/images/harissa-baked-cod-with-giant-couscous-black-chickpeas-carrots-coriander-and-lemon.webp');">Harissa baked cod with giant couscous, black chickpeas, carrots, coriander & lemon
+                <hr/>
+                <a href="/recipes/harissa-baked-cod-with-giant-couscous-black-chickpeas-carrots-coriander-and-lemon" class="recipe-card">
+                    <h2 class="">Harissa baked cod with giant couscous, black chickpeas, carrots, coriander & lemon
+                        <div class="info">
+                            <span>1 hr</span>
+                            <span>Serves 4</span>
+                        </div>
+                    </h2>
+                    <div class="">
+                        <img src="images/harissa-baked-cod-with-giant-couscous-black-chickpeas-carrots-coriander-and-lemon.webp" alt="Photograph of Harissa baked cod with giant couscous, black chickpeas, carrots, coriander & lemon."/>
                         <span class="recipe-heart">
                             <svg xmlns="http://www.w3.org/2000/svg" class="label-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
                             </svg>
                         </span>
-                        </h2>
+                        </div>
                 </a>
-                <a href="/recipes/mango-and-coriander-salmon" class="recipe-card"><h2 style="--bg-img: url('/images/mango-and-coriander-salmon.webp');">Mango and coriander salmon
+                <hr/>
+                <a href="/recipes/mango-and-coriander-salmon" class="recipe-card">
+                    <h2 class="swap">Mango and coriander salmon
+                        <div class="info">
+                            <span>30 mins</span>
+                            <span>Serves 4</span>
+                        </div>
+                    </h2>
+                    <div class="swap">
+                        <img src="images/mango-and-coriander-salmon.webp" alt="Photograph of Mango and coriander salmon."/>
                         <span class="recipe-heart">
                             <svg xmlns="http://www.w3.org/2000/svg" class="label-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
                             </svg>
                         </span>
-                        </h2>
+                        </div>
                 </a>
-                <a href="/recipes/honey-mustard-chicken-tenders" class="recipe-card"><h2 style="--bg-img: url('/images/honey-mustard-chicken-tenders.webp');">Honey-mustard chicken tenders
+                <hr/>
+                <a href="/recipes/honey-mustard-chicken-tenders" class="recipe-card">
+                    <h2 class="">Honey-mustard chicken tenders
+                        <div class="info">
+                            <span>45 mins</span>
+                            <span>Serves 4</span>
+                        </div>
+                    </h2>
+                    <div class="">
+                        <img src="images/honey-mustard-chicken-tenders.webp" alt="Photograph of Honey-mustard chicken tenders."/>
                         <span class="recipe-heart">
                             <svg xmlns="http://www.w3.org/2000/svg" class="label-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
                             </svg>
                         </span>
-                        </h2>
+                        </div>
                 </a>
-                <a href="/recipes/vegan-pasta-salad" class="recipe-card"><h2 style="--bg-img: url('/images/vegan-pasta-salad.webp');">Vegan pasta salad
+                <hr/>
+                <a href="/recipes/vegan-pasta-salad" class="recipe-card">
+                    <h2 class="swap">Vegan pasta salad
+                        <div class="info">
+                            <span>40 mins</span>
+                            <span>Serves 5</span>
+                        </div>
+                    </h2>
+                    <div class="swap">
+                        <img src="images/vegan-pasta-salad.webp" alt="Photograph of Vegan pasta salad."/>
                         <span class="recipe-heart">
                             <svg xmlns="http://www.w3.org/2000/svg" class="label-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
                             </svg>
                         </span>
-                        </h2>
+                        </div>
                 </a>
-                <a href="/recipes/creamy-butter-chicken" class="recipe-card"><h2 style="--bg-img: url('/images/creamy-butter-chicken.webp');">Creamy butter chicken
+                <hr/>
+                <a href="/recipes/creamy-butter-chicken" class="recipe-card">
+                    <h2 class="">Creamy butter chicken
+                        <div class="info">
+                            <span>35 mins</span>
+                            <span>Serves 6</span>
+                        </div>
+                    </h2>
+                    <div class="">
+                        <img src="images/creamy-butter-chicken.webp" alt="Photograph of Creamy butter chicken."/>
                         <span class="recipe-heart">
                             <svg xmlns="http://www.w3.org/2000/svg" class="label-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
                             </svg>
                         </span>
-                        </h2>
+                        </div>
                 </a>
-                <a href="/recipes/chicken-musakhan" class="recipe-card"><h2 style="--bg-img: url('/images/chicken-musakhan.webp');">Chicken musakhan
+                <hr/>
+                <a href="/recipes/chicken-musakhan" class="recipe-card">
+                    <h2 class="swap">Chicken musakhan
+                        <div class="info">
+                            <span>1 hr 5 mins</span>
+                            <span>Serves 4</span>
+                        </div>
+                    </h2>
+                    <div class="swap">
+                        <img src="images/chicken-musakhan.webp" alt="Photograph of Chicken musakhan."/>
                         <span class="recipe-heart">
                             <svg xmlns="http://www.w3.org/2000/svg" class="label-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
                             </svg>
                         </span>
-                        </h2>
+                        </div>
                 </a>
-                <a href="/recipes/sweet-potato-orange-and-ginger-soup" class="recipe-card"><h2 style="--bg-img: url('/images/sweet-potato-orange-and-ginger-soup.webp');">Sweet potato, orange and ginger soup
+                <hr/>
+                <a href="/recipes/sweet-potato-orange-and-ginger-soup" class="recipe-card">
+                    <h2 class="">Sweet potato, orange and ginger soup
+                        <div class="info">
+                            <span>50 mins</span>
+                            <span>Serves 4</span>
+                        </div>
+                    </h2>
+                    <div class="">
+                        <img src="images/sweet-potato-orange-and-ginger-soup.webp" alt="Photograph of Sweet potato, orange and ginger soup."/>
                         <span class="recipe-heart">
                             <svg xmlns="http://www.w3.org/2000/svg" class="label-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
                             </svg>
                         </span>
-                        </h2>
+                        </div>
                 </a>
-                <a href="/recipes/general-tsos-chicken" class="recipe-card"><h2 style="--bg-img: url('/images/general-tsos-chicken.webp');">General tso’s chicken
+                <hr/>
+                <a href="/recipes/general-tsos-chicken" class="recipe-card">
+                    <h2 class="swap">General tso’s chicken
+                        <div class="info">
+                            <span>40 mins</span>
+                            <span>Serves 4</span>
+                        </div>
+                    </h2>
+                    <div class="swap">
+                        <img src="images/general-tsos-chicken.webp" alt="Photograph of General tso’s chicken."/>
                         <span class="recipe-heart">
                             <svg xmlns="http://www.w3.org/2000/svg" class="label-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
                             </svg>
                         </span>
-                        </h2>
+                        </div>
                 </a>
-                <a href="/recipes/dorset-apple-cake" class="recipe-card"><h2 style="--bg-img: url('/images/dorset-apple-cake.webp');">Dorset apple cake
+                <hr/>
+                <a href="/recipes/dorset-apple-cake" class="recipe-card">
+                    <h2 class="">Dorset apple cake
+                        <div class="info">
+                            <span>1 hr</span>
+                            <span>Serves 8</span>
+                        </div>
+                    </h2>
+                    <div class="">
+                        <img src="images/dorset-apple-cake.webp" alt="Photograph of Dorset apple cake."/>
                         <span class="recipe-heart">
                             <svg xmlns="http://www.w3.org/2000/svg" class="label-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
                             </svg>
                         </span>
-                        </h2>
+                        </div>
                 </a>
-                <a href="/recipes/effortless-doughnuts" class="recipe-card"><h2 style="--bg-img: url('/images/effortless-doughnuts.webp');">Effortless doughnuts
+                <hr/>
+                <a href="/recipes/effortless-doughnuts" class="recipe-card">
+                    <h2 class="swap">Effortless doughnuts
+                        <div class="info">
+                            <span>25 mins</span>
+                            <span>Serves 12</span>
+                        </div>
+                    </h2>
+                    <div class="swap">
+                        <img src="images/effortless-doughnuts.webp" alt="Photograph of Effortless doughnuts."/>
                         <span class="recipe-heart">
                             <svg xmlns="http://www.w3.org/2000/svg" class="label-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
                             </svg>
                         </span>
-                        </h2>
+                        </div>
                 </a>
-                <a href="/recipes/sweet-potato-pastilla" class="recipe-card"><h2 style="--bg-img: url('/images/sweet-potato-pastilla.webp');">Sweet potato pastilla
+                <hr/>
+                <a href="/recipes/sweet-potato-pastilla" class="recipe-card">
+                    <h2 class="">Sweet potato pastilla
+                        <div class="info">
+                            <span>1 hr 55 mins</span>
+                            <span>Serves 6</span>
+                        </div>
+                    </h2>
+                    <div class="">
+                        <img src="images/sweet-potato-pastilla.webp" alt="Photograph of Sweet potato pastilla."/>
                         <span class="recipe-heart">
                             <svg xmlns="http://www.w3.org/2000/svg" class="label-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
                             </svg>
                         </span>
-                        </h2>
+                        </div>
                 </a>
-                <a href="/recipes/saffron-ginger-chicken-with-rice-and-naan-bread" class="recipe-card"><h2 style="--bg-img: url('/images/saffron-ginger-chicken-with-rice-and-naan-bread.webp');">Saffron ginger chicken with rice and naan bread
+                <hr/>
+                <a href="/recipes/saffron-ginger-chicken-with-rice-and-naan-bread" class="recipe-card">
+                    <h2 class="swap">Saffron ginger chicken with rice and naan bread
+                        <div class="info">
+                            <span>1 hr 15 mins</span>
+                            <span>Serves 4</span>
+                        </div>
+                    </h2>
+                    <div class="swap">
+                        <img src="images/saffron-ginger-chicken-with-rice-and-naan-bread.webp" alt="Photograph of Saffron ginger chicken with rice and naan bread."/>
                         <span class="recipe-heart">
                             <svg xmlns="http://www.w3.org/2000/svg" class="label-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
                             </svg>
                         </span>
-                        </h2>
+                        </div>
                 </a>
-                <a href="/recipes/sweet-potato-bacon-orzo-pasta-salad" class="recipe-card"><h2 style="--bg-img: url('/images/sweet-potato-bacon-orzo-pasta-salad.webp');">Sweet potato, bacon & orzo pasta salad
+                <hr/>
+                <a href="/recipes/sweet-potato-bacon-orzo-pasta-salad" class="recipe-card">
+                    <h2 class="">Sweet potato, bacon & orzo pasta salad
+                        <div class="info">
+                            <span>40 mins</span>
+                            <span>Serves 4</span>
+                        </div>
+                    </h2>
+                    <div class="">
+                        <img src="images/sweet-potato-bacon-orzo-pasta-salad.webp" alt="Photograph of Sweet potato, bacon & orzo pasta salad."/>
                         <span class="recipe-heart">
                             <svg xmlns="http://www.w3.org/2000/svg" class="label-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
                             </svg>
                         </span>
-                        </h2>
+                        </div>
                 </a>
-                </h2>
-        </section>
-        <footer>
+                <hr/>
+                </section>
+        </main>
+
+        <nav>
             <div>
-                <img src="/img/logo.svg" alt="" height="1" width="1"/>
+                <h3><a href="/">Home</a></h3>
+                <h3><a href="/top-recipes">Top Recipes</a></h3>
+                <h3><a href="/all-recipes">All Recipes</a></h3>
+                <h3><a href="/search">Search</a></h3>
+                <h3><a href="/feed/atom.xml">Feed</a></h3>
             </div>
-            <div class="footer-links">
-                <a href="/">Homepage</a>
-                <a href="/all-recipes">All Recipes</a>
-                <a href="/top-recipes">Top Rated</a>
-                <a href="/feed/atom.xml">Feed</a>
+            <div id="settings-options">
+                <button type="button" id="theme-btn" disabled>
+                    Theme<span class="light-text">Auto</span>
+                </button>
             </div>
-        </footer>
-        <script type="text/javascript">
-          if (localStorage.getItem("light-theme") == "true") {
-            let html = document.querySelector("html");
-            html.classList.add("light-theme");
-          }
-        </script>
+        </nav>
     </body>
 </html>

@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2024-11-10T13:32:56.041834+00:00</updated>
+  <updated>2024-11-30T17:53:08.390753+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,84 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/marzipan-lemon-cardamom-loaf</id>
-    <title>Marzipan, lemon &amp; cardamom loaf</title>
-    <updated>2024-11-10T13:32:56.059791+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Marzipan, lemon &amp; cardamom loaf&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/marzipan-lemon-cardamom-loaf.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Many of my favourite things in one loaf: this chapter wouldn’t be complete without a lemon cake, and as for some reason I’ve never got on with lemon drizzle, this cake is spiked with golden pieces of marzipan instead. Extremely moreish – especially baked in mini-loaf tins.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/marzipan-lemon-cardamom-loaf"/>
-    <published>2024-10-25T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/marzipan-lemon-cardamom-loaf.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/bacon-pittas</id>
-    <title>Bacon pittas</title>
-    <updated>2024-11-10T13:32:56.059607+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Bacon pittas&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/bacon-pittas.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Nothing beats a great bacon sarnie for breakfast… or so I thought until I was served a bacon naan in Dishoom restaurant in London. Their bacon naans, generously stuffed with chunky, crispy bacon and a spicy-sweet sauce, are absolutely epic. This is my humble homage to the great bacon naan of Dishoom – a wonderful bacon sandwich at any time of day.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/bacon-pittas"/>
-    <published>2024-10-26T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/bacon-pittas.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/spiced-beef-pancakes-with-chopped-egg-dill-creme-fraiche</id>
-    <title>Spiced beef pancakes with chopped egg, dill &amp; crème fraîche</title>
-    <updated>2024-11-10T13:32:56.059416+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Spiced beef pancakes with chopped egg, dill &amp; crème fraîche&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/spiced-beef-pancakes-with-chopped-egg-dill-creme-fraiche.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Whenever I think of pancakes or Pancake Day (Shrove Tuesday), I rarely think of sweet combinations, unlike many people, and I must admit that I will always choose savoury over sweet dishes. These pancakes combine some of my favourite ingredients in every mouthful, and what is really lovely about them is how convivial they are, ideal for feasting and sharing where everyone can make their own combinations and enjoy them without you having to plate them up individually.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/spiced-beef-pancakes-with-chopped-egg-dill-creme-fraiche"/>
-    <published>2024-10-28T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/spiced-beef-pancakes-with-chopped-egg-dill-creme-fraiche.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/thai-green-curry-gaeng-keow-waan</id>
-    <title>Thai green curry (gaeng keow waan) </title>
-    <updated>2024-11-10T13:32:56.059193+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Thai green curry (gaeng keow waan) &lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/thai-green-curry-gaeng-keow-waan.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/thai-green-curry-gaeng-keow-waan"/>
-    <published>2024-11-02T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/thai-green-curry-gaeng-keow-waan.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/persian-red-curry</id>
-    <title>Persian red curry</title>
-    <updated>2024-11-10T13:32:56.058960+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Persian red curry&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/persian-red-curry.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Adapted from a traditional Parsi recipe, our flavour-filled Persian red curry tones down the Kashmiri chilli in favour of a gentler Romano pepper heat; removing the fiery hit of chili whilst keeping the delicious intensity that the dish is renowned for. &lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/persian-red-curry"/>
-    <published>2024-11-03T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/persian-red-curry.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/timballo-di-pasta-e-polpettine</id>
     <title>Timballo di pasta e polpettine</title>
-    <updated>2024-11-10T13:32:56.051482+00:00</updated>
+    <updated>2024-11-30T17:53:08.391843+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Timballo di pasta e polpettine&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/timballo-di-pasta-e-polpettine.webp" style="text-align:center;"/&gt;
@@ -99,6 +24,81 @@
     <published>2024-11-08T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/timballo-di-pasta-e-polpettine.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/roasted-cod-with-a-coriander-crust</id>
+    <title>Roasted cod with a coriander crust</title>
+    <updated>2024-11-30T17:53:08.391686+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Roasted cod with a coriander crust&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/roasted-cod-with-a-coriander-crust.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;The combination of fish and tahini is one we find hard to resist, but this works just as well without the tahini sauce if you’re looking for a shortcut or want to keep the focus on the lemon. Either way, this is as close to fast food as you can get. It’s a 15-minute meal to make, beginning to end. Possibly even less time to eat.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/roasted-cod-with-a-coriander-crust"/>
+    <published>2024-11-16T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/roasted-cod-with-a-coriander-crust.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/kukul-mas-curry</id>
+    <title>Kukul mas curry</title>
+    <updated>2024-11-30T17:53:08.391512+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Kukul mas curry&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/kukul-mas-curry.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Our Sri Lankan curry typifies the light, coconut-fragranced curries of the area, equally as delicious with chicken as it is with white fish, prawns or even root vegetables.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/kukul-mas-curry"/>
+    <published>2024-11-17T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/kukul-mas-curry.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/sweet-potato-parsnip-tagine-with-dates-coriander</id>
+    <title>Sweet potato &amp; parsnip tagine with dates &amp; coriander</title>
+    <updated>2024-11-30T17:53:08.391350+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sweet potato &amp; parsnip tagine with dates &amp; coriander&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/sweet-potato-parsnip-tagine-with-dates-coriander.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Tagines are traditionally ‘throw-everything-into-the-pot-and-wait’ sort of dishes. By all means use an actual tagine if you have one, but a roasting tin covered in foil works just as well. This is sweet and intense – serve with vegan yogurt and flatbreads or cous cous.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/sweet-potato-parsnip-tagine-with-dates-coriander"/>
+    <published>2024-11-23T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/sweet-potato-parsnip-tagine-with-dates-coriander.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/tuna-caper-and-onion-mini-pies</id>
+    <title>Tuna, caper and onion mini pies</title>
+    <updated>2024-11-30T17:53:08.391168+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Tuna, caper and onion mini pies&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/tuna-caper-and-onion-mini-pies.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Blink and they’re gone: that’s what happens when you make these gorgeous mini pies. There’s something about the combination of flavours that makes them completely addictive, especially eaten hot, straight out of the oven.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/tuna-caper-and-onion-mini-pies"/>
+    <published>2024-11-24T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/tuna-caper-and-onion-mini-pies.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/risotto-with-smoked-mackerel-peas-and-lemon</id>
+    <title>Risotto with smoked mackerel, peas and lemon</title>
+    <updated>2024-11-30T17:53:08.390915+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Risotto with smoked mackerel, peas and lemon&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/risotto-with-smoked-mackerel-peas-and-lemon.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Smoked mackerel is a rich and incredibly tasty oily fish, and it’s widely available, which really makes this dish a winner.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/risotto-with-smoked-mackerel-peas-and-lemon"/>
+    <published>2024-11-30T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/risotto-with-smoked-mackerel-peas-and-lemon.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>

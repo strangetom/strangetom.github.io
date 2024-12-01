@@ -21,113 +21,90 @@
         <link rel="preload" href="/css/colours.min.css" as="style"/>
         <link rel="stylesheet" type="text/css" href="/css/recipe.min.css"/>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+        <script defer src="/js/menu.min.js"></script>
         <script src="/js/scale_timers.min.js"></script>
         <noscript><style type="text/css">.scale-btns,.unit-btns,.temp-btns,.substitute-icon,.toast-btn{display: none;}</style></noscript>
     </head>
-    <body class="RedMeat" itemscope itemtype="https://schema.org/Recipe">
-
-        <header>
-            <a href="/">
-                <p>Stranger&nbsp;Foods</p>
-            </a>
-        </header>
-
-        <section class="recipe">
-            <h1 itemprop="name">Black lime beef skewers with sumac onions</h1>
+    <body itemscope itemtype="https://schema.org/Recipe">
+        <main>            <header>
+                <a href="/">Stranger&nbsp;Foods</a>
+                <button type="button" id="sidebar" aria-label="Menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>
+            </header>
 
             <meta itemprop="datePublished" content="2022-10-08"/>
             <meta itemprop="totalTime" content="PT40M"/>
             <meta itemprop="prepTime" content="PT30M"/>
             <meta itemprop="performTime" content="PT10M"/>
-            <meta itemprop="recipeYield" content="4 servings"/>
-            <span class="recipe-info">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 60 90"><g fill="currentColor"><path d="M26.814 21.33c0-10.2-6.003-21.3-13.407-21.3C6.002.03 0 11.13 0 21.33c0 6.429 2.387 10.96 6.006 13.433 2.262 1.546 3.647 4.075 3.599 6.814l-.76 43.582c-.042 2.419 1.717 4.6 4.126 4.824a4.568 4.568 0 005.003-4.626l-.764-43.78c-.048-2.739 1.338-5.268 3.599-6.814 3.618-2.474 6.005-7.004 6.005-13.433zM60.983 29.703L60.219.973a1 1 0 00-1-.973h-2.222a1 1 0 00-1 1v24.127a1 1 0 01-1 1h-1.915a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.297a1 1 0 00-1 1v24.127a1 1 0 01-1 1H44.87a1 1 0 01-1-1V1a1 1 0 00-1-1h-2.222a1 1 0 00-1 .973l-.764 28.73a3.999 3.999 0 002.961 3.969l2.14.575a2.998 2.998 0 012.221 2.95l-.84 48.159a4.566 4.566 0 109.132 0l-.84-48.159a3.001 3.001 0 012.221-2.95l2.14-.575a3.998 3.998 0 002.964-3.969z"/></g></svg>
-                Serves <span id="servings" data-default="4">4</span>
-            </span>
-            <span class="recipe-info expander">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="10"/><path stroke="currentColor" fill="none" stroke-width="10" d="M50 15v35l25 25"/></svg>
-                <input type="checkbox" id="time-info"/>
-                <label for="time-info">
-                    40 mins
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                    </svg>
-                    <div class="extra-time-info">
-                        <table>
-                            <tr>
-                                <td>
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="10"/><path stroke="currentColor" fill="none" stroke-width="10" d="M50 15v35l25 25"/></svg>
-                                    40 mins
-                                </td>
-                                <td>Total</td>
-                            </tr><tr>
-                                <td>30 mins</td>
-                                <td>Prep</td>
-                            </tr><tr>
-                                <td>10 mins</td>
-                                <td>Cook</td>
-                            </tr><tr class="idle">
-                                <td>+ 1 hr</td>
-                                <td>Idle</td>
-                            </tr></table>
-                    </div>
-                </label>
-                </span>
-
-            <span class="recipe-info">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" fill="currentColor"/></svg>
-                Bahamian
-            </span>
-            <span id="share" href="javascript:;" class="recipe-info hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon" viewBox="0 0 16 16">
-                  <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
-                </svg>
-                Share
-            </span>
-
-            <span id="wake" class="recipe-info hidden">
-                <div class="checkbox">
-                    <input type="checkbox" id="wakelock" name="wakelock"/>
-                    <label for="wakelock">Keep Awake</label>
+            <meta itemprop="recipeYield" content="4 servings"/><img itemprop="image" class="recipe-image" src="/images/black-lime-beef-skewers-with-sumac-onions.webp" alt="Photograph of Black lime beef skewers with sumac onions." width="512" height="288"/><div class="recipe-icons">
+                <div></div>
+                <div>
+                    <span class="recipe-icon hidden" id="wakelock">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                          <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                          <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+                        </svg>
+                    </span>
+                    <span class="recipe-icon hidden", id="share">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5"/>
+                        </svg>
+                    </span>
                 </div>
-            </span>
+            </div>
 
-            <img itemprop="image" class="recipe-image" src="/images/black-lime-beef-skewers-with-sumac-onions.webp" alt="Recipe image" width="512" height="288"/>
-            <p itemprop="description">Black limes act as both a flavour enhancer and a tenderiser in this marinade, softening the meat but also giving it an edgy tang. This dish is native to Bahrain and is locally called ‘tikka’, but is not really tikka as we know it to be. Grilled to order, the tikka comes wrapped up in a little flatbread bundle with raw onion, local rocket (called ‘jarjeer’) and lime wedges to squeeze on top. Be sure to source meat with some fat attached – this truly adds to the whole authentic eating experience. We urge you to give this marinade a go, if not with beef then with lamb, chicken, tofu or meaty mushrooms. Serve this with the roasted potatoes with aïoli (see recipe).</p>
-            <h2>Ingredients</h2>
-            <hr/>
+            <section class="recipe">
+                <h1 itemprop="name"><span id="cuisine">Bahamian</span>Black lime beef skewers with sumac onions
+                </h1>
 
-            <div class="controls">
-                <div class="scale-btns">
-                    <div class="radio-btn">
-                        <input type="radio" name="scale" value="x0.5" id="x0.5"/>
-                        <label for="x0.5">x0.5</label>
-                    </div>
-                    <div class="radio-btn">
-                        <input type="radio" name="scale" value="x1" id="x1" checked/>
-                        <label for="x1">x1</label>
-                    </div>
-                    <div class="radio-btn">
-                        <input type="radio" name="scale" value="x2" id="x2"/>
-                        <label for="x2">x2</label>
-                    </div>
-                    <div class="radio-btn">
-                        <input type="radio" name="scale" value="x3" id="x3"/>
-                        <label for="x3">x3</label>
-                    </div>
-                </div>
-                <div class="unit-btns">
-                    <div class="radio-btn">
+                <div class="recipe-metadata">
+                    <span id="serves">Serves <span id="servings" data-default="4">4</span></span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span>Prep 30 mins</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span>Cook 10 mins</span>
+                </div><hr/>
+                <p itemprop="description">Black limes act as both a flavour enhancer and a tenderiser in this marinade, softening the meat but also giving it an edgy tang. This dish is native to Bahrain and is locally called ‘tikka’, but is not really tikka as we know it to be. Grilled to order, the tikka comes wrapped up in a little flatbread bundle with raw onion, local rocket (called ‘jarjeer’) and lime wedges to squeeze on top. Be sure to source meat with some fat attached – this truly adds to the whole authentic eating experience. We urge you to give this marinade a go, if not with beef then with lamb, chicken, tofu or meaty mushrooms. Serve this with the roasted potatoes with aïoli (see recipe).</p><p class="source">Source: <a href="https://www.goodreads.com/search/search?search_type=books&search[query]=9781529109481" target="_blank">Ottolenghi Test Kitchen: Shelf Love</a></p><hr/>
+                <h2>Ingredients</h2>
+                
+                <div class="unit-controls">
+                    <div class="cntrl">
                         <input type="radio" name="units" value="metric" id="metric" checked/>
                         <label for="metric">Metric</label>
                     </div>
-                    <div class="radio-btn">
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="cntrl">
                         <input type="radio" name="units" value="imperial" id="imperial" />
                         <label for="imperial">Imperial</label>
                     </div>
                 </div>
-            </div>
-            <div>
+
+                <div class="scale-controls">
+                    <div class="cntrl">
+                        <input type="radio" name="scale" value="x0.5" id="x0.5"/>
+                        <label for="x0.5">x0.5</label>
+                    </div>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="cntrl">
+                        <input type="radio" name="scale" value="x1" id="x1" checked/>
+                        <label for="x1">x1</label>
+                    </div>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="cntrl">
+                        <input type="radio" name="scale" value="x2" id="x2"/>
+                        <label for="x2">x2</label>
+                    </div>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="cntrl">
+                        <input type="radio" name="scale" value="x3" id="x3"/>
+                        <label for="x3">x3</label>
+                    </div>
+
+                </div>
+                <div>
                 <ul>
                     <li itemprop="recipeIngredient">
                         <span data-default="4" class="scalable">4</span>
@@ -187,10 +164,7 @@
                     </li>
                 </ul>
                 <details open>
-                    <summary class="ingredient-subheading">Sumac onions<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
-                        </svg>
-                    </summary>
+                    <summary class="ingredient-subheading">Sumac onions</summary>
                     <ul>
                         <li itemprop="recipeIngredient">
                             <span data-default="1" class="scalable">1</span>
@@ -210,86 +184,92 @@
                     </ul>
                 </details>
             </div>
-        
-            <h2>Instructions</h2>
-            <hr/>
-
-            <div class="controls">
-                <div class="temp-btns">
-                    <div class="radio-btn">
+            
+                <hr/>
+                <h2>Instructions</h2>
+                
+                <div class="temp-controls">
+                    <div class="cntrl">
                         <input type="radio" name="temp" value="C" id="C" checked/>
                         <label for="C">°C</label>
                     </div>
-                    <div class="radio-btn">
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="cntrl">
                         <input type="radio" name="temp" value="F" id="F"/>
                         <label for="F">°F</label>
                     </div>
                 </div>
-                <span id="show-amounts" class="recipe-info hidden">
-                    <div class="checkbox">
-                        <input type="checkbox" id="amounts" name="amounts"/>
-                        <label for="amounts">Inline Amounts</label>
-                    </div>
-                </span>
-            </div>
-            
-            <ol>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-1" />
-                    <label for="instruction-1">
-                        Place the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">steaks</span> between two pieces of baking parchment and use a mallet or the bottom of a saucepan to bash them until they’re about 2 cm thick. Cut the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">steaks</span>, fat and all, into 2 cm cubes and place them in a bowl with the <span data-default="5-6" data-defaultunit="" data-quantity="5-6" data-unit="" class="tooltip scalable">ground black lime</span>, lemon zest and juice, <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">cumin</span>, <span data-default="6" data-defaultunit="cloves" data-quantity="6" data-unit="cloves" class="tooltip scalable">garlic</span>, <b>2</b> tablespoons of <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">olive oil</span>, <b>1½</b> teaspoons of salt and a good grind of pepper. Leave to marinate for at least <button class="toast-btn" data-time="3600" data-label="" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>1</b> hour</span></button>, or refrigerate overnight.
-                    </label>
-                </li>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-2" />
-                    <label for="instruction-2">
-                        For the <span data-default="1.5" data-defaultunit="tsp" data-quantity="1½" data-unit="tsp" class="tooltip scalable">sumac</span> onions, mix the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <span data-default="1.5" data-defaultunit="tsp" data-quantity="1½" data-unit="tsp" class="tooltip scalable">sumac</span>, <span data-default="0.75" data-defaultunit="tbsp" data-quantity="¾" data-unit="tbsp" class="tooltip scalable">vinegar</span> and 1 teaspoon of salt together and leave to soften for at least <button class="toast-btn" data-time="1800" data-label="" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>30</b> minutes</span></button>.
-                    </label>
-                </li>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-3" />
-                    <label for="instruction-3">
-                        Thread the beef on to the skewers, packing the cubes closely together.
-                    </label>
-                </li>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-4" />
-                    <label for="instruction-4">
-                        Heat a well-greased griddle pan on a high heat. Once smoking and very hot, cook the skewers in batches for about <button class="toast-btn" data-time="180" data-label="" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>3-4</b> minutes</span></button> per batch, until charred but not overcooked, turning as necessary. Transfer to a baking tray and cover with foil to keep warm.
-                    </label>
-                </li>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-5" />
-                    <label for="instruction-5">
-                        Warm the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">bread</span> in the hot griddle pan for about <button class="toast-btn" data-time="30" data-label="" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>30</b> seconds</span></button> on each side.
-                    </label>
-                </li>
-                <li itemprop="recipeInstructions">
-                    <input type="checkbox" id="instruction-6" />
-                    <label for="instruction-6">
-                        Lay the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">bread</span> out on a platter and top with the skewers, brushing them with the remaining tablespoon of <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">olive oil</span> and sprinkling with the chilli. Nestle the herbs to one side and serve with the <span data-default="1.5" data-defaultunit="tsp" data-quantity="1½" data-unit="tsp" class="tooltip scalable">sumac</span> onions.
-                    </label>
-                </li>
-                </ol>
 
-            
-            <hr/>
-            <a class="link" href="https://www.goodreads.com/search/search?search_type=books&search[query]=9781529109481" target="_blank">
-                <img src="/covers/ottolenghi-test-kitchen-shelf-love.webp" class="book-cover" alt="Image of Ottolenghi Test Kitchen: Shelf Love book cover.">
-                <h3>Ottolenghi Test Kitchen: Shelf Love</h3>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="link-icon"><path fill-rule="evenodd" d="M16 .5a.5.5 0 00-.5-.5h-5a.5.5 0 000 1h3.793L6.146 9.146a.5.5 0 10.708.708L15 1.707V5.5a.5.5 0 001 0v-5z" fill=currentColor/></svg>
-            </a>
+                <div class="inline-amount-controls">
+                    <div class="cntrl">
+                        <input type="checkbox" id="amounts" name="amounts"/>
+                        <label for="amounts">Show amounts inline</label>
+                    </div>
+                </div>
+
+                <span id="show-amounts" class="recipe-info hidden">
+
+                </span>
+                
+                <ol><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-1" />
+                        <label for="instruction-1">
+                            Place the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">steaks</span> between two pieces of baking parchment and use a mallet or the bottom of a saucepan to bash them until they’re about 2 cm thick. Cut the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">steaks</span>, fat and all, into 2 cm cubes and place them in a bowl with the <span data-default="5-6" data-defaultunit="" data-quantity="5-6" data-unit="" class="tooltip scalable">ground black lime</span>, lemon zest and juice, <span data-default="1" data-defaultunit="tbsp" data-quantity="1" data-unit="tbsp" class="tooltip scalable">cumin</span>, <span data-default="6" data-defaultunit="cloves" data-quantity="6" data-unit="cloves" class="tooltip scalable">garlic</span>, <b>2</b> tablespoons of <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">olive oil</span>, <b>1½</b> teaspoons of salt and a good grind of pepper. Leave to marinate for at least <button class="toast-btn" data-time="3600" data-label="Step 1" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>1</b> hour</span></button>, or refrigerate overnight.
+                        </label>
+                    </li><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-2" />
+                        <label for="instruction-2">
+                            For the <span data-default="1.5" data-defaultunit="tsp" data-quantity="1½" data-unit="tsp" class="tooltip scalable">sumac</span> onions, mix the <span data-default="1" data-defaultunit="" data-quantity="1" data-unit="" class="tooltip scalable">onion</span>, <span data-default="1.5" data-defaultunit="tsp" data-quantity="1½" data-unit="tsp" class="tooltip scalable">sumac</span>, <span data-default="0.75" data-defaultunit="tbsp" data-quantity="¾" data-unit="tbsp" class="tooltip scalable">vinegar</span> and 1 teaspoon of salt together and leave to soften for at least <button class="toast-btn" data-time="1800" data-label="Step 2" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>30</b> minutes</span></button>.
+                        </label>
+                    </li><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-3" />
+                        <label for="instruction-3">
+                            Thread the beef on to the skewers, packing the cubes closely together.
+                        </label>
+                    </li><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-4" />
+                        <label for="instruction-4">
+                            Heat a well-greased griddle pan on a high heat. Once smoking and very hot, cook the skewers in batches for about <button class="toast-btn" data-time="180" data-label="Step 4" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>3-4</b> minutes</span></button> per batch, until charred but not overcooked, turning as necessary. Transfer to a baking tray and cover with foil to keep warm.
+                        </label>
+                    </li><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-5" />
+                        <label for="instruction-5">
+                            Warm the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">bread</span> in the hot griddle pan for about <button class="toast-btn" data-time="30" data-label="Step 5" title="Start timer"><div class="toast-btn-icon"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 5.6a.5.5 0 10-1 0v2.9h-3a.5.5 0 000 1H8a.5.5 0 00.5-.5V5.6z" fill="currentColor"></path><path d="M6.5 1A.5.5 0 017 .5h2a.5.5 0 010 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 01.012-.013l.354-.354-.354-.353a.5.5 0 01.707-.708l1.414 1.415a.5.5 0 11-.707.707l-.353-.354-.354.354a.512.512 0 01-.013.012A7 7 0 117 2.071V1.5a.5.5 0 01-.5-.5zM8 3a6 6 0 10.001 12A6 6 0 008 3z" fill="currentColor"></path></svg></div><span><b>30</b> seconds</span></button> on each side.
+                        </label>
+                    </li><li itemprop="recipeInstructions">
+                        <input type="checkbox" id="instruction-6" />
+                        <label for="instruction-6">
+                            Lay the <span data-default="4" data-defaultunit="" data-quantity="4" data-unit="" class="tooltip scalable">bread</span> out on a platter and top with the skewers, brushing them with the remaining tablespoon of <span data-default="3" data-defaultunit="tbsp" data-quantity="3" data-unit="tbsp" class="tooltip scalable">olive oil</span> and sprinkling with the chilli. Nestle the herbs to one side and serve with the <span data-default="1.5" data-defaultunit="tsp" data-quantity="1½" data-unit="tsp" class="tooltip scalable">sumac</span> onions.
+                        </label>
+                    </li></ol><hr/>
+                <h2>Similar recipes</h2>
+                <div id="similar"><a href="/recipes/chicken-musakhan">
+                        <img src="/images/chicken-musakhan.webp" alt="Photograph of Chicken musakhan."/>
+                        Chicken musakhan
+                    </a><a href="/recipes/doner-kebab-with-chicken">
+                        <img src="/images/doner-kebab-with-chicken.webp" alt="Photograph of Doner kebab with chicken."/>
+                        Doner kebab with chicken
+                    </a><a href="/recipes/sticky-sweet-and-sour-plums-and-sausages">
+                        <img src="/images/sticky-sweet-and-sour-plums-and-sausages.webp" alt="Photograph of Sticky sweet and sour plums and sausages."/>
+                        Sticky sweet and sour plums and sausages
+                    </a><a href="/recipes/jerk-pork-pineapple-skewers-with-black-beans-rice">
+                        <img src="/images/jerk-pork-pineapple-skewers-with-black-beans-rice.webp" alt="Photograph of Jerk pork & pineapple skewers with black beans & rice."/>
+                        Jerk pork & pineapple skewers with black beans & rice
+                    </a></div>
             </section>
-        <footer>
+        </main>        <nav>
             <div>
-                <img src="/img/logo.svg" alt="" height="1" width="1"/>
+                <h3><a href="/">Home</a></h3>
+                <h3><a href="/top-recipes">Top Recipes</a></h3>
+                <h3><a href="/all-recipes">All Recipes</a></h3>
+                <h3><a href="/search">Search</a></h3>
+                <h3><a href="/feed/atom.xml">Feed</a></h3>
             </div>
-            <div class="footer-links">
-                <a href="/">Homepage</a>
-                <a href="/all-recipes">All Recipes</a>
-                <a href="/top-recipes">Top Rated</a>
-                <a href="/feed/atom.xml">Feed</a>
+            <div id="settings-options">
+                <button type="button" id="theme-btn" disabled>
+                    Theme<span class="light-text">Auto</span>
+                </button>
             </div>
-        </footer>
+        </nav>
     </body>
 </html>
