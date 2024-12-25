@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2024-11-30T17:53:08.390753+00:00</updated>
+  <updated>2024-12-25T14:07:38.983101+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,84 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/timballo-di-pasta-e-polpettine</id>
-    <title>Timballo di pasta e polpettine</title>
-    <updated>2024-11-30T17:53:08.391843+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Timballo di pasta e polpettine&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/timballo-di-pasta-e-polpettine.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Nonna Caterina didn’t always have hours to pull together a lasagna (see Lasagna al Ragù di Lady Caterina), but she never cut corners on deliciousness. One of her go-to weekday dishes was pasta baked with meatballs bound together with melted cheese. There’s a big controversy in Italy about pasta and meatballs. It’s not typical in most of its fiercely regional cuisines so many Italians write it off as a purely American invention. After all, spaghetti (a first course) and meatballs (a second course) are traditionally served separately. Still, I know for a fact that many families, including mine, have gone against the grain and served pasta with meatballs for generations. All over the south of Italy and in parts of Abruzzo, nonne bake trays of pasta studded with tiny meatballs, proving that the combination does indeed exist!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/timballo-di-pasta-e-polpettine"/>
-    <published>2024-11-08T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/timballo-di-pasta-e-polpettine.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/roasted-cod-with-a-coriander-crust</id>
-    <title>Roasted cod with a coriander crust</title>
-    <updated>2024-11-30T17:53:08.391686+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Roasted cod with a coriander crust&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/roasted-cod-with-a-coriander-crust.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;The combination of fish and tahini is one we find hard to resist, but this works just as well without the tahini sauce if you’re looking for a shortcut or want to keep the focus on the lemon. Either way, this is as close to fast food as you can get. It’s a 15-minute meal to make, beginning to end. Possibly even less time to eat.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/roasted-cod-with-a-coriander-crust"/>
-    <published>2024-11-16T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/roasted-cod-with-a-coriander-crust.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/kukul-mas-curry</id>
-    <title>Kukul mas curry</title>
-    <updated>2024-11-30T17:53:08.391512+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Kukul mas curry&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/kukul-mas-curry.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Our Sri Lankan curry typifies the light, coconut-fragranced curries of the area, equally as delicious with chicken as it is with white fish, prawns or even root vegetables.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/kukul-mas-curry"/>
-    <published>2024-11-17T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/kukul-mas-curry.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/sweet-potato-parsnip-tagine-with-dates-coriander</id>
-    <title>Sweet potato &amp; parsnip tagine with dates &amp; coriander</title>
-    <updated>2024-11-30T17:53:08.391350+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sweet potato &amp; parsnip tagine with dates &amp; coriander&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/sweet-potato-parsnip-tagine-with-dates-coriander.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Tagines are traditionally ‘throw-everything-into-the-pot-and-wait’ sort of dishes. By all means use an actual tagine if you have one, but a roasting tin covered in foil works just as well. This is sweet and intense – serve with vegan yogurt and flatbreads or cous cous.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/sweet-potato-parsnip-tagine-with-dates-coriander"/>
-    <published>2024-11-23T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/sweet-potato-parsnip-tagine-with-dates-coriander.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/tuna-caper-and-onion-mini-pies</id>
-    <title>Tuna, caper and onion mini pies</title>
-    <updated>2024-11-30T17:53:08.391168+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Tuna, caper and onion mini pies&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/tuna-caper-and-onion-mini-pies.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Blink and they’re gone: that’s what happens when you make these gorgeous mini pies. There’s something about the combination of flavours that makes them completely addictive, especially eaten hot, straight out of the oven.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/tuna-caper-and-onion-mini-pies"/>
-    <published>2024-11-24T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/tuna-caper-and-onion-mini-pies.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/risotto-with-smoked-mackerel-peas-and-lemon</id>
     <title>Risotto with smoked mackerel, peas and lemon</title>
-    <updated>2024-11-30T17:53:08.390915+00:00</updated>
+    <updated>2024-12-25T14:07:39.000540+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Risotto with smoked mackerel, peas and lemon&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/risotto-with-smoked-mackerel-peas-and-lemon.webp" style="text-align:center;"/&gt;
@@ -99,6 +24,81 @@
     <published>2024-11-30T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/risotto-with-smoked-mackerel-peas-and-lemon.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/chicken-thighs-with-creamy-leek-and-caper-sauce</id>
+    <title>Chicken thighs with creamy leek and caper sauce</title>
+    <updated>2024-12-25T14:07:39.000356+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chicken thighs with creamy leek and caper sauce&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/chicken-thighs-with-creamy-leek-and-caper-sauce.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;The sauce here is a gorgeous one, with the rich and creamy notes lifted by the sharp saltiness of the capers. It really does make you wonder why anything is cooked on the stove.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/chicken-thighs-with-creamy-leek-and-caper-sauce"/>
+    <published>2024-12-06T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/chicken-thighs-with-creamy-leek-and-caper-sauce.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/coconut-dal-with-cumin-spiced-carrots</id>
+    <title>Coconut dal with cumin-spiced carrots</title>
+    <updated>2024-12-25T14:07:39.000170+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Coconut dal with cumin-spiced carrots&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/coconut-dal-with-cumin-spiced-carrots.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This dal is creamy and luxurious, knocking on the door of a dal makhani with its light spicing and rich gravy. Do try to source the dried fenugreek leaves used here (otherwise known as methi), as their slight bitterness balances the sweetness from the coconut milk and carrots.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/coconut-dal-with-cumin-spiced-carrots"/>
+    <published>2024-12-08T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/coconut-dal-with-cumin-spiced-carrots.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/spicy-cheese-and-bacon-burgers</id>
+    <title>Spicy cheese and bacon burgers</title>
+    <updated>2024-12-25T14:07:38.999964+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Spicy cheese and bacon burgers&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/spicy-cheese-and-bacon-burgers.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;It’s fair to say these don’t have the charred exterior of burgers cooked on the grill – but what they can boast is a tender, juicy interior that’s absolutely packed with flavour. No dried-out burgers in this roasting pan.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/spicy-cheese-and-bacon-burgers"/>
+    <published>2024-12-15T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/spicy-cheese-and-bacon-burgers.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/mixed-pepper-thyme-cheddar-tart</id>
+    <title>Mixed pepper, thyme &amp; cheddar tart</title>
+    <updated>2024-12-25T14:07:38.999673+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Mixed pepper, thyme &amp; cheddar tart&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/mixed-pepper-thyme-cheddar-tart.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This tasty tart makes a lovely lunch for four with a salad or is perfect for a picnic. Along with frozen peppers and sheets of pastry, thyme is one of those freezer essentials (hardy herbs freeze really well) which can be brought out to add a lovely scent to a simple tart such as this.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/mixed-pepper-thyme-cheddar-tart"/>
+    <published>2024-12-23T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/mixed-pepper-thyme-cheddar-tart.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/duck-breasts-with-juniper-blackberry-and-port-sauce</id>
+    <title>Duck breasts with juniper, blackberry and port sauce</title>
+    <updated>2024-12-25T14:07:38.990896+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Duck breasts with juniper, blackberry and port sauce&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/duck-breasts-with-juniper-blackberry-and-port-sauce.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Dark, rich and a little gamey, duck breast is gorgeous paired with blackberries in a mellow port sauce. The skin does not turn quite as crisp as it does when cooked the conventional way, seared first in a frying pan on the stove, but it is delicious nonetheless.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/duck-breasts-with-juniper-blackberry-and-port-sauce"/>
+    <published>2024-12-25T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/duck-breasts-with-juniper-blackberry-and-port-sauce.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
