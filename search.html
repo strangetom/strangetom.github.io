@@ -6,8 +6,8 @@
         <meta name="viewport" content="width=device-width"/>  
         <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-/3O9DH+/A7bxWkDC4SrLP0nr9Wmb7h11Q8QET5Fb+0I='; style-src 'self' 'unsafe-inline';"/>
         <title>Search recipes | Stranger Foods</title>
-        <link rel="preload" href="/fonts/latin-modern-mono-prop-light-10-regular-latin.woff2" as="font" type="font/woff2" crossorigin/>
-        <link rel="preload" href="/fonts/latin-modern-mono-prop-light-10-regular-latin-ext.woff2" as="font" type="font/woff2" crossorigin/>
+        <link rel="preload" href="/fonts/quattrocento-latin.woff2" as="font" type="font/woff2" crossorigin/>
+        <link rel="preload" href="/fonts/quattrocento-latin-ext.woff2" as="font" type="font/woff2" crossorigin/>
         <link rel="preload" href="/css/colours.min.css" as="style"/>
         <link rel="stylesheet" type="text/css" href="/css/search.min.css"/>
         <script defer src="/js/menu.min.js"></script>
@@ -31,7 +31,7 @@
 
             <section id="search">
                 <form>
-                    <input id="search-box" class="search-box" type="search" placeholder="Search 790 recipes" aria-label="Search for recipes"/>
+                    <input id="search-box" class="search-box" type="search" placeholder="Search 798 recipes" aria-label="Search for recipes"/>
                     <button type="submit" id="search-btn">Search</button>
                 </form>
             </section>
@@ -110,7 +110,7 @@
                         </div>
                         <div class="checkbox">
                             <input type="checkbox" value="cuisine/Indian" id="Indian" name="Indian"/>
-                            <label for="Indian">Indian (30)</label>
+                            <label for="Indian">Indian (31)</label>
                         </div>
                         <div class="checkbox">
                             <input type="checkbox" value="cuisine/Iranian" id="Iranian" name="Iranian"/>
@@ -118,11 +118,11 @@
                         </div>
                         <div class="checkbox">
                             <input type="checkbox" value="cuisine/Italian" id="Italian" name="Italian"/>
-                            <label for="Italian">Italian (51)</label>
+                            <label for="Italian">Italian (52)</label>
                         </div>
                         <div class="checkbox">
                             <input type="checkbox" value="cuisine/Japanese" id="Japanese" name="Japanese"/>
-                            <label for="Japanese">Japanese (3)</label>
+                            <label for="Japanese">Japanese (4)</label>
                         </div>
                         <div class="checkbox">
                             <input type="checkbox" value="cuisine/Lebanese" id="Lebanese" name="Lebanese"/>
@@ -219,15 +219,19 @@
                     <div class="checkboxes">
                         <div class="checkbox">
                             <input type="checkbox" value="tags/beef" id="beef" name="beef"/>
-                            <label for="beef">Beef (59)</label>
+                            <label for="beef">Beef (60)</label>
                         </div>
                         <div class="checkbox">
                             <input type="checkbox" value="tags/bread" id="bread" name="bread"/>
                             <label for="bread">Bread (4)</label>
                         </div>
                         <div class="checkbox">
+                            <input type="checkbox" value="tags/burger" id="burger" name="burger"/>
+                            <label for="burger">Burger (19)</label>
+                        </div>
+                        <div class="checkbox">
                             <input type="checkbox" value="tags/cake" id="cake" name="cake"/>
-                            <label for="cake">Cake (13)</label>
+                            <label for="cake">Cake (14)</label>
                         </div>
                         <div class="checkbox">
                             <input type="checkbox" value="tags/cookies" id="cookies" name="cookies"/>
@@ -239,7 +243,7 @@
                         </div>
                         <div class="checkbox">
                             <input type="checkbox" value="tags/lamb" id="lamb" name="lamb"/>
-                            <label for="lamb">Lamb (54)</label>
+                            <label for="lamb">Lamb (55)</label>
                         </div>
                         <div class="checkbox">
                             <input type="checkbox" value="tags/pie" id="pie" name="pie"/>
@@ -268,15 +272,15 @@
                         </div>
                         <div class="checkbox">
                             <input type="checkbox" value="diets/NutFree" id="NutFree" name="NutFree"/>
-                            <label for="NutFree">Nut Free (13)</label>
+                            <label for="NutFree">Nut Free (12)</label>
                         </div>
                         <div class="checkbox">
                             <input type="checkbox" value="diets/Vegan" id="Vegan" name="Vegan"/>
-                            <label for="Vegan">Vegan (44)</label>
+                            <label for="Vegan">Vegan (43)</label>
                         </div>
                         <div class="checkbox">
                             <input type="checkbox" value="diets/Vegetarian" id="Vegetarian" name="Vegetarian"/>
-                            <label for="Vegetarian">Vegetarian (210)</label>
+                            <label for="Vegetarian">Vegetarian (211)</label>
                         </div>
                         </div>
                 </details>
@@ -372,6 +376,10 @@
                             <label for="Fire and Spice" title="Fire and Spice">Fire and Spice</label>
                         </div>
                         <div class="checkbox">
+                            <input type="checkbox" value="source/Foolproof Fish: 60 Delicious Dishes to Make at Home" id="Foolproof Fish: 60 Delicious Dishes to Make at Home" name="Foolproof Fish: 60 Delicious Dishes to Make at Home"/>
+                            <label for="Foolproof Fish: 60 Delicious Dishes to Make at Home" title="Foolproof Fish: 60 Delicious Dishes to Make at Home">Foolproof Fish: 60 Delici...</label>
+                        </div>
+                        <div class="checkbox">
                             <input type="checkbox" value="source/Foolproof Freezer: 60 Fuss-Free Meals that Make the Most of Your Freezer" id="Foolproof Freezer: 60 Fuss-Free Meals that Make the Most of Your Freezer" name="Foolproof Freezer: 60 Fuss-Free Meals that Make the Most of Your Freezer"/>
                             <label for="Foolproof Freezer: 60 Fuss-Free Meals that Make the Most of Your Freezer" title="Foolproof Freezer: 60 Fuss-Free Meals that Make the Most of Your Freezer">Foolproof Freezer: 60 Fus...</label>
                         </div>
@@ -434,10 +442,6 @@
                         <div class="checkbox">
                             <input type="checkbox" value="source/My Lebanese Cookbook" id="My Lebanese Cookbook" name="My Lebanese Cookbook"/>
                             <label for="My Lebanese Cookbook" title="My Lebanese Cookbook">My Lebanese Cookbook</label>
-                        </div>
-                        <div class="checkbox">
-                            <input type="checkbox" value="source/Nadia Sawalha" id="Nadia Sawalha" name="Nadia Sawalha"/>
-                            <label for="Nadia Sawalha" title="Nadia Sawalha">Nadia Sawalha</label>
                         </div>
                         <div class="checkbox">
                             <input type="checkbox" value="source/Nadiya's British Food Adventure" id="Nadiya's British Food Adventure" name="Nadiya's British Food Adventure"/>
@@ -600,6 +604,10 @@
                             <label for="Tyga" title="Tyga">Tyga</label>
                         </div>
                         <div class="checkbox">
+                            <input type="checkbox" value="source/Wagamama: Feed Your Soul" id="Wagamama: Feed Your Soul" name="Wagamama: Feed Your Soul"/>
+                            <label for="Wagamama: Feed Your Soul" title="Wagamama: Feed Your Soul">Wagamama: Feed Your Soul</label>
+                        </div>
+                        <div class="checkbox">
                             <input type="checkbox" value="source/Weight Watchers Magazine" id="Weight Watchers Magazine" name="Weight Watchers Magazine"/>
                             <label for="Weight Watchers Magazine" title="Weight Watchers Magazine">Weight Watchers Magazine</label>
                         </div>
@@ -702,10 +710,6 @@
                         <div class="checkbox">
                             <input type="checkbox" value="source/thehappyfoodie.co.uk" id="thehappyfoodie.co.uk" name="thehappyfoodie.co.uk"/>
                             <label for="thehappyfoodie.co.uk" title="thehappyfoodie.co.uk">thehappyfoodie.co.uk</label>
-                        </div>
-                        <div class="checkbox">
-                            <input type="checkbox" value="source/themindfulmeringue.com" id="themindfulmeringue.com" name="themindfulmeringue.com"/>
-                            <label for="themindfulmeringue.com" title="themindfulmeringue.com">themindfulmeringue.com</label>
                         </div>
                         <div class="checkbox">
                             <input type="checkbox" value="source/themodernproper.com" id="themodernproper.com" name="themodernproper.com"/>
@@ -929,8 +933,8 @@
                 <h3><a href="/feed/atom.xml">Feed</a></h3>
             </div>
             <div id="settings-options">
-                <meta name="update-hash" content="27fe6f19c5ccc547bf48686295806efff282fba165070c36bbd7300d1202db33"/>
-                <meta name="cache-size" content="83395926"/>
+                <meta name="update-hash" content="19268f831dc78bd22b0adf2fe1622325978f78ff31af40667e0b0056552437a3"/>
+                <meta name="cache-size" content="84723141"/>
                 <button type="button" id="cache-site-btn" disabled>Cache Site</button>
                 <button type="button" id="theme-btn" disabled>
                     Theme<span class="light-text">Auto</span>

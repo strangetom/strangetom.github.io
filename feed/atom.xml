@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2024-12-25T14:07:38.983101+00:00</updated>
+  <updated>2025-01-12T17:21:42.101321+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,93 +12,93 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/risotto-with-smoked-mackerel-peas-and-lemon</id>
-    <title>Risotto with smoked mackerel, peas and lemon</title>
-    <updated>2024-12-25T14:07:39.000540+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Risotto with smoked mackerel, peas and lemon&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/chicken-chettinad</id>
+    <title>Chicken chettinad</title>
+    <updated>2025-01-12T17:21:42.102487+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chicken chettinad&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/risotto-with-smoked-mackerel-peas-and-lemon.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/chicken-chettinad.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Smoked mackerel is a rich and incredibly tasty oily fish, and it’s widely available, which really makes this dish a winner.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/risotto-with-smoked-mackerel-peas-and-lemon"/>
-    <published>2024-11-30T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;Named after the region in Tamil Nadu from which it hails, this punchy dish combines a rich, velvety sauce infused with cool coconut and warming chilli with vibrant ginger and garlic for a classic curry kick. Easily enjoyed with juicy, tender chicken, white fish or mixed vegetables thanks to its versatility.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/chicken-chettinad"/>
+    <published>2024-12-31T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/risotto-with-smoked-mackerel-peas-and-lemon.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/chicken-chettinad.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/chicken-thighs-with-creamy-leek-and-caper-sauce</id>
-    <title>Chicken thighs with creamy leek and caper sauce</title>
-    <updated>2024-12-25T14:07:39.000356+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chicken thighs with creamy leek and caper sauce&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/condesa-smoky-beans</id>
+    <title>Condesa smoky beans</title>
+    <updated>2025-01-12T17:21:42.102340+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Condesa smoky beans&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/chicken-thighs-with-creamy-leek-and-caper-sauce.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/condesa-smoky-beans.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;The sauce here is a gorgeous one, with the rich and creamy notes lifted by the sharp saltiness of the capers. It really does make you wonder why anything is cooked on the stove.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/chicken-thighs-with-creamy-leek-and-caper-sauce"/>
-    <published>2024-12-06T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/condesa-smoky-beans"/>
+    <published>2025-01-01T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/chicken-thighs-with-creamy-leek-and-caper-sauce.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/condesa-smoky-beans.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/coconut-dal-with-cumin-spiced-carrots</id>
-    <title>Coconut dal with cumin-spiced carrots</title>
-    <updated>2024-12-25T14:07:39.000170+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Coconut dal with cumin-spiced carrots&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/ras-el-hanout-buttermilk-sweet-loaf-cake-with-rose-icing</id>
+    <title>Ras el hanout &amp; buttermilk sweet loaf cake with rose icing</title>
+    <updated>2025-01-12T17:21:42.102165+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Ras el hanout &amp; buttermilk sweet loaf cake with rose icing&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/coconut-dal-with-cumin-spiced-carrots.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/ras-el-hanout-buttermilk-sweet-loaf-cake-with-rose-icing.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This dal is creamy and luxurious, knocking on the door of a dal makhani with its light spicing and rich gravy. Do try to source the dried fenugreek leaves used here (otherwise known as methi), as their slight bitterness balances the sweetness from the coconut milk and carrots.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/coconut-dal-with-cumin-spiced-carrots"/>
-    <published>2024-12-08T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;Ras el hanout is a highly prized blend of spices that packs an earthy punch, so you wouldn’t be terribly out of line for questioning my state of mind when I first made this cake. I am pleased to report that it was a winner – and by the way, it is the rose icing that makes the cake by complementing the spiciness beautifully.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/ras-el-hanout-buttermilk-sweet-loaf-cake-with-rose-icing"/>
+    <published>2025-01-03T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/coconut-dal-with-cumin-spiced-carrots.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/ras-el-hanout-buttermilk-sweet-loaf-cake-with-rose-icing.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/spicy-cheese-and-bacon-burgers</id>
-    <title>Spicy cheese and bacon burgers</title>
-    <updated>2024-12-25T14:07:38.999964+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Spicy cheese and bacon burgers&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/cranberry-crumble-bars</id>
+    <title>Cranberry crumble bars</title>
+    <updated>2025-01-12T17:21:42.102003+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Cranberry crumble bars&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/spicy-cheese-and-bacon-burgers.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/cranberry-crumble-bars.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;It’s fair to say these don’t have the charred exterior of burgers cooked on the grill – but what they can boast is a tender, juicy interior that’s absolutely packed with flavour. No dried-out burgers in this roasting pan.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/spicy-cheese-and-bacon-burgers"/>
-    <published>2024-12-15T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;I have been making these bars since I first started baking and especially since having children, as they are so easy to make and pack away for snacks and treats. It’s a straightforward dough recipe, with a tart cranberry filling and the same dough crumbled on top. Simple to make and simpler to eat, there is no such thing as eating just one bar!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/cranberry-crumble-bars"/>
+    <published>2025-01-10T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/spicy-cheese-and-bacon-burgers.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/cranberry-crumble-bars.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/mixed-pepper-thyme-cheddar-tart</id>
-    <title>Mixed pepper, thyme &amp; cheddar tart</title>
-    <updated>2024-12-25T14:07:38.999673+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Mixed pepper, thyme &amp; cheddar tart&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/creamy-tarragon-chicken-with-bacon-leeks-and-potatoes</id>
+    <title>Creamy tarragon chicken with bacon, leeks and potatoes</title>
+    <updated>2025-01-12T17:21:42.101786+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Creamy tarragon chicken with bacon, leeks and potatoes&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/mixed-pepper-thyme-cheddar-tart.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/creamy-tarragon-chicken-with-bacon-leeks-and-potatoes.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This tasty tart makes a lovely lunch for four with a salad or is perfect for a picnic. Along with frozen peppers and sheets of pastry, thyme is one of those freezer essentials (hardy herbs freeze really well) which can be brought out to add a lovely scent to a simple tart such as this.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/mixed-pepper-thyme-cheddar-tart"/>
-    <published>2024-12-23T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;Creamy and comforting with a hit of aniseed sweetness from the tarragon, this is bound to become a firm family favourite.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/creamy-tarragon-chicken-with-bacon-leeks-and-potatoes"/>
+    <published>2025-01-11T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/mixed-pepper-thyme-cheddar-tart.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/creamy-tarragon-chicken-with-bacon-leeks-and-potatoes.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/duck-breasts-with-juniper-blackberry-and-port-sauce</id>
-    <title>Duck breasts with juniper, blackberry and port sauce</title>
-    <updated>2024-12-25T14:07:38.990896+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Duck breasts with juniper, blackberry and port sauce&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/sardine-aubergine-puttanesca-with-feta</id>
+    <title>Sardine &amp; aubergine puttanesca with feta</title>
+    <updated>2025-01-12T17:21:42.101507+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sardine &amp; aubergine puttanesca with feta&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/duck-breasts-with-juniper-blackberry-and-port-sauce.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/sardine-aubergine-puttanesca-with-feta.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Dark, rich and a little gamey, duck breast is gorgeous paired with blackberries in a mellow port sauce. The skin does not turn quite as crisp as it does when cooked the conventional way, seared first in a frying pan on the stove, but it is delicious nonetheless.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/duck-breasts-with-juniper-blackberry-and-port-sauce"/>
-    <published>2024-12-25T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;A simple and quick pasta dish using the versatile and humble tinned sardine. You can use any pasta shape you like, but a tubular one such as casarecce works well with the chunky sauce.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/sardine-aubergine-puttanesca-with-feta"/>
+    <published>2025-01-12T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/duck-breasts-with-juniper-blackberry-and-port-sauce.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/sardine-aubergine-puttanesca-with-feta.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
