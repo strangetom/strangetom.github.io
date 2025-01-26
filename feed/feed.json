@@ -12,6 +12,42 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/mancare-de-mazare-si-bob-cu-friganele",
+      "url": "https://www.strangerfoods.org/recipes/mancare-de-mazare-si-bob-cu-friganele",
+      "title": "M\u00e2ncare de Maz\u0103re \u015fi Bob cu Frig\u0103nele",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">M\u00e2ncare de Maz\u0103re \u015fi Bob cu Frig\u0103nele</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/mancare-de-mazare-si-bob-cu-friganele.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This is a wonderfully light dish, and when made with seasonal peas and broad (fava) beans, it has a delicious sweet flavour. It is served with eggy bread, frig\u0103nele, which is a good trick to make a meal more substantial. The aroma that brings everything together is dill, and I know many of you have a love-hate relationship with it, but we love it in Romania. Dill and garden peas are meant to be together. Try it at least once in this combination.</p>",
+      "image": "https://www.strangerfoods.org/images/mancare-de-mazare-si-bob-cu-friganele.webp",
+      "date_published": "2025-01-26T00:00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/jumari-de-peste",
+      "url": "https://www.strangerfoods.org/recipes/jumari-de-peste",
+      "title": "Jum\u0103ri de pe\u015fte",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Jum\u0103ri de pe\u015fte</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/jumari-de-peste.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Jum\u0103ri means 'fried morsels', usually cuts of meat with a good fat content such as pork scratchings and belly.\n\nThey can also be made with carp or catfish, especially using the fatty belly, if the fish is large. I tested the recipe with salmon for practical reasons and the result was very good. It is a dish that can be served on its own as a starter or with drinks, or as a main course with potatoes and salad.</p>",
+      "image": "https://www.strangerfoods.org/images/jumari-de-peste.webp",
+      "date_published": "2025-01-25T00:00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/lemon-scented-pork-meatballs-with-fennel-white-wine",
+      "url": "https://www.strangerfoods.org/recipes/lemon-scented-pork-meatballs-with-fennel-white-wine",
+      "title": "Lemon-scented pork meatballs with fennel & white wine",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Lemon-scented pork meatballs with fennel & white wine</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/lemon-scented-pork-meatballs-with-fennel-white-wine.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Meatballs weren\u2019t regularly on the family table while I was growing up so a lot of research went into this recipe and there were a few tantrums during the process! Fennel, oregano, lemon and Parmesan are a perfect quartet of flavours. Bring white wine and cr\u00e8me fra\u00eeche to the party and you\u2019ve got a pot of delicious, feel-good food.</p>",
+      "image": "https://www.strangerfoods.org/images/lemon-scented-pork-meatballs-with-fennel-white-wine.webp",
+      "date_published": "2025-01-19T00:00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/pan-bagnat-provencal-tuna-sandwich",
+      "url": "https://www.strangerfoods.org/recipes/pan-bagnat-provencal-tuna-sandwich",
+      "title": "Pan bagnat (Proven\u00e7al tuna sandwich)",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Pan bagnat (Proven\u00e7al tuna sandwich)</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/pan-bagnat-provencal-tuna-sandwich.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Olives, tomatoes, hard-cooked eggs, fragrant herbs, and a mustardy vinaigrette\u2014not mayo\u2014are the components that put this Proven\u00e7al staple on the map.\n\nWe developed this recipe with Tonnino Tuna Fillets in Olive Oil, but you can substitute three 5-ounce cans of another oil-packed tuna. To accommodate the filling, the baguette should be approximately 18 inches long, 3 inches wide, and at least 2 inches tall. A ciabatta of similar size will work, as will individual ciabatta rolls. You can substitute 1 tablespoon of oregano for the marjoram and kalamata olives for the ni\u00e7oise.</p>",
+      "image": "https://www.strangerfoods.org/images/pan-bagnat-provencal-tuna-sandwich.webp",
+      "date_published": "2025-01-18T00:00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/sardine-aubergine-puttanesca-with-feta",
       "url": "https://www.strangerfoods.org/recipes/sardine-aubergine-puttanesca-with-feta",
       "title": "Sardine & aubergine puttanesca with feta",
@@ -27,42 +63,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Creamy tarragon chicken with bacon, leeks and potatoes</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/creamy-tarragon-chicken-with-bacon-leeks-and-potatoes.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Creamy and comforting with a hit of aniseed sweetness from the tarragon, this is bound to become a firm family favourite.</p>",
       "image": "https://www.strangerfoods.org/images/creamy-tarragon-chicken-with-bacon-leeks-and-potatoes.webp",
       "date_published": "2025-01-11T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/cranberry-crumble-bars",
-      "url": "https://www.strangerfoods.org/recipes/cranberry-crumble-bars",
-      "title": "Cranberry crumble bars",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Cranberry crumble bars</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/cranberry-crumble-bars.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>I have been making these bars since I first started baking and especially since having children, as they are so easy to make and pack away for snacks and treats. It\u2019s a straightforward dough recipe, with a tart cranberry filling and the same dough crumbled on top. Simple to make and simpler to eat, there is no such thing as eating just one bar!</p>",
-      "image": "https://www.strangerfoods.org/images/cranberry-crumble-bars.webp",
-      "date_published": "2025-01-10T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/ras-el-hanout-buttermilk-sweet-loaf-cake-with-rose-icing",
-      "url": "https://www.strangerfoods.org/recipes/ras-el-hanout-buttermilk-sweet-loaf-cake-with-rose-icing",
-      "title": "Ras el hanout & buttermilk sweet loaf cake with rose icing",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Ras el hanout & buttermilk sweet loaf cake with rose icing</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/ras-el-hanout-buttermilk-sweet-loaf-cake-with-rose-icing.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Ras el hanout is a highly prized blend of spices that packs an earthy punch, so you wouldn\u2019t be terribly out of line for questioning my state of mind when I first made this cake. I am pleased to report that it was a winner \u2013 and by the way, it is the rose icing that makes the cake by complementing the spiciness beautifully.</p>",
-      "image": "https://www.strangerfoods.org/images/ras-el-hanout-buttermilk-sweet-loaf-cake-with-rose-icing.webp",
-      "date_published": "2025-01-03T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/condesa-smoky-beans",
-      "url": "https://www.strangerfoods.org/recipes/condesa-smoky-beans",
-      "title": "Condesa smoky beans",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Condesa smoky beans</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/condesa-smoky-beans.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;></p>",
-      "image": "https://www.strangerfoods.org/images/condesa-smoky-beans.webp",
-      "date_published": "2025-01-01T00:00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/chicken-chettinad",
-      "url": "https://www.strangerfoods.org/recipes/chicken-chettinad",
-      "title": "Chicken chettinad",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Chicken chettinad</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/chicken-chettinad.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Named after the region in Tamil Nadu from which it hails, this punchy dish combines a rich, velvety sauce infused with cool coconut and warming chilli with vibrant ginger and garlic for a classic curry kick. Easily enjoyed with juicy, tender chicken, white fish or mixed vegetables thanks to its versatility.</p>",
-      "image": "https://www.strangerfoods.org/images/chicken-chettinad.webp",
-      "date_published": "2024-12-31T00:00:00Z",
       "language": "en"
     }
   ]
