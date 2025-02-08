@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2025-01-28T07:49:18.233594+00:00</updated>
+  <updated>2025-02-08T18:32:34.447241+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,56 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/creamy-tarragon-chicken-with-bacon-leeks-and-potatoes</id>
-    <title>Creamy tarragon chicken with bacon, leeks and potatoes</title>
-    <updated>2025-01-28T07:49:18.234110+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Creamy tarragon chicken with bacon, leeks and potatoes&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/creamy-tarragon-chicken-with-bacon-leeks-and-potatoes.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Creamy and comforting with a hit of aniseed sweetness from the tarragon, this is bound to become a firm family favourite.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/creamy-tarragon-chicken-with-bacon-leeks-and-potatoes"/>
-    <published>2025-01-11T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/creamy-tarragon-chicken-with-bacon-leeks-and-potatoes.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/sardine-aubergine-puttanesca-with-feta</id>
-    <title>Sardine &amp; aubergine puttanesca with feta</title>
-    <updated>2025-01-28T07:49:18.234048+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sardine &amp; aubergine puttanesca with feta&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/sardine-aubergine-puttanesca-with-feta.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;A simple and quick pasta dish using the versatile and humble tinned sardine. You can use any pasta shape you like, but a tubular one such as casarecce works well with the chunky sauce.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/sardine-aubergine-puttanesca-with-feta"/>
-    <published>2025-01-12T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/sardine-aubergine-puttanesca-with-feta.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/pan-bagnat-provencal-tuna-sandwich</id>
-    <title>Pan bagnat (Provençal tuna sandwich)</title>
-    <updated>2025-01-28T07:49:18.233985+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pan bagnat (Provençal tuna sandwich)&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/pan-bagnat-provencal-tuna-sandwich.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Olives, tomatoes, hard-cooked eggs, fragrant herbs, and a mustardy vinaigrette—not mayo—are the components that put this Provençal staple on the map.
-
-We developed this recipe with Tonnino Tuna Fillets in Olive Oil, but you can substitute three 5-ounce cans of another oil-packed tuna. To accommodate the filling, the baguette should be approximately 18 inches long, 3 inches wide, and at least 2 inches tall. A ciabatta of similar size will work, as will individual ciabatta rolls. You can substitute 1 tablespoon of oregano for the marjoram and kalamata olives for the niçoise.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/pan-bagnat-provencal-tuna-sandwich"/>
-    <published>2025-01-18T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/pan-bagnat-provencal-tuna-sandwich.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/lemon-scented-pork-meatballs-with-fennel-white-wine</id>
     <title>Lemon-scented pork meatballs with fennel &amp; white wine</title>
-    <updated>2025-01-28T07:49:18.233921+00:00</updated>
+    <updated>2025-02-08T18:32:34.462509+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lemon-scented pork meatballs with fennel &amp; white wine&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/lemon-scented-pork-meatballs-with-fennel-white-wine.webp" style="text-align:center;"/&gt;
@@ -76,7 +29,7 @@ We developed this recipe with Tonnino Tuna Fillets in Olive Oil, but you can sub
   <entry>
     <id>https://www.strangerfoods.org/recipes/jumari-de-peste</id>
     <title>Jumări de peşte</title>
-    <updated>2025-01-28T07:49:18.233844+00:00</updated>
+    <updated>2025-02-08T18:32:34.462305+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Jumări de peşte&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/jumari-de-peste.webp" style="text-align:center;"/&gt;
@@ -93,7 +46,7 @@ They can also be made with carp or catfish, especially using the fatty belly, if
   <entry>
     <id>https://www.strangerfoods.org/recipes/mancare-de-mazare-si-bob-cu-friganele</id>
     <title>Mâncare de Mazăre şi Bob cu Frigănele</title>
-    <updated>2025-01-28T07:49:18.233697+00:00</updated>
+    <updated>2025-02-08T18:32:34.462119+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Mâncare de Mazăre şi Bob cu Frigănele&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/mancare-de-mazare-si-bob-cu-friganele.webp" style="text-align:center;"/&gt;
@@ -103,6 +56,51 @@ They can also be made with carp or catfish, especially using the fatty belly, if
     <published>2025-01-26T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/mancare-de-mazare-si-bob-cu-friganele.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/curban</id>
+    <title>Curban</title>
+    <updated>2025-02-08T18:32:34.461914+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Curban&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/curban.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/curban"/>
+    <published>2025-02-01T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/curban.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/the-drunken-salmon</id>
+    <title>The drunken salmon</title>
+    <updated>2025-02-08T18:32:34.461638+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;The drunken salmon&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/the-drunken-salmon.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;The Drunken Salmon, while not seemingly Italian, spells pure comfort food for me. My mom really loves whiskey and would often cook with it, infusing her dishes with the amazing earthy flavor of the liquor. I sometimes cook with whiskey, too, like in this boozy homage to my mother. I spike the pan with it just as I would with vodka for penne alla vodka (see my version of this, The Lady in Pink), transferring the woody notes of the whiskey to the cream. The dish feels wintery to me, and I imagine eating it by a fireplace while on a vacation in the Scottish Highlands, or anywhere chilly really. The smoked salmon soaks up the cream with its flavor and makes a gorgeous pink cloak for the penne.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/the-drunken-salmon"/>
+    <published>2025-02-04T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/the-drunken-salmon.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/mashed-potato-balls</id>
+    <title>Mashed potato balls</title>
+    <updated>2025-02-08T18:32:34.454173+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Mashed potato balls&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/mashed-potato-balls.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Inspired by the loaded potato skins you often see on pub restaurant menus, these crispy balls of mashed potato have a fluffy cheese, onion and bacon filling. Coated in golden panko breadcrumbs, they’re so easy and satisfying to make. You can crisp them up in the oven or in your air fryer and serve as a tasty snack or side dish.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/mashed-potato-balls"/>
+    <published>2025-02-08T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/mashed-potato-balls.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
