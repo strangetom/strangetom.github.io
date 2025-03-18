@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2025-02-08T18:32:34.447241+00:00</updated>
+  <updated>2025-03-18T17:58:59.098538+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,95 +12,93 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/lemon-scented-pork-meatballs-with-fennel-white-wine</id>
-    <title>Lemon-scented pork meatballs with fennel &amp; white wine</title>
-    <updated>2025-02-08T18:32:34.462509+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lemon-scented pork meatballs with fennel &amp; white wine&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/red-kidney-bean-sweet-potato-stew-with-yogurt-hot-mint-oil</id>
+    <title>Red kidney bean &amp; sweet potato stew with yogurt &amp; hot mint oil</title>
+    <updated>2025-03-18T17:58:59.100104+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Red kidney bean &amp; sweet potato stew with yogurt &amp; hot mint oil&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/lemon-scented-pork-meatballs-with-fennel-white-wine.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/red-kidney-bean-sweet-potato-stew-with-yogurt-hot-mint-oil.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Meatballs weren’t regularly on the family table while I was growing up so a lot of research went into this recipe and there were a few tantrums during the process! Fennel, oregano, lemon and Parmesan are a perfect quartet of flavours. Bring white wine and crème fraîche to the party and you’ve got a pot of delicious, feel-good food.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/lemon-scented-pork-meatballs-with-fennel-white-wine"/>
-    <published>2025-01-19T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;The yogurt in this vegetarian stew is a perfect, cooling contrast, and the hot mint oil – a very Persian addition we call nana daagh – finishes the dish incredibly well. You can serve this with rice or bread, and leftovers make an excellent brunch dish with poached eggs.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/red-kidney-bean-sweet-potato-stew-with-yogurt-hot-mint-oil"/>
+    <published>2025-03-03T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/lemon-scented-pork-meatballs-with-fennel-white-wine.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/red-kidney-bean-sweet-potato-stew-with-yogurt-hot-mint-oil.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/jumari-de-peste</id>
-    <title>Jumări de peşte</title>
-    <updated>2025-02-08T18:32:34.462305+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Jumări de peşte&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/lemon-basil-shortbread</id>
+    <title>Lemon basil shortbread</title>
+    <updated>2025-03-18T17:58:59.099928+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lemon basil shortbread&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/jumari-de-peste.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/lemon-basil-shortbread.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Jumări means 'fried morsels', usually cuts of meat with a good fat content such as pork scratchings and belly.
-
-They can also be made with carp or catfish, especially using the fatty belly, if the fish is large. I tested the recipe with salmon for practical reasons and the result was very good. It is a dish that can be served on its own as a starter or with drinks, or as a main course with potatoes and salad.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/jumari-de-peste"/>
-    <published>2025-01-25T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;These buttery shortbread biscuits are just joyous. They are flavoured with fresh basil and filled with jam and white chocolate. If you can resist eating them all by yourself (which is not easy!), they make great presents, tumbled into a jar and tied with a ribbon.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/lemon-basil-shortbread"/>
+    <published>2025-03-07T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/jumari-de-peste.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/lemon-basil-shortbread.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/mancare-de-mazare-si-bob-cu-friganele</id>
-    <title>Mâncare de Mazăre şi Bob cu Frigănele</title>
-    <updated>2025-02-08T18:32:34.462119+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Mâncare de Mazăre şi Bob cu Frigănele&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/beef-and-pineapple-burgers</id>
+    <title>Beef and pineapple burgers</title>
+    <updated>2025-03-18T17:58:59.099740+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Beef and pineapple burgers&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/mancare-de-mazare-si-bob-cu-friganele.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/beef-and-pineapple-burgers.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This is a wonderfully light dish, and when made with seasonal peas and broad (fava) beans, it has a delicious sweet flavour. It is served with eggy bread, frigănele, which is a good trick to make a meal more substantial. The aroma that brings everything together is dill, and I know many of you have a love-hate relationship with it, but we love it in Romania. Dill and garden peas are meant to be together. Try it at least once in this combination.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/mancare-de-mazare-si-bob-cu-friganele"/>
-    <published>2025-01-26T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;If you’ve never tried beef with pineapple before, this is the place to start. Using a few nifty lower-calorie swaps, we’ve brought these juicy, cheese-topped burgers down to just 315 calories each – chilli mayo, fruity salsa and seeded burger buns included! Do your next fakeaway night right by piling them high with our slimming-friendly salsa.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/beef-and-pineapple-burgers"/>
+    <published>2025-03-08T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/mancare-de-mazare-si-bob-cu-friganele.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/beef-and-pineapple-burgers.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/curban</id>
-    <title>Curban</title>
-    <updated>2025-02-08T18:32:34.461914+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Curban&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/spicy-vinegar</id>
+    <title>Spicy vinegar</title>
+    <updated>2025-03-18T17:58:59.099498+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Spicy vinegar&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/curban.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/spicy-vinegar.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/curban"/>
-    <published>2025-02-01T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;Spicy, sweet, sour and salty – typical flavours of South-east Asia. This makes a great dipping sauce or dressing.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/spicy-vinegar"/>
+    <published>2025-03-17T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/curban.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/spicy-vinegar.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/the-drunken-salmon</id>
-    <title>The drunken salmon</title>
-    <updated>2025-02-08T18:32:34.461638+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;The drunken salmon&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/gyoza-sauce</id>
+    <title>Gyoza sauce</title>
+    <updated>2025-03-18T17:58:59.099155+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Gyoza sauce&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/the-drunken-salmon.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/gyoza-sauce.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;The Drunken Salmon, while not seemingly Italian, spells pure comfort food for me. My mom really loves whiskey and would often cook with it, infusing her dishes with the amazing earthy flavor of the liquor. I sometimes cook with whiskey, too, like in this boozy homage to my mother. I spike the pan with it just as I would with vodka for penne alla vodka (see my version of this, The Lady in Pink), transferring the woody notes of the whiskey to the cream. The dish feels wintery to me, and I imagine eating it by a fireplace while on a vacation in the Scottish Highlands, or anywhere chilly really. The smoked salmon soaks up the cream with its flavor and makes a gorgeous pink cloak for the penne.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/the-drunken-salmon"/>
-    <published>2025-02-04T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;A savoury and tart dipping sauce which pairs perfectly with our gyozas.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/gyoza-sauce"/>
+    <published>2025-03-17T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/the-drunken-salmon.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/gyoza-sauce.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/mashed-potato-balls</id>
-    <title>Mashed potato balls</title>
-    <updated>2025-02-08T18:32:34.454173+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Mashed potato balls&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/nuoc-cham-tuna</id>
+    <title>Nuoc cham tuna</title>
+    <updated>2025-03-18T17:58:59.098766+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Nuoc cham tuna&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/mashed-potato-balls.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/nuoc-cham-tuna.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Inspired by the loaded potato skins you often see on pub restaurant menus, these crispy balls of mashed potato have a fluffy cheese, onion and bacon filling. Coated in golden panko breadcrumbs, they’re so easy and satisfying to make. You can crisp them up in the oven or in your air fryer and serve as a tasty snack or side dish.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/mashed-potato-balls"/>
-    <published>2025-02-08T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;Nuoc cham is a Vietnamese-style dressing and has a sweet, sour and spicy flavour. We’ve used protein-rich tuna in this recipe, which is popular in Japan, and served it on a vibrant base of quinoa and vegetables.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/nuoc-cham-tuna"/>
+    <published>2025-03-18T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/mashed-potato-balls.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/nuoc-cham-tuna.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
