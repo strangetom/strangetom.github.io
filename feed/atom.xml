@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2025-03-18T17:58:59.098538+00:00</updated>
+  <updated>2025-03-30T16:30:30.260097+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,54 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/red-kidney-bean-sweet-potato-stew-with-yogurt-hot-mint-oil</id>
-    <title>Red kidney bean &amp; sweet potato stew with yogurt &amp; hot mint oil</title>
-    <updated>2025-03-18T17:58:59.100104+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Red kidney bean &amp; sweet potato stew with yogurt &amp; hot mint oil&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/red-kidney-bean-sweet-potato-stew-with-yogurt-hot-mint-oil.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;The yogurt in this vegetarian stew is a perfect, cooling contrast, and the hot mint oil – a very Persian addition we call nana daagh – finishes the dish incredibly well. You can serve this with rice or bread, and leftovers make an excellent brunch dish with poached eggs.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/red-kidney-bean-sweet-potato-stew-with-yogurt-hot-mint-oil"/>
-    <published>2025-03-03T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/red-kidney-bean-sweet-potato-stew-with-yogurt-hot-mint-oil.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/lemon-basil-shortbread</id>
-    <title>Lemon basil shortbread</title>
-    <updated>2025-03-18T17:58:59.099928+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lemon basil shortbread&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/lemon-basil-shortbread.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;These buttery shortbread biscuits are just joyous. They are flavoured with fresh basil and filled with jam and white chocolate. If you can resist eating them all by yourself (which is not easy!), they make great presents, tumbled into a jar and tied with a ribbon.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/lemon-basil-shortbread"/>
-    <published>2025-03-07T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/lemon-basil-shortbread.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/beef-and-pineapple-burgers</id>
-    <title>Beef and pineapple burgers</title>
-    <updated>2025-03-18T17:58:59.099740+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Beef and pineapple burgers&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/beef-and-pineapple-burgers.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;If you’ve never tried beef with pineapple before, this is the place to start. Using a few nifty lower-calorie swaps, we’ve brought these juicy, cheese-topped burgers down to just 315 calories each – chilli mayo, fruity salsa and seeded burger buns included! Do your next fakeaway night right by piling them high with our slimming-friendly salsa.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/beef-and-pineapple-burgers"/>
-    <published>2025-03-08T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/beef-and-pineapple-burgers.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/spicy-vinegar</id>
     <title>Spicy vinegar</title>
-    <updated>2025-03-18T17:58:59.099498+00:00</updated>
+    <updated>2025-03-30T16:30:30.261196+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Spicy vinegar&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/spicy-vinegar.webp" style="text-align:center;"/&gt;
@@ -74,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/gyoza-sauce</id>
     <title>Gyoza sauce</title>
-    <updated>2025-03-18T17:58:59.099155+00:00</updated>
+    <updated>2025-03-30T16:30:30.261047+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Gyoza sauce&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/gyoza-sauce.webp" style="text-align:center;"/&gt;
@@ -89,7 +44,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/nuoc-cham-tuna</id>
     <title>Nuoc cham tuna</title>
-    <updated>2025-03-18T17:58:59.098766+00:00</updated>
+    <updated>2025-03-30T16:30:30.260894+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Nuoc cham tuna&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/nuoc-cham-tuna.webp" style="text-align:center;"/&gt;
@@ -99,6 +54,51 @@
     <published>2025-03-18T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/nuoc-cham-tuna.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/chickenberry-rice</id>
+    <title>Chickenberry rice</title>
+    <updated>2025-03-30T16:30:30.260733+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chickenberry rice&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/chickenberry-rice.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;The Persian Empire influenced much of the cuisine of India’s Mughal Empire. The Indian emperor Shah Jahan employed cooks from Persia who used huge volumes of saffron, dried nuts and dried fruits, as well as their signature steam-method that Persians still use to cook rice today. No dish of that era could be more famous than biryani, which is served all over India, Pakistan and the West. This version uses chicken breast, which because it is off the bone, cooks in half the time of a traditional biryani, so makes a great midweek supper.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/chickenberry-rice"/>
+    <published>2025-03-22T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/chickenberry-rice.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/spicy-bulgur-wheat-meatballs-in-garlicky-tomato-sauce</id>
+    <title>Spicy bulgur wheat meatballs in garlicky tomato sauce</title>
+    <updated>2025-03-30T16:30:30.260552+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Spicy bulgur wheat meatballs in garlicky tomato sauce&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/spicy-bulgur-wheat-meatballs-in-garlicky-tomato-sauce.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;I once travelled to the Cappadocia region of Anatolia in central Turkey to visit the famous ancient rock formations, and during that trip I fell in love with this recipe – sulu köfte: tiny little meatballs containing bulgur wheat, so this is my homage to that recipe. Traditionally, they are served as a soup or with a locally made pasta called eriste, but tagliatelle works beautifully.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/spicy-bulgur-wheat-meatballs-in-garlicky-tomato-sauce"/>
+    <published>2025-03-29T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/spicy-bulgur-wheat-meatballs-in-garlicky-tomato-sauce.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/mediterranean-style-fried-rice-with-anchovy-dressing</id>
+    <title>Mediterranean style fried rice with anchovy dressing</title>
+    <updated>2025-03-30T16:30:30.260270+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Mediterranean style fried rice with anchovy dressing&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/mediterranean-style-fried-rice-with-anchovy-dressing.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This Mediterranean take on fried rice has all the crispy and salty bits as well as the very best bit: the crispy 'tahdig' layer at the bottom of the pan. 'Tahdig' is the Persian word referring to the bottom of the pot, where the rice forms a crunchy golden layer of crispy decadence. Also called 'socarrat' in Spain, this scorched rice is the part we look forward to the most.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/mediterranean-style-fried-rice-with-anchovy-dressing"/>
+    <published>2025-03-30T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/mediterranean-style-fried-rice-with-anchovy-dressing.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
