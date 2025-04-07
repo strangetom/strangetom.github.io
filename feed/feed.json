@@ -12,6 +12,24 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/pasta-with-yoghurt-and-parsley-breadcrumbs",
+      "url": "https://www.strangerfoods.org/recipes/pasta-with-yoghurt-and-parsley-breadcrumbs",
+      "title": "Pasta with yoghurt and parsley breadcrumbs",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Pasta with yoghurt and parsley breadcrumbs</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/pasta-with-yoghurt-and-parsley-breadcrumbs.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Pasta was a favourite of Sami and his older brother Azam when they were kids. Na\u2019ama used to make it two ways. The first was ma\u2019caroneh bil foroun, a kind of Palestinian pasta al forno \u2013 juicy thick macaroni soaked in a meaty tomato sauce. Azam and Sami used to tussle over who got to the crispy bits on top first, then race to see who could slurp the tubes of pasta the fastest. Na\u2019ama\u2019s second pasta staple was lighter and more refreshing, baked this time with yoghurt and nuts. This is our take on that. It can be served warm or at room temperature.</p>",
+      "image": "https://www.strangerfoods.org/images/pasta-with-yoghurt-and-parsley-breadcrumbs.webp",
+      "date_published": "2025-04-06T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/salli-boti",
+      "url": "https://www.strangerfoods.org/recipes/salli-boti",
+      "title": "Salli boti",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Salli boti</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/salli-boti.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This is a first-rate Parsi classic, the best example of which is served in the inimitable Britannia & Co. Tender chunks of lamb (goat, if you\u2019re in Bombay) are braised in a rich and flavoursome gravy then finished with crunchy salli crisp-chips. When served with a hot, buttered chapati and a bowl of kachumber, there are fewer more satisfying lunches. Ours is served with handkerchief-thin roomali roti.</p>",
+      "image": "https://www.strangerfoods.org/images/salli-boti.webp",
+      "date_published": "2025-04-05T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/mediterranean-style-fried-rice-with-anchovy-dressing",
       "url": "https://www.strangerfoods.org/recipes/mediterranean-style-fried-rice-with-anchovy-dressing",
       "title": "Mediterranean style fried rice with anchovy dressing",
@@ -45,24 +63,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Nuoc cham tuna</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/nuoc-cham-tuna.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Nuoc cham is a Vietnamese-style dressing and has a sweet, sour and spicy flavour. We\u2019ve used protein-rich tuna in this recipe, which is popular in Japan, and served it on a vibrant base of quinoa and vegetables.</p>",
       "image": "https://www.strangerfoods.org/images/nuoc-cham-tuna.webp",
       "date_published": "2025-03-18T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/gyoza-sauce",
-      "url": "https://www.strangerfoods.org/recipes/gyoza-sauce",
-      "title": "Gyoza sauce",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Gyoza sauce</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/gyoza-sauce.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>A savoury and tart dipping sauce which pairs perfectly with our gyozas.</p>",
-      "image": "https://www.strangerfoods.org/images/gyoza-sauce.webp",
-      "date_published": "2025-03-17T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/spicy-vinegar",
-      "url": "https://www.strangerfoods.org/recipes/spicy-vinegar",
-      "title": "Spicy vinegar",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Spicy vinegar</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/spicy-vinegar.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Spicy, sweet, sour and salty \u2013 typical flavours of South-east Asia. This makes a great dipping sauce or dressing.</p>",
-      "image": "https://www.strangerfoods.org/images/spicy-vinegar.webp",
-      "date_published": "2025-03-17T00:00:00+00:00Z",
       "language": "en"
     }
   ]
