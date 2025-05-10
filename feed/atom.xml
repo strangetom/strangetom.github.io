@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2025-04-06T16:27:58.237973+00:00</updated>
+  <updated>2025-05-10T17:18:14.081845+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,93 +12,93 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/nuoc-cham-tuna</id>
-    <title>Nuoc cham tuna</title>
-    <updated>2025-04-06T16:27:58.239274+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Nuoc cham tuna&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/oaxaca-tostadas</id>
+    <title>Oaxaca tostadas</title>
+    <updated>2025-05-10T17:18:14.095851+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Oaxaca tostadas&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/nuoc-cham-tuna.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/oaxaca-tostadas.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Nuoc cham is a Vietnamese-style dressing and has a sweet, sour and spicy flavour. We’ve used protein-rich tuna in this recipe, which is popular in Japan, and served it on a vibrant base of quinoa and vegetables.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/nuoc-cham-tuna"/>
-    <published>2025-03-18T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;My tostadas were inspired by the wonderful giant tostadas of the central market in the city of oaxaca in mexico. they are completely delicious – you taste hot and cold, crunchy and smooth, spicy and mild, salty and sour in every bite. and, as they only take 15 minutes to make, they are a real midweek lifesaver.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/oaxaca-tostadas"/>
+    <published>2025-04-14T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/nuoc-cham-tuna.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/oaxaca-tostadas.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/chickenberry-rice</id>
-    <title>Chickenberry rice</title>
-    <updated>2025-04-06T16:27:58.239096+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chickenberry rice&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/apple-and-mustard-swineherds-pie</id>
+    <title>Apple and mustard swineherd’s pie</title>
+    <updated>2025-05-10T17:18:14.095662+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Apple and mustard swineherd’s pie&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/chickenberry-rice.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/apple-and-mustard-swineherds-pie.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;The Persian Empire influenced much of the cuisine of India’s Mughal Empire. The Indian emperor Shah Jahan employed cooks from Persia who used huge volumes of saffron, dried nuts and dried fruits, as well as their signature steam-method that Persians still use to cook rice today. No dish of that era could be more famous than biryani, which is served all over India, Pakistan and the West. This version uses chicken breast, which because it is off the bone, cooks in half the time of a traditional biryani, so makes a great midweek supper.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/chickenberry-rice"/>
-    <published>2025-03-22T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;Our twist on a British classic, this dish will warm you right up! While traditional versions might come finished with buttery mash, we’ve complemented our low-fat pork filling by adding apple sauce and mustard powder to our fluffy potato topping.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/apple-and-mustard-swineherds-pie"/>
+    <published>2025-04-18T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/chickenberry-rice.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/apple-and-mustard-swineherds-pie.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/spicy-bulgur-wheat-meatballs-in-garlicky-tomato-sauce</id>
-    <title>Spicy bulgur wheat meatballs in garlicky tomato sauce</title>
-    <updated>2025-04-06T16:27:58.238927+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Spicy bulgur wheat meatballs in garlicky tomato sauce&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/zaatar-tomato-olive-feta-pastries</id>
+    <title>Za’atar, tomato, olive &amp; feta pastries</title>
+    <updated>2025-05-10T17:18:14.095448+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Za’atar, tomato, olive &amp; feta pastries&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/spicy-bulgur-wheat-meatballs-in-garlicky-tomato-sauce.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/zaatar-tomato-olive-feta-pastries.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;I once travelled to the Cappadocia region of Anatolia in central Turkey to visit the famous ancient rock formations, and during that trip I fell in love with this recipe – sulu köfte: tiny little meatballs containing bulgur wheat, so this is my homage to that recipe. Traditionally, they are served as a soup or with a locally made pasta called eriste, but tagliatelle works beautifully.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/spicy-bulgur-wheat-meatballs-in-garlicky-tomato-sauce"/>
-    <published>2025-03-29T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;These lovely pastries are a wonderful savoury indulgence of mine. I first made them in the 1990s when dried tomatoes became hugely trendy and were on every restaurant menu. Although less fashionable now, they remain a flavour bomb, adding instant impact to whatever they come in contact with. The blend of flavours here is almost Mediterranean and works really well with the crisp puff pastry. I like to let the pastries cool just a little before enjoying them, as they are best served warm.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/zaatar-tomato-olive-feta-pastries"/>
+    <published>2025-04-20T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/spicy-bulgur-wheat-meatballs-in-garlicky-tomato-sauce.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/zaatar-tomato-olive-feta-pastries.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/mediterranean-style-fried-rice-with-anchovy-dressing</id>
-    <title>Mediterranean style fried rice with anchovy dressing</title>
-    <updated>2025-04-06T16:27:58.238752+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Mediterranean style fried rice with anchovy dressing&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/crispy-rosemary-and-garlic-potato-galettes-with-smoked-salmon</id>
+    <title>Crispy rosemary and garlic potato galettes with smoked salmon</title>
+    <updated>2025-05-10T17:18:14.095248+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Crispy rosemary and garlic potato galettes with smoked salmon&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/mediterranean-style-fried-rice-with-anchovy-dressing.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/crispy-rosemary-and-garlic-potato-galettes-with-smoked-salmon.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This Mediterranean take on fried rice has all the crispy and salty bits as well as the very best bit: the crispy 'tahdig' layer at the bottom of the pan. 'Tahdig' is the Persian word referring to the bottom of the pot, where the rice forms a crunchy golden layer of crispy decadence. Also called 'socarrat' in Spain, this scorched rice is the part we look forward to the most.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/mediterranean-style-fried-rice-with-anchovy-dressing"/>
-    <published>2025-03-30T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;This makes a glorious lunch, flanked by nothing more than a vibrant green salad. The key to this is slicing the potatoes very thinly – it’s possible with a sharp knife but much easier on a mandoline or similar hand-held slicer.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/crispy-rosemary-and-garlic-potato-galettes-with-smoked-salmon"/>
+    <published>2025-04-26T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/mediterranean-style-fried-rice-with-anchovy-dressing.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/crispy-rosemary-and-garlic-potato-galettes-with-smoked-salmon.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/salli-boti</id>
-    <title>Salli boti</title>
-    <updated>2025-04-06T16:27:58.238553+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Salli boti&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/beef-pot-fried-rice</id>
+    <title>Beef pot-fried rice</title>
+    <updated>2025-05-10T17:18:14.094994+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Beef pot-fried rice&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/salli-boti.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/beef-pot-fried-rice.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This is a first-rate Parsi classic, the best example of which is served in the inimitable Britannia &amp; Co. Tender chunks of lamb (goat, if you’re in Bombay) are braised in a rich and flavoursome gravy then finished with crunchy salli crisp-chips. When served with a hot, buttered chapati and a bowl of kachumber, there are fewer more satisfying lunches. Ours is served with handkerchief-thin roomali roti.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/salli-boti"/>
-    <published>2025-04-05T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/beef-pot-fried-rice"/>
+    <published>2025-05-09T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/salli-boti.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/beef-pot-fried-rice.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/pasta-with-yoghurt-and-parsley-breadcrumbs</id>
-    <title>Pasta with yoghurt and parsley breadcrumbs</title>
-    <updated>2025-04-06T16:27:58.238181+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pasta with yoghurt and parsley breadcrumbs&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/rigatoni-alla-boscaiola</id>
+    <title>Rigatoni alla boscaiola</title>
+    <updated>2025-05-10T17:18:14.087148+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Rigatoni alla boscaiola&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/pasta-with-yoghurt-and-parsley-breadcrumbs.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/rigatoni-alla-boscaiola.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Pasta was a favourite of Sami and his older brother Azam when they were kids. Na’ama used to make it two ways. The first was ma’caroneh bil foroun, a kind of Palestinian pasta al forno – juicy thick macaroni soaked in a meaty tomato sauce. Azam and Sami used to tussle over who got to the crispy bits on top first, then race to see who could slurp the tubes of pasta the fastest. Na’ama’s second pasta staple was lighter and more refreshing, baked this time with yoghurt and nuts. This is our take on that. It can be served warm or at room temperature.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/pasta-with-yoghurt-and-parsley-breadcrumbs"/>
-    <published>2025-04-06T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;Many Italian dishes are named for an occupation, like Spaghettoni alla Puttanesca. In this case, it’s rigatoni in the style of the woodsman. Imagine what a burly, outdoorsy Italian man would eat to warm his bones while out harvesting timber in the forest, or how he might nourish himself before a hunt, and you’ve got this dish: pasta drenched in a cream sauce of pancetta, peas, and mushrooms. The cream gives it warmth, the peas add texture and sweetness, the pancetta delivers a savory note, and the mushrooms—of course—represent the woodsman’s beloved forest. This combination of ingredients offers the perfect burst of energy needed for any difficult task. The dish is earthy, sweet, and powerful, just like you are!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/rigatoni-alla-boscaiola"/>
+    <published>2025-05-10T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/pasta-with-yoghurt-and-parsley-breadcrumbs.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/rigatoni-alla-boscaiola.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
