@@ -12,12 +12,30 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/fusilli-allortolana",
+      "url": "https://www.strangerfoods.org/recipes/fusilli-allortolana",
+      "title": "Fusilli all\u2019ortolana",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Fusilli all\u2019ortolana</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/fusilli-allortolana.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This vegetarian pasta takes me back to my nonna\u2019s garden. Each day during summer holidays, my brother, Agostino, and I would wake up early to pick Nonna\u2019s ripe peppers, eggplants, tomatoes, and zucchini, which felt warm beneath our fingertips after weeks of maturing under the blazing Neapolitan sun. These memories bring the same joy I have picking vegetables with my own children in our garden under the Florida sunshine. What I love most about this dish\u2014aside from the nostalgia it brings flooding back\u2014is that it is so flexible. You can make it your own with what\u2019s in season no matter where you are and any time of the year, even in the winter, substituting winter squashes and bitter greens for the summery medley below. Cook the vegetables in stages so they all finish cooking at the same time\u2014knowing how to time this perfectly comes with practice, but one bite of this dish and I know you\u2019ll be hooked and up for the challenge.</p>",
+      "image": "https://www.strangerfoods.org/images/fusilli-allortolana.webp",
+      "date_published": "2025-05-17T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/spiced-honey-cake",
+      "url": "https://www.strangerfoods.org/recipes/spiced-honey-cake",
+      "title": "Spiced honey cake",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Spiced honey cake</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/spiced-honey-cake.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>I usually pick a floral or citrusy honey for this cake, like wildflower or clover rather than a dark, strongly flavored variety, but you can use any honey you prefer. Don\u2019t skip the sliced almonds on top\u2014they add a lovely crunch and texture.</p>",
+      "image": "https://www.strangerfoods.org/images/spiced-honey-cake.webp",
+      "date_published": "2025-05-17T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/rigatoni-alla-boscaiola",
       "url": "https://www.strangerfoods.org/recipes/rigatoni-alla-boscaiola",
       "title": "Rigatoni alla boscaiola",
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Rigatoni alla boscaiola</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/rigatoni-alla-boscaiola.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Many Italian dishes are named for an occupation, like Spaghettoni alla Puttanesca. In this case, it\u2019s rigatoni in the style of the woodsman. Imagine what a burly, outdoorsy Italian man would eat to warm his bones while out harvesting timber in the forest, or how he might nourish himself before a hunt, and you\u2019ve got this dish: pasta drenched in a cream sauce of pancetta, peas, and mushrooms. The cream gives it warmth, the peas add texture and sweetness, the pancetta delivers a savory note, and the mushrooms\u2014of course\u2014represent the woodsman\u2019s beloved forest. This combination of ingredients offers the perfect burst of energy needed for any difficult task. The dish is earthy, sweet, and powerful, just like you are!</p>",
       "image": "https://www.strangerfoods.org/images/rigatoni-alla-boscaiola.webp",
-      "date_published": "2025-05-10T00:00:00+00:00Z",
+      "date_published": "2025-05-11T00:00:00+00:00Z",
       "language": "en"
     },
     {
@@ -45,24 +63,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Za\u2019atar, tomato, olive & feta pastries</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/zaatar-tomato-olive-feta-pastries.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>These lovely pastries are a wonderful savoury indulgence of mine. I first made them in the 1990s when dried tomatoes became hugely trendy and were on every restaurant menu. Although less fashionable now, they remain a flavour bomb, adding instant impact to whatever they come in contact with. The blend of flavours here is almost Mediterranean and works really well with the crisp puff pastry. I like to let the pastries cool just a little before enjoying them, as they are best served warm.</p>",
       "image": "https://www.strangerfoods.org/images/zaatar-tomato-olive-feta-pastries.webp",
       "date_published": "2025-04-20T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/apple-and-mustard-swineherds-pie",
-      "url": "https://www.strangerfoods.org/recipes/apple-and-mustard-swineherds-pie",
-      "title": "Apple and mustard swineherd\u2019s pie",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Apple and mustard swineherd\u2019s pie</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/apple-and-mustard-swineherds-pie.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Our twist on a British classic, this dish will warm you right up! While traditional versions might come finished with buttery mash, we\u2019ve complemented our low-fat pork filling by adding apple sauce and mustard powder to our fluffy potato topping.</p>",
-      "image": "https://www.strangerfoods.org/images/apple-and-mustard-swineherds-pie.webp",
-      "date_published": "2025-04-18T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/oaxaca-tostadas",
-      "url": "https://www.strangerfoods.org/recipes/oaxaca-tostadas",
-      "title": "Oaxaca tostadas",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Oaxaca tostadas</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/oaxaca-tostadas.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>My tostadas were inspired by the wonderful giant tostadas of the central market in the city of oaxaca in mexico. they are completely delicious \u2013 you taste hot and cold, crunchy and smooth, spicy and mild, salty and sour in every bite. and, as they only take 15 minutes to make, they are a real midweek lifesaver.</p>",
-      "image": "https://www.strangerfoods.org/images/oaxaca-tostadas.webp",
-      "date_published": "2025-04-14T00:00:00+00:00Z",
       "language": "en"
     }
   ]

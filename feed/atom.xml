@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2025-05-10T17:18:14.081845+00:00</updated>
+  <updated>2025-05-17T17:33:31.042278+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,39 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/oaxaca-tostadas</id>
-    <title>Oaxaca tostadas</title>
-    <updated>2025-05-10T17:18:14.095851+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Oaxaca tostadas&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/oaxaca-tostadas.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;My tostadas were inspired by the wonderful giant tostadas of the central market in the city of oaxaca in mexico. they are completely delicious – you taste hot and cold, crunchy and smooth, spicy and mild, salty and sour in every bite. and, as they only take 15 minutes to make, they are a real midweek lifesaver.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/oaxaca-tostadas"/>
-    <published>2025-04-14T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/oaxaca-tostadas.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/apple-and-mustard-swineherds-pie</id>
-    <title>Apple and mustard swineherd’s pie</title>
-    <updated>2025-05-10T17:18:14.095662+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Apple and mustard swineherd’s pie&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/apple-and-mustard-swineherds-pie.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Our twist on a British classic, this dish will warm you right up! While traditional versions might come finished with buttery mash, we’ve complemented our low-fat pork filling by adding apple sauce and mustard powder to our fluffy potato topping.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/apple-and-mustard-swineherds-pie"/>
-    <published>2025-04-18T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/apple-and-mustard-swineherds-pie.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/zaatar-tomato-olive-feta-pastries</id>
     <title>Za’atar, tomato, olive &amp; feta pastries</title>
-    <updated>2025-05-10T17:18:14.095448+00:00</updated>
+    <updated>2025-05-17T17:33:31.043404+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Za’atar, tomato, olive &amp; feta pastries&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/zaatar-tomato-olive-feta-pastries.webp" style="text-align:center;"/&gt;
@@ -59,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/crispy-rosemary-and-garlic-potato-galettes-with-smoked-salmon</id>
     <title>Crispy rosemary and garlic potato galettes with smoked salmon</title>
-    <updated>2025-05-10T17:18:14.095248+00:00</updated>
+    <updated>2025-05-17T17:33:31.043226+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Crispy rosemary and garlic potato galettes with smoked salmon&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/crispy-rosemary-and-garlic-potato-galettes-with-smoked-salmon.webp" style="text-align:center;"/&gt;
@@ -74,7 +44,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/beef-pot-fried-rice</id>
     <title>Beef pot-fried rice</title>
-    <updated>2025-05-10T17:18:14.094994+00:00</updated>
+    <updated>2025-05-17T17:33:31.043069+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Beef pot-fried rice&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/beef-pot-fried-rice.webp" style="text-align:center;"/&gt;
@@ -89,16 +59,46 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/rigatoni-alla-boscaiola</id>
     <title>Rigatoni alla boscaiola</title>
-    <updated>2025-05-10T17:18:14.087148+00:00</updated>
+    <updated>2025-05-17T17:33:31.042907+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Rigatoni alla boscaiola&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/rigatoni-alla-boscaiola.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
         &lt;p style="font-family:sans-serif;&gt;Many Italian dishes are named for an occupation, like Spaghettoni alla Puttanesca. In this case, it’s rigatoni in the style of the woodsman. Imagine what a burly, outdoorsy Italian man would eat to warm his bones while out harvesting timber in the forest, or how he might nourish himself before a hunt, and you’ve got this dish: pasta drenched in a cream sauce of pancetta, peas, and mushrooms. The cream gives it warmth, the peas add texture and sweetness, the pancetta delivers a savory note, and the mushrooms—of course—represent the woodsman’s beloved forest. This combination of ingredients offers the perfect burst of energy needed for any difficult task. The dish is earthy, sweet, and powerful, just like you are!&lt;/p&gt;</content>
     <link href="https://www.strangerfoods.org/recipes/rigatoni-alla-boscaiola"/>
-    <published>2025-05-10T00:00:00+00:00</published>
+    <published>2025-05-11T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/rigatoni-alla-boscaiola.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/spiced-honey-cake</id>
+    <title>Spiced honey cake</title>
+    <updated>2025-05-17T17:33:31.042728+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Spiced honey cake&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/spiced-honey-cake.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;I usually pick a floral or citrusy honey for this cake, like wildflower or clover rather than a dark, strongly flavored variety, but you can use any honey you prefer. Don’t skip the sliced almonds on top—they add a lovely crunch and texture.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/spiced-honey-cake"/>
+    <published>2025-05-17T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/spiced-honey-cake.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/fusilli-allortolana</id>
+    <title>Fusilli all’ortolana</title>
+    <updated>2025-05-17T17:33:31.042465+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Fusilli all’ortolana&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/fusilli-allortolana.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This vegetarian pasta takes me back to my nonna’s garden. Each day during summer holidays, my brother, Agostino, and I would wake up early to pick Nonna’s ripe peppers, eggplants, tomatoes, and zucchini, which felt warm beneath our fingertips after weeks of maturing under the blazing Neapolitan sun. These memories bring the same joy I have picking vegetables with my own children in our garden under the Florida sunshine. What I love most about this dish—aside from the nostalgia it brings flooding back—is that it is so flexible. You can make it your own with what’s in season no matter where you are and any time of the year, even in the winter, substituting winter squashes and bitter greens for the summery medley below. Cook the vegetables in stages so they all finish cooking at the same time—knowing how to time this perfectly comes with practice, but one bite of this dish and I know you’ll be hooked and up for the challenge.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/fusilli-allortolana"/>
+    <published>2025-05-17T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/fusilli-allortolana.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
