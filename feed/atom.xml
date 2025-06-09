@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2025-05-17T17:33:31.042278+00:00</updated>
+  <updated>2025-06-08T18:21:27.960801+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,93 +12,93 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/zaatar-tomato-olive-feta-pastries</id>
-    <title>Za’atar, tomato, olive &amp; feta pastries</title>
-    <updated>2025-05-17T17:33:31.043404+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Za’atar, tomato, olive &amp; feta pastries&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/coronation-prawn-buns</id>
+    <title>Coronation prawn buns</title>
+    <updated>2025-06-08T18:21:27.975641+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Coronation prawn buns&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/zaatar-tomato-olive-feta-pastries.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/coronation-prawn-buns.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;These lovely pastries are a wonderful savoury indulgence of mine. I first made them in the 1990s when dried tomatoes became hugely trendy and were on every restaurant menu. Although less fashionable now, they remain a flavour bomb, adding instant impact to whatever they come in contact with. The blend of flavours here is almost Mediterranean and works really well with the crisp puff pastry. I like to let the pastries cool just a little before enjoying them, as they are best served warm.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/zaatar-tomato-olive-feta-pastries"/>
-    <published>2025-04-20T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;This super-quick and easy take on coronation chicken uses prawns instead, and requires very little prep. Make up the mixture and pop it in an airtight container for a perfect picnic sandwich-filler.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/coronation-prawn-buns"/>
+    <published>2025-05-24T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/zaatar-tomato-olive-feta-pastries.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/coronation-prawn-buns.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/crispy-rosemary-and-garlic-potato-galettes-with-smoked-salmon</id>
-    <title>Crispy rosemary and garlic potato galettes with smoked salmon</title>
-    <updated>2025-05-17T17:33:31.043226+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Crispy rosemary and garlic potato galettes with smoked salmon&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/all-in-one-sticky-rice-with-broccoli-squash-chilli-ginger</id>
+    <title>All-in-one sticky rice with broccoli, squash, chilli &amp; ginger</title>
+    <updated>2025-06-08T18:21:27.975454+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;All-in-one sticky rice with broccoli, squash, chilli &amp; ginger&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/crispy-rosemary-and-garlic-potato-galettes-with-smoked-salmon.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/all-in-one-sticky-rice-with-broccoli-squash-chilli-ginger.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This makes a glorious lunch, flanked by nothing more than a vibrant green salad. The key to this is slicing the potatoes very thinly – it’s possible with a sharp knife but much easier on a mandoline or similar hand-held slicer.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/crispy-rosemary-and-garlic-potato-galettes-with-smoked-salmon"/>
-    <published>2025-04-26T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;This sticky coconut rice works perfectly with the sharp coriander and lime dressing, with a good contrast from the sweetness of the squash and crunch from the cashews. It doubles up easily if you’re feeding more people.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/all-in-one-sticky-rice-with-broccoli-squash-chilli-ginger"/>
+    <published>2025-05-26T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/crispy-rosemary-and-garlic-potato-galettes-with-smoked-salmon.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/all-in-one-sticky-rice-with-broccoli-squash-chilli-ginger.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/beef-pot-fried-rice</id>
-    <title>Beef pot-fried rice</title>
-    <updated>2025-05-17T17:33:31.043069+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Beef pot-fried rice&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/hunters-chicken-pie</id>
+    <title>Hunter’s chicken pie</title>
+    <updated>2025-06-08T18:21:27.975255+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Hunter’s chicken pie&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/beef-pot-fried-rice.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/hunters-chicken-pie.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/beef-pot-fried-rice"/>
-    <published>2025-05-09T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;One of our favourite things to serve alongside Hunter’s Chicken is a big dollop of mash, so we thought why not combine the two into one family-friendly dish? This pie has tender chunks of chicken in a rich and smoky BBQ sauce and is topped with a cheesy, bacon mash to create the ultimate comforting meal.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/hunters-chicken-pie"/>
+    <published>2025-05-31T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/beef-pot-fried-rice.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/hunters-chicken-pie.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/rigatoni-alla-boscaiola</id>
-    <title>Rigatoni alla boscaiola</title>
-    <updated>2025-05-17T17:33:31.042907+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Rigatoni alla boscaiola&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/arabic-samosas</id>
+    <title>Arabic samosas</title>
+    <updated>2025-06-08T18:21:27.975061+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Arabic samosas&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/rigatoni-alla-boscaiola.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/arabic-samosas.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Many Italian dishes are named for an occupation, like Spaghettoni alla Puttanesca. In this case, it’s rigatoni in the style of the woodsman. Imagine what a burly, outdoorsy Italian man would eat to warm his bones while out harvesting timber in the forest, or how he might nourish himself before a hunt, and you’ve got this dish: pasta drenched in a cream sauce of pancetta, peas, and mushrooms. The cream gives it warmth, the peas add texture and sweetness, the pancetta delivers a savory note, and the mushrooms—of course—represent the woodsman’s beloved forest. This combination of ingredients offers the perfect burst of energy needed for any difficult task. The dish is earthy, sweet, and powerful, just like you are!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/rigatoni-alla-boscaiola"/>
-    <published>2025-05-11T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;Indian samosas, Hispanic empanadas, Cornish pasties, Bosnian burek: there are so many ways to encase various fillings with pastry before the whole thing gets baked or fried. Sambousek is the Palestinian way. Traditionally they’re fried but we’ve baked ours here.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/arabic-samosas"/>
+    <published>2025-06-01T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/rigatoni-alla-boscaiola.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/arabic-samosas.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/spiced-honey-cake</id>
-    <title>Spiced honey cake</title>
-    <updated>2025-05-17T17:33:31.042728+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Spiced honey cake&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/thai-style-salmon-parcels-with-greens-rice</id>
+    <title>Thai-style salmon parcels with greens &amp; rice</title>
+    <updated>2025-06-08T18:21:27.974830+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Thai-style salmon parcels with greens &amp; rice&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/spiced-honey-cake.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/thai-style-salmon-parcels-with-greens-rice.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;I usually pick a floral or citrusy honey for this cake, like wildflower or clover rather than a dark, strongly flavored variety, but you can use any honey you prefer. Don’t skip the sliced almonds on top—they add a lovely crunch and texture.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/spiced-honey-cake"/>
-    <published>2025-05-17T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;Steaming fish is not only a healthy way to cook it, it also ensures the fish stays moist. Wrapping this salmon up in parcels along with the greens and dressing means that each parcel is bursting with flavour and delicious cooking juices. It makes for a very quick and easy midweek meal.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/thai-style-salmon-parcels-with-greens-rice"/>
+    <published>2025-06-07T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/spiced-honey-cake.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/thai-style-salmon-parcels-with-greens-rice.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/fusilli-allortolana</id>
-    <title>Fusilli all’ortolana</title>
-    <updated>2025-05-17T17:33:31.042465+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Fusilli all’ortolana&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/honey-and-mustard-pork</id>
+    <title>Honey and mustard pork</title>
+    <updated>2025-06-08T18:21:27.969365+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Honey and mustard pork&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/fusilli-allortolana.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/honey-and-mustard-pork.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This vegetarian pasta takes me back to my nonna’s garden. Each day during summer holidays, my brother, Agostino, and I would wake up early to pick Nonna’s ripe peppers, eggplants, tomatoes, and zucchini, which felt warm beneath our fingertips after weeks of maturing under the blazing Neapolitan sun. These memories bring the same joy I have picking vegetables with my own children in our garden under the Florida sunshine. What I love most about this dish—aside from the nostalgia it brings flooding back—is that it is so flexible. You can make it your own with what’s in season no matter where you are and any time of the year, even in the winter, substituting winter squashes and bitter greens for the summery medley below. Cook the vegetables in stages so they all finish cooking at the same time—knowing how to time this perfectly comes with practice, but one bite of this dish and I know you’ll be hooked and up for the challenge.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/fusilli-allortolana"/>
-    <published>2025-05-17T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;These super-simple pork steaks are pan-fried with leek and onion and coated with a sweet and sticky mustard glaze. Delicious served alongside some fresh green vegetables, or even with a fluffy baked potato, they are super-hearty and comforting. They’re ready in no time at all, which makes them the perfect choice for a midweek meal.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/honey-and-mustard-pork"/>
+    <published>2025-06-08T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/fusilli-allortolana.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/honey-and-mustard-pork.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
