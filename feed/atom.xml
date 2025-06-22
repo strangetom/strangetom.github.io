@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2025-06-08T18:21:27.960801+00:00</updated>
+  <updated>2025-06-22T09:25:35.297064+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,54 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/coronation-prawn-buns</id>
-    <title>Coronation prawn buns</title>
-    <updated>2025-06-08T18:21:27.975641+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Coronation prawn buns&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/coronation-prawn-buns.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This super-quick and easy take on coronation chicken uses prawns instead, and requires very little prep. Make up the mixture and pop it in an airtight container for a perfect picnic sandwich-filler.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/coronation-prawn-buns"/>
-    <published>2025-05-24T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/coronation-prawn-buns.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/all-in-one-sticky-rice-with-broccoli-squash-chilli-ginger</id>
-    <title>All-in-one sticky rice with broccoli, squash, chilli &amp; ginger</title>
-    <updated>2025-06-08T18:21:27.975454+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;All-in-one sticky rice with broccoli, squash, chilli &amp; ginger&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/all-in-one-sticky-rice-with-broccoli-squash-chilli-ginger.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This sticky coconut rice works perfectly with the sharp coriander and lime dressing, with a good contrast from the sweetness of the squash and crunch from the cashews. It doubles up easily if you’re feeding more people.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/all-in-one-sticky-rice-with-broccoli-squash-chilli-ginger"/>
-    <published>2025-05-26T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/all-in-one-sticky-rice-with-broccoli-squash-chilli-ginger.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/hunters-chicken-pie</id>
-    <title>Hunter’s chicken pie</title>
-    <updated>2025-06-08T18:21:27.975255+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Hunter’s chicken pie&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/hunters-chicken-pie.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;One of our favourite things to serve alongside Hunter’s Chicken is a big dollop of mash, so we thought why not combine the two into one family-friendly dish? This pie has tender chunks of chicken in a rich and smoky BBQ sauce and is topped with a cheesy, bacon mash to create the ultimate comforting meal.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/hunters-chicken-pie"/>
-    <published>2025-05-31T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/hunters-chicken-pie.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/arabic-samosas</id>
     <title>Arabic samosas</title>
-    <updated>2025-06-08T18:21:27.975061+00:00</updated>
+    <updated>2025-06-22T09:25:35.313702+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Arabic samosas&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/arabic-samosas.webp" style="text-align:center;"/&gt;
@@ -74,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/thai-style-salmon-parcels-with-greens-rice</id>
     <title>Thai-style salmon parcels with greens &amp; rice</title>
-    <updated>2025-06-08T18:21:27.974830+00:00</updated>
+    <updated>2025-06-22T09:25:35.313502+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Thai-style salmon parcels with greens &amp; rice&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/thai-style-salmon-parcels-with-greens-rice.webp" style="text-align:center;"/&gt;
@@ -89,7 +44,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/honey-and-mustard-pork</id>
     <title>Honey and mustard pork</title>
-    <updated>2025-06-08T18:21:27.969365+00:00</updated>
+    <updated>2025-06-22T09:25:35.313280+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Honey and mustard pork&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/honey-and-mustard-pork.webp" style="text-align:center;"/&gt;
@@ -99,6 +54,51 @@
     <published>2025-06-08T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/honey-and-mustard-pork.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/sausage-lasagna</id>
+    <title>Sausage lasagna</title>
+    <updated>2025-06-22T09:25:35.313075+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sausage lasagna&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/sausage-lasagna.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;The right choice of ingredients—and our precise layering technique—make for the most flavorful and structurally sound lasagna we’ve ever had. We wanted an extra-cheesy sausage lasagna that was full of all the flavors of Italian sausage and that held up structurally when served (rather than slipping into a flat mess on the plate like so many others). To make quick work of breaking down the aromatic base of our sausage and tomato sauce, we pulsed fennel, onion, sage, garlic, fennel seeds, and pepper flakes in the food processor, which easily cut the ingredients into small pieces that would soften in the sauce. Next, we boiled our lasagna noodles, slightly undercooking them so that they didn’t turn mushy when they were baked. Then, we puzzled out a precise layering technique to ensure a structurally sound lasagna. By cutting two of the boiled noodles in half, we were able to provide full coverage in the dish for the lower layers of the lasagna (most noodles aren’t quite as long as the baking dish). For the cheesy element, we turned to a combo of creamy mozzarella, flavorful provolone, and supersavory Pecorino Romano. Finally, at the risk of insulting home cooks who have been making their families’ long-established lasagna recipes, we found that we preferred cottage cheese to the traditional ricotta for the creamy element in this lasagna. Ricotta can become gritty, dry, and pasty when baked, while cottage cheese contains more moisture and is more apt to stay pillowy-soft and creamy.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/sausage-lasagna"/>
+    <published>2025-06-15T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/sausage-lasagna.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/orecchiette-con-cime-di-rapa-e-salsiccia</id>
+    <title>Orecchiette con cime di rapa e salsiccia</title>
+    <updated>2025-06-22T09:25:35.312840+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Orecchiette con cime di rapa e salsiccia&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/orecchiette-con-cime-di-rapa-e-salsiccia.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;If there’s a vegetable I cannot and will not live without it has to be broccoli rabe. It was a yearly tradition to celebrate this green wonder at a sagra, or local festival, near Naples. When I was a kid, I would eagerly await this fair, as it meant there would be endless fried broccoli rabe available. Walking around town holding a panino with sausage and broccoli rabe was as delightful and exciting to me as going on the merry-go-rounds or roller coaster rides that flooded the sagra. Needless to say, when my Pugliese stepmother, Angela, introduced me to this dish, it quickly became one of my favorites.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/orecchiette-con-cime-di-rapa-e-salsiccia"/>
+    <published>2025-06-20T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/orecchiette-con-cime-di-rapa-e-salsiccia.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/gently-spiced-pearl-barley-with-tomatoes-leeks-dill-pine-nuts</id>
+    <title>Gently spiced pearl barley with tomatoes, leeks, dill &amp; pine nuts</title>
+    <updated>2025-06-22T09:25:35.306137+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Gently spiced pearl barley with tomatoes, leeks, dill &amp; pine nuts&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/gently-spiced-pearl-barley-with-tomatoes-leeks-dill-pine-nuts.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This all-in-one pearl barley dish is like a light risotto: warming and full of flavour. It’s smart enough to serve as part of a sharing table for friends, and comforting enough for a TV dinner with a glass of (red) wine and an episode of Scandal.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/gently-spiced-pearl-barley-with-tomatoes-leeks-dill-pine-nuts"/>
+    <published>2025-06-21T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/gently-spiced-pearl-barley-with-tomatoes-leeks-dill-pine-nuts.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
