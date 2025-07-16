@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2025-07-05T16:15:47.209466+00:00</updated>
+  <updated>2025-07-16T11:32:04.934638+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,54 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/sausage-lasagna</id>
-    <title>Sausage lasagna</title>
-    <updated>2025-07-05T16:15:47.210613+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sausage lasagna&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/sausage-lasagna.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;The right choice of ingredients—and our precise layering technique—make for the most flavorful and structurally sound lasagna we’ve ever had. We wanted an extra-cheesy sausage lasagna that was full of all the flavors of Italian sausage and that held up structurally when served (rather than slipping into a flat mess on the plate like so many others). To make quick work of breaking down the aromatic base of our sausage and tomato sauce, we pulsed fennel, onion, sage, garlic, fennel seeds, and pepper flakes in the food processor, which easily cut the ingredients into small pieces that would soften in the sauce. Next, we boiled our lasagna noodles, slightly undercooking them so that they didn’t turn mushy when they were baked. Then, we puzzled out a precise layering technique to ensure a structurally sound lasagna. By cutting two of the boiled noodles in half, we were able to provide full coverage in the dish for the lower layers of the lasagna (most noodles aren’t quite as long as the baking dish). For the cheesy element, we turned to a combo of creamy mozzarella, flavorful provolone, and supersavory Pecorino Romano. Finally, at the risk of insulting home cooks who have been making their families’ long-established lasagna recipes, we found that we preferred cottage cheese to the traditional ricotta for the creamy element in this lasagna. Ricotta can become gritty, dry, and pasty when baked, while cottage cheese contains more moisture and is more apt to stay pillowy-soft and creamy.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/sausage-lasagna"/>
-    <published>2025-06-15T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/sausage-lasagna.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/orecchiette-con-cime-di-rapa-e-salsiccia</id>
-    <title>Orecchiette con cime di rapa e salsiccia</title>
-    <updated>2025-07-05T16:15:47.210416+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Orecchiette con cime di rapa e salsiccia&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/orecchiette-con-cime-di-rapa-e-salsiccia.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;If there’s a vegetable I cannot and will not live without it has to be broccoli rabe. It was a yearly tradition to celebrate this green wonder at a sagra, or local festival, near Naples. When I was a kid, I would eagerly await this fair, as it meant there would be endless fried broccoli rabe available. Walking around town holding a panino with sausage and broccoli rabe was as delightful and exciting to me as going on the merry-go-rounds or roller coaster rides that flooded the sagra. Needless to say, when my Pugliese stepmother, Angela, introduced me to this dish, it quickly became one of my favorites.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/orecchiette-con-cime-di-rapa-e-salsiccia"/>
-    <published>2025-06-20T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/orecchiette-con-cime-di-rapa-e-salsiccia.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/gently-spiced-pearl-barley-with-tomatoes-leeks-dill-pine-nuts</id>
-    <title>Gently spiced pearl barley with tomatoes, leeks, dill &amp; pine nuts</title>
-    <updated>2025-07-05T16:15:47.210261+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Gently spiced pearl barley with tomatoes, leeks, dill &amp; pine nuts&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/gently-spiced-pearl-barley-with-tomatoes-leeks-dill-pine-nuts.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This all-in-one pearl barley dish is like a light risotto: warming and full of flavour. It’s smart enough to serve as part of a sharing table for friends, and comforting enough for a TV dinner with a glass of (red) wine and an episode of Scandal.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/gently-spiced-pearl-barley-with-tomatoes-leeks-dill-pine-nuts"/>
-    <published>2025-06-21T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/gently-spiced-pearl-barley-with-tomatoes-leeks-dill-pine-nuts.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/five-spice-pork-belly</id>
     <title>Five-spice pork belly</title>
-    <updated>2025-07-05T16:15:47.210097+00:00</updated>
+    <updated>2025-07-16T11:32:04.935812+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Five-spice pork belly&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/five-spice-pork-belly.webp" style="text-align:center;"/&gt;
@@ -74,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/dark-chocolate-clove-cinnamon-brownies</id>
     <title>Dark chocolate, clove &amp; cinnamon brownies</title>
-    <updated>2025-07-05T16:15:47.209925+00:00</updated>
+    <updated>2025-07-16T11:32:04.935645+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Dark chocolate, clove &amp; cinnamon brownies&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/dark-chocolate-clove-cinnamon-brownies.webp" style="text-align:center;"/&gt;
@@ -89,7 +44,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/lemon-coriander-seed-chilli-chicken</id>
     <title>Lemon, coriander seed &amp; chilli chicken</title>
-    <updated>2025-07-05T16:15:47.209640+00:00</updated>
+    <updated>2025-07-16T11:32:04.935462+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lemon, coriander seed &amp; chilli chicken&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/lemon-coriander-seed-chilli-chicken.webp" style="text-align:center;"/&gt;
@@ -99,6 +54,51 @@
     <published>2025-07-05T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/lemon-coriander-seed-chilli-chicken.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/punchy-prawn-and-pear-salad</id>
+    <title>Punchy prawn and pear salad</title>
+    <updated>2025-07-16T11:32:04.935291+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Punchy prawn and pear salad&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/punchy-prawn-and-pear-salad.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Pears pair beautifully with blue cheese, but you might not have imagined that prawns/shrimp would work with them both too. Put your inner-sceptic on hold and try this gorgeous salad. I add a touch of Cajun spice to the prawns for a bolder flavour and the whole thing just sings.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/punchy-prawn-and-pear-salad"/>
+    <published>2025-07-12T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/punchy-prawn-and-pear-salad.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/simla-salmon-fishcakes</id>
+    <title>Simla salmon fishcakes</title>
+    <updated>2025-07-16T11:32:04.935108+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Simla salmon fishcakes&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/simla-salmon-fishcakes.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Classic fishcakes but extra. Mild green chillies lend their heat and green beans and coriander lend their fresh green bite to this family favourite. This makes eight generous fishcakes, which could serve four as a main course, or eight as a starter. Serve with a tangle of salad and some mayonnaise or yoghurt raita, with lemon wedges for squeezing.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/simla-salmon-fishcakes"/>
+    <published>2025-07-13T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/simla-salmon-fishcakes.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/iced-spiced-gingerbread</id>
+    <title>Iced &amp; spiced gingerbread</title>
+    <updated>2025-07-16T11:32:04.934809+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Iced &amp; spiced gingerbread&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/iced-spiced-gingerbread.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Despite the very gingery theme of this book, these mini loaves with their gilded icing are just too nice not to include in a holiday baking chapter. Perfect as a hostess gift or for a special winter afternoon tea at home.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/iced-spiced-gingerbread"/>
+    <published>2025-07-16T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/iced-spiced-gingerbread.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
