@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2025-07-16T11:32:04.934638+00:00</updated>
+  <updated>2025-07-20T17:13:16.865390+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,54 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/five-spice-pork-belly</id>
-    <title>Five-spice pork belly</title>
-    <updated>2025-07-16T11:32:04.935812+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Five-spice pork belly&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/five-spice-pork-belly.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Mustard is a classic accompaniment to crispy pork belly in hong kong – it works well and cuts through the richness of the meat. get your butcher or supermarket meat-counter assistant to score the fat of the pork belly to help save you loads of preparation time.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/five-spice-pork-belly"/>
-    <published>2025-06-29T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/five-spice-pork-belly.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/dark-chocolate-clove-cinnamon-brownies</id>
-    <title>Dark chocolate, clove &amp; cinnamon brownies</title>
-    <updated>2025-07-16T11:32:04.935645+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Dark chocolate, clove &amp; cinnamon brownies&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/dark-chocolate-clove-cinnamon-brownies.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/dark-chocolate-clove-cinnamon-brownies"/>
-    <published>2025-07-04T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/dark-chocolate-clove-cinnamon-brownies.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/lemon-coriander-seed-chilli-chicken</id>
-    <title>Lemon, coriander seed &amp; chilli chicken</title>
-    <updated>2025-07-16T11:32:04.935462+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lemon, coriander seed &amp; chilli chicken&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/lemon-coriander-seed-chilli-chicken.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Coriander haters, fear not! This lovely chicken recipe features the subtle earthy, lemon flavour of coriander seeds and not the punch of the leaves, which some people have an aversion to. When I first designed this dish, I was aiming for a Cantonese-style lemon chicken, but it has evolved into something different again, Sabrina style. Not only is it flavourful, it’s pretty simple to throw together, and great served with rice.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/lemon-coriander-seed-chilli-chicken"/>
-    <published>2025-07-05T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/lemon-coriander-seed-chilli-chicken.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/punchy-prawn-and-pear-salad</id>
     <title>Punchy prawn and pear salad</title>
-    <updated>2025-07-16T11:32:04.935291+00:00</updated>
+    <updated>2025-07-20T17:13:16.866562+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Punchy prawn and pear salad&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/punchy-prawn-and-pear-salad.webp" style="text-align:center;"/&gt;
@@ -74,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/simla-salmon-fishcakes</id>
     <title>Simla salmon fishcakes</title>
-    <updated>2025-07-16T11:32:04.935108+00:00</updated>
+    <updated>2025-07-20T17:13:16.866377+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Simla salmon fishcakes&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/simla-salmon-fishcakes.webp" style="text-align:center;"/&gt;
@@ -89,7 +44,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/iced-spiced-gingerbread</id>
     <title>Iced &amp; spiced gingerbread</title>
-    <updated>2025-07-16T11:32:04.934809+00:00</updated>
+    <updated>2025-07-20T17:13:16.866219+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Iced &amp; spiced gingerbread&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/iced-spiced-gingerbread.webp" style="text-align:center;"/&gt;
@@ -99,6 +54,51 @@
     <published>2025-07-16T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/iced-spiced-gingerbread.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/tomato-garlic-sauce</id>
+    <title>Tomato &amp; garlic sauce</title>
+    <updated>2025-07-20T17:13:16.866054+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Tomato &amp; garlic sauce&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/tomato-garlic-sauce.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This rich tomato garlic sauce is delicious served with the seafood bastillas.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/tomato-garlic-sauce"/>
+    <published>2025-07-18T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/tomato-garlic-sauce.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/seafood-bastillas</id>
+    <title>Seafood bastillas</title>
+    <updated>2025-07-20T17:13:16.865872+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Seafood bastillas&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/seafood-bastillas.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;The traditional bastilla, made with pigeon, was an opulent pie cooked for the sultans of Fez and it is still a speciality of the city. Today, bastillas have evolved to include chicken, quail and seafood varieties. My seafood bastillas are delicious served with the rich tomato and garlic sauce.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/seafood-bastillas"/>
+    <published>2025-07-18T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/seafood-bastillas.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/persian-saffron-honey-lamb</id>
+    <title>Persian saffron &amp; honey lamb</title>
+    <updated>2025-07-20T17:13:16.865602+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Persian saffron &amp; honey lamb&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/persian-saffron-honey-lamb.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;The earthy smell of saffron evokes the windy souks, sweet mint teas, colourful spice markets and beautiful mosques that inspired me to make this wonderful persian stew. the saffron and cinnamon are all you need to provide a real depth of flavour and the honey and apricots lend just the right amount of sweetness, which works perfectly with the lamb. this stew is rich but light and full of flavour from such amazing spices.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/persian-saffron-honey-lamb"/>
+    <published>2025-07-20T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/persian-saffron-honey-lamb.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>

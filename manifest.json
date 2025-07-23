@@ -42,26 +42,50 @@
     {
       "src": "/screenshots/home-mobile-dark.png",
       "type": "image/png",
-      "sizes": "512x910",
+      "sizes": "822x1546",
       "form_factor": "narrow"
     },
     {
       "src": "/screenshots/home-mobile-light.png",
       "type": "image/png",
-      "sizes": "512x910",
+      "sizes": "822x1546",
       "form_factor": "narrow"
     },
     {
       "src": "/screenshots/recipe-mobile-dark.png",
       "type": "image/png",
-      "sizes": "512x910",
+      "sizes": "822x1546",
       "form_factor": "narrow"
     },
     {
       "src": "/screenshots/recipe-mobile-light.png",
       "type": "image/png",
-      "sizes": "512x910",
+      "sizes": "822x1546",
       "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshots/home-desktop-dark.png",
+      "type": "image/png",
+      "sizes": "1100x886",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshots/home-desktop-light.png",
+      "type": "image/png",
+      "sizes": "1100x886",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshots/recipe-desktop-dark.png",
+      "type": "image/png",
+      "sizes": "1100x886",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshots/recipe-desktop-light.png",
+      "type": "image/png",
+      "sizes": "1100x886",
+      "form_factor": "wide"
     }
   ]
 }
