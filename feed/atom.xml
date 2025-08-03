@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2025-07-20T17:13:16.865390+00:00</updated>
+  <updated>2025-08-03T16:21:26.055061+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,54 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/punchy-prawn-and-pear-salad</id>
-    <title>Punchy prawn and pear salad</title>
-    <updated>2025-07-20T17:13:16.866562+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Punchy prawn and pear salad&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/punchy-prawn-and-pear-salad.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Pears pair beautifully with blue cheese, but you might not have imagined that prawns/shrimp would work with them both too. Put your inner-sceptic on hold and try this gorgeous salad. I add a touch of Cajun spice to the prawns for a bolder flavour and the whole thing just sings.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/punchy-prawn-and-pear-salad"/>
-    <published>2025-07-12T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/punchy-prawn-and-pear-salad.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/simla-salmon-fishcakes</id>
-    <title>Simla salmon fishcakes</title>
-    <updated>2025-07-20T17:13:16.866377+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Simla salmon fishcakes&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/simla-salmon-fishcakes.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Classic fishcakes but extra. Mild green chillies lend their heat and green beans and coriander lend their fresh green bite to this family favourite. This makes eight generous fishcakes, which could serve four as a main course, or eight as a starter. Serve with a tangle of salad and some mayonnaise or yoghurt raita, with lemon wedges for squeezing.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/simla-salmon-fishcakes"/>
-    <published>2025-07-13T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/simla-salmon-fishcakes.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/iced-spiced-gingerbread</id>
-    <title>Iced &amp; spiced gingerbread</title>
-    <updated>2025-07-20T17:13:16.866219+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Iced &amp; spiced gingerbread&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/iced-spiced-gingerbread.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Despite the very gingery theme of this book, these mini loaves with their gilded icing are just too nice not to include in a holiday baking chapter. Perfect as a hostess gift or for a special winter afternoon tea at home.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/iced-spiced-gingerbread"/>
-    <published>2025-07-16T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/iced-spiced-gingerbread.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/tomato-garlic-sauce</id>
     <title>Tomato &amp; garlic sauce</title>
-    <updated>2025-07-20T17:13:16.866054+00:00</updated>
+    <updated>2025-08-03T16:21:26.056281+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Tomato &amp; garlic sauce&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/tomato-garlic-sauce.webp" style="text-align:center;"/&gt;
@@ -74,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/seafood-bastillas</id>
     <title>Seafood bastillas</title>
-    <updated>2025-07-20T17:13:16.865872+00:00</updated>
+    <updated>2025-08-03T16:21:26.056115+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Seafood bastillas&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/seafood-bastillas.webp" style="text-align:center;"/&gt;
@@ -89,7 +44,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/persian-saffron-honey-lamb</id>
     <title>Persian saffron &amp; honey lamb</title>
-    <updated>2025-07-20T17:13:16.865602+00:00</updated>
+    <updated>2025-08-03T16:21:26.055946+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Persian saffron &amp; honey lamb&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/persian-saffron-honey-lamb.webp" style="text-align:center;"/&gt;
@@ -99,6 +54,51 @@
     <published>2025-07-20T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/persian-saffron-honey-lamb.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/potato-tagine</id>
+    <title>Potato tagine</title>
+    <updated>2025-08-03T16:21:26.055772+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Potato tagine&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/potato-tagine.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Potato tagine might not sound like much, but this delicious Moroccan meal is divine. The potatoes soak up all the spices as they cook gently in the sauce, and a drizzle of harissa oil gives a killer kick at the end. Traditionally this humble dish would be served with bread and fried fish from the souk. I enjoy it just as it is for a simple mid-week supper.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/potato-tagine"/>
+    <published>2025-07-26T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/potato-tagine.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/fez-kefta-sandwich</id>
+    <title>Fez kefta sandwich</title>
+    <updated>2025-08-03T16:21:26.055573+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Fez kefta sandwich&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/fez-kefta-sandwich.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Fez has some of the best street food in Morocco, and as you weave your way through the narrow roads and winding alleyways, you discover more and more delicious snacks. This sandwich is a classic – minced meat cooked on a hot plate with onions, herbs and spices, and served with masses of chilli sauce in a soft, white roll. You can choose from lamb, beef or merguez sausage, or even have a meat feast and mix all three. It’s the ultimate speedy snack.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/fez-kefta-sandwich"/>
+    <published>2025-07-29T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/fez-kefta-sandwich.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/shirodashi-ramen</id>
+    <title>Shirodashi ramen</title>
+    <updated>2025-08-03T16:21:26.055269+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Shirodashi ramen&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/shirodashi-ramen.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This soulful ramen of slow-cooked pork belly in a rich savoury broth makes a deliciously warming meal, perfect for those cold, crisp nights.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/shirodashi-ramen"/>
+    <published>2025-08-03T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/shirodashi-ramen.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>

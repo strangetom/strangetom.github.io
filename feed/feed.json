@@ -12,6 +12,33 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/shirodashi-ramen",
+      "url": "https://www.strangerfoods.org/recipes/shirodashi-ramen",
+      "title": "Shirodashi ramen",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Shirodashi ramen</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/shirodashi-ramen.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This soulful ramen of slow-cooked pork belly in a rich savoury broth makes a deliciously warming meal, perfect for those cold, crisp nights.</p>",
+      "image": "https://www.strangerfoods.org/images/shirodashi-ramen.webp",
+      "date_published": "2025-08-03T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/fez-kefta-sandwich",
+      "url": "https://www.strangerfoods.org/recipes/fez-kefta-sandwich",
+      "title": "Fez kefta sandwich",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Fez kefta sandwich</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/fez-kefta-sandwich.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Fez has some of the best street food in Morocco, and as you weave your way through the narrow roads and winding alleyways, you discover more and more delicious snacks. This sandwich is a classic \u2013 minced meat cooked on a hot plate with onions, herbs and spices, and served with masses of chilli sauce in a soft, white roll. You can choose from lamb, beef or merguez sausage, or even have a meat feast and mix all three. It\u2019s the ultimate speedy snack.</p>",
+      "image": "https://www.strangerfoods.org/images/fez-kefta-sandwich.webp",
+      "date_published": "2025-07-29T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/potato-tagine",
+      "url": "https://www.strangerfoods.org/recipes/potato-tagine",
+      "title": "Potato tagine",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Potato tagine</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/potato-tagine.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Potato tagine might not sound like much, but this delicious Moroccan meal is divine. The potatoes soak up all the spices as they cook gently in the sauce, and a drizzle of harissa oil gives a killer kick at the end. Traditionally this humble dish would be served with bread and fried fish from the souk. I enjoy it just as it is for a simple mid-week supper.</p>",
+      "image": "https://www.strangerfoods.org/images/potato-tagine.webp",
+      "date_published": "2025-07-26T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/persian-saffron-honey-lamb",
       "url": "https://www.strangerfoods.org/recipes/persian-saffron-honey-lamb",
       "title": "Persian saffron & honey lamb",
@@ -36,33 +63,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Tomato & garlic sauce</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/tomato-garlic-sauce.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This rich tomato garlic sauce is delicious served with the seafood bastillas.</p>",
       "image": "https://www.strangerfoods.org/images/tomato-garlic-sauce.webp",
       "date_published": "2025-07-18T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/iced-spiced-gingerbread",
-      "url": "https://www.strangerfoods.org/recipes/iced-spiced-gingerbread",
-      "title": "Iced & spiced gingerbread",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Iced & spiced gingerbread</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/iced-spiced-gingerbread.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Despite the very gingery theme of this book, these mini loaves with their gilded icing are just too nice not to include in a holiday baking chapter. Perfect as a hostess gift or for a special winter afternoon tea at home.</p>",
-      "image": "https://www.strangerfoods.org/images/iced-spiced-gingerbread.webp",
-      "date_published": "2025-07-16T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/simla-salmon-fishcakes",
-      "url": "https://www.strangerfoods.org/recipes/simla-salmon-fishcakes",
-      "title": "Simla salmon fishcakes",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Simla salmon fishcakes</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/simla-salmon-fishcakes.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Classic fishcakes but extra. Mild green chillies lend their heat and green beans and coriander lend their fresh green bite to this family favourite. This makes eight generous fishcakes, which could serve four as a main course, or eight as a starter. Serve with a tangle of salad and some mayonnaise or yoghurt raita, with lemon wedges for squeezing.</p>",
-      "image": "https://www.strangerfoods.org/images/simla-salmon-fishcakes.webp",
-      "date_published": "2025-07-13T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/punchy-prawn-and-pear-salad",
-      "url": "https://www.strangerfoods.org/recipes/punchy-prawn-and-pear-salad",
-      "title": "Punchy prawn and pear salad",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Punchy prawn and pear salad</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/punchy-prawn-and-pear-salad.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Pears pair beautifully with blue cheese, but you might not have imagined that prawns/shrimp would work with them both too. Put your inner-sceptic on hold and try this gorgeous salad. I add a touch of Cajun spice to the prawns for a bolder flavour and the whole thing just sings.</p>",
-      "image": "https://www.strangerfoods.org/images/punchy-prawn-and-pear-salad.webp",
-      "date_published": "2025-07-12T00:00:00+00:00Z",
       "language": "en"
     }
   ]
