@@ -12,6 +12,33 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/pulled-pork-chilli",
+      "url": "https://www.strangerfoods.org/recipes/pulled-pork-chilli",
+      "title": "Pulled pork chilli",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Pulled pork chilli</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/pulled-pork-chilli.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Melt-in-the-mouth pulled pork takes this easy peasy chilli recipe to the next level. Made in the oven or slow cooker, you won\u2019t regret adding this to your midweek menu. Bulked out with vegetables and beans so the small joint of pork goes a long way, this one\u2019s great when you\u2019re watching your pennies as well as your calories. It\u2019s well worth batch-cooking and stashing away the leftovers for a rainy day.</p>",
+      "image": "https://www.strangerfoods.org/images/pulled-pork-chilli.webp",
+      "date_published": "2025-08-30T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/tfaya-with-moroccan-fry",
+      "url": "https://www.strangerfoods.org/recipes/tfaya-with-moroccan-fry",
+      "title": "Tfaya with moroccan fry",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Tfaya with moroccan fry</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/tfaya-with-moroccan-fry.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Made with caramelised onions, raisins, cinnamon and sugar, tfaya is the sweet slick that gives a decadent finish to savoury dishes, from tagines to couscous. It\u2019s the cherry on top, to lux out the meal for a special occasion \u2013 like the Seven Vegetables Couscous. Catering for the Moroccan sweet tooth, it should have bucket loads of sugar, but my palate (and my dentist) are not so keen. So my version omits all but a pinch of sugar, as I feel the sweetness of the onions is enough. I serve tfaya with a really simple chicken fry, flavoured with dry chermoula and cumin.</p>",
+      "image": "https://www.strangerfoods.org/images/tfaya-with-moroccan-fry.webp",
+      "date_published": "2025-08-26T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/potato-topped-spiced-chickpeas",
+      "url": "https://www.strangerfoods.org/recipes/potato-topped-spiced-chickpeas",
+      "title": "Potato-topped spiced chickpeas",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Potato-topped spiced chickpeas</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/potato-topped-spiced-chickpeas.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>The base of this recipe is inspired very loosely by a chana masala. Feel free to up the chilli content if you\u2019re partial to more heat.</p>",
+      "image": "https://www.strangerfoods.org/images/potato-topped-spiced-chickpeas.webp",
+      "date_published": "2025-08-23T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/ginger-beer-pork",
       "url": "https://www.strangerfoods.org/recipes/ginger-beer-pork",
       "title": "Ginger-beer pork",
@@ -36,33 +63,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Spiced lamb meatballs with sumac roasted cauliflower & pomegranate</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/spiced-lamb-meatballs-with-sumac-roasted-cauliflower-pomegranate.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Think about the best lamb kofte or kebabs you\u2019ve ever had and you\u2019ll have an idea of how flavoursome this dish is. The warming spices in the lamb work perfectly with the pomegranates and lemony cauliflower. Serve with flatbreads or cous cous.</p>",
       "image": "https://www.strangerfoods.org/images/spiced-lamb-meatballs-with-sumac-roasted-cauliflower-pomegranate.webp",
       "date_published": "2025-08-10T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/classic-full-english-breakfast",
-      "url": "https://www.strangerfoods.org/recipes/classic-full-english-breakfast",
-      "title": "Classic full english breakfast",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Classic full english breakfast</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/classic-full-english-breakfast.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>There are no bells or whistles here, and deliberately so. Some mornings demand a simple hearty breakfast that requires next to no effort \u2013 and this is it. Make the tea, read the papers and let the oven do the cooking: just attend to the roasting pan now and then.</p>",
-      "image": "https://www.strangerfoods.org/images/classic-full-english-breakfast.webp",
-      "date_published": "2025-08-09T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/shirodashi-ramen",
-      "url": "https://www.strangerfoods.org/recipes/shirodashi-ramen",
-      "title": "Shirodashi ramen",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Shirodashi ramen</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/shirodashi-ramen.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This soulful ramen of slow-cooked pork belly in a rich savoury broth makes a deliciously warming meal, perfect for those cold, crisp nights.</p>",
-      "image": "https://www.strangerfoods.org/images/shirodashi-ramen.webp",
-      "date_published": "2025-08-03T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/fez-kefta-sandwich",
-      "url": "https://www.strangerfoods.org/recipes/fez-kefta-sandwich",
-      "title": "Fez kefta sandwich",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Fez kefta sandwich</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/fez-kefta-sandwich.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Fez has some of the best street food in Morocco, and as you weave your way through the narrow roads and winding alleyways, you discover more and more delicious snacks. This sandwich is a classic \u2013 minced meat cooked on a hot plate with onions, herbs and spices, and served with masses of chilli sauce in a soft, white roll. You can choose from lamb, beef or merguez sausage, or even have a meat feast and mix all three. It\u2019s the ultimate speedy snack.</p>",
-      "image": "https://www.strangerfoods.org/images/fez-kefta-sandwich.webp",
-      "date_published": "2025-07-29T00:00:00+00:00Z",
       "language": "en"
     }
   ]
