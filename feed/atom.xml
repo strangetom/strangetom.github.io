@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2025-08-30T17:16:04.580783+00:00</updated>
+  <updated>2025-09-20T16:41:22.664448+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,69 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/spiced-lamb-meatballs-with-sumac-roasted-cauliflower-pomegranate</id>
-    <title>Spiced lamb meatballs with sumac roasted cauliflower &amp; pomegranate</title>
-    <updated>2025-08-30T17:16:04.598965+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Spiced lamb meatballs with sumac roasted cauliflower &amp; pomegranate&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/spiced-lamb-meatballs-with-sumac-roasted-cauliflower-pomegranate.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Think about the best lamb kofte or kebabs you’ve ever had and you’ll have an idea of how flavoursome this dish is. The warming spices in the lamb work perfectly with the pomegranates and lemony cauliflower. Serve with flatbreads or cous cous.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/spiced-lamb-meatballs-with-sumac-roasted-cauliflower-pomegranate"/>
-    <published>2025-08-10T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/spiced-lamb-meatballs-with-sumac-roasted-cauliflower-pomegranate.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/carrot-pepper-pasta</id>
-    <title>Carrot pepper pasta</title>
-    <updated>2025-08-30T17:16:04.598772+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Carrot pepper pasta&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/carrot-pepper-pasta.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Easy pasta recipes are a thing we all need to get on board with, whether you have kids, a large family, a tight budget or are incredibly time poor, or, like me, all of the above. In which case, this recipe is perfect. Made out of tinned carrots and flavoured to the nines, this simple sauce is stirred through with pasta, peas and prawns. It’s bright and delicious, but most of all, quick!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/carrot-pepper-pasta"/>
-    <published>2025-08-15T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/carrot-pepper-pasta.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/ginger-beer-pork</id>
-    <title>Ginger-beer pork</title>
-    <updated>2025-08-30T17:16:04.598577+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Ginger-beer pork&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/ginger-beer-pork.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;I love the bite and fragrance of ginger with pork and the addition of ginger beer in this super-simple dish makes it the work of moments. The sweetness that the ginger beer brings is also wonderful when offset with the pungent, savoury hit of the English mustard. You could use wholegrain or Dijon if you prefer, both of which would give a slightly tart edge to the dish that would also be very welcome.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/ginger-beer-pork"/>
-    <published>2025-08-17T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/ginger-beer-pork.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/potato-topped-spiced-chickpeas</id>
-    <title>Potato-topped spiced chickpeas</title>
-    <updated>2025-08-30T17:16:04.598364+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Potato-topped spiced chickpeas&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/potato-topped-spiced-chickpeas.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;The base of this recipe is inspired very loosely by a chana masala. Feel free to up the chilli content if you’re partial to more heat.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/potato-topped-spiced-chickpeas"/>
-    <published>2025-08-23T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/potato-topped-spiced-chickpeas.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/tfaya-with-moroccan-fry</id>
     <title>Tfaya with moroccan fry</title>
-    <updated>2025-08-30T17:16:04.598049+00:00</updated>
+    <updated>2025-09-20T16:41:22.679256+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Tfaya with moroccan fry&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/tfaya-with-moroccan-fry.webp" style="text-align:center;"/&gt;
@@ -89,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/pulled-pork-chilli</id>
     <title>Pulled pork chilli</title>
-    <updated>2025-08-30T17:16:04.589486+00:00</updated>
+    <updated>2025-09-20T16:41:22.679057+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pulled pork chilli&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/pulled-pork-chilli.webp" style="text-align:center;"/&gt;
@@ -99,6 +39,66 @@
     <published>2025-08-30T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/pulled-pork-chilli.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/italian-style-tuna-sandwich</id>
+    <title>Italian-style tuna sandwich</title>
+    <updated>2025-09-20T16:41:22.678854+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Italian-style tuna sandwich&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/italian-style-tuna-sandwich.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Though an American cook (or even a French one) usually adds mayonnaise to the bowl when dressing canned tuna for a sandwich, Italian cooks invariably anoint theirs with olive oil instead. Capers, olives and anchovy often join the festivities; here they are combined with garlic and parsley to make a zesty salsa verde. Choose the best quality Italian or Spanish canned tuna—the extra cost is well worth it. The other essential ingredient is freshly baked bread, like a good crisp baguette or crusty ciabatta roll.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/italian-style-tuna-sandwich"/>
+    <published>2025-09-06T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/italian-style-tuna-sandwich.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/kale-fennel-and-noodle-soup</id>
+    <title>Kale, fennel and noodle soup</title>
+    <updated>2025-09-20T16:41:22.678625+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Kale, fennel and noodle soup&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/kale-fennel-and-noodle-soup.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This simple, rustic soup is elegantly soothing. It bears a close resemblance to the classic Iranian noodle soup aash e reshteh, which leads me to believe that it found its way into the Palestinian kitchen during the time when the Persian empire ruled over the region 2,500 years ago. Whatever its history, it is a soup I make whenever I want to replenish depleted energy levels, or when I want to offer something restorative at the table, as it is packed with greens and healthy legumes. Feel free to substitute the linguine for another pasta, just be sure to adapt the cooking times according to the packet instructions of your noodle.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/kale-fennel-and-noodle-soup"/>
+    <published>2025-09-07T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/kale-fennel-and-noodle-soup.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/bean-stew-with-cheese-flatbreads-and-pickled-onions</id>
+    <title>Bean stew with cheese flatbreads and pickled onions</title>
+    <updated>2025-09-20T16:41:22.678333+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Bean stew with cheese flatbreads and pickled onions&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/bean-stew-with-cheese-flatbreads-and-pickled-onions.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Iahnie is a way of cooking with just enough liquid for the ingredients to infuse and melt together. It’s a Persian technique brought to the Balkans and north of the Danube by the Ottomans, who used it in meat dishes with beans, pulses and vegetables. In Romania, it is almost always a white bean stew without meat, although I found old recipes that used potatoes, peas and even octopus instead. I serve my iahnie with scovergi, fried cheese flatbreads with crispy edges and a gooey middle, for a more satisfying meal.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/bean-stew-with-cheese-flatbreads-and-pickled-onions"/>
+    <published>2025-09-14T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/bean-stew-with-cheese-flatbreads-and-pickled-onions.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/black-sea-orzo-and-toasted-vermicelli-pilaf-with-haddock</id>
+    <title>Black sea orzo and toasted vermicelli pilaf with haddock</title>
+    <updated>2025-09-20T16:41:22.671512+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Black sea orzo and toasted vermicelli pilaf with haddock&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/black-sea-orzo-and-toasted-vermicelli-pilaf-with-haddock.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This is a wonderful dish inspired by the Turkish and Tatar cuisines in Dobrogea, where they combine orzo with vermicelli pasta in dishes called botqa. Although most of them are made to accompany meat, I use the recipe with fish.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/black-sea-orzo-and-toasted-vermicelli-pilaf-with-haddock"/>
+    <published>2025-09-20T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/black-sea-orzo-and-toasted-vermicelli-pilaf-with-haddock.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>

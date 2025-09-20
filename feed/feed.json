@@ -12,6 +12,42 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/black-sea-orzo-and-toasted-vermicelli-pilaf-with-haddock",
+      "url": "https://www.strangerfoods.org/recipes/black-sea-orzo-and-toasted-vermicelli-pilaf-with-haddock",
+      "title": "Black sea orzo and toasted vermicelli pilaf with haddock",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Black sea orzo and toasted vermicelli pilaf with haddock</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/black-sea-orzo-and-toasted-vermicelli-pilaf-with-haddock.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This is a wonderful dish inspired by the Turkish and Tatar cuisines in Dobrogea, where they combine orzo with vermicelli pasta in dishes called botqa. Although most of them are made to accompany meat, I use the recipe with fish.</p>",
+      "image": "https://www.strangerfoods.org/images/black-sea-orzo-and-toasted-vermicelli-pilaf-with-haddock.webp",
+      "date_published": "2025-09-20T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/bean-stew-with-cheese-flatbreads-and-pickled-onions",
+      "url": "https://www.strangerfoods.org/recipes/bean-stew-with-cheese-flatbreads-and-pickled-onions",
+      "title": "Bean stew with cheese flatbreads and pickled onions",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Bean stew with cheese flatbreads and pickled onions</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/bean-stew-with-cheese-flatbreads-and-pickled-onions.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Iahnie is a way of cooking with just enough liquid for the ingredients to infuse and melt together. It\u2019s a Persian technique brought to the Balkans and north of the Danube by the Ottomans, who used it in meat dishes with beans, pulses and vegetables. In Romania, it is almost always a white bean stew without meat, although I found old recipes that used potatoes, peas and even octopus instead. I serve my iahnie with scovergi, fried cheese flatbreads with crispy edges and a gooey middle, for a more satisfying meal.</p>",
+      "image": "https://www.strangerfoods.org/images/bean-stew-with-cheese-flatbreads-and-pickled-onions.webp",
+      "date_published": "2025-09-14T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/kale-fennel-and-noodle-soup",
+      "url": "https://www.strangerfoods.org/recipes/kale-fennel-and-noodle-soup",
+      "title": "Kale, fennel and noodle soup",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Kale, fennel and noodle soup</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/kale-fennel-and-noodle-soup.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This simple, rustic soup is elegantly soothing. It bears a close resemblance to the classic Iranian noodle soup aash e reshteh, which leads me to believe that it found its way into the Palestinian kitchen during the time when the Persian empire ruled over the region 2,500 years ago. Whatever its history, it is a soup I make whenever I want to replenish depleted energy levels, or when I want to offer something restorative at the table, as it is packed with greens and healthy legumes. Feel free to substitute the linguine for another pasta, just be sure to adapt the cooking times according to the packet instructions of your noodle.</p>",
+      "image": "https://www.strangerfoods.org/images/kale-fennel-and-noodle-soup.webp",
+      "date_published": "2025-09-07T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/italian-style-tuna-sandwich",
+      "url": "https://www.strangerfoods.org/recipes/italian-style-tuna-sandwich",
+      "title": "Italian-style tuna sandwich",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Italian-style tuna sandwich</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/italian-style-tuna-sandwich.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Though an American cook (or even a French one) usually adds mayonnaise to the bowl when dressing canned tuna for a sandwich, Italian cooks invariably anoint theirs with olive oil instead. Capers, olives and anchovy often join the festivities; here they are combined with garlic and parsley to make a zesty salsa verde. Choose the best quality Italian or Spanish canned tuna\u2014the extra cost is well worth it. The other essential ingredient is freshly baked bread, like a good crisp baguette or crusty ciabatta roll.</p>",
+      "image": "https://www.strangerfoods.org/images/italian-style-tuna-sandwich.webp",
+      "date_published": "2025-09-06T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/pulled-pork-chilli",
       "url": "https://www.strangerfoods.org/recipes/pulled-pork-chilli",
       "title": "Pulled pork chilli",
@@ -27,42 +63,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Tfaya with moroccan fry</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/tfaya-with-moroccan-fry.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Made with caramelised onions, raisins, cinnamon and sugar, tfaya is the sweet slick that gives a decadent finish to savoury dishes, from tagines to couscous. It\u2019s the cherry on top, to lux out the meal for a special occasion \u2013 like the Seven Vegetables Couscous. Catering for the Moroccan sweet tooth, it should have bucket loads of sugar, but my palate (and my dentist) are not so keen. So my version omits all but a pinch of sugar, as I feel the sweetness of the onions is enough. I serve tfaya with a really simple chicken fry, flavoured with dry chermoula and cumin.</p>",
       "image": "https://www.strangerfoods.org/images/tfaya-with-moroccan-fry.webp",
       "date_published": "2025-08-26T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/potato-topped-spiced-chickpeas",
-      "url": "https://www.strangerfoods.org/recipes/potato-topped-spiced-chickpeas",
-      "title": "Potato-topped spiced chickpeas",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Potato-topped spiced chickpeas</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/potato-topped-spiced-chickpeas.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>The base of this recipe is inspired very loosely by a chana masala. Feel free to up the chilli content if you\u2019re partial to more heat.</p>",
-      "image": "https://www.strangerfoods.org/images/potato-topped-spiced-chickpeas.webp",
-      "date_published": "2025-08-23T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/ginger-beer-pork",
-      "url": "https://www.strangerfoods.org/recipes/ginger-beer-pork",
-      "title": "Ginger-beer pork",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Ginger-beer pork</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/ginger-beer-pork.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>I love the bite and fragrance of ginger with pork and the addition of ginger beer in this super-simple dish makes it the work of moments. The sweetness that the ginger beer brings is also wonderful when offset with the pungent, savoury hit of the English mustard. You could use wholegrain or Dijon if you prefer, both of which would give a slightly tart edge to the dish that would also be very welcome.</p>",
-      "image": "https://www.strangerfoods.org/images/ginger-beer-pork.webp",
-      "date_published": "2025-08-17T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/carrot-pepper-pasta",
-      "url": "https://www.strangerfoods.org/recipes/carrot-pepper-pasta",
-      "title": "Carrot pepper pasta",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Carrot pepper pasta</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/carrot-pepper-pasta.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Easy pasta recipes are a thing we all need to get on board with, whether you have kids, a large family, a tight budget or are incredibly time poor, or, like me, all of the above. In which case, this recipe is perfect. Made out of tinned carrots and flavoured to the nines, this simple sauce is stirred through with pasta, peas and prawns. It\u2019s bright and delicious, but most of all, quick!</p>",
-      "image": "https://www.strangerfoods.org/images/carrot-pepper-pasta.webp",
-      "date_published": "2025-08-15T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/spiced-lamb-meatballs-with-sumac-roasted-cauliflower-pomegranate",
-      "url": "https://www.strangerfoods.org/recipes/spiced-lamb-meatballs-with-sumac-roasted-cauliflower-pomegranate",
-      "title": "Spiced lamb meatballs with sumac roasted cauliflower & pomegranate",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Spiced lamb meatballs with sumac roasted cauliflower & pomegranate</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/spiced-lamb-meatballs-with-sumac-roasted-cauliflower-pomegranate.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Think about the best lamb kofte or kebabs you\u2019ve ever had and you\u2019ll have an idea of how flavoursome this dish is. The warming spices in the lamb work perfectly with the pomegranates and lemony cauliflower. Serve with flatbreads or cous cous.</p>",
-      "image": "https://www.strangerfoods.org/images/spiced-lamb-meatballs-with-sumac-roasted-cauliflower-pomegranate.webp",
-      "date_published": "2025-08-10T00:00:00+00:00Z",
       "language": "en"
     }
   ]
