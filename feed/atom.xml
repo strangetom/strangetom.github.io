@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2025-09-20T16:41:22.664448+00:00</updated>
+  <updated>2025-09-28T17:51:16.123323+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,39 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/tfaya-with-moroccan-fry</id>
-    <title>Tfaya with moroccan fry</title>
-    <updated>2025-09-20T16:41:22.679256+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Tfaya with moroccan fry&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/tfaya-with-moroccan-fry.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Made with caramelised onions, raisins, cinnamon and sugar, tfaya is the sweet slick that gives a decadent finish to savoury dishes, from tagines to couscous. It’s the cherry on top, to lux out the meal for a special occasion – like the Seven Vegetables Couscous. Catering for the Moroccan sweet tooth, it should have bucket loads of sugar, but my palate (and my dentist) are not so keen. So my version omits all but a pinch of sugar, as I feel the sweetness of the onions is enough. I serve tfaya with a really simple chicken fry, flavoured with dry chermoula and cumin.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/tfaya-with-moroccan-fry"/>
-    <published>2025-08-26T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/tfaya-with-moroccan-fry.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/pulled-pork-chilli</id>
-    <title>Pulled pork chilli</title>
-    <updated>2025-09-20T16:41:22.679057+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pulled pork chilli&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/pulled-pork-chilli.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Melt-in-the-mouth pulled pork takes this easy peasy chilli recipe to the next level. Made in the oven or slow cooker, you won’t regret adding this to your midweek menu. Bulked out with vegetables and beans so the small joint of pork goes a long way, this one’s great when you’re watching your pennies as well as your calories. It’s well worth batch-cooking and stashing away the leftovers for a rainy day.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/pulled-pork-chilli"/>
-    <published>2025-08-30T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/pulled-pork-chilli.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/italian-style-tuna-sandwich</id>
     <title>Italian-style tuna sandwich</title>
-    <updated>2025-09-20T16:41:22.678854+00:00</updated>
+    <updated>2025-09-28T17:51:16.126725+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Italian-style tuna sandwich&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/italian-style-tuna-sandwich.webp" style="text-align:center;"/&gt;
@@ -59,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/kale-fennel-and-noodle-soup</id>
     <title>Kale, fennel and noodle soup</title>
-    <updated>2025-09-20T16:41:22.678625+00:00</updated>
+    <updated>2025-09-28T17:51:16.126542+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Kale, fennel and noodle soup&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/kale-fennel-and-noodle-soup.webp" style="text-align:center;"/&gt;
@@ -74,7 +44,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/bean-stew-with-cheese-flatbreads-and-pickled-onions</id>
     <title>Bean stew with cheese flatbreads and pickled onions</title>
-    <updated>2025-09-20T16:41:22.678333+00:00</updated>
+    <updated>2025-09-28T17:51:16.126345+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Bean stew with cheese flatbreads and pickled onions&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/bean-stew-with-cheese-flatbreads-and-pickled-onions.webp" style="text-align:center;"/&gt;
@@ -89,7 +59,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/black-sea-orzo-and-toasted-vermicelli-pilaf-with-haddock</id>
     <title>Black sea orzo and toasted vermicelli pilaf with haddock</title>
-    <updated>2025-09-20T16:41:22.671512+00:00</updated>
+    <updated>2025-09-28T17:51:16.126124+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Black sea orzo and toasted vermicelli pilaf with haddock&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/black-sea-orzo-and-toasted-vermicelli-pilaf-with-haddock.webp" style="text-align:center;"/&gt;
@@ -99,6 +69,36 @@
     <published>2025-09-20T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/black-sea-orzo-and-toasted-vermicelli-pilaf-with-haddock.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/gazan-beef-chickpeas-and-swiss-chard</id>
+    <title>Gazan beef, chickpeas and swiss chard</title>
+    <updated>2025-09-28T17:51:16.125857+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Gazan beef, chickpeas and swiss chard&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/gazan-beef-chickpeas-and-swiss-chard.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This sharp and tangy stew is one of the signature dishes of Gaza City and is another recipe adapted from Laila El-Haddad and Maggie Schmitt’s excellent book The Gaza Kitchen. Traditionally made with dill seeds and the roasted red tahini of the city, my version uses caraway seeds and toasted sesame oil, both more readily available in Western supermarkets. Of course, if you happen to come across the former ingredients, don’t hesitate to use them for a more authentic version. In Gaza this is often served at room temperature with warm bread. The accompaniments are up to you; I like it with steamed rice or—if I need something a little more comforting—a generous portion of creamy mashed potato. This tastes even better the next day, so is a great make-ahead dish.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/gazan-beef-chickpeas-and-swiss-chard"/>
+    <published>2025-09-27T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/gazan-beef-chickpeas-and-swiss-chard.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/roasted-potato-onion-and-fennel-tagine-with-sumac-and-balsamic-vinegar</id>
+    <title>Roasted potato, onion and fennel tagine with sumac and balsamic vinegar</title>
+    <updated>2025-09-28T17:51:16.125429+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Roasted potato, onion and fennel tagine with sumac and balsamic vinegar&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/roasted-potato-onion-and-fennel-tagine-with-sumac-and-balsamic-vinegar.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Potatoes often feature in peasant or ‘poor man’s’ tagines with onions and garlic and perhaps a few herbs or spices. This roasted variation of a classic poor man’s tagine is delicious served with a fresh tomato or fruit-based salad.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/roasted-potato-onion-and-fennel-tagine-with-sumac-and-balsamic-vinegar"/>
+    <published>2025-09-28T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/roasted-potato-onion-and-fennel-tagine-with-sumac-and-balsamic-vinegar.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
