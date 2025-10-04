@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2025-09-28T17:51:16.123323+00:00</updated>
+  <updated>2025-10-04T16:25:38.695654+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,69 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/italian-style-tuna-sandwich</id>
-    <title>Italian-style tuna sandwich</title>
-    <updated>2025-09-28T17:51:16.126725+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Italian-style tuna sandwich&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/italian-style-tuna-sandwich.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Though an American cook (or even a French one) usually adds mayonnaise to the bowl when dressing canned tuna for a sandwich, Italian cooks invariably anoint theirs with olive oil instead. Capers, olives and anchovy often join the festivities; here they are combined with garlic and parsley to make a zesty salsa verde. Choose the best quality Italian or Spanish canned tuna—the extra cost is well worth it. The other essential ingredient is freshly baked bread, like a good crisp baguette or crusty ciabatta roll.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/italian-style-tuna-sandwich"/>
-    <published>2025-09-06T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/italian-style-tuna-sandwich.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/kale-fennel-and-noodle-soup</id>
-    <title>Kale, fennel and noodle soup</title>
-    <updated>2025-09-28T17:51:16.126542+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Kale, fennel and noodle soup&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/kale-fennel-and-noodle-soup.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This simple, rustic soup is elegantly soothing. It bears a close resemblance to the classic Iranian noodle soup aash e reshteh, which leads me to believe that it found its way into the Palestinian kitchen during the time when the Persian empire ruled over the region 2,500 years ago. Whatever its history, it is a soup I make whenever I want to replenish depleted energy levels, or when I want to offer something restorative at the table, as it is packed with greens and healthy legumes. Feel free to substitute the linguine for another pasta, just be sure to adapt the cooking times according to the packet instructions of your noodle.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/kale-fennel-and-noodle-soup"/>
-    <published>2025-09-07T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/kale-fennel-and-noodle-soup.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/bean-stew-with-cheese-flatbreads-and-pickled-onions</id>
-    <title>Bean stew with cheese flatbreads and pickled onions</title>
-    <updated>2025-09-28T17:51:16.126345+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Bean stew with cheese flatbreads and pickled onions&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/bean-stew-with-cheese-flatbreads-and-pickled-onions.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Iahnie is a way of cooking with just enough liquid for the ingredients to infuse and melt together. It’s a Persian technique brought to the Balkans and north of the Danube by the Ottomans, who used it in meat dishes with beans, pulses and vegetables. In Romania, it is almost always a white bean stew without meat, although I found old recipes that used potatoes, peas and even octopus instead. I serve my iahnie with scovergi, fried cheese flatbreads with crispy edges and a gooey middle, for a more satisfying meal.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/bean-stew-with-cheese-flatbreads-and-pickled-onions"/>
-    <published>2025-09-14T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/bean-stew-with-cheese-flatbreads-and-pickled-onions.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/black-sea-orzo-and-toasted-vermicelli-pilaf-with-haddock</id>
-    <title>Black sea orzo and toasted vermicelli pilaf with haddock</title>
-    <updated>2025-09-28T17:51:16.126124+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Black sea orzo and toasted vermicelli pilaf with haddock&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/black-sea-orzo-and-toasted-vermicelli-pilaf-with-haddock.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This is a wonderful dish inspired by the Turkish and Tatar cuisines in Dobrogea, where they combine orzo with vermicelli pasta in dishes called botqa. Although most of them are made to accompany meat, I use the recipe with fish.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/black-sea-orzo-and-toasted-vermicelli-pilaf-with-haddock"/>
-    <published>2025-09-20T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/black-sea-orzo-and-toasted-vermicelli-pilaf-with-haddock.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/gazan-beef-chickpeas-and-swiss-chard</id>
     <title>Gazan beef, chickpeas and swiss chard</title>
-    <updated>2025-09-28T17:51:16.125857+00:00</updated>
+    <updated>2025-10-04T16:25:38.696874+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Gazan beef, chickpeas and swiss chard&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/gazan-beef-chickpeas-and-swiss-chard.webp" style="text-align:center;"/&gt;
@@ -89,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/roasted-potato-onion-and-fennel-tagine-with-sumac-and-balsamic-vinegar</id>
     <title>Roasted potato, onion and fennel tagine with sumac and balsamic vinegar</title>
-    <updated>2025-09-28T17:51:16.125429+00:00</updated>
+    <updated>2025-10-04T16:25:38.696682+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Roasted potato, onion and fennel tagine with sumac and balsamic vinegar&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/roasted-potato-onion-and-fennel-tagine-with-sumac-and-balsamic-vinegar.webp" style="text-align:center;"/&gt;
@@ -99,6 +39,70 @@
     <published>2025-09-28T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/roasted-potato-onion-and-fennel-tagine-with-sumac-and-balsamic-vinegar.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/keema-puffs</id>
+    <title>Keema puffs</title>
+    <updated>2025-10-04T16:25:38.696528+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Keema puffs&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/keema-puffs.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;In Bombay a puff is a tasty little pastry parcel, stuffed with minced lamb keema, spiced vegetables or another first-rate filling, not unlike a small pasty. Sassanian in Dhobi Talao serves the best ones with mutton, chicken and vegetable variations.
+
+These keema puffs will be very good with a little tamarind chutney or even chilli chutney, but in Bombay you would eat them with good old tomato ketchup.
+
+Make sure the filling is completely cold before you assemble the puffs, other wise the pastry will be difficult to handle.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/keema-puffs"/>
+    <published>2025-10-03T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/keema-puffs.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/keema-pau</id>
+    <title>Keema pau</title>
+    <updated>2025-10-04T16:25:38.696356+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Keema pau&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/keema-pau.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Keema (lamb mince) is well spiced, studded with green peas and usually served with pau (pillowy fresh bread buns), for much mopping. For us, this dish is synonymous with many places in Bombay: Olympia Coffee House and Café Paris on Colaba Causeway, and Radio Restaurant behind Crawford Market (supposedly where the local Muslim gangsters hang out). A good dish of this keema is guaranteed to transport us back to these places.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/keema-pau"/>
+    <published>2025-10-03T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/keema-pau.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/gingerbread-blondies</id>
+    <title>Gingerbread blondies</title>
+    <updated>2025-10-04T16:25:38.696150+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Gingerbread blondies&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/gingerbread-blondies.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;These blondies have a wintry undertone with all their delicious spices! The broken-up ginger biscuits melt into the mixture to become little gingery bites.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/gingerbread-blondies"/>
+    <published>2025-10-03T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/gingerbread-blondies.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/duck-black-bean-tostadas</id>
+    <title>Duck &amp; black bean tostadas</title>
+    <updated>2025-10-04T16:25:38.695865+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Duck &amp; black bean tostadas&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/duck-black-bean-tostadas.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/duck-black-bean-tostadas"/>
+    <published>2025-10-04T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/duck-black-bean-tostadas.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
