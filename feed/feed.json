@@ -12,6 +12,33 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/double-lemon-chicken-with-cheats-preserved-lemon",
+      "url": "https://www.strangerfoods.org/recipes/double-lemon-chicken-with-cheats-preserved-lemon",
+      "title": "Double lemon chicken with cheat\u2019s preserved lemon",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Double lemon chicken with cheat\u2019s preserved lemon</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/double-lemon-chicken-with-cheats-preserved-lemon.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>The universally loved crispy chicken is found in multiple corners of the world and is served on multiple tables, from Austrian schnitzel to Korean fried chicken to the highly Westernised \u2018lemon chicken\u2019 that you\u2019d get at your local Chinese restaurant. The latter is the inspiration for this dish, in which a sweet lemony sauce coats crispy fried chicken pieces. This version uses a cheat\u2019s preserved lemon paste and plenty of fresh lemon to brighten it all up. Serve this with the tenderstem broccoli with peanut gochujang dressing (p. 67) and/or the fragrant coconut rice (p. 196).</p>",
+      "image": "https://www.strangerfoods.org/images/double-lemon-chicken-with-cheats-preserved-lemon.webp",
+      "date_published": "2025-10-17T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/harissa-kofta-lettuce-cups-with-preserved-lemon-yogurt",
+      "url": "https://www.strangerfoods.org/recipes/harissa-kofta-lettuce-cups-with-preserved-lemon-yogurt",
+      "title": "Harissa kofta lettuce cups with preserved lemon yogurt",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Harissa kofta lettuce cups with preserved lemon yogurt</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/harissa-kofta-lettuce-cups-with-preserved-lemon-yogurt.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>These spicy North African-inspired koftas are absolutely addictive, and paired with the citrus yet cooling yogurt, it does become rather impossible to limit yourself to a sensible number. Personally, I like to eat a few as they come, but when I\u2019m really hungry, I will toast and split open a pitta bread and shove a few of the koftas inside for a deeply satisfying snack or meal.</p>",
+      "image": "https://www.strangerfoods.org/images/harissa-kofta-lettuce-cups-with-preserved-lemon-yogurt.webp",
+      "date_published": "2025-10-12T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/yogurt-spice-roasted-salmon",
+      "url": "https://www.strangerfoods.org/recipes/yogurt-spice-roasted-salmon",
+      "title": "Yogurt & spice roasted salmon",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Yogurt & spice roasted salmon</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/yogurt-spice-roasted-salmon.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>I love to cook salmon in the oven. It\u2019s lazy, quick, works really well and you don\u2019t need any oil, as salmon is naturally fatty and delicious. These little salmon bites are something I\u2019ve made time and time again over the years and this method of roasting them at a high temperature ensures you get a little charring on the outside yet perfectly cooked salmon on the inside. Leftovers also make a great addition to your lunchbox the next day.</p>",
+      "image": "https://www.strangerfoods.org/images/yogurt-spice-roasted-salmon.webp",
+      "date_published": "2025-10-11T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/duck-black-bean-tostadas",
       "url": "https://www.strangerfoods.org/recipes/duck-black-bean-tostadas",
       "title": "Duck & black bean tostadas",
@@ -36,33 +63,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Keema pau</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/keema-pau.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Keema (lamb mince) is well spiced, studded with green peas and usually served with pau (pillowy fresh bread buns), for much mopping. For us, this dish is synonymous with many places in Bombay: Olympia Coffee House and Caf\u00e9 Paris on Colaba Causeway, and Radio Restaurant behind Crawford Market (supposedly where the local Muslim gangsters hang out). A good dish of this keema is guaranteed to transport us back to these places.</p>",
       "image": "https://www.strangerfoods.org/images/keema-pau.webp",
       "date_published": "2025-10-03T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/keema-puffs",
-      "url": "https://www.strangerfoods.org/recipes/keema-puffs",
-      "title": "Keema puffs",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Keema puffs</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/keema-puffs.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>In Bombay a puff is a tasty little pastry parcel, stuffed with minced lamb keema, spiced vegetables or another first-rate filling, not unlike a small pasty. Sassanian in Dhobi Talao serves the best ones with mutton, chicken and vegetable variations.\n\nThese keema puffs will be very good with a little tamarind chutney or even chilli chutney, but in Bombay you would eat them with good old tomato ketchup.\n\nMake sure the filling is completely cold before you assemble the puffs, other wise the pastry will be difficult to handle.</p>",
-      "image": "https://www.strangerfoods.org/images/keema-puffs.webp",
-      "date_published": "2025-10-03T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/roasted-potato-onion-and-fennel-tagine-with-sumac-and-balsamic-vinegar",
-      "url": "https://www.strangerfoods.org/recipes/roasted-potato-onion-and-fennel-tagine-with-sumac-and-balsamic-vinegar",
-      "title": "Roasted potato, onion and fennel tagine with sumac and balsamic vinegar",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Roasted potato, onion and fennel tagine with sumac and balsamic vinegar</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/roasted-potato-onion-and-fennel-tagine-with-sumac-and-balsamic-vinegar.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Potatoes often feature in peasant or \u2018poor man\u2019s\u2019 tagines with onions and garlic and perhaps a few herbs or spices. This roasted variation of a classic poor man\u2019s tagine is delicious served with a fresh tomato or fruit-based salad.</p>",
-      "image": "https://www.strangerfoods.org/images/roasted-potato-onion-and-fennel-tagine-with-sumac-and-balsamic-vinegar.webp",
-      "date_published": "2025-09-28T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/gazan-beef-chickpeas-and-swiss-chard",
-      "url": "https://www.strangerfoods.org/recipes/gazan-beef-chickpeas-and-swiss-chard",
-      "title": "Gazan beef, chickpeas and swiss chard",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Gazan beef, chickpeas and swiss chard</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/gazan-beef-chickpeas-and-swiss-chard.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This sharp and tangy stew is one of the signature dishes of Gaza City and is another recipe adapted from Laila El-Haddad and Maggie Schmitt\u2019s excellent book The Gaza Kitchen. Traditionally made with dill seeds and the roasted red tahini of the city, my version uses caraway seeds and toasted sesame oil, both more readily available in Western supermarkets. Of course, if you happen to come across the former ingredients, don\u2019t hesitate to use them for a more authentic version. In Gaza this is often served at room temperature with warm bread. The accompaniments are up to you; I like it with steamed rice or\u2014if I need something a little more comforting\u2014a generous portion of creamy mashed potato. This tastes even better the next day, so is a great make-ahead dish.</p>",
-      "image": "https://www.strangerfoods.org/images/gazan-beef-chickpeas-and-swiss-chard.webp",
-      "date_published": "2025-09-27T00:00:00+00:00Z",
       "language": "en"
     }
   ]

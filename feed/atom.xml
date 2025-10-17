@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2025-10-04T16:25:38.695654+00:00</updated>
+  <updated>2025-10-17T17:18:21.577890+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,58 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/gazan-beef-chickpeas-and-swiss-chard</id>
-    <title>Gazan beef, chickpeas and swiss chard</title>
-    <updated>2025-10-04T16:25:38.696874+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Gazan beef, chickpeas and swiss chard&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/gazan-beef-chickpeas-and-swiss-chard.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This sharp and tangy stew is one of the signature dishes of Gaza City and is another recipe adapted from Laila El-Haddad and Maggie Schmitt’s excellent book The Gaza Kitchen. Traditionally made with dill seeds and the roasted red tahini of the city, my version uses caraway seeds and toasted sesame oil, both more readily available in Western supermarkets. Of course, if you happen to come across the former ingredients, don’t hesitate to use them for a more authentic version. In Gaza this is often served at room temperature with warm bread. The accompaniments are up to you; I like it with steamed rice or—if I need something a little more comforting—a generous portion of creamy mashed potato. This tastes even better the next day, so is a great make-ahead dish.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/gazan-beef-chickpeas-and-swiss-chard"/>
-    <published>2025-09-27T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/gazan-beef-chickpeas-and-swiss-chard.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/roasted-potato-onion-and-fennel-tagine-with-sumac-and-balsamic-vinegar</id>
-    <title>Roasted potato, onion and fennel tagine with sumac and balsamic vinegar</title>
-    <updated>2025-10-04T16:25:38.696682+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Roasted potato, onion and fennel tagine with sumac and balsamic vinegar&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/roasted-potato-onion-and-fennel-tagine-with-sumac-and-balsamic-vinegar.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Potatoes often feature in peasant or ‘poor man’s’ tagines with onions and garlic and perhaps a few herbs or spices. This roasted variation of a classic poor man’s tagine is delicious served with a fresh tomato or fruit-based salad.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/roasted-potato-onion-and-fennel-tagine-with-sumac-and-balsamic-vinegar"/>
-    <published>2025-09-28T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/roasted-potato-onion-and-fennel-tagine-with-sumac-and-balsamic-vinegar.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/keema-puffs</id>
-    <title>Keema puffs</title>
-    <updated>2025-10-04T16:25:38.696528+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Keema puffs&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/keema-puffs.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;In Bombay a puff is a tasty little pastry parcel, stuffed with minced lamb keema, spiced vegetables or another first-rate filling, not unlike a small pasty. Sassanian in Dhobi Talao serves the best ones with mutton, chicken and vegetable variations.
-
-These keema puffs will be very good with a little tamarind chutney or even chilli chutney, but in Bombay you would eat them with good old tomato ketchup.
-
-Make sure the filling is completely cold before you assemble the puffs, other wise the pastry will be difficult to handle.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/keema-puffs"/>
-    <published>2025-10-03T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/keema-puffs.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/keema-pau</id>
     <title>Keema pau</title>
-    <updated>2025-10-04T16:25:38.696356+00:00</updated>
+    <updated>2025-10-17T17:18:21.589383+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Keema pau&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/keema-pau.webp" style="text-align:center;"/&gt;
@@ -78,7 +29,7 @@ Make sure the filling is completely cold before you assemble the puffs, other wi
   <entry>
     <id>https://www.strangerfoods.org/recipes/gingerbread-blondies</id>
     <title>Gingerbread blondies</title>
-    <updated>2025-10-04T16:25:38.696150+00:00</updated>
+    <updated>2025-10-17T17:18:21.589197+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Gingerbread blondies&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/gingerbread-blondies.webp" style="text-align:center;"/&gt;
@@ -93,7 +44,7 @@ Make sure the filling is completely cold before you assemble the puffs, other wi
   <entry>
     <id>https://www.strangerfoods.org/recipes/duck-black-bean-tostadas</id>
     <title>Duck &amp; black bean tostadas</title>
-    <updated>2025-10-04T16:25:38.695865+00:00</updated>
+    <updated>2025-10-17T17:18:21.589005+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Duck &amp; black bean tostadas&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/duck-black-bean-tostadas.webp" style="text-align:center;"/&gt;
@@ -103,6 +54,51 @@ Make sure the filling is completely cold before you assemble the puffs, other wi
     <published>2025-10-04T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/duck-black-bean-tostadas.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/yogurt-spice-roasted-salmon</id>
+    <title>Yogurt &amp; spice roasted salmon</title>
+    <updated>2025-10-17T17:18:21.588770+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Yogurt &amp; spice roasted salmon&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/yogurt-spice-roasted-salmon.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;I love to cook salmon in the oven. It’s lazy, quick, works really well and you don’t need any oil, as salmon is naturally fatty and delicious. These little salmon bites are something I’ve made time and time again over the years and this method of roasting them at a high temperature ensures you get a little charring on the outside yet perfectly cooked salmon on the inside. Leftovers also make a great addition to your lunchbox the next day.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/yogurt-spice-roasted-salmon"/>
+    <published>2025-10-11T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/yogurt-spice-roasted-salmon.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/harissa-kofta-lettuce-cups-with-preserved-lemon-yogurt</id>
+    <title>Harissa kofta lettuce cups with preserved lemon yogurt</title>
+    <updated>2025-10-17T17:18:21.588537+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Harissa kofta lettuce cups with preserved lemon yogurt&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/harissa-kofta-lettuce-cups-with-preserved-lemon-yogurt.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;These spicy North African-inspired koftas are absolutely addictive, and paired with the citrus yet cooling yogurt, it does become rather impossible to limit yourself to a sensible number. Personally, I like to eat a few as they come, but when I’m really hungry, I will toast and split open a pitta bread and shove a few of the koftas inside for a deeply satisfying snack or meal.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/harissa-kofta-lettuce-cups-with-preserved-lemon-yogurt"/>
+    <published>2025-10-12T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/harissa-kofta-lettuce-cups-with-preserved-lemon-yogurt.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/double-lemon-chicken-with-cheats-preserved-lemon</id>
+    <title>Double lemon chicken with cheat’s preserved lemon</title>
+    <updated>2025-10-17T17:18:21.580805+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Double lemon chicken with cheat’s preserved lemon&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/double-lemon-chicken-with-cheats-preserved-lemon.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;The universally loved crispy chicken is found in multiple corners of the world and is served on multiple tables, from Austrian schnitzel to Korean fried chicken to the highly Westernised ‘lemon chicken’ that you’d get at your local Chinese restaurant. The latter is the inspiration for this dish, in which a sweet lemony sauce coats crispy fried chicken pieces. This version uses a cheat’s preserved lemon paste and plenty of fresh lemon to brighten it all up. Serve this with the tenderstem broccoli with peanut gochujang dressing (p. 67) and/or the fragrant coconut rice (p. 196).&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/double-lemon-chicken-with-cheats-preserved-lemon"/>
+    <published>2025-10-17T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/double-lemon-chicken-with-cheats-preserved-lemon.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
