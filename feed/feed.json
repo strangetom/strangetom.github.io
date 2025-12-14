@@ -12,6 +12,42 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/pork-and-mushroom-noodles",
+      "url": "https://www.strangerfoods.org/recipes/pork-and-mushroom-noodles",
+      "title": "Pork & mushroom noodles",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Pork & mushroom noodles</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/pork-and-mushroom-noodles.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>There are many ways of serving noodles, but the two most common are either in a soup of tossed in a sauce (with a soup on the side). The latter is referred to as 'dry' noodles and Bak Chor Mee is a great example. This dish is of Southern China origin, and is popular in both Malaysia and Singapore. Over time it has evolved, and one of the changes is serving it with Sambal - a chilli-based sauce.</p>",
+      "image": "https://www.strangerfoods.org/images/pork-and-mushroom-noodles.webp",
+      "date_published": "2025-12-14T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/spiced-lamb-and-apricot-wraps",
+      "url": "https://www.strangerfoods.org/recipes/spiced-lamb-and-apricot-wraps",
+      "title": "Spiced lamb and apricot wraps",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Spiced lamb and apricot wraps</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/spiced-lamb-and-apricot-wraps.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>In the heat of the east where meat cannot be left to hang and tenderise naturally, mincing/grinding it is the quickest and best way to make it soft and delicious. Lamb keema is always cooked with big aromatic spices that make it a very quick way to create dramatic flavours. Keema is also a wonderful vessel for any past-their-best vegetables or half-used tins that are lurking in the back of your fridge, a true more-is-more recipe.</p>",
+      "image": "https://www.strangerfoods.org/images/spiced-lamb-and-apricot-wraps.webp",
+      "date_published": "2025-12-13T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/chicken-coconut-and-pineapple-curry",
+      "url": "https://www.strangerfoods.org/recipes/chicken-coconut-and-pineapple-curry",
+      "title": "Chicken, coconut and pineapple curry",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Chicken, coconut and pineapple curry</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/chicken-coconut-and-pineapple-curry.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>The combination of both coconut milk and creamed coconut in this curry adds a real gloss and weight to the sauce, giving it a gorgeous, velvety texture. If you can't get creamed coconut just double-up on the tinned. During the last moments of these exotic sunshine curries, I often throw a handful of roasted nuts to boost the salt and the beach-holiday feel. If you\u2019re not a fan of nuts or don\u2019t have any to hand, you can leave these out without any detriment to the dish.</p>",
+      "image": "https://www.strangerfoods.org/images/chicken-coconut-and-pineapple-curry.webp",
+      "date_published": "2025-12-07T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/golden-pork-stir-fry",
+      "url": "https://www.strangerfoods.org/recipes/golden-pork-stir-fry",
+      "title": "Golden pork stir-fry",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Golden pork stir-fry</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/golden-pork-stir-fry.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Inspired by my love of the Thai dish pad krapow moo, this spicy little stir-fry is really quick to come together and great served simply on lettuce leaves. It\u2019s also delicious with rice or noodles, and a fried egg on top makes it very nearly perfect. You can use any minced meat, but I do love pork and it allows the spicing to turn it the colour of warm summer sunshine.</p>",
+      "image": "https://www.strangerfoods.org/images/golden-pork-stir-fry.webp",
+      "date_published": "2025-12-06T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/chicken-ramen",
       "url": "https://www.strangerfoods.org/recipes/chicken-ramen",
       "title": "Chicken ramen",
@@ -27,42 +63,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Keralan monkfish curry with coconut rice</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/keralan-monkfish-curry-with-coconut-rice.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This creamy and flavoursome South Indian-style curry uses monkfish, which has a distinctly meaty flavour and texture. It is perfect for absorbing the fragrant flavours from the curry. Double up the quantities to cook a feast for all your friends.</p>",
       "image": "https://www.strangerfoods.org/images/keralan-monkfish-curry-with-coconut-rice.webp",
       "date_published": "2025-11-22T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/mixed-seafood-conchiglioni",
-      "url": "https://www.strangerfoods.org/recipes/mixed-seafood-conchiglioni",
-      "title": "Mixed seafood conchiglioni",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Mixed seafood conchiglioni</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/mixed-seafood-conchiglioni.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>We love giant pasta shells, and in this recipe, our head of food Tom Shingler has come up with a recipe using them that brings all those holiday vibes, with none of the faff. He says: \u201cI love moules marini\u00e8res, but sometimes I want something that doesn\u2019t involve lots of pesky shell-wrangling to get at the delicious seafood within. This pasta sauce contains the same flavours, with the immense bonus that you can eat the shells!\u201d Find more of our weeknight, easy pasta recipes here.</p>",
-      "image": "https://www.strangerfoods.org/images/mixed-seafood-conchiglioni.webp",
-      "date_published": "2025-11-15T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/sparkling-gingerbread",
-      "url": "https://www.strangerfoods.org/recipes/sparkling-gingerbread",
-      "title": "Sparkling gingerbread",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Sparkling gingerbread</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/sparkling-gingerbread.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This spicy gingerbread gets three hits of ginger\u2014crystallized, fresh, and ground\u2014for lots of punchy flavor in an easy-to-stir batter. You can grate the fresh ginger with a Microplane; you don\u2019t even need to peel it. The cake\u2019s sparkling, crispy top comes from a generous sprinkle of turbinado sugar, but it\u2019s also delicious with a bit of citrus or a chocolate glaze instead.</p>",
-      "image": "https://www.strangerfoods.org/images/sparkling-gingerbread.webp",
-      "date_published": "2025-11-14T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/agra-ginger-chicken",
-      "url": "https://www.strangerfoods.org/recipes/agra-ginger-chicken",
-      "title": "Agra ginger chicken",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Agra ginger chicken</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/agra-ginger-chicken.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This is a very cleansing, light chicken curry that finds its roots in Agra \u2013 an area interesting in that it is slightly touristy, so the curries there can be unusually delicate and kind. Ginger in its fresh form is something that instantly makes a chicken curry accessible and fresh. Agra street food stalls with their banana leaf bowls full of this bright red chicken curry leave me with fonder memories than the Taj Mahal itself.</p>",
-      "image": "https://www.strangerfoods.org/images/agra-ginger-chicken.webp",
-      "date_published": "2025-11-09T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/stuffed-pasta-bolognese",
-      "url": "https://www.strangerfoods.org/recipes/stuffed-pasta-bolognese",
-      "title": "Stuffed pasta bolognese",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Stuffed pasta bolognese</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/stuffed-pasta-bolognese.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This stuffed pasta dish is a real showstopper! It takes some time to prepare, but we promise it\u2019s worth it. With rich, meaty stuffing inside tender pasta shells and topped with plenty of melty cheese, what\u2019s not to love?</p>",
-      "image": "https://www.strangerfoods.org/images/stuffed-pasta-bolognese.webp",
-      "date_published": "2025-11-08T00:00:00+00:00Z",
       "language": "en"
     }
   ]
