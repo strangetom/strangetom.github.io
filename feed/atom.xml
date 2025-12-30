@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2025-12-14T17:10:48.995276+00:00</updated>
+  <updated>2025-12-30T21:24:09.517113+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,54 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/keralan-monkfish-curry-with-coconut-rice</id>
-    <title>Keralan monkfish curry with coconut rice</title>
-    <updated>2025-12-14T17:10:48.998666+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Keralan monkfish curry with coconut rice&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/keralan-monkfish-curry-with-coconut-rice.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This creamy and flavoursome South Indian-style curry uses monkfish, which has a distinctly meaty flavour and texture. It is perfect for absorbing the fragrant flavours from the curry. Double up the quantities to cook a feast for all your friends.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/keralan-monkfish-curry-with-coconut-rice"/>
-    <published>2025-11-22T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/keralan-monkfish-curry-with-coconut-rice.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/chicken-ramen</id>
-    <title>Chicken ramen</title>
-    <updated>2025-12-14T17:10:48.998471+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chicken ramen&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/chicken-ramen.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;You can’t beat a classic light and fresh bowl of comforting ramen, our Japanese version of chicken soup for the soul. For extra flavour, add some light soy sauce and chilli oil.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/chicken-ramen"/>
-    <published>2025-11-24T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/chicken-ramen.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/golden-pork-stir-fry</id>
-    <title>Golden pork stir-fry</title>
-    <updated>2025-12-14T17:10:48.998284+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Golden pork stir-fry&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/golden-pork-stir-fry.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Inspired by my love of the Thai dish pad krapow moo, this spicy little stir-fry is really quick to come together and great served simply on lettuce leaves. It’s also delicious with rice or noodles, and a fried egg on top makes it very nearly perfect. You can use any minced meat, but I do love pork and it allows the spicing to turn it the colour of warm summer sunshine.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/golden-pork-stir-fry"/>
-    <published>2025-12-06T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/golden-pork-stir-fry.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/chicken-coconut-and-pineapple-curry</id>
     <title>Chicken, coconut and pineapple curry</title>
-    <updated>2025-12-14T17:10:48.998087+00:00</updated>
+    <updated>2025-12-30T21:24:09.525049+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chicken, coconut and pineapple curry&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/chicken-coconut-and-pineapple-curry.webp" style="text-align:center;"/&gt;
@@ -74,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/spiced-lamb-and-apricot-wraps</id>
     <title>Spiced lamb and apricot wraps</title>
-    <updated>2025-12-14T17:10:48.997869+00:00</updated>
+    <updated>2025-12-30T21:24:09.524856+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Spiced lamb and apricot wraps&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/spiced-lamb-and-apricot-wraps.webp" style="text-align:center;"/&gt;
@@ -89,7 +44,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/pork-and-mushroom-noodles</id>
     <title>Pork &amp; mushroom noodles</title>
-    <updated>2025-12-14T17:10:48.997063+00:00</updated>
+    <updated>2025-12-30T21:24:09.524635+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pork &amp; mushroom noodles&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/pork-and-mushroom-noodles.webp" style="text-align:center;"/&gt;
@@ -99,6 +54,51 @@
     <published>2025-12-14T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/pork-and-mushroom-noodles.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/minty-lime-bars</id>
+    <title>Minty lime bars</title>
+    <updated>2025-12-30T21:24:09.524433+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Minty lime bars&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/minty-lime-bars.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Buttery. Minty. Perfectly tangy. My Minty Lime Bars recipe is a refreshing, stress-free take on classic lemon squares using fragrant mint and rich lime curd. It is a simple and stress-free dessert recipe that requires only one bowl, a whisk, and less than 10 minutes to prepare!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/minty-lime-bars"/>
+    <published>2025-12-19T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/minty-lime-bars.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/dak-kkochi-with-beansprout-salad</id>
+    <title>Dak-kkochi with beansprout salad</title>
+    <updated>2025-12-30T21:24:09.524173+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Dak-kkochi with beansprout salad&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/dak-kkochi-with-beansprout-salad.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Dak-kkochi are sweet and spicy Korean chicken skewers that are really simple to make. These sticky, grilled kebabs are an increasingly popular street food in Korea and are typically served with either a mild soy, or a spicy gochujang (Korean red pepper paste) marinade. Here we've got the spicy option, using chunks of spring onion to alternate with the chicken, which caramelises and crisps up under the grill, served with a refreshing beansprout salad on the side.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/dak-kkochi-with-beansprout-salad"/>
+    <published>2025-12-28T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/dak-kkochi-with-beansprout-salad.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/smoked-salmon-pasta-with-sauce-vierge</id>
+    <title>Smoked salmon pasta with sauce vièrge</title>
+    <updated>2025-12-30T21:24:09.523528+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Smoked salmon pasta with sauce vièrge&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/smoked-salmon-pasta-with-sauce-vierge.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;The refreshing sauce is one of my favourites and I often serve this dish as a first course for a special occasion. I also like to serve scallops on a pool of this sauce, or meaty fish like tuna or red mullet, which are improved by the combination of the herbs and the lemony sharpness. Use the black-and-cream-striped bow-shaped pasta for this recipe, if you can find it. It is known as farfalle zebra and is made black by the addition of squid ink.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/smoked-salmon-pasta-with-sauce-vierge"/>
+    <published>2025-12-29T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/smoked-salmon-pasta-with-sauce-vierge.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
