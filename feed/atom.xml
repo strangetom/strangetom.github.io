@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2025-12-30T21:24:09.517113+00:00</updated>
+  <updated>2026-01-24T17:38:36.315770+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,93 +12,93 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/chicken-coconut-and-pineapple-curry</id>
-    <title>Chicken, coconut and pineapple curry</title>
-    <updated>2025-12-30T21:24:09.525049+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chicken, coconut and pineapple curry&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/pork-loin-with-oregano-tapenade-and-tomato-sauce</id>
+    <title>Pork loin with oregano tapenade and tomato sauce</title>
+    <updated>2026-01-24T17:38:36.319312+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pork loin with oregano tapenade and tomato sauce&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/chicken-coconut-and-pineapple-curry.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/pork-loin-with-oregano-tapenade-and-tomato-sauce.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;The combination of both coconut milk and creamed coconut in this curry adds a real gloss and weight to the sauce, giving it a gorgeous, velvety texture. If you can't get creamed coconut just double-up on the tinned. During the last moments of these exotic sunshine curries, I often throw a handful of roasted nuts to boost the salt and the beach-holiday feel. If you’re not a fan of nuts or don’t have any to hand, you can leave these out without any detriment to the dish.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/chicken-coconut-and-pineapple-curry"/>
-    <published>2025-12-07T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;This recipe can be made at any time of the year, but is particularly good when local tomatoes are in season as they will be full of flavour and produce a tasty, herby sauce to go with the pork. This is a very quick and easy recipe to make once you have your tapenade and tomato sauce. This tapenade can be made with black or green olives, but this dish looks dramatic with the pork coated in either colour, surrounded by the red tomato sauce. The tapenade stores for up to a week in the refrigerator but can also be stored in the freezer.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/pork-loin-with-oregano-tapenade-and-tomato-sauce"/>
+    <published>2026-01-02T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/chicken-coconut-and-pineapple-curry.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/pork-loin-with-oregano-tapenade-and-tomato-sauce.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/spiced-lamb-and-apricot-wraps</id>
-    <title>Spiced lamb and apricot wraps</title>
-    <updated>2025-12-30T21:24:09.524856+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Spiced lamb and apricot wraps&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/pinchos-morunos-with-mojo-picon</id>
+    <title>Pinchos morunos with mojo picon</title>
+    <updated>2026-01-24T17:38:36.319123+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pinchos morunos with mojo picon&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/spiced-lamb-and-apricot-wraps.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/pinchos-morunos-with-mojo-picon.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;In the heat of the east where meat cannot be left to hang and tenderise naturally, mincing/grinding it is the quickest and best way to make it soft and delicious. Lamb keema is always cooked with big aromatic spices that make it a very quick way to create dramatic flavours. Keema is also a wonderful vessel for any past-their-best vegetables or half-used tins that are lurking in the back of your fridge, a true more-is-more recipe.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/spiced-lamb-and-apricot-wraps"/>
-    <published>2025-12-13T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;The name of this popular Spanish tapas dish translates as 'Moorish skewers', and they're particularly popular in Andalusia, the region closest to neighbouring Morocco. You can see the influence of the Moors (the North African colonisers of Spain for several centuries), in the use of cumin and chilli in the slightly spicy seasoning of these skewers and the mojo picon sauce on the side, but the use or pork and garlic allioli roots them very much in modern Spain.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/pinchos-morunos-with-mojo-picon"/>
+    <published>2026-01-04T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/spiced-lamb-and-apricot-wraps.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/pinchos-morunos-with-mojo-picon.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/pork-and-mushroom-noodles</id>
-    <title>Pork &amp; mushroom noodles</title>
-    <updated>2025-12-30T21:24:09.524635+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pork &amp; mushroom noodles&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/lamb-kebabs-with-rosemary-vegetables</id>
+    <title>Lamb kebabs with rosemary vegetables</title>
+    <updated>2026-01-24T17:38:36.318931+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lamb kebabs with rosemary vegetables&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/pork-and-mushroom-noodles.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/lamb-kebabs-with-rosemary-vegetables.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;There are many ways of serving noodles, but the two most common are either in a soup of tossed in a sauce (with a soup on the side). The latter is referred to as 'dry' noodles and Bak Chor Mee is a great example. This dish is of Southern China origin, and is popular in both Malaysia and Singapore. Over time it has evolved, and one of the changes is serving it with Sambal - a chilli-based sauce.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/pork-and-mushroom-noodles"/>
-    <published>2025-12-14T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;Shish kebab must be the most famous Turkish dish. It is thought to have been first created in the Ottoman Empire when Turkish soldiers, forced to camp in tents, grill their food over wood outside. I like to use the rosemary stems for vegetable kebabs. They add so much flavour. You should marinate the vegetable lamb kebabs first and, if possible, grill them over dried herbs to improve the taste even more.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/lamb-kebabs-with-rosemary-vegetables"/>
+    <published>2026-01-10T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/pork-and-mushroom-noodles.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/lamb-kebabs-with-rosemary-vegetables.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/minty-lime-bars</id>
-    <title>Minty lime bars</title>
-    <updated>2025-12-30T21:24:09.524433+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Minty lime bars&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/curried-chicken-and-rice-soup</id>
+    <title>Curried chicken and rice soup</title>
+    <updated>2026-01-24T17:38:36.318722+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Curried chicken and rice soup&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/minty-lime-bars.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/curried-chicken-and-rice-soup.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Buttery. Minty. Perfectly tangy. My Minty Lime Bars recipe is a refreshing, stress-free take on classic lemon squares using fragrant mint and rich lime curd. It is a simple and stress-free dessert recipe that requires only one bowl, a whisk, and less than 10 minutes to prepare!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/minty-lime-bars"/>
-    <published>2025-12-19T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;Super-thick and deliciously filling, this creamy Curried Chicken and Rice Soup is a twist on a mulligatawny. Warming Indian spices help to make this chunky soup ideal for colder months, and light cream cheese gives it that indulgent, creamy taste without tons of extra calories. It’s a great way to use up any chicken that you might have left over from your Sunday lunch!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/curried-chicken-and-rice-soup"/>
+    <published>2026-01-18T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/minty-lime-bars.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/curried-chicken-and-rice-soup.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/dak-kkochi-with-beansprout-salad</id>
-    <title>Dak-kkochi with beansprout salad</title>
-    <updated>2025-12-30T21:24:09.524173+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Dak-kkochi with beansprout salad&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/anticuchos-with-aji-amarillo-salsa</id>
+    <title>Anticuchos with aji amarillo salsa</title>
+    <updated>2026-01-24T17:38:36.318485+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Anticuchos with aji amarillo salsa&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/dak-kkochi-with-beansprout-salad.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/anticuchos-with-aji-amarillo-salsa.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Dak-kkochi are sweet and spicy Korean chicken skewers that are really simple to make. These sticky, grilled kebabs are an increasingly popular street food in Korea and are typically served with either a mild soy, or a spicy gochujang (Korean red pepper paste) marinade. Here we've got the spicy option, using chunks of spring onion to alternate with the chicken, which caramelises and crisps up under the grill, served with a refreshing beansprout salad on the side.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/dak-kkochi-with-beansprout-salad"/>
-    <published>2025-12-28T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;Nowadays in Peru, anticuchos are typically made with beef heart but historically llama was the most common choice! They also work perfectly well with steak as we're using here, and often served with boiled potatoes, corn on the cob and a sauce made from aji amarillo (a key ingredient in Peruvian cuisine). The aji amarillo chilli is fairly mild, but has a lovely rich, fruity flavour and is used here in both the marinade and accompanying salsa.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/anticuchos-with-aji-amarillo-salsa"/>
+    <published>2026-01-23T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/dak-kkochi-with-beansprout-salad.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/anticuchos-with-aji-amarillo-salsa.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/smoked-salmon-pasta-with-sauce-vierge</id>
-    <title>Smoked salmon pasta with sauce vièrge</title>
-    <updated>2025-12-30T21:24:09.523528+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Smoked salmon pasta with sauce vièrge&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/deep-dish-meatball-marinara-pizza</id>
+    <title>Deep-dish meatball marinara pizza</title>
+    <updated>2026-01-24T17:38:36.317587+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Deep-dish meatball marinara pizza&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/smoked-salmon-pasta-with-sauce-vierge.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/deep-dish-meatball-marinara-pizza.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;The refreshing sauce is one of my favourites and I often serve this dish as a first course for a special occasion. I also like to serve scallops on a pool of this sauce, or meaty fish like tuna or red mullet, which are improved by the combination of the herbs and the lemony sharpness. Use the black-and-cream-striped bow-shaped pasta for this recipe, if you can find it. It is known as farfalle zebra and is made black by the addition of squid ink.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/smoked-salmon-pasta-with-sauce-vierge"/>
-    <published>2025-12-29T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;Be inspired by America’s deep-dish pizzas and make our meatball marinara version with a lip-smacking sauce. It takes a little effort, but it’s well worth it.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/deep-dish-meatball-marinara-pizza"/>
+    <published>2026-01-24T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/smoked-salmon-pasta-with-sauce-vierge.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/deep-dish-meatball-marinara-pizza.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
