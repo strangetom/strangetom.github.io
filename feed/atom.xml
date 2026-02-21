@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2026-02-08T17:34:28.640626+00:00</updated>
+  <updated>2026-02-21T18:04:55.377100+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,54 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/anticuchos-with-aji-amarillo-salsa</id>
-    <title>Anticuchos with aji amarillo salsa</title>
-    <updated>2026-02-08T17:34:28.645565+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Anticuchos with aji amarillo salsa&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/anticuchos-with-aji-amarillo-salsa.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Nowadays in Peru, anticuchos are typically made with beef heart but historically llama was the most common choice! They also work perfectly well with steak as we're using here, and often served with boiled potatoes, corn on the cob and a sauce made from aji amarillo (a key ingredient in Peruvian cuisine). The aji amarillo chilli is fairly mild, but has a lovely rich, fruity flavour and is used here in both the marinade and accompanying salsa.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/anticuchos-with-aji-amarillo-salsa"/>
-    <published>2026-01-23T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/anticuchos-with-aji-amarillo-salsa.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/deep-dish-meatball-marinara-pizza</id>
-    <title>Deep-dish meatball marinara pizza</title>
-    <updated>2026-02-08T17:34:28.645368+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Deep-dish meatball marinara pizza&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/deep-dish-meatball-marinara-pizza.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Be inspired by America’s deep-dish pizzas and make our meatball marinara version with a lip-smacking sauce. It takes a little effort, but it’s well worth it.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/deep-dish-meatball-marinara-pizza"/>
-    <published>2026-01-24T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/deep-dish-meatball-marinara-pizza.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/harissa-beef-msemen</id>
-    <title>Harissa beef msemen</title>
-    <updated>2026-02-08T17:34:28.645171+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Harissa beef msemen&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/harissa-beef-msemen.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Pronounced miss-i-men, this flaky, buttery pancake can be found in different guises across North Africa and the Middle East. In Morocco, it is served with honey for breakfast, or found sizzling on hot plates in market stalls, stuffed with tomatoes or ground meat, like this version.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/harissa-beef-msemen"/>
-    <published>2026-01-31T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/harissa-beef-msemen.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/herby-grilled-chicken-with-rocket-sundried-tomato-and-olive-salad</id>
     <title>Herby grilled chicken with rocket, sundried tomato and olive salad</title>
-    <updated>2026-02-08T17:34:28.644962+00:00</updated>
+    <updated>2026-02-21T18:04:55.390991+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Herby grilled chicken with rocket, sundried tomato and olive salad&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/herby-grilled-chicken-with-rocket-sundried-tomato-and-olive-salad.webp" style="text-align:center;"/&gt;
@@ -74,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/blueberry-lemon-biscuits</id>
     <title>Blueberry lemon biscuits</title>
-    <updated>2026-02-08T17:34:28.644667+00:00</updated>
+    <updated>2026-02-21T18:04:55.390801+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Blueberry lemon biscuits&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/blueberry-lemon-biscuits.webp" style="text-align:center;"/&gt;
@@ -89,7 +44,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/sticky-spiced-apple-pork-belly-slices</id>
     <title>Sticky spiced apple pork belly slices</title>
-    <updated>2026-02-08T17:34:28.643570+00:00</updated>
+    <updated>2026-02-21T18:04:55.390606+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sticky spiced apple pork belly slices&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/sticky-spiced-apple-pork-belly-slices.webp" style="text-align:center;"/&gt;
@@ -99,6 +54,51 @@
     <published>2026-02-08T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/sticky-spiced-apple-pork-belly-slices.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/veal-parmigiana</id>
+    <title>Veal parmigiana</title>
+    <updated>2026-02-21T18:04:55.390389+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Veal parmigiana&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/veal-parmigiana.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This Italian classic is loved all over the world, and rightly so. Thin slices of breadcrumbed veal, layered up with tomato sauce, mozzarella and Parmesan, then baked, ticks all the boxes for a hearty, tasty feast. If you prefer, swap the veal for chicken breasts bashed thin between sheets of clingfilm.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/veal-parmigiana"/>
+    <published>2026-02-14T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/veal-parmigiana.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/amishs-gujarati-vegetable-curry</id>
+    <title>Amish’s gujarati vegetable curry</title>
+    <updated>2026-02-21T18:04:55.390142+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Amish’s gujarati vegetable curry&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/amishs-gujarati-vegetable-curry.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This magnificent curry can be made well in advance. simply make the sauce and cook it without adding any of the vegetables. cook the vegetables, then refresh them under cold water. when you want to eat, reheat the sauce and add the vegetables. cook until the veg have warmed through, then serve.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/amishs-gujarati-vegetable-curry"/>
+    <published>2026-02-15T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/amishs-gujarati-vegetable-curry.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/reshmi-kebabs-with-green-chutney</id>
+    <title>Reshmi kebabs with green chutney</title>
+    <updated>2026-02-21T18:04:55.381995+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Reshmi kebabs with green chutney&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/reshmi-kebabs-with-green-chutney.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Reshmi kebabs originate from Moghul cuisine, which is a fusion of both Indian and Persian flavours. Many of North India's most famous dishes have their roots here, with the sophisticated use of fragrant spices and expensive ingredients such as dairy and nuts. Reshmi (from  the Hindu word for silk, a reference their tender texture) are famed for their rich flavour and the longer you marinate the kebabs the more delicious they get - so if you have time marinate them for a full 24 hours for the most succulent texture.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/reshmi-kebabs-with-green-chutney"/>
+    <published>2026-02-21T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/reshmi-kebabs-with-green-chutney.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
