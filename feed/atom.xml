@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2026-02-21T18:04:55.377100+00:00</updated>
+  <updated>2026-03-01T17:15:31.712103+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,39 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/herby-grilled-chicken-with-rocket-sundried-tomato-and-olive-salad</id>
-    <title>Herby grilled chicken with rocket, sundried tomato and olive salad</title>
-    <updated>2026-02-21T18:04:55.390991+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Herby grilled chicken with rocket, sundried tomato and olive salad&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/herby-grilled-chicken-with-rocket-sundried-tomato-and-olive-salad.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/herby-grilled-chicken-with-rocket-sundried-tomato-and-olive-salad"/>
-    <published>2026-02-01T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/herby-grilled-chicken-with-rocket-sundried-tomato-and-olive-salad.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/blueberry-lemon-biscuits</id>
-    <title>Blueberry lemon biscuits</title>
-    <updated>2026-02-21T18:04:55.390801+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Blueberry lemon biscuits&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/blueberry-lemon-biscuits.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Big bold blueberry lemon biscuits made with a unique quick and easy method!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/blueberry-lemon-biscuits"/>
-    <published>2026-02-06T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/blueberry-lemon-biscuits.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/sticky-spiced-apple-pork-belly-slices</id>
     <title>Sticky spiced apple pork belly slices</title>
-    <updated>2026-02-21T18:04:55.390606+00:00</updated>
+    <updated>2026-03-01T17:15:31.713896+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sticky spiced apple pork belly slices&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/sticky-spiced-apple-pork-belly-slices.webp" style="text-align:center;"/&gt;
@@ -59,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/veal-parmigiana</id>
     <title>Veal parmigiana</title>
-    <updated>2026-02-21T18:04:55.390389+00:00</updated>
+    <updated>2026-03-01T17:15:31.713711+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Veal parmigiana&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/veal-parmigiana.webp" style="text-align:center;"/&gt;
@@ -74,7 +44,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/amishs-gujarati-vegetable-curry</id>
     <title>Amish’s gujarati vegetable curry</title>
-    <updated>2026-02-21T18:04:55.390142+00:00</updated>
+    <updated>2026-03-01T17:15:31.713524+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Amish’s gujarati vegetable curry&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/amishs-gujarati-vegetable-curry.webp" style="text-align:center;"/&gt;
@@ -89,7 +59,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/reshmi-kebabs-with-green-chutney</id>
     <title>Reshmi kebabs with green chutney</title>
-    <updated>2026-02-21T18:04:55.381995+00:00</updated>
+    <updated>2026-03-01T17:15:31.713328+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Reshmi kebabs with green chutney&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/reshmi-kebabs-with-green-chutney.webp" style="text-align:center;"/&gt;
@@ -99,6 +69,36 @@
     <published>2026-02-21T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/reshmi-kebabs-with-green-chutney.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/boston-beans</id>
+    <title>Boston beans</title>
+    <updated>2026-03-01T17:15:31.713100+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Boston beans&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/boston-beans.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;You may notice I’ve removed the word ‘baked’ from this recipe title. These beans are cooked on the hob, with no overnight soaking nor long, slow cooking in the oven, so they’re perfect when you’re short on time.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/boston-beans"/>
+    <published>2026-02-28T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/boston-beans.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/bengali-fish-curry</id>
+    <title>Bengali fish curry</title>
+    <updated>2026-03-01T17:15:31.712367+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Bengali fish curry&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/bengali-fish-curry.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This is one of my favourite dishes. So much so that when the women in my family gathered around me to cook for me before my wedding day, as is tradition, this is what I requested. I've opted for boneless white fish fillets here, but traditionally it is cooked with the very bony but delicious Hilsa fish, and you can always spot a true Bengali by the way they can navigate their way around the bones!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/bengali-fish-curry"/>
+    <published>2026-03-01T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/bengali-fish-curry.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>

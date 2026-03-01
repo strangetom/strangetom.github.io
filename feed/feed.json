@@ -12,6 +12,24 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/bengali-fish-curry",
+      "url": "https://www.strangerfoods.org/recipes/bengali-fish-curry",
+      "title": "Bengali fish curry",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Bengali fish curry</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/bengali-fish-curry.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This is one of my favourite dishes. So much so that when the women in my family gathered around me to cook for me before my wedding day, as is tradition, this is what I requested. I've opted for boneless white fish fillets here, but traditionally it is cooked with the very bony but delicious Hilsa fish, and you can always spot a true Bengali by the way they can navigate their way around the bones!</p>",
+      "image": "https://www.strangerfoods.org/images/bengali-fish-curry.webp",
+      "date_published": "2026-03-01T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/boston-beans",
+      "url": "https://www.strangerfoods.org/recipes/boston-beans",
+      "title": "Boston beans",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Boston beans</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/boston-beans.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>You may notice I\u2019ve removed the word \u2018baked\u2019 from this recipe title. These beans are cooked on the hob, with no overnight soaking nor long, slow cooking in the oven, so they\u2019re perfect when you\u2019re short on time.</p>",
+      "image": "https://www.strangerfoods.org/images/boston-beans.webp",
+      "date_published": "2026-02-28T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/reshmi-kebabs-with-green-chutney",
       "url": "https://www.strangerfoods.org/recipes/reshmi-kebabs-with-green-chutney",
       "title": "Reshmi kebabs with green chutney",
@@ -45,24 +63,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Sticky spiced apple pork belly slices</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/sticky-spiced-apple-pork-belly-slices.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Pork belly slices are readily available and require much less faff than a whole pork belly. This is my twist on the classic roast pork with apple sauce, but packing in a lot more flavour and giving every bite a sticky appeal that leaves you wanting more. It\u2019s great served with rice, or in a bun with pickled cucumbers.</p>",
       "image": "https://www.strangerfoods.org/images/sticky-spiced-apple-pork-belly-slices.webp",
       "date_published": "2026-02-08T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/blueberry-lemon-biscuits",
-      "url": "https://www.strangerfoods.org/recipes/blueberry-lemon-biscuits",
-      "title": "Blueberry lemon biscuits",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Blueberry lemon biscuits</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/blueberry-lemon-biscuits.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Big bold blueberry lemon biscuits made with a unique quick and easy method!</p>",
-      "image": "https://www.strangerfoods.org/images/blueberry-lemon-biscuits.webp",
-      "date_published": "2026-02-06T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/herby-grilled-chicken-with-rocket-sundried-tomato-and-olive-salad",
-      "url": "https://www.strangerfoods.org/recipes/herby-grilled-chicken-with-rocket-sundried-tomato-and-olive-salad",
-      "title": "Herby grilled chicken with rocket, sundried tomato and olive salad",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Herby grilled chicken with rocket, sundried tomato and olive salad</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/herby-grilled-chicken-with-rocket-sundried-tomato-and-olive-salad.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;></p>",
-      "image": "https://www.strangerfoods.org/images/herby-grilled-chicken-with-rocket-sundried-tomato-and-olive-salad.webp",
-      "date_published": "2026-02-01T00:00:00+00:00Z",
       "language": "en"
     }
   ]
