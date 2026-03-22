@@ -12,6 +12,15 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/pork-katsu-curry",
+      "url": "https://www.strangerfoods.org/recipes/pork-katsu-curry",
+      "title": "Pork katsu curry",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Pork katsu curry</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/pork-katsu-curry.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Here I'll show you how to make a restaurant-quality Pork Katsu Curry at home!</p>",
+      "image": "https://www.strangerfoods.org/images/pork-katsu-curry.webp",
+      "date_published": "2026-03-21T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/lamb-tagine-pasties",
       "url": "https://www.strangerfoods.org/recipes/lamb-tagine-pasties",
       "title": "Lamb tagine pasties",
@@ -54,15 +63,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Boston beans</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/boston-beans.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>You may notice I\u2019ve removed the word \u2018baked\u2019 from this recipe title. These beans are cooked on the hob, with no overnight soaking nor long, slow cooking in the oven, so they\u2019re perfect when you\u2019re short on time.</p>",
       "image": "https://www.strangerfoods.org/images/boston-beans.webp",
       "date_published": "2026-02-28T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/reshmi-kebabs-with-green-chutney",
-      "url": "https://www.strangerfoods.org/recipes/reshmi-kebabs-with-green-chutney",
-      "title": "Reshmi kebabs with green chutney",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Reshmi kebabs with green chutney</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/reshmi-kebabs-with-green-chutney.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Reshmi kebabs originate from Moghul cuisine, which is a fusion of both Indian and Persian flavours. Many of North India's most famous dishes have their roots here, with the sophisticated use of fragrant spices and expensive ingredients such as dairy and nuts. Reshmi (from  the Hindu word for silk, a reference their tender texture) are famed for their rich flavour and the longer you marinate the kebabs the more delicious they get - so if you have time marinate them for a full 24 hours for the most succulent texture.</p>",
-      "image": "https://www.strangerfoods.org/images/reshmi-kebabs-with-green-chutney.webp",
-      "date_published": "2026-02-21T00:00:00+00:00Z",
       "language": "en"
     }
   ]

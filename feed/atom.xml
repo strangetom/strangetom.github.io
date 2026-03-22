@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2026-03-14T18:22:59.080860+00:00</updated>
+  <updated>2026-03-21T20:12:30.138692+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,24 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/reshmi-kebabs-with-green-chutney</id>
-    <title>Reshmi kebabs with green chutney</title>
-    <updated>2026-03-14T18:22:59.097593+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Reshmi kebabs with green chutney&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/reshmi-kebabs-with-green-chutney.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Reshmi kebabs originate from Moghul cuisine, which is a fusion of both Indian and Persian flavours. Many of North India's most famous dishes have their roots here, with the sophisticated use of fragrant spices and expensive ingredients such as dairy and nuts. Reshmi (from  the Hindu word for silk, a reference their tender texture) are famed for their rich flavour and the longer you marinate the kebabs the more delicious they get - so if you have time marinate them for a full 24 hours for the most succulent texture.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/reshmi-kebabs-with-green-chutney"/>
-    <published>2026-02-21T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/reshmi-kebabs-with-green-chutney.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/boston-beans</id>
     <title>Boston beans</title>
-    <updated>2026-03-14T18:22:59.097396+00:00</updated>
+    <updated>2026-03-21T20:12:30.139888+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Boston beans&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/boston-beans.webp" style="text-align:center;"/&gt;
@@ -44,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/bengali-fish-curry</id>
     <title>Bengali fish curry</title>
-    <updated>2026-03-14T18:22:59.097199+00:00</updated>
+    <updated>2026-03-21T20:12:30.139735+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Bengali fish curry&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/bengali-fish-curry.webp" style="text-align:center;"/&gt;
@@ -59,7 +44,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/mongolian-beef</id>
     <title>Mongolian beef</title>
-    <updated>2026-03-14T18:22:59.096989+00:00</updated>
+    <updated>2026-03-21T20:12:30.139574+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Mongolian beef&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/mongolian-beef.webp" style="text-align:center;"/&gt;
@@ -74,7 +59,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/yogurtlu-kebap-with-hot-spiced-butter</id>
     <title>Yogurtlu kebap with hot spiced butter</title>
-    <updated>2026-03-14T18:22:59.096693+00:00</updated>
+    <updated>2026-03-21T20:12:30.139343+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Yogurtlu kebap with hot spiced butter&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/yogurtlu-kebap-with-hot-spiced-butter.webp" style="text-align:center;"/&gt;
@@ -89,7 +74,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/lamb-tagine-pasties</id>
     <title>Lamb tagine pasties</title>
-    <updated>2026-03-14T18:22:59.089877+00:00</updated>
+    <updated>2026-03-21T20:12:30.139109+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lamb tagine pasties&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/lamb-tagine-pasties.webp" style="text-align:center;"/&gt;
@@ -99,6 +84,21 @@
     <published>2026-03-14T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/lamb-tagine-pasties.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/pork-katsu-curry</id>
+    <title>Pork katsu curry</title>
+    <updated>2026-03-21T20:12:30.138866+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pork katsu curry&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/pork-katsu-curry.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Here I'll show you how to make a restaurant-quality Pork Katsu Curry at home!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/pork-katsu-curry"/>
+    <published>2026-03-21T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/pork-katsu-curry.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
