@@ -12,6 +12,24 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/soy-and-mirin-tuna-on-soba-noodles",
+      "url": "https://www.strangerfoods.org/recipes/soy-and-mirin-tuna-on-soba-noodles",
+      "title": "Soy & mirin tuna on soba noodles",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Soy & mirin tuna on soba noodles</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/soy-and-mirin-tuna-on-soba-noodles.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Soba means 'buckwheat' in Japenese and there are two types of soba noodles - the normal dark brown noodle with the natural colour of buckwheat and the green-coloured 'green tea' soba. You can use either, but the green tea version looks very pretty and gives a fresher, lighter taste to the dish.</p>",
+      "image": "https://www.strangerfoods.org/images/soy-and-mirin-tuna-on-soba-noodles.webp",
+      "date_published": "2026-03-30T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/harissa-chicken-tomato-and-olive-pasties",
+      "url": "https://www.strangerfoods.org/recipes/harissa-chicken-tomato-and-olive-pasties",
+      "title": "Harissa chicken, tomato and olive pasties",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Harissa chicken, tomato and olive pasties</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/harissa-chicken-tomato-and-olive-pasties.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>It\u2019s a sad day when there\u2019s not a jar of harissa in my fridge; it\u2019s such a versatile seasoning. Here, it really brings the filling ingredients together and when I bake these I love the sight of its bright red oil escaping from any tiny crack in the pastry \u2013 it\u2019s a sign of promising things to come.</p>",
+      "image": "https://www.strangerfoods.org/images/harissa-chicken-tomato-and-olive-pasties.webp",
+      "date_published": "2026-03-29T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/pork-katsu-curry",
       "url": "https://www.strangerfoods.org/recipes/pork-katsu-curry",
       "title": "Pork katsu curry",
@@ -45,24 +63,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Mongolian beef</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/mongolian-beef.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This Mongolian Beef Recipe is a crispy homemade version that's less sweet and more flavorful than restaurant versions you're probably used to. It's one of our top recipes for a reason!</p>",
       "image": "https://www.strangerfoods.org/images/mongolian-beef.webp",
       "date_published": "2026-03-07T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/bengali-fish-curry",
-      "url": "https://www.strangerfoods.org/recipes/bengali-fish-curry",
-      "title": "Bengali fish curry",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Bengali fish curry</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/bengali-fish-curry.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This is one of my favourite dishes. So much so that when the women in my family gathered around me to cook for me before my wedding day, as is tradition, this is what I requested. I've opted for boneless white fish fillets here, but traditionally it is cooked with the very bony but delicious Hilsa fish, and you can always spot a true Bengali by the way they can navigate their way around the bones!</p>",
-      "image": "https://www.strangerfoods.org/images/bengali-fish-curry.webp",
-      "date_published": "2026-03-01T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/boston-beans",
-      "url": "https://www.strangerfoods.org/recipes/boston-beans",
-      "title": "Boston beans",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Boston beans</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/boston-beans.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>You may notice I\u2019ve removed the word \u2018baked\u2019 from this recipe title. These beans are cooked on the hob, with no overnight soaking nor long, slow cooking in the oven, so they\u2019re perfect when you\u2019re short on time.</p>",
-      "image": "https://www.strangerfoods.org/images/boston-beans.webp",
-      "date_published": "2026-02-28T00:00:00+00:00Z",
       "language": "en"
     }
   ]

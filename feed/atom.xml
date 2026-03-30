@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2026-03-21T20:12:30.138692+00:00</updated>
+  <updated>2026-03-30T16:38:25.453694+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,39 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/boston-beans</id>
-    <title>Boston beans</title>
-    <updated>2026-03-21T20:12:30.139888+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Boston beans&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/boston-beans.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;You may notice I’ve removed the word ‘baked’ from this recipe title. These beans are cooked on the hob, with no overnight soaking nor long, slow cooking in the oven, so they’re perfect when you’re short on time.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/boston-beans"/>
-    <published>2026-02-28T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/boston-beans.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/bengali-fish-curry</id>
-    <title>Bengali fish curry</title>
-    <updated>2026-03-21T20:12:30.139735+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Bengali fish curry&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/bengali-fish-curry.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This is one of my favourite dishes. So much so that when the women in my family gathered around me to cook for me before my wedding day, as is tradition, this is what I requested. I've opted for boneless white fish fillets here, but traditionally it is cooked with the very bony but delicious Hilsa fish, and you can always spot a true Bengali by the way they can navigate their way around the bones!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/bengali-fish-curry"/>
-    <published>2026-03-01T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/bengali-fish-curry.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/mongolian-beef</id>
     <title>Mongolian beef</title>
-    <updated>2026-03-21T20:12:30.139574+00:00</updated>
+    <updated>2026-03-30T16:38:25.454802+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Mongolian beef&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/mongolian-beef.webp" style="text-align:center;"/&gt;
@@ -59,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/yogurtlu-kebap-with-hot-spiced-butter</id>
     <title>Yogurtlu kebap with hot spiced butter</title>
-    <updated>2026-03-21T20:12:30.139343+00:00</updated>
+    <updated>2026-03-30T16:38:25.454653+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Yogurtlu kebap with hot spiced butter&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/yogurtlu-kebap-with-hot-spiced-butter.webp" style="text-align:center;"/&gt;
@@ -74,7 +44,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/lamb-tagine-pasties</id>
     <title>Lamb tagine pasties</title>
-    <updated>2026-03-21T20:12:30.139109+00:00</updated>
+    <updated>2026-03-30T16:38:25.454503+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lamb tagine pasties&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/lamb-tagine-pasties.webp" style="text-align:center;"/&gt;
@@ -89,7 +59,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/pork-katsu-curry</id>
     <title>Pork katsu curry</title>
-    <updated>2026-03-21T20:12:30.138866+00:00</updated>
+    <updated>2026-03-30T16:38:25.454311+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pork katsu curry&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/pork-katsu-curry.webp" style="text-align:center;"/&gt;
@@ -99,6 +69,36 @@
     <published>2026-03-21T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/pork-katsu-curry.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/harissa-chicken-tomato-and-olive-pasties</id>
+    <title>Harissa chicken, tomato and olive pasties</title>
+    <updated>2026-03-30T16:38:25.454104+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Harissa chicken, tomato and olive pasties&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/harissa-chicken-tomato-and-olive-pasties.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;It’s a sad day when there’s not a jar of harissa in my fridge; it’s such a versatile seasoning. Here, it really brings the filling ingredients together and when I bake these I love the sight of its bright red oil escaping from any tiny crack in the pastry – it’s a sign of promising things to come.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/harissa-chicken-tomato-and-olive-pasties"/>
+    <published>2026-03-29T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/harissa-chicken-tomato-and-olive-pasties.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/soy-and-mirin-tuna-on-soba-noodles</id>
+    <title>Soy &amp; mirin tuna on soba noodles</title>
+    <updated>2026-03-30T16:38:25.453857+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Soy &amp; mirin tuna on soba noodles&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/soy-and-mirin-tuna-on-soba-noodles.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Soba means 'buckwheat' in Japenese and there are two types of soba noodles - the normal dark brown noodle with the natural colour of buckwheat and the green-coloured 'green tea' soba. You can use either, but the green tea version looks very pretty and gives a fresher, lighter taste to the dish.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/soy-and-mirin-tuna-on-soba-noodles"/>
+    <published>2026-03-30T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/soy-and-mirin-tuna-on-soba-noodles.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
