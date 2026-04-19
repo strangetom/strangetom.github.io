@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2026-03-30T16:38:25.453694+00:00</updated>
+  <updated>2026-04-18T17:19:04.081237+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,69 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/mongolian-beef</id>
-    <title>Mongolian beef</title>
-    <updated>2026-03-30T16:38:25.454802+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Mongolian beef&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/mongolian-beef.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This Mongolian Beef Recipe is a crispy homemade version that's less sweet and more flavorful than restaurant versions you're probably used to. It's one of our top recipes for a reason!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/mongolian-beef"/>
-    <published>2026-03-07T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/mongolian-beef.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/yogurtlu-kebap-with-hot-spiced-butter</id>
-    <title>Yogurtlu kebap with hot spiced butter</title>
-    <updated>2026-03-30T16:38:25.454653+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Yogurtlu kebap with hot spiced butter&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/yogurtlu-kebap-with-hot-spiced-butter.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;From the Iskender kebabs of Bursa to the Beyti kebabs of Istanbul, there are a whole variety of fabulous Turkish kebabs to choose from. But here we have one of our favourites - yogurtlu kofte kebap! These kebabs consist of fried pitta bread topped with juicy lamb kofta, a simple tomato sauce, a drizzle of yoghurt and finely hot spiced butter on top. It's a rich and delicious combination served with a simple salad and some chips or rice on the side. &lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/yogurtlu-kebap-with-hot-spiced-butter"/>
-    <published>2026-03-08T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/yogurtlu-kebap-with-hot-spiced-butter.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/lamb-tagine-pasties</id>
-    <title>Lamb tagine pasties</title>
-    <updated>2026-03-30T16:38:25.454503+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lamb tagine pasties&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/lamb-tagine-pasties.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;I’m a big fan of North African food so to me it makes complete sense to fill a pasty full of spicy, aromatic lamb tagine. At home, these only last a matter of minutes, so expect these pasties to be a big hit!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/lamb-tagine-pasties"/>
-    <published>2026-03-14T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/lamb-tagine-pasties.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/pork-katsu-curry</id>
-    <title>Pork katsu curry</title>
-    <updated>2026-03-30T16:38:25.454311+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pork katsu curry&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/pork-katsu-curry.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Here I'll show you how to make a restaurant-quality Pork Katsu Curry at home!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/pork-katsu-curry"/>
-    <published>2026-03-21T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/pork-katsu-curry.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/harissa-chicken-tomato-and-olive-pasties</id>
     <title>Harissa chicken, tomato and olive pasties</title>
-    <updated>2026-03-30T16:38:25.454104+00:00</updated>
+    <updated>2026-04-18T17:19:04.101845+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Harissa chicken, tomato and olive pasties&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/harissa-chicken-tomato-and-olive-pasties.webp" style="text-align:center;"/&gt;
@@ -89,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/soy-and-mirin-tuna-on-soba-noodles</id>
     <title>Soy &amp; mirin tuna on soba noodles</title>
-    <updated>2026-03-30T16:38:25.453857+00:00</updated>
+    <updated>2026-04-18T17:19:04.101445+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Soy &amp; mirin tuna on soba noodles&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/soy-and-mirin-tuna-on-soba-noodles.webp" style="text-align:center;"/&gt;
@@ -99,6 +39,66 @@
     <published>2026-03-30T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/soy-and-mirin-tuna-on-soba-noodles.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/beef-and-yellow-split-pea-stew-with-crispy-potatoes</id>
+    <title>Beef and yellow split pea stew with crispy potatoes</title>
+    <updated>2026-04-18T17:19:04.101242+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Beef and yellow split pea stew with crispy potatoes&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/beef-and-yellow-split-pea-stew-with-crispy-potatoes.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;To me, this dish represents an Iranian take on the classic meat and potato comfort dish, with a few unique ingredients, of course! Persian dried limes, or limu omāni, provide a bold, tangy citrus taste with deep, earthy, fermented undertones.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/beef-and-yellow-split-pea-stew-with-crispy-potatoes"/>
+    <published>2026-04-04T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/beef-and-yellow-split-pea-stew-with-crispy-potatoes.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/prawn-curry</id>
+    <title>Prawn curry</title>
+    <updated>2026-04-18T17:19:04.101015+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Prawn curry&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/prawn-curry.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/prawn-curry"/>
+    <published>2026-04-06T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/prawn-curry.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/tuna-kokoro-bowl</id>
+    <title>Tuna kokoro bowl</title>
+    <updated>2026-04-18T17:19:04.100703+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Tuna kokoro bowl&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/tuna-kokoro-bowl.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;In Japanese, kokoro has no direct translation but, in essence, it means ‘heart, mind and body’ so it is the perfect name for a nutrient-rich bowl to feed the body and soul. It is our take on the traditional Hawaiian poké bowl, which serves fresh raw fish with fresh raw vegetables. Prepared simply, taste and texture lead the way.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/tuna-kokoro-bowl"/>
+    <published>2026-04-11T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/tuna-kokoro-bowl.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/beef-and-vegetable-roti-parcels</id>
+    <title>Beef &amp; vegetable roti parcels</title>
+    <updated>2026-04-18T17:19:04.091972+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Beef &amp; vegetable roti parcels&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/beef-and-vegetable-roti-parcels.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/beef-and-vegetable-roti-parcels"/>
+    <published>2026-04-18T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/beef-and-vegetable-roti-parcels.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>

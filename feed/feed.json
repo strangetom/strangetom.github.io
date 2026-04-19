@@ -12,6 +12,42 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/beef-and-vegetable-roti-parcels",
+      "url": "https://www.strangerfoods.org/recipes/beef-and-vegetable-roti-parcels",
+      "title": "Beef & vegetable roti parcels",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Beef & vegetable roti parcels</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/beef-and-vegetable-roti-parcels.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;></p>",
+      "image": "https://www.strangerfoods.org/images/beef-and-vegetable-roti-parcels.webp",
+      "date_published": "2026-04-18T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/tuna-kokoro-bowl",
+      "url": "https://www.strangerfoods.org/recipes/tuna-kokoro-bowl",
+      "title": "Tuna kokoro bowl",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Tuna kokoro bowl</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/tuna-kokoro-bowl.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>In Japanese, kokoro has no direct translation but, in essence, it means \u2018heart, mind and body\u2019 so it is the perfect name for a nutrient-rich bowl to feed the body and soul. It is our take on the traditional Hawaiian pok\u00e9 bowl, which serves fresh raw fish with fresh raw vegetables. Prepared simply, taste and texture lead the way.</p>",
+      "image": "https://www.strangerfoods.org/images/tuna-kokoro-bowl.webp",
+      "date_published": "2026-04-11T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/prawn-curry",
+      "url": "https://www.strangerfoods.org/recipes/prawn-curry",
+      "title": "Prawn curry",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Prawn curry</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/prawn-curry.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;></p>",
+      "image": "https://www.strangerfoods.org/images/prawn-curry.webp",
+      "date_published": "2026-04-06T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/beef-and-yellow-split-pea-stew-with-crispy-potatoes",
+      "url": "https://www.strangerfoods.org/recipes/beef-and-yellow-split-pea-stew-with-crispy-potatoes",
+      "title": "Beef and yellow split pea stew with crispy potatoes",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Beef and yellow split pea stew with crispy potatoes</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/beef-and-yellow-split-pea-stew-with-crispy-potatoes.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>To me, this dish represents an Iranian take on the classic meat and potato comfort dish, with a few unique ingredients, of course! Persian dried limes, or limu om\u0101ni, provide a bold, tangy citrus taste with deep, earthy, fermented undertones.</p>",
+      "image": "https://www.strangerfoods.org/images/beef-and-yellow-split-pea-stew-with-crispy-potatoes.webp",
+      "date_published": "2026-04-04T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/soy-and-mirin-tuna-on-soba-noodles",
       "url": "https://www.strangerfoods.org/recipes/soy-and-mirin-tuna-on-soba-noodles",
       "title": "Soy & mirin tuna on soba noodles",
@@ -27,42 +63,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Harissa chicken, tomato and olive pasties</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/harissa-chicken-tomato-and-olive-pasties.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>It\u2019s a sad day when there\u2019s not a jar of harissa in my fridge; it\u2019s such a versatile seasoning. Here, it really brings the filling ingredients together and when I bake these I love the sight of its bright red oil escaping from any tiny crack in the pastry \u2013 it\u2019s a sign of promising things to come.</p>",
       "image": "https://www.strangerfoods.org/images/harissa-chicken-tomato-and-olive-pasties.webp",
       "date_published": "2026-03-29T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/pork-katsu-curry",
-      "url": "https://www.strangerfoods.org/recipes/pork-katsu-curry",
-      "title": "Pork katsu curry",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Pork katsu curry</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/pork-katsu-curry.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Here I'll show you how to make a restaurant-quality Pork Katsu Curry at home!</p>",
-      "image": "https://www.strangerfoods.org/images/pork-katsu-curry.webp",
-      "date_published": "2026-03-21T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/lamb-tagine-pasties",
-      "url": "https://www.strangerfoods.org/recipes/lamb-tagine-pasties",
-      "title": "Lamb tagine pasties",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Lamb tagine pasties</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/lamb-tagine-pasties.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>I\u2019m a big fan of North African food so to me it makes complete sense to fill a pasty full of spicy, aromatic lamb tagine. At home, these only last a matter of minutes, so expect these pasties to be a big hit!</p>",
-      "image": "https://www.strangerfoods.org/images/lamb-tagine-pasties.webp",
-      "date_published": "2026-03-14T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/yogurtlu-kebap-with-hot-spiced-butter",
-      "url": "https://www.strangerfoods.org/recipes/yogurtlu-kebap-with-hot-spiced-butter",
-      "title": "Yogurtlu kebap with hot spiced butter",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Yogurtlu kebap with hot spiced butter</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/yogurtlu-kebap-with-hot-spiced-butter.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>From the Iskender kebabs of Bursa to the Beyti kebabs of Istanbul, there are a whole variety of fabulous Turkish kebabs to choose from. But here we have one of our favourites - yogurtlu kofte kebap! These kebabs consist of fried pitta bread topped with juicy lamb kofta, a simple tomato sauce, a drizzle of yoghurt and finely hot spiced butter on top. It's a rich and delicious combination served with a simple salad and some chips or rice on the side. </p>",
-      "image": "https://www.strangerfoods.org/images/yogurtlu-kebap-with-hot-spiced-butter.webp",
-      "date_published": "2026-03-08T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/mongolian-beef",
-      "url": "https://www.strangerfoods.org/recipes/mongolian-beef",
-      "title": "Mongolian beef",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Mongolian beef</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/mongolian-beef.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This Mongolian Beef Recipe is a crispy homemade version that's less sweet and more flavorful than restaurant versions you're probably used to. It's one of our top recipes for a reason!</p>",
-      "image": "https://www.strangerfoods.org/images/mongolian-beef.webp",
-      "date_published": "2026-03-07T00:00:00+00:00Z",
       "language": "en"
     }
   ]
