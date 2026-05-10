@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2026-04-18T17:19:04.081237+00:00</updated>
+  <updated>2026-05-10T16:39:39.241956+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,84 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/harissa-chicken-tomato-and-olive-pasties</id>
-    <title>Harissa chicken, tomato and olive pasties</title>
-    <updated>2026-04-18T17:19:04.101845+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Harissa chicken, tomato and olive pasties&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/harissa-chicken-tomato-and-olive-pasties.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;It’s a sad day when there’s not a jar of harissa in my fridge; it’s such a versatile seasoning. Here, it really brings the filling ingredients together and when I bake these I love the sight of its bright red oil escaping from any tiny crack in the pastry – it’s a sign of promising things to come.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/harissa-chicken-tomato-and-olive-pasties"/>
-    <published>2026-03-29T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/harissa-chicken-tomato-and-olive-pasties.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/soy-and-mirin-tuna-on-soba-noodles</id>
-    <title>Soy &amp; mirin tuna on soba noodles</title>
-    <updated>2026-04-18T17:19:04.101445+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Soy &amp; mirin tuna on soba noodles&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/soy-and-mirin-tuna-on-soba-noodles.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Soba means 'buckwheat' in Japenese and there are two types of soba noodles - the normal dark brown noodle with the natural colour of buckwheat and the green-coloured 'green tea' soba. You can use either, but the green tea version looks very pretty and gives a fresher, lighter taste to the dish.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/soy-and-mirin-tuna-on-soba-noodles"/>
-    <published>2026-03-30T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/soy-and-mirin-tuna-on-soba-noodles.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/beef-and-yellow-split-pea-stew-with-crispy-potatoes</id>
-    <title>Beef and yellow split pea stew with crispy potatoes</title>
-    <updated>2026-04-18T17:19:04.101242+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Beef and yellow split pea stew with crispy potatoes&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/beef-and-yellow-split-pea-stew-with-crispy-potatoes.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;To me, this dish represents an Iranian take on the classic meat and potato comfort dish, with a few unique ingredients, of course! Persian dried limes, or limu omāni, provide a bold, tangy citrus taste with deep, earthy, fermented undertones.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/beef-and-yellow-split-pea-stew-with-crispy-potatoes"/>
-    <published>2026-04-04T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/beef-and-yellow-split-pea-stew-with-crispy-potatoes.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/prawn-curry</id>
-    <title>Prawn curry</title>
-    <updated>2026-04-18T17:19:04.101015+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Prawn curry&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/prawn-curry.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/prawn-curry"/>
-    <published>2026-04-06T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/prawn-curry.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/tuna-kokoro-bowl</id>
-    <title>Tuna kokoro bowl</title>
-    <updated>2026-04-18T17:19:04.100703+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Tuna kokoro bowl&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/tuna-kokoro-bowl.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;In Japanese, kokoro has no direct translation but, in essence, it means ‘heart, mind and body’ so it is the perfect name for a nutrient-rich bowl to feed the body and soul. It is our take on the traditional Hawaiian poké bowl, which serves fresh raw fish with fresh raw vegetables. Prepared simply, taste and texture lead the way.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/tuna-kokoro-bowl"/>
-    <published>2026-04-11T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/tuna-kokoro-bowl.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/beef-and-vegetable-roti-parcels</id>
     <title>Beef &amp; vegetable roti parcels</title>
-    <updated>2026-04-18T17:19:04.091972+00:00</updated>
+    <updated>2026-05-10T16:39:39.243439+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Beef &amp; vegetable roti parcels&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/beef-and-vegetable-roti-parcels.webp" style="text-align:center;"/&gt;
@@ -99,6 +24,81 @@
     <published>2026-04-18T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/beef-and-vegetable-roti-parcels.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/korean-beef-bulgogi-rice-bowls</id>
+    <title>Korean beef bulgogi rice bowls</title>
+    <updated>2026-05-10T16:39:39.243218+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Korean beef bulgogi rice bowls&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/korean-beef-bulgogi-rice-bowls.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This has gone straight to the top of my favourite quick way to use beef mince! An easy version of Korean Beef Bulgogi, one of Korea's most famous food exports, made with ground beef rather than pricey steaks but using an authentic Bulgogi marinade so it takes a fraction of the effort and cost. I’ve made rice bowls, there's many ways to serve this - noodles, rice wraps, burritos or tacos (so trendy!). See in post for list!PS Don't skip the apple and grated onion. This is what sets bulgogi apart from generic soy + sugar + garlic "Asian" sauces!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/korean-beef-bulgogi-rice-bowls"/>
+    <published>2026-04-25T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/korean-beef-bulgogi-rice-bowls.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/chinese-bbq-pork-noodle-soup</id>
+    <title>Chinese BBQ pork noodle soup</title>
+    <updated>2026-05-10T16:39:39.243016+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Chinese BBQ pork noodle soup&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/chinese-bbq-pork-noodle-soup.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;BBQ pork, known as Char Siu, is one of the most popular Guangdong dishes and goes well with rice or noodles. For a really tasty dish, marinate the pork well in advance so that the flavours penetrate the meat.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/chinese-bbq-pork-noodle-soup"/>
+    <published>2026-04-26T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/chinese-bbq-pork-noodle-soup.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/zinger-burgers</id>
+    <title>Zinger burgers</title>
+    <updated>2026-05-10T16:39:39.242785+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Zinger burgers&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/zinger-burgers.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;You’ll want to add the ingredients for these unbelievably crispy Zinger Burgers to your next shopping list! Piled high on wholemeal buns, with lettuce leaves and your choice of sauce (we’d go for light mayo or homemade salsa), they’re far lighter than you’d expect at less than 400 calories each. Forget about breadcrumbs – we’ve smashed together fiery tortilla chips, flour and a simple blend of store-cupboard spices instead. You can trust your air fryer to keep the chicken breasts nice and juicy, while the zingy coating bakes until it looks and tastes like it’s been deep-fried at a restaurant.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/zinger-burgers"/>
+    <published>2026-05-03T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/zinger-burgers.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/courgette-dill-and-lemon-farfalle</id>
+    <title>Courgette, dill &amp; lemon farfalle</title>
+    <updated>2026-05-10T16:39:39.242550+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Courgette, dill &amp; lemon farfalle&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/courgette-dill-and-lemon-farfalle.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;A bright, late-summer dish that takes about 15 minutes from first chop to eating! The lemon slices cook down so the skin softens and the juice naturally disperses, leaving you with a really zingy pasta dish – try to slice the lemon as finely as you can to help the slices cook down in the time.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/courgette-dill-and-lemon-farfalle"/>
+    <published>2026-05-08T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/courgette-dill-and-lemon-farfalle.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/lamb-courgette-and-orange-stir-fry</id>
+    <title>Lamb, courgette &amp; orange stir-fry</title>
+    <updated>2026-05-10T16:39:39.242210+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Lamb, courgette &amp; orange stir-fry&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/lamb-courgette-and-orange-stir-fry.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This dish is light and, with the use of orange and its juice, is fresh-tasting with a touch of citrus sweetness. Traditionally, lamb stir-fries are served with broccoli or asparagus, but here I give it a modern make-over, using courgette instead. The secret to making a delicious stir-fry in minutes is to slice the lamb thinly. It takes less time to cook and the succulent texture is preserved.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/lamb-courgette-and-orange-stir-fry"/>
+    <published>2026-05-10T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/lamb-courgette-and-orange-stir-fry.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
