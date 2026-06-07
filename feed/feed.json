@@ -12,6 +12,24 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/char-siu-style-pork-tenderloin",
+      "url": "https://www.strangerfoods.org/recipes/char-siu-style-pork-tenderloin",
+      "title": "Char-siu-style pork tenderloin",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Char-siu-style pork tenderloin</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/char-siu-style-pork-tenderloin.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This Char-Siu-Style Pork Tenderloin is succulent and rich with fakeaway flavour, thanks to a nifty homemade, sweet-yet-spicy marinade (trust us, it\u2019s worth waiting for the flavours to mingle!). We\u2019ve added a few drops of food colouring to make our pork as red as takeaway versions, but there\u2019s nothing to stop you skipping this step \u2013 it\u2019ll taste just as delicious without! Once your tenderloin is cooked through with charred, smoky edges, it\u2019s ready to serve over egg noodles with colourful stir-fried vegetables and a light drizzle of hoisin sauce.</p>",
+      "image": "https://www.strangerfoods.org/images/char-siu-style-pork-tenderloin.webp",
+      "date_published": "2026-06-07T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/summer-pasta-salad-with-corn-zucchini-and-basil-vinaigrette",
+      "url": "https://www.strangerfoods.org/recipes/summer-pasta-salad-with-corn-zucchini-and-basil-vinaigrette",
+      "title": "Summer pasta salad with corn, zucchini, and basil vinaigrette",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Summer pasta salad with corn, zucchini, and basil vinaigrette</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/summer-pasta-salad-with-corn-zucchini-and-basil-vinaigrette.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Easy pasta salad recipe with fresh summer veggies and a bright and herby Basil Vinaigrette. Great for making ahead of parties and picnics! Serve cold or at room temperature.</p>",
+      "image": "https://www.strangerfoods.org/images/summer-pasta-salad-with-corn-zucchini-and-basil-vinaigrette.webp",
+      "date_published": "2026-06-06T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/cobb-salad-with-mango-and-lime-dressing",
       "url": "https://www.strangerfoods.org/recipes/cobb-salad-with-mango-and-lime-dressing",
       "title": "Cobb salad with mango and lime dressing",
@@ -45,24 +63,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Claypot chicken rice</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/claypot-chicken-rice.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>If you can, cook this dish the traditional way in a claypot. You will get to enjoy a particularly crunchy layer of rice, which will form at the base and is an important characteristic of the dish. The combination of fluffy and crunchy rice, chicken generously coated in a tasty sauce and the earthy flavour of Chinese mushrooms makes this a mouth-watering and satisfying dish.</p>",
       "image": "https://www.strangerfoods.org/images/claypot-chicken-rice.webp",
       "date_published": "2026-05-25T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/spicy-salmon-burgers-with-sriracha-mayo-pickles",
-      "url": "https://www.strangerfoods.org/recipes/spicy-salmon-burgers-with-sriracha-mayo-pickles",
-      "title": "Spicy salmon burgers with sriracha mayo & pickles",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Spicy salmon burgers with sriracha mayo & pickles</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/spicy-salmon-burgers-with-sriracha-mayo-pickles.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>These burgers are delicious and make a really fun meal for all ages \u2013 substitute beef burgers for these at your next barbecue. The lightly pickled crunchy veg cuts through the spiced sriracha mayo and soft brioche buns.</p>",
-      "image": "https://www.strangerfoods.org/images/spicy-salmon-burgers-with-sriracha-mayo-pickles.webp",
-      "date_published": "2026-05-23T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/cajun-style-chicken-fillets",
-      "url": "https://www.strangerfoods.org/recipes/cajun-style-chicken-fillets",
-      "title": "Cajun-style chicken fillets",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Cajun-style chicken fillets</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/cajun-style-chicken-fillets.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>A bit like a Cajun version of takeaway chicken, these are filling and could easily be augmented to make a main meal if you add the coleslaw and garlic yogurt recipes. Make sure you cut the chicken into similar-sized pieces so they all cook evenly.</p>",
-      "image": "https://www.strangerfoods.org/images/cajun-style-chicken-fillets.webp",
-      "date_published": "2026-05-16T00:00:00+00:00Z",
       "language": "en"
     }
   ]
