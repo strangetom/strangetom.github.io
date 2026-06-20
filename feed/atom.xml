@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2026-06-07T16:25:27.402652+00:00</updated>
+  <updated>2026-06-20T16:10:13.023385+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,71 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/claypot-chicken-rice</id>
-    <title>Claypot chicken rice</title>
-    <updated>2026-06-07T16:25:27.406291+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Claypot chicken rice&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/claypot-chicken-rice.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;If you can, cook this dish the traditional way in a claypot. You will get to enjoy a particularly crunchy layer of rice, which will form at the base and is an important characteristic of the dish. The combination of fluffy and crunchy rice, chicken generously coated in a tasty sauce and the earthy flavour of Chinese mushrooms makes this a mouth-watering and satisfying dish.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/claypot-chicken-rice"/>
-    <published>2026-05-25T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/claypot-chicken-rice.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/payn-ragoun-medieval-pine-nut-and-ginger-candy</id>
-    <title>Payn ragoun (medieval pine nut and ginger candy)</title>
-    <updated>2026-06-07T16:25:27.406101+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Payn ragoun (medieval pine nut and ginger candy)&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/payn-ragoun-medieval-pine-nut-and-ginger-candy.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Travelers have always loved snacks. For me, it’s peanut M&amp;Ms. For the medieval European, it might’ve been something like this candy. Bringing your own food was recommended by medieval travel guides, and it needed to be things that would keep and travel well. The classic go-to was hardtack, but something much tastier is this pine nut candy. While not everyone could afford it as sugar was quite expensive, it would be a welcome treat on the road for those who could.
-
-This candy can either be chewy, hard like a brittle, or somewhere in between based on how hot you cook the sugar. Mine was in between, and it was absolutely delicious. The pine nuts are the dominant flavor, and you get the hint of ginger at the very end. Feel free to customize this candy even further by adding different spices or nuts. Cinnamon, galangal, black pepper, almonds, and hazelnuts would all be delicious and period appropriate.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/payn-ragoun-medieval-pine-nut-and-ginger-candy"/>
-    <published>2026-05-29T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/payn-ragoun-medieval-pine-nut-and-ginger-candy.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/spicy-lamb-and-baharat-parcels</id>
-    <title>Spicy lamb and baharat parcels</title>
-    <updated>2026-06-07T16:25:27.405910+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Spicy lamb and baharat parcels&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/spicy-lamb-and-baharat-parcels.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Puff pastry is so lovely and buttery and it works well with this harissa-spiced lamb filling. You might, however, want to reduce the amount of harissa paste if you’re not a fan of fiery food.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/spicy-lamb-and-baharat-parcels"/>
-    <published>2026-05-30T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/spicy-lamb-and-baharat-parcels.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/cobb-salad-with-mango-and-lime-dressing</id>
-    <title>Cobb salad with mango and lime dressing</title>
-    <updated>2026-06-07T16:25:27.405711+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Cobb salad with mango and lime dressing&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/cobb-salad-with-mango-and-lime-dressing.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Cobb salads slide easily into the OTK ethos, as they’re all about using up what you have to create something playful and vibrant. Here we invite you to the Cobb salad playground, using this recipe as a baseline. Dig through your cupboards, rummage through your fridge and freezer, use what you can and what you have, and then build from there – all the while keeping the spirit of abundance and fun.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/cobb-salad-with-mango-and-lime-dressing"/>
-    <published>2026-05-31T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/cobb-salad-with-mango-and-lime-dressing.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/summer-pasta-salad-with-corn-zucchini-and-basil-vinaigrette</id>
     <title>Summer pasta salad with corn, zucchini, and basil vinaigrette</title>
-    <updated>2026-06-07T16:25:27.405449+00:00</updated>
+    <updated>2026-06-20T16:10:13.044687+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Summer pasta salad with corn, zucchini, and basil vinaigrette&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/summer-pasta-salad-with-corn-zucchini-and-basil-vinaigrette.webp" style="text-align:center;"/&gt;
@@ -91,7 +29,7 @@ This candy can either be chewy, hard like a brittle, or somewhere in between bas
   <entry>
     <id>https://www.strangerfoods.org/recipes/char-siu-style-pork-tenderloin</id>
     <title>Char-siu-style pork tenderloin</title>
-    <updated>2026-06-07T16:25:27.404739+00:00</updated>
+    <updated>2026-06-20T16:10:13.044497+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Char-siu-style pork tenderloin&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/char-siu-style-pork-tenderloin.webp" style="text-align:center;"/&gt;
@@ -101,6 +39,66 @@ This candy can either be chewy, hard like a brittle, or somewhere in between bas
     <published>2026-06-07T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/char-siu-style-pork-tenderloin.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/bun-cha</id>
+    <title>Bun cha</title>
+    <updated>2026-06-20T16:10:13.044303+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Bun cha&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/bun-cha.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Bun Cha is an incredible Vietnamese dish that consists of smoky grilled pork patties, tangy pickled veg, fresh herbs and vermicelli. Served DIY-style with a punchy dipping sauce. It’s fresh, fiery, and built for sharing.I first had this dish when I was travelling in Vietnam and I was blown away with how clean the broth was, and how great this combination of pork, noodles, herbs, broth and dipping was. If you're ever travelling in Vietnam make sure you seek this dish out. If you can’t find daikon, substitute with an extra carrot or with kohlrabi. The flavour will be different but the textural contrast in the dipping bowl still works.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/bun-cha"/>
+    <published>2026-06-13T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/bun-cha.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/creamy-roasted-red-pepper-and-chicken-pasta</id>
+    <title>Creamy roasted red pepper and chicken pasta</title>
+    <updated>2026-06-20T16:10:13.044094+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Creamy roasted red pepper and chicken pasta&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/creamy-roasted-red-pepper-and-chicken-pasta.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This tasty pasta dish uses ready-to-eat peppers for ultimate convenience, saving you time and effort. It’s perfect for the fussy eaters among us, as the majority of the veg is hidden in the sauce! We love reducing food waste, and this dish works wonderfully with so many leftover veggies. Feel free to throw in whatever’s waiting to be used up in the fridge and it will still taste amazing!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/creamy-roasted-red-pepper-and-chicken-pasta"/>
+    <published>2026-06-14T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/creamy-roasted-red-pepper-and-chicken-pasta.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/pecan-and-ginger-flapjacks</id>
+    <title>Pecan and ginger flapjacks</title>
+    <updated>2026-06-20T16:10:13.043823+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pecan and ginger flapjacks&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/pecan-and-ginger-flapjacks.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This batch of flapjacks have a deliciously sweet and buttery undertone of spice. The pecans give that butteriness, while the ginger biscuits almost completely dissolve into the mix, giving pops of caramelized ginger. They’re a great, cozy winter treat and will keep for a week in an airtight container.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/pecan-and-ginger-flapjacks"/>
+    <published>2026-06-19T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/pecan-and-ginger-flapjacks.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/sticky-soy-sauce-salmon-rice-bowl</id>
+    <title>Sticky soy sauce salmon rice bowl</title>
+    <updated>2026-06-20T16:10:13.035192+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sticky soy sauce salmon rice bowl&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/sticky-soy-sauce-salmon-rice-bowl.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;A salmon rice bowl is a go-to in our house. It is an easy dinner that changes every time I make it depending on the ingredients I have to hand. I keep the skin on the salmon fillets as it gives extra texture and because the skin holds additional nutrients.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/sticky-soy-sauce-salmon-rice-bowl"/>
+    <published>2026-06-20T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/sticky-soy-sauce-salmon-rice-bowl.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
