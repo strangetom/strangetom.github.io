@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2026-06-20T16:10:13.023385+00:00</updated>
+  <updated>2026-07-05T16:41:20.499153+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,93 +12,93 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/summer-pasta-salad-with-corn-zucchini-and-basil-vinaigrette</id>
-    <title>Summer pasta salad with corn, zucchini, and basil vinaigrette</title>
-    <updated>2026-06-20T16:10:13.044687+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Summer pasta salad with corn, zucchini, and basil vinaigrette&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/fish-kebab-tacos</id>
+    <title>Fish kebab tacos</title>
+    <updated>2026-07-05T16:41:20.520372+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Fish kebab tacos&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/summer-pasta-salad-with-corn-zucchini-and-basil-vinaigrette.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/fish-kebab-tacos.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Easy pasta salad recipe with fresh summer veggies and a bright and herby Basil Vinaigrette. Great for making ahead of parties and picnics! Serve cold or at room temperature.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/summer-pasta-salad-with-corn-zucchini-and-basil-vinaigrette"/>
-    <published>2026-06-06T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;A Mexican-inspired dinner that’s fun to assemble at the table and just as fun to eat. Serve with your deliciously fresh pico de gallo to cut through on your hot, toasted tacos and the whole family will be having the best day ever.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/fish-kebab-tacos"/>
+    <published>2026-06-27T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/summer-pasta-salad-with-corn-zucchini-and-basil-vinaigrette.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/fish-kebab-tacos.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/char-siu-style-pork-tenderloin</id>
-    <title>Char-siu-style pork tenderloin</title>
-    <updated>2026-06-20T16:10:13.044497+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Char-siu-style pork tenderloin&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/warming-chickpea-coconut-curry-bowl</id>
+    <title>Warming chickpea-coconut curry bowl</title>
+    <updated>2026-07-05T16:41:20.520182+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Warming chickpea-coconut curry bowl&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/char-siu-style-pork-tenderloin.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/warming-chickpea-coconut-curry-bowl.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This Char-Siu-Style Pork Tenderloin is succulent and rich with fakeaway flavour, thanks to a nifty homemade, sweet-yet-spicy marinade (trust us, it’s worth waiting for the flavours to mingle!). We’ve added a few drops of food colouring to make our pork as red as takeaway versions, but there’s nothing to stop you skipping this step – it’ll taste just as delicious without! Once your tenderloin is cooked through with charred, smoky edges, it’s ready to serve over egg noodles with colourful stir-fried vegetables and a light drizzle of hoisin sauce.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/char-siu-style-pork-tenderloin"/>
-    <published>2026-06-07T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;This bowl hits all the comfort-food buttons but in a good-for-you way. While the key spice is curry powder, if you don’t have any on hand, you can simply use one-quarter teaspoon each of ground cumin, turmeric, cinnamon, and coriander instead. The broccoli adds texture and loads of benefits, including a major dose of folic acid and vitamin C.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/warming-chickpea-coconut-curry-bowl"/>
+    <published>2026-06-28T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/char-siu-style-pork-tenderloin.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/warming-chickpea-coconut-curry-bowl.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/bun-cha</id>
-    <title>Bun cha</title>
-    <updated>2026-06-20T16:10:13.044303+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Bun cha&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/raspberry-mazurkas</id>
+    <title>Raspberry mazurkas</title>
+    <updated>2026-07-05T16:41:20.519983+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Raspberry mazurkas&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/bun-cha.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/raspberry-mazurkas.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Bun Cha is an incredible Vietnamese dish that consists of smoky grilled pork patties, tangy pickled veg, fresh herbs and vermicelli. Served DIY-style with a punchy dipping sauce. It’s fresh, fiery, and built for sharing.I first had this dish when I was travelling in Vietnam and I was blown away with how clean the broth was, and how great this combination of pork, noodles, herbs, broth and dipping was. If you're ever travelling in Vietnam make sure you seek this dish out. If you can’t find daikon, substitute with an extra carrot or with kohlrabi. The flavour will be different but the textural contrast in the dipping bowl still works.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/bun-cha"/>
-    <published>2026-06-13T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;Substitute your favorite fruit preserves for the raspberry—something a little tart like apricot is delicious. Add a bit of citrus zest to the crumble, if you’d like.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/raspberry-mazurkas"/>
+    <published>2026-07-02T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/bun-cha.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/raspberry-mazurkas.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/creamy-roasted-red-pepper-and-chicken-pasta</id>
-    <title>Creamy roasted red pepper and chicken pasta</title>
-    <updated>2026-06-20T16:10:13.044094+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Creamy roasted red pepper and chicken pasta&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/sticky-duck</id>
+    <title>Sticky duck</title>
+    <updated>2026-07-05T16:41:20.519758+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sticky duck&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/creamy-roasted-red-pepper-and-chicken-pasta.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/sticky-duck.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This tasty pasta dish uses ready-to-eat peppers for ultimate convenience, saving you time and effort. It’s perfect for the fussy eaters among us, as the majority of the veg is hidden in the sauce! We love reducing food waste, and this dish works wonderfully with so many leftover veggies. Feel free to throw in whatever’s waiting to be used up in the fridge and it will still taste amazing!&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/creamy-roasted-red-pepper-and-chicken-pasta"/>
-    <published>2026-06-14T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/sticky-duck"/>
+    <published>2026-07-03T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/creamy-roasted-red-pepper-and-chicken-pasta.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/sticky-duck.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/pecan-and-ginger-flapjacks</id>
-    <title>Pecan and ginger flapjacks</title>
-    <updated>2026-06-20T16:10:13.043823+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pecan and ginger flapjacks&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/bao-buns</id>
+    <title>Bao buns</title>
+    <updated>2026-07-05T16:41:20.519497+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Bao buns&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/pecan-and-ginger-flapjacks.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/bao-buns.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This batch of flapjacks have a deliciously sweet and buttery undertone of spice. The pecans give that butteriness, while the ginger biscuits almost completely dissolve into the mix, giving pops of caramelized ginger. They’re a great, cozy winter treat and will keep for a week in an airtight container.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/pecan-and-ginger-flapjacks"/>
-    <published>2026-06-19T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;This recipe is for making steamed, folded bao buns which are the simplest type to make at home. It introduces a single-proof method that consistently produces good results.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/bao-buns"/>
+    <published>2026-07-03T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/pecan-and-ginger-flapjacks.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/bao-buns.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/sticky-soy-sauce-salmon-rice-bowl</id>
-    <title>Sticky soy sauce salmon rice bowl</title>
-    <updated>2026-06-20T16:10:13.035192+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sticky soy sauce salmon rice bowl&lt;/h1&gt;
+    <id>https://www.strangerfoods.org/recipes/kai-palow-khun-yay</id>
+    <title>Kai palow khun yay</title>
+    <updated>2026-07-05T16:41:20.510756+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Kai palow khun yay&lt;/h1&gt;
         &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/sticky-soy-sauce-salmon-rice-bowl.webp" style="text-align:center;"/&gt;
+        &lt;img src="https://www.strangerfoods.org/images/kai-palow-khun-yay.webp" style="text-align:center;"/&gt;
         &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;A salmon rice bowl is a go-to in our house. It is an easy dinner that changes every time I make it depending on the ingredients I have to hand. I keep the skin on the salmon fillets as it gives extra texture and because the skin holds additional nutrients.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/sticky-soy-sauce-salmon-rice-bowl"/>
-    <published>2026-06-20T00:00:00+00:00</published>
+        &lt;p style="font-family:sans-serif;&gt;This delicious Chinese-style braise is a childhood favourite of mine that brings me happy memories every time I cook it.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/kai-palow-khun-yay"/>
+    <published>2026-07-05T00:00:00+00:00</published>
     <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/sticky-soy-sauce-salmon-rice-bowl.webp" height="288" width="512" time="0"/>
+      <media:thumbnail url="https://www.strangerfoods.org/images/kai-palow-khun-yay.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
