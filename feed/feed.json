@@ -12,6 +12,42 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/salmon-courgette-and-lemon-pasta-with-a-herby-dressing",
+      "url": "https://www.strangerfoods.org/recipes/salmon-courgette-and-lemon-pasta-with-a-herby-dressing",
+      "title": "Salmon, courgette and lemon pasta with a herby dressing",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Salmon, courgette and lemon pasta with a herby dressing</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/salmon-courgette-and-lemon-pasta-with-a-herby-dressing.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This fresh and zingy creamy dressing, bursting with fresh herbs, yoghurt and plenty of black pepper, pairs perfectly with roasted salmon and charred courgettes. While fresh salmon is used here, tinned or smoked salmon are also great budget-friendly options.</p>",
+      "image": "https://www.strangerfoods.org/images/salmon-courgette-and-lemon-pasta-with-a-herby-dressing.webp",
+      "date_published": "2026-07-20T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/vietnamese-chilli-lemongrass-chicken",
+      "url": "https://www.strangerfoods.org/recipes/vietnamese-chilli-lemongrass-chicken",
+      "title": "Vietnamese chilli & lemongrass chicken",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Vietnamese chilli & lemongrass chicken</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/vietnamese-chilli-lemongrass-chicken.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;></p>",
+      "image": "https://www.strangerfoods.org/images/vietnamese-chilli-lemongrass-chicken.webp",
+      "date_published": "2026-07-19T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/pineapple-fried-cauliflower-rice-bowl",
+      "url": "https://www.strangerfoods.org/recipes/pineapple-fried-cauliflower-rice-bowl",
+      "title": "Pineapple fried cauliflower rice bowl",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Pineapple fried cauliflower rice bowl</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/pineapple-fried-cauliflower-rice-bowl.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>The star of this bowl is the pineapple, which peaks in late spring and into early summer and adds a subtle sweetness to an otherwise savory compilation of vegetables, including mushrooms and peppers. Unlike traditional fried rice, this bowl uses cauliflower rice. Because it reheats well, I tend to make twice the amount I need so I can enjoy another meal of it during the week.</p>",
+      "image": "https://www.strangerfoods.org/images/pineapple-fried-cauliflower-rice-bowl.webp",
+      "date_published": "2026-07-12T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/zaatar-spiced-meatballs-with-tomatoes-bulgur",
+      "url": "https://www.strangerfoods.org/recipes/zaatar-spiced-meatballs-with-tomatoes-bulgur",
+      "title": "Za\u2019atar spiced meatballs with tomatoes & bulgur",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Za\u2019atar spiced meatballs with tomatoes & bulgur</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/zaatar-spiced-meatballs-with-tomatoes-bulgur.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>These simply spiced meatballs with parsley and feta work beautifully cooked with bulgur wheat and tomatoes for a really lovely all-in-one meal. I like making the meatballs fairly small, to sit on top of the bulgur \u2013 you need nothing more than a little natural yogurt alongside to serve.</p>",
+      "image": "https://www.strangerfoods.org/images/zaatar-spiced-meatballs-with-tomatoes-bulgur.webp",
+      "date_published": "2026-07-11T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/kai-palow-khun-yay",
       "url": "https://www.strangerfoods.org/recipes/kai-palow-khun-yay",
       "title": "Kai palow khun yay",
@@ -27,42 +63,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Bao buns</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/bao-buns.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This recipe is for making steamed, folded bao buns which are the simplest type to make at home. It introduces a single-proof method that consistently produces good results.</p>",
       "image": "https://www.strangerfoods.org/images/bao-buns.webp",
       "date_published": "2026-07-03T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/sticky-duck",
-      "url": "https://www.strangerfoods.org/recipes/sticky-duck",
-      "title": "Sticky duck",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Sticky duck</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/sticky-duck.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;></p>",
-      "image": "https://www.strangerfoods.org/images/sticky-duck.webp",
-      "date_published": "2026-07-03T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/raspberry-mazurkas",
-      "url": "https://www.strangerfoods.org/recipes/raspberry-mazurkas",
-      "title": "Raspberry mazurkas",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Raspberry mazurkas</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/raspberry-mazurkas.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Substitute your favorite fruit preserves for the raspberry\u2014something a little tart like apricot is delicious. Add a bit of citrus zest to the crumble, if you\u2019d like.</p>",
-      "image": "https://www.strangerfoods.org/images/raspberry-mazurkas.webp",
-      "date_published": "2026-07-02T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/warming-chickpea-coconut-curry-bowl",
-      "url": "https://www.strangerfoods.org/recipes/warming-chickpea-coconut-curry-bowl",
-      "title": "Warming chickpea-coconut curry bowl",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Warming chickpea-coconut curry bowl</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/warming-chickpea-coconut-curry-bowl.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This bowl hits all the comfort-food buttons but in a good-for-you way. While the key spice is curry powder, if you don\u2019t have any on hand, you can simply use one-quarter teaspoon each of ground cumin, turmeric, cinnamon, and coriander instead. The broccoli adds texture and loads of benefits, including a major dose of folic acid and vitamin C.</p>",
-      "image": "https://www.strangerfoods.org/images/warming-chickpea-coconut-curry-bowl.webp",
-      "date_published": "2026-06-28T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/fish-kebab-tacos",
-      "url": "https://www.strangerfoods.org/recipes/fish-kebab-tacos",
-      "title": "Fish kebab tacos",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Fish kebab tacos</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/fish-kebab-tacos.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>A Mexican-inspired dinner that\u2019s fun to assemble at the table and just as fun to eat. Serve with your deliciously fresh pico de gallo to cut through on your hot, toasted tacos and the whole family will be having the best day ever.</p>",
-      "image": "https://www.strangerfoods.org/images/fish-kebab-tacos.webp",
-      "date_published": "2026-06-27T00:00:00+00:00Z",
       "language": "en"
     }
   ]

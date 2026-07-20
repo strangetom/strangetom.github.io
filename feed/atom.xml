@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2026-07-05T16:41:20.499153+00:00</updated>
+  <updated>2026-07-20T18:24:33.913184+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,69 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/fish-kebab-tacos</id>
-    <title>Fish kebab tacos</title>
-    <updated>2026-07-05T16:41:20.520372+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Fish kebab tacos&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/fish-kebab-tacos.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;A Mexican-inspired dinner that’s fun to assemble at the table and just as fun to eat. Serve with your deliciously fresh pico de gallo to cut through on your hot, toasted tacos and the whole family will be having the best day ever.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/fish-kebab-tacos"/>
-    <published>2026-06-27T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/fish-kebab-tacos.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/warming-chickpea-coconut-curry-bowl</id>
-    <title>Warming chickpea-coconut curry bowl</title>
-    <updated>2026-07-05T16:41:20.520182+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Warming chickpea-coconut curry bowl&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/warming-chickpea-coconut-curry-bowl.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This bowl hits all the comfort-food buttons but in a good-for-you way. While the key spice is curry powder, if you don’t have any on hand, you can simply use one-quarter teaspoon each of ground cumin, turmeric, cinnamon, and coriander instead. The broccoli adds texture and loads of benefits, including a major dose of folic acid and vitamin C.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/warming-chickpea-coconut-curry-bowl"/>
-    <published>2026-06-28T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/warming-chickpea-coconut-curry-bowl.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/raspberry-mazurkas</id>
-    <title>Raspberry mazurkas</title>
-    <updated>2026-07-05T16:41:20.519983+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Raspberry mazurkas&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/raspberry-mazurkas.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;Substitute your favorite fruit preserves for the raspberry—something a little tart like apricot is delicious. Add a bit of citrus zest to the crumble, if you’d like.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/raspberry-mazurkas"/>
-    <published>2026-07-02T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/raspberry-mazurkas.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/sticky-duck</id>
-    <title>Sticky duck</title>
-    <updated>2026-07-05T16:41:20.519758+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Sticky duck&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/sticky-duck.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/sticky-duck"/>
-    <published>2026-07-03T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/sticky-duck.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/bao-buns</id>
     <title>Bao buns</title>
-    <updated>2026-07-05T16:41:20.519497+00:00</updated>
+    <updated>2026-07-20T18:24:33.914392+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Bao buns&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/bao-buns.webp" style="text-align:center;"/&gt;
@@ -89,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/kai-palow-khun-yay</id>
     <title>Kai palow khun yay</title>
-    <updated>2026-07-05T16:41:20.510756+00:00</updated>
+    <updated>2026-07-20T18:24:33.914242+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Kai palow khun yay&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/kai-palow-khun-yay.webp" style="text-align:center;"/&gt;
@@ -99,6 +39,66 @@
     <published>2026-07-05T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/kai-palow-khun-yay.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/zaatar-spiced-meatballs-with-tomatoes-bulgur</id>
+    <title>Za’atar spiced meatballs with tomatoes &amp; bulgur</title>
+    <updated>2026-07-20T18:24:33.914087+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Za’atar spiced meatballs with tomatoes &amp; bulgur&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/zaatar-spiced-meatballs-with-tomatoes-bulgur.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;These simply spiced meatballs with parsley and feta work beautifully cooked with bulgur wheat and tomatoes for a really lovely all-in-one meal. I like making the meatballs fairly small, to sit on top of the bulgur – you need nothing more than a little natural yogurt alongside to serve.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/zaatar-spiced-meatballs-with-tomatoes-bulgur"/>
+    <published>2026-07-11T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/zaatar-spiced-meatballs-with-tomatoes-bulgur.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/pineapple-fried-cauliflower-rice-bowl</id>
+    <title>Pineapple fried cauliflower rice bowl</title>
+    <updated>2026-07-20T18:24:33.913921+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pineapple fried cauliflower rice bowl&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/pineapple-fried-cauliflower-rice-bowl.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;The star of this bowl is the pineapple, which peaks in late spring and into early summer and adds a subtle sweetness to an otherwise savory compilation of vegetables, including mushrooms and peppers. Unlike traditional fried rice, this bowl uses cauliflower rice. Because it reheats well, I tend to make twice the amount I need so I can enjoy another meal of it during the week.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/pineapple-fried-cauliflower-rice-bowl"/>
+    <published>2026-07-12T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/pineapple-fried-cauliflower-rice-bowl.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/vietnamese-chilli-lemongrass-chicken</id>
+    <title>Vietnamese chilli &amp; lemongrass chicken</title>
+    <updated>2026-07-20T18:24:33.913709+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Vietnamese chilli &amp; lemongrass chicken&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/vietnamese-chilli-lemongrass-chicken.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/vietnamese-chilli-lemongrass-chicken"/>
+    <published>2026-07-19T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/vietnamese-chilli-lemongrass-chicken.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/salmon-courgette-and-lemon-pasta-with-a-herby-dressing</id>
+    <title>Salmon, courgette and lemon pasta with a herby dressing</title>
+    <updated>2026-07-20T18:24:33.913390+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Salmon, courgette and lemon pasta with a herby dressing&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/salmon-courgette-and-lemon-pasta-with-a-herby-dressing.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;This fresh and zingy creamy dressing, bursting with fresh herbs, yoghurt and plenty of black pepper, pairs perfectly with roasted salmon and charred courgettes. While fresh salmon is used here, tinned or smoked salmon are also great budget-friendly options.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/salmon-courgette-and-lemon-pasta-with-a-herby-dressing"/>
+    <published>2026-07-20T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/salmon-courgette-and-lemon-pasta-with-a-herby-dressing.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
