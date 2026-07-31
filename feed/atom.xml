@@ -3,7 +3,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://strangerfoods.org/</id>
   <title>Stranger Foods</title>
-  <updated>2026-07-20T18:24:33.913184+00:00</updated>
+  <updated>2026-07-31T16:55:12.850970+00:00</updated>
   <author>
     <name>Tom Strange</name>
   </author>
@@ -12,69 +12,9 @@
   <icon>https://strangerfoods.org/img/logo.svg</icon>
   <subtitle>A catalogue of recipes Tom has made.</subtitle>
   <entry>
-    <id>https://www.strangerfoods.org/recipes/bao-buns</id>
-    <title>Bao buns</title>
-    <updated>2026-07-20T18:24:33.914392+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Bao buns&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/bao-buns.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This recipe is for making steamed, folded bao buns which are the simplest type to make at home. It introduces a single-proof method that consistently produces good results.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/bao-buns"/>
-    <published>2026-07-03T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/bao-buns.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/kai-palow-khun-yay</id>
-    <title>Kai palow khun yay</title>
-    <updated>2026-07-20T18:24:33.914242+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Kai palow khun yay&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/kai-palow-khun-yay.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;This delicious Chinese-style braise is a childhood favourite of mine that brings me happy memories every time I cook it.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/kai-palow-khun-yay"/>
-    <published>2026-07-05T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/kai-palow-khun-yay.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/zaatar-spiced-meatballs-with-tomatoes-bulgur</id>
-    <title>Za’atar spiced meatballs with tomatoes &amp; bulgur</title>
-    <updated>2026-07-20T18:24:33.914087+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Za’atar spiced meatballs with tomatoes &amp; bulgur&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/zaatar-spiced-meatballs-with-tomatoes-bulgur.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;These simply spiced meatballs with parsley and feta work beautifully cooked with bulgur wheat and tomatoes for a really lovely all-in-one meal. I like making the meatballs fairly small, to sit on top of the bulgur – you need nothing more than a little natural yogurt alongside to serve.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/zaatar-spiced-meatballs-with-tomatoes-bulgur"/>
-    <published>2026-07-11T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/zaatar-spiced-meatballs-with-tomatoes-bulgur.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
-    <id>https://www.strangerfoods.org/recipes/pineapple-fried-cauliflower-rice-bowl</id>
-    <title>Pineapple fried cauliflower rice bowl</title>
-    <updated>2026-07-20T18:24:33.913921+00:00</updated>
-    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pineapple fried cauliflower rice bowl&lt;/h1&gt;
-        &lt;br&gt;
-        &lt;img src="https://www.strangerfoods.org/images/pineapple-fried-cauliflower-rice-bowl.webp" style="text-align:center;"/&gt;
-        &lt;br&gt;
-        &lt;p style="font-family:sans-serif;&gt;The star of this bowl is the pineapple, which peaks in late spring and into early summer and adds a subtle sweetness to an otherwise savory compilation of vegetables, including mushrooms and peppers. Unlike traditional fried rice, this bowl uses cauliflower rice. Because it reheats well, I tend to make twice the amount I need so I can enjoy another meal of it during the week.&lt;/p&gt;</content>
-    <link href="https://www.strangerfoods.org/recipes/pineapple-fried-cauliflower-rice-bowl"/>
-    <published>2026-07-12T00:00:00+00:00</published>
-    <media:group>
-      <media:thumbnail url="https://www.strangerfoods.org/images/pineapple-fried-cauliflower-rice-bowl.webp" height="288" width="512" time="0"/>
-    </media:group>
-  </entry>
-  <entry>
     <id>https://www.strangerfoods.org/recipes/vietnamese-chilli-lemongrass-chicken</id>
     <title>Vietnamese chilli &amp; lemongrass chicken</title>
-    <updated>2026-07-20T18:24:33.913709+00:00</updated>
+    <updated>2026-07-31T16:55:12.872664+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Vietnamese chilli &amp; lemongrass chicken&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/vietnamese-chilli-lemongrass-chicken.webp" style="text-align:center;"/&gt;
@@ -89,7 +29,7 @@
   <entry>
     <id>https://www.strangerfoods.org/recipes/salmon-courgette-and-lemon-pasta-with-a-herby-dressing</id>
     <title>Salmon, courgette and lemon pasta with a herby dressing</title>
-    <updated>2026-07-20T18:24:33.913390+00:00</updated>
+    <updated>2026-07-31T16:55:12.872470+00:00</updated>
     <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Salmon, courgette and lemon pasta with a herby dressing&lt;/h1&gt;
         &lt;br&gt;
         &lt;img src="https://www.strangerfoods.org/images/salmon-courgette-and-lemon-pasta-with-a-herby-dressing.webp" style="text-align:center;"/&gt;
@@ -99,6 +39,66 @@
     <published>2026-07-20T00:00:00+00:00</published>
     <media:group>
       <media:thumbnail url="https://www.strangerfoods.org/images/salmon-courgette-and-lemon-pasta-with-a-herby-dressing.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/pulled-lamb-shawarma-sandwich</id>
+    <title>Pulled lamb shawarma sandwich</title>
+    <updated>2026-07-31T16:55:12.872271+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Pulled lamb shawarma sandwich&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/pulled-lamb-shawarma-sandwich.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Slow-cooked lamb, piled into a warm pita with all the condiments you care for: this is the ultimate shawarma sandwich. Once cooked, the lamb keeps in the fridge so don’t worry if there are fewer than eight of you for that first sandwich. The lamb is also great as a proper meal, rather than a sandwich, served as it is with a selection of sides: fattoush, butternut squash and a crisp green salad makes just one great combination.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/pulled-lamb-shawarma-sandwich"/>
+    <published>2026-07-25T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/pulled-lamb-shawarma-sandwich.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/homemade-sausage-and-egg-mcmuffin</id>
+    <title>Homemade sausage and egg mcmuffin</title>
+    <updated>2026-07-31T16:55:12.872060+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Homemade sausage and egg mcmuffin&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/homemade-sausage-and-egg-mcmuffin.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;Copycat of McDonald's Sausage and Egg McMuffin. The sausage patties are made from scratch and it really does taste similar to the McDonald's Sausage patty - but it tastes pure, like real food should! Great make ahead breakfast - grab and run!&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/homemade-sausage-and-egg-mcmuffin"/>
+    <published>2026-07-26T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/homemade-sausage-and-egg-mcmuffin.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/zucchini-noodle-bowl-with-walnut-kale-pesto</id>
+    <title>Zucchini noodle bowl with walnut-kale pesto</title>
+    <updated>2026-07-31T16:55:12.871804+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Zucchini noodle bowl with walnut-kale pesto&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/zucchini-noodle-bowl-with-walnut-kale-pesto.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;One of my favorite ways to enjoy fresh zucchini at the height of summer is by turning it into noodles. With the help of a spiralizer or vegetable peeler, it becomes a delicious substitute for traditional pasta. The zucchini can be eaten raw, but if you prefer it cooked, simply sauté it in a little oil—just be sure to thoroughly dry the noodles or ribbons beforehand. If you don’t have sun-dried tomatoes, substitute halved cherry tomatoes instead.&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/zucchini-noodle-bowl-with-walnut-kale-pesto"/>
+    <published>2026-07-31T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/zucchini-noodle-bowl-with-walnut-kale-pesto.webp" height="288" width="512" time="0"/>
+    </media:group>
+  </entry>
+  <entry>
+    <id>https://www.strangerfoods.org/recipes/corn-ribs</id>
+    <title>Corn ribs</title>
+    <updated>2026-07-31T16:55:12.862618+00:00</updated>
+    <content type="html">&lt;h1 style="text-align:center;font-family:sans-serif;"&gt;Corn ribs&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;img src="https://www.strangerfoods.org/images/corn-ribs.webp" style="text-align:center;"/&gt;
+        &lt;br&gt;
+        &lt;p style="font-family:sans-serif;&gt;&lt;/p&gt;</content>
+    <link href="https://www.strangerfoods.org/recipes/corn-ribs"/>
+    <published>2026-07-31T00:00:00+00:00</published>
+    <media:group>
+      <media:thumbnail url="https://www.strangerfoods.org/images/corn-ribs.webp" height="288" width="512" time="0"/>
     </media:group>
   </entry>
 </feed>
