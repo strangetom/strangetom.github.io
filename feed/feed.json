@@ -12,57 +12,57 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/sweet-and-savoury-chicken-pie-with-cinnamon-almonds",
+      "url": "https://www.strangerfoods.org/recipes/sweet-and-savoury-chicken-pie-with-cinnamon-almonds",
+      "title": "Sweet and savoury chicken pie with cinnamon almonds",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Sweet and savoury chicken pie with cinnamon almonds</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/sweet-and-savoury-chicken-pie-with-cinnamon-almonds.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Pastilla, the rich meat pie that encapsulates Moroccan cuisine and its ability to combine sweet and savoury so cleverly, is the inspiration behind this dish. There\u2019s some effort involved, but it\u2019s well worth it for this glorious pie. Save time by making the dough a day ahead, or alternatively, use store-bought shortcrust pastry.</p>",
+      "image": "https://www.strangerfoods.org/images/sweet-and-savoury-chicken-pie-with-cinnamon-almonds.webp",
+      "date_published": "2026-09-12T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/pulled-jerk-bbq-sliders",
+      "url": "https://www.strangerfoods.org/recipes/pulled-jerk-bbq-sliders",
+      "title": "Pulled jerk BBQ sliders",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Pulled jerk BBQ sliders</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/pulled-jerk-bbq-sliders.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Jackfruit is really showing off in this recipe with how close it comes to the \u201creal thing!\u201d Young green jackfruit is nothing like the sweet yellow jackfruit most folks are used to; young green jackfruit has all the characteristics to make an exquisite savory meal. To make these sliders, jackfruit is marinated in an iconic Jamaican jerk marinade then pan seared and oven roasted until tender, leaving it easy to pull apart, releasing all of the flavors it accumulated during the cooking process. Pressed between two toasted buns with coleslaw, this handheld meal will leave you impressed. Jerk pork is loved in Jamaica, and this spiced up jerk jackfruit is inspired by the island favorite.</p>",
+      "image": "https://www.strangerfoods.org/images/pulled-jerk-bbq-sliders.webp",
+      "date_published": "2026-09-06T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/bo-kho-style-steak-and-lemongrass-pie",
+      "url": "https://www.strangerfoods.org/recipes/bo-kho-style-steak-and-lemongrass-pie",
+      "title": "B\u00f2 Kho-style steak and lemongrass pie",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">B\u00f2 Kho-style steak and lemongrass pie</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/bo-kho-style-steak-and-lemongrass-pie.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>I recently went through a stage of making everything into a pie, as I discovered pre-made pastry at my local supermarket. This particular recipe is like a Vietnamese B\u00f2 Kho \u2013 a traditional, rich and comforting beef stew \u2013 meets a classic steak pie, and it\u2019s a match made in heaven! I hope you enjoy it as much as I do.</p>",
+      "image": "https://www.strangerfoods.org/images/bo-kho-style-steak-and-lemongrass-pie.webp",
+      "date_published": "2026-09-05T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/green-thai-salmon-parcels",
+      "url": "https://www.strangerfoods.org/recipes/green-thai-salmon-parcels",
+      "title": "Green Thai salmon parcels",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Green Thai salmon parcels</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/green-thai-salmon-parcels.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>What I love most about this recipe is how versatile it is; it\u2019s such a great meal to use up any leftover veg, and trust me when I say it never gets boring! I\u2019m always chopping and changing the vegetables based on what\u2019s in my fridge. Mix it up with sliced peppers, pak choi, green beans, mushrooms or shredded cabbage. This recipe is bursting with vibrant flavours, tender salmon and crunchy veggies, all wrapped up and cooked to perfection in your air fryer.</p>",
+      "image": "https://www.strangerfoods.org/images/green-thai-salmon-parcels.webp",
+      "date_published": "2026-09-02T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/sicilian-style-sausages-and-peppers-with-herby-polenta",
+      "url": "https://www.strangerfoods.org/recipes/sicilian-style-sausages-and-peppers-with-herby-polenta",
+      "title": "Sicilian-style sausages and peppers with herby polenta",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Sicilian-style sausages and peppers with herby polenta</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/sicilian-style-sausages-and-peppers-with-herby-polenta.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>For a summery take on bangers and mash, pile sweet-and-sour peppers onto herby polenta and top with juicy Sicilian-style fennel sausages. Swap the parsley for basil, if you prefer</p>",
+      "image": "https://www.strangerfoods.org/images/sicilian-style-sausages-and-peppers-with-herby-polenta.webp",
+      "date_published": "2026-09-01T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/chicken-shawarma",
       "url": "https://www.strangerfoods.org/recipes/chicken-shawarma",
       "title": "Chicken shawarma",
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Chicken shawarma</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/chicken-shawarma.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Make this easy homemade chicken shawarma recipe! Chicken pieces, tossed in warm Middle Eastern spices, then baked until perfectly tender. Serve it in pita pockets with Mediterranean salad and sauces.</p>",
       "image": "https://www.strangerfoods.org/images/chicken-shawarma.webp",
       "date_published": "2026-08-22T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/grilled-merguez-sandwiches-with-caramelized-onions-manchego-and-harissa-mayonnaise",
-      "url": "https://www.strangerfoods.org/recipes/grilled-merguez-sandwiches-with-caramelized-onions-manchego-and-harissa-mayonnaise",
-      "title": "Grilled merguez sandwiches with caramelized onions, manchego, and harissa mayonnaise",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Grilled merguez sandwiches with caramelized onions, manchego, and harissa mayonnaise</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/grilled-merguez-sandwiches-with-caramelized-onions-manchego-and-harissa-mayonnaise.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Grilled merguez on a toasted baguette with sweet caramelized onion, sharp Manchego cheese, fresh cilantro, and spicy harissa mayo makes for one insanely awesome sandwich. </p>",
-      "image": "https://www.strangerfoods.org/images/grilled-merguez-sandwiches-with-caramelized-onions-manchego-and-harissa-mayonnaise.webp",
-      "date_published": "2026-08-22T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/turmeric-and-chilli-honey-cod-nuggets",
-      "url": "https://www.strangerfoods.org/recipes/turmeric-and-chilli-honey-cod-nuggets",
-      "title": "Turmeric and chilli honey cod nuggets",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Turmeric and chilli honey cod nuggets</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/turmeric-and-chilli-honey-cod-nuggets.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This recipe is inspired by the classic northern Vietnamese dish, Ch\u1ea3 C\u00e1 Th\u0103ng Long. I have played around with it a little by adding a touch of southern sweetness and a little bit of midlands spice. While I love the original dish, I couldn\u2019t resist the balance created by fusing all three regions together. I hope you enjoy it too.</p>",
-      "image": "https://www.strangerfoods.org/images/turmeric-and-chilli-honey-cod-nuggets.webp",
-      "date_published": "2026-08-20T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/bonfire-night-maple-bacon-baked-beans",
-      "url": "https://www.strangerfoods.org/recipes/bonfire-night-maple-bacon-baked-beans",
-      "title": "Bonfire night maple bacon \u2018baked\u2019 beans",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Bonfire night maple bacon \u2018baked\u2019 beans</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/bonfire-night-maple-bacon-baked-beans.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>This makes a big batch, but it freezes really well and can be popped in the microwave to defrost and heat almost as quickly as taking a can of beans out of the pantry. Delicious piled into jacket potatoes and topped with cheese, or just serve on toast.</p>",
-      "image": "https://www.strangerfoods.org/images/bonfire-night-maple-bacon-baked-beans.webp",
-      "date_published": "2026-08-15T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/stir-fried-chicken-and-ginger-gai-pad-king",
-      "url": "https://www.strangerfoods.org/recipes/stir-fried-chicken-and-ginger-gai-pad-king",
-      "title": "Stir-fried chicken and ginger (gai pad king)",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Stir-fried chicken and ginger (gai pad king)</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/stir-fried-chicken-and-ginger-gai-pad-king.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>You can substitute prawns, fish or tofu for the chicken, or even pork or beef.</p>",
-      "image": "https://www.strangerfoods.org/images/stir-fried-chicken-and-ginger-gai-pad-king.webp",
-      "date_published": "2026-08-09T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/yasai-gyoza-ramen",
-      "url": "https://www.strangerfoods.org/recipes/yasai-gyoza-ramen",
-      "title": "Yasai gyoza ramen",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Yasai gyoza ramen</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/yasai-gyoza-ramen.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>You can use whichever gyoza you like to make this delicious ramen your own.</p>",
-      "image": "https://www.strangerfoods.org/images/yasai-gyoza-ramen.webp",
-      "date_published": "2026-08-08T00:00:00+00:00Z",
       "language": "en"
     }
   ]
