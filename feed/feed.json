@@ -12,6 +12,33 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/frosted-lemon-lime-sugar-cookie-bars",
+      "url": "https://www.strangerfoods.org/recipes/frosted-lemon-lime-sugar-cookie-bars",
+      "title": "Frosted lemon-lime sugar cookie bars",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Frosted lemon-lime sugar cookie bars</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/frosted-lemon-lime-sugar-cookie-bars.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Chewy sugar cookie bars are a perfect canvas for bright citrusy flavors and would make an excellent cookie cake if that\u2019s your thing.</p>",
+      "image": "https://www.strangerfoods.org/images/frosted-lemon-lime-sugar-cookie-bars.webp",
+      "date_published": "2026-09-26T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/blackened-chicken-with-caramel-and-clementine-dressing",
+      "url": "https://www.strangerfoods.org/recipes/blackened-chicken-with-caramel-and-clementine-dressing",
+      "title": "Blackened chicken with caramel and clementine dressing",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Blackened chicken with caramel and clementine dressing</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/blackened-chicken-with-caramel-and-clementine-dressing.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Don\u2019t be afraid to really char your chicken thighs here (making sure to ventilate your kitchen well!) \u2013 this\u2019ll add an intense flavour alongside the vibrant dressing and make for a very punchy eating experience. That said, you can also grill your chicken thighs in the oven, or swap them out for chicken breasts, if you prefer. Use a pair of kitchen scissors to help you easily remove the bones from the thighs, or ask your butcher to do this for you, making sure to keep the skins intact. Feel free to swap out the clementines for orange segments in the dressing; it\u2019ll work just as well.</p>",
+      "image": "https://www.strangerfoods.org/images/blackened-chicken-with-caramel-and-clementine-dressing.webp",
+      "date_published": "2026-09-20T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/braised-lentils-with-cheesy-dumplings",
+      "url": "https://www.strangerfoods.org/recipes/braised-lentils-with-cheesy-dumplings",
+      "title": "Braised lentils with cheesy dumplings",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Braised lentils with cheesy dumplings</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/braised-lentils-with-cheesy-dumplings.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>In my experience, there are few people who don\u2019t like a dumpling. There\u2019s something so deliciously comforting about them. Here they top a delicious lentil stew that\u2019s bursting with veg, and is enriched at the table with cr\u00e8me fra\u00eeche. Perfect for a cold and blustery day.</p>",
+      "image": "https://www.strangerfoods.org/images/braised-lentils-with-cheesy-dumplings.webp",
+      "date_published": "2026-09-19T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/sweet-and-savoury-chicken-pie-with-cinnamon-almonds",
       "url": "https://www.strangerfoods.org/recipes/sweet-and-savoury-chicken-pie-with-cinnamon-almonds",
       "title": "Sweet and savoury chicken pie with cinnamon almonds",
@@ -36,33 +63,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">B\u00f2 Kho-style steak and lemongrass pie</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/bo-kho-style-steak-and-lemongrass-pie.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>I recently went through a stage of making everything into a pie, as I discovered pre-made pastry at my local supermarket. This particular recipe is like a Vietnamese B\u00f2 Kho \u2013 a traditional, rich and comforting beef stew \u2013 meets a classic steak pie, and it\u2019s a match made in heaven! I hope you enjoy it as much as I do.</p>",
       "image": "https://www.strangerfoods.org/images/bo-kho-style-steak-and-lemongrass-pie.webp",
       "date_published": "2026-09-05T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/green-thai-salmon-parcels",
-      "url": "https://www.strangerfoods.org/recipes/green-thai-salmon-parcels",
-      "title": "Green Thai salmon parcels",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Green Thai salmon parcels</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/green-thai-salmon-parcels.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>What I love most about this recipe is how versatile it is; it\u2019s such a great meal to use up any leftover veg, and trust me when I say it never gets boring! I\u2019m always chopping and changing the vegetables based on what\u2019s in my fridge. Mix it up with sliced peppers, pak choi, green beans, mushrooms or shredded cabbage. This recipe is bursting with vibrant flavours, tender salmon and crunchy veggies, all wrapped up and cooked to perfection in your air fryer.</p>",
-      "image": "https://www.strangerfoods.org/images/green-thai-salmon-parcels.webp",
-      "date_published": "2026-09-02T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/sicilian-style-sausages-and-peppers-with-herby-polenta",
-      "url": "https://www.strangerfoods.org/recipes/sicilian-style-sausages-and-peppers-with-herby-polenta",
-      "title": "Sicilian-style sausages and peppers with herby polenta",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Sicilian-style sausages and peppers with herby polenta</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/sicilian-style-sausages-and-peppers-with-herby-polenta.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>For a summery take on bangers and mash, pile sweet-and-sour peppers onto herby polenta and top with juicy Sicilian-style fennel sausages. Swap the parsley for basil, if you prefer</p>",
-      "image": "https://www.strangerfoods.org/images/sicilian-style-sausages-and-peppers-with-herby-polenta.webp",
-      "date_published": "2026-09-01T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/chicken-shawarma",
-      "url": "https://www.strangerfoods.org/recipes/chicken-shawarma",
-      "title": "Chicken shawarma",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Chicken shawarma</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/chicken-shawarma.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Make this easy homemade chicken shawarma recipe! Chicken pieces, tossed in warm Middle Eastern spices, then baked until perfectly tender. Serve it in pita pockets with Mediterranean salad and sauces.</p>",
-      "image": "https://www.strangerfoods.org/images/chicken-shawarma.webp",
-      "date_published": "2026-08-22T00:00:00+00:00Z",
       "language": "en"
     }
   ]
