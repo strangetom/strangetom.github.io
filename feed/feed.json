@@ -12,6 +12,42 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/sticky-salmon-fillet-in-a-ginger-soy-glaze",
+      "url": "https://www.strangerfoods.org/recipes/sticky-salmon-fillet-in-a-ginger-soy-glaze",
+      "title": "Sticky salmon fillet in a ginger soy glaze",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Sticky salmon fillet in a ginger soy glaze</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/sticky-salmon-fillet-in-a-ginger-soy-glaze.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>When it comes to food, I\u2019m a huge fan of anything with \u2018sticky\u2019 in the title and I wanted to create that wonderful quality here, but in a slightly more subtle way, so that it could be enjoyed with a delicately flavoured ingredient like fish. This recipe combines my love for sticky sauce with wonderful salmon; hopefully you enjoy the combination as much as I do.</p>",
+      "image": "https://www.strangerfoods.org/images/sticky-salmon-fillet-in-a-ginger-soy-glaze.webp",
+      "date_published": "2026-10-13T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/jammy-sweet-pepper-and-chorizo-rice",
+      "url": "https://www.strangerfoods.org/recipes/jammy-sweet-pepper-and-chorizo-rice",
+      "title": "Jammy sweet pepper & chorizo rice",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Jammy sweet pepper & chorizo rice</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/jammy-sweet-pepper-and-chorizo-rice.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Low-and-slow cooking enhances the peppers in this spiced rice.</p>",
+      "image": "https://www.strangerfoods.org/images/jammy-sweet-pepper-and-chorizo-rice.webp",
+      "date_published": "2026-10-10T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/tandoori-chicken-chaat",
+      "url": "https://www.strangerfoods.org/recipes/tandoori-chicken-chaat",
+      "title": "Tandoori chicken chaat",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Tandoori chicken chaat</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/tandoori-chicken-chaat.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;></p>",
+      "image": "https://www.strangerfoods.org/images/tandoori-chicken-chaat.webp",
+      "date_published": "2026-10-04T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/potato-rosti-with-smoked-ham-and-eggs",
+      "url": "https://www.strangerfoods.org/recipes/potato-rosti-with-smoked-ham-and-eggs",
+      "title": "Potato r\u00f6sti with smoked ham and eggs",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Potato r\u00f6sti with smoked ham and eggs</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/potato-rosti-with-smoked-ham-and-eggs.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Just a handful of humble ingredients come together here for a joyous lunch (or even breakfast) that\u2019s far easier to make in a roasting pan than in a frying pan. As ever, keep your eyes glued to the eggs as they bake: all ovens are different and you want the yolks to spill their loveliness over the r\u00f6sti when you cut into them, not require a carving knife.</p>",
+      "image": "https://www.strangerfoods.org/images/potato-rosti-with-smoked-ham-and-eggs.webp",
+      "date_published": "2026-10-03T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/frosted-lemon-lime-sugar-cookie-bars",
       "url": "https://www.strangerfoods.org/recipes/frosted-lemon-lime-sugar-cookie-bars",
       "title": "Frosted lemon-lime sugar cookie bars",
@@ -27,42 +63,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Blackened chicken with caramel and clementine dressing</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/blackened-chicken-with-caramel-and-clementine-dressing.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Don\u2019t be afraid to really char your chicken thighs here (making sure to ventilate your kitchen well!) \u2013 this\u2019ll add an intense flavour alongside the vibrant dressing and make for a very punchy eating experience. That said, you can also grill your chicken thighs in the oven, or swap them out for chicken breasts, if you prefer. Use a pair of kitchen scissors to help you easily remove the bones from the thighs, or ask your butcher to do this for you, making sure to keep the skins intact. Feel free to swap out the clementines for orange segments in the dressing; it\u2019ll work just as well.</p>",
       "image": "https://www.strangerfoods.org/images/blackened-chicken-with-caramel-and-clementine-dressing.webp",
       "date_published": "2026-09-20T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/braised-lentils-with-cheesy-dumplings",
-      "url": "https://www.strangerfoods.org/recipes/braised-lentils-with-cheesy-dumplings",
-      "title": "Braised lentils with cheesy dumplings",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Braised lentils with cheesy dumplings</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/braised-lentils-with-cheesy-dumplings.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>In my experience, there are few people who don\u2019t like a dumpling. There\u2019s something so deliciously comforting about them. Here they top a delicious lentil stew that\u2019s bursting with veg, and is enriched at the table with cr\u00e8me fra\u00eeche. Perfect for a cold and blustery day.</p>",
-      "image": "https://www.strangerfoods.org/images/braised-lentils-with-cheesy-dumplings.webp",
-      "date_published": "2026-09-19T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/sweet-and-savoury-chicken-pie-with-cinnamon-almonds",
-      "url": "https://www.strangerfoods.org/recipes/sweet-and-savoury-chicken-pie-with-cinnamon-almonds",
-      "title": "Sweet and savoury chicken pie with cinnamon almonds",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Sweet and savoury chicken pie with cinnamon almonds</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/sweet-and-savoury-chicken-pie-with-cinnamon-almonds.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Pastilla, the rich meat pie that encapsulates Moroccan cuisine and its ability to combine sweet and savoury so cleverly, is the inspiration behind this dish. There\u2019s some effort involved, but it\u2019s well worth it for this glorious pie. Save time by making the dough a day ahead, or alternatively, use store-bought shortcrust pastry.</p>",
-      "image": "https://www.strangerfoods.org/images/sweet-and-savoury-chicken-pie-with-cinnamon-almonds.webp",
-      "date_published": "2026-09-12T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/pulled-jerk-bbq-sliders",
-      "url": "https://www.strangerfoods.org/recipes/pulled-jerk-bbq-sliders",
-      "title": "Pulled jerk BBQ sliders",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Pulled jerk BBQ sliders</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/pulled-jerk-bbq-sliders.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Jackfruit is really showing off in this recipe with how close it comes to the \u201creal thing!\u201d Young green jackfruit is nothing like the sweet yellow jackfruit most folks are used to; young green jackfruit has all the characteristics to make an exquisite savory meal. To make these sliders, jackfruit is marinated in an iconic Jamaican jerk marinade then pan seared and oven roasted until tender, leaving it easy to pull apart, releasing all of the flavors it accumulated during the cooking process. Pressed between two toasted buns with coleslaw, this handheld meal will leave you impressed. Jerk pork is loved in Jamaica, and this spiced up jerk jackfruit is inspired by the island favorite.</p>",
-      "image": "https://www.strangerfoods.org/images/pulled-jerk-bbq-sliders.webp",
-      "date_published": "2026-09-06T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/bo-kho-style-steak-and-lemongrass-pie",
-      "url": "https://www.strangerfoods.org/recipes/bo-kho-style-steak-and-lemongrass-pie",
-      "title": "B\u00f2 Kho-style steak and lemongrass pie",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">B\u00f2 Kho-style steak and lemongrass pie</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/bo-kho-style-steak-and-lemongrass-pie.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>I recently went through a stage of making everything into a pie, as I discovered pre-made pastry at my local supermarket. This particular recipe is like a Vietnamese B\u00f2 Kho \u2013 a traditional, rich and comforting beef stew \u2013 meets a classic steak pie, and it\u2019s a match made in heaven! I hope you enjoy it as much as I do.</p>",
-      "image": "https://www.strangerfoods.org/images/bo-kho-style-steak-and-lemongrass-pie.webp",
-      "date_published": "2026-09-05T00:00:00+00:00Z",
       "language": "en"
     }
   ]
