@@ -12,6 +12,42 @@
   "language": "en",
   "items": [
     {
+      "id": "https://www.strangerfoods.org/recipes/lemongrass-and-pineapple-beef-vermicelli-salad",
+      "url": "https://www.strangerfoods.org/recipes/lemongrass-and-pineapple-beef-vermicelli-salad",
+      "title": "Lemongrass and pineapple beef vermicelli salad",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Lemongrass and pineapple beef vermicelli salad</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/lemongrass-and-pineapple-beef-vermicelli-salad.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>If there\u2019s a dish that best shows off the intricacies of the flavours and textures of Vietnamese food, then this might be it. The contrasts are a delight: there\u2019s hot meat and cold sauce, soft noodles and crunchy peanuts, and, of course, a spicy sauce laced with sweet, sour, salty and bitter notes. It\u2019s a delight to the tastebuds!</p>",
+      "image": "https://www.strangerfoods.org/images/lemongrass-and-pineapple-beef-vermicelli-salad.webp",
+      "date_published": "2026-10-25T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/pineapple-fish-sauce",
+      "url": "https://www.strangerfoods.org/recipes/pineapple-fish-sauce",
+      "title": "Pineapple fish sauce",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Pineapple fish sauce</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/pineapple-fish-sauce.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;></p>",
+      "image": "https://www.strangerfoods.org/images/pineapple-fish-sauce.webp",
+      "date_published": "2026-10-25T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/steamed-cod-fillet-with-prawns",
+      "url": "https://www.strangerfoods.org/recipes/steamed-cod-fillet-with-prawns",
+      "title": "Steamed cod fillet with prawns",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Steamed cod fillet with prawns</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/steamed-cod-fillet-with-prawns.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Like many of the best dishes, this recipe came about by chance. I had leftover minced prawns (shrimp) in the fridge from making soup, so I threw them in with the fish I was steaming for lunch and this was the result. Tasty and quick, this is a real winner.</p>",
+      "image": "https://www.strangerfoods.org/images/steamed-cod-fillet-with-prawns.webp",
+      "date_published": "2026-10-18T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "https://www.strangerfoods.org/recipes/pork-and-purple-broccoli-udon",
+      "url": "https://www.strangerfoods.org/recipes/pork-and-purple-broccoli-udon",
+      "title": "Pork and purple broccoli udon",
+      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Pork and purple broccoli udon</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/pork-and-purple-broccoli-udon.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>I have a special love for rice and noodles, all the types you can think of, and one of my favourites is b\u00e1nh canh noodles. These are quite difficult to source in the UK, but fortunately udon, which is readily available, has a very similar taste and chewy texture; like b\u00e1nh canh, it is delicious and super-easy to cook with. This versatile recipe is very quick to put together, and takes full advantage of that amazing udon texture by making sure the sauce clings on to every strand!</p>",
+      "image": "https://www.strangerfoods.org/images/pork-and-purple-broccoli-udon.webp",
+      "date_published": "2026-10-17T00:00:00+00:00Z",
+      "language": "en"
+    },
+    {
       "id": "https://www.strangerfoods.org/recipes/sticky-salmon-fillet-in-a-ginger-soy-glaze",
       "url": "https://www.strangerfoods.org/recipes/sticky-salmon-fillet-in-a-ginger-soy-glaze",
       "title": "Sticky salmon fillet in a ginger soy glaze",
@@ -27,42 +63,6 @@
       "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Jammy sweet pepper & chorizo rice</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/jammy-sweet-pepper-and-chorizo-rice.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Low-and-slow cooking enhances the peppers in this spiced rice.</p>",
       "image": "https://www.strangerfoods.org/images/jammy-sweet-pepper-and-chorizo-rice.webp",
       "date_published": "2026-10-10T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/tandoori-chicken-chaat",
-      "url": "https://www.strangerfoods.org/recipes/tandoori-chicken-chaat",
-      "title": "Tandoori chicken chaat",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Tandoori chicken chaat</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/tandoori-chicken-chaat.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;></p>",
-      "image": "https://www.strangerfoods.org/images/tandoori-chicken-chaat.webp",
-      "date_published": "2026-10-04T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/potato-rosti-with-smoked-ham-and-eggs",
-      "url": "https://www.strangerfoods.org/recipes/potato-rosti-with-smoked-ham-and-eggs",
-      "title": "Potato r\u00f6sti with smoked ham and eggs",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Potato r\u00f6sti with smoked ham and eggs</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/potato-rosti-with-smoked-ham-and-eggs.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Just a handful of humble ingredients come together here for a joyous lunch (or even breakfast) that\u2019s far easier to make in a roasting pan than in a frying pan. As ever, keep your eyes glued to the eggs as they bake: all ovens are different and you want the yolks to spill their loveliness over the r\u00f6sti when you cut into them, not require a carving knife.</p>",
-      "image": "https://www.strangerfoods.org/images/potato-rosti-with-smoked-ham-and-eggs.webp",
-      "date_published": "2026-10-03T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/frosted-lemon-lime-sugar-cookie-bars",
-      "url": "https://www.strangerfoods.org/recipes/frosted-lemon-lime-sugar-cookie-bars",
-      "title": "Frosted lemon-lime sugar cookie bars",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Frosted lemon-lime sugar cookie bars</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/frosted-lemon-lime-sugar-cookie-bars.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Chewy sugar cookie bars are a perfect canvas for bright citrusy flavors and would make an excellent cookie cake if that\u2019s your thing.</p>",
-      "image": "https://www.strangerfoods.org/images/frosted-lemon-lime-sugar-cookie-bars.webp",
-      "date_published": "2026-09-26T00:00:00+00:00Z",
-      "language": "en"
-    },
-    {
-      "id": "https://www.strangerfoods.org/recipes/blackened-chicken-with-caramel-and-clementine-dressing",
-      "url": "https://www.strangerfoods.org/recipes/blackened-chicken-with-caramel-and-clementine-dressing",
-      "title": "Blackened chicken with caramel and clementine dressing",
-      "content_html": "<h1 style=\"text-align:center;font-family:sans-serif;\">Blackened chicken with caramel and clementine dressing</h1>\n        <br>\n        <img src=\"https://www.strangerfoods.org/images/blackened-chicken-with-caramel-and-clementine-dressing.webp\" style=\"text-align:center;\"/>\n        <br>\n        <p style=\"font-family:sans-serif;>Don\u2019t be afraid to really char your chicken thighs here (making sure to ventilate your kitchen well!) \u2013 this\u2019ll add an intense flavour alongside the vibrant dressing and make for a very punchy eating experience. That said, you can also grill your chicken thighs in the oven, or swap them out for chicken breasts, if you prefer. Use a pair of kitchen scissors to help you easily remove the bones from the thighs, or ask your butcher to do this for you, making sure to keep the skins intact. Feel free to swap out the clementines for orange segments in the dressing; it\u2019ll work just as well.</p>",
-      "image": "https://www.strangerfoods.org/images/blackened-chicken-with-caramel-and-clementine-dressing.webp",
-      "date_published": "2026-09-20T00:00:00+00:00Z",
       "language": "en"
     }
   ]
